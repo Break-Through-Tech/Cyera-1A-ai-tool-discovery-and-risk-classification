@@ -18,127 +18,116 @@
 
 ---
 
-### 🔍 SME Feedback from the Break Through Tech Evaluation Team
+## 📋 BTT Internal Evaluation Notes
+*(This section is for BTT staff and CAs only — remove before sharing with students)*
 
-*Challenge Advisor: Please address the following feedback by editing this page. Your AI Studio Coach can help make project adjustments as needed, too. In addition to the grey section above, this section should be removed before sharing the repo with your student team.*
+### Technical Vetting
+| Check | Status | Notes |
+| :--- | :--- | :--- |
+| Python Compatibility | 🟢 | The tech stack is primarily centered on Python and leverages well-known libraries for ML and NLP tasks, aligning with the students' ML Foundations experience. |
+| Data Readiness | 🟢 | Data is readily available and under 1GB, minimizing potential cleaning overhead. It consists of publicly available datasets and enterprise logs that can be ingested with minimal preprocessing. |
+| Resource Check | 🟢 | Using free-tier tools like Google Colab ensures accessibility without relying on specialized hardware or proprietary software. |
+
+### Internal Scores
+- **Student Fit Score:** 8/10
+- **Technical Depth Score:** 7/10
+- **Overall Recommendation:** APPROVE
+
+### Advisor Feedback Draft
+This project presents a solid foundation with a clear application in a relevant area of concern for organizations. However, I recommend focusing on integrating disparate datasets for more hands-on learning. Additionally, prioritize a guided approach for the NLP aspect to ensure students engage deeply without becoming overwhelmed. Encourage awareness of a well-structured timeline to keep the team aligned on deliverables.
 
 ---
 
-# [Project Title]
+# AI Tool Discovery & Risk Classification
 
-**Company / Org:** [Company / Org Name]  
-**Challenge Advisor:** [Name, Title, Email]  
-**Program:** Break Through Tech AI Studio - Fall 2026
+**Company / Org:** Cyera  
+**Challenge Advisor:** Shubham Arya, sa2382@cornell.edu  
+**Program:** Break Through Tech AI Studio - Fall 2026  
 
 ---
 
-## 🏢 About [Company / Org Name]
-
-[2-3 sentences about your company: what you do, your industry, etc. You may also choose to specify your specific department or team.]
+## 🏢 About Cyera
+Cyera operates in the data security and governance industry, focusing on providing comprehensive visibility and control over an organization's data landscape. Their team aims to help companies address critical challenges related to data security, compliance, and risk management in the modern enterprise.
 
 ---
 
 ## 🎯 The Challenge
-
 ### Project Summary
-[In 2-3 sentences, describe what you're asking the team to do. Be specific about the type of data, ML techniques, and potential impact.]
-
-> **Example:** "In this project, your team will use customer transaction data and classification algorithms to build a model that predicts which users are likely to churn. This will help our retention team prioritize outreach."
+This project involves developing a system to automatically discover AI tools used within an organization and classify their business purpose and associated risk levels. The team will leverage enterprise data, publicly available information on AI tools, and advanced ML techniques, including NLP, embeddings, and LLMs, to generate actionable governance insights. The ultimate goal is to combat the growing risks of shadow AI adoption, data leakage, and compliance violations.
 
 ### Success Criteria
-[What does success look like? Describe evaluation metrics (accuracy, F1 score, etc.) or qualitative outcomes that would make this project valuable to your company.]
+Model performance metrics (Accuracy, precision, recall, and F1 score), multi-class classification accuracy, risk-scoring consistency, semantic retrieval relevance for the RAG assistant, and system functionality metrics, including dashboard filtering and trend reporting.
 
 ### Project Milestones
-
-Use these milestones to guide your work. Your team will create a **GitHub Projects board** to track tasks within each milestone.
-
+Use these milestones to guide your work. Your team will create a GitHub Projects board to track tasks within each milestone.
 | Month | Milestone | Key Activities |
 |-------|-----------|----------------|
-| **September** | [e.g., Data Understanding] | [e.g., Explore dataset, handle missing values, document findings] |
-| **October** | [e.g., Model Development] | [e.g., Train baseline model, experiment with approaches, iterate] |
-| **November** | [e.g., Evaluation & Presentation] | [e.g., Finalize model, prepare presentation, document results] |
+| **September** | Data Exploration & Preprocessing | Detailed data profiling, cleaning of enterprise SaaS metadata and logs, and implementation of anomaly detection frameworks for user activity. |
+| **October** | Feature Engineering & Baseline Modeling | Deriving features from unstructured and structured data, developing initial clustering models for AI tool categorization, and deploying standard classification algorithms. |
+| **November** | Model Optimization & Evaluation | Iterative hyperparameter tuning for classification and NLP models, conducting validation runs using appropriate architectures, and assessing RAG system performance. |
+| **December** | Insights, Deliverables & Presentation | Consolidating business recommendations on AI tool usage, optimizing the governance risk scoring engine, and packaging the final codebase with documentation and a presentation. |
 
 > **Note for the team:** Please create a GitHub Projects board in this repository to break these milestones into weekly tasks. Go to the **Projects** tab → **New project** → Choose **Board** → Add columns for each month.
 
 ---
 
 ## 📊 Dataset
-
-**Name and Source:** [Dataset name and where it's from]  
-**Format:** [e.g., CSV, JSON, images]  
-**Size:** [Approximate size in MB/GB]  
-**Location:** [Link to dataset or instructions for accessing it]
+**Name and Source:** Publicly available AI tools database (Kaggle), enterprise SaaS metadata, browser/network activity logs, and employee application usage data.
+**Format:** CSV, JSON, Logs (potentially requiring custom parsing)
+**Size:** under 1gb  
+**Location:** Accessible via Kaggle and provided internal data samples.
 
 ### Key Details
-- [Brief description of what's in the data]
-- [Any known limitations or preprocessing needed]
-- [Link to data dictionary or documentation, if available]
+- Publicly available AI tools database (Kaggle), enterprise SaaS metadata, browser/network activity logs, and employee application usage data.
+- Data may require significant preprocessing to harmonize formats and extract relevant features; specific attention will be needed for handling unstructured text logs and categorizing diverse SaaS applications.
 
 ---
 
 ## 🛠️ Suggested Approach
-
-**ML Problem Type:** [e.g., Classification, Regression, NLP, Computer Vision, LLM/RAG]
-
+**ML Problem Type:** Classification / NLP & RAG / Clustering
 **Recommended Libraries:**
-- [e.g., pandas, scikit-learn, TensorFlow, Hugging Face]
-
-**Evaluation Metrics:**
-- [e.g., Accuracy, Precision/Recall, RMSE, BLEU score]
+- Classification
+- Clustering
+- Natural Language Processing (NLP)
+- Large Language Models (LLMs)/ Generative AI
+- RAG
+- Embeddings
+**Evaluation Metrics:** Strict validation benchmarks will include accuracy, precision, recall, F1 score for classification tasks, and semantic relevance scores for RAG components, with a trade-off analysis between model complexity and performance.
 
 ---
 
 ## 📚 Resources to Get Started
-
 The following resources will help your team understand the problem space and potential technical approaches for this project:
-
 **Background Reading:**
-- [e.g., Link to an article or blog post about the problem domain]
-- [e.g., Link to an industry report or case study]
-
+- Research papers and industry reports on "Shadow AI," "AI Governance," and "SaaS Management Platforms."
 **Technical Tutorials:**
-- [e.g., Link to a free tutorial on the ML technique(s) involved]
-- [e.g., Link to documentation for a key library or tool]
-
+- Hugging Face Transformers documentation for NLP tasks, Scikit-learn documentation for classification and clustering, and guides on building RAG systems with LLMs.
 **Code Examples:**
-- [e.g., Link to a relevant GitHub repo]
-- [e.g., Link to a sample implementation or starter code]
-
-**Other:**
-- [Links to any additional resources — e.g., papers, videos, podcasts, etc.]
-
-*Feel free to explore beyond these, and share anything interesting you find with me!*
+- GitHub repositories demonstrating AI tool classification, risk assessment frameworks, and RAG implementation patterns.
 
 ---
 
-## 🤝 How We'll Work Together (v2)
-
-**Official check-ins:** During our biweekly 45-minute AI Studio Lab Section meeting block (2nd and 4th week of every month)
-
- **Other ways to reach out to me with questions:** 
-* [e.g., Your team's channel within Break Through Tech’s Discord space]
-* [e.g., Email; please copy your teammates and AI Studio Coach]
-* [e.g., Request a team check-in on Zoom]
-* [Note: I will aim to respond within 48 hours. Please reach out to your AI Studio Coach with urgent questions.]
-
-> 💡 **Challenge Advisor: Please update the above based on your availability and preference. If you are not able to answer questions or meet with fellows outside of the biweekly Lab Section check-ins, simply write in "N/A (only available during the official check-in times)"**
-
-**Recommended free coding / collaboration tools**
-* […]
-* […]
+## 🤝 How We'll Work Together
+**Check-ins:** During our biweekly 60-min AI Studio Lab Section meeting block (2nd and 4th week of every month)  
+**Communication:** Slack channels and GitHub issues for project-related discussions.  
+**Response time:** Expect a response within 24 business hours for non-urgent queries.  
+**Recommended Tools:**
+- **Coding:** Google Colab Free Tier  
+- **Collaboration:** GitHub, Notion  
+- **Virtual Meetings:** Zoom, Google Meet  
 
 ---
 
 ## 🚀 Getting Started
+1. **Review this overview document** and note any questions for our first meeting.
+2. **Begin reviewing the dataset** using the link provided in the Dataset section.
+3. **Read the GitHub Projects documentation** [here](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects).
 
-1. **Review this overview document** and note any questions for our first meeting
-2. **Begin reviewing the dataset** using the link above
-3. **Read the GitHub Projects documentation** [here](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
-
-I’m excited to work with you!
+I'm excited to work with you!
 
 ---
 
 ## ❓ Questions?
+Please bring any questions to our first meeting during the week of August 24th (Break Through Tech's Bridge to Studio - Session B).
 
-Please bring any questions to our first meeting during the week of August 24th (Break Through Tech’s Bridge to Studio - Session C). 
+---
