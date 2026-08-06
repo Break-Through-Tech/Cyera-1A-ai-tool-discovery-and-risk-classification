@@ -53,7 +53,7 @@ Cyera operates in the data security and governance industry, focusing on providi
 
 ## 🎯 The Challenge
 ### Project Summary
-This project involves developing a system to automatically discover AI tools used within an organization and classify their business purpose and associated risk levels. The team will leverage enterprise data, publicly available information on AI tools, and advanced ML techniques, including NLP, embeddings, and LLMs, to generate actionable governance insights. The ultimate goal is to combat the growing risks of shadow AI adoption, data leakage, and compliance violations.
+In this project, you will use enterprise SaaS metadata, browser/network activity logs, employee application usage data, and publicly available AI tool datasets along with NLP, embeddings, clustering, classification models, and LLM-based reasoning techniques to build a system that automatically discovers AI tools used across an organization, classifies their business purpose and risk level, and generates governance insights. This will help our company address the growing challenge of shadow AI adoption, compliance risk, data leakage exposure, and lack of visibility into enterprise AI usage.
 
 ### Success Criteria
 Model performance metrics (Accuracy, precision, recall, and F1 score), multi-class classification accuracy, risk-scoring consistency, semantic retrieval relevance for the RAG assistant, and system functionality metrics, including dashboard filtering and trend reporting.
