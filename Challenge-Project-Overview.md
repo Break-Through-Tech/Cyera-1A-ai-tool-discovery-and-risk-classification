@@ -103,9 +103,9 @@ Use these milestones to guide your work. Your team will create a GitHub Projects
 ---
 
 ## 📊 Dataset
-**Name and Source:** [TBD]
-**Format:** CSV/ TSV,JSON,Database export (e.g., SQL dump)
-**Size:** under 1gb  
+**Name and Source:** [TBD]   
+**Format:** CSV/ TSV,JSON,Database export (e.g., SQL dump)   
+**Size:** under 1gb   
 **Location:** https://www.kaggle.com/datasets/devadigax/aitoolbuzz-com-16k-ai-tools-database
 
 ### Key Details
