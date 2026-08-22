@@ -6,17 +6,13 @@
 
 ### 👥 **Team Members**
 
-**Example:**
-
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
-| Taylor Nguyen    | @taylornguyen | Data exploration, visualization, overall project coordination            |
-| Jordan Ramirez   | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
-| Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
-| Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
-| Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
-
-**AI Coach:** Aram Ramos 
+|  Shubham Arya   | @Arya25 | Challenge Advisor            |
+|  Aram Ramos  | @aramseries  | AI Coach  |
+|      |   |                  |
+|       |        |   |
+|        |     |           |
 
 ---
 
