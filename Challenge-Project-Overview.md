@@ -1,47 +1,8 @@
----
-
-> ## Challenge Advisor: Update & Finalize Your Project Overview
->
-> > 💡 **These grey text instructions are just for you, the team's Challenge Advisor; please delete them once you have completed the steps below.**
->
-> We've pre-populated this Challenge Project Overview page — which is what will be shared with your Break Through Tech student team in August — using the details from your submission form. You should have received an email inviting you to join this repo as a Collaborator, enabling you to add files and make edits.
-> 
-> In order for your project to be finalized and assigned to a team, please:
-> 1. **Review all sections below** and update or expand any content as needed, making sure to address the SME Feedback in the section immediately below. Look for square brackets to find the places below that require additional inputs from you (e.g., "About [Company / Org Name]").
-> 2. **Add your dataset** to the [data folder](data) in this repo.
-> 3. **Close the Issue assigned to you in this repo** to let us know that you have made your edits and the overview page is ready for final review. You can do this by going to the _Issues_ tab in the top left section of the menu above, add a comment that says "CA review complete", and click the button to Close the Issue. 
->
-> If you're unfamiliar with how to edit a page like this in GitHub, check out [this tutorial](https://ubc-lib-geo.github.io/gis-workshop-waml-template/content/handson/edit-readme.html) for a quick overview (start with step 2 and only edit this page), and [this guide](https://ubc-lib-geo.github.io/gis-workshop-waml-template/content/markdown.html) on how to use Markdown to compose text.
->
->
-> ❌ Remember that this is a public repo. Do NOT include: Proprietary data, PII, API keys, credentials, or anything confidential.
-
----
-
-## 📋 BTT Internal Evaluation Notes
-*(This section is for BTT staff and CAs only — remove before sharing with students)*
-
-### Technical Vetting
-| Check | Status | Notes |
-| :--- | :--- | :--- |
-| Python Compatibility | 🟢 | The tech stack is primarily centered on Python and leverages well-known libraries for ML and NLP tasks, aligning with the students' ML Foundations experience. |
-| Data Readiness | 🟢 | Data is readily available and under 1GB, minimizing potential cleaning overhead. It consists of publicly available datasets and enterprise logs that can be ingested with minimal preprocessing. |
-| Resource Check | 🟢 | Using free-tier tools like Google Colab ensures accessibility without relying on specialized hardware or proprietary software. |
-
-### Internal Scores
-- **Student Fit Score:** 8/10
-- **Technical Depth Score:** 7/10
-- **Overall Recommendation:** APPROVE
-
-### Advisor Feedback Draft
-This project presents a solid foundation with a clear application in a relevant area of concern for organizations. However, I recommend focusing on integrating disparate datasets for more hands-on learning. Additionally, prioritize a guided approach for the NLP aspect to ensure students engage deeply without becoming overwhelmed. Encourage awareness of a well-structured timeline to keep the team aligned on deliverables.
-
----
-
 # AI Tool Discovery & Risk Classification
 
 **Company / Org:** Cyera  
-**Challenge Advisor:** Shubham Arya, sa2382@cornell.edu  
+**Challenge Advisor:** Shubham Arya, sa2382@cornell.edu   
+**AI Coach:** Aram Ramos, aram.ramos@breakthroughtech.com  
 **Program:** Break Through Tech AI Studio - Fall 2026  
 
 ---
