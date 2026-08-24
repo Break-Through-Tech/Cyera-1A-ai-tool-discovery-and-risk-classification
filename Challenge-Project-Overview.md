@@ -64,15 +64,16 @@ Use these milestones to guide your work. Your team will create a GitHub Projects
 ---
 
 ## 📊 Dataset
-**Name and Source:** [TBD]   
-**Format:** CSV/ TSV,JSON,Database export (e.g., SQL dump)   
-**Size:** under 1gb   
+**Name and Source:** AIToolBuzz.com 16K AI Tools Database (Kaggle)   
+**Format:** CSV/JSON   
+**Size:** Under 1GB   
 **Location:** https://www.kaggle.com/datasets/devadigax/aitoolbuzz-com-16k-ai-tools-database
 
 ### Key Details
-- [Brief description of what's in the data]
-- [Any known limitations or preprocessing needed]
-- [Link to data dictionary or documentation, if available]
+- Contains approximately 16,000 AI tool listings with fields such as tool name, description, category, use case tags, pricing model, and launch date
+- Known limitations: categories may be inconsistent or overlapping across entries; descriptions vary in length and quality; some tools may be deprecated or no longer active -- clean and deduplicate before modeling
+- In addition to this dataset, your team will generate synthetic enterprise usage data (browser/network logs, app usage records, department-level activity) to simulate real-world shadow AI discovery scenarios
+- No formal data dictionary is provided; perform your own EDA to understand field distributions and quality before modeling
 
 ---
 
@@ -81,10 +82,23 @@ Use these milestones to guide your work. Your team will create a GitHub Projects
 **ML Problem Type:** Classification, Clustering, NLP,Deep Learning / Neural Networks, LLMs/ Generative AI, Transfer Learning / Pre-trained Models
 
 **Recommended Libraries:**
-- [e.g., pandas, scikit-learn, TensorFlow, Hugging Face]
+- `pandas`, `numpy` -- data loading, cleaning, and manipulation
+- `scikit-learn` -- classification models, clustering, preprocessing, and evaluation
+- `sentence-transformers` -- text embeddings for semantic similarity and unseen tool detection
+- `transformers` (Hugging Face) -- pre-trained NLP models for text classification
+- `faiss-cpu` or `chromadb` -- vector store for the RAG retrieval pipeline
+- `langchain` or `llama-index` -- RAG pipeline orchestration and LLM integration
+- `openai` or `anthropic` -- LLM API for the conversational governance assistant
+- `streamlit` or `plotly` / `dash` -- lightweight dashboard and visualizations
+- `matplotlib`, `seaborn` -- EDA and result visualizations
+- `nltk` or `spacy` -- text preprocessing (tokenization, stopword removal, etc.)
 
 **Evaluation Metrics:**
-- [e.g., Accuracy, Precision/Recall, RMSE, BLEU score]
+- Binary AI tool detection: Accuracy, Precision, Recall, F1 score
+- Multi-class business function categorization: Macro F1, per-class Precision and Recall, Confusion Matrix
+- Clustering quality: Silhouette score
+- RAG retrieval: Cosine similarity between query and retrieved chunks, response quality via human review
+- Risk scoring: Consistency score against predefined governance rubric
 
 ---
 
@@ -93,19 +107,24 @@ Use these milestones to guide your work. Your team will create a GitHub Projects
 The following resources will help your team understand the problem space and potential technical approaches for this project:
 
 **Background Reading:**
-- [e.g., Link to an article or blog post about the problem domain]
-- [e.g., Link to an industry report or case study]
+- [Gartner: Managing the Risks of Shadow AI](https://www.gartner.com/en/articles/the-rise-of-shadow-ai) -- overview of shadow AI risk in enterprises
+- [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/) -- foundational reading on AI security and governance risks
+- [McKinsey: The State of AI in 2024](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai) -- industry context on enterprise AI adoption trends
 
 **Technical Tutorials:**
-- [e.g., Link to a free tutorial on the ML technique(s) involved]
-- [e.g., Link to documentation for a key library or tool]
+- [Hugging Face Text Classification Tutorial](https://huggingface.co/docs/transformers/tasks/sequence_classification) -- how to fine-tune a pre-trained model for classification
+- [Sentence Transformers Quickstart](https://www.sbert.net/docs/quickstart.html) -- building semantic similarity and embedding pipelines
+- [LangChain RAG Tutorial](https://python.langchain.com/docs/tutorials/rag/) -- building a retrieval-augmented generation pipeline end to end
+- [Scikit-learn User Guide](https://scikit-learn.org/stable/user_guide.html) -- reference for all classical ML models and evaluation tools
 
 **Code Examples:**
-- [e.g., Link to a relevant GitHub repo]
-- [e.g., Link to a sample implementation or starter code]
+- [Hugging Face Text Classification Examples](https://github.com/huggingface/transformers/tree/main/examples/pytorch/text-classification) -- starter code for NLP classification
+- [LangChain RAG Quickstart Notebook](https://github.com/langchain-ai/langchain/blob/master/docs/docs/tutorials/rag.ipynb) -- end-to-end RAG implementation reference
+- [Streamlit Gallery](https://streamlit.io/gallery) -- dashboard examples built with Streamlit
 
 **Other:**
-- [Links to any additional resources — e.g., papers, videos, podcasts, etc.]
+- [fast.ai Practical Deep Learning for Coders](https://course.fast.ai/) -- free course covering NLP, classification, and model deployment
+- [Kaggle Learn: Intro to NLP](https://www.kaggle.com/learn/natural-language-processing) -- short free course on NLP fundamentals
 
 *Feel free to explore beyond these, and share anything interesting you find with me!*
 
@@ -115,17 +134,17 @@ The following resources will help your team understand the problem space and pot
 
 **Official check-ins:** During our biweekly 45-minute AI Studio Lab Section meeting block (2nd and 4th week of every month)
 
- **Other ways to reach out to me with questions:** 
-* [e.g., Your team's channel within Break Through Tech’s Discord space]
-* [e.g., Email; please copy your teammates and AI Studio Coach]
-* [e.g., Request a team check-in on Zoom]
-* [Note: I will aim to respond within 48 hours. Please reach out to your AI Studio Coach with urgent questions.]
-
-> 💡 **Challenge Advisor: Please update the above based on your availability and preference. If you are not able to answer questions or meet with fellows outside of the biweekly Lab Section check-ins, simply write in "N/A (only available during the official check-in times)"**
+ **Other ways to reach out to me with questions:** 
+* Email: sa2382@cornell.edu -- please copy your teammates and AI Coach Aram on all emails
+* Break Through Tech Discord: reach out in your team channel; I will aim to respond within 48 hours
+* For urgent questions, contact your AI Studio Coach Aram Ramos first
+* To request an additional check-in outside the biweekly sessions, email me with at least 48 hours notice
 
 **Recommended free coding / collaboration tools**
-* […]
-* […]
+* [Google Colab](https://colab.research.google.com/) -- free GPU-backed Jupyter notebooks, no local setup required
+* [GitHub Projects](https://github.com/features/project-management) -- task tracking board for this repo (see the Projects tab)
+* [Weights & Biases free tier](https://wandb.ai/) -- experiment tracking and model visualization
+* [Hugging Face free tier](https://huggingface.co/) -- model hosting, datasets, and Spaces for demos
 
 ---
 
@@ -141,4 +160,4 @@ I’m excited to work with you!
 
 ## ❓ Questions?
 
-Please bring any questions to our first meeting during the week of August 24th (Break Through Tech’s Bridge to Studio - Session C). 
+Please bring any questions to our first meeting during the week of August 24th (Break Through Tech’s Bridge to Studio - Session C).
