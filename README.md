@@ -10,7 +10,7 @@
 |------------------|---------------|--------------------------------------------------------------------------|
 |  Shubham Arya   | @Arya25 | Challenge Advisor            |
 |  Aram Ramos  | @aramseries  | AI Coach  |
-|      |   |                  |
+|  Newton Ma      |@newtonmay7   |Fellow                  |
 |       |        |   |
 |        |     |           |
 
