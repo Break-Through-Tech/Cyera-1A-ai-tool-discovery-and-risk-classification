@@ -13,7 +13,7 @@
 |  Newton Ma      |@newtonma7   |Fellow                  |
 |  Elaine Zou      |@elainez-3214        |Fellow   |
 |  Katy Ng      |@katy-ng     |Fellow           |
-|        |     |           |
+|  Nymka Nara  | @nyamka0227    |Fellow           |
 
 ---
 
