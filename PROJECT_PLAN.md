@@ -321,6 +321,16 @@ Model and rule versions belong to the Analysis Run rather than the Batch so the 
 - No application-level size or execution-time cutoff is planned. Ordinary request/runtime limits still exist; revisit synchronous waiting or background status polling only if representative Runs encounter timeouts or an unacceptable wait. No queue is planned.
 - The initial local server uses one FastAPI process. Different Batches may still execute concurrently within it; multi-process Run ownership and recovery are unsupported until a concrete need justifies coordination.
 
+## Persistence and versioning — Confirmed
+
+- Preserve each immutable uploaded file as the Batch's original artifact. A raw-byte SHA-256 identifies byte-identical uploads for Batch reuse; the Batch retains its own stable ID. Store validated, normalized Activity Events once in SQLite for queries and drill-down, uniquely referenced by Batch ID plus supplied `event_id`. Re-analysis reuses these records rather than duplicating events per Run.
+- Retain known Tool identities through the authoritative versioned registry. Persist observed Tool identities within their Batch and reuse one across Runs only when its identity evidence remains unambiguous; changed or conflicting evidence must not silently redefine an old identity. Neither matching locators nor observed IDs establish identity across Batches. Tool Candidates and identity, AI, and Category decisions are tied to their producing Run; candidate and Usage Context grouping identities are unique within that Run, not global identities.
+- Each accepted execution has its own Run ID even when Batch and versions repeat. Store queryable Run-scoped decisions, semantic-neighbor results, Usage Contexts, contextual assessments, unresolved outcomes, and typed links to the actual source records and preceding decisions used. Retain shared evidence once rather than copying it into every result. Only a complete successful Run exposes derived findings; failure retains its Run record but no published partial results, as specified by the lifecycle contract.
+- Store bounded cited excerpts with their source identity, available version/date and passage locator in SQLite; retain substantial immutable uploads, Dataset B snapshots, model bundles, and other file-backed versioned inputs as local files. Each Run pins the metadata snapshot by path and SHA-256 and records the applicable registry/partition, model, decision-policy, retrieval, risk-rule, and code versions and references it used. Keep referenced historical versions available rather than overwriting them; this preserves inspectable inputs without promising bit-for-bit reproduction across environments. Do not archive whole external sites by default.
+- General views derive each Batch's latest successful Run from persisted Run history; failed Runs cannot replace a prior success. Historical citations name the specific producing Run and result, never this moving selection. No mutable current-Run pointer or per-Run event copies are needed.
+
+Exact tables, constraints beyond these logical identities, transactional publication, file layout, API shapes, and UI presentation remain implementation decisions.
+
 ## Technical architecture — Confirmed
 
 ### Local-first prototype baseline
