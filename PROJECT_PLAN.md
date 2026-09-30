@@ -449,6 +449,47 @@ Do not chase an arbitrary universal score.
 - A required capability must work end to end, not only in an isolated notebook.
 - A timed manual-effort comparison is entirely optional. If performed, compare fixed governance tasks manually and with the prototype, including time, records inspected, and correctness or completeness; label the result as a limited project simulation, not proven real-world savings.
 
+## End-to-end architecture verification — Confirmed
+
+This contract defines future verification obligations for the outcomes in `VISION.md` and retained team choices. It does not claim that the unbuilt application has been verified or authorize test/application implementation.
+
+### Approach and required coverage
+
+Use a small set of real end-to-end analyst journeys, supplemented by focused contract checks. Real journeys connect ingestion, discovery/classification, contextual risk, persistence, API, dashboard, and assistant. Controlled substitutes or injected failures may exercise difficult boundaries but do not establish real model or retrieval capability. Each check receives its own outcome even when several share one fixture.
+
+| Scenario family | Required checks |
+|---|---|
+| Ingestion | Valid uploads succeed; malformed input rejects atomically with row/field errors and no Batch; sparse optional evidence remains valid; byte-identical uploads reuse the Batch without another Run. |
+| Discovery and categorization | Exact authoritative known lookup; real inference for both unseen cohorts; reviewed non-AI controls; conflicting locators remain separate; independent identity and AI outcomes; Category assigned/unresolved/inapplicable semantics; explicit abstention; honest score/confidence and decision-method provenance. |
+| Contextual risk | Correct resolved-AI context grouping; High, Medium, Lower, and unresolved examples; separate investigation flags; unknown, conditional, or conflicting facts do not become false or established facts; stored reasons and supporting evidence match the versioned rubric. Department and upload volume do not imply sensitivity. Equal applicable facts may yield equal tiers across contexts. |
+| Lifecycle and persistence | Distinct immutable re-analysis Runs; only complete successes publish findings; failed Runs retain safe diagnostics and prior successes; interrupted Runs fail on restart; client disconnection does not imply cancellation; same-Batch execution conflict is rejected without a queue; persisted files, findings, and historical inputs remain inspectable after restart. |
+| API and aggregates | Settled HTTP/error semantics; latest-success versus explicit Run-pinned reads; half-open UTC filters; combined filters match the same context; filters do not recalculate assessments; full-population counts independent of pagination; historical aggregate drill-down remains stable. |
+| Cross-Batch scope | Only confirmed known identities aggregate across Batches; observed identities remain Batch-scoped; supplied activity is not silently deduplicated; exact-overlap and conflicting-ID warnings remain distinct; material coverage/version limitations are disclosed. |
+| Dashboard investigation | Real analyst tasks exercise overview, Batch inventory, flagged contexts, classification/risk evidence, trends, filters, and historical navigation. Check empty/loading/error/unresolved states, accessible labels, and the distinction between filtered activity and original assessment scope. |
+| Retrieval and assistant | Real versioned Tool-neighbor and governance retrieval, reviewed relevance, and insufficient/no-relevant-evidence cases. Assistant scenarios cover listings/counts, trends, explanations, guidance, ambiguity, sparse/conflicting evidence, unresolved results, overlap, historical follow-ups, and newer failed Runs. |
+| Trust and execution failures | Invalid references and unsupported operations are rejected; uploaded/retrieved/conversation instructions cannot expand permissions; citations resolve and support their claims; service failures produce safe failed turns without partial substantive answers or memory fallback. No unauthorized writes, invented approvals, overridden assessments, or compliance claims. |
+
+### Model and retrieval evidence
+
+- Demonstrate actual non-lookup AI discovery and categorization for representatives of both catalog-held-out and reviewed out-of-catalog unseen cohorts. Keep expected answers outside inference and record exclusions from the registry, training evidence, and retrieval corpus.
+- Connect loaded artifact versions to leakage-resistant evaluation, relevant baselines, and the existing metric-reporting requirements. Demonstration cases do not establish general accuracy; appropriate abstention is checked separately.
+- Inspect actual ranked Tool-neighbor and governance retrieval results against the real versioned corpus/index, retaining references, retrieval versions, and reviewed relevance judgments. Include insufficient-query/no-relevant-evidence cases. Check the assistant's faithful use of applicable guidance separately from retrieval relevance.
+- Semantic Neighbors and retrieved guidance remain supporting evidence: neither establishes identity, overrides abstention, changes a stored risk tier, nor replaces a finding's recorded lineage.
+
+### Evidence and acceptance
+
+Maintain a compact verification matrix linking each contract to versioned inputs, expected behavior, actual result, supporting Batch/Run/source references or artifacts, and an outcome with its reason. Link query results, reviewed responses, screenshots, or reports where useful; no comprehensive execution archive or new reporting UI is required.
+
+Use scenario-defined expectations for deterministic results. Review assistant answers at claim level for material support, citation resolution and relevance, scope/count definitions, nearby limitations, advisory labeling, clarification, abstention, and permission boundaries rather than requiring identical wording.
+
+Required contract failures prevent an overall verification-pass claim. Wrong deterministic results, broken provenance/citations, mutable historical assessments, leaked evaluation answers, unsupported material assistant claims, and permission violations fail their affected scenarios. Missing evidence is not verified, not an assumed pass. Expected abstention, clarification, no matches, rejected invalid input, and safely handled injected failures pass when they match the contract.
+
+Report empirical model quality, retrieval relevance, and response quality separately; no aggregate score may conceal a material contract failure. Model quality follows the existing leakage-resistant evaluation and baseline policy. Deferred model/RAG selection targets must be settled in their project phases before claiming those targets were met; perfect model predictions are not required.
+
+Architecture planning can finish by defining these obligations before the application is built. Exact test frameworks, automation mechanisms, fixtures and benchmark sizes, model thresholds, retrieval depths/relevance targets, providers, and implementation remain with their existing project phases. No exhaustive combination matrix, custom verification platform, mandatory timing comparison, or implementation work is introduced. If an optional manual-effort comparison is later undertaken, compare identical tasks and correctness/completeness alongside time and records inspected, labeling it a limited synthetic project simulation rather than proven enterprise savings.
+
+The application API contract remains authoritative in [#20's published resolution](https://github.com/Break-Through-Tech/Cyera-1A-ai-tool-discovery-and-risk-classification/issues/20#issuecomment-5902748506); this section refers to its settled semantics without synchronizing that separate contract into this file.
+
 ## Bias and fairness boundary — Confirmed
 
 Evaluate bias where it is supported by the data:
