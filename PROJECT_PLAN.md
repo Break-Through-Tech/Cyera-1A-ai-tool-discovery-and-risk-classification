@@ -184,6 +184,18 @@ Risk factors + tier + reasons + unknowns
 
 Tool evidence, contextual risk, organizational Policy Status, and missing evidence remain distinct.
 
+### Initial contextual-risk contract — Confirmed
+
+- Within each Analysis Run, group observed activity for a resolved AI Tool by department, supplied purpose and data-sensitivity tier (each `unknown` when absent), over the selected Batch's activity period. The Batch period is the earliest through latest normalized event timestamp; each context also retains its own observed first/last timestamps and event references. These ranges do not imply continuous use. Trends use event timestamps separately. Unresolved identity or AI status does not receive a contextual-risk tier.
+- Dataset B's `approved_status` is supplied synthetic organization-wide Policy Status for the Tool, applied to each context without inventing department-specific exceptions. Vendor attributes are separate Tool evidence. The initial rules use only approval, `training_on_customer_data`, and `admin_controls_available`; `unknown` is never treated as `false`. Conditional training terms without a known applicable plan remain unknown. SSO availability and retention may be reported as evidence but do not yet change the tier.
+- The versioned synthetic demonstration rubric assigns **High** when an unapproved AI Tool has observed activity and applicable evidence says customer submissions may be used for training; this is potential governance exposure, not proof that data was submitted. It assigns **Lower** when the Tool is approved, applicable evidence says customer data is not used for training, and admin controls are available. It assigns **Medium** for other classifiable cases with at least one usable rubric fact. If all rubric facts are unknown, the assessment remains unresolved rather than defaulting to Medium. No numeric score or invented retention cutoff is used.
+- A separate investigation flag records specific reasons: High tier, unapproved status, documented training permission, documented absence of admin controls, or insufficient evidence for any tier. A department name, SSO unknown, or any other single missing field does not itself trigger the flag. If two contexts have the same applicable facts, they may legitimately have the same tier; do not infer data sensitivity from department or bytes uploaded.
+- **Every** tier and flag retains the Usage Context, policy/rule version, triggered factor and reason codes, typed references to supporting activity, synthetic policy and vendor evidence, and material unknowns. An unresolved assessment explains missing evidence. Jev may interpret supplied text with its source and model version retained, but neither its output nor a framework citation proves a vendor claim or substitutes for the rule explanation. These tiers are project-policy assessments, not safety, incident, or compliance determinations.
+
+### Jev exploration — Provisional
+
+Explore TypeSafe AI's Jev for bounded judgments about ambiguous, source-dated vendor or governance text supplied with the synthetic data (for example, whether a training-use claim is yes, no, conditional, or not stated). Compare its outputs with reviewed examples; retain the source reference and treat uncertain or unsupported judgments as unknown. This is an experiment, not a committed dependency or a source of verified vendor facts. Jev does not assign the final risk tier or generate its explanation: versioned deterministic rules produce the tier, reasons, and evidence references, which the assistant may explain. Exact fields, prompts, thresholds, and whether Jev adds value remain deferred.
+
 ## Application experience
 
 ## Technical architecture — Confirmed

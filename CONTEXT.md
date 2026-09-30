@@ -64,3 +64,15 @@ _Avoid_: Analysis Run; upload attempt
 One execution of a particular discovery, classification, and risk-rule version against a Batch; a Batch may have multiple runs, and execution failure is distinct from an unresolved domain determination.
 _Avoid_: Batch; model version; unresolved determination
 
+**Usage Context**:
+An Analysis Run's grouping of activity involving one resolved Tool within a shared department, Usage Purpose, Data Sensitivity Tier, and time window. Only a Usage Context involving an AI Tool is eligible for contextual governance-risk assessment.
+_Avoid_: Activity Event; Tool Candidate; global Tool risk
+
+**Policy Status**:
+An organization- or synthetic-scenario-supplied disposition toward a Tool within a Usage Context; it may be unknown. It is contextual evidence for risk assessment, not a decision created by the risk engine.
+_Avoid_: Risk tier; inferred approval
+
+**Contextual Risk Assessment**:
+A deterministic evaluation of an AI Tool's Usage Context against the project's versioned governance-risk rules, producing risk factors, a tier, reasons, and unknowns. It does not establish Policy Status or compliance.
+_Avoid_: Global Tool risk; Policy Status; compliance determination
+
