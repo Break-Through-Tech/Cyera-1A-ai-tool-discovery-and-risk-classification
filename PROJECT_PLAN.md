@@ -18,6 +18,10 @@ Before recording an architecture or design choice as confirmed, discuss realisti
 
 The assistant, trained-model experiments, 14 AIToolBuzz categories, and local-first stack remain deliberate team choices even where the vision leaves implementation open. Suggested techniques are not separate deliverables; ignore clustering, fine-tuning, XGBoost, orchestration frameworks, or other components unless an experiment or explicit need justifies them.
 
+### Primary user — Confirmed
+
+A **Governance Analyst** who needs visibility into organizational AI-tool usage, classification, contextual risk, trends, and grounded governance insights. The Challenge Advisor accepted the planned end-to-end flow in `VISION.md`.
+
 ## Requirements traceability
 
 The vision sets the outcomes; detailed methods and metrics below are our chosen ways to build and check them, not additional requirements imposed by `VISION.md`.
@@ -213,6 +217,10 @@ Risk factors + tier + reasons + unknowns
 
 Tool evidence, contextual risk, organizational Policy Status, and missing evidence remain distinct.
 
+### Policy source — Confirmed
+
+The Challenge Advisor supplied no organization policy or example. Use a clearly labeled, research- and framework-informed synthetic demonstration policy. It must never be represented as Cyera's actual policy or a certification.
+
 ### Initial contextual-risk contract — Confirmed
 
 - Within each Analysis Run, group observed activity for a resolved AI Tool by department, supplied purpose and data-sensitivity tier (each `unknown` when absent), over the selected Batch's activity period. The Batch period is the earliest through latest normalized event timestamp; each context also retains its own observed first/last timestamps and event references. These ranges do not imply continuous use. Trends use event timestamps separately. Unresolved identity or AI status does not receive a contextual-risk tier.
@@ -226,6 +234,25 @@ Tool evidence, contextual risk, organizational Policy Status, and missing eviden
 Explore TypeSafe AI's Jev for bounded judgments about ambiguous, source-dated vendor or governance text supplied with the synthetic data (for example, whether a training-use claim is yes, no, conditional, or not stated). Compare its outputs with reviewed examples; retain the source reference and treat uncertain or unsupported judgments as unknown. This is an experiment, not a committed dependency or a source of verified vendor facts. Jev does not assign the final risk tier or generate its explanation: versioned deterministic rules produce the tier, reasons, and evidence references, which the assistant may explain. Exact fields, prompts, thresholds, and whether Jev adds value remain deferred.
 
 ## Application experience
+
+### RAG governance-assistant contract — Confirmed; implementation details deferred
+
+The conversational assistant answers governance questions across the stored database of Batches, not only a selected Batch. It supports general questions about departments, unapproved or high-risk AI Tools, newly observed applications, specific risk explanations, and trends; selected-Batch chat is a stretch goal. Database-wide context means querying and retrieving relevant stored evidence, not placing the entire database in an LLM prompt. General answers use the latest successful Analysis Run for each Batch, citing that Run and disclosing material model/rule version differences; failed Runs do not replace earlier successful results. Cross-Batch Tool aggregation uses only confirmed known-Tool identities; unknown observed Tools remain Batch-scoped, with matching locators reported only as clues rather than asserted identity. Cross-Batch activity counts include each Batch's events as supplied, without automatic deduplication. For generated fixtures, matching `event_id` and identical event data across Batches produce an exact-overlap warning with both Batch/event references; matching IDs with differing event data produce a conflicting-ID warning, not a proven duplicate. These are non-blocking warnings, and database-wide counts disclose overlap rather than silently implying deduplicated activity. Event references remain Batch-qualified even though generated IDs are cross-file stable. It must:
+
+- report detected AI-tool usage and previously unseen or unresolved tools;
+- surface potentially high-risk or unapproved Usage Contexts;
+- explain stored classifications, confidence, deterministic risk factors, reason codes, policy status, and missing evidence without implying that the LLM made those decisions;
+- summarize adoption and risk patterns across Batches using explicit event-time ranges and traceable Analysis Runs;
+- connect findings to retrieved project-policy and governance evidence;
+- support follow-up questions using the relevant conversation context.
+
+Structured counts, filters, and trends come from deterministic database queries rather than estimates over retrieved text. Semantic retrieval finds controlled local Tool, Usage Context, Analysis Run, risk, project-policy, and governance evidence. The LLM composes grounded answers and abstains when material evidence is insufficient.
+
+Traceability is a primary response requirement. Answers identify the supporting records, rule reasons, and governance passages so users can inspect why a statement was made. Data-labeling, classification, risk-scoring, and governance contracts must preserve stable evidence references and provenance that the assistant can cite; concrete schemas remain deferred to implementation planning.
+
+The assistant does not independently discover or classify tools, determine or override risk tiers, browse the live web, execute arbitrary SQL, modify state, approve tools, or enforce policy.
+
+Corpus formatting and chunking, embedding model and vector index, retrieval depth, reranking, LLM provider and prompt, conversational-context implementation, and retrieval/response-quality evaluation details are deferred to the RAG phase.
 
 ## Technical architecture — Confirmed
 
@@ -329,6 +356,10 @@ Do not invent demographic attributes or claim demographic fairness without appro
 - Arbitrary model complexity not justified by evaluation
 
 ## Deferred decisions
+
+### Challenge Advisor inputs — Confirmed
+
+The Challenge Advisor accepted the synthetic activity approach without added scale or validation targets, confirmed fully fictional employee data and optional Dataset C, supplied no organization policy example, accepted a local-only demo and the full `VISION.md` end-to-end flow, and left cross-Batch chat scope to the team. External LLM/embedding services are permitted without additional Advisor restrictions; provider selection and prompts remain deferred to the RAG phase. Local-only presentation does not imply offline operation. These are answers relayed by a project member, not a verbatim Advisor transcript.
 
 ### Model-development phase (`approaches.md`)
 
