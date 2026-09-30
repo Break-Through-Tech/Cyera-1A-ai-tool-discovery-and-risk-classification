@@ -243,6 +243,36 @@ Explore TypeSafe AI's Jev for bounded judgments about ambiguous, source-dated ve
 
 ## Application experience
 
+### Dashboard — Confirmed
+
+The Next.js dashboard is limited to the vision's investigation needs and retained team choices. Its analysis views are read-only; Batch upload and explicit re-analysis are the only user-initiated writes. Classifications, risk results, policy, and approval status cannot be edited in the application:
+
+```text
+Dashboard
+├── Batch ingestion and validation result
+├── Overview: adoption trends, departments, risk distribution
+├── Tool inventory with required filters
+├── Tool/Usage Context detail with confidence, risk factors, and evidence
+└── Conversational governance assistant across the stored Batch history
+```
+
+Evaluation reports and model-development plots belong in notebooks or documentation rather than an additional application screen.
+
+The application has no review workflow, approval chain, user management, notifications, enforcement integration, or automatic retraining.
+
+### Dashboard interaction and information contract — Confirmed
+
+- **Hierarchy and scope:** Present an all-Batch overview, then a dedicated Batch dashboard, then application/Usage Context detail. The broad overview leads with findings, followed by a Batch directory and a visible data-coverage/limitations area. Each Batch contributes its latest successful Analysis Run. Disclose overlapping activity, Batch-scoped observed identities, and material model/rule version differences; these disclosures supplement, rather than replace, precise metric labels. Cross-Batch activity remains counted as supplied, without automatic deduplication or identity merging beyond confirmed known Tools.
+- **Headline and supporting findings:** Headline distinct confirmed known AI Tools observed, AI-positive Activity Events, Activity Events with unresolved AI status, and Usage Contexts needing investigation. Distinguish AI-positive activity associated with resolved Tools from activity associated with unresolved identity. Count additional resolved AI-positive observed Tools separately by Batch in the inventory summary, never as organization-wide unique Tools. Supporting panels show contextual-risk distribution and stage-specific identity, AI, and Category unresolved findings; overlapping stage counts are not summed into one unresolved total. Investigation counts use the stored flag, including unresolved assessments, rather than only High-tier contexts. Presentation and headline selection may be revisited after stakeholder feedback without weakening the counting or provenance contracts.
+- **Time and shared filters:** Initially show all available event-time activity and its actual date range, with shared event-date, department, and Batch filters. Upload time is not activity time. Filters select matching activity and existing Usage Contexts with matching events; they never edit, recalculate, or republish assessments. Show each selected context's stored assessment with its original Batch-period scope, distinguishing filtered activity from the assessment's full scope.
+- **Charts and aggregates:** Use simple event-count trends and department/Category bars for AI-positive Activity Events, with unresolved Category explicitly separated. Contextual-risk bars count Usage Contexts with High, Medium, Lower, or unresolved assessment outcomes. Use adaptive trend buckets appropriate to the displayed range, explicit counting definitions and available activity coverage; gaps are not interpreted as zero usage. Pair colors with accessible text labels; Lower does not mean safe. Aggregates retain contributing Runs, event-time range, filter/count definition, and drill-down to included records.
+- **Batch dashboard and inventory:** Lead the Batch dashboard with Batch/Run context and summary findings, then discovery, trends, department/Category and contextual-risk breakdowns, with a prominent route to flagged contexts. Use one inventory labeled “Observed applications,” defaulting to AI-positive findings but retaining non-AI and unresolved results. Clearly distinguish resolved Tools from unresolved Tool Candidates and separate identity from AI/Category outcomes. Application rows summarize activity, departments, risk-outcome counts, and flagged contexts; no global Tool risk badge is assigned.
+- **Investigation filters:** Provide application name/domain search, identity outcome, AI status, Category including unresolved/inapplicable, department, Policy Status including unknown, contextual-risk outcome, and investigation flag. Risk/flag filters select applications with matching contexts and explicitly identify those contexts. Model confidence and vendor attributes are inspectable in detail, not additional initial filters; raw scores are not presented as comparable calibrated confidence.
+- **Detail and evidence:** Use one sectioned application detail page for identity and AI/Category determinations, observed activity, and individual Usage Contexts. Expand contexts to inspect their stored assessments, factors, reason codes, unknowns, and evidence. Unresolved candidates show applicable determinations and abstention reasons, not invented contexts or tiers. Link evidence beside the finding it supports, with expandable source records or retained excerpts, source identity, dates, applicability, role, and relevant versions. Distinguish observations, model outputs, synthetic policy, vendor claims, and governance guidance.
+- **States and historical navigation:** No Batches prompts upload; invalid uploads show row-specific errors without creating a Batch; running shows waiting without partial findings. A failed Run without a prior success shows a safe failure summary and no findings; with a prior success, keep those results visible and disclose the newer failure. No filter matches explains the active filters and offers to clear them. Unresolved findings remain normal results with reasons, not execution-error screens. Display Batch identity, producing Run, activity period, and relevant versions. Provide Batch Run history/selection for older successful Runs with a clear historical label; failed attempts expose safe diagnostics rather than findings. Links preserve their selected/producing Run. The overview continues to select latest successes; no side-by-side Run comparison is required.
+
+This contract specifies the read-only investigation experience without changing the confirmed upload/re-analysis lifecycle. API shapes and assistant retrieval/response behavior remain with their separate decisions; no new product workflow is introduced.
+
 ### Upload execution — Confirmed
 
 A new valid upload automatically creates a Batch and synchronously executes one Analysis Run using the model artifacts and risk rules configured when FastAPI starts. An invalid upload displays validation errors and creates no analyzable Batch. A byte-identical upload reopens the existing Batch without starting another run; re-analysis is explicit. If analysis fails, preserve the Batch and record the Analysis Run as failed. Add background status polling only if representative runtime approaches request timeouts or produces an unacceptable waiting experience; no queue infrastructure is planned.
