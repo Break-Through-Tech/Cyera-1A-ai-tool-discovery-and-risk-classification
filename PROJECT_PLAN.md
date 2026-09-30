@@ -133,6 +133,35 @@ Preserve the supplied source file and create a cleaned view:
 
 A runtime product-identity knowledge graph or manual deduplication UI is out of scope.
 
+## Synthetic activity — Confirmed baseline; final schema deferred
+
+Synthetic data is a scenario-driven end-to-end evaluation and demonstration dataset, not a claim about real enterprise prevalence. Dataset A contains observable Activity Events and may carry optional, explicitly supplied purpose and sensitivity context alongside them; neither becomes an inferred observation. Valid Activity Events require a unique `event_id` within the upload, a valid `Z`-formatted UTC timestamp, synthetic employee ID, department, application name, and domain. Generated fixtures use `event_id` as a stable cross-file event key: repeated appearances of the same synthetic event retain the same ID. Dataset B remains separate Tool metadata. Expected identity, AI status, category, and risk behavior are held in a separate evaluation-only file, never supplied to inference.
+
+A frozen, versioned partition record covers known-Tool lookup, model-development data, retrieval evidence, and evaluation. Suspected same-product listings stay together; holding a Tool out of lookup alone does not establish unseen status. Controlled name, domain, and description may be supplied at inference, but held-out answers cannot. Catalog-held-out and reviewed out-of-catalog cohorts are evaluated separately. Each Analysis Run pins the retained, file-backed Dataset B metadata snapshot by path and SHA-256 checksum; infrequent corrections produce a new snapshot for explicit re-analysis, without a metadata-management UI.
+
+Fixtures use entirely fictional employees and activity with no real submitted content. Public vendor evidence is source-dated and distinguished from invented demonstration attributes; neither is presented as verified current policy without support. The Challenge Advisor accepted the synthetic approach without additional schema, scale, realism, or validation requirements. Optional employee Dataset C is not required.
+
+Uploads validate atomically: any malformed row, duplicate `event_id`, invalid timestamp, or missing required input rejects the whole file with row-specific errors and creates no Batch. Sparse optional evidence is valid and may lead to unresolved analysis rather than ingestion failure. A valid Batch's activity period is the minimum through maximum UTC event timestamp, not the upload time. Event references combine Batch identity with the supplied `event_id` and remain stable across its Analysis Runs.
+
+Scenario generation deliberately and reproducibly covers known, unseen, non-AI, ambiguous, and differing-risk paths, with optional seeded variation. Fixture frequencies are not estimates of enterprise prevalence; report scenario coverage rather than population-level rates. AIToolBuzz supplies AI and category labels; a reviewed subset of SaaS candidates supplies non-AI controls. Scenario definitions establish the intended Tool identity, and a small set of explicit rule examples checks risk tiers, reasons, and unknown handling. These evaluation answers remain hidden from inference; no exhaustive event-by-event hand-labeling or mandatory Tool-level `risk_label` is needed.
+
+```text
+Synthetic scenario
+    ├── expected Tool identity
+    ├── expected AI/non-AI status
+    ├── department
+    ├── business context
+    ├── data-sensitivity tier
+    ├── approval status
+    └── expected governance behavior
+            ↓
+Generated browser/network/application events
+```
+
+The application receives observable event fields and supplied contextual metadata. Hidden expected outcomes remain separate and are available only to evaluation code.
+
+The Challenge Advisor accepted the synthetic-data baseline; final input schema details remain implementation decisions.
+
 ## Discovery pipeline — Confirmed
 
 Use lookup first and models only for unresolved candidates:
