@@ -76,3 +76,6 @@ _Avoid_: Risk tier; inferred approval
 A deterministic evaluation of an AI Tool's Usage Context against the project's versioned governance-risk rules, producing risk factors, a tier, reasons, and unknowns. It does not establish Policy Status or compliance.
 _Avoid_: Global Tool risk; Policy Status; compliance determination
 
+**Evidence**:
+A provenance-preserving source used to support a determination, assessment, or explanation and referenced by stable source identity, version, and explicit role. Evidence does not erase distinctions among observed activity, Tool, contextual or policy, and governance sources.
+_Avoid_: Generic evidence blob; unsupported claim; interchangeable authority
