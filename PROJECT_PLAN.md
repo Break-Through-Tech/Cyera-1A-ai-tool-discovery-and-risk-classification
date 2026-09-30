@@ -125,6 +125,25 @@ Tool + department + purpose + data sensitivity + time window
 
 The same Tool may have different assessments in different contexts.
 
+### Framework and decision boundary — Confirmed
+
+- NIST AI RMF provides the governance structure.
+- NIST's Generative AI Profile informs risk dimensions.
+- OWASP informs technical-security checks.
+- The project does not claim formal framework compliance or certification.
+
+The final risk result is deterministic. An LLM may retrieve or extract cited evidence and explain a result, but it does not choose the risk tier. A learned risk classifier is deferred unless genuine adjudicated risk labels later exist.
+
+```text
+Evidence + Usage Context + Policy Status
+        ↓
+Versioned project rules
+        ↓
+Risk factors + tier + reasons + unknowns
+```
+
+Tool evidence, contextual risk, organizational Policy Status, and missing evidence remain distinct.
+
 ## Application experience
 
 ## Technical architecture — Confirmed
