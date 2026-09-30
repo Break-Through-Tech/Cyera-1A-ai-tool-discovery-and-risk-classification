@@ -243,6 +243,18 @@ Explore TypeSafe AI's Jev for bounded judgments about ambiguous, source-dated ve
 
 ## Application experience
 
+### Upload execution — Confirmed
+
+A new valid upload automatically creates a Batch and synchronously executes one Analysis Run using the model artifacts and risk rules configured when FastAPI starts. An invalid upload displays validation errors and creates no analyzable Batch. A byte-identical upload reopens the existing Batch without starting another run; re-analysis is explicit. If analysis fails, preserve the Batch and record the Analysis Run as failed. Add background status polling only if representative runtime approaches request timeouts or produces an unacceptable waiting experience; no queue infrastructure is planned.
+
+### Local data lifecycle — Confirmed
+
+- Uploaded Batch files, SQLite records, and analysis results persist across application restarts.
+- A byte-identical upload is detected by SHA-256 checksum and reuses the existing Batch rather than creating a duplicate or failing.
+- A developer may explicitly create a new Analysis Run for an existing Batch when models or risk rules change.
+- A documented developer reset command removes generated uploads and SQLite state while preserving source datasets, migrations, fixtures, and model artifacts.
+- No end-user deletion UI is planned.
+
 ### RAG governance-assistant contract — Confirmed; implementation details deferred
 
 The conversational assistant answers governance questions across the stored database of Batches, not only a selected Batch. It supports general questions about departments, unapproved or high-risk AI Tools, newly observed applications, specific risk explanations, and trends; selected-Batch chat is a stretch goal. Database-wide context means querying and retrieving relevant stored evidence, not placing the entire database in an LLM prompt. General answers use the latest successful Analysis Run for each Batch, citing that Run and disclosing material model/rule version differences; failed Runs do not replace earlier successful results. Cross-Batch Tool aggregation uses only confirmed known-Tool identities; unknown observed Tools remain Batch-scoped, with matching locators reported only as clues rather than asserted identity. Cross-Batch activity counts include each Batch's events as supplied, without automatic deduplication. For generated fixtures, matching `event_id` and identical event data across Batches produce an exact-overlap warning with both Batch/event references; matching IDs with differing event data produce a conflicting-ID warning, not a proven duplicate. These are non-blocking warnings, and database-wide counts disclose overlap rather than silently implying deduplicated activity. Event references remain Batch-qualified even though generated IDs are cross-file stable. It must:
@@ -261,6 +273,53 @@ Traceability is a primary response requirement. Answers identify the supporting 
 The assistant does not independently discover or classify tools, determine or override risk tiers, browse the live web, execute arbitrary SQL, modify state, approve tools, or enforce policy.
 
 Corpus formatting and chunking, embedding model and vector index, retrieval depth, reranking, LLM provider and prompt, conversational-context implementation, and retrieval/response-quality evaluation details are deferred to the RAG phase.
+
+## Batch and Analysis Run — Confirmed
+
+A **Batch** is one immutable uploaded dataset. An **Analysis Run** is one execution of a particular pipeline and risk-rule version against a Batch.
+
+```text
+Batch A
+├── Run 1 · models v1 · risk rules v1
+├── Run 2 · models v2 · risk rules v1
+└── Run 3 · models v2 · risk rules v2
+```
+
+### Batch metadata
+
+- batch ID;
+- original filename and raw artifact path;
+- SHA-256 checksum;
+- schema version;
+- upload time;
+- activity time range;
+- event count;
+- validation status.
+
+The checksum detects identical uploads and verifies the raw bytes used for a run. It is not a digital signature or data-quality guarantee.
+
+### Analysis Run metadata
+
+- run ID and batch ID;
+- start, completion, and status;
+- AI-detector version;
+- category-model version;
+- risk-rule version;
+- code commit.
+
+Model and rule versions belong to the Analysis Run rather than the Batch so the same input can be reprocessed without mutation.
+
+### Lifecycle decisions — Confirmed so far
+
+- Only a complete, successful Analysis Run publishes results to dashboard and assistant queries. A failed Run retains its failure record and diagnostics, but its partial outputs are not analyst-facing results; the prior successful Run for the Batch remains usable.
+- Every accepted explicit re-analysis creates a distinct Analysis Run, even if configured versions have not changed; it never mutates an earlier Run. No re-analysis idempotency key is needed: a repeated explicit request after completion creates another Run. Byte-identical uploads still reopen the existing Batch without starting a Run.
+- The synchronous Run lifecycle is `running → succeeded | failed`, with the running record persisted before analysis starts. There are no queued, partial-success, or cancelled states in the initial flow.
+- A failed Run persistently records a safe failure summary, failed phase, and failure time. Detailed traces remain in server logs; failure records do not expose raw uploaded input. On application startup, a Run left `running` by an interrupted process becomes `failed` with an interruption reason and an unknown phase when the phase was not durably recorded; it is not resumed automatically.
+- Incomplete derived outputs from failed Runs are discarded; the immutable Batch and failure record remain. Only complete successful Runs are queryable as results.
+- At most one Run may be `running` for a Batch. Another attempt for that Batch is rejected while it runs; there is no upload or Run queue. Other Batches are not blocked by this rule.
+- Once started, a Run continues while the server is alive even if its HTTP client disconnects; its persisted outcome can be reopened from the Batch. A server interruption follows the startup failure rule rather than implying completion.
+- No application-level size or execution-time cutoff is planned. Ordinary request/runtime limits still exist; revisit synchronous waiting or background status polling only if representative Runs encounter timeouts or an unacceptable wait. No queue is planned.
+- The initial local server uses one FastAPI process. Different Batches may still execute concurrently within it; multi-process Run ownership and recovery are unsupported until a concrete need justifies coordination.
 
 ## Technical architecture — Confirmed
 
