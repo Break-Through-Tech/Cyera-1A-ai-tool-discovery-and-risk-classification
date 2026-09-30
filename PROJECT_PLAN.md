@@ -96,9 +96,30 @@ The initial supervised business-function target is the existing 14-value AIToolB
 
 `Primary Task`, `Keywords`, and `technologies` must not be used in the primary category baseline until leakage analysis demonstrates that their use is legitimate.
 
+### Binary non-AI controls — Confirmed boundary, implementation deferred
+
+A small matched set of independently verified ordinary software/SaaS records will support binary AI/non-AI evaluation. The CompanyEnrich Kaggle SaaS dataset is a candidate pool for reviewed non-AI examples, not a negative label source: SaaS and AI overlap, and keyword exclusion does not establish non-AI status. Review only selected Tool-level controls, retain their labels separately from inference, and keep evaluation examples out of training and lookup. Random unrelated websites are unsuitable because source and writing-style differences could make the task artificially easy.
+
+Exact training ratios, class weighting, calibration, threshold selection, and final sample sizes are deferred to model development.
+
+### Previously unseen Tool — Confirmed
+
+A previously unseen Tool has no canonical identity, alias, domain mapping, same-tool description, or retrieval document present in model training or the known-tool registry at the evaluation cutoff. At runtime, it may arrive with controlled observed metadata such as name, domain, and short description. If that evidence is insufficient, the result remains unresolved.
+
+Two cohorts are required:
+
+1. Entire AIToolBuzz tools held out from training and lookup.
+2. A small reviewed set of out-of-catalog AI candidates.
+
+Vendor-held-out evaluation is an additional stress test, not the primary definition.
+
 ### Catalog lifecycle — Confirmed
 
 AIToolBuzz is a fixed, versioned snapshot. The application performs no runtime catalog crawling or status refresh. Future catalog snapshots create new dataset and model versions.
+
+### Controlled metadata — Confirmed
+
+Unknown tools must arrive with controlled metadata such as name, domain, short description, source, and capture date. Runtime web crawling is out of scope. An unknown domain without sufficient metadata remains unresolved.
 
 ### Cleaning and deduplication — Confirmed
 
@@ -111,6 +132,25 @@ Preserve the supplied source file and create a cleaned view:
 - keep suspected duplicate or near-duplicate groups within one model partition.
 
 A runtime product-identity knowledge graph or manual deduplication UI is out of scope.
+
+## Discovery pipeline — Confirmed
+
+Use lookup first and models only for unresolved candidates:
+
+```text
+Known domain/application
+    → resolve from cleaned AIToolBuzz catalog
+
+Unknown + sufficient controlled metadata
+    → binary AI detection
+    → 14-category classification when AI-related
+    → semantic-neighbor evidence
+
+Unknown + insufficient metadata
+    → unresolved
+```
+
+Low-confidence cases must not receive forced labels.
 
 ## Risk assessment
 
@@ -204,6 +244,19 @@ A minimal model bundle contains:
 - recorded evaluation metrics.
 
 The stable inference result is label, confidence, and model ID. Exact serialization and algorithms are deferred to model development.
+
+## Evaluation policy — Confirmed
+
+Do not chase an arbitrary universal score.
+
+- Every nontrivial model must beat relevant trivial and simple baselines on leakage-resistant evaluation.
+- Freeze the final test set before final model selection.
+- Use training/validation data for iteration and threshold selection.
+- Report per-class behavior, support, uncertainty, and limitations.
+- Evaluate known and unseen tools separately.
+- Choose operational thresholds only after evidence or advisor guidance and before final test evaluation.
+- A required capability must work end to end, not only in an isolated notebook.
+- A timed manual-effort comparison is entirely optional. If performed, compare fixed governance tasks manually and with the prototype, including time, records inspected, and correctness or completeness; label the result as a limited project simulation, not proven real-world savings.
 
 ## Bias and fairness boundary — Confirmed
 
