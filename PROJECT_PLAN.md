@@ -521,6 +521,8 @@ Do not invent demographic attributes or claim demographic fairness without appro
 
 ## Deferred decisions
 
+These are phase-owned implementation or experimental details under confirmed architecture contracts, not unresolved architecture blockers. Implementation-ready means responsibilities, logical data contracts, interface semantics, failure behavior, provenance, and verification obligations are settled; it does not mean every schema, algorithm, or threshold is finalized or that the application has passed verification.
+
 ### Challenge Advisor inputs — Confirmed
 
 The Challenge Advisor accepted the synthetic activity approach without added scale or validation targets, confirmed fully fictional employee data and optional Dataset C, supplied no organization policy example, accepted a local-only demo and the full `VISION.md` end-to-end flow, and left cross-Batch chat scope to the team. External LLM/embedding services are permitted without additional Advisor restrictions; provider selection and prompts remain deferred to the RAG phase. Local-only presentation does not imply offline operation. These are answers relayed by a project member, not a verbatim Advisor transcript.
@@ -544,11 +546,17 @@ The Challenge Advisor accepted the synthetic activity approach without added sca
 - LLM provider and prompting
 - Exact citation/groundedness benchmarks and model-selection targets under the confirmed assistant verification contract
 
-### Implementation planning
+### Implementation details
 
-- Final synthetic input schema
-- Database schema and migrations
-- FastAPI endpoints
-- Next.js page/component structure
-- Exact risk dimensions and rules
+- Final synthetic input schema under the confirmed input and validation contract
+- Database schema and migrations under the confirmed persistence and versioning contract
+- Exact DTO fields, enum/query encoding, pagination constants, and FastAPI implementation under [#20's confirmed API contract](https://github.com/Break-Through-Tech/Cyera-1A-ai-tool-discovery-and-risk-classification/issues/20#issuecomment-5902748506); operations, route sketch, and interface semantics are already settled
+- Next.js page/component structure under the confirmed dashboard contract
+- Implementation of the confirmed initial contextual-risk rubric, investigation flags, and evidence references; initial risk-rule design is already settled
 - Detailed module/file layout and development commands
+
+Additional risk factors or policy thresholds are optional future extensions requiring a separately justified, explicitly confirmed policy change, not completion requirements for the initial architecture. The confirmed rubric remains a framework-informed synthetic demonstration policy, not Cyera policy or framework-prescribed tiers.
+
+### Runtime contingencies
+
+Retain synchronous execution. Reconsider background status polling only if representative runtime approaches request timeouts or produces an unacceptable waiting experience; no queue or background infrastructure is required to finish architecture planning.
