@@ -59,6 +59,19 @@ Read-only dashboard and conversational assistant
 
 The final product is a batch governance application, not a notebook-only demonstration or real-time monitoring platform. Notebooks remain appropriate for EDA and offline model experiments.
 
+## Risk assessment
+
+### Assessment unit — Confirmed
+
+Risk belongs to a **Usage Context**, not globally to a Tool and not independently to every raw event:
+
+```text
+Tool + department + purpose + data sensitivity + time window
+    → contextual assessment
+```
+
+The same Tool may have different assessments in different contexts.
+
 ## Application experience
 
 ## Technical architecture — Confirmed
