@@ -59,6 +59,59 @@ Read-only dashboard and conversational assistant
 
 The final product is a batch governance application, not a notebook-only demonstration or real-time monitoring platform. Notebooks remain appropriate for EDA and offline model experiments.
 
+## Data boundaries
+
+### AIToolBuzz definition of an AI Tool — Confirmed
+
+AIToolBuzz is sufficient ground truth for the project's operational definition of an AI Tool:
+
+> An AI Tool is any cleaned AIToolBuzz catalog entry, plus a previously unseen product, service, model, API, extension, or identifiable feature that satisfies the same AI-functionality definition after review.
+
+- AIToolBuzz records are project-positive AI examples.
+- Absence from AIToolBuzz does not imply non-AI.
+- Claims must be scoped to this operational definition rather than presented as universal truth.
+
+### Observed AI-tool activity — Confirmed
+
+A visit to ordinary SaaS that offers AI features is not evidence that its AI feature was used. Report observed AI-tool activity only when the event identifies an AI-specific application or feature sufficiently; a visit to an AI-specific application does not prove a prompt, document, or sensitive content was submitted. Ambiguous activity is not counted as observed AI use.
+
+### Category target — Confirmed
+
+The initial supervised business-function target is the existing 14-value AIToolBuzz `Category` field, unchanged:
+
+1. Ai And Machine Learning
+2. Business And Finance
+3. Communication And Support
+4. Creative And Entertainment
+5. Data And Analytics
+6. Education And Learning
+7. Industry Specific
+8. Marketing And Sales
+9. Media And Content Creation
+10. Operations And Management
+11. Personal And Lifestyle
+12. Security And Privacy
+13. Specialized Technologies
+14. Technology And Development
+
+`Primary Task`, `Keywords`, and `technologies` must not be used in the primary category baseline until leakage analysis demonstrates that their use is legitimate.
+
+### Catalog lifecycle — Confirmed
+
+AIToolBuzz is a fixed, versioned snapshot. The application performs no runtime catalog crawling or status refresh. Future catalog snapshots create new dataset and model versions.
+
+### Cleaning and deduplication — Confirmed
+
+Preserve the supplied source file and create a cleaned view:
+
+- normalize names, websites, domains, and category formatting;
+- remove malformed or unusable modeling records;
+- drop only confirmed duplicates;
+- retain same-name records when domains or products differ;
+- keep suspected duplicate or near-duplicate groups within one model partition.
+
+A runtime product-identity knowledge graph or manual deduplication UI is out of scope.
+
 ## Risk assessment
 
 ### Assessment unit — Confirmed
@@ -132,6 +185,19 @@ A minimal model bundle contains:
 - recorded evaluation metrics.
 
 The stable inference result is label, confidence, and model ID. Exact serialization and algorithms are deferred to model development.
+
+## Bias and fairness boundary — Confirmed
+
+Evaluate bias where it is supported by the data:
+
+- common versus rare categories;
+- complete versus sparse descriptions;
+- known versus unseen tools;
+- active versus inactive tools;
+- review/error burden across synthetic departments and scenarios;
+- representation limitations in AIToolBuzz.
+
+Do not invent demographic attributes or claim demographic fairness without appropriate data. Never rank individual employees by risk.
 
 ## Explicitly out of scope
 
