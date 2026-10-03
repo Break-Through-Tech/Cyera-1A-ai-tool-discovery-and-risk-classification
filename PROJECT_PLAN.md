@@ -50,7 +50,9 @@ Validate and normalize
         ↓
 Resolve known AIToolBuzz tools
         ↓
-Run AI detection for unresolved candidates
+Enrich unknown candidates with bounded public website metadata when needed
+        ↓
+Run AI detection when sufficient functionality evidence is available
         ↓
 Classify unresolved AI tools into AIToolBuzz categories
         ↓
@@ -108,7 +110,7 @@ Exact training ratios, class weighting, calibration, threshold selection, and fi
 
 ### Previously unseen Tool — Confirmed
 
-A previously unseen Tool has no canonical identity, alias, domain mapping, same-tool description, or retrieval document present in model training or the known-tool registry at the evaluation cutoff. At runtime, it may arrive with controlled observed metadata such as name, domain, and short description. If that evidence is insufficient, the result remains unresolved.
+A previously unseen Tool has no canonical identity, alias, domain mapping, same-tool description, or retrieval document present in model training or the known-tool registry at the evaluation cutoff. At inference, descriptive evidence may be supplied or acquired through bounded runtime website enrichment; obtaining that evidence does not retroactively make the Tool known at the evaluation cutoff. If usable evidence remains insufficient, the result remains unresolved.
 
 Two cohorts are required:
 
@@ -119,11 +121,20 @@ Vendor-held-out evaluation is an additional stress test, not the primary definit
 
 ### Catalog lifecycle — Confirmed
 
-AIToolBuzz is a fixed, versioned snapshot. The application performs no runtime catalog crawling or status refresh. Future catalog snapshots create new dataset and model versions.
+AIToolBuzz is a fixed, versioned snapshot. The application performs no runtime catalog-wide crawling or status refresh. Bounded enrichment of observed unknown candidates is separate from catalog maintenance: fetched metadata does not automatically add authoritative identities, labels, or aliases to the known registry. Future catalog snapshots create new dataset and model versions.
 
-### Controlled metadata — Confirmed
+### Controlled metadata and runtime enrichment — Confirmed
 
-Unknown tools must arrive with controlled metadata such as name, domain, short description, source, and capture date. Runtime web crawling is out of scope. An unknown domain without sufficient metadata remains unresolved.
+Unknown tools need not arrive with pre-supplied descriptions. After known-tool lookup, FastAPI may acquire public functionality evidence on demand from the candidate's observed domain or URL. Sufficient supplied metadata remains usable without a web fetch; Dataset B is no longer a prerequisite for classifying every unknown Tool.
+
+- Start with bounded HTTP fetching and explicit HTML extraction: the initial library direction is `curl_cffi` plus Beautiful Soup for page title, meta/Open Graph descriptions, and relevant headings/product text. Main-text extraction such as Trafilatura is optional supporting evidence, not the sole input; the experiment recovered useful descriptions where main-text extraction returned footer/community text.
+- Fetch the public observed site first. When it is insufficient, a small number of relevant, verified official product/about pages may supply evidence. Do not assume a parent domain, shared host, similar product name, or redirect identifies the observed product or feature. Ambiguous association remains unresolved. No recursive general-purpose crawling, search-engine discovery, browser rendering, or LLM-generated description is required for the initial path; add a fallback only after a concrete coverage gap justifies a separately approved extension.
+- Respect robots restrictions and access boundaries; do not solve CAPTCHAs, impersonate privileged crawlers, authenticate, or bypass disallowed fetching. Treat uploaded destinations as untrusted: validate public HTTP(S) destinations and resolved addresses, block private/local destinations, and validate each redirect before following it. Bound requests, redirects, response sizes, and candidate/Run enrichment work. Never send employee identifiers, submitted content, cookies, or credentials to vendor sites.
+- Keep fetched title, description, headings and relevant product text distinguishable, then construct bounded functionality-text features using the model bundle's preprocessing. These describe what a Tool offers, not an employee's Usage Purpose or evidence of AI-feature use. Missing AI keywords do not establish non-AI status; generic AI marketing does not prove observed AI use. Enrichment does not infer Policy Status, sensitivity, or vendor risk facts from product copy.
+- Retain the actual classifier input/excerpts, requested/final source URLs, capture time, fetch outcome, and extraction/version provenance as Run-pinned evidence. Explicit re-analysis may acquire newer evidence, but it must not replace historical inputs or silently promote a fetched Tool into lookup, training, or retrieval evidence.
+- Expected acquisition limits (disallowed/blocked sites, timeouts, missing text, unsupported content, or ambiguous source association) produce recorded enrichment outcomes and classifier abstention when no other sufficient evidence exists. They do not reject a valid Batch or imply non-AI. Unexpected internal execution errors still fail the Analysis Run under its existing lifecycle contract.
+
+The [HTTP experiment](notebooks/metadata_enrichment/README.md) and [research synthesis](notebooks/metadata_enrichment/RESEARCH.md) support this direction, not a universal fetch-coverage or classification-accuracy claim. Exact field combinations, usability criteria, limits and extraction details remain implementation/model-development choices.
 
 ### Cleaning and deduplication — Confirmed
 
@@ -141,7 +152,7 @@ A runtime product-identity knowledge graph or manual deduplication UI is out of 
 
 Synthetic data is a scenario-driven end-to-end evaluation and demonstration dataset, not a claim about real enterprise prevalence. Dataset A contains observable Activity Events and may carry optional, explicitly supplied purpose and sensitivity context alongside them; neither becomes an inferred observation. Valid Activity Events require a unique `event_id` within the upload, a valid `Z`-formatted UTC timestamp, synthetic employee ID, department, application name, and domain. Generated fixtures use `event_id` as a stable cross-file event key: repeated appearances of the same synthetic event retain the same ID. Dataset B remains separate Tool metadata. Expected identity, AI status, category, and risk behavior are held in a separate evaluation-only file, never supplied to inference.
 
-A frozen, versioned partition record covers known-Tool lookup, model-development data, retrieval evidence, and evaluation. Suspected same-product listings stay together; holding a Tool out of lookup alone does not establish unseen status. Controlled name, domain, and description may be supplied at inference, but held-out answers cannot. Catalog-held-out and reviewed out-of-catalog cohorts are evaluated separately. Each Analysis Run pins the retained, file-backed Dataset B metadata snapshot by path and SHA-256 checksum; infrequent corrections produce a new snapshot for explicit re-analysis, without a metadata-management UI.
+A frozen, versioned partition record covers known-Tool lookup, model-development data, retrieval evidence, and evaluation. Suspected same-product listings stay together; holding a Tool out of lookup alone does not establish unseen status. Name, domain, and descriptive evidence may be supplied or acquired at inference, but held-out answers cannot. Catalog-held-out and reviewed out-of-catalog cohorts are evaluated separately. Each Analysis Run pins the retained, file-backed Dataset B metadata snapshot by path and SHA-256 checksum and separately retains the runtime enrichment evidence it used; infrequent Dataset B corrections produce a new snapshot for explicit re-analysis, without a metadata-management UI. Arbitrary valid activity uploads may contain tools absent from Dataset B; enrichment attempts to obtain their functionality evidence, while missing policy/vendor facts remain unknown.
 
 Fixtures use entirely fictional employees and activity with no real submitted content. Public vendor evidence is source-dated and distinguished from invented demonstration attributes; neither is presented as verified current policy without support. The Challenge Advisor accepted the synthetic approach without additional schema, scale, realism, or validation requirements. Optional employee Dataset C is not required.
 
@@ -162,7 +173,7 @@ Synthetic scenario
 Generated browser/network/application events
 ```
 
-The application receives observable event fields and supplied contextual metadata. Hidden expected outcomes remain separate and are available only to evaluation code.
+The application receives observable event fields and supplied contextual metadata, and may acquire public Tool-functionality evidence during analysis. Synthetic fixtures may retain controlled descriptions for repeatable checks, but representative end-to-end scenarios also exercise real enrichment without pre-supplied descriptions. Hidden expected outcomes remain separate and are available only to evaluation code.
 
 The Challenge Advisor accepted the synthetic-data baseline; final input schema details remain implementation decisions.
 
@@ -174,13 +185,15 @@ Use lookup first and models only for unresolved candidates:
 Known domain/application
     → resolve from cleaned AIToolBuzz catalog
 
-Unknown + sufficient controlled metadata
+Unknown + sufficient supplied functionality metadata
     → binary AI detection
     → 14-category classification when AI-related
     → semantic-neighbor evidence
 
-Unknown + insufficient metadata
-    → unresolved
+Unknown + insufficient supplied metadata
+    → bounded public website enrichment
+    → same inference path when sufficient evidence is acquired
+    → unresolved when evidence remains insufficient or ambiguous
 ```
 
 Low-confidence cases must not receive forced labels.
@@ -235,7 +248,7 @@ Explore TypeSafe AI's Jev for bounded judgments about ambiguous, source-dated ve
 
 ## Evidence and citation-ready provenance — Confirmed
 
-- Retain immutable uploaded/source artifacts and run-pinned Dataset B snapshots. For cited external vendor and governance material, retain the specific excerpt used, source identity and URL, publication/version when known, capture date, and precise available passage locator. Do not archive whole websites by default or invent missing source metadata. A source reference establishes origin and scope, not the truth or applicability of its claim.
+- Retain immutable uploaded/source artifacts, Run-pinned Dataset B snapshots, and the actual runtime enrichment inputs/excerpts with source URLs, capture times, fetch outcomes and extraction provenance. Do not reconstruct historical classifier input by refetching a moving website. For cited external vendor and governance material, retain the specific excerpt used, source identity and URL, publication/version when known, capture date, and precise available passage locator. Do not archive whole websites by default or invent missing source metadata. A source reference establishes origin and scope, not the truth or applicability of its claim.
 - Each material derived result retains typed links to the actual source records, excerpts, and preceding decisions it used, with their explicit evidence roles and relevant model, registry, decision-policy, and risk-rule versions. Activity Events remain Batch-qualified; candidates, identity and classification results, Usage Contexts, and assessments are tied to the producing Analysis Run. Preserve source material once rather than copying it into every result or reconstructing historical lineage later. Exact IDs and storage shapes remain implementation decisions.
 - Dashboard and assistant citations pin a specific Analysis Run and result, never a moving latest-result pointer. A later re-analysis may be offered separately without changing an older citation. Explanations trace claims through the recorded decisions to their inputs: observation does not prove content submission, model output does not prove ground truth, framework passages do not establish vendor or organizational facts, and synthetic Policy Status is not Cyera policy.
 - Preserve conflicting vendor sources and their dates/applicability; do not automatically prefer the newest. If material applicability or verification is unresolved, the fact remains unknown rather than silently driving a rule. Retain relevant unknowns and source limitations in the explanation.
@@ -372,7 +385,7 @@ Model and rule versions belong to the Analysis Run rather than the Batch so the 
 - Preserve each immutable uploaded file as the Batch's original artifact. A raw-byte SHA-256 identifies byte-identical uploads for Batch reuse; the Batch retains its own stable ID. Store validated, normalized Activity Events once in SQLite for queries and drill-down, uniquely referenced by Batch ID plus supplied `event_id`. Re-analysis reuses these records rather than duplicating events per Run.
 - Retain known Tool identities through the authoritative versioned registry. Persist observed Tool identities within their Batch and reuse one across Runs only when its identity evidence remains unambiguous; changed or conflicting evidence must not silently redefine an old identity. Neither matching locators nor observed IDs establish identity across Batches. Tool Candidates and identity, AI, and Category decisions are tied to their producing Run; candidate and Usage Context grouping identities are unique within that Run, not global identities.
 - Each accepted execution has its own Run ID even when Batch and versions repeat. Store queryable Run-scoped decisions, semantic-neighbor results, Usage Contexts, contextual assessments, unresolved outcomes, and typed links to the actual source records and preceding decisions used. Retain shared evidence once rather than copying it into every result. Only a complete successful Run exposes derived findings; failure retains its Run record but no published partial results, as specified by the lifecycle contract.
-- Store bounded cited excerpts with their source identity, available version/date and passage locator in SQLite; retain substantial immutable uploads, Dataset B snapshots, model bundles, and other file-backed versioned inputs as local files. Each Run pins the metadata snapshot by path and SHA-256 and records the applicable registry/partition, model, decision-policy, retrieval, risk-rule, and code versions and references it used. Keep referenced historical versions available rather than overwriting them; this preserves inspectable inputs without promising bit-for-bit reproduction across environments. Do not archive whole external sites by default.
+- Store bounded cited excerpts with their source identity, available version/date and passage locator in SQLite; retain substantial immutable uploads, Dataset B snapshots, model bundles, and other file-backed versioned inputs as local files. Each Run pins the supplied Dataset B metadata snapshot by path and SHA-256, retains its acquired enrichment inputs and source/version references, and records the applicable registry/partition, model, preprocessing/extraction, decision-policy, retrieval, risk-rule, and code versions and references it used. Keep referenced historical versions available rather than overwriting them; this preserves inspectable inputs without promising bit-for-bit reproduction across environments. Do not archive whole external sites by default.
 - General views derive each Batch's latest successful Run from persisted Run history; failed Runs cannot replace a prior success. Historical citations name the specific producing Run and result, never this moving selection. No mutable current-Run pointer or per-Run event copies are needed.
 
 Exact tables, constraints beyond these logical identities, transactional publication, file layout, API shapes, and UI presentation remain implementation decisions.
@@ -390,7 +403,7 @@ SQLite + local uploaded files + local model artifacts
 ```
 
 - Next.js owns dashboard and chat presentation.
-- FastAPI owns validation, ingestion, inference, risk rules, retrieval, and database access.
+- FastAPI owns validation, ingestion, bounded runtime metadata enrichment, inference, risk rules, retrieval, and database access. Website acquisition belongs to analysis, not the conversational assistant.
 - Next.js never accesses SQLite directly.
 - The generated SQLite database is local state; developers share migrations, source data, and deterministic fixtures rather than committing database files.
 - No Supabase, authentication, hosted persistence, multi-user isolation, or public deployment is required.
@@ -420,7 +433,9 @@ Keep the existing comparison table. During model development, extend the file in
 
 ### Offline training and application inference — Confirmed
 
-Models train offline. The application only loads versioned artifacts and runs inference. Replacing a model changes configuration/artifacts, not application code.
+Models train offline. The application acquires inference evidence when needed, loads versioned artifacts, and runs inference; it does not train or update models from uploaded activity or fetched metadata. Replacing a model changes configuration/artifacts, not application code.
+
+Evaluate the actual runtime functionality-text representation, not only curated catalog descriptions. Compare metadata-only, relevant page-text-only, and combined inputs on the same held-out Tools, and measure catalog-trained-to-website transfer before model promotion. Fit preprocessing only on training data and reuse the fitted artifact at inference; any reviewed fetched training examples must come from training partitions. Fetch/evidence coverage, AI-detection quality, Category quality, and abstention coverage are separate outcomes. Exact feature sets and algorithms remain deferred; existing website/topic model labels are not substitutes for the confirmed AIToolBuzz target.
 
 Separate artifacts own binary AI detection and 14-category classification.
 
@@ -461,6 +476,7 @@ Use a small set of real end-to-end analyst journeys, supplemented by focused con
 |---|---|
 | Ingestion | Valid uploads succeed; malformed input rejects atomically with row/field errors and no Batch; sparse optional evidence remains valid; byte-identical uploads reuse the Batch without another Run. |
 | Discovery and categorization | Exact authoritative known lookup; real inference for both unseen cohorts; reviewed non-AI controls; conflicting locators remain separate; independent identity and AI outcomes; Category assigned/unresolved/inapplicable semantics; explicit abstention; honest score/confidence and decision-method provenance. |
+| Runtime enrichment | Unknown tools without pre-supplied descriptions obtain real public functionality evidence when available; supplied sufficient metadata avoids unnecessary fetching; blocked/disallowed, timeout, sparse, boilerplate and ambiguous-product cases abstain appropriately. Verify SSRF-safe destinations/redirects, bounded acquisition, Run-pinned input/extraction provenance, historical evidence preservation, and no automatic registry promotion or inference of employee purpose/policy from vendor copy. |
 | Contextual risk | Correct resolved-AI context grouping; High, Medium, Lower, and unresolved examples; separate investigation flags; unknown, conditional, or conflicting facts do not become false or established facts; stored reasons and supporting evidence match the versioned rubric. Department and upload volume do not imply sensitivity. Equal applicable facts may yield equal tiers across contexts. |
 | Lifecycle and persistence | Distinct immutable re-analysis Runs; only complete successes publish findings; failed Runs retain safe diagnostics and prior successes; interrupted Runs fail on restart; client disconnection does not imply cancellation; same-Batch execution conflict is rejected without a queue; persisted files, findings, and historical inputs remain inspectable after restart. |
 | API and aggregates | Settled HTTP/error semantics; latest-success versus explicit Run-pinned reads; half-open UTC filters; combined filters match the same context; filters do not recalculate assessments; full-population counts independent of pagination; historical aggregate drill-down remains stable. |
@@ -472,7 +488,7 @@ Use a small set of real end-to-end analyst journeys, supplemented by focused con
 ### Model and retrieval evidence
 
 - Demonstrate actual non-lookup AI discovery and categorization for representatives of both catalog-held-out and reviewed out-of-catalog unseen cohorts. Keep expected answers outside inference and record exclusions from the registry, training evidence, and retrieval corpus.
-- Connect loaded artifact versions to leakage-resistant evaluation, relevant baselines, and the existing metric-reporting requirements. Demonstration cases do not establish general accuracy; appropriate abstention is checked separately.
+- Connect loaded artifact versions to leakage-resistant evaluation, relevant baselines, and the existing metric-reporting requirements. Include catalog-to-fetched-text transfer and paired input-channel comparisons; report acquisition and usable-evidence coverage separately from classifier quality. Real fetch scenarios establish acquisition behavior, while frozen acquired evidence supports repeatable classifier checks. Demonstration cases do not establish general accuracy; appropriate abstention is checked separately.
 - Inspect actual ranked Tool-neighbor and governance retrieval results against the real versioned corpus/index, retaining references, retrieval versions, and reviewed relevance judgments. Include insufficient-query/no-relevant-evidence cases. Check the assistant's faithful use of applicable guidance separately from retrieval relevance.
 - Semantic Neighbors and retrieved guidance remain supporting evidence: neither establishes identity, overrides abstention, changes a stored risk tier, nor replaces a finding's recorded lineage.
 
@@ -507,7 +523,7 @@ Do not invent demographic attributes or claim demographic fairness without appro
 
 - Real-time monitoring or automated enforcement
 - Production enterprise connectors
-- Live web crawling
+- General-purpose/recursive live web crawling, catalog-wide refresh, or autonomous assistant browsing; bounded analysis-time enrichment of observed unknown tools is in scope
 - Authentication or multi-user authorization
 - Hosted infrastructure before the baseline is complete
 - End-user review and approval workflows or annotation platforms; offline human verification, gold-label adjudication, and evaluation review remain permitted
@@ -533,7 +549,7 @@ The Challenge Advisor accepted the synthetic activity approach without added sca
 - Train/validation/test ratios
 - Class weighting and resampling
 - Calibration and abstention thresholds
-- Exact feature sets
+- Exact functionality-text feature sets, metadata/page-text ablations, evidence-usability criteria, and catalog-to-website transfer evaluation
 - Algorithm comparison and promotion criteria
 - Model serialization format
 
@@ -549,6 +565,7 @@ The Challenge Advisor accepted the synthetic activity approach without added sca
 ### Implementation details
 
 - Final synthetic input schema under the confirmed input and validation contract
+- Bounded runtime enrichment extraction rules, official-source association, HTTP limits, robots handling, SSRF-safe DNS/redirect validation, evidence storage, and outcome codes under the confirmed enrichment contract
 - Database schema and migrations under the confirmed persistence and versioning contract
 - Exact DTO fields, enum/query encoding, pagination constants, and FastAPI implementation under [#20's confirmed API contract](https://github.com/Break-Through-Tech/Cyera-1A-ai-tool-discovery-and-risk-classification/issues/20#issuecomment-5902748506); operations, route sketch, and interface semantics are already settled
 - Next.js page/component structure under the confirmed dashboard contract
@@ -559,4 +576,4 @@ Additional risk factors or policy thresholds are optional future extensions requ
 
 ### Runtime contingencies
 
-Retain synchronous execution. Reconsider background status polling only if representative runtime approaches request timeouts or produces an unacceptable waiting experience; no queue or background infrastructure is required to finish architecture planning.
+Retain synchronous execution. Include enrichment latency and unavailable-site behavior in representative Batch measurements. Reconsider background status polling only if representative runtime approaches request timeouts or produces an unacceptable waiting experience; no queue or background infrastructure is required to finish architecture planning.
