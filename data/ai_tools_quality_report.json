@@ -1,0 +1,39 @@
+{
+  "row_counts": {
+    "canonicalized_websites": 13701,
+    "categories": 14,
+    "description_label_conflicts_flagged": 10,
+    "duplicate_descriptions_flagged": 34,
+    "input_rows": 16762,
+    "output_rows": 13701,
+    "removed_missing_description": 338,
+    "removed_non_active": 2723,
+    "short_descriptions_flagged": 500,
+    "website_collisions_retained": 0
+  },
+  "missing_optional_fields": {
+    "Keywords": 5460,
+    "industry": 7081
+  },
+  "description_length_characters": {
+    "min": 5,
+    "median": 53,
+    "max": 709
+  },
+  "category_distribution": {
+    "Ai And Machine Learning": 1069,
+    "Business And Finance": 843,
+    "Communication And Support": 1595,
+    "Creative And Entertainment": 507,
+    "Data And Analytics": 613,
+    "Education And Learning": 234,
+    "Industry Specific": 269,
+    "Marketing And Sales": 1150,
+    "Media And Content Creation": 3530,
+    "Operations And Management": 1257,
+    "Personal And Lifestyle": 224,
+    "Security And Privacy": 166,
+    "Specialized Technologies": 802,
+    "Technology And Development": 1442
+  }
+}
