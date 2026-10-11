@@ -1,0 +1,654 @@
+{
+  "dataset": {
+    "path": "data/technology-product-categorization/products.csv",
+    "sha256": "afe7cdbcbf82d9b11f579eb6dce000815a04a301410636e2942036f072fc7aa1",
+    "records": 1494,
+    "schema": [
+      "product_name",
+      "vendor_name",
+      "taxonomy_category",
+      "taxonomy_sub_category",
+      "product_description"
+    ]
+  },
+  "integrity": {
+    "strict_csv": true,
+    "schema_and_width_validated": true,
+    "logical_data_records": 1494,
+    "category_support_sum": 1494,
+    "subcategory_support_sum": 1494
+  },
+  "missingness_and_hygiene": {
+    "issue_counts_by_field_and_type": {
+      "encoding_or_control_anomaly:product_description": 53,
+      "missing_or_placeholder:product_description": 2,
+      "outer_whitespace:product_description": 16,
+      "repeated_whitespace:product_description": 406,
+      "repeated_whitespace:product_name": 5,
+      "replacement_character:product_description": 52,
+      "suspected_mojibake:product_description": 1
+    },
+    "rows_with_any_review_reason": 682,
+    "replacement_character_description_count": 52,
+    "replacement_character_description_examples": [
+      {
+        "source_record_number": 882,
+        "product_name": "Address Cleaning Solution",
+        "vendor_name": "VERTEX INC",
+        "taxonomy_category": "Enterprise Platforms",
+        "taxonomy_sub_category": "Finance",
+        "description_excerpt": "Vertex's Address Cleansing Service gives companies a solution for tracking sales tax changes and applying them across transaction and customer data.� The service allows companies to send customer addresses to Vertex in a"
+      },
+      {
+        "source_record_number": 883,
+        "product_name": "L Series Communications Tax",
+        "vendor_name": "VERTEX INC",
+        "taxonomy_category": "Enterprise Platforms",
+        "taxonomy_sub_category": "Finance",
+        "description_excerpt": "Sales Tax�L Series�contains current rates updated monthly for every taxing jurisdiction in the United States, its trusts and possessions, and Canada."
+      },
+      {
+        "source_record_number": 885,
+        "product_name": "Q Series Communications Tax",
+        "vendor_name": "VERTEX INC",
+        "taxonomy_category": "Enterprise Platforms",
+        "taxonomy_sub_category": "Finance",
+        "description_excerpt": "Sales Tax�Q Series�blends the most accurate and timely state and local tax research in the industry with advanced open systems and Windows technology"
+      },
+      {
+        "source_record_number": 895,
+        "product_name": "Integration Hub Enterprise",
+        "vendor_name": "SERVICENOW INC",
+        "taxonomy_category": "Enterprise Platforms",
+        "taxonomy_sub_category": "Supply Chain Management (SCM)",
+        "description_excerpt": "ServiceNow� IntegrationHub Enterprise - one License, Customer Service Management CSM Users 125, 1 Sep 2020 30 Dec 2021 ieAGR-02090-2020, VBG 5G&Ent Sol-Int Arch Innov WLN"
+      }
+    ],
+    "placeholder_description_count": 2,
+    "placeholder_description_examples": [
+      {
+        "source_record_number": 717,
+        "product_name": "Linux Workstation",
+        "vendor_name": "IBM",
+        "taxonomy_category": "IT Infrastructure Software Services",
+        "taxonomy_sub_category": "Operating Systems",
+        "description_excerpt": "NEED PRODUCT DESCRIPTION"
+      },
+      {
+        "source_record_number": 723,
+        "product_name": "Resilient Storage",
+        "vendor_name": "IBM",
+        "taxonomy_category": "IT Infrastructure Software Services",
+        "taxonomy_sub_category": "Storage Management",
+        "description_excerpt": "NEED PRODUCT DESCRIPTION"
+      }
+    ],
+    "html_tag_field_count": 0
+  },
+  "description_character_length": {
+    "min": 13,
+    "median": 260.0,
+    "p90": 546,
+    "max": 1674,
+    "percentile_method": "nearest-rank p90; stripped description characters",
+    "short_under_40_count": 42,
+    "short_examples": [
+      {
+        "source_record_number": 136,
+        "characters": 21,
+        "product_name": "Premier Support",
+        "description_excerpt": "Adobe premier support"
+      },
+      {
+        "source_record_number": 314,
+        "characters": 27,
+        "product_name": "Interactive Voice Response Analytics (IVRA)",
+        "description_excerpt": "Managed analytical services"
+      },
+      {
+        "source_record_number": 349,
+        "characters": 31,
+        "product_name": "API Gateway",
+        "description_excerpt": "Build, deploy, and manage API's"
+      },
+      {
+        "source_record_number": 350,
+        "characters": 26,
+        "product_name": "Athena",
+        "description_excerpt": "Query data in S3 using SQL"
+      },
+      {
+        "source_record_number": 354,
+        "characters": 38,
+        "product_name": "Elastic Transcoder",
+        "description_excerpt": "Easy-to-use scalable media transcoding"
+      },
+      {
+        "source_record_number": 413,
+        "characters": 26,
+        "product_name": "Helm",
+        "description_excerpt": "Kubernates Package Manager"
+      },
+      {
+        "source_record_number": 414,
+        "characters": 20,
+        "product_name": "Java",
+        "description_excerpt": "Programming Language"
+      },
+      {
+        "source_record_number": 415,
+        "characters": 20,
+        "product_name": "Java Android",
+        "description_excerpt": "Programming Language"
+      }
+    ],
+    "name_only_count": 6,
+    "name_only_examples": [
+      581,
+      700,
+      1207,
+      1218,
+      1219,
+      1269
+    ],
+    "boilerplate_count": 2,
+    "boilerplate_examples": [
+      717,
+      723
+    ]
+  },
+  "duplicates_and_identity_cues": {
+    "exact_duplicate_definition": "all five parsed field values exactly equal; no trim, case folding, or normalization",
+    "exact_duplicate_extra_rows": 0,
+    "trimmed_case_sensitive_name_vendor_repeat_groups": 25,
+    "normalized_name_vendor_repeat_groups": 26,
+    "normalized_name_vendor_excess_records": 32,
+    "normalized_name_vendor_pairwise_comparisons": 39,
+    "normalized_description_repeat_groups": 35,
+    "identity_resolution": "Suspected repeats are review cues only; no identity confirmation, merge, or deletion is performed."
+  },
+  "taxonomy": {
+    "category_count": 13,
+    "observed_subcategory_count": 59,
+    "coverage_note": "59 subcategories are observed in this local file; this is not a claim of full-taxonomy coverage.",
+    "categories": {
+      "AI & ML": 30,
+      "BI & Data Analytics": 115,
+      "Customer Operational Platforms": 149,
+      "Design, Development & Delivery": 174,
+      "Digital Workplace": 64,
+      "Emerging Technologies": 7,
+      "Enterprise Platforms": 238,
+      "Geographic Information Systems (GIS)": 51,
+      "IT Infrastructure Software Services": 279,
+      "Management & Governance": 68,
+      "Marketing Management": 89,
+      "Performance, Monitoring & Logging": 142,
+      "Telecom Network Management": 88
+    },
+    "subcategories": {
+      "Analytics Database": 24,
+      "Application Development Lifecycle Management (ADLM)": 12,
+      "Application Performance & Resiliency": 19,
+      "Asset Management": 24,
+      "Augmented Reality & Virtual Reality": 2,
+      "Backup and Recovery": 14,
+      "Block Chain": 1,
+      "Call Handling": 15,
+      "Cartography/Mapping": 17,
+      "Collaboration & Productivity": 59,
+      "Compute & Containers": 8,
+      "Configuration Management": 17,
+      "Customer Experience": 64,
+      "Data Governance": 22,
+      "Data Movement Management": 28,
+      "Database Management Systems (DBMS)": 37,
+      "Database Tools": 23,
+      "Development": 24,
+      "Device Management": 14,
+      "End-User Compute": 5,
+      "Enterprise Architecture Management (EAM)": 9,
+      "Enterprise Content Management (ECM)": 76,
+      "Enterprise Resource Planning (ERP)": 20,
+      "Enterprise Services Management (ESM)": 12,
+      "Field / Dispatch Services Management (FDSM)": 3,
+      "Finance": 45,
+      "Generic Cloud Services": 16,
+      "Human Resources Management (HRM)": 29,
+      "Internet of Things (IOT)": 2,
+      "Inventory Management": 20,
+      "Location-Aware Services": 31,
+      "Mainframe": 2,
+      "Market Intelligence": 58,
+      "Marketing Automation": 7,
+      "Marketing Content Design & Delivery": 6,
+      "Messaging/Communication Systems": 18,
+      "Middleware": 30,
+      "Monitoring & Logging": 86,
+      "Navigation Tools": 3,
+      "Network Availability and Performance": 40,
+      "Network Performance & Resiliency": 37,
+      "Operating Systems": 17,
+      "Ordering & Billing": 39,
+      "Other Network Services and Operational": 28,
+      "Other Utilities": 47,
+      "Quality Engineering": 27,
+      "Retail & Ecommerce": 16,
+      "Risk & Compliance": 18,
+      "Robotics": 2,
+      "Sales Mgmt": 30,
+      "Self-Serve Visualization & Ent. Reporting": 41,
+      "Serving": 6,
+      "Software Delivery": 34,
+      "Software Design & Development": 93,
+      "Storage Management": 37,
+      "Supply Chain Management (SCM)": 17,
+      "UX/UI Design & Multimedia": 20,
+      "Virtualization": 16,
+      "Workflow and Business Process Management (W-BPM)": 27
+    },
+    "parent_child_pairs": 59,
+    "subcategory_parent_consistency": "consistent",
+    "subcategories_with_multiple_category_parents": {}
+  },
+  "vendors": {
+    "distinct_exact_vendor_strings": 705,
+    "distinct_normalized_vendor_names": 704,
+    "top_10": [
+      {
+        "vendor_name": "IBM",
+        "records": 90,
+        "share": 0.0602
+      },
+      {
+        "vendor_name": "AMAZON WEB SERVICES",
+        "records": 62,
+        "share": 0.0415
+      },
+      {
+        "vendor_name": "ORACLE",
+        "records": 56,
+        "share": 0.0375
+      },
+      {
+        "vendor_name": "MICRO FOCUS US INC",
+        "records": 50,
+        "share": 0.0335
+      },
+      {
+        "vendor_name": "MICROSOFT CORP",
+        "records": 37,
+        "share": 0.0248
+      },
+      {
+        "vendor_name": "INFORMATICA LLC",
+        "records": 33,
+        "share": 0.0221
+      },
+      {
+        "vendor_name": "PRECISELY SOFTWARE INC",
+        "records": 26,
+        "share": 0.0174
+      },
+      {
+        "vendor_name": "CA INC",
+        "records": 26,
+        "share": 0.0174
+      },
+      {
+        "vendor_name": "OPEN SOURCE",
+        "records": 23,
+        "share": 0.0154
+      },
+      {
+        "vendor_name": "ADOBE SYSTEMS INC",
+        "records": 23,
+        "share": 0.0154
+      }
+    ],
+    "top_10_normalized": [
+      {
+        "normalized_vendor_name": "ibm",
+        "records": 90,
+        "share": 0.0602
+      },
+      {
+        "normalized_vendor_name": "amazon web services",
+        "records": 62,
+        "share": 0.0415
+      },
+      {
+        "normalized_vendor_name": "oracle",
+        "records": 56,
+        "share": 0.0375
+      },
+      {
+        "normalized_vendor_name": "micro focus us inc",
+        "records": 50,
+        "share": 0.0335
+      },
+      {
+        "normalized_vendor_name": "microsoft corp",
+        "records": 37,
+        "share": 0.0248
+      },
+      {
+        "normalized_vendor_name": "informatica llc",
+        "records": 33,
+        "share": 0.0221
+      },
+      {
+        "normalized_vendor_name": "precisely software inc",
+        "records": 26,
+        "share": 0.0174
+      },
+      {
+        "normalized_vendor_name": "ca inc",
+        "records": 26,
+        "share": 0.0174
+      },
+      {
+        "normalized_vendor_name": "open source",
+        "records": 23,
+        "share": 0.0154
+      },
+      {
+        "normalized_vendor_name": "adobe systems inc",
+        "records": 23,
+        "share": 0.0154
+      }
+    ],
+    "top_10_share": 0.2851
+  },
+  "label_disagreements": {
+    "normalized_name_vendor_groups_with_category_disagreement": 22,
+    "normalized_name_vendor_groups_with_subcategory_disagreement": 25,
+    "normalized_name_vendor_groups_with_any_label_disagreement": 25,
+    "normalized_description_groups_with_category_disagreement": 22,
+    "normalized_description_groups_with_subcategory_disagreement": 26,
+    "examples": [
+      {
+        "key": "('snowflake platform', 'snowflake computing inc')",
+        "source_records": [
+          {
+            "source_record_number": 1177,
+            "product_name": "Snowflake Platform",
+            "vendor_name": "SNOWFLAKE COMPUTING INC",
+            "taxonomy_category": "AI & ML",
+            "taxonomy_sub_category": "Development"
+          },
+          {
+            "source_record_number": 1178,
+            "product_name": "Snowflake Platform",
+            "vendor_name": "SNOWFLAKE COMPUTING INC",
+            "taxonomy_category": "Customer Operational Platforms",
+            "taxonomy_sub_category": "Ordering & Billing"
+          },
+          {
+            "source_record_number": 1179,
+            "product_name": "Snowflake Platform",
+            "vendor_name": "SNOWFLAKE COMPUTING INC",
+            "taxonomy_category": "BI & Data Analytics",
+            "taxonomy_sub_category": "Analytics Database"
+          }
+        ],
+        "category_disagreement": true,
+        "subcategory_disagreement": true
+      },
+      {
+        "key": "('open studio for data integration', 'talend inc')",
+        "source_records": [
+          {
+            "source_record_number": 69,
+            "product_name": "Open Studio for Data Integration",
+            "vendor_name": "TALEND INC",
+            "taxonomy_category": "BI & Data Analytics",
+            "taxonomy_sub_category": "Data Movement Management"
+          },
+          {
+            "source_record_number": 70,
+            "product_name": "Open Studio for Data Integration",
+            "vendor_name": "TALEND INC",
+            "taxonomy_category": "Management & Governance",
+            "taxonomy_sub_category": "Risk & Compliance"
+          }
+        ],
+        "category_disagreement": true,
+        "subcategory_disagreement": true
+      },
+      {
+        "key": "('virtual app and desktop', 'citrix systems inc')",
+        "source_records": [
+          {
+            "source_record_number": 75,
+            "product_name": "Virtual App and Desktop",
+            "vendor_name": "CITRIX SYSTEMS INC",
+            "taxonomy_category": "Digital Workplace",
+            "taxonomy_sub_category": "End-User Compute"
+          },
+          {
+            "source_record_number": 76,
+            "product_name": "Virtual App and Desktop",
+            "vendor_name": "CITRIX SYSTEMS INC",
+            "taxonomy_category": "IT Infrastructure Software Services",
+            "taxonomy_sub_category": "Virtualization"
+          }
+        ],
+        "category_disagreement": true,
+        "subcategory_disagreement": true
+      },
+      {
+        "key": "('tagvue mx', 'inthing corp')",
+        "source_records": [
+          {
+            "source_record_number": 316,
+            "product_name": "tagVUE MX",
+            "vendor_name": "INTHING CORP",
+            "taxonomy_category": "Customer Operational Platforms",
+            "taxonomy_sub_category": "Retail & Ecommerce"
+          },
+          {
+            "source_record_number": 317,
+            "product_name": "tagVUE MX",
+            "vendor_name": "INTHING CORP",
+            "taxonomy_category": "Management & Governance",
+            "taxonomy_sub_category": "Asset Management"
+          }
+        ],
+        "category_disagreement": true,
+        "subcategory_disagreement": true
+      },
+      {
+        "key": "('mec solutions platform', 'macrometa corp')",
+        "source_records": [
+          {
+            "source_record_number": 325,
+            "product_name": "MEC Solutions Platform",
+            "vendor_name": "MACROMETA CORP",
+            "taxonomy_category": "Emerging Technologies",
+            "taxonomy_sub_category": "Internet of Things (IOT)"
+          },
+          {
+            "source_record_number": 326,
+            "product_name": "MEC Solutions Platform",
+            "vendor_name": "MACROMETA CORP",
+            "taxonomy_category": "Design, Development & Delivery",
+            "taxonomy_sub_category": "Software Design & Development"
+          }
+        ],
+        "category_disagreement": true,
+        "subcategory_disagreement": true
+      }
+    ],
+    "interpretation": "Different source labels are reported as disagreements for review, not errors; distinct records are retained."
+  },
+  "review_cues": {
+    "generic_service_or_addon_name_count": 134,
+    "generic_name_examples": [
+      {
+        "source_record_number": 3,
+        "product_name": "Signature Services",
+        "vendor_name": "QLIKTECH INC",
+        "taxonomy_category": "BI & Data Analytics",
+        "taxonomy_sub_category": "Self-Serve Visualization & Ent. Reporting",
+        "description_excerpt": "The Signature Services is a package of key services including but not limi]ted to; consulting, customer success, education services, and support that are designed to support Customer in building a successful foundation f"
+      },
+      {
+        "source_record_number": 36,
+        "product_name": "Business Objects BI Suite, analytics edition",
+        "vendor_name": "SAP",
+        "taxonomy_category": "BI & Data Analytics",
+        "taxonomy_sub_category": "Self-Serve Visualization & Ent. Reporting",
+        "description_excerpt": "SAP BusinessObjects BI (SAP BO, also historically BOBJ) is a reporting and analytics business intelligence (BI) platform aimed at business users. It consists of a number of reporting applications that allow users to disc"
+      },
+      {
+        "source_record_number": 59,
+        "product_name": "SAS Suite",
+        "vendor_name": "SAS",
+        "taxonomy_category": "BI & Data Analytics",
+        "taxonomy_sub_category": "Self-Serve Visualization & Ent. Reporting",
+        "description_excerpt": "SAS (previously 'Statistical Analysis System') is a statistical software suite developed by SAS Institute for data management, advanced analytics, multivariate analysis, business intelligence, criminal investigation, and"
+      },
+      {
+        "source_record_number": 82,
+        "product_name": "Meetings & Incentives Worldwide Managed Services",
+        "vendor_name": "MEETINGS & INCENTIVES WORLDWIDE INC",
+        "taxonomy_category": "Digital Workplace",
+        "taxonomy_sub_category": "Collaboration & Productivity",
+        "description_excerpt": "SOW for contractor support for Cvent Meeting and Event management software"
+      }
+    ],
+    "fee_name_count": 1,
+    "fee_name_examples": [
+      {
+        "source_record_number": 9,
+        "product_name": "Hyperion BI Analysis Fee",
+        "vendor_name": "KURT STECKEL",
+        "taxonomy_category": "BI & Data Analytics",
+        "taxonomy_sub_category": "Self-Serve Visualization & Ent. Reporting",
+        "description_excerpt": "Hyperion BI Development Analysis fee in support of Wireless B2B and Public Sector reporting and tables."
+      }
+    ],
+    "ai_ml_keyword_mention_count": 76,
+    "ai_ml_mention_examples": [
+      {
+        "source_record_number": 2,
+        "product_name": "MicroStrategy BI Platform",
+        "vendor_name": "MICROSTRATEGY SERVICES CORP",
+        "taxonomy_category": "BI & Data Analytics",
+        "taxonomy_sub_category": "Self-Serve Visualization & Ent. Reporting",
+        "description_excerpt": "The MicroStrategy platform supports interactive dashboards, scorecards, highly formatted reports, ad hoc query, thresholds and alerts, and automated report distribution. From data discovery, to pixel-perfect reporting, a"
+      },
+      {
+        "source_record_number": 16,
+        "product_name": "Spark",
+        "vendor_name": "APACHE SOFTWARE FOUNDATION",
+        "taxonomy_category": "BI & Data Analytics",
+        "taxonomy_sub_category": "Data Movement Management",
+        "description_excerpt": "Spark has been called a 'general purpose distributed data processing engine' and 'a lightning fast unified analytics engine for big data and machine learning'². It lets you process big data sets faster by splitting the w"
+      },
+      {
+        "source_record_number": 41,
+        "product_name": "Heavy.AI Enterprise",
+        "vendor_name": "HEAVY.AI",
+        "taxonomy_category": "BI & Data Analytics",
+        "taxonomy_sub_category": "Analytics Database",
+        "description_excerpt": "Take a no-movement approach to accessing data in your warehouses, lakes, and enterprise databases. Just point to your datasets and make them readily available for queries, analysis, and data exploration without loading t"
+      },
+      {
+        "source_record_number": 43,
+        "product_name": "KORE BOTS Platform",
+        "vendor_name": "KORE AI INC",
+        "taxonomy_category": "AI & ML",
+        "taxonomy_sub_category": "Development",
+        "description_excerpt": "Kore.ai bots platform provides a secure, scalable, and superior end-to-end solution to design, built, test and deploy AI-powered chatbots. Kore.ai Bots Platform - Kore Bots Platform B2E Licenses Use AI as a customer-serv"
+      }
+    ],
+    "ai_ml_keyword_mentions_by_source_taxonomy": {
+      "AI & ML": {
+        "count": 11,
+        "examples": [
+          {
+            "source_record_number": 43,
+            "product_name": "KORE BOTS Platform",
+            "vendor_name": "KORE AI INC",
+            "taxonomy_category": "AI & ML",
+            "taxonomy_sub_category": "Development",
+            "description_excerpt": "Kore.ai bots platform provides a secure, scalable, and superior end-to-end solution to design, built, test and deploy AI-powered chatbots. Kore.ai Bots Platform - Kore Bots Platform B2E Licenses Use AI as a customer-serv"
+          },
+          {
+            "source_record_number": 46,
+            "product_name": "Comprehend",
+            "vendor_name": "AMAZON WEB SERVICES",
+            "taxonomy_category": "AI & ML",
+            "taxonomy_sub_category": "Development",
+            "description_excerpt": "Amazon Comprehend is a natural-language processing (NLP) service that uses machine learning to uncover valuable insights and connections in text."
+          },
+          {
+            "source_record_number": 49,
+            "product_name": "Datacap",
+            "vendor_name": "IBM",
+            "taxonomy_category": "AI & ML",
+            "taxonomy_sub_category": "Development",
+            "description_excerpt": "IBM Datacap helps you streamline the capture, recognition and classification of business documents and extract important information. ... Its natural language processing, text analytics and machine learning technologies "
+          },
+          {
+            "source_record_number": 52,
+            "product_name": "Enterprise AI",
+            "vendor_name": "DATAROBOT INC",
+            "taxonomy_category": "AI & ML",
+            "taxonomy_sub_category": "Development",
+            "description_excerpt": "DataRobot enables business analysts to build predictive analytics with no knowledge of Machine Learning or programming. It uses automated ML to build and deploy accurate predictive models in a short span of time."
+          }
+        ]
+      },
+      "other_source_categories": {
+        "count": 65,
+        "examples": [
+          {
+            "source_record_number": 2,
+            "product_name": "MicroStrategy BI Platform",
+            "vendor_name": "MICROSTRATEGY SERVICES CORP",
+            "taxonomy_category": "BI & Data Analytics",
+            "taxonomy_sub_category": "Self-Serve Visualization & Ent. Reporting",
+            "description_excerpt": "The MicroStrategy platform supports interactive dashboards, scorecards, highly formatted reports, ad hoc query, thresholds and alerts, and automated report distribution. From data discovery, to pixel-perfect reporting, a"
+          },
+          {
+            "source_record_number": 16,
+            "product_name": "Spark",
+            "vendor_name": "APACHE SOFTWARE FOUNDATION",
+            "taxonomy_category": "BI & Data Analytics",
+            "taxonomy_sub_category": "Data Movement Management",
+            "description_excerpt": "Spark has been called a 'general purpose distributed data processing engine' and 'a lightning fast unified analytics engine for big data and machine learning'². It lets you process big data sets faster by splitting the w"
+          },
+          {
+            "source_record_number": 41,
+            "product_name": "Heavy.AI Enterprise",
+            "vendor_name": "HEAVY.AI",
+            "taxonomy_category": "BI & Data Analytics",
+            "taxonomy_sub_category": "Analytics Database",
+            "description_excerpt": "Take a no-movement approach to accessing data in your warehouses, lakes, and enterprise databases. Just point to your datasets and make them readily available for queries, analysis, and data exploration without loading t"
+          },
+          {
+            "source_record_number": 61,
+            "product_name": "ICP4D",
+            "vendor_name": "IBM",
+            "taxonomy_category": "BI & Data Analytics",
+            "taxonomy_sub_category": "Data Governance",
+            "description_excerpt": "IBM Cloud Private™ for Data is a new kind of data and analytics platform with built-in governance. It simplifies and unifies how you collect, organize and analyze data to accelerate the value of data science and AI"
+          }
+        ]
+      }
+    },
+    "ai_phrase_definition": "\\b(?:AI|A\\.I\\.|artificial intelligence|machine learning|ML|generative AI|large language models?|LLMs?)\\b",
+    "keyword_note": "Only the listed case-insensitive word-boundary phrases in product name and description are counted; taxonomy fields excluded. This differs from broader literal cue scans. Mentions are review cues, not labels; absence and source taxonomy do not establish non-AI status."
+  },
+  "limitations": [
+    "This is an imported vendor/product catalog, not observed enterprise activity or a reviewed AI/non-AI dataset.",
+    "Source taxonomy is preserved and is not mapped to the project's 14 AIToolBuzz targets.",
+    "Heuristic flags are not eligibility or exclusion rules; no ai_label, ai_role, mapped category, or split field is produced.",
+    "Potential source, writing-style, vendor, or taxonomy confounding is not tested or proven by this EDA.",
+    "No optional AIToolBuzz description-style comparison was run."
+  ],
+  "review_candidate_rows": 682
+}
