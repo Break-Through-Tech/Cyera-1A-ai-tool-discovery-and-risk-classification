@@ -1,0 +1,14 @@
+{
+  "workflow_run_id": "792352ce-da86-4559-8919-e80bfde8aade",
+  "mission_id": "66ff06cb-4f81-4d45-ac9f-f52015675c6b",
+  "state_at_dispatch": "detached",
+  "scope": "20-group calibration only; pause before remainder",
+  "requested_model": "openai-codex/gpt-6-luna",
+  "requested_thinking": "high",
+  "max_active_workers": 4,
+  "groups_per_assignment": 10,
+  "selected_groups": 20,
+  "selected_source_records": 21,
+  "completion_is_not_yet_verified": true,
+  "next_action": "On native completion, consume the workflow result, independently validate stage artifacts and provenance, report results and resource usage, and request approval before processing any remainder."
+}

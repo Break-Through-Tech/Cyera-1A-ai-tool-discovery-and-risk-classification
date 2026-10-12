@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "workflowRunId": "0cf92776-57e7-493e-a45f-bad4c39edcff",
+  "state": "complete",
+  "createdAt": 1791782794964,
+  "entries": {
+    "evidence-01": {
+      "key": "evidence-01",
+      "agent": "researcher",
+      "requestedContext": "fresh",
+      "resolvedContext": "fresh",
+      "outputReference": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/evidence-batch-01/result.verified.json",
+      "continuation": {
+        "runIds": [
+          "6896a343-cb32-4689-91ce-11d4df26b830"
+        ]
+      },
+      "latestRunId": "6896a343-cb32-4689-91ce-11d4df26b830",
+      "resumability": {
+        "state": "resumable"
+      }
+    },
+    "adjudicator-01": {
+      "key": "adjudicator-01",
+      "agent": "researcher",
+      "requestedContext": "fresh",
+      "resolvedContext": "fresh",
+      "outputReference": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/adjudicator-batch-01/result.verified.json",
+      "continuation": {
+        "runIds": [
+          "9005c079-c263-4a2d-9697-a211d0096aa2"
+        ]
+      },
+      "latestRunId": "9005c079-c263-4a2d-9697-a211d0096aa2",
+      "resumability": {
+        "state": "resumable"
+      }
+    },
+    "adjudicator-02": {
+      "key": "adjudicator-02",
+      "agent": "researcher",
+      "requestedContext": "fresh",
+      "resolvedContext": "fresh",
+      "outputReference": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/adjudicator-batch-02/result.verified.json",
+      "continuation": {
+        "runIds": [
+          "597fcc52-f230-4332-9787-c5ce9989c8c2"
+        ]
+      },
+      "latestRunId": "597fcc52-f230-4332-9787-c5ce9989c8c2",
+      "resumability": {
+        "state": "resumable"
+      }
+    },
+    "finalcheck-01": {
+      "key": "finalcheck-01",
+      "agent": "researcher",
+      "requestedContext": "fresh",
+      "resolvedContext": "fresh",
+      "outputReference": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/finalcheck-batch-01/result.verified.json",
+      "continuation": {
+        "runIds": [
+          "30ff0838-5ce4-4e0b-b53b-d0dc036fcf9f"
+        ]
+      },
+      "latestRunId": "30ff0838-5ce4-4e0b-b53b-d0dc036fcf9f",
+      "resumability": {
+        "state": "resumable"
+      }
+    },
+    "finalcheck-02": {
+      "key": "finalcheck-02",
+      "agent": "researcher",
+      "requestedContext": "fresh",
+      "resolvedContext": "fresh",
+      "outputReference": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/finalcheck-batch-02/result.verified.json",
+      "continuation": {
+        "runIds": [
+          "3bf131fd-bb0a-4311-b1f1-a5c1955ea5fd"
+        ]
+      },
+      "latestRunId": "3bf131fd-bb0a-4311-b1f1-a5c1955ea5fd",
+      "resumability": {
+        "state": "resumable"
+      }
+    }
+  },
+  "argsDigest": "e8c2fca76acbe753cf2adfdc49631e2c6adc6c347c182abe62bd144c29eecaed",
+  "workflowChildren": {
+    "version": 1,
+    "parentToolCallId": "call_NW4ljaHmHmWMxDpbrlH37lZe|fc_03fb1251223e86de016acc6b78cb748197abef1117c2aad554",
+    "workflowRunId": "0cf92776-57e7-493e-a45f-bad4c39edcff",
+    "inventoryComplete": true,
+    "workflowState": "completed",
+    "children": [
+      {
+        "childId": "evidence-01",
+        "state": "completed",
+        "runId": "6896a343-cb32-4689-91ce-11d4df26b830",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform ONLY the evidence stage for assigned IDs: enterpr...",
+        "model": "openai-codex/gpt-6-luna:high"
+      },
+      {
+        "childId": "adjudicator-01",
+        "state": "completed",
+        "runId": "9005c079-c263-4a2d-9697-a211d0096aa2",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform ONLY the adjudicator stage for assigned IDs: ente...",
+        "model": "openai-codex/gpt-6-luna:high"
+      },
+      {
+        "childId": "adjudicator-02",
+        "state": "completed",
+        "runId": "597fcc52-f230-4332-9787-c5ce9989c8c2",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform ONLY the adjudicator stage for assigned IDs: ente...",
+        "model": "openai-codex/gpt-6-luna:high"
+      },
+      {
+        "childId": "finalcheck-01",
+        "state": "completed",
+        "runId": "30ff0838-5ce4-4e0b-b53b-d0dc036fcf9f",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform ONLY the finalcheck stage for assigned IDs: enter...",
+        "model": "openai-codex/gpt-6-luna:high"
+      },
+      {
+        "childId": "finalcheck-02",
+        "state": "completed",
+        "runId": "3bf131fd-bb0a-4311-b1f1-a5c1955ea5fd",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform ONLY the finalcheck stage for assigned IDs: enter...",
+        "model": "openai-codex/gpt-6-luna:high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "product_group_id": "enterprise-438bcdcaf522b58ba3066f59932588d65fa269a60f1160c63dafeea36d33932a",
+  "ai_status": "ai",
+  "ai_type": "ai_native",
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "Best-supported provisional AI/native call, weak and forced. Labeler cites current Cloudbreak neural-rendering model for 4D spatial-video generation; blind cites Mavericks 4 AI/computer vision. These are real Evercoast AI features but neither establishes inclusion in the source-record product 'Evercoast Managed Services' or its historical version. Preserve disagreement: labeler native vs blind enabled, and material identity/applicability uncertainty. Core volumetric content production plausibly depends on neural rendering in the current Cloudbreak workflow, but that inference does not prove this specific service was AI-native.",
+  "ai_type_rationale": "Current Cloudbreak's neural rendering appears foundational to its 4D spatial video generation, supporting native as the best guess; applying it to Managed Services is uncertain, so subtype is weak/forced.",
+  "version_scope": "No date/version. Current Cloudbreak and Mavericks pages concern separate named offerings; no retained evidence bridges them to historical Managed Services.",
+  "grouping_conflict": false,
+  "structural_blocker": false,
+  "needs_adjudication": true,
+  "issues": [
+    "Binary and subtype applicability to Managed Services unresolved; retained AI claims name Cloudbreak/Mavericks, not this record's product identity.",
+    "Subtype disagreement: labeler ai_native vs blind ai_enabled.",
+    "Both binary proposals are weak/forced; preserve uncertainty."
+  ],
+  "sources": [
+    {
+      "url": "https://evercoast.com/cloudbreak-4d-video",
+      "source_type": "official",
+      "excerpt": "Cloudbreak provides everything you need to transform multimodal, raw motion data into 4D spatial video ... Evercoast\u2019s neural rendering model delivers exceptional realism, rendering light, texture, and depth with striking authenticity.",
+      "applicability": "Official current Cloudbreak functionality; neural rendering relevant to volumetric video, but no link to source-record Managed Services or historical inclusion.",
+      "supports": [
+        "binary",
+        "subtype"
+      ],
+      "captured_at": null,
+      "capture_reference": "labeler-batch-02/retained_recovery_pages/c074747d4cc34ded7b11.json; response mv4qbtnkr0cawd",
+      "publication_or_version": null
+    },
+    {
+      "url": "https://evercoast.com/mavericks-multicam-capture",
+      "source_type": "official",
+      "excerpt": "Mavericks 4 enables you to effortlessly capture video from multiple cameras and leverage the power of AI and computer vision to bring it to life.",
+      "applicability": "Blind retained official AI claim for Mavericks 4; does not establish Managed Services inclusion or historical product applicability.",
+      "supports": [
+        "binary"
+      ],
+      "captured_at": "2026-10-12T03:36:15.284000+00:00",
+      "capture_reference": "blind-batch-02/retained_pages/mv4p9t4kcyhv4y-08.json; response mv4p9t4kcyhv4y",
+      "publication_or_version": "Mavericks 4"
+    },
+    {
+      "url": "frozen-input:inputs/batch-02.json#source_record_number=321",
+      "source_type": "source_dataset",
+      "excerpt": "Evercoast is advancing the creation of 3D holographic, volumetric content to be used on mobile, in augmented reality, virtual reality, the web, and desktop.",
+      "applicability": "Assigned Managed Services description identifies content-creation goal but does not state AI or connect to Cloudbreak/Mavericks.",
+      "supports": [
+        "identity"
+      ],
+      "captured_at": null,
+      "capture_reference": "inputs/batch-02.json source_record_number 321",
+      "publication_or_version": null
+    }
+  ],
+  "research_counts": {
+    "search_rounds": 5,
+    "full_page_reads": 3
+  }
+}

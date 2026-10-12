@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "workflowRunId": "792352ce-da86-4559-8919-e80bfde8aade",
+  "state": "stopped",
+  "createdAt": 1791776220730,
+  "entries": {
+    "labeler-01": {
+      "key": "labeler-01",
+      "continuation": {
+        "runIds": []
+      },
+      "resumability": {
+        "state": "not-resumable",
+        "reason": "child produced no run id"
+      }
+    },
+    "blind-01": {
+      "key": "blind-01",
+      "continuation": {
+        "runIds": []
+      },
+      "resumability": {
+        "state": "not-resumable",
+        "reason": "child produced no run id"
+      }
+    },
+    "labeler-02": {
+      "key": "labeler-02",
+      "continuation": {
+        "runIds": []
+      },
+      "resumability": {
+        "state": "not-resumable",
+        "reason": "child produced no run id"
+      }
+    },
+    "blind-02": {
+      "key": "blind-02",
+      "continuation": {
+        "runIds": []
+      },
+      "resumability": {
+        "state": "not-resumable",
+        "reason": "child produced no run id"
+      }
+    }
+  },
+  "argsDigest": "22a8c80a0be9f07742609bd4ba4bc8ff5924a4385a4354121b82ca49d2c10691",
+  "workflowChildren": {
+    "version": 1,
+    "parentToolCallId": "call_b8e957b50bcf4918b71b8b3413db9218|fc_00262490d9045aaa016acc554ec3cc8190a6432d043076e254",
+    "workflowRunId": "792352ce-da86-4559-8919-e80bfde8aade",
+    "inventoryComplete": true,
+    "workflowState": "stopped",
+    "children": [
+      {
+        "childId": "labeler-01",
+        "state": "stopped"
+      },
+      {
+        "childId": "blind-01",
+        "state": "stopped"
+      },
+      {
+        "childId": "labeler-02",
+        "state": "stopped"
+      },
+      {
+        "childId": "blind-02",
+        "state": "stopped"
+      }
+    ]
+  }
+}

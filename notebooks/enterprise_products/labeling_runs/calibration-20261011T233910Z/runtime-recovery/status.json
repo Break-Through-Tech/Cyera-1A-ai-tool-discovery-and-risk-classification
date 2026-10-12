@@ -1,0 +1,237 @@
+{
+  "runId": "7a870d41-7399-4261-9367-d6c061fe72a4",
+  "toolCallId": "call_46367821a4ad4745b9838b73a16f2924|fc_00262490d9045aaa016acc5c47ca048190bc5248ae26c75e36",
+  "sessionId": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7.jsonl",
+  "completionOwnerId": "4fdfdf80-f2b8-4cf7-ab60-67755f16c851",
+  "mode": "workflow",
+  "state": "stopped",
+  "startedAt": 1791777883377,
+  "lastUpdate": 1791778268261,
+  "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification",
+  "sessionRoot": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7",
+  "pid": 113158,
+  "steps": [
+    {
+      "agent": "researcher",
+      "sessionName": "researcher: Perform the labeler stage of the approved 20-group calibr...",
+      "label": "Label batch 01",
+      "workflowKey": "labeler-01",
+      "parentWorkflowRunId": "7a870d41-7399-4261-9367-d6c061fe72a4",
+      "status": "completed",
+      "startedAt": 1791777883522,
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/849df9ed-7ea8-4102-9235-09b16e3f3978/run-0/session.jsonl",
+      "async": true,
+      "runId": "95e1ae5a-f907-4bf1-a27e-2f007cea2fc5",
+      "durationMs": 130960,
+      "tokens": {
+        "input": 64986,
+        "output": 15368,
+        "total": 80354
+      },
+      "turnCount": 8
+    },
+    {
+      "agent": "researcher",
+      "sessionName": "researcher: Perform the blind stage of the approved 20-group calibrat...",
+      "label": "Independently verify batch 01",
+      "workflowKey": "blind-01",
+      "parentWorkflowRunId": "7a870d41-7399-4261-9367-d6c061fe72a4",
+      "status": "failed",
+      "startedAt": 1791777883687,
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/4cf1216d-c4aa-44a9-9727-b78ceb4f7636/run-0/session.jsonl",
+      "async": true,
+      "runId": "4b0c5977-614e-410f-bb47-7801a24a73d4",
+      "error": "Run fan-out: 4/20 used, 16 remaining\nRequired file-only output was not produced: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/blind-batch-01/result.json",
+      "durationMs": 151941,
+      "tokens": {
+        "input": 82141,
+        "output": 15503,
+        "total": 97644
+      },
+      "turnCount": 11
+    },
+    {
+      "agent": "researcher",
+      "sessionName": "researcher: Perform the labeler stage of the approved 20-group calibr...",
+      "label": "Label batch 02",
+      "workflowKey": "labeler-02",
+      "parentWorkflowRunId": "7a870d41-7399-4261-9367-d6c061fe72a4",
+      "status": "stopped",
+      "startedAt": 1791777883781,
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/6315f36e-6f6e-4af9-adca-616fac4604bb/run-0/session.jsonl",
+      "async": true,
+      "runId": "03fa2a0a-8c78-4397-b946-99e037cbbac6",
+      "stopped": true,
+      "error": "Workflow stopped."
+    },
+    {
+      "agent": "researcher",
+      "sessionName": "researcher: Perform the blind stage of the approved 20-group calibrat...",
+      "label": "Independently verify batch 02",
+      "workflowKey": "blind-02",
+      "parentWorkflowRunId": "7a870d41-7399-4261-9367-d6c061fe72a4",
+      "status": "failed",
+      "startedAt": 1791777883870,
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/75ec0b08-95ae-4873-a28e-c283db5bf0fd/run-0/session.jsonl",
+      "async": true,
+      "runId": "85447025-ac4c-4636-9eb9-0e54ac6d2efe",
+      "error": "Run fan-out: 4/20 used, 16 remaining\nRequired file-only output was not produced: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/blind-batch-02/result.json",
+      "durationMs": 150896,
+      "tokens": {
+        "input": 88364,
+        "output": 16551,
+        "total": 104915
+      },
+      "turnCount": 10
+    }
+  ],
+  "workflow": {
+    "trace": [
+      {
+        "operation": "run",
+        "key": "labeler-01",
+        "state": "started",
+        "label": "Label batch 01",
+        "agent": "researcher"
+      },
+      {
+        "operation": "run",
+        "key": "blind-01",
+        "state": "started",
+        "label": "Independently verify batch 01",
+        "agent": "researcher"
+      },
+      {
+        "operation": "run",
+        "key": "labeler-02",
+        "state": "started",
+        "label": "Label batch 02",
+        "agent": "researcher"
+      },
+      {
+        "operation": "run",
+        "key": "blind-02",
+        "state": "started",
+        "label": "Independently verify batch 02",
+        "agent": "researcher"
+      },
+      {
+        "operation": "run",
+        "key": "labeler-01",
+        "state": "completed",
+        "durationMs": 130960,
+        "label": "Label batch 01",
+        "agent": "researcher",
+        "runId": "95e1ae5a-f907-4bf1-a27e-2f007cea2fc5"
+      },
+      {
+        "operation": "run",
+        "key": "blind-02",
+        "state": "failed",
+        "durationMs": 150896,
+        "label": "Independently verify batch 02",
+        "agent": "researcher",
+        "runId": "85447025-ac4c-4636-9eb9-0e54ac6d2efe",
+        "error": "Run fan-out: 4/20 used, 16 remaining\nRequired file-only output was not produced: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/blind-batch-02/result.json"
+      },
+      {
+        "operation": "run",
+        "key": "blind-01",
+        "state": "failed",
+        "durationMs": 151941,
+        "label": "Independently verify batch 01",
+        "agent": "researcher",
+        "runId": "4b0c5977-614e-410f-bb47-7801a24a73d4",
+        "error": "Run fan-out: 4/20 used, 16 remaining\nRequired file-only output was not produced: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/blind-batch-01/result.json"
+      },
+      {
+        "operation": "run",
+        "key": "labeler-02",
+        "state": "stopped",
+        "agent": "researcher",
+        "label": "Label batch 02",
+        "error": "Workflow stopped."
+      }
+    ],
+    "emits": [],
+    "console": [],
+    "args": {
+      "runDirectory": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z",
+      "groupsByBatch": [
+        [
+          "enterprise-42b9ddcca2aa2977c9d490677d5dc3e2314de0085cf03d115a7565bfcd19bf0b",
+          "enterprise-630d36f6a3778fac81af12bd533284b6756bb70004acc8dec421f9f14528dd80",
+          "enterprise-253bc0fbef0f31bfbf2b7485f82a61ccc77697a60821aaa6fc2159103a0451fd",
+          "enterprise-ba07141366ef73b6232b43a2bfeffbc02212e374e63bd44d9408b1a97bfce065",
+          "enterprise-a7cbc1828376f4a14a4eeff1f61d5eb3ca407f6f5da4c587d1e2d1adc4b9d2a1",
+          "enterprise-089c10ad67576eea90f5df75999b1ed33537724a01f01eafbd02dc2871e30f94",
+          "enterprise-25002d5d47e674cb5904755918b2b8793f8fe69aba0ae7ccd6fd6983635d9aec",
+          "enterprise-b27392cb86df036af26c6bf1b235a33958737cea78efd07e38066b09e2998d0f",
+          "enterprise-9519c69b36189a49e18b7852b9df00e5b5e7da336f13cabd2a907be9bb4def57",
+          "enterprise-6e9dbe6422b68aae343cdce248f51d3ee7457387c4a62f6774f7316f9780dffb"
+        ],
+        [
+          "enterprise-7ac31d358d03a67becc7584222b72b9620ece17705166aa34c1e91878e7bfbf2",
+          "enterprise-a13670dc9f0f50fb07bb7d262f991137039eeb39ce582d2883641aa5dc392c4a",
+          "enterprise-c919e4317cf5e99281d5a3e757cace29d34ea25a7c2b19baf0b46fc8c2eaf024",
+          "enterprise-0f6d79bef9eee30125b960bb4136df7959d235719365b35fd15cf280ae814d15",
+          "enterprise-1d911d57ddcb9d0f1415194f1a6dfb39e1c90b1f1a9d4b81ea056f8b5cce1ef8",
+          "enterprise-a305a1fcde5d9fac8e8ddeed05650ea3e0ea9a10ad3e24114eeefe1cd7f51491",
+          "enterprise-3e4f26703a60dd07fc855cf044f72b4914e5488fbb2544927e4943c378141cc0",
+          "enterprise-4842b4f8ab48aa6f5875ad11114630fc6a673d58385de64af01622d83de87327",
+          "enterprise-438bcdcaf522b58ba3066f59932588d65fa269a60f1160c63dafeea36d33932a",
+          "enterprise-1b5f8009c50c71a8fbf746634a2586bf11e6b79bcf31b6cbd38948276a6c020b"
+        ]
+      ]
+    },
+    "argsDigest": "22a8c80a0be9f07742609bd4ba4bc8ff5924a4385a4354121b82ca49d2c10691",
+    "scriptDigest": "69ed4f3bb9c1bb18e0fdd2a1aa8e1d3088a373c8392291c27f90ced4a2cdec16"
+  },
+  "workflowChildren": {
+    "version": 1,
+    "parentToolCallId": "call_46367821a4ad4745b9838b73a16f2924|fc_00262490d9045aaa016acc5c47ca048190bc5248ae26c75e36",
+    "workflowRunId": "7a870d41-7399-4261-9367-d6c061fe72a4",
+    "inventoryComplete": true,
+    "workflowState": "stopped",
+    "children": [
+      {
+        "childId": "labeler-01",
+        "state": "completed",
+        "runId": "95e1ae5a-f907-4bf1-a27e-2f007cea2fc5",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform the labeler stage of the approved 20-group calibr..."
+      },
+      {
+        "childId": "blind-01",
+        "state": "failed",
+        "runId": "4b0c5977-614e-410f-bb47-7801a24a73d4",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform the blind stage of the approved 20-group calibrat..."
+      },
+      {
+        "childId": "labeler-02",
+        "state": "stopped",
+        "runId": "03fa2a0a-8c78-4397-b946-99e037cbbac6",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform the labeler stage of the approved 20-group calibr..."
+      },
+      {
+        "childId": "blind-02",
+        "state": "failed",
+        "runId": "85447025-ac4c-4636-9eb9-0e54ac6d2efe",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform the blind stage of the approved 20-group calibrat..."
+      }
+    ]
+  },
+  "runFanoutBudget": {
+    "used": 4,
+    "limit": 20,
+    "remaining": 16
+  },
+  "turnCount": 29,
+  "stopped": true,
+  "error": "Workflow stopped.",
+  "endedAt": 1791778268255,
+  "workflowReceiptPath": "/tmp/pi-subagents-uid-1000/async-subagent-runs/7a870d41-7399-4261-9367-d6c061fe72a4/workflow-receipt.json"
+}

@@ -1,0 +1,186 @@
+{
+  "prior_run_id": "4f070c28-d736-4278-a9b5-cdf6e57ca71d",
+  "stage": "labeler",
+  "batch": "01",
+  "source_session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/1f37f978-8888-490c-8bbd-ac10e7e6d29a/run-0/session.jsonl",
+  "confirmed_stopped": true,
+  "consumed_allowances": {
+    "enterprise-42b9ddcca2aa2977c9d490677d5dc3e2314de0085cf03d115a7565bfcd19bf0b": {
+      "search_rounds": 1,
+      "full_page_reads": 1
+    },
+    "enterprise-630d36f6a3778fac81af12bd533284b6756bb70004acc8dec421f9f14528dd80": {
+      "search_rounds": 2,
+      "full_page_reads": 1
+    },
+    "enterprise-253bc0fbef0f31bfbf2b7485f82a61ccc77697a60821aaa6fc2159103a0451fd": {
+      "search_rounds": 2,
+      "full_page_reads": 1
+    },
+    "enterprise-ba07141366ef73b6232b43a2bfeffbc02212e374e63bd44d9408b1a97bfce065": {
+      "search_rounds": 2,
+      "full_page_reads": 1
+    },
+    "enterprise-a7cbc1828376f4a14a4eeff1f61d5eb3ca407f6f5da4c587d1e2d1adc4b9d2a1": {
+      "search_rounds": 1,
+      "full_page_reads": 1
+    },
+    "enterprise-089c10ad67576eea90f5df75999b1ed33537724a01f01eafbd02dc2871e30f94": {
+      "search_rounds": 1,
+      "full_page_reads": 1
+    },
+    "enterprise-25002d5d47e674cb5904755918b2b8793f8fe69aba0ae7ccd6fd6983635d9aec": {
+      "search_rounds": 2,
+      "full_page_reads": 1
+    },
+    "enterprise-b27392cb86df036af26c6bf1b235a33958737cea78efd07e38066b09e2998d0f": {
+      "search_rounds": 1,
+      "full_page_reads": 1
+    },
+    "enterprise-9519c69b36189a49e18b7852b9df00e5b5e7da336f13cabd2a907be9bb4def57": {
+      "search_rounds": 2,
+      "full_page_reads": 1
+    },
+    "enterprise-6e9dbe6422b68aae343cdce248f51d3ee7457387c4a62f6774f7316f9780dffb": {
+      "search_rounds": 1,
+      "full_page_reads": 1
+    }
+  },
+  "remaining_allowances": {
+    "enterprise-42b9ddcca2aa2977c9d490677d5dc3e2314de0085cf03d115a7565bfcd19bf0b": {
+      "search_rounds": 2,
+      "full_page_reads": 4
+    },
+    "enterprise-630d36f6a3778fac81af12bd533284b6756bb70004acc8dec421f9f14528dd80": {
+      "search_rounds": 1,
+      "full_page_reads": 4
+    },
+    "enterprise-253bc0fbef0f31bfbf2b7485f82a61ccc77697a60821aaa6fc2159103a0451fd": {
+      "search_rounds": 1,
+      "full_page_reads": 4
+    },
+    "enterprise-ba07141366ef73b6232b43a2bfeffbc02212e374e63bd44d9408b1a97bfce065": {
+      "search_rounds": 1,
+      "full_page_reads": 4
+    },
+    "enterprise-a7cbc1828376f4a14a4eeff1f61d5eb3ca407f6f5da4c587d1e2d1adc4b9d2a1": {
+      "search_rounds": 2,
+      "full_page_reads": 4
+    },
+    "enterprise-089c10ad67576eea90f5df75999b1ed33537724a01f01eafbd02dc2871e30f94": {
+      "search_rounds": 2,
+      "full_page_reads": 4
+    },
+    "enterprise-25002d5d47e674cb5904755918b2b8793f8fe69aba0ae7ccd6fd6983635d9aec": {
+      "search_rounds": 1,
+      "full_page_reads": 4
+    },
+    "enterprise-b27392cb86df036af26c6bf1b235a33958737cea78efd07e38066b09e2998d0f": {
+      "search_rounds": 2,
+      "full_page_reads": 4
+    },
+    "enterprise-9519c69b36189a49e18b7852b9df00e5b5e7da336f13cabd2a907be9bb4def57": {
+      "search_rounds": 1,
+      "full_page_reads": 4
+    },
+    "enterprise-6e9dbe6422b68aae343cdce248f51d3ee7457387c4a62f6774f7316f9780dffb": {
+      "search_rounds": 2,
+      "full_page_reads": 4
+    }
+  },
+  "completed_group_checkpoint_paths": [],
+  "prior_research_tool_events_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/labeler-batch-01/prior_research_tool_events.json",
+  "checkpoint_counts_are_cumulative_on_continuation": true,
+  "retained_pages": [
+    {
+      "product_group_id": "enterprise-42b9ddcca2aa2977c9d490677d5dc3e2314de0085cf03d115a7565bfcd19bf0b",
+      "url": "https://kalibrate.com/kalibrate-location-intelligence-software/",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/labeler-batch-01/retained_pages/mv4p9hgux1yf3j-00.json",
+      "captured_at": "2026-10-12T03:36:00.174000+00:00",
+      "content_sha256": "3d4decd843c05f63b22c3f88e77ad2c16bde96143f4346c4c1ff8a119dd7b39c",
+      "has_content": true,
+      "error": null
+    },
+    {
+      "product_group_id": "enterprise-630d36f6a3778fac81af12bd533284b6756bb70004acc8dec421f9f14528dd80",
+      "url": "https://www.ibm.com/cloud",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/labeler-batch-01/retained_pages/mv4p9hgux1yf3j-01.json",
+      "captured_at": "2026-10-12T03:36:00.174000+00:00",
+      "content_sha256": "f6b2b169a68591d9c05e5a640b3a4e211e7ccf2040b583c9efb8e72e4b8661fe",
+      "has_content": true,
+      "error": null
+    },
+    {
+      "product_group_id": "enterprise-253bc0fbef0f31bfbf2b7485f82a61ccc77697a60821aaa6fc2159103a0451fd",
+      "url": "https://springframework.net/",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/labeler-batch-01/retained_pages/mv4p9hgux1yf3j-02.json",
+      "captured_at": "2026-10-12T03:36:00.174000+00:00",
+      "content_sha256": "c83a6b430d6e86dc2fa5757ea47a94212bec81eb9b1c44dd6920b173649f8782",
+      "has_content": true,
+      "error": null
+    },
+    {
+      "product_group_id": "enterprise-ba07141366ef73b6232b43a2bfeffbc02212e374e63bd44d9408b1a97bfce065",
+      "url": "https://www.redhat.com/en/technologies/cloud-computing/openshift",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/labeler-batch-01/retained_pages/mv4p9hgux1yf3j-03.json",
+      "captured_at": "2026-10-12T03:36:00.174000+00:00",
+      "content_sha256": "7fc94e51f9e6eacf838126bb9c9df83344a7b04a383c36b8fdb2dea6368f9202",
+      "has_content": true,
+      "error": null
+    },
+    {
+      "product_group_id": "enterprise-a7cbc1828376f4a14a4eeff1f61d5eb3ca407f6f5da4c587d1e2d1adc4b9d2a1",
+      "url": "https://www.imcreator.com/",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/labeler-batch-01/retained_pages/mv4p9hgux1yf3j-04.json",
+      "captured_at": "2026-10-12T03:36:00.174000+00:00",
+      "content_sha256": "af87d543a703893ba8a012e084546f1cd34966c417c4f362b272014c7070b20f",
+      "has_content": true,
+      "error": null
+    },
+    {
+      "product_group_id": "enterprise-089c10ad67576eea90f5df75999b1ed33537724a01f01eafbd02dc2871e30f94",
+      "url": "https://www.cirrusinsight.com/features/meeting-ai",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/labeler-batch-01/retained_pages/mv4p9hgux1yf3j-05.json",
+      "captured_at": "2026-10-12T03:36:00.174000+00:00",
+      "content_sha256": "021b90d44140819a5e463aedb2567ac43fb4fa97dcc5c1cb7959bd6510043c7e",
+      "has_content": true,
+      "error": null
+    },
+    {
+      "product_group_id": "enterprise-25002d5d47e674cb5904755918b2b8793f8fe69aba0ae7ccd6fd6983635d9aec",
+      "url": "https://www.ibm.com/products/cloud-pak-for-integration",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/labeler-batch-01/retained_pages/mv4p9hgux1yf3j-06.json",
+      "captured_at": "2026-10-12T03:36:00.174000+00:00",
+      "content_sha256": "c027a93a98932d03ae018d1940edccad1ba040eb84fd685eb631fe856dde4780",
+      "has_content": true,
+      "error": null
+    },
+    {
+      "product_group_id": "enterprise-b27392cb86df036af26c6bf1b235a33958737cea78efd07e38066b09e2998d0f",
+      "url": "https://oracle.com/cx/service/field-service-management/",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/labeler-batch-01/retained_pages/mv4p9hgux1yf3j-07.json",
+      "captured_at": "2026-10-12T03:36:00.174000+00:00",
+      "content_sha256": "732641a896e999ac69cc4a4c4340bf339e4a44901485f5718ff53f3f45d0b9ba",
+      "has_content": true,
+      "error": null
+    },
+    {
+      "product_group_id": "enterprise-9519c69b36189a49e18b7852b9df00e5b5e7da336f13cabd2a907be9bb4def57",
+      "url": "https://www.datarobot.com/platform/",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/labeler-batch-01/retained_pages/mv4p9hgux1yf3j-08.json",
+      "captured_at": "2026-10-12T03:36:00.174000+00:00",
+      "content_sha256": "ad279f7d6127fe10d4f4b1ae3ef74de557cd88203151d9a0e75491ba9705a08b",
+      "has_content": true,
+      "error": null
+    },
+    {
+      "product_group_id": "enterprise-6e9dbe6422b68aae343cdce248f51d3ee7457387c4a62f6774f7316f9780dffb",
+      "url": "https://www.pingplotter.com/products/professional/",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/labeler-batch-01/retained_pages/mv4p9hgux1yf3j-09.json",
+      "captured_at": "2026-10-12T03:36:00.174000+00:00",
+      "content_sha256": "682e41354d6954d347ba8365df845d59e8cfda19669d09d2278dccc081b52359",
+      "has_content": true,
+      "error": null
+    }
+  ]
+}

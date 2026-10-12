@@ -1,0 +1,62 @@
+{
+  "product_group_id": "enterprise-3e4f26703a60dd07fc855cf044f72b4914e5488fbb2544927e4943c378141cc0",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "Provisional best-supported non-AI call for 4Tel, described as telecom repair/troubleshooting and line testing. Available Enghouse pages concern general network operations/testing and do not identify 4Tel. They offer no credible product-specific AI contradiction, but likewise cannot establish comprehensive conventional functionality. Both proposals weak/forced; do not treat missing AI mentions as proof.",
+  "ai_type_rationale": null,
+  "version_scope": "No release/date; current Enghouse portfolio/category pages are not explicitly linked to historical 4Tel.",
+  "grouping_conflict": false,
+  "structural_blocker": false,
+  "needs_adjudication": true,
+  "issues": [
+    "No product-specific 4Tel documentation retained; vendor/category-level evidence does not establish applicability.",
+    "Negative is forced and needs further adjudication."
+  ],
+  "sources": [
+    {
+      "url": "https://www.enghousenetworks.com/",
+      "source_type": "official",
+      "excerpt": "Operators need one shared view of performance, incidents, topology and customer-impacting service degradation. ... Coordinate network planning, fulfilment and field workflows from a shared operational model.",
+      "applicability": "Current vendor-level portfolio description only; not identified as 4Tel and not an exhaustive feature list.",
+      "supports": [
+        "binary"
+      ],
+      "captured_at": null,
+      "capture_reference": "labeler-batch-02/retained_recovery_pages/938475e98da5e65079c4.json; response mv4qbtnkr0cawd",
+      "publication_or_version": null
+    },
+    {
+      "url": "https://www.enghousenetworks.com/products/network-management/network-testing/",
+      "source_type": "official",
+      "excerpt": "Enghouse Networks\u2019 automated network testing solutions help service providers maintain fiber network performance, reduce costly truck rolls, and resolve service issues faster. ... Broadband Network Test enables customer service and field repair teams to identify and resolve issues affecting voice, video, and data services.",
+      "applicability": "Blind retained current category documentation is functionally relevant to line testing but does not explicitly identify 4Tel or establish historical scope.",
+      "supports": [
+        "binary"
+      ],
+      "captured_at": "2026-10-12T03:36:15.284000+00:00",
+      "capture_reference": "blind-batch-02/retained_pages/mv4p9t4kcyhv4y-06.json; response mv4p9t4kcyhv4y",
+      "publication_or_version": null
+    },
+    {
+      "url": "frozen-input:inputs/batch-02.json#source_record_number=1086",
+      "source_type": "source_dataset",
+      "excerpt": "4tel is used for repairs and troubleshooting and/or performing telecom line tests.",
+      "applicability": "Exact assigned product function, but not exhaustive documentation.",
+      "supports": [
+        "identity",
+        "binary"
+      ],
+      "captured_at": null,
+      "capture_reference": "inputs/batch-02.json source_record_number 1086",
+      "publication_or_version": null
+    }
+  ],
+  "research_counts": {
+    "search_rounds": 5,
+    "full_page_reads": 2
+  }
+}

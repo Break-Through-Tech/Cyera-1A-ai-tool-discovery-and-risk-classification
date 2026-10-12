@@ -1,0 +1,50 @@
+{
+  "product_group_id": "enterprise-4842b4f8ab48aa6f5875ad11114630fc6a673d58385de64af01622d83de87327",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "Adopt supported non-AI. SolarWinds' exact Dameware Remote Everywhere page documents conventional cloud remote support/control, attended and unattended sessions, Wake-on-LAN, system information, communication, monitoring and reporting. No credible product-specific AI evidence appears; vendor AI navigation belongs to other offerings. Source version/date is absent, but product identity and broad functionality align directly.",
+  "ai_type_rationale": null,
+  "version_scope": "No source release/date. Current exact-product official page; historical scope cannot be precisely dated, but no later feature is imported to justify AI.",
+  "grouping_conflict": false,
+  "structural_blocker": false,
+  "needs_adjudication": false,
+  "issues": [
+    "Exact historical release not specified; current exact-product feature documentation used."
+  ],
+  "sources": [
+    {
+      "url": "https://www.solarwinds.com/dameware-remote-everywhere",
+      "source_type": "official",
+      "excerpt": "Dameware Remote Everywhere is a fast, simple, and lightweight cloud-based remote support solution ... Complete attended or unattended support sessions or use Wake-on-LAN to remotely access and troubleshoot sleeping and powered-off devices. DRE gives you system info, BIOS, and device details ... Live chat and high-resolution video conference calls ... Monitoring & reporting.",
+      "applicability": "Exact-product page documents core and numerous conventional features; vendor-wide AI navigation is not evidence about Dameware.",
+      "supports": [
+        "binary",
+        "identity"
+      ],
+      "captured_at": null,
+      "capture_reference": "labeler-batch-02/retained_recovery_pages/53b3c733d078c41ae139.json; response mv4qbtnkr0cawd",
+      "publication_or_version": null
+    },
+    {
+      "url": "frozen-input:inputs/batch-02.json#source_record_number=1125",
+      "source_type": "source_dataset",
+      "excerpt": "Dameware Remote Everywhere is designed for users looking for a cloud-based solution and a fast and easy remote control tool to support various devices and systems, from Windows, Linux, and macOS to iOS and Android.",
+      "applicability": "Assigned description aligns to exact product and documented remote-support core.",
+      "supports": [
+        "identity",
+        "binary"
+      ],
+      "captured_at": null,
+      "capture_reference": "inputs/batch-02.json source_record_number 1125",
+      "publication_or_version": null
+    }
+  ],
+  "research_counts": {
+    "search_rounds": 5,
+    "full_page_reads": 2
+  }
+}

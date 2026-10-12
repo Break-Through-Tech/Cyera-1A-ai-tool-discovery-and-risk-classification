@@ -1,0 +1,51 @@
+{
+  "product_group_id": "enterprise-c919e4317cf5e99281d5a3e757cace29d34ea25a7c2b19baf0b46fc8c2eaf024",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "Provisional best-supported non-AI for historical NetProspex. D&B's 2015 acquisition announcement identifies a professional contact database, data cleansing/enrichment, Workbench services, target-market analysis and audience acquisition, without stating AI. Both judgments are weak/forced; this is not comprehensive functionality evidence, so absence of AI mention is not proof. Current D&B AI offerings do not transfer to NetProspex.",
+  "ai_type_rationale": null,
+  "version_scope": "Historical source dated 2015-01-08; record version not specified. Current D&B product capabilities excluded as inapplicable.",
+  "grouping_conflict": false,
+  "structural_blocker": false,
+  "needs_adjudication": true,
+  "issues": [
+    "No comprehensive historical feature inventory; negative remains weak and forced.",
+    "Both proposals independently lack product/version-specific coverage."
+  ],
+  "sources": [
+    {
+      "url": "https://news.cision.com/dun---bradstreet/r/dun---bradstreet-acquires-netprospex-to-deliver-largest-global-reach-and-insight-on-companies-and-th,c9704175",
+      "source_type": "secondary",
+      "excerpt": "The acquisition combines NetProspex\u2019s comprehensive professional contact database with Dun & Bradstreet\u2019s proprietary global business data and analytics. ... The addition of the NetProspex Workbench data services platform and CleneStep methodology ... helps marketing and sales organizations optimize their marketing data management practices.",
+      "applicability": "D&B press announcement hosted by Cision, dated 2015-01-08, directly describing NetProspex at acquisition; detailed but not comprehensive AI-exclusion evidence.",
+      "supports": [
+        "binary",
+        "identity"
+      ],
+      "captured_at": null,
+      "capture_reference": "labeler-batch-02/retained_recovery_pages/ecf0ccef66fed02438fe.json; response mv4qbtnkr0cawd",
+      "publication_or_version": "2015-01-08"
+    },
+    {
+      "url": "frozen-input:inputs/batch-02.json#source_record_number=152",
+      "source_type": "source_dataset",
+      "excerpt": "NetProspex's data services platform and its approach to measuring data quality ... help B2B marketers identify, analyze and prioritize opportunities.",
+      "applicability": "Assigned product description corroborates historical data-service identity; analytics language alone is not AI evidence.",
+      "supports": [
+        "identity",
+        "binary"
+      ],
+      "captured_at": null,
+      "capture_reference": "inputs/batch-02.json source_record_number 152",
+      "publication_or_version": null
+    }
+  ],
+  "research_counts": {
+    "search_rounds": 5,
+    "full_page_reads": 1
+  }
+}

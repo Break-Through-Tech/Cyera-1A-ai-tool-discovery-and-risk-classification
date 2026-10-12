@@ -1,0 +1,17 @@
+{
+  "run_id": "0bfd8833-f375-4f43-abc8-58713673c61f",
+  "mission_id": "66ff06cb-4f81-4d45-ac9f-f52015675c6b",
+  "workflow": "workflow-verification.js",
+  "scope": "20-group calibration only",
+  "model": "openai-codex/gpt-6-luna:high",
+  "stages": ["evidence", "conditional_adjudicator", "one_finalcheck"],
+  "initial_handoffs": "handoffs/*.audited.json",
+  "approval": "User: keep going, thats fine; retain the documented existing research exceptions without repeating initial labeling.",
+  "validation": {
+    "initial_handoffs": "All four files: exact 10-group coverage and valid fields",
+    "checker_self_test": "9 cases passed",
+    "workflow_self_check": "Conditional subsets, single finalcheck, no initial-research launches, shared cap and truthful counters passed",
+    "native_static_validation": "Passed; dynamic fanout runtime enforcement remains authoritative"
+  },
+  "revisit_trigger": "Native completion or supervisor request; parent validates saved output and reports calibration before any remainder work."
+}

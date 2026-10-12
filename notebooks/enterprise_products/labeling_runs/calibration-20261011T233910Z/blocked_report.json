@@ -1,0 +1,92 @@
+{
+  "status": "blocked; workflow stopped",
+  "workflow_run_id": "792352ce-da86-4559-8919-e80bfde8aade",
+  "accepted_groups": 0,
+  "selected_groups": 20,
+  "all_required_stages_completed": false,
+  "elapsed_seconds": 122.502,
+  "input_preservation": "all pinned original input hashes match",
+  "completed_stage_result_files": 0,
+  "saved_group_checkpoints": [
+    "blind-batch-02/checkpoints/enterprise-7ac31d358d03a67becc7584222b72b9620ece17705166aa34c1e91878e7bfbf2.json"
+  ],
+  "blocker_checkpoints": [
+    "labeler-batch-02/checkpoints/infrastructure-blocker.json"
+  ],
+  "child_resources": [
+    {
+      "lane": "labeler-01",
+      "run_id": "4f070c28-d736-4278-a9b5-cdf6e57ca71d",
+      "session_file": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/1f37f978-8888-490c-8bbd-ac10e7e6d29a/run-0/session.jsonl",
+      "model_changes": [
+        {
+          "provider": "openai-codex",
+          "model_id": "gpt-6-luna"
+        }
+      ],
+      "assistant_usage_entries": 10,
+      "reported_total_tokens": 207241,
+      "reported_cost_usd": 0.0062904200000000006,
+      "tool_calls": 20,
+      "web_search_calls": 2,
+      "fetch_content_calls": 1
+    },
+    {
+      "lane": "blind-01",
+      "run_id": "7222782b-2be9-4098-a7c0-2a52c037d371",
+      "session_file": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/c53555dd-eb03-4b50-aa0e-762d59475921/run-0/session.jsonl",
+      "model_changes": [
+        {
+          "provider": "openai-codex",
+          "model_id": "gpt-6-luna"
+        }
+      ],
+      "assistant_usage_entries": 9,
+      "reported_total_tokens": 207981,
+      "reported_cost_usd": 0.007141860000000001,
+      "tool_calls": 18,
+      "web_search_calls": 3,
+      "fetch_content_calls": 1
+    },
+    {
+      "lane": "labeler-02",
+      "run_id": "8ca1b09d-85a4-44d3-8116-c261ac6a3523",
+      "session_file": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/21899712-bf29-4b1b-b486-03d05c95fe27/run-0/session.jsonl",
+      "model_changes": [
+        {
+          "provider": "openai-codex",
+          "model_id": "gpt-6-luna"
+        }
+      ],
+      "assistant_usage_entries": 8,
+      "reported_total_tokens": 162338,
+      "reported_cost_usd": 0.006385640000000001,
+      "tool_calls": 18,
+      "web_search_calls": 10,
+      "fetch_content_calls": 0
+    },
+    {
+      "lane": "blind-02",
+      "run_id": "d99fa349-2145-4d2d-ae39-cec1ded725e0",
+      "session_file": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/c7750eb2-b511-41ef-873c-be5a23f052e6/run-0/session.jsonl",
+      "model_changes": [
+        {
+          "provider": "openai-codex",
+          "model_id": "gpt-6-luna"
+        }
+      ],
+      "assistant_usage_entries": 10,
+      "reported_total_tokens": 306367,
+      "reported_cost_usd": 0.013704780000000001,
+      "tool_calls": 20,
+      "web_search_calls": 3,
+      "fetch_content_calls": 1
+    }
+  ],
+  "resource_limitation": "Only usage reported in saved assistant messages is summed; not an invoice or full-run cost estimate. Partial checkpoints are not accepted labels.",
+  "search_blockers": [
+    "OpenAI search configured gpt-5.3-codex-spark rejected for ChatGPT account (HTTP 400)",
+    "Exa free MCP rate limit (HTTP 429)"
+  ],
+  "recovery_authority": "Search configuration/backend changes require explicit approval; no provider or labeling model substitution performed."
+}

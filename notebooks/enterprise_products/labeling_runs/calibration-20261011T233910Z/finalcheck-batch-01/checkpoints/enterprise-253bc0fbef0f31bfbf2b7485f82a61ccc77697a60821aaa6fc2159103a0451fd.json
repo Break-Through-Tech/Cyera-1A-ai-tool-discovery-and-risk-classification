@@ -1,0 +1,14 @@
+{
+  "product_group_id":"enterprise-253bc0fbef0f31bfbf2b7485f82a61ccc77697a60821aaa6fc2159103a0451fd",
+  "ai_status":"non_ai","ai_type":null,"evidence_strength":"supported","forced_decision":false,"ai_type_evidence_strength":null,"ai_type_forced_decision":null,
+  "rationale":"Final check inspected the official Spring.NET repository README. It inventories principal framework functions including IoC, AOP, ASP.NET/MVC, dependency injection, transaction management, ADO.NET, and integrations. This substantial conventional functionality aligns with the source record and supports non-AI beyond keyword absence; no credible contradictory AI evidence is present in the retained evidence. Exact represented release remains unknown.",
+  "ai_type_rationale":null,
+  "version_scope":"Record has no version. Official repository README identifies Spring.NET and references 3.0.0 support; exact source-record release unknown, but documented framework identity/core align.",
+  "grouping_conflict":false,"structural_blocker":false,"needs_adjudication":false,
+  "issues":["Undated record does not pin an exact release; core framework identity and conventional functionality align."],
+  "sources":[
+    {"url":"https://github.com/spring-projects/spring-net","source_type":"official","excerpt":"Spring.NET contains: A full featured Inversion of Control container; An Aspect Oriented Programming framework; Expression Language for lightweight scripting; UI-agnostic validation framework; ASP.NET Framework; Dependency Injection ... Declarative transaction management ... ADO.NET framework ... NHibernate Integration","applicability":"Official project README enumerates substantial core framework functionality corresponding to the record's enterprise .NET application framework; exact historical version is unspecified.","supports":["binary","identity"],"captured_at":null,"capture_reference":"blind-batch-01/retained_recovery_pages/b4f0f357e2c7407b7962.json; SHA-256 84e0c00699392beb60cd7a8e27b6b23f1393f6f6b7f4c213c2243fffd583aa02","publication_or_version":"README identifies Spring.NET 3.0.0 support"},
+    {"url":"inputs/batch-01.json#/groups/enterprise-253bc0fbef0f31bfbf2b7485f82a61ccc77697a60821aaa6fc2159103a0451fd/records/393","source_type":"source_dataset","excerpt":"Open Source, Spring.NET is an application framework that provides comprehensive infrastructural support for developing enterprise . NET applications.","applicability":"Frozen record establishes identity and conventional .NET development-framework purpose; not treated as proof alone of AI absence.","supports":["identity"],"captured_at":null,"capture_reference":"inputs/batch-01.json, source_record_number 393","publication_or_version":null}
+  ],
+  "research_counts":{"search_rounds":5,"full_page_reads":3}
+}

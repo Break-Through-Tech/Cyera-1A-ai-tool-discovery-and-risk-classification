@@ -1,0 +1,419 @@
+{
+  "scope": "Partial 20-group calibration only; not a full-dataset export",
+  "groups": 20,
+  "records": 21,
+  "source_groups": 1406,
+  "source_records": 1438,
+  "remaining_groups": 1386,
+  "binary_distribution": {
+    "ai": 11,
+    "non_ai": 9
+  },
+  "ai_type_distribution": {
+    "ai_enabled": 10,
+    "ai_native": 1
+  },
+  "model_supported_binary": 6,
+  "forced_binary": 14,
+  "forced_subtype": 1,
+  "parent_binary_holds": 2,
+  "trusted_binary_eligible": 4,
+  "trusted_subtype_eligible": 1,
+  "review_queue_groups": 16,
+  "adjudicated_groups": 17,
+  "binary_disagreements": 2,
+  "subtype_disagreements": 1,
+  "structural_blockers": [],
+  "resources": {
+    "children": [
+      {
+        "run_id": "4f070c28-d736-4278-a9b5-cdf6e57ca71d",
+        "stage": "labeler-01",
+        "workflow_run_id": "792352ce-da86-4559-8919-e80bfde8aade",
+        "state": "stopped",
+        "session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/1f37f978-8888-490c-8bbd-ac10e7e6d29a/run-0/session.jsonl",
+        "prompt_sha256": "7f62724d7df3dddad070674af06f59e3d9ae67519be1d5a428a98791906bdd5e",
+        "duration_ms": null,
+        "reported_usage": {
+          "input": 38858,
+          "output": 1471,
+          "cacheRead": 166912,
+          "cacheWrite": 0,
+          "totalTokens": 207241
+        },
+        "reported_cost_usd": 0.00629042,
+        "tool_calls": {
+          "read": 6,
+          "web_search": 2,
+          "fetch_content": 1,
+          "get_search_content": 10,
+          "write": 1
+        }
+      },
+      {
+        "run_id": "7222782b-2be9-4098-a7c0-2a52c037d371",
+        "stage": "blind-01",
+        "workflow_run_id": "792352ce-da86-4559-8919-e80bfde8aade",
+        "state": "stopped",
+        "session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/c53555dd-eb03-4b50-aa0e-762d59475921/run-0/session.jsonl",
+        "prompt_sha256": "0ca6e86bafa2b7d8227b41023d6fd0fdf837d4d677197a94a9852958596f670a",
+        "duration_ms": null,
+        "reported_usage": {
+          "input": 45808,
+          "output": 1917,
+          "cacheRead": 160256,
+          "cacheWrite": 0,
+          "totalTokens": 207981
+        },
+        "reported_cost_usd": 0.00714186,
+        "tool_calls": {
+          "read": 5,
+          "web_search": 3,
+          "fetch_content": 1,
+          "get_search_content": 9
+        }
+      },
+      {
+        "run_id": "8ca1b09d-85a4-44d3-8116-c261ac6a3523",
+        "stage": "labeler-02",
+        "workflow_run_id": "792352ce-da86-4559-8919-e80bfde8aade",
+        "state": "stopped",
+        "session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/21899712-bf29-4b1b-b486-03d05c95fe27/run-0/session.jsonl",
+        "prompt_sha256": "1954f05158f6d59c7b494ab4e0f4bb448bb070621f19b3dc22c067e06445c733",
+        "duration_ms": null,
+        "reported_usage": {
+          "input": 35176,
+          "output": 3258,
+          "cacheRead": 123904,
+          "cacheWrite": 0,
+          "totalTokens": 162338
+        },
+        "reported_cost_usd": 0.006385640000000001,
+        "tool_calls": {
+          "read": 5,
+          "web_search": 10,
+          "contact_supervisor": 2,
+          "write": 1
+        }
+      },
+      {
+        "run_id": "d99fa349-2145-4d2d-ae39-cec1ded725e0",
+        "stage": "blind-02",
+        "workflow_run_id": "792352ce-da86-4559-8919-e80bfde8aade",
+        "state": "stopped",
+        "session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/c7750eb2-b511-41ef-873c-be5a23f052e6/run-0/session.jsonl",
+        "prompt_sha256": "937359f473fc262be9ebb0b511c0e9b548198178fdaa62aa3b2358442b4cc0fb",
+        "duration_ms": null,
+        "reported_usage": {
+          "input": 98444,
+          "output": 3635,
+          "cacheRead": 204288,
+          "cacheWrite": 0,
+          "totalTokens": 306367
+        },
+        "reported_cost_usd": 0.01370478,
+        "tool_calls": {
+          "read": 5,
+          "web_search": 3,
+          "fetch_content": 1,
+          "get_search_content": 10,
+          "write": 1
+        }
+      },
+      {
+        "run_id": "95e1ae5a-f907-4bf1-a27e-2f007cea2fc5",
+        "stage": "labeler-01",
+        "workflow_run_id": "7a870d41-7399-4261-9367-d6c061fe72a4",
+        "state": "completed",
+        "session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/849df9ed-7ea8-4102-9235-09b16e3f3978/run-0/session.jsonl",
+        "prompt_sha256": "c48bdfa5cccfdf9644b1fe5534d8a87af81f1fa3dacd245c77a2bf9dc713bce9",
+        "duration_ms": 130960,
+        "reported_usage": {
+          "input": 64986,
+          "output": 15368,
+          "cacheRead": 185856,
+          "cacheWrite": 0,
+          "totalTokens": 266210
+        },
+        "reported_cost_usd": 0.01604116,
+        "tool_calls": {
+          "read": 17,
+          "web_search": 3,
+          "write": 11,
+          "structured_output": 1
+        }
+      },
+      {
+        "run_id": "4b0c5977-614e-410f-bb47-7801a24a73d4",
+        "stage": "blind-01",
+        "workflow_run_id": "7a870d41-7399-4261-9367-d6c061fe72a4",
+        "state": "failed",
+        "session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/4cf1216d-c4aa-44a9-9727-b78ceb4f7636/run-0/session.jsonl",
+        "prompt_sha256": "cc315aa0ee0f6e92e9812d64f325075863e9a3c934044816f638aee8c3b676fa",
+        "duration_ms": 151941,
+        "reported_usage": {
+          "input": 82141,
+          "output": 15503,
+          "cacheRead": 453632,
+          "cacheWrite": 0,
+          "totalTokens": 551276
+        },
+        "reported_cost_usd": 0.02050192,
+        "tool_calls": {
+          "read": 18,
+          "web_search": 1,
+          "fetch_content": 4,
+          "write": 12,
+          "structured_output": 1
+        }
+      },
+      {
+        "run_id": "03fa2a0a-8c78-4397-b946-99e037cbbac6",
+        "stage": "labeler-02",
+        "workflow_run_id": "7a870d41-7399-4261-9367-d6c061fe72a4",
+        "state": "stopped",
+        "session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/6315f36e-6f6e-4af9-adca-616fac4604bb/run-0/session.jsonl",
+        "prompt_sha256": "20c70d6296e765513b52117639b0e0e130ecd69d0f3d020775b58da87e972ad0",
+        "duration_ms": null,
+        "reported_usage": {
+          "input": 96916,
+          "output": 25886,
+          "cacheRead": 456704,
+          "cacheWrite": 0,
+          "totalTokens": 579506
+        },
+        "reported_cost_usd": 0.02720164,
+        "tool_calls": {
+          "read": 8,
+          "web_search": 1,
+          "fetch_content": 1,
+          "get_search_content": 20,
+          "write": 11,
+          "structured_output": 1,
+          "contact_supervisor": 1
+        }
+      },
+      {
+        "run_id": "85447025-ac4c-4636-9eb9-0e54ac6d2efe",
+        "stage": "blind-02",
+        "workflow_run_id": "7a870d41-7399-4261-9367-d6c061fe72a4",
+        "state": "failed",
+        "session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/75ec0b08-95ae-4873-a28e-c283db5bf0fd/run-0/session.jsonl",
+        "prompt_sha256": "ed3f109ad6bacb7a98cfe8a6a03c0a994395a5d1bb9ed65748a02f9179b637f2",
+        "duration_ms": 150896,
+        "reported_usage": {
+          "input": 88364,
+          "output": 16551,
+          "cacheRead": 453120,
+          "cacheWrite": 0,
+          "totalTokens": 558035
+        },
+        "reported_cost_usd": 0.0216431,
+        "tool_calls": {
+          "read": 18,
+          "web_search": 1,
+          "write": 13,
+          "fetch_content": 2,
+          "structured_output": 1
+        }
+      },
+      {
+        "run_id": "d1df9bb9-b828-4360-ac4c-d390ab1a8b99",
+        "stage": "evidence-01",
+        "workflow_run_id": "0bfd8833-f375-4f43-abc8-58713673c61f",
+        "state": "stopped",
+        "session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/693f7150-b3fb-47c0-9530-04dd204bd725/run-0/session.jsonl",
+        "prompt_sha256": "66ce59310ed826804425e212ffa467bff3d532fe863315999364ddc4707d1960",
+        "duration_ms": null,
+        "reported_usage": {
+          "input": 72393,
+          "output": 3208,
+          "cacheRead": 97792,
+          "cacheWrite": 0,
+          "totalTokens": 173393
+        },
+        "reported_cost_usd": 0.00982122,
+        "tool_calls": {
+          "read": 21,
+          "write": 1
+        }
+      },
+      {
+        "run_id": "e9ec16e2-dd66-4057-be32-1f85753f8f14",
+        "stage": "evidence-02",
+        "workflow_run_id": "0bfd8833-f375-4f43-abc8-58713673c61f",
+        "state": "failed",
+        "session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/5ed4ae2f-591e-4b7f-b8b2-e25d25f6297f/run-0/session.jsonl",
+        "prompt_sha256": "65b1b83c266f290ada4a61bad0e5659ec114c181ce04b008b6d1d1eab2a741c3",
+        "duration_ms": 85761,
+        "reported_usage": {
+          "input": 77506,
+          "output": 10930,
+          "cacheRead": 235520,
+          "cacheWrite": 0,
+          "totalTokens": 323956
+        },
+        "reported_cost_usd": 0.015570800000000001,
+        "tool_calls": {
+          "read": 20,
+          "write": 1,
+          "structured_output": 1
+        }
+      },
+      {
+        "run_id": "6896a343-cb32-4689-91ce-11d4df26b830",
+        "stage": "evidence-01",
+        "workflow_run_id": "0cf92776-57e7-493e-a45f-bad4c39edcff",
+        "state": "completed",
+        "session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/60c7103a-f55c-44fb-bb38-6ed211715f4b/run-0/session.jsonl",
+        "prompt_sha256": "686d93785b193871f9de1b27326f850e76d52dfa72ac6b7d8e3f580f66f371fb",
+        "duration_ms": 507455,
+        "reported_usage": {
+          "input": 111774,
+          "output": 22019,
+          "cacheRead": 588800,
+          "cacheWrite": 0,
+          "totalTokens": 722593
+        },
+        "reported_cost_usd": 0.028074899999999996,
+        "tool_calls": {
+          "read": 33,
+          "contact_supervisor": 1,
+          "write": 10,
+          "structured_output": 1
+        }
+      },
+      {
+        "run_id": "9005c079-c263-4a2d-9697-a211d0096aa2",
+        "stage": "adjudicator-01",
+        "workflow_run_id": "0cf92776-57e7-493e-a45f-bad4c39edcff",
+        "state": "completed",
+        "session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/c7f3d976-cb07-4c8e-9329-36c7ed9273d0/run-0/session.jsonl",
+        "prompt_sha256": "8d6959e3f83e97fc56868948be8cd63db905e201fd390b8cc4c1cb3370d62722",
+        "duration_ms": 171456,
+        "reported_usage": {
+          "input": 77570,
+          "output": 20140,
+          "cacheRead": 644608,
+          "cacheWrite": 0,
+          "totalTokens": 742318
+        },
+        "reported_cost_usd": 0.02427308,
+        "tool_calls": {
+          "read": 22,
+          "web_search": 1,
+          "write": 8,
+          "structured_output": 1
+        }
+      },
+      {
+        "run_id": "597fcc52-f230-4332-9787-c5ce9989c8c2",
+        "stage": "adjudicator-02",
+        "workflow_run_id": "0cf92776-57e7-493e-a45f-bad4c39edcff",
+        "state": "completed",
+        "session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/26129e9c-6ad3-421f-8ca0-83ecfa2e32e8/run-0/session.jsonl",
+        "prompt_sha256": "0298f756620641ea0f373d379e62a22c19b198bdea6c78b3444dde8496231bd8",
+        "duration_ms": 134845,
+        "reported_usage": {
+          "input": 73504,
+          "output": 19059,
+          "cacheRead": 246784,
+          "cacheWrite": 0,
+          "totalTokens": 339347
+        },
+        "reported_cost_usd": 0.019347740000000002,
+        "tool_calls": {
+          "read": 24,
+          "write": 9,
+          "structured_output": 1
+        }
+      },
+      {
+        "run_id": "30ff0838-5ce4-4e0b-b53b-d0dc036fcf9f",
+        "stage": "finalcheck-01",
+        "workflow_run_id": "0cf92776-57e7-493e-a45f-bad4c39edcff",
+        "state": "completed",
+        "session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/a61229ad-a788-4dde-8ec1-9f9d6bce9b96/run-0/session.jsonl",
+        "prompt_sha256": "000454fe953d534ad405632c11f69e4d5ff4721d9633546bae98e253e85e3efe",
+        "duration_ms": 361871,
+        "reported_usage": {
+          "input": 111235,
+          "output": 18820,
+          "cacheRead": 995328,
+          "cacheWrite": 0,
+          "totalTokens": 1125383
+        },
+        "reported_cost_usd": 0.030486780000000005,
+        "tool_calls": {
+          "read": 32,
+          "write": 8,
+          "structured_output": 1
+        }
+      },
+      {
+        "run_id": "3bf131fd-bb0a-4311-b1f1-a5c1955ea5fd",
+        "stage": "finalcheck-02",
+        "workflow_run_id": "0cf92776-57e7-493e-a45f-bad4c39edcff",
+        "state": "completed",
+        "session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/e08e37cd-9cba-450b-8497-c063993717f3/run-0/session.jsonl",
+        "prompt_sha256": "5c7c7a7af20320a2cd6e1591a52d3ed57f7c27789f7dbd343d72e96795bb583c",
+        "duration_ms": 126330,
+        "reported_usage": {
+          "input": 112445,
+          "output": 19889,
+          "cacheRead": 491520,
+          "cacheWrite": 0,
+          "totalTokens": 623854
+        },
+        "reported_cost_usd": 0.0261042,
+        "tool_calls": {
+          "read": 35,
+          "write": 9,
+          "structured_output": 1
+        }
+      }
+    ],
+    "reported_usage": {
+      "input": 1187120,
+      "output": 197654,
+      "cacheRead": 5505024,
+      "cacheWrite": 0,
+      "totalTokens": 6889798
+    },
+    "reported_tokens": 6889798,
+    "reported_cost_usd": 0.27258924,
+    "research_tool_calls": {
+      "web_search": 25,
+      "source_check": 0,
+      "fetch_content": 10,
+      "get_search_content": 49
+    },
+    "initial_group_attributed_research_counts": {
+      "search_rounds": 103,
+      "full_page_reads": 55
+    },
+    "adjudication_additional_discovery": {
+      "tool_calls": 1,
+      "product_queries": 4,
+      "new_page_fetches": 0
+    },
+    "cost_caveat": "Provider/harness telemetry only, not an invoice; excludes parent orchestration and search-provider charges. Includes stopped/failed children and recovery overhead. Total tokens include cached reads."
+  },
+  "source_head": "0cfdc8fe74542545058773eb8e95fb022493d8ec",
+  "model": "openai-codex/gpt-6-luna",
+  "thinking": "high",
+  "input_sha256": {
+    "data/technology-product-categorization/products_cleaned.csv": "c9f0d234d3b66327250d7eb372e9fc962e06f16c2bc0181cc34654fdb897eb2b",
+    "data/technology-product-categorization/cleaning_report.json": "5ee112cdb293fbe0640b61e4790d389331b35b729a907263237a2ecade0c0e7b",
+    "data/technology-product-categorization/SOURCE.md": "57e9e64c9eec5261697db5561149b5e8af291a0f7253382ddae4e90f8ebd4ee0",
+    "notebooks/enterprise_products/LABELING_WORKFLOW.md": "5edd2604f6537609115389df5b5004ac09515900c252ee47d8ffd20c9807cad6",
+    "notebooks/enterprise_products/README.md": "9c751d9806edd46fb981c4ec829747c5c56cc80c321d85dd0ddd3a314d43f9a4",
+    "CONTEXT.md": "f12a9232c38d15fa507f71e2d272ea3fc22945ff2f5a58d3e78cb01dfa1da524",
+    "PROJECT_PLAN.md": "2a3332949dd2cc54118e2212c748867a70d3517bad1be48053d26c62f2df4c97",
+    "VISION.md": "b687cc074f71fb02bc90af8f849d316691c332e336c7884dc8b588fc5e0538ee"
+  },
+  "verification_continuation_elapsed_minutes": 17.34958333333333,
+  "projection_caveat": "Recovery overhead, cached tokens, evidence holds and the deliberately diverse 20-group sample make a full-run cost/duration forecast unreliable; no invoice-based budget established.",
+  "protocol_notes": "See ../PARENT_ACCEPTANCE.md and ../handoffs/resource_audit.json; initial four-round waivers retained, later mixed-group search disclosed, counters in model ledgers are not necessarily new-stage usage.",
+  "next_action": "Pause for explicit user approval before remaining groups; never silently change evidence/time/inclusion rules."
+}

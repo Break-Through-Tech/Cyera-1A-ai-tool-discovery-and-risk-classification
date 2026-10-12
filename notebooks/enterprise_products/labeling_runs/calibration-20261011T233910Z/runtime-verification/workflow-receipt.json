@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "workflowRunId": "0bfd8833-f375-4f43-abc8-58713673c61f",
+  "state": "stopped",
+  "createdAt": 1791781507038,
+  "entries": {
+    "evidence-01": {
+      "key": "evidence-01",
+      "continuation": {
+        "runIds": []
+      },
+      "resumability": {
+        "state": "not-resumable",
+        "reason": "child produced no run id"
+      }
+    },
+    "evidence-02": {
+      "key": "evidence-02",
+      "agent": "researcher",
+      "requestedContext": "fresh",
+      "resolvedContext": "fresh",
+      "outputReference": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/evidence-batch-02/result.verified.json",
+      "continuation": {
+        "runIds": [
+          "e9ec16e2-dd66-4057-be32-1f85753f8f14"
+        ]
+      },
+      "latestRunId": "e9ec16e2-dd66-4057-be32-1f85753f8f14",
+      "resumability": {
+        "state": "resumable"
+      }
+    }
+  },
+  "argsDigest": "22a8c80a0be9f07742609bd4ba4bc8ff5924a4385a4354121b82ca49d2c10691",
+  "workflowChildren": {
+    "version": 1,
+    "parentToolCallId": "call_UJiLSQBcx3QYbVqRnjmig5ua|fc_03fb1251223e86de016acc69fee06c8197afca83c8beb047a1",
+    "workflowRunId": "0bfd8833-f375-4f43-abc8-58713673c61f",
+    "inventoryComplete": true,
+    "workflowState": "stopped",
+    "children": [
+      {
+        "childId": "evidence-01",
+        "state": "stopped"
+      },
+      {
+        "childId": "evidence-02",
+        "state": "rejected",
+        "runId": "e9ec16e2-dd66-4057-be32-1f85753f8f14",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform ONLY the evidence stage for assigned IDs: enterpr...",
+        "model": "openai-codex/gpt-6-luna:high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "prior_run_id": "d99fa349-2145-4d2d-ae39-cec1ded725e0",
+  "stage": "blind",
+  "batch": "02",
+  "source_session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/c7750eb2-b511-41ef-873c-be5a23f052e6/run-0/session.jsonl",
+  "confirmed_stopped": true,
+  "consumed_allowances": {
+    "enterprise-7ac31d358d03a67becc7584222b72b9620ece17705166aa34c1e91878e7bfbf2": {
+      "search_rounds": 3,
+      "full_page_reads": 1
+    },
+    "enterprise-a13670dc9f0f50fb07bb7d262f991137039eeb39ce582d2883641aa5dc392c4a": {
+      "search_rounds": 3,
+      "full_page_reads": 2
+    },
+    "enterprise-c919e4317cf5e99281d5a3e757cace29d34ea25a7c2b19baf0b46fc8c2eaf024": {
+      "search_rounds": 2,
+      "full_page_reads": 0
+    },
+    "enterprise-0f6d79bef9eee30125b960bb4136df7959d235719365b35fd15cf280ae814d15": {
+      "search_rounds": 3,
+      "full_page_reads": 1
+    },
+    "enterprise-1d911d57ddcb9d0f1415194f1a6dfb39e1c90b1f1a9d4b81ea056f8b5cce1ef8": {
+      "search_rounds": 3,
+      "full_page_reads": 1
+    },
+    "enterprise-a305a1fcde5d9fac8e8ddeed05650ea3e0ea9a10ad3e24114eeefe1cd7f51491": {
+      "search_rounds": 2,
+      "full_page_reads": 1
+    },
+    "enterprise-3e4f26703a60dd07fc855cf044f72b4914e5488fbb2544927e4943c378141cc0": {
+      "search_rounds": 3,
+      "full_page_reads": 1
+    },
+    "enterprise-4842b4f8ab48aa6f5875ad11114630fc6a673d58385de64af01622d83de87327": {
+      "search_rounds": 2,
+      "full_page_reads": 1
+    },
+    "enterprise-438bcdcaf522b58ba3066f59932588d65fa269a60f1160c63dafeea36d33932a": {
+      "search_rounds": 3,
+      "full_page_reads": 1
+    },
+    "enterprise-1b5f8009c50c71a8fbf746634a2586bf11e6b79bcf31b6cbd38948276a6c020b": {
+      "search_rounds": 2,
+      "full_page_reads": 1
+    }
+  },
+  "remaining_allowances": {
+    "enterprise-7ac31d358d03a67becc7584222b72b9620ece17705166aa34c1e91878e7bfbf2": {
+      "search_rounds": 0,
+      "full_page_reads": 4
+    },
+    "enterprise-a13670dc9f0f50fb07bb7d262f991137039eeb39ce582d2883641aa5dc392c4a": {
+      "search_rounds": 0,
+      "full_page_reads": 3
+    },
+    "enterprise-c919e4317cf5e99281d5a3e757cace29d34ea25a7c2b19baf0b46fc8c2eaf024": {
+      "search_rounds": 1,
+      "full_page_reads": 5
+    },
+    "enterprise-0f6d79bef9eee30125b960bb4136df7959d235719365b35fd15cf280ae814d15": {
+      "search_rounds": 0,
+      "full_page_reads": 4
+    },
+    "enterprise-1d911d57ddcb9d0f1415194f1a6dfb39e1c90b1f1a9d4b81ea056f8b5cce1ef8": {
+      "search_rounds": 0,
+      "full_page_reads": 4
+    },
+    "enterprise-a305a1fcde5d9fac8e8ddeed05650ea3e0ea9a10ad3e24114eeefe1cd7f51491": {
+      "search_rounds": 1,
+      "full_page_reads": 4
+    },
+    "enterprise-3e4f26703a60dd07fc855cf044f72b4914e5488fbb2544927e4943c378141cc0": {
+      "search_rounds": 0,
+      "full_page_reads": 4
+    },
+    "enterprise-4842b4f8ab48aa6f5875ad11114630fc6a673d58385de64af01622d83de87327": {
+      "search_rounds": 1,
+      "full_page_reads": 4
+    },
+    "enterprise-438bcdcaf522b58ba3066f59932588d65fa269a60f1160c63dafeea36d33932a": {
+      "search_rounds": 0,
+      "full_page_reads": 4
+    },
+    "enterprise-1b5f8009c50c71a8fbf746634a2586bf11e6b79bcf31b6cbd38948276a6c020b": {
+      "search_rounds": 1,
+      "full_page_reads": 4
+    }
+  },
+  "completed_group_checkpoint_paths": [
+    "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/blind-batch-02/checkpoints/enterprise-7ac31d358d03a67becc7584222b72b9620ece17705166aa34c1e91878e7bfbf2.json"
+  ],
+  "prior_research_tool_events_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/blind-batch-02/prior_research_tool_events.json",
+  "checkpoint_counts_are_cumulative_on_continuation": true,
+  "retained_pages": [
+    {
+      "product_group_id": "enterprise-7ac31d358d03a67becc7584222b72b9620ece17705166aa34c1e91878e7bfbf2",
+      "url": "https://techdocs.broadcom.com/us/en/ca-enterprise-software/it-operations-management/performance-management/25-4/getting-started.html",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/blind-batch-02/retained_pages/mv4p9t4kcyhv4y-00.json",
+      "captured_at": "2026-10-12T03:36:15.284000+00:00",
+      "content_sha256": "5ceaad3b74fab89cccd5782c3f4591df38302840b646ab93e7ab6ab27987450d",
+      "has_content": true,
+      "error": null
+    },
+    {
+      "product_group_id": "enterprise-a13670dc9f0f50fb07bb7d262f991137039eeb39ce582d2883641aa5dc392c4a",
+      "url": "https://www.splunk.com/en_us/products/splunk-enterprise.html",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/blind-batch-02/retained_pages/mv4p9t4kcyhv4y-01.json",
+      "captured_at": "2026-10-12T03:36:15.284000+00:00",
+      "content_sha256": "3de869652ae5863c6d854659ccaec39e818c5353e8bd3afeaf7c819d8255b1a5",
+      "has_content": true,
+      "error": null
+    },
+    {
+      "product_group_id": "enterprise-a13670dc9f0f50fb07bb7d262f991137039eeb39ce582d2883641aa5dc392c4a",
+      "url": "https://www.splunk.com/en_us/products/ai-toolkit.html",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/blind-batch-02/retained_pages/mv4p9t4kcyhv4y-02.json",
+      "captured_at": "2026-10-12T03:36:15.284000+00:00",
+      "content_sha256": "b0d02868ec03f471ba8e7d3a52b510c0f37918c132936f9b4ffc12b6f71a5292",
+      "has_content": true,
+      "error": null
+    },
+    {
+      "product_group_id": "enterprise-0f6d79bef9eee30125b960bb4136df7959d235719365b35fd15cf280ae814d15",
+      "url": "https://www.ibm.com/new/announcements/announcing-tririga-application-suite-v11-6",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/blind-batch-02/retained_pages/mv4p9t4kcyhv4y-03.json",
+      "captured_at": "2026-10-12T03:36:15.284000+00:00",
+      "content_sha256": "96c0a4f230a55fb9fd1a81f707f211788fe5973b20edcb81a1246828159cf62d",
+      "has_content": true,
+      "error": null
+    },
+    {
+      "product_group_id": "enterprise-1d911d57ddcb9d0f1415194f1a6dfb39e1c90b1f1a9d4b81ea056f8b5cce1ef8",
+      "url": "https://help.hcl-software.com/workloadautomation/v1027/distr/src_ref/awsrgwkldserviceassurance.html",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/blind-batch-02/retained_pages/mv4p9t4kcyhv4y-04.json",
+      "captured_at": "2026-10-12T03:36:15.284000+00:00",
+      "content_sha256": "4b1e2f0523af0ba02b311aa847dfb0a00cc797f27fad151878bd0b83770ed98b",
+      "has_content": true,
+      "error": null
+    },
+    {
+      "product_group_id": "enterprise-a305a1fcde5d9fac8e8ddeed05650ea3e0ea9a10ad3e24114eeefe1cd7f51491",
+      "url": "https://documentation.alfabet.com/11-11/en/EAM_EAM_AIPort.html",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/blind-batch-02/retained_pages/mv4p9t4kcyhv4y-05.json",
+      "captured_at": "2026-10-12T03:36:15.284000+00:00",
+      "content_sha256": "3b5dd98afe2083861689d9eed8365ed3b9b71df6fe06f1cdfe47e2e2879fcd12",
+      "has_content": true,
+      "error": null
+    },
+    {
+      "product_group_id": "enterprise-3e4f26703a60dd07fc855cf044f72b4914e5488fbb2544927e4943c378141cc0",
+      "url": "https://www.enghousenetworks.com/products/network-management/network-testing/",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/blind-batch-02/retained_pages/mv4p9t4kcyhv4y-06.json",
+      "captured_at": "2026-10-12T03:36:15.284000+00:00",
+      "content_sha256": "6c517a0ab4022754281902a36e2321f4cf39d4cfde9b5ec8cf42398f01d5ed54",
+      "has_content": true,
+      "error": null
+    },
+    {
+      "product_group_id": "enterprise-4842b4f8ab48aa6f5875ad11114630fc6a673d58385de64af01622d83de87327",
+      "url": "https://www.solarwinds.com/dameware-remote-everywhere",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/blind-batch-02/retained_pages/mv4p9t4kcyhv4y-07.json",
+      "captured_at": "2026-10-12T03:36:15.284000+00:00",
+      "content_sha256": "8739fad5da45901b15137e3edcae93b43afea6aca529a073b36754c1baa3d6ec",
+      "has_content": true,
+      "error": null
+    },
+    {
+      "product_group_id": "enterprise-438bcdcaf522b58ba3066f59932588d65fa269a60f1160c63dafeea36d33932a",
+      "url": "https://evercoast.com/mavericks-multicam-capture",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/blind-batch-02/retained_pages/mv4p9t4kcyhv4y-08.json",
+      "captured_at": "2026-10-12T03:36:15.284000+00:00",
+      "content_sha256": "0a1f546a65ad8143527d94ac4f8a618304a098df7c04ae2392eb70c804fc01ae",
+      "has_content": true,
+      "error": null
+    },
+    {
+      "product_group_id": "enterprise-1b5f8009c50c71a8fbf746634a2586bf11e6b79bcf31b6cbd38948276a6c020b",
+      "url": "https://docs.cribl.io/stream/copilot-pipelines/",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/blind-batch-02/retained_pages/mv4p9t4kcyhv4y-09.json",
+      "captured_at": "2026-10-12T03:36:15.284000+00:00",
+      "content_sha256": "bba804b4dcb0a0b5f2644f68309d369df076ba4e4a2658ad3708f140fa070a13",
+      "has_content": true,
+      "error": null
+    }
+  ]
+}

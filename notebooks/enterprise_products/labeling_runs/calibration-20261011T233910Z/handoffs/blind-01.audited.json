@@ -1,0 +1,413 @@
+{
+  "stage": "blind",
+  "records": [
+    {
+      "product_group_id": "enterprise-42b9ddcca2aa2977c9d490677d5dc3e2314de0085cf03d115a7565bfcd19bf0b",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Current official Kalibrate material describes AI analysis features integrated into Kalibrate Location Intelligence. The record calls the offering Kalibrate/TAS and describes retail real-estate GIS; identity is plausibly related but exact product mapping and version are not established. Best call is AI-positive on product-family evidence, with weak forced applicability.",
+      "ai_type_rationale": "Location intelligence/GIS and market planning remain meaningful core functions independent of the assistant; AI augments them.",
+      "version_scope": "Unversioned dataset description; 2024 official launch snapshot and current KLI feature article show AI, but applicability to exact historical TAS offering is uncertain.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Product mapping from Kalibrate/TAS to Kalibrate Location Intelligence is plausible but not directly proven; temporal applicability unresolved.",
+        "Combined search call touched this zero-allowance group; original allowance was exceeded. Count reported at schema maximum; investigate/reconcile."
+      ],
+      "sources": [
+        {
+          "url": "https://kalibrate.com/insights/press-release/location-intelligence/revolutionize-real-estate-decisions-with-ai-powered-location-intelligence/",
+          "source_type": "official",
+          "excerpt": "Kalibrate Location Intelligence (KLI) ... with the launch of its AI-powered assistant. ... the AI tool into KLI",
+          "applicability": "Official August 2024 announcement ties AI assistant to KLI; exact match to unversioned TAS product is uncertain.",
+          "supports": [
+            "binary",
+            "identity"
+          ],
+          "captured_at": "2026-10-12T03:36:20.465000+00:00",
+          "capture_reference": "retained_pages/mv4p9x4h1pg7l0-00.json; source_response_id mv4p9x4h1pg7l0",
+          "publication_or_version": "August 2024 announcement"
+        },
+        {
+          "url": "https://kalibrate.com/insights/blog/ai-in-location-intelligence-see-it-in-action/",
+          "source_type": "official",
+          "excerpt": "AI has been integrated into the Kalibrate Location Intelligence platform. ... These AI capabilities ... work together within a unified platform.",
+          "applicability": "Official feature article explicitly describes AI integrated into KLI, supporting AI-enabled classification; exact version/record identity remains uncertain.",
+          "supports": [
+            "binary",
+            "subtype",
+            "identity"
+          ],
+          "captured_at": null,
+          "capture_reference": "fetch_content result in recovery run; timestamp not exposed",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 4,
+        "full_page_reads": 2
+      }
+    },
+    {
+      "product_group_id": "enterprise-630d36f6a3778fac81af12bd533284b6756bb70004acc8dec421f9f14528dd80",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "IBM's official IBM Cloud product page states the platform combines infrastructure, platform services, AI, and automation and describes AI capabilities. The dataset identifies the broad IBM Cloud service, so AI capabilities in the platform portfolio support AI-enabled. The source description emphasizes IaaS/virtual machines and does not date/version the specific represented service; applicability is somewhat uncertain.",
+      "ai_type_rationale": "Infrastructure-as-a-service and virtual machines remain meaningful core services without AI; AI is a capability alongside them.",
+      "version_scope": "Unversioned dataset description; current IBM Cloud portfolio documentation used, without proof of historical offering composition.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "No version/date for source-represented IBM Cloud; current portfolio applicability to the IaaS description is uncertain."
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/products/cloud",
+          "source_type": "official",
+          "excerpt": "IBM Cloud is an enterprise cloud platform ... It combines infrastructure, platform services, AI, and automation",
+          "applicability": "Official IBM Cloud product page supports AI present in the named platform portfolio; precise overlap with listed IaaS components is uncertain.",
+          "supports": [
+            "binary",
+            "subtype",
+            "identity"
+          ],
+          "captured_at": "2026-10-12T03:36:20.465000+00:00",
+          "capture_reference": "retained_pages/mv4p9x4h1pg7l0-01.json; source_response_id mv4p9x4h1pg7l0",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-253bc0fbef0f31bfbf2b7485f82a61ccc77697a60821aaa6fc2159103a0451fd",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Spring.NET is an application framework whose documented functions are dependency injection, IoC, AOP, web frameworks, transaction/data access and integrations. The product description and project documentation do not identify AI/ML functionality; available functionality coverage supports conventional developer infrastructure.",
+      "ai_type_rationale": null,
+      "version_scope": "Unversioned source record; project README describes Spring.NET 3.0.0 and core framework contents; exact record version unspecified.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": false,
+      "issues": [],
+      "sources": [
+        {
+          "url": "https://github.com/spring-projects/spring-net",
+          "source_type": "official",
+          "excerpt": "Spring.NET contains: A full featured Inversion of Control container; An Aspect Oriented Programming framework; ... Dependency Injection ... transaction management ... ADO.NET framework",
+          "applicability": "Project repository overview documents principal Spring.NET framework capabilities; no AI capability is identified in the extensive component/function list.",
+          "supports": [
+            "binary",
+            "identity"
+          ],
+          "captured_at": null,
+          "capture_reference": "fetch_content GitHub repository README; timestamp not exposed",
+          "publication_or_version": "README identifies Spring.NET 3.0.0 support"
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 2,
+        "full_page_reads": 2
+      }
+    },
+    {
+      "product_group_id": "enterprise-ba07141366ef73b6232b43a2bfeffbc02212e374e63bd44d9408b1a97bfce065",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The dataset identifies the managed Red Hat OpenShift-on-IBM-Cloud container platform. IBM's product page documents managed OpenShift, security, provisioning/lifecycle management and observability, conventional deployment/platform operations. IBM AI offerings elsewhere are not evidence that this service includes AI.",
+      "ai_type_rationale": null,
+      "version_scope": "Unversioned dataset offering; official current IBM page is specific to Red Hat OpenShift on IBM Cloud; historical release not specified.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": false,
+      "issues": [],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/products/openshift",
+          "source_type": "official",
+          "excerpt": "Red Hat OpenShift on IBM Cloud is a fully managed OpenShift cloud service designed with built-in security ... Identity and access management ... Schematics for provisioning and life cycle management ... Observability",
+          "applicability": "Officially documents the named managed OpenShift service and conventional operations relevant to the record; not IBM's separate AI products.",
+          "supports": [
+            "binary",
+            "identity"
+          ],
+          "captured_at": "2026-10-12T03:36:20.465000+00:00",
+          "capture_reference": "retained_pages/mv4p9x4h1pg7l0-03.json; source_response_id mv4p9x4h1pg7l0",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 2,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-a7cbc1828376f4a14a4eeff1f61d5eb3ca407f6f5da4c587d1e2d1adc4b9d2a1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The official IM Creator page describes a visual website editor, templates, responsive layouts, hosting and SEO tools. These are conventional website-building capabilities aligned with the record. The captured page does not exhaustively document optional features, and version/time applicability is unknown, so negative support is weak rather than treating absent AI wording as dispositive.",
+      "ai_type_rationale": null,
+      "version_scope": "Unversioned dataset description; contemporary official product page used, no evidence pins record to current release.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Current page documents core website-building features but offers limited historical/version coverage and does not establish absence of all optional AI features."
+      ],
+      "sources": [
+        {
+          "url": "https://www.imcreator.com/xprs",
+          "source_type": "official",
+          "excerpt": "Creating a website with IM Creator is simple, fast, and intuitive. Anyone can create a website ... using our industry-leading editor. No coding necessary! ... choose a template ... comprehensive SEO tools",
+          "applicability": "Official product page supports conventional website-builder functionality but does not address all versions or all optional functions.",
+          "supports": [
+            "binary",
+            "identity"
+          ],
+          "captured_at": "2026-10-12T03:36:20.465000+00:00",
+          "capture_reference": "retained_pages/mv4p9x4h1pg7l0-04.json; source_response_id mv4p9x4h1pg7l0",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-089c10ad67576eea90f5df75999b1ed33537724a01f01eafbd02dc2871e30f94",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Current official Cirrus Insight documentation calls its suite AI-driven and describes Meeting AI automating prospect/customer research and conversation intelligence. The source record's Cirrus Insight email/CRM integration remains meaningful without these features. The description is older/undated, and current AI feature inclusion in its represented version is not established; hence weak applicability.",
+      "ai_type_rationale": "Email-to-CRM syncing and Salesforce productivity are a meaningful conventional core offering; AI augments meeting preparation/conversation tools.",
+      "version_scope": "Unversioned dataset description; current product materials identify AI features, but no proof they were included in the historical represented release.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Historical feature inclusion/applicability not established for undated record."
+      ],
+      "sources": [
+        {
+          "url": "https://www.cirrusinsight.com/features",
+          "source_type": "official",
+          "excerpt": "Cirrus Insight provides a suite of AI-driven tools ... Meeting AI automates prospect and customer research",
+          "applicability": "Official product feature overview identifies current AI features within Cirrus Insight suite; exact version/inclusion in record is uncertain.",
+          "supports": [
+            "binary",
+            "subtype",
+            "identity"
+          ],
+          "captured_at": "2026-10-12T03:36:20.465000+00:00",
+          "capture_reference": "retained_pages/mv4p9x4h1pg7l0-05.json; source_response_id mv4p9x4h1pg7l0",
+          "publication_or_version": null
+        },
+        {
+          "url": "https://www.cirrusinsight.com/features/meeting-ai",
+          "source_type": "official",
+          "excerpt": "Meeting AI automates your prospect and customer research ... Leveraging the power of artificial intelligence, Meeting AI supplies users with comprehensive insights on companies and contacts",
+          "applicability": "Specific official page substantiates functionality of current Meeting AI, but does not prove historical availability in source-record version.",
+          "supports": [
+            "binary",
+            "identity"
+          ],
+          "captured_at": null,
+          "capture_reference": "fetch_content result; timestamp not exposed",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 2,
+        "full_page_reads": 2
+      }
+    },
+    {
+      "product_group_id": "enterprise-25002d5d47e674cb5904755918b2b8793f8fe69aba0ae7ccd6fd6983635d9aec",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The record is an IBM Cloud Pak for Integration virtual processor core, with no version. IBM's version 16.2 documentation identifies AI-assisted integration workflows and an LLM-powered conversational agent. But 16.2 is a specific later release, and the source text does not establish that these features apply to the represented entitlement. Best-supported call is weak forced AI-positive at product-family level.",
+      "ai_type_rationale": "Integration tooling retains meaningful integration-management function without the assistant; AI is an augmentation. Subtype is weak because feature applicability to source version is unproven.",
+      "version_scope": "Dataset has no release identifier; retained IBM docs cover Cloud Pak for Integration 16.2.0, updated 2026-10-01; historical applicability unresolved.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "IBM 16.2 AI agent evidence may not apply to unversioned VPC licensing record; combined search call touched zero-remaining-allowance group. Count reported at schema maximum; investigate/reconcile."
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/docs/en/cloud-paks/cp-integration/16.2.0?topic=overview",
+          "source_type": "official",
+          "excerpt": "Quickly create, test, and deploy integrations, with less code or even no code, by using APIs, automation, and AI assistance.",
+          "applicability": "Official 16.2.0 overview says Cloud Pak integration offers AI assistance; version scope differs from undated VPC item.",
+          "supports": [
+            "binary",
+            "subtype",
+            "identity"
+          ],
+          "captured_at": "2026-10-12T03:36:20.465000+00:00",
+          "capture_reference": "retained_pages/mv4p9x4h1pg7l0-06.json; source_response_id mv4p9x4h1pg7l0",
+          "publication_or_version": "Cloud Pak for Integration 16.2.0; page updated 2026-10-01"
+        },
+        {
+          "url": "https://www.ibm.com/docs/en/cloud-paks/cp-integration/16.2.0?topic=whats-new-in-cloud-pak-integration-1620",
+          "source_type": "official",
+          "excerpt": "The IBM Cloud Pak for Integration Agent ... enables a conversational interface that is powered by LLMs. Users can ask the interface to perform health checks, return the status of instances, troubleshoot problems, and find out if there are updates.",
+          "applicability": "Official release documentation confirms LLM-powered agent in 16.2, with explicit version limitation.",
+          "supports": [
+            "binary",
+            "identity"
+          ],
+          "captured_at": null,
+          "capture_reference": "fetch_content result; timestamp not exposed",
+          "publication_or_version": "Cloud Pak for Integration 16.2.0"
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 4,
+        "full_page_reads": 2
+      }
+    },
+    {
+      "product_group_id": "enterprise-b27392cb86df036af26c6bf1b235a33958737cea78efd07e38066b09e2998d0f",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Oracle's official Field Service page states that the product combines automation and embedded AI, with AI-driven workload forecasting and predictive scheduling. That is positive evidence for the named product. Traditional scheduling/dispatch, field technician coordination and parts functions remain meaningful without AI. Record is undated and may represent an older release, so temporal applicability is weak.",
+      "ai_type_rationale": "Scheduling, dispatch, mobile work orders and inventory can function meaningfully without AI; AI augments operations.",
+      "version_scope": "Unversioned record; current Oracle Field Service page used, historical feature applicability not dated.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Official AI evidence is current, while record version/date is unspecified."
+      ],
+      "sources": [
+        {
+          "url": "https://oracle.com/cx/service/field-service-management/",
+          "source_type": "official",
+          "excerpt": "Oracle Field Service combines automation and embedded AI to help plan, schedule, and execute field work ... Forecast demand with confidence ... AI-driven models that accurately predict workload",
+          "applicability": "Official product page explicitly links embedded AI and AI-driven forecast models to Oracle Field Service matching the record; chronology of source version unknown.",
+          "supports": [
+            "binary",
+            "subtype",
+            "identity"
+          ],
+          "captured_at": "2026-10-12T03:36:20.465000+00:00",
+          "capture_reference": "retained_pages/mv4p9x4h1pg7l0-07.json; source_response_id mv4p9x4h1pg7l0",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-9519c69b36189a49e18b7852b9df00e5b5e7da336f13cabd2a907be9bb4def57",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The record specifically describes DataRobot automated machine learning that builds and deploys predictive models. Official DataRobot Predictive AI documentation describes data preparation, feature engineering, model experimentation, supervised/unsupervised predictive models and deployment as the product's core. This qualifies directly under the AI/ML boundary.",
+      "ai_type_rationale": "The identified offering is a predictive AI/ML development platform; its core model-building and predictive functionality depends on AI/ML, not simply an optional AI feature.",
+      "version_scope": "Unversioned source record; current Predictive AI page establishes core capability consistent with explicit AutoML description; no historical release specified.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": false,
+      "issues": [],
+      "sources": [
+        {
+          "url": "https://www.datarobot.com/product/predictive-ai/",
+          "source_type": "official",
+          "excerpt": "Flexible model tuning at scale. Explore and test hundreds of models and variations ... Supervised models ... Turn your data into predictive models ... Unsupervised models. Uncover latent features and patterns",
+          "applicability": "Official DataRobot Predictive AI page documents ML model development as named offering's core and matches source description.",
+          "supports": [
+            "binary",
+            "subtype",
+            "identity"
+          ],
+          "captured_at": "2026-10-12T03:36:20.465000+00:00",
+          "capture_reference": "retained_pages/mv4p9x4h1pg7l0-08.json; source_response_id mv4p9x4h1pg7l0",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 2,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-6e9dbe6422b68aae343cdce248f51d3ee7457387c4a62f6774f7316f9780dffb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "PingPlotter Professional's official product page describes graphical ping/traceroute monitoring, target monitoring, route summaries, alerts/automation, REST API, and latency/packet-loss/jitter measurements. This supports conventional network diagnostics and describes core scope; no applicable AI function is documented.",
+      "ai_type_rationale": null,
+      "version_scope": "Unversioned dataset description; official Professional product page aligns with network troubleshooting product; release date unspecified.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": false,
+      "issues": [],
+      "sources": [
+        {
+          "url": "https://www.pingplotter.com/products/professional/",
+          "source_type": "official",
+          "excerpt": "Graphical ping and traceroute monitoring. ... Multi-target monitoring ... Notifications & automations ... Measure latency, packet loss, jitter, and MOS scores",
+          "applicability": "Official Professional product page documents core features of PingPlotter Pro, aligning to source description; automation is alerting/integration rather than AI.",
+          "supports": [
+            "binary",
+            "identity"
+          ],
+          "captured_at": "2026-10-12T03:36:20.465000+00:00",
+          "capture_reference": "retained_pages/mv4p9x4h1pg7l0-09.json; source_response_id mv4p9x4h1pg7l0",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "user_approval": "keep going, thats fine",
+  "disposition": "Retain existing extra evidence as a documented exception and continue only verification/adjudication; no repeat initial research.",
+  "scope": "Kalibrate and ICP4I blind-stage search counts only; future limits unchanged",
+  "approved_exceptions": [
+    {
+      "lane": "blind-01",
+      "product_group_id": "enterprise-42b9ddcca2aa2977c9d490677d5dc3e2314de0085cf03d115a7565bfcd19bf0b",
+      "product_name": "Kalibrate",
+      "actual_counts": {
+        "search_rounds": 4,
+        "full_page_reads": 2
+      },
+      "approved_limits": {
+        "search_rounds": 3,
+        "full_page_reads": 5
+      }
+    },
+    {
+      "lane": "blind-01",
+      "product_group_id": "enterprise-25002d5d47e674cb5904755918b2b8793f8fe69aba0ae7ccd6fd6983635d9aec",
+      "product_name": "ICP4I",
+      "actual_counts": {
+        "search_rounds": 4,
+        "full_page_reads": 2
+      },
+      "approved_limits": {
+        "search_rounds": 3,
+        "full_page_reads": 5
+      }
+    }
+  ],
+  "within_limit_counter_corrections": [
+    {
+      "lane": "blind-02",
+      "product_group_id": "enterprise-4842b4f8ab48aa6f5875ad11114630fc6a673d58385de64af01622d83de87327",
+      "product_name": "Dameware Remote Everywhere",
+      "actual": {
+        "search_rounds": 3,
+        "full_page_reads": 1
+      },
+      "reported": {
+        "search_rounds": 2,
+        "full_page_reads": 1
+      }
+    }
+  ],
+  "actual_counts_authoritative": true,
+  "remainder_authorized": false
+}

@@ -1,0 +1,11 @@
+{
+  "run_id": "0cf92776-57e7-493e-a45f-bad4c39edcff",
+  "mission_id": "66ff06cb-4f81-4d45-ac9f-f52015675c6b",
+  "workflow": "workflow-acceptance-recovery.js",
+  "scope": "20-group calibration only",
+  "model": "openai-codex/gpt-6-luna:high",
+  "completed_work_preserved": ["All 40 labeler/blind judgments", "All ten evidence-batch-02 judgments", "Evidence-batch-01 Kalibrate checkpoint"],
+  "configuration_fix": "Required separate native acceptanceReport with actual validation commands; persisted artifact still checked by host gate",
+  "tests": ["Reproduced commands-run rejection using installed harness", "Complete report with real saved-artifact checker returned verified", "Continuation routing and no-completed-stage-reruns self-check passed", "Native workflow validation passed"],
+  "revisit_trigger": "Native completion or supervisor request. Validate all saved artifacts and report calibration; no remainder work without user approval."
+}

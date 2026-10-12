@@ -1,0 +1,65 @@
+{
+  "product_group_id": "enterprise-1b5f8009c50c71a8fbf746634a2586bf11e6b79bcf31b6cbd38948276a6c020b",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "Provisional AI-positive/enabled. Official Cribl docs enumerate Copilot Editor for creating/editing data-transformation pipelines and state Cribl AI is native across supported products; current Stream has a conventional collect/reduce/shape data core. This satisfies current offering positivity, but source description is undated and feature availability depends on products/deployment/provider. Labeler and blind agree on current AI but assign weak/forced applicability; retain flags.",
+  "ai_type_rationale": "The record's Edge/Stream telemetry collection, reduction, enrichment, normalization and routing remain meaningful without AI; Copilot enhances rather than constitutes that core. Current product documentation supports this functional inference, but historical scope is unverified.",
+  "version_scope": "No date/version in record. Current suite docs list capabilities and provider/deployment dependence; cannot establish when AI entered the record-represented version.",
+  "grouping_conflict": false,
+  "structural_blocker": false,
+  "needs_adjudication": true,
+  "issues": [
+    "Undated source record; AI feature historical applicability uncertain.",
+    "Availability varies by product/deployment and configured provider; Cribl docs say AI entry points do not operate without provider.",
+    "Group combines Edge and Stream; shared group assumed by frozen input, no conflict shown."
+  ],
+  "sources": [
+    {
+      "url": "https://docs.cribl.io/copilot/",
+      "source_type": "official",
+      "excerpt": "Cribl AI includes ... Copilot Editor: Helps you create and edit data transformation Pipelines. ... Cribl AI is a native part of the Cribl product suite. ... No AI provider is configured. AI feature entry points stay visible, but they aren\u2019t operational until you configure a provider.",
+      "applicability": "Official current Cribl suite documentation directly identifies pipeline-assistant AI and native suite status; feature availability varies by product/deployment and requires a provider. Historical application unknown.",
+      "supports": [
+        "binary",
+        "subtype"
+      ],
+      "captured_at": null,
+      "capture_reference": "labeler-batch-02/retained_recovery_pages/5fed14f3df26b63b393e.json; response mv4qbtnkr0cawd",
+      "publication_or_version": null
+    },
+    {
+      "url": "https://cribl.io/products/stream/",
+      "source_type": "official",
+      "excerpt": "Collect, reduce, and shape your data with Cribl Stream. Our product offers a simple way to drive your data engine forward.",
+      "applicability": "Official current Stream page supports conventional core for enabled subtype; not historical version evidence.",
+      "supports": [
+        "identity",
+        "subtype"
+      ],
+      "captured_at": null,
+      "capture_reference": "labeler-batch-02/retained_recovery_pages/182c9b6f88cf0cf6826f.json; response mv4qbtnkr0cawd",
+      "publication_or_version": null
+    },
+    {
+      "url": "frozen-input:inputs/batch-02.json#source_record_number=1305;1306",
+      "source_type": "source_dataset",
+      "excerpt": "Cribl Stream is a vendor-agnostic observability pipeline ... collect, reduce, enrich, normalize, and route data ... Cribl Edge provides ... automatic log discovery and metrics production.",
+      "applicability": "Both assigned records describe Edge and Stream functionality; establishes meaningful conventional core, but no AI/date information.",
+      "supports": [
+        "identity",
+        "subtype"
+      ],
+      "captured_at": null,
+      "capture_reference": "inputs/batch-02.json source_record_numbers 1305 and 1306",
+      "publication_or_version": null
+    }
+  ],
+  "research_counts": {
+    "search_rounds": 5,
+    "full_page_reads": 6
+  }
+}

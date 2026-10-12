@@ -1,0 +1,14 @@
+{
+  "product_group_id":"enterprise-42b9ddcca2aa2977c9d490677d5dc3e2314de0085cf03d115a7565bfcd19bf0b",
+  "ai_status":"ai","ai_type":"ai_enabled","evidence_strength":"weak","forced_decision":true,"ai_type_evidence_strength":"supported","ai_type_forced_decision":false,
+  "rationale":"Final evidence check: Kalibrate's official AI-in-Location-Intelligence feature page says AI is integrated into KLI and describes K.ai and AI-generated market summaries. This makes an AI-positive call plausible at product-family level, but the record identifies TAS and no source explicitly equates TAS with KLI or dates inclusion in the represented version. Keep the adjudicated best-supported AI call weak/forced; do not transfer evidence from unrelated Kalibrate products.",
+  "ai_type_rationale":"Retail location intelligence/GIS and site planning retain meaningful core functionality without the AI assistant; AI-enabled is supported.",
+  "version_scope":"Undated record identifies TAS, a Kalibrate Company. KLI's AI feature is explicit, but exact TAS/KLI equivalence and historical inclusion are unverified.",
+  "grouping_conflict":false,"structural_blocker":false,"needs_adjudication":false,
+  "issues":["TAS/KLI product mapping and historical feature applicability are not established; binary remains weak/forced."],
+  "sources":[
+    {"url":"https://kalibrate.com/insights/blog/ai-in-location-intelligence-see-it-in-action/","source_type":"official","excerpt":"We’re pulling back the curtain to show you exactly how AI has been integrated into the Kalibrate Location Intelligence platform. ... Meet K.ai – the conversational AI assistant that makes navigating complex location intelligence workflows as simple as asking a question.","applicability":"Official KLI product-family feature page explicitly documents AI integration; it does not establish that KLI is identical to the record's TAS offering or when the feature applied.","supports":["binary","subtype","identity"],"captured_at":null,"capture_reference":"blind-batch-01/retained_recovery_pages/ea8f017af65782798ce1.json","publication_or_version":null},
+    {"url":"inputs/batch-01.json#/groups/enterprise-42b9ddcca2aa2977c9d490677d5dc3e2314de0085cf03d115a7565bfcd19bf0b/records/217","source_type":"source_dataset","excerpt":"TAS is a software platform designed to enhance your retail real estate processes. It provides the information people need to make better decisions faster using the platform that meets their needs - desktop GIS, online or mobile apps. TAS is a Kalibrate Company.","applicability":"Frozen source record establishes TAS/Kalibrate retail real-estate identity, but not equivalence to KLI or AI inclusion.","supports":["identity"],"captured_at":null,"capture_reference":"inputs/batch-01.json, source_record_number 217","publication_or_version":null}
+  ],
+  "research_counts":{"search_rounds":7,"full_page_reads":3}
+}

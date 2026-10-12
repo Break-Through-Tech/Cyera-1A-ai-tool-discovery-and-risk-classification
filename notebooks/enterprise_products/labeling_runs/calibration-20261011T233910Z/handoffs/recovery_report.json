@@ -1,0 +1,87 @@
+{
+  "status": "workflow stopped; candidate handoffs recovered",
+  "accepted_final_labels": 0,
+  "recovered_stage_judgments": 40,
+  "original_inputs_unchanged": true,
+  "handoffs": [
+    {
+      "lane": "labeler-01",
+      "source_run_id": "95e1ae5a-f907-4bf1-a27e-2f007cea2fc5",
+      "source_session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/849df9ed-7ea8-4102-9235-09b16e3f3978/run-0/session.jsonl",
+      "structured_tool_call_id": "call_919762e03552433b802287b93e25b11e|fc_0ff5b95e05fd8de0016acc5cbe02d48197a7675572fc3ff2e0",
+      "recovered_handoff": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/handoffs/labeler-01.json",
+      "sha256": "17e39bbe1b274c255f58da859bddafb4bcc06c6817e08bbef351ecdb24e24583",
+      "group_count": 10,
+      "research_cap_warnings": [],
+      "writes_outside_assigned_lane": [],
+      "status": "candidate recovered, not evidence-verified"
+    },
+    {
+      "lane": "blind-01",
+      "source_run_id": "4b0c5977-614e-410f-bb47-7801a24a73d4",
+      "source_session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/4cf1216d-c4aa-44a9-9727-b78ceb4f7636/run-0/session.jsonl",
+      "structured_tool_call_id": "call_d68b86a5e6494075b1d55cc5311bb22f|fc_077d73486a7100f8016acc5cd610548194bb14958d76aba1c5",
+      "recovered_handoff": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/handoffs/blind-01.json",
+      "sha256": "53edcb489f18e718e8ddc21701325e632ccedebe5d83e891a6106618a1ca73dc",
+      "group_count": 10,
+      "research_cap_warnings": [
+        {
+          "product_group_id": "enterprise-42b9ddcca2aa2977c9d490677d5dc3e2314de0085cf03d115a7565bfcd19bf0b",
+          "issues": [
+            "Product mapping from Kalibrate/TAS to Kalibrate Location Intelligence is plausible but not directly proven; temporal applicability unresolved.",
+            "Combined search call touched this zero-allowance group; original allowance was exceeded. Count reported at schema maximum; investigate/reconcile."
+          ]
+        },
+        {
+          "product_group_id": "enterprise-25002d5d47e674cb5904755918b2b8793f8fe69aba0ae7ccd6fd6983635d9aec",
+          "issues": [
+            "IBM 16.2 AI agent evidence may not apply to unversioned VPC licensing record; combined search call touched zero-remaining-allowance group. Count reported at schema maximum; investigate/reconcile."
+          ]
+        }
+      ],
+      "writes_outside_assigned_lane": [],
+      "status": "candidate recovered, not evidence-verified"
+    },
+    {
+      "lane": "labeler-02",
+      "source_run_id": "03fa2a0a-8c78-4397-b946-99e037cbbac6",
+      "source_session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/6315f36e-6f6e-4af9-adca-616fac4604bb/run-0/session.jsonl",
+      "structured_tool_call_id": "call_df8db6c970424d8c8a778530c086a140|fc_0d434281cb44cfbe016acc5d1c21dc8190a3fcdfc9ad5209c5",
+      "recovered_handoff": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/handoffs/labeler-02.json",
+      "sha256": "273048d87a010a30c9489891ec98c849067039b3d1e9f25d25c73e6497369f92",
+      "group_count": 10,
+      "research_cap_warnings": [],
+      "writes_outside_assigned_lane": [
+        "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeler-batch-02/checkpoints/enterprise-7ac31d358d03a67becc7584222b72b9620ece17705166aa34c1e91878e7bfbf2.json",
+        "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeler-batch-02/checkpoints/enterprise-a13670dc9f0f50fb07bb7d262f991137039eeb39ce582d2883641aa5dc392c4a.json",
+        "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeler-batch-02/checkpoints/enterprise-c919e4317cf5e99281d5a3e757cace29d34ea25a7c2b19baf0b46fc8c2eaf024.json",
+        "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeler-batch-02/checkpoints/enterprise-0f6d79bef9eee30125b960bb4136df7959d235719365b35fd15cf280ae814d15.json",
+        "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeler-batch-02/checkpoints/enterprise-1d911d57ddcb9d0f1415194f1a6dfb39e1c90b1f1a9d4b81ea056f8b5cce1ef8.json",
+        "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeler-batch-02/checkpoints/enterprise-a305a1fcde5d9fac8e8ddeed05650ea3e0ea9a10ad3e24114eeefe1cd7f51491.json",
+        "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeler-batch-02/checkpoints/enterprise-3e4f26703a60dd07fc855cf044f72b4914e5488fbb2544927e4943c378141cc0.json",
+        "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeler-batch-02/checkpoints/enterprise-4842b4f8ab48aa6f5875ad11114630fc6a673d58385de64af01622d83de87327.json",
+        "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeler-batch-02/checkpoints/enterprise-438bcdcaf522b58ba3066f59932588d65fa269a60f1160c63dafeea36d33932a.json",
+        "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeler-batch-02/checkpoints/enterprise-1b5f8009c50c71a8fbf746634a2586bf11e6b79bcf31b6cbd38948276a6c020b.json",
+        "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeler-batch-02/result.json"
+      ],
+      "status": "candidate recovered, not evidence-verified"
+    },
+    {
+      "lane": "blind-02",
+      "source_run_id": "85447025-ac4c-4636-9eb9-0e54ac6d2efe",
+      "source_session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/75ec0b08-95ae-4873-a28e-c283db5bf0fd/run-0/session.jsonl",
+      "structured_tool_call_id": "call_30ddfe0070a34d38b05e761989cf2fc1|fc_0336e7977ce6e4a7016acc5cd3532081978e9f943ecbacdb30",
+      "recovered_handoff": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/handoffs/blind-02.json",
+      "sha256": "e1673d491428d2dfee8578995108d3411080864e73cc2be28c6dc95a5636b3d1",
+      "group_count": 10,
+      "research_cap_warnings": [],
+      "writes_outside_assigned_lane": [],
+      "status": "candidate recovered, not evidence-verified"
+    }
+  ],
+  "limitations": [
+    "Original missing/empty/malformed artifacts were not manually edited.",
+    "Recorded research counters with admitted clamping require actual-call reconciliation before acceptance.",
+    "These are first-stage proposals, not accepted final binary/subtype labels."
+  ]
+}

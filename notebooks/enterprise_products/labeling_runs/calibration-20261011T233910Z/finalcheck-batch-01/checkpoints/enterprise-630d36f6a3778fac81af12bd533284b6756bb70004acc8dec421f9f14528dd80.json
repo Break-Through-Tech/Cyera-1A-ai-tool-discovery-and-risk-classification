@@ -1,0 +1,14 @@
+{
+  "product_group_id":"enterprise-630d36f6a3778fac81af12bd533284b6756bb70004acc8dec421f9f14528dd80",
+  "ai_status":"ai","ai_type":"ai_enabled","evidence_strength":"weak","forced_decision":true,"ai_type_evidence_strength":"weak","ai_type_forced_decision":true,
+  "rationale":"Final check confirms the official IBM Cloud product page explicitly says IBM Cloud combines infrastructure and platform services with AI and automation, and separately details IaaS/compute/storage. However the record specifies IaaS, storage, and VM use without showing whether AI is included in that service bundle or is a separately selected portfolio service. Preserve the adjudicated best-supported AI call, weak/forced for the binary and subtype.",
+  "ai_type_rationale":"IaaS, storage and virtual machines remain a meaningful core without AI; AI-enabled is the best-supported subtype if the platform-level AI statement applies, but bundle applicability remains uncertain.",
+  "version_scope":"No version/date in source record. Current IBM Cloud portfolio evidence does not establish historical service composition for the represented IaaS/VM use.",
+  "grouping_conflict":false,"structural_blocker":false,"needs_adjudication":false,
+  "issues":["IBM Cloud umbrella AI claim may concern separate services rather than the specified IaaS/VM offering; historical applicability unresolved."],
+  "sources":[
+    {"url":"https://www.ibm.com/products/cloud","source_type":"official","excerpt":"IBM Cloud is an enterprise cloud platform for building, running, and managing applications across hybrid and multicloud environments. It combines infrastructure, platform services, AI, and automation with strong security and compliance capabilities... A full range of self-service and managed services delivered via the IBM Cloud Platform. Infrastructure as a Service (IaaS) Bare metal and virtual servers.","applicability":"Official IBM Cloud portfolio page directly claims AI and identifies IaaS within the service portfolio, but does not say AI is included in the row's specific IaaS/VM offering.","supports":["binary","subtype","identity"],"captured_at":"2026-10-12T03:36:20.465000+00:00","capture_reference":"blind-batch-01/retained_pages/mv4p9x4h1pg7l0-01.json; SHA-256 16358a4a51e41b36a69d50ae05a44ebbba600c751d6cdb08819bdc95e71f1c44","publication_or_version":null},
+    {"url":"inputs/batch-01.json#/groups/enterprise-630d36f6a3778fac81af12bd533284b6756bb70004acc8dec421f9f14528dd80/records/601","source_type":"source_dataset","excerpt":"Infrastructure as a service ecloud (850), Storage (819), Virtual machine use (9017)","applicability":"Frozen record identifies IBM Cloud infrastructure/storage/VM usage; version and included feature bundle are unspecified.","supports":["identity"],"captured_at":null,"capture_reference":"inputs/batch-01.json, source_record_number 601","publication_or_version":null}
+  ],
+  "research_counts":{"search_rounds":7,"full_page_reads":2}
+}

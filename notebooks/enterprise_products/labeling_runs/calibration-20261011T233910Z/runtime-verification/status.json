@@ -1,0 +1,151 @@
+{
+  "runId": "0bfd8833-f375-4f43-abc8-58713673c61f",
+  "toolCallId": "call_UJiLSQBcx3QYbVqRnjmig5ua|fc_03fb1251223e86de016acc69fee06c8197afca83c8beb047a1",
+  "sessionId": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7.jsonl",
+  "completionOwnerId": "4fdfdf80-f2b8-4cf7-ab60-67755f16c851",
+  "mode": "workflow",
+  "state": "stopped",
+  "startedAt": 1791781395422,
+  "lastUpdate": 1791781507042,
+  "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification",
+  "sessionRoot": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7",
+  "pid": 113158,
+  "steps": [
+    {
+      "agent": "researcher",
+      "sessionName": "researcher: Perform ONLY the evidence stage for assigned IDs: enterpr...",
+      "label": "Verify cited evidence for batch 01",
+      "workflowKey": "evidence-01",
+      "parentWorkflowRunId": "0bfd8833-f375-4f43-abc8-58713673c61f",
+      "status": "stopped",
+      "startedAt": 1791781395561,
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/693f7150-b3fb-47c0-9530-04dd204bd725/run-0/session.jsonl",
+      "async": true,
+      "runId": "d1df9bb9-b828-4360-ac4c-d390ab1a8b99",
+      "stopped": true,
+      "error": "Workflow stopped."
+    },
+    {
+      "agent": "researcher",
+      "sessionName": "researcher: Perform ONLY the evidence stage for assigned IDs: enterpr...",
+      "label": "Verify cited evidence for batch 02",
+      "workflowKey": "evidence-02",
+      "parentWorkflowRunId": "0bfd8833-f375-4f43-abc8-58713673c61f",
+      "status": "failed",
+      "startedAt": 1791781395716,
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/5ed4ae2f-591e-4b7f-b8b2-e25d25f6297f/run-0/session.jsonl",
+      "async": true,
+      "runId": "e9ec16e2-dd66-4057-be32-1f85753f8f14",
+      "error": "Run fan-out: 2/64 used, 62 remaining\nAcceptance rejected: commands-run evidence missing from child report.\nSaved output: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/evidence-batch-02/result.verified.json",
+      "durationMs": 85761,
+      "tokens": {
+        "input": 77506,
+        "output": 10930,
+        "total": 88436
+      },
+      "turnCount": 7
+    }
+  ],
+  "workflow": {
+    "trace": [
+      {
+        "operation": "run",
+        "key": "evidence-01",
+        "state": "started",
+        "label": "Verify cited evidence for batch 01",
+        "agent": "researcher"
+      },
+      {
+        "operation": "run",
+        "key": "evidence-02",
+        "state": "started",
+        "label": "Verify cited evidence for batch 02",
+        "agent": "researcher"
+      },
+      {
+        "operation": "run",
+        "key": "evidence-02",
+        "state": "failed",
+        "durationMs": 85761,
+        "label": "Verify cited evidence for batch 02",
+        "agent": "researcher",
+        "runId": "e9ec16e2-dd66-4057-be32-1f85753f8f14",
+        "error": "Run fan-out: 2/64 used, 62 remaining\nAcceptance rejected: commands-run evidence missing from child report.\nSaved output: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/evidence-batch-02/result.verified.json"
+      },
+      {
+        "operation": "run",
+        "key": "evidence-01",
+        "state": "stopped",
+        "agent": "researcher",
+        "label": "Verify cited evidence for batch 01",
+        "error": "Workflow stopped."
+      }
+    ],
+    "emits": [],
+    "console": [],
+    "args": {
+      "runDirectory": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z",
+      "groupsByBatch": [
+        [
+          "enterprise-42b9ddcca2aa2977c9d490677d5dc3e2314de0085cf03d115a7565bfcd19bf0b",
+          "enterprise-630d36f6a3778fac81af12bd533284b6756bb70004acc8dec421f9f14528dd80",
+          "enterprise-253bc0fbef0f31bfbf2b7485f82a61ccc77697a60821aaa6fc2159103a0451fd",
+          "enterprise-ba07141366ef73b6232b43a2bfeffbc02212e374e63bd44d9408b1a97bfce065",
+          "enterprise-a7cbc1828376f4a14a4eeff1f61d5eb3ca407f6f5da4c587d1e2d1adc4b9d2a1",
+          "enterprise-089c10ad67576eea90f5df75999b1ed33537724a01f01eafbd02dc2871e30f94",
+          "enterprise-25002d5d47e674cb5904755918b2b8793f8fe69aba0ae7ccd6fd6983635d9aec",
+          "enterprise-b27392cb86df036af26c6bf1b235a33958737cea78efd07e38066b09e2998d0f",
+          "enterprise-9519c69b36189a49e18b7852b9df00e5b5e7da336f13cabd2a907be9bb4def57",
+          "enterprise-6e9dbe6422b68aae343cdce248f51d3ee7457387c4a62f6774f7316f9780dffb"
+        ],
+        [
+          "enterprise-7ac31d358d03a67becc7584222b72b9620ece17705166aa34c1e91878e7bfbf2",
+          "enterprise-a13670dc9f0f50fb07bb7d262f991137039eeb39ce582d2883641aa5dc392c4a",
+          "enterprise-c919e4317cf5e99281d5a3e757cace29d34ea25a7c2b19baf0b46fc8c2eaf024",
+          "enterprise-0f6d79bef9eee30125b960bb4136df7959d235719365b35fd15cf280ae814d15",
+          "enterprise-1d911d57ddcb9d0f1415194f1a6dfb39e1c90b1f1a9d4b81ea056f8b5cce1ef8",
+          "enterprise-a305a1fcde5d9fac8e8ddeed05650ea3e0ea9a10ad3e24114eeefe1cd7f51491",
+          "enterprise-3e4f26703a60dd07fc855cf044f72b4914e5488fbb2544927e4943c378141cc0",
+          "enterprise-4842b4f8ab48aa6f5875ad11114630fc6a673d58385de64af01622d83de87327",
+          "enterprise-438bcdcaf522b58ba3066f59932588d65fa269a60f1160c63dafeea36d33932a",
+          "enterprise-1b5f8009c50c71a8fbf746634a2586bf11e6b79bcf31b6cbd38948276a6c020b"
+        ]
+      ]
+    },
+    "argsDigest": "22a8c80a0be9f07742609bd4ba4bc8ff5924a4385a4354121b82ca49d2c10691",
+    "scriptDigest": "cb489cd0403a13155497cc68b9e2f1223c672f7ba7bf99f35010cae9f3835ba4"
+  },
+  "workflowChildren": {
+    "version": 1,
+    "parentToolCallId": "call_UJiLSQBcx3QYbVqRnjmig5ua|fc_03fb1251223e86de016acc69fee06c8197afca83c8beb047a1",
+    "workflowRunId": "0bfd8833-f375-4f43-abc8-58713673c61f",
+    "inventoryComplete": true,
+    "workflowState": "stopped",
+    "children": [
+      {
+        "childId": "evidence-01",
+        "state": "stopped",
+        "runId": "d1df9bb9-b828-4360-ac4c-d390ab1a8b99",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform ONLY the evidence stage for assigned IDs: enterpr..."
+      },
+      {
+        "childId": "evidence-02",
+        "state": "failed",
+        "runId": "e9ec16e2-dd66-4057-be32-1f85753f8f14",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform ONLY the evidence stage for assigned IDs: enterpr..."
+      }
+    ]
+  },
+  "runFanoutBudget": {
+    "used": 2,
+    "limit": 64,
+    "remaining": 62
+  },
+  "turnCount": 7,
+  "stopped": true,
+  "error": "Workflow stopped.",
+  "endedAt": 1791781507037,
+  "workflowReceiptPath": "/tmp/pi-subagents-uid-1000/async-subagent-runs/0bfd8833-f375-4f43-abc8-58713673c61f/workflow-receipt.json"
+}

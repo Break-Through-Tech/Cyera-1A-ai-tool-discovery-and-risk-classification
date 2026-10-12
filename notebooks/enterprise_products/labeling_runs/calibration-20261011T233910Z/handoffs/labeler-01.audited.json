@@ -1,0 +1,369 @@
+{
+  "stage": "labeler",
+  "records": [
+    {
+      "product_group_id": "enterprise-42b9ddcca2aa2977c9d490677d5dc3e2314de0085cf03d115a7565bfcd19bf0b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Official Kalibrate Location Intelligence page documents geospatial data visualization, demographic/competitor reports, sales-forecast reports using models, thematic maps, loyalty/foot-traffic reports, bulk mapping/reporting, and data import/API. No AI/ML is identified; the page does not establish comprehensive historical functionality, so non-AI is weak/forced. Kalibrate Fuel Pricing AI is a different product and is not evidence for this product.",
+      "ai_type_rationale": null,
+      "version_scope": "No release/version in record. Current official Location Intelligence page is undated; historical applicability is unresolved.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Limited feature coverage; no evidence whether model-based forecasts use AI or apply to the record's version."
+      ],
+      "sources": [
+        {
+          "url": "https://kalibrate.com/kalibrate-location-intelligence-software/",
+          "source_type": "official",
+          "excerpt": "Kalibrate Location Intelligence allows users to view, edit, and add any first party data related to your customers, locations, or competitors. Users can run demographic and competitor reports and create sales forecast reports using models that are developed and integrated for use. ... visualize thematic maps ... customer loyalty data ... mobile/foot traffic data.",
+          "applicability": "Official page identifies Kalibrate Location Intelligence, matching the retail real-estate/location platform in the record. It documents product functions but does not identify the source or nature of its forecasting models.",
+          "supports": [
+            "binary"
+          ],
+          "captured_at": "2026-10-12T03:36:00.174000+00:00",
+          "capture_reference": "retained_pages/mv4p9hgux1yf3j-00.json; sha256 3d4decd843c05f63b22c3f88e77ad2c16bde96143f4346c4c1ff8a119dd7b39c",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 2,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-630d36f6a3778fac81af12bd533284b6756bb70004acc8dec421f9f14528dd80",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "IBM's official IBM Cloud page states that IBM Cloud combines infrastructure, platform services, AI and automation and describes AI capabilities. This qualifies for the identified broad platform under the operational rule, but the page does not establish AI inclusion in the record's IaaS/virtual machine use or distinguish services from separately selected portfolio products. Binary is weak/forced.",
+      "ai_type_rationale": "The record identifies IaaS, storage and virtual machine use—a meaningful cloud infrastructure core independent of AI. AI augments that core if the current broad offering applies, but record granularity/version makes subtype weak.",
+      "version_scope": "No release/version in record; current broad platform page's applicability to the represented IaaS service/version is uncertain.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Broad portfolio page may include separately selected AI services; source-record IaaS service/version is undated."
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/cloud",
+          "source_type": "official",
+          "excerpt": "IBM Cloud is an enterprise cloud platform for building, running, and managing applications across hybrid and multicloud environments. It combines infrastructure, platform services, AI, and automation...",
+          "applicability": "Official IBM Cloud product page, but current broad platform scope may not apply to the source-record IaaS/virtualization SKU.",
+          "supports": [
+            "binary",
+            "subtype"
+          ],
+          "captured_at": "2026-10-12T03:36:00.174000+00:00",
+          "capture_reference": "retained_pages/mv4p9hgux1yf3j-01.json; sha256 f6b2b169a68591d9c05e5a640b3a4e211e7ccf2040b583c9efb8e72e4b8661fe",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-253bc0fbef0f31bfbf2b7485f82a61ccc77697a60821aaa6fc2159103a0451fd",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Official Spring.NET site identifies an open-source application framework and describes reusable components based on proven design patterns integrated across application tiers; frozen record describes infrastructural support for .NET development. No applicable AI function is evidenced. Available documentation is limited, so negative is weak/forced rather than based only on keyword absence.",
+      "ai_type_rationale": null,
+      "version_scope": "No version in record; official product overview is undated and may not cover all source-represented functionality.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Limited official feature coverage and no historical version identification."
+      ],
+      "sources": [
+        {
+          "url": "https://springframework.net/",
+          "source_type": "official",
+          "excerpt": "Spring.NET is an open source application framework that makes building enterprise .NET applications easier. Providing components based on proven design patterns that can be integrated into all tiers of your application architecture...",
+          "applicability": "Official Spring.NET page matches the named open-source .NET application framework and supports conventional functionality; it does not document an exhaustive feature set.",
+          "supports": [
+            "binary"
+          ],
+          "captured_at": "2026-10-12T03:36:00.174000+00:00",
+          "capture_reference": "retained_pages/mv4p9hgux1yf3j-02.json; sha256 c83a6b430d6e86dc2fa5757ea47a94212bec81eb9b1c44dd6920b173649f8782",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-ba07141366ef73b6232b43a2bfeffbc02212e374e63bd44d9408b1a97bfce065",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Official Red Hat OpenShift page states OpenShift can build and run AI and manage predictive and generative AI models across hybrid cloud environments. This is AI functionality in the application platform. Current page evidence cannot establish its presence in the undated source-record version, so binary is weak/forced.",
+      "ai_type_rationale": "OpenShift remains a broad platform for building, deploying, running and managing applications; AI model lifecycle is an additional workload capability, not the sole core offering.",
+      "version_scope": "Record identifies managed OpenShift on IBM Cloud but no version. Current Red Hat page covers OpenShift generally and lists IBM Cloud as managed partner; historical applicability is unresolved.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Undated source record and current product evidence; AI feature availability may have evolved."
+      ],
+      "sources": [
+        {
+          "url": "https://www.redhat.com/en/technologies/cloud-computing/openshift",
+          "source_type": "official",
+          "excerpt": "Build and run AI. Manage the lifecycle of predictive and generative AI models at scale, across hybrid cloud environments.",
+          "applicability": "Official Red Hat OpenShift page explicitly describes AI model lifecycle capability and identifies IBM Cloud as a managed cloud partner; presence in the source-record version is not established.",
+          "supports": [
+            "binary",
+            "subtype"
+          ],
+          "captured_at": "2026-10-12T03:36:00.174000+00:00",
+          "capture_reference": "retained_pages/mv4p9hgux1yf3j-03.json; sha256 7fc94e51f9e6eacf838126bb9c9df83344a7b04a383c36b8fdb2dea6368f9202",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-a7cbc1828376f4a14a4eeff1f61d5eb3ca407f6f5da4c587d1e2d1adc4b9d2a1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Official IM Creator page documents a visual editor, templates, responsive layouts, publishing/hosting and SEO tools. No AI functionality is documented, but this brief overview does not cover the full feature set or establish historical applicability; non-AI is weak/forced.",
+      "ai_type_rationale": null,
+      "version_scope": "No record version/date; captured official overview may not match represented historical release.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Official product overview is limited and source record is undated."
+      ],
+      "sources": [
+        {
+          "url": "https://www.imcreator.com/",
+          "source_type": "official",
+          "excerpt": "Creating a website with IM Creator is simple, fast, and intuitive. Anyone can create a website in a matter of minutes, using our industry-leading editor. No coding necessary! ... choose a template ... comprehensive SEO tools out-of-the-box...",
+          "applicability": "Official page identifies the same IM Creator website builder and documents conventional editing and SEO functions; it is not exhaustive and contains no applicable AI statement.",
+          "supports": [
+            "binary"
+          ],
+          "captured_at": "2026-10-12T03:36:00.174000+00:00",
+          "capture_reference": "retained_pages/mv4p9hgux1yf3j-04.json; sha256 af87d543a703893ba8a012e084546f1cd34966c417c4f362b272014c7070b20f",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 2,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-089c10ad67576eea90f5df75999b1ed33537724a01f01eafbd02dc2871e30f94",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Official Cirrus Insight Meeting AI page explicitly says the feature leverages artificial intelligence and automates pre-meeting research using Salesforce activity and trusted/public sources; it is listed among Cirrus Insight features. The page does not establish inclusion in the source-record version versus a separate option, and the record is undated; binary is weak/forced.",
+      "ai_type_rationale": "The record's Gmail/Salesforce integration and email/calendar/contact productivity remain a meaningful core offering without Meeting AI, making the product AI-enabled if this feature applies.",
+      "version_scope": "Current official Meeting AI page; source record has no version/date and describes conventional CRM integration. Feature inclusion/availability for represented version unresolved.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Current Meeting AI page does not clarify availability or packaging in the source-represented offering/version."
+      ],
+      "sources": [
+        {
+          "url": "https://www.cirrusinsight.com/features/meeting-ai",
+          "source_type": "official",
+          "excerpt": "Leveraging the power of artificial intelligence, Meeting AI supplies users with comprehensive insights on companies and contacts ahead of scheduled meetings. ... Meeting AI gathers and surfaces what matters most from Salesforce and trusted sources...",
+          "applicability": "Official Cirrus Insight feature page gives explicit AI evidence for the product family; historical availability and packaging in the record's offering are not established.",
+          "supports": [
+            "binary",
+            "subtype"
+          ],
+          "captured_at": "2026-10-12T03:36:00.174000+00:00",
+          "capture_reference": "retained_pages/mv4p9hgux1yf3j-05.json; sha256 021b90d44140819a5e463aedb2567ac43fb4fa97dcc5c1cb7959bd6510043c7e",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 2,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-25002d5d47e674cb5904755918b2b8793f8fe69aba0ae7ccd6fd6983635d9aec",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "IBM's official Cloud Pak for Integration page calls it AI-powered, says AI is used across the integration lifecycle, and describes AI automatically performing complex tasks in App Connect. This is explicit product AI. Source record identifies a virtual processor core without version; historical applicability uncertain, so binary weak/forced.",
+      "ai_type_rationale": "Cloud Pak for Integration provides meaningful integration functionality (APIs, events, messaging, files, applications) independent of AI; AI automates and enhances integration tasks, supporting AI-enabled.",
+      "version_scope": "Current IBM page; source-record virtual processor core has no release/version and may predate AI capabilities.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "No source-record release/version; current AI functionality may not apply historically."
+      ],
+      "sources": [
+        {
+          "url": "https://www.ibm.com/products/cloud-pak-for-integration",
+          "source_type": "official",
+          "excerpt": "An AI-powered integration. IBM Cloud Pak for Integration is a container-native, self-managed platform that unifies APIs, events, messaging, files, and applications under a single control plane. With AI across the lifecycle... AI that automatically performs time-intensive, complex tasks with App Connect.",
+          "applicability": "Official page identifies the exact Cloud Pak for Integration product and explicitly associates AI with it; availability in the undated vCPU record is unknown.",
+          "supports": [
+            "binary",
+            "subtype"
+          ],
+          "captured_at": "2026-10-12T03:36:00.174000+00:00",
+          "capture_reference": "retained_pages/mv4p9hgux1yf3j-06.json; sha256 c027a93a98932d03ae018d1940edccad1ba040eb84fd685eb631fe856dde4780",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-b27392cb86df036af26c6bf1b235a33958737cea78efd07e38066b09e2998d0f",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Oracle's official Field Service page explicitly states the product combines automation and embedded AI, uses AI-driven models to forecast demand, and embeds AI across field service capabilities at no additional charge. This is explicit product AI, not a separate add-on. Scheduling, dispatch, routing and field operations remain useful without AI, supporting AI-enabled.",
+      "ai_type_rationale": "Field-service management includes substantial conventional scheduling/dispatch, technician, parts and workflow functions; embedded predictive AI enhances rather than constitutes the whole core.",
+      "version_scope": "Record has no release/version. Official page describes current Oracle Field Service; historical version cannot be pinned, though product identity and no-extra-charge AI applicability are explicit.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": false,
+      "issues": [
+        "Historical version/date is not supplied; current page is available product-specific evidence."
+      ],
+      "sources": [
+        {
+          "url": "https://oracle.com/cx/service/field-service-management/",
+          "source_type": "official",
+          "excerpt": "Oracle Field Service combines automation and embedded AI to help plan, schedule, and execute field work... Forecast demand with confidence ... AI-driven models ... AI at no extra cost. Oracle embeds AI across field service capabilities at no additional charge.",
+          "applicability": "Official Oracle page explicitly identifies Oracle Field Service and says AI is embedded at no extra cost; record functionality matches field-service management.",
+          "supports": [
+            "binary",
+            "subtype"
+          ],
+          "captured_at": "2026-10-12T03:36:00.174000+00:00",
+          "capture_reference": "retained_pages/mv4p9hgux1yf3j-07.json; sha256 732641a896e999ac69cc4a4c4340bf339e4a44901485f5718ff53f3f45d0b9ba",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 2,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-9519c69b36189a49e18b7852b9df00e5b5e7da336f13cabd2a907be9bb4def57",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "DataRobot's official platform page describes a unified AI team platform, AI infrastructure, and tools for creating AI applications. Frozen record specifically describes automated ML used to build and deploy predictive models. AI/ML model development and deployment are the product-defining offering.",
+      "ai_type_rationale": "The listed Enterprise AI product is a predictive analytics/automated machine-learning platform; without model-building and deployment, its core offering would not meaningfully exist, supporting AI-native.",
+      "version_scope": "Current official platform page and source record identify DataRobot Enterprise AI/automated ML; no release/version is supplied. Exact historical page alignment unavailable, but core identity/function is explicit in frozen record.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": false,
+      "issues": [
+        "No explicit release/version date in record."
+      ],
+      "sources": [
+        {
+          "url": "https://www.datarobot.com/platform/",
+          "source_type": "official",
+          "excerpt": "Unify your AI team with feature-rich tools tailored to their roles. ... AI Platform ... Run your AI infrastructure where you need it — from in the cloud to on-premise. ... Explore how DataRobot can help you create unique AI applications your business will use every day.",
+          "applicability": "Official DataRobot platform page matches the AI/ML platform identity; frozen source description independently specifies automated ML for predictive model development and deployment.",
+          "supports": [
+            "binary",
+            "subtype"
+          ],
+          "captured_at": "2026-10-12T03:36:00.174000+00:00",
+          "capture_reference": "retained_pages/mv4p9hgux1yf3j-08.json; sha256 ad279f7d6127fe10d4f4b1ae3ef74de557cd88203151d9a0e75491ba9705a08b",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-6e9dbe6422b68aae343cdce248f51d3ee7457387c4a62f6774f7316f9780dffb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "PingPlotter Professional official page documents network-route ping/traceroute monitoring, network bottleneck/interference/hardware diagnosis, multi-target tracing, summaries, alerts/API, standard latency/packet-loss/jitter/MOS metrics and reports. This describes conventional diagnostic measurement and alerting, with no AI functionality in the substantive product description; supported negative is not based solely on keyword absence.",
+      "ai_type_rationale": null,
+      "version_scope": "Current Professional page matches PingPlotter Pro monitoring/troubleshooting identity; source record does not identify release/version.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": false,
+      "issues": [],
+      "sources": [
+        {
+          "url": "https://www.pingplotter.com/products/professional/",
+          "source_type": "official",
+          "excerpt": "Graphical ping and traceroute monitoring. ... Identify bandwidth bottlenecks, wireless interference, or faulty hardware ... Trace as many as 250 targets ... Measure latency, packet loss, jitter, and MOS scores ... Shareable reports.",
+          "applicability": "Official Professional product page describes the same PingPlotter network monitoring and troubleshooting offering and its substantive measurement, alerting and reporting functions.",
+          "supports": [
+            "binary"
+          ],
+          "captured_at": "2026-10-12T03:36:00.174000+00:00",
+          "capture_reference": "retained_pages/mv4p9hgux1yf3j-09.json; sha256 682e41354d6954d347ba8365df845d59e8cfda19669d09d2278dccc081b52359",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 2,
+        "full_page_reads": 1
+      }
+    }
+  ]
+}

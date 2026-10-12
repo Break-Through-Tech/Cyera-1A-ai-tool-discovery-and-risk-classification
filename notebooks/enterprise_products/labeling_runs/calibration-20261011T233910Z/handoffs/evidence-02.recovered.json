@@ -1,0 +1,603 @@
+{
+  "stage": "evidence",
+  "records": [
+    {
+      "product_group_id": "enterprise-7ac31d358d03a67becc7584222b72b9620ece17705166aa34c1e91878e7bfbf2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Provisional best-supported non-AI call. VA TRM documentation links DX NetOps Performance Management to former CA SPIM and describes monitoring, storage, analysis and display of network/service quality data; successor docs mention predictive analytics but do not establish AI. No applicable AI capability was established. Not exhaustive and historical scope uncertain. Both proposals agree on binary, but labeler weak/forced versus blind supported; retain weakness and adjudicate applicability.",
+      "ai_type_rationale": null,
+      "version_scope": "Input gives no release/date. VA entry dated 2024-04-19 covers VA-owned versions; Broadcom 25.4 is successor evidence only, not exact historical mapping.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Support-strength disagreement: labeler weak/forced versus blind supported.",
+        "No exhaustive historical feature inventory or exact version mapping.",
+        "The labeler's Broadcom product landing capture was cookie/download shell; not evidence of absence."
+      ],
+      "sources": [
+        {
+          "url": "https://www.oit.va.gov/services/trm/ToolPage.aspx?tid=5589",
+          "source_type": "secondary",
+          "excerpt": "DX NetOps Performance Management monitors, stores, analyzes, and displays information for assuring service quality across large, complex, multi-technology, multi-vendor network infrastructure. ... DX NetOps Performance Management is the new name for CA Systems Performance for Infrastructure Managers (SPIM). Broadcom purchased this technology from CA Technologies.",
+          "applicability": "VA TRM entry links CA-origin SPIM to DX NetOps and describes conventional monitoring functions; relevant identity/function evidence but not a complete historical feature inventory.",
+          "supports": [
+            "binary",
+            "identity"
+          ],
+          "captured_at": null,
+          "capture_reference": "labeler-batch-02/retained_recovery_pages/bc6ab98cbbd97c04b653.json; response mv4qbtnkr0cawd",
+          "publication_or_version": "VA decision 2024-04-19"
+        },
+        {
+          "url": "https://techdocs.broadcom.com/us/en/ca-enterprise-software/it-operations-management/performance-management/25-4/getting-started.html",
+          "source_type": "official",
+          "excerpt": "DX NetOps Performance Management monitors, stores, analyzes, and displays information for assuring service quality across large, complex, multi-technology, multi-vendor network infrastructure. Key features include intelligent analytics, customizable dashboards, and predictive analytics; configurable and dynamic projections provide insight into capacity planning.",
+          "applicability": "Blind-retained 25.4 successor documentation. Predictive analytics/projections do not explicitly establish AI and do not prove historical scope.",
+          "supports": [
+            "binary",
+            "identity"
+          ],
+          "captured_at": "2026-10-12T03:36:15.284000+00:00",
+          "capture_reference": "blind-batch-02/retained_pages/mv4p9t4kcyhv4y-00.json; response mv4p9t4kcyhv4y",
+          "publication_or_version": "25.4"
+        },
+        {
+          "url": "frozen-input:inputs/batch-02.json#source_record_number=575",
+          "source_type": "source_dataset",
+          "excerpt": "CA Performance Management is a converged network operations monitoring solution that discovers traditional, physical inventories as well as modern, dynamic inventories in virtual and logical overlays. CA Performance Management is a comprehensive and highly scalable network performance monitoring and analytics platform.",
+          "applicability": "Exact assigned identity and description; analytics alone is not AI evidence.",
+          "supports": [
+            "identity",
+            "binary"
+          ],
+          "captured_at": null,
+          "capture_reference": "inputs/batch-02.json source_record_number 575",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 5,
+        "full_page_reads": 3
+      }
+    },
+    {
+      "product_group_id": "enterprise-a13670dc9f0f50fb07bb7d262f991137039eeb39ce582d2883641aa5dc392c4a",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Provisional AI-positive, enabled. Official Splunk Enterprise feature documentation explicitly presents AI Toolkit machine-learning features and official MLTK docs state platform search has ML integrated in SPL. Conventional search/analysis/visualization core remains useful without AI. Labeler supported vs blind weak/forced; the source has no date/version, so current product evidence cannot establish historical inclusion. Preserve forced binary uncertainty.",
+      "ai_type_rationale": "ML features enhance a conventional search, analysis and visualization platform; the data description independently identifies that meaningful core.",
+      "version_scope": "No version/date in input. Current official Splunk Enterprise documentation confirms present offering but not the record's historical feature scope.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Binary support disagreement caused by unverified historical feature availability.",
+        "Current MLTK/platform evidence must be distinguished from optional separately installed MLTK app; integrated SPL ML is also documented."
+      ],
+      "sources": [
+        {
+          "url": "https://www.splunk.com/en_us/products/splunk-enterprise-features.html",
+          "source_type": "official",
+          "excerpt": "AI Toolkit ... Incorporate AI and Machine Learning into your data strategy ... Use pre-built Splunk machine learning analytics ... or create your own custom machine learning models ... extends the Splunk platform with outlier and anomaly detection, predictive analytics and clustering to filter out the noise.",
+          "applicability": "Official Splunk Enterprise features page documents ML extension; page presents AI Toolkit within Enterprise features, but exact historical inclusion is undated.",
+          "supports": [
+            "binary"
+          ],
+          "captured_at": null,
+          "capture_reference": "labeler-batch-02/retained_recovery_pages/fac375911f808bcb0109.json; response mv4qbtnkr0cawd",
+          "publication_or_version": null
+        },
+        {
+          "url": "https://help.splunk.com/en/splunk-cloud-platform/apply-machine-learning/use-ai-toolkit/5.5.0/introduction-to-the-splunk-machine-learning-toolkit/welcome-to-the-splunk-machine-learning-toolkit",
+          "source_type": "official",
+          "excerpt": "The Splunk Machine Learning Toolkit (MLTK) is an app available for both Splunk Enterprise and Splunk Cloud Platform users through Splunkbase. ... Core Platform Search: The Splunk platform has machine learning capabilities integrated in the SPL.",
+          "applicability": "Official documentation separates an add-on app from ML built into core platform search, supporting qualifying functionality; no mapping to record's date.",
+          "supports": [
+            "binary",
+            "subtype"
+          ],
+          "captured_at": null,
+          "capture_reference": "labeler-batch-02/retained_recovery_pages/42f0e0d57aea39b9a59f.json; response mv4qbtnkr0cawd",
+          "publication_or_version": "Last updated 2025-07-15"
+        },
+        {
+          "url": "frozen-input:inputs/batch-02.json#source_record_number=1145",
+          "source_type": "source_dataset",
+          "excerpt": "Search, analysis and visualization for actionable insights from all of your data",
+          "applicability": "Identifies conventional core offering that remains meaningful without AI.",
+          "supports": [
+            "identity",
+            "subtype"
+          ],
+          "captured_at": null,
+          "capture_reference": "inputs/batch-02.json source_record_number 1145",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 5,
+        "full_page_reads": 4
+      }
+    },
+    {
+      "product_group_id": "enterprise-c919e4317cf5e99281d5a3e757cace29d34ea25a7c2b19baf0b46fc8c2eaf024",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Provisional best-supported non-AI for historical NetProspex. D&B's 2015 acquisition announcement identifies a professional contact database, data cleansing/enrichment, Workbench services, target-market analysis and audience acquisition, without stating AI. Both judgments are weak/forced; this is not comprehensive functionality evidence, so absence of AI mention is not proof. Current D&B AI offerings do not transfer to NetProspex.",
+      "ai_type_rationale": null,
+      "version_scope": "Historical source dated 2015-01-08; record version not specified. Current D&B product capabilities excluded as inapplicable.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "No comprehensive historical feature inventory; negative remains weak and forced.",
+        "Both proposals independently lack product/version-specific coverage."
+      ],
+      "sources": [
+        {
+          "url": "https://news.cision.com/dun---bradstreet/r/dun---bradstreet-acquires-netprospex-to-deliver-largest-global-reach-and-insight-on-companies-and-th,c9704175",
+          "source_type": "secondary",
+          "excerpt": "The acquisition combines NetProspex\u2019s comprehensive professional contact database with Dun & Bradstreet\u2019s proprietary global business data and analytics. ... The addition of the NetProspex Workbench data services platform and CleneStep methodology ... helps marketing and sales organizations optimize their marketing data management practices.",
+          "applicability": "D&B press announcement hosted by Cision, dated 2015-01-08, directly describing NetProspex at acquisition; detailed but not comprehensive AI-exclusion evidence.",
+          "supports": [
+            "binary",
+            "identity"
+          ],
+          "captured_at": null,
+          "capture_reference": "labeler-batch-02/retained_recovery_pages/ecf0ccef66fed02438fe.json; response mv4qbtnkr0cawd",
+          "publication_or_version": "2015-01-08"
+        },
+        {
+          "url": "frozen-input:inputs/batch-02.json#source_record_number=152",
+          "source_type": "source_dataset",
+          "excerpt": "NetProspex's data services platform and its approach to measuring data quality ... help B2B marketers identify, analyze and prioritize opportunities.",
+          "applicability": "Assigned product description corroborates historical data-service identity; analytics language alone is not AI evidence.",
+          "supports": [
+            "identity",
+            "binary"
+          ],
+          "captured_at": null,
+          "capture_reference": "inputs/batch-02.json source_record_number 152",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 5,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-0f6d79bef9eee30125b960bb4136df7959d235719365b35fd15cf280ae814d15",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Adopt AI-positive, enabled. The frozen source description itself explicitly says TRIRIGA applies AI to facility/real-estate insights, which meets the accepted product-level AI claim rule; IBM v11.6 independently corroborates AI-powered monitoring in TRIRIGA. This supports AI despite labeler weak/forced vs blind supported. Retain applicability caveat because exact record version/date is unknown; evidence is sufficient for the record's own explicit claim but not a precise release mapping.",
+      "ai_type_rationale": "TRIRIGA's real-estate/facility management offering includes meaningful conventional functions; the record describes AI as a way to unlock insights, supporting enhancement rather than AI-dependent core.",
+      "version_scope": "No version/date. Source record explicitly names AI; official additional corroboration is TRIRIGA Application Suite v11.6 and does not establish that the record is that version.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Evidence-strength disagreement: labeler weak/forced versus blind supported; source-level explicit AI claim supports positive under rubric, but exact historical version/date remains unknown.",
+        "IBM successor Maximo page describes newer AI capabilities; not relied on as historical proof."
+      ],
+      "sources": [
+        {
+          "url": "frozen-input:inputs/batch-02.json#source_record_number=1042",
+          "source_type": "source_dataset",
+          "excerpt": "Through the smart application of data, IoT and AI, TRIRIGA helps you unlock key information and insights, giving greater visibility into space and facility utilization, occupant experience, capital projects, and lease administration and accounting.",
+          "applicability": "Exact frozen product description explicitly attributes AI to TRIRIGA, meeting accepted operational positive-claim rule; input has no original publication date/version.",
+          "supports": [
+            "binary",
+            "identity",
+            "subtype"
+          ],
+          "captured_at": null,
+          "capture_reference": "inputs/batch-02.json source_record_number 1042",
+          "publication_or_version": null
+        },
+        {
+          "url": "https://www.ibm.com/new/announcements/announcing-tririga-application-suite-v11-6",
+          "source_type": "official",
+          "excerpt": "This new AI-powered monitoring capability provides visibility into real-time occupancy, energy, environmental and facility asset data to assist teams to confidently make decisions and take actions to optimize their property portfolios.",
+          "applicability": "Official announcement directly identifies TRIRIGA Application Suite v11.6 and corroborates AI functionality, but does not date/map the source-record version.",
+          "supports": [
+            "binary",
+            "identity",
+            "subtype"
+          ],
+          "captured_at": "2026-10-12T03:36:15.284000+00:00",
+          "capture_reference": "blind-batch-02/retained_pages/mv4p9t4kcyhv4y-03.json; response mv4p9t4kcyhv4y",
+          "publication_or_version": "TRIRIGA Application Suite v11.6"
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 5,
+        "full_page_reads": 3
+      }
+    },
+    {
+      "product_group_id": "enterprise-1d911d57ddcb9d0f1415194f1a6dfb39e1c90b1f1a9d4b81ea056f8b5cce1ef8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Provisional best-supported non-AI for the named Workload Service Assurance feature. HCL docs describe deadline calculations, job promotion and priority/resource assignment, conventional scheduling mechanics. Broader HWA 10 AI anomaly detection exists but is not attributed to this feature; do not transfer suite AI. Neither lane documented the whole product/included functionality, so retain weak/forced non-AI pending adjudication.",
+      "ai_type_rationale": null,
+      "version_scope": "Record supplies no product version; 'Milestone #8' is not treated as a version. Feature docs are HWA v10.2.6 and broader AI source is HWA 10.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Product-level included-feature coverage incomplete; binary negative remains weak/forced.",
+        "Broader HWA AI anomaly-detection evidence does not establish AI in the identified optional Service Assurance feature; applicability unresolved."
+      ],
+      "sources": [
+        {
+          "url": "https://help.hcl-software.com/workloadautomation/v1026/distr/src_ref/awsrgenablewsa.html",
+          "source_type": "official",
+          "excerpt": "The workload service assurance feature is enabled and disabled by the global option enWorkloadServiceAssurance. It is enabled by default. ... calculates a critical start time ... promoted job is assigned additional operating system resources and its submission is prioritized.",
+          "applicability": "Official feature-specific HWA v10.2.6 documentation describes deterministic deadline/priority operation; does not cover all product features.",
+          "supports": [
+            "binary",
+            "identity"
+          ],
+          "captured_at": null,
+          "capture_reference": "labeler-batch-02/retained_recovery_pages/95b0e1eaa58ab9f68ffb.json; response mv4qbtnkr0cawd",
+          "publication_or_version": "HCL Workload Automation 10.2.6"
+        },
+        {
+          "url": "https://www.workloadautomation-community.com/blogs/enhancing-observability-with-ai-in-hcl-workload-automation",
+          "source_type": "official",
+          "excerpt": "HWA 10 introduces AI-powered anomaly detection for workloads ... AI Data Advisory ... big data machine learning analytics technologies applied to the data from Workload Automation.",
+          "applicability": "Official broader suite AI feature is potential conflicting evidence, but retained material does not connect it to the named Service Assurance feature.",
+          "supports": [
+            "binary"
+          ],
+          "captured_at": null,
+          "capture_reference": "labeler-batch-02/retained_recovery_pages/1bdb785ff26209bd5743.json; response mv4qbtnkr0cawd",
+          "publication_or_version": "HWA 10"
+        },
+        {
+          "url": "frozen-input:inputs/batch-02.json#source_record_number=1181",
+          "source_type": "source_dataset",
+          "excerpt": "Workload service assurance is an optional feature that allows you to identify critical jobs and to ensure that they are processed in a timely manner. (Milestone #8)",
+          "applicability": "Exact named optional feature; the record gives no release/version.",
+          "supports": [
+            "identity",
+            "binary"
+          ],
+          "captured_at": null,
+          "capture_reference": "inputs/batch-02.json source_record_number 1181",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 5,
+        "full_page_reads": 3
+      }
+    },
+    {
+      "product_group_id": "enterprise-a305a1fcde5d9fac8e8ddeed05650ea3e0ea9a10ad3e24114eeefe1cd7f51491",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Adopt AI-positive, enabled. The frozen description explicitly says Alfabet uses AI technologies to deliver SPM. Official Alfabet docs additionally show an AI Assistant searching online help, while the AI Portfolio Management use case requires a license and activation and is not used as sole evidence. AI augments a meaningful enterprise architecture/SPM core. Both proposals agree; preserve uncertainty about configuration and record version.",
+      "ai_type_rationale": "SPM and enterprise architecture remain meaningful without AI; AI functions enhance the broader offering rather than define its entire core.",
+      "version_scope": "Input has no release/date. Documentation versions 11.13 and 11.9 may postdate record; cloud/on-prem availability and separately licensed/activated capabilities vary.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Record version/SKU absent; AI assistant and optional AI Portfolio Management applicability varies by configuration.",
+        "No direct date for the source-record claim; preserve temporal uncertainty."
+      ],
+      "sources": [
+        {
+          "url": "frozen-input:inputs/batch-02.json#source_record_number=1051",
+          "source_type": "source_dataset",
+          "excerpt": "Alfabet uses state-of-the-art AI technologies to deliver a powerful strategic portfolio management (SPM) solution.",
+          "applicability": "Direct claim in assigned product description; satisfies accepted positive-evidence policy even without date/version, but source publication context is unavailable.",
+          "supports": [
+            "binary",
+            "identity"
+          ],
+          "captured_at": null,
+          "capture_reference": "inputs/batch-02.json source_record_number 1051",
+          "publication_or_version": null
+        },
+        {
+          "url": "https://documentation.alfabet.com/11-13/en/ExUP_Help_Introduction.html",
+          "source_type": "official",
+          "excerpt": "An AI Assistant is available on the Alfabet to search for answers in the online help. ... For cloud customers, the help is automatically available. If you are installing Alfabet on premise, installation of the context-sensitive help ... only makes sense if your installation is based on the pre-configured Alfabet solution.",
+          "applicability": "Product-specific functional AI assistant evidence, with explicit cloud/on-prem conditions; current 11.13 documentation not version-mapped to record.",
+          "supports": [
+            "binary",
+            "subtype"
+          ],
+          "captured_at": null,
+          "capture_reference": "labeler-batch-02/retained_recovery_pages/925edf5a68c31add8f33.json; response mv4qbtnkr0cawd",
+          "publication_or_version": "Alfabet 11.13"
+        },
+        {
+          "url": "https://documentation.alfabet.com/11-9/en/EAM_EAM_AIPort.html",
+          "source_type": "official",
+          "excerpt": "To work with Alfabet's AI portfolio management capabilities, you must have a license to Enterprise Architecture Management. The use case AI Portfolio Management must be enabled.",
+          "applicability": "Shows a separate conditional AI use case; not relied on as base-package evidence.",
+          "supports": [
+            "binary"
+          ],
+          "captured_at": null,
+          "capture_reference": "labeler-batch-02/retained_recovery_pages/af2bdbbdd95351e58a3e.json; response mv4qbtnkr0cawd",
+          "publication_or_version": "Alfabet 11.9"
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 5,
+        "full_page_reads": 4
+      }
+    },
+    {
+      "product_group_id": "enterprise-3e4f26703a60dd07fc855cf044f72b4914e5488fbb2544927e4943c378141cc0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Provisional best-supported non-AI call for 4Tel, described as telecom repair/troubleshooting and line testing. Available Enghouse pages concern general network operations/testing and do not identify 4Tel. They offer no credible product-specific AI contradiction, but likewise cannot establish comprehensive conventional functionality. Both proposals weak/forced; do not treat missing AI mentions as proof.",
+      "ai_type_rationale": null,
+      "version_scope": "No release/date; current Enghouse portfolio/category pages are not explicitly linked to historical 4Tel.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "No product-specific 4Tel documentation retained; vendor/category-level evidence does not establish applicability.",
+        "Negative is forced and needs further adjudication."
+      ],
+      "sources": [
+        {
+          "url": "https://www.enghousenetworks.com/",
+          "source_type": "official",
+          "excerpt": "Operators need one shared view of performance, incidents, topology and customer-impacting service degradation. ... Coordinate network planning, fulfilment and field workflows from a shared operational model.",
+          "applicability": "Current vendor-level portfolio description only; not identified as 4Tel and not an exhaustive feature list.",
+          "supports": [
+            "binary"
+          ],
+          "captured_at": null,
+          "capture_reference": "labeler-batch-02/retained_recovery_pages/938475e98da5e65079c4.json; response mv4qbtnkr0cawd",
+          "publication_or_version": null
+        },
+        {
+          "url": "https://www.enghousenetworks.com/products/network-management/network-testing/",
+          "source_type": "official",
+          "excerpt": "Enghouse Networks\u2019 automated network testing solutions help service providers maintain fiber network performance, reduce costly truck rolls, and resolve service issues faster. ... Broadband Network Test enables customer service and field repair teams to identify and resolve issues affecting voice, video, and data services.",
+          "applicability": "Blind retained current category documentation is functionally relevant to line testing but does not explicitly identify 4Tel or establish historical scope.",
+          "supports": [
+            "binary"
+          ],
+          "captured_at": "2026-10-12T03:36:15.284000+00:00",
+          "capture_reference": "blind-batch-02/retained_pages/mv4p9t4kcyhv4y-06.json; response mv4p9t4kcyhv4y",
+          "publication_or_version": null
+        },
+        {
+          "url": "frozen-input:inputs/batch-02.json#source_record_number=1086",
+          "source_type": "source_dataset",
+          "excerpt": "4tel is used for repairs and troubleshooting and/or performing telecom line tests.",
+          "applicability": "Exact assigned product function, but not exhaustive documentation.",
+          "supports": [
+            "identity",
+            "binary"
+          ],
+          "captured_at": null,
+          "capture_reference": "inputs/batch-02.json source_record_number 1086",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 5,
+        "full_page_reads": 2
+      }
+    },
+    {
+      "product_group_id": "enterprise-4842b4f8ab48aa6f5875ad11114630fc6a673d58385de64af01622d83de87327",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Adopt supported non-AI. SolarWinds' exact Dameware Remote Everywhere page documents conventional cloud remote support/control, attended and unattended sessions, Wake-on-LAN, system information, communication, monitoring and reporting. No credible product-specific AI evidence appears; vendor AI navigation belongs to other offerings. Source version/date is absent, but product identity and broad functionality align directly.",
+      "ai_type_rationale": null,
+      "version_scope": "No source release/date. Current exact-product official page; historical scope cannot be precisely dated, but no later feature is imported to justify AI.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": false,
+      "issues": [
+        "Exact historical release not specified; current exact-product feature documentation used."
+      ],
+      "sources": [
+        {
+          "url": "https://www.solarwinds.com/dameware-remote-everywhere",
+          "source_type": "official",
+          "excerpt": "Dameware Remote Everywhere is a fast, simple, and lightweight cloud-based remote support solution ... Complete attended or unattended support sessions or use Wake-on-LAN to remotely access and troubleshoot sleeping and powered-off devices. DRE gives you system info, BIOS, and device details ... Live chat and high-resolution video conference calls ... Monitoring & reporting.",
+          "applicability": "Exact-product page documents core and numerous conventional features; vendor-wide AI navigation is not evidence about Dameware.",
+          "supports": [
+            "binary",
+            "identity"
+          ],
+          "captured_at": null,
+          "capture_reference": "labeler-batch-02/retained_recovery_pages/53b3c733d078c41ae139.json; response mv4qbtnkr0cawd",
+          "publication_or_version": null
+        },
+        {
+          "url": "frozen-input:inputs/batch-02.json#source_record_number=1125",
+          "source_type": "source_dataset",
+          "excerpt": "Dameware Remote Everywhere is designed for users looking for a cloud-based solution and a fast and easy remote control tool to support various devices and systems, from Windows, Linux, and macOS to iOS and Android.",
+          "applicability": "Assigned description aligns to exact product and documented remote-support core.",
+          "supports": [
+            "identity",
+            "binary"
+          ],
+          "captured_at": null,
+          "capture_reference": "inputs/batch-02.json source_record_number 1125",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 5,
+        "full_page_reads": 2
+      }
+    },
+    {
+      "product_group_id": "enterprise-438bcdcaf522b58ba3066f59932588d65fa269a60f1160c63dafeea36d33932a",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "Best-supported provisional AI/native call, weak and forced. Labeler cites current Cloudbreak neural-rendering model for 4D spatial-video generation; blind cites Mavericks 4 AI/computer vision. These are real Evercoast AI features but neither establishes inclusion in the source-record product 'Evercoast Managed Services' or its historical version. Preserve disagreement: labeler native vs blind enabled, and material identity/applicability uncertainty. Core volumetric content production plausibly depends on neural rendering in the current Cloudbreak workflow, but that inference does not prove this specific service was AI-native.",
+      "ai_type_rationale": "Current Cloudbreak's neural rendering appears foundational to its 4D spatial video generation, supporting native as the best guess; applying it to Managed Services is uncertain, so subtype is weak/forced.",
+      "version_scope": "No date/version. Current Cloudbreak and Mavericks pages concern separate named offerings; no retained evidence bridges them to historical Managed Services.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Binary and subtype applicability to Managed Services unresolved; retained AI claims name Cloudbreak/Mavericks, not this record's product identity.",
+        "Subtype disagreement: labeler ai_native vs blind ai_enabled.",
+        "Both binary proposals are weak/forced; preserve uncertainty."
+      ],
+      "sources": [
+        {
+          "url": "https://evercoast.com/cloudbreak-4d-video",
+          "source_type": "official",
+          "excerpt": "Cloudbreak provides everything you need to transform multimodal, raw motion data into 4D spatial video ... Evercoast\u2019s neural rendering model delivers exceptional realism, rendering light, texture, and depth with striking authenticity.",
+          "applicability": "Official current Cloudbreak functionality; neural rendering relevant to volumetric video, but no link to source-record Managed Services or historical inclusion.",
+          "supports": [
+            "binary",
+            "subtype"
+          ],
+          "captured_at": null,
+          "capture_reference": "labeler-batch-02/retained_recovery_pages/c074747d4cc34ded7b11.json; response mv4qbtnkr0cawd",
+          "publication_or_version": null
+        },
+        {
+          "url": "https://evercoast.com/mavericks-multicam-capture",
+          "source_type": "official",
+          "excerpt": "Mavericks 4 enables you to effortlessly capture video from multiple cameras and leverage the power of AI and computer vision to bring it to life.",
+          "applicability": "Blind retained official AI claim for Mavericks 4; does not establish Managed Services inclusion or historical product applicability.",
+          "supports": [
+            "binary"
+          ],
+          "captured_at": "2026-10-12T03:36:15.284000+00:00",
+          "capture_reference": "blind-batch-02/retained_pages/mv4p9t4kcyhv4y-08.json; response mv4p9t4kcyhv4y",
+          "publication_or_version": "Mavericks 4"
+        },
+        {
+          "url": "frozen-input:inputs/batch-02.json#source_record_number=321",
+          "source_type": "source_dataset",
+          "excerpt": "Evercoast is advancing the creation of 3D holographic, volumetric content to be used on mobile, in augmented reality, virtual reality, the web, and desktop.",
+          "applicability": "Assigned Managed Services description identifies content-creation goal but does not state AI or connect to Cloudbreak/Mavericks.",
+          "supports": [
+            "identity"
+          ],
+          "captured_at": null,
+          "capture_reference": "inputs/batch-02.json source_record_number 321",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 5,
+        "full_page_reads": 3
+      }
+    },
+    {
+      "product_group_id": "enterprise-1b5f8009c50c71a8fbf746634a2586bf11e6b79bcf31b6cbd38948276a6c020b",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "Provisional AI-positive/enabled. Official Cribl docs enumerate Copilot Editor for creating/editing data-transformation pipelines and state Cribl AI is native across supported products; current Stream has a conventional collect/reduce/shape data core. This satisfies current offering positivity, but source description is undated and feature availability depends on products/deployment/provider. Labeler and blind agree on current AI but assign weak/forced applicability; retain flags.",
+      "ai_type_rationale": "The record's Edge/Stream telemetry collection, reduction, enrichment, normalization and routing remain meaningful without AI; Copilot enhances rather than constitutes that core. Current product documentation supports this functional inference, but historical scope is unverified.",
+      "version_scope": "No date/version in record. Current suite docs list capabilities and provider/deployment dependence; cannot establish when AI entered the record-represented version.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Undated source record; AI feature historical applicability uncertain.",
+        "Availability varies by product/deployment and configured provider; Cribl docs say AI entry points do not operate without provider.",
+        "Group combines Edge and Stream; shared group assumed by frozen input, no conflict shown."
+      ],
+      "sources": [
+        {
+          "url": "https://docs.cribl.io/copilot/",
+          "source_type": "official",
+          "excerpt": "Cribl AI includes ... Copilot Editor: Helps you create and edit data transformation Pipelines. ... Cribl AI is a native part of the Cribl product suite. ... No AI provider is configured. AI feature entry points stay visible, but they aren\u2019t operational until you configure a provider.",
+          "applicability": "Official current Cribl suite documentation directly identifies pipeline-assistant AI and native suite status; feature availability varies by product/deployment and requires a provider. Historical application unknown.",
+          "supports": [
+            "binary",
+            "subtype"
+          ],
+          "captured_at": null,
+          "capture_reference": "labeler-batch-02/retained_recovery_pages/5fed14f3df26b63b393e.json; response mv4qbtnkr0cawd",
+          "publication_or_version": null
+        },
+        {
+          "url": "https://cribl.io/products/stream/",
+          "source_type": "official",
+          "excerpt": "Collect, reduce, and shape your data with Cribl Stream. Our product offers a simple way to drive your data engine forward.",
+          "applicability": "Official current Stream page supports conventional core for enabled subtype; not historical version evidence.",
+          "supports": [
+            "identity",
+            "subtype"
+          ],
+          "captured_at": null,
+          "capture_reference": "labeler-batch-02/retained_recovery_pages/182c9b6f88cf0cf6826f.json; response mv4qbtnkr0cawd",
+          "publication_or_version": null
+        },
+        {
+          "url": "frozen-input:inputs/batch-02.json#source_record_number=1305;1306",
+          "source_type": "source_dataset",
+          "excerpt": "Cribl Stream is a vendor-agnostic observability pipeline ... collect, reduce, enrich, normalize, and route data ... Cribl Edge provides ... automatic log discovery and metrics production.",
+          "applicability": "Both assigned records describe Edge and Stream functionality; establishes meaningful conventional core, but no AI/date information.",
+          "supports": [
+            "identity",
+            "subtype"
+          ],
+          "captured_at": null,
+          "capture_reference": "inputs/batch-02.json source_record_numbers 1305 and 1306",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 5,
+        "full_page_reads": 6
+      }
+    }
+  ]
+}

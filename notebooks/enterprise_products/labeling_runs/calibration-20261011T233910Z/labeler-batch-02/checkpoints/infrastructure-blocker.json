@@ -1,0 +1,30 @@
+{
+  "stage": "labeler",
+  "batch_id": "batch-02",
+  "status": "blocked",
+  "blocker": "Configured web search infrastructure failed: OpenAI search rejected configured model gpt-5.3-codex-spark for a ChatGPT account (HTTP 400); Exa MCP reported free-tier rate limit (HTTP 429). Supervisor directed stopping without retrying that route, choosing another provider/model, or forcing labels. Luna labeling model remains unchanged.",
+  "completed_groups": [],
+  "pending_groups": [
+    "enterprise-7ac31d358d03a67becc7584222b72b9620ece17705166aa34c1e91878e7bfbf2",
+    "enterprise-a13670dc9f0f50fb07bb7d262f991137039eeb39ce582d2883641aa5dc392c4a",
+    "enterprise-c919e4317cf5e99281d5a3e757cace29d34ea25a7c2b19baf0b46fc8c2eaf024",
+    "enterprise-0f6d79bef9eee30125b960bb4136df7959d235719365b35fd15cf280ae814d15",
+    "enterprise-1d911d57ddcb9d0f1415194f1a6dfb39e1c90b1f1a9d4b81ea056f8b5cce1ef8",
+    "enterprise-a305a1fcde5d9fac8e8ddeed05650ea3e0ea9a10ad3e24114eeefe1cd7f51491",
+    "enterprise-3e4f26703a60dd07fc855cf044f72b4914e5488fbb2544927e4943c378141cc0",
+    "enterprise-4842b4f8ab48aa6f5875ad11114630fc6a673d58385de64af01622d83de87327",
+    "enterprise-438bcdcaf522b58ba3066f59932588d65fa269a60f1160c63dafeea36d33932a",
+    "enterprise-1b5f8009c50c71a8fbf746634a2586bf11e6b79bcf31b6cbd38948276a6c020b"
+  ],
+  "research_counts": {
+    "search_rounds": 1,
+    "full_page_reads": 0,
+    "note": "One attempted multi-query search round across assigned groups; failed queries were not treated as evidence. Results returned for NetProspex, Alfabet, Evercoast, and Cribl only; snippets are discovery aids, not accepted evidence. No pages fetched and no group judgment completed."
+  },
+  "discovery_only_results": {
+    "NetProspex": ["https://www.dnb.com/en-us/solutions/artificial-intelligence.html", "https://news.cision.com/dun---bradstreet/r/dun---bradstreet-acquires-netprospex-to-deliver-largest-global-reach-and-insight-on-companies-and-th,c9704175", "https://www.dnb.com/en-us/products/dnb-connect/dnb-connect-discover.html"],
+    "Alfabet": ["https://documentation.alfabet.com/", "https://documentation.alfabet.com/11-13/en/ExUP_Help_Introduction.html", "https://documentation.alfabet.com/11-9/en/EAM_EAM_AIPort.html"],
+    "Evercoast": ["https://www.evercoast.ai/", "https://evercoast.com/", "https://evercoast.com/cloudbreak-4d-video"],
+    "Cribl": ["https://docs.cribl.io/copilot/", "https://docs.cribl.io/stream/copilot-pipelines/", "https://cribl.io/products/stream/"]
+  }
+}

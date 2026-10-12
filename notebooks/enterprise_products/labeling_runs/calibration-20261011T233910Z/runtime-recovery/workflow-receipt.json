@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "workflowRunId": "7a870d41-7399-4261-9367-d6c061fe72a4",
+  "state": "stopped",
+  "createdAt": 1791778268257,
+  "entries": {
+    "labeler-01": {
+      "key": "labeler-01",
+      "agent": "researcher",
+      "requestedContext": "fresh",
+      "resolvedContext": "fresh",
+      "outputReference": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/labeler-batch-01/result.json",
+      "continuation": {
+        "runIds": [
+          "95e1ae5a-f907-4bf1-a27e-2f007cea2fc5"
+        ]
+      },
+      "latestRunId": "95e1ae5a-f907-4bf1-a27e-2f007cea2fc5",
+      "resumability": {
+        "state": "resumable"
+      }
+    },
+    "blind-01": {
+      "key": "blind-01",
+      "agent": "researcher",
+      "requestedContext": "fresh",
+      "resolvedContext": "fresh",
+      "continuation": {
+        "runIds": [
+          "4b0c5977-614e-410f-bb47-7801a24a73d4"
+        ]
+      },
+      "latestRunId": "4b0c5977-614e-410f-bb47-7801a24a73d4",
+      "resumability": {
+        "state": "resumable"
+      }
+    },
+    "labeler-02": {
+      "key": "labeler-02",
+      "continuation": {
+        "runIds": []
+      },
+      "resumability": {
+        "state": "not-resumable",
+        "reason": "child produced no run id"
+      }
+    },
+    "blind-02": {
+      "key": "blind-02",
+      "agent": "researcher",
+      "requestedContext": "fresh",
+      "resolvedContext": "fresh",
+      "continuation": {
+        "runIds": [
+          "85447025-ac4c-4636-9eb9-0e54ac6d2efe"
+        ]
+      },
+      "latestRunId": "85447025-ac4c-4636-9eb9-0e54ac6d2efe",
+      "resumability": {
+        "state": "resumable"
+      }
+    }
+  },
+  "argsDigest": "22a8c80a0be9f07742609bd4ba4bc8ff5924a4385a4354121b82ca49d2c10691",
+  "workflowChildren": {
+    "version": 1,
+    "parentToolCallId": "call_46367821a4ad4745b9838b73a16f2924|fc_00262490d9045aaa016acc5c47ca048190bc5248ae26c75e36",
+    "workflowRunId": "7a870d41-7399-4261-9367-d6c061fe72a4",
+    "inventoryComplete": true,
+    "workflowState": "stopped",
+    "children": [
+      {
+        "childId": "labeler-01",
+        "state": "completed",
+        "runId": "95e1ae5a-f907-4bf1-a27e-2f007cea2fc5",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform the labeler stage of the approved 20-group calibr...",
+        "model": "openai-codex/gpt-6-luna:high"
+      },
+      {
+        "childId": "blind-01",
+        "state": "failed",
+        "runId": "4b0c5977-614e-410f-bb47-7801a24a73d4",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform the blind stage of the approved 20-group calibrat...",
+        "model": "openai-codex/gpt-6-luna:high"
+      },
+      {
+        "childId": "labeler-02",
+        "state": "stopped"
+      },
+      {
+        "childId": "blind-02",
+        "state": "failed",
+        "runId": "85447025-ac4c-4636-9eb9-0e54ac6d2efe",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform the blind stage of the approved 20-group calibrat...",
+        "model": "openai-codex/gpt-6-luna:high"
+      }
+    ]
+  }
+}

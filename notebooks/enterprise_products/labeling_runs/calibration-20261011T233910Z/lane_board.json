@@ -1,0 +1,77 @@
+{
+  "topology": "data-only independent stage lanes; no source-code writers",
+  "integration_owner": "parent",
+  "authority": "no source/cleaner edits, commits, pushes, merges, training or partitions",
+  "lanes": [
+    {
+      "lane": "labeler-batch-01",
+      "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/labeler-batch-01",
+      "owns": "own per-group checkpoints and bound stage result only",
+      "handoff": "runtime-bound result.json plus per-group checkpoint JSON",
+      "independence": "fresh context; blind stages cannot inspect other judgments"
+    },
+    {
+      "lane": "blind-batch-01",
+      "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/blind-batch-01",
+      "owns": "own per-group checkpoints and bound stage result only",
+      "handoff": "runtime-bound result.json plus per-group checkpoint JSON",
+      "independence": "fresh context; blind stages cannot inspect other judgments"
+    },
+    {
+      "lane": "evidence-batch-01",
+      "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/evidence-batch-01",
+      "owns": "own per-group checkpoints and bound stage result only",
+      "handoff": "runtime-bound result.json plus per-group checkpoint JSON",
+      "independence": "fresh context; blind stages cannot inspect other judgments"
+    },
+    {
+      "lane": "adjudicator-batch-01",
+      "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/adjudicator-batch-01",
+      "owns": "own per-group checkpoints and bound stage result only",
+      "handoff": "runtime-bound result.json plus per-group checkpoint JSON",
+      "independence": "fresh context; blind stages cannot inspect other judgments"
+    },
+    {
+      "lane": "finalcheck-batch-01",
+      "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/finalcheck-batch-01",
+      "owns": "own per-group checkpoints and bound stage result only",
+      "handoff": "runtime-bound result.json plus per-group checkpoint JSON",
+      "independence": "fresh context; blind stages cannot inspect other judgments"
+    },
+    {
+      "lane": "labeler-batch-02",
+      "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/labeler-batch-02",
+      "owns": "own per-group checkpoints and bound stage result only",
+      "handoff": "runtime-bound result.json plus per-group checkpoint JSON",
+      "independence": "fresh context; blind stages cannot inspect other judgments"
+    },
+    {
+      "lane": "blind-batch-02",
+      "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/blind-batch-02",
+      "owns": "own per-group checkpoints and bound stage result only",
+      "handoff": "runtime-bound result.json plus per-group checkpoint JSON",
+      "independence": "fresh context; blind stages cannot inspect other judgments"
+    },
+    {
+      "lane": "evidence-batch-02",
+      "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/evidence-batch-02",
+      "owns": "own per-group checkpoints and bound stage result only",
+      "handoff": "runtime-bound result.json plus per-group checkpoint JSON",
+      "independence": "fresh context; blind stages cannot inspect other judgments"
+    },
+    {
+      "lane": "adjudicator-batch-02",
+      "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/adjudicator-batch-02",
+      "owns": "own per-group checkpoints and bound stage result only",
+      "handoff": "runtime-bound result.json plus per-group checkpoint JSON",
+      "independence": "fresh context; blind stages cannot inspect other judgments"
+    },
+    {
+      "lane": "finalcheck-batch-02",
+      "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/finalcheck-batch-02",
+      "owns": "own per-group checkpoints and bound stage result only",
+      "handoff": "runtime-bound result.json plus per-group checkpoint JSON",
+      "independence": "fresh context; blind stages cannot inspect other judgments"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "performed_by": "parent supervisor (children lack a command-runner tool)",
+  "captured_at": "2026-10-12T05:11:08.430342+00:00",
+  "source_head": "0cfdc8fe74542545058773eb8e95fb022493d8ec",
+  "self_test": "9 cases passed",
+  "checkpoint_validation": [
+    {
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/evidence-batch-01/checkpoints/enterprise-42b9ddcca2aa2977c9d490677d5dc3e2314de0085cf03d115a7565bfcd19bf0b.json",
+      "result": {
+        "stage": "evidence",
+        "groups": 1,
+        "structural_blockers": 0
+      }
+    },
+    {
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/evidence-batch-02/checkpoints/enterprise-7ac31d358d03a67becc7584222b72b9620ece17705166aa34c1e91878e7bfbf2.json",
+      "result": {
+        "stage": "evidence",
+        "groups": 1,
+        "structural_blockers": 0
+      }
+    },
+    {
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/evidence-batch-02/checkpoints/enterprise-a13670dc9f0f50fb07bb7d262f991137039eeb39ce582d2883641aa5dc392c4a.json",
+      "result": {
+        "stage": "evidence",
+        "groups": 1,
+        "structural_blockers": 0
+      }
+    },
+    {
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/evidence-batch-02/checkpoints/enterprise-1b5f8009c50c71a8fbf746634a2586bf11e6b79bcf31b6cbd38948276a6c020b.json",
+      "result": {
+        "stage": "evidence",
+        "groups": 1,
+        "structural_blockers": 0
+      }
+    },
+    {
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/evidence-batch-02/checkpoints/enterprise-4842b4f8ab48aa6f5875ad11114630fc6a673d58385de64af01622d83de87327.json",
+      "result": {
+        "stage": "evidence",
+        "groups": 1,
+        "structural_blockers": 0
+      }
+    },
+    {
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/evidence-batch-02/checkpoints/enterprise-c919e4317cf5e99281d5a3e757cace29d34ea25a7c2b19baf0b46fc8c2eaf024.json",
+      "result": {
+        "stage": "evidence",
+        "groups": 1,
+        "structural_blockers": 0
+      }
+    },
+    {
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/evidence-batch-02/checkpoints/enterprise-a305a1fcde5d9fac8e8ddeed05650ea3e0ea9a10ad3e24114eeefe1cd7f51491.json",
+      "result": {
+        "stage": "evidence",
+        "groups": 1,
+        "structural_blockers": 0
+      }
+    },
+    {
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/evidence-batch-02/checkpoints/enterprise-438bcdcaf522b58ba3066f59932588d65fa269a60f1160c63dafeea36d33932a.json",
+      "result": {
+        "stage": "evidence",
+        "groups": 1,
+        "structural_blockers": 0
+      }
+    },
+    {
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/evidence-batch-02/checkpoints/enterprise-0f6d79bef9eee30125b960bb4136df7959d235719365b35fd15cf280ae814d15.json",
+      "result": {
+        "stage": "evidence",
+        "groups": 1,
+        "structural_blockers": 0
+      }
+    },
+    {
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/evidence-batch-02/checkpoints/enterprise-3e4f26703a60dd07fc855cf044f72b4914e5488fbb2544927e4943c378141cc0.json",
+      "result": {
+        "stage": "evidence",
+        "groups": 1,
+        "structural_blockers": 0
+      }
+    },
+    {
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/evidence-batch-02/checkpoints/enterprise-1d911d57ddcb9d0f1415194f1a6dfb39e1c90b1f1a9d4b81ea056f8b5cce1ef8.json",
+      "result": {
+        "stage": "evidence",
+        "groups": 1,
+        "structural_blockers": 0
+      }
+    }
+  ],
+  "git_status": "?? notebooks/enterprise_products/LABELING_WORKFLOW.md\n?? notebooks/enterprise_products/labeling_runs/\n",
+  "no_staged_files": true,
+  "recovery": "Regenerated batch02 checkpoints from complete validated ten-record handoff; malformed checkpoint preserved unchanged. No research or semantic relabeling.",
+  "limitation": "Checks cover currently saved checkpoints and current repository index; the host gate validates each subsequent persisted complete aggregate."
+}

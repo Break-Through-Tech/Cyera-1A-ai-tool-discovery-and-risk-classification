@@ -1,0 +1,290 @@
+{
+  "runId": "0cf92776-57e7-493e-a45f-bad4c39edcff",
+  "toolCallId": "call_NW4ljaHmHmWMxDpbrlH37lZe|fc_03fb1251223e86de016acc6b78cb748197abef1117c2aad554",
+  "sessionId": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7.jsonl",
+  "completionOwnerId": "4fdfdf80-f2b8-4cf7-ab60-67755f16c851",
+  "mode": "workflow",
+  "state": "complete",
+  "startedAt": 1791781753988,
+  "lastUpdate": 1791782794971,
+  "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification",
+  "sessionRoot": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7",
+  "pid": 113158,
+  "steps": [
+    {
+      "agent": "researcher",
+      "sessionName": "researcher: Perform ONLY the evidence stage for assigned IDs: enterpr...",
+      "label": "Verify cited evidence for batch 01",
+      "workflowKey": "evidence-01",
+      "parentWorkflowRunId": "0cf92776-57e7-493e-a45f-bad4c39edcff",
+      "status": "completed",
+      "startedAt": 1791781754131,
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/60c7103a-f55c-44fb-bb38-6ed211715f4b/run-0/session.jsonl",
+      "async": true,
+      "runId": "6896a343-cb32-4689-91ce-11d4df26b830",
+      "durationMs": 507455,
+      "tokens": {
+        "input": 111774,
+        "output": 22019,
+        "total": 133793
+      },
+      "turnCount": 12
+    },
+    {
+      "agent": "researcher",
+      "sessionName": "researcher: Perform ONLY the adjudicator stage for assigned IDs: ente...",
+      "label": "Adjudicate flagged batch 01",
+      "workflowKey": "adjudicator-01",
+      "parentWorkflowRunId": "0cf92776-57e7-493e-a45f-bad4c39edcff",
+      "status": "completed",
+      "startedAt": 1791782261604,
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/c7f3d976-cb07-4c8e-9329-36c7ed9273d0/run-0/session.jsonl",
+      "async": true,
+      "runId": "9005c079-c263-4a2d-9697-a211d0096aa2",
+      "durationMs": 171456,
+      "tokens": {
+        "input": 77570,
+        "output": 20140,
+        "total": 97710
+      },
+      "turnCount": 14
+    },
+    {
+      "agent": "researcher",
+      "sessionName": "researcher: Perform ONLY the adjudicator stage for assigned IDs: ente...",
+      "label": "Adjudicate flagged batch 02",
+      "workflowKey": "adjudicator-02",
+      "parentWorkflowRunId": "0cf92776-57e7-493e-a45f-bad4c39edcff",
+      "status": "completed",
+      "startedAt": 1791782261731,
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/26129e9c-6ad3-421f-8ca0-83ecfa2e32e8/run-0/session.jsonl",
+      "async": true,
+      "runId": "597fcc52-f230-4332-9787-c5ce9989c8c2",
+      "durationMs": 134845,
+      "tokens": {
+        "input": 73504,
+        "output": 19059,
+        "total": 92563
+      },
+      "turnCount": 7
+    },
+    {
+      "agent": "researcher",
+      "sessionName": "researcher: Perform ONLY the finalcheck stage for assigned IDs: enter...",
+      "label": "Check final evidence for batch 01",
+      "workflowKey": "finalcheck-01",
+      "parentWorkflowRunId": "0cf92776-57e7-493e-a45f-bad4c39edcff",
+      "status": "completed",
+      "startedAt": 1791782433072,
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/a61229ad-a788-4dde-8ec1-9f9d6bce9b96/run-0/session.jsonl",
+      "async": true,
+      "runId": "30ff0838-5ce4-4e0b-b53b-d0dc036fcf9f",
+      "durationMs": 361871,
+      "tokens": {
+        "input": 111235,
+        "output": 18820,
+        "total": 130055
+      },
+      "turnCount": 15
+    },
+    {
+      "agent": "researcher",
+      "sessionName": "researcher: Perform ONLY the finalcheck stage for assigned IDs: enter...",
+      "label": "Check final evidence for batch 02",
+      "workflowKey": "finalcheck-02",
+      "parentWorkflowRunId": "0cf92776-57e7-493e-a45f-bad4c39edcff",
+      "status": "completed",
+      "startedAt": 1791782433200,
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-11T23-06-38-561Z_01a12d37-de60-7414-9079-b34949273bc7/e08e37cd-9cba-450b-8497-c063993717f3/run-0/session.jsonl",
+      "async": true,
+      "runId": "3bf131fd-bb0a-4311-b1f1-a5c1955ea5fd",
+      "durationMs": 126330,
+      "tokens": {
+        "input": 112445,
+        "output": 19889,
+        "total": 132334
+      },
+      "turnCount": 9
+    }
+  ],
+  "workflow": {
+    "value": {
+      "scope": "20-group calibration only; stop before remainder",
+      "artifactPaths": {
+        "labeler-01": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/handoffs/labeler-01.audited.json",
+        "blind-01": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/handoffs/blind-01.audited.json",
+        "labeler-02": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/handoffs/labeler-02.audited.json",
+        "blind-02": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/handoffs/blind-02.audited.json",
+        "evidence-02": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/handoffs/evidence-02.recovered.json",
+        "evidence-01": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/evidence-batch-01/result.verified.json",
+        "adjudicator-01": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/adjudicator-batch-01/result.verified.json",
+        "adjudicator-02": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/adjudicator-batch-02/result.verified.json",
+        "finalcheck-01": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/finalcheck-batch-01/result.verified.json",
+        "finalcheck-02": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z/finalcheck-batch-02/result.verified.json"
+      },
+      "completedGroups": 20,
+      "forcedBinaryGroups": 14,
+      "forcedSubtypeGroups": 1,
+      "blockedGroupIds": [],
+      "childRunIds": {
+        "evidence-02": "e9ec16e2-dd66-4057-be32-1f85753f8f14",
+        "evidence-01": "6896a343-cb32-4689-91ce-11d4df26b830",
+        "adjudicator-01": "9005c079-c263-4a2d-9697-a211d0096aa2",
+        "adjudicator-02": "597fcc52-f230-4332-9787-c5ce9989c8c2",
+        "finalcheck-01": "30ff0838-5ce4-4e0b-b53b-d0dc036fcf9f",
+        "finalcheck-02": "3bf131fd-bb0a-4311-b1f1-a5c1955ea5fd"
+      }
+    },
+    "trace": [
+      {
+        "operation": "run",
+        "key": "evidence-01",
+        "state": "started",
+        "label": "Verify cited evidence for batch 01",
+        "agent": "researcher"
+      },
+      {
+        "operation": "run",
+        "key": "evidence-01",
+        "state": "completed",
+        "durationMs": 507455,
+        "label": "Verify cited evidence for batch 01",
+        "agent": "researcher",
+        "runId": "6896a343-cb32-4689-91ce-11d4df26b830"
+      },
+      {
+        "operation": "run",
+        "key": "adjudicator-01",
+        "state": "started",
+        "label": "Adjudicate flagged batch 01",
+        "agent": "researcher"
+      },
+      {
+        "operation": "run",
+        "key": "adjudicator-02",
+        "state": "started",
+        "label": "Adjudicate flagged batch 02",
+        "agent": "researcher"
+      },
+      {
+        "operation": "run",
+        "key": "adjudicator-02",
+        "state": "completed",
+        "durationMs": 134845,
+        "label": "Adjudicate flagged batch 02",
+        "agent": "researcher",
+        "runId": "597fcc52-f230-4332-9787-c5ce9989c8c2"
+      },
+      {
+        "operation": "run",
+        "key": "adjudicator-01",
+        "state": "completed",
+        "durationMs": 171456,
+        "label": "Adjudicate flagged batch 01",
+        "agent": "researcher",
+        "runId": "9005c079-c263-4a2d-9697-a211d0096aa2"
+      },
+      {
+        "operation": "run",
+        "key": "finalcheck-01",
+        "state": "started",
+        "label": "Check final evidence for batch 01",
+        "agent": "researcher"
+      },
+      {
+        "operation": "run",
+        "key": "finalcheck-02",
+        "state": "started",
+        "label": "Check final evidence for batch 02",
+        "agent": "researcher"
+      },
+      {
+        "operation": "run",
+        "key": "finalcheck-02",
+        "state": "completed",
+        "durationMs": 126330,
+        "label": "Check final evidence for batch 02",
+        "agent": "researcher",
+        "runId": "3bf131fd-bb0a-4311-b1f1-a5c1955ea5fd"
+      },
+      {
+        "operation": "run",
+        "key": "finalcheck-01",
+        "state": "completed",
+        "durationMs": 361871,
+        "label": "Check final evidence for batch 01",
+        "agent": "researcher",
+        "runId": "30ff0838-5ce4-4e0b-b53b-d0dc036fcf9f"
+      }
+    ],
+    "emits": [],
+    "console": [],
+    "args": {
+      "runDirectory": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/calibration-20261011T233910Z"
+    },
+    "argsDigest": "e8c2fca76acbe753cf2adfdc49631e2c6adc6c347c182abe62bd144c29eecaed",
+    "scriptDigest": "ce32b5e6a020b19f2d021a41a3dfe040e78dd2df25d0a1d068e6e93c8c7d8437"
+  },
+  "workflowChildren": {
+    "version": 1,
+    "parentToolCallId": "call_NW4ljaHmHmWMxDpbrlH37lZe|fc_03fb1251223e86de016acc6b78cb748197abef1117c2aad554",
+    "workflowRunId": "0cf92776-57e7-493e-a45f-bad4c39edcff",
+    "inventoryComplete": true,
+    "workflowState": "completed",
+    "children": [
+      {
+        "childId": "evidence-01",
+        "state": "completed",
+        "runId": "6896a343-cb32-4689-91ce-11d4df26b830",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform ONLY the evidence stage for assigned IDs: enterpr..."
+      },
+      {
+        "childId": "adjudicator-01",
+        "state": "completed",
+        "runId": "9005c079-c263-4a2d-9697-a211d0096aa2",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform ONLY the adjudicator stage for assigned IDs: ente..."
+      },
+      {
+        "childId": "adjudicator-02",
+        "state": "completed",
+        "runId": "597fcc52-f230-4332-9787-c5ce9989c8c2",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform ONLY the adjudicator stage for assigned IDs: ente..."
+      },
+      {
+        "childId": "finalcheck-01",
+        "state": "completed",
+        "runId": "30ff0838-5ce4-4e0b-b53b-d0dc036fcf9f",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform ONLY the finalcheck stage for assigned IDs: enter..."
+      },
+      {
+        "childId": "finalcheck-02",
+        "state": "completed",
+        "runId": "3bf131fd-bb0a-4311-b1f1-a5c1955ea5fd",
+        "agent": "researcher",
+        "sessionName": "researcher: Perform ONLY the finalcheck stage for assigned IDs: enter..."
+      }
+    ]
+  },
+  "runFanoutBudget": {
+    "used": 5,
+    "limit": 64,
+    "remaining": 59
+  },
+  "turnCount": 42,
+  "endedAt": 1791782794963,
+  "totalTokens": {
+    "input": 486528,
+    "output": 99927,
+    "total": 586455
+  },
+  "totalCost": {
+    "inputTokens": 486528,
+    "outputTokens": 99927,
+    "costUsd": 0.12828670000000003
+  },
+  "workflowReceiptPath": "/tmp/pi-subagents-uid-1000/async-subagent-runs/0cf92776-57e7-493e-a45f-bad4c39edcff/workflow-receipt.json"
+}

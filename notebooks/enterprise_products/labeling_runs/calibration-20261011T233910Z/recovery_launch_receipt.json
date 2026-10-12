@@ -1,0 +1,18 @@
+{
+  "workflow_run_id": "7a870d41-7399-4261-9367-d6c061fe72a4",
+  "mission_id": "66ff06cb-4f81-4d45-ac9f-f52015675c6b",
+  "supersedes_stopped_workflow_run_id": "792352ce-da86-4559-8919-e80bfde8aade",
+  "state_at_dispatch": "detached",
+  "scope": "same 20-group calibration only; pause before remainder",
+  "requested_model": "openai-codex/gpt-6-luna",
+  "requested_thinking": "high",
+  "configured_search_provider": "anysearch",
+  "max_active_workers": 4,
+  "groups_per_assignment": 10,
+  "original_inputs_and_selection_unchanged": true,
+  "prior_complete_group_checkpoints_to_reuse": 1,
+  "prior_retained_page_snapshots": 30,
+  "consumed_research_allowances_preserved": true,
+  "completion_is_not_yet_verified": true,
+  "next_action": "On native completion, validate stage artifacts, source provenance and cumulative research counts; report calibration outcomes and actual resource usage; do not process remainder without approval."
+}

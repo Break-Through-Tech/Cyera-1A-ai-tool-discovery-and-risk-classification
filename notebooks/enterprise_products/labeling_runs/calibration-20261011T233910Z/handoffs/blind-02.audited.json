@@ -1,0 +1,415 @@
+{
+  "stage": "blind",
+  "records": [
+    {
+      "product_group_id": "enterprise-7ac31d358d03a67becc7584222b72b9620ece17705166aa34c1e91878e7bfbf2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Official Broadcom documentation describes CA Performance Management/DX NetOps as network monitoring, analysis and predictive analytics/projections. Nothing inspected establishes AI/ML; forecasting/prediction labels alone are insufficient. Current successor version applicability remains limited.",
+      "ai_type_rationale": null,
+      "version_scope": "No release/date in record. Broadcom 25.4 DX NetOps Performance Management documentation is treated as successor evidence; not proof of every historical version's scope.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Unversioned legacy product compared with current 25.4 successor docs; historical applicability unresolved."
+      ],
+      "sources": [
+        {
+          "url": "https://techdocs.broadcom.com/us/en/ca-enterprise-software/it-operations-management/performance-management/25-4/getting-started.html",
+          "source_type": "official",
+          "excerpt": "DX NetOps Performance Management monitors, stores, analyzes, and displays information for assuring service quality across large, complex, multi-technology, multi-vendor network infrastructure. Key features include intelligent analytics, customizable dashboards, and predictive analytics; configurable and dynamic projections provide insight into capacity planning.",
+          "applicability": "Official successor docs describe CA PM network management, but do not identify AI/ML or establish historical applicability.",
+          "supports": [
+            "binary",
+            "identity"
+          ],
+          "captured_at": "2026-10-12T03:36:15.284000+00:00",
+          "capture_reference": "retained_pages/mv4p9t4kcyhv4y-00.json; response mv4p9t4kcyhv4y",
+          "publication_or_version": "25.4"
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-a13670dc9f0f50fb07bb7d262f991137039eeb39ce582d2883641aa5dc392c4a",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Official Splunk Enterprise product page identifies machine learning and AI as a product feature and states that free machine-learning apps and AI capabilities are available. The record has no version/date, so current feature scope cannot establish inclusion in the source-represented edition; best-supported positive is weak/forced for temporal applicability.",
+      "ai_type_rationale": "Search, analysis, visualization and operations monitoring remain meaningful without AI; AI enhances rather than constitutes the core.",
+      "version_scope": "No version/date in record; present-day Splunk Enterprise page cannot establish availability in historical source version.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Current official feature statement; historical product-version applicability unresolved."
+      ],
+      "sources": [
+        {
+          "url": "https://www.splunk.com/en_us/products/splunk-enterprise.html",
+          "source_type": "official",
+          "excerpt": "Machine learning and AI — Predict and prevent, don’t just react. Improve security and business outcomes by bringing machine-level intelligence to your data. ... Use our free machine learning apps — Splunk AI Assistant, Anomaly Detection Assistant, Deep Learning and Data Science App and the AI Toolkit.",
+          "applicability": "Official Splunk Enterprise page speaks directly to Enterprise; current rather than date/version matched.",
+          "supports": [
+            "binary",
+            "subtype",
+            "identity"
+          ],
+          "captured_at": "2026-10-12T03:36:15.284000+00:00",
+          "capture_reference": "retained_pages/mv4p9t4kcyhv4y-01.json; response mv4p9t4kcyhv4y",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 2
+      }
+    },
+    {
+      "product_group_id": "enterprise-c919e4317cf5e99281d5a3e757cace29d34ea25a7c2b19baf0b46fc8c2eaf024",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Record describes NetProspex data services and audience identification, analysis and prioritization, with no AI function. Research did not establish product-level historical feature coverage or included AI; absence of evidence is not proof, so the best-supported negative is weak/forced.",
+      "ai_type_rationale": null,
+      "version_scope": "No version/date; NetProspex appears as a legacy D&B marketing-data service. Current D&B offerings cannot be assumed to apply.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Insufficient product/version-specific feature documentation for a supported negative."
+      ],
+      "sources": [
+        {
+          "url": "frozen inputs/batch-02.json; source record 152",
+          "source_type": "source_dataset",
+          "excerpt": "The pairing of NetProspex's data services platform and its approach to measuring data quality with Dun & Bradstreet's global commercial database positions B2B marketers to gain deeper insights into their target audiences ... identify, analyze and prioritize opportunities.",
+          "applicability": "Exact source description; conventional functions described, but not exhaustive feature documentation.",
+          "supports": [
+            "identity",
+            "binary"
+          ],
+          "captured_at": null,
+          "capture_reference": "frozen batch-02.json source_record_number 152",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 0
+      }
+    },
+    {
+      "product_group_id": "enterprise-0f6d79bef9eee30125b960bb4136df7959d235719365b35fd15cf280ae814d15",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The source description explicitly says TRIRIGA applies data, IoT and AI to facility/real-estate insights. IBM's official v11.6 announcement confirms an AI-powered monitoring capability in the TRIRIGA Application Suite. This qualifies without implementation proof.",
+      "ai_type_rationale": "The suite includes conventional IWMS functions such as lease accounting, space planning, work tasks and reservations; AI monitoring enhances rather than defines its core.",
+      "version_scope": "Record lacks version/date. IBM announcement confirms AI in TRIRIGA Application Suite v11.6, not that this source record is specifically v11.6; the source description itself claims AI.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": false,
+      "issues": [
+        "Record version/date unspecified; official corroboration is v11.6."
+      ],
+      "sources": [
+        {
+          "url": "frozen inputs/batch-02.json; source record 1042",
+          "source_type": "source_dataset",
+          "excerpt": "Intelligent real estate and facilities management solution. Through the smart application of data, IoT and AI, TRIRIGA helps you unlock key information and insights, giving greater visibility into space and facility utilization, occupant experience, capital projects, and lease administration and accounting.",
+          "applicability": "Exact source-record description explicitly names TRIRIGA and AI functionality.",
+          "supports": [
+            "binary",
+            "identity",
+            "subtype"
+          ],
+          "captured_at": null,
+          "capture_reference": "frozen batch-02.json source_record_number 1042",
+          "publication_or_version": null
+        },
+        {
+          "url": "https://www.ibm.com/new/announcements/announcing-tririga-application-suite-v11-6",
+          "source_type": "official",
+          "excerpt": "This new AI-powered monitoring capability provides visibility into real-time occupancy, energy, environmental and facility asset data to assist teams to confidently make decisions and take actions to optimize their property portfolios.",
+          "applicability": "IBM announcement explicitly concerns TRIRIGA Application Suite v11.6; corroborates AI functionality and suite identity.",
+          "supports": [
+            "binary",
+            "identity",
+            "subtype"
+          ],
+          "captured_at": "2026-10-12T03:36:15.284000+00:00",
+          "capture_reference": "retained_pages/mv4p9t4kcyhv4y-03.json; response mv4p9t4kcyhv4y",
+          "publication_or_version": "TRIRIGA Application Suite v11.6"
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-1d911d57ddcb9d0f1415194f1a6dfb39e1c90b1f1a9d4b81ea056f8b5cce1ef8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Official HCL Workload Automation documentation describes workload service assurance as deadline-based critical-job scheduling, predecessor-time calculations, path monitoring and automatic prioritization. Those are conventional scheduling mechanics, not AI. This is only one optional feature, not comprehensive coverage of the complete product; negative remains weak/forced.",
+      "ai_type_rationale": null,
+      "version_scope": "HCL Workload Automation documentation v10.2.7; record's 'Milestone #8' is not a product release identifier and no product version is supplied.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Evidence documents only the named optional feature, not all core/included product functions."
+      ],
+      "sources": [
+        {
+          "url": "https://help.hcl-software.com/workloadautomation/v1027/distr/src_ref/awsrgwkldserviceassurance.html",
+          "source_type": "official",
+          "excerpt": "Workload service assurance is an optional feature that provides the means to flag jobs as mission critical ... The scheduler (batchman) acts automatically to remedy delays by prioritizing jobs that are actually or potentially putting the target deadline at risk",
+          "applicability": "Exact optional Workload Automation feature documentation; supports conventional operation of feature but not full product feature set.",
+          "supports": [
+            "binary",
+            "identity"
+          ],
+          "captured_at": "2026-10-12T03:36:15.284000+00:00",
+          "capture_reference": "retained_pages/mv4p9t4kcyhv4y-04.json; response mv4p9t4kcyhv4y",
+          "publication_or_version": "10.2.7"
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-a305a1fcde5d9fac8e8ddeed05650ea3e0ea9a10ad3e24114eeefe1cd7f51491",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The source description says Alfabet uses AI technologies to deliver strategic portfolio management. Official Alfabet documentation describes AI Portfolio Management as a strategic AI governance tool, with AI use cases/features/models, requiring an Enterprise Architecture Management license and activation. This is a product AI function, with conditional licensing/use-case applicability.",
+      "ai_type_rationale": "Alfabet's broader enterprise architecture and portfolio management remain meaningful without its optional AI Portfolio Management governance use case; AI enhances rather than defines the core.",
+      "version_scope": "Description has no version/date. Official docs are Alfabet 11.11 and note license plus AI Portfolio Management activation; not universal for every SKU/version.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": false,
+      "issues": [
+        "AI Portfolio Management is license/activation dependent; record does not identify SKU/version."
+      ],
+      "sources": [
+        {
+          "url": "https://documentation.alfabet.com/11-11/en/EAM_EAM_AIPort.html",
+          "source_type": "official",
+          "excerpt": "To work with Alfabet's AI portfolio management capabilities, you must have a license to Enterprise Architecture Management. The use case AI Portfolio Management must be enabled. ... AI Portfolio Management is a strategic AI governance tool designed to provide visibility into the deployment and use of artificial intelligence across your IT architecture.",
+          "applicability": "Official Alfabet 11.11 help confirms AI capability but limits availability to licensed/enabled use case; source record itself says Alfabet uses AI.",
+          "supports": [
+            "binary",
+            "subtype",
+            "identity"
+          ],
+          "captured_at": "2026-10-12T03:36:15.284000+00:00",
+          "capture_reference": "retained_pages/mv4p9t4kcyhv4y-05.json; response mv4p9t4kcyhv4y",
+          "publication_or_version": "11.11"
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-3e4f26703a60dd07fc855cf044f72b4914e5488fbb2544927e4943c378141cc0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The source description is telecom repair/troubleshooting and line tests. Enghouse official network testing documentation covers automated tests, diagnostics, fault localization and OSS integration without describing AI. It does not identify 4Tel by name or comprehensively document that older product, so negative is weak/forced.",
+      "ai_type_rationale": null,
+      "version_scope": "No version/date; current Enghouse Network Testing page may represent a portfolio successor, not an established 4Tel version.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Official page is category-level network testing, not explicit 4Tel product identity; historical coverage incomplete."
+      ],
+      "sources": [
+        {
+          "url": "frozen inputs/batch-02.json; source record 1086",
+          "source_type": "source_dataset",
+          "excerpt": "4tel is used for repairs and troubleshooting and/or performing telecom line tests.",
+          "applicability": "Exact product identity/functionality from source description, not exhaustive feature documentation.",
+          "supports": [
+            "binary",
+            "identity"
+          ],
+          "captured_at": null,
+          "capture_reference": "frozen batch-02.json source_record_number 1086",
+          "publication_or_version": null
+        },
+        {
+          "url": "https://www.enghousenetworks.com/products/network-management/network-testing/",
+          "source_type": "official",
+          "excerpt": "Enghouse Networks’ automated network testing solutions help service providers maintain fiber network performance, reduce costly truck rolls, and resolve service issues faster. ... Broadband Network Test enables customer service and field repair teams to identify and resolve issues affecting voice, video, and data services.",
+          "applicability": "Current official category documentation is functionally relevant to telecom line testing but does not explicitly identify 4Tel.",
+          "supports": [
+            "binary"
+          ],
+          "captured_at": "2026-10-12T03:36:15.284000+00:00",
+          "capture_reference": "retained_pages/mv4p9t4kcyhv4y-06.json; response mv4p9t4kcyhv4y",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-4842b4f8ab48aa6f5875ad11114630fc6a673d58385de64af01622d83de87327",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Official Dameware Remote Everywhere page extensively documents remote support/control, unattended sessions, system information, chat/video, cross-platform access, monitoring and reporting. Core is conventional remote IT support; no AI functionality is represented in this substantial product-specific feature documentation.",
+      "ai_type_rationale": null,
+      "version_scope": "No version/date in record; current official DRE product documentation supports current product functionality; no historical AI claim imported.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": false,
+      "issues": [],
+      "sources": [
+        {
+          "url": "https://www.solarwinds.com/dameware-remote-everywhere",
+          "source_type": "official",
+          "excerpt": "Dameware Remote Everywhere is a fast, simple, and lightweight cloud-based remote support solution ... Unattended support & Wake-on-LAN ... system info, BIOS, and device details ... Live chat and high-resolution video conference calls ... Multi-platform support ... Monitoring & reporting",
+          "applicability": "Official DRE product page directly identifies the product and documents core and numerous functions supporting conventional operation.",
+          "supports": [
+            "binary",
+            "identity"
+          ],
+          "captured_at": "2026-10-12T03:36:15.284000+00:00",
+          "capture_reference": "retained_pages/mv4p9t4kcyhv4y-07.json; response mv4p9t4kcyhv4y",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-438bcdcaf522b58ba3066f59932588d65fa269a60f1160c63dafeea36d33932a",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Record describes Evercoast managed service creating 3D holographic/volumetric content. Current official Evercoast Mavericks 4 page explicitly says multicamera capture leverages AI and computer vision. This is relevant to production, but source identifies Managed Services rather than Mavericks and does not establish inclusion or historical applicability; best-supported positive is weak/forced.",
+      "ai_type_rationale": "Volumetric content production remains meaningful as a service goal; AI/computer vision is described as enhancing capture/processing rather than constituting the service's entire core.",
+      "version_scope": "No date/version. Current Mavericks 4 page is product-specific while source group is Managed Services; exact service applicability and historical inclusion uncertain.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Source identity is Managed Services; AI claim is for current Mavericks 4, inclusion/applicability uncertain."
+      ],
+      "sources": [
+        {
+          "url": "https://evercoast.com/mavericks-multicam-capture",
+          "source_type": "official",
+          "excerpt": "Mavericks 4 enables you to effortlessly capture video from multiple cameras and leverage the power of AI and computer vision to bring it to life.",
+          "applicability": "Official Evercoast page establishes AI in Mavericks 4; relationship to source-record Managed Services and historical version is not established.",
+          "supports": [
+            "binary",
+            "subtype"
+          ],
+          "captured_at": "2026-10-12T03:36:15.284000+00:00",
+          "capture_reference": "retained_pages/mv4p9t4kcyhv4y-08.json; response mv4p9t4kcyhv4y",
+          "publication_or_version": "Mavericks 4"
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 1
+      }
+    },
+    {
+      "product_group_id": "enterprise-1b5f8009c50c71a8fbf746634a2586bf11e6b79bcf31b6cbd38948276a6c020b",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Current official Cribl AI docs say Cribl AI is native to the product suite and Copilot Editor helps create/edit data transformation pipelines; AI feature entry points appear across supported Cribl products. This directly supports a current Stream AI capability. Source record is undated, so historical applicability remains weak/forced.",
+      "ai_type_rationale": "Telemetry collection, reduction, enrichment and routing remain meaningful without an AI pipeline editor; AI is an assistive enhancement.",
+      "version_scope": "No version/date. Current official docs establish Cribl Copilot/AI as native in the suite, with availability varying by deployment/product; source record may predate these capabilities.",
+      "grouping_conflict": false,
+      "structural_blocker": false,
+      "needs_adjudication": true,
+      "issues": [
+        "Historical applicability/version unresolved; previously retained Copilot pipeline and suite URLs returned 404."
+      ],
+      "sources": [
+        {
+          "url": "https://docs.cribl.io/copilot/",
+          "source_type": "official",
+          "excerpt": "Cribl AI includes the following features: ... Copilot Editor: Helps you create and edit data transformation Pipelines. ... Cribl AI is a native part of the Cribl product suite. AI feature entry points appear across supported Cribl products.",
+          "applicability": "Current official Cribl AI documentation explicitly describes pipeline Copilot and native suite status; availability depends on deployment/products and doesn't prove historical inclusion.",
+          "supports": [
+            "binary",
+            "subtype",
+            "identity"
+          ],
+          "captured_at": null,
+          "capture_reference": "fetch_content response for https://docs.cribl.io/copilot/ during continuation",
+          "publication_or_version": null
+        },
+        {
+          "url": "https://docs.cribl.io/stream/copilot-pipelines/",
+          "source_type": "official",
+          "excerpt": "404 Not found? Someone must have eaten that page.",
+          "applicability": "Retained official documentation URL for Copilot pipelines returned 404; access limitation, not affirmative capability evidence.",
+          "supports": [
+            "identity"
+          ],
+          "captured_at": "2026-10-12T03:36:15.284000+00:00",
+          "capture_reference": "retained_pages/mv4p9t4kcyhv4y-09.json; response mv4p9t4kcyhv4y",
+          "publication_or_version": null
+        }
+      ],
+      "research_counts": {
+        "search_rounds": 3,
+        "full_page_reads": 3
+      }
+    }
+  ]
+}

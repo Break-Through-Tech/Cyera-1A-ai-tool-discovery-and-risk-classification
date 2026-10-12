@@ -1,0 +1,37 @@
+{
+  "status": "search configuration repaired; continuation not yet dispatched",
+  "original_workflow_run_id": "792352ce-da86-4559-8919-e80bfde8aade",
+  "mission_id": "66ff06cb-4f81-4d45-ac9f-f52015675c6b",
+  "configuration_path": "/home/newton/.pi/web-search.json",
+  "previous_configuration_file_existed": false,
+  "configuration": {
+    "provider": "anysearch"
+  },
+  "labeling_model": "openai-codex/gpt-6-luna",
+  "thinking": "high",
+  "smoke_tests": {
+    "explicit_anysearch": "passed; actual source URLs returned",
+    "omitted_provider_after_configuration": "passed; actual source URLs returned"
+  },
+  "smoke_query": "DataRobot Enterprise AI official product platform",
+  "default_smoke_source_urls": [
+    "https://www.datarobot.com/product/ai-platform/",
+    "https://catalog.redhat.com/en/partners/detail/datarobot",
+    "https://www.softwarereviews.com/products/datarobot-ai-platform?c_id=200"
+  ],
+  "script_validation": "passed",
+  "workflow_self_check_assertions": 8,
+  "original_input_hashes": "passed",
+  "completed_group_judgments_to_reuse": 1,
+  "retained_prior_page_snapshots": 30,
+  "prior_search_and_read_allowances": "reconciled against saved native tool calls; not reset",
+  "recovery_sha256": {
+    "workflow-recovery.js": "69ed4f3bb9c1bb18e0fdd2a1aa8e1d3088a373c8392291c27f90ced4a2cdec16",
+    "RECOVERY_CONTRACT.md": "2d47507dc18f08e7b59bf91e23d4378d1725f4f3145443c185753a3b233fe14e"
+  },
+  "limitations": [
+    "The default search backend change is user-wide. No installed extension was patched.",
+    "Anonymous AnySearch availability/rate limits are not guaranteed.",
+    "The smoke lookup is an infrastructure check, not a labeled calibration example."
+  ]
+}
