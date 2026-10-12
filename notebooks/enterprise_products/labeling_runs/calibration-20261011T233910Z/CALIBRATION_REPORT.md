@@ -7,30 +7,32 @@
 | Measure | Result |
 | --- | ---: |
 | Product groups / retained source rows | 20 / 21 |
-| AI / non-AI groups | 11 / 9 |
-| AI-enabled / AI-native | 10 / 1 |
+| AI / non-AI groups (after user review) | 12 / 8 |
+| AI-enabled / AI-native | 11 / 1 |
 | Adjudicated groups, each with one final evidence check | 17 |
 | Initial binary / subtype disagreements | 2 / 1 |
-| Model-forced binary / subtype decisions | 14 / 1 |
-| Additional parent trusted-use holds | 2 |
-| Trusted binary eligible / review queue | 4 / 16 |
+| Forced binary / subtype decisions (retained from evidence flags) | 14 / 2 |
+| Parent holds accepted by user review | 2 |
+| Trusted binary / subtype eligible | 6 / 3 |
+| Evidence-flagged review queue | 14 |
+| User-reviewed groups / user label overrides | 16 / 1 |
 | Structural/grouping blockers | 0 |
 
-All groups have a binary label. Forced and parent-held annotations remain visibly excluded from trusted training/evaluation; this exclusion is metadata, not an additional label class. Subtype support is separate from binary support. Only one AI-positive group currently qualifies for trusted subtype analysis.
+The user reviewed all 16 previously flagged cases, accepted the original Luna judgments except for one explicit override, and accepted the earlier parent evidence holds on TRIRIGA and Alfabet. Their accepted `ai` / `ai_enabled` labels are included in the six trusted binary and three trusted subtype-eligible annotations. These manual dispositions do not alter the preserved Luna stages.
 
-The four parent-accepted binary annotations are DataRobot Enterprise AI (`ai`, `ai_native`), Spring.NET, PingPlotter Pro and Dameware Remote Everywhere (all `non_ai`). These are evidence-backed operational annotations, not proof about every release or employee usage.
+The user-directed override changes Evercoast Managed Services from the original Luna `non_ai` judgment to `ai` / `ai_enabled`. Because the retained AI evidence concerns separate Cloudbreak and Mavericks products, its binary and subtype evidence remain weak/forced; it is not trusted-eligible. The 14 remaining evidence-flagged groups remain excluded from trusted analysis. Human approval does not convert weak/forced evidence into source support.
 
-TRIRIGA and Alfabet retain the Luna `ai` / `ai_enabled` judgments but have additional parent evidence/applicability holds. Their imported descriptions are not official product-site claims, and current AI documentation does not establish inclusion in their represented historical product/version. See [parent acceptance](PARENT_ACCEPTANCE.md).
+The current workflow specification was later updated to `enterprise-ai-mention-v2`; this calibration and frozen stage artifacts remain under the earlier pinned rubric. The user override is recorded separately and does not silently rerun/relabel other stages. See [parent acceptance](PARENT_ACCEPTANCE.md), the [user review disposition](USER_REVIEW_DISPOSITION.md), and `user_review_decisions.json`.
 
 ## Files
 
 - [Group labels](exports/product_ai_labels.csv): one annotation per group, separate binary/subtype evidence flags and trusted-use eligibility.
 - [Record labels](exports/product_ai_record_labels.csv): deterministic propagation to all 21 selected source rows.
-- [Review queue](exports/product_ai_review_queue.csv): 16 groups with reasons.
+- [Review queue](exports/product_ai_review_queue.csv): 14 groups still carrying weak/forced evidence exclusions after manual review; all original 16 reviewed dispositions are in the ledger and [HTML case page](exports/flagged_cases.html).
 - [Review ledger](exports/product_ai_review.jsonl): every stage's unchanged judgment, source excerpts/captures, native stage/run identities, prompt and input hashes.
 - [Machine-readable report](exports/product_ai_labeling_report.json): distributions, provenance, resource telemetry and protocol limitations.
 
-Run `python3 -B export_calibration.py` from this directory to regenerate the partial exports after checking pinned inputs and stage coverage. The source CSV, cleaner outputs, canonical plans and frozen rubric are unchanged. Export regeneration was tested twice with byte-identical results; stage-checker and trusted-use self-tests passed.
+Run `python3 -B export_calibration.py` from this directory to regenerate the partial exports after checking pinned inputs and stage coverage. The source CSV and cleaner outputs are unchanged. The frozen calibration rubric hash remains pinned; the live workflow specification subsequently changed to v2 and its hash drift is reported rather than rewriting this historical run. Export regeneration was tested twice with byte-identical results; stage-checker and trusted-use self-tests passed.
 
 ## Resource and protocol findings
 
@@ -42,6 +44,6 @@ Retained deviations are explicit: the user accepted the two existing four-round 
 
 ## Recommendation and approval boundary
 
-**Review the 16 flagged cases and address the concrete prompt/evidence failures before scaling.** The main limitation is missing historical version, feature inclusion and product/SKU mapping—not a missing binary-label class. Do not silently relabel contemporary product capabilities as historical evidence or promote dataset descriptions to official-site claims.
+The user has now reviewed the 16 cases and accepted the original calls except Evercoast, explicitly overridden to `ai` / `ai_enabled`. Fourteen evidence-flagged cases remain excluded from trusted analysis. The main evidence limitations are product/feature identity and incomplete historical/source coverage. The user-authored v2 workflow changes how future product-specific AI mentions/showcases are treated; it does not retroactively rewrite these frozen calibration judgments.
 
 No remaining groups, model training, partitions, commits, pushes or merges have been performed. Processing the remaining 1,386 groups requires explicit user approval after this report. Existing historical-applicability, included-product and evidence rules remain unchanged.

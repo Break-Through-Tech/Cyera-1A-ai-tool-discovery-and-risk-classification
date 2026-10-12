@@ -6,20 +6,23 @@
   "source_records": 1438,
   "remaining_groups": 1386,
   "binary_distribution": {
-    "ai": 11,
-    "non_ai": 9
+    "ai": 12,
+    "non_ai": 8
   },
   "ai_type_distribution": {
-    "ai_enabled": 10,
+    "ai_enabled": 11,
     "ai_native": 1
   },
   "model_supported_binary": 6,
   "forced_binary": 14,
-  "forced_subtype": 1,
+  "forced_subtype": 2,
   "parent_binary_holds": 2,
-  "trusted_binary_eligible": 4,
-  "trusted_subtype_eligible": 1,
-  "review_queue_groups": 16,
+  "parent_holds_accepted_by_user": 2,
+  "user_reviewed_groups": 16,
+  "user_override_groups": 1,
+  "trusted_binary_eligible": 6,
+  "trusted_subtype_eligible": 3,
+  "review_queue_groups": 14,
   "adjudicated_groups": 17,
   "binary_disagreements": 2,
   "subtype_disagreements": 1,
@@ -400,6 +403,14 @@
     "cost_caveat": "Provider/harness telemetry only, not an invoice; excludes parent orchestration and search-provider charges. Includes stopped/failed children and recovery overhead. Total tokens include cached reads."
   },
   "source_head": "0cfdc8fe74542545058773eb8e95fb022493d8ec",
+  "pinned_rubric_sha256": "5edd2604f6537609115389df5b5004ac09515900c252ee47d8ffd20c9807cad6",
+  "current_rubric_sha256": "60036bb04b2b75d96780bea3bfed30d93f707efb24fbc75e46c9ee908c0e6d4a",
+  "live_input_drift": {
+    "notebooks/enterprise_products/LABELING_WORKFLOW.md": {
+      "pinned_sha256": "5edd2604f6537609115389df5b5004ac09515900c252ee47d8ffd20c9807cad6",
+      "current_sha256": "60036bb04b2b75d96780bea3bfed30d93f707efb24fbc75e46c9ee908c0e6d4a"
+    }
+  },
   "model": "openai-codex/gpt-6-luna",
   "thinking": "high",
   "input_sha256": {
