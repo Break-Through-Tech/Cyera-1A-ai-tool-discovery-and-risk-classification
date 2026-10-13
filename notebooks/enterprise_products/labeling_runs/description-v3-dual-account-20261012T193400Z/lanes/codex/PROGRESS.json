@@ -1,15 +1,16 @@
 {
-  "status": "active",
+  "status": "ready_for_next_batch",
   "lane": "codex",
-  "new_completed_descriptions": 20,
-  "new_completed_rows": 20,
-  "remaining_lane_descriptions": 591,
-  "remaining_lane_rows": 605,
+  "new_completed_descriptions": 40,
+  "new_completed_rows": 40,
+  "remaining_lane_descriptions": 571,
+  "remaining_lane_rows": 585,
   "finalized_batches": [
-    "batch-001"
+    "batch-001",
+    "batch-002"
   ],
   "current_batch": "batch-002",
-  "active_workers": 2,
+  "active_workers": 0,
   "stop_on_usage_limit": true,
   "independent_workflow_run_id": "0906986e-f360-40cf-9d3f-0d079b2eca88",
   "annotation_worker_slots_reserved": 0,
@@ -22,7 +23,7 @@
   "blind_state": "native/checkpoint equality verified; exact native-byte accepted copy preserved alongside corrupt aggregate",
   "repair_receipt": "runtime/PIPELINE_REPAIR_RECEIPT.json",
   "latest_authorization": "ok resume the codex labeling workflow as well, run both the cursor and codex labeling workflows, dont stop unless theres a big error im gonna go to bed now and feel free to repair or fix anything that comes up",
-  "current_stage": "independent",
+  "current_stage": "batch002_finalized",
   "reconciliation_workflow_run_id": "6e9c76f0-0419-418b-a4ac-f6aa6c2951c4",
   "active_annotation_workers": 0,
   "replacement_approval": "runtime/REPLACEMENT_VERIFIER_APPROVAL.json",

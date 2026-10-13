@@ -1,13 +1,13 @@
 {
-  "status": "both_lanes_active",
+  "status": "both_lanes_continuing",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
-  "new_completed_descriptions": 100,
-  "new_completed_rows": 100,
-  "cumulative_finalized_descriptions": 260,
-  "cumulative_finalized_rows": 274,
-  "remaining_descriptions": 1131,
-  "remaining_rows": 1164,
+  "new_completed_descriptions": 120,
+  "new_completed_rows": 120,
+  "cumulative_finalized_descriptions": 280,
+  "cumulative_finalized_rows": 294,
+  "remaining_descriptions": 1111,
+  "remaining_rows": 1144,
   "annotation_workers_max": 4,
   "stop_on_usage_limit": true,
   "lanes": {
@@ -15,7 +15,7 @@
     "codex": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex"
   },
   "active_runs": {
-    "cursor_integration_owner": "parent",
+    "cursor_integration_owner": "2064f731-ae1f-4932-94e3-182e6bf6f984",
     "cursor_panes": [
       "wF:p19",
       "wF:p1A"
@@ -24,8 +24,8 @@
     "codex_independent_workflow": "0906986e-f360-40cf-9d3f-0d079b2eca88"
   },
   "resume_requires_user_request": false,
-  "cursor_status": "001–004 finalized80/80; next005",
-  "codex_status": "001 finalized20/20;002 fresh independent20+20 launched",
+  "cursor_status": "005–009 exclusive coordinator2064f731;005 structural quote recovery then original-verifier reconciliation",
+  "codex_status": "001–002 finalized40/40; preparing003",
   "native_recovery_run_id": "744f5405-9265-42db-83c4-6b041c2d3b08",
   "active_annotation_workers": 2,
   "repair_receipt": "runtime/PIPELINE_REPAIR_RECEIPT.json",

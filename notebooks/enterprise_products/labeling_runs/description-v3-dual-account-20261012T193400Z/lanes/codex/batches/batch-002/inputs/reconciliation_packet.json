@@ -1,0 +1,174 @@
+[
+  {
+    "annotation_id": "ann_15e8ceb6a4cb6a5cfef7d799",
+    "description_sha256": "d4bfbd9ce416ca1193c4d98a00e28e0286f9b19225c5aea7a9f7af7ab9ced144",
+    "description": "3-GIS is leading the future of Geospatial Innovation by developing smart, simple and fast GIS solutions.",
+    "source_record_references": [
+      "219"
+    ],
+    "labeler": {
+      "annotation_id": "ann_15e8ceb6a4cb6a5cfef7d799",
+      "description_sha256": "d4bfbd9ce416ca1193c4d98a00e28e0286f9b19225c5aea7a9f7af7ab9ced144",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description only characterizes the offering as GIS solutions and provides no specific functions; best forced judgment is conventional GIS software.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "developing smart, simple and fast GIS solutions."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_15e8ceb6a4cb6a5cfef7d799",
+      "description_sha256": "d4bfbd9ce416ca1193c4d98a00e28e0286f9b19225c5aea7a9f7af7ab9ced144",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes GIS solutions as the company's software offering, without an AI-specific function; GIS is a conventional geospatial information system function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "developing smart, simple and fast GIS solutions."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "GIS solutions category and smart/simple/fast claims without concrete functions; agreement must not create support."
+    ]
+  },
+  {
+    "annotation_id": "ann_1622ee2f696c66d8fb2e4894",
+    "description_sha256": "afe7598376fd20e08d74c51fbcaf9a6f5adb8e5a809e0de24a139120e7c049d6",
+    "description": "Pitney Bowes Application Spectrum - Part of the Enterprise Address Quality Solution. The vendor is Pitney Bowes.",
+    "source_record_references": [
+      "214"
+    ],
+    "labeler": {
+      "annotation_id": "ann_1622ee2f696c66d8fb2e4894",
+      "description_sha256": "afe7598376fd20e08d74c51fbcaf9a6f5adb8e5a809e0de24a139120e7c049d6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description only situates the application within an address-quality solution and gives no operational details; best forced judgment is conventional address-quality software.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Part of the Enterprise Address Quality Solution."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_1622ee2f696c66d8fb2e4894",
+      "description_sha256": "afe7598376fd20e08d74c51fbcaf9a6f5adb8e5a809e0de24a139120e7c049d6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies an application as part of an enterprise address-quality solution, a conventional address-data quality function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Pitney Bowes Application Spectrum - Part of the Enterprise Address Quality Solution."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Address-quality solution label alone may not meaningfully describe actual conventional functionality; no product/vendor inference."
+    ]
+  },
+  {
+    "annotation_id": "ann_8b3c4c234e65ba4d0a19d687",
+    "description_sha256": "42d15bb5993c381fc2a886f693b42e9264a254fe1f086f524e10e4f82765ed99",
+    "description": "PxPoint Geocoder is a parcel level and spatial analytic engine that accurately coverts address and location information into geographic coordinates.",
+    "source_record_references": [
+      "221"
+    ],
+    "labeler": {
+      "annotation_id": "ann_8b3c4c234e65ba4d0a19d687",
+      "description_sha256": "42d15bb5993c381fc2a886f693b42e9264a254fe1f086f524e10e4f82765ed99",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The geocoder converts address and location inputs into geographic coordinates, a conventional deterministic spatial data function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "accurately coverts address and location information into geographic coordinates."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_8b3c4c234e65ba4d0a19d687",
+      "description_sha256": "42d15bb5993c381fc2a886f693b42e9264a254fe1f086f524e10e4f82765ed99",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This is a geocoding and spatial-data function: it converts addresses and locations into geographic coordinates at parcel level.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a parcel level and spatial analytic engine that accurately coverts address and location information into geographic coordinates."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Labeler calls coordinate conversion deterministic, but source gives no implementation. Ground support on stated geocoding function only; generic potential AI does not itself make weak."
+    ]
+  },
+  {
+    "annotation_id": "ann_e034bba140b9d5615c282e05",
+    "description_sha256": "f395f701b307b29b7546a430cab47810779de56ed9fc35f665b483a90bb1a183",
+    "description": "Connected2Fiber's best-in-class and versatile data, application, and services offerings enable any seller, buyer, or user of connectivity to more effectively, efficiently, and confidently compete by providing the ability to quickly discover location-specific insight and then take immediate action on it to grow organizational revenue.",
+    "source_record_references": [
+      "210"
+    ],
+    "labeler": {
+      "annotation_id": "ann_e034bba140b9d5615c282e05",
+      "description_sha256": "f395f701b307b29b7546a430cab47810779de56ed9fc35f665b483a90bb1a183",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional data and application services for discovering location-specific information and taking business action; no AI functionality is indicated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "quickly discover location-specific insight and then take immediate action"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_e034bba140b9d5615c282e05",
+      "description_sha256": "f395f701b307b29b7546a430cab47810779de56ed9fc35f665b483a90bb1a183",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description presents connectivity-market data, applications, and services for discovering location-specific insights and taking business actions; these are conventional data and business-support functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "data, application, and services offerings enable any seller, buyer, or user of connectivity to more effectively, efficiently, and confidently compete by providing the ability to quickly discover location-specific insight and then take immediate action on it to grow organizational revenue."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Discover location-specific insight then take action: concrete data function or thin outcome/unknown insight mechanism? Do not invent means."
+    ]
+  }
+]
