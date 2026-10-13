@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_8d5631a4c7fe215158d5d5d9",
+  "description_sha256": "c199f92a8fabea228f994d739faacf52ef35055b26a11b0d7c72b920babc9e3c",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "The description identifies a text-to-speech engine and then describes a speech-recognition engine whose customer interactions are driven by advanced AI; the AI statement is product-specific in the supplied description and supports a positive label.",
+  "ai_type_rationale": "Text-to-speech is described as a complete core product, while the AI claim specifically concerns the separately named Recognizer. The relationship between these functions and whether AI is core to the offering is unclear, so enabled is the best available subtype with weak evidence.",
+  "evidence_spans": [
+    "Nuance Recognizer delivers seamless self-service and an enhanced customer experience, with lower costs. Choose the market-leading automated speech recognition engine for more life-like, personalized customer interaction, driven by advanced AI."
+  ],
+  "ai_type_evidence_spans": [
+    "Vocalizer is a complete, enterprise-ready text-to-speech output engine that enables more human-like, personalized customer interactions for less cost and hassle than hiring voice talent.",
+    "Nuance Recognizer delivers seamless self-service and an enhanced customer experience, with lower costs. Choose the market-leading automated speech recognition engine for more life-like, personalized customer interaction, driven by advanced AI."
+  ]
+}

@@ -1,0 +1,235 @@
+[
+  {
+    "annotation_id": "ann_4737466934ce7ba4d9b4e2db",
+    "description_sha256": "ee3759c382401600ca6b0eecc740db4aa94c43f60af0a20466c58cf27fa29d12",
+    "description": "Accelerate New Offering Design and Time to Market: Manage the order fulfillment lifecycle across enterprise systems-including billing, shipping, and workforce management while also managing and tracking service fulfillment activities across activation and inventory applications.\n\nOSM is an order processing system that takes as input an order from a customer relationship management (CRM) system, and manages the fulfillment functions that need to be carried out to complete the order. \nFulfillment functions include operations such as assigning a phone number, activating a service on the network, shipping a phone, and running billing.\n\nProduct information page: https://docs.oracle.com/communications/E96856-01/doc.74/e96918/cpt_overview.htm#OSMCN306",
+    "source_record_references": [
+      "253"
+    ],
+    "labeler": {
+      "annotation_id": "ann_4737466934ce7ba4d9b4e2db",
+      "description_sha256": "ee3759c382401600ca6b0eecc740db4aa94c43f60af0a20466c58cf27fa29d12",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes order and service fulfillment across billing, shipping, workforce, activation, and inventory systems, with operational steps such as assigning numbers and activating service; these are conventional workflow functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Manage the order fulfillment lifecycle across enterprise systems-including billing, shipping, and workforce management",
+        "Fulfillment functions include operations such as assigning a phone number, activating a service on the network, shipping a phone, and running billing."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_4737466934ce7ba4d9b4e2db",
+      "description_sha256": "ee3759c382401600ca6b0eecc740db4aa94c43f60af0a20466c58cf27fa29d12",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes order intake and deterministic fulfillment coordination across billing, shipping, workforce, activation, and inventory systems.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Manage the order fulfillment lifecycle across enterprise systems-including billing, shipping, and workforce management",
+        "manages the fulfillment functions that need to be carried out to complete the order.",
+        "assigning a phone number, activating a service on the network, shipping a phone, and running billing"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Blind asserts deterministic order coordination without stated implementation. Ground conventional support in described fulfillment operations, not invented determinism. Source URL is text only; do not fetch it."
+    ]
+  },
+  {
+    "annotation_id": "ann_502c01ea6fcd7958cad21eb6",
+    "description_sha256": "2a4bdb8dcc2396d88797c425a2db16f402b8b8d60f57bf391a7d56aaad93c32a",
+    "description": "TouchCommerce provides market-leading brands with award-winning omni-channel solutions to engage their customers on any device through online chat, guides, personalized content, and other automated tools, resulting in enhanced customer experience, increased revenue and reduced support costs.   Includes Services for On Premise FreeSpeech",
+    "source_record_references": [
+      "271"
+    ],
+    "labeler": {
+      "annotation_id": "ann_502c01ea6fcd7958cad21eb6",
+      "description_sha256": "2a4bdb8dcc2396d88797c425a2db16f402b8b8d60f57bf391a7d56aaad93c32a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes customer engagement via online chat, guides, personalized content, and other automated tools, plus an on-premise service; these are conventional support and content-delivery functions without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "engage their customers on any device through online chat, guides, personalized content, and other automated tools, resulting in enhanced customer experience, increased revenue and reduced support costs.",
+        "Includes Services for On Premise FreeSpeech"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_502c01ea6fcd7958cad21eb6",
+      "description_sha256": "2a4bdb8dcc2396d88797c425a2db16f402b8b8d60f57bf391a7d56aaad93c32a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes customer engagement through online chat, guides, personalized content, and automated tools, plus an on-premise service offering.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "engage their customers on any device through online chat, guides, personalized content, and other automated tools",
+        "Includes Services for On Premise FreeSpeech"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Address chat/guides/personalized content and other automated tools; Includes Services for On Premise FreeSpeech names a service without described function. Do not infer speech AI from name or product memory; resolve actual functional support/inclusion uncertainty."
+    ]
+  },
+  {
+    "annotation_id": "ann_50e9b00b59115a61ce689602",
+    "description_sha256": "2fbe73c6a20b98fb7b390b8491e500d4966a3db955d948c2a940b08df088a4e7",
+    "description": "AI-powered Live Assist feature enables Sia  to consistently monitor the live chat between the agent and the user, and wherever the AI response is available, notify the agent through a pop-up and the agent can use that answer rather than spending his time searching for the response with just a single click.",
+    "source_record_references": [
+      "273"
+    ],
+    "labeler": {
+      "annotation_id": "ann_50e9b00b59115a61ce689602",
+      "description_sha256": "2fbe73c6a20b98fb7b390b8491e500d4966a3db955d948c2a940b08df088a4e7",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The description explicitly calls this an AI-powered Live Assist feature and states that it monitors live chat and surfaces an available AI response to an agent, establishing AI functionality.",
+      "ai_type_rationale": "The AI is presented as a Live Assist feature within an agent-user live chat workflow, suggesting an enhancement to conventional chat, but the description does not establish whether meaningful non-AI core functionality remains; enabled is the best fit with weak subtype evidence.",
+      "evidence_spans": [
+        "AI-powered Live Assist feature enables Sia  to consistently monitor the live chat between the agent and the user, and wherever the AI response is available, notify the agent through a pop-up"
+      ],
+      "ai_type_evidence_spans": [
+        "AI-powered Live Assist feature enables Sia  to consistently monitor the live chat between the agent and the user, and wherever the AI response is available, notify the agent through a pop-up and the agent can use that answer rather than spending his time searching for the response with just a single click."
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_50e9b00b59115a61ce689602",
+      "description_sha256": "2fbe73c6a20b98fb7b390b8491e500d4966a3db955d948c2a940b08df088a4e7",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Explicitly describes an AI-powered feature that monitors agent-user live chat and surfaces available answers to the agent.",
+      "ai_type_rationale": "Live chat between the agent and user is the conventional core context; AI answer suggestions are an added assistance feature, so meaningful chat functionality remains without that enhancement.",
+      "evidence_spans": [
+        "AI-powered Live Assist feature enables Sia  to consistently monitor the live chat between the agent and the user, and wherever the AI response is available, notify the agent through a pop-up"
+      ],
+      "ai_type_evidence_spans": [
+        "AI-powered Live Assist feature",
+        "monitor the live chat between the agent and the user",
+        "notify the agent through a pop-up"
+      ]
+    },
+    "parent_concerns": [
+      "Explicit AI supports binary. Agent-user live chat is context; whether this is a feature of a conventional offering or the whole described AI-assist offering is unclear. Recheck core dependence rather than assuming surrounding context supplies product core."
+    ]
+  },
+  {
+    "annotation_id": "ann_708385c322f5fe904fd281c8",
+    "description_sha256": "4c8cf30ac0ae8752b4e40d0eb0e7a582935cbc77fdc9e07c7248ed350d4425a7",
+    "description": "TouchCommerce provides market-leading brands with award-winning omni-channel solutions to engage their customers on any device through online chat, guides, personalized content, and other automated tools, resulting in enhanced customer experience, increased revenue and reduced support costs.",
+    "source_record_references": [
+      "269"
+    ],
+    "labeler": {
+      "annotation_id": "ann_708385c322f5fe904fd281c8",
+      "description_sha256": "4c8cf30ac0ae8752b4e40d0eb0e7a582935cbc77fdc9e07c7248ed350d4425a7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes customer engagement through online chat, guides, personalized content, and automated tools, conventional omnichannel support and content-delivery functions; it does not state AI functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "engage their customers on any device through online chat, guides, personalized content, and other automated tools, resulting in enhanced customer experience, increased revenue and reduced support costs."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_708385c322f5fe904fd281c8",
+      "description_sha256": "4c8cf30ac0ae8752b4e40d0eb0e7a582935cbc77fdc9e07c7248ed350d4425a7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes customer engagement through online chat, guides, personalized content, and other automated customer-support tools; no AI functionality is identified.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "engage their customers on any device through online chat, guides, personalized content, and other automated tools",
+        "enhanced customer experience, increased revenue and reduced support costs."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Online chat need not be chatbot/AI, guides and content can be conventional. Address personalized content and other automated tools, distinguish concrete conventional support from genuinely unexplained AI-suggestive included feature without mechanism invention."
+    ]
+  },
+  {
+    "annotation_id": "ann_8d5631a4c7fe215158d5d5d9",
+    "description_sha256": "c199f92a8fabea228f994d739faacf52ef35055b26a11b0d7c72b920babc9e3c",
+    "description": "Vocalizer is a complete, enterprise-ready text-to-speech output engine that enables more human-like, personalized customer interactions for less cost and hassle than hiring voice talent.\n\nNuance Recognizer delivers seamless self-service and an enhanced customer experience, with lower costs. Choose the market-leading automated speech recognition engine for more life-like, personalized customer interaction, driven by advanced AI.",
+    "source_record_references": [
+      "274"
+    ],
+    "labeler": {
+      "annotation_id": "ann_8d5631a4c7fe215158d5d5d9",
+      "description_sha256": "c199f92a8fabea228f994d739faacf52ef35055b26a11b0d7c72b920babc9e3c",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The description identifies a text-to-speech engine and then describes a speech-recognition engine whose customer interactions are driven by advanced AI; the AI statement is product-specific in the supplied description and supports a positive label.",
+      "ai_type_rationale": "Text-to-speech is described as a complete core product, while the AI claim specifically concerns the separately named Recognizer. The relationship between these functions and whether AI is core to the offering is unclear, so enabled is the best available subtype with weak evidence.",
+      "evidence_spans": [
+        "Nuance Recognizer delivers seamless self-service and an enhanced customer experience, with lower costs. Choose the market-leading automated speech recognition engine for more life-like, personalized customer interaction, driven by advanced AI."
+      ],
+      "ai_type_evidence_spans": [
+        "Vocalizer is a complete, enterprise-ready text-to-speech output engine that enables more human-like, personalized customer interactions for less cost and hassle than hiring voice talent.",
+        "Nuance Recognizer delivers seamless self-service and an enhanced customer experience, with lower costs. Choose the market-leading automated speech recognition engine for more life-like, personalized customer interaction, driven by advanced AI."
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_8d5631a4c7fe215158d5d5d9",
+      "description_sha256": "c199f92a8fabea228f994d739faacf52ef35055b26a11b0d7c72b920babc9e3c",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The description explicitly identifies the referenced speech-recognition engine as driven by advanced AI, so the description is AI-positive.",
+      "ai_type_rationale": "Text-to-speech is presented as the primary offering, while a separate speech-recognition engine is also described as AI-driven. The text does not establish whether AI is core to the complete offering; best treated as an AI enhancement with subtype uncertainty.",
+      "evidence_spans": [
+        "Nuance Recognizer delivers seamless self-service and an enhanced customer experience, with lower costs. Choose the market-leading automated speech recognition engine for more life-like, personalized customer interaction, driven by advanced AI."
+      ],
+      "ai_type_evidence_spans": [
+        "Vocalizer is a complete, enterprise-ready text-to-speech output engine",
+        "automated speech recognition engine for more life-like, personalized customer interaction, driven by advanced AI."
+      ]
+    },
+    "parent_concerns": [
+      "AI statement is about separately named Nuance Recognizer after Vocalizer text-to-speech. Rubric unrelated product mention does not automatically make primary offering positive. Recheck applicability/inclusion; if ambiguous keep binary weak independently from subtype, do not invent bundle relationship."
+    ]
+  }
+]

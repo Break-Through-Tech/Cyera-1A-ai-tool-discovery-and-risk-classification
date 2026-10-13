@@ -1,5 +1,5 @@
 {
-  "status": "ready_for_next_batch",
+  "status": "batch003_reconciliation_active",
   "lane": "codex",
   "new_completed_descriptions": 40,
   "new_completed_rows": 40,
@@ -9,10 +9,10 @@
     "batch-001",
     "batch-002"
   ],
-  "current_batch": "batch-002",
-  "active_workers": 0,
+  "current_batch": "batch-003",
+  "active_workers": 1,
   "stop_on_usage_limit": true,
-  "independent_workflow_run_id": "0906986e-f360-40cf-9d3f-0d079b2eca88",
+  "independent_workflow_run_id": "cdcfccd6-d9b0-47f5-bb71-87ab8325fdf2",
   "annotation_worker_slots_reserved": 0,
   "original_blind_run_id": "1a0c6684-165e-4393-941a-5153ffdc90d2",
   "recovery_blind_run_id": "744f5405-9265-42db-83c4-6b041c2d3b08",
@@ -23,8 +23,8 @@
   "blind_state": "native/checkpoint equality verified; exact native-byte accepted copy preserved alongside corrupt aggregate",
   "repair_receipt": "runtime/PIPELINE_REPAIR_RECEIPT.json",
   "latest_authorization": "ok resume the codex labeling workflow as well, run both the cursor and codex labeling workflows, dont stop unless theres a big error im gonna go to bed now and feel free to repair or fix anything that comes up",
-  "current_stage": "batch002_finalized",
-  "reconciliation_workflow_run_id": "6e9c76f0-0419-418b-a4ac-f6aa6c2951c4",
+  "current_stage": "reconciliation",
+  "reconciliation_workflow_run_id": "3b236507-8685-40e2-a0ea-51c0539663a2",
   "active_annotation_workers": 0,
   "replacement_approval": "runtime/REPLACEMENT_VERIFIER_APPROVAL.json",
   "replacement_child_run_id": "604a3064-2a35-454d-9d90-ca41cb72fc74",
@@ -44,5 +44,6 @@
   "missing_reconciliation_ids": [
     "ann_e7ae22b6912da54ad1badcb8"
   ],
-  "blocker_receipt": "../../runtime/OVERNIGHT_CODEX_RESUME_BLOCKER.json"
+  "blocker_receipt": "../../runtime/OVERNIGHT_CODEX_RESUME_BLOCKER.json",
+  "original_verifier_run_id": "40233aaf-9b3e-43c7-b66a-cdbe1254f6b3"
 }
