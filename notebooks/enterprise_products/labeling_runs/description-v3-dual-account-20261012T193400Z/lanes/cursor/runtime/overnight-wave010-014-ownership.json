@@ -1,0 +1,12 @@
+{
+  "status": "assigned",
+  "batch_range": ["batch-010", "batch-011", "batch-012", "batch-013", "batch-014"],
+  "exclusive_owner": "enterprise-cursor-coordinator next native child",
+  "parent_owns": ["Codex lane", "root PROGRESS.json", "Git index and commits"],
+  "panes": {"labeler": "wF:p19", "blind": "wF:p1A"},
+  "models": {"labeler": "claude-haiku-5-5-thinking-high", "blind": "gpt-5.6-luna-high"},
+  "prior_wave": "runtime/overnight-wave005-009-handoff.md",
+  "routine_mechanical_repairs_authorized": true,
+  "stop_only_major_error_or_usage_limit": true,
+  "no_git_or_publication": true
+}

@@ -15,18 +15,18 @@
     "codex": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex"
   },
   "active_runs": {
-    "cursor_integration_owner": "2064f731-ae1f-4932-94e3-182e6bf6f984",
+    "cursor_integration_owner": "67f50f80-6b99-45dc-9656-902f8ff18d64",
     "cursor_panes": [
       "wF:p19",
       "wF:p1A"
     ],
-    "codex_active_workers": 0,
-    "codex_independent_workflow": "cdcfccd6-d9b0-47f5-bb71-87ab8325fdf2",
-    "cursor_coordinator": "2064f731-ae1f-4932-94e3-182e6bf6f984",
+    "codex_active_workers": 2,
+    "codex_independent_workflow": "f8202458-0846-413d-924c-443a2e9a9be5",
+    "cursor_coordinator": "67f50f80-6b99-45dc-9656-902f8ff18d64",
     "codex_reconciliation_workflow": "881fbdcb-eb50-4cfa-a596-2a898f13363c"
   },
   "resume_requires_user_request": false,
-  "cursor_status": "001–006 finalized;007–009 exclusive coordinator",
+  "cursor_status": "001–009 finalized;010–014 exclusive coordinator67f50f80",
   "codex_status": "001–004 finalized;005 fresh independent pair",
   "native_recovery_run_id": "744f5405-9265-42db-83c4-6b041c2d3b08",
   "active_annotation_workers": 4,
@@ -35,7 +35,7 @@
   "active_workers": 4,
   "replacement_approval": "runtime/REPLACEMENT_VERIFIER_APPROVAL.json",
   "blocker_receipt": "runtime/OVERNIGHT_CODEX_RESUME_BLOCKER.json",
-  "current_stage": "codex005_independent_cursor007",
+  "current_stage": "codex005_independent_cursor010_wave",
   "current_batch": "batch-004",
   "native_targets": {
     "labeler": "cursor-haiku-d004",
