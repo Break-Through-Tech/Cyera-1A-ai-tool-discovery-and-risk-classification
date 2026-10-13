@@ -1,0 +1,174 @@
+[
+  {
+    "annotation_id": "ann_50252d814ac26b10de53982a",
+    "description_sha256": "cc6840ad1484fe0da16fa50c4e25e5068806b215716f285923c6a59910cf4592",
+    "source_record_references": [
+      "502"
+    ],
+    "description": "CA Spectrum is a single platform that features proactive network change management, fault isolation and root cause analysis. With CA Spectrum, you can track, manage and optimize not only the network infrastructure but the business services running on top of it.\n\nCA Spectrum delivers advanced scalability and features that enable your organization to effectively monitor and manage its dynamic, complex IT infrastructure including physical, virtual and cloud environments as well as software defined networks (SDN). CA Spectrum is a single platform that features proactive",
+    "labeler_proposal": {
+      "annotation_id": "ann_50252d814ac26b10de53982a",
+      "description_sha256": "cc6840ad1484fe0da16fa50c4e25e5068806b215716f285923c6a59910cf4592",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Conventional network management: change management, fault isolation and root cause analysis across network infrastructure and the business services running on it. 'Root cause analysis' is a generic function, and the text names no AI or ML capability.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "proactive network change management, fault isolation and root cause analysis"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_50252d814ac26b10de53982a",
+      "description_sha256": "cc6840ad1484fe0da16fa50c4e25e5068806b215716f285923c6a59910cf4592",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description clearly describes network change management, fault isolation, and infrastructure monitoring, but the unexplained root cause analysis capability leaves the negative judgment weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "proactive network change management, fault isolation and root cause analysis",
+        "monitor and manage its dynamic, complex IT infrastructure"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Blind flags root-cause analysis as unexplained potentially AI-dependent while labeler calls conventional; the same text also states change management and fault isolation. Decide if exact phrase sufficiently supports conventional network operation or should remain weak; no generic possibility alone."
+  },
+  {
+    "annotation_id": "ann_69cd9453ebe5af9487bcea98",
+    "description_sha256": "fd6954424f8237a2c67bde8038c9403704e15dc57cd410fd7d0264db253e00a9",
+    "source_record_references": [
+      "498"
+    ],
+    "description": "CA App Services Orchestrator",
+    "labeler_proposal": {
+      "annotation_id": "ann_69cd9453ebe5af9487bcea98",
+      "description_sha256": "fd6954424f8237a2c67bde8038c9403704e15dc57cd410fd7d0264db253e00a9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description is only the product name 'CA App Services Orchestrator'. No function is described, so no conventional function or AI signal can be established. The non_ai label is the best-supported guess but is forced and weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "CA App Services Orchestrator"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_69cd9453ebe5af9487bcea98",
+      "description_sha256": "fd6954424f8237a2c67bde8038c9403704e15dc57cd410fd7d0264db253e00a9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description supplies only the product name and an orchestrator category, without enough conventional functionality to support a stronger negative judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "CA App Services Orchestrator"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Both say description is only a product name/category with no function. Confirm weak/forced binary without inferring from product identity."
+  },
+  {
+    "annotation_id": "ann_9a430e397fd8159ce52e768c",
+    "description_sha256": "a81d0fb989ee435eb677909393fe05ab8ac1ae2d663d979cb63058556fd16f76",
+    "source_record_references": [
+      "495"
+    ],
+    "description": "Designed to support the worlds largest networks, CA Network Flow Analysis efficiently harvests a rich set of network'traffic statistics, and it provides your administrators with real-time visibility and behavior analysis capabilities.\n\nNetwork Flow Analysis is a network traffic monitoring solution that can help you optimize your network infrastructure for better application performance. ... And its a key component within the CA Technologies Application-Driven Network Performance Management (ANPM) solution.",
+    "labeler_proposal": {
+      "annotation_id": "ann_9a430e397fd8159ce52e768c",
+      "description_sha256": "a81d0fb989ee435eb677909393fe05ab8ac1ae2d663d979cb63058556fd16f76",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Traffic-statistics harvesting and real-time network visibility are conventional, but the text adds 'behavior analysis capabilities' without explaining what that analysis does. Any AI dependence of that functionality is unexplained, so the negative is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "efficiently harvests a rich set of network",
+        "provides your administrators with real-time visibility and behavior analysis capabilities"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_9a430e397fd8159ce52e768c",
+      "description_sha256": "a81d0fb989ee435eb677909393fe05ab8ac1ae2d663d979cb63058556fd16f76",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description clearly identifies network traffic statistics harvesting and monitoring, but its unexplained \"behavior analysis capabilities\" leave the negative judgment weak under the description-only rubric.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "harvests a rich set of network'traffic statistics",
+        "behavior analysis capabilities",
+        "network traffic monitoring solution"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Both identify concrete network monitoring/statistics but leave behavior analysis unexplained. Assess whether that unexplained analysis materially weakens negative; keep generic possible AI from being enough alone."
+  },
+  {
+    "annotation_id": "ann_d7534007e3562abbc815d0de",
+    "description_sha256": "629e4133891bdfb8f7ea05a73ba9152d31b1b406ac786ff659d3829f8f619a42",
+    "source_record_references": [
+      "486"
+    ],
+    "description": "AWS Step Functions is a visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices, and create data and machine learning (ML) pipelines.",
+    "labeler_proposal": {
+      "annotation_id": "ann_d7534007e3562abbc815d0de",
+      "description_sha256": "629e4133891bdfb8f7ea05a73ba9152d31b1b406ac786ff659d3829f8f619a42",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "Product-specific affirmative ML mention: the service is said to help developers create data and machine learning (ML) pipelines, which satisfies the binary AI/ML mention rule.",
+      "ai_type_rationale": "Forced: the core offering described is visual workflow orchestration (distributed applications, process automation, microservice orchestration); ML pipelines are one listed use case, so a conventional core remains without an AI enhancement. The text does not establish that the core depends on AI.",
+      "evidence_spans": [
+        "create data and machine learning (ML) pipelines"
+      ],
+      "ai_type_evidence_spans": [
+        "is a visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices"
+      ]
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_d7534007e3562abbc815d0de",
+      "description_sha256": "629e4133891bdfb8f7ea05a73ba9152d31b1b406ac786ff659d3829f8f619a42",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly includes creating data and machine learning pipelines.",
+      "ai_type_rationale": "The described visual workflow, distributed-application, automation, and microservice orchestration functions are meaningful conventional functionality alongside the ML-pipeline capability.",
+      "evidence_spans": [
+        "create data and machine learning (ML) pipelines"
+      ],
+      "ai_type_evidence_spans": [
+        "visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices"
+      ]
+    },
+    "integration_concern": "Binary AI mention is agreed. Labeler says subtype ai_enabled weak; blind says supported because workflow/orchestration is conventional and ML pipeline is listed use. Determine if text supports ai_enabled independently of AI mention."
+  }
+]

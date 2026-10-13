@@ -1,0 +1,396 @@
+[
+  {
+    "source_record_number": "499",
+    "product_group_id": "enterprise-0520d523df3d51cd8eac8133c504e3418b5468cae939254c86b46571fa3bf070",
+    "product_description": "Automic Workload Automation (AWA) is a product suite that provides workload automation for IT services across diverse platforms, applications, and operation systems. This includes batch processing and job scheduling, for example. AWA is technology-agnostic and can therefore interface and interact with virtually any ecosystem.",
+    "annotation_id": "ann_0afc4d9590f71034d288e26b",
+    "description_sha256": "c2e0dd495c9fa56e4b6920523a7c3d99e3a7316a6c7dd65f3e95b54f1c37d272",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Conventional workload automation: batch processing and job scheduling across platforms and applications, described as technology-agnostic integration. This is routine automation with no AI or ML capability in the text.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "provides workload automation for IT services across diverse platforms, applications, and operation systems",
+      "This includes batch processing and job scheduling, for example."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "487",
+    "product_group_id": "enterprise-79fbbd6a0316673ffdc17fbad267fc1a71d96ee944d1966f7d0eea7bef08bd0a",
+    "product_description": "AWS Trusted Advisor is your customized cloud expert! It helps you to observe best practices for the use of AWS by inspecting your AWS environment with an eye toward saving money, improving system performance and reliability, and closing security gaps",
+    "annotation_id": "ann_0c4520d56e256150ae534159",
+    "description_sha256": "611bd254d6c563d279fa531a7126248c0bfaef2d91aa074d4d3c16f120775c34",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Conventional best-practice inspection service: it inspects the AWS environment to find cost, performance, reliability and security gaps. The text names no AI or ML capability; 'customized cloud expert' is a marketing metaphor for that inspection.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "inspecting your AWS environment with an eye toward saving money, improving system performance and reliability, and closing security gaps"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "488",
+    "product_group_id": "enterprise-039998304a7e0a853b7a069c13549ae9f0d4f1a7642c509a4f19020881f16196",
+    "product_description": "Amazon Virtual Private Cloud is a commercial cloud computing service that provides users a virtual private cloud, by provision[ing] a logically isolated section of Amazon Web Services Cloud.",
+    "annotation_id": "ann_2048a854529c1036c29da02c",
+    "description_sha256": "004ae065c931c56bc93daa402a5a65fd23652e5de4d8362c98588a9414acd427",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Conventional cloud networking service: it provides users a virtual private cloud, a logically isolated section of the cloud. The text names no AI or ML capability.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "provides users a virtual private cloud, by provision[ing] a logically isolated section of Amazon Web Services Cloud."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "491",
+    "product_group_id": "enterprise-5d5ef5dff39628975b267dbf02d5608e2cd4a8184d530775be00006630adc80a",
+    "product_description": "TMON for z/OS is a dynamic solution for monitoring every area of IBMs'z/OS operating system across every partition in your enterprise.",
+    "annotation_id": "ann_248cd788e6cc0809b9ef7e37",
+    "description_sha256": "bed7b9b4faa33474ef2dcdd5b3fbbfe0bb7d42ee9d18c1f9cdbfc52bcc52c756",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Conventional z/OS monitoring solution covering every OS area across partitions. 'Dynamic' describes the monitoring scope and is not an AI claim; the text names no AI or ML capability.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "is a dynamic solution for monitoring every area of IBMs'z/OS operating system across every partition in your enterprise"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "484",
+    "product_group_id": "enterprise-ebbe4cdd19b090c987e44755d72d988ac60c8689567a0753475512017767d872",
+    "product_description": "Amazon Route 53 is a scalable and highly available Domain Name System service.",
+    "annotation_id": "ann_3cb4571694ddf26b939705de",
+    "description_sha256": "e017c3ddd7987cb5e620820177d83a4ecfc9df04442e8eb09ddf24a828bee0f2",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional Domain Name System service that is scalable and highly available; the text names no AI or ML capability.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Amazon Route 53 is a scalable and highly available Domain Name System service."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "497",
+    "product_group_id": "enterprise-bac0b1b61f10224fb2d9253aa79d7824efef02042f00f369f0171193ce9a962c",
+    "product_description": "Release automation is a key component of your continuous delivery pipeline. The Automic@ Release Automation (ARA) plug-in enables you to apply core ARA deployment modeling (applications, environments, and so on) and deployment capabilities. \nThis plug-in lets you start both Application and General workflows directly from the Automic Continuous Delivery Director user interface.",
+    "annotation_id": "ann_4c7346c6d3dda14cfee1d52a",
+    "description_sha256": "39a0c30a2a94740b3ec71c8677d67f628a9329eefbb2c46fa69643e3e9084c0f",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Conventional release and deployment automation plug-in: applies deployment modeling and deployment capabilities and starts Application and General workflows from the Continuous Delivery Director UI. The text names no AI or ML capability.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "enables you to apply core ARA deployment modeling (applications, environments, and so on) and deployment capabilities",
+      "This plug-in lets you start both Application and General workflows directly from the Automic Continuous Delivery Director user interface."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "502",
+    "product_group_id": "enterprise-0523c886b7cae283158673b7703e19ad035acb54b920dd3ffc9d0095011e225b",
+    "product_description": "CA Spectrum is a single platform that features proactive network change management, fault isolation and root cause analysis. With CA Spectrum, you can track, manage and optimize not only the network infrastructure but the business services running on top of it.\n\nCA Spectrum delivers advanced scalability and features that enable your organization to effectively monitor and manage its dynamic, complex IT infrastructure including physical, virtual and cloud environments as well as software defined networks (SDN). CA Spectrum is a single platform that features proactive",
+    "annotation_id": "ann_50252d814ac26b10de53982a",
+    "description_sha256": "cc6840ad1484fe0da16fa50c4e25e5068806b215716f285923c6a59910cf4592",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description identifies conventional network change management, fault isolation, root cause analysis, and monitoring and management of IT infrastructure.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "proactive network change management, fault isolation and root cause analysis",
+      "monitor and manage its dynamic, complex IT infrastructure"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "492",
+    "product_group_id": "enterprise-56fbdf174f8ecba434a12969b1892ccf0476871897fd12210de44dcd01f5c568",
+    "product_description": "CMF MONITOR is'a performance monitoring, statistics gathering, and reporting system.\n\nCMF MONITOR is a performance monitoring, statistics gathering, and reporting system developed and maintained by BMC Software. \nStatistics gathered by CMF MONITOR can be compiled and presented either in batch reports or through windowed online displays.\n\nBMC ELA has CMF co-mingled MIPS usage with DB2 & AMI Ops Monitor for CMF Product set",
+    "annotation_id": "ann_535ac584ba2755acef48f30c",
+    "description_sha256": "76a16ad15df4332eee89826b6175919725aa3ef1505265d5fcc7b68ef9093275",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Conventional performance monitoring, statistics gathering and reporting, presented as batch reports or windowed online displays. The text names no AI or ML capability.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "CMF MONITOR is'a performance monitoring, statistics gathering, and reporting system.",
+      "Statistics gathered by CMF MONITOR can be compiled and presented either in batch reports or through windowed online displays."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "494",
+    "product_group_id": "enterprise-e53bcda59f1cf6e275dae8809d5d4fb6be6546fbbd4825ce24f40e6a97fa1c80",
+    "product_description": "IPControl provides centralised, full lifecycle management of mission-critical IP management (IPAM) functions, including IPv4 and IPv6 address space allocation, address assignment, allocation/reallocation/moves, pool monitoring and utilisation tracking and creation and deployment of multi-vendor DNS and DHCP",
+    "annotation_id": "ann_691f3f0514dec6ea89418f2a",
+    "description_sha256": "ab979622ed1f8c8d5581867a3d074155478e8fc439280e5aed1182b19e17ee4e",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Conventional IP address management: address space allocation and assignment, pool monitoring, utilisation tracking, and creation and deployment of multi-vendor DNS and DHCP. The text names no AI or ML capability.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "including IPv4 and IPv6 address space allocation, address assignment, allocation/reallocation/moves, pool monitoring and utilisation tracking"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "498",
+    "product_group_id": "enterprise-bed8fba069d3e950a574bbfdf6c23a5f6c95f13955dc580ba4eb8be7d3933875",
+    "product_description": "CA App Services Orchestrator",
+    "annotation_id": "ann_69cd9453ebe5af9487bcea98",
+    "description_sha256": "fd6954424f8237a2c67bde8038c9403704e15dc57cd410fd7d0264db253e00a9",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description contains only a product name and provides no conventional function or affirmative AI signal, so the non_ai judgment is necessarily weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "CA App Services Orchestrator"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "490",
+    "product_group_id": "enterprise-ddcd9da795d3f97b37b54dcf14b34e55105ea1eb43414767258e04e7b9bddb22",
+    "product_description": "AppDynamics is Application Performance and Monitoring (APM) tool being used in Commercial VEC (V19G), and it is a monitoring, alerting and analysis tool playing a critical role in ensuring stability and availability of the mission critical application\n\nAPM",
+    "annotation_id": "ann_7d2c5a76382dfc07c70ad7b2",
+    "description_sha256": "23ad9101d6c206f083205148fd6ec680584256a766ea35c957eb36568829c65d",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Conventional APM function: monitoring and alerting on application performance and stability. 'Analysis' is a generic term here, and the text describes no AI-dependent capability.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Application Performance and Monitoring (APM) tool",
+      "it is a monitoring, alerting and analysis tool"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "495",
+    "product_group_id": "enterprise-333d4bb1306b3c487a386765cdd6090e89c65e48034a2d1349bcc76229a1b872",
+    "product_description": "Designed to support the worlds largest networks, CA Network Flow Analysis efficiently harvests a rich set of network'traffic statistics, and it provides your administrators with real-time visibility and behavior analysis capabilities.\n\nNetwork Flow Analysis is a network traffic monitoring solution that can help you optimize your network infrastructure for better application performance. ... And its a key component within the CA Technologies Application-Driven Network Performance Management (ANPM) solution.",
+    "annotation_id": "ann_9a430e397fd8159ce52e768c",
+    "description_sha256": "a81d0fb989ee435eb677909393fe05ab8ac1ae2d663d979cb63058556fd16f76",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description supports conventional network traffic statistics and monitoring, but it leaves the stated behavior analysis capability unexplained, so the negative judgment remains weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "harvests a rich set of network'traffic statistics",
+      "provides your administrators with real-time visibility and behavior analysis capabilities",
+      "network traffic monitoring solution"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "485",
+    "product_group_id": "enterprise-1314b1f41ef9ef63f0a315f70f8e3fe95a0ea2965440dadd1db0ca3c5e2b1e29",
+    "product_description": "Build, train, and deploy machine learning models at scale",
+    "annotation_id": "ann_c3d5f9868ac949923a750c41",
+    "description_sha256": "6d0ea4867d5e1581d03146649f254d16f186cc171b283f23b4a973111cf39782",
+    "ai_status": "ai",
+    "ai_type": "ai_native",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "supported",
+    "ai_type_forced_decision": false,
+    "rationale": "Product-specific affirmative ML mention: the described offering is a service to build, train and deploy machine learning models, so the AI/ML capability is the core offering.",
+    "ai_type_rationale": "The meaningful core offering is the machine learning model lifecycle (build, train, deploy), so the core depends on ML.",
+    "evidence_spans": [
+      "Build, train, and deploy machine learning models at scale"
+    ],
+    "ai_type_evidence_spans": [
+      "Build, train, and deploy machine learning models at scale"
+    ]
+  },
+  {
+    "source_record_number": "503",
+    "product_group_id": "enterprise-c8902642f32b7180e78997b7fa14424ab2dee3f1bdc4434d17c414d55efd1246",
+    "product_description": "CA SystemEDGE is a lightweight agent that provides SNMP-based monitoring of physical and virtual systems. Use the agent to access important system information such as system configuration, performance, users, and file systems. To monitor this information, use specified thresholds or conditions. To maintain aggregate object states, create objects that based on the monitors.",
+    "annotation_id": "ann_cb4489a451087cb8dc4797e8",
+    "description_sha256": "b060db541f94bad678b7a97ad685c7189b6e5e48e894f988671101cc820082eb",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Conventional lightweight SNMP-based monitoring agent that monitors system configuration, performance, users and file systems against specified thresholds or conditions and aggregates object states. The text names no AI or ML capability.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "provides SNMP-based monitoring of physical and virtual systems",
+      "use specified thresholds or conditions"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "486",
+    "product_group_id": "enterprise-e1dd9cce4e771618761369eef5997b76028a3ee85198e899498a825c2e48477f",
+    "product_description": "AWS Step Functions is a visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices, and create data and machine learning (ML) pipelines.",
+    "annotation_id": "ann_d7534007e3562abbc815d0de",
+    "description_sha256": "629e4133891bdfb8f7ea05a73ba9152d31b1b406ac786ff659d3829f8f619a42",
+    "ai_status": "ai",
+    "ai_type": "ai_enabled",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "supported",
+    "ai_type_forced_decision": false,
+    "rationale": "The description explicitly includes creating data and machine learning pipelines, establishing the AI-positive binary label.",
+    "ai_type_rationale": "The description directly identifies a visual workflow service for building distributed applications, automating processes, and orchestrating microservices, which are meaningful conventional functions alongside the ML-pipeline capability.",
+    "evidence_spans": [
+      "create data and machine learning (ML) pipelines"
+    ],
+    "ai_type_evidence_spans": [
+      "is a visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices"
+    ]
+  },
+  {
+    "source_record_number": "493",
+    "product_group_id": "enterprise-6e79b2cb681ea5c0ca764806b831d91c2efa093331aa3fd0041b24e1316841e4",
+    "product_description": "The Diamond IP Sapphire v10 appliance from BT provides modest performance with superior reliability and security with the convenience of pre-packaged DHCP/DNS/IPAM (DDI) appliances. The Sapphire v10 can be configured and managed using your BT IPControl implementation to extend your DNS/IPAM capabilities to AWS.",
+    "annotation_id": "ann_d892a24189db613c766ab5ed",
+    "description_sha256": "e111457e0f003025e8d1054894fac9ac3da0d4213ac6ff58728b4395fb62900c",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Conventional network infrastructure appliance providing DHCP, DNS and IPAM (DDI) services, managed through an IPControl implementation to extend DNS/IPAM capabilities. The text names no AI or ML capability.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "pre-packaged DHCP/DNS/IPAM (DDI) appliances"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "501",
+    "product_group_id": "enterprise-37397d8d2a860239795a9116ffd0f0b24f4947bf00605804c2dc9dfa4ac3155d",
+    "product_description": "CA NetMaster Network Automation helps operate and maintain the availability of large networks by enabling desired state management of SNA resources, allowing for the initiation of automated recovery routines and exception-based reporting on SNA network health.",
+    "annotation_id": "ann_e8a269424ebb57c1e1625490",
+    "description_sha256": "79a524327bdc1da83e079d52833687bfa6fb2e89e2aac611771c4f5eda7b8423",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Conventional network automation: desired-state management of SNA resources, initiation of automated recovery routines and exception-based reporting on SNA network health. This is deterministic automation and reporting with no AI or ML capability in the text.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "enabling desired state management of SNA resources, allowing for the initiation of automated recovery routines and exception-based reporting on SNA network health"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "500",
+    "product_group_id": "enterprise-9cbaf041426e499e3ba9ed4ef5a386cf0c6a4f5e3be36e04fe9c71355a46c55a",
+    "product_description": "DX NetOps Mediation Manager (DX NetOps MM) monitors the performance of non-SNMP devices in Element Management Syste. An overview of features and basic use of the product. Installing. Includes steps to acquire, install, deploy and configure your product.",
+    "annotation_id": "ann_ea029b1b9c09c1aa539e98b5",
+    "description_sha256": "9358b04eab7f4f88e898fbe4601815034aaf2d011da45e175dddec1b62f2b810",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Conventional monitoring of the performance of non-SNMP devices within an element management system. The remaining text is installation and configuration documentation boilerplate with no AI or ML capability. The first sentence contains a truncated word ('Syste.').",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "monitors the performance of non-SNMP devices in Element Management Syste",
+      "Includes steps to acquire, install, deploy and configure your product."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "496",
+    "product_group_id": "enterprise-d6dabbb82fcb597bc55c3d41c32f55e028e08ba0265c17d39cdb4d813582c448",
+    "product_description": "CA Application Performance Management (CA APM) helps organizations monitor, analyze, and report on application transactions. CA APM users can identify issues and resolve problems before they disrupt critical services.",
+    "annotation_id": "ann_eb9a08a38b3e7b8f144a264c",
+    "description_sha256": "202c639c4fea2c22f14088647d94bb81a33cb6c07e335c9eeb8824cc2df0931d",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Conventional APM function: helps organizations monitor, analyze and report on application transactions and identify and resolve issues. The analysis is generic and the text names no AI or ML capability.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "helps organizations monitor, analyze, and report on application transactions",
+      "identify issues and resolve problems before they disrupt critical services"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "489",
+    "product_group_id": "enterprise-03ba6310bb12cd7d2df185ae50fc239b5ca61d8a4c399532432658af8a7281bd",
+    "product_description": "The AWS Well-Architected Tool is designed to help you review the state of your applications and workloads against architectural best practices, identify opportunities for improvement, and track progress over time.",
+    "annotation_id": "ann_fcceb1e6d052f5018442ece0",
+    "description_sha256": "f80c42f9585256d25e2406c31d2d70d15c287ad6927bec22099f620371570a00",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Conventional review tool: it checks application and workload state against architectural best practices and tracks progress over time. 'Identify opportunities for improvement' is a generic review function, and the text names no AI or ML capability.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "designed to help you review the state of your applications and workloads against architectural best practices, identify opportunities for improvement, and track progress over time"
+    ],
+    "ai_type_evidence_spans": null
+  }
+]

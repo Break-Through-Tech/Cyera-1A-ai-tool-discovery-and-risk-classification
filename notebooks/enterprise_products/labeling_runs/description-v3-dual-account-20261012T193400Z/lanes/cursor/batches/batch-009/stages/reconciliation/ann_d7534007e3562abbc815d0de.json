@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_d7534007e3562abbc815d0de",
+  "description_sha256": "629e4133891bdfb8f7ea05a73ba9152d31b1b406ac786ff659d3829f8f619a42",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "supported",
+  "ai_type_forced_decision": false,
+  "rationale": "The description explicitly includes creating data and machine learning pipelines, establishing the AI-positive binary label.",
+  "ai_type_rationale": "The description directly identifies a visual workflow service for building distributed applications, automating processes, and orchestrating microservices, which are meaningful conventional functions alongside the ML-pipeline capability.",
+  "evidence_spans": [
+    "create data and machine learning (ML) pipelines"
+  ],
+  "ai_type_evidence_spans": [
+    "is a visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices"
+  ],
+  "conflict_response": "The binary AI label is supported by the explicit machine-learning-pipelines mention. The subtype is also supported, not forced: the same description explicitly gives multiple meaningful conventional workflow and orchestration functions, so a conventional core remains without the ML enhancement."
+}
