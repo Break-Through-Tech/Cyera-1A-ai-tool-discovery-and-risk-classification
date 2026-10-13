@@ -1,0 +1,31 @@
+{
+  "basis": "Native per-child estimates, not invoice; excludes parent and outer workflow double-count. Recovery accounted separately.",
+  "stages": [
+    {
+      "stage": "labeler",
+      "run_id": "64c90611-ab9b-43e3-946c-7dc7f67c1e90",
+      "tokens": 42412,
+      "cost_usd": 0.010485760000000002
+    },
+    {
+      "stage": "blind",
+      "run_id": "76705544-ddab-4173-ba5a-3bc5796ffe67",
+      "tokens": 35064,
+      "cost_usd": 0.00942656
+    },
+    {
+      "stage": "blind-recovery",
+      "run_id": "13ff534f-2168-4ff0-aecc-ece1879d2b2e",
+      "tokens": 45345,
+      "cost_usd": 0.00866442
+    },
+    {
+      "stage": "reconciliation",
+      "run_id": "cb2b50e9-baff-477b-a1c0-3a27f5b95d80",
+      "tokens": 53796,
+      "cost_usd": 0.00855168
+    }
+  ],
+  "reported_tokens": 176617,
+  "reported_cost_usd": 0.03712842
+}

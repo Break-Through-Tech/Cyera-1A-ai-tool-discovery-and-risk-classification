@@ -1,0 +1,42 @@
+{
+  "report": {
+    "source_input_records": 1494,
+    "cleaner_excluded_records": 56,
+    "retained_source_records": 1438,
+    "selected_descriptions": 20,
+    "selected_records": 20,
+    "remaining_distinct_descriptions": 1371,
+    "remaining_source_records": 1418,
+    "coverage_claim": "selected calibration only; not full dataset coverage",
+    "binary_counts": {
+      "non_ai": 20
+    },
+    "subtype_counts": {
+      "null": 20
+    },
+    "binary_weak_count": 5,
+    "binary_forced_count": 5,
+    "subtype_weak_count": 0,
+    "subtype_forced_count": 0,
+    "trusted_negative_records": 15,
+    "reconciliation_count": 10,
+    "required_reconciliation_count": 10,
+    "parent_reconciliation_count": 10,
+    "independent_binary_or_subtype_differences": 1,
+    "duplicate_records_within_selected_descriptions": 0,
+    "within_group_different_descriptions": 0
+  },
+  "parent_inspection": "All20 original pairs and all10 final reconciliations reviewed against original descriptions. Weak5 binary calls excluded; no parent semantic replacements. All routed cases saved for review.",
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "original_independent_artifacts_unchanged": true,
+  "structural_recovery": "One same-verifier quote-only recovery; no semantic change; raw outputs preserved. Parent receipt ../../runtime/batch-002-structural-recovery-receipt.json",
+  "same_verifier_agent": "cursor-luna-b002",
+  "semantic_followups": 1,
+  "native_structured_output": false,
+  "cumulative_finalized_descriptions": 160,
+  "cumulative_finalized_rows": 174,
+  "tests": "36 enterprise tests passed"
+}

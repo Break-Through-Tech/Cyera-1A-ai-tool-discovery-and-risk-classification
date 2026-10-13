@@ -1,0 +1,119 @@
+{
+  "workflow_run_id": "0a6d7983-02de-4dbc-81d0-85ebcb8ae810",
+  "mission_id": "fe0c0ff1-bf24-4118-8d83-900ed389615d",
+  "model": "openai-codex/gpt-6-luna:high",
+  "active_worker_cap": 2,
+  "scope": "20-description calibration only; explicit approval required for remainder",
+  "independent_stages": [
+    "labeler",
+    "blind"
+  ],
+  "input_hashes": {
+    "inputs/calibration_packet.json": "09cd74107221e1fc2b563b50e8aed7209d9ec7d964b3d6e0f85c4acf146b56e8",
+    "inputs/annotation_schemas.json": "686c59a74d76f3ff0f97aa757570d1920dee3e7450338af774421f5be3341490",
+    "launch-independent.js": "d8a9a106271785d68046c3f659eed955c8e4548ff53971b574d5ce98c75e9e2e",
+    "runtime/label_v3.py": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+    "runtime/test_label_v3.py": "691ef1bf075c9dec125b149cd709a9b6783a87cb6057083594dbf01c5319a8e3",
+    "runtime/enterprise-description-annotator.md": "8c16d2e5ac4e421890573cf651f0a0c7e25b25ba4469b121c12378e476ecf46d",
+    "runtime/SETUP_REVIEW.md": "3e48aa83cbfabf6eb3a5a1a24642eb9e71f8c57ed2d5c299a36837b53caf5f4b"
+  },
+  "pinned_inputs": {
+    "raw": {
+      "path": "inputs/raw.csv",
+      "sha256": "afe7cdbcbf82d9b11f579eb6dce000815a04a301410636e2942036f072fc7aa1"
+    },
+    "cleaned": {
+      "path": "inputs/cleaned.csv",
+      "sha256": "c9f0d234d3b66327250d7eb372e9fc962e06f16c2bc0181cc34654fdb897eb2b"
+    },
+    "cleaning_report": {
+      "path": "inputs/cleaning_report.json",
+      "sha256": "5ee112cdb293fbe0640b61e4790d389331b35b729a907263237a2ecade0c0e7b"
+    },
+    "rubric": {
+      "path": "inputs/rubric.md",
+      "sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61"
+    },
+    "prompt_labeler": {
+      "path": "inputs/prompt_labeler.md",
+      "sha256": "ab8891675fdb06847f4f29f9364189f98b8e8c5bf616d5f5ffb7b7db07773442"
+    },
+    "prompt_blind": {
+      "path": "inputs/prompt_blind.md",
+      "sha256": "df1180ff1d6e8f9ed56dbb9c0df17b124e32ca003df95999b55a244833fce6d2"
+    },
+    "prompt_reconciliation": {
+      "path": "inputs/prompt_reconciliation.md",
+      "sha256": "a093e402b75cb481ded68c308f6aa42f6a7768c23f8e2900f77742f16536917f"
+    }
+  },
+  "stage_assignments": {
+    "labeler": {
+      "stage": "labeler",
+      "run_id": "description-v3-calibration-20261012T153139Z",
+      "batch_id": "calibration-01",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "ab8891675fdb06847f4f29f9364189f98b8e8c5bf616d5f5ffb7b7db07773442",
+      "model_id": "openai-codex/gpt-6-luna:high",
+      "assigned_annotation_ids": [
+        "ann_94e950384aa9317f18d3a03e",
+        "ann_638b362ed9c4e6e12c461c22",
+        "ann_5a762c75a85659d5a875c19a",
+        "ann_6ebc9fbe1e5d8660da398371",
+        "ann_166874d73ce278182c5b1c94",
+        "ann_efea61d23fecee6ebab562c9",
+        "ann_fc58bd41f049041fadc3b8c1",
+        "ann_11140500a2c9840840ed57b6",
+        "ann_49118f7afd99569c65b61b42",
+        "ann_27de2bfba90bdaa2e182efa7",
+        "ann_a5f02648fb1b6c8750c3b51e",
+        "ann_bc53f93bebf7f0a820e98130",
+        "ann_71442391518ca2ac9827160c",
+        "ann_c683e4b224fe7d4d398dbdda",
+        "ann_c4a4cf44670e5956eb9ed6ba",
+        "ann_0473ca686885c0088e984b47",
+        "ann_f614f98b893303f3cf8740ad",
+        "ann_d41338086141f3adffbb16ec",
+        "ann_fdcac7d6ad8338a2416aed80",
+        "ann_54e725702d8c693d3b7dd172"
+      ]
+    },
+    "blind": {
+      "stage": "blind",
+      "run_id": "description-v3-calibration-20261012T153139Z",
+      "batch_id": "calibration-01",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "df1180ff1d6e8f9ed56dbb9c0df17b124e32ca003df95999b55a244833fce6d2",
+      "model_id": "openai-codex/gpt-6-luna:high",
+      "assigned_annotation_ids": [
+        "ann_94e950384aa9317f18d3a03e",
+        "ann_638b362ed9c4e6e12c461c22",
+        "ann_5a762c75a85659d5a875c19a",
+        "ann_6ebc9fbe1e5d8660da398371",
+        "ann_166874d73ce278182c5b1c94",
+        "ann_efea61d23fecee6ebab562c9",
+        "ann_fc58bd41f049041fadc3b8c1",
+        "ann_11140500a2c9840840ed57b6",
+        "ann_49118f7afd99569c65b61b42",
+        "ann_27de2bfba90bdaa2e182efa7",
+        "ann_a5f02648fb1b6c8750c3b51e",
+        "ann_bc53f93bebf7f0a820e98130",
+        "ann_71442391518ca2ac9827160c",
+        "ann_c683e4b224fe7d4d398dbdda",
+        "ann_c4a4cf44670e5956eb9ed6ba",
+        "ann_0473ca686885c0088e984b47",
+        "ann_f614f98b893303f3cf8740ad",
+        "ann_d41338086141f3adffbb16ec",
+        "ann_fdcac7d6ad8338a2416aed80",
+        "ann_54e725702d8c693d3b7dd172"
+      ]
+    }
+  },
+  "parent_validations": [
+    "36 enterprise unittest tests passed",
+    "Luna focused setup review READY",
+    "native dispatch script validated before launch"
+  ]
+}

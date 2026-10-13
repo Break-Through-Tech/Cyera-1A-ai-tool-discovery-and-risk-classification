@@ -1,0 +1,442 @@
+[
+  {
+    "annotation_id": "ann_050f8bf5e11a8e5537c8aa44",
+    "description_sha256": "523313de347b395e35452914a632516e9c3ae88807f598f5c15098ce006e47d1",
+    "description": "With decision management, you can enhance your applications to help you predict customer behavior, optimize business processes, analyze natural language, and make informed decisions to better meet your customers' needs and achieve positive business outcomes.",
+    "source_record_references": [
+      "138"
+    ],
+    "labeler": {
+      "annotation_id": "ann_050f8bf5e11a8e5537c8aa44",
+      "description_sha256": "523313de347b395e35452914a632516e9c3ae88807f598f5c15098ce006e47d1",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The text mentions analyzing natural language and predicting customer behavior as capabilities. These are AI-suggestive, but the text does not establish learned models, so this is a forced weak AI-positive judgment.",
+      "ai_type_rationale": "The decision-management capability is described as an enhancement to the user's applications, so the core applications remain conventional and the AI capability is an add-on (ai_enabled). Weak and forced because the core offering is not described in detail.",
+      "evidence_spans": [
+        "analyze natural language",
+        "predict customer behavior"
+      ],
+      "ai_type_evidence_spans": [
+        "you can enhance your applications to help you predict customer behavior"
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_050f8bf5e11a8e5537c8aa44",
+      "description_sha256": "523313de347b395e35452914a632516e9c3ae88807f598f5c15098ce006e47d1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description names prediction and natural-language analysis, but does not establish AI, learned models or implementation; the underlying decision-management functionality is therefore ambiguous.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "With decision management, you can enhance your applications to help you predict customer behavior, optimize business processes, analyze natural language, and make informed decisions to better meet your customers' needs and achieve positive business outcomes."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Prediction and natural-language analysis; neither explicit AI nor learned model. Resolve binary disagreement under best-supported forced decision if ambiguity persists; subtype independently weak if core is unclear."
+    ]
+  },
+  {
+    "annotation_id": "ann_10aa9fdce8b9567cf9db12a8",
+    "description_sha256": "674101954921221981898eb445bd3620107d34daea98d5b964745d7361f67c29",
+    "description": "A data management platform that helps you build unique audience profiles so you can identify your most valuable segments and use them across any digital channel.",
+    "source_record_references": [
+      "133"
+    ],
+    "labeler": {
+      "annotation_id": "ann_10aa9fdce8b9567cf9db12a8",
+      "description_sha256": "674101954921221981898eb445bd3620107d34daea98d5b964745d7361f67c29",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The core is a data management platform for audience profiles, which reads as conventional. However, 'identify your most valuable segments' is an analytics-style capability whose implementation (rules or learned models) the text does not establish, so this is a forced weak non-AI judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A data management platform that helps you build unique audience profiles",
+        "identify your most valuable segments"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_10aa9fdce8b9567cf9db12a8",
+      "description_sha256": "674101954921221981898eb445bd3620107d34daea98d5b964745d7361f67c29",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers conventional audience-profile and segmentation data management for use across digital channels.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A data management platform that helps you build unique audience profiles so you can identify your most valuable segments and use them across any digital channel."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Profile/segmentation creation is conventional, but explicitly address the valuable-segment identification concern from text; generic possible AI alone does not prove AI."
+    ]
+  },
+  {
+    "annotation_id": "ann_165e28d7a6a96254382c10d9",
+    "description_sha256": "123b24951042541721babb804df5aa6471a0cbe18101b510e73dac7d39f3c521",
+    "description": "Access to all of Forrester's research data",
+    "source_record_references": [
+      "126"
+    ],
+    "labeler": {
+      "annotation_id": "ann_165e28d7a6a96254382c10d9",
+      "description_sha256": "123b24951042541721babb804df5aa6471a0cbe18101b510e73dac7d39f3c521",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description only states access to a research data set and describes no software functionality. There is no AI signal, but the text is too thin to support a conventional-software negative, so this is a forced weak non-AI judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Access to all of Forrester's research data"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_165e28d7a6a96254382c10d9",
+      "description_sha256": "123b24951042541721babb804df5aa6471a0cbe18101b510e73dac7d39f3c521",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description only states access to research data and is too sparse to establish more than a conventional data-access offering.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Access to all of Forrester's research data"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Research-access-only text; no concrete software behavior. Do not upgrade weak text because both models agree."
+    ]
+  },
+  {
+    "annotation_id": "ann_1a451311850b409d9827b257",
+    "description_sha256": "dded483e19d2203961bbe24a76cd2e73099120f5a23d7e3c68f15810cc5bbf42",
+    "description": "Adobe premier support",
+    "source_record_references": [
+      "136"
+    ],
+    "labeler": {
+      "annotation_id": "ann_1a451311850b409d9827b257",
+      "description_sha256": "dded483e19d2203961bbe24a76cd2e73099120f5a23d7e3c68f15810cc5bbf42",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description names only a support service and describes no software functionality. There is no AI signal, but the text is too thin to support a conventional-software negative, so this is a forced weak non-AI judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Adobe premier support"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_1a451311850b409d9827b257",
+      "description_sha256": "dded483e19d2203961bbe24a76cd2e73099120f5a23d7e3c68f15810cc5bbf42",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description only identifies a premier support offering and is too sparse to establish more than a conventional support service.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Adobe premier support"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Support-name-only text, no functions. Weak binary remains excluded."
+    ]
+  },
+  {
+    "annotation_id": "ann_213b2e059664508e51264063",
+    "description_sha256": "182246e168a0db8bb070d46cc2bafebb73ed2c53e231b2bd9cf5e1190956df08",
+    "description": "System1, LLC provides software solutions. The Company develops pre-targeting platform to identify, unlock, and fulfill consumer intent across channels including social, native, email, search, market research, and lead generation. System1 serves customers in the State of California.",
+    "source_record_references": [
+      "145"
+    ],
+    "labeler": {
+      "annotation_id": "ann_213b2e059664508e51264063",
+      "description_sha256": "182246e168a0db8bb070d46cc2bafebb73ed2c53e231b2bd9cf5e1190956df08",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description names a pre-targeting platform for cross-channel marketing. Identifying consumer intent is an unexplained capability whose implementation (rules or learned models) the text does not establish, so this is a forced weak non-AI judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "develops pre-targeting platform to identify, unlock, and fulfill consumer intent across channels including social, native, email, search, market research, and lead generation"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_213b2e059664508e51264063",
+      "description_sha256": "182246e168a0db8bb070d46cc2bafebb73ed2c53e231b2bd9cf5e1190956df08",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description presents a conventional pre-targeting platform for consumer-intent identification and fulfillment across marketing and lead-generation channels, without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides software solutions. The Company develops pre-targeting platform to identify, unlock, and fulfill consumer intent across channels including social, native, email, search, market research, and lead generation."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Consumer-intent identification is not explained. Explicitly address conventional vs potentially AI function; no external product knowledge."
+    ]
+  },
+  {
+    "annotation_id": "ann_429adf9c13b543a424513e88",
+    "description_sha256": "b0c77ad568250142bf5544bf2c0a4ae35c1022b7acc3d02e18a9ebd15b27f234",
+    "description": "Seismic's sales enablement solution empowers you to enhance the way you deliver content to your sellers, by providing your sales team with instant access to deal-clinching collateral at the right time, training when it's most effective, and news when it matters most.",
+    "source_record_references": [
+      "144"
+    ],
+    "labeler": {
+      "annotation_id": "ann_429adf9c13b543a424513e88",
+      "description_sha256": "b0c77ad568250142bf5544bf2c0a4ae35c1022b7acc3d02e18a9ebd15b27f234",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The core is conventional sales-content delivery, training and news. However, timing-based delivery ('at the right time', 'when it matters most') implies selection logic the text does not explain and that may be AI-dependent, so this is a forced weak non-AI judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "providing your sales team with instant access to deal-clinching collateral at the right time",
+        "training when it's most effective"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_429adf9c13b543a424513e88",
+      "description_sha256": "b0c77ad568250142bf5544bf2c0a4ae35c1022b7acc3d02e18a9ebd15b27f234",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers conventional sales enablement through content access, collateral delivery, training and news for sellers.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Seismic's sales enablement solution empowers you to enhance the way you deliver content to your sellers, by providing your sales team with instant access to deal-clinching collateral at the right time, training when it's most effective, and news when it matters most."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Address right-time content/training wording using supplied text only; routine marketing timing is not automatically AI but do not assume a recommendation implementation."
+    ]
+  },
+  {
+    "annotation_id": "ann_77ed99a65bcd5e615db294c9",
+    "description_sha256": "233fafdfbcf2a6d27dfeec7ba41184af11e97e006d5bb49fb65dfb3fcacb5440",
+    "description": "Mention Solutions provides a media monitoring application. The Company develops an application which creates alerts for clients brand, industry, company, name, and competitors, as well as monitor and improve the social media performance, find influencers, and to protect their reputation\n\nThe media monitoring tool provides real-time alerts for a company's keyword and allows users to monitor millions of sources in real time and in 42 languages.",
+    "source_record_references": [
+      "128"
+    ],
+    "labeler": {
+      "annotation_id": "ann_77ed99a65bcd5e615db294c9",
+      "description_sha256": "233fafdfbcf2a6d27dfeec7ba41184af11e97e006d5bb49fb65dfb3fcacb5440",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The core is conventional media-monitoring alerting by keyword, brand and competitor. However, 'find influencers' is a capability whose implementation the text does not establish and which may be AI-dependent, so this is a forced weak non-AI judgment for end-of-run review.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "creates alerts for clients brand, industry, company, name, and competitors",
+        "find influencers"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_77ed99a65bcd5e615db294c9",
+      "description_sha256": "233fafdfbcf2a6d27dfeec7ba41184af11e97e006d5bb49fb65dfb3fcacb5440",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies conventional media monitoring, keyword alerts, social-media monitoring, influencer discovery and reputation protection.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The media monitoring tool provides real-time alerts for a company's keyword and allows users to monitor millions of sources in real time and in 42 languages."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Address whether influencer discovery is explained by conventional keyword monitoring or remains an unexplained included function; no learned-model or current-product assumptions."
+    ]
+  },
+  {
+    "annotation_id": "ann_a450754cf174601b9ea29cda",
+    "description_sha256": "355a7d9e12ed6928042d579b0132c906b45352e14d8e64f5714ef84953b729b9",
+    "description": "Customer Journey Analytics - Customer Journey Analytics is a service built on Adobe Experience Platform that lets you join all of your data from every channel into a single interface for real-time, omnichannel analysis and visualization, allowing you to make better decisions with a holistic view of your business and the context behind every customer action\n\nReal-time Customer Data Platform - Collect, normalize and unify all known and unknown individual data and company data into robust, real-time people and account profiles that let B2C and B2B marketers deliver personalized experiences across any channel, at scale.\n\nJourney Orchestration - Journey Orchestration is a service built on Adobe Experience Platform that allows you tailor individual journeys for every customer based on their previous behavior and preferences.",
+    "source_record_references": [
+      "135"
+    ],
+    "labeler": {
+      "annotation_id": "ann_a450754cf174601b9ea29cda",
+      "description_sha256": "355a7d9e12ed6928042d579b0132c906b45352e14d8e64f5714ef84953b729b9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers conventional data joining, real-time analysis and visualization, and profile unification. Per-customer journey tailoring from past behavior is ambiguous, because rules versus predictive models is not established, so this is a forced weak non-AI judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "that lets you join all of your data from every channel into a single interface for real-time, omnichannel analysis and visualization",
+        "Journey Orchestration is a service built on Adobe Experience Platform that allows you tailor individual journeys for every customer based on their previous behavior and preferences."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_a450754cf174601b9ea29cda",
+      "description_sha256": "355a7d9e12ed6928042d579b0132c906b45352e14d8e64f5714ef84953b729b9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies conventional cross-channel data joining, analysis, visualization, profile unification and behavior-based journey orchestration without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "join all of your data from every channel into a single interface for real-time, omnichannel analysis and visualization",
+        "Collect, normalize and unify all known and unknown individual data and company data into robust, real-time people and account profiles",
+        "allows you tailor individual journeys for every customer based on their previous behavior and preferences"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Do conventional data joining and unification resolve all described per-customer tailoring, or is its mechanism unresolved? Do not invent rules or learned models."
+    ]
+  },
+  {
+    "annotation_id": "ann_bfd3e7baf3effdf883aa9a18",
+    "description_sha256": "a246c25dc68f8a4ff5e8885aede61dabfa11b512b69b3c465277b72f1aa93da8",
+    "description": "Integrate is the leader in Precision Demand Marketing, an emerging category to help B2B marketers develop and deliver an omnichannel demand strategy, convert leads to revenue, and drive marketing ROI. ?Integrate works with high-growth and enterprise organizations\n\nIn a B2B marketplace that is now digital and buyer-driven, the Integrate Demand Acceleration Platform (DAP) empowers your team to reach the right accounts and buyers, when they're ready to buy, using data that's always validated and marketable.",
+    "source_record_references": [
+      "146"
+    ],
+    "labeler": {
+      "annotation_id": "ann_bfd3e7baf3effdf883aa9a18",
+      "description_sha256": "a246c25dc68f8a4ff5e8885aede61dabfa11b512b69b3c465277b72f1aa93da8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description names a demand-marketing platform for reaching accounts and buyers with validated data. 'When they're ready to buy' implies buyer-readiness selection whose implementation the text does not establish and which may be AI-dependent, so this is a forced weak non-AI judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "the Integrate Demand Acceleration Platform (DAP) empowers your team to reach the right accounts and buyers, when they're ready to buy",
+        "using data that's always validated and marketable"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_bfd3e7baf3effdf883aa9a18",
+      "description_sha256": "a246c25dc68f8a4ff5e8885aede61dabfa11b512b69b3c465277b72f1aa93da8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies conventional B2B demand marketing, account and buyer targeting, lead conversion, ROI and data validation functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "the Integrate Demand Acceleration Platform (DAP) empowers your team to reach the right accounts and buyers, when they're ready to buy, using data that's always validated and marketable."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Buyer readiness and account selection are not explained. Address selection/timing support against supplied text, no implementation inference."
+    ]
+  },
+  {
+    "annotation_id": "ann_f264261f6a9166f18d6c741d",
+    "description_sha256": "de17e60e1d12d2d4297bbf6d73d82ab9fd0312c36a2e72f8e53f5d877bff786b",
+    "description": "Reaching the vision of fully integrated marketing-where all touchpoints across all channels work together to deliver powerful customer journey experience",
+    "source_record_references": [
+      "141"
+    ],
+    "labeler": {
+      "annotation_id": "ann_f264261f6a9166f18d6c741d",
+      "description_sha256": "de17e60e1d12d2d4297bbf6d73d82ab9fd0312c36a2e72f8e53f5d877bff786b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description is an aspirational marketing statement about integrated touchpoints and describes no software functionality. There is no AI signal, but the text is too vague to support a conventional-software negative, so this is a forced weak non-AI judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Reaching the vision of fully integrated marketing-where all touchpoints across all channels work together to deliver powerful customer journey experience"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_f264261f6a9166f18d6c741d",
+      "description_sha256": "de17e60e1d12d2d4297bbf6d73d82ab9fd0312c36a2e72f8e53f5d877bff786b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description is a broad statement about integrated marketing touchpoints and does not provide enough product detail for a strong classification.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Reaching the vision of fully integrated marketing-where all touchpoints across all channels work together to deliver powerful customer journey experience"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Aspirational category statement, no concrete functions; agreement is not support."
+    ]
+  }
+]

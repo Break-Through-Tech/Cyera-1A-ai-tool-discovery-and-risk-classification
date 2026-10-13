@@ -1,0 +1,72 @@
+{
+  "report": {
+    "source_input_records": 1494,
+    "cleaner_excluded_records": 56,
+    "retained_source_records": 1438,
+    "selected_descriptions": 20,
+    "selected_records": 20,
+    "remaining_distinct_descriptions": 1371,
+    "remaining_source_records": 1418,
+    "coverage_claim": "selected calibration only; not full dataset coverage",
+    "binary_counts": {
+      "non_ai": 14,
+      "ai": 6
+    },
+    "subtype_counts": {
+      "null": 14,
+      "ai_native": 4,
+      "ai_enabled": 2
+    },
+    "binary_weak_count": 8,
+    "binary_forced_count": 8,
+    "subtype_weak_count": 1,
+    "subtype_forced_count": 1,
+    "trusted_negative_records": 7,
+    "reconciliation_count": 9,
+    "required_reconciliation_count": 8,
+    "parent_reconciliation_count": 9,
+    "independent_binary_or_subtype_differences": 1,
+    "duplicate_records_within_selected_descriptions": 0,
+    "within_group_different_descriptions": 1
+  },
+  "validation": {
+    "description_and_row_coverage": "20/20 calibration, not full source",
+    "exact_quotation_and_checkpoint_gates": "passed",
+    "native_reconciliation_value_matches_bound_output": true,
+    "actual_models": [
+      [
+        "openai-codex",
+        "gpt-6-luna"
+      ]
+    ],
+    "new_reconciliation_tool_calls": {
+      "read": 2,
+      "write": 10,
+      "structured_output": 1
+    },
+    "only_allowed_new_read_and_write_paths": true,
+    "committed_blind_capture_unchanged": true,
+    "live_pinned_inputs_unchanged": true,
+    "historical_files_unchanged": 233,
+    "web_calls": 0
+  },
+  "native_provenance": {
+    "labeler_run_id": "5d1aea83-ff46-4710-9300-22b14c7d97a6",
+    "blind_run_id": "6c687f5a-30e4-4c67-b2f4-dadfa79f5b4a",
+    "reconciliation_run_id": "cc6053cc-369e-4d3a-999e-91e8f4ed4a0f",
+    "same_verifier_session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/f4e5c9e8-7bc6-48bd-a4cc-841f6b7787e5/run-0/session.jsonl",
+    "frozen_capture_hashes": {
+      "labeler-committed-session.jsonl": "fb646b0c0f996da0ef8212351ffc5878965d130d40fc97dc38c2cadf8a8bb921",
+      "blind-committed-session.jsonl": "5a5656bc70beb38a84f6d8877144712d223edda13d5f93ba0161511ae4b5b789",
+      "verifier-reconciliation-session.jsonl": "4353a747dc4d8a3ee70c29635e36383663d3eefa41de59aeb0d690c658ed32e8"
+    },
+    "bound_stage_output_hashes": {
+      "labeler": "8eb9d836fa350d61068db9b9d4e303ab5c0f8451d58b232901c4bde02c6f7949",
+      "blind": "be681bb7e3a8c5ee016e79a765ceeb55f8ff78918e3993a4cad219b4ac9a5ec8",
+      "reconciliation": "4c585908e3e761d8587eee765522fb58edf73accf9c5482dd58cfe80c1176beb"
+    }
+  },
+  "semantic_acceptance": "Parent inspected both independent rationales for every selected description and all final reconciliation records against exact original text; remaining weak/forced decisions are excluded from trusted use. No replacement semantic labels invented.",
+  "approval_boundary": "Calibration only. Remainder, merge, partitioning and training remain unapproved.",
+  "native_delivery_note": "Original independent workflow failed file-only materialization; complete native structured values were recovered unchanged by parent and verified against checkpoints. Native failure records preserved; reconciliation workflow completed successfully."
+}

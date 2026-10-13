@@ -1,0 +1,11 @@
+{
+  "stage": "labeler",
+  "original_child_run": "5d1aea83-ff46-4710-9300-22b14c7d97a6",
+  "original_workflow_run": "0a6d7983-02de-4dbc-81d0-85ebcb8ae810",
+  "original_status": "partial; required file-only output was not produced",
+  "native_structured_output_source": "/tmp/pi-subagents-uid-1000/async-subagent-runs/5d1aea83-ff46-4710-9300-22b14c7d97a6/structured-output/pi-subagent-structured-C1Jobv/output.json",
+  "source_sha256": "82288a8b3120a252c9b09ce86ca194ad81697bde025c416dab3ed2217ada4ed2",
+  "recovery": "Parent copied complete native structured_output bytes to originally bound path after validating 20 exact-text checkpoints and their equality to native output. No semantic changes, extra model pass, or execution-mode/model substitution. Original failure retained.",
+  "completed_checkpoints": 20,
+  "scope": "Artifact persistence correction only; no annotations rerun"
+}

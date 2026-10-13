@@ -1,0 +1,38 @@
+{
+  "status": "one_same_protocol_recovery_pending",
+  "stage": "blind",
+  "annotation_id": "ann_ba8d1f095abd4aa1a1327a85",
+  "source_record": "33",
+  "reason": "Nonliteral leading article in quote; source contains innovative and comprehensive, not a comprehensive.",
+  "valid_records": 19,
+  "recovery_count": 1,
+  "boundary": "Fix only invalid evidence_spans on that record, keep all labels/rationales/flags and19 valid records byte-equivalent as JSON; preserve raw originals. No new semantic judgment, outside evidence, product facts or labeler answers.",
+  "native_stage_receipts": {
+    "labeler": {
+      "run_id": "64c90611-ab9b-43e3-946c-7dc7f67c1e90",
+      "session_file": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/b190ce55-5f96-49c6-af99-2abfcf0fd885/run-0/session.jsonl",
+      "session_sha256": "69c4f03d0d67839eeb724601a7ed96713a91b5b79f8e5a9d882bd748b3a114cf",
+      "actual_model": "openai-codex/gpt-6-luna:high",
+      "tool_counts": {
+        "read": 2,
+        "write": 21,
+        "structured_output": 1
+      },
+      "native_persisted_checkpoint_equality": true,
+      "read_boundary_passed": true
+    },
+    "blind": {
+      "run_id": "76705544-ddab-4173-ba5a-3bc5796ffe67",
+      "session_file": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/3456980b-7b56-4a91-8e66-6e6ea60b54d7/run-0/session.jsonl",
+      "session_sha256": "637685f6da7738459af0ed4fbe708a5e8c9147755752ef3223343bc362c41cf2",
+      "actual_model": "openai-codex/gpt-6-luna:high",
+      "tool_counts": {
+        "read": 2,
+        "write": 21,
+        "structured_output": 1
+      },
+      "native_persisted_checkpoint_equality": true,
+      "read_boundary_passed": true
+    }
+  }
+}

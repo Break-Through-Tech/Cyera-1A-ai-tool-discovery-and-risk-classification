@@ -1,0 +1,54 @@
+{
+  "workflow_run_id": "e4ca6ef4-1d7f-472f-a6a9-a2b1d415eeb1",
+  "batch_id": "batch-005",
+  "descriptions": 20,
+  "source_rows": 22,
+  "binary_agreement": 20,
+  "required_route": [],
+  "parent_concerns": {
+    "ann_f4a51118a5bb011975396c78": "Description expressly includes predictive analytics, alongside conventional data preparation/workflows/spatial functions. Both negatives rely on lack of AI terminology. Recheck whether the predictive feature is sufficiently explained as conventional or remains potentially AI-dependent; conventional surrounding functions must not erase an unresolved potentially AI-dependent included function. Do not assume a learned model or a deterministic/statistical implementation not specified.",
+    "ann_874a9e8ad6af0f211010bcec": "Data-quality management and batch/real-time delivery are categories/deployment modes; the text does not describe profiling, cleaning, matching, validation rules or another concrete operation. Both rationales repeat data-quality wording. Check whether the supplied text meaningfully establishes conventional functions or is too generic for supported negative evidence, under the same category-only standard; do not invent features.",
+    "ann_8c8dbeec2b1218958cbfa45e": "This hybrid data platform text promises data management/analytics, performance/scalability/security and deployment freedom, without concrete data operations. Both supported rationales echo categories and non-AI-specific benefits. Recheck whether that suffices for meaningful conventional functionality or leaves binary evidence weak; no product knowledge.",
+    "ann_d371cb944fe1caa9778e702b": "First paragraph describes this planning/budgeting/forecasting solution; second lists a wider portfolio of separate products. Both rationales include portfolio functions (reporting,consolidation,treasury), which may not belong to the described solution. Recheck product-specific scope only. Explain whether forecasting is supported as conventional or remains underspecified potentially AI-dependent, without inventing implementation. Do not borrow other products' functionality.",
+    "ann_0477cff089f8630702ed17bf": "This is only a SOW for contractor support for meeting/event management software, not a description of the software operations or contractor tasks. Both proposals infer conventional planning/administration from the category. Check if the text actually meaningfully describes conventional functions; preserve weak/forced if insufficient rather than relying on missing AI words."
+  },
+  "reconciliation_route": [
+    "ann_0477cff089f8630702ed17bf",
+    "ann_874a9e8ad6af0f211010bcec",
+    "ann_8c8dbeec2b1218958cbfa45e",
+    "ann_d371cb944fe1caa9778e702b",
+    "ann_f4a51118a5bb011975396c78"
+  ],
+  "stages": {
+    "labeler": {
+      "run_id": "305012af-084d-4eca-a2c6-8ab2bfb76ee0",
+      "session_file": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/c59fe987-255f-497d-9cc8-809f7578de16/run-0/session.jsonl",
+      "session_sha256": "03eeb18f6952248ecd91764e31ec13cc5a3025af6733255a3e267918856a1b0f",
+      "actual_model": "openai-codex/gpt-6-luna:high",
+      "tool_counts": {
+        "read": 2,
+        "write": 21,
+        "structured_output": 1
+      },
+      "native_persisted_checkpoint_equality": true,
+      "exact_spans": true,
+      "read_boundary_passed": true
+    },
+    "blind": {
+      "run_id": "370c92b2-c529-41a2-b649-5e4edcc9fc93",
+      "session_file": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/8e71cdca-33d4-421a-a241-9a2d524bb1be/run-0/session.jsonl",
+      "session_sha256": "a263803e8bae94fda76e1494f96da685f513c156702a60d12328a63bde7d490d",
+      "actual_model": "openai-codex/gpt-6-luna:high",
+      "tool_counts": {
+        "read": 2,
+        "write": 21,
+        "structured_output": 1
+      },
+      "native_persisted_checkpoint_equality": true,
+      "exact_spans": true,
+      "read_boundary_passed": true
+    }
+  },
+  "structural_recoveries": 0,
+  "parent_semantic_inspection": "All20 exact descriptions and both judgments inspected. Clear ETL,reporting,virtualization,access,collaboration,data pipelines and SQL/compute infrastructure evidence reviewed; five predictive/generic/portfolio/support concerns routed. Two repeated-description row groups confirmed; no parent semantic labels substituted."
+}

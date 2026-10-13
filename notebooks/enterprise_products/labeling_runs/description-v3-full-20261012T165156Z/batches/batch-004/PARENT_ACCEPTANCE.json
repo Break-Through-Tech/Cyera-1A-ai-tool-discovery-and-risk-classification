@@ -1,0 +1,51 @@
+{
+  "report": {
+    "source_input_records": 1494,
+    "cleaner_excluded_records": 56,
+    "retained_source_records": 1438,
+    "selected_descriptions": 20,
+    "selected_records": 20,
+    "remaining_distinct_descriptions": 1371,
+    "remaining_source_records": 1418,
+    "coverage_claim": "selected calibration only; not full dataset coverage",
+    "binary_counts": {
+      "non_ai": 18,
+      "ai": 2
+    },
+    "subtype_counts": {
+      "null": 18,
+      "ai_native": 2
+    },
+    "binary_weak_count": 4,
+    "binary_forced_count": 4,
+    "subtype_weak_count": 1,
+    "subtype_forced_count": 1,
+    "trusted_negative_records": 14,
+    "reconciliation_count": 5,
+    "required_reconciliation_count": 3,
+    "parent_reconciliation_count": 5,
+    "independent_binary_or_subtype_differences": 0,
+    "duplicate_records_within_selected_descriptions": 0,
+    "within_group_different_descriptions": 0
+  },
+  "semantic_acceptance": "Parent inspected all five final judgments against exact source: category-only BI29/33, unspecified automation44 and customer-voice analytics57 remain weak/forced negatives and excluded. NLP50 remains supported binary AI with separately weak/forced native subtype. No parent semantic label replacements.",
+  "reconciliation_run_id": "cb2b50e9-baff-477b-a1c0-3a27f5b95d80",
+  "workflow_id": "4174b11f-63d9-45f9-abd7-be2d50b01cbe",
+  "same_original_verifier": true,
+  "original_blind_and_recovery_prefixes_unchanged": true,
+  "raw_blind_checkpoints_unchanged": true,
+  "persisted_native_checkpoint_equality": true,
+  "exact_spans_passed": true,
+  "tool_counts": {
+    "read": 2,
+    "write": 6,
+    "structured_output": 1
+  },
+  "structural_recovery_count": 1,
+  "semantic_followup_count": 1,
+  "review_cases": 5,
+  "weak_binary": 4,
+  "weak_subtype": 1,
+  "trusted_negative_descriptions": 14,
+  "scope": "Full continuation approved; defer user review, no training/publication."
+}

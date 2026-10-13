@@ -1,0 +1,49 @@
+{
+  "report": {
+    "source_input_records": 1494,
+    "cleaner_excluded_records": 56,
+    "retained_source_records": 1438,
+    "selected_descriptions": 20,
+    "selected_records": 22,
+    "remaining_distinct_descriptions": 1371,
+    "remaining_source_records": 1416,
+    "coverage_claim": "selected calibration only; not full dataset coverage",
+    "binary_counts": {
+      "non_ai": 20
+    },
+    "subtype_counts": {
+      "null": 20
+    },
+    "binary_weak_count": 5,
+    "binary_forced_count": 5,
+    "subtype_weak_count": 0,
+    "subtype_forced_count": 0,
+    "trusted_negative_records": 17,
+    "reconciliation_count": 5,
+    "required_reconciliation_count": 0,
+    "parent_reconciliation_count": 5,
+    "independent_binary_or_subtype_differences": 0,
+    "duplicate_records_within_selected_descriptions": 2,
+    "within_group_different_descriptions": 0
+  },
+  "semantic_acceptance": "Parent read all five final judgments against original descriptions. Predictive/forecasting implementation uncertainty58/72, generic data-quality/platform wording66/67 and category-only support SOW82 remain weak/forced negatives, excluded; wider portfolio functions not borrowed. No parent replacement labels.",
+  "reconciliation_run_id": "042f7c7b-4503-4a22-8e5a-ef3b316480b3",
+  "workflow_id": "72919792-928f-4a78-867e-2d3b3fb3484a",
+  "same_original_verifier": true,
+  "original_blind_prefix_unchanged": true,
+  "persisted_native_checkpoint_equality": true,
+  "exact_spans_passed": true,
+  "tool_counts": {
+    "read": 2,
+    "write": 6,
+    "structured_output": 1
+  },
+  "wrapper_status": "stopped due to extension reload",
+  "child_status": "complete",
+  "recovery": "Accepted already-completed native child and persisted results after inspection; zero reruns or model calls for recovery. Wrapper was not successful.",
+  "semantic_followup_count": 1,
+  "review_cases": 5,
+  "weak_binary": 5,
+  "trusted_negative_descriptions": 15,
+  "scope": "Continue approved full pass; human review at final stop; no training/publication."
+}

@@ -1,0 +1,312 @@
+[
+  {
+    "annotation_id": "ann_5fc348a9196517caf28d8f02",
+    "description_sha256": "403151089cb1cbbd1fb0698b2815cafd80199a7a702afdf2a0421656e4232090",
+    "description": "Email support",
+    "source_record_references": [
+      "1414"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_5fc348a9196517caf28d8f02",
+      "description_sha256": "403151089cb1cbbd1fb0698b2815cafd80199a7a702afdf2a0421656e4232090",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text only says email support, without identifying what software functionality is offered or how it works; best-supported is non-AI, but evidence is insufficiently detailed.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Email support"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_5fc348a9196517caf28d8f02",
+      "description_sha256": "403151089cb1cbbd1fb0698b2815cafd80199a7a702afdf2a0421656e4232090",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "'Email support' names a support channel but supplies no meaningful description of the product functionality; the non-AI judgment is therefore forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Email support"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Email support supplies little offering detail. Recheck the forced judgment without guessing missing functionality; agreement must not upgrade insufficient text."
+  },
+  {
+    "annotation_id": "ann_65c20e9ee4faca4c9d83146e",
+    "description_sha256": "c176921b0fb9af75ec97783799deeaeaf9a6b83b3d103924f0e390ecc47bf36e",
+    "description": "Modelling for 5G",
+    "source_record_references": [
+      "581"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_65c20e9ee4faca4c9d83146e",
+      "description_sha256": "c176921b0fb9af75ec97783799deeaeaf9a6b83b3d103924f0e390ecc47bf36e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description gives only the phrase modelling for 5G, without explaining the modeling method or function; it provides no affirmative AI signal, so the best-supported forced choice is non-AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Modelling for 5G"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_65c20e9ee4faca4c9d83146e",
+      "description_sha256": "c176921b0fb9af75ec97783799deeaeaf9a6b83b3d103924f0e390ecc47bf36e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "'Modelling for 5G' is too terse to establish whether this means simulation, network planning, or another potentially AI-related function; non-AI is the best forced binary judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Modelling for 5G"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Modelling for 5G does not specify what is modeled or how. Recheck ambiguity and retain uncertainty where the original description cannot resolve it."
+  },
+  {
+    "annotation_id": "ann_969f3d9601118d045bf6bda6",
+    "description_sha256": "a3bee126565a596ea31d214b997e9dd06b41eebed7c1af206f2f5a82800f0a99",
+    "description": "Enterprise architecture (EA) tools allow organizations to examine both the need for and the impact of\nchange. They capture the interrelationships and interdependencies within and between an ecosystem\nof partners, operating models, capabilities, people, processes, information, and applications and\ntechnologies. They provide a central repository to capture data and metadata about the artifacts that\nan enterprise cares about and their related life cycles. Models represent the relationships between\nthese artifacts and are themselves treated as assets that help describe and shape the future of the\nenterprise. EA tools help with investment decisions for both IT and the broader enterprise. When\nmodels are combined with operational performance data, they can help improve business outcomes\nand shape the construction and ongoing development of digital platforms.",
+    "source_record_references": [
+      "1028",
+      "1029",
+      "1030",
+      "1031",
+      "1032",
+      "1033",
+      "1034"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_969f3d9601118d045bf6bda6",
+      "description_sha256": "a3bee126565a596ea31d214b997e9dd06b41eebed7c1af206f2f5a82800f0a99",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes enterprise-architecture repositories and models for capturing relationships, artifacts, metadata, lifecycles, and supporting investment decisions and platform development.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "They capture the interrelationships and interdependencies",
+        "They provide a central repository to capture data and metadata about the artifacts",
+        "Models represent the relationships between\nthese artifacts"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_969f3d9601118d045bf6bda6",
+      "description_sha256": "a3bee126565a596ea31d214b997e9dd06b41eebed7c1af206f2f5a82800f0a99",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes EA repositories, metadata, lifecycle models, relationships among enterprise artifacts, and investment/planning use; this is conventional architecture modeling and governance functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "They provide a central repository to capture data and metadata about the artifacts that\nan enterprise cares about and their related life cycles.",
+        "Models represent the relationships between\nthese artifacts and are themselves treated as assets that help describe and shape the future of the\nenterprise."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "The independent decisions agree, but three quoted spans dropped embedded original line breaks. The parent restored only source whitespace in accepted handoffs while preserving the raw artifacts. Recheck support directly against the original description and emit only exact spans including any embedded line breaks; keep one description annotation for all seven identical-text source references."
+  },
+  {
+    "annotation_id": "ann_ca8804d48843d4ffa6dbf8dd",
+    "description_sha256": "9a7e19b511bc6f2513d054a45a49897c83972077d033ab8ea54c0dab2e62c680",
+    "description": "NICE IEX Workforce Management is a cloud-based management'suite designed to meet the needs of businesses of all sizes, across all industries. By leveraging embedded artificial intelligence and machine learning algorithms, users can identify patterns, develop accurate forecasts and generate a variety of reports.\n\nConsumer call center agent licenses for the IEX workforce management application - is a cloud-based management suite designed to meet the needs of businesses of all sizes, across all industries. By leveraging embedded artificial intelligence and machine learning algorithms, users can identify patterns, develop accurate forecasts and generate a variety of reports.",
+    "source_record_references": [
+      "235"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_ca8804d48843d4ffa6dbf8dd",
+      "description_sha256": "9a7e19b511bc6f2513d054a45a49897c83972077d033ab8ea54c0dab2e62c680",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly identifies embedded artificial-intelligence and machine-learning algorithms for pattern identification and forecasting.",
+      "ai_type_rationale": "The described workforce-management suite includes reports and management functions alongside AI-assisted pattern identification and forecasting.",
+      "evidence_spans": [
+        "By leveraging embedded artificial intelligence and machine learning algorithms, users can identify patterns, develop accurate forecasts and generate a variety of reports."
+      ],
+      "ai_type_evidence_spans": [
+        "Workforce Management is a cloud-based management'suite designed to meet the needs of businesses of all sizes"
+      ]
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_ca8804d48843d4ffa6dbf8dd",
+      "description_sha256": "9a7e19b511bc6f2513d054a45a49897c83972077d033ab8ea54c0dab2e62c680",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description twice explicitly states the workforce-management application leverages embedded artificial-intelligence and machine-learning algorithms.",
+      "ai_type_rationale": "The offering is a workforce management suite with reports and forecasting; embedded AI/ML are capabilities enhancing this conventional application.",
+      "evidence_spans": [
+        "By leveraging embedded artificial intelligence and machine learning algorithms, users can identify patterns, develop accurate forecasts and generate a variety of reports."
+      ],
+      "ai_type_evidence_spans": [
+        "By leveraging embedded artificial intelligence and machine learning algorithms, users can identify patterns, develop accurate forecasts and generate a variety of reports."
+      ]
+    },
+    "parent_concern": "The text names a workforce-management suite but the concrete functions (pattern identification, forecasts, reports) are described in the sentence leveraging embedded AI/ML. Recheck the evidence for meaningful conventional core functions remaining without that AI, rather than assuming them from the suite category. A supported AI mention does not automatically support AI-enabled; subtype uncertainty must remain separate."
+  },
+  {
+    "annotation_id": "ann_e4e37b7fe7ee92bc9740adf9",
+    "description_sha256": "47e7f049ef80ef0aaf582221c4f000185d7c9cde3b11d04d1020d18d9e2fe349",
+    "description": "Programming Language",
+    "source_record_references": [
+      "414",
+      "415",
+      "416"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_e4e37b7fe7ee92bc9740adf9",
+      "description_sha256": "47e7f049ef80ef0aaf582221c4f000185d7c9cde3b11d04d1020d18d9e2fe349",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text only identifies a programming language and provides no detail about functionality or AI; best-supported is non-AI, but the description is too sparse for a supported assessment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Programming Language"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_e4e37b7fe7ee92bc9740adf9",
+      "description_sha256": "47e7f049ef80ef0aaf582221c4f000185d7c9cde3b11d04d1020d18d9e2fe349",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The only text is the broad category label 'Programming Language'; it provides too little detail about the offering to establish functionality, so non-AI is a forced best judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Programming Language"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "The only description is Programming Language, shared by three separate source groups. Recheck insufficiency using that same exact text once; do not borrow source product names or turn agreement into supported evidence."
+  },
+  {
+    "annotation_id": "ann_e55f6209ea3c9b9f3cc49dff",
+    "description_sha256": "726dbc976b8c604e477be8eb93ab866151d5ce10e73d103d354c5e6bde5e6ec7",
+    "description": "Our patented artificial intelligence (AI) technology measures safe and unsafe driving behaviors automatically, right from a driver's smartphone. .  Provider of location specific services thru Map-Quest.",
+    "source_record_references": [
+      "206"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_e55f6209ea3c9b9f3cc49dff",
+      "description_sha256": "726dbc976b8c604e477be8eb93ab866151d5ce10e73d103d354c5e6bde5e6ec7",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description specifically says its AI technology automatically measures safe and unsafe driving behaviors.",
+      "ai_type_rationale": "The described central service is automatic measurement of driving behaviors expressly performed by its AI technology, making AI central to that described offering.",
+      "evidence_spans": [
+        "Our patented artificial intelligence (AI) technology measures safe and unsafe driving behaviors automatically"
+      ],
+      "ai_type_evidence_spans": [
+        "artificial intelligence (AI) technology measures safe and unsafe driving behaviors automatically"
+      ]
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_e55f6209ea3c9b9f3cc49dff",
+      "description_sha256": "726dbc976b8c604e477be8eb93ab866151d5ce10e73d103d354c5e6bde5e6ec7",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The offering expressly identifies its artificial-intelligence technology as measuring safe and unsafe driving behavior.",
+      "ai_type_rationale": "The described service's central function is measuring driving behavior, and the text directly attributes that function to its AI technology.",
+      "evidence_spans": [
+        "Our patented artificial intelligence (AI) technology measures safe and unsafe driving behaviors automatically, right from a driver's smartphone."
+      ],
+      "ai_type_evidence_spans": [
+        "Our patented artificial intelligence (AI) technology measures safe and unsafe driving behaviors automatically, right from a driver's smartphone."
+      ]
+    },
+    "parent_concern": "The description includes AI-based driving-behavior measurement and a second statement about location-specific services through Map-Quest. Recheck which core offering the text establishes, whether the conventional services are connected to it, and whether the subtype is truly supported or ambiguous. Use only this supplied text; no product-name/vendor knowledge. Keep binary applicability distinct from subtype uncertainty."
+  },
+  {
+    "annotation_id": "ann_f0671695255e78ef39de3cf5",
+    "description_sha256": "10debaf0ae0a2afcb2f692628dfee9c2ca1df4ccfc84aa4cdc40379977d0cfa3",
+    "description": "IBM Datacap helps you streamline the capture, recognition and classification of business documents and extract important information. ... Its natural language processing, text analytics and machine learning technologies automatically identify, classify and extract content from unstructured or variable documents.",
+    "source_record_references": [
+      "49"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_f0671695255e78ef39de3cf5",
+      "description_sha256": "10debaf0ae0a2afcb2f692628dfee9c2ca1df4ccfc84aa4cdc40379977d0cfa3",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "It expressly describes natural-language processing, text analytics, and machine-learning technologies for document recognition, classification, and extraction.",
+      "ai_type_rationale": "Document capture and information extraction are the described functions; machine learning is among the technologies supporting these functions, rather than the entire core offering being said to depend on AI.",
+      "evidence_spans": [
+        "Its natural language processing, text analytics and machine learning technologies automatically identify, classify and extract content from unstructured or variable documents."
+      ],
+      "ai_type_evidence_spans": [
+        "streamline the capture, recognition and classification of business documents and extract important information"
+      ]
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_f0671695255e78ef39de3cf5",
+      "description_sha256": "10debaf0ae0a2afcb2f692628dfee9c2ca1df4ccfc84aa4cdc40379977d0cfa3",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The product is explicitly described as using machine learning technologies to identify, classify, and extract document content.",
+      "ai_type_rationale": "Document capture, recognition, classification, and extraction are the described conventional core, with ML technologies supporting those functions.",
+      "evidence_spans": [
+        "Its natural language processing, text analytics and machine learning technologies automatically identify, classify and extract content from unstructured or variable documents."
+      ],
+      "ai_type_evidence_spans": [
+        "Its natural language processing, text analytics and machine learning technologies automatically identify, classify and extract content from unstructured or variable documents."
+      ]
+    },
+    "parent_concern": "Both proposals select supported AI-enabled by treating document capture/recognition/classification/extraction as a conventional core. The text specifically attributes automatic identification/classification/extraction to NLP/text analytics/ML. Recheck whether meaningful conventional core functionality without that AI is actually established, versus subtype uncertainty. Do not silently default to enabled because AI dependence is not explicitly proved. Binary AI support is separately assessed."
+  }
+]

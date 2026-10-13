@@ -1,0 +1,22 @@
+{
+  "provider": "Cursor",
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "standard_non_fast": true,
+  "reported_token_totals": null,
+  "measured_cost_usd": null,
+  "billing_verified": false,
+  "basis": "Interactive Cursor CLI did not expose per-stage token/invoice totals; UI context percentages are not billable token counts.",
+  "fallback": {
+    "authorized": true,
+    "trigger": "Explicit third-party/API usage exhaustion only",
+    "labeler": "Composer2.5 standard",
+    "verifier": "Grok4.6 high standard",
+    "used": false,
+    "availability_limit": "Only Composer2.5 Fast listed by installed CLI. Standard Composer must be verified at activation; do not silently use Fast premium."
+  },
+  "runtime_evidence": "Herdr lifecycle waits returned done for both fresh agents and same-verifier reconciliation; not a controlled end-to-end speed comparison with Codex.",
+  "scope": "No savings, throughput or invoice estimate asserted."
+}

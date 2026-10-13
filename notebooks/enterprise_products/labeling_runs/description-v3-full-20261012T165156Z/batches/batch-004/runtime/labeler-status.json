@@ -1,0 +1,647 @@
+{
+  "lifecycleArtifactVersion": 3,
+  "runId": "64c90611-ab9b-43e3-946c-7dc7f67c1e90",
+  "toolCallId": "c187d9a5-408f-4da1-b47b-d55506e6c318",
+  "sessionId": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194.jsonl",
+  "completionOwnerId": "4fdfdf80-f2b8-4cf7-ab60-67755f16c851",
+  "mode": "single",
+  "state": "complete",
+  "steering": {
+    "requested": 0,
+    "scheduled": 0,
+    "pending": 0,
+    "delivered": 0,
+    "failed": 0,
+    "recovered": 0,
+    "recent": []
+  },
+  "lastActivityAt": 1791824930840,
+  "startedAt": 1791824821578,
+  "lastUpdate": 1791824930864,
+  "timeoutMs": 1800000,
+  "deadlineAt": 1791826619771,
+  "pid": 212618,
+  "pidNamespaceScope": "pid:[4026531836]",
+  "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-004/agents/labeler",
+  "currentStep": 0,
+  "chainStepCount": 1,
+  "parallelGroups": [],
+  "launchContractDigest": "7e1f01dfd3196004b06b2155b23ec15fa563b171285e142dc6d5af0c02dbbe8f",
+  "launchResolvedExtensions": {
+    "version": 1,
+    "source": "launch-resolved",
+    "disableAmbientExtensions": true,
+    "runtime": [
+      "sha256:3dc3c5bcb62fb02e"
+    ],
+    "configured": [],
+    "required": [],
+    "effective": [
+      "sha256:3dc3c5bcb62fb02e"
+    ],
+    "omitted": {
+      "runtime": 0,
+      "configured": 0,
+      "required": 0,
+      "effective": 0
+    }
+  },
+  "runFanoutBudget": {
+    "used": 2,
+    "limit": 2,
+    "remaining": 0
+  },
+  "parentWorkflowRunId": "1f9d0d2c-1a27-4095-bbbc-680e6e0c268d",
+  "workflowKey": "labeler-batch-004",
+  "processTerminal": {
+    "version": 1,
+    "state": "observed",
+    "runId": "64c90611-ab9b-43e3-946c-7dc7f67c1e90",
+    "runnerProcessInstanceId": "133ef810-9c10-48f1-809b-ab4990fd1dd5",
+    "observedAt": 1791824930925,
+    "instances": [
+      {
+        "kind": "runner",
+        "processInstanceId": "133ef810-9c10-48f1-809b-ab4990fd1dd5",
+        "closeObservedAt": 1791824930925,
+        "exitCode": 0,
+        "signal": null
+      }
+    ],
+    "resumeDisposition": "resumable"
+  },
+  "steps": [
+    {
+      "agent": "enterprise-description-annotator",
+      "sessionName": "enterprise-description-annotator: Perform ONLY the independent labeler pass o...",
+      "description": "[prompt redacted]",
+      "context": "fresh",
+      "launchContractDigest": "7e1f01dfd3196004b06b2155b23ec15fa563b171285e142dc6d5af0c02dbbe8f",
+      "launchResolvedExtensions": {
+        "version": 1,
+        "source": "launch-resolved",
+        "disableAmbientExtensions": true,
+        "runtime": [
+          "sha256:3dc3c5bcb62fb02e"
+        ],
+        "configured": [],
+        "required": [],
+        "effective": [
+          "sha256:3dc3c5bcb62fb02e"
+        ],
+        "omitted": {
+          "runtime": 0,
+          "configured": 0,
+          "required": 0,
+          "effective": 0
+        }
+      },
+      "status": "complete",
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/b190ce55-5f96-49c6-af99-2abfcf0fd885/run-0/session.jsonl",
+      "transcriptPath": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/subagent-artifacts/64c90611-ab9b-43e3-946c-7dc7f67c1e90_enterprise-description-annotator_transcript.jsonl",
+      "skills": [],
+      "model": "openai-codex/gpt-6-luna:high",
+      "contextLimit": 272000,
+      "thinking": "high",
+      "requestedModel": "openai-codex/gpt-6-luna:high",
+      "recentTools": [
+        {
+          "tool": "read",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824826993
+        },
+        {
+          "tool": "read",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824826994
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824833649
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824841886
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824841886
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824841887
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824841890
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824849492
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824849492
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824849492
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824849493
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824858839
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824858839
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824858839
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824858840
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824868854
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824868855
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824868855
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824868855
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824878843
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824878843
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824878844
+        },
+        {
+          "tool": "write",
+          "args": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-clas...",
+          "endMs": 1791824906638
+        },
+        {
+          "tool": "structured_output",
+          "args": "",
+          "endMs": 1791824930832
+        }
+      ],
+      "recentOutput": [],
+      "processTerminal": {
+        "version": 1,
+        "runId": "64c90611-ab9b-43e3-946c-7dc7f67c1e90",
+        "childIndex": 0,
+        "runnerProcessInstanceId": "133ef810-9c10-48f1-809b-ab4990fd1dd5",
+        "resumeDisposition": "resumable",
+        "state": "not-started"
+      },
+      "startedAt": 1791824821588,
+      "lastActivityAt": 1791824930840,
+      "turnCount": 9,
+      "tokens": {
+        "input": 28375,
+        "output": 14037,
+        "total": 42412,
+        "window": 18271,
+        "windowPeak": 18271
+      },
+      "toolCount": 24,
+      "endedAt": 1791824930861,
+      "durationMs": 109273,
+      "exitCode": 0,
+      "totalCost": {
+        "inputTokens": 28375,
+        "outputTokens": 14037,
+        "costUsd": 0.010485760000000002
+      },
+      "structuredOutput": {
+        "stage": "labeler",
+        "records": [
+          {
+            "annotation_id": "ann_39e048856223fdc9454f306f",
+            "description_sha256": "68b1ab815cf14b54b90ad93f011e4c4400854f48a0d2c31a49ecbaa2d549b483",
+            "ai_status": "non_ai",
+            "ai_type": null,
+            "evidence_strength": "supported",
+            "forced_decision": false,
+            "ai_type_evidence_strength": null,
+            "ai_type_forced_decision": null,
+            "rationale": "Describes enterprise data access and controlled synchronization between sources and target micro-databases, conventional data integration functions.",
+            "ai_type_rationale": null,
+            "evidence_spans": [
+              "enables enterprises to access the data they want in real time",
+              "flexibly sync data to and from your data sources and target micro-databases"
+            ],
+            "ai_type_evidence_spans": null
+          },
+          {
+            "annotation_id": "ann_babd7ba16450cfb4870e1a16",
+            "description_sha256": "ba14346db69dd809ea7da5593e080727d2c233cc2167862e021901634d0c0552",
+            "ai_status": "non_ai",
+            "ai_type": null,
+            "evidence_strength": "supported",
+            "forced_decision": false,
+            "ai_type_evidence_strength": null,
+            "ai_type_forced_decision": null,
+            "rationale": "The text describes data-source connections, organization and storage in micro-databases, and real-time exposure and refresh—conventional data integration and serving.",
+            "ai_type_rationale": null,
+            "evidence_spans": [
+              "connects to virtually any data source, organizes the data around what matters most to your business",
+              "stores it in secure micro-databases, and exposes it in real-time to any device, application or service while keeping it continuously refreshed"
+            ],
+            "ai_type_evidence_spans": null
+          },
+          {
+            "annotation_id": "ann_cf19806ef136a8792ef5b28c",
+            "description_sha256": "547442935e129eb6bd5861b6317dbf2cc2c10caf5596746b47eed07f663509ee",
+            "ai_status": "non_ai",
+            "ai_type": null,
+            "evidence_strength": "supported",
+            "forced_decision": false,
+            "ai_type_evidence_strength": null,
+            "ai_type_forced_decision": null,
+            "rationale": "The described function is business-intelligence acceleration for cloud and big-data platforms, a conventional query/BI performance function.",
+            "ai_type_rationale": null,
+            "evidence_spans": [
+              "a business intelligence acceleration platform for cloud and big data platforms"
+            ],
+            "ai_type_evidence_spans": null
+          },
+          {
+            "annotation_id": "ann_5352e040167aceb1fe4de823",
+            "description_sha256": "e55d9f17bee5f65cb25fb572aa9ebfed14307680bed9909b2d0b571531496cdb",
+            "ai_status": "non_ai",
+            "ai_type": null,
+            "evidence_strength": "supported",
+            "forced_decision": false,
+            "ai_type_evidence_strength": null,
+            "ai_type_forced_decision": null,
+            "rationale": "The description specifies self-service BI, embedded dashboards, data blending and filtering—conventional reporting and analytics capabilities.",
+            "ai_type_rationale": null,
+            "evidence_spans": [
+              "self-service analytics tools for businesses",
+              "Key features include a dashboard, data blending, associate filtering and more."
+            ],
+            "ai_type_evidence_spans": null
+          },
+          {
+            "annotation_id": "ann_31c69c9b6d8b9790341c9884",
+            "description_sha256": "17adfd27443c06ee43cb6f29b828c2684c82b4c46cd96f7e3f2cbead67f96922",
+            "ai_status": "non_ai",
+            "ai_type": null,
+            "evidence_strength": "supported",
+            "forced_decision": false,
+            "ai_type_evidence_strength": null,
+            "ai_type_forced_decision": null,
+            "rationale": "The description identifies columnar data storage for large volumes and fast query performance, conventional database storage and retrieval functions.",
+            "ai_type_rationale": null,
+            "evidence_spans": [
+              "Columnar storage platform that's designed to handle large volumes of data and enables very fast query performance in traditionally intensive scenarios"
+            ],
+            "ai_type_evidence_spans": null
+          },
+          {
+            "annotation_id": "ann_e435f577aa9c46557f1a8bd6",
+            "description_sha256": "875d660179cbddfa4d29d1e4a5f44a93e73fef54000fb95be759108394cb0f30",
+            "ai_status": "non_ai",
+            "ai_type": null,
+            "evidence_strength": "supported",
+            "forced_decision": false,
+            "ai_type_evidence_strength": null,
+            "ai_type_forced_decision": null,
+            "rationale": "Interactive dashboards, scorecards, formatted reports, ad hoc queries, alerts and report distribution are conventional BI/reporting functions.",
+            "ai_type_rationale": null,
+            "evidence_spans": [
+              "supports interactive dashboards, scorecards, highly formatted reports, ad hoc query, thresholds and alerts, and automated report distribution."
+            ],
+            "ai_type_evidence_spans": null
+          },
+          {
+            "annotation_id": "ann_ba8d1f095abd4aa1a1327a85",
+            "description_sha256": "24cf3c29da4ca874fc91413b9a80886b62d858b98527ab55e5a84d0f10ee67c3",
+            "ai_status": "non_ai",
+            "ai_type": null,
+            "evidence_strength": "supported",
+            "forced_decision": false,
+            "ai_type_evidence_strength": null,
+            "ai_type_forced_decision": null,
+            "rationale": "The text describes an enterprise BI platform providing BI capabilities; this is a conventional business-intelligence offering.",
+            "ai_type_rationale": null,
+            "evidence_spans": [
+              "is an innovative and comprehensive BI platform that delivers the full range of BI capabilities"
+            ],
+            "ai_type_evidence_spans": null
+          },
+          {
+            "annotation_id": "ann_60a0845f5783dd375f657e49",
+            "description_sha256": "adcc891e0444521bd6671f8374a097f922b2f87ef1b115a9fdeadd47543600ab",
+            "ai_status": "non_ai",
+            "ai_type": null,
+            "evidence_strength": "supported",
+            "forced_decision": false,
+            "ai_type_evidence_strength": null,
+            "ai_type_forced_decision": null,
+            "rationale": "It describes master-data management, data processing/integration/quality/governance, repository synchronization and business services—conventional data-management functions.",
+            "ai_type_rationale": null,
+            "evidence_spans": [
+              "modular software for master data management",
+              "handles data processing, integration, quality, analytics and governance, while synchronizing repository data"
+            ],
+            "ai_type_evidence_spans": null
+          },
+          {
+            "annotation_id": "ann_21ef8a9f5d3a9f8d3de694ae",
+            "description_sha256": "9e1fec23b94e6e93c01a981e844f70d7aade23435719bf354153c67eb3da3400",
+            "ai_status": "non_ai",
+            "ai_type": null,
+            "evidence_strength": "supported",
+            "forced_decision": false,
+            "ai_type_evidence_strength": null,
+            "ai_type_forced_decision": null,
+            "rationale": "The described applications let business users discover data, analyze it and create visual reports, conventional BI and reporting functions.",
+            "ai_type_rationale": null,
+            "evidence_spans": [
+              "a reporting and analytics business intelligence (BI) platform aimed at business users.",
+              "allow users to discover data, perform analysis to derive insights and create reports that visualize the insights."
+            ],
+            "ai_type_evidence_spans": null
+          },
+          {
+            "annotation_id": "ann_0f4924e462a35ac0c2f3e376",
+            "description_sha256": "913b68914384d05c3592dcb28e22bc9791e228a0ac2b4b34799aae5f35c62a3a",
+            "ai_status": "non_ai",
+            "ai_type": null,
+            "evidence_strength": "supported",
+            "forced_decision": false,
+            "ai_type_evidence_strength": null,
+            "ai_type_forced_decision": null,
+            "rationale": "The text describes data visualization, analysis, dashboards and worksheets for turning data into understandable reports, conventional BI functions.",
+            "ai_type_rationale": null,
+            "evidence_spans": [
+              "Business Intelligence and Data visualization tool that helps to analyse and report huge amounts of data into desired information.",
+              "the visualizations created are in the form of dashboards and worksheets"
+            ],
+            "ai_type_evidence_spans": null
+          },
+          {
+            "annotation_id": "ann_07ddd9bcc52676dd37fcfb32",
+            "description_sha256": "9a202d1c29ae9c7285bd813f8d11693fe0d6d503d427d5a03b620800fcb73dec",
+            "ai_status": "non_ai",
+            "ai_type": null,
+            "evidence_strength": "supported",
+            "forced_decision": false,
+            "ai_type_evidence_strength": null,
+            "ai_type_forced_decision": null,
+            "rationale": "It specifies business-intelligence data preparation and analysis plus dashboard visualization, conventional analytics/reporting functions.",
+            "ai_type_rationale": null,
+            "evidence_spans": [
+              "a business intelligence tool for simplifying complex data preparation and analysis.",
+              "Visualize complex data with stunning dashboards."
+            ],
+            "ai_type_evidence_spans": null
+          },
+          {
+            "annotation_id": "ann_548adb9bb8ffde3e107b2b4f",
+            "description_sha256": "c685b23b995987857f97b7319f138b52d61abb13aa77f02134c319374a9af1cc",
+            "ai_status": "non_ai",
+            "ai_type": null,
+            "evidence_strength": "supported",
+            "forced_decision": false,
+            "ai_type_evidence_strength": null,
+            "ai_type_forced_decision": null,
+            "rationale": "The described platform simplifies analytics and enables data visualization and analysis, conventional BI functionality.",
+            "ai_type_rationale": null,
+            "evidence_spans": [
+              "an exceptionally flexible, end-to-end business intelligence platform that simplifies the entire analytics process and empowers everyone to visualize and analyze data"
+            ],
+            "ai_type_evidence_spans": null
+          },
+          {
+            "annotation_id": "ann_fb5228f9735f1048bd92eb4e",
+            "description_sha256": "f2f0328020c370b907e47fb4f84a19fe4d9c89fbeda4fd7e999744d24d7eef33",
+            "ai_status": "non_ai",
+            "ai_type": null,
+            "evidence_strength": "supported",
+            "forced_decision": false,
+            "ai_type_evidence_strength": null,
+            "ai_type_forced_decision": null,
+            "rationale": "It describes query access over existing datasets and a SQL relational columnar engine with high-speed query and ingestion, conventional database functions. Change capture and accounting for connection differences are integration tasks, without a learned or model-based mechanism stated.",
+            "ai_type_rationale": null,
+            "evidence_spans": [
+              "Just point to your datasets and make them readily available for queries, analysis, and data exploration without loading them directly into HeavyDB.",
+              "DB is a SQL-based, relational, and columnar database engine specifically developed to harness the massive parallelism of modern GPU and CPU hardware.",
+              "It can query up to billions of rows in milliseconds and is capable of unprecedented ingestion speeds"
+            ],
+            "ai_type_evidence_spans": null
+          },
+          {
+            "annotation_id": "ann_46ecfd149354eb0420c87b2c",
+            "description_sha256": "a40547b3e06692e5d28fd8c3228d5f976a3ecd070ed778e435403c326f82e658",
+            "ai_status": "non_ai",
+            "ai_type": null,
+            "evidence_strength": "supported",
+            "forced_decision": false,
+            "ai_type_evidence_strength": null,
+            "ai_type_forced_decision": null,
+            "rationale": "The described service catalogs public and premium datasets and supports discovery and gathering/cleaning data, conventional data access and preparation.",
+            "ai_type_rationale": null,
+            "evidence_spans": [
+              "Browse our Spatial Data Catalog to discover thousands of public & premium datasets to enrich your data.",
+              "save time on gathering & cleaning data."
+            ],
+            "ai_type_evidence_spans": null
+          },
+          {
+            "annotation_id": "ann_d40e4c0f1ae9495e16c1158e",
+            "description_sha256": "aa7934ff8c2ab53a5df33aad13111cff1cce3b818460f44d527486aa1e158f71",
+            "ai_status": "non_ai",
+            "ai_type": null,
+            "evidence_strength": "weak",
+            "forced_decision": true,
+            "ai_type_evidence_strength": null,
+            "ai_type_forced_decision": null,
+            "rationale": "The text only broadly says it provides automation solutions for IBM i environments, without identifying the automation tasks or mechanism; the best-supported reading is conventional automation, but detail is too limited for strong support.",
+            "ai_type_rationale": null,
+            "evidence_spans": [
+              "provides exceptional automation solutions for every IBM i environment"
+            ],
+            "ai_type_evidence_spans": null
+          },
+          {
+            "annotation_id": "ann_e749f698b04ac546cd289f57",
+            "description_sha256": "d0bd062047f98d9ad62b64478b1f73e59fa0b3e4bfa98f844f98a91d4494a4a6",
+            "ai_status": "ai",
+            "ai_type": "ai_native",
+            "evidence_strength": "supported",
+            "forced_decision": false,
+            "ai_type_evidence_strength": "supported",
+            "ai_type_forced_decision": false,
+            "rationale": "The service is explicitly automatic speech recognition that provides speech-to-text, an affirmative AI functionality signal under the rubric.",
+            "ai_type_rationale": "The described service's core purpose is automatic speech recognition and speech-to-text conversion, so the stated core depends on that AI capability.",
+            "evidence_spans": [
+              "Amazon Transcribe is an automatic speech recognition (ASR) service that makes it easy for developers to add speech-to-text capability to applications."
+            ],
+            "ai_type_evidence_spans": [
+              "automatic speech recognition (ASR) service",
+              "speech-to-text capability"
+            ]
+          },
+          {
+            "annotation_id": "ann_6e03e2692560e13fe37488f2",
+            "description_sha256": "6c024c3c12df3c5fe9d470ed7687cfed7d783c593f94c6ee41bc487f758ebc43",
+            "ai_status": "ai",
+            "ai_type": "ai_native",
+            "evidence_strength": "supported",
+            "forced_decision": false,
+            "ai_type_evidence_strength": "supported",
+            "ai_type_forced_decision": false,
+            "rationale": "The description explicitly identifies natural language processing and question answering over data repositories, an affirmative AI signal.",
+            "ai_type_rationale": "The described analytics processor uses natural-language processing and answers human questions as its core described behavior, supporting an AI-dependent core.",
+            "evidence_spans": [
+              "uses natural language processing, a technology that analyzes human speech for meaning and syntax.",
+              "processes to answer human-posed questions"
+            ],
+            "ai_type_evidence_spans": [
+              "uses natural language processing",
+              "processes to answer human-posed questions"
+            ]
+          },
+          {
+            "annotation_id": "ann_943d4556aac0ebb83772c660",
+            "description_sha256": "85bf3868f867838de70ff492bbb6a9feeb2e50ea4e9ee36a881f70914f2584a8",
+            "ai_status": "non_ai",
+            "ai_type": null,
+            "evidence_strength": "supported",
+            "forced_decision": false,
+            "ai_type_evidence_strength": null,
+            "ai_type_forced_decision": null,
+            "rationale": "It describes a server/control room for managing automation bots, users and bot source code—conventional automation administration and source control.",
+            "ai_type_rationale": null,
+            "evidence_spans": [
+              "the control room deal with. User management. Source control: code for the bots is managed by the control room."
+            ],
+            "ai_type_evidence_spans": null
+          },
+          {
+            "annotation_id": "ann_fd6c638c4412ff1657033f9c",
+            "description_sha256": "14b5c38f877c3b410795fd2ad3085c42c5f3fab38c6496d0a6d130fd4da6d996",
+            "ai_status": "non_ai",
+            "ai_type": null,
+            "evidence_strength": "supported",
+            "forced_decision": false,
+            "ai_type_evidence_strength": null,
+            "ai_type_forced_decision": null,
+            "rationale": "The stated functions are capturing desktop events and activity data, then reporting volumes, activity and process flows for workforce visibility; these are conventional monitoring and analytics functions.",
+            "ai_type_rationale": null,
+            "evidence_spans": [
+              "captures events and data from employee desktops.",
+              "provides visibility into identifying top performers, volumes, activity, and process flows"
+            ],
+            "ai_type_evidence_spans": null
+          },
+          {
+            "annotation_id": "ann_5094366c4e3097d9776d39b2",
+            "description_sha256": "702def65d77a6413c0485ca792712f80c7228846d79299c01cb21356ba0a167d",
+            "ai_status": "non_ai",
+            "ai_type": null,
+            "evidence_strength": "weak",
+            "forced_decision": true,
+            "ai_type_evidence_strength": null,
+            "ai_type_forced_decision": null,
+            "rationale": "The text only broadly describes listening to and analyzing customer voice; it does not specify transcription, language models or another mechanism. Conventional customer-feedback analysis is the best-supported binary reading, but the function is underspecified and could encompass AI-dependent processing.",
+            "ai_type_rationale": null,
+            "evidence_spans": [
+              "solutions that can help you listen, analyze, and act on the voice of the customer"
+            ],
+            "ai_type_evidence_spans": null
+          }
+        ]
+      },
+      "structuredOutputPath": "/tmp/pi-subagents-uid-1000/async-subagent-runs/64c90611-ab9b-43e3-946c-7dc7f67c1e90/structured-output/pi-subagent-structured-5VxvFx/output.json",
+      "structuredOutputSchemaPath": "/tmp/pi-subagents-uid-1000/async-subagent-runs/64c90611-ab9b-43e3-946c-7dc7f67c1e90/structured-output/pi-subagent-structured-5VxvFx/schema.json",
+      "acceptance": {
+        "status": "not-required",
+        "evidenceStatus": "not-required",
+        "explicit": true,
+        "effectiveAcceptance": {
+          "level": "none",
+          "explicit": true,
+          "inferredReason": [
+            "declared read-only acceptance role"
+          ],
+          "criteria": [],
+          "evidence": [],
+          "verify": [],
+          "stopRules": [],
+          "reason": "Parent validates persisted/native/checkpoint equality, provenance, coverage, source-exact spans, semantic support and required reconciliation before finalizing."
+        },
+        "inferredReason": [
+          "declared read-only acceptance role"
+        ],
+        "criteria": [],
+        "runtimeChecks": [],
+        "verifyRuns": []
+      }
+    }
+  ],
+  "artifactsDir": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/subagent-artifacts",
+  "sessionDir": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/b190ce55-5f96-49c6-af99-2abfcf0fd885/async-64c90611-ab9b-43e3-946c-7dc7f67c1e90",
+  "outputFile": "/tmp/pi-subagents-uid-1000/async-subagent-runs/64c90611-ab9b-43e3-946c-7dc7f67c1e90/output-0.log",
+  "totalTokens": {
+    "input": 28375,
+    "output": 14037,
+    "total": 42412,
+    "window": 18271,
+    "windowPeak": 18271
+  },
+  "turnCount": 9,
+  "toolCount": 24,
+  "outputs": {},
+  "endedAt": 1791824930864,
+  "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/b190ce55-5f96-49c6-af99-2abfcf0fd885/run-0/session.jsonl",
+  "totalCost": {
+    "inputTokens": 28375,
+    "outputTokens": 14037,
+    "costUsd": 0.010485760000000002
+  }
+}

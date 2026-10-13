@@ -1,0 +1,20 @@
+{
+  "workflow_run_id": "89a5d241-2264-473d-88c8-eca45d1c540e",
+  "mission_id": "b3282609-0e9f-455c-9911-4736efcf9554",
+  "resumed_original_verifier_run_id": "43b0afd6-2fb1-4ca3-949d-25acb07e1051",
+  "prior_workflow_run_id": "f5c51b46-eee4-4c1d-bfcb-32098e5739e8",
+  "model": "openai-codex/gpt-6-luna:high",
+  "scope": "One final verifier follow-up for seven cases; no further batch before human review",
+  "input_hashes": {
+    "inputs/reconciliation_packet.json": "64c6ebc603487728200b0f3e992a8ec514df8cfd713e909a2e7bf1719e1bc64d",
+    "inputs/reconciliation_schema.json": "037231563c556f4670a6fe9440130c569d5e2ece3f26690e346d21948159cee7",
+    "launch-reconciliation.js": "e14c4652c0e28b0384a158898f019747a34fec14536bb92aaa0fd05b559e9c4d",
+    "PARENT_COMPARISON.json": "d18841e389ba53f904130e5e91070a88d98f4733e51a21a6a7e9236b598c21fa",
+    "STRUCTURAL_CORRECTIONS.json": "34ec9eb1d1f475f0ed97f8eaf8e98a018b80b32ce3d624b47be511f412d84a2f"
+  },
+  "independent_raw_output_sha256": {
+    "labeler": "03a03cc94f79f41dc287e1b2ecca5c9f4fcf0835e79b85eb4034746921ec32df",
+    "blind": "c9d9a057879be8c324bcc268c6fb938dbebeded1790d23406f7ce73df024bb8f"
+  },
+  "structural_correction_scope": "Three non-exact quotes had only original embedded line breaks restored in separate parent handoffs. Raw native results/private checkpoints remain unchanged; no semantic label, rationale, support flag or input text changed."
+}

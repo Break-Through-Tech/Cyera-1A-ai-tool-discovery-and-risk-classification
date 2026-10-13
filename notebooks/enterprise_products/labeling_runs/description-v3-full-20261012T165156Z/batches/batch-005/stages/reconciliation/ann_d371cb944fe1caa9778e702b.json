@@ -1,0 +1,17 @@
+{
+  "annotation_id": "ann_d371cb944fe1caa9778e702b",
+  "description_sha256": "7e879b638747be3fca5ddf924564dc1223b794bff8f31703faac3bcad5f2aa77",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "For the described Planning solution, the text states centralized planning and budgeting integrated across financial and operational processes. Forecasting is also named but its method is unspecified, leaving unresolved whether this included prediction is conventional or AI-dependent. Non_ai remains the best judgment, weak/forced; portfolio products listed afterward are not used as evidence for this solution.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "Oracle Hyperion Planning is a centralized planning, budgeting, and forecasting solution that integrates financial and operational planning processes and improves business predictability."
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The concern about product scope is addressed by relying only on the first sentence describing Planning, not the wider portfolio list. That sentence meaningfully describes financial/operational planning and budgeting, but merely names forecasting without an implementation, so I preserve uncertainty rather than infer a conventional or learned forecasting method; binary non_ai is weak/forced."
+}

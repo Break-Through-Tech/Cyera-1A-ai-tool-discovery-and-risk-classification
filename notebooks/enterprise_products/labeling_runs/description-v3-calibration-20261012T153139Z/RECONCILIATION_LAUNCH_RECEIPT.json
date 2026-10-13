@@ -1,0 +1,20 @@
+{
+  "workflow_run_id": "4d093aa0-cf45-4b9d-ae91-31517d5800b9",
+  "mission_id": "fe0c0ff1-bf24-4118-8d83-900ed389615d",
+  "resumed_original_verifier_run_id": "6c687f5a-30e4-4c67-b2f4-dadfa79f5b4a",
+  "model": "openai-codex/gpt-6-luna:high",
+  "scope": "One final verifier pass for nine routed descriptions, not another blind pass",
+  "route_count": 9,
+  "stage_prompt_sha256": "a093e402b75cb481ded68c308f6aa42f6a7768c23f8e2900f77742f16536917f",
+  "input_hashes": {
+    "inputs/reconciliation_packet.json": "aeb886296bc6a60b7f83f799fd1051253f0c9d89fb78124226fb499379f9e66c",
+    "inputs/reconciliation_schema.json": "8b4bec8b35ad2f7410a42b816522905623a98a973a01e76d962c3b415da8a59b",
+    "launch-reconciliation.js": "544ad576f2f7df07581211186f09ec57bf75a73ec772054e5f86f1608357e923",
+    "PARENT_COMPARISON.json": "9c1f5b5c32afc4520de080878481763f62aee751ec17fbfab3c26e62c8c93b3f"
+  },
+  "committed_independent_session_sha256": {
+    "labeler": "fb646b0c0f996da0ef8212351ffc5878965d130d40fc97dc38c2cadf8a8bb921",
+    "blind": "5a5656bc70beb38a84f6d8877144712d223edda13d5f93ba0161511ae4b5b789"
+  },
+  "transport_correction": "Same native verifier/model/session retained; newly bound reconciliation schema and checkpoint directory. Complete aggregate file writing explicitly allowed in addition to native structured_output to avoid the observed file-only persistence problem. Semantic rubric and evidence remain unchanged."
+}

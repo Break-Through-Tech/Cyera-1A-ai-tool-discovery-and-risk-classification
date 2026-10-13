@@ -1,0 +1,22 @@
+{
+  "batch_id": "batch-001",
+  "accepted": true,
+  "description_count": 20,
+  "source_row_count": 21,
+  "independent_results_committed_before_comparison": true,
+  "comparison_reviewed_all_pairs": true,
+  "reconciled_ids": [
+    "ann_2bf78e027589823addd434fc",
+    "ann_837eaba2307d53a189dded02"
+  ],
+  "weak_cases_finally_supported": true,
+  "helper_manifest_gate": true,
+  "exports": {
+    "description_labels.json": "28fdcc90a07ec70535a50fade66e94e8b53d943fe3b95eadc39f03f4c6f60225",
+    "record_labels.json": "40359f997e81236d9eb14082555cd025ef96fd1b2256b299ca068f973096a398",
+    "review_ledger.json": "69979d679e14426bc16e491521f3b3a25a04feb23b47e085b67495c794179eee",
+    "review_queue.json": "92f1f25817a91355a7ac14fec5600abc354b2ace8ba97f69b2466c5b899b2c2a",
+    "non_ai_candidates.csv": "fe712e497ae74f19b2ef678d5015b4397c7d0fa5dde5e1ff15db42ff333c8df7",
+    "calibration_report.json": "f043d32fa3f18372e3cf5e0e411e3e0f93a95f76a09e91a746c9d0910b11a5a3"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "binary_agreement": 20,
+  "binary_disagreements": 0,
+  "mechanical_route_ids": [
+    "ann_5fc348a9196517caf28d8f02",
+    "ann_65c20e9ee4faca4c9d83146e",
+    "ann_e4e37b7fe7ee92bc9740adf9"
+  ],
+  "parent_semantic_or_support_route_ids": [
+    "ann_f0671695255e78ef39de3cf5",
+    "ann_e55f6209ea3c9b9f3cc49dff",
+    "ann_ca8804d48843d4ffa6dbf8dd",
+    "ann_969f3d9601118d045bf6bda6"
+  ],
+  "final_route_ids": [
+    "ann_5fc348a9196517caf28d8f02",
+    "ann_65c20e9ee4faca4c9d83146e",
+    "ann_969f3d9601118d045bf6bda6",
+    "ann_ca8804d48843d4ffa6dbf8dd",
+    "ann_e4e37b7fe7ee92bc9740adf9",
+    "ann_e55f6209ea3c9b9f3cc49dff",
+    "ann_f0671695255e78ef39de3cf5"
+  ],
+  "parent_concerns": [
+    {
+      "annotation_id": "ann_5fc348a9196517caf28d8f02",
+      "source_record_references": [
+        "1414"
+      ],
+      "concern": "Email support supplies little offering detail. Recheck the forced judgment without guessing missing functionality; agreement must not upgrade insufficient text."
+    },
+    {
+      "annotation_id": "ann_65c20e9ee4faca4c9d83146e",
+      "source_record_references": [
+        "581"
+      ],
+      "concern": "Modelling for 5G does not specify what is modeled or how. Recheck ambiguity and retain uncertainty where the original description cannot resolve it."
+    },
+    {
+      "annotation_id": "ann_969f3d9601118d045bf6bda6",
+      "source_record_references": [
+        "1028",
+        "1029",
+        "1030",
+        "1031",
+        "1032",
+        "1033",
+        "1034"
+      ],
+      "concern": "The independent decisions agree, but three quoted spans dropped embedded original line breaks. The parent restored only source whitespace in accepted handoffs while preserving the raw artifacts. Recheck support directly against the original description and emit only exact spans including any embedded line breaks; keep one description annotation for all seven identical-text source references."
+    },
+    {
+      "annotation_id": "ann_ca8804d48843d4ffa6dbf8dd",
+      "source_record_references": [
+        "235"
+      ],
+      "concern": "The text names a workforce-management suite but the concrete functions (pattern identification, forecasts, reports) are described in the sentence leveraging embedded AI/ML. Recheck the evidence for meaningful conventional core functions remaining without that AI, rather than assuming them from the suite category. A supported AI mention does not automatically support AI-enabled; subtype uncertainty must remain separate."
+    },
+    {
+      "annotation_id": "ann_e4e37b7fe7ee92bc9740adf9",
+      "source_record_references": [
+        "414",
+        "415",
+        "416"
+      ],
+      "concern": "The only description is Programming Language, shared by three separate source groups. Recheck insufficiency using that same exact text once; do not borrow source product names or turn agreement into supported evidence."
+    },
+    {
+      "annotation_id": "ann_e55f6209ea3c9b9f3cc49dff",
+      "source_record_references": [
+        "206"
+      ],
+      "concern": "The description includes AI-based driving-behavior measurement and a second statement about location-specific services through Map-Quest. Recheck which core offering the text establishes, whether the conventional services are connected to it, and whether the subtype is truly supported or ambiguous. Use only this supplied text; no product-name/vendor knowledge. Keep binary applicability distinct from subtype uncertainty."
+    },
+    {
+      "annotation_id": "ann_f0671695255e78ef39de3cf5",
+      "source_record_references": [
+        "49"
+      ],
+      "concern": "Both proposals select supported AI-enabled by treating document capture/recognition/classification/extraction as a conventional core. The text specifically attributes automatic identification/classification/extraction to NLP/text analytics/ML. Recheck whether meaningful conventional core functionality without that AI is actually established, versus subtype uncertainty. Do not silently default to enabled because AI dependence is not explicitly proved. Binary AI support is separately assessed."
+    }
+  ],
+  "semantic_note": "All 20 independent binary/subtype rationales checked against original descriptions. Parent exact-span handoffs preserve every semantic field; three output quotes had only their original line-break whitespace restored, documented in STRUCTURAL_CORRECTIONS.json with raw outputs retained."
+}

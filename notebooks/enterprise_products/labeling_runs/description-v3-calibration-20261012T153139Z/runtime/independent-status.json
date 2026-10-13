@@ -1,0 +1,133 @@
+{
+  "runId": "0a6d7983-02de-4dbc-81d0-85ebcb8ae810",
+  "toolCallId": "call_f9006188d9054bdb86831607836e1594|fc_0a7b3898b10d5116016accfda3d96887d1ad9c637b27ba0ae1",
+  "sessionId": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194.jsonl",
+  "completionOwnerId": "4fdfdf80-f2b8-4cf7-ab60-67755f16c851",
+  "mode": "workflow",
+  "state": "failed",
+  "startedAt": 1791819174843,
+  "lastUpdate": 1791819386687,
+  "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification",
+  "sessionRoot": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194",
+  "pid": 113158,
+  "steps": [
+    {
+      "agent": "enterprise-description-annotator",
+      "sessionName": "enterprise-description-annotator: Perform ONLY the labeler independent pass f...",
+      "label": "Label 20 descriptions",
+      "workflowKey": "labeler-calibration-01",
+      "parentWorkflowRunId": "0a6d7983-02de-4dbc-81d0-85ebcb8ae810",
+      "status": "failed",
+      "startedAt": 1791819174970,
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/ece53a5d-1f59-4a3f-9164-af2b7d86ff63/run-0/session.jsonl",
+      "async": true,
+      "runId": "5d1aea83-ff46-4710-9300-22b14c7d97a6",
+      "error": "Run fan-out: 2/64 used, 62 remaining\nRequired file-only output was not produced: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/agents/labeler/result.json",
+      "durationMs": 102902,
+      "tokens": {
+        "input": 37908,
+        "output": 10082,
+        "total": 47990
+      },
+      "turnCount": 22
+    },
+    {
+      "agent": "enterprise-description-annotator",
+      "sessionName": "enterprise-description-annotator: Perform ONLY the blind independent pass for...",
+      "label": "Blindly verify 20 descriptions",
+      "workflowKey": "blind-calibration-01",
+      "parentWorkflowRunId": "0a6d7983-02de-4dbc-81d0-85ebcb8ae810",
+      "status": "failed",
+      "startedAt": 1791819175150,
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/f4e5c9e8-7bc6-48bd-a4cc-841f6b7787e5/run-0/session.jsonl",
+      "async": true,
+      "runId": "6c687f5a-30e4-4c67-b2f4-dadfa79f5b4a",
+      "error": "Run fan-out: 2/64 used, 62 remaining\nRequired file-only output was not produced: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/agents/blind/result.json",
+      "durationMs": 211518,
+      "tokens": {
+        "input": 15618,
+        "output": 10290,
+        "total": 25908
+      },
+      "turnCount": 3
+    }
+  ],
+  "workflow": {
+    "trace": [
+      {
+        "operation": "run",
+        "key": "labeler-calibration-01",
+        "state": "started",
+        "label": "Label 20 descriptions",
+        "agent": "enterprise-description-annotator"
+      },
+      {
+        "operation": "run",
+        "key": "blind-calibration-01",
+        "state": "started",
+        "label": "Blindly verify 20 descriptions",
+        "agent": "enterprise-description-annotator"
+      },
+      {
+        "operation": "run",
+        "key": "labeler-calibration-01",
+        "state": "failed",
+        "durationMs": 102902,
+        "label": "Label 20 descriptions",
+        "agent": "enterprise-description-annotator",
+        "runId": "5d1aea83-ff46-4710-9300-22b14c7d97a6",
+        "error": "Run fan-out: 2/64 used, 62 remaining\nRequired file-only output was not produced: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/agents/labeler/result.json"
+      },
+      {
+        "operation": "run",
+        "key": "blind-calibration-01",
+        "state": "failed",
+        "durationMs": 211518,
+        "label": "Blindly verify 20 descriptions",
+        "agent": "enterprise-description-annotator",
+        "runId": "6c687f5a-30e4-4c67-b2f4-dadfa79f5b4a",
+        "error": "Run fan-out: 2/64 used, 62 remaining\nRequired file-only output was not produced: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/agents/blind/result.json"
+      }
+    ],
+    "emits": [],
+    "console": [],
+    "failureKind": "script",
+    "args": {
+      "runDirectory": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z"
+    },
+    "argsDigest": "6100ac6c14b22b27be9bf2e30b60a393a7cb2c5ddd2effa1fb6a8d11dbe30205",
+    "scriptDigest": "d8a9a106271785d68046c3f659eed955c8e4548ff53971b574d5ce98c75e9e2e"
+  },
+  "workflowChildren": {
+    "version": 1,
+    "parentToolCallId": "call_f9006188d9054bdb86831607836e1594|fc_0a7b3898b10d5116016accfda3d96887d1ad9c637b27ba0ae1",
+    "workflowRunId": "0a6d7983-02de-4dbc-81d0-85ebcb8ae810",
+    "inventoryComplete": true,
+    "workflowState": "failed",
+    "children": [
+      {
+        "childId": "labeler-calibration-01",
+        "state": "failed",
+        "runId": "5d1aea83-ff46-4710-9300-22b14c7d97a6",
+        "agent": "enterprise-description-annotator",
+        "sessionName": "enterprise-description-annotator: Perform ONLY the labeler independent pass f..."
+      },
+      {
+        "childId": "blind-calibration-01",
+        "state": "failed",
+        "runId": "6c687f5a-30e4-4c67-b2f4-dadfa79f5b4a",
+        "agent": "enterprise-description-annotator",
+        "sessionName": "enterprise-description-annotator: Perform ONLY the blind independent pass for..."
+      }
+    ]
+  },
+  "runFanoutBudget": {
+    "used": 2,
+    "limit": 64,
+    "remaining": 62
+  },
+  "turnCount": 22,
+  "error": "Error: Independent stage failure: {\"stage\":\"labeler\",\"runId\":\"5d1aea83-ff46-4710-9300-22b14c7d97a6\",\"ok\":false,\"outputPath\":\"/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/agents/labeler/result.json\",\"outputReference\":null,\"artifactPaths\":[\"/tmp/pi-subagents-uid-1000/async-subagent-runs/5d1aea83-ff46-4710-9300-22b14c7d97a6\",\"/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/ece53a5d-1f59-4a3f-9164-af2b7d86ff63/run-0/session.jsonl\"],\"error\":\"Run fan-out: 2/64 used, 62 remaining\\nRequired file-only output was not produced: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/agents/labeler/result.json\"}. Parent must inspect; no silent fallback or completed-work rerun.\n    at workflow-script.js:29:53\n    at async MessagePort.<anonymous> ([worker eval]:1032:15)",
+  "endedAt": 1791819386682,
+  "workflowReceiptPath": "/tmp/pi-subagents-uid-1000/async-subagent-runs/0a6d7983-02de-4dbc-81d0-85ebcb8ae810/workflow-receipt.json"
+}

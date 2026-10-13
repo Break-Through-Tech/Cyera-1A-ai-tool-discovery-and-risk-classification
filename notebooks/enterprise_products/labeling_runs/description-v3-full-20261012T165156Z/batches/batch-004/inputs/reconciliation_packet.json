@@ -1,0 +1,215 @@
+[
+  {
+    "annotation_id": "ann_cf19806ef136a8792ef5b28c",
+    "description_sha256": "547442935e129eb6bd5861b6317dbf2cc2c10caf5596746b47eed07f663509ee",
+    "description": "Kyvos is a business intelligence acceleration platform for cloud and big data platforms developed by an American privately held company named Kyvos Insights.",
+    "source_record_references": [
+      "29"
+    ],
+    "labeler": {
+      "annotation_id": "ann_cf19806ef136a8792ef5b28c",
+      "description_sha256": "547442935e129eb6bd5861b6317dbf2cc2c10caf5596746b47eed07f663509ee",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described function is business-intelligence acceleration for cloud and big-data platforms, a conventional query/BI performance function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a business intelligence acceleration platform for cloud and big data platforms"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_cf19806ef136a8792ef5b28c",
+      "description_sha256": "547442935e129eb6bd5861b6317dbf2cc2c10caf5596746b47eed07f663509ee",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Identifies a business-intelligence acceleration platform for cloud and big-data systems, a conventional BI/query-performance function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a business intelligence acceleration platform for cloud and big data platforms"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "The description only names a business-intelligence acceleration platform for cloud/big-data systems; both rationales add query-performance functionality not explicitly described. Does the text meaningfully establish conventional operations, or just a category and performance benefit? Recheck support without inferred features; retain weak/forced if underspecified."
+  },
+  {
+    "annotation_id": "ann_ba8d1f095abd4aa1a1327a85",
+    "description_sha256": "24cf3c29da4ca874fc91413b9a80886b62d858b98527ab55e5a84d0f10ee67c3",
+    "description": "Oracle Business Intelligence Suite, Enterprise Edition (OBIEE) is an innovative and comprehensive BI platform that delivers the full range of BI capabilities on a next-generation architecture designed for true enterprise deployment.",
+    "source_record_references": [
+      "33"
+    ],
+    "labeler": {
+      "annotation_id": "ann_ba8d1f095abd4aa1a1327a85",
+      "description_sha256": "24cf3c29da4ca874fc91413b9a80886b62d858b98527ab55e5a84d0f10ee67c3",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes an enterprise BI platform providing BI capabilities; this is a conventional business-intelligence offering.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is an innovative and comprehensive BI platform that delivers the full range of BI capabilities"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_ba8d1f095abd4aa1a1327a85",
+      "description_sha256": "24cf3c29da4ca874fc91413b9a80886b62d858b98527ab55e5a84d0f10ee67c3",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes an enterprise BI platform providing a range of business-intelligence capabilities, conventional enterprise reporting and analysis software.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an innovative and comprehensive BI platform that delivers the full range of BI capabilities on a next-generation architecture designed for true enterprise deployment."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "This is a generic comprehensive BI platform/full range of BI capabilities claim without concrete functions. Both proposals assume meaningful conventional reporting/analysis. Decide whether this text alone supports a conventional negative or is too generic, under the same standard applied to audience/category-only BI descriptions. Original blind quote had one leading-article defect; one structural recovery fixed only that quote; all labels/rationales/flags and other records remained unchanged. No new evidence."
+  },
+  {
+    "annotation_id": "ann_d40e4c0f1ae9495e16c1158e",
+    "description_sha256": "aa7934ff8c2ab53a5df33aad13111cff1cce3b818460f44d527486aa1e158f71",
+    "description": "Robot provides exceptional automation solutions for every IBM i environment",
+    "source_record_references": [
+      "44"
+    ],
+    "labeler": {
+      "annotation_id": "ann_d40e4c0f1ae9495e16c1158e",
+      "description_sha256": "aa7934ff8c2ab53a5df33aad13111cff1cce3b818460f44d527486aa1e158f71",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text only broadly says it provides automation solutions for IBM i environments, without identifying the automation tasks or mechanism; the best-supported reading is conventional automation, but detail is too limited for strong support.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides exceptional automation solutions for every IBM i environment"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_d40e4c0f1ae9495e16c1158e",
+      "description_sha256": "aa7934ff8c2ab53a5df33aad13111cff1cce3b818460f44d527486aa1e158f71",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies automation solutions for IBM i environments; ordinary software automation is a meaningful conventional function and no AI-dependent behavior is specified.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides exceptional automation solutions for every IBM i environment"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Labeler marks automation-solutions-only wording weak; blind considers it meaningfully conventional. No task or mechanism is described. Explain whether text suffices beyond general category, without treating lack of AI words as support."
+  },
+  {
+    "annotation_id": "ann_6e03e2692560e13fe37488f2",
+    "description_sha256": "6c024c3c12df3c5fe9d470ed7687cfed7d783c593f94c6ee41bc487f758ebc43",
+    "description": "IBM Watson is a data analytics processor that uses natural language processing, a technology that analyzes human speech for meaning and syntax. IBM Watson performs analytics on vast repositories of data that it processes to answer human-posed questions, often in a fraction of a second",
+    "source_record_references": [
+      "50"
+    ],
+    "labeler": {
+      "annotation_id": "ann_6e03e2692560e13fe37488f2",
+      "description_sha256": "6c024c3c12df3c5fe9d470ed7687cfed7d783c593f94c6ee41bc487f758ebc43",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly identifies natural language processing and question answering over data repositories, an affirmative AI signal.",
+      "ai_type_rationale": "The described analytics processor uses natural-language processing and answers human questions as its core described behavior, supporting an AI-dependent core.",
+      "evidence_spans": [
+        "uses natural language processing, a technology that analyzes human speech for meaning and syntax.",
+        "processes to answer human-posed questions"
+      ],
+      "ai_type_evidence_spans": [
+        "uses natural language processing",
+        "processes to answer human-posed questions"
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_6e03e2692560e13fe37488f2",
+      "description_sha256": "6c024c3c12df3c5fe9d470ed7687cfed7d783c593f94c6ee41bc487f758ebc43",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The description expressly says the analytics processor uses natural language processing to analyze human speech for meaning and syntax, an affirmative AI-related signal.",
+      "ai_type_rationale": "The offering is described as a data analytics processor that uses NLP to answer questions, but the text does not establish whether its broader analytics core depends on NLP; native is the best-supported subtype with uncertainty.",
+      "evidence_spans": [
+        "uses natural language processing, a technology that analyzes human speech for meaning and syntax.",
+        "processes to answer human-posed questions, often in a fraction of a second"
+      ],
+      "ai_type_evidence_spans": [
+        "IBM Watson is a data analytics processor that uses natural language processing",
+        "processes to answer human-posed questions"
+      ]
+    },
+    "parent_concern": "Both agree supported binary AI and native subtype, but blind says subtype weak because an analytics processor using NLP may have a broader conventional core; labeler says core depends on NLP. Recheck only the described core and distinguish supported binary from subtype confidence. Do not use product knowledge or default uncertain subtype to enabled."
+  },
+  {
+    "annotation_id": "ann_5094366c4e3097d9776d39b2",
+    "description_sha256": "702def65d77a6413c0485ca792712f80c7228846d79299c01cb21356ba0a167d",
+    "description": "Verint Interaction Analytics are proven powerful solutions that can help you listen, analyze, and act on the voice of the customer",
+    "source_record_references": [
+      "57"
+    ],
+    "labeler": {
+      "annotation_id": "ann_5094366c4e3097d9776d39b2",
+      "description_sha256": "702def65d77a6413c0485ca792712f80c7228846d79299c01cb21356ba0a167d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text only broadly describes listening to and analyzing customer voice; it does not specify transcription, language models or another mechanism. Conventional customer-feedback analysis is the best-supported binary reading, but the function is underspecified and could encompass AI-dependent processing.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "solutions that can help you listen, analyze, and act on the voice of the customer"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_5094366c4e3097d9776d39b2",
+      "description_sha256": "702def65d77a6413c0485ca792712f80c7228846d79299c01cb21356ba0a167d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes listening to and analyzing customer voice, without specifying AI methods; this is conventional customer-interaction analytics.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "solutions that can help you listen, analyze, and act on the voice of the customer"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Labeler treats listening/analyzing customer voice as underspecified and potentially AI-dependent; blind declares conventional analytics from lack of AI methods. Resolve the support conflict from actual wording; no invented transcription/NLP or conventional mechanisms."
+  }
+]

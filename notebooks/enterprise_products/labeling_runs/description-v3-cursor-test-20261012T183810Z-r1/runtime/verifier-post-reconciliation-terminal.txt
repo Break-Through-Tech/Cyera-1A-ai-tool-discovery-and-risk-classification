@@ -1,0 +1,656 @@
+
+
+  Cursor Agent
+  v2026.10.01-e373342
+  Tip: Use /plan to plan execution and reach
+  the right outcome faster.
+
+
+  [Pasted text #1 +1 lines]
+
+
+    Read 3 files
+    Read calibration_packet.json
+    Read prompt_blind.md
+    Read label_schema.json
+
+    Edited …bc7d0a7e69fc94cbea1801da.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_bc7d0a7e69fc94cbea1801da",
+    ▎+   "description_sha256":
+    ▎  "26c9e416d42f1411828473dc2d71149023456
+    ▎  8d0264055ac719626b42348ef7b",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The description
+    ▎  identifies meeting-software licenses
+    ▎  together with device management and
+    ▎  support, w ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …78b5553105b7f85737f3259a.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_78b5553105b7f85737f3259a",
+    ▎+   "description_sha256":
+    ▎  "02692b537ec218e66bcfbea16c4ec8f19f577
+    ▎  21833226de802e81d4b5e04e8fc",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The text describes a
+    ▎  management license for a
+    ▎  cloud-connected digital whiteboard
+    ▎  device, which is c ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …36104dd2d00b38dfe71590c0.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_36104dd2d00b38dfe71590c0",
+    ▎+   "description_sha256":
+    ▎  "f944639391c8b95f12727eea1bffc8d2e28b3
+    ▎  129b13615dba60e9ded91bf881f",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The description
+    ▎  presents a conventional
+    ▎  question-and-answer polling platform
+    ▎  for meetings and events.",
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …d74d7bfd3e0f74678cf00aa1.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_d74d7bfd3e0f74678cf00aa1",
+    ▎+   "description_sha256":
+    ▎  "4197e47484a5fffb806869b1db3b3e322861f
+    ▎  2cd88bf80fbd309dc3d23f25c4a",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The text describes tag
+    ▎  management, integrations,
+    ▎  customization, and launching tags,
+    ▎  which are conve ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …84f6485e7366557b3968639d.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_84f6485e7366557b3968639d",
+    ▎+   "description_sha256":
+    ▎  "da269c5934d7e1b8f16f79d1aa3e60b576d70
+    ▎  722af31be4ef67fcd964add02c4",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "weak",
+    ▎+   "forced_decision": true,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The text describes
+    ▎  event content management, uploading
+    ▎  content, and real-time attendee
+    ▎  interaction, ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …1905129197b3b7313b82cfda.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_1905129197b3b7313b82cfda",
+    ▎+   "description_sha256":
+    ▎  "d4332ea49fddaae9288b9763ff18dcedc487a
+    ▎  899c5e5df65eca19076db59f3d9",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The description covers
+    ▎  hosting online meetings with HD
+    ▎  video, audio, and screen sharing,
+    ▎  which are  ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …701134fa18eff9a9f9a53133.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_701134fa18eff9a9f9a53133",
+    ▎+   "description_sha256":
+    ▎  "d52ede2852e324455b0cda0571fab4a37d2f6
+    ▎  ac6373a9a122b3db22fd6369f4c",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The text describes a
+    ▎  suite of cloud computing,
+    ▎  productivity, and collaboration tools,
+    ▎  all of which  ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …f7689574794021af4e0dc2eb.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_f7689574794021af4e0dc2eb",
+    ▎+   "description_sha256":
+    ▎  "ecd026e7bd799afff53027cb6d9755db57157
+    ▎  468be4be263b9fb34dd02c3827c",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The description
+    ▎  identifies workplace social networking
+    ▎  software, a conventional
+    ▎  communication and c ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …c289e4217e350f9f01d35202.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_c289e4217e350f9f01d35202",
+    ▎+   "description_sha256":
+    ▎  "f37ea8cbff95e3e01e959a3ae9c9acb5289a2
+    ▎  ddad3e288ef49178f80c7c776cc",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The text describes
+    ▎  cloud business communications through
+    ▎  voice, collaboration, and
+    ▎  contact-center s ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …e3d92cc7dff7f739de454a6d.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_e3d92cc7dff7f739de454a6d",
+    ▎+   "description_sha256":
+    ▎  "27c20de27efc1b5671727fe898a8f725edf63
+    ▎  eaba793fb11898a6e3e0789e085",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The description
+    ▎  identifies a mobile-oriented
+    ▎  collaboration and communication
+    ▎  platform delivered thr ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …9432268a9b57273e5bc421bb.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_9432268a9b57273e5bc421bb",
+    ▎+   "description_sha256":
+    ▎  "f21d4658f3e08dbcb50c2dcb005651045e9d6
+    ▎  485ae7a74b8032c5e99b7e8329f",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The text describes an
+    ▎  email server supporting standard
+    ▎  protocols and webmail accounts, which
+    ▎  are co ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …2aeb78848c97e849b7d91b3c.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_2aeb78848c97e849b7d91b3c",
+    ▎+   "description_sha256":
+    ▎  "328987d684e287d82c4b489f96e30e7e6827b
+    ▎  56427be65fd1ce1f5aca4559d1e",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The description lists
+    ▎  web applications, portals, team
+    ▎  collaboration and social sites, plus
+    ▎  portal,  ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …dbed12afa9aa7fc4336a02ab.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_dbed12afa9aa7fc4336a02ab",
+    ▎+   "description_sha256":
+    ▎  "e21175a6a71e6b5e658860e2484a48a58b4c6
+    ▎  3b99b0346dd50ef429b5fdefc84",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The text describes
+    ▎  business communication through
+    ▎  persistent topic-based chat rooms,
+    ▎  private groups ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …69a57bbba11982f9d9ebfc5f.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_69a57bbba11982f9d9ebfc5f",
+    ▎+   "description_sha256":
+    ▎  "31da6b4e7a7afc568f832776e53db32570480
+    ▎  0071c4faeaba2b91e9111eb2ecf",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The description covers
+    ▎  collaboration and work management
+    ▎  through task assignment, project
+    ▎  tracking, ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …bb48d82d530fe6de7ed49851.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_bb48d82d530fe6de7ed49851",
+    ▎+   "description_sha256":
+    ▎  "6d2ee062ccddf99cd7d7de14edff054b92fe5
+    ▎  19f3ea29b3cd6874326c6b80d5d",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The description
+    ▎  identifies screenshot software that
+    ▎  captures video display and audio
+    ▎  output, which  ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …de37c780dad3292106344cb8.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_de37c780dad3292106344cb8",
+    ▎+   "description_sha256":
+    ▎  "89ff9c3f120927fe123f33b0ebd755a81cbf7
+    ▎  3fb67869da1da0d4f643dbb5ffa",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The text describes a
+    ▎  spreadsheet uploader for SAP with an
+    ▎  Excel interface for collecting and
+    ▎  postin ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …f0e1ae5840d4a55ba5469324.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_f0e1ae5840d4a55ba5469324",
+    ▎+   "description_sha256":
+    ▎  "d3536c0a8f2176ae9dce027ac1f4fad9c5ac8
+    ▎  4da68f6d256708f21bdf7383333",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The description covers
+    ▎  videotelephony, online chat,
+    ▎  teleconferencing, telecommuting,
+    ▎  distance educa ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …dda7d860125707f7e5918451.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_dda7d860125707f7e5918451",
+    ▎+   "description_sha256":
+    ▎  "a18a1ca7c5c019eeaa474047aa4ef397ff264
+    ▎  e83c025ec3dd4768018707c1911",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The description
+    ▎  identifies a self-hosted, virtualized,
+    ▎  distributed multipoint conferencing
+    ▎  platform ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …9ef0e1859dc80170ffea55c3.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_9ef0e1859dc80170ffea55c3",
+    ▎+   "description_sha256":
+    ▎  "319e0621fd998c723008bccaff2530a47db40
+    ▎  2b23d90cdc6f9dc96fa3f33523f",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The description
+    ▎  identifies professional webinar
+    ▎  hosting, a conventional event and
+    ▎  media delivery fu ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …a2e9dbbce2a60d4221bfbd04.json +16
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_a2e9dbbce2a60d4221bfbd04",
+    ▎+   "description_sha256":
+    ▎  "a3d1e9104c5085137cd2c536f065deb46d871
+    ▎  6499cfe1325ebe67d1f3280942e",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "supported",
+    ▎+   "forced_decision": false,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The text describes
+    ▎  innovation management through
+    ▎  discussion, sharing and commenting on
+    ▎  ideas, team  ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (4 more lines) · ctrl+r to
+    ▎ review
+
+    Edited result.json +325
+
+    ▎+ {
+    ▎+   "stage": "blind",
+    ▎+   "records": [
+    ▎+     {
+    ▎+       "annotation_id":
+    ▎  "ann_bc7d0a7e69fc94cbea1801da",
+    ▎+       "description_sha256":
+    ▎  "26c9e416d42f1411828473dc2d71149023456
+    ▎  8d0264055ac719626b42348ef7b",
+    ▎+       "ai_status": "non_ai",
+    ▎+       "ai_type": null,
+    ▎+       "evidence_strength":
+    ▎  "supported",
+    ▎+       "forced_decision": false,
+    ▎+       "ai_type_evidence_strength":
+    ▎  null,
+    ▎+       "ai_type_forced_decision": null,
+    ▎ … truncated (313 more lines) · ctrl+r
+    ▎ to review
+
+  Completed the independent blind annotation
+  pass for all 20 descriptions.
+
+  Aggregate saved at:
+
+  /home/newton/dev/Cyera-1A-ai-tool-discovery
+  -and-risk-classification/notebooks/enterpri
+  se_products/labeling_runs/description-v3-cu
+  rsor-test-20261012T183810Z-r1/agents/blind/
+  result.json
+
+  Requested model: Cursor GPT5.6 Luna
+
+
+  [Pasted text #2 +1 lines]
+
+
+    Read 3 files
+    Read reconciliation_packet.json
+    Read prompt_reconciliation.md
+    Read reconciliation_schema.json
+
+    Edited …bc7d0a7e69fc94cbea1801da.json +17
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_bc7d0a7e69fc94cbea1801da",
+    ▎+   "description_sha256":
+    ▎  "26c9e416d42f1411828473dc2d71149023456
+    ▎  8d0264055ac719626b42348ef7b",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "weak",
+    ▎+   "forced_decision": true,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The text identifies
+    ▎  licenses for meetings software and
+    ▎  management and support services, which
+    ▎  are c ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (5 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …84f6485e7366557b3968639d.json +17
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_84f6485e7366557b3968639d",
+    ▎+   "description_sha256":
+    ▎  "da269c5934d7e1b8f16f79d1aa3e60b576d70
+    ▎  722af31be4ef67fcd964add02c4",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "weak",
+    ▎+   "forced_decision": true,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The text clearly
+    ▎  describes event content management,
+    ▎  uploading content, and real-time
+    ▎  attendee inte ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (5 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …701134fa18eff9a9f9a53133.json +17
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_701134fa18eff9a9f9a53133",
+    ▎+   "description_sha256":
+    ▎  "d52ede2852e324455b0cda0571fab4a37d2f6
+    ▎  ac6373a9a122b3db22fd6369f4c",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "weak",
+    ▎+   "forced_decision": true,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The text names cloud
+    ▎  computing, productivity, and
+    ▎  collaboration tools as conventional
+    ▎  software cate ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (5 more lines) · ctrl+r to
+    ▎ review
+
+    Edited …e3d92cc7dff7f739de454a6d.json +17
+
+    ▎+ {
+    ▎+   "annotation_id":
+    ▎  "ann_e3d92cc7dff7f739de454a6d",
+    ▎+   "description_sha256":
+    ▎  "27c20de27efc1b5671727fe898a8f725edf63
+    ▎  eaba793fb11898a6e3e0789e085",
+    ▎+   "ai_status": "non_ai",
+    ▎+   "ai_type": null,
+    ▎+   "evidence_strength": "weak",
+    ▎+   "forced_decision": true,
+    ▎+   "ai_type_evidence_strength": null,
+    ▎+   "ai_type_forced_decision": null,
+    ▎+   "rationale": "The text identifies a
+    ▎  collaboration and communication
+    ▎  platform, SDKs and APIs, and mobile
+    ▎  orientati ...
+    ▎+   "ai_type_rationale": null,
+    ▎+   "evidence_spans": [
+    ▎ … truncated (5 more lines) · ctrl+r to
+    ▎ review
+
+    Edited result.json +73
+
+    ▎+ {
+    ▎+   "stage": "reconciliation",
+    ▎+   "records": [
+    ▎+     {
+    ▎+       "annotation_id":
+    ▎  "ann_bc7d0a7e69fc94cbea1801da",
+    ▎+       "description_sha256":
+    ▎  "26c9e416d42f1411828473dc2d71149023456
+    ▎  8d0264055ac719626b42348ef7b",
+    ▎+       "ai_status": "non_ai",
+    ▎+       "ai_type": null,
+    ▎+       "evidence_strength": "weak",
+    ▎+       "forced_decision": true,
+    ▎+       "ai_type_evidence_strength":
+    ▎  null,
+    ▎+       "ai_type_forced_decision": null,
+    ▎ … truncated (61 more lines) · ctrl+r to
+    ▎ review
+
+  Reconciliation completed for exactly four
+  IDs.
+
+  Result saved at:
+
+  /home/newton/dev/Cyera-1A-ai-tool-discovery
+  -and-risk-classification/notebooks/enterpri
+  se_products/labeling_runs/description-v3-cu
+  rsor-test-20261012T183810Z-r1/agents/blind/
+  reconciliation/result.json
+
+
+
+
+  → Add a follow-up
+
+
+  GPT-5.6 Luna 272K High· 15.4% · 26 files edited
+
+  ~/dev/Cyera-1A-ai-tool-discovery-and-risk-clas
+  sification/notebooks/enterprise_products/label
+  ing_runs/description-v3-cursor-test-20261012T1
+  83810Z-r1/agents/blind · main

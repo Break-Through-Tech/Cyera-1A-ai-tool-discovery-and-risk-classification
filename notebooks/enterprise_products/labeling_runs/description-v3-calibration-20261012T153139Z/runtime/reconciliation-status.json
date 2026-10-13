@@ -1,0 +1,105 @@
+{
+  "runId": "4d093aa0-cf45-4b9d-ae91-31517d5800b9",
+  "toolCallId": "call_2ae4f6ea57e24afda43cd35864424807|fc_0a7b3898b10d5116016accffef718087d19569abf17666e689",
+  "sessionId": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194.jsonl",
+  "completionOwnerId": "4fdfdf80-f2b8-4cf7-ab60-67755f16c851",
+  "mode": "workflow",
+  "state": "complete",
+  "startedAt": 1791819762950,
+  "lastUpdate": 1791819837961,
+  "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification",
+  "sessionRoot": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194",
+  "pid": 113158,
+  "steps": [
+    {
+      "agent": "enterprise-description-annotator",
+      "sessionName": "verifier-reconciliation-01: Reconcile 9 flagged descriptions",
+      "label": "Reconcile 9 flagged descriptions",
+      "workflowKey": "verifier-reconciliation-01",
+      "parentWorkflowRunId": "4d093aa0-cf45-4b9d-ae91-31517d5800b9",
+      "status": "completed",
+      "startedAt": 1791819763068,
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/f4e5c9e8-7bc6-48bd-a4cc-841f6b7787e5/run-0/session.jsonl",
+      "async": true,
+      "runId": "cc6053cc-369e-4d3a-999e-91e8f4ed4a0f",
+      "durationMs": 74879,
+      "tokens": {
+        "input": 35661,
+        "output": 8815,
+        "total": 44476
+      },
+      "turnCount": 4
+    }
+  ],
+  "workflow": {
+    "value": {
+      "runId": "cc6053cc-369e-4d3a-999e-91e8f4ed4a0f",
+      "ok": true,
+      "outputPath": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/agents/reconciliation/result.json",
+      "outputReference": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/agents/reconciliation/result.json",
+      "artifactPaths": [
+        "/tmp/pi-subagents-uid-1000/async-subagent-runs/cc6053cc-369e-4d3a-999e-91e8f4ed4a0f",
+        "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/agents/reconciliation/result.json",
+        "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/f4e5c9e8-7bc6-48bd-a4cc-841f6b7787e5/run-0/session.jsonl"
+      ],
+      "error": null
+    },
+    "trace": [
+      {
+        "operation": "run",
+        "key": "verifier-reconciliation-01",
+        "state": "started",
+        "label": "Reconcile 9 flagged descriptions"
+      },
+      {
+        "operation": "run",
+        "key": "verifier-reconciliation-01",
+        "state": "completed",
+        "durationMs": 74879,
+        "label": "Reconcile 9 flagged descriptions",
+        "agent": "enterprise-description-annotator",
+        "runId": "cc6053cc-369e-4d3a-999e-91e8f4ed4a0f"
+      }
+    ],
+    "emits": [],
+    "console": [],
+    "args": {
+      "runDirectory": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z"
+    },
+    "argsDigest": "6100ac6c14b22b27be9bf2e30b60a393a7cb2c5ddd2effa1fb6a8d11dbe30205",
+    "scriptDigest": "544ad576f2f7df07581211186f09ec57bf75a73ec772054e5f86f1608357e923"
+  },
+  "workflowChildren": {
+    "version": 1,
+    "parentToolCallId": "call_2ae4f6ea57e24afda43cd35864424807|fc_0a7b3898b10d5116016accffef718087d19569abf17666e689",
+    "workflowRunId": "4d093aa0-cf45-4b9d-ae91-31517d5800b9",
+    "inventoryComplete": true,
+    "workflowState": "completed",
+    "children": [
+      {
+        "childId": "verifier-reconciliation-01",
+        "state": "completed",
+        "runId": "cc6053cc-369e-4d3a-999e-91e8f4ed4a0f",
+        "agent": "enterprise-description-annotator",
+        "sessionName": "verifier-reconciliation-01: Reconcile 9 flagged descriptions"
+      }
+    ]
+  },
+  "runFanoutBudget": {
+    "used": 1,
+    "limit": 64,
+    "remaining": 63
+  },
+  "endedAt": 1791819837959,
+  "totalTokens": {
+    "input": 35661,
+    "output": 8815,
+    "total": 44476
+  },
+  "totalCost": {
+    "inputTokens": 35661,
+    "outputTokens": 8815,
+    "costUsd": 0.00869552
+  },
+  "workflowReceiptPath": "/tmp/pi-subagents-uid-1000/async-subagent-runs/4d093aa0-cf45-4b9d-ae91-31517d5800b9/workflow-receipt.json"
+}

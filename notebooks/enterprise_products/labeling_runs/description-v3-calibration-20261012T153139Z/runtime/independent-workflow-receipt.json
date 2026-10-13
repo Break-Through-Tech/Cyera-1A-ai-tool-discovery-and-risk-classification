@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "workflowRunId": "0a6d7983-02de-4dbc-81d0-85ebcb8ae810",
+  "state": "failed",
+  "createdAt": 1791819386684,
+  "entries": {
+    "labeler-calibration-01": {
+      "key": "labeler-calibration-01",
+      "agent": "enterprise-description-annotator",
+      "requestedContext": "fresh",
+      "resolvedContext": "fresh",
+      "continuation": {
+        "runIds": [
+          "5d1aea83-ff46-4710-9300-22b14c7d97a6"
+        ]
+      },
+      "latestRunId": "5d1aea83-ff46-4710-9300-22b14c7d97a6",
+      "resumability": {
+        "state": "resumable"
+      }
+    },
+    "blind-calibration-01": {
+      "key": "blind-calibration-01",
+      "agent": "enterprise-description-annotator",
+      "requestedContext": "fresh",
+      "resolvedContext": "fresh",
+      "continuation": {
+        "runIds": [
+          "6c687f5a-30e4-4c67-b2f4-dadfa79f5b4a"
+        ]
+      },
+      "latestRunId": "6c687f5a-30e4-4c67-b2f4-dadfa79f5b4a",
+      "resumability": {
+        "state": "resumable"
+      }
+    }
+  },
+  "argsDigest": "6100ac6c14b22b27be9bf2e30b60a393a7cb2c5ddd2effa1fb6a8d11dbe30205",
+  "workflowChildren": {
+    "version": 1,
+    "parentToolCallId": "call_f9006188d9054bdb86831607836e1594|fc_0a7b3898b10d5116016accfda3d96887d1ad9c637b27ba0ae1",
+    "workflowRunId": "0a6d7983-02de-4dbc-81d0-85ebcb8ae810",
+    "inventoryComplete": true,
+    "workflowState": "failed",
+    "children": [
+      {
+        "childId": "labeler-calibration-01",
+        "state": "failed",
+        "runId": "5d1aea83-ff46-4710-9300-22b14c7d97a6",
+        "agent": "enterprise-description-annotator",
+        "sessionName": "enterprise-description-annotator: Perform ONLY the labeler independent pass f...",
+        "model": "openai-codex/gpt-6-luna:high"
+      },
+      {
+        "childId": "blind-calibration-01",
+        "state": "failed",
+        "runId": "6c687f5a-30e4-4c67-b2f4-dadfa79f5b4a",
+        "agent": "enterprise-description-annotator",
+        "sessionName": "enterprise-description-annotator: Perform ONLY the blind independent pass for...",
+        "model": "openai-codex/gpt-6-luna:high"
+      }
+    ]
+  }
+}

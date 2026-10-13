@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_166874d73ce278182c5b1c94",
+  "description_sha256": "c647a726fa37fab9990e1e2d4affde94c2a06d2853a556cba62af261d5156e9f",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The text labels the company an artificial intelligence company, but describes the offering as an asynchronous messaging and social/chat customer-interaction platform without connecting AI to those functions. The relationship is unclear, so the best-supported non-AI decision is forced and weak.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "ASAPP is an artificial intelligence company",
+    "asynchronous messaging platform that allows organizations and people to interact the same way they do with one another",
+    "providing the social & chat customer interaction platform for CMB agents"
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The AI-company phrase is in the text, but it characterizes the company rather than affirmatively describing AI functionality in the subscribed platform. Since no link between that label and the described messaging/customer-interaction functions is stated, I do not treat it as a supported product-specific AI signal; uncertainty remains weak/forced rather than using outside identity knowledge."
+}

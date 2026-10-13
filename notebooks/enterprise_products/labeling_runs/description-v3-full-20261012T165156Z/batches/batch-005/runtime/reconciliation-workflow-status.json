@@ -1,0 +1,77 @@
+{
+  "runId": "72919792-928f-4a78-867e-2d3b3fb3484a",
+  "toolCallId": "call_xNNWqJS8EjJH7E6CzIkKzaNU|fc_0536501a5b66611f016acd2239d2048193a673c2b529b045a1",
+  "sessionId": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194.jsonl",
+  "completionOwnerId": "4fdfdf80-f2b8-4cf7-ab60-67755f16c851",
+  "mode": "workflow",
+  "state": "stopped",
+  "startedAt": 1791828544376,
+  "lastUpdate": 1791828584808,
+  "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification",
+  "sessionRoot": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194",
+  "pid": 113158,
+  "steps": [
+    {
+      "agent": "enterprise-description-annotator",
+      "sessionName": "verifier-reconciliation-batch-005: Reconcile 5 flagged descriptions",
+      "label": "Reconcile 5 flagged descriptions",
+      "workflowKey": "verifier-reconciliation-batch-005",
+      "parentWorkflowRunId": "72919792-928f-4a78-867e-2d3b3fb3484a",
+      "status": "stopped",
+      "startedAt": 1791828544614,
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/8e71cdca-33d4-421a-a241-9a2d524bb1be/run-0/session.jsonl",
+      "async": true,
+      "runId": "042f7c7b-4503-4a22-8e5a-ef3b316480b3",
+      "stopped": true,
+      "error": "Workflow stopped because the extension session was replaced or reloaded."
+    }
+  ],
+  "workflow": {
+    "trace": [
+      {
+        "operation": "run",
+        "key": "verifier-reconciliation-batch-005",
+        "state": "started",
+        "label": "Reconcile 5 flagged descriptions"
+      },
+      {
+        "operation": "run",
+        "key": "verifier-reconciliation-batch-005",
+        "state": "stopped",
+        "label": "Reconcile 5 flagged descriptions",
+        "error": "Workflow stopped because the extension session was replaced or reloaded."
+      }
+    ],
+    "emits": [],
+    "console": [],
+    "args": {},
+    "argsDigest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "scriptDigest": "04badcdaed363ee690ec158cba3a918a7dcac734c401469f9034e47645b501d8",
+    "stopCause": "runtime-replaced"
+  },
+  "workflowChildren": {
+    "version": 1,
+    "parentToolCallId": "call_xNNWqJS8EjJH7E6CzIkKzaNU|fc_0536501a5b66611f016acd2239d2048193a673c2b529b045a1",
+    "workflowRunId": "72919792-928f-4a78-867e-2d3b3fb3484a",
+    "inventoryComplete": true,
+    "workflowState": "stopped",
+    "children": [
+      {
+        "childId": "verifier-reconciliation-batch-005",
+        "state": "stopped",
+        "runId": "042f7c7b-4503-4a22-8e5a-ef3b316480b3",
+        "agent": "enterprise-description-annotator",
+        "sessionName": "verifier-reconciliation-batch-005: Reconcile 5 flagged descriptions"
+      }
+    ]
+  },
+  "runFanoutBudget": {
+    "used": 1,
+    "limit": 1,
+    "remaining": 0
+  },
+  "stopped": true,
+  "error": "Workflow stopped because the extension session was replaced or reloaded.",
+  "endedAt": 1791828584804,
+  "workflowReceiptPath": "/tmp/pi-subagents-uid-1000/async-subagent-runs/72919792-928f-4a78-867e-2d3b3fb3484a/workflow-receipt.json"
+}

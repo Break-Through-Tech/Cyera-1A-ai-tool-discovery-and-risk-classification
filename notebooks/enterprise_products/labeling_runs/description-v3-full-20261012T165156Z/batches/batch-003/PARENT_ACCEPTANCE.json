@@ -1,0 +1,45 @@
+{
+  "report": {
+    "source_input_records": 1494,
+    "cleaner_excluded_records": 56,
+    "retained_source_records": 1438,
+    "selected_descriptions": 20,
+    "selected_records": 20,
+    "remaining_distinct_descriptions": 1371,
+    "remaining_source_records": 1418,
+    "coverage_claim": "selected calibration only; not full dataset coverage",
+    "binary_counts": {
+      "non_ai": 20
+    },
+    "subtype_counts": {
+      "null": 20
+    },
+    "binary_weak_count": 1,
+    "binary_forced_count": 1,
+    "subtype_weak_count": 0,
+    "subtype_forced_count": 0,
+    "trusted_negative_records": 19,
+    "reconciliation_count": 2,
+    "required_reconciliation_count": 0,
+    "parent_reconciliation_count": 2,
+    "independent_binary_or_subtype_differences": 0,
+    "duplicate_records_within_selected_descriptions": 0,
+    "within_group_different_descriptions": 0
+  },
+  "semantic_acceptance": "Parent inspected both final calls against original descriptions: record6 remains forced weak category/audience-only negative and excluded; record15 now explains stated distributed computation only, unsupported storage removed by original verifier. No parent replacement labels. Both concerns retained in review queue.",
+  "reconciliation_run_id": "bdb137b5-194c-4763-8bdb-666af067e9f8",
+  "reconciliation_workflow_id": "0dd18e01-8e6c-4d05-b8d6-8e1cc94e0187",
+  "same_original_verifier": true,
+  "original_blind_prefix_unchanged": true,
+  "native_persisted_checkpoint_equality": true,
+  "exact_spans_passed": true,
+  "tool_counts": {
+    "read": 2,
+    "write": 3,
+    "structured_output": 1
+  },
+  "review_cases": 2,
+  "weak_binary": 1,
+  "trusted_negative_descriptions": 19,
+  "authority": "Continue remaining approved batch plan; final user review after full run. No training/AIToolBuzz merge/publication."
+}

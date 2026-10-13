@@ -1,0 +1,56 @@
+{
+  "workflow_run_id": "1f9d0d2c-1a27-4095-bbbc-680e6e0c268d",
+  "batch_id": "batch-004",
+  "descriptions": 20,
+  "binary_agreement": 20,
+  "required_route": [
+    "ann_5094366c4e3097d9776d39b2",
+    "ann_6e03e2692560e13fe37488f2",
+    "ann_d40e4c0f1ae9495e16c1158e"
+  ],
+  "parent_concerns": {
+    "ann_cf19806ef136a8792ef5b28c": "The description only names a business-intelligence acceleration platform for cloud/big-data systems; both rationales add query-performance functionality not explicitly described. Does the text meaningfully establish conventional operations, or just a category and performance benefit? Recheck support without inferred features; retain weak/forced if underspecified.",
+    "ann_ba8d1f095abd4aa1a1327a85": "This is a generic comprehensive BI platform/full range of BI capabilities claim without concrete functions. Both proposals assume meaningful conventional reporting/analysis. Decide whether this text alone supports a conventional negative or is too generic, under the same standard applied to audience/category-only BI descriptions. Original blind quote had one leading-article defect; one structural recovery fixed only that quote; all labels/rationales/flags and other records remained unchanged. No new evidence.",
+    "ann_d40e4c0f1ae9495e16c1158e": "Labeler marks automation-solutions-only wording weak; blind considers it meaningfully conventional. No task or mechanism is described. Explain whether text suffices beyond general category, without treating lack of AI words as support.",
+    "ann_6e03e2692560e13fe37488f2": "Both agree supported binary AI and native subtype, but blind says subtype weak because an analytics processor using NLP may have a broader conventional core; labeler says core depends on NLP. Recheck only the described core and distinguish supported binary from subtype confidence. Do not use product knowledge or default uncertain subtype to enabled.",
+    "ann_5094366c4e3097d9776d39b2": "Labeler treats listening/analyzing customer voice as underspecified and potentially AI-dependent; blind declares conventional analytics from lack of AI methods. Resolve the support conflict from actual wording; no invented transcription/NLP or conventional mechanisms."
+  },
+  "reconciliation_route": [
+    "ann_5094366c4e3097d9776d39b2",
+    "ann_6e03e2692560e13fe37488f2",
+    "ann_ba8d1f095abd4aa1a1327a85",
+    "ann_cf19806ef136a8792ef5b28c",
+    "ann_d40e4c0f1ae9495e16c1158e"
+  ],
+  "stages": {
+    "labeler": {
+      "run_id": "64c90611-ab9b-43e3-946c-7dc7f67c1e90",
+      "session_file": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/b190ce55-5f96-49c6-af99-2abfcf0fd885/run-0/session.jsonl",
+      "session_sha256": "69c4f03d0d67839eeb724601a7ed96713a91b5b79f8e5a9d882bd748b3a114cf",
+      "actual_model": "openai-codex/gpt-6-luna:high",
+      "tool_counts": {
+        "read": 2,
+        "write": 21,
+        "structured_output": 1
+      },
+      "native_persisted_checkpoint_equality": true,
+      "read_boundary_passed": true
+    },
+    "blind": {
+      "run_id": "76705544-ddab-4173-ba5a-3bc5796ffe67",
+      "session_file": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/3456980b-7b56-4a91-8e66-6e6ea60b54d7/run-0/session.jsonl",
+      "session_sha256": "637685f6da7738459af0ed4fbe708a5e8c9147755752ef3223343bc362c41cf2",
+      "actual_model": "openai-codex/gpt-6-luna:high",
+      "tool_counts": {
+        "read": 2,
+        "write": 21,
+        "structured_output": 1
+      },
+      "native_persisted_checkpoint_equality": true,
+      "read_boundary_passed": true
+    }
+  },
+  "blind_validated_artifact": "agents/blind-recovery/result.json",
+  "structural_recovery": "OUTPUT_RECOVERY_ACCEPTANCE.json",
+  "parent_semantic_inspection": "All20 original descriptions and both judgments inspected; data integration/storage/reporting/preparation/admin and ASR/NLP positive evidence inspected; five support/subtype/category concerns routed without replacing labels. Raw judgments preserved."
+}

@@ -1,0 +1,40 @@
+{
+  "basis": "Native per-child reported metadata; not invoice; excludes parent Sol and outer workflows to avoid double-counting.",
+  "model": "openai-codex/gpt-6-luna:high",
+  "runs": [
+    {
+      "stage": "labeler",
+      "run_id": "02719031-d5f0-467c-a39f-160f4f37750e",
+      "reported_tokens": 48649,
+      "reported_cost_usd": 0.0126305,
+      "status_receipt": "runtime/usage-status-02719031-d5f0-467c-a39f-160f4f37750e.json"
+    },
+    {
+      "stage": "blind",
+      "run_id": "43b0afd6-2fb1-4ca3-949d-25acb07e1051",
+      "reported_tokens": 38189,
+      "reported_cost_usd": 0.01008386,
+      "status_receipt": "runtime/usage-status-43b0afd6-2fb1-4ca3-949d-25acb07e1051.json"
+    },
+    {
+      "stage": "reconciliation",
+      "run_id": "fcb5b06b-b124-4d8b-ba47-7530cc117606",
+      "reported_tokens": 45206,
+      "reported_cost_usd": 0.00852604,
+      "status_receipt": "runtime/usage-status-fcb5b06b-b124-4d8b-ba47-7530cc117606.json"
+    },
+    {
+      "stage": "review_ui",
+      "run_id": "ed140b9f-04f3-4319-bdcc-1b1bd8fc949c",
+      "reported_tokens": 43100,
+      "reported_cost_usd": 0.01044728,
+      "status_receipt": "runtime/usage-status-ed140b9f-04f3-4319-bdcc-1b1bd8fc949c.json"
+    }
+  ],
+  "labeling_tokens": 132044,
+  "labeling_cost_usd": 0.0312404,
+  "review_ui_tokens": 43100,
+  "review_ui_cost_usd": 0.01044728,
+  "total_tokens": 175144,
+  "total_cost_usd": 0.04168768
+}

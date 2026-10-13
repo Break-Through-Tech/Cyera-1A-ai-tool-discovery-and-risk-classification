@@ -1,0 +1,17 @@
+{
+  "annotation_id": "ann_77ed99a65bcd5e615db294c9",
+  "description_sha256": "233fafdfbcf2a6d27dfeec7ba41184af11e97e006d5bb49fb65dfb3fcacb5440",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description meaningfully specifies conventional media monitoring, keyword alerts, source indexing, social-media monitoring and reputation protection; finding influencers is not described as AI.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "Mention Solutions provides a media monitoring application. The Company develops an application which creates alerts for clients brand, industry, company, name, and competitors, as well as monitor and improve the social media performance, find influencers, and to protect their reputation"
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The labeler treats 'find influencers' as an unexplained capability, while the blind proposal points to the explicit media-monitoring and alerting functions. The source includes influencer finding but does not specify its mechanism, and it contains no AI signal; generic possibility of AI does not defeat the meaningful conventional monitoring description. I therefore retain supported non_ai without inventing a keyword or learned-model implementation."
+}

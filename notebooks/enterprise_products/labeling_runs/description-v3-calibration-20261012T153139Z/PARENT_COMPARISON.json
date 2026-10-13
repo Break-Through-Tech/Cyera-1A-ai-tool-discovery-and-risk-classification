@@ -1,0 +1,107 @@
+{
+  "independent_records_per_stage": 20,
+  "mechanical_route_ids": [
+    "ann_166874d73ce278182c5b1c94",
+    "ann_27de2bfba90bdaa2e182efa7",
+    "ann_49118f7afd99569c65b61b42",
+    "ann_54e725702d8c693d3b7dd172",
+    "ann_a5f02648fb1b6c8750c3b51e",
+    "ann_bc53f93bebf7f0a820e98130",
+    "ann_efea61d23fecee6ebab562c9",
+    "ann_fdcac7d6ad8338a2416aed80"
+  ],
+  "parent_semantic_route_ids": [
+    "ann_0473ca686885c0088e984b47"
+  ],
+  "final_route_ids": [
+    "ann_0473ca686885c0088e984b47",
+    "ann_166874d73ce278182c5b1c94",
+    "ann_27de2bfba90bdaa2e182efa7",
+    "ann_49118f7afd99569c65b61b42",
+    "ann_54e725702d8c693d3b7dd172",
+    "ann_a5f02648fb1b6c8750c3b51e",
+    "ann_bc53f93bebf7f0a820e98130",
+    "ann_efea61d23fecee6ebab562c9",
+    "ann_fdcac7d6ad8338a2416aed80"
+  ],
+  "parent_concerns": [
+    {
+      "annotation_id": "ann_0473ca686885c0088e984b47",
+      "source_record_references": [
+        "1153"
+      ],
+      "concern": "Both binary judgments agree, but one rationale asserts a deterministic implementation not stated in the text. Recheck the description-based decision and rationale without claiming unmentioned implementation details; ordinary workflow automation alone is not AI."
+    },
+    {
+      "annotation_id": "ann_166874d73ce278182c5b1c94",
+      "source_record_references": [
+        "53"
+      ],
+      "concern": "The two binary judgments differ. Distinguish the AI-company statement from product-specific applicability; do not use separate company identity or memorized knowledge to bridge missing evidence."
+    },
+    {
+      "annotation_id": "ann_27de2bfba90bdaa2e182efa7",
+      "source_record_references": [
+        "555"
+      ],
+      "concern": "Resolve differing support flags for conventional infrastructure management augmented by unspecified 'intelligent systems'. Do not infer what those systems implement."
+    },
+    {
+      "annotation_id": "ann_49118f7afd99569c65b61b42",
+      "source_record_references": [
+        "252"
+      ],
+      "concern": "Address unexplained speech analytics/emotions and the add-on wording. Do not infer AI inclusion or certify a negative simply from missing explicit AI keywords."
+    },
+    {
+      "annotation_id": "ann_54e725702d8c693d3b7dd172",
+      "source_record_references": [
+        "1330"
+      ],
+      "concern": "The terse imaging description supplies very little offering context. Preserve insufficient-evidence flags if meaningful functionality remains unclear."
+    },
+    {
+      "annotation_id": "ann_a5f02648fb1b6c8750c3b51e",
+      "source_record_references": [
+        "45"
+      ],
+      "concern": "Prediction, forecasting, simulation and optimization are described, but implementation is unspecified. Recheck why the binary decision is forced or supported using only this text."
+    },
+    {
+      "annotation_id": "ann_bc53f93bebf7f0a820e98130",
+      "source_record_references": [
+        "59"
+      ],
+      "concern": "Resolve differing confidence for statistical software that includes predictive analytics. Conventional named functions alone do not erase any genuinely unexplained potentially AI-dependent functionality."
+    },
+    {
+      "annotation_id": "ann_efea61d23fecee6ebab562c9",
+      "source_record_references": [
+        "61"
+      ],
+      "concern": "AI is mentioned as an area whose value the data platform accelerates. Address whether this is a product-specific affirmative mention or ambiguous applicability, separately from subtype uncertainty; do not infer an unmentioned implementation."
+    },
+    {
+      "annotation_id": "ann_fdcac7d6ad8338a2416aed80",
+      "source_record_references": [
+        "876"
+      ],
+      "concern": "The title alone does not meaningfully describe the offering. Preserve insufficient-evidence flags rather than certify agreement as support."
+    }
+  ],
+  "binary_disagreements": 1,
+  "agreement_is_not_evidence": true,
+  "provenance_validation": {
+    "actual_model": "openai-codex/gpt-6-luna",
+    "thinking": "high",
+    "labeler_read_paths": "frozen labeler prompt and common description packet only",
+    "blind_read_paths": "frozen blind prompt and common description packet only",
+    "tool_counts_per_stage": {
+      "read": 2,
+      "write": 20,
+      "structured_output": 1
+    },
+    "web_calls": 0,
+    "native_value_matches_bound_result_and_checkpoints": true
+  }
+}

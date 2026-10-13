@@ -1,0 +1,15 @@
+{
+  "status": "complete_test_only",
+  "selected_descriptions": 20,
+  "finalized_descriptions": 20,
+  "source_rows": 20,
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "fallback_used": false,
+  "review_cases": 4,
+  "binary_weak": 4,
+  "supported_negatives": 16,
+  "next_action": "Report test; AI-positive/subtype coverage and approved Composer/Grok fallback remain untested; no further changed-model batches launched."
+}

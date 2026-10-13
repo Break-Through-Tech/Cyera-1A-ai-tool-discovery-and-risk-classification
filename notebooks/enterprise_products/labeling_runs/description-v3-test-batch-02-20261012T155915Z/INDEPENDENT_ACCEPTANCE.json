@@ -1,0 +1,46 @@
+{
+  "provenance": {
+    "labeler": {
+      "native_run_id": "02719031-d5f0-467c-a39f-160f4f37750e",
+      "model": "openai-codex/gpt-6-luna:high",
+      "native_session_file": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/245b2364-e811-441d-8ba8-544bd87e8746/run-0/session.jsonl",
+      "committed_capture_sha256": "824d2c69a7fbef8995b38fe1e8e5d8e1e296f224221d6103e7106c1d8c836ef9",
+      "bound_raw_output_sha256": "03a03cc94f79f41dc287e1b2ecca5c9f4fcf0835e79b85eb4034746921ec32df",
+      "tool_counts": {
+        "read": 2,
+        "write": 21,
+        "structured_output": 2
+      },
+      "only_allowed_reads_and_writes": true,
+      "successful_native_value_matches_raw_bound_output_and_private_checkpoints": true,
+      "schema_rejections_corrected": 1,
+      "schema_correction": "Missing non_ai ai_type_rationale null restored; no semantic content changed",
+      "parent_quote_corrections": 1
+    },
+    "blind": {
+      "native_run_id": "43b0afd6-2fb1-4ca3-949d-25acb07e1051",
+      "model": "openai-codex/gpt-6-luna:high",
+      "native_session_file": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/de14822b-78e2-4ee4-bc09-e2f28377d863/run-0/session.jsonl",
+      "committed_capture_sha256": "3bb7b5d61347e21b55aaca12163e257017c8b0e16ec0f356358a0e55508fa99e",
+      "bound_raw_output_sha256": "c9d9a057879be8c324bcc268c6fb938dbebeded1790d23406f7ce73df024bb8f",
+      "tool_counts": {
+        "read": 2,
+        "write": 21,
+        "structured_output": 1
+      },
+      "only_allowed_reads_and_writes": true,
+      "successful_native_value_matches_raw_bound_output_and_private_checkpoints": true,
+      "schema_rejections_corrected": 0,
+      "schema_correction": null,
+      "parent_quote_corrections": 2
+    }
+  },
+  "mechanical_route_ids": [
+    "ann_5fc348a9196517caf28d8f02",
+    "ann_65c20e9ee4faca4c9d83146e",
+    "ann_e4e37b7fe7ee92bc9740adf9"
+  ],
+  "binary_disagreements": 0,
+  "actual_web_calls": 0,
+  "transport_failures": 0
+}

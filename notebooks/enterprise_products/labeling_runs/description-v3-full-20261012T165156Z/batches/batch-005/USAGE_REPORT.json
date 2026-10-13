@@ -1,0 +1,25 @@
+{
+  "basis": "Native child estimates, not invoice; excludes parent usage and outer workflows.",
+  "stages": [
+    {
+      "stage": "labeler",
+      "run_id": "305012af-084d-4eca-a2c6-8ab2bfb76ee0",
+      "tokens": 34264,
+      "cost_usd": 0.0090668
+    },
+    {
+      "stage": "blind",
+      "run_id": "370c92b2-c529-41a2-b649-5e4edcc9fc93",
+      "tokens": 32851,
+      "cost_usd": 0.008735099999999999
+    },
+    {
+      "stage": "reconciliation",
+      "run_id": "042f7c7b-4503-4a22-8e5a-ef3b316480b3",
+      "tokens": 36792,
+      "cost_usd": 0.006563599999999999
+    }
+  ],
+  "reported_tokens": 103907,
+  "reported_cost_usd": 0.0243655
+}

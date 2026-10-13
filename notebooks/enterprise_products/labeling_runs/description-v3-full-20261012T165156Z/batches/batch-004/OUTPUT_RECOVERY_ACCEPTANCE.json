@@ -1,0 +1,29 @@
+{
+  "status": "resolved",
+  "run_id": "13ff534f-2168-4ff0-aecc-ece1879d2b2e",
+  "workflow_id": "ebccb395-49c5-41b0-b1e2-882f4007af8e",
+  "recovery_count": 1,
+  "same_original_verifier": true,
+  "original_blind_prefix_unchanged": true,
+  "native_persisted_equality": true,
+  "exact_source_spans_passed": true,
+  "all19_other_records_unchanged": true,
+  "all_labels_rationales_flags_unchanged": true,
+  "changes": [
+    {
+      "annotation_id": "ann_ba8d1f095abd4aa1a1327a85",
+      "field": "evidence_spans",
+      "raw": [
+        "a comprehensive BI platform that delivers the full range of BI capabilities on a next-generation architecture designed for true enterprise deployment."
+      ],
+      "corrected": [
+        "an innovative and comprehensive BI platform that delivers the full range of BI capabilities on a next-generation architecture designed for true enterprise deployment."
+      ]
+    }
+  ],
+  "tool_counts": {
+    "read": 4,
+    "write": 2,
+    "structured_output": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "annotation_id": "ann_050f8bf5e11a8e5537c8aa44",
+  "description_sha256": "523313de347b395e35452914a632516e9c3ae88807f598f5c15098ce006e47d1",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description names prediction and natural-language analysis but does not establish AI, learned models or implementation; the decision-management functionality remains ambiguous under the supplied text.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "With decision management, you can enhance your applications to help you predict customer behavior, optimize business processes, analyze natural language, and make informed decisions to better meet your customers' needs and achieve positive business outcomes."
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The labeler treats prediction and natural-language analysis as AI-suggestive, while the blind proposal correctly notes that neither establishes AI or a learned model. The original text supplies no mechanism or explicit AI claim, so I resolve the binary as non_ai but retain weak evidence and a forced decision rather than upgrading the ambiguity or assigning a subtype."
+}

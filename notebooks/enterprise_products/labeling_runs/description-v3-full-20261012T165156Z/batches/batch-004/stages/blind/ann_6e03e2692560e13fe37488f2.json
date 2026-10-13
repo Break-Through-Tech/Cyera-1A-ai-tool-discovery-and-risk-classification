@@ -1,0 +1,20 @@
+{
+  "annotation_id": "ann_6e03e2692560e13fe37488f2",
+  "description_sha256": "6c024c3c12df3c5fe9d470ed7687cfed7d783c593f94c6ee41bc487f758ebc43",
+  "ai_status": "ai",
+  "ai_type": "ai_native",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "The description expressly says the analytics processor uses natural language processing to analyze human speech for meaning and syntax, an affirmative AI-related signal.",
+  "ai_type_rationale": "The offering is described as a data analytics processor that uses NLP to answer questions, but the text does not establish whether its broader analytics core depends on NLP; native is the best-supported subtype with uncertainty.",
+  "evidence_spans": [
+    "uses natural language processing, a technology that analyzes human speech for meaning and syntax.",
+    "processes to answer human-posed questions, often in a fraction of a second"
+  ],
+  "ai_type_evidence_spans": [
+    "IBM Watson is a data analytics processor that uses natural language processing",
+    "processes to answer human-posed questions"
+  ]
+}

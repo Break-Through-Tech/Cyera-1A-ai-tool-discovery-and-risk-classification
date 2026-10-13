@@ -1,0 +1,104 @@
+{
+  "runId": "89a5d241-2264-473d-88c8-eca45d1c540e",
+  "toolCallId": "call_04j9S3vvTf2Sux9O3p4FgqGb|fc_0a7b3898b10d5116016acd08034a1887d1b777fde179b76da8",
+  "sessionId": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194.jsonl",
+  "completionOwnerId": "4fdfdf80-f2b8-4cf7-ab60-67755f16c851",
+  "mode": "workflow",
+  "state": "complete",
+  "startedAt": 1791821832561,
+  "lastUpdate": 1791821901122,
+  "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification",
+  "sessionRoot": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194",
+  "pid": 113158,
+  "steps": [
+    {
+      "agent": "enterprise-description-annotator",
+      "sessionName": "verifier-reconciliation-test-batch-02: Reconcile seven test cases",
+      "label": "Reconcile seven test cases",
+      "workflowKey": "verifier-reconciliation-test-batch-02",
+      "parentWorkflowRunId": "89a5d241-2264-473d-88c8-eca45d1c540e",
+      "status": "completed",
+      "startedAt": 1791821832684,
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/de14822b-78e2-4ee4-bc09-e2f28377d863/run-0/session.jsonl",
+      "async": true,
+      "runId": "fcb5b06b-b124-4d8b-ba47-7530cc117606",
+      "durationMs": 68423,
+      "tokens": {
+        "input": 37330,
+        "output": 7876,
+        "total": 45206
+      },
+      "turnCount": 4
+    }
+  ],
+  "workflow": {
+    "value": {
+      "runId": "fcb5b06b-b124-4d8b-ba47-7530cc117606",
+      "ok": true,
+      "outputPath": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/agents/reconciliation/result.json",
+      "artifactPaths": [
+        "/tmp/pi-subagents-uid-1000/async-subagent-runs/fcb5b06b-b124-4d8b-ba47-7530cc117606",
+        "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/agents/reconciliation/result.json",
+        "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/de14822b-78e2-4ee4-bc09-e2f28377d863/run-0/session.jsonl"
+      ],
+      "error": null
+    },
+    "trace": [
+      {
+        "operation": "run",
+        "key": "verifier-reconciliation-test-batch-02",
+        "state": "started",
+        "label": "Reconcile seven test cases"
+      },
+      {
+        "operation": "run",
+        "key": "verifier-reconciliation-test-batch-02",
+        "state": "completed",
+        "durationMs": 68423,
+        "label": "Reconcile seven test cases",
+        "agent": "enterprise-description-annotator",
+        "runId": "fcb5b06b-b124-4d8b-ba47-7530cc117606"
+      }
+    ],
+    "emits": [],
+    "console": [],
+    "args": {
+      "runDirectory": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z"
+    },
+    "argsDigest": "9df18fe7fb551f57f1555152c2370f12a128ebbbadb8a9bed41e0dcf2f567563",
+    "scriptDigest": "e14c4652c0e28b0384a158898f019747a34fec14536bb92aaa0fd05b559e9c4d"
+  },
+  "workflowChildren": {
+    "version": 1,
+    "parentToolCallId": "call_04j9S3vvTf2Sux9O3p4FgqGb|fc_0a7b3898b10d5116016acd08034a1887d1b777fde179b76da8",
+    "workflowRunId": "89a5d241-2264-473d-88c8-eca45d1c540e",
+    "inventoryComplete": true,
+    "workflowState": "completed",
+    "children": [
+      {
+        "childId": "verifier-reconciliation-test-batch-02",
+        "state": "completed",
+        "runId": "fcb5b06b-b124-4d8b-ba47-7530cc117606",
+        "agent": "enterprise-description-annotator",
+        "sessionName": "verifier-reconciliation-test-batch-02: Reconcile seven test cases"
+      }
+    ]
+  },
+  "runFanoutBudget": {
+    "used": 1,
+    "limit": 64,
+    "remaining": 63
+  },
+  "endedAt": 1791821901120,
+  "totalTokens": {
+    "input": 37330,
+    "output": 7876,
+    "total": 45206
+  },
+  "totalCost": {
+    "inputTokens": 37330,
+    "outputTokens": 7876,
+    "costUsd": 0.00852604
+  },
+  "workflowReceiptPath": "/tmp/pi-subagents-uid-1000/async-subagent-runs/89a5d241-2264-473d-88c8-eca45d1c540e/workflow-receipt.json"
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "annotation_id": "ann_2bf78e027589823addd434fc",
+    "description_sha256": "59e120af26e148aab75670193886739915e9c126351ba080f2aac019986d752a",
+    "description": "Prospect data warehouse management, campaign management, results attribution, server H/W and S/W, email deployment. Data, analytics and technology integration marketing services company committed to helping our clients achieve optimized marketing results and customer relationships.Provide relevant interactions with consumers and design engagement ecosystems for synchronized communications. Help the world's best-known brands evolve along the data-driven marketing continuum for improved marketing performance, mutually valuable customer relationships and stronger competitive advantage.",
+    "labeler_proposal": {
+      "annotation_id": "ann_2bf78e027589823addd434fc",
+      "description_sha256": "59e120af26e148aab75670193886739915e9c126351ba080f2aac019986d752a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No explicit AI claim, and conventional functions are named (data warehouse management, campaign management, email deployment), but the text is a broad marketing-services description; 'analytics', 'data-driven' and 'engagement ecosystems' do not establish whether automated or predictive capability is involved, so the negative is forced/weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Prospect data warehouse management, campaign management, results attribution, server H/W and S/W, email deployment",
+        "Data, analytics and technology integration marketing services company"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_2bf78e027589823addd434fc",
+      "description_sha256": "59e120af26e148aab75670193886739915e9c126351ba080f2aac019986d752a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers data warehousing, campaign management, attribution, email deployment, and marketing services.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Prospect data warehouse management, campaign management, results attribution, server H/W and S/W, email deployment."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_review_concern": "The exact text describes data warehouse and campaign management, results attribution, email deployment, analytics, and data-driven marketing. One proposal flags weak because broad analytics/optimization language could entail algorithmic or predictive functionality; the other treats it as conventional marketing-services functionality. Reassess whether any specific functionality in this text is unexplained AI-dependent; do not infer hidden capability."
+  },
+  {
+    "annotation_id": "ann_837eaba2307d53a189dded02",
+    "description_sha256": "40fb11ce9b65e03e9c942d52247b80ada18e998be1bcdcafd1b7f3688073726f",
+    "description": "Real-Time TV Attribution Services: TV Measurement, TV Attribution, TV Advertising Analytics. iSpot is the leader in TV Attribution. Our platform enables you to measure, optimize, and plan your TV against business outcomes.\n\niSpot.tv helps advertisers measure the brand and business impact of TV and streaming advertising, from concept to airing to conversion.",
+    "labeler_proposal": {
+      "annotation_id": "ann_837eaba2307d53a189dded02",
+      "description_sha256": "40fb11ce9b65e03e9c942d52247b80ada18e998be1bcdcafd1b7f3688073726f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No explicit AI claim; TV measurement and attribution services are named, but 'optimize, and plan your TV against business outcomes' and 'Analytics' do not establish whether algorithmic or predictive capability is involved, so the negative is forced/weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Real-Time TV Attribution Services: TV Measurement, TV Attribution, TV Advertising Analytics.",
+        "Our platform enables you to measure, optimize, and plan your TV against business outcomes."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_837eaba2307d53a189dded02",
+      "description_sha256": "40fb11ce9b65e03e9c942d52247b80ada18e998be1bcdcafd1b7f3688073726f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description is for TV measurement, attribution, advertising analytics, and planning against business outcomes.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Our platform enables you to measure, optimize, and plan your TV against business outcomes."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_review_concern": "The exact text specifies TV measurement, attribution, advertising analytics, and says “measure, optimize, and plan” against business outcomes. One proposal flags weak because optimization/planning mechanism is unstated; the other supports conventional TV measurement/analytics/planning. Decide only from the supplied description whether those named functions create unexplained potentially AI-dependent functionality or are conventional analytics/services."
+  }
+]

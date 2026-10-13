@@ -1,0 +1,112 @@
+{
+  "workflow_run_id": "f5c51b46-eee4-4c1d-bfcb-32098e5739e8",
+  "mission_id": "b3282609-0e9f-455c-9911-4736efcf9554",
+  "model": "openai-codex/gpt-6-luna:high",
+  "scope": "Second test batch only: 20 new descriptions / 31 rows, then stop for human review",
+  "maximum_active_workers": 2,
+  "input_hashes": {
+    "inputs/calibration_packet.json": "bed7b1fe2d9df43e6c1d1699b631141bb1d7c3e2ac9d28835309fdca67ab2f11",
+    "inputs/annotation_schemas.json": "315c13b6a7cf703548d4268f275bfe0dddbd3d87639ea7d47a274996707279d8",
+    "launch-independent.js": "a9cee0bbf7083d679e2de0afe4671e690e000a05eaf210cfe06a9ebec1cc4d84",
+    "runtime/label_v3.py": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+    "runtime/test_label_v3.py": "691ef1bf075c9dec125b149cd709a9b6783a87cb6057083594dbf01c5319a8e3",
+    "runtime/enterprise-description-annotator.md": "1aab30fff1f151a30954bb027ad53f9ee31adf0c336af7bd4db2b40b715670b3",
+    "PREPARATION_RECEIPT.json": "4aff0084f2bfca92a9ea9931f04eafb321320f70aef0c32f014142376b321991"
+  },
+  "pinned_inputs": {
+    "raw": {
+      "path": "inputs/raw.csv",
+      "sha256": "afe7cdbcbf82d9b11f579eb6dce000815a04a301410636e2942036f072fc7aa1"
+    },
+    "cleaned": {
+      "path": "inputs/cleaned.csv",
+      "sha256": "c9f0d234d3b66327250d7eb372e9fc962e06f16c2bc0181cc34654fdb897eb2b"
+    },
+    "cleaning_report": {
+      "path": "inputs/cleaning_report.json",
+      "sha256": "5ee112cdb293fbe0640b61e4790d389331b35b729a907263237a2ecade0c0e7b"
+    },
+    "rubric": {
+      "path": "inputs/rubric.md",
+      "sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61"
+    },
+    "prompt_labeler": {
+      "path": "inputs/prompt_labeler.md",
+      "sha256": "ddfee3fc731340c9ee04c4fece164b10288bfa2598781216f98a929d380e316f"
+    },
+    "prompt_blind": {
+      "path": "inputs/prompt_blind.md",
+      "sha256": "ccaa445bbd2055b795bd40f6a6435d24504b79c4eb7ae3ed07cbc22b526d7ea4"
+    },
+    "prompt_reconciliation": {
+      "path": "inputs/prompt_reconciliation.md",
+      "sha256": "285aa23fa1cd3ad92a4123623484764419dc6b11d24cb435135596f4b2026d30"
+    }
+  },
+  "stage_assignments": {
+    "labeler": {
+      "stage": "labeler",
+      "run_id": "description-v3-test-batch-02-20261012T155915Z",
+      "batch_id": "test-batch-02",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "ddfee3fc731340c9ee04c4fece164b10288bfa2598781216f98a929d380e316f",
+      "model_id": "openai-codex/gpt-6-luna:high",
+      "assigned_annotation_ids": [
+        "ann_31a7197cdde7e360d900254e",
+        "ann_f0671695255e78ef39de3cf5",
+        "ann_5721c6e177904f5237c9fa1c",
+        "ann_9fb44cd3ca6f45f28b1ec2ca",
+        "ann_e55f6209ea3c9b9f3cc49dff",
+        "ann_d867779ef90ad9f71ba905aa",
+        "ann_bf7cf424a949ee360a52ac26",
+        "ann_ca8804d48843d4ffa6dbf8dd",
+        "ann_98508f7f2c3d12e755fafe09",
+        "ann_22b66628a4a92c45a8998a66",
+        "ann_be1001c38bf905af5b4d488e",
+        "ann_5c0725bb7015e5516fe56a8e",
+        "ann_8eab7f2f196c21aa515e0f82",
+        "ann_4d463d076720e543d6359bf8",
+        "ann_3d08277137a9b26a391226ab",
+        "ann_969f3d9601118d045bf6bda6",
+        "ann_24d0f0f70f624761e5510adf",
+        "ann_e4e37b7fe7ee92bc9740adf9",
+        "ann_5fc348a9196517caf28d8f02",
+        "ann_65c20e9ee4faca4c9d83146e"
+      ]
+    },
+    "blind": {
+      "stage": "blind",
+      "run_id": "description-v3-test-batch-02-20261012T155915Z",
+      "batch_id": "test-batch-02",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "ccaa445bbd2055b795bd40f6a6435d24504b79c4eb7ae3ed07cbc22b526d7ea4",
+      "model_id": "openai-codex/gpt-6-luna:high",
+      "assigned_annotation_ids": [
+        "ann_31a7197cdde7e360d900254e",
+        "ann_f0671695255e78ef39de3cf5",
+        "ann_5721c6e177904f5237c9fa1c",
+        "ann_9fb44cd3ca6f45f28b1ec2ca",
+        "ann_e55f6209ea3c9b9f3cc49dff",
+        "ann_d867779ef90ad9f71ba905aa",
+        "ann_bf7cf424a949ee360a52ac26",
+        "ann_ca8804d48843d4ffa6dbf8dd",
+        "ann_98508f7f2c3d12e755fafe09",
+        "ann_22b66628a4a92c45a8998a66",
+        "ann_be1001c38bf905af5b4d488e",
+        "ann_5c0725bb7015e5516fe56a8e",
+        "ann_8eab7f2f196c21aa515e0f82",
+        "ann_4d463d076720e543d6359bf8",
+        "ann_3d08277137a9b26a391226ab",
+        "ann_969f3d9601118d045bf6bda6",
+        "ann_24d0f0f70f624761e5510adf",
+        "ann_e4e37b7fe7ee92bc9740adf9",
+        "ann_5fc348a9196517caf28d8f02",
+        "ann_65c20e9ee4faca4c9d83146e"
+      ]
+    }
+  },
+  "tests": "36 enterprise tests passed before launch",
+  "script_preflight": "native validate passed; only two independent children declared"
+}

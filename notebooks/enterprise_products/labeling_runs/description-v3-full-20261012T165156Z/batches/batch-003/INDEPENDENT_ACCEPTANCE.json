@@ -1,0 +1,49 @@
+{
+  "batch_id": "batch-003",
+  "workflow_run_id": "6b4b9840-1300-49c8-b532-d646f386256f",
+  "descriptions": 20,
+  "binary_agreement": 20,
+  "parent_semantic_inspection": "All20 original descriptions and both rationales inspected; conventional visualization,ETL,data movement,metadata,test-data and governance claims supported except two routed concerns. No parent label replacements.",
+  "required_route": [],
+  "parent_concerns": {
+    "ann_e1d0845ca72f575a4378ed30": "Both rationales repeat a broad business-intelligence category and audience but identify no concrete operations in this short description. Check whether that alone meaningfully establishes conventional functionality under the negative rubric, rather than assuming support from absence of AI terms. If insufficient, retain the best binary judgment as weak/forced. No product knowledge.",
+    "ann_9cdbbd8926ce56e94b9c56e5": "Labeler rationale adds storage, which is not stated in this description. Recheck from the supplied text only; explain only the stated distributed computation/data utility functionality. Does this unsupported addition affect support or is a narrower supported conventional rationale sufficient? Do not infer product features."
+  },
+  "reconciliation_route": [
+    "ann_9cdbbd8926ce56e94b9c56e5",
+    "ann_e1d0845ca72f575a4378ed30"
+  ],
+  "stages": {
+    "labeler": {
+      "run_id": "58342e85-b81c-4ae1-b56f-db00d2cfe3d4",
+      "session_file": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/30fede28-eab9-4216-8ea4-094cfa33c8f9/run-0/session.jsonl",
+      "session_sha256": "66d56fe814c0e91309a15121818836a9f12caa60ea565101e1ca7cd0faf0d568",
+      "actual_model": "openai-codex/gpt-6-luna:high",
+      "tool_counts": {
+        "read": 2,
+        "write": 21,
+        "structured_output": 1
+      },
+      "native_persisted_checkpoint_equality": true,
+      "exact_spans": true,
+      "no_external_reads": true
+    },
+    "blind": {
+      "run_id": "e6af0fa4-e669-42e7-8291-6e1bff1b9793",
+      "session_file": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/df2045bb-88ac-4d0e-876c-f37f83ebcbb5/run-0/session.jsonl",
+      "session_sha256": "d90cc9280ef3a0021ed3d33c8f40cf7042a9af4a47398364f393b11804bc4b0a",
+      "actual_model": "openai-codex/gpt-6-luna:high",
+      "tool_counts": {
+        "read": 2,
+        "write": 21,
+        "structured_output": 1
+      },
+      "native_persisted_checkpoint_equality": true,
+      "exact_spans": true,
+      "no_external_reads": true
+    }
+  },
+  "packet_sha256": "36fcc80a95e9a7a8657940bfd0ca8e2b6c9473ad61437fac60524b8286bf1c4c",
+  "reconciliation_packet_sha256": "3715ddbc45fd7653ad0259e03a6d20ac2983f8d10b64c1e83a9173d054f1ceee",
+  "prior_runs_unchanged": true
+}

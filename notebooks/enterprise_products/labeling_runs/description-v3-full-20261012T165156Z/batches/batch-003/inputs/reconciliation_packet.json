@@ -1,0 +1,84 @@
+[
+  {
+    "annotation_id": "ann_e1d0845ca72f575a4378ed30",
+    "description_sha256": "fdc08bcb74832ffcd4370d15a434ef3bbc3b56b3a33f982f673897134c1766dc",
+    "description": "Fivetran is a cloud-based business intelligence solution which caters to needs of analysts, data engineers and business intelligence teams",
+    "source_record_references": [
+      "6"
+    ],
+    "labeler": {
+      "annotation_id": "ann_e1d0845ca72f575a4378ed30",
+      "description_sha256": "fdc08bcb74832ffcd4370d15a434ef3bbc3b56b3a33f982f673897134c1766dc",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The supplied text identifies a cloud-based business intelligence solution serving analysts, data engineers, and BI teams.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "cloud-based business intelligence solution which caters to needs of analysts, data engineers and business intelligence teams"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_e1d0845ca72f575a4378ed30",
+      "description_sha256": "fdc08bcb74832ffcd4370d15a434ef3bbc3b56b3a33f982f673897134c1766dc",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It is described as a cloud-based business intelligence solution serving analysts, data engineers, and BI teams, a conventional analytics/data role not stated as AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "cloud-based business intelligence solution which caters to needs of analysts, data engineers and business intelligence teams"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Both rationales repeat a broad business-intelligence category and audience but identify no concrete operations in this short description. Check whether that alone meaningfully establishes conventional functionality under the negative rubric, rather than assuming support from absence of AI terms. If insufficient, retain the best binary judgment as weak/forced. No product knowledge."
+  },
+  {
+    "annotation_id": "ann_9cdbbd8926ce56e94b9c56e5",
+    "description_sha256": "2ca597d062c9021a945a23554ba35c76f30bddba09d616c6f9dde8bde4fbcf43",
+    "description": "Apache Hadoop is a collection of open-source software utilities that facilitate using a network of many computers to solve problems involving massive amounts of data and computation. Big data product.",
+    "source_record_references": [
+      "15"
+    ],
+    "labeler": {
+      "annotation_id": "ann_9cdbbd8926ce56e94b9c56e5",
+      "description_sha256": "2ca597d062c9021a945a23554ba35c76f30bddba09d616c6f9dde8bde4fbcf43",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The offering is described as open-source utilities for distributed computing and storage across many computers for large data problems.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "facilitate using a network of many computers to solve problems involving massive amounts of data and computation"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_9cdbbd8926ce56e94b9c56e5",
+      "description_sha256": "2ca597d062c9021a945a23554ba35c76f30bddba09d616c6f9dde8bde4fbcf43",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes open-source utilities for distributing computation and data across computers for massive-data problems, conventional distributed computing infrastructure.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a collection of open-source software utilities that facilitate using a network of many computers to solve problems involving massive amounts of data and computation"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Labeler rationale adds storage, which is not stated in this description. Recheck from the supplied text only; explain only the stated distributed computation/data utility functionality. Does this unsupported addition affect support or is a narrower supported conventional rationale sufficient? Do not infer product features."
+  }
+]

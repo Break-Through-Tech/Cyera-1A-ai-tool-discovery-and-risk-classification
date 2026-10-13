@@ -1,0 +1,168 @@
+{
+  "runId": "f5c51b46-eee4-4c1d-bfcb-32098e5739e8",
+  "toolCallId": "call_f797f6f3536e46b283e43f09063e8567|fc_0a7b3898b10d5116016acd041a623c87d1b5ad80598c3769ee",
+  "sessionId": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194.jsonl",
+  "completionOwnerId": "4fdfdf80-f2b8-4cf7-ab60-67755f16c851",
+  "mode": "workflow",
+  "state": "complete",
+  "startedAt": 1791820830087,
+  "lastUpdate": 1791821161907,
+  "cwd": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification",
+  "sessionRoot": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194",
+  "pid": 113158,
+  "steps": [
+    {
+      "agent": "enterprise-description-annotator",
+      "sessionName": "enterprise-description-annotator: Perform ONLY the independent labeler pass o...",
+      "label": "Label 20 new descriptions",
+      "workflowKey": "labeler-test-batch-02",
+      "parentWorkflowRunId": "f5c51b46-eee4-4c1d-bfcb-32098e5739e8",
+      "status": "completed",
+      "startedAt": 1791820830227,
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/245b2364-e811-441d-8ba8-544bd87e8746/run-0/session.jsonl",
+      "async": true,
+      "runId": "02719031-d5f0-467c-a39f-160f4f37750e",
+      "durationMs": 331656,
+      "tokens": {
+        "input": 30771,
+        "output": 17878,
+        "total": 48649
+      },
+      "turnCount": 7
+    },
+    {
+      "agent": "enterprise-description-annotator",
+      "sessionName": "enterprise-description-annotator: Perform ONLY the independent blind pass on ...",
+      "label": "Blindly verify test batch",
+      "workflowKey": "blind-test-batch-02",
+      "parentWorkflowRunId": "f5c51b46-eee4-4c1d-bfcb-32098e5739e8",
+      "status": "completed",
+      "startedAt": 1791820830395,
+      "sessionFile": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/de14822b-78e2-4ee4-bc09-e2f28377d863/run-0/session.jsonl",
+      "async": true,
+      "runId": "43b0afd6-2fb1-4ca3-949d-25acb07e1051",
+      "durationMs": 115307,
+      "tokens": {
+        "input": 23461,
+        "output": 14728,
+        "total": 38189
+      },
+      "turnCount": 6
+    }
+  ],
+  "workflow": {
+    "value": {
+      "scope": "20 new descriptions only; parent checks/reconciliation then human review",
+      "stages": [
+        {
+          "stage": "labeler",
+          "runId": "02719031-d5f0-467c-a39f-160f4f37750e",
+          "ok": true,
+          "outputPath": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/agents/labeler/result.json",
+          "outputReference": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/agents/labeler/result.json",
+          "artifactPaths": [
+            "/tmp/pi-subagents-uid-1000/async-subagent-runs/02719031-d5f0-467c-a39f-160f4f37750e",
+            "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/agents/labeler/result.json",
+            "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/245b2364-e811-441d-8ba8-544bd87e8746/run-0/session.jsonl"
+          ],
+          "error": null
+        },
+        {
+          "stage": "blind",
+          "runId": "43b0afd6-2fb1-4ca3-949d-25acb07e1051",
+          "ok": true,
+          "outputPath": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/agents/blind/result.json",
+          "outputReference": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/agents/blind/result.json",
+          "artifactPaths": [
+            "/tmp/pi-subagents-uid-1000/async-subagent-runs/43b0afd6-2fb1-4ca3-949d-25acb07e1051",
+            "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/agents/blind/result.json",
+            "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/de14822b-78e2-4ee4-bc09-e2f28377d863/run-0/session.jsonl"
+          ],
+          "error": null
+        }
+      ]
+    },
+    "trace": [
+      {
+        "operation": "run",
+        "key": "labeler-test-batch-02",
+        "state": "started",
+        "label": "Label 20 new descriptions",
+        "agent": "enterprise-description-annotator"
+      },
+      {
+        "operation": "run",
+        "key": "blind-test-batch-02",
+        "state": "started",
+        "label": "Blindly verify test batch",
+        "agent": "enterprise-description-annotator"
+      },
+      {
+        "operation": "run",
+        "key": "blind-test-batch-02",
+        "state": "completed",
+        "durationMs": 115307,
+        "label": "Blindly verify test batch",
+        "agent": "enterprise-description-annotator",
+        "runId": "43b0afd6-2fb1-4ca3-949d-25acb07e1051"
+      },
+      {
+        "operation": "run",
+        "key": "labeler-test-batch-02",
+        "state": "completed",
+        "durationMs": 331656,
+        "label": "Label 20 new descriptions",
+        "agent": "enterprise-description-annotator",
+        "runId": "02719031-d5f0-467c-a39f-160f4f37750e"
+      }
+    ],
+    "emits": [],
+    "console": [],
+    "args": {
+      "runDirectory": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z"
+    },
+    "argsDigest": "9df18fe7fb551f57f1555152c2370f12a128ebbbadb8a9bed41e0dcf2f567563",
+    "scriptDigest": "a9cee0bbf7083d679e2de0afe4671e690e000a05eaf210cfe06a9ebec1cc4d84"
+  },
+  "workflowChildren": {
+    "version": 1,
+    "parentToolCallId": "call_f797f6f3536e46b283e43f09063e8567|fc_0a7b3898b10d5116016acd041a623c87d1b5ad80598c3769ee",
+    "workflowRunId": "f5c51b46-eee4-4c1d-bfcb-32098e5739e8",
+    "inventoryComplete": true,
+    "workflowState": "completed",
+    "children": [
+      {
+        "childId": "labeler-test-batch-02",
+        "state": "completed",
+        "runId": "02719031-d5f0-467c-a39f-160f4f37750e",
+        "agent": "enterprise-description-annotator",
+        "sessionName": "enterprise-description-annotator: Perform ONLY the independent labeler pass o..."
+      },
+      {
+        "childId": "blind-test-batch-02",
+        "state": "completed",
+        "runId": "43b0afd6-2fb1-4ca3-949d-25acb07e1051",
+        "agent": "enterprise-description-annotator",
+        "sessionName": "enterprise-description-annotator: Perform ONLY the independent blind pass on ..."
+      }
+    ]
+  },
+  "runFanoutBudget": {
+    "used": 2,
+    "limit": 64,
+    "remaining": 62
+  },
+  "turnCount": 6,
+  "endedAt": 1791821161903,
+  "totalTokens": {
+    "input": 54232,
+    "output": 32606,
+    "total": 86838
+  },
+  "totalCost": {
+    "inputTokens": 54232,
+    "outputTokens": 32606,
+    "costUsd": 0.02271436
+  },
+  "workflowReceiptPath": "/tmp/pi-subagents-uid-1000/async-subagent-runs/f5c51b46-eee4-4c1d-bfcb-32098e5739e8/workflow-receipt.json"
+}

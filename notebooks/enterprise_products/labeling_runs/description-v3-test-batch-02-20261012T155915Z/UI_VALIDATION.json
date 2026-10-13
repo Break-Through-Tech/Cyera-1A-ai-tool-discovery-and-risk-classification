@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "scope": "Read-only review artifact only; not approval for further labeling.",
+  "tests": {
+    "review_renderer": 4,
+    "enterprise_suite": 36,
+    "all_passed": true
+  },
+  "browser": {
+    "engine": "Chrome",
+    "local_file_only": true,
+    "sandbox": "Host blocked sandbox launch; dedicated local QA browser used --no-sandbox, no remote pages visited.",
+    "desktop": {
+      "width": 1440,
+      "height": 1000,
+      "horizontal_overflow": false,
+      "visual_review": "passed"
+    },
+    "responsive": {
+      "width": 390,
+      "height": 844,
+      "horizontal_overflow": false,
+      "comparison_single_column": true,
+      "visual_review": "passed; width simulation, not real mobile device"
+    },
+    "exact_dom_roundtrip": {
+      "descriptions": 20,
+      "source_rows": 31,
+      "final_evidence_quotes": 40,
+      "all_match": true
+    },
+    "filters": {
+      "all": {
+        "descriptions": 20,
+        "rows": 31
+      },
+      "uncertain": {
+        "descriptions": 6,
+        "rows": 8
+      },
+      "reconciled": {
+        "descriptions": 7,
+        "rows": 15
+      },
+      "negative": {
+        "descriptions": 9,
+        "rows": 18
+      }
+    },
+    "disclosures": {
+      "independent_comparison": true,
+      "reconciliation": true,
+      "source_provenance_seven_rows": true,
+      "quote_audit": true,
+      "quote_audit_preserves_newlines": true
+    },
+    "console_messages": 0,
+    "page_errors": 0,
+    "external_resource_requests": 0
+  },
+  "parent_ui_changes": [
+    "Visible primary source record and product name in each card heading, provenance only.",
+    "Preserved whitespace visually in raw/repaired quote audit."
+  ],
+  "evidence_files": [
+    "runtime/screenshots/cyera-batch02-desktop.png",
+    "runtime/screenshots/cyera-batch02-mobile.png",
+    "runtime/screenshots/cyera-batch02-mobile-comparison.png",
+    "runtime/screenshots/cyera-batch02-quote-audit.png"
+  ],
+  "not_checked": [
+    "Other browsers or real mobile hardware",
+    "Formal screen-reader/accessibility audit",
+    "Full dataset accuracy"
+  ]
+}

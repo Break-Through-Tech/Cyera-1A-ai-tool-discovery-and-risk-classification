@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "workflowRunId": "4d093aa0-cf45-4b9d-ae91-31517d5800b9",
+  "state": "complete",
+  "createdAt": 1791819837960,
+  "entries": {
+    "verifier-reconciliation-01": {
+      "key": "verifier-reconciliation-01",
+      "agent": "enterprise-description-annotator",
+      "resolvedContext": "fresh",
+      "outputReference": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/agents/reconciliation/result.json",
+      "continuation": {
+        "runIds": [
+          "6c687f5a-30e4-4c67-b2f4-dadfa79f5b4a",
+          "cc6053cc-369e-4d3a-999e-91e8f4ed4a0f"
+        ]
+      },
+      "latestRunId": "cc6053cc-369e-4d3a-999e-91e8f4ed4a0f",
+      "resumability": {
+        "state": "resumable"
+      }
+    }
+  },
+  "argsDigest": "6100ac6c14b22b27be9bf2e30b60a393a7cb2c5ddd2effa1fb6a8d11dbe30205",
+  "workflowChildren": {
+    "version": 1,
+    "parentToolCallId": "call_2ae4f6ea57e24afda43cd35864424807|fc_0a7b3898b10d5116016accffef718087d19569abf17666e689",
+    "workflowRunId": "4d093aa0-cf45-4b9d-ae91-31517d5800b9",
+    "inventoryComplete": true,
+    "workflowState": "completed",
+    "children": [
+      {
+        "childId": "verifier-reconciliation-01",
+        "state": "completed",
+        "runId": "cc6053cc-369e-4d3a-999e-91e8f4ed4a0f",
+        "agent": "enterprise-description-annotator",
+        "sessionName": "enterprise-description-annotator: You are reviving a previous subagent conver...",
+        "model": "openai-codex/gpt-6-luna:high"
+      }
+    ]
+  }
+}

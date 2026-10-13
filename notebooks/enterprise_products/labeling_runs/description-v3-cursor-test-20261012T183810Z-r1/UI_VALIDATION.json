@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "tests": {
+    "enterprise": 36,
+    "artifact_renderer": 3
+  },
+  "browser": {
+    "engine": "Chrome",
+    "local_file_only": true,
+    "sandbox": "Host sandbox unavailable; dedicated local QA launch --no-sandbox; no remote pages.",
+    "desktop": {
+      "width": 1440,
+      "height": 1000,
+      "visually_reviewed": true
+    },
+    "responsive_width": {
+      "width": 390,
+      "height": 844,
+      "visually_reviewed": true,
+      "not_real_mobile": true
+    },
+    "dom": {
+      "columns": "330px",
+      "compareOpen": true,
+      "descriptions": 20,
+      "exactMatch": true,
+      "external": 0,
+      "overflow": false,
+      "quotes": 23,
+      "reconciliationOpen": true,
+      "rows": 20
+    },
+    "filters": {
+      "all": 20,
+      "uncertain": 4,
+      "reconciled": 4,
+      "negative": 16
+    },
+    "console_messages": 0,
+    "page_errors": 0
+  },
+  "verified_screenshot_artifacts": [
+    "runtime/desktop.png",
+    "runtime/mobile.png"
+  ],
+  "not_checked": [
+    "Real mobile hardware",
+    "Other browsers",
+    "Formal screen-reader audit",
+    "AI-positive model performance",
+    "Quota fallback"
+  ]
+}

@@ -1,0 +1,389 @@
+[
+  {
+    "annotation_id": "ann_0473ca686885c0088e984b47",
+    "description_sha256": "011d3d252c3424ce3e17ff0e830f49d18af0f6f82e890088b0768d1dd2ee3c0b",
+    "description": "This product is Salesforce Add-On that Assignment, Routing, Distribution -- Lead Account Territory. Assign the right owner and team to any record in Salesforce, automatically\n1. Distribute leads, contacts and opportunities\n2. Assign Account Teams and Territories\n3. Works with any standard or custom object\n4. Enterprise-class flexibility and scalability",
+    "source_record_references": [
+      "1153"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_0473ca686885c0088e984b47",
+      "description_sha256": "011d3d252c3424ce3e17ff0e830f49d18af0f6f82e890088b0768d1dd2ee3c0b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The add-on assigns owners and teams and distributes leads, contacts, and opportunities by routing records, conventional deterministic workflow functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Assign the right owner and team to any record in Salesforce, automatically",
+        "Distribute leads, contacts and opportunities"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_0473ca686885c0088e984b47",
+      "description_sha256": "011d3d252c3424ce3e17ff0e830f49d18af0f6f82e890088b0768d1dd2ee3c0b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The add-on assigns owners and teams, distributes leads and contacts, and assigns account teams and territories. These are conventional record-routing and assignment functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Assign the right owner and team to any record in Salesforce, automatically",
+        "Distribute leads, contacts and opportunities",
+        "Assign Account Teams and Territories"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Both binary judgments agree, but one rationale asserts a deterministic implementation not stated in the text. Recheck the description-based decision and rationale without claiming unmentioned implementation details; ordinary workflow automation alone is not AI."
+  },
+  {
+    "annotation_id": "ann_166874d73ce278182c5b1c94",
+    "description_sha256": "c647a726fa37fab9990e1e2d4affde94c2a06d2853a556cba62af261d5156e9f",
+    "description": "ASAPP is an artificial intelligence company that changes the way people and large organizations communicate. The company has created an asynchronous messaging platform that allows organizations and people to interact the same way they do with one another. Cloud Service and Software License Agreement for subscription to the ASAPP platform, which will replace the incumbent Nuance, providing the social & chat customer interaction platform for CMB agents.",
+    "source_record_references": [
+      "53"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_166874d73ce278182c5b1c94",
+      "description_sha256": "c647a726fa37fab9990e1e2d4affde94c2a06d2853a556cba62af261d5156e9f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text calls the company artificial-intelligence-focused but describes the supplied platform as asynchronous messaging and customer chat; it does not connect AI to platform functionality, so the description-based label is forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The company has created an asynchronous messaging platform that allows organizations and people to interact the same way they do with one another.",
+        "ASAPP is an artificial intelligence company"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_166874d73ce278182c5b1c94",
+      "description_sha256": "c647a726fa37fab9990e1e2d4affde94c2a06d2853a556cba62af261d5156e9f",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The text calls ASAPP an artificial intelligence company but describes the subscribed platform as asynchronous messaging and customer interaction. Whether the AI-company statement applies to this offering is unclear, so the positive decision is forced.",
+      "ai_type_rationale": "The actual described messaging platform has conventional interaction functions, but the text does not say what AI functionality it includes; subtype is uncertain.",
+      "evidence_spans": [
+        "ASAPP is an artificial intelligence company",
+        "asynchronous messaging platform",
+        "providing the social & chat customer interaction platform for CMB agents"
+      ],
+      "ai_type_evidence_spans": [
+        "asynchronous messaging platform",
+        "artificial intelligence company"
+      ]
+    },
+    "parent_concern": "The two binary judgments differ. Distinguish the AI-company statement from product-specific applicability; do not use separate company identity or memorized knowledge to bridge missing evidence."
+  },
+  {
+    "annotation_id": "ann_27de2bfba90bdaa2e182efa7",
+    "description_sha256": "1f967faf171fae3c97504c210b7ed16014c5c271b2defe89373db93622af6fc4",
+    "description": "Cisco Intersight is a cloud operations platform that consists of optional, modular capabilities of advanced infrastructure, workload optimization, and Kubernetes services. Cisco Intersight infrastructure services include the deployment, monitoring, management, and support of your physical and virtual infrastructure.\n\nCisco Intersight   is a Software-as-a-Service (SaaS) infrastructure management platform that is augmented by other intelligent systems. It provides secure, lifecycle management of Cisco Unified Computing System   (UCS), HyperFlex   and third-party devices.\n\nCisco Intersight lets you control everything from servers to containers, apps, and infrastructure from a single platform.",
+    "source_record_references": [
+      "555"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_27de2bfba90bdaa2e182efa7",
+      "description_sha256": "1f967faf171fae3c97504c210b7ed16014c5c271b2defe89373db93622af6fc4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes infrastructure deployment, monitoring, lifecycle management, and control; its reference to augmentation by intelligent systems does not specify AI functionality, leaving ambiguity.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "It provides secure, lifecycle management of Cisco Unified Computing System   (UCS), HyperFlex   and third-party devices.",
+        "augmented by other intelligent systems"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_27de2bfba90bdaa2e182efa7",
+      "description_sha256": "1f967faf171fae3c97504c210b7ed16014c5c271b2defe89373db93622af6fc4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The platform provides deployment, monitoring, lifecycle management, and control of physical and virtual infrastructure, servers, containers, and applications. These are conventional infrastructure-management functions; 'intelligent systems' does not specify AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "deployment, monitoring, management, and support of your physical and virtual infrastructure",
+        "control everything from servers to containers, apps, and infrastructure"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Resolve differing support flags for conventional infrastructure management augmented by unspecified 'intelligent systems'. Do not infer what those systems implement."
+  },
+  {
+    "annotation_id": "ann_49118f7afd99569c65b61b42",
+    "description_sha256": "6ae82d9000b72015936f6272795d176b112ffa4c50b52232e1130907d7db5272",
+    "description": "With Verint Quality Management, you can evaluate all of the attributes of a customer interaction, including voice conversations and associated screen data, text-based interactions (such as chat), and video, right from a single screen.\nThe solution’s omnichannel interaction player provides personalized access to speaker-separated audio waveforms, speech analytics categories, emotions, keywords, interaction tags, annotations, screen recording, applications used by employees, and employee profile information\n\nAutomated Quality Management add on to Quality Management",
+    "source_record_references": [
+      "252"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_49118f7afd99569c65b61b42",
+      "description_sha256": "6ae82d9000b72015936f6272795d176b112ffa4c50b52232e1130907d7db5272",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description details interaction playback, recordings, categories, emotions, keywords, and annotations, but does not explain how speech analytics or emotion identification works; those terms leave a potentially AI-dependent component unresolved.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "speech analytics categories, emotions, keywords, interaction tags, annotations, screen recording"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_49118f7afd99569c65b61b42",
+      "description_sha256": "6ae82d9000b72015936f6272795d176b112ffa4c50b52232e1130907d7db5272",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described quality-management system reviews interactions and records speech analytics categories, emotions, and keywords. Those analytics could involve learned methods, but the text does not establish AI; on balance this is a conventional quality-management and recording tool, with uncertainty retained.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "you can evaluate all of the attributes of a customer interaction",
+        "speech analytics categories, emotions, keywords, interaction tags, annotations, screen recording"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Address unexplained speech analytics/emotions and the add-on wording. Do not infer AI inclusion or certify a negative simply from missing explicit AI keywords."
+  },
+  {
+    "annotation_id": "ann_54e725702d8c693d3b7dd172",
+    "description_sha256": "8842b80fa85a4d43de17059d91b577d9be49c07608c26b6f58b0ece89ff923b9",
+    "description": "Laptop imaging.",
+    "source_record_references": [
+      "1330"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_54e725702d8c693d3b7dd172",
+      "description_sha256": "8842b80fa85a4d43de17059d91b577d9be49c07608c26b6f58b0ece89ff923b9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description only says 'Laptop imaging.' It suggests a conventional device imaging task but provides no meaningful detail about product functionality, so the label is forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Laptop imaging."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_54e725702d8c693d3b7dd172",
+      "description_sha256": "8842b80fa85a4d43de17059d91b577d9be49c07608c26b6f58b0ece89ff923b9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The terse description identifies laptop imaging, a conventional device-deployment task, but provides too little context about the offering; non-AI is the forced best-supported judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Laptop imaging."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "The terse imaging description supplies very little offering context. Preserve insufficient-evidence flags if meaningful functionality remains unclear."
+  },
+  {
+    "annotation_id": "ann_a5f02648fb1b6c8750c3b51e",
+    "description_sha256": "743b5408cf303cfbcc1f8eaa7b2d18c6041714546eaeb6d8253a8f32b56bd754",
+    "description": "Oracle Crystal Ball is the leading spreadsheet-based application for predictive modeling, forecasting, simulation, and optimization. It gives you unparalleled insight into the critical factors affecting risk",
+    "source_record_references": [
+      "45"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_a5f02648fb1b6c8750c3b51e",
+      "description_sha256": "743b5408cf303cfbcc1f8eaa7b2d18c6041714546eaeb6d8253a8f32b56bd754",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The spreadsheet application is described for predictive modeling, forecasting, simulation, and optimization, but the text does not establish whether these use AI/ML or conventional modeling methods; the conventional-functionality judgment is therefore forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "spreadsheet-based application for predictive modeling, forecasting, simulation, and optimization"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_a5f02648fb1b6c8750c3b51e",
+      "description_sha256": "743b5408cf303cfbcc1f8eaa7b2d18c6041714546eaeb6d8253a8f32b56bd754",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers spreadsheet-based predictive modeling, forecasting, simulation, and optimization. Prediction can be implemented conventionally or with AI, and no implementation is established here; the conventional statistical-modeling interpretation is a weak forced negative.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "spreadsheet-based application for predictive modeling, forecasting, simulation, and optimization"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Prediction, forecasting, simulation and optimization are described, but implementation is unspecified. Recheck why the binary decision is forced or supported using only this text."
+  },
+  {
+    "annotation_id": "ann_bc53f93bebf7f0a820e98130",
+    "description_sha256": "71ab7e8e84b7d7f4ca80521af94691efeb711a751699862077e680d08a7a42c4",
+    "description": "SAS (previously 'Statistical Analysis System') is a statistical software suite developed by SAS Institute for data management, advanced analytics, multivariate analysis, business intelligence, criminal investigation, and predictive analytics.",
+    "source_record_references": [
+      "59"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_bc53f93bebf7f0a820e98130",
+      "description_sha256": "71ab7e8e84b7d7f4ca80521af94691efeb711a751699862077e680d08a7a42c4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a statistical software suite for data management, statistical/multivariate analysis, business intelligence, investigation, and predictive analytics without an affirmative AI/ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a statistical software suite developed by SAS Institute for data management, advanced analytics, multivariate analysis, business intelligence, criminal investigation, and predictive analytics."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_bc53f93bebf7f0a820e98130",
+      "description_sha256": "71ab7e8e84b7d7f4ca80521af94691efeb711a751699862077e680d08a7a42c4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This describes statistical software for data management, statistical/multivariate analysis, business intelligence, and predictive analytics. Prediction is potentially ambiguous, but no AI implementation is stated; the conventional statistical-software interpretation is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "statistical software suite developed by SAS Institute for data management, advanced analytics, multivariate analysis, business intelligence, criminal investigation, and predictive analytics"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Resolve differing confidence for statistical software that includes predictive analytics. Conventional named functions alone do not erase any genuinely unexplained potentially AI-dependent functionality."
+  },
+  {
+    "annotation_id": "ann_efea61d23fecee6ebab562c9",
+    "description_sha256": "8ec3032278e6399eb3cb4dbea3b1ae981efc7e85efd94fbe887b5611e2b6a6e3",
+    "description": "IBM Cloud Private™ for Data is a new kind of data and analytics platform with built-in governance. It simplifies and unifies how you collect, organize and analyze data to accelerate the value of data science and AI",
+    "source_record_references": [
+      "61"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_efea61d23fecee6ebab562c9",
+      "description_sha256": "8ec3032278e6399eb3cb4dbea3b1ae981efc7e85efd94fbe887b5611e2b6a6e3",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The description explicitly connects the data and analytics platform to AI, providing a product-context AI signal.",
+      "ai_type_rationale": "The text does not say whether AI is foundational to the platform or one use of its data/science capabilities; conventional collection, organization, and analysis are also described.",
+      "evidence_spans": [
+        "It simplifies and unifies how you collect, organize and analyze data to accelerate the value of data science and AI"
+      ],
+      "ai_type_evidence_spans": [
+        "a new kind of data and analytics platform with built-in governance",
+        "the value of data science and AI"
+      ]
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_efea61d23fecee6ebab562c9",
+      "description_sha256": "8ec3032278e6399eb3cb4dbea3b1ae981efc7e85efd94fbe887b5611e2b6a6e3",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The platform description mentions AI as an area whose value it accelerates, but does not clearly state that it provides AI functionality. The mention supports a forced positive under the mention rule, with applicability uncertain.",
+      "ai_type_rationale": "Data collection, organization, and analysis are described as the platform functions; AI appears as a related value area rather than a clear core capability.",
+      "evidence_spans": [
+        "unifies how you collect, organize and analyze data to accelerate the value of data science and AI"
+      ],
+      "ai_type_evidence_spans": [
+        "data and analytics platform with built-in governance",
+        "data science and AI"
+      ]
+    },
+    "parent_concern": "AI is mentioned as an area whose value the data platform accelerates. Address whether this is a product-specific affirmative mention or ambiguous applicability, separately from subtype uncertainty; do not infer an unmentioned implementation."
+  },
+  {
+    "annotation_id": "ann_fdcac7d6ad8338a2416aed80",
+    "description_sha256": "59c84c6f6f19e63db69e850d187597e29230af358992df03b5b426ddb6f1726c",
+    "description": "Pega Training",
+    "source_record_references": [
+      "876"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_fdcac7d6ad8338a2416aed80",
+      "description_sha256": "59c84c6f6f19e63db69e850d187597e29230af358992df03b5b426ddb6f1726c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Only the label 'Pega Training' is supplied; it points to training but gives too little detail to establish actual functionality or AI involvement, so the conventional/non-AI judgment is forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Pega Training"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_fdcac7d6ad8338a2416aed80",
+      "description_sha256": "59c84c6f6f19e63db69e850d187597e29230af358992df03b5b426ddb6f1726c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The only text is the title 'Pega Training'; it does not meaningfully describe software functionality or establish AI. A negative is retained only as a forced judgment because the evidence is insufficient.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Pega Training"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "The title alone does not meaningfully describe the offering. Preserve insufficient-evidence flags rather than certify agreement as support."
+  }
+]

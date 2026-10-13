@@ -1,0 +1,39 @@
+{
+  "batch_id": "batch-001",
+  "status": "passed",
+  "description_count": 20,
+  "source_row_count": 21,
+  "reconciliation_count": 2,
+  "helper_verified_manifest": true,
+  "weak_flags_preserved_and_review_queue_authoritative": true,
+  "original_independent_artifact_hashes_unchanged": true,
+  "report": {
+    "source_input_records": 1494,
+    "cleaner_excluded_records": 56,
+    "retained_source_records": 1438,
+    "selected_descriptions": 20,
+    "selected_records": 21,
+    "remaining_distinct_descriptions": 1371,
+    "remaining_source_records": 1417,
+    "coverage_claim": "selected calibration only; not full dataset coverage",
+    "binary_counts": {
+      "non_ai": 19,
+      "ai": 1
+    },
+    "subtype_counts": {
+      "null": 19,
+      "ai_native": 1
+    },
+    "binary_weak_count": 0,
+    "binary_forced_count": 0,
+    "subtype_weak_count": 0,
+    "subtype_forced_count": 0,
+    "trusted_negative_records": 20,
+    "reconciliation_count": 2,
+    "required_reconciliation_count": 2,
+    "parent_reconciliation_count": 2,
+    "independent_binary_or_subtype_differences": 0,
+    "duplicate_records_within_selected_descriptions": 1,
+    "within_group_different_descriptions": 0
+  }
+}

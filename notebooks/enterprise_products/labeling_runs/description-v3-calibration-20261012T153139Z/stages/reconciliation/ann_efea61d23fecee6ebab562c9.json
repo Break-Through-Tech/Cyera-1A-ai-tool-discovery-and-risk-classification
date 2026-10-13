@@ -1,0 +1,20 @@
+{
+  "annotation_id": "ann_efea61d23fecee6ebab562c9",
+  "description_sha256": "8ec3032278e6399eb3cb4dbea3b1ae981efc7e85efd94fbe887b5611e2b6a6e3",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "The description links the data and analytics platform's collection, organization, and analysis functions with accelerating the value of 'data science and AI.' This is a product-context AI mention, but it is unclear whether it describes included AI functionality or a related use area, so binary applicability is weak/forced.",
+  "ai_type_rationale": "The text emphasizes conventional data-platform functions and does not establish whether AI is foundational or an enhancement; ai_enabled is the best fit but remains weak/forced.",
+  "evidence_spans": [
+    "It simplifies and unifies how you collect, organize and analyze data to accelerate the value of data science and AI"
+  ],
+  "ai_type_evidence_spans": [
+    "a new kind of data and analytics platform with built-in governance",
+    "data science and AI"
+  ],
+  "conflict_response": "Unlike a mere unrelated mention, 'data science and AI' appears in the description of what the platform's data operations accelerate, so I treat it as a product-context affirmative AI signal under the mention rule. The sentence does not clearly promise an included AI capability, however, so the binary remains weak/forced; subtype is independently weak because collection, organization, and analysis are described but AI's role is not."
+}

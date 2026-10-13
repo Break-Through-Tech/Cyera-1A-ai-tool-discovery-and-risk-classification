@@ -1,0 +1,60 @@
+{
+  "report": {
+    "source_input_records": 1494,
+    "cleaner_excluded_records": 56,
+    "retained_source_records": 1438,
+    "selected_descriptions": 20,
+    "selected_records": 31,
+    "remaining_distinct_descriptions": 1371,
+    "remaining_source_records": 1407,
+    "coverage_claim": "selected calibration only; not full dataset coverage",
+    "binary_counts": {
+      "non_ai": 12,
+      "ai": 8
+    },
+    "subtype_counts": {
+      "null": 12,
+      "ai_enabled": 3,
+      "ai_native": 5
+    },
+    "binary_weak_count": 3,
+    "binary_forced_count": 3,
+    "subtype_weak_count": 3,
+    "subtype_forced_count": 3,
+    "trusted_negative_records": 18,
+    "reconciliation_count": 7,
+    "required_reconciliation_count": 3,
+    "parent_reconciliation_count": 7,
+    "independent_binary_or_subtype_differences": 0,
+    "duplicate_records_within_selected_descriptions": 11,
+    "within_group_different_descriptions": 0
+  },
+  "trusted_negative_descriptions": 9,
+  "cumulative_coverage": {
+    "distinct_descriptions": 40,
+    "source_rows": 51,
+    "remaining_descriptions": 1351,
+    "remaining_rows": 1387
+  },
+  "acceptance": {
+    "actual_model": "openai-codex/gpt-6-luna:high",
+    "same_original_verifier_session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-12T15-02-16-048Z_01a130a2-c4f0-7414-9079-b3517c4a0194/de14822b-78e2-4ee4-bc09-e2f28377d863/run-0/session.jsonl",
+    "original_blind_bytes_unchanged": true,
+    "reconciliation_tool_counts": {
+      "read": 2,
+      "write": 8,
+      "structured_output": 1
+    },
+    "exact_spans_and_required_stage_coverage": "passed",
+    "all_source_text_unchanged": true,
+    "five_shared_description_groups_propagated_exactly": true,
+    "first_v3_run_unchanged": true,
+    "web_calls": 0,
+    "transport_failures": 0,
+    "schema_missing_null_corrections": 1,
+    "parent_whitespace_only_quote_repairs": 3,
+    "final_reconciliation_quote_repairs": 0
+  },
+  "semantic_acceptance": "Parent inspected all independent binary and subtype rationales against original descriptions and all seven final reconciliations. Three AI-positive subtype decisions remain weak and do not weaken supported binary AI evidence. Three vague negative decisions remain weak and excluded. No semantic labels invented by parent; raw native artifacts preserved with three exact-source whitespace repairs separately documented.",
+  "approval_boundary": "Second 20-description test batch only. User review required before any further batch, merging, partitions or training."
+}

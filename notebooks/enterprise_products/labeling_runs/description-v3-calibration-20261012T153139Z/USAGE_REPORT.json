@@ -1,0 +1,162 @@
+{
+  "runs": [
+    {
+      "category": "setup",
+      "stage": "implement",
+      "run_id": "cd01e779-18f2-4792-b51b-1782b8efc935",
+      "native_state": "complete",
+      "started_at_ms": 1791817793139,
+      "finished_at_ms": 1791818463802,
+      "elapsed_seconds": 670.663,
+      "reported_tokens": {
+        "input": 104212,
+        "output": 28535,
+        "total": 132747,
+        "window": 68798,
+        "windowPeak": 68798
+      },
+      "reported_cost_usd": 0.048266300000000005,
+      "pricing_source": "native subagent status pricing metadata; not an invoice"
+    },
+    {
+      "category": "setup",
+      "stage": "fix safeguards",
+      "run_id": "953237ab-f094-4738-a181-01cdc3fad1ec",
+      "native_state": "complete",
+      "started_at_ms": 1791818599932,
+      "finished_at_ms": 1791818879792,
+      "elapsed_seconds": 279.86,
+      "reported_tokens": {
+        "input": 36317,
+        "output": 12542,
+        "total": 48859,
+        "window": 94841,
+        "windowPeak": 94841
+      },
+      "reported_cost_usd": 0.0234707,
+      "pricing_source": "native subagent status pricing metadata; not an invoice"
+    },
+    {
+      "category": "setup",
+      "stage": "review",
+      "run_id": "bd194781-4edc-423f-85a5-df134185aa98",
+      "native_state": "complete",
+      "started_at_ms": 1791818499491,
+      "finished_at_ms": 1791818555394,
+      "elapsed_seconds": 55.903,
+      "reported_tokens": {
+        "input": 34105,
+        "output": 3523,
+        "total": 37628,
+        "window": 29697,
+        "windowPeak": 29697
+      },
+      "reported_cost_usd": 0.0064008,
+      "pricing_source": "native subagent status pricing metadata; not an invoice"
+    },
+    {
+      "category": "setup",
+      "stage": "review fixes",
+      "run_id": "66b27eb9-dbf7-407b-b956-e5258bf2f25a",
+      "native_state": "complete",
+      "started_at_ms": 1791818908300,
+      "finished_at_ms": 1791818941653,
+      "elapsed_seconds": 33.353,
+      "reported_tokens": {
+        "input": 17040,
+        "output": 2394,
+        "total": 19434,
+        "window": 43559,
+        "windowPeak": 43559
+      },
+      "reported_cost_usd": 0.00460596,
+      "pricing_source": "native subagent status pricing metadata; not an invoice"
+    },
+    {
+      "category": "setup",
+      "stage": "review role binding",
+      "run_id": "67d897bc-6a3c-43f7-967c-dae6fc69cccd",
+      "native_state": "complete",
+      "started_at_ms": 1791819063191,
+      "finished_at_ms": 1791819079574,
+      "elapsed_seconds": 16.383,
+      "reported_tokens": {
+        "input": 6927,
+        "output": 962,
+        "total": 7889,
+        "window": 48264,
+        "windowPeak": 48264
+      },
+      "reported_cost_usd": 0.00251002,
+      "pricing_source": "native subagent status pricing metadata; not an invoice"
+    },
+    {
+      "category": "labeling",
+      "stage": "labeler",
+      "run_id": "5d1aea83-ff46-4710-9300-22b14c7d97a6",
+      "native_state": "partial",
+      "started_at_ms": 1791819176742,
+      "finished_at_ms": 1791819277481,
+      "elapsed_seconds": 100.739,
+      "reported_tokens": {
+        "input": 37908,
+        "output": 10082,
+        "total": 47990,
+        "window": 14110,
+        "windowPeak": 14110
+      },
+      "reported_cost_usd": 0.01069548,
+      "pricing_source": "native subagent status pricing metadata; not an invoice"
+    },
+    {
+      "category": "labeling",
+      "stage": "blind verifier",
+      "run_id": "6c687f5a-30e4-4c67-b2f4-dadfa79f5b4a",
+      "native_state": "partial",
+      "started_at_ms": 1791819176867,
+      "finished_at_ms": 1791819386548,
+      "elapsed_seconds": 209.681,
+      "reported_tokens": {
+        "input": 15618,
+        "output": 10290,
+        "total": 25908,
+        "window": 14194,
+        "windowPeak": 14194
+      },
+      "reported_cost_usd": 0.00677848,
+      "pricing_source": "native subagent status pricing metadata; not an invoice"
+    },
+    {
+      "category": "labeling",
+      "stage": "verifier reconciliation",
+      "run_id": "cc6053cc-369e-4d3a-999e-91e8f4ed4a0f",
+      "native_state": "complete",
+      "started_at_ms": 1791819764840,
+      "finished_at_ms": 1791819837715,
+      "elapsed_seconds": 72.875,
+      "reported_tokens": {
+        "input": 35661,
+        "output": 8815,
+        "total": 44476,
+        "window": 32874,
+        "windowPeak": 32874
+      },
+      "reported_cost_usd": 0.00869552,
+      "pricing_source": "native subagent status pricing metadata; not an invoice"
+    }
+  ],
+  "category_totals": {
+    "setup": {
+      "reported_tokens": 246557,
+      "reported_cost_usd": 0.08525378
+    },
+    "labeling": {
+      "reported_tokens": 118374,
+      "reported_cost_usd": 0.026169480000000002
+    }
+  },
+  "all_luna_subagent_reported_cost_usd": 0.11142326000000001,
+  "excluded": "Root parent Sol usage, invoice/subscription billing and unlaunched work. Workflow wrappers are not counted separately to avoid double-counting children.",
+  "actual_invoice_verified": false,
+  "full_run_estimate": "Not established; selection is a cue-chosen calibration challenge set, not representative of remainder."
+}

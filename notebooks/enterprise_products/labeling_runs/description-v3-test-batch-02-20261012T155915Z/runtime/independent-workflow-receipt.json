@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "workflowRunId": "f5c51b46-eee4-4c1d-bfcb-32098e5739e8",
+  "state": "complete",
+  "createdAt": 1791821161905,
+  "entries": {
+    "labeler-test-batch-02": {
+      "key": "labeler-test-batch-02",
+      "agent": "enterprise-description-annotator",
+      "requestedContext": "fresh",
+      "resolvedContext": "fresh",
+      "outputReference": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/agents/labeler/result.json",
+      "continuation": {
+        "runIds": [
+          "02719031-d5f0-467c-a39f-160f4f37750e"
+        ]
+      },
+      "latestRunId": "02719031-d5f0-467c-a39f-160f4f37750e",
+      "resumability": {
+        "state": "resumable"
+      }
+    },
+    "blind-test-batch-02": {
+      "key": "blind-test-batch-02",
+      "agent": "enterprise-description-annotator",
+      "requestedContext": "fresh",
+      "resolvedContext": "fresh",
+      "outputReference": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/agents/blind/result.json",
+      "continuation": {
+        "runIds": [
+          "43b0afd6-2fb1-4ca3-949d-25acb07e1051"
+        ]
+      },
+      "latestRunId": "43b0afd6-2fb1-4ca3-949d-25acb07e1051",
+      "resumability": {
+        "state": "resumable"
+      }
+    }
+  },
+  "argsDigest": "9df18fe7fb551f57f1555152c2370f12a128ebbbadb8a9bed41e0dcf2f567563",
+  "workflowChildren": {
+    "version": 1,
+    "parentToolCallId": "call_f797f6f3536e46b283e43f09063e8567|fc_0a7b3898b10d5116016acd041a623c87d1b5ad80598c3769ee",
+    "workflowRunId": "f5c51b46-eee4-4c1d-bfcb-32098e5739e8",
+    "inventoryComplete": true,
+    "workflowState": "completed",
+    "children": [
+      {
+        "childId": "labeler-test-batch-02",
+        "state": "completed",
+        "runId": "02719031-d5f0-467c-a39f-160f4f37750e",
+        "agent": "enterprise-description-annotator",
+        "sessionName": "enterprise-description-annotator: Perform ONLY the independent labeler pass o...",
+        "model": "openai-codex/gpt-6-luna:high"
+      },
+      {
+        "childId": "blind-test-batch-02",
+        "state": "completed",
+        "runId": "43b0afd6-2fb1-4ca3-949d-25acb07e1051",
+        "agent": "enterprise-description-annotator",
+        "sessionName": "enterprise-description-annotator: Perform ONLY the independent blind pass on ...",
+        "model": "openai-codex/gpt-6-luna:high"
+      }
+    ]
+  }
+}

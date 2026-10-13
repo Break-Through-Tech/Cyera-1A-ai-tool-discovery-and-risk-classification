@@ -1,0 +1,166 @@
+[
+  {
+    "annotation_id": "ann_bc7d0a7e69fc94cbea1801da",
+    "description_sha256": "26c9e416d42f1411828473dc2d711490234568d0264055ac719626b42348ef7b",
+    "description": "Google Chromebox licenses for meetings software (management and support)",
+    "source_record_references": [
+      "84"
+    ],
+    "labeler": {
+      "annotation_id": "ann_bc7d0a7e69fc94cbea1801da",
+      "description_sha256": "26c9e416d42f1411828473dc2d711490234568d0264055ac719626b42348ef7b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes license offerings for conventional meetings software with management and support; no AI signal is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Google Chromebox licenses for meetings software (management and support)"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_bc7d0a7e69fc94cbea1801da",
+      "description_sha256": "26c9e416d42f1411828473dc2d711490234568d0264055ac719626b42348ef7b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies meeting-software licenses together with device management and support, which are conventional software and service functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Google Chromebox licenses for meetings software (management and support)"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "This is a license/support line for meetings software; no meeting or device-management operations are specified. Labeler rationale says conventional meetings; blind adds device management. Recheck whether text alone meaningfully establishes conventional functions or is too thin. Do not infer features from the product name. If insufficient retain the best binary as weak/forced."
+  },
+  {
+    "annotation_id": "ann_84f6485e7366557b3968639d",
+    "description_sha256": "da269c5934d7e1b8f16f79d1aa3e60b576d70722af31be4ef67fcd964add02c4",
+    "description": "Event content management system. Upload content, react to attendees realtime, provides insight",
+    "source_record_references": [
+      "88"
+    ],
+    "labeler": {
+      "annotation_id": "ann_84f6485e7366557b3968639d",
+      "description_sha256": "da269c5934d7e1b8f16f79d1aa3e60b576d70722af31be4ef67fcd964add02c4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Conventional event content management and real-time attendee interaction are described, but the included 'provides insight' feature is not explained and its mechanism (plain analytics versus AI-dependent) cannot be resolved from the text; weak non-AI judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Event content management system. Upload content, react to attendees realtime, provides insight"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_84f6485e7366557b3968639d",
+      "description_sha256": "da269c5934d7e1b8f16f79d1aa3e60b576d70722af31be4ef67fcd964add02c4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes event content management, uploading content, and real-time attendee interaction, but its unexplained reference to providing insight leaves the implementation of that function unclear.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Event content management system. Upload content, react to attendees realtime, provides insight"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Both original proposals mark this event CMS weak because provides insight is unexplained alongside upload/react functionality. Recheck whether that phrase actually introduces unresolved potentially AI-dependent behavior versus routine analytics. Do not turn agreement into support; explain final evidence confidence from text alone."
+  },
+  {
+    "annotation_id": "ann_701134fa18eff9a9f9a53133",
+    "description_sha256": "d52ede2852e324455b0cda0571fab4a37d2f6ac6373a9a122b3db22fd6369f4c",
+    "description": "G Suite, now Google WorkSpace, is the suite of cloud computing, productivity and collaboration tools, software and products developed by Google.",
+    "source_record_references": [
+      "90"
+    ],
+    "labeler": {
+      "annotation_id": "ann_701134fa18eff9a9f9a53133",
+      "description_sha256": "d52ede2852e324455b0cda0571fab4a37d2f6ac6373a9a122b3db22fd6369f4c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a suite of cloud computing, productivity and collaboration tools; these are conventional office-productivity functions, and no AI signal is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is the suite of cloud computing, productivity and collaboration tools"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_701134fa18eff9a9f9a53133",
+      "description_sha256": "d52ede2852e324455b0cda0571fab4a37d2f6ac6373a9a122b3db22fd6369f4c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes a suite of cloud computing, productivity, and collaboration tools, all of which are conventional software capabilities.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "G Suite, now Google WorkSpace, is the suite of cloud computing, productivity and collaboration tools, software and products developed by Google."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "This only names a suite of cloud computing/productivity/collaboration tools, not concrete functions. Both supported negatives mostly repeat broad categories and lack of AI signals. Check whether text sufficiently describes meaningful conventional functionality or remains underspecified; do not import familiar current product features."
+  },
+  {
+    "annotation_id": "ann_e3d92cc7dff7f739de454a6d",
+    "description_sha256": "27c20de27efc1b5671727fe898a8f725edf63eaba793fb11898a6e3e0789e085",
+    "description": "Moxtra is a collaboration and communication platform (SDKs/APIs) that is primarily mobile-oriented",
+    "source_record_references": [
+      "93"
+    ],
+    "labeler": {
+      "annotation_id": "ann_e3d92cc7dff7f739de454a6d",
+      "description_sha256": "27c20de27efc1b5671727fe898a8f725edf63eaba793fb11898a6e3e0789e085",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a collaboration and communication platform with SDKs/APIs that is primarily mobile-oriented, a conventional messaging and collaboration function; no AI signal is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "collaboration and communication platform (SDKs/APIs) that is primarily mobile-oriented"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_e3d92cc7dff7f739de454a6d",
+      "description_sha256": "27c20de27efc1b5671727fe898a8f725edf63eaba793fb11898a6e3e0789e085",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a mobile-oriented collaboration and communication platform delivered through SDKs and APIs, which is conventional platform functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Moxtra is a collaboration and communication platform (SDKs/APIs) that is primarily mobile-oriented"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Description gives a collaboration/communication platform, SDKs/APIs and mobile orientation but no messaging or collaboration operations. Labeler adds messaging. Recheck whether the text genuinely supports a conventional negative or relies on generic categories/inferred features. Preserve weak/forced uncertainty where needed."
+  }
+]

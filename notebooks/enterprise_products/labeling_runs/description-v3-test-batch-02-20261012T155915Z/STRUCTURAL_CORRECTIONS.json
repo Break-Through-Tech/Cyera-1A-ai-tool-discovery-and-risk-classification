@@ -1,0 +1,29 @@
+{
+  "scope": "Exact source whitespace in output quotations only; no input text or semantic judgment changed. Raw native outputs, private checkpoints and session captures remain unchanged.",
+  "corrections": [
+    {
+      "stage": "labeler",
+      "annotation_id": "ann_969f3d9601118d045bf6bda6",
+      "field": "evidence_spans",
+      "raw_quote": "Models represent the relationships between these artifacts",
+      "exact_source_span": "Models represent the relationships between\nthese artifacts",
+      "reason": "Original embedded line breaks restored; no word or semantic-field change"
+    },
+    {
+      "stage": "blind",
+      "annotation_id": "ann_969f3d9601118d045bf6bda6",
+      "field": "evidence_spans",
+      "raw_quote": "They provide a central repository to capture data and metadata about the artifacts that an enterprise cares about and their related life cycles.",
+      "exact_source_span": "They provide a central repository to capture data and metadata about the artifacts that\nan enterprise cares about and their related life cycles.",
+      "reason": "Original embedded line breaks restored; no word or semantic-field change"
+    },
+    {
+      "stage": "blind",
+      "annotation_id": "ann_969f3d9601118d045bf6bda6",
+      "field": "evidence_spans",
+      "raw_quote": "Models represent the relationships between these artifacts and are themselves treated as assets that help describe and shape the future of the enterprise.",
+      "exact_source_span": "Models represent the relationships between\nthese artifacts and are themselves treated as assets that help describe and shape the future of the\nenterprise.",
+      "reason": "Original embedded line breaks restored; no word or semantic-field change"
+    }
+  ]
+}
