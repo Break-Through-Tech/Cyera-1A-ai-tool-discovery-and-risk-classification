@@ -1,6 +1,6 @@
 # Binary AI/non-AI dataset preparation
 
-This directory contains the offline preparation pipeline. Milestone 1 freezes the finalized enterprise `enterprise-description-only-v3` labels at source cutoff `28a32b79f8f4c7ab000e2e66ba7fd21202d3dd44`. It does not merge ToolBuzz, split data, fit features/models, choose thresholds, or evaluate previously unseen tools.
+This directory contains the offline preparation pipeline. Milestone 1 freezes the finalized enterprise `enterprise-description-only-v3` labels, and milestone 2 builds the unified candidate dataset, both at source cutoff `28a32b79f8f4c7ab000e2e66ba7fd21202d3dd44`. No partition assignment, feature fitting, model training, threshold selection, or previously-unseen-tool evaluation occurs.
 
 ## Reproduce enterprise label freeze
 
@@ -13,6 +13,25 @@ python3 -m unittest discover -s notebooks/enterprise_products -p 'test_*.py'
 ```
 
 The script reads only Git-tracked files at the pinned cutoff using `git show`/`git ls-tree`; it does not read later working-tree labeling artifacts. It validates completed acceptance markers and finalized exports, exact source text and SHA-256, exact supporting quotations, binary/subtype fields, source-record joins, and record/description coverage. It stops on conflicting binary annotations, malformed exports, lost/duplicate mappings, source mismatch, or an existing non-empty output directory. Delete/rename an output directory only after explicit review; do not hand-edit generated data.
+
+## Build the unified candidate dataset (milestone 2)
+
+After milestone 1 has generated `data/binary_ai_dataset/v1/`, run:
+
+```sh
+python3 notebooks/binary_dataset/build_unified_dataset.py build
+python3 -m unittest discover -s notebooks/binary_dataset -p 'test_*.py'
+```
+
+The builder reads the pinned AIToolBuzz CSV from Git and verifies the checksums/cutoff of all three frozen v1 artifacts before reuse. It validates the CSV header and every row width. It emits exactly one enterprise example per supported distinct description, with all trusted source-record/taxonomy memberships in metadata; weak/forced enterprise annotations remain only in the v1 audit freeze and never enter the unified examples. Each usable AIToolBuzz source row remains a candidate example labeled `ai`; this label is inferred solely from inclusion in the AIToolBuzz catalog, not independently validated AI functionality. Catalog misclassification and description quality are therefore material label/source-quality risks. Empty/whitespace-only descriptions are excluded and listed in the exclusions audit. Exact source text is retained; casefold/trim/whitespace normalization is metadata only and does not deduplicate candidates. Names, vendors, URLs, categories, taxonomy, keywords, labels, and provenance are metadata; the only permitted model feature is `description_text`.
+
+Generated milestone-2 paths (do not hand-edit):
+
+- `data/binary_ai_dataset/v2/examples.json` — unified candidates with stable IDs, exact text/hash, label, metadata, and source memberships.
+- `data/binary_ai_dataset/v2/exclusions.json` — AIToolBuzz records excluded for empty descriptions, including source IDs and limited identification metadata.
+- `data/binary_ai_dataset/v2/manifest.json` — measured counts, input schemas, pinned input and output SHA-256 values, source cutoff, feature allowlist, and versioned selection/normalization/dedup policies.
+
+At the pinned cutoff the raw AIToolBuzz file contains **16,762 records**; **530** have empty/whitespace-only descriptions and are excluded, leaving **16,232** candidate AI rows (**16,213** distinct exact texts). Combined with **456** trusted enterprise descriptions (**40 AI, 416 non-AI; 471 source-record memberships**), the unified candidate pool has **16,688 examples**. Duplicates, including identical descriptions across sources, are intentionally retained as candidates for milestone 3. These counts are generated and checked, not hard-coded targets.
 
 Generated paths (created only by the script):
 

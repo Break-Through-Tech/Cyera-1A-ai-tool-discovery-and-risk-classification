@@ -1,0 +1,74 @@
+{
+  "source_cutoff": "28a32b79f8f4c7ab000e2e66ba7fd21202d3dd44",
+  "examples": 16688,
+  "source_records": {
+    "enterprise": 577,
+    "aitoolbuzz": 16762
+  },
+  "examples_by_source_and_class": {
+    "enterprise:ai": 40,
+    "enterprise:non_ai": 416,
+    "aitoolbuzz:ai": 16232,
+    "aitoolbuzz:non_ai": 0
+  },
+  "excluded_by_source_and_reason": {
+    "aitoolbuzz:empty_description": 530
+  },
+  "aitoolbuzz_usable_description_rows": 16232,
+  "aitoolbuzz_distinct_usable_exact_descriptions": 16213,
+  "enterprise_distinct_trusted_descriptions": 456,
+  "enterprise_record_memberships": 471,
+  "input_schema": {
+    "aitoolbuzz_csv": [
+      "Name",
+      "Link",
+      "Logo",
+      "Category",
+      "Primary Task",
+      "Keywords",
+      "Year Founded",
+      "Short Description",
+      "Country",
+      "industry",
+      "technologies",
+      "Website",
+      "Website Status"
+    ],
+    "enterprise_description_fields": [
+      "product_description",
+      "description_sha256",
+      "ai_status",
+      "evidence_strength",
+      "trusted_eligible"
+    ],
+    "enterprise_record_fields": [
+      "source_record_number",
+      "product_group_id",
+      "product_name",
+      "vendor_name",
+      "taxonomy_category",
+      "taxonomy_sub_category",
+      "product_description",
+      "description_sha256",
+      "ai_status",
+      "trusted_eligible"
+    ]
+  },
+  "feature_allowlist": [
+    "description_text"
+  ],
+  "selection_policy_version": "unified-v1: supported enterprise binary labels plus all nonblank AIToolBuzz Short Description rows labeled ai",
+  "normalization_policy_version": "matching-v1: Unicode casefold; trim and collapse whitespace; punctuation retained; metadata only",
+  "deduplication_policy_version": "candidate-v1: retain source records; enterprise exact descriptions have one example with all record memberships; no cross-source deduplication",
+  "partition_assignment": "not assigned in this phase",
+  "input_sha256": {
+    "aitoolbuzz_csv": "a7d86e4cb4e569cc230d80e96622013e638eebe424fd20d029350e765eb8c32f",
+    "enterprise_descriptions.json": "bcbef8f94046b54ced3b03dc70e98b9ec51f749a49b4f07cab8ed1fa9c093f8a",
+    "enterprise_records.csv": "32d8f9499782340055dae8197c9d72acb93ff7339446bfbda93435ea46b5891c",
+    "enterprise_manifest.json": "dd6af6872984dc22003d7b41133c1cfff3dcad683d3261da6aed98233fb056d4"
+  },
+  "artifact_sha256": {
+    "examples.json": "7fd80a5fb47ddb933b8d9c01d64a963086823d63bd2cad3df628cd8b0ec91606",
+    "exclusions.json": "f125cfca8a8020f9c5273d47f1f3e8a213f7371250fee72bcb5ec17cb8ecc645"
+  }
+}
