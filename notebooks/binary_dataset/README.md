@@ -1,6 +1,49 @@
 # Binary AI/non-AI dataset preparation
 
-Offline preparation is frozen through v4 at source cutoff `28a32b79f8f4c7ab000e2e66ba7fd21202d3dd44`. Final state: **PREPARED AWAITING USER REVIEW**. No model training, vectorizer/embedding fitting, threshold selection, or application work has occurred.
+Offline preparation is frozen through v4 at source cutoff `28a32b79f8f4c7ab000e2e66ba7fd21202d3dd44`. The user reviewed preparation and notebook Steps 1–3 and approved held-out testing. **Step 4 freezes the selected C=10, balanced model at a 0.5 AI score cutoff before evaluating test.** Preparation itself performed no model fitting. Notebook preprocessing and models fit train only; settings were selected on validation. No test-based tuning, calibration, model export, or application work is implemented.
+
+## First baseline notebook — Step 4 held-out test
+
+Open [first_binary_baseline.ipynb](first_binary_baseline.ipynb) for dataset integrity
+checks, class/source summaries, dummy/keyword validation baselines, and **train-only
+TF-IDF + logistic regression**. Step 3 compares `C={0.1,1,10}` with ordinary versus
+balanced class weighting, selecting by pooled validation macro-F1 at the default
+0.5 cutoff. Exact ties retain the first setting (lower C, then ordinary weighting).
+The pipeline learns word unigrams/bigrams with `min_df=2`; source metadata is not a
+feature. Step 4 verifies the approved model/cutoff before loading test descriptions;
+it evaluates only that learned model and the unchanged dummy/keyword baselines.
+
+From the repository root (Python 3):
+
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r notebooks/binary_dataset/requirements.txt
+python -m jupyter lab notebooks/binary_dataset/first_binary_baseline.ipynb
+```
+
+Select the Python 3 kernel and run all cells from top to bottom. The notebook
+locates the repository from its working directory, reads the frozen v4 artifacts
+without modifying them, and fails if their recorded checksums/counts no longer
+match. Step 2 reports per-class precision/recall/F1, macro-F1, confusion matrices,
+error counts and previews, pure enterprise and enterprise-member cohorts, and
+AIToolBuzz-member AI recall. Member cohorts include merged examples and overlap;
+metrics count model examples once per cohort, not original source-record members.
+The rule has no negation handling and returns labels rather than confidence scores.
+Step 3 adds per-class PR-AUC/AP, all six setting comparisons, selected-model cohort
+results, learned terms, and validation mistakes. Learned probability outputs are
+uncalibrated scores, not verified confidence. Convergence warnings fail training.
+Step 4 reports held-out pooled/per-class metrics, PR-AUC/AP, source-specific behavior,
+all six enterprise AI decisions, and diagnostic error previews. Test macro-F1 is
+**0.9593** with **5 false positives and 5 missed AI examples**; enterprise AI recall
+is only **3/6**, versus **6/6** for the keyword rule. Review the source-specific
+limitations alongside pooled results. The existing requirements cover this stage;
+no model bundle is exported.
+
+**The test split is now used for the frozen experiment.** Do not tune from its results
+or use it to choose future models/rules/thresholds while claiming independent final
+performance. Running all cells reproduces the same settled experiment; the test stage
+refuses a selected configuration other than the approved C=10/balanced/0.5 policy.
 
 ## Frozen phase artifacts
 
