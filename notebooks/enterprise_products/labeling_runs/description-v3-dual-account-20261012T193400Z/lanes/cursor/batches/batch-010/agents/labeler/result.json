@@ -1,0 +1,341 @@
+{
+  "stage": "labeler",
+  "records": [
+    {
+      "annotation_id": "ann_53467a811c91dad7cf915f1b",
+      "description_sha256": "9e229521a8ef71d493cf31e333ff760508b10d5c74d66c5d3e1fbba480377677",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional network configuration management, compliance, and a process-driven workflow model; no AI mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "manage network configurations and meet compliance",
+        "Its process-driven model prevents errors and reduces costs"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_ea41ace4c5bf5ef6b34aa0fc",
+      "description_sha256": "a7b2b0bbd9d1e0c9669f8765ea79b6b3f7e63610a21934cb82a4fa12eb4628f7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional synthetic monitoring tool that simulates user interactions with applications; no AI mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Micro Focus Business Process Monitor is a synthetic monitoring tool",
+        "simulating user interactions with monitored applications"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_63cbd281635cc762448c5838",
+      "description_sha256": "456071e638859eefbddb8bf1fc0afb7e8fcd4e2c55276b2c431f60fcf9ebed9c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Names conventional monitoring, capacity, and performance management for virtualized and cloud environments; no AI mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Monitoring, capacity and performance management for virtualized and cloud environments"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_060c8eb010885ba0f3c4cdcc",
+      "description_sha256": "086848c77b2a3a81598725bcbdf27f1930c3c1ad334e6da42257879b2ccab96a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Core described function is code-level visibility into transaction activity, a conventional APM capability. The unspecified term 'analytics' does not establish any AI or ML implementation, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is the analytics and issue diagnostics'component of the Application Performance Management suite",
+        "It provides code-level visibility into transaction activity across applications and the network they are operating on"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_f176caf69dfe820465e1ef6c",
+      "description_sha256": "4a655eb3a338bc02e9133e8cf0954cc4b5130ec79a46d7ddc3ce697f3a883853",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional network capture that records and analyzes traffic to measure latency, packet loss, and available bandwidth; no AI mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "lets you easily and accurately record and analyze network behavior, including condi- tions such as latency, packet loss, and avail- able bandwidth"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_d2280f5612aefead910587c8",
+      "description_sha256": "1f4ab40dfcc87e6a51da4531b44f7c4e7ef20481eb831ba92d77ab23eac43563",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes rule-based remote monitoring and automated configuration, change, and compliance tasks; routine automation with no AI mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is remote monitoring and management software that enables users to drive automated configuration, change, and security compliance across their enterprise network",
+        "Automate'time-consuming manual compliance and configuration tasks."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_b8c278166f02aaff926e5117",
+      "description_sha256": "b681f5993e11d3d9bf31493758061ca50d837871eaa27c711377fe06b018efd0",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "Product-specific affirmative AI mention: the platform is described as the first container-based platform for AIOps.",
+      "ai_type_rationale": "The described core functions (service management, cloud management, monitoring) are conventional; AIOps appears as the platform category label and the text does not establish that the core depends on AI, so enabled is weak.",
+      "evidence_spans": [
+        "the industrys first container-based platform for AIOps"
+      ],
+      "ai_type_evidence_spans": [
+        "enables us to rapidly deliver innovations in service management, cloud management, and application and infrastructure monitoring"
+      ]
+    },
+    {
+      "annotation_id": "ann_a6455718b5ea553f7efc3f59",
+      "description_sha256": "961a03a14a34ecb76444cc0d2238b1433cfa50ccc2d0b5eaf8f6c6046b01a474",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional performance testing suite that emulates concurrent users and identifies bottlenecks; no AI mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "can emulate hundreds or thousands of concurrent users to apply production workloads to virtually any environment",
+        "identify potential performance bottlenecks"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_3baaa1c8bcb14b331092786a",
+      "description_sha256": "9250e9c4d7efe1b9ee60c05e41b417ffe6e30b0efbabb88acfff8de3993120dc",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional automation tooling for IT compliance and vulnerability management; routine automation with no AI mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Data Center Automation Software & Tools to automate IT compliance and vulnerability risk management across your hybrid enterprise"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_bf01219887fe8d055d34bfa6",
+      "description_sha256": "43a4f1d0e50e2df1e3f70bf563ab36b341d25b5e0873f9baaeb43f6a3863fb8f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional unified network management with automated topology, health, and configuration status views; no AI mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "the first heteroge- neous'network management solution to provide unified management for modern networks",
+        "automated network'topology, health, and configuration status and details at their disposal"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_e10f9895965d89631dad24c5",
+      "description_sha256": "b94903b39ac582566d0f49e1327e7837e018e2f3575b97617ac5f08c2c78aa1f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional simulation software that emulates application behavior and virtual services; no AI mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is simulation software that creates realistic, production environment emulations of application behavior and virtual services"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_8932b1c81aa05f9216b5e7db",
+      "description_sha256": "447784fc4de299b8d21cda55714daad6261534f0b17c5de835eb99c8d180e191",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional agentless infrastructure monitoring across many asset types; no AI mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an agentless monitoring solution that helps users constantly monitor and improve the performance and availability of more than 100 types of IT assets"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_726416da91bdb3464e592f96",
+      "description_sha256": "9fed47f1769fe899c695794c5d6114c1e72ee187da490f48166f8ae3b37de303",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Explicit AI/ML mention: the product is an AIOps (Artificial Intelligence for IT Operations) approach driven by real-time machine learning to detect anomalies.",
+      "ai_type_rationale": "The described core offering, event management and anomaly detection, is stated to be driven by real-time machine learning, so the core depends on AI.",
+      "evidence_spans": [
+        "Artificial Intelligence for IT Operations",
+        "driven by real-time machine learning to detect anomalies across your production stack of applications, infrastructure and monitoring tools"
+      ],
+      "ai_type_evidence_spans": [
+        "is a next generation approach to event management, driven by real-time machine learning to detect anomalies"
+      ]
+    },
+    {
+      "annotation_id": "ann_79a43cf11c4d62330238566b",
+      "description_sha256": "e879b1d7472a51c3502931aa33fca2ff2ff993f6f344e1c6c6f0887b5dd18111",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional open-source host and service monitoring with threshold-style alerting; no AI mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is an Open Source system and network monitoring application",
+        "It watches hosts and services that you specify, alerting you when things go bad and when they get better"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_cfc6341ea47f3c200778e268",
+      "description_sha256": "0814473f1fcae2f3bc97cc6ebc423981a1666a1a3e3fd6484dc0db6c913f007b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional packet flow switch architecture that provides packet visibility to monitoring or security appliances; no AI mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "enables strategic packet visibility that scales and operates dynamically"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_e77cdc605e0783720e1f3f98",
+      "description_sha256": "06bbc18a69f3317bd1a65dc39f120b113f1ca5b5b383291a2ba774440446b7e8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional browser-integrated HTTP viewer and debugger for HTTP and HTTPS traffic; no AI mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is an HTTP viewer and debugger that integrates with Internet Explorer to provide seamless HTTP and HTTPS"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_03ec09d87e719960d451f0e2",
+      "description_sha256": "1add358af16b332be6bd2a5630706e0398a3b2c9b291b46bd573eb5993f914be",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional metrics collection, processing, and dashboard viewing. The claim to 'instantly detect anomalies' does not establish whether detection is rule-based or AI/ML, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "New Relic APM helps software teams instantly detect anomalies, discover root cause, and optimize performance",
+        "New Relic receives data over the network and then processes and analyzes it"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_94e5c22c8617ee7ed3e64630",
+      "description_sha256": "d3bd00dc3408fcaaa5a332d8b0ac42097e893ad1c425c1c0273f4468e2529ce3",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional multi-platform log collection from files and network protocols (UDP, TCP, TLS/SSL); no AI mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "NXLog Enterprise Edition is a modular, multi-threaded, high-performance log collection solution with multi-platform support",
+        "It can collect logs from files in various formats, receive logs from the network remotely over UDP, TCP or TLS/SSL"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_69a2a79c272a2d2767cc179f",
+      "description_sha256": "574fa5e6ff11d65b17df7bab7464597e8ee23ebfafa8bb09eb0dda821ae43c21",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "'Expert systems technologies' is a named AI technique and an affirmative product-specific claim, but the text does not explicitly say AI or ML and expert systems can denote deterministic rule engines, so the positive is weak.",
+      "ai_type_rationale": "The core monitoring and control function is described as performed using expert systems technology, but the text does not establish how central inference is versus rule-based logic, so ai_native is weak.",
+      "evidence_spans": [
+        "monitors and controls networks and service impacting resources using object-oriented and expert systems technologies"
+      ],
+      "ai_type_evidence_spans": [
+        "monitors and controls networks and service impacting resources using object-oriented and expert systems technologies"
+      ]
+    },
+    {
+      "annotation_id": "ann_5f99adedbc637c22ab5ddb08",
+      "description_sha256": "1ff1af4c6bf78f0751e96ec32474243b8fb702c7f0acff25eeb1f41bfbdd23c7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Only a generic 'analytics and customer data platform' is described with no concrete functions, and 'analytics' does not establish conventional versus AI functionality, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Piwik PRO is an analytics and customer data platform tailored to the individual needs of enterprise clients"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  ]
+}

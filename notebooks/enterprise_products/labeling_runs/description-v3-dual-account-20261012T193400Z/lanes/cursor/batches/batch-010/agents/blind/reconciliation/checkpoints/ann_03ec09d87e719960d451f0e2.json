@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_03ec09d87e719960d451f0e2",
+  "description_sha256": "1add358af16b332be6bd2a5630706e0398a3b2c9b291b46bd573eb5993f914be",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The text clearly describes APM metric collection, processing, analysis, and dashboard viewing, but its claims of anomaly detection and root-cause discovery do not specify a conventional or AI implementation.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "New Relic APM helps software teams instantly detect anomalies, discover root cause, and optimize performance",
+    "New Relic APM collects and stores metrics and data from web-based and other associated applications within the enterprise. New Relic receives data over the network and then processes and analyzes it. Users view the data through a dashboard-type interface."
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The labeler correctly preserved the unresolved ambiguity in the anomaly-detection claim. The blind supported negative is narrowed to weak/forced because the description supplies conventional metric-processing details but does not explain whether anomaly detection or root-cause discovery is rule-based or AI/ML; no affirmative AI signal is established."
+}

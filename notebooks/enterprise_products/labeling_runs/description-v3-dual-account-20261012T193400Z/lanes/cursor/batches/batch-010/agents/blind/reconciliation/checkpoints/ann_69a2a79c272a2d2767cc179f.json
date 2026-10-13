@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_69a2a79c272a2d2767cc179f",
+  "description_sha256": "574fa5e6ff11d65b17df7bab7464597e8ee23ebfafa8bb09eb0dda821ae43c21",
+  "ai_status": "ai",
+  "ai_type": "ai_native",
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "The description applies the product-specific phrase 'expert systems technologies' to its network monitoring and control, which is an AI-adjacent affirmative signal, but the text does not explicitly establish AI/ML semantics.",
+  "ai_type_rationale": "The same sentence places the expert-systems technology in the core monitoring and control function, supporting ai_native as the best subtype, but it does not establish how that technology operates or how central AI inference is.",
+  "evidence_spans": [
+    "NetExpert monitors and controls networks and service impacting resources using object-oriented and expert systems technologies."
+  ],
+  "ai_type_evidence_spans": [
+    "NetExpert monitors and controls networks and service impacting resources using object-oriented and expert systems technologies."
+  ],
+  "conflict_response": "The labeler's uncertainty is retained for both fields. 'Expert systems technologies' is product-specific and sufficiently AI-adjacent to retain the positive binary judgment, but the description does not itself say AI or ML or explain the technology beyond its name. Because the technology is described as performing the core monitoring and control, ai_native is the best subtype, while both the binary and subtype evidence remain weak and forced."
+}

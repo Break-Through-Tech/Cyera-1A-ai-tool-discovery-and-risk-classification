@@ -1,0 +1,42 @@
+{
+  "status": "finalized",
+  "batch_id": "batch-010",
+  "selected_descriptions": 20,
+  "selected_rows": 20,
+  "exact_plan_hash_and_reference_coverage": true,
+  "exact_schema_quotes_provenance_checkpoint_equality": true,
+  "independent_results_registered_before_comparison": true,
+  "raw_results_and_private_checkpoints_preserved_unchanged": true,
+  "raw_hash_receipt": "runtime/independent-result-hashes.json",
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "transport_observations": {
+    "labeler": "Native Cursor CLI, Claude Haiku 5.5 300K High, explicit --model and --workspace; complete result and 20 checkpoints observed",
+    "blind": "Native Cursor CLI, GPT-5.6 Luna 272K High, explicit --model and --workspace; complete blind result and 20 checkpoints observed; same context performed one 5-ID reconciliation"
+  },
+  "reconciliation_count": 5,
+  "helper_required_reconciliation_ids": [
+    "ann_03ec09d87e719960d451f0e2",
+    "ann_060c8eb010885ba0f3c4cdcc",
+    "ann_5f99adedbc637c22ab5ddb08",
+    "ann_69a2a79c272a2d2767cc179f",
+    "ann_b8c278166f02aaff926e5117"
+  ],
+  "integration_support_concerns": "Concrete analytics/anomaly/AIOps/expert-systems support concerns reviewed against supplied descriptions and both proposals; routed once to same Luna verifier. No integration-owner semantic replacement.",
+  "semantic_review": "Inspected all 20 exact text/proposal pairs. Reconciled five helper-weak/subtype cases. Weak final binary/subtype judgments retained and flagged; AI binary and subtype evidence kept independent.",
+  "final_binary_weak_count": 3,
+  "final_subtype_weak_count": 2,
+  "exports_verified": true,
+  "export_hashes": {
+    "description_labels.json": "0579d63d47af3511cb494ee81eef72b555210f64699d7021ae348492cdd82738",
+    "record_labels.json": "77fee67b34360ef9871d8a72c13f949352f2bd3f8cb5c336f9a6f6e63564c7cb",
+    "review_ledger.json": "bae8dfb237ac2f68e10d6825104f5044d0d69e92071959e761128ae59598c687",
+    "review_queue.json": "77fbf13cee51ed81683a44f6e45e0645250e62b4835f1290f59035a9295c30b6",
+    "non_ai_candidates.csv": "58421183ba681a60f257601e628ae325c26fb00e4982656aec751550f2372fb0",
+    "calibration_report.json": "e12c65d7cb1fe8db70770c372c310c4af2151a6d0e81efe0d6b6db83d9011c02"
+  },
+  "cost_usd": null,
+  "billed_tokens": null
+}

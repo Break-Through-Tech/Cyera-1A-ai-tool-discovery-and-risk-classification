@@ -1,0 +1,96 @@
+{
+  "stage": "reconciliation",
+  "records": [
+    {
+      "annotation_id": "ann_03ec09d87e719960d451f0e2",
+      "description_sha256": "1add358af16b332be6bd2a5630706e0398a3b2c9b291b46bd573eb5993f914be",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text clearly describes APM metric collection, processing, analysis, and dashboard viewing, but its claims of anomaly detection and root-cause discovery do not specify a conventional or AI implementation.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "New Relic APM helps software teams instantly detect anomalies, discover root cause, and optimize performance",
+        "New Relic APM collects and stores metrics and data from web-based and other associated applications within the enterprise. New Relic receives data over the network and then processes and analyzes it. Users view the data through a dashboard-type interface."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler correctly preserved the unresolved ambiguity in the anomaly-detection claim. The blind supported negative is narrowed to weak/forced because the description supplies conventional metric-processing details but does not explain whether anomaly detection or root-cause discovery is rule-based or AI/ML; no affirmative AI signal is established."
+    },
+    {
+      "annotation_id": "ann_060c8eb010885ba0f3c4cdcc",
+      "description_sha256": "086848c77b2a3a81598725bcbdf27f1930c3c1ad334e6da42257879b2ccab96a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description meaningfully specifies conventional APM issue diagnostics and code-level visibility into transaction activity across applications and networks, without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is the analytics and issue diagnostics'component of the Application Performance Management suite",
+        "It provides code-level visibility into transaction activity across applications and the network they are operating on"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The supplied text resolves the concern sufficiently for a supported conventional negative: although it uses the broad term analytics, it identifies the concrete core functions as issue diagnostics and code-level visibility into transaction activity, plus integration with the APM suite. Nothing in that description establishes AI-dependent functionality."
+    },
+    {
+      "annotation_id": "ann_5f99adedbc637c22ab5ddb08",
+      "description_sha256": "1ff1af4c6bf78f0751e96ec32474243b8fb702c7f0acff25eeb1f41bfbdd23c7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description names an analytics and customer data platform but gives no concrete conventional functions and no affirmative AI signal, so the negative remains weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Piwik PRO is an analytics and customer data platform tailored to the individual needs of enterprise clients."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's weak decision is retained. The single sentence identifies the product category but does not explain what the analytics or customer-data functions actually do; analytics alone is ambiguous under the rubric. The text supplies no affirmative AI signal either, so the best binary judgment is non_ai with weak evidence and a forced decision."
+    },
+    {
+      "annotation_id": "ann_69a2a79c272a2d2767cc179f",
+      "description_sha256": "574fa5e6ff11d65b17df7bab7464597e8ee23ebfafa8bb09eb0dda821ae43c21",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The description applies the product-specific phrase 'expert systems technologies' to its network monitoring and control, which is an AI-adjacent affirmative signal, but the text does not explicitly establish AI/ML semantics.",
+      "ai_type_rationale": "The same sentence places the expert-systems technology in the core monitoring and control function, supporting ai_native as the best subtype, but it does not establish how that technology operates or how central AI inference is.",
+      "evidence_spans": [
+        "NetExpert monitors and controls networks and service impacting resources using object-oriented and expert systems technologies."
+      ],
+      "ai_type_evidence_spans": [
+        "NetExpert monitors and controls networks and service impacting resources using object-oriented and expert systems technologies."
+      ],
+      "conflict_response": "The labeler's uncertainty is retained for both fields. 'Expert systems technologies' is product-specific and sufficiently AI-adjacent to retain the positive binary judgment, but the description does not itself say AI or ML or explain the technology beyond its name. Because the technology is described as performing the core monitoring and control, ai_native is the best subtype, while both the binary and subtype evidence remain weak and forced."
+    },
+    {
+      "annotation_id": "ann_b8c278166f02aaff926e5117",
+      "description_sha256": "b681f5993e11d3d9bf31493758061ca50d837871eaa27c711377fe06b018efd0",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The description explicitly calls the platform a platform for AIOps, establishing a product-specific AI signal.",
+      "ai_type_rationale": "The description also lists service management, cloud management, and application and infrastructure monitoring, but does not establish whether the meaningful core depends on AI; ai_enabled is retained as the best-supported subtype with weak evidence.",
+      "evidence_spans": [
+        "The Micro Focus'ITOM Platform, the industrys first container-based platform for AIOps, enables us to rapidly deliver innovations in service management, cloud management, and application and infrastructure monitoring that can be deployed on public and private cloud or traditional infrastructure"
+      ],
+      "ai_type_evidence_spans": [
+        "The Micro Focus'ITOM Platform, the industrys first container-based platform for AIOps"
+      ],
+      "conflict_response": "Both proposals agree that the AIOps wording supports the binary positive, so that supported judgment is unchanged. The subtype remains weak and forced: the description names AIOps but simultaneously describes conventional service, cloud, application, and infrastructure management, without stating that the platform's meaningful core depends on AI or that AIOps is merely an enhancement. The text therefore does not justify upgrading ai_enabled beyond weak reviewed metadata."
+    }
+  ]
+}

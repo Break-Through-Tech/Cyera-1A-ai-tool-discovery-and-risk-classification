@@ -1,0 +1,331 @@
+{
+  "stage": "blind",
+  "records": [
+    {
+      "annotation_id": "ann_53467a811c91dad7cf915f1b",
+      "description_sha256": "9e229521a8ef71d493cf31e333ff760508b10d5c74d66c5d3e1fbba480377677",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes network configuration management, compliance, error prevention, and cost reduction without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Micro Focus' Network Automation (NA) helps Global 2000 companies, government agencies, and service providers manage network configurations and meet compliance. Its process-driven model prevents errors and reduces costs. NA is included with Network Operations'Management our comprehensive network management"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_ea41ace4c5bf5ef6b34aa0fc",
+      "description_sha256": "a7b2b0bbd9d1e0c9669f8765ea79b6b3f7e63610a21934cb82a4fa12eb4628f7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes synthetic monitoring that simulates user interactions across applications and environments, without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Micro Focus Business Process Monitor is a synthetic monitoring tool. It enables proactive monitoring of enterprise, hybrid, cloud, and mobile applications by simulating user interactions with monitored applications."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_63cbd281635cc762448c5838",
+      "description_sha256": "456071e638859eefbddb8bf1fc0afb7e8fcd4e2c55276b2c431f60fcf9ebed9c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes monitoring, capacity management, and performance management for virtualized and cloud environments without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Monitoring, capacity and performance management for virtualized and cloud environments"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_060c8eb010885ba0f3c4cdcc",
+      "description_sha256": "086848c77b2a3a81598725bcbdf27f1930c3c1ad334e6da42257879b2ccab96a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes analytics, issue diagnostics, and code-level visibility into transaction activity as conventional application performance management functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Micro Focus Diagnostics'is the analytics and issue diagnostics'component of the Application Performance Management suite. It provides code-level visibility into transaction activity across applications and the network they are operating on. ... The program integrates with the rest of the Micro Focus'APM suite."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_f176caf69dfe820465e1ef6c",
+      "description_sha256": "4a655eb3a338bc02e9133e8cf0954cc4b5130ec79a46d7ddc3ce697f3a883853",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes recording and analyzing network behavior and performance measures such as latency, packet loss, and bandwidth without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Network Capture is a flexible and powerful network performance measurement solution that lets you easily and accurately record and analyze network behavior, including condi- tions such as latency, packet loss, and avail- able bandwidth."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_d2280f5612aefead910587c8",
+      "description_sha256": "1f4ab40dfcc87e6a51da4531b44f7c4e7ef20481eb831ba92d77ab23eac43563",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes remote network monitoring, management, automated configuration, and security compliance tasks without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Micro Focus Network Automation is remote monitoring and management software that enables users to drive automated configuration, change, and security compliance across their enterprise network.   Automate'time-consuming manual compliance and configuration tasks.  Micro Focus' Network Automation (NA) helps Global 2000 companies, government agencies, and service providers manage network configurations and meet compliance. Its process-driven model prevents errors and reduces costs. NA is included with Network Operations'Management our comprehensive network management"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_b8c278166f02aaff926e5117",
+      "description_sha256": "b681f5993e11d3d9bf31493758061ca50d837871eaa27c711377fe06b018efd0",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The description explicitly identifies the platform as being for AIOps, which is a product-specific AI signal; it also describes conventional service, cloud, application, and infrastructure management.",
+      "ai_type_rationale": "The description does not establish whether AI is essential to the platform's meaningful core offering because it lists substantial conventional management and monitoring functions alongside AIOps.",
+      "evidence_spans": [
+        "The Micro Focus'ITOM Platform, the industrys first container-based platform for AIOps, enables us to rapidly deliver innovations in service management, cloud management, and application and infrastructure monitoring that can be deployed on public and private cloud or traditional infrastructure"
+      ],
+      "ai_type_evidence_spans": [
+        "The Micro Focus'ITOM Platform, the industrys first container-based platform for AIOps, enables us to rapidly deliver innovations in service management, cloud management, and application and infrastructure monitoring that can be deployed on public and private cloud or traditional infrastructure"
+      ]
+    },
+    {
+      "annotation_id": "ann_a6455718b5ea553f7efc3f59",
+      "description_sha256": "961a03a14a34ecb76444cc0d2238b1433cfa50ccc2d0b5eaf8f6c6046b01a474",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes performance testing with emulated concurrent users, production workloads, bottleneck identification, and diagnosis without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Micro Focus Performance Center is a suite of integrated performance'testing solutions that can emulate hundreds or thousands of concurrent users to apply production workloads to virtually any environment; identify potential performance bottlenecks; and help diagnose and fix the root cause of the problems."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_3baaa1c8bcb14b331092786a",
+      "description_sha256": "9250e9c4d7efe1b9ee60c05e41b417ffe6e30b0efbabb88acfff8de3993120dc",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes data center automation for IT compliance and vulnerability risk management without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Data Center Automation Software & Tools to automate IT compliance and vulnerability risk management across your hybrid enterprise"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_bf01219887fe8d055d34bfa6",
+      "description_sha256": "43a4f1d0e50e2df1e3f70bf563ab36b341d25b5e0873f9baaeb43f6a3863fb8f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes unified network management with automated topology, health, and configuration status details without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Micro Focus' Network Operations'Management is the first heteroge- neous'network management solution to provide unified management for modern networks. ... Both the operations'and engineering teams benefit from having automated network'topology, health, and configuration status and details at their disposal."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_e10f9895965d89631dad24c5",
+      "description_sha256": "b94903b39ac582566d0f49e1327e7837e018e2f3575b97617ac5f08c2c78aa1f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes simulation software that creates production-environment emulations of application behavior and virtual services without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Micro Focus Service Virtualization is simulation software that creates realistic, production environment emulations of application behavior and virtual services"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_8932b1c81aa05f9216b5e7db",
+      "description_sha256": "447784fc4de299b8d21cda55714daad6261534f0b17c5de835eb99c8d180e191",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes agentless monitoring of IT asset performance and availability without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Micro Focus SiteScope'software is an agentless monitoring solution that helps users constantly monitor and improve the performance and availability of more than 100 types of IT assets"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_726416da91bdb3464e592f96",
+      "description_sha256": "9fed47f1769fe899c695794c5d6114c1e72ee187da490f48166f8ae3b37de303",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly identifies AIOps and real-time machine learning driving event management and anomaly detection.",
+      "ai_type_rationale": "The described meaningful core is event management driven by real-time machine learning for anomaly detection, establishing an AI-dependent offering.",
+      "evidence_spans": [
+        "Moogsoft AIOps'(Artificial Intelligence for IT Operations) is a next generation approach to event management, driven by real-time machine learning to detect anomalies across your production stack of applications, infrastructure and monitoring tools.\n\nMoogsoft is the AI-driven observability leader that provides intelligent monitoring solutions for smart DevOps. Moogsoft delivers the most advanced cloud-native, self-service platform for software engineers, developers, and operators to instantly see everything, know whats wrong and fix things faster."
+      ],
+      "ai_type_evidence_spans": [
+        "Moogsoft AIOps'(Artificial Intelligence for IT Operations) is a next generation approach to event management, driven by real-time machine learning to detect anomalies across your production stack of applications, infrastructure and monitoring tools."
+      ]
+    },
+    {
+      "annotation_id": "ann_79a43cf11c4d62330238566b",
+      "description_sha256": "e879b1d7472a51c3502931aa33fca2ff2ff993f6f344e1c6c6f0887b5dd18111",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes an open-source host and service monitoring application with alerting, without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Nagios' Core  is an Open Source system and network monitoring application. It watches hosts and services that you specify, alerting you when things go bad and when they get better. Nagios Core was originally designed to run under Linux, although it should work under most other unices as well."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_cfc6341ea47f3c200778e268",
+      "description_sha256": "0814473f1fcae2f3bc97cc6ebc423981a1666a1a3e3fd6484dc0db6c913f007b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes packet-flow switching and strategic network visibility that operates dynamically across infrastructure changes without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "NETSCOUT's disaggregated packet flow switch architecture enables strategic packet visibility that scales and operates dynamically, enabling pervasive visibility with NETSCOUTs InfiniStream  appliances (part of the nGeniusONE  Service Assurance platform) or security systems, regardless of infrastructure modifications or changes in the source of network traffic."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_e77cdc605e0783720e1f3f98",
+      "description_sha256": "06bbc18a69f3317bd1a65dc39f120b113f1ca5b5b383291a2ba774440446b7e8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes an HTTP viewer and debugger providing browser-based HTTP and HTTPS monitoring without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "HttpWatch is an HTTP viewer and debugger that integrates with Internet Explorer to provide seamless HTTP and HTTPS. monitoring without leaving the browser window."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_03ec09d87e719960d451f0e2",
+      "description_sha256": "1add358af16b332be6bd2a5630706e0398a3b2c9b291b46bd573eb5993f914be",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes APM metric collection, storage, processing, analysis, and dashboard viewing as conventional monitoring functionality without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "New Relic APM helps software teams instantly detect anomalies, discover root cause, and optimize performance. \n\nNew Relic APM collects and stores metrics and data from web-based and other associated applications within the enterprise. New Relic receives data over the network and then processes and analyzes it. Users view the data through a dashboard-type interface."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_94e5c22c8617ee7ed3e64630",
+      "description_sha256": "d3bd00dc3408fcaaa5a332d8b0ac42097e893ad1c425c1c0273f4468e2529ce3",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a modular, multi-threaded, multi-platform log collection solution receiving logs from files and networks without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The NXLog Enterprise Edition is a high-performance multi-platform log collection solution aimed at solving these tasks and doing it with a single tool.\n\nNXLog Enterprise Edition is a modular, multi-threaded, high-performance log collection solution with multi-platform support. It can collect logs from files in various formats, receive logs from the network remotely over UDP, TCP or TLS/SSL ."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_69a2a79c272a2d2767cc179f",
+      "description_sha256": "574fa5e6ff11d65b17df7bab7464597e8ee23ebfafa8bb09eb0dda821ae43c21",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly states that the product monitors and controls networks using expert systems technologies, a product-specific AI signal.",
+      "ai_type_rationale": "The described monitoring and control functionality uses expert systems technologies as part of the offering's core operation.",
+      "evidence_spans": [
+        "NetExpert monitors and controls networks and service impacting resources using object-oriented and expert systems technologies."
+      ],
+      "ai_type_evidence_spans": [
+        "NetExpert monitors and controls networks and service impacting resources using object-oriented and expert systems technologies."
+      ]
+    },
+    {
+      "annotation_id": "ann_5f99adedbc637c22ab5ddb08",
+      "description_sha256": "1ff1af4c6bf78f0751e96ec32474243b8fb702c7f0acff25eeb1f41bfbdd23c7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes an analytics and customer data platform tailored to enterprise clients without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Piwik PRO is an analytics and customer data platform tailored to the individual needs of enterprise clients."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  ]
+}
