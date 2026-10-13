@@ -1,0 +1,1195 @@
+[
+  {
+    "annotation_id": "ann_04bac02b3b7f8c3cf8402441",
+    "description_sha256": "1af26ca981b0f222d1239bb54d7622cf8c937f0938634696b2ef957dae8b9388",
+    "source_record_references": [
+      "660"
+    ],
+    "labeler": {
+      "annotation_id": "ann_04bac02b3b7f8c3cf8402441",
+      "description_sha256": "1af26ca981b0f222d1239bb54d7622cf8c937f0938634696b2ef957dae8b9388",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional serverless, event-driven compute that runs code without server provisioning and can be triggered from other services. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.",
+        "You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_04bac02b3b7f8c3cf8402441",
+      "description_sha256": "1af26ca981b0f222d1239bb54d7622cf8c937f0938634696b2ef957dae8b9388",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers serverless event-driven code execution and triggering from services and SaaS applications, which is conventional compute automation.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_04bac02b3b7f8c3cf8402441",
+      "description_sha256": "1af26ca981b0f222d1239bb54d7622cf8c937f0938634696b2ef957dae8b9388",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional serverless, event-driven compute that runs code without server provisioning and can be triggered from other services. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.",
+        "You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_1849f3b08d58e3ca76621e77",
+    "description_sha256": "e45691c7922046aedae581d9146fa4f2c43db72db8852fdbdb2f11d4641fe7ab",
+    "source_record_references": [
+      "658"
+    ],
+    "labeler": {
+      "annotation_id": "ann_1849f3b08d58e3ca76621e77",
+      "description_sha256": "e45691c7922046aedae581d9146fa4f2c43db72db8852fdbdb2f11d4641fe7ab",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Explicitly states the product supports machine learning workloads alongside its core conventional big data processing and interactive analytics, using open-source frameworks. The core offering (petabyte-scale data processing on Spark/Hive/Presto frameworks) remains without the ML use, so it is AI-enabled rather than AI-native.",
+      "ai_type_rationale": "Core big data processing and analytics are described independently of ML; machine learning is an added workload the platform supports.",
+      "evidence_spans": [
+        "Amazon EMR is a cloud big data solution for petabyte-scale data processing, interactive analytics, and machine learning using open-source frameworks such as Apache Spark, Apache Hive, and Presto."
+      ],
+      "ai_type_evidence_spans": [
+        "Amazon EMR is a cloud big data solution for petabyte-scale data processing, interactive analytics, and machine learning using open-source frameworks such as Apache Spark, Apache Hive, and Presto."
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_1849f3b08d58e3ca76621e77",
+      "description_sha256": "e45691c7922046aedae581d9146fa4f2c43db72db8852fdbdb2f11d4641fe7ab",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly includes machine learning as one capability of the big data solution.",
+      "ai_type_rationale": "The described core also includes petabyte-scale data processing and interactive analytics, so conventional functionality remains without the machine learning capability.",
+      "evidence_spans": [
+        "machine learning using open-source frameworks such as Apache Spark, Apache Hive, and Presto."
+      ],
+      "ai_type_evidence_spans": [
+        "petabyte-scale data processing, interactive analytics, and machine learning"
+      ]
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_1849f3b08d58e3ca76621e77",
+      "description_sha256": "e45691c7922046aedae581d9146fa4f2c43db72db8852fdbdb2f11d4641fe7ab",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Explicitly states the product supports machine learning workloads alongside its core conventional big data processing and interactive analytics, using open-source frameworks. The core offering (petabyte-scale data processing on Spark/Hive/Presto frameworks) remains without the ML use, so it is AI-enabled rather than AI-native.",
+      "ai_type_rationale": "Core big data processing and analytics are described independently of ML; machine learning is an added workload the platform supports.",
+      "evidence_spans": [
+        "Amazon EMR is a cloud big data solution for petabyte-scale data processing, interactive analytics, and machine learning using open-source frameworks such as Apache Spark, Apache Hive, and Presto."
+      ],
+      "ai_type_evidence_spans": [
+        "Amazon EMR is a cloud big data solution for petabyte-scale data processing, interactive analytics, and machine learning using open-source frameworks such as Apache Spark, Apache Hive, and Presto."
+      ]
+    }
+  },
+  {
+    "annotation_id": "ann_236bccc1c93ec327c072d71f",
+    "description_sha256": "f64200d8114f2244d48f305a708ff02ce7c7a08202615fbe4370cc5bbe4170ac",
+    "source_record_references": [
+      "650"
+    ],
+    "labeler": {
+      "annotation_id": "ann_236bccc1c93ec327c072d71f",
+      "description_sha256": "f64200d8114f2244d48f305a708ff02ce7c7a08202615fbe4370cc5bbe4170ac",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional event delivery: a near real-time stream of system events reporting changes to AWS resources. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "delivers a near real-time stream of system events that describe changes in Amazon Web Services (AWS) resources"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_236bccc1c93ec327c072d71f",
+      "description_sha256": "f64200d8114f2244d48f305a708ff02ce7c7a08202615fbe4370cc5bbe4170ac",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers a near real-time stream of system events describing changes in AWS resources, which is conventional event monitoring.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "delivers a near real-time stream of system events that describe changes in Amazon Web Services (AWS) resources"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_236bccc1c93ec327c072d71f",
+      "description_sha256": "f64200d8114f2244d48f305a708ff02ce7c7a08202615fbe4370cc5bbe4170ac",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional event delivery: a near real-time stream of system events reporting changes to AWS resources. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "delivers a near real-time stream of system events that describe changes in Amazon Web Services (AWS) resources"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_2c9a1405d48957fcf69cacff",
+    "description_sha256": "f9e58d805bad627d81f74234222818e60fa28de38b8e432da9f9ad2f07abde2a",
+    "source_record_references": [
+      "666"
+    ],
+    "labeler": {
+      "annotation_id": "ann_2c9a1405d48957fcf69cacff",
+      "description_sha256": "f9e58d805bad627d81f74234222818e60fa28de38b8e432da9f9ad2f07abde2a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional object storage service accessed through a web service interface. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides object storage through a web service interface."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_2c9a1405d48957fcf69cacff",
+      "description_sha256": "f9e58d805bad627d81f74234222818e60fa28de38b8e432da9f9ad2f07abde2a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers object storage through a web service interface, which is conventional storage functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides object storage through a web service interface."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_2c9a1405d48957fcf69cacff",
+      "description_sha256": "f9e58d805bad627d81f74234222818e60fa28de38b8e432da9f9ad2f07abde2a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional object storage service accessed through a web service interface. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides object storage through a web service interface."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_32bbf71133b5045dc16fdf0e",
+    "description_sha256": "efb73839d860b2d62f689ab452f2dcab8f94c8f46f06ae7a0cc2b75ebe437260",
+    "source_record_references": [
+      "665"
+    ],
+    "labeler": {
+      "annotation_id": "ann_32bbf71133b5045dc16fdf0e",
+      "description_sha256": "efb73839d860b2d62f689ab452f2dcab8f94c8f46f06ae7a0cc2b75ebe437260",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional managed petabyte-scale data warehouse that uses SQL to analyze structured and semi-structured data. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the cloud.",
+        "It uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_32bbf71133b5045dc16fdf0e",
+      "description_sha256": "efb73839d860b2d62f689ab452f2dcab8f94c8f46f06ae7a0cc2b75ebe437260",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers a managed cloud data warehouse using SQL to analyze structured and semi-structured data, which is conventional data warehousing and analytics.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a fully managed, petabyte-scale data warehouse service in the cloud",
+        "uses SQL to analyze structured and semi-structured data"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_32bbf71133b5045dc16fdf0e",
+      "description_sha256": "efb73839d860b2d62f689ab452f2dcab8f94c8f46f06ae7a0cc2b75ebe437260",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional managed petabyte-scale data warehouse that uses SQL to analyze structured and semi-structured data. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the cloud.",
+        "It uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_39b81c95617cbf18ca26fc35",
+    "description_sha256": "85cfadfb14d83cd24b015fa20406228c760eb4baac5e8b8c2210c0b0e354516e",
+    "source_record_references": [
+      "668"
+    ],
+    "labeler": {
+      "annotation_id": "ann_39b81c95617cbf18ca26fc35",
+      "description_sha256": "85cfadfb14d83cd24b015fa20406228c760eb4baac5e8b8c2210c0b0e354516e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional managed messaging service for decoupled microservices and direct SMS or email delivery to users. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Amazon SNS is a managed messaging service for communication, allowing messaging between decoupled microservices applications or directly to users with SMS or email"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_39b81c95617cbf18ca26fc35",
+      "description_sha256": "85cfadfb14d83cd24b015fa20406228c760eb4baac5e8b8c2210c0b0e354516e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers managed messaging between decoupled applications or directly to users by SMS or email, which is conventional messaging functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a managed messaging service for communication, allowing messaging between decoupled microservices applications or directly to users with SMS or email"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_39b81c95617cbf18ca26fc35",
+      "description_sha256": "85cfadfb14d83cd24b015fa20406228c760eb4baac5e8b8c2210c0b0e354516e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional managed messaging service for decoupled microservices and direct SMS or email delivery to users. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Amazon SNS is a managed messaging service for communication, allowing messaging between decoupled microservices applications or directly to users with SMS or email"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_4374166c861ecdca074b069a",
+    "description_sha256": "caf630fc7d6c031fd913b43ce745cfb867bd1ddbc83515b73bd67f6fad4d0938",
+    "source_record_references": [
+      "653"
+    ],
+    "labeler": {
+      "annotation_id": "ann_4374166c861ecdca074b069a",
+      "description_sha256": "caf630fc7d6c031fd913b43ce745cfb867bd1ddbc83515b73bd67f6fad4d0938",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional fully managed NoSQL database supporting key-value and document data structures. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Amazon DynamoDB is a fully managed NoSQL database service that supports key–value and document data structures"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_4374166c861ecdca074b069a",
+      "description_sha256": "caf630fc7d6c031fd913b43ce745cfb867bd1ddbc83515b73bd67f6fad4d0938",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers a managed NoSQL database supporting key–value and document data structures, which is conventional database functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "fully managed NoSQL database service that supports key–value and document data structures"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_4374166c861ecdca074b069a",
+      "description_sha256": "caf630fc7d6c031fd913b43ce745cfb867bd1ddbc83515b73bd67f6fad4d0938",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional fully managed NoSQL database supporting key-value and document data structures. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Amazon DynamoDB is a fully managed NoSQL database service that supports key–value and document data structures"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_44b67ed41b69f23a6c0237b1",
+    "description_sha256": "d47c94476ad685d717e1507c258d6b15cc2293482848dc34c8235e519ea68b85",
+    "source_record_references": [
+      "654"
+    ],
+    "labeler": {
+      "annotation_id": "ann_44b67ed41b69f23a6c0237b1",
+      "description_sha256": "d47c94476ad685d717e1507c258d6b15cc2293482848dc34c8235e519ea68b85",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional managed container image registry service. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Amazon Elastic Container Registry (Amazon ECR) is an AWS managed container image registry service"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_44b67ed41b69f23a6c0237b1",
+      "description_sha256": "d47c94476ad685d717e1507c258d6b15cc2293482848dc34c8235e519ea68b85",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers a managed container image registry service, which is conventional image storage and registry functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an AWS managed container image registry service"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_44b67ed41b69f23a6c0237b1",
+      "description_sha256": "d47c94476ad685d717e1507c258d6b15cc2293482848dc34c8235e519ea68b85",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional managed container image registry service. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Amazon Elastic Container Registry (Amazon ECR) is an AWS managed container image registry service"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_63653b9dcc4a70e42b6f6d0c",
+    "description_sha256": "3cc63ef333ee75f34ff1c7e70da8db6bf8a8503cce8eed96a19bb54347b2b447",
+    "source_record_references": [
+      "667"
+    ],
+    "labeler": {
+      "annotation_id": "ann_63653b9dcc4a70e42b6f6d0c",
+      "description_sha256": "3cc63ef333ee75f34ff1c7e70da8db6bf8a8503cce8eed96a19bb54347b2b447",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Conventional archive storage is implied, but the text is a single category phrase with no functional detail beyond storage. No AI is mentioned, so the non-AI label is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Low-cost archive storage in the cloud"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_63653b9dcc4a70e42b6f6d0c",
+      "description_sha256": "3cc63ef333ee75f34ff1c7e70da8db6bf8a8503cce8eed96a19bb54347b2b447",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers low-cost archive storage in the cloud, which is conventional storage functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Low-cost archive storage in the cloud"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_63653b9dcc4a70e42b6f6d0c",
+      "description_sha256": "3cc63ef333ee75f34ff1c7e70da8db6bf8a8503cce8eed96a19bb54347b2b447",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description directly identifies archive storage in the cloud, which is conventional storage functionality and contains no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Low-cost archive storage in the cloud"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler correctly identified conventional archive storage but treated the short wording as insufficient. The exact phrase still meaningfully describes the conventional offering as archive storage in the cloud; the rubric does not require additional feature detail or an external inventory. The blind proposal's supported negative is therefore retained, with no subtype fields applicable."
+    },
+    "final": {
+      "annotation_id": "ann_63653b9dcc4a70e42b6f6d0c",
+      "description_sha256": "3cc63ef333ee75f34ff1c7e70da8db6bf8a8503cce8eed96a19bb54347b2b447",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description directly identifies archive storage in the cloud, which is conventional storage functionality and contains no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Low-cost archive storage in the cloud"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler correctly identified conventional archive storage but treated the short wording as insufficient. The exact phrase still meaningfully describes the conventional offering as archive storage in the cloud; the rubric does not require additional feature detail or an external inventory. The blind proposal's supported negative is therefore retained, with no subtype fields applicable."
+    }
+  },
+  {
+    "annotation_id": "ann_6fc38b745576a1087f088c7b",
+    "description_sha256": "ebad167d1c084251e6fbc7c241f6c8f96695a02017de079e7a46d632215f7926",
+    "source_record_references": [
+      "661"
+    ],
+    "labeler": {
+      "annotation_id": "ann_6fc38b745576a1087f088c7b",
+      "description_sha256": "ebad167d1c084251e6fbc7c241f6c8f96695a02017de079e7a46d632215f7926",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional fully managed graph database for building and running applications over highly connected datasets. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Amazon Neptune is a fully managed graph database service that allows users to build and run applications that work with highly connected datasets."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_6fc38b745576a1087f088c7b",
+      "description_sha256": "ebad167d1c084251e6fbc7c241f6c8f96695a02017de079e7a46d632215f7926",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers a managed graph database for applications using highly connected datasets, which is conventional database functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a fully managed graph database service that allows users to build and run applications that work with highly connected datasets"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_6fc38b745576a1087f088c7b",
+      "description_sha256": "ebad167d1c084251e6fbc7c241f6c8f96695a02017de079e7a46d632215f7926",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional fully managed graph database for building and running applications over highly connected datasets. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Amazon Neptune is a fully managed graph database service that allows users to build and run applications that work with highly connected datasets."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_8cfb512d6917908d2d55043f",
+    "description_sha256": "913a82df1ff8dc911f69637b56b153b953bfe0b64b0f62e1ff6648028c560673",
+    "source_record_references": [
+      "655"
+    ],
+    "labeler": {
+      "annotation_id": "ann_8cfb512d6917908d2d55043f",
+      "description_sha256": "913a82df1ff8dc911f69637b56b153b953bfe0b64b0f62e1ff6648028c560673",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional highly scalable container management service. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Amazon Elastic Container Service (Amazon ECS) is a highly scalable container management service offered by AWS"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_8cfb512d6917908d2d55043f",
+      "description_sha256": "913a82df1ff8dc911f69637b56b153b953bfe0b64b0f62e1ff6648028c560673",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers scalable container management, which is conventional infrastructure orchestration functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a highly scalable container management service offered by AWS"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_8cfb512d6917908d2d55043f",
+      "description_sha256": "913a82df1ff8dc911f69637b56b153b953bfe0b64b0f62e1ff6648028c560673",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional highly scalable container management service. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Amazon Elastic Container Service (Amazon ECS) is a highly scalable container management service offered by AWS"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_8f0979ec8f51593deb0aa057",
+    "description_sha256": "f1a21515c975d4247d818f1149b079d79465fdbe7edf9db22db056bd07394fb1",
+    "source_record_references": [
+      "669"
+    ],
+    "labeler": {
+      "annotation_id": "ann_8f0979ec8f51593deb0aa057",
+      "description_sha256": "f1a21515c975d4247d818f1149b079d79465fdbe7edf9db22db056bd07394fb1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "A conventional message queue function is implied, but the text is a single category phrase with no functional detail. No AI is mentioned, so the non-AI label is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Managed message queues"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_8f0979ec8f51593deb0aa057",
+      "description_sha256": "f1a21515c975d4247d818f1149b079d79465fdbe7edf9db22db056bd07394fb1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers managed message queues, which is conventional messaging functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Managed message queues"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_8f0979ec8f51593deb0aa057",
+      "description_sha256": "f1a21515c975d4247d818f1149b079d79465fdbe7edf9db22db056bd07394fb1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description directly identifies managed message queues, which is conventional messaging functionality and contains no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Managed message queues"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler correctly identified conventional message queues but treated the short wording as insufficient. The exact phrase meaningfully describes the conventional offering as managed message queues; the rubric does not require additional functional detail or an external inventory. The blind proposal's supported negative is therefore retained, with no subtype fields applicable."
+    },
+    "final": {
+      "annotation_id": "ann_8f0979ec8f51593deb0aa057",
+      "description_sha256": "f1a21515c975d4247d818f1149b079d79465fdbe7edf9db22db056bd07394fb1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description directly identifies managed message queues, which is conventional messaging functionality and contains no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Managed message queues"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler correctly identified conventional message queues but treated the short wording as insufficient. The exact phrase meaningfully describes the conventional offering as managed message queues; the rubric does not require additional functional detail or an external inventory. The blind proposal's supported negative is therefore retained, with no subtype fields applicable."
+    }
+  },
+  {
+    "annotation_id": "ann_b170eb82ca5238af7984d1c6",
+    "description_sha256": "03005a6fa9a3b7af1819582cd86bcdbe0e2e422b5aaad8b66d703f3426d008f2",
+    "source_record_references": [
+      "651"
+    ],
+    "labeler": {
+      "annotation_id": "ann_b170eb82ca5238af7984d1c6",
+      "description_sha256": "03005a6fa9a3b7af1819582cd86bcdbe0e2e422b5aaad8b66d703f3426d008f2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional centralized log collection from systems, applications, and services. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "CloudWatch Logs enables you to centralize the logs from all of your systems, applications, and AWS services that you use, in a single, highly scalable service"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_b170eb82ca5238af7984d1c6",
+      "description_sha256": "03005a6fa9a3b7af1819582cd86bcdbe0e2e422b5aaad8b66d703f3426d008f2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers centralizing logs from systems, applications, and AWS services in one scalable service, which is conventional log management.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "centralize the logs from all of your systems, applications, and AWS services that you use, in a single, highly scalable service"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_b170eb82ca5238af7984d1c6",
+      "description_sha256": "03005a6fa9a3b7af1819582cd86bcdbe0e2e422b5aaad8b66d703f3426d008f2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional centralized log collection from systems, applications, and services. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "CloudWatch Logs enables you to centralize the logs from all of your systems, applications, and AWS services that you use, in a single, highly scalable service"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_b6e9295a7b093908aa6ecc48",
+    "description_sha256": "c5e7703749052a39ad4242c57a541b1368dbb912edbd4105e5b3a622239f1431",
+    "source_record_references": [
+      "662"
+    ],
+    "labeler": {
+      "annotation_id": "ann_b6e9295a7b093908aa6ecc48",
+      "description_sha256": "c5e7703749052a39ad4242c57a541b1368dbb912edbd4105e5b3a622239f1431",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional status dashboard showing service availability and account-specific communications, incidents, and notifications. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The AWS Health Dashboard is the single place to learn about the availability and operations of AWS services.",
+        "Your account view provides deeper visibility into resource issues, upcoming changes, and important notifications."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_b6e9295a7b093908aa6ecc48",
+      "description_sha256": "c5e7703749052a39ad4242c57a541b1368dbb912edbd4105e5b3a622239f1431",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers service availability and operations information, account-specific resource issues, changes, and notifications, which is conventional status and incident reporting.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "the availability and operations of AWS services",
+        "deeper visibility into resource issues, upcoming changes, and important notifications"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_b6e9295a7b093908aa6ecc48",
+      "description_sha256": "c5e7703749052a39ad4242c57a541b1368dbb912edbd4105e5b3a622239f1431",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional status dashboard showing service availability and account-specific communications, incidents, and notifications. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The AWS Health Dashboard is the single place to learn about the availability and operations of AWS services.",
+        "Your account view provides deeper visibility into resource issues, upcoming changes, and important notifications."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_c286049f0437fa8d3addfa1c",
+    "description_sha256": "6afbb9d769248afe07ea58886fbe3a910ee70df4e31d74ddec60d35698ba71be",
+    "source_record_references": [
+      "663"
+    ],
+    "labeler": {
+      "annotation_id": "ann_c286049f0437fa8d3addfa1c",
+      "description_sha256": "6afbb9d769248afe07ea58886fbe3a910ee70df4e31d74ddec60d35698ba71be",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional private network connectivity between VPCs, AWS services, and on-premises networks without public internet exposure. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "AWS PrivateLink provides private connectivity between virtual private clouds (VPCs), supported AWS services, and your on-premises networks without exposing your traffic to the public internet."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_c286049f0437fa8d3addfa1c",
+      "description_sha256": "6afbb9d769248afe07ea58886fbe3a910ee70df4e31d74ddec60d35698ba71be",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers private connectivity between networks and services without public internet exposure, which is conventional network connectivity.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides private connectivity between virtual private clouds (VPCs), supported AWS services, and your on-premises networks without exposing your traffic to the public internet."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_c286049f0437fa8d3addfa1c",
+      "description_sha256": "6afbb9d769248afe07ea58886fbe3a910ee70df4e31d74ddec60d35698ba71be",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional private network connectivity between VPCs, AWS services, and on-premises networks without public internet exposure. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "AWS PrivateLink provides private connectivity between virtual private clouds (VPCs), supported AWS services, and your on-premises networks without exposing your traffic to the public internet."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_cb2d31a3fae5fa406ef9b8bb",
+    "description_sha256": "3a5f3bc74c76db92dd2537ee36fee97139719dec6048f2fddcf2799adc3e2a23",
+    "source_record_references": [
+      "657"
+    ],
+    "labeler": {
+      "annotation_id": "ann_cb2d31a3fae5fa406ef9b8bb",
+      "description_sha256": "3a5f3bc74c76db92dd2537ee36fee97139719dec6048f2fddcf2799adc3e2a23",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional open-source search and analytics suite used for application monitoring, log analytics, and website search. The text describes no AI or ML functionality; the analytics referenced is not described as model-based.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "OpenSearch is a distributed, community-driven, Apache 2.0-licensed, 100% open-source search and analytics suite used for a broad set of use cases like real-time application monitoring, log analytics, and website search"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_cb2d31a3fae5fa406ef9b8bb",
+      "description_sha256": "3a5f3bc74c76db92dd2537ee36fee97139719dec6048f2fddcf2799adc3e2a23",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers open-source search and analytics for application monitoring, log analytics, and website search, which is conventional search and analytics functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "search and analytics suite used for a broad set of use cases like real-time application monitoring, log analytics, and website search"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_cb2d31a3fae5fa406ef9b8bb",
+      "description_sha256": "3a5f3bc74c76db92dd2537ee36fee97139719dec6048f2fddcf2799adc3e2a23",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional open-source search and analytics suite used for application monitoring, log analytics, and website search. The text describes no AI or ML functionality; the analytics referenced is not described as model-based.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "OpenSearch is a distributed, community-driven, Apache 2.0-licensed, 100% open-source search and analytics suite used for a broad set of use cases like real-time application monitoring, log analytics, and website search"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_f2c38a424fe0c67a6456c9ce",
+    "description_sha256": "3fed00c092a879c325f686f1b4b71272b8f29351c167ad60cd9b9eebc99aa34e",
+    "source_record_references": [
+      "659"
+    ],
+    "labeler": {
+      "annotation_id": "ann_f2c38a424fe0c67a6456c9ce",
+      "description_sha256": "3fed00c092a879c325f686f1b4b71272b8f29351c167ad60cd9b9eebc99aa34e",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "Core offering is real-time streaming data collection and processing, which is conventional. The only AI-adjacent mention says ingested data can be used for machine learning, a downstream use case; the text does not establish whether ML is product functionality, so the binary AI positive is weak and forced.",
+      "ai_type_rationale": "The conventional streaming ingest/processing core is described without ML dependence; ML is only a stated downstream consumer of ingested data, so enabled is weak and forced.",
+      "evidence_spans": [
+        "you can ingest real-time data such as video, audio, application logs, website clickstreams, and IoT telemetry data for machine learning, analytics, and other applications"
+      ],
+      "ai_type_evidence_spans": [
+        "you can ingest real-time data such as video, audio, application logs, website clickstreams, and IoT telemetry data for machine learning, analytics, and other applications"
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_f2c38a424fe0c67a6456c9ce",
+      "description_sha256": "3fed00c092a879c325f686f1b4b71272b8f29351c167ad60cd9b9eebc99aa34e",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly states that streaming data can be ingested for machine learning.",
+      "ai_type_rationale": "The described core includes collection, processing, and analysis of streaming data for multiple applications, so conventional streaming functionality remains without the machine learning use case.",
+      "evidence_spans": [
+        "you can ingest real-time data such as video, audio, application logs, website clickstreams, and IoT telemetry data for machine learning, analytics, and other applications."
+      ],
+      "ai_type_evidence_spans": [
+        "collection, processing, and analysis of real-time, streaming data"
+      ]
+    },
+    "reconciliation": {
+      "annotation_id": "ann_f2c38a424fe0c67a6456c9ce",
+      "description_sha256": "3fed00c092a879c325f686f1b4b71272b8f29351c167ad60cd9b9eebc99aa34e",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly states that with Amazon Kinesis users can ingest real-time data for machine learning, which is a product-specific affirmative ML mention under the rubric.",
+      "ai_type_rationale": "The described core is collection, processing, and analysis of real-time streaming data, while machine learning is one of several stated applications; meaningful conventional functionality remains without the ML use case.",
+      "evidence_spans": [
+        "With Amazon Kinesis, you can ingest real-time data such as video, audio, application logs, website clickstreams, and IoT telemetry data for machine learning, analytics, and other applications."
+      ],
+      "ai_type_evidence_spans": [
+        "Amazon Kinesis enables the collection, processing, and analysis of real-time, streaming data"
+      ],
+      "conflict_response": "The labeler's downstream-use-case concern does not negate the binary signal: the exact sentence attributes the ingestion capability to Amazon Kinesis and explicitly names machine learning as an application, meeting the rubric's sufficient product-specific AI/ML mention. The binary judgment is independently supported, not forced. For subtype, the first sentence describes a conventional streaming collection, processing, and analysis core and the ML use is one of multiple applications, so ai_enabled is supported rather than ai_native; the subtype conclusion does not weaken the binary label."
+    },
+    "final": {
+      "annotation_id": "ann_f2c38a424fe0c67a6456c9ce",
+      "description_sha256": "3fed00c092a879c325f686f1b4b71272b8f29351c167ad60cd9b9eebc99aa34e",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly states that with Amazon Kinesis users can ingest real-time data for machine learning, which is a product-specific affirmative ML mention under the rubric.",
+      "ai_type_rationale": "The described core is collection, processing, and analysis of real-time streaming data, while machine learning is one of several stated applications; meaningful conventional functionality remains without the ML use case.",
+      "evidence_spans": [
+        "With Amazon Kinesis, you can ingest real-time data such as video, audio, application logs, website clickstreams, and IoT telemetry data for machine learning, analytics, and other applications."
+      ],
+      "ai_type_evidence_spans": [
+        "Amazon Kinesis enables the collection, processing, and analysis of real-time, streaming data"
+      ],
+      "conflict_response": "The labeler's downstream-use-case concern does not negate the binary signal: the exact sentence attributes the ingestion capability to Amazon Kinesis and explicitly names machine learning as an application, meeting the rubric's sufficient product-specific AI/ML mention. The binary judgment is independently supported, not forced. For subtype, the first sentence describes a conventional streaming collection, processing, and analysis core and the ML use is one of multiple applications, so ai_enabled is supported rather than ai_native; the subtype conclusion does not weaken the binary label."
+    }
+  },
+  {
+    "annotation_id": "ann_f6af93e8d82fbc900a22a289",
+    "description_sha256": "7dc3175346ad98403fc782d701c87adc982334f9d4fbc3602963958ae1acb292",
+    "source_record_references": [
+      "656"
+    ],
+    "labeler": {
+      "annotation_id": "ann_f6af93e8d82fbc900a22a289",
+      "description_sha256": "7dc3175346ad98403fc782d701c87adc982334f9d4fbc3602963958ae1acb292",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional managed Kubernetes service that runs in the AWS cloud and on-premises data centers. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Amazon EKS is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_f6af93e8d82fbc900a22a289",
+      "description_sha256": "7dc3175346ad98403fc782d701c87adc982334f9d4fbc3602963958ae1acb292",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers a managed Kubernetes service for running Kubernetes in cloud and on-premises environments, which is conventional container orchestration.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_f6af93e8d82fbc900a22a289",
+      "description_sha256": "7dc3175346ad98403fc782d701c87adc982334f9d4fbc3602963958ae1acb292",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional managed Kubernetes service that runs in the AWS cloud and on-premises data centers. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Amazon EKS is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_f8cad1afbf6194e4e961e8fa",
+    "description_sha256": "5d9ce993f943c4ec1455e2ba975c7d1e86ba898e717d1dda5db6ac84e247fd8f",
+    "source_record_references": [
+      "664"
+    ],
+    "labeler": {
+      "annotation_id": "ann_f8cad1afbf6194e4e961e8fa",
+      "description_sha256": "5d9ce993f943c4ec1455e2ba975c7d1e86ba898e717d1dda5db6ac84e247fd8f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional managed relational database service supporting several named SQL database engines. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Managed relational database service for MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_f8cad1afbf6194e4e961e8fa",
+      "description_sha256": "5d9ce993f943c4ec1455e2ba975c7d1e86ba898e717d1dda5db6ac84e247fd8f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers managed relational database hosting for named database engines, which is conventional database functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Managed relational database service for MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_f8cad1afbf6194e4e961e8fa",
+      "description_sha256": "5d9ce993f943c4ec1455e2ba975c7d1e86ba898e717d1dda5db6ac84e247fd8f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional managed relational database service supporting several named SQL database engines. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Managed relational database service for MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_fe4aa2753e7ebd66757e0b2d",
+    "description_sha256": "f2d67f01d8e059297861d78c6ad5d90be402137fb3e33fcdffb21784883a4f62",
+    "source_record_references": [
+      "652"
+    ],
+    "labeler": {
+      "annotation_id": "ann_fe4aa2753e7ebd66757e0b2d",
+      "description_sha256": "f2d67f01d8e059297861d78c6ad5d90be402137fb3e33fcdffb21784883a4f62",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional database migration: moving data from on-premises databases to a relational database service. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "AWS Database Migration Service (AWS DMS) helps you migrate data from databases on-premises to Amazon Relational Database Service (RDS)"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_fe4aa2753e7ebd66757e0b2d",
+      "description_sha256": "f2d67f01d8e059297861d78c6ad5d90be402137fb3e33fcdffb21784883a4f62",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers migrating data from on-premises databases to Amazon RDS, which is conventional database migration functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "helps you migrate data from databases on-premises to Amazon Relational Database Service (RDS)"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_fe4aa2753e7ebd66757e0b2d",
+      "description_sha256": "f2d67f01d8e059297861d78c6ad5d90be402137fb3e33fcdffb21784883a4f62",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional database migration: moving data from on-premises databases to a relational database service. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "AWS Database Migration Service (AWS DMS) helps you migrate data from databases on-premises to Amazon Relational Database Service (RDS)"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_f2c38a424fe0c67a6456c9ce",
+  "description_sha256": "3fed00c092a879c325f686f1b4b71272b8f29351c167ad60cd9b9eebc99aa34e",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "supported",
+  "ai_type_forced_decision": false,
+  "rationale": "The description explicitly states that streaming data can be ingested for machine learning.",
+  "ai_type_rationale": "The described core includes collection, processing, and analysis of streaming data for multiple applications, so conventional streaming functionality remains without the machine learning use case.",
+  "evidence_spans": [
+    "you can ingest real-time data such as video, audio, application logs, website clickstreams, and IoT telemetry data for machine learning, analytics, and other applications."
+  ],
+  "ai_type_evidence_spans": [
+    "collection, processing, and analysis of real-time, streaming data"
+  ]
+}

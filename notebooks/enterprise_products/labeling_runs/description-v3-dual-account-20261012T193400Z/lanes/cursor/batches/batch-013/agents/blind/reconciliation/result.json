@@ -1,0 +1,58 @@
+{
+  "stage": "reconciliation",
+  "records": [
+    {
+      "annotation_id": "ann_63653b9dcc4a70e42b6f6d0c",
+      "description_sha256": "3cc63ef333ee75f34ff1c7e70da8db6bf8a8503cce8eed96a19bb54347b2b447",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description directly identifies archive storage in the cloud, which is conventional storage functionality and contains no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Low-cost archive storage in the cloud"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler correctly identified conventional archive storage but treated the short wording as insufficient. The exact phrase still meaningfully describes the conventional offering as archive storage in the cloud; the rubric does not require additional feature detail or an external inventory. The blind proposal's supported negative is therefore retained, with no subtype fields applicable."
+    },
+    {
+      "annotation_id": "ann_8f0979ec8f51593deb0aa057",
+      "description_sha256": "f1a21515c975d4247d818f1149b079d79465fdbe7edf9db22db056bd07394fb1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description directly identifies managed message queues, which is conventional messaging functionality and contains no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Managed message queues"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler correctly identified conventional message queues but treated the short wording as insufficient. The exact phrase meaningfully describes the conventional offering as managed message queues; the rubric does not require additional functional detail or an external inventory. The blind proposal's supported negative is therefore retained, with no subtype fields applicable."
+    },
+    {
+      "annotation_id": "ann_f2c38a424fe0c67a6456c9ce",
+      "description_sha256": "3fed00c092a879c325f686f1b4b71272b8f29351c167ad60cd9b9eebc99aa34e",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly states that with Amazon Kinesis users can ingest real-time data for machine learning, which is a product-specific affirmative ML mention under the rubric.",
+      "ai_type_rationale": "The described core is collection, processing, and analysis of real-time streaming data, while machine learning is one of several stated applications; meaningful conventional functionality remains without the ML use case.",
+      "evidence_spans": [
+        "With Amazon Kinesis, you can ingest real-time data such as video, audio, application logs, website clickstreams, and IoT telemetry data for machine learning, analytics, and other applications."
+      ],
+      "ai_type_evidence_spans": [
+        "Amazon Kinesis enables the collection, processing, and analysis of real-time, streaming data"
+      ],
+      "conflict_response": "The labeler's downstream-use-case concern does not negate the binary signal: the exact sentence attributes the ingestion capability to Amazon Kinesis and explicitly names machine learning as an application, meeting the rubric's sufficient product-specific AI/ML mention. The binary judgment is independently supported, not forced. For subtype, the first sentence describes a conventional streaming collection, processing, and analysis core and the ML use is one of multiple applications, so ai_enabled is supported rather than ai_native; the subtype conclusion does not weaken the binary label."
+    }
+  ]
+}

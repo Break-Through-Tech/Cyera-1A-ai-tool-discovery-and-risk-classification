@@ -1,0 +1,40 @@
+{
+  "status": "finalized",
+  "batch_id": "batch-013",
+  "selected_descriptions": 20,
+  "selected_rows": 20,
+  "exact_plan_hash_and_reference_coverage": true,
+  "exact_schema_quotes_provenance_checkpoint_equality": true,
+  "both_independent_results_hash_registered_before_comparison": true,
+  "raw_worker_checkpoints_preserved_unchanged": true,
+  "labeler_aggregate": "Artifact-only accepted aggregate assembled from all20 valid complete checkpoints because no worker result.json was persisted; all semantic fields came unchanged from checkpoint values. No completed labels were rerun.",
+  "raw_hash_receipt": "runtime/independent-result-hashes.json",
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "transport_observations": {
+    "labeler": "Native Cursor CLI Haiku5.5 High; 20 private checkpoints completed. Initial local read-only check blocked pending approval; one exact in-boundary command was approved once. Result aggregate was mechanically assembled from all checkpoints; no semantic rerun.",
+    "blind": "Native Cursor CLI GPT-5.6 Luna High; original blind result plus 20 checkpoints; same context completed one 3-ID reconciliation."
+  },
+  "reconciliation_count": 3,
+  "helper_required_reconciliation_ids": [
+    "ann_63653b9dcc4a70e42b6f6d0c",
+    "ann_8f0979ec8f51593deb0aa057",
+    "ann_f2c38a424fe0c67a6456c9ce"
+  ],
+  "semantics_review": "Inspected all20 exact source/proposal pairs. Three helper-required weak/subtype cases routed once. Final weak flags retained; AI binary and subtype evidence independent. No unsupported external claims.",
+  "final_binary_weak_count": 0,
+  "final_subtype_weak_count": 0,
+  "exports_verified": true,
+  "export_hashes": {
+    "description_labels.json": "934b87a4572d01f5cb54bea638e9fc31260243c14ec5b8b82f94044fa9416a36",
+    "record_labels.json": "1697ee6c1b1ac280d3a2e2b597162cf9c3168537a566fbcf13cf482930c13f15",
+    "review_ledger.json": "b63a8a49c193d763d2f4a0fe83152fd418e6481663c823126d2150f85df68547",
+    "review_queue.json": "c72822fec2ae316b34217eae4bbd3074dab69678a26b8016c199d50d2b08bd38",
+    "non_ai_candidates.csv": "c0ec0628b1a457f4c5216b620f0b7dd31e47998bce6bef2362147ebf261c307d",
+    "calibration_report.json": "742b81cc2253b4fee83a086d49767edc96323486848d231485b4d56241575c6a"
+  },
+  "cost_usd": null,
+  "billed_tokens": null
+}

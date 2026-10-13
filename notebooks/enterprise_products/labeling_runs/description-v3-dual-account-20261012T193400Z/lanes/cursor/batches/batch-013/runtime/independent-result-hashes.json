@@ -1,0 +1,71 @@
+{
+  "preserved_before_comparison": true,
+  "roles": {
+    "labeler": {
+      "result_path": "runtime/accepted/labeler-result.json",
+      "result_sha256": "0759115a2ea86cccb1d54a23d8db04265e2101fbe2851374e6f3bce4fd947e0c",
+      "checkpoint_sha256": {
+        "agents/labeler/checkpoints/ann_04bac02b3b7f8c3cf8402441.json": "978836f08e20304698b7c10c2afa28f046499aeedc5d1f80e65ba417ecbd9348",
+        "agents/labeler/checkpoints/ann_1849f3b08d58e3ca76621e77.json": "6b258bcb3033e73801217d0f18d5a6e7f310530ec3af9eb95f9da2523f23f822",
+        "agents/labeler/checkpoints/ann_236bccc1c93ec327c072d71f.json": "7a9ceab41909c7c7ecc0f1a0aff8bb410114e7a01b7535217d00d2ef657f8a5e",
+        "agents/labeler/checkpoints/ann_2c9a1405d48957fcf69cacff.json": "3af00a198b8fc3fc4e9366019d015472d94fb5e19c631cb9d1bdb05f08c7d972",
+        "agents/labeler/checkpoints/ann_32bbf71133b5045dc16fdf0e.json": "fca43529361c61abcbcce16fa48e2f4c4f1424e1fefe908591c03b3284155c7b",
+        "agents/labeler/checkpoints/ann_39b81c95617cbf18ca26fc35.json": "0aef123fa06331397c385757d10f71c603db50f18eeabb3229a3fe8938def9d2",
+        "agents/labeler/checkpoints/ann_4374166c861ecdca074b069a.json": "2d1e3ae6da7243b71fe4707fa46eb1650814454485e6ae10b3504056f7602d13",
+        "agents/labeler/checkpoints/ann_44b67ed41b69f23a6c0237b1.json": "e200332ffbfbc1101ec97db0f926170efc1ff7bb7a255907d3511c456f739c16",
+        "agents/labeler/checkpoints/ann_63653b9dcc4a70e42b6f6d0c.json": "7a554c5425fa9078adddf90e519badedd72e57d4271a556ff9c9e47fc5d9ac17",
+        "agents/labeler/checkpoints/ann_6fc38b745576a1087f088c7b.json": "79c23651d12a1f15dff7caeb2f53999382dc4786faa67037529e1c0b5e4f5037",
+        "agents/labeler/checkpoints/ann_8cfb512d6917908d2d55043f.json": "4095eba54fbd9015df576b5d415ab422c6ceb0f460fbdee9099fec76f578e214",
+        "agents/labeler/checkpoints/ann_8f0979ec8f51593deb0aa057.json": "05d0a4633d13767e6970ae262691dc7040b4bee3e26da02963728af22ca3dffd",
+        "agents/labeler/checkpoints/ann_b170eb82ca5238af7984d1c6.json": "602cc4c8ad6461bc9c1ad710381d2475409bc6f0eb8f72cd3d1961e58f5da1d2",
+        "agents/labeler/checkpoints/ann_b6e9295a7b093908aa6ecc48.json": "c41aa4f8075357c8b96758e6526804cd4f7af254bf1a16745bb75f5e190a0495",
+        "agents/labeler/checkpoints/ann_c286049f0437fa8d3addfa1c.json": "e1325ce4e686a908920db5bfbcacfb03de915d17eb1ca4524c796af14dffd009",
+        "agents/labeler/checkpoints/ann_cb2d31a3fae5fa406ef9b8bb.json": "197b130c7cdad6404a4640bd4c050102e80c34d02514146541ee833c9ff09237",
+        "agents/labeler/checkpoints/ann_f2c38a424fe0c67a6456c9ce.json": "7b95617703e003da9949b2da345ef9ff3d3543dcb2a80075b2e0e5d45f1b6df4",
+        "agents/labeler/checkpoints/ann_f6af93e8d82fbc900a22a289.json": "11988bc096e9dd17532e0856bae6f3e0182b523e297b98d3850dec1773393314",
+        "agents/labeler/checkpoints/ann_f8cad1afbf6194e4e961e8fa.json": "362e21684b49137b86e9af884e863d1b0694f7647c9e34bdb0e9cfd27620381d",
+        "agents/labeler/checkpoints/ann_fe4aa2753e7ebd66757e0b2d.json": "36ee812beac4818e741dedef0c2ac81ec0774e4357ec1efa1038c6bd24fb282c"
+      },
+      "model_id": "claude-haiku-5-5-thinking-high",
+      "terminal_observation": "Native Haiku completed 20 private checkpoints; aggregate absent. Integration assembled nonempty accepted envelope exclusively from all 20 validated checkpoint records; semantic fields unchanged."
+    },
+    "blind": {
+      "result_path": "agents/blind/result.json",
+      "result_sha256": "4fac2827a49f29c46dc74643c7ec1548afb2aee798fc756c73759ee48c0d3534",
+      "checkpoint_sha256": {
+        "agents/blind/checkpoints/ann_04bac02b3b7f8c3cf8402441.json": "192353628d030b26dade0e43de82c6ae145940f7a478a5046a314a359ef20b3e",
+        "agents/blind/checkpoints/ann_1849f3b08d58e3ca76621e77.json": "0b5ce19ce40ed5d3ae9d1ae5fe5574b80e1108cb053f0e39f46f2d85762aab04",
+        "agents/blind/checkpoints/ann_236bccc1c93ec327c072d71f.json": "94b7be3737e111a9c93834b537deb6020f3cffceae8db92f1644b5ffc99e72e9",
+        "agents/blind/checkpoints/ann_2c9a1405d48957fcf69cacff.json": "f6c36ce565e29d3bc4b119adc6017ac4a183de6a0c8873c18cf2a45de0853425",
+        "agents/blind/checkpoints/ann_32bbf71133b5045dc16fdf0e.json": "c9768f0f3f10137ffeaf4e1b68989fe9a8c3612e7add231a35f7e59c9944cf2b",
+        "agents/blind/checkpoints/ann_39b81c95617cbf18ca26fc35.json": "2da6b25cff5c5e3eae52084f35dce4722f812c8d1265b5dba5457c0d54a90c16",
+        "agents/blind/checkpoints/ann_4374166c861ecdca074b069a.json": "e24fd9d9494aeb1965231ed19e20765447b40f0ab06dafa14d4f678c0d58e0dd",
+        "agents/blind/checkpoints/ann_44b67ed41b69f23a6c0237b1.json": "b611f90863b8705a08b5439ecafd16255250161aff20ae1cad3d462fda208bdd",
+        "agents/blind/checkpoints/ann_63653b9dcc4a70e42b6f6d0c.json": "cea22272190ec5afe7a675632daa78520f14e6c8c50d8a1c0f59abe4cd7ebce2",
+        "agents/blind/checkpoints/ann_6fc38b745576a1087f088c7b.json": "970f324bf6e27dcc1dd49b7a0c3dbdae37f3e57757c831c85e7dd44b8ac46be4",
+        "agents/blind/checkpoints/ann_8cfb512d6917908d2d55043f.json": "4870b5ef7458054be4812042d79658905f6787eae4e7add1c716d578b27b121c",
+        "agents/blind/checkpoints/ann_8f0979ec8f51593deb0aa057.json": "5b95994416a8a49c80a3256719245e55007a2b89661866545481f3cda4fadc50",
+        "agents/blind/checkpoints/ann_b170eb82ca5238af7984d1c6.json": "97a632c8bd0398579f11e587a7763e6d4f2d2e7ac213de164e375baf71e91bb7",
+        "agents/blind/checkpoints/ann_b6e9295a7b093908aa6ecc48.json": "e1927667ad9770351d95636e70c1d080bc2e808cb6f92552b3cee7f5b94f73e3",
+        "agents/blind/checkpoints/ann_c286049f0437fa8d3addfa1c.json": "c82cedf2f6857990db2eef12f8f7e678174a5c4712c0740f0214fbaf79a87692",
+        "agents/blind/checkpoints/ann_cb2d31a3fae5fa406ef9b8bb.json": "c6951ebe75a0fd32734b163910718d06f967f522ce3543194458dcdaa1279bcb",
+        "agents/blind/checkpoints/ann_f2c38a424fe0c67a6456c9ce.json": "0c9d8a19d02398842193916cecba23f825dd755ad1622b864a5820dec31f9d7b",
+        "agents/blind/checkpoints/ann_f6af93e8d82fbc900a22a289.json": "497c3598f295d3f99d45541d2e59f127ddebac7725f900e5b42d389c905adc7a",
+        "agents/blind/checkpoints/ann_f8cad1afbf6194e4e961e8fa.json": "3ed3366b1f4e2d558d76a2b2c75ee969d4125ea1976f7d98de6c4455f5e2cdd8",
+        "agents/blind/checkpoints/ann_fe4aa2753e7ebd66757e0b2d.json": "ba489ba70f9584b751cee4b12c2f0ff7fe8c4aa39afe4f7ee4ff0e5a32bdb2da"
+      },
+      "model_id": "gpt-5.6-luna-high",
+      "terminal_observation": "Native GPT-5.6 Luna completed blind result and all 20 checkpoints; original result preserved."
+    }
+  },
+  "reconciliation": {
+    "result_path": "agents/blind/reconciliation/result.json",
+    "result_sha256": "d595149c6c277199e53182cff49563cd13346f99a67fc2b39974cced2dc70152",
+    "checkpoint_sha256": {
+      "agents/blind/reconciliation/checkpoints/ann_63653b9dcc4a70e42b6f6d0c.json": "4f0890f6dd8f2557d459037a64b621105bc8c830d4e57dd286565b3173bec22b",
+      "agents/blind/reconciliation/checkpoints/ann_8f0979ec8f51593deb0aa057.json": "07f40892310872df09558ca26d8909db9b9465a5998ae7abdbba4645a540cba0",
+      "agents/blind/reconciliation/checkpoints/ann_f2c38a424fe0c67a6456c9ce.json": "5a97822cce47093f780e72c401cb0e8f2be48ec82e0aae85584a8ea9fdd4f30c"
+    },
+    "same_original_verifier": "cur013-blind / wF:p1A; exactly one pass"
+  }
+}

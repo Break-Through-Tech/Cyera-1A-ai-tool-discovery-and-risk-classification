@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_f2c38a424fe0c67a6456c9ce",
+  "description_sha256": "3fed00c092a879c325f686f1b4b71272b8f29351c167ad60cd9b9eebc99aa34e",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "Core offering is real-time streaming data collection and processing, which is conventional. The only AI-adjacent mention says ingested data can be used for machine learning, a downstream use case; the text does not establish whether ML is product functionality, so the binary AI positive is weak and forced.",
+  "ai_type_rationale": "The conventional streaming ingest/processing core is described without ML dependence; ML is only a stated downstream consumer of ingested data, so enabled is weak and forced.",
+  "evidence_spans": [
+    "you can ingest real-time data such as video, audio, application logs, website clickstreams, and IoT telemetry data for machine learning, analytics, and other applications"
+  ],
+  "ai_type_evidence_spans": [
+    "you can ingest real-time data such as video, audio, application logs, website clickstreams, and IoT telemetry data for machine learning, analytics, and other applications"
+  ]
+}

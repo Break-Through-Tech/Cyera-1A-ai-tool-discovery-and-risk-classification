@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_1849f3b08d58e3ca76621e77",
+  "description_sha256": "e45691c7922046aedae581d9146fa4f2c43db72db8852fdbdb2f11d4641fe7ab",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "supported",
+  "ai_type_forced_decision": false,
+  "rationale": "Explicitly states the product supports machine learning workloads alongside its core conventional big data processing and interactive analytics, using open-source frameworks. The core offering (petabyte-scale data processing on Spark/Hive/Presto frameworks) remains without the ML use, so it is AI-enabled rather than AI-native.",
+  "ai_type_rationale": "Core big data processing and analytics are described independently of ML; machine learning is an added workload the platform supports.",
+  "evidence_spans": [
+    "Amazon EMR is a cloud big data solution for petabyte-scale data processing, interactive analytics, and machine learning using open-source frameworks such as Apache Spark, Apache Hive, and Presto."
+  ],
+  "ai_type_evidence_spans": [
+    "Amazon EMR is a cloud big data solution for petabyte-scale data processing, interactive analytics, and machine learning using open-source frameworks such as Apache Spark, Apache Hive, and Presto."
+  ]
+}
