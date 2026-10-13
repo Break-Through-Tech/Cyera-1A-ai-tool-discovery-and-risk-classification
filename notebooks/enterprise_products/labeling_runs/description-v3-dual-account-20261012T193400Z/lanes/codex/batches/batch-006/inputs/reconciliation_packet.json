@@ -1,0 +1,133 @@
+[
+  {
+    "annotation_id": "ann_5e385857098222a86a607dc8",
+    "description_sha256": "bc254e875e576351bb9acceb204a1d313fe52df700baf695994b1b9eac9fce6c",
+    "description": "Jenkins is an open-source automation tool written in Java with plugins built for Continuous Integration purposes. Jenkins is used to build and test your software projects continuously making it easier for developers to integrate changes to the project, and making it easier for users to obtain a fresh build",
+    "source_record_references": [
+      "385"
+    ],
+    "labeler": {
+      "annotation_id": "ann_5e385857098222a86a607dc8",
+      "description_sha256": "bc254e875e576351bb9acceb204a1d313fe52df700baf695994b1b9eac9fce6c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described automation builds and tests software continuously to support continuous integration and delivery of fresh builds.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "automation tool written in Java with plugins built for Continuous Integration purposes",
+        "used to build and test your software projects continuously"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_5e385857098222a86a607dc8",
+      "description_sha256": "bc254e875e576351bb9acceb204a1d313fe52df700baf695994b1b9eac9fce6c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes continuous integration automation that builds and tests software projects and provides fresh builds, standard deterministic development workflow automation.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "automation tool written in Java with plugins built for Continuous Integration purposes",
+        "used to build and test your software projects continuously"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Blind rationale claims deterministic implementation not stated. Evaluate conventional continuous building/testing from text without unsupported implementation assertion."
+    ]
+  },
+  {
+    "annotation_id": "ann_8b461e793f39a07983c2e4c0",
+    "description_sha256": "68264ac8d6b0ebcc7c8ac6ba7a676529dabd944ab2de741a792442948cd50c82",
+    "description": "Rational  Application Developer for WebSphere  Software is a commercial Eclipse-based integrated development environment (IDE).",
+    "source_record_references": [
+      "378"
+    ],
+    "labeler": {
+      "annotation_id": "ann_8b461e793f39a07983c2e4c0",
+      "description_sha256": "68264ac8d6b0ebcc7c8ac6ba7a676529dabd944ab2de741a792442948cd50c82",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a commercial Eclipse-based IDE, a conventional environment for software development.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "commercial Eclipse-based integrated development environment (IDE)"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_8b461e793f39a07983c2e4c0",
+      "description_sha256": "68264ac8d6b0ebcc7c8ac6ba7a676529dabd944ab2de741a792442948cd50c82",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a commercial Eclipse-based integrated development environment for application development, a conventional software-development function, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "commercial Eclipse-based integrated development environment (IDE)"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Source only names IDE category with Eclipse/commercial qualifiers, no concrete development operation. Assess substantive conventional evidence vs category alone without product memory."
+    ]
+  },
+  {
+    "annotation_id": "ann_f378fd7aa6879a26b7e5542a",
+    "description_sha256": "0817870a8486301df12e4faa81f8462430a780f5d1447c64403c2c9050e45732",
+    "description": "Implementer is the premier software configuration management solution for the IBM iSeries.",
+    "source_record_references": [
+      "397"
+    ],
+    "labeler": {
+      "annotation_id": "ann_f378fd7aa6879a26b7e5542a",
+      "description_sha256": "0817870a8486301df12e4faa81f8462430a780f5d1447c64403c2c9050e45732",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The product is characterized as a software configuration management solution for the IBM iSeries.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "software configuration management solution for the IBM iSeries"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_f378fd7aa6879a26b7e5542a",
+      "description_sha256": "0817870a8486301df12e4faa81f8462430a780f5d1447c64403c2c9050e45732",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a software configuration management solution for IBM iSeries, a conventional source/configuration management function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "software configuration management solution for the IBM iSeries"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Source names software configuration management solution only; does not state source management despite blind rationale. Assess category-only sufficiency without inventing functions."
+    ]
+  }
+]
