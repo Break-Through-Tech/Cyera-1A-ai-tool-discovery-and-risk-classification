@@ -1,0 +1,86 @@
+{
+  "dataset_version": "binary-ai-v4",
+  "source_cutoff": "28a32b79f8f4c7ab000e2e66ba7fd21202d3dd44",
+  "seed": 20261014,
+  "policy_version": "whole-leakage-group-greedy-stratified-v1",
+  "ratios": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "feature_allowlist": [
+    "description_text"
+  ],
+  "input_sha256": {
+    "v3_manifest.json": "5397270326ba031b6022f466c887f8090bcfeb0cb67b673a797bba3b3bc997ac",
+    "v3_examples.json": "18aacb14bebd646286da80dec5d1d63b672fc69349c4f550177a0524632b05bc",
+    "v3_quarantined.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "v3_duplicate_audit.json": "06e50cce4707d8e0d9d0abcaec68861002252789cf1c9196398c6ca0eb2ee440",
+    "v3_identity_review.json": "1cb2bc25d637c4bbd0fa23fd8b7d5083117879951c88e4ee0ce5b7536f04f4b2",
+    "v3_conflicts.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  "script_sha256": "28de39d5b89947c163455147096c9700578e975b4a2ef87c26c410e1bc33195c",
+  "examples": 16669,
+  "quarantined_examples_excluded": 0,
+  "partitions": {
+    "train": {
+      "examples": 11667,
+      "groups": 11442,
+      "achieved_ratio": 0.6999220109184714,
+      "support": {
+        "examples:ai": 11377,
+        "examples:non_ai": 290,
+        "source_members:aitoolbuzz:ai": 11362,
+        "source_members:enterprise:ai": 28,
+        "source_members:enterprise:non_ai": 302
+      }
+    },
+    "validation": {
+      "examples": 2501,
+      "groups": 2501,
+      "achieved_ratio": 0.1500389945407643,
+      "support": {
+        "examples:ai": 2438,
+        "examples:non_ai": 63,
+        "source_members:aitoolbuzz:ai": 2435,
+        "source_members:enterprise:ai": 6,
+        "source_members:enterprise:non_ai": 64
+      }
+    },
+    "test": {
+      "examples": 2501,
+      "groups": 2501,
+      "achieved_ratio": 0.1500389945407643,
+      "support": {
+        "examples:ai": 2438,
+        "examples:non_ai": 63,
+        "source_members:aitoolbuzz:ai": 2435,
+        "source_members:enterprise:ai": 6,
+        "source_members:enterprise:non_ai": 65
+      }
+    }
+  },
+  "enterprise_only_test_slice": {
+    "source_member_support": {
+      "ai": 6,
+      "non_ai": 63
+    },
+    "both_classes_present": true,
+    "adequate_support": false,
+    "interpretation": "construction/quality check only; frozen test data must not select models or thresholds"
+  },
+  "evaluation_limit": "No registry/retrieval implementation; no universal or runtime previously-unseen Tool generalization claim.",
+  "reuse_permission": "Private reuse scope recorded in notebooks/enterprise_products/LABELING_WORKFLOW.md; no public license claim.",
+  "training_or_model_fitting": false,
+  "threshold_selection": false,
+  "source_confounding_risk": "AIToolBuzz supplies AI-only rows; enterprise supplies both classes, so source/style confounding remains.",
+  "output_sha256": {
+    "train.csv": "a674772350d6ff2119702a98a787f10767d899c2af77b9865fe4e6e6498b48a9",
+    "train.metadata.json": "0f6505ce89b587b8faf1d9d8463ff3083384afaf9d4e687ad8f3474048b3ab32",
+    "validation.csv": "12e3d7724a1cf4402892f7e2e64a2adfec66128a9cccab3c50b4edea5e70ca61",
+    "validation.metadata.json": "a710ed56e66537cd3673db2c38d41e7df00450722e1fedc1cbfb0466616338b5",
+    "test.csv": "ad9fbb1f641bb794acb2ba57bc66a7d944058b75d6cdc12cd25c9370a33754df",
+    "test.metadata.json": "0caea449f79a8078a3e45774db4897c6edef03d1ced7faf7e3a1c66100ec3dd5",
+    "assignments.json": "31950cdc989d76e5f36bd968ff46bbdb176027d21682acdc0711d233b68a35c1"
+  }
+}
