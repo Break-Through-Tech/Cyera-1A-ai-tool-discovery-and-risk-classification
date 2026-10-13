@@ -1,0 +1,174 @@
+{
+  "rubric_id": "enterprise-description-only-v3",
+  "run_id": "batch-007",
+  "counts": {
+    "source_input_records": 1494,
+    "cleaner_excluded_records": 56,
+    "records": 1438,
+    "product_groups": 1406,
+    "distinct_descriptions": 1391
+  },
+  "inputs": {
+    "raw": {
+      "path": "inputs/raw.csv",
+      "sha256": "afe7cdbcbf82d9b11f579eb6dce000815a04a301410636e2942036f072fc7aa1"
+    },
+    "cleaned": {
+      "path": "inputs/cleaned.csv",
+      "sha256": "c9f0d234d3b66327250d7eb372e9fc962e06f16c2bc0181cc34654fdb897eb2b"
+    },
+    "cleaning_report": {
+      "path": "inputs/cleaning_report.json",
+      "sha256": "5ee112cdb293fbe0640b61e4790d389331b35b729a907263237a2ecade0c0e7b"
+    },
+    "rubric": {
+      "path": "inputs/rubric.md",
+      "sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61"
+    },
+    "prompt_labeler": {
+      "path": "inputs/prompt_labeler.md",
+      "sha256": "b398a1cead49292a8dcec586037d257a671d08278ddb42507354bc77f544ab22"
+    },
+    "prompt_blind": {
+      "path": "inputs/prompt_blind.md",
+      "sha256": "afcf536ca4cfc906bf622cdb2df1a7af6b82494e8bad4a8b3aed58d8d9e49cbe"
+    },
+    "prompt_reconciliation": {
+      "path": "inputs/prompt_reconciliation.md",
+      "sha256": "c2b7913f26722139d4bac8b918bac639d108d55bef866c418024ffc84347267b"
+    }
+  },
+  "code_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "prompt_hashes": {
+    "labeler": "b398a1cead49292a8dcec586037d257a671d08278ddb42507354bc77f544ab22",
+    "blind": "afcf536ca4cfc906bf622cdb2df1a7af6b82494e8bad4a8b3aed58d8d9e49cbe",
+    "reconciliation": "c2b7913f26722139d4bac8b918bac639d108d55bef866c418024ffc84347267b"
+  },
+  "stages": {
+    "labeler": {
+      "stage": "labeler",
+      "run_id": "batch-007",
+      "batch_id": "codex-batch-007",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "b398a1cead49292a8dcec586037d257a671d08278ddb42507354bc77f544ab22",
+      "model_id": "openai-codex/gpt-6-luna:high",
+      "assigned_annotation_ids": [
+        "ann_b54cc7235b0f81c4a976502b",
+        "ann_d6212e304a51bc3202c2d090",
+        "ann_c50e043cba97951cc8338b5a",
+        "ann_06e461ad43eeca6d432b6bc2",
+        "ann_80fe7b349a9a3c2c13e4f09f",
+        "ann_fcc66f0431e791d3e04aa43e",
+        "ann_e6afa5104fcdb1928afab678",
+        "ann_9028dd6e2caf48b769d248c7",
+        "ann_031858df7ca566e976aacfe3",
+        "ann_4f08aafe3375db11c626aa80",
+        "ann_414620fdc8c2cf2b3f07c099",
+        "ann_523d9eaf9a38514e06c44e10",
+        "ann_c9f3152c3690b82e775f1581",
+        "ann_1988690a66a10b829f0bf79c",
+        "ann_9dd793803ed35ac73cab2c4a",
+        "ann_05f015e102d300332c7d6f39",
+        "ann_f70d3105f9eac252a80536d6",
+        "ann_0eeb14172aa480ccbe45cdf3",
+        "ann_3792cefea5f41d4e20cc0381",
+        "ann_914d47265980d0034f5591b5"
+      ]
+    },
+    "blind": {
+      "stage": "blind",
+      "run_id": "batch-007",
+      "batch_id": "codex-batch-007",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "afcf536ca4cfc906bf622cdb2df1a7af6b82494e8bad4a8b3aed58d8d9e49cbe",
+      "model_id": "openai-codex/gpt-6-luna:high",
+      "assigned_annotation_ids": [
+        "ann_b54cc7235b0f81c4a976502b",
+        "ann_d6212e304a51bc3202c2d090",
+        "ann_c50e043cba97951cc8338b5a",
+        "ann_06e461ad43eeca6d432b6bc2",
+        "ann_80fe7b349a9a3c2c13e4f09f",
+        "ann_fcc66f0431e791d3e04aa43e",
+        "ann_e6afa5104fcdb1928afab678",
+        "ann_9028dd6e2caf48b769d248c7",
+        "ann_031858df7ca566e976aacfe3",
+        "ann_4f08aafe3375db11c626aa80",
+        "ann_414620fdc8c2cf2b3f07c099",
+        "ann_523d9eaf9a38514e06c44e10",
+        "ann_c9f3152c3690b82e775f1581",
+        "ann_1988690a66a10b829f0bf79c",
+        "ann_9dd793803ed35ac73cab2c4a",
+        "ann_05f015e102d300332c7d6f39",
+        "ann_f70d3105f9eac252a80536d6",
+        "ann_0eeb14172aa480ccbe45cdf3",
+        "ann_3792cefea5f41d4e20cc0381",
+        "ann_914d47265980d0034f5591b5"
+      ]
+    },
+    "reconciliation": {
+      "stage": "reconciliation",
+      "run_id": "batch-007",
+      "batch_id": "codex-batch-007",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "c2b7913f26722139d4bac8b918bac639d108d55bef866c418024ffc84347267b",
+      "model_id": "openai-codex/gpt-6-luna:high",
+      "assigned_annotation_ids": [
+        "ann_1988690a66a10b829f0bf79c",
+        "ann_b54cc7235b0f81c4a976502b",
+        "ann_c50e043cba97951cc8338b5a"
+      ]
+    }
+  },
+  "prepared_artifacts": {
+    "description_packets.json": "1015a7662deb5a313f35b6a7311969060a86e753c241912d2236b4efe2d45b48",
+    "parent_join_map.json": "2e5a49bcbbdbdd34b86ed0352a6fb77e839fa844a153d78d119a6f56264e690b"
+  },
+  "selection_artifact": {
+    "selection.json": "ccdad86e8650aef43b7447b3541feaaa3fc9f2b45978235c5d0f1155b92248ce"
+  },
+  "checkpoints": {
+    "stages/labeler/ann_b54cc7235b0f81c4a976502b.json": "dc0cbe82517fff19bcbab996121b4922162e05554812c9489fba39c65a6da341",
+    "stages/labeler/ann_d6212e304a51bc3202c2d090.json": "9ff3ad2332ecedc806680ebb28967a7e1496eda40dfb1cce83f37de59005c507",
+    "stages/labeler/ann_c50e043cba97951cc8338b5a.json": "9be8489195c53b4cd0af91acb68a9f7c39127c31a8dc6686fbef0ca9dc6f499c",
+    "stages/labeler/ann_06e461ad43eeca6d432b6bc2.json": "64ed41c5052636619ed8bcb3867da3b3bac37f702725a5822f91776b83418028",
+    "stages/labeler/ann_80fe7b349a9a3c2c13e4f09f.json": "0cc30fdd7cffa880cfab7d3f6deb8d3d4c89bd5629f52dd8ef1dd981a16afafe",
+    "stages/labeler/ann_fcc66f0431e791d3e04aa43e.json": "41e1d1f1c85e7e3f9af11888a7d63e69420fda2de7443fd8d30f0ddf58e14c92",
+    "stages/labeler/ann_e6afa5104fcdb1928afab678.json": "9af4c8dea5571206671ff66c2ddf623bb61101fdfd921a0c6ed6eabcbffbd93f",
+    "stages/labeler/ann_9028dd6e2caf48b769d248c7.json": "d8b81289972064fe265ed44a3f344d912e15c2907eaccdba9c8e4999a0d9748c",
+    "stages/labeler/ann_031858df7ca566e976aacfe3.json": "345f23137eb9a176eb643844deaadce63441d36c361f5a690712c7e5d4f2bf64",
+    "stages/labeler/ann_4f08aafe3375db11c626aa80.json": "d296d163183bebed535b2933013c36b8ae41dd22ba389b7732e441f3ca1fa5ae",
+    "stages/labeler/ann_414620fdc8c2cf2b3f07c099.json": "298f2df6c117ed9dcdb7cf9e96b0fd333d7b8a91f6b419952a34ffc0f879ca74",
+    "stages/labeler/ann_523d9eaf9a38514e06c44e10.json": "caeb5e0484f61a865d61dc0c2585f23e02efa0acbaa0dcf9d56f97447e7c0849",
+    "stages/labeler/ann_c9f3152c3690b82e775f1581.json": "f6718922e216f379585177b43ee5529f21da24152ef254c1434ccb8d85793de4",
+    "stages/labeler/ann_1988690a66a10b829f0bf79c.json": "a0712f42c952be585324825e1ebe20b1c156fef929c9982bc5c83eaca9a89b23",
+    "stages/labeler/ann_9dd793803ed35ac73cab2c4a.json": "682b5f97ecb20e67cebd7112f19c81102532538086de921110d92315c3b4e2bc",
+    "stages/labeler/ann_05f015e102d300332c7d6f39.json": "bbac2f2c17c3ed31ebb948f917863376c2fe56e570105071f47694cd7814d3e8",
+    "stages/labeler/ann_f70d3105f9eac252a80536d6.json": "772a3149e49c7ebac2cc3b0ad3f758c84da251b281a888777e03374bc9e2ccbb",
+    "stages/labeler/ann_0eeb14172aa480ccbe45cdf3.json": "3fd7ff264184cdec744960fd909493357e8fa067f5c4fdf4fd3c167ce392457d",
+    "stages/labeler/ann_3792cefea5f41d4e20cc0381.json": "2c5778de86178c22ae2cf1f6b304e1307fcacac5bc4ef983fea5d1ad4b7cad8a",
+    "stages/labeler/ann_914d47265980d0034f5591b5.json": "c73834c5b2a3dd4503cf8cffc26f0c3bba6b0f59300d22613dd1f4496ef21922",
+    "stages/blind/ann_b54cc7235b0f81c4a976502b.json": "6a49cd4775628ab16da9302a8a92781a271f5b689504d5421669ab6d15ca24fa",
+    "stages/blind/ann_d6212e304a51bc3202c2d090.json": "2dac7492021203ce43f2f946d7f2c8bf4030329218a45f75bfde5b9af5fb4c5c",
+    "stages/blind/ann_c50e043cba97951cc8338b5a.json": "41a324aaf35760ff73cf1b2388bac07f05d16cbdbfac75310c0d905429b066fe",
+    "stages/blind/ann_06e461ad43eeca6d432b6bc2.json": "afe80d7644fe527867d91475550e8a23d53b91dced9b0e73469be49f51f78fa4",
+    "stages/blind/ann_80fe7b349a9a3c2c13e4f09f.json": "153f400b259dd7594b603090059bb417d69f9c637baf71ca198833d182176fcb",
+    "stages/blind/ann_fcc66f0431e791d3e04aa43e.json": "e2e0ed34434335f52d9fc01cef8cba2eebccebb5f61d3b1d56a9561b5356ef07",
+    "stages/blind/ann_e6afa5104fcdb1928afab678.json": "40eab8cc86711bc0de43b355f4dec564e768285d9ef68ce5108d9a0e96bc5987",
+    "stages/blind/ann_9028dd6e2caf48b769d248c7.json": "3eacc3c2eb8abf1188f8493dc6f2e98aa10fe090557cb275461055185ba80610",
+    "stages/blind/ann_031858df7ca566e976aacfe3.json": "1513b830f9a1f8ea41a352470e3fdaae5801b608f08d5f29b36d31f5171ffcf4",
+    "stages/blind/ann_4f08aafe3375db11c626aa80.json": "02dd6652325ef1de49f5937205c14af1369a768d0daaea46d9967d52623477e2",
+    "stages/blind/ann_414620fdc8c2cf2b3f07c099.json": "91fe976b60aa4a1a899152d987e59acc1210b0758d8f6389b074941a3672e7ea",
+    "stages/blind/ann_523d9eaf9a38514e06c44e10.json": "a84ebe65d307e818fbe73cadbe3051623a74838142ebfe60e5a349483cca795b",
+    "stages/blind/ann_c9f3152c3690b82e775f1581.json": "adf505e5f3439e640e9b6335a1ff6bdc8593f437ed505ef619ef545b15c50dc4",
+    "stages/blind/ann_1988690a66a10b829f0bf79c.json": "22de707f75a6661f2fa99cfd9f8e8723e53aac3c4fb558ef3b1186a1f8c013c3",
+    "stages/blind/ann_9dd793803ed35ac73cab2c4a.json": "7b5c4fab657516a09467d054b3b7e5b93d35eaa6c7ad1c3011a9e66eafb760e9",
+    "stages/blind/ann_05f015e102d300332c7d6f39.json": "20dce230fa1d594747fe90444488e97dc66288503b04c884bdc3b9bace9a729f",
+    "stages/blind/ann_f70d3105f9eac252a80536d6.json": "163ac9873e0bbf947d9f6b69268973660036df62f6b3c657d00323911f14103e",
+    "stages/blind/ann_0eeb14172aa480ccbe45cdf3.json": "785c6b79149a0a7778e2bdf7bb908ffa5069c05d65ce644d28c65fc2a3dd27b7",
+    "stages/blind/ann_3792cefea5f41d4e20cc0381.json": "2724ebb6d4f25e5e49e09a81492088b73bde5d53f9c909a55ac5856caa8a0e74",
+    "stages/blind/ann_914d47265980d0034f5591b5.json": "0297abeab4ba24737164dcc8e1741e640926064932761cd48bba12f92fddac5f"
+  }
+}

@@ -1,0 +1,131 @@
+[
+  {
+    "annotation_id": "ann_1988690a66a10b829f0bf79c",
+    "description_sha256": "08c20bb2c0d11b0bb118f18790663987686e78ad6a119c9b36f6357e2e39fc29",
+    "description": "Rally (formerly CA Agile Central) helps teams connect strategy with execution and is the industry's only purpose-built agile platform",
+    "source_record_references": [
+      "435"
+    ],
+    "labeler": {
+      "annotation_id": "ann_1988690a66a10b829f0bf79c",
+      "description_sha256": "08c20bb2c0d11b0bb118f18790663987686e78ad6a119c9b36f6357e2e39fc29",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies an agile platform that connects strategy with execution, a conventional team planning and project-management function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Rally (formerly CA Agile Central) helps teams connect strategy with execution and is the industry's only purpose-built agile platform"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_1988690a66a10b829f0bf79c",
+      "description_sha256": "08c20bb2c0d11b0bb118f18790663987686e78ad6a119c9b36f6357e2e39fc29",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies an agile platform for connecting team strategy with execution, a conventional planning/work-management function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "helps teams connect strategy with execution and is the industry's only purpose-built agile platform"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Connect strategy with execution is broad outcome and agile-platform category; rationales infer planning/project-management functions not directly described. Assess support without importing product features."
+    ]
+  },
+  {
+    "annotation_id": "ann_b54cc7235b0f81c4a976502b",
+    "description_sha256": "b7d01accbfeccac12f4d23d4bd9a68365ed3975a192f8f3043a368d3b1cbfa7d",
+    "description": "Services / Microservices",
+    "source_record_references": [
+      "422"
+    ],
+    "labeler": {
+      "annotation_id": "ann_b54cc7235b0f81c4a976502b",
+      "description_sha256": "b7d01accbfeccac12f4d23d4bd9a68365ed3975a192f8f3043a368d3b1cbfa7d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text is only a category label and does not specify a concrete function; there is not enough description to support an AI-positive label, so the best-supported binary decision is a weak forced negative.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Services / Microservices"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_b54cc7235b0f81c4a976502b",
+      "description_sha256": "b7d01accbfeccac12f4d23d4bd9a68365ed3975a192f8f3043a368d3b1cbfa7d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a software architecture category, services/microservices, rather than asserting AI functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Services / Microservices"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Only broad architecture/category label, no actual service behavior described; do not infer meaningful conventional function from missing AI words."
+    ]
+  },
+  {
+    "annotation_id": "ann_c50e043cba97951cc8338b5a",
+    "description_sha256": "594bf1e6a575d3c0187ccf43182dcd855501b7f7aad0fab6711c9686e01f6a48",
+    "description": "Programming language for MacOS and iOS",
+    "source_record_references": [
+      "424"
+    ],
+    "labeler": {
+      "annotation_id": "ann_c50e043cba97951cc8338b5a",
+      "description_sha256": "594bf1e6a575d3c0187ccf43182dcd855501b7f7aad0fab6711c9686e01f6a48",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes a programming language used to develop for MacOS and iOS, a conventional software-development function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Programming language for MacOS and iOS"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_c50e043cba97951cc8338b5a",
+      "description_sha256": "594bf1e6a575d3c0187ccf43182dcd855501b7f7aad0fab6711c9686e01f6a48",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a programming language for developing on MacOS and iOS, a conventional software-development offering.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Programming language for MacOS and iOS"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Only programming-language category/platform targets; evaluate substantive conventional-function evidence vs category-only without remembered product operations."
+    ]
+  }
+]
