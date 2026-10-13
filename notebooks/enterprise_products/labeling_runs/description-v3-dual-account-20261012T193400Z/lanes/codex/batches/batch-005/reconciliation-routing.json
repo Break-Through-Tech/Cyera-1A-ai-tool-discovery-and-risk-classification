@@ -1,0 +1,29 @@
+{
+  "reviewed_all_source_proposal_pairs": 20,
+  "required_ids": [
+    "ann_942ad624c5b0443563bdcace",
+    "ann_b1cb39385b3e46427bdcb822",
+    "ann_ed0215f3fff0a591a32f5869"
+  ],
+  "routed_ids": [
+    "ann_3925ec546ddfe1ea769259e7",
+    "ann_942ad624c5b0443563bdcace",
+    "ann_b1cb39385b3e46427bdcb822",
+    "ann_ed0215f3fff0a591a32f5869"
+  ],
+  "concerns": {
+    "ann_3925ec546ddfe1ea769259e7": [
+      "Both rationales describe static analysis, but source does not explicitly establish static implementation. Assess conventional code scanning/analyzer function without inventing implementation; no keyword-absence-only negative."
+    ],
+    "ann_ed0215f3fff0a591a32f5869": [
+      "Audience and company description alone do not establish actual tool functionality. Do not import known product features."
+    ],
+    "ann_942ad624c5b0443563bdcace": [
+      "Assess whether lab performance-testing phrase establishes enough conventional functionality versus only category/licensing."
+    ],
+    "ann_b1cb39385b3e46427bdcb822": [
+      "Voice/text chatbot construction does not specify AI vs scripted; preserve unresolved weak flags and ignore security disposition as AI evidence."
+    ]
+  },
+  "same_verifier_run_id": "23ab851a-1818-4efa-a6b0-764b09a493ff"
+}

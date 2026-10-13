@@ -1,0 +1,179 @@
+[
+  {
+    "annotation_id": "ann_3925ec546ddfe1ea769259e7",
+    "description_sha256": "3511637f158fa219db04a23397d7fa02f5c3405c3ab75bad7b604e190aaf73f7",
+    "description": "Scanning code for security - Developer Edition includes Branches, SonarLint notifications along with code analyzers developed by SonarSource for modern languages. - Up to 2M lines of code - development sw for scanning code for security",
+    "source_record_references": [
+      "338"
+    ],
+    "labeler": {
+      "annotation_id": "ann_3925ec546ddfe1ea769259e7",
+      "description_sha256": "3511637f158fa219db04a23397d7fa02f5c3405c3ab75bad7b604e190aaf73f7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies conventional code-security scanning, code analyzers, branch support and developer notifications; these static development and security functions do not establish AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Scanning code for security",
+        "code analyzers developed by SonarSource for modern languages",
+        "SonarLint notifications"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_3925ec546ddfe1ea769259e7",
+      "description_sha256": "3511637f158fa219db04a23397d7fa02f5c3405c3ab75bad7b604e190aaf73f7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes source-code security scanning and code analyzers, conventional static code analysis functionality without an AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Scanning code for security",
+        "code analyzers developed by SonarSource for modern languages"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Both rationales describe static analysis, but source does not explicitly establish static implementation. Assess conventional code scanning/analyzer function without inventing implementation; no keyword-absence-only negative."
+    ]
+  },
+  {
+    "annotation_id": "ann_942ad624c5b0443563bdcace",
+    "description_sha256": "7061ec0d9cbb04362596ad2defcdb2840dc3142b139c1561e68f19dae5efb9d1",
+    "description": "ACP is a small Cell solution used for Lab Performance testing. Professional licenses and run time licenses to run application. Approx. 50 licenses.",
+    "source_record_references": [
+      "346"
+    ],
+    "labeler": {
+      "annotation_id": "ann_942ad624c5b0443563bdcace",
+      "description_sha256": "7061ec0d9cbb04362596ad2defcdb2840dc3142b139c1561e68f19dae5efb9d1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text identifies a lab performance-testing solution and licenses for running an application, conventional testing/runtime software functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "small Cell solution used for Lab Performance testing",
+        "Professional licenses and run time licenses to run application"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_942ad624c5b0443563bdcace",
+      "description_sha256": "7061ec0d9cbb04362596ad2defcdb2840dc3142b139c1561e68f19dae5efb9d1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text gives only a vaguely named cell solution for lab performance testing and licenses; this suggests conventional testing software but its function is underspecified.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "small Cell solution used for Lab Performance testing",
+        "Professional licenses and run time licenses to run application"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Assess whether lab performance-testing phrase establishes enough conventional functionality versus only category/licensing."
+    ]
+  },
+  {
+    "annotation_id": "ann_b1cb39385b3e46427bdcb822",
+    "description_sha256": "d15b25d4c50d8bf39bf474679a18d2cc44190bb475b10e76fd7668630c905295",
+    "description": "Restricted use - Allowed in Sandbox. At time of last review (2018), did not support CMKs and required a public endpoint. Build voice and text chatbots",
+    "source_record_references": [
+      "355"
+    ],
+    "labeler": {
+      "annotation_id": "ann_b1cb39385b3e46427bdcb822",
+      "description_sha256": "d15b25d4c50d8bf39bf474679a18d2cc44190bb475b10e76fd7668630c905295",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text says the service builds voice and text chatbots, but does not explain whether they use AI or conventional scripted flows. Under the ambiguous-chatbot rule, the best-supported binary choice is a weak, forced negative rather than assuming implementation.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Build voice and text chatbots"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_b1cb39385b3e46427bdcb822",
+      "description_sha256": "d15b25d4c50d8bf39bf474679a18d2cc44190bb475b10e76fd7668630c905295",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text says the product builds voice and text chatbots but does not specify their operation; chatbot functionality can be scripted or AI-based, so the best-supported decision is a weak negative rather than assuming AI implementation.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Build voice and text chatbots"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Voice/text chatbot construction does not specify AI vs scripted; preserve unresolved weak flags and ignore security disposition as AI evidence."
+    ]
+  },
+  {
+    "annotation_id": "ann_ed0215f3fff0a591a32f5869",
+    "description_sha256": "76b905cea46377943258cf887f472cecc0c687ff019761a5e7d64f25fff9c48a",
+    "description": "Jetbrains is a software development company whose tools are targeted towards software developers and project managers",
+    "source_record_references": [
+      "340"
+    ],
+    "labeler": {
+      "annotation_id": "ann_ed0215f3fff0a591a32f5869",
+      "description_sha256": "76b905cea46377943258cf887f472cecc0c687ff019761a5e7d64f25fff9c48a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text only broadly describes a software company's tools as targeted at developers and project managers, without specifying their functions; no AI capability is established, so this is a forced description-based negative.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "tools are targeted towards software developers and project managers"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_ed0215f3fff0a591a32f5869",
+      "description_sha256": "76b905cea46377943258cf887f472cecc0c687ff019761a5e7d64f25fff9c48a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text characterizes the company's offerings as tools for software developers and project managers, conventional software development and project management tools.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "tools are targeted towards software developers and project managers"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Audience and company description alone do not establish actual tool functionality. Do not import known product features."
+    ]
+  }
+]
