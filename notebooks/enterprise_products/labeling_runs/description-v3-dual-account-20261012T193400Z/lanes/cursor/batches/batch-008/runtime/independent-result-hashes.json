@@ -1,0 +1,80 @@
+{
+  "stages": {
+    "labeler": {
+      "result_sha256": "2c7fb0de119562c25ebe50714e1b0fa37a70df95595a5a3b82928102ea87177b",
+      "checkpoints": {
+        "agents/labeler/checkpoints/ann_126af83236bc87a4055c9348.json": "add12f5cea64b4661c23ed040766fbcbf488cf5898c7df0b4e0e62ab133e7197",
+        "agents/labeler/checkpoints/ann_12dd8153e70d39f567dbea9a.json": "77d34ff3f2e6b5592eddf68e8903e14109bdbe9c6348731ad17d006083547f60",
+        "agents/labeler/checkpoints/ann_18fea3d4237d041cbc82c90b.json": "b57238d67f6bb9773fcf07966a5936b387684369cccc3afa0a4e2bb27c5fb79c",
+        "agents/labeler/checkpoints/ann_25b0779c18b6daf33fe71286.json": "a5380e5084e5d4a1198df6263720a76615cee8799213ebd5208f5319ee29f8bb",
+        "agents/labeler/checkpoints/ann_3caf5d905ff2035bef4e01ab.json": "c4bf6ce6e0d938ffc77698231882fa1ec093279ff99f96fc9ef4393cbc638767",
+        "agents/labeler/checkpoints/ann_4921db8948f0e1c74f935735.json": "e0d078b1cc8504ebaed8212485cf8683b15183ee83f1e01d2c548359491c3d10",
+        "agents/labeler/checkpoints/ann_4e8109f4ee3186bbc2ace6fb.json": "fb6d97bcd35cdfc321f51b2883b0f49037387dfa89b51b5058e05db439887ebb",
+        "agents/labeler/checkpoints/ann_525b60d696ce1feeaa697cf9.json": "500ddc193a1ecc144a9776f7b831d567fd4c0b28546a6fc85e81fa2e1723bcc0",
+        "agents/labeler/checkpoints/ann_596228302e1ea0daa0b86b2a.json": "0b773419c6987a6919304c4b979c22c4ce1f41b37e32f36f0036664c402296fe",
+        "agents/labeler/checkpoints/ann_63a7c91b161180c60b965c94.json": "2688fbc11600341c3c6445c125420a6dacb0d176130fd28d059188642c8867a8",
+        "agents/labeler/checkpoints/ann_645f4fb09d8aa8e55477b8fd.json": "19a6289a10a07e06c261933fc0103152f0f68ee7cc2052aadf9f327963b1806e",
+        "agents/labeler/checkpoints/ann_746dde765aae57b773d2851f.json": "c79e97833c0a06d6d42663b23b142c3f2f60fb6dbf3e9bbf6248f8f205c48325",
+        "agents/labeler/checkpoints/ann_7e06e68b563f7fe867ca9740.json": "f95e6fa8fbaf78d7441ab5670e2f39db716431dcd4b011d96d9acbec194ec0a5",
+        "agents/labeler/checkpoints/ann_bc67e53a34f891ecf8b0b43e.json": "284ae678ecd58de073d555ef74615a1e992b991fab9c159bc396bc93239b405b",
+        "agents/labeler/checkpoints/ann_c375f9d31a62e52e97ea4f47.json": "3548486d99f73b6acc7acf9262698a8c2e77b5d3a7b88b9d0e88ea8810dbabb9",
+        "agents/labeler/checkpoints/ann_cfbcd0e351b006c16caf85fe.json": "399f6a74b83d35c915fce23a13b11ee1fde72093df8d526a95adc6e96c4621a5",
+        "agents/labeler/checkpoints/ann_cfd85af765a96de4106b562d.json": "fb5e78c3850810175cc3c0e9541a3bc21e9829c8ac554624f9e94f49f67995a7",
+        "agents/labeler/checkpoints/ann_e3ab04aca2030fc126db58b4.json": "1ca7093c0f794b8a05ea37232d6a33663beb02f9b1eb15d2554bd5f3220f1cfb",
+        "agents/labeler/checkpoints/ann_e63ada60cf73f3936fc73242.json": "16fbb505c9b137afb5cc10a34011aa702675f716194ae8363b5733d8ecde8f8d",
+        "agents/labeler/checkpoints/ann_e7e3da19efed0b4d4f8866f6.json": "0f1882b2333e6de4fc81c413406fa794edc5e6afc9789b76a91ad485eee3f0ff"
+      }
+    },
+    "blind": {
+      "result_sha256": "44be49e2ab61ab8e82ae02c61130104a4e6d3dc484d70b8d9e93d291268d164b",
+      "checkpoints": {
+        "agents/blind/checkpoints/ann_126af83236bc87a4055c9348.json": "f47b5e77b8647c5a2da24630f0e9732427c185f9259a702dfc35a9c879fbfb67",
+        "agents/blind/checkpoints/ann_12dd8153e70d39f567dbea9a.json": "f8e409aee48d80607c3b39af29af9bde378e0bbc0bf8d806b75ef6b5eb6e3e25",
+        "agents/blind/checkpoints/ann_18fea3d4237d041cbc82c90b.json": "637b5b74809059b1acaeea2158803b2cb8b9e4a8d03f4b3549b374c82b35944e",
+        "agents/blind/checkpoints/ann_25b0779c18b6daf33fe71286.json": "92390c94f760e49d90347da0b96f599331a17cbc16f0fd86a509f5c2da776566",
+        "agents/blind/checkpoints/ann_3caf5d905ff2035bef4e01ab.json": "2e7fe712eca9c73ab41477908e448c05272cad4171170d4f550726f4ca1fde1f",
+        "agents/blind/checkpoints/ann_4921db8948f0e1c74f935735.json": "e56b0151ad950eb3886ce0ba0d6edc5735328f789bef19659f3528f19e18ab5f",
+        "agents/blind/checkpoints/ann_4e8109f4ee3186bbc2ace6fb.json": "24e65e68bcf410ea4a9ad1339d2eb2964195ef722a9be2788d5e22e2e86b8b57",
+        "agents/blind/checkpoints/ann_525b60d696ce1feeaa697cf9.json": "9e117784bedf0c74af5ebf765c159a0c427efa7a4817b50b31c0bbee8a87698f",
+        "agents/blind/checkpoints/ann_596228302e1ea0daa0b86b2a.json": "9c870281e4b4a4814d842a23612cb7fbf4a43119e3537ca3fecacf9fe309f449",
+        "agents/blind/checkpoints/ann_63a7c91b161180c60b965c94.json": "2b067132a2a4f04e6b9a94cd1a7e67127aea85db987718b1366baa625129dd6d",
+        "agents/blind/checkpoints/ann_645f4fb09d8aa8e55477b8fd.json": "2c9b1d8c835b723f67bb878f25b4677ebfd254da800965b9745199fb713f2724",
+        "agents/blind/checkpoints/ann_746dde765aae57b773d2851f.json": "bff68aab210363fbceaf785350971953406a3b1746771749f0ca806998bd97f7",
+        "agents/blind/checkpoints/ann_7e06e68b563f7fe867ca9740.json": "aa05433f0fe76633828afb916726a8720a6a187f6f423114d626e875f450f4c8",
+        "agents/blind/checkpoints/ann_bc67e53a34f891ecf8b0b43e.json": "d6673da10839486257c92c10107f6ae09eedd4ac3d563c1306663267afedcdfe",
+        "agents/blind/checkpoints/ann_c375f9d31a62e52e97ea4f47.json": "c8a3a50fb178770b3eb02f8da682e3a56d6e059223e193fa44834c426da2b85b",
+        "agents/blind/checkpoints/ann_cfbcd0e351b006c16caf85fe.json": "e592332edf8936de6d68e3fca0552c3e04dec36c7ffd14e97cd58d5622f0dab0",
+        "agents/blind/checkpoints/ann_cfd85af765a96de4106b562d.json": "d35e34275722b9848c724d81c569848b9c83668b596914b7153ac5655383645e",
+        "agents/blind/checkpoints/ann_e3ab04aca2030fc126db58b4.json": "9b30404d5e7d46517c4e5f2e1a4a04a077817a380f62ce0fba91112598439df2",
+        "agents/blind/checkpoints/ann_e63ada60cf73f3936fc73242.json": "883965073a8426c3d99188a49349c715ef881244a46b27d74075de298f1a857a",
+        "agents/blind/checkpoints/ann_e7e3da19efed0b4d4f8866f6.json": "9e73e5ca5d935bd44371f7104953a65e9bedd0f8fd1c337ff4a32d0b9cf8b841"
+      }
+    }
+  },
+  "structural_recovery": {
+    "provenance_sha256": "32c96836293d084bb5502fad79a2dee7c410b93c73ea6cff4c9d71b55904ba47",
+    "recovery_record_sha256": "c8e2c6106b9e858292721fa33b70c5669801e578bfc815a6d5c731f67a9e4d08",
+    "provenance": {
+      "annotation_id": "ann_7e06e68b563f7fe867ca9740",
+      "recovery_type": "structural_evidence_span_quote_correction",
+      "original_checkpoint": "checkpoints/ann_7e06e68b563f7fe867ca9740.json",
+      "original_result": "result.json",
+      "replacement_record": "structural-recovery/ann_7e06e68b563f7fe867ca9740.json",
+      "changed_fields": [
+        "evidence_spans"
+      ],
+      "changed_quote": {
+        "index": 1,
+        "original": "helps developers to write syntactically correct Db2 for z/OS SQL quickly",
+        "replacement": "syntactically correct Db2 for z/OS SQL quickly",
+        "reason": "The original quote contained 'helps', which is not in the source; the source reads 'help developers to write syntactically correct Db2 for z/OS SQL quickly'. The replacement is an exact substring of the source."
+      },
+      "unchanged_fields": "all other fields copied exactly from the original checkpoint, including rationale, ai_status, ai_type, evidence_strength, forced_decision, the subtype fields, and the first evidence span",
+      "semantic_review": "none performed; no semantic fields changed",
+      "originals_modified": false,
+      "original_checkpoint_sha256": "f95e6fa8fbaf78d7441ab5670e2f39db716431dcd4b011d96d9acbec194ec0a5",
+      "original_result_sha256": "2c7fb0de119562c25ebe50714e1b0fa37a70df95595a5a3b82928102ea87177b",
+      "recovery_record_sha256": "c8e2c6106b9e858292721fa33b70c5669801e578bfc815a6d5c731f67a9e4d08"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "annotation_id": "ann_7e06e68b563f7fe867ca9740",
+  "recovery_type": "structural_evidence_span_quote_correction",
+  "original_checkpoint": "checkpoints/ann_7e06e68b563f7fe867ca9740.json",
+  "original_result": "result.json",
+  "replacement_record": "structural-recovery/ann_7e06e68b563f7fe867ca9740.json",
+  "changed_fields": [
+    "evidence_spans"
+  ],
+  "changed_quote": {
+    "index": 1,
+    "original": "helps developers to write syntactically correct Db2 for z/OS SQL quickly",
+    "replacement": "syntactically correct Db2 for z/OS SQL quickly",
+    "reason": "The original quote contained 'helps', which is not in the source; the source reads 'help developers to write syntactically correct Db2 for z/OS SQL quickly'. The replacement is an exact substring of the source."
+  },
+  "unchanged_fields": "all other fields copied exactly from the original checkpoint, including rationale, ai_status, ai_type, evidence_strength, forced_decision, the subtype fields, and the first evidence span",
+  "semantic_review": "none performed; no semantic fields changed",
+  "originals_modified": false,
+  "original_checkpoint_sha256": "f95e6fa8fbaf78d7441ab5670e2f39db716431dcd4b011d96d9acbec194ec0a5",
+  "original_result_sha256": "2c7fb0de119562c25ebe50714e1b0fa37a70df95595a5a3b82928102ea87177b",
+  "recovery_record_sha256": "c8e2c6106b9e858292721fa33b70c5669801e578bfc815a6d5c731f67a9e4d08"
+}

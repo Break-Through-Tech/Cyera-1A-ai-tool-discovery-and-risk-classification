@@ -1,0 +1,58 @@
+{
+  "stage": "reconciliation",
+  "records": [
+    {
+      "annotation_id": "ann_596228302e1ea0daa0b86b2a",
+      "description_sha256": "44b9768b2d82f77b5b637331076272f32a00d839d2803e08ede89b09e0a9d1e9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a product-analytics app and embedded tools for product experience and team insights, but does not specify a concrete conventional analytics operation or establish how the insights are produced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Pendo is a product-analytics app built to help software companies develop products that resonate with customers.",
+        "The app allows software makers to embed in their products a wide range of tools that can lead both to a better product experience for users and new insights for the product team."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The blind proposal treated generic product analytics and insights as supported conventional functionality, while the labeler proposal retained weak evidence. The text names the category and outcome but does not describe reporting, deterministic analysis, or another specific conventional function; the generic possibility of ordinary analytics is not enough to supply that missing detail. I therefore retain non_ai as weak and forced, without inferring AI or predictive implementation."
+    },
+    {
+      "annotation_id": "ann_cfd85af765a96de4106b562d",
+      "description_sha256": "a804bad52f8b0995b1c418a893247c220e78eb2a01f1cac9ddd5017a9d61b88c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description says the company designs, implements, and operates video solutions that capture, process, and deliver content, but it is a broad services overview without enough product detail to establish a conventional software function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "We design, implement and operate reliable video solutions that capture, process and deliver our clients' video and audio content from any source, in any format, to any destination in the most efficient manner possible."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The blind proposal treated capture, processing, and delivery as sufficient conventional functionality, while the labeler proposal identified the lack of a specific product function. The exact text establishes broad video services and operations, but does not explain what the processing consists of or identify a conventional software offering. That unresolved specificity issue requires retaining non_ai as weak and forced; no AI inference is made."
+    },
+    {
+      "annotation_id": "ann_c375f9d31a62e52e97ea4f47",
+      "description_sha256": "1cd108e977cf9993fb757fbdec9222c9dea58f315f09ef540d2b86e0ca385489",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description establishes conventional low-code data models, workflows, logic, and interfaces, but lists chatbots without explaining their implementation, leaving potentially AI-dependent functionality unresolved.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Quickly develop mobile apps, web applications, and chatbots with our low-code platform.",
+        "Build data models, workflows, logic, and user interfaces and interactions, and even add your custom code."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Both proposals retain a weak forced non_ai judgment. The low-code functions support a conventional component, but the exact included chatbot claim does not say whether it uses rules, scripted logic, or AI. Because that potentially AI-dependent functionality is unexplained, the uncertainty remains weak and forced; it does not establish an AI-positive label or subtype."
+    }
+  ]
+}
