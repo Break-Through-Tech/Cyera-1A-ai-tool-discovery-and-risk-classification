@@ -1,0 +1,20 @@
+{
+  "annotation_id": "ann_857a3806661962e7b969c78d",
+  "description_sha256": "43af9300ccbfcb64f0faf063ad2ac0065d038ae0cd190e6347e191eee3f821da",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "supported",
+  "ai_type_forced_decision": false,
+  "rationale": "The description explicitly identifies product-specific AI predictive analytics.",
+  "ai_type_rationale": "The description separately identifies interaction analytics software providing indexing and mining and AI predictive analytics, supporting a conventional core with an AI enhancement.",
+  "evidence_spans": [
+    "AI predictive analytics"
+  ],
+  "ai_type_evidence_spans": [
+    "interaction analytics software",
+    "AI predictive analytics"
+  ],
+  "conflict_response": "The binary remains supported because the text explicitly says AI predictive analytics. The subtype is also supported as ai_enabled because the text separately describes indexing and mining software as the offering and then identifies AI predictive analytics; this establishes meaningful conventional core functionality alongside the AI capability rather than relying on the AI mention alone."
+}

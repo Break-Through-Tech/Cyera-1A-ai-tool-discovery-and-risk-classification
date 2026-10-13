@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_857a3806661962e7b969c78d",
+  "description_sha256": "43af9300ccbfcb64f0faf063ad2ac0065d038ae0cd190e6347e191eee3f821da",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "The description states a product-specific affirmative AI capability: 'AI predictive analytics by NICE Nexidia'. That supports the AI-positive binary.",
+  "ai_type_rationale": "The core offering (indexing and mining software for audio and video) is described conventionally, with AI predictive analytics presented as a marketed capability. The text does not establish that the core depends on AI, so ai_enabled is a weak forced subtype. The product-specific AI mention alone does not establish the subtype.",
+  "evidence_spans": [
+    "Maximize customer satisfaction with AI predictive analytics by NICE Nexidia."
+  ],
+  "ai_type_evidence_spans": [
+    "Nexidia is an interaction analytics software company that provides indexing and mining software for audio and vide"
+  ]
+}

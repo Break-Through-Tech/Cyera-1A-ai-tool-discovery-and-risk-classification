@@ -1,0 +1,11 @@
+{
+  "recovery_type": "structural_only",
+  "annotation_id": "ann_857a3806661962e7b969c78d",
+  "original_checkpoint_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-005/agents/blind/checkpoints/ann_857a3806661962e7b969c78d.json",
+  "original_checkpoint_sha256": "33e700568548f23ab48e2f448911c181b05b5a667904ae46afcb67a119cd8167",
+  "original_result_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-005/agents/blind/result.json",
+  "original_result_sha256": "4ccd94b24ab8a7a1c36159912d82c8f0951e2ead5c44b0d128d6642218d39c19",
+  "changed_field": "ai_type_evidence_spans",
+  "exact_quote": "interaction analytics software",
+  "rationale": "Quote-only structural repair: the replacement changes only ai_type_evidence_spans to an exact substring from the selected packet and preserves every other record field unchanged."
+}
