@@ -1,0 +1,2176 @@
+{
+  "source_cutoff": "28a32b79f8f4c7ab000e2e66ba7fd21202d3dd44",
+  "source_records": 1438,
+  "source_distinct_descriptions": 1391,
+  "finalized_distinct_descriptions": 560,
+  "finalized_rows": 577,
+  "finalized_groups": 571,
+  "unlabelled_distinct_descriptions": 831,
+  "unlabelled_rows": 861,
+  "binary_counts_including_weak": {
+    "non_ai": 518,
+    "ai": 42
+  },
+  "supported_binary_counts": {
+    "non_ai": 416,
+    "ai": 40
+  },
+  "subtype_counts_including_weak": {
+    "null": 518,
+    "ai_native": 24,
+    "ai_enabled": 18
+  },
+  "weak_subtype_descriptions": 13,
+  "weak_or_forced_descriptions": 104,
+  "weak_or_forced_rows": 106,
+  "exclusion_counts": {
+    "binary_weak_or_forced": 106
+  },
+  "duplicate_exports_not_recounters": 0,
+  "rubric_id": "enterprise-description-only-v3",
+  "cleaned_input_sha256": "c9f0d234d3b66327250d7eb372e9fc962e06f16c2bc0181cc34654fdb897eb2b",
+  "raw_source_sha256": "afe7cdbcbf82d9b11f579eb6dce000815a04a301410636e2942036f072fc7aa1",
+  "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+  "provenance": [
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/manifest.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/manifest.json",
+          "sha256": "d75eec8a6c641380a14e209ab440706a8960d3225d43dbd580eb62fee39e0eeb"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/PREPARATION_RECEIPT.json",
+          "sha256": "edc2f3eef5459435c5ccc6e572d41636dca940964ef9c4d3141ded832e927a3a"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/FINAL_VALIDATION.json",
+          "sha256": "c44c67deb66692029c809c1bc42dd77fabdbe1e875045ee869d31f46846a899e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/PARENT_ACCEPTANCE.json",
+          "sha256": "e99966f229aa8246b1ddb6c08c5f7392673433ef616d7239a32dd18e3064d3d9"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "ab91416c46d5303683f7655c723063297c5ce071326fc2949fda251251952f18",
+      "record_sha256": "c808efbe2014e2fbe9e7c1320598c04e5627e380fe6046326a0884218c95d1fc",
+      "receipt_sha256": "e99966f229aa8246b1ddb6c08c5f7392673433ef616d7239a32dd18e3064d3d9"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-001/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-001/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-001/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "claude-haiku-5-5-thinking-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-001/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-001/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-001/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-001/manifest.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-001/manifest.json",
+          "sha256": "f76230a1bc75ef0caae1ce1c1cdc14e0d3005409478efb694d58854b4b939c24"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-001/FINAL_VALIDATION.json",
+          "sha256": "6330b58635f83902b7bc7c3ffaf349df9f195d4083038c2cf05011a9c47864d6"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-001/PARENT_ACCEPTANCE.json",
+          "sha256": "021a765670729945e287d300979a37a6b81618eb0067570141854b9403c7b9be"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 21,
+      "label_sha256": "28fdcc90a07ec70535a50fade66e94e8b53d943fe3b95eadc39f03f4c6f60225",
+      "record_sha256": "40359f997e81236d9eb14082555cd025ef96fd1b2256b299ca068f973096a398",
+      "receipt_sha256": "021a765670729945e287d300979a37a6b81618eb0067570141854b9403c7b9be"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-002/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-002/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-002/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "claude-haiku-5-5-thinking-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-002/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-002/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-002/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-002/manifest.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-002/manifest.json",
+          "sha256": "def91bfe1217edfed64a170667b16dcb10a2fdd031bffe9a76a00d4830b6d162"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-002/FINAL_VALIDATION.json",
+          "sha256": "edb18ab48b08ccd4e95b45136e7ee62431aac4ed1667058b6e5eac2866dce952"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-002/PARENT_ACCEPTANCE.json",
+          "sha256": "f3aa6057919496868c03b7777cd1ac62176a79643a704671df800323df9a4b5b"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "0c99b6067181750ead8aa2a802bfe739d0990df4de5e2d0dee35964b3dd73a3a",
+      "record_sha256": "d77a5dcfeac15bce2d0b9aac8a856eab64c6376a355b3de20b916f2db29ea81f",
+      "receipt_sha256": "f3aa6057919496868c03b7777cd1ac62176a79643a704671df800323df9a4b5b"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-test-20261012T183810Z-r1/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-test-20261012T183810Z-r1/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-test-20261012T183810Z-r1/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "cursor/claude-haiku-5-5-thinking-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-test-20261012T183810Z-r1/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "cursor/gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-test-20261012T183810Z-r1/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "cursor/gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-test-20261012T183810Z-r1/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-test-20261012T183810Z-r1/manifest.json"
+        },
+        {
+          "models": {
+            "labeler": "claude-haiku-5-5-thinking-high",
+            "blind": "gpt-5.6-luna-high"
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-test-20261012T183810Z-r1/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-test-20261012T183810Z-r1/manifest.json",
+          "sha256": "a7e1fd1efc08bf1b7231341075262b3560afa6aeafef6c6c5b305a29489ca382"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-test-20261012T183810Z-r1/PREPARATION_RECEIPT.json",
+          "sha256": "fcf5035a156ee7206ad6c7db7799ffbedab6872386d30e0b0ddac790a4080fe6"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-test-20261012T183810Z-r1/FINAL_VALIDATION.json",
+          "sha256": "22b8577d9a725b78e0299d06e65b16c15d0034ca7645c141895b2075e51bc1e8"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-test-20261012T183810Z-r1/PARENT_ACCEPTANCE.json",
+          "sha256": "517fa3acdf346cc36ac7612803ea68b940f05cd98cdf6cdde84c27842362a92a"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "8885e702e031db044c04cae341af1289a0a0cf89696491400d8d07092fbb9174",
+      "record_sha256": "27b1f703df2ba9cf3655d07dc24be18e77b37a9cf963badb08e1f0a86c83b1a4",
+      "receipt_sha256": "517fa3acdf346cc36ac7612803ea68b940f05cd98cdf6cdde84c27842362a92a"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-001/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-001/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-001/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-001/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-001/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-001/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-001/manifest.json"
+        },
+        {
+          "models": {
+            "labeler": "openai-codex/gpt-6-luna:high",
+            "blind": "openai-codex/gpt-6-luna:high"
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-001/PREPARATION_RECEIPT.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-001/manifest.json",
+          "sha256": "e163f16ae8f82fdb58e65431bd8329a4d50bf978f6af97cbe637a3ad6070176b"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-001/PREPARATION_RECEIPT.json",
+          "sha256": "72ec068b7169f313359e9a9d82cba4700a8fa4b63656e1d19d4e2d2880234e3a"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/manifest.json",
+          "sha256": "99a0582babb62580c22c894ef611e081ccc342d5febc6f1aa3b3357a8d228624"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-001/PARENT_ACCEPTANCE.json",
+          "sha256": "37ca14279f09e8423642a1a1abc7479afb1e4fc8bbb584a22334af2a236c6b08"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "2db448f505879f0662ba7eb4eeba45676c71bf8c5b8f1d6091819d3ec775ed42",
+      "record_sha256": "8be7dfb71f463b4b176584403c479f396c9feb99eb43389c82b2b4872555ec69",
+      "receipt_sha256": "37ca14279f09e8423642a1a1abc7479afb1e4fc8bbb584a22334af2a236c6b08"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-002/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-002/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-002/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-002/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-002/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-002/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-002/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-002/manifest.json",
+          "sha256": "c64a8fccaba86e2933cdf31b96e8e13979459ab50c3d02a9cb6eb3781728839c"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/manifest.json",
+          "sha256": "99a0582babb62580c22c894ef611e081ccc342d5febc6f1aa3b3357a8d228624"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-002/PARENT_ACCEPTANCE.json",
+          "sha256": "64e58d7612fe0708988195745798c0837640d057d16012f22e01438a5ef646f1"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "d82e773837ef015d6a090cf1a5b43b0bcec36df5d131f926514d7b778b8803d9",
+      "record_sha256": "b9f2bb9f9233195364d76e7645af506cd44096190fa769920480d1405c1a1268",
+      "receipt_sha256": "64e58d7612fe0708988195745798c0837640d057d16012f22e01438a5ef646f1"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-003/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-003/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-003/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-003/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-003/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-003/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-003/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-003/manifest.json",
+          "sha256": "66a6117dc570c1db6445169a61c05b31582f04bac65965ac532db77b8c6e7cc9"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/manifest.json",
+          "sha256": "99a0582babb62580c22c894ef611e081ccc342d5febc6f1aa3b3357a8d228624"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-003/PARENT_ACCEPTANCE.json",
+          "sha256": "38d861e753a82afbfc191bf482fe17afa124bc8aacebe55351c3afd83c0590ec"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "d66c565b3859a12a9fb44aeefbc67a21e59b8284b3c4d5a82756b4300bf45e8a",
+      "record_sha256": "699af9b30c417be85bf04237b11339423dbe82aa0165dec2b8e71ff3918d6fef",
+      "receipt_sha256": "38d861e753a82afbfc191bf482fe17afa124bc8aacebe55351c3afd83c0590ec"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-004/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-004/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-004/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-004/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-004/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-004/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-004/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-004/manifest.json",
+          "sha256": "0fa9c5ddd9ea90f984df0b4dc2b4fd880cb6d979cceab7cc2dd471221189937c"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/manifest.json",
+          "sha256": "99a0582babb62580c22c894ef611e081ccc342d5febc6f1aa3b3357a8d228624"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-004/PARENT_ACCEPTANCE.json",
+          "sha256": "efe65a4c122ba07c9f40959ddb46bfb200dd49c2f2efbfc31268174ff2340687"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "3194561f130fda7f83c6812b37080ba988ed2a8fdd8d3757f6a493810de940e6",
+      "record_sha256": "cd26c43f1e966a49a75dae40ae6381ad4ca3daba626fac57251828b9eca13b2f",
+      "receipt_sha256": "efe65a4c122ba07c9f40959ddb46bfb200dd49c2f2efbfc31268174ff2340687"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-005/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-005/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-005/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-005/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-005/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-005/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-005/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-005/manifest.json",
+          "sha256": "6bce5d15f7797038d84e9130cde2d9fa34b211b95000d21babaf4ae06fa0e61b"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/manifest.json",
+          "sha256": "99a0582babb62580c22c894ef611e081ccc342d5febc6f1aa3b3357a8d228624"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-005/PARENT_ACCEPTANCE.json",
+          "sha256": "9a4c902b7b4b64001df978077b7f66b3612c8541a89026aa6c90e86e5368dc6a"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "2370142c09c2d1edb58a13efa9fba6d23360f8408e2bd9ae17a2f3797f512925",
+      "record_sha256": "9cf4e48e9a4d2eecc0e0f62197ac45fdc4c32d8f1a656265815369f3f8dfb37e",
+      "receipt_sha256": "9a4c902b7b4b64001df978077b7f66b3612c8541a89026aa6c90e86e5368dc6a"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-006/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-006/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-006/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-006/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-006/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-006/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-006/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-006/manifest.json",
+          "sha256": "8aed0440c8694fda4277a97066d722827ef9855bca60c62c12953f812b1d447b"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/manifest.json",
+          "sha256": "99a0582babb62580c22c894ef611e081ccc342d5febc6f1aa3b3357a8d228624"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-006/PARENT_ACCEPTANCE.json",
+          "sha256": "2a32e983d8c8362bf7d923d618c209887eca1d4edbadbba64ffe5748b3a5f69d"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 21,
+      "label_sha256": "9b2a7b5a5dbfb57499ac8c467087639845ec9f5bc83feabcd1fe969add46f763",
+      "record_sha256": "0ae2fa745fe60b85f2c74ecf7074b7a9b45af12c3c75f68acb021266edbedeea",
+      "receipt_sha256": "2a32e983d8c8362bf7d923d618c209887eca1d4edbadbba64ffe5748b3a5f69d"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-007/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-007/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-007/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-007/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-007/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-007/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-007/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-007/manifest.json",
+          "sha256": "955f0bebeb0799a36bc0ef05fdd19fe94806d56973ac645cc6f402c0d531d81e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/manifest.json",
+          "sha256": "99a0582babb62580c22c894ef611e081ccc342d5febc6f1aa3b3357a8d228624"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-007/PARENT_ACCEPTANCE.json",
+          "sha256": "99731f01b31af1d4daf448a7ba2072c99edc841178db5d44e714abbfc8aed2f0"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "e54840bdc187fc4516d2fa89d8209e4b7d0547fc6f2b195666d5d6da6be15a8b",
+      "record_sha256": "dd426d79ea285973912b20bce2cb7c8cbec796e7564c39f53960020855801898",
+      "receipt_sha256": "99731f01b31af1d4daf448a7ba2072c99edc841178db5d44e714abbfc8aed2f0"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-001/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-001/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-001/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "claude-haiku-5-5-thinking-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-001/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-001/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-001/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-001/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-001/manifest.json",
+          "sha256": "a0002163103c3eefa9df3da833edc2248db013ac4e2150aa36862b236c73d6eb"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json",
+          "sha256": "29773e2dad343fc4e4ea726c6458d4b4453409370b8dd3f73ffddcc638ce9eb1"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-001/PARENT_ACCEPTANCE.json",
+          "sha256": "a5f98281450f5acebdf1297bf50317ecbf24a07863cb40ccf027b5b92146ee53"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "ea14ae457c1080571ad9e0ad066b8ade188bc4282e926682de5e3ad3368fe264",
+      "record_sha256": "7cb2279b183fd4c89041aff624a45c351a12e57389f171757d23f063ef314c9c",
+      "receipt_sha256": "a5f98281450f5acebdf1297bf50317ecbf24a07863cb40ccf027b5b92146ee53"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-002/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-002/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-002/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "claude-haiku-5-5-thinking-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-002/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-002/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-002/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-002/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-002/manifest.json",
+          "sha256": "4bf6ba7c2500cefbb372335bcc42702c5165eaae7f2cd8e603671dc93100f96d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-002/PREPARATION_RECEIPT.json",
+          "sha256": "283e7cab23f2d4b8fc4bfa08b3d6c0d3ba24b3d511c64ce2b69f8bf49ce88e3e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json",
+          "sha256": "29773e2dad343fc4e4ea726c6458d4b4453409370b8dd3f73ffddcc638ce9eb1"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-002/PARENT_ACCEPTANCE.json",
+          "sha256": "13b4d0e9036d6718161296800d8218679b6787aabdffaf5f14278d3d67b6050d"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "059779dca1e28a9422ddb8fdde7614acab264cf6086543e3cc1b365622f02346",
+      "record_sha256": "e7f38f360ad06682a946678a25c6c76359327e132859eadc7c0cc70474b20602",
+      "receipt_sha256": "13b4d0e9036d6718161296800d8218679b6787aabdffaf5f14278d3d67b6050d"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-003/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-003/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-003/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "claude-haiku-5-5-thinking-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-003/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-003/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-003/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-003/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-003/manifest.json",
+          "sha256": "5e2e22f22e7ac46fc3905e97f8313aaafc67d2aa0825fedb9a567c4878481adb"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json",
+          "sha256": "29773e2dad343fc4e4ea726c6458d4b4453409370b8dd3f73ffddcc638ce9eb1"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-003/PARENT_ACCEPTANCE.json",
+          "sha256": "cfab297d605052671c8f305849d17ab863a7c333390f111c9f8bd427080e55c6"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "2f07641ecd82360e4e726b684949116ebdf3a4c4a12995b21110341be4d0b547",
+      "record_sha256": "19eeb27faf0768566d7faf31ed3203a26821127b9c30b5444e5c6592be8222dc",
+      "receipt_sha256": "cfab297d605052671c8f305849d17ab863a7c333390f111c9f8bd427080e55c6"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-004/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-004/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-004/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "claude-haiku-5-5-thinking-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-004/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-004/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-004/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-004/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-004/manifest.json",
+          "sha256": "fdc52a3301149e0a13fbfb5c2326a9f157e24561a0d9c0f432bdef9806b2a14a"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json",
+          "sha256": "29773e2dad343fc4e4ea726c6458d4b4453409370b8dd3f73ffddcc638ce9eb1"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-004/PARENT_ACCEPTANCE.json",
+          "sha256": "175cdf34bbf972b6db35c65e48a37c225042e08c85eca27170598678ae0c856b"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "e9a7179fbf4b7dabf58c389650b0fb88aa638689596b9b67c91d2ca0f95a893b",
+      "record_sha256": "7a92fe2193aaf34b0f28efb21decd056a73807429c951790df3c46db78f2327a",
+      "receipt_sha256": "175cdf34bbf972b6db35c65e48a37c225042e08c85eca27170598678ae0c856b"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-005/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-005/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-005/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "claude-haiku-5-5-thinking-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-005/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-005/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-005/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-005/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-005/manifest.json",
+          "sha256": "6f92f1abee52d29af061bf975d49f47c0d0dfa5ea2e81f0e017c85026ed0c4ee"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json",
+          "sha256": "29773e2dad343fc4e4ea726c6458d4b4453409370b8dd3f73ffddcc638ce9eb1"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-005/PARENT_ACCEPTANCE.json",
+          "sha256": "4d5034b27457339543f644a772e8d8ba2f09b94339f105bb9b299397dda6f96c"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 22,
+      "label_sha256": "3ac081901e6a2acfd32e67bc7cc2c6736ff75bbad801af13050de148a755a1bb",
+      "record_sha256": "ef549a22bdf922b4baacb672b1cefcafe7617b7720775b9aa680e45eda982d49",
+      "receipt_sha256": "4d5034b27457339543f644a772e8d8ba2f09b94339f105bb9b299397dda6f96c"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-006/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-006/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-006/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "claude-haiku-5-5-thinking-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-006/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-006/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-006/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-006/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-006/manifest.json",
+          "sha256": "a5c4802c30bf5b6106ad5b68c5a41f821ff859be5062448807529348ea808069"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json",
+          "sha256": "29773e2dad343fc4e4ea726c6458d4b4453409370b8dd3f73ffddcc638ce9eb1"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-006/PARENT_ACCEPTANCE.json",
+          "sha256": "bbe184b249fb1a468d13eb46aac23b17baebbad36a8fbd1f3336af4907dcbb84"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "9003d4c57b77eb8f7856ee1c97ca433955d0b5d39bda7b575f8d6f8fa46995f0",
+      "record_sha256": "533037e4a288811b85d31f428922abf73d43842e25d1cae96c7b482cc4f5ef85",
+      "receipt_sha256": "bbe184b249fb1a468d13eb46aac23b17baebbad36a8fbd1f3336af4907dcbb84"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-007/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-007/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-007/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "claude-haiku-5-5-thinking-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-007/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-007/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-007/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-007/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-007/manifest.json",
+          "sha256": "6677755b490aeb970085356679c165713abff0dab7c0f9cc2a5df8d6d183e7a8"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json",
+          "sha256": "29773e2dad343fc4e4ea726c6458d4b4453409370b8dd3f73ffddcc638ce9eb1"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-007/PARENT_ACCEPTANCE.json",
+          "sha256": "548ed84927eacf3bd6f80a622703e74871c7525acd3dae5ec43a00537d4b4df0"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "7b98634e342bd931bfeee8b51cf68bb3826c05953581a65163b7499d77d72bde",
+      "record_sha256": "cfdcfef53090612b166d9d2c5dfbfd2449ecec37a6fbf01f331d89e1e9e5dcc7",
+      "receipt_sha256": "548ed84927eacf3bd6f80a622703e74871c7525acd3dae5ec43a00537d4b4df0"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-008/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-008/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-008/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "claude-haiku-5-5-thinking-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-008/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-008/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-008/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-008/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-008/manifest.json",
+          "sha256": "7aec318dc2a408e6446eff4dfc7d01065f2e0bc22386dc3a6c768e3d3aaee90e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json",
+          "sha256": "29773e2dad343fc4e4ea726c6458d4b4453409370b8dd3f73ffddcc638ce9eb1"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-008/PARENT_ACCEPTANCE.json",
+          "sha256": "d074c96c223b35e52a74135f4a28fb509b51f5ab7d08200f45fce453c8155961"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "1cb32540b1a6acea7a1e2889a5f1bfc61937060ab8a2e73e674f0088f6a55763",
+      "record_sha256": "e04cec8cb8120b3bd38c3b28368975ea7630a6930f05a94ed3417f75829538c9",
+      "receipt_sha256": "d074c96c223b35e52a74135f4a28fb509b51f5ab7d08200f45fce453c8155961"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-009/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-009/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-009/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "claude-haiku-5-5-thinking-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-009/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-009/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-009/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-009/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-009/manifest.json",
+          "sha256": "8dbce74474fdad47121355a2841651dda651fbad10227cfc8765c4fa23a2dfb9"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json",
+          "sha256": "29773e2dad343fc4e4ea726c6458d4b4453409370b8dd3f73ffddcc638ce9eb1"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-009/PARENT_ACCEPTANCE.json",
+          "sha256": "61159b9c36277512da65f35003bdf93baa223de0e66443aa0bfba7263ee96e52"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "bde65258c926dcc46c89b049f338d4d497584faa07ae056ab388c03f34352021",
+      "record_sha256": "e65165b4ceb66878c1d7dde76ec84cd9e3102c2c40e38e4e5a93b65f90e50156",
+      "receipt_sha256": "61159b9c36277512da65f35003bdf93baa223de0e66443aa0bfba7263ee96e52"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-010/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-010/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-010/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "claude-haiku-5-5-thinking-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-010/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-010/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-010/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-010/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-010/manifest.json",
+          "sha256": "596a3e7128d89113e28ef1b070e66160b85338bbe78f265e66bb4ce1e622c2ee"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json",
+          "sha256": "29773e2dad343fc4e4ea726c6458d4b4453409370b8dd3f73ffddcc638ce9eb1"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-010/PARENT_ACCEPTANCE.json",
+          "sha256": "de44ac1cb5c64d21fe7677bb6a2db1fdad500b1d12db0ca6632225f0e1e528bc"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "0579d63d47af3511cb494ee81eef72b555210f64699d7021ae348492cdd82738",
+      "record_sha256": "77fee67b34360ef9871d8a72c13f949352f2bd3f8cb5c336f9a6f6e63564c7cb",
+      "receipt_sha256": "de44ac1cb5c64d21fe7677bb6a2db1fdad500b1d12db0ca6632225f0e1e528bc"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-011/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-011/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-011/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "claude-haiku-5-5-thinking-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-011/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-011/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-011/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-011/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-011/manifest.json",
+          "sha256": "4cf42c2549cf4f4867894fb1927985beab8295f4af0c46256e7c70d5f7d740f9"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json",
+          "sha256": "29773e2dad343fc4e4ea726c6458d4b4453409370b8dd3f73ffddcc638ce9eb1"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-011/PARENT_ACCEPTANCE.json",
+          "sha256": "1974237efd89f9ea9d37a7b642fb0be4688f4715d38c78a0ed36ea1aabeb56df"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "c6e81130658affc061df8325502d62f2fe8540ad1353f1d47091eaa4f9a07d82",
+      "record_sha256": "9458753670636270436dab8a2e9a166c3047e7d55867adea458862b28b513890",
+      "receipt_sha256": "1974237efd89f9ea9d37a7b642fb0be4688f4715d38c78a0ed36ea1aabeb56df"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-012/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-012/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-012/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "claude-haiku-5-5-thinking-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-012/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-012/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-012/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-012/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-012/manifest.json",
+          "sha256": "8d23f0d0cdd3c7351ef32b578d6d5480f28be0b3b048c508245b3ee6d837bb02"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json",
+          "sha256": "29773e2dad343fc4e4ea726c6458d4b4453409370b8dd3f73ffddcc638ce9eb1"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-012/PARENT_ACCEPTANCE.json",
+          "sha256": "d038958c8ffe829ed4f36f36948cf55fa62ac8d6b8af94bbf274b039bb3fc234"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "e346096ca662334e97752155b7787e0f676935ea4c5582c7e11f40d64e092a16",
+      "record_sha256": "e48985e7fc49ebf4794d94d1eef7f636a2c6a11121e4c97e6c8153864e9c588c",
+      "receipt_sha256": "d038958c8ffe829ed4f36f36948cf55fa62ac8d6b8af94bbf274b039bb3fc234"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-013/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-013/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-013/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "claude-haiku-5-5-thinking-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-013/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-013/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "gpt-5.6-luna-high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-013/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-013/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json"
+        },
+        {
+          "models": {
+            "cursor": {
+              "labeler": "claude-haiku-5-5-thinking-high",
+              "blind": "gpt-5.6-luna-high"
+            },
+            "codex": {
+              "labeler": "openai-codex/gpt-6-luna:high",
+              "blind": "openai-codex/gpt-6-luna:high"
+            }
+          },
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-013/manifest.json",
+          "sha256": "5f2d5d4d87508db88aaacf4af2fd7af25c65094b611f572cbff83aae8af4f6c7"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/manifest.json",
+          "sha256": "29773e2dad343fc4e4ea726c6458d4b4453409370b8dd3f73ffddcc638ce9eb1"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/manifest.json",
+          "sha256": "c2cc62ad84c13165dd75e09deaa0ebd91ad3d12f9fd14ac8f3949ea21dd215dd"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/PREPARATION_RECEIPT.json",
+          "sha256": "e3d9b86c4b542a5f81567384f9ee201cfef14c420e97c96600d343be05c3af8f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/DUAL_ACCOUNT_PLAN.json",
+          "sha256": "10c4af753fa1c130d810cf33c63fcb6bc519a77ca12f1a97190dceddfe46a17d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/CURSOR_ONLY_RESUME_RECEIPT.json",
+          "sha256": "619c96c6a5c3d3333ed78278106d13c0a4dd633f4f4d2a88c101d2e52fd4169e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/OVERNIGHT_BOTH_LANES_AUTHORIZATION.json",
+          "sha256": "0ac0c83df6c173221d5d04d391a9f22043431ae4f9197a5c894f50e99ff5b84e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-013/PARENT_ACCEPTANCE.json",
+          "sha256": "bea26e94ea32b5032158758419d0e497906a1d54379c767f9abe762aa63ca9b5"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "934b87a4572d01f5cb54bea638e9fc31260243c14ec5b8b82f94044fa9416a36",
+      "record_sha256": "1697ee6c1b1ac280d3a2e2b597162cf9c3168537a566fbcf13cf482930c13f15",
+      "receipt_sha256": "bea26e94ea32b5032158758419d0e497906a1d54379c767f9abe762aa63ca9b5"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-003/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-003/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-003/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-003/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-003/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-003/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-003/manifest.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-003/manifest.json",
+          "sha256": "c6cce8569d1729b81f08ae6f5228d6d3b496a7d06ba76cdab053d24f87162b1d"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-003/FINAL_VALIDATION.json",
+          "sha256": "64eb2def2c625394d6ee44c17d5b1f331246d4edc42bcecdc7e1198504a3b8d8"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-003/PARENT_ACCEPTANCE.json",
+          "sha256": "9b5ffc1b4a791dbb6e59c1f410fdae472c4c83495aeee1789aeb83bfa92fa088"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "6fcdb66c37483aec2efd494831d4fc354ca925e6849c3ec2622e7c7de6c99123",
+      "record_sha256": "b11c5477d24ca2530735259a737d3fb8ce4d5f06118e26286101e33d44d0cb66",
+      "receipt_sha256": "9b5ffc1b4a791dbb6e59c1f410fdae472c4c83495aeee1789aeb83bfa92fa088"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-004/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-004/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-004/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-004/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-004/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-004/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-004/manifest.json"
+        },
+        {
+          "model": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-004/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-004/manifest.json",
+          "sha256": "0066faced97290622b946136ecb80f7998106eebe763a3b4322a0207e3c7e0f4"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-004/PREPARATION_RECEIPT.json",
+          "sha256": "a8624e90ce91ec404d55143e30a213cf68e1d40ccc5b2c267a477c41cf60464f"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-004/FINAL_VALIDATION.json",
+          "sha256": "0240ee7c84602c902f777fd7eabf7b77e84b92132c788abced91343e416703b4"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-004/PARENT_ACCEPTANCE.json",
+          "sha256": "ec9d2b9844ce9a31648d9fad485d2d393d5413412cbe2745d82d1bcbf277d521"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 20,
+      "label_sha256": "59e061a8b216ee8d8fda44231a50dd2bade985b9cc905739eb2b9d2fa0af7944",
+      "record_sha256": "6c07338831517dcb882a54eab11d778790942a78b52b2b9782bc61297e5626f2",
+      "receipt_sha256": "ec9d2b9844ce9a31648d9fad485d2d393d5413412cbe2745d82d1bcbf277d521"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-005/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-005/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-005/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-005/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-005/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-005/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-005/manifest.json"
+        },
+        {
+          "model": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-005/PREPARATION_RECEIPT.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-005/manifest.json",
+          "sha256": "36ba9a1d3b05717e7340c71e47458358bb7019065687d1aac76fe15abd17f1df"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-005/PREPARATION_RECEIPT.json",
+          "sha256": "77c583bc02cf2f92ca42eeca3c2bd878b6825b1973fcec3967455e84d6c93471"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-005/FINAL_VALIDATION.json",
+          "sha256": "443f467a80c3e85eaf3fc9c3cf12f79cda8a00346da3d67c9d927e1b1c7aa7fa"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-005/PARENT_ACCEPTANCE.json",
+          "sha256": "5ffcccf736793a7e30c15803c83d9ddcf8d25cdb9b70f1c8223c3a569d66eb21"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 22,
+      "label_sha256": "c8b5961b9711553084585386b5273b14094ebe241eef26253aaefcbdd516b21a",
+      "record_sha256": "a2cf805c621748cf683ae30d488d92783a076569b49fac025af312c3b6c0330a",
+      "receipt_sha256": "5ffcccf736793a7e30c15803c83d9ddcf8d25cdb9b70f1c8223c3a569d66eb21"
+    },
+    {
+      "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/description_labels.json",
+      "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/record_labels.json",
+      "acceptance_receipt": "notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/PARENT_ACCEPTANCE.json",
+      "model_rubric_provenance": [
+        {
+          "stage": "labeler",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/manifest.json"
+        },
+        {
+          "stage": "blind",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/manifest.json"
+        },
+        {
+          "stage": "reconciliation",
+          "model_id": "openai-codex/gpt-6-luna:high",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/manifest.json"
+        },
+        {
+          "rubric_id": "enterprise-description-only-v3",
+          "receipt": "notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/manifest.json"
+        }
+      ],
+      "reproduction_references": [
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/manifest.json",
+          "sha256": "600c72c9409ba31fcdb7466a78d297a2f58ab827a362d59fb967174392ef4c0e"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/PREPARATION_RECEIPT.json",
+          "sha256": "4aff0084f2bfca92a9ea9931f04eafb321320f70aef0c32f014142376b321991"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/FINAL_VALIDATION.json",
+          "sha256": "a0c7189cbba27d426f0193e8e98acfa4dd639ff5d2d62033319b204befe3dee9"
+        },
+        {
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/PARENT_ACCEPTANCE.json",
+          "sha256": "6bd6458021ceabedcc9254f45619eeb0e5c2fced0ed96284a6aea921baa5df45"
+        }
+      ],
+      "description_count": 20,
+      "row_count": 31,
+      "label_sha256": "b8f8c4d14aa00f69a109c383157c59fb0c7f90ed4903cbcf0fc67d0e78061709",
+      "record_sha256": "ac02cfe449aadc7de598e1425f69ba76451e19643328ac528d24c1d501859d9c",
+      "receipt_sha256": "6bd6458021ceabedcc9254f45619eeb0e5c2fced0ed96284a6aea921baa5df45"
+    }
+  ],
+  "preparation_script_sha256": "411676108bb705c71c722d92892dcf1abc7c705fe0c5a8d02081c81342981ecc",
+  "selection_policy_version": "accepted-v3-exports-1",
+  "normalization_policy_version": "exact-cleaned-text-utf8-sha256-1",
+  "deduplication_policy_version": "exact-description-sha256-1",
+  "split_policy_version": null,
+  "feature_policy": "description-only; metadata and labels are not features",
+  "artifacts": {
+    "enterprise_descriptions.json": "bcbef8f94046b54ced3b03dc70e98b9ec51f749a49b4f07cab8ed1fa9c093f8a",
+    "enterprise_records.csv": "32d8f9499782340055dae8197c9d72acb93ff7339446bfbda93435ea46b5891c"
+  }
+}
