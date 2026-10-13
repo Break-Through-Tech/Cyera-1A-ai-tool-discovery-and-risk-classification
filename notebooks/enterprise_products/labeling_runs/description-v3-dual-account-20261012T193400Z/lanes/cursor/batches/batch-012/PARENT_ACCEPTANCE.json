@@ -1,0 +1,40 @@
+{
+  "status": "finalized_with_documented_hash_receipt_timing_deviation",
+  "batch_id": "batch-012",
+  "selected_descriptions": 20,
+  "selected_rows": 20,
+  "exact_plan_hash_and_reference_coverage": true,
+  "exact_schema_quotes_provenance_checkpoint_equality": true,
+  "raw_result_and_checkpoint_bytes_preserved": true,
+  "raw_hash_receipt": "runtime/independent-result-hashes.json",
+  "receipt_timing_deviation": "Initial receipt write failed because runtime/ did not exist; raw outputs/checkpoints already existed and were unchanged. Hash receipt was written after manual proposal review. Parent review requested; no file mutation occurred.",
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "transport_observations": {
+    "labeler": "Native Cursor CLI Claude Haiku 5.5 300K High; explicit model/workspace; 20 records",
+    "blind": "Native Cursor CLI GPT-5.6 Luna 272K High; explicit model/workspace; 20 blind records and one 4-ID reconciliation in same context"
+  },
+  "reconciliation_count": 4,
+  "helper_required_reconciliation_ids": [
+    "ann_0fa2aa4ad28e8819c5374ce0",
+    "ann_3fa49e7628b7a81fb250a136",
+    "ann_6cec3def00482a2315ec7a44",
+    "ann_d7877eaf8781b39864afa1a4"
+  ],
+  "semantics_review": "All20 exact source/proposal pairs reviewed before reconciliation. Four helper weak cases routed once to same Luna; concrete recommendation-method concern included. Weak decisions remain flagged; AI binary and subtype evidence separate.",
+  "final_binary_weak_count": 3,
+  "final_subtype_weak_count": 0,
+  "exports_verified": true,
+  "export_hashes": {
+    "description_labels.json": "e346096ca662334e97752155b7787e0f676935ea4c5582c7e11f40d64e092a16",
+    "record_labels.json": "e48985e7fc49ebf4794d94d1eef7f636a2c6a11121e4c97e6c8153864e9c588c",
+    "review_ledger.json": "e4482904be69b19cb5e4e9d3ccdd6ea6866925618d95a2d9b16bae8ac774b65f",
+    "review_queue.json": "80fbc152a357d805e5395bc49ab6f85959bd3f4512cd32e8606f5b93c8c15be7",
+    "non_ai_candidates.csv": "0ab50035af4fb75c0d4dfe39596601561ec636875c8ee2ad02bf2c5ec55c9616",
+    "calibration_report.json": "99f46855d081475f7fb3504db42d4c366ec20636de925936ba7ae4c1cffa3e70"
+  },
+  "cost_usd": null,
+  "billed_tokens": null
+}
