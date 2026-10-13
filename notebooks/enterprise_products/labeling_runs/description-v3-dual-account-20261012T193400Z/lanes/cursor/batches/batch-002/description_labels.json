@@ -1,0 +1,367 @@
+[
+  {
+    "product_description": "Design Distributors is a One-Stop Direct Mail Company\nDeep printing experience and high-level postal expertise combine to create direct mail and print marketing solutions invaluable to your business.",
+    "annotation_id": "ann_009eccde390b8543a6db3799",
+    "description_sha256": "53240d385325fe53d410735a8a24f09b954a492bb59d459c82918f024c5879e3",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a direct mail company offering printing and postal services for direct mail and print marketing. These are conventional print and mail production functions with no described AI mechanism.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Design Distributors is a One-Stop Direct Mail Company",
+      "Deep printing experience and high-level postal expertise combine to create direct mail and print marketing solutions"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Adobe Campaign connects your online and offline marketing to improve speed, efficiency, personalization, and reporting by integrating with other powerful technologies from Adobe Experience Cloud and Creative Cloud.",
+    "annotation_id": "ann_06c40364f7d00ee114c6dac1",
+    "description_sha256": "d680e7cf902804b04878d51bfe7378b6693992d0d38514889608a803c59ec3ea",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description meaningfully specifies online/offline marketing connection, reporting, and integrations. Personalization is asserted but no AI-dependent mechanism is described, so conventional marketing software is supported.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "connects your online and offline marketing to improve speed, efficiency, personalization, and reporting",
+      "by integrating with other powerful technologies from Adobe Experience Cloud and Creative Cloud."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Account-based experience — ABX — reinvents ABM around the customer experience.\n\nInject Account Intelligence into every step of the B2B buyer journey and orchestrate every action across marketing and sales. That’s Smarter GTM.\n\nThe Engagement Platform is a single pane of glass that connects every source of intelligence and insight — and every sales and marketing play — so you spot opportunities earlier, engage with them more intelligently, and close deals faster.",
+    "annotation_id": "ann_0c20e538f63299efa965a629",
+    "description_sha256": "ff991bcafabaf06518c1685309db9ae2600514ba02fa850d0ecf2b4e66f6dfaa",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description clearly describes ABM and marketing-sales orchestration, but Account Intelligence and intelligence and insight have no stated mechanism. The lack of an affirmative AI signal supports non_ai only weakly because an included AI-dependent capability remains unresolved.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Inject Account Intelligence into every step of the B2B buyer journey and orchestrate every action across marketing and sales.",
+      "connects every source of intelligence and insight"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "The Wireless Registry Inc., is the first global registry for wireless names and identifiers, enabling thousands of new proximal services, giving businesses and individuals the power to engage with their surroundings. TWR built a web service engine capable of associating links and meaning to detectable wireless names. This includes a Do Not Track My MAC Address Registry as well an SDK (Software Development Kit) to quickly engage and grow an ecosystem of developers who will access our registry to bring a proximal dimension to their mobile applications.",
+    "annotation_id": "ann_16673c0248db9b6e4b4322ab",
+    "description_sha256": "32fbbbcf8387ccc9b6859ba4edf2dc9ff03b1a527f64499c3eee3faa199bf058",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a registry of wireless names and identifiers, a web service that associates links with detectable wireless names, a MAC-address opt-out registry, and an SDK. These are conventional registry, web service and developer-tool functions with no described AI mechanism.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "TWR built a web service engine capable of associating links and meaning to detectable wireless names.",
+      "This includes a Do Not Track My MAC Address Registry"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Intent HQ enables consumer brands to gain actionable insight on their customers. Intent HQ looks at the people behind the data to assist businesses to move from  customer centric  to  human centric  view; enabling to know who to market to, creating more helpful service interactions, shaping strategy and predicting customer behaviour.\n\nThe Platform that provides you with the following capabilities:\nThe ingestion and storage of your event level customer data, organized by individual.\nA linear scale, configuration driven system to compute profiles in near real-time as data changes, allowing you to respond to customer changes on demand.\nA collaborative toolset for your data scientists to safely automate and run complex tasks, including data sampling and feature generation on a production dataset.\nThe ability to host applications that  Know, Infer and Predict  customer attributes and behaviors from patterns in your data and easily take action on them.\nAPIs to orchestrate data to other business applications, enabling hyper-personalized experiences across all customer touch points.\nAn Insight Explorer that provides the ability to ask 'train of thought  questions on how customer behavior affects your core KPIs, and easily generate audiences based on this insight.\nCompliance with applicable processor privacy regulations required for customer data processing, storage, retrieval and deletion, and managed via a comprehensive set of APIs for control of your customers' data.",
+    "annotation_id": "ann_178fa64f315fc58b4a8f2822",
+    "description_sha256": "7f50cd84c1de3a9508124e3163450dc91d777b7510cb87a419bc12f9c434ece8",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text includes predictive and inference functions and feature generation alongside data ingestion, profiles, and APIs, but does not state learned models, AI, or ML. The binary therefore remains unresolved and non_ai is weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "predicting customer behaviour",
+      "The ability to host applications that  Know, Infer and Predict  customer attributes and behaviors from patterns in your data and easily take action on them.",
+      "including data sampling and feature generation on a production dataset."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Zferral, Inc. is a provider of an integrated platform designed to make referral and affiliate programs measurable and tunable. Its software is built to track and manage customer referrals.",
+    "annotation_id": "ann_1a053bda72ac3037528b037d",
+    "description_sha256": "18f3498936eb134bbc27aa7a35f7f35015a73f0a7b186e911a0e95ee04faaf99",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a platform for making referral and affiliate programs measurable and tunable and built to track and manage customer referrals. These are conventional tracking and management functions with no described AI mechanism; 'tunable' is a configurability claim not described as learned or AI-dependent.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "designed to make referral and affiliate programs measurable and tunable",
+      "Its software is built to track and manage customer referrals."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "C2CRM consists of four modules that integrate to provide a comprehensive CRM solution: Relationship Management, Sales Automation, Marketing Automation",
+    "annotation_id": "ann_274f8f4d2d08b901ee3c4c58",
+    "description_sha256": "48b72017829f83bca956190138853590e7b60e43067f7fdf451276431bfb6f27",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a CRM suite of relationship management, sales automation and marketing automation modules. These are conventional CRM functions and routine automation with no described AI mechanism. The text names three modules although it says four; the omission does not change the non-AI judgment.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Relationship Management, Sales Automation, Marketing Automation"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Core Platform, to include: Private & Public Company Data; Industry Analytics; Client-Only Newsletter; Workflow (Collections, Notes, Stories); Core Intelligence.",
+    "annotation_id": "ann_40f548e163f940c9ecb040ea",
+    "description_sha256": "05c168d87ff73360dc79331af040b8ef84c5fe4d2f69a56117f2045ff31d159e",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description lists conventional data, analytics, newsletter, and workflow modules, but also includes the unexplained feature label Core Intelligence. It does not affirm AI, yet that included capability prevents a supported non_ai call.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Private & Public Company Data; Industry Analytics; Client-Only Newsletter; Workflow (Collections, Notes, Stories)",
+      "Core Intelligence"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "OPIS will provide to MQ retail fuel station data and retail fuel price data for the US and Canada, if and when it is available including frequent updates, through direct data feed",
+    "annotation_id": "ann_7a92c043787192c08af60661",
+    "description_sha256": "fee603d1c36c17420960e89bee92b9f01054a71f9b196c80033c45834b6cb382",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes delivering retail fuel station data and retail fuel price data for the US and Canada with frequent updates through a direct data feed. This is conventional data delivery with no described AI mechanism.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "OPIS will provide to MQ retail fuel station data and retail fuel price data for the US and Canada",
+      "through direct data feed"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Our cross-channel customer analytics solution helps you quickly understand your customers’ journeys — online and offline — giving you the insights to meet them with incredible real-time experiences at scale.\n\nCollect data from across all your engagement channels. Then put that omnichannel data to work as it gets standardized and connected into a complete customer journey — all powered by Adobe Experience Platform.\n\nStreaming data collection offers up-to-the-minute customer views and behaviors.\nData collected as customers move from online to in-store to call center and more.\nFully correlated data gives you unlimited breakdowns of any data element across any channel without writing SQL statements.\nIDs from multiple channels and devices are connected into a single, unified customer profile.\n\nPreviously part of the Experience Platform Application Services (AEP App Svc) product",
+    "annotation_id": "ann_7b23eb8d8076044f49922e41",
+    "description_sha256": "4d8a62b382edafea9d4ae8d766ed1913fd136b1ecabc737b01aa8dc9f09a20e7",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes streaming data collection, standardization of cross-channel data, identity linking into a unified customer profile, and correlated breakdowns. These are conventional data integration and analytics functions. No predictive, learned or AI mechanism is described; 'without writing SQL statements' is a query-interface claim.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Streaming data collection offers up-to-the-minute customer views and behaviors.",
+      "IDs from multiple channels and devices are connected into a single, unified customer profile.",
+      "Fully correlated data gives you unlimited breakdowns of any data element across any channel without writing SQL statements."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Telogical is a full-service data provider; from data exploration to delivery\nWhen our customers have pressing questions about the competition, we respond with timely, accurate data in a format that most clearly provides the right answer. Our services are multi-industry, and our data and tools have been used to support strategic planning, aid marketing functions, improve sales and retention outcomes, and forecast future customer behavior.",
+    "annotation_id": "ann_8828a3f4e8ce591beb82bc55",
+    "description_sha256": "842087f5809efb3d876e2acd5d3a25da245e4ff51a45925fdcc9ebe6d3d262c4",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description identifies a full-service data provider offering data exploration and delivery, while forecasting appears as a use of its data and tools. Because the forecasting mechanism and whether forecasting is implemented by the offering are unresolved, non_ai remains weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "full-service data provider; from data exploration to delivery",
+      "our data and tools have been used to support strategic planning, aid marketing functions, improve sales and retention outcomes, and forecast future customer behavior."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Build products that have an impact. It's a process called Continuous Product Design, and we strive every day to enable them on their customer-centric mission.\n\nPass real-time session data to VoC, chat, a/b/n, and Application Performance Monitoring (APM) platforms, and rescue frustrated customers in the moment. \n\nCombat uninformed decisions and guesswork about what your customers are experiencing with session replay.",
+    "annotation_id": "ann_9af3e25e60c97bd894fe5346",
+    "description_sha256": "c0f7fcffadf41eeb179f81a2a9830be8b3d8e8535e64db982e500bb0c2d6afe1",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes session replay and forwarding real-time session data to VoC, chat, A/B/n and APM platforms. These are conventional session recording and integration functions. 'Rescue frustrated customers in the moment' is not described as an AI-driven mechanism, and the chat reference is an integration target rather than a described chatbot.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Pass real-time session data to VoC, chat, a/b/n, and Application Performance Monitoring (APM) platforms, and rescue frustrated customers in the moment.",
+      "Combat uninformed decisions and guesswork about what your customers are experiencing with session replay."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "MARS is a portable, integrated set of digital signal processing (DSP) 'software only  tools, including signal recognition/classification, radio identification, signal generation, signal transformation, and signal analysis capabilities. It can process live signals in the radio frequency (RF) environment, captured signals that have been stored to disk, and streaming data samples from client applications.",
+    "annotation_id": "ann_ac05cc32a9e81d4f40a69c1c",
+    "description_sha256": "5ec367cda9f4420092189407e165f2daafc6888077e22637c4b40fdcf7c299fa",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description explicitly frames the offering as digital signal processing software and lists signal recognition/classification, identification, generation, transformation, analysis, and live processing. In this DSP context, these are conventional signal-processing functions without an AI or learned-model claim.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "including signal recognition/classification, radio identification, signal generation, signal transformation, and signal analysis capabilities",
+      "It can process live signals in the radio frequency (RF) environment"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "An advanced system of sensors, algorithms and artificial intelligence to detect, locate and alert police to gunfire.From Web - A gunfire locator or gunshot detection system is a system that detects and conveys the location of gunfire or other weapon fire using acoustic, optical, or potentially other types of sensors, as well as a combination of such sensors. These systems are used by law enforcement, security, military and businesses to identify the source and, in some cases, the direction of gunfire and/or the type of weapon fired.",
+    "annotation_id": "ann_b0348aa6dbf16996c7a153fb",
+    "description_sha256": "503c0e187ebd79aef31d29642caa7274db7ea0188a7451799882ecec0d594313",
+    "ai_status": "ai",
+    "ai_type": "ai_enabled",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "weak",
+    "ai_type_forced_decision": true,
+    "rationale": "The description explicitly includes artificial intelligence in a system to detect, locate, and alert police to gunfire, which supports the AI binary.",
+    "ai_type_rationale": "AI is stated as part of the detection system, but the description also identifies sensors, algorithms, and acoustic or optical sensing without stating that detection depends on AI; ai_enabled is therefore the best-supported subtype, weak and forced.",
+    "evidence_spans": [
+      "An advanced system of sensors, algorithms and artificial intelligence to detect, locate and alert police to gunfire."
+    ],
+    "ai_type_evidence_spans": [
+      "An advanced system of sensors, algorithms and artificial intelligence to detect, locate and alert police to gunfire.",
+      "using acoustic, optical, or potentially other types of sensors"
+    ]
+  },
+  {
+    "product_description": "Salesforce is a customer relationship management solution that brings companies and customers together. It's one integrated CRM platform that gives all your departments including marketing, sales, commerce, and service a single, shared view of every customer.",
+    "annotation_id": "ann_bf68c5fe65a04ef5b436efad",
+    "description_sha256": "912397e5654bfa79474ebd2d9b1b05e843c22fce8242860dc361d4cdd5400b03",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a CRM platform that consolidates customer data into a shared view for marketing, sales, commerce and service departments. This is conventional CRM data consolidation with no described AI mechanism.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Salesforce is a customer relationship management solution that brings companies and customers together.",
+      "one integrated CRM platform that gives all your departments including marketing, sales, commerce, and service a single, shared view of every customer"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Provider of cloud-based marketing technology designed to provide real-time brand-to-user interactions across all digital channels.\n\nThe  Intelligent Customer Engagement Platform enables an enterprise to run machine learning on live data streams from multiple digital sources to discover patterns and identify triggers that initiate personalized interactions in real time on any channel, such as apps, mobile web, websites, stores/branches.\n\nPreviously ZineOne",
+    "annotation_id": "ann_c6468de02da1ceabfdfd64dd",
+    "description_sha256": "cb89d748c2c0d8bf4c4137762a3756345970bf7a768f984f2d46f585ab77b549",
+    "ai_status": "ai",
+    "ai_type": "ai_native",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "supported",
+    "ai_type_forced_decision": false,
+    "rationale": "States that the platform runs machine learning on live data streams to discover patterns and identify triggers. This is an explicit product-specific AI/ML mention.",
+    "ai_type_rationale": "The described core is real-time brand-to-user interaction, and the interactions are initiated by the machine-learning-derived triggers. The core offering therefore depends on the described AI mechanism.",
+    "evidence_spans": [
+      "run machine learning on live data streams from multiple digital sources"
+    ],
+    "ai_type_evidence_spans": [
+      "Provider of cloud-based marketing technology designed to provide real-time brand-to-user interactions across all digital channels.",
+      "identify triggers that initiate personalized interactions in real time"
+    ]
+  },
+  {
+    "product_description": "Sinch enables businesses to send text messages to large numbers of customers and to make video and voice calls. ... Any person with a handset is reachable by business across all mobile channels.",
+    "annotation_id": "ann_d2669ae9991b39063438dd3f",
+    "description_sha256": "f4277b68f64e458680b7240a78165eee074e3e63dd0de08c5531295e81d2e290",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes sending text messages to large numbers of customers and making video and voice calls. These are conventional messaging and calling functions; voice here is telephony for reaching people, not a described AI voice feature.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "enables businesses to send text messages to large numbers of customers and to make video and voice calls"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "With Epsilon PeopleCloud Customer, an enterprise-ready Customer Data Platform (CDP), you'll power your multi-channel marketing with a single view of each customer. Using data-driven personalized marketing, you'll be able to predict which offer and channel will be the most successful for each individual at every step in their journey. View of customers and prospects'so you'll predict their future buying behaviors and build a lifetime of loyalty.",
+    "annotation_id": "ann_df2fa8d626e77fe9d736802d",
+    "description_sha256": "e1ecef9e293bec2e003c61a50eeb5ab4e19c11cfe905141eba6c424e47ec82a7",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description identifies a customer data platform and multi-channel marketing, but its per-person offer and channel prediction and future buying-behavior prediction do not state an AI or other mechanism. The binary therefore remains non_ai only weakly and with a forced decision.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "predict which offer and channel will be the most successful for each individual at every step in their journey",
+      "you'll predict their future buying behaviors",
+      "an enterprise-ready Customer Data Platform (CDP), you'll power your multi-channel marketing with a single view of each customer"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Traction Hierarchies automatically links all your accounts in Salesforce into their legal family trees in your system. This allows you to then match incoming\nLeads and Contacts to these overall corporations in order to route them appropriately\n * product previously called Maze Runner",
+    "annotation_id": "ann_e287794fa6a5b0fe29097e19",
+    "description_sha256": "f6745592439eee62489ebaf58fd1ed78d5dfbcdf568202a0a71d9f3e8b2ce5bd",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes linking Salesforce accounts into corporate family trees, matching leads and contacts to those corporations, and routing them. These are conventional CRM data-linking and rules-based routing functions. 'Automatically' is not described as an AI mechanism.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "automatically links all your accounts in Salesforce into their legal family trees in your system",
+      "Leads and Contacts to these overall corporations in order to route them appropriately"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Ascend is the autonomous experience optimization solution for websites and mobile applications. Autonomous experience optimization solution for websites and mobile applications,Cloud Service: The Ascend service - Supplier's proprietary massively multivariate testing and optimization service that allows subscribers to test multiple improvements to a web or mobile property (including but not limited to, new text, new images, new styles, new design elements, and new layouts) for Visitors to the web and/or mobile property, and determine the combination or combinations of those improvements and existing site features which deliver the best performance against a goal set by the customer.",
+    "annotation_id": "ann_f9f555edff960ce974738b9a",
+    "description_sha256": "40cdd84e43cd4b43c092aeeb27438caf32c784c4a8035ee926d30fe9bfe36c81",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description details a multivariate testing and optimization service that tests site improvements and selects combinations against customer goals. The word autonomous has no stated mechanism, so non_ai is retained only as weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Ascend is the autonomous experience optimization solution for websites and mobile applications.",
+      "massively multivariate testing and optimization service that allows subscribers to test multiple improvements"
+    ],
+    "ai_type_evidence_spans": null
+  }
+]

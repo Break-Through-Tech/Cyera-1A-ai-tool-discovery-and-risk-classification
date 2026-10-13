@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_070a1287a508daba0c670bce",
+  "description_sha256": "4dcca80304e4b9e8537b99931dbcc83863583a452060dd97c621e1639b9efee5",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "is a SaaS-based platform that delivers direct, real-time access to the most active accounts and prospects",
+    "ranked by their level of purchase intent and engagement"
+  ],
+  "ai_type_evidence_spans": null,
+  "rationale": "The description establishes account-and-prospect access and ranking by purchase intent and engagement, but gives no mechanism for that scoring and no affirmative AI signal.",
+  "conflict_response": "Both proposals identify the ranking as an unresolved included scoring function. The parent concern requires preserving that uncertainty: the text does not establish AI, but the unexplained purchase-intent ranking prevents a supported negative, so non-AI remains weak and forced."
+}

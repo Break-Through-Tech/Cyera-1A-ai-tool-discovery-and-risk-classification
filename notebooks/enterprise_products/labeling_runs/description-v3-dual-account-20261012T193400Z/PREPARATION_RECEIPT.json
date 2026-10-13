@@ -1,0 +1,21 @@
+{
+  "tests": 36,
+  "prior_descriptions_verified": 160,
+  "prior_rows_verified": 174,
+  "remaining_descriptions_verified": 1231,
+  "remaining_rows_verified": 1264,
+  "ownership_disjoint": true,
+  "no_prior_overlap": true,
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "models": {
+    "cursor": {
+      "labeler": "claude-haiku-5-5-thinking-high",
+      "blind": "gpt-5.6-luna-high"
+    },
+    "codex": {
+      "labeler": "openai-codex/gpt-6-luna:high",
+      "blind": "openai-codex/gpt-6-luna:high"
+    }
+  },
+  "approval": "User yes proceed after explicit four-worker split plan and safe pause."
+}

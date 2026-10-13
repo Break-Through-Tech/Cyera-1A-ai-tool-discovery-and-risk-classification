@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_816babeff857da2e18e8e64e",
+  "description_sha256": "9f71142ff5557b94a2d56e5c677ffb2e1b69bebc7cd466619c7dcbc21fadbd4d",
+  "ai_status": "ai",
+  "ai_type": "ai_native",
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "The text describes voiceprint creation at enrollment and voiceprint comparison at verification without stating the comparison mechanism. Because this is an unexplained potentially AI-dependent biometric feature, non_ai is not supported. Binary positive is weak and forced.",
+  "ai_type_rationale": "The core offering is voice biometric verification via voiceprint comparison. The text does not establish whether that comparison depends on AI, so the subtype is weak and forced.",
+  "evidence_spans": [
+    "Voice ID system by repeating a short phrase several times to create a unique voiceprint",
+    "compare their verification voiceprint with the one that was created during enrollment"
+  ],
+  "ai_type_evidence_spans": [
+    "Voice ID system by repeating a short phrase several times to create a unique voiceprint"
+  ]
+}

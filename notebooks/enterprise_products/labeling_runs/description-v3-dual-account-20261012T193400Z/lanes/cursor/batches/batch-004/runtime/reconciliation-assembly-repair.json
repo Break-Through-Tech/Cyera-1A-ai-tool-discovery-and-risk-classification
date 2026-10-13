@@ -1,0 +1,30 @@
+{
+  "authorization": "User GO AHEAD repair anything routine",
+  "status": "passed",
+  "only_aggregate_missing_fields": [
+    {
+      "annotation_id": "ann_cc8c31f48c158a58d3bff68f",
+      "missing_aggregate_fields": [
+        "rationale"
+      ]
+    }
+  ],
+  "all11_original_checkpoints_valid": true,
+  "semantic_fields_changed": false,
+  "original_aggregate_hash": "3ebdc83e40078452ac094d062662e0a497fc2ddb1a460edcd979ab4190036d84",
+  "original_checkpoint_hashes": {
+    "agents/blind/reconciliation/checkpoints/ann_75d9b76fa830f36acd422044.json": "da140263402ac3bb32fd0f4694b24b7eafc9f9c10a4e4448c6bd64a2dbe9d4a8",
+    "agents/blind/reconciliation/checkpoints/ann_0ce1deaef2e9ea13fa554dc9.json": "56c2687adeb4d5faa92def69e3d4404c72d8463a9cb693940d1dd5534d71f595",
+    "agents/blind/reconciliation/checkpoints/ann_e13bd4a50b38fedd5bd25a4c.json": "8341e75eafa2b01e24744930a9df9175f4efeb8cb94bbaaee393d340329e751b",
+    "agents/blind/reconciliation/checkpoints/ann_2d2f7dd36f0d4e844a1a1bb0.json": "89887304deac1f573cf8a6fdddb64cfdaf0e374f3f903988a94e635b87ee54b9",
+    "agents/blind/reconciliation/checkpoints/ann_c170c80f1397740b10cbdcf9.json": "eacc085d1a5571550acb6097fa05b845f66605f8bd55a56c1769e42413198d40",
+    "agents/blind/reconciliation/checkpoints/ann_eab5f2f03b035625d6bcba72.json": "79b214d3e3ef5d4053a988bf0e04e77e67eacfee18d33a8a181e2977e526d2e3",
+    "agents/blind/reconciliation/checkpoints/ann_dcf13d4db14f08d62eeeb36c.json": "7d0c71edc70415900f81dd3c463ce0727a94585c08f673a890c1245fec572485",
+    "agents/blind/reconciliation/checkpoints/ann_874c5af629f5170ca77e0992.json": "a7c5e88e952033d155914c27a01b8dce4ee17f115b51c1d5df3918d65ac8645f",
+    "agents/blind/reconciliation/checkpoints/ann_cc8c31f48c158a58d3bff68f.json": "eaa83f40fa4807a24af1e359473c731ec9f1f3c6f7330700e6ebe2d32569d7a4",
+    "agents/blind/reconciliation/checkpoints/ann_ba5f99830b9d5f0693bcea0f.json": "b7096894ef0337c09d45b732cf63d0c8557e3657638c00d660b74fe9e76d0319",
+    "agents/blind/reconciliation/checkpoints/ann_816babeff857da2e18e8e64e.json": "273c82c64f3b8072e40fc13a42b564197d9d698d6525f41467b0931e6676c521"
+  },
+  "accepted": "agents/blind/reconciliation/accepted-checkpoint-assembly.json",
+  "accepted_hash": "0ffacdbc84a8f430e9caa4deecc3eec33a8151e0601312af1d0024aee8bf65bb"
+}

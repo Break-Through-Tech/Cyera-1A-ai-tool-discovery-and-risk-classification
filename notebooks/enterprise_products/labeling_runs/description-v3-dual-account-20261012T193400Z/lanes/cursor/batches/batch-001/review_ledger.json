@@ -1,0 +1,1455 @@
+[
+  {
+    "annotation_id": "ann_039e99b070e54a6bb4ed599f",
+    "description_sha256": "244e6e6df5c330154c51993232fa7fbc9c2c1cd02b0c105f5852682e1c971867",
+    "source_record_references": [
+      "155"
+    ],
+    "labeler": {
+      "annotation_id": "ann_039e99b070e54a6bb4ed599f",
+      "description_sha256": "244e6e6df5c330154c51993232fa7fbc9c2c1cd02b0c105f5852682e1c971867",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a managed account-based marketing service: account and persona research, strategy development, campaign design, and recurring team review meetings, with a named platform for orchestration. These are conventional service and campaign-workflow functions; no predictive, generative, or conversational AI function is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "design campaigns to generate awareness, opportunities, and revenue from target accounts",
+        "Service includes weekly meetings with team to review relevant data and discuss strategy"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_039e99b070e54a6bb4ed599f",
+      "description_sha256": "244e6e6df5c330154c51993232fa7fbc9c2c1cd02b0c105f5852682e1c971867",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers conventional account-based marketing research, strategy, campaign design, meetings, and orchestration, without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "research accounts, persona's, develop strategy, and design campaigns",
+        "review relevant data and discuss strategy"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_039e99b070e54a6bb4ed599f",
+      "description_sha256": "244e6e6df5c330154c51993232fa7fbc9c2c1cd02b0c105f5852682e1c971867",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a managed account-based marketing service: account and persona research, strategy development, campaign design, and recurring team review meetings, with a named platform for orchestration. These are conventional service and campaign-workflow functions; no predictive, generative, or conversational AI function is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "design campaigns to generate awareness, opportunities, and revenue from target accounts",
+        "Service includes weekly meetings with team to review relevant data and discuss strategy"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_070a1287a508daba0c670bce",
+    "description_sha256": "4dcca80304e4b9e8537b99931dbcc83863583a452060dd97c621e1639b9efee5",
+    "source_record_references": [
+      "161"
+    ],
+    "labeler": {
+      "annotation_id": "ann_070a1287a508daba0c670bce",
+      "description_sha256": "4dcca80304e4b9e8537b99931dbcc83863583a452060dd97c621e1639b9efee5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "A SaaS platform giving real-time access to accounts and prospects is conventional software, but ranking by purchase intent and engagement is a scoring or predictive function with no stated mechanism that could be AI-dependent; the non-AI call is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is a SaaS-based platform that delivers direct, real-time access to the most active accounts and prospects",
+        "ranked by their level of purchase intent and engagement"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_070a1287a508daba0c670bce",
+      "description_sha256": "4dcca80304e4b9e8537b99931dbcc83863583a452060dd97c621e1639b9efee5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description establishes a conventional account-and-prospect access platform, but ranking by purchase intent and engagement has an unresolved mechanism; it does not itself establish AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "delivers direct, real-time access to the most active accounts and prospects ranked by their level of purchase intent and engagement"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_070a1287a508daba0c670bce",
+      "description_sha256": "4dcca80304e4b9e8537b99931dbcc83863583a452060dd97c621e1639b9efee5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is a SaaS-based platform that delivers direct, real-time access to the most active accounts and prospects",
+        "ranked by their level of purchase intent and engagement"
+      ],
+      "ai_type_evidence_spans": null,
+      "rationale": "The description establishes account-and-prospect access and ranking by purchase intent and engagement, but gives no mechanism for that scoring and no affirmative AI signal.",
+      "conflict_response": "Both proposals identify the ranking as an unresolved included scoring function. The parent concern requires preserving that uncertainty: the text does not establish AI, but the unexplained purchase-intent ranking prevents a supported negative, so non-AI remains weak and forced."
+    },
+    "final": {
+      "annotation_id": "ann_070a1287a508daba0c670bce",
+      "description_sha256": "4dcca80304e4b9e8537b99931dbcc83863583a452060dd97c621e1639b9efee5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is a SaaS-based platform that delivers direct, real-time access to the most active accounts and prospects",
+        "ranked by their level of purchase intent and engagement"
+      ],
+      "ai_type_evidence_spans": null,
+      "rationale": "The description establishes account-and-prospect access and ranking by purchase intent and engagement, but gives no mechanism for that scoring and no affirmative AI signal.",
+      "conflict_response": "Both proposals identify the ranking as an unresolved included scoring function. The parent concern requires preserving that uncertainty: the text does not establish AI, but the unexplained purchase-intent ranking prevents a supported negative, so non-AI remains weak and forced."
+    }
+  },
+  {
+    "annotation_id": "ann_18428febf578f501701e8e06",
+    "description_sha256": "c0fcf6a5bcdf416c3e652fa77d7c56337e49ea8a65184597705c4b44f58312e2",
+    "source_record_references": [
+      "150"
+    ],
+    "labeler": {
+      "annotation_id": "ann_18428febf578f501701e8e06",
+      "description_sha256": "c0fcf6a5bcdf416c3e652fa77d7c56337e49ea8a65184597705c4b44f58312e2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Consolidating data sources is a conventional integration function, but turning data into actionable commercial insight is an analytics claim with no stated mechanism, so the non-AI call is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "brings together your various data sources",
+        "transforms them into actionable commercial insight"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_18428febf578f501701e8e06",
+      "description_sha256": "c0fcf6a5bcdf416c3e652fa77d7c56337e49ea8a65184597705c4b44f58312e2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The stated function is conventional data integration and transformation across sources; the phrase about commercial insight does not establish AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "brings together your various data sources and transforms them"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_18428febf578f501701e8e06",
+      "description_sha256": "c0fcf6a5bcdf416c3e652fa77d7c56337e49ea8a65184597705c4b44f58312e2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described function is conventional data-source integration and transformation; the vague commercial-insight outcome does not establish an AI mechanism.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "brings together your various data sources and transforms them"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler treated 'actionable commercial insight' as an unresolved analytics mechanism. The packet's concern correctly distinguishes that vague outcome from an actual AI-suggestive function: the concrete described operation is bringing together and transforming data sources, so the supported negative remains."
+    },
+    "final": {
+      "annotation_id": "ann_18428febf578f501701e8e06",
+      "description_sha256": "c0fcf6a5bcdf416c3e652fa77d7c56337e49ea8a65184597705c4b44f58312e2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described function is conventional data-source integration and transformation; the vague commercial-insight outcome does not establish an AI mechanism.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "brings together your various data sources and transforms them"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler treated 'actionable commercial insight' as an unresolved analytics mechanism. The packet's concern correctly distinguishes that vague outcome from an actual AI-suggestive function: the concrete described operation is bringing together and transforming data sources, so the supported negative remains."
+    }
+  },
+  {
+    "annotation_id": "ann_1af6e27f867b5f20f22976f6",
+    "description_sha256": "6fe43dc79120580dc35a861db8e19457b146591857d8d9087ce92d2a7732d3c2",
+    "source_record_references": [
+      "159"
+    ],
+    "labeler": {
+      "annotation_id": "ann_1af6e27f867b5f20f22976f6",
+      "description_sha256": "6fe43dc79120580dc35a861db8e19457b146591857d8d9087ce92d2a7732d3c2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes deterministic Gmail-to-Salesforce integration: tracking emails and attachments in Salesforce, viewing Salesforce information in Gmail, synchronizing calendars, and adding contacts. These are conventional integration and synchronization functions with no described AI-dependent feature.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "track Gmail emails and attachments in Salesforce, view Salesforce information in Gmail and other Google Apps",
+        "synchronize the Salesforce and Google calendars"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_1af6e27f867b5f20f22976f6",
+      "description_sha256": "6fe43dc79120580dc35a861db8e19457b146591857d8d9087ce92d2a7732d3c2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies conventional Gmail and Salesforce integration, email and attachment tracking, calendar synchronization, and contact transfer.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "integrate Google's popular Gmail ad-supported free email program with Salesforce.com's cloud-based customer relationship management CRM software",
+        "synchronize the Salesforce and Google calendars"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_1af6e27f867b5f20f22976f6",
+      "description_sha256": "6fe43dc79120580dc35a861db8e19457b146591857d8d9087ce92d2a7732d3c2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes deterministic Gmail-to-Salesforce integration: tracking emails and attachments in Salesforce, viewing Salesforce information in Gmail, synchronizing calendars, and adding contacts. These are conventional integration and synchronization functions with no described AI-dependent feature.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "track Gmail emails and attachments in Salesforce, view Salesforce information in Gmail and other Google Apps",
+        "synchronize the Salesforce and Google calendars"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_307e9984f6f92d390811543e",
+    "description_sha256": "35ed32ccb32600aff1510d6864323b7fd8dfaa27debe3332504111fe8b28b15d",
+    "source_record_references": [
+      "164"
+    ],
+    "labeler": {
+      "annotation_id": "ann_307e9984f6f92d390811543e",
+      "description_sha256": "35ed32ccb32600aff1510d6864323b7fd8dfaa27debe3332504111fe8b28b15d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Social media management to create, manage, and optimize social experiences is a conventional category description, but the text names no concrete functions and optimize does not state a mechanism that could be AI-dependent; weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Experience Cloud technology platform",
+        "help large brands create, manage, and optimize valuable social experiences"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_307e9984f6f92d390811543e",
+      "description_sha256": "35ed32ccb32600aff1510d6864323b7fd8dfaa27debe3332504111fe8b28b15d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description meaningfully identifies conventional enterprise social-media management functions for creating, managing, and optimizing social experiences, with no AI claim.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "enterprise Social Media Management System (SMMS)",
+        "create, manage, and optimize valuable social experiences"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_307e9984f6f92d390811543e",
+      "description_sha256": "35ed32ccb32600aff1510d6864323b7fd8dfaa27debe3332504111fe8b28b15d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Enterprise Social Media Management System (SMMS)",
+        "help large brands create, manage, and optimize valuable social experiences"
+      ],
+      "ai_type_evidence_spans": null,
+      "rationale": "The text names an enterprise social-media-management category and broad create/manage/optimize goals, but does not provide enough concrete functionality for a supported negative.",
+      "conflict_response": "The blind proposal treated the SMMS category and broad social-experience verbs as sufficient conventional functionality. The parent concern correctly preserves the distinction between a category/goal description and concrete operations, so retain non-AI only as weak and forced."
+    },
+    "final": {
+      "annotation_id": "ann_307e9984f6f92d390811543e",
+      "description_sha256": "35ed32ccb32600aff1510d6864323b7fd8dfaa27debe3332504111fe8b28b15d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Enterprise Social Media Management System (SMMS)",
+        "help large brands create, manage, and optimize valuable social experiences"
+      ],
+      "ai_type_evidence_spans": null,
+      "rationale": "The text names an enterprise social-media-management category and broad create/manage/optimize goals, but does not provide enough concrete functionality for a supported negative.",
+      "conflict_response": "The blind proposal treated the SMMS category and broad social-experience verbs as sufficient conventional functionality. The parent concern correctly preserves the distinction between a category/goal description and concrete operations, so retain non-AI only as weak and forced."
+    }
+  },
+  {
+    "annotation_id": "ann_3a4cf02211f0c2d9a6d002b4",
+    "description_sha256": "5f5711d9e6f6896aa2a0910736997eebdc52883d68c1d00a34b76426e11b7b5e",
+    "source_record_references": [
+      "160"
+    ],
+    "labeler": {
+      "annotation_id": "ann_3a4cf02211f0c2d9a6d002b4",
+      "description_sha256": "5f5711d9e6f6896aa2a0910736997eebdc52883d68c1d00a34b76426e11b7b5e",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The description explicitly states the platform automates sales rep ramp, coaching, activity analytics, and CRM data entry using machine learning, a product-specific affirmative AI claim that supports the binary positive.",
+      "ai_type_rationale": "The text presents the ML-based automation as the platform's own function, so ai_native is the best-supported subtype; it does not establish that the core sales management offering depends on ML rather than treating ML as an enhancement, so the subtype is weak and forced.",
+      "evidence_spans": [
+        "Provides sales management platform",
+        "automates sales rep ramp, coaching, activity analytics, and customer relationship management data entry using machine learning"
+      ],
+      "ai_type_evidence_spans": [
+        "through its platform, automates sales rep ramp, coaching, activity analytics, and customer relationship management data entry using machine learning"
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_3a4cf02211f0c2d9a6d002b4",
+      "description_sha256": "5f5711d9e6f6896aa2a0910736997eebdc52883d68c1d00a34b76426e11b7b5e",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly states that the sales management platform automates multiple functions using machine learning.",
+      "ai_type_rationale": "The described core is a conventional sales management platform, while machine learning enhances automation of its sales, coaching, analytics, and data-entry functions.",
+      "evidence_spans": [
+        "using machine learning"
+      ],
+      "ai_type_evidence_spans": [
+        "automates sales rep ramp, coaching, activity analytics, and customer relationship management data entry using machine learning"
+      ]
+    },
+    "reconciliation": {
+      "annotation_id": "ann_3a4cf02211f0c2d9a6d002b4",
+      "description_sha256": "5f5711d9e6f6896aa2a0910736997eebdc52883d68c1d00a34b76426e11b7b5e",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The description explicitly states that the platform automates sales, coaching, analytics, and CRM data-entry functions using machine learning.",
+      "ai_type_rationale": "The text names a sales management platform and separately describes machine-learning automation, making ai_enabled the best provisional subtype; the text does not establish whether the core depends on ML or retains full function without it.",
+      "evidence_spans": [
+        "Provides sales management platform",
+        "automates sales rep ramp, coaching, activity analytics, and customer relationship management data entry using machine learning"
+      ],
+      "ai_type_evidence_spans": [
+        "through its platform, automates sales rep ramp, coaching, activity analytics, and customer relationship management data entry using machine learning"
+      ],
+      "conflict_response": "Both proposals agree that the explicit 'using machine learning' claim supports the binary AI label. Their subtype disagreement is unresolved by the text: the named sales-management core favors enabled, while dependency is not proven, so retain ai_enabled only as weak and forced rather than adopting ai_native."
+    },
+    "final": {
+      "annotation_id": "ann_3a4cf02211f0c2d9a6d002b4",
+      "description_sha256": "5f5711d9e6f6896aa2a0910736997eebdc52883d68c1d00a34b76426e11b7b5e",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The description explicitly states that the platform automates sales, coaching, analytics, and CRM data-entry functions using machine learning.",
+      "ai_type_rationale": "The text names a sales management platform and separately describes machine-learning automation, making ai_enabled the best provisional subtype; the text does not establish whether the core depends on ML or retains full function without it.",
+      "evidence_spans": [
+        "Provides sales management platform",
+        "automates sales rep ramp, coaching, activity analytics, and customer relationship management data entry using machine learning"
+      ],
+      "ai_type_evidence_spans": [
+        "through its platform, automates sales rep ramp, coaching, activity analytics, and customer relationship management data entry using machine learning"
+      ],
+      "conflict_response": "Both proposals agree that the explicit 'using machine learning' claim supports the binary AI label. Their subtype disagreement is unresolved by the text: the named sales-management core favors enabled, while dependency is not proven, so retain ai_enabled only as weak and forced rather than adopting ai_native."
+    }
+  },
+  {
+    "annotation_id": "ann_4126f03db36cac7036718355",
+    "description_sha256": "b31efaf3ac476b845ba3c97ea00f99813605ec214829128fe7d1805e53f37881",
+    "source_record_references": [
+      "158"
+    ],
+    "labeler": {
+      "annotation_id": "ann_4126f03db36cac7036718355",
+      "description_sha256": "b31efaf3ac476b845ba3c97ea00f99813605ec214829128fe7d1805e53f37881",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Collecting customer and business information, appending household demographic data to records, and selling it are conventional data-broker functions, but the analyzes step has no stated mechanism and targeted advertising could involve modeled targeting; the non-AI call is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The company collects, analyzes and sells customer and business information used for targeted advertising campaigns",
+        "Demographic data for all U.S. households appended to our customer records"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_4126f03db36cac7036718355",
+      "description_sha256": "b31efaf3ac476b845ba3c97ea00f99813605ec214829128fe7d1805e53f37881",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description meaningfully describes conventional collection, analysis, sale, and demographic-data appending for targeted advertising, without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "collects, analyzes and sells customer and business information used for targeted advertising campaigns",
+        "Demographic data for all U.S. households appended to our customer records"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_4126f03db36cac7036718355",
+      "description_sha256": "b31efaf3ac476b845ba3c97ea00f99813605ec214829128fe7d1805e53f37881",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The company collects, analyzes and sells customer and business information used for targeted advertising campaigns",
+        "Demographic data for all U.S. households appended to our customer records"
+      ],
+      "ai_type_evidence_spans": null,
+      "rationale": "The description meaningfully describes conventional information collection, analysis, sale, and demographic-data appending for targeted advertising, without an affirmative AI signal.",
+      "conflict_response": "The labeler's concern inferred possible modeled targeting from routine analysis and advertising. The parent correctly says not to invent a predictive function: collection, analysis, sale, and record appending are described directly and support the conventional negative."
+    },
+    "final": {
+      "annotation_id": "ann_4126f03db36cac7036718355",
+      "description_sha256": "b31efaf3ac476b845ba3c97ea00f99813605ec214829128fe7d1805e53f37881",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The company collects, analyzes and sells customer and business information used for targeted advertising campaigns",
+        "Demographic data for all U.S. households appended to our customer records"
+      ],
+      "ai_type_evidence_spans": null,
+      "rationale": "The description meaningfully describes conventional information collection, analysis, sale, and demographic-data appending for targeted advertising, without an affirmative AI signal.",
+      "conflict_response": "The labeler's concern inferred possible modeled targeting from routine analysis and advertising. The parent correctly says not to invent a predictive function: collection, analysis, sale, and record appending are described directly and support the conventional negative."
+    }
+  },
+  {
+    "annotation_id": "ann_4d91f3e00a5740e90a078788",
+    "description_sha256": "7c91ce8d83acc5495dfa68928b2b80dbbfeb19a36371d8071c65e6d5f2077abb",
+    "source_record_references": [
+      "151"
+    ],
+    "labeler": {
+      "annotation_id": "ann_4d91f3e00a5740e90a078788",
+      "description_sha256": "7c91ce8d83acc5495dfa68928b2b80dbbfeb19a36371d8071c65e6d5f2077abb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional online prospecting database: looking up business data to find and acquire B2B leads, plus enhancing the quality of customers' own data. No predictive, generative, conversational, or other AI-dependent function is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is an online B2B prospecting solution that utilizes Dun & Bradstreet business data for better and faster acquisition of B2B leads and prospects",
+        "enhance the quality of their data"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_4d91f3e00a5740e90a078788",
+      "description_sha256": "7c91ce8d83acc5495dfa68928b2b80dbbfeb19a36371d8071c65e6d5f2077abb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description supports a conventional B2B prospecting and business-data offering for finding leads, improving data quality, and supporting marketing and sales campaigns.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "online B2B prospecting solution that utilizes Dun & Bradstreet business data",
+        "enhance the quality of their data"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_4d91f3e00a5740e90a078788",
+      "description_sha256": "7c91ce8d83acc5495dfa68928b2b80dbbfeb19a36371d8071c65e6d5f2077abb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional online prospecting database: looking up business data to find and acquire B2B leads, plus enhancing the quality of customers' own data. No predictive, generative, conversational, or other AI-dependent function is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is an online B2B prospecting solution that utilizes Dun & Bradstreet business data for better and faster acquisition of B2B leads and prospects",
+        "enhance the quality of their data"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_8c4f03ae17ee0accec4f736d",
+    "description_sha256": "64e0121c6b3c0f938aadb2d2c3c8c1b59baf94c0589ea090ed82a29a66e881ae",
+    "source_record_references": [
+      "166"
+    ],
+    "labeler": {
+      "annotation_id": "ann_8c4f03ae17ee0accec4f736d",
+      "description_sha256": "64e0121c6b3c0f938aadb2d2c3c8c1b59baf94c0589ea090ed82a29a66e881ae",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes an employee advocacy program where approved social content is made available for employees to share from their personal accounts, with a stated cost-offset benefit. These are conventional content-approval and distribution functions; no AI-dependent feature is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Provides ability to provide approval social content that employees can share via their personal social handles"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_8c4f03ae17ee0accec4f736d",
+      "description_sha256": "64e0121c6b3c0f938aadb2d2c3c8c1b59baf94c0589ea090ed82a29a66e881ae",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies conventional employee social advocacy content approval and sharing functionality, without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "ability to provide approval social content that employees can share via their personal social handles"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_8c4f03ae17ee0accec4f736d",
+      "description_sha256": "64e0121c6b3c0f938aadb2d2c3c8c1b59baf94c0589ea090ed82a29a66e881ae",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes an employee advocacy program where approved social content is made available for employees to share from their personal accounts, with a stated cost-offset benefit. These are conventional content-approval and distribution functions; no AI-dependent feature is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Provides ability to provide approval social content that employees can share via their personal social handles"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_9aafb3092aa3b81f56f86ec1",
+    "description_sha256": "a45ddf9d801c52e18c66d818d7a0529e2deea1e16b75ed855b261d1952bb2efc",
+    "source_record_references": [
+      "152"
+    ],
+    "labeler": {
+      "annotation_id": "ann_9aafb3092aa3b81f56f86ec1",
+      "description_sha256": "a45ddf9d801c52e18c66d818d7a0529e2deea1e16b75ed855b261d1952bb2efc",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "A data services platform, a data-quality measurement approach, and combination with a commercial database are described, but the analyze-and-prioritize function has no stated mechanism and could be AI-dependent scoring; the text is also a deal announcement rather than a functional description, so the non-AI call is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "its approach to measuring data quality",
+        "to help B2B marketers identify, analyze and prioritize opportunities"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_9aafb3092aa3b81f56f86ec1",
+      "description_sha256": "a45ddf9d801c52e18c66d818d7a0529e2deea1e16b75ed855b261d1952bb2efc",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described offering combines data services, data-quality measurement, and a commercial database to identify, analyze, and prioritize B2B opportunities through conventional information management.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "data services platform",
+        "measuring data quality",
+        "identify, analyze and prioritize opportunities"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_9aafb3092aa3b81f56f86ec1",
+      "description_sha256": "a45ddf9d801c52e18c66d818d7a0529e2deea1e16b75ed855b261d1952bb2efc",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description supports conventional data services, data-quality measurement, a commercial database, and opportunity identification, analysis, and prioritization without an AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "its approach to measuring data quality",
+        "to help B2B marketers identify, analyze and prioritize opportunities"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's concern about possible predictive scoring is not established by the text, and the parent explicitly bars inferring such a mechanism. The described data services, quality measurement, and generic opportunity analysis/prioritization are sufficient conventional functionality, so the negative is supported rather than weak."
+    },
+    "final": {
+      "annotation_id": "ann_9aafb3092aa3b81f56f86ec1",
+      "description_sha256": "a45ddf9d801c52e18c66d818d7a0529e2deea1e16b75ed855b261d1952bb2efc",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description supports conventional data services, data-quality measurement, a commercial database, and opportunity identification, analysis, and prioritization without an AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "its approach to measuring data quality",
+        "to help B2B marketers identify, analyze and prioritize opportunities"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's concern about possible predictive scoring is not established by the text, and the parent explicitly bars inferring such a mechanism. The described data services, quality measurement, and generic opportunity analysis/prioritization are sufficient conventional functionality, so the negative is supported rather than weak."
+    }
+  },
+  {
+    "annotation_id": "ann_af9290ca1de58b4bdfd3a9b0",
+    "description_sha256": "b5d2aa560f7fc406b0dbb5f50a776bee245d91b99713b1f650745d5c27688e9b",
+    "source_record_references": [
+      "167"
+    ],
+    "labeler": {
+      "annotation_id": "ann_af9290ca1de58b4bdfd3a9b0",
+      "description_sha256": "b5d2aa560f7fc406b0dbb5f50a776bee245d91b99713b1f650745d5c27688e9b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Workflow management for sales teams is conventional, but the platform is described as an engagement and intelligence platform that gains actionable insights, and no mechanism is stated for that intelligence, which could be AI-dependent; weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is the first and only engagement and intelligence platform that helps sales teams manage workflows, gain actionable insights"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_af9290ca1de58b4bdfd3a9b0",
+      "description_sha256": "b5d2aa560f7fc406b0dbb5f50a776bee245d91b99713b1f650745d5c27688e9b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description establishes conventional sales workflows and buying-process support, but the mechanism behind the 'intelligence' and actionable insights is unresolved; it does not establish AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "engagement and intelligence platform",
+        "manage workflows, gain actionable insights, and navigate the increasingly complex buying process"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_af9290ca1de58b4bdfd3a9b0",
+      "description_sha256": "b5d2aa560f7fc406b0dbb5f50a776bee245d91b99713b1f650745d5c27688e9b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is the first and only engagement and intelligence platform that helps sales teams manage workflows, gain actionable insights",
+        "all in real-time"
+      ],
+      "ai_type_evidence_spans": null,
+      "rationale": "The description includes conventional sales workflow support but also claims intelligence and real-time actionable insights without explaining their mechanism; it does not establish AI.",
+      "conflict_response": "Both proposals preserve uncertainty about the included intelligence and actionable-insight functions. The parent concern correctly says workflow support cannot explain those functions, while the text lacks an AI claim; retain non-AI as weak and forced."
+    },
+    "final": {
+      "annotation_id": "ann_af9290ca1de58b4bdfd3a9b0",
+      "description_sha256": "b5d2aa560f7fc406b0dbb5f50a776bee245d91b99713b1f650745d5c27688e9b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is the first and only engagement and intelligence platform that helps sales teams manage workflows, gain actionable insights",
+        "all in real-time"
+      ],
+      "ai_type_evidence_spans": null,
+      "rationale": "The description includes conventional sales workflow support but also claims intelligence and real-time actionable insights without explaining their mechanism; it does not establish AI.",
+      "conflict_response": "Both proposals preserve uncertainty about the included intelligence and actionable-insight functions. The parent concern correctly says workflow support cannot explain those functions, while the text lacks an AI claim; retain non-AI as weak and forced."
+    }
+  },
+  {
+    "annotation_id": "ann_b81b6e077ddabefaf13114c7",
+    "description_sha256": "3fa50372fafb9d4291f42a6860f066302d27fd24b82d73eb0afead11b8895d0f",
+    "source_record_references": [
+      "156"
+    ],
+    "labeler": {
+      "annotation_id": "ann_b81b6e077ddabefaf13114c7",
+      "description_sha256": "3fa50372fafb9d4291f42a6860f066302d27fd24b82d73eb0afead11b8895d0f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Email data licensing and appends are conventional data-supply functions, but the enhanced multichannel marketing tools for lifecycle management are not described, so their mechanism (possibly predictive targeting) is unresolved; weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Winback email licenses and appends",
+        "providing customers with enhanced multichannel marketing tools to help them manage the full customer life-cycle"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_b81b6e077ddabefaf13114c7",
+      "description_sha256": "3fa50372fafb9d4291f42a6860f066302d27fd24b82d73eb0afead11b8895d0f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes conventional customer-lifecycle and multichannel marketing tools, including email licenses and appends, with no product-specific AI claim.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "enhanced multichannel marketing tools to help them manage the full customer life-cycle"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_b81b6e077ddabefaf13114c7",
+      "description_sha256": "3fa50372fafb9d4291f42a6860f066302d27fd24b82d73eb0afead11b8895d0f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "rationale": "The text describes conventional email licensing and appends plus multichannel customer-lifecycle marketing tools, without an affirmative AI signal.",
+      "evidence_spans": [
+        "Winback email licenses and appends",
+        "providing customers with enhanced multichannel marketing tools to help them manage the full customer life-cycle"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's concern treated the vague lifecycle tools as possibly predictive, but the parent correctly bars inventing that function. The text includes concrete email licensing/appends and conventional multichannel lifecycle marketing, so possible AI assistance does not make the negative weak."
+    },
+    "final": {
+      "annotation_id": "ann_b81b6e077ddabefaf13114c7",
+      "description_sha256": "3fa50372fafb9d4291f42a6860f066302d27fd24b82d73eb0afead11b8895d0f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "rationale": "The text describes conventional email licensing and appends plus multichannel customer-lifecycle marketing tools, without an affirmative AI signal.",
+      "evidence_spans": [
+        "Winback email licenses and appends",
+        "providing customers with enhanced multichannel marketing tools to help them manage the full customer life-cycle"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's concern treated the vague lifecycle tools as possibly predictive, but the parent correctly bars inventing that function. The text includes concrete email licensing/appends and conventional multichannel lifecycle marketing, so possible AI assistance does not make the negative weak."
+    }
+  },
+  {
+    "annotation_id": "ann_c4f92d62524c9ee04af280fe",
+    "description_sha256": "3356080d89b48d221dfc182fa361110d7b5b8d66d0b48caa087aa73f84f4146c",
+    "source_record_references": [
+      "162"
+    ],
+    "labeler": {
+      "annotation_id": "ann_c4f92d62524c9ee04af280fe",
+      "description_sha256": "3356080d89b48d221dfc182fa361110d7b5b8d66d0b48caa087aa73f84f4146c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Centralized listing and profile management is conventional, but the text says the platform takes scattered information from across the internet and creates a single source of truth without stating how; automated discovery and entity resolution could be AI-dependent, so the non-AI call is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "takes the scattered information about your business from all over the internet",
+        "creates a single source of truth"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_c4f92d62524c9ee04af280fe",
+      "description_sha256": "3356080d89b48d221dfc182fa361110d7b5b8d66d0b48caa087aa73f84f4146c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description presents conventional online brand and knowledge management: consolidating business information into a single source of truth and controlling public facts.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "creates a single source of truth for all of your company's digital knowledge",
+        "control of the public facts about your business"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_c4f92d62524c9ee04af280fe",
+      "description_sha256": "3356080d89b48d221dfc182fa361110d7b5b8d66d0b48caa087aa73f84f4146c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "takes the scattered information about your business from all over the internet",
+        "creates a single source of truth for all of your company's digital knowledge"
+      ],
+      "ai_type_evidence_spans": null,
+      "rationale": "The description supports conventional aggregation and online knowledge management: collecting business information into a single source of truth and controlling public facts.",
+      "conflict_response": "The labeler inferred possible automated discovery or entity resolution from scattered online information. The parent correctly bars that inference: consolidation into a single source of truth is a conventional aggregation function, and no AI-suggestive mechanism is stated, so the negative is supported."
+    },
+    "final": {
+      "annotation_id": "ann_c4f92d62524c9ee04af280fe",
+      "description_sha256": "3356080d89b48d221dfc182fa361110d7b5b8d66d0b48caa087aa73f84f4146c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "takes the scattered information about your business from all over the internet",
+        "creates a single source of truth for all of your company's digital knowledge"
+      ],
+      "ai_type_evidence_spans": null,
+      "rationale": "The description supports conventional aggregation and online knowledge management: collecting business information into a single source of truth and controlling public facts.",
+      "conflict_response": "The labeler inferred possible automated discovery or entity resolution from scattered online information. The parent correctly bars that inference: consolidation into a single source of truth is a conventional aggregation function, and no AI-suggestive mechanism is stated, so the negative is supported."
+    }
+  },
+  {
+    "annotation_id": "ann_d0e8a821bdeb5bfa31a4456b",
+    "description_sha256": "b6978ac326dfb3e1cb68015165d8e8ea9b5b22fbda8a953cd303c645f115b22d",
+    "source_record_references": [
+      "149"
+    ],
+    "labeler": {
+      "annotation_id": "ann_d0e8a821bdeb5bfa31a4456b",
+      "description_sha256": "b6978ac326dfb3e1cb68015165d8e8ea9b5b22fbda8a953cd303c645f115b22d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Data-quality, contact-list, and CRM-adoption goals are conventional data-management aims, but the named suite components are never described, so their mechanisms are unresolved; the non-AI call is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is a complete solution for ensuring quality data, a trustworthy contact list, and driving toward CRM adoption",
+        "Suite including DemandTools, GridBuddy and BriteVerify"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_d0e8a821bdeb5bfa31a4456b",
+      "description_sha256": "b6978ac326dfb3e1cb68015165d8e8ea9b5b22fbda8a953cd303c645f115b22d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description meaningfully describes conventional data-quality, contact-list, and CRM-adoption functionality, without an affirmative AI or ML claim.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "ensuring quality data, a trustworthy contact list, and driving toward CRM adoption"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_d0e8a821bdeb5bfa31a4456b",
+      "description_sha256": "b6978ac326dfb3e1cb68015165d8e8ea9b5b22fbda8a953cd303c645f115b22d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description meaningfully describes conventional data-quality, contact-list, and CRM-adoption aims, without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is a complete solution for ensuring quality data, a trustworthy contact list, and driving toward CRM adoption"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's concern was that the named suite components are not individually described. The parent concern correctly bars borrowing their features, but the stated quality-data, contact-list, and CRM-adoption functionality is itself sufficient conventional evidence; unmentioned AI does not make it weak."
+    },
+    "final": {
+      "annotation_id": "ann_d0e8a821bdeb5bfa31a4456b",
+      "description_sha256": "b6978ac326dfb3e1cb68015165d8e8ea9b5b22fbda8a953cd303c645f115b22d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description meaningfully describes conventional data-quality, contact-list, and CRM-adoption aims, without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is a complete solution for ensuring quality data, a trustworthy contact list, and driving toward CRM adoption"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's concern was that the named suite components are not individually described. The parent concern correctly bars borrowing their features, but the stated quality-data, contact-list, and CRM-adoption functionality is itself sufficient conventional evidence; unmentioned AI does not make it weak."
+    }
+  },
+  {
+    "annotation_id": "ann_db7c046dc0ab6559c5ca9710",
+    "description_sha256": "002e952bb7e1ca53f9436fa558b921e642e44b917d7bd269f005f2c473f6a28e",
+    "source_record_references": [
+      "153"
+    ],
+    "labeler": {
+      "annotation_id": "ann_db7c046dc0ab6559c5ca9710",
+      "description_sha256": "002e952bb7e1ca53f9436fa558b921e642e44b917d7bd269f005f2c473f6a28e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Cleansing business data and injecting firmographic records are conventional data-enrichment functions, but correctly identifying records is a matching step whose mechanism (deterministic or probabilistic) is not stated, so the non-AI call is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "improves the quality of your business data by correctly identifying, cleansing, and injecting firmographic intelligence into records"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_db7c046dc0ab6559c5ca9710",
+      "description_sha256": "002e952bb7e1ca53f9436fa558b921e642e44b917d7bd269f005f2c473f6a28e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The product is described as conventional business-data cleansing, record identification, firmographic enrichment, and Microsoft application integration.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "improves the quality of your business data by correctly identifying, cleansing, and injecting firmographic intelligence into records"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_db7c046dc0ab6559c5ca9710",
+      "description_sha256": "002e952bb7e1ca53f9436fa558b921e642e44b917d7bd269f005f2c473f6a28e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description states conventional business-data identification, cleansing, firmographic enrichment, and application-record integration, without an AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "improves the quality of your business data by correctly identifying, cleansing, and injecting firmographic intelligence into records"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler treated the mechanism for record identification as potentially probabilistic. The parent concern correctly bars inventing that mechanism; routine identification, cleansing, and enrichment are concrete conventional data functions here, so the supported negative is retained."
+    },
+    "final": {
+      "annotation_id": "ann_db7c046dc0ab6559c5ca9710",
+      "description_sha256": "002e952bb7e1ca53f9436fa558b921e642e44b917d7bd269f005f2c473f6a28e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description states conventional business-data identification, cleansing, firmographic enrichment, and application-record integration, without an AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "improves the quality of your business data by correctly identifying, cleansing, and injecting firmographic intelligence into records"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler treated the mechanism for record identification as potentially probabilistic. The parent concern correctly bars inventing that mechanism; routine identification, cleansing, and enrichment are concrete conventional data functions here, so the supported negative is retained."
+    }
+  },
+  {
+    "annotation_id": "ann_f56fb348f7e5262778ce6a9b",
+    "description_sha256": "b86c5a2165571f5f4fa93ccdb2df442dbd8448f0feeff13afe58c19b70ff607b",
+    "source_record_references": [
+      "147"
+    ],
+    "labeler": {
+      "annotation_id": "ann_f56fb348f7e5262778ce6a9b",
+      "description_sha256": "b86c5a2165571f5f4fa93ccdb2df442dbd8448f0feeff13afe58c19b70ff607b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text names conventional content-workflow functions (planning, creation, publication) but does not explain how ideation or optimization work; those could be AI-assisted, so the non-AI call is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "streamlines content planning, ideation, creation, publication, and optimization"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_f56fb348f7e5262778ce6a9b",
+      "description_sha256": "b86c5a2165571f5f4fa93ccdb2df442dbd8448f0feeff13afe58c19b70ff607b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description presents conventional content marketing functions: planning, ideation, creation, publication, and optimization, with no product-specific AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "streamlines content planning, ideation, creation, publication, and optimization"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_f56fb348f7e5262778ce6a9b",
+      "description_sha256": "b86c5a2165571f5f4fa93ccdb2df442dbd8448f0feeff13afe58c19b70ff607b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies conventional content planning, creation, publication, and optimization functions; it contains no product-specific AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "streamlines content planning, ideation, creation, publication, and optimization"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's weakness rested on the possibility that ideation or optimization could be AI-assisted. The parent concern correctly distinguishes that possibility from an included AI-suggestive function: the text only states content-workflow functions, so the blind supported negative is retained."
+    },
+    "final": {
+      "annotation_id": "ann_f56fb348f7e5262778ce6a9b",
+      "description_sha256": "b86c5a2165571f5f4fa93ccdb2df442dbd8448f0feeff13afe58c19b70ff607b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies conventional content planning, creation, publication, and optimization functions; it contains no product-specific AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "streamlines content planning, ideation, creation, publication, and optimization"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's weakness rested on the possibility that ideation or optimization could be AI-assisted. The parent concern correctly distinguishes that possibility from an included AI-suggestive function: the text only states content-workflow functions, so the blind supported negative is retained."
+    }
+  },
+  {
+    "annotation_id": "ann_f5c07e74535d62b0516a47fb",
+    "description_sha256": "1c706ef4257e21e84b985917f3b52fa4328238e81cadcaf681432ab5d37b3c07",
+    "source_record_references": [
+      "163"
+    ],
+    "labeler": {
+      "annotation_id": "ann_f5c07e74535d62b0516a47fb",
+      "description_sha256": "1c706ef4257e21e84b985917f3b52fa4328238e81cadcaf681432ab5d37b3c07",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text is a slogan-level description of sales enablement with no concrete functions named, so there is no specific conventional functionality to support a negative; weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "bridged the gap between strategy and execution",
+        "Equip, Train, and Coach sales teams"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_f5c07e74535d62b0516a47fb",
+      "description_sha256": "1c706ef4257e21e84b985917f3b52fa4328238e81cadcaf681432ab5d37b3c07",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes conventional sales enablement functions to equip, train, and coach sales teams, without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Equip, Train, and Coach sales teams"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_f5c07e74535d62b0516a47fb",
+      "description_sha256": "1c706ef4257e21e84b985917f3b52fa4328238e81cadcaf681432ab5d37b3c07",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "bridged the gap between strategy and execution",
+        "Equip, Train, and Coach sales teams"
+      ],
+      "ai_type_evidence_spans": null,
+      "rationale": "The text gives broad sales-enablement goals but no concrete software operation beyond the slogan-level statement to equip, train, and coach teams; the negative is therefore weak and forced.",
+      "conflict_response": "The blind proposal treated equip, train, and coach as sufficient conventional functions, but the parent concern correctly notes that these are broad goals rather than specified operations. The text has no AI signal, yet is too thin for a supported negative, so retain weak and forced."
+    },
+    "final": {
+      "annotation_id": "ann_f5c07e74535d62b0516a47fb",
+      "description_sha256": "1c706ef4257e21e84b985917f3b52fa4328238e81cadcaf681432ab5d37b3c07",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "bridged the gap between strategy and execution",
+        "Equip, Train, and Coach sales teams"
+      ],
+      "ai_type_evidence_spans": null,
+      "rationale": "The text gives broad sales-enablement goals but no concrete software operation beyond the slogan-level statement to equip, train, and coach teams; the negative is therefore weak and forced.",
+      "conflict_response": "The blind proposal treated equip, train, and coach as sufficient conventional functions, but the parent concern correctly notes that these are broad goals rather than specified operations. The text has no AI signal, yet is too thin for a supported negative, so retain weak and forced."
+    }
+  },
+  {
+    "annotation_id": "ann_f5f524dbe56eb231d2dabbcd",
+    "description_sha256": "6e9b7175a32e20604a4b637d87a62fb6c2c1da6f3b5bf964fc22141ed578132f",
+    "source_record_references": [
+      "165"
+    ],
+    "labeler": {
+      "annotation_id": "ann_f5f524dbe56eb231d2dabbcd",
+      "description_sha256": "6e9b7175a32e20604a4b637d87a62fb6c2c1da6f3b5bf964fc22141ed578132f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Routing and CRM data flow are conventional, but matching and attribution are named as solutions without stated mechanisms; attribution is an analytics function and matching may be probabilistic, so the non-AI call is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Lead-to-Account Matching, Routing and Attribution solutions"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_f5f524dbe56eb231d2dabbcd",
+      "description_sha256": "6e9b7175a32e20604a4b637d87a62fb6c2c1da6f3b5bf964fc22141ed578132f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description supports conventional revenue-operations data connection, lead-to-account matching, routing, and attribution functionality, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Revenue Operations platform",
+        "Lead-to-Account Matching, Routing and Attribution solutions"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_f5f524dbe56eb231d2dabbcd",
+      "description_sha256": "6e9b7175a32e20604a4b637d87a62fb6c2c1da6f3b5bf964fc22141ed578132f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "connects the right data to the right people at the right time across the go-to-market process",
+        "Lead-to-Account Matching, Routing and Attribution solutions"
+      ],
+      "ai_type_evidence_spans": null,
+      "rationale": "The description specifies conventional CRM data connection, lead-to-account matching, routing, attribution, and delivery of leads and opportunities to sales representatives.",
+      "conflict_response": "The labeler treated matching and attribution as potentially probabilistic or AI-dependent. The parent concern correctly bars inferring that mechanism: the text describes routine go-to-market data flow and routing, with generic attribution but no actual AI-suggestive claim, so the negative is supported."
+    },
+    "final": {
+      "annotation_id": "ann_f5f524dbe56eb231d2dabbcd",
+      "description_sha256": "6e9b7175a32e20604a4b637d87a62fb6c2c1da6f3b5bf964fc22141ed578132f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "connects the right data to the right people at the right time across the go-to-market process",
+        "Lead-to-Account Matching, Routing and Attribution solutions"
+      ],
+      "ai_type_evidence_spans": null,
+      "rationale": "The description specifies conventional CRM data connection, lead-to-account matching, routing, attribution, and delivery of leads and opportunities to sales representatives.",
+      "conflict_response": "The labeler treated matching and attribution as potentially probabilistic or AI-dependent. The parent concern correctly bars inferring that mechanism: the text describes routine go-to-market data flow and routing, with generic attribution but no actual AI-suggestive claim, so the negative is supported."
+    }
+  },
+  {
+    "annotation_id": "ann_f93f38304e636c572dd1a585",
+    "description_sha256": "6b8741df23d0c23762b2a130cb165aa57d75f9a5da24eb1dce0b2133b9343247",
+    "source_record_references": [
+      "154"
+    ],
+    "labeler": {
+      "annotation_id": "ann_f93f38304e636c572dd1a585",
+      "description_sha256": "6b8741df23d0c23762b2a130cb165aa57d75f9a5da24eb1dce0b2133b9343247",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text is mostly a product-renaming note and does not describe what the credit risk management or analytics functions do, so there is no described conventional functionality to support a negative; weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Now called Finance Analytics",
+        "D&B Credit Service will provide substantially the same functionality and usage allowance as the DNBi Service"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_f93f38304e636c572dd1a585",
+      "description_sha256": "6b8741df23d0c23762b2a130cb165aa57d75f9a5da24eb1dce0b2133b9343247",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a credit-risk-management product and its service functionality, which is conventional financial risk management with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "DNBi Credit Risk Management product"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_f93f38304e636c572dd1a585",
+      "description_sha256": "6b8741df23d0c23762b2a130cb165aa57d75f9a5da24eb1dce0b2133b9343247",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text is primarily a rename and service-parity note; 'credit risk management product' names a category but does not describe concrete functionality sufficient for a supported negative.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "D&B Credit Service will provide substantially the same functionality and usage allowance as the DNBi Service",
+        "DNBi Credit Risk Management product"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The blind proposal treated the credit-risk category as conventional functionality, but the parent concern correctly identifies that the remaining text is renaming, usage allowance, and service parity. Because no concrete operation is described, retain the non-AI judgment only as weak and forced rather than supported."
+    },
+    "final": {
+      "annotation_id": "ann_f93f38304e636c572dd1a585",
+      "description_sha256": "6b8741df23d0c23762b2a130cb165aa57d75f9a5da24eb1dce0b2133b9343247",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text is primarily a rename and service-parity note; 'credit risk management product' names a category but does not describe concrete functionality sufficient for a supported negative.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "D&B Credit Service will provide substantially the same functionality and usage allowance as the DNBi Service",
+        "DNBi Credit Risk Management product"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The blind proposal treated the credit-risk category as conventional functionality, but the parent concern correctly identifies that the remaining text is renaming, usage allowance, and service parity. Because no concrete operation is described, retain the non-AI judgment only as weak and forced rather than supported."
+    }
+  },
+  {
+    "annotation_id": "ann_fe6fa4add68198a91cabb933",
+    "description_sha256": "75c02f3e1e9798c66d3632ee12fa49886c8b07a9c76fb1ca638142420b798177",
+    "source_record_references": [
+      "157"
+    ],
+    "labeler": {
+      "annotation_id": "ann_fe6fa4add68198a91cabb933",
+      "description_sha256": "75c02f3e1e9798c66d3632ee12fa49886c8b07a9c76fb1ca638142420b798177",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "A cloud-based SEO and content marketing platform is conventional software, but the recommended actions for optimizing metrics do not state how they are generated; recommendation could be AI-dependent, so the non-AI call is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a cloud-based SEO & Content Marketing platform",
+        "Conductor also provides recommended actions for optimizing digital marketing metrics and increasing revenue"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_fe6fa4add68198a91cabb933",
+      "description_sha256": "75c02f3e1e9798c66d3632ee12fa49886c8b07a9c76fb1ca638142420b798177",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description clearly identifies an SEO and content-marketing platform, but its provision of recommended optimization actions leaves the recommendation mechanism unresolved and does not establish AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "cloud-based SEO & Content Marketing platform",
+        "provides recommended actions for optimizing digital marketing metrics and increasing revenue"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_fe6fa4add68198a91cabb933",
+      "description_sha256": "75c02f3e1e9798c66d3632ee12fa49886c8b07a9c76fb1ca638142420b798177",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "rationale": "The description identifies conventional SEO and content-marketing software, but its included recommended actions have an unexplained mechanism and do not establish AI.",
+      "evidence_spans": [
+        "a cloud-based SEO & Content Marketing platform",
+        "Conductor also provides recommended actions for optimizing digital marketing metrics and increasing revenue"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Both proposals retain the unresolved recommendation mechanism, and the parent explicitly says surrounding SEO wording must not erase it. Since the text neither establishes AI nor explains a conventional recommendation method, retain non-AI as weak and forced."
+    },
+    "final": {
+      "annotation_id": "ann_fe6fa4add68198a91cabb933",
+      "description_sha256": "75c02f3e1e9798c66d3632ee12fa49886c8b07a9c76fb1ca638142420b798177",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "rationale": "The description identifies conventional SEO and content-marketing software, but its included recommended actions have an unexplained mechanism and do not establish AI.",
+      "evidence_spans": [
+        "a cloud-based SEO & Content Marketing platform",
+        "Conductor also provides recommended actions for optimizing digital marketing metrics and increasing revenue"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Both proposals retain the unresolved recommendation mechanism, and the parent explicitly says surrounding SEO wording must not erase it. Since the text neither establishes AI nor explains a conventional recommendation method, retain non-AI as weak and forced."
+    }
+  }
+]

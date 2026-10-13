@@ -1,0 +1,24 @@
+{
+  "replacement_workflow_run_id": "a2214eac-d241-4a79-a755-ee968d26a615",
+  "replacement_child_run_id": "604a3064-2a35-454d-9d90-ca41cb72fc74",
+  "replacement_model": "openai-codex/gpt-6-luna:high",
+  "replacement_context": "fresh",
+  "replaces_recovered_blind_run_id": "744f5405-9265-42db-83c4-6b041c2d3b08",
+  "scope": "Only11 pending reconciliation IDs for Codex batch001",
+  "annotation_child_observed": "running",
+  "cursor_coordinator_run_id": "b66aca65-f4f5-431b-827b-a0ec2694fc66",
+  "cursor_wave_batches": [
+    "batch-001",
+    "batch-002",
+    "batch-003",
+    "batch-004",
+    "batch-005"
+  ],
+  "cursor_handoff": "lanes/cursor/runtime/wave-001-replacement-approved-handoff.md",
+  "cursor_clearance": "Explicit supervisor reply e4910069-5451-4077-95eb-18fa02277ec7 after config correction",
+  "approval": "runtime/REPLACEMENT_VERIFIER_APPROVAL.json",
+  "output_mode_correction": "runtime/OUTPUT_MODE_CORRECTION.json",
+  "native_completion": "Wake parent; no polling/bg_wait",
+  "stop_conditions": "Completion, major error or usage limit; no automatic fallback",
+  "global_annotation_workers_max": 4
+}

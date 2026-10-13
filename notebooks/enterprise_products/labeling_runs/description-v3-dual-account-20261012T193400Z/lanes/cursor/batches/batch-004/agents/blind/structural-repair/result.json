@@ -1,0 +1,349 @@
+{
+  "stage": "blind",
+  "records": [
+    {
+      "annotation_id": "ann_874c5af629f5170ca77e0992",
+      "description_sha256": "23fa902cda558459f27af3e7d736ffea52728a594ca75b97bbadf58ed02b4faa",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description establishes a voice-driven directory-assistance and speech-recognition function, but does not establish an AI mechanism; voice recognition therefore leaves the binary classification ambiguous.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "voice-driven nationwide directory assistance application that can accurately recognize more than 100 million residential and business listings"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_ba5f99830b9d5f0693bcea0f",
+      "description_sha256": "460e29de17f3ac324c906eb36eb6abfebc92470a4064aac15e9ffa58df99a8cf",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The Security Suite is explicitly described as using deep neural networks and advanced AI algorithms to detect interaction anomalies.",
+      "ai_type_rationale": "The described conventional core is biometric fraud prevention and authentication, while the AI is described as the detection enhancement.",
+      "evidence_spans": [
+        "uses third generation deep neural networks and advanced AI algorithms to detect anomalies in an interaction"
+      ],
+      "ai_type_evidence_spans": [
+        "biometric fraud prevention and authentication solution",
+        "uses third generation deep neural networks and advanced AI algorithms to detect anomalies in an interaction"
+      ]
+    },
+    {
+      "annotation_id": "ann_816babeff857da2e18e8e64e",
+      "description_sha256": "9f71142ff5557b94a2d56e5c677ffb2e1b69bebc7cd466619c7dcbc21fadbd4d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes conventional voiceprint enrollment and comparison for caller verification, but does not resolve whether the voice mechanism is AI-dependent.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "create a unique voiceprint",
+        "the technology can compare their verification voiceprint with the one that was created during enrollment"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_dcf13d4db14f08d62eeeb36c",
+      "description_sha256": "46a0f1e8412d8cf3662e0d886d19c0c4e28928e519292199c5307cb8185762c3",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description meaningfully identifies retail analytics, people counting, and foot-traffic analysis for improving retail profitability.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "retail analytics",
+        "people counter technology and foot traffic analysis that improve retail profitability"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_cc8c31f48c158a58d3bff68f",
+      "description_sha256": "807ee094050c0118551ca406eee5b458c76c95c2c9e6b721f6e927814ba11f5f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The platform is described as organizing, analyzing, visualizing, aggregating, and reporting retail data across stores in real time.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "organizes, analyzes and displays visualizations of massive volumes of diverse retail data",
+        "aggregates information from all your stores on the cloud, providing a unified and instant view of your stores and shoppers"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_e13bd4a50b38fedd5bd25a4c",
+      "description_sha256": "485f02d0ec344c5510b30a650f2cf242d91e612f694ae379a924705ae20b22fd",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The platform explicitly tracks experience signals using proprietary AI technology while capturing feedback and providing reporting and analysis.",
+      "ai_type_rationale": "The conventional customer-feedback capture and reporting platform remains the described core, with proprietary AI used to track signals and identify causes and outcomes.",
+      "evidence_spans": [
+        "Track Experience Signals Created on Daily Journeys Using Proprietary AI Technology"
+      ],
+      "ai_type_evidence_spans": [
+        "The Core Platform captures customer feedback at different touch points",
+        "Track Experience Signals Created on Daily Journeys Using Proprietary AI Technology"
+      ]
+    },
+    {
+      "annotation_id": "ann_b316cfc6aebdeb637969ffe0",
+      "description_sha256": "7496d130447b7d7972127ea5c648c7db32edb1fac7a0b0f8e65654b85611f53f",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "ai_type_rationale": "The described core offering is a chatbot that learns from top agents and uses NLU, so its meaningful function depends on AI.",
+      "rationale": "The chatbot is explicitly described as learning from top agents and using state-of-the-art NLU to analyze conversations and automate customer needs.",
+      "evidence_spans": [
+        "Build chatbots that learn from top-agents with Cresta's state-of-the-art NLU and Conversation Design Experts"
+      ],
+      "ai_type_evidence_spans": [
+        "Cresta Chatbot",
+        "Build chatbots that learn from top-agents with Cresta's state-of-the-art NLU"
+      ]
+    },
+    {
+      "annotation_id": "ann_2d2f7dd36f0d4e844a1a1bb0",
+      "description_sha256": "e55660a604d602710724fcc5d6a23400c15b9afb1dc1d200cf02b8e58d643c70",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "rationale": "The description covers subscription-service management with recurring billing, collections, quoting, revenue recognition, and subscription metrics.",
+      "evidence_spans": [
+        "automate recurring billing, collections, quoting, revenue recognition, and subscription metrics"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_ed72d818697136ae1525e8e7",
+      "description_sha256": "25daca034af9497cb7835cd6803cf787c792c7cd032135009e4ca8a69fc0c345",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "rationale": "The system is described as allowing call-center representatives to search and reserve toll-free numbers for business customers.",
+      "evidence_spans": [
+        "allows call center representatives to search/reserve toll free numbers for our business customers"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_0ce1deaef2e9ea13fa554dc9",
+      "description_sha256": "5683fcfc9468e4cdcc59be1505c8a6793e45e0751a38573b744506c44da052a4",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The IVR optimization and analytics offering is explicitly described as using AI-driven analytics.",
+      "ai_type_rationale": "The conventional core is IVR menu streamlining and self-service, while AI-driven analytics is described as the enhancement.",
+      "evidence_spans": [
+        "comprising Artificial Intelligence (AI) driven analytics to boost customer experiences across IVR journeys"
+      ],
+      "ai_type_evidence_spans": [
+        "Interactive Voice Response Optimization (IVRO) and Interactive Voice Response Analytics (IVRA)",
+        "comprising Artificial Intelligence (AI) driven analytics to boost customer experiences across IVR journeys"
+      ]
+    },
+    {
+      "annotation_id": "ann_30032932de9e540089bd8e6a",
+      "description_sha256": "38405fb80f01391019dcf70a3c1d53e7d6ccd115daaf69f9c5aeda887c08315c",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "ai_type_rationale": "Conversation intelligence that surfaces insights from customer interactions is the core offering, and the description explicitly makes it AI-based.",
+      "rationale": "The platform is explicitly described as AI-based and as surfacing insights from phone calls, chats, and emails.",
+      "evidence_spans": [
+        "An AI-based conversation intelligence platform that surfaces insights from customer interactions (phone calls, chats, emails)"
+      ],
+      "ai_type_evidence_spans": [
+        "AI-based conversation intelligence platform"
+      ]
+    },
+    {
+      "annotation_id": "ann_5981fdec9524a824adedf951",
+      "description_sha256": "e61bf262cbcade4d4cb7b5bd105614af37fc92c4dc9dd72432290542532cee65",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "rationale": "The description identifies movie-ticket sales through a website and mobile app plus television and streaming-media information services.",
+      "evidence_spans": [
+        "sells movie tickets via their website as well as through their mobile app",
+        "a provider of television and streaming media information"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_2fb635eb935eca36eb2e4d2c",
+      "description_sha256": "95245e1f1a1c74f00e8ca3d4dc186a7454d489b7a3d431552cad482c9f9d780e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "rationale": "Pulse is described as a QA and automation tool that monitors customer experience and uses RPA bots to generate synthetic calls, chatbot chats, and web-chat interactions.",
+      "evidence_spans": [
+        "product is being uses purely as a QA (testing and automation) tool and not part of the operational platform",
+        "Pulse uses Robotic Process Automation (RPA) bots to automatically generate agent and customer interactions"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_fff84761dcb863829d435b93",
+      "description_sha256": "9d838317890d54437d770310ccf4649b916db52f169ac76096933b6ec64fd106",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "rationale": "The description is for transition consulting and technical implementation, including program design, reporting tools, data architecture, testing, launch, and configuration management.",
+      "evidence_spans": [
+        "Strategy & guidance to align impactful technical objectives & actionable delivery plan",
+        "Technical implementation forlistening program components,reporting tools, & data architecture"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_c170c80f1397740b10cbdcf9",
+      "description_sha256": "b9186ef969da9c31702ea9eb1ff92886ef21966c2b0ad0aa7e749cc9d6a60829",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "rationale": "The product is described as collaborative product analytics with behavioral reports, engagement insights, and retention and conversion metrics.",
+      "evidence_spans": [
+        "utilizes behavioral reports to comprehend users' engagement with products and offers insights to speed up work in real time",
+        "retention and conversion metrics"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_75d9b76fa830f36acd422044",
+      "description_sha256": "b632f2dbf45ce8ea79979aef428f4437c65fe03f19a6dbc0fd63e1fd85eeba2b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "rationale": "Tariffmatch is described as providing detailed billing-data analysis for telecom carriers to support business-customer solutions.",
+      "evidence_spans": [
+        "provide detailed billing data analysis for telecoms carriers"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_862a5013d9d4308f90bdaa53",
+      "description_sha256": "e155c168196c1bbb0104dc8711ecdbc3ccd753d9469a891b88104ec69c5f02e1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "rationale": "The description identifies Magento as an open-source e-commerce platform for building customized webshops, written in PHP.",
+      "evidence_spans": [
+        "Advanced eCommerce technologies to build the most customized webshops",
+        "Magento is an open-source e-commerce platform written in PHP"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_a73addbca185076b532ace2f",
+      "description_sha256": "82d6a986ead7c409842b0af759531007c4e05234bd4b25ca70bac599a5f66400",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "rationale": "Aceyus VUE is described as a real-time dashboard that centralizes call-center data from multiple sources and shows the customer journey.",
+      "evidence_spans": [
+        "centralize your data using one real-time dashboard",
+        "brings call center data from multiple sources into one dashboard"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_5971fef40b184eedb16c3cec",
+      "description_sha256": "392dc30f95e507ce268c0b61a6aae19949f90e578e5ece15c965ce8c7a1efaea",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "rationale": "CatalogONE is described as a cloud-native catalog platform for commerce, charging, services, resources, and federation of existing BSS and OSS catalog systems.",
+      "evidence_spans": [
+        "unified commerce, charging and service/resource catalog",
+        "federate existing BSS and OSS catalog systems"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    {
+      "annotation_id": "ann_eab5f2f03b035625d6bcba72",
+      "description_sha256": "44435b7b6c9cf7edd1d57ec01b2a98ff9c8e8d20c82a02f9b6a587e77b2a5c2a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "ai_type_rationale": null,
+      "rationale": "The description establishes text analytics over customer feedback and predictions, but does not resolve whether the analytics or predictive mechanism is AI-dependent.",
+      "evidence_spans": [
+        "advanced text analytics",
+        "make accurate predictions that save time, effort, and money"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  ]
+}

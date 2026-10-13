@@ -1,0 +1,203 @@
+{
+  "stage": "reconciliation",
+  "records": [
+    {
+      "annotation_id": "ann_24e1253aaf6d1a80efea9db5",
+      "description_sha256": "9d17da43a239139805cb081c98eb00b9a7a679f87f75571bc1e843f1530f6aa2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a decision engine incorporating recommendation technology to help customers find products, but gives no recommendation mechanism. The function may be AI-dependent, yet no AI is affirmatively stated; non-AI is the best-supported forced binary choice.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Intelligent decision engine platform which integrates recommendation technology into third party sites to help customers quickly find their ideal product."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The words 'intelligent' and 'recommendation technology' do not by themselves state AI, but the central recommendation function is unexplained and cannot be treated as clearly conventional. I select non-AI only as the best-supported binary outcome and retain weak/forced status."
+    },
+    {
+      "annotation_id": "ann_4181dfa9cb5dafd03e5b6ccc",
+      "description_sha256": "a4d8e82f9fcabaf4e2dfea218e9ba10bf4819bb4bfbaf3c2d44eb22af2a8ac20",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes sales-task automation, CRM syncing, and opportunity management, but 'next best action' signals recommendation functionality without explaining its mechanism. Non-AI is the best-supported forced choice; that unexplained capability prevents a supported negative.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "automates the manual tasks that hold you back and gives you the next best action to propel deals forward.",
+        "all your activity is automatically synced back to the CRM.",
+        "Manage opportunities from creation to close"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "I do not treat conventional task automation as resolving the separate 'next best action' claim: the text indicates an action recommendation but supplies no method or affirmative AI signal. Therefore non-AI remains the best-supported binary outcome, but only weakly and as a forced decision."
+    },
+    {
+      "annotation_id": "ann_7fb5228e4f476879782e91e6",
+      "description_sha256": "ce0f8849c0da345af38d10f6018d29207563f54e25a525c2daa50d85916277f7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The offering is described as licensing a core dataset to help users deliver models, forecasts and trend reports; it does not clearly say whether these outputs are provided by the offering or made by customers using the data. No AI model is stated, so non-AI is best-supported but forced and weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "allows you to license large portions of our core data set",
+        "to help you deliver more accurate models, forecasts and trend reports"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The grammatical emphasis is on licensing a dataset, while models and forecasts are purposes it helps the user deliver; the text does not establish that a model/forecast engine is itself supplied. Nor does it identify the models as AI. This ambiguity warrants a weak forced non-AI label, not a supported negative."
+    },
+    {
+      "annotation_id": "ann_8e4d7d75fef3e523cf1b348d",
+      "description_sha256": "8f6b6d326249f2db36613b198e1e98583315c2b1ca1dd4712d50b602cb2d2806",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies analytics insights, unsampled reports, data export, attribution, standard analytics reports, and marketing-tag deployment. These are conventional analytics and tag-management functions; the label 'Data Driven Attribution' does not specify AI or an AI method.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Google Analytics 360 provides the tools and support that enterprise teams need to get actionable insights from their data.",
+        "advanced tools, like Unsampled Reports, BigQuery Export, and Data Driven Attribution, in addition to all the standard Analytics features and reports.",
+        "Google Tag Manager allows you to manage and deploy marketing tags (snippets of code or tracking pixels) on your website (or mobile app) without having to modify the code."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "I address Data Driven Attribution explicitly: the text names it among analytics tools but supplies no AI, learning, or other mechanism. The surrounding description meaningfully specifies conventional reports, data export, analytics, and tag deployment. Mere possibility of an AI implementation does not make this description-based negative weak."
+    },
+    {
+      "annotation_id": "ann_94b003685876d31ef38a3948",
+      "description_sha256": "6f58650b339948b071d4c342f33fe970cd03bbad66a8bace6531c589c65b031b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description says the platform captures in-page interactions and micro-gestures, analyzes behavior into scores, visualizations and recommendations. These are concrete analytics outputs, but how the micro-gestures are interpreted and recommendations derived is unspecified; non-AI is best-supported but weak/forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "captures every in-page interaction and micro-gesture to understand the how and why of customer behavior.",
+        "We turn this analysis into scores, visualizations and recommendations"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Micro-gesture interpretation and recommendations are material analytic functionality, not merely conventional reporting that can be presumed. The text describes the inputs and outputs but not the analytical method, and does not affirm AI; I therefore preserve a weak forced non-AI decision."
+    },
+    {
+      "annotation_id": "ann_cb220c3971148790e50ff1bf",
+      "description_sha256": "f0a12a39faa621397ddc5e7041f3bcd76c623a8fe150b526481ff8c820937480",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text explains browse-abandonment email triggering by the abandoned page/product, but separately includes personalized recommendations and dynamic coupons without stating how they are selected. No AI is affirmed; non-AI is the best-supported forced choice, with weak evidence due to that unexplained functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Browse abandonment emails are automatically generated and sent to the visitor based on the specific page/product the visitor has abandoned.",
+        "Browse abandonment emails are highly personalized and include relevant personal product recommendations, personal dynamic coupons and more."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "I distinguish the explicit page/product-triggered email automation from the additional recommendations and coupons. The latter could be generated by conventional rules or another method; the description establishes neither and does not authorize deterministic-rule assumptions, so the non-AI decision is weak/forced."
+    },
+    {
+      "annotation_id": "ann_df74f2c21523d165ee5124bf",
+      "description_sha256": "596fafa0dd0e49860ebcc48901f97f79abd50ba48bada80c4143d9cc7913a042",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description gives sales-conversion, live-engagement and online-experience outcomes and calls the offering a conversational sales platform, but does not describe what the conversation function entails. Non-AI is the best-supported forced choice, with weak evidence.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "increase sales conversion, improve live engagement and provide a differentiating online customer experience.",
+        "Conversational sales platform"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The wording does not say whether conversations are human-led, automated, or AI-mediated, so I infer none of those mechanisms. These outcomes and category phrase do not affirm AI, but are too vague to support a confident conventional-functionality negative."
+    },
+    {
+      "annotation_id": "ann_eb5d8ec36addf3e43474feca",
+      "description_sha256": "118ef1421ec07df567e92fe71d4a60e06d83c64738c4244e0624a94e7fd69b66",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description establishes cross-channel campaign orchestration and personalized messages based on customer interests and preferences, but 'advanced intelligence' and the personalization mechanism are unexplained. No AI function is affirmed; non-AI is the best-supported forced decision with weak evidence.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "cross-channel campaign management platform that delivers advanced intelligence at scale",
+        "create personalized messages based on the individual interests and preferences of customers and prospects.",
+        "Allows digital marketers to automate cross channel campaign orchestration."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Considering the full text, the interest/preference-based personalization and 'advanced intelligence' are potential signals not explained by the later email and campaign description. They do not state AI or how personalization occurs, so I retain non-AI as a forced, weak judgment rather than calling the negative supported."
+    },
+    {
+      "annotation_id": "ann_fccc94b7422f66f704eaddfd",
+      "description_sha256": "e7cf0089a1ffe5d7cd50b50d8746595a394287ed42537418485d2aa69831ebc0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The sole description calls this SaaS for marketing automation, a conventional software category, but gives no concrete functions to distinguish routine automation from other methods. No AI signal is stated; non-AI is the best-supported forced choice, weakly supported by the terse text.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a software-as-a-service product for marketing automation."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The category itself identifies conventional marketing automation but provides no functional detail. Thus the text supports a tentative non-AI outcome, not a supported negative; agreement between proposals does not supply the missing description evidence."
+    },
+    {
+      "annotation_id": "ann_ff019aa7d0b357b4c065e130",
+      "description_sha256": "23d4438b930b5903796e7ce5f7791ee1e8d059c4f051568fb2ece6235ebb58de",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes customer-interaction capture and understanding followed by insights for business teams, but does not explain how interactions are understood or insights produced. No AI method is affirmed; non-AI is the best-supported forced judgment, weakly.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "captures and understands every customer interaction, then delivers insights at scale",
+        "provides people, deal, and market insights for sales, marketing, customer success, product, and executive leadership"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "'Understands every customer interaction' is a meaningful unexplained analysis claim, not evidence I dismiss as ordinary capture. The text still does not identify AI or its implementation, so the binary decision remains non-AI but weak and forced."
+    },
+    {
+      "annotation_id": "ann_e7ae22b6912da54ad1badcb8",
+      "description_sha256": "8cff0765b36dc2684e69487e96fa9759724b50b2d14cdd56f18a9f81688c2c1e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes reports, data export, and analytics features, supporting a conventional analytics classification. However, 'Data Driven Attribution' does not specify how attribution is produced, so the possibility of AI-dependent functionality cannot be resolved from the description alone; the non-AI decision is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "With Google Analytics 360, your team can access advanced tools, like Unsampled Reports, BigQuery Export, and Data Driven Attribution, in addition to all the standard Analytics features and reports."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Both proposals classify the offering as non-AI, but the blind proposal treats the evidence as supported. The parent specifically flags Data Driven Attribution: the phrase names a capability but gives no implementation details. Under the text-only boundary, it does not establish AI, and it also leaves unresolved whether attribution is AI-dependent. I therefore retain non-AI as the best-supported binary choice while marking it weak and forced, rather than treating agreement or product knowledge as evidence."
+    }
+  ]
+}

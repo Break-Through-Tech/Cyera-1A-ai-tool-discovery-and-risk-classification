@@ -1,0 +1,33 @@
+{
+  "lane": "codex",
+  "descriptions": 20,
+  "source_rows": 20,
+  "frozen_packet_sha256": "2d28d8ee8322579b6c9451bc33d96941a24dc84b808bbefee525ea58c5cf5d0c",
+  "ids": [
+    "ann_4181dfa9cb5dafd03e5b6ccc",
+    "ann_eb5d8ec36addf3e43474feca",
+    "ann_df74f2c21523d165ee5124bf",
+    "ann_fccc94b7422f66f704eaddfd",
+    "ann_ff019aa7d0b357b4c065e130",
+    "ann_cb220c3971148790e50ff1bf",
+    "ann_1fccce5ccbc6940a065801d8",
+    "ann_03a60342bbb7a2bcbdeab5f0",
+    "ann_7fb5228e4f476879782e91e6",
+    "ann_fe30fa7d52042740a3d73376",
+    "ann_24e1253aaf6d1a80efea9db5",
+    "ann_94b003685876d31ef38a3948",
+    "ann_9c561b01ef999fac5a20862d",
+    "ann_a1a6c147c0f9af292a8ba646",
+    "ann_1a2f543290c4aaa9be7f9b40",
+    "ann_8e4d7d75fef3e523cf1b348d",
+    "ann_44b6cb607ed78c167e83ae21",
+    "ann_e917e34fcb5e3e00f97bb921",
+    "ann_e7ae22b6912da54ad1badcb8",
+    "ann_7884ec64d3232d71b94c0e1a"
+  ],
+  "models": {
+    "labeler": "openai-codex/gpt-6-luna:high",
+    "blind": "openai-codex/gpt-6-luna:high"
+  },
+  "ownership_verified_against_disjoint_global_plan": true
+}

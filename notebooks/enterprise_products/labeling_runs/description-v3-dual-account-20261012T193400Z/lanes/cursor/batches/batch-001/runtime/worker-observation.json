@@ -1,0 +1,28 @@
+{
+  "batch_id": "batch-001",
+  "status": "prepared_no_annotation",
+  "assignments": {
+    "labeler": {
+      "model_id": "claude-haiku-5-5-thinking-high",
+      "pane": "wF:p19",
+      "agent_name": "cursor-haiku-d001",
+      "native_banner": "Claude Haiku 5.5 300K High",
+      "prompt_submitted": false,
+      "result_written": false,
+      "checkpoint_count": 0,
+      "exit": "ctrl+d before work; agent registration absent afterward; pane shell prompt observed"
+    },
+    "blind": {
+      "model_id": "gpt-5.6-luna-high",
+      "pane": "wF:p1A",
+      "agent_name": null,
+      "launched": false
+    }
+  },
+  "selected_descriptions": 20,
+  "selected_source_rows": 20,
+  "stage_assignment_receipts_in_manifest": true,
+  "cost_usd": null,
+  "billed_tokens": null,
+  "stop_reason": "Parent SAFE STOP due Codex retained-verifier workflow resume failure; no Cursor annotation pair was active."
+}

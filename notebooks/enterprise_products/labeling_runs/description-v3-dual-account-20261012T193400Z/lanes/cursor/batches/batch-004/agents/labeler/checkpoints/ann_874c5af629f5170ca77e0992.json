@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_874c5af629f5170ca77e0992",
+  "description_sha256": "23fa902cda558459f27af3e7d736ffea52728a594ca75b97bbadf58ed02b4faa",
+  "ai_status": "ai",
+  "ai_type": "ai_native",
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "The described core is a voice-driven directory assistance application that recognizes listings from speech. The text does not state the recognition mechanism, so non_ai is not supported; an unexplained potentially AI-dependent voice feature is present. Binary positive is weak and forced.",
+  "ai_type_rationale": "The core offering is voice-driven recognition of listings. Whether that recognition depends on AI is not established by the text, so the subtype is weak and forced.",
+  "evidence_spans": [
+    "voice-driven nationwide directory assistance application",
+    "that can accurately recognize more than 100 million residential and business listings"
+  ],
+  "ai_type_evidence_spans": [
+    "voice-driven nationwide directory assistance application"
+  ]
+}

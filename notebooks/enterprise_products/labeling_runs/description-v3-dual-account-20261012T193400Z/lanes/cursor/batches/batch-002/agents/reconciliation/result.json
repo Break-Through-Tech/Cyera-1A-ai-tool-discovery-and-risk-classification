@@ -1,0 +1,171 @@
+{
+  "stage": "reconciliation",
+  "records": [
+    {
+      "annotation_id": "ann_06c40364f7d00ee114c6dac1",
+      "description_sha256": "d680e7cf902804b04878d51bfe7378b6693992d0d38514889608a803c59ec3ea",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description meaningfully specifies online/offline marketing connection, reporting, and integrations. Personalization is asserted but no AI-dependent mechanism is described, so conventional marketing software is supported.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "connects your online and offline marketing to improve speed, efficiency, personalization, and reporting",
+        "by integrating with other powerful technologies from Adobe Experience Cloud and Creative Cloud."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's thinness concern is addressed by the explicit connection, reporting, and integration functions; generic personalization does not itself establish AI/ML, and the text contains no unresolved predictive or chatbot mechanism. I therefore retain supported non_ai."
+    },
+    {
+      "annotation_id": "ann_0c20e538f63299efa965a629",
+      "description_sha256": "ff991bcafabaf06518c1685309db9ae2600514ba02fa850d0ecf2b4e66f6dfaa",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description clearly describes ABM and marketing-sales orchestration, but Account Intelligence and intelligence and insight have no stated mechanism. The lack of an affirmative AI signal supports non_ai only weakly because an included AI-dependent capability remains unresolved.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Inject Account Intelligence into every step of the B2B buyer journey and orchestrate every action across marketing and sales.",
+        "connects every source of intelligence and insight"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's concern correctly identifies an included unexplained intelligence capability, but the wording does not establish AI or ML. I therefore downgrade the blind supported-negative call to weak non_ai rather than upgrade it to ai; subtype uncertainty is separate and remains null for non_ai."
+    },
+    {
+      "annotation_id": "ann_178fa64f315fc58b4a8f2822",
+      "description_sha256": "7f50cd84c1de3a9508124e3163450dc91d777b7510cb87a419bc12f9c434ece8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text includes predictive and inference functions and feature generation alongside data ingestion, profiles, and APIs, but does not state learned models, AI, or ML. The binary therefore remains unresolved and non_ai is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "predicting customer behaviour",
+        "The ability to host applications that  Know, Infer and Predict  customer attributes and behaviors from patterns in your data and easily take action on them.",
+        "including data sampling and feature generation on a production dataset."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's claim that learned or statistical models are established goes beyond the text. The blind non_ai call cannot be supported because prediction from patterns and feature generation could be AI-dependent, so I retain non_ai only as weak and forced; binary uncertainty is not converted into a subtype."
+    },
+    {
+      "annotation_id": "ann_40f548e163f940c9ecb040ea",
+      "description_sha256": "05c168d87ff73360dc79331af040b8ef84c5fe4d2f69a56117f2045ff31d159e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description lists conventional data, analytics, newsletter, and workflow modules, but also includes the unexplained feature label Core Intelligence. It does not affirm AI, yet that included capability prevents a supported non_ai call.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Private & Public Company Data; Industry Analytics; Client-Only Newsletter; Workflow (Collections, Notes, Stories)",
+        "Core Intelligence"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's concern about Core Intelligence is material because it is listed as included but has no mechanism. The phrase alone does not establish AI, so I retain non_ai while downgrading the blind supported call to weak and forced; the conventional modules do not erase the unresolved feature."
+    },
+    {
+      "annotation_id": "ann_8828a3f4e8ce591beb82bc55",
+      "description_sha256": "842087f5809efb3d876e2acd5d3a25da245e4ff51a45925fdcc9ebe6d3d262c4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a full-service data provider offering data exploration and delivery, while forecasting appears as a use of its data and tools. Because the forecasting mechanism and whether forecasting is implemented by the offering are unresolved, non_ai remains weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "full-service data provider; from data exploration to delivery",
+        "our data and tools have been used to support strategic planning, aid marketing functions, improve sales and retention outcomes, and forecast future customer behavior."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's forecasting concern is addressed by the wording 'our data and tools have been used,' which describes customer use rather than an explicitly implemented AI forecaster. That supports retaining non_ai, but the predictive use and unresolved mechanism prevent upgrading the blind weak call to supported."
+    },
+    {
+      "annotation_id": "ann_ac05cc32a9e81d4f40a69c1c",
+      "description_sha256": "5ec367cda9f4420092189407e165f2daafc6888077e22637c4b40fdcf7c299fa",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description explicitly frames the offering as digital signal processing software and lists signal recognition/classification, identification, generation, transformation, analysis, and live processing. In this DSP context, these are conventional signal-processing functions without an AI or learned-model claim.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "including signal recognition/classification, radio identification, signal generation, signal transformation, and signal analysis capabilities",
+        "It can process live signals in the radio frequency (RF) environment"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's concern correctly avoids assuming whether recognition/classification is learned or deterministic, but ambiguity alone does not establish AI. The explicit DSP framing and the broader processing functions meaningfully support a conventional offering, so the blind supported non_ai call remains justified."
+    },
+    {
+      "annotation_id": "ann_b0348aa6dbf16996c7a153fb",
+      "description_sha256": "503c0e187ebd79aef31d29642caa7274db7ea0188a7451799882ecec0d594313",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The description explicitly includes artificial intelligence in a system to detect, locate, and alert police to gunfire, which supports the AI binary.",
+      "ai_type_rationale": "AI is stated as part of the detection system, but the description also identifies sensors, algorithms, and acoustic or optical sensing without stating that detection depends on AI; ai_enabled is therefore the best-supported subtype, weak and forced.",
+      "evidence_spans": [
+        "An advanced system of sensors, algorithms and artificial intelligence to detect, locate and alert police to gunfire."
+      ],
+      "ai_type_evidence_spans": [
+        "An advanced system of sensors, algorithms and artificial intelligence to detect, locate and alert police to gunfire.",
+        "using acoustic, optical, or potentially other types of sensors"
+      ],
+      "conflict_response": "Both proposals correctly treat the explicit artificial-intelligence mention as a supported binary positive. For subtype, the text establishes inclusion in the core system but not dependence over the named conventional sensors and algorithms; I therefore retain AI while changing the subtype to weak/forced ai_enabled rather than asserting ai_native."
+    },
+    {
+      "annotation_id": "ann_df2fa8d626e77fe9d736802d",
+      "description_sha256": "e1ecef9e293bec2e003c61a50eeb5ab4e19c11cfe905141eba6c424e47ec82a7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a customer data platform and multi-channel marketing, but its per-person offer and channel prediction and future buying-behavior prediction do not state an AI or other mechanism. The binary therefore remains non_ai only weakly and with a forced decision.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "predict which offer and channel will be the most successful for each individual at every step in their journey",
+        "you'll predict their future buying behaviors",
+        "an enterprise-ready Customer Data Platform (CDP), you'll power your multi-channel marketing with a single view of each customer"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's predictive concern is material, but prediction alone does not establish AI and the description does not state how prediction is implemented. I retain the blind non_ai judgment only as weak and forced, preserving the unresolved binary uncertainty rather than converting it to an AI subtype."
+    },
+    {
+      "annotation_id": "ann_f9f555edff960ce974738b9a",
+      "description_sha256": "40cdd84e43cd4b43c092aeeb27438caf32c784c4a8035ee926d30fe9bfe36c81",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description details a multivariate testing and optimization service that tests site improvements and selects combinations against customer goals. The word autonomous has no stated mechanism, so non_ai is retained only as weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Ascend is the autonomous experience optimization solution for websites and mobile applications.",
+        "massively multivariate testing and optimization service that allows subscribers to test multiple improvements"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's autonomy concern is not enough to establish AI, while the detailed multivariate testing description meaningfully supports conventional functionality. Because the autonomy mechanism remains unexplained and could be AI-dependent, I downgrade the blind supported non_ai call to weak and forced rather than upgrade it to ai."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_ac05cc32a9e81d4f40a69c1c",
+  "description_sha256": "5ec367cda9f4420092189407e165f2daafc6888077e22637c4b40fdcf7c299fa",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "Describes DSP tools including signal recognition/classification and radio identification. The text does not establish whether classification is algorithmic or learned, so the binary is weak and forced rather than supported non-AI.",
+  "ai_type_rationale": "Core DSP capabilities for generation, transformation, analysis and live processing are conventional and remain described without the classification feature. The classification's role is unresolved, so enabled is a weak forced subtype.",
+  "evidence_spans": [
+    "including signal recognition/classification, radio identification"
+  ],
+  "ai_type_evidence_spans": [
+    "signal generation, signal transformation, and signal analysis capabilities",
+    "It can process live signals in the radio frequency (RF) environment"
+  ]
+}

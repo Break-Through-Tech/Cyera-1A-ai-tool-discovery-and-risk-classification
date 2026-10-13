@@ -1,0 +1,20 @@
+{
+  "annotation_id": "ann_8828a3f4e8ce591beb82bc55",
+  "description_sha256": "842087f5809efb3d876e2acd5d3a25da245e4ff51a45925fdcc9ebe6d3d262c4",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "Describes a data provider whose data and tools have been used to forecast future customer behavior. The forecasting mechanism is unresolved and could be statistical or learned, so the binary is weak and forced rather than supported non-AI.",
+  "ai_type_rationale": "Data exploration, delivery and timely accurate data are described as the conventional core. Forecasting is listed as one use of the data and tools, so whether it is core or an enhancement is unresolved and enabled is a weak forced subtype.",
+  "evidence_spans": [
+    "our data and tools have been used to support strategic planning",
+    "forecast future customer behavior"
+  ],
+  "ai_type_evidence_spans": [
+    "Telogical is a full-service data provider; from data exploration to delivery",
+    "we respond with timely, accurate data in a format that most clearly provides the right answer"
+  ]
+}

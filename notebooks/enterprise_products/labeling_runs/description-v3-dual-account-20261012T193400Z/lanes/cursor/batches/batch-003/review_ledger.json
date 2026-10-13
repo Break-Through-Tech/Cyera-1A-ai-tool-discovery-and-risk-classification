@@ -1,0 +1,1395 @@
+[
+  {
+    "annotation_id": "ann_01d2cd9e62c2d865d19a9a96",
+    "description_sha256": "2cd3ac16de4b08a05a0361c495122b71bd9b741c836fd5cef7887b8ac2a22ebc",
+    "source_record_references": [
+      "240"
+    ],
+    "labeler": {
+      "annotation_id": "ann_01d2cd9e62c2d865d19a9a96",
+      "description_sha256": "2cd3ac16de4b08a05a0361c495122b71bd9b741c836fd5cef7887b8ac2a22ebc",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Lists conventional store-planning software features: a merchandising database, allocation of point-of-purchase materials, planning and visualization, notification and compliance tracking, maintenance, and reporting. None is described as learned, predictive or AI-based.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Software Features: Fixed-Based Merchandising Database, Allocation of POP, Store Planning and Visualization, Notification and Compliance, Maintenance, Accessories, Digital, Reporting"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_01d2cd9e62c2d865d19a9a96",
+      "description_sha256": "2cd3ac16de4b08a05a0361c495122b71bd9b741c836fd5cef7887b8ac2a22ebc",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies store merchandising planning and operational management through a database, allocation, planning, notifications, compliance, maintenance, digital, and reporting features.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Store Merchandising Planning and Operational Management Software",
+        "Fixed-Based Merchandising Database, Allocation of POP, Store Planning and Visualization, Notification and Compliance, Maintenance, Accessories, Digital, Reporting"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_01d2cd9e62c2d865d19a9a96",
+      "description_sha256": "2cd3ac16de4b08a05a0361c495122b71bd9b741c836fd5cef7887b8ac2a22ebc",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Lists conventional store-planning software features: a merchandising database, allocation of point-of-purchase materials, planning and visualization, notification and compliance tracking, maintenance, and reporting. None is described as learned, predictive or AI-based.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Software Features: Fixed-Based Merchandising Database, Allocation of POP, Store Planning and Visualization, Notification and Compliance, Maintenance, Accessories, Digital, Reporting"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_08ee79f90d94ee0ec549a7da",
+    "description_sha256": "48eddd0a3dffc759c31d1b90916d352fb55485dbf4a41e63ca222cc349c11683",
+    "source_record_references": [
+      "242"
+    ],
+    "labeler": {
+      "annotation_id": "ann_08ee79f90d94ee0ec549a7da",
+      "description_sha256": "48eddd0a3dffc759c31d1b90916d352fb55485dbf4a41e63ca222cc349c11683",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Explicitly describes an artificial intelligence coaching system that measures conversations in real time and provides AI-driven coaching to phone professionals.",
+      "ai_type_rationale": "The described core offering is itself an artificial intelligence coaching system that delivers AI-driven coaching, so the core offering depends on AI rather than being a conventional product with an AI add-on.",
+      "evidence_spans": [
+        "Cogito offers an artificial intelligence coaching system for augmenting the emotional intelligence of phone professionals",
+        "provides real-time, AI-driven coaching to phone professionals"
+      ],
+      "ai_type_evidence_spans": [
+        "Cogito offers an artificial intelligence coaching system for augmenting the emotional intelligence of phone professionals"
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_08ee79f90d94ee0ec549a7da",
+      "description_sha256": "48eddd0a3dffc759c31d1b90916d352fb55485dbf4a41e63ca222cc349c11683",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly identifies an artificial intelligence coaching system and AI-driven coaching for phone professionals.",
+      "ai_type_rationale": "The described core offering is an artificial intelligence coaching system, so its coaching function is presented as depending on AI.",
+      "evidence_spans": [
+        "artificial intelligence coaching system",
+        "AI-driven coaching to phone professionals"
+      ],
+      "ai_type_evidence_spans": [
+        "artificial intelligence coaching system"
+      ]
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_08ee79f90d94ee0ec549a7da",
+      "description_sha256": "48eddd0a3dffc759c31d1b90916d352fb55485dbf4a41e63ca222cc349c11683",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Explicitly describes an artificial intelligence coaching system that measures conversations in real time and provides AI-driven coaching to phone professionals.",
+      "ai_type_rationale": "The described core offering is itself an artificial intelligence coaching system that delivers AI-driven coaching, so the core offering depends on AI rather than being a conventional product with an AI add-on.",
+      "evidence_spans": [
+        "Cogito offers an artificial intelligence coaching system for augmenting the emotional intelligence of phone professionals",
+        "provides real-time, AI-driven coaching to phone professionals"
+      ],
+      "ai_type_evidence_spans": [
+        "Cogito offers an artificial intelligence coaching system for augmenting the emotional intelligence of phone professionals"
+      ]
+    }
+  },
+  {
+    "annotation_id": "ann_20472f7cdc1250e7aa2770ea",
+    "description_sha256": "c2abe9bae29b6e8ffa7be504fb044ea17720de98733d6773f14a89b953b85433",
+    "source_record_references": [
+      "246"
+    ],
+    "labeler": {
+      "annotation_id": "ann_20472f7cdc1250e7aa2770ea",
+      "description_sha256": "c2abe9bae29b6e8ffa7be504fb044ea17720de98733d6773f14a89b953b85433",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional engagement software: online community management, social media marketing, social media analytics as ordinary reporting of social metrics, digital care, and content management. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides online community management, social media marketing, social media analytics, digital care, and content management software and services"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_20472f7cdc1250e7aa2770ea",
+      "description_sha256": "c2abe9bae29b6e8ffa7be504fb044ea17720de98733d6773f14a89b953b85433",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers online community management, social media marketing and analytics, digital care, and content management software and services.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "online community management, social media marketing, social media analytics, digital care, and content management software and services"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_20472f7cdc1250e7aa2770ea",
+      "description_sha256": "c2abe9bae29b6e8ffa7be504fb044ea17720de98733d6773f14a89b953b85433",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description explicitly identifies online community management, social media marketing, digital care, and content management services. It also names social media analytics, but does not describe predictive, generative, or other AI-dependent behavior; these are conventional functions under the supplied text.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides online community management, social media marketing, social media analytics, digital care, and content management software and services"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's ordinary-reporting characterization is not needed; the source itself supports conventional management, marketing, digital-care, and content functions. Generic social media analytics is unspecified and does not establish AI or require a weak label."
+    },
+    "final": {
+      "annotation_id": "ann_20472f7cdc1250e7aa2770ea",
+      "description_sha256": "c2abe9bae29b6e8ffa7be504fb044ea17720de98733d6773f14a89b953b85433",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description explicitly identifies online community management, social media marketing, digital care, and content management services. It also names social media analytics, but does not describe predictive, generative, or other AI-dependent behavior; these are conventional functions under the supplied text.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides online community management, social media marketing, social media analytics, digital care, and content management software and services"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's ordinary-reporting characterization is not needed; the source itself supports conventional management, marketing, digital-care, and content functions. Generic social media analytics is unspecified and does not establish AI or require a weak label."
+    }
+  },
+  {
+    "annotation_id": "ann_2671b10c29949c98009d4f36",
+    "description_sha256": "e76d470d78380de0873f6c5869368a34af058ee96fee4e94f14486f8eb45fc5b",
+    "source_record_references": [
+      "234"
+    ],
+    "labeler": {
+      "annotation_id": "ann_2671b10c29949c98009d4f36",
+      "description_sha256": "e76d470d78380de0873f6c5869368a34af058ee96fee4e94f14486f8eb45fc5b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Voice and screen recording for quality assurance is conventional call recording. However, the included coaching tools are described only as innovative, with no mechanism stated, and they may be AI-dependent. The surrounding recording functions do not resolve that feature, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Call center recording software",
+        "to facilitate quality assurance and provide innovative coaching tools"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_2671b10c29949c98009d4f36",
+      "description_sha256": "e76d470d78380de0873f6c5869368a34af058ee96fee4e94f14486f8eb45fc5b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies call center voice and screen recording to support quality assurance and coaching, which is conventional recording functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Call center recording software.",
+        "Record an agent's voice and screen to facilitate quality assurance"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_2671b10c29949c98009d4f36",
+      "description_sha256": "e76d470d78380de0873f6c5869368a34af058ee96fee4e94f14486f8eb45fc5b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies call-center voice and screen recording for quality assurance and coaching tools. 'Innovative' is a generic descriptor, and the text does not state AI, prediction, automated analysis, or another AI-dependent coaching mechanism.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Call center recording software. Record an agent's voice and screen to facilitate quality assurance and provide innovative coaching tools"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The included coaching tools must be considered, but 'innovative' alone does not make them potentially AI-dependent under this text. The concrete recording and quality-assurance functions, together with unspecified coaching tools, support non_ai without forcing the call."
+    },
+    "final": {
+      "annotation_id": "ann_2671b10c29949c98009d4f36",
+      "description_sha256": "e76d470d78380de0873f6c5869368a34af058ee96fee4e94f14486f8eb45fc5b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies call-center voice and screen recording for quality assurance and coaching tools. 'Innovative' is a generic descriptor, and the text does not state AI, prediction, automated analysis, or another AI-dependent coaching mechanism.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Call center recording software. Record an agent's voice and screen to facilitate quality assurance and provide innovative coaching tools"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The included coaching tools must be considered, but 'innovative' alone does not make them potentially AI-dependent under this text. The concrete recording and quality-assurance functions, together with unspecified coaching tools, support non_ai without forcing the call."
+    }
+  },
+  {
+    "annotation_id": "ann_28897339c5908aae6dada9c5",
+    "description_sha256": "5e83eb7b65f0035ed8802c7f4182fa0558d7beb3f01c1a77392961760d253275",
+    "source_record_references": [
+      "238"
+    ],
+    "labeler": {
+      "annotation_id": "ann_28897339c5908aae6dada9c5",
+      "description_sha256": "5e83eb7b65f0035ed8802c7f4182fa0558d7beb3f01c1a77392961760d253275",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No AI is mentioned, but the text is a licence subscription and procurement coding note. It says a music platform is licensed for retail stores and does not describe what the software does, so no conventional functionality is supported.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Music Content Platform License Subscriptions used in Retail stores",
+        "We pay Startle license fee for accessing and using their musical platform service/software"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_28897339c5908aae6dada9c5",
+      "description_sha256": "5e83eb7b65f0035ed8802c7f4182fa0558d7beb3f01c1a77392961760d253275",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description is for a music content platform license subscription used in retail stores, a conventional content-access service with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Music Content Platform License Subscriptions used in Retail stores",
+        "accessing and using their musical platform service/software"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_28897339c5908aae6dada9c5",
+      "description_sha256": "5e83eb7b65f0035ed8802c7f4182fa0558d7beb3f01c1a77392961760d253275",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text identifies a music platform subscription used in retail stores and access to a musical platform service/software, but does not describe a concrete software function or mechanism. With no affirmative AI signal, non_ai is the best-supported forced judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Music Content Platform License Subscriptions used in Retail stores",
+        "accessing and using their musical platform service/software"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The procurement comments are untrusted data and do not add evidence. The music-platform and license wording indicates intended access but is too thin to establish meaningful conventional functionality, so agreement does not upgrade the negative and it remains weak and forced."
+    },
+    "final": {
+      "annotation_id": "ann_28897339c5908aae6dada9c5",
+      "description_sha256": "5e83eb7b65f0035ed8802c7f4182fa0558d7beb3f01c1a77392961760d253275",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text identifies a music platform subscription used in retail stores and access to a musical platform service/software, but does not describe a concrete software function or mechanism. With no affirmative AI signal, non_ai is the best-supported forced judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Music Content Platform License Subscriptions used in Retail stores",
+        "accessing and using their musical platform service/software"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The procurement comments are untrusted data and do not add evidence. The music-platform and license wording indicates intended access but is too thin to establish meaningful conventional functionality, so agreement does not upgrade the negative and it remains weak and forced."
+    }
+  },
+  {
+    "annotation_id": "ann_2ba664c1cbf35371a2e56d1b",
+    "description_sha256": "f730f735463134c1f33e5742862f686fce089d7ad25d77fb40dc169d164528fe",
+    "source_record_references": [
+      "244"
+    ],
+    "labeler": {
+      "annotation_id": "ann_2ba664c1cbf35371a2e56d1b",
+      "description_sha256": "f730f735463134c1f33e5742862f686fce089d7ad25d77fb40dc169d164528fe",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional telecom billing and operations software: real-time charging and policy controls, ordering and provisioning, a web customer care application, a business intelligence layer for analytics, and a notifications engine. The analytics layer is ordinary business intelligence, not described as predictive or learned, and no AI is mentioned.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a core online real time charging & policy controls platform that integrates with our Network and payment gateways",
+        "a robust ordering and provisioning system, a business intelligence layer for analytics and a customer notifications engine"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_2ba664c1cbf35371a2e56d1b",
+      "description_sha256": "f730f735463134c1f33e5742862f686fce089d7ad25d77fb40dc169d164528fe",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies an online billing system with real-time charging and policy controls, integrations, ordering and provisioning, customer care, analytics, and notifications.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "online billing system for Visible",
+        "online real time charging & policy controls platform that integrates with our Network and payment gateways",
+        "ordering and provisioning system",
+        "business intelligence layer for analytics and a customer notifications engine"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_2ba664c1cbf35371a2e56d1b",
+      "description_sha256": "f730f735463134c1f33e5742862f686fce089d7ad25d77fb40dc169d164528fe",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional telecom billing and operations software: real-time charging and policy controls, ordering and provisioning, a web customer care application, a business intelligence layer for analytics, and a notifications engine. The analytics layer is ordinary business intelligence, not described as predictive or learned, and no AI is mentioned.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a core online real time charging & policy controls platform that integrates with our Network and payment gateways",
+        "a robust ordering and provisioning system, a business intelligence layer for analytics and a customer notifications engine"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_5f739d4ca194190befd2bba5",
+    "description_sha256": "17cf528cf665b06b2fc91551fbb801945f103990d43b53ab1489cb056fa6571e",
+    "source_record_references": [
+      "245"
+    ],
+    "labeler": {
+      "annotation_id": "ann_5f739d4ca194190befd2bba5",
+      "description_sha256": "17cf528cf665b06b2fc91551fbb801945f103990d43b53ab1489cb056fa6571e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes high-speed mail handling equipment and services for bill print and volume mail centers. This is conventional mail processing equipment, and no AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Mail Handling Equipment and Services - high speed equipment for bill print and other volume mail centers"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_5f739d4ca194190befd2bba5",
+      "description_sha256": "17cf528cf665b06b2fc91551fbb801945f103990d43b53ab1489cb056fa6571e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description concerns high-speed mail handling equipment and services for bill printing and volume mail centers, with no AI-dependent functionality described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "high speed equipment for bill print and other volume mail centers"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_5f739d4ca194190befd2bba5",
+      "description_sha256": "17cf528cf665b06b2fc91551fbb801945f103990d43b53ab1489cb056fa6571e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes high-speed mail handling equipment and services for bill print and volume mail centers. This is conventional mail processing equipment, and no AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Mail Handling Equipment and Services - high speed equipment for bill print and other volume mail centers"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_6172cb240f2afbe247c5e732",
+    "description_sha256": "c95a5018220e31a6b447d8a4afaf78c0283933368cc11287efe4b92d9f32335b",
+    "source_record_references": [
+      "233"
+    ],
+    "labeler": {
+      "annotation_id": "ann_6172cb240f2afbe247c5e732",
+      "description_sha256": "c95a5018220e31a6b447d8a4afaf78c0283933368cc11287efe4b92d9f32335b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No AI is mentioned, but the text is marketing copy that says the platform enables creating marketplaces with unified commerce and customised solutions. It names no concrete functions or mechanisms, so a conventional-functionality negative rests on category wording and is too thin to support.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Enables You To Create All Types Of Marketplaces",
+        "Unified Commerce. Customised Solutions."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_6172cb240f2afbe247c5e732",
+      "description_sha256": "c95a5018220e31a6b447d8a4afaf78c0283933368cc11287efe4b92d9f32335b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description concerns a platform for creating online marketplaces and unified commerce, a conventional commerce function with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Platform Which Enables You To Create All Types Of Marketplaces",
+        "Unified Commerce. Customised Solutions."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_6172cb240f2afbe247c5e732",
+      "description_sha256": "c95a5018220e31a6b447d8a4afaf78c0283933368cc11287efe4b92d9f32335b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text explicitly says the platform enables creation of online marketplaces and makes creating scalable online marketplaces easier, which is a concrete conventional commerce-platform function; 'Unified Commerce' and 'Customised Solutions' add context.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Platform Which Enables You To Create All Types Of Marketplaces",
+        "We Make It Easier To Create Successful, Scalable And Limitless Online Marketplaces"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Although promotional, the statements describe the functional purpose—creating online marketplaces—not merely a category label. That is sufficient conventional-functionality evidence; no AI-dependent feature is stated."
+    },
+    "final": {
+      "annotation_id": "ann_6172cb240f2afbe247c5e732",
+      "description_sha256": "c95a5018220e31a6b447d8a4afaf78c0283933368cc11287efe4b92d9f32335b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text explicitly says the platform enables creation of online marketplaces and makes creating scalable online marketplaces easier, which is a concrete conventional commerce-platform function; 'Unified Commerce' and 'Customised Solutions' add context.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Platform Which Enables You To Create All Types Of Marketplaces",
+        "We Make It Easier To Create Successful, Scalable And Limitless Online Marketplaces"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Although promotional, the statements describe the functional purpose—creating online marketplaces—not merely a category label. That is sufficient conventional-functionality evidence; no AI-dependent feature is stated."
+    }
+  },
+  {
+    "annotation_id": "ann_8c8bf1e6749acce68b164a48",
+    "description_sha256": "9412e72dd9233666a21469ff77c2e45ca93e9a3c65afe61ad324a585e3f5c15c",
+    "source_record_references": [
+      "249"
+    ],
+    "labeler": {
+      "annotation_id": "ann_8c8bf1e6749acce68b164a48",
+      "description_sha256": "9412e72dd9233666a21469ff77c2e45ca93e9a3c65afe61ad324a585e3f5c15c",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Explicitly states the platform leverages Conversational AI and NLP, alongside RPA, to optimize customer-agent interactions and increase self-service rates.",
+      "ai_type_rationale": "The core offering is a Conversational Service Automation platform that the text says leverages Conversational AI and NLP to optimize customer-agent interactions and self-service, so the core depends on AI. The RPA portion is not AI, but the core conversational function is described as AI-based.",
+      "evidence_spans": [
+        "Leveraging Conversational AI, NLP and RPA, CSA optimizes customer-agent interactions increasing self-service rates"
+      ],
+      "ai_type_evidence_spans": [
+        "Leveraging Conversational AI, NLP and RPA, CSA optimizes customer-agent interactions increasing self-service rates"
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_8c8bf1e6749acce68b164a48",
+      "description_sha256": "9412e72dd9233666a21469ff77c2e45ca93e9a3c65afe61ad324a585e3f5c15c",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly says the Conversational Service Automation platform leverages Conversational AI and NLP to optimize customer-agent interactions and automate agent tasks.",
+      "ai_type_rationale": "The central CSA platform is expressly described as leveraging Conversational AI and NLP, making AI part of its core service-automation offering.",
+      "evidence_spans": [
+        "Conversational Service Automation (CSA) Platform",
+        "Leveraging Conversational AI, NLP and RPA",
+        "automating agent tasks including agent after call-work (ACW) and call disposition"
+      ],
+      "ai_type_evidence_spans": [
+        "Leveraging Conversational AI, NLP and RPA"
+      ]
+    },
+    "reconciliation": {
+      "annotation_id": "ann_8c8bf1e6749acce68b164a48",
+      "description_sha256": "9412e72dd9233666a21469ff77c2e45ca93e9a3c65afe61ad324a585e3f5c15c",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly names Conversational AI and NLP as technologies leveraged by the CSA platform to optimize customer-agent interactions and increase self-service, alongside RPA and agent-task automation.",
+      "ai_type_rationale": "The platform is named Conversational Service Automation and its central interaction and self-service function is expressly described as leveraging Conversational AI and NLP. RPA is an additional mechanism, not evidence that the AI is merely an optional enhancement.",
+      "evidence_spans": [
+        "Conversational Service Automation (CSA) Platform",
+        "Leveraging Conversational AI, NLP and RPA, CSA optimizes customer-agent interactions increasing self-service rates"
+      ],
+      "ai_type_evidence_spans": [
+        "Leveraging Conversational AI, NLP and RPA, CSA optimizes customer-agent interactions increasing self-service rates"
+      ],
+      "conflict_response": "The RPA and after-call-work functions are included, but the text places Conversational AI and NLP in the central CSA interaction and self-service offering. This supports ai_native based on stated core dependence, not on the AI mention alone."
+    },
+    "final": {
+      "annotation_id": "ann_8c8bf1e6749acce68b164a48",
+      "description_sha256": "9412e72dd9233666a21469ff77c2e45ca93e9a3c65afe61ad324a585e3f5c15c",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly names Conversational AI and NLP as technologies leveraged by the CSA platform to optimize customer-agent interactions and increase self-service, alongside RPA and agent-task automation.",
+      "ai_type_rationale": "The platform is named Conversational Service Automation and its central interaction and self-service function is expressly described as leveraging Conversational AI and NLP. RPA is an additional mechanism, not evidence that the AI is merely an optional enhancement.",
+      "evidence_spans": [
+        "Conversational Service Automation (CSA) Platform",
+        "Leveraging Conversational AI, NLP and RPA, CSA optimizes customer-agent interactions increasing self-service rates"
+      ],
+      "ai_type_evidence_spans": [
+        "Leveraging Conversational AI, NLP and RPA, CSA optimizes customer-agent interactions increasing self-service rates"
+      ],
+      "conflict_response": "The RPA and after-call-work functions are included, but the text places Conversational AI and NLP in the central CSA interaction and self-service offering. This supports ai_native based on stated core dependence, not on the AI mention alone."
+    }
+  },
+  {
+    "annotation_id": "ann_958d6e5c98665bd47bf0248c",
+    "description_sha256": "7b213c050aa7c8a64766347bf24e591c5b9211219ed759b5bb32dfafa837b463",
+    "source_record_references": [
+      "230"
+    ],
+    "labeler": {
+      "annotation_id": "ann_958d6e5c98665bd47bf0248c",
+      "description_sha256": "7b213c050aa7c8a64766347bf24e591c5b9211219ed759b5bb32dfafa837b463",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a mapping and location cloud platform with SDKs and APIs that let developers add location awareness to apps. These are conventional developer mapping and location functions, and the text describes no AI or ML functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a mapping and location cloud platform for developers",
+        "the SDKs and APIs for developers and designers to build real-time location awareness into their apps"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_958d6e5c98665bd47bf0248c",
+      "description_sha256": "7b213c050aa7c8a64766347bf24e591c5b9211219ed759b5bb32dfafa837b463",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a mapping and location cloud platform delivered through SDKs and APIs for real-time location awareness, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "mapping and location cloud platform for developers",
+        "SDKs and APIs for developers and designers to build real-time location awareness into their apps"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_958d6e5c98665bd47bf0248c",
+      "description_sha256": "7b213c050aa7c8a64766347bf24e591c5b9211219ed759b5bb32dfafa837b463",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a mapping and location cloud platform with SDKs and APIs that let developers add location awareness to apps. These are conventional developer mapping and location functions, and the text describes no AI or ML functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a mapping and location cloud platform for developers",
+        "the SDKs and APIs for developers and designers to build real-time location awareness into their apps"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_9cfb3248fdbbedecf308ad5f",
+    "description_sha256": "b962784d87cfd262e1553487f81669e53d4cc371bd4beb896aae3cd137af11ab",
+    "source_record_references": [
+      "248"
+    ],
+    "labeler": {
+      "annotation_id": "ann_9cfb3248fdbbedecf308ad5f",
+      "description_sha256": "b962784d87cfd262e1553487f81669e53d4cc371bd4beb896aae3cd137af11ab",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Consolidating data into a central view and delivering it to mobile and CRM tools is conventional. However, the text says the product surfaces key insights without stating how those insights are generated, so the mechanism may be analytic or AI-driven and the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Consolidate data from multiple sources into a central view",
+        "by surfacing key insights on-the-go with our mobile app"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_9cfb3248fdbbedecf308ad5f",
+      "description_sha256": "b962784d87cfd262e1553487f81669e53d4cc371bd4beb896aae3cd137af11ab",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies consolidating data into a central customer view and surfacing customer-journey insights through a mobile app and business tools, which is conventional data integration and reporting.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Consolidate data from multiple sources into a central view",
+        "surfacing key insights on-the-go with our mobile app and in the tools they use everyday"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_9cfb3248fdbbedecf308ad5f",
+      "description_sha256": "b962784d87cfd262e1553487f81669e53d4cc371bd4beb896aae3cd137af11ab",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text clearly describes data consolidation into a central view and delivery through a mobile app and CRM or video-conferencing tools. However, 'surfacing key insights' does not state whether the selection or generation is ordinary display or aggregation or AI-dependent, so the non_ai call is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Consolidate data from multiple sources into a central view",
+        "surfacing key insights on-the-go with our mobile app and in the tools they use everyday"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The central-view integration and app or tool delivery are conventional, but the included 'surfacing key insights' claim leaves its mechanism unresolved. I do not infer either conventional reporting or AI, so non_ai remains weak and forced."
+    },
+    "final": {
+      "annotation_id": "ann_9cfb3248fdbbedecf308ad5f",
+      "description_sha256": "b962784d87cfd262e1553487f81669e53d4cc371bd4beb896aae3cd137af11ab",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text clearly describes data consolidation into a central view and delivery through a mobile app and CRM or video-conferencing tools. However, 'surfacing key insights' does not state whether the selection or generation is ordinary display or aggregation or AI-dependent, so the non_ai call is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Consolidate data from multiple sources into a central view",
+        "surfacing key insights on-the-go with our mobile app and in the tools they use everyday"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The central-view integration and app or tool delivery are conventional, but the included 'surfacing key insights' claim leaves its mechanism unresolved. I do not infer either conventional reporting or AI, so non_ai remains weak and forced."
+    }
+  },
+  {
+    "annotation_id": "ann_b65e785e7e16414901ccd50f",
+    "description_sha256": "d61d033e5d20393d235a00677ee63a1ee18060eafd3767a0475f84a6d1895737",
+    "source_record_references": [
+      "241"
+    ],
+    "labeler": {
+      "annotation_id": "ann_b65e785e7e16414901ccd50f",
+      "description_sha256": "d61d033e5d20393d235a00677ee63a1ee18060eafd3767a0475f84a6d1895737",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No AI is mentioned. The text names retail management, omnichannel and point-of-sale solution categories with outcome claims such as maximizing operational efficiency, but describes no concrete functions or mechanisms, so the conventional-functionality negative is too general to support.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Retail management, omnichannel, and point-of-sale solutions designed for telecom retailers"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_b65e785e7e16414901ccd50f",
+      "description_sha256": "d61d033e5d20393d235a00677ee63a1ee18060eafd3767a0475f84a6d1895737",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers retail management, omnichannel, and point-of-sale solutions for telecom retailers, including operational efficiency and buying across channels.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Retail management, omnichannel, and point-of-sale solutions designed for telecom retailers",
+        "enable customers to buy anywhere"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_b65e785e7e16414901ccd50f",
+      "description_sha256": "d61d033e5d20393d235a00677ee63a1ee18060eafd3767a0475f84a6d1895737",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text specifies retail management, omnichannel, and point-of-sale solutions and says they enable customers to buy anywhere. These are concrete conventional retail and purchasing functions, not merely an efficiency outcome.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Retail management, omnichannel, and point-of-sale solutions designed for telecom retailers",
+        "enable customers to buy anywhere"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The efficiency claim alone would be thin, but the description also explicitly names point-of-sale and omnichannel solutions and the buy-anywhere capability. Those functions support a conventional negative without inferring implementation."
+    },
+    "final": {
+      "annotation_id": "ann_b65e785e7e16414901ccd50f",
+      "description_sha256": "d61d033e5d20393d235a00677ee63a1ee18060eafd3767a0475f84a6d1895737",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text specifies retail management, omnichannel, and point-of-sale solutions and says they enable customers to buy anywhere. These are concrete conventional retail and purchasing functions, not merely an efficiency outcome.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Retail management, omnichannel, and point-of-sale solutions designed for telecom retailers",
+        "enable customers to buy anywhere"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The efficiency claim alone would be thin, but the description also explicitly names point-of-sale and omnichannel solutions and the buy-anywhere capability. Those functions support a conventional negative without inferring implementation."
+    }
+  },
+  {
+    "annotation_id": "ann_c46c30fbf88e08ff5728926e",
+    "description_sha256": "42fae6913ff29b18fc9327c373cddd6c3a98a243cbf6d33e1a467a42dd516973",
+    "source_record_references": [
+      "239"
+    ],
+    "labeler": {
+      "annotation_id": "ann_c46c30fbf88e08ff5728926e",
+      "description_sha256": "42fae6913ff29b18fc9327c373cddd6c3a98a243cbf6d33e1a467a42dd516973",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a cloud merchandising application for localized visual merchandising, in-store execution, collaboration, and compliance. These are conventional operational functions, and the word optimizes is general marketing language with no AI mechanism described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "delivers localized visual merchandising, in-store execution, collaboration, and compliance, all unified in the cloud"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_c46c30fbf88e08ff5728926e",
+      "description_sha256": "42fae6913ff29b18fc9327c373cddd6c3a98a243cbf6d33e1a467a42dd516973",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description presents a merchandising cloud application for visual merchandising, in-store execution, collaboration, and compliance, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Merchandising Cloud application delivers localized visual merchandising, in-store execution, collaboration, and compliance"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_c46c30fbf88e08ff5728926e",
+      "description_sha256": "42fae6913ff29b18fc9327c373cddd6c3a98a243cbf6d33e1a467a42dd516973",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a cloud merchandising application for localized visual merchandising, in-store execution, collaboration, and compliance. These are conventional operational functions, and the word optimizes is general marketing language with no AI mechanism described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "delivers localized visual merchandising, in-store execution, collaboration, and compliance, all unified in the cloud"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_c92d4cf853c54daa0304d426",
+    "description_sha256": "7c90312d2efd683ae35b7b5cb7643739dd3baf84590fbf72bb3c149df781684e",
+    "source_record_references": [
+      "250"
+    ],
+    "labeler": {
+      "annotation_id": "ann_c92d4cf853c54daa0304d426",
+      "description_sha256": "7c90312d2efd683ae35b7b5cb7643739dd3baf84590fbf72bb3c149df781684e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No AI is mentioned, but the text is a maintenance subscription that lists product areas (bill print, AR, cash applications) without describing what the software does. The conventional reading rests on function names, and cash application could be automated by unstated means, so the negative is too thin to support.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Maintenance for list of over 40 software products used in Bill Print, AR, Cash Applications"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_c92d4cf853c54daa0304d426",
+      "description_sha256": "7c90312d2efd683ae35b7b5cb7643739dd3baf84590fbf72bb3c149df781684e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description is for software subscription maintenance covering bill print, accounts receivable, and cash applications, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "software subscription Maintenance for list of over 40 software products used in Bill Print, AR, Cash Applications"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_c92d4cf853c54daa0304d426",
+      "description_sha256": "7c90312d2efd683ae35b7b5cb7643739dd3baf84590fbf72bb3c149df781684e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text only identifies maintenance for a list of software products and the business areas where they are used. It does not describe the products' functions or mechanisms, so non_ai is a weak forced judgment despite no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "software subscription Maintenance for list of over 40 software products used in Bill Print, AR, Cash Applications"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The maintenance and listing context plus use areas are not enough to establish conventional software behavior. I do not infer what the 40-plus products do, so the negative remains weak and forced."
+    },
+    "final": {
+      "annotation_id": "ann_c92d4cf853c54daa0304d426",
+      "description_sha256": "7c90312d2efd683ae35b7b5cb7643739dd3baf84590fbf72bb3c149df781684e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text only identifies maintenance for a list of software products and the business areas where they are used. It does not describe the products' functions or mechanisms, so non_ai is a weak forced judgment despite no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "software subscription Maintenance for list of over 40 software products used in Bill Print, AR, Cash Applications"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The maintenance and listing context plus use areas are not enough to establish conventional software behavior. I do not infer what the 40-plus products do, so the negative remains weak and forced."
+    }
+  },
+  {
+    "annotation_id": "ann_d2c54fc120734015eddb1773",
+    "description_sha256": "a06067a902afbb81524f0215fdfba5f527b5133d401d48f83a7214d4d50df41f",
+    "source_record_references": [
+      "232"
+    ],
+    "labeler": {
+      "annotation_id": "ann_d2c54fc120734015eddb1773",
+      "description_sha256": "a06067a902afbb81524f0215fdfba5f527b5133d401d48f83a7214d4d50df41f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a forensic imager and data recovery tool with conventional functions: drive diagnostics, password removal, high-speed imaging, and file recovery. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "imager, data recovery tool for drive diagnostics, password removal, high-speed imaging, file recovery"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_d2c54fc120734015eddb1773",
+      "description_sha256": "a06067a902afbb81524f0215fdfba5f527b5133d401d48f83a7214d4d50df41f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description presents an imager and data recovery tool for drive diagnostics, password removal, imaging, and file recovery, which are conventional functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "imager, data recovery tool for drive diagnostics, password removal, high-speed imaging, file recovery"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_d2c54fc120734015eddb1773",
+      "description_sha256": "a06067a902afbb81524f0215fdfba5f527b5133d401d48f83a7214d4d50df41f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a forensic imager and data recovery tool with conventional functions: drive diagnostics, password removal, high-speed imaging, and file recovery. No AI or ML functionality is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "imager, data recovery tool for drive diagnostics, password removal, high-speed imaging, file recovery"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_db6f72e19337c93acdfcbaaf",
+    "description_sha256": "9d227b7f1b5659e3bd7c0629bc57993a5c14a6f566eaab25936e68dd0b3c74af",
+    "source_record_references": [
+      "247"
+    ],
+    "labeler": {
+      "annotation_id": "ann_db6f72e19337c93acdfcbaaf",
+      "description_sha256": "9d227b7f1b5659e3bd7c0629bc57993a5c14a6f566eaab25936e68dd0b3c74af",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Review dashboards, reporting and rating and review software are conventional. However, the review acceptability determination is an included feature whose mechanism is not stated (human service or automated classification), so it may be AI-dependent and the conventional functions do not resolve it.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "including reading each review and determining if each review is acceptable or unacceptable and making any applicable updates",
+        "reporting, statistics and pending transactions"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_db6f72e19337c93acdfcbaaf",
+      "description_sha256": "9d227b7f1b5659e3bd7c0629bc57993a5c14a6f566eaab25936e68dd0b3c74af",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description clearly includes conventional review submission, dashboard error handling, reporting, and statistics, but its statement about reading each review and determining acceptability does not establish the mechanism. There is no affirmative AI signal, so non_ai is the best-supported forced judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "review submission services, including reading each review and determining if each review is acceptable or unacceptable",
+        "website (dashboard) that contains error handling for rejected user generated reviews, reporting, statistics and pending transactions"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_db6f72e19337c93acdfcbaaf",
+      "description_sha256": "9d227b7f1b5659e3bd7c0629bc57993a5c14a6f566eaab25936e68dd0b3c74af",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description explicitly includes review submission, acceptability determination, dashboard error handling, reporting, and statistics. Because it does not say whether acceptability is determined by a human, rules, or AI, the non_ai label remains weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "including reading each review and determining if each review is acceptable or unacceptable and making any applicable updates",
+        "reporting, statistics and pending transactions"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Both proposals correctly identify the unresolved mechanism for acceptability determination. The surrounding dashboard and reporting functions cannot upgrade the included ambiguous determination feature; no affirmative AI signal supports non_ai as the best forced call."
+    },
+    "final": {
+      "annotation_id": "ann_db6f72e19337c93acdfcbaaf",
+      "description_sha256": "9d227b7f1b5659e3bd7c0629bc57993a5c14a6f566eaab25936e68dd0b3c74af",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description explicitly includes review submission, acceptability determination, dashboard error handling, reporting, and statistics. Because it does not say whether acceptability is determined by a human, rules, or AI, the non_ai label remains weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "including reading each review and determining if each review is acceptable or unacceptable and making any applicable updates",
+        "reporting, statistics and pending transactions"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Both proposals correctly identify the unresolved mechanism for acceptability determination. The surrounding dashboard and reporting functions cannot upgrade the included ambiguous determination feature; no affirmative AI signal supports non_ai as the best forced call."
+    }
+  },
+  {
+    "annotation_id": "ann_e928337dbef11e1f39fbf019",
+    "description_sha256": "8db3f5ef2a86bfe60facb970585b503534424390078a481afa0009ea1a154999",
+    "source_record_references": [
+      "236"
+    ],
+    "labeler": {
+      "annotation_id": "ann_e928337dbef11e1f39fbf019",
+      "description_sha256": "8db3f5ef2a86bfe60facb970585b503534424390078a481afa0009ea1a154999",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No AI is mentioned, but the text states only an outcome, solving device or software issues quickly, without describing any product function or mechanism. It does not meaningfully describe conventional software functionality, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "helps mobile operators and their consumers solve any device or software issue quickly and effectively"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_e928337dbef11e1f39fbf019",
+      "description_sha256": "8db3f5ef2a86bfe60facb970585b503534424390078a481afa0009ea1a154999",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description describes device and software issue support for mobile operators and consumers, a conventional support function with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "helps mobile operators and their consumers solve any device or software issue quickly and effectively",
+        "Device support is becoming increasingly complex"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_e928337dbef11e1f39fbf019",
+      "description_sha256": "8db3f5ef2a86bfe60facb970585b503534424390078a481afa0009ea1a154999",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text states that the offering helps operators and consumers solve device or software issues and discusses increasing support complexity, but gives no concrete software function or implementation mechanism. With no affirmative AI signal, non_ai is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "helps mobile operators and their consumers solve any device or software issue quickly and effectively",
+        "Device support is becoming increasingly complex as more devices and software updates are released."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The claimed issue-solving outcome and support context do not establish how the product works. I do not infer a conventional troubleshooting workflow or an AI mechanism, so the negative stays weak and forced."
+    },
+    "final": {
+      "annotation_id": "ann_e928337dbef11e1f39fbf019",
+      "description_sha256": "8db3f5ef2a86bfe60facb970585b503534424390078a481afa0009ea1a154999",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text states that the offering helps operators and consumers solve device or software issues and discusses increasing support complexity, but gives no concrete software function or implementation mechanism. With no affirmative AI signal, non_ai is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "helps mobile operators and their consumers solve any device or software issue quickly and effectively",
+        "Device support is becoming increasingly complex as more devices and software updates are released."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The claimed issue-solving outcome and support context do not establish how the product works. I do not infer a conventional troubleshooting workflow or an AI mechanism, so the negative stays weak and forced."
+    }
+  },
+  {
+    "annotation_id": "ann_eff9f633ee42a00e6aa45b85",
+    "description_sha256": "87ca0ff2daecefdfb848cc741e2810a80d00f7ca70b7be5aa2f17f2383f42327",
+    "source_record_references": [
+      "237"
+    ],
+    "labeler": {
+      "annotation_id": "ann_eff9f633ee42a00e6aa45b85",
+      "description_sha256": "87ca0ff2daecefdfb848cc741e2810a80d00f7ca70b7be5aa2f17f2383f42327",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The live view and recording of customer interactions are conventional. The analytics that identifies common errors and troublesome areas is diagnostic pattern identification whose mechanism is not stated, so it may be AI-dependent and the text does not establish a conventional-only negative.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "providing a live view of the customer interaction with our FiOS service",
+        "to help identify common errors made by the customer and areas of the customer interaction that prove more troublesome for the customer"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_eff9f633ee42a00e6aa45b85",
+      "description_sha256": "87ca0ff2daecefdfb848cc741e2810a80d00f7ca70b7be5aa2f17f2383f42327",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers a live customer-service interaction view plus recording and analytics used to identify common errors and troublesome interactions; these are conventional monitoring and reporting functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Customer Service Analytics tools providing a live view of the customer interaction",
+        "recording and analytics of customer behavior to help identify common errors"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_eff9f633ee42a00e6aa45b85",
+      "description_sha256": "87ca0ff2daecefdfb848cc741e2810a80d00f7ca70b7be5aa2f17f2383f42327",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies a live view of customer interactions, visibility of customer behavior for service agents, recording, and analytics to identify common errors and troublesome interaction areas. These are conventional monitoring, recording, and descriptive or diagnostic analytics; no predictive, learned, or generative mechanism is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Customer Service Analytics tools providing a live view of the customer interaction with our FiOS service",
+        "recording and analytics of customer behavior to help identify common errors made by the customer and areas of the customer interaction that prove more troublesome for the customer"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The error-identification analytics are included, but the source frames them as recording and analytics for common errors and troublesome areas, not prediction or learned modeling. The concrete live-view and recording functions support a conventional negative without inventing a mechanism."
+    },
+    "final": {
+      "annotation_id": "ann_eff9f633ee42a00e6aa45b85",
+      "description_sha256": "87ca0ff2daecefdfb848cc741e2810a80d00f7ca70b7be5aa2f17f2383f42327",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies a live view of customer interactions, visibility of customer behavior for service agents, recording, and analytics to identify common errors and troublesome interaction areas. These are conventional monitoring, recording, and descriptive or diagnostic analytics; no predictive, learned, or generative mechanism is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Customer Service Analytics tools providing a live view of the customer interaction with our FiOS service",
+        "recording and analytics of customer behavior to help identify common errors made by the customer and areas of the customer interaction that prove more troublesome for the customer"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The error-identification analytics are included, but the source frames them as recording and analytics for common errors and troublesome areas, not prediction or learned modeling. The concrete live-view and recording functions support a conventional negative without inventing a mechanism."
+    }
+  },
+  {
+    "annotation_id": "ann_f2c56ca6da746acebc0eb263",
+    "description_sha256": "6352bacadcf96eee9d1204bd59e94444e0b70a0029ae3bf4012eec105e198628",
+    "source_record_references": [
+      "243"
+    ],
+    "labeler": {
+      "annotation_id": "ann_f2c56ca6da746acebc0eb263",
+      "description_sha256": "6352bacadcf96eee9d1204bd59e94444e0b70a0029ae3bf4012eec105e198628",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Performance marketing program tools, a CRM for importing partner information, and partner reporting are conventional. However, the attribution fraud detection tool and the partner insights attribution outputs have unstated mechanisms that could be learned or predictive, and surrounding conventional functions do not erase that unexplained feature.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Partner Insights is a reporting functionality",
+        "Attribution Risk is an attribution fraud detection tool",
+        "monitors conversions tracked or processed by the Partnership Cloud"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_f2c56ca6da746acebc0eb263",
+      "description_sha256": "6352bacadcf96eee9d1204bd59e94444e0b70a0029ae3bf4012eec105e198628",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies performance marketing program management, partner reporting and relationship management, and attribution fraud monitoring, all described as conventional business functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "performance marketing program Program management tools enabling Visible to track impressions, clicks and conversions",
+        "a reporting functionality that provides deeper insights into Partner relationships",
+        "an attribution fraud detection tool"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_f2c56ca6da746acebc0eb263",
+      "description_sha256": "6352bacadcf96eee9d1204bd59e94444e0b70a0029ae3bf4012eec105e198628",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description clearly supports conventional marketing tracking, reporting, CRM import and segmentation, and conversion monitoring. It also includes an attribution fraud detection tool and partner-insight measures without stating whether detection or insight generation uses rules, human review, or AI; therefore non_ai is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Partner Insights is a reporting functionality",
+        "Attribution Risk is an attribution fraud detection tool",
+        "monitors conversions tracked or processed by the Partnership Cloud via Impact's conversion API, batch file uploads and PageLoadAPI for clicks"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The detailed conversion APIs and monitoring establish data sources and tracking, not the fraud-detection mechanism. Reporting and CRM functions do not resolve the included attribution-fraud and insight-generation uncertainty, so non_ai remains a forced weak call rather than being upgraded."
+    },
+    "final": {
+      "annotation_id": "ann_f2c56ca6da746acebc0eb263",
+      "description_sha256": "6352bacadcf96eee9d1204bd59e94444e0b70a0029ae3bf4012eec105e198628",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description clearly supports conventional marketing tracking, reporting, CRM import and segmentation, and conversion monitoring. It also includes an attribution fraud detection tool and partner-insight measures without stating whether detection or insight generation uses rules, human review, or AI; therefore non_ai is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Partner Insights is a reporting functionality",
+        "Attribution Risk is an attribution fraud detection tool",
+        "monitors conversions tracked or processed by the Partnership Cloud via Impact's conversion API, batch file uploads and PageLoadAPI for clicks"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The detailed conversion APIs and monitoring establish data sources and tracking, not the fraud-detection mechanism. Reporting and CRM functions do not resolve the included attribution-fraud and insight-generation uncertainty, so non_ai remains a forced weak call rather than being upgraded."
+    }
+  },
+  {
+    "annotation_id": "ann_fe3af0ef5f4f310eefbca5e9",
+    "description_sha256": "1f1a8ebf420cfb7a2d0597a04c4dbc7aa77d739b08a7c85c7f9dd5e1f50f07ec",
+    "source_record_references": [
+      "251"
+    ],
+    "labeler": {
+      "annotation_id": "ann_fe3af0ef5f4f310eefbca5e9",
+      "description_sha256": "1f1a8ebf420cfb7a2d0597a04c4dbc7aa77d739b08a7c85c7f9dd5e1f50f07ec",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional interaction recording: capturing, indexing, and retrieving voice and screen interactions, call and voice and screen recording, and encryption management. The Interaction Data Platform is named without any described learned or predictive function, and no AI is mentioned.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "capturing, indexing, and retrieving voice, screen, and other methods of interaction",
+        "Includes Call Recording (Channel Based), Voice Interaction Recording, Screen Interaction Recording, Encryption Management, Interaction Data Platform"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_fe3af0ef5f4f310eefbca5e9",
+      "description_sha256": "1f1a8ebf420cfb7a2d0597a04c4dbc7aa77d739b08a7c85c7f9dd5e1f50f07ec",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies capturing, indexing, retrieving, and recording voice and screen interactions, which are conventional interaction-recording functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "capturing, indexing, and retrieving voice, screen, and other methods of interaction",
+        "Call Recording (Channel Based), Voice Interaction Recording, Screen Interaction Recording, Encryption Management, Interaction Data Platform"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_fe3af0ef5f4f310eefbca5e9",
+      "description_sha256": "1f1a8ebf420cfb7a2d0597a04c4dbc7aa77d739b08a7c85c7f9dd5e1f50f07ec",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional interaction recording: capturing, indexing, and retrieving voice and screen interactions, call and voice and screen recording, and encryption management. The Interaction Data Platform is named without any described learned or predictive function, and no AI is mentioned.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "capturing, indexing, and retrieving voice, screen, and other methods of interaction",
+        "Includes Call Recording (Channel Based), Voice Interaction Recording, Screen Interaction Recording, Encryption Management, Interaction Data Platform"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  }
+]

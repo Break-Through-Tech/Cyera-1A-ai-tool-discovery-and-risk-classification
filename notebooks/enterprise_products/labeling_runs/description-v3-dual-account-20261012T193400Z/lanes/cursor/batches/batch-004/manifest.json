@@ -1,0 +1,201 @@
+{
+  "rubric_id": "enterprise-description-only-v3",
+  "run_id": "batch-004",
+  "counts": {
+    "source_input_records": 1494,
+    "cleaner_excluded_records": 56,
+    "records": 1438,
+    "product_groups": 1406,
+    "distinct_descriptions": 1391
+  },
+  "inputs": {
+    "raw": {
+      "path": "inputs/raw.csv",
+      "sha256": "afe7cdbcbf82d9b11f579eb6dce000815a04a301410636e2942036f072fc7aa1"
+    },
+    "cleaned": {
+      "path": "inputs/cleaned.csv",
+      "sha256": "c9f0d234d3b66327250d7eb372e9fc962e06f16c2bc0181cc34654fdb897eb2b"
+    },
+    "cleaning_report": {
+      "path": "inputs/cleaning_report.json",
+      "sha256": "5ee112cdb293fbe0640b61e4790d389331b35b729a907263237a2ecade0c0e7b"
+    },
+    "rubric": {
+      "path": "inputs/rubric.md",
+      "sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61"
+    },
+    "prompt_labeler": {
+      "path": "inputs/prompt_labeler.md",
+      "sha256": "4e0befda2866fd895e1bc2ea26297e5f2b5f451d3af0a780cb49356539dfbf33"
+    },
+    "prompt_blind": {
+      "path": "inputs/prompt_blind.md",
+      "sha256": "66f1d0f9ab28589969c3274df80a5499002ec98777d9ba7517bfeb4ff535cab1"
+    },
+    "prompt_reconciliation": {
+      "path": "inputs/prompt_reconciliation.md",
+      "sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1"
+    }
+  },
+  "code_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "prompt_hashes": {
+    "labeler": "4e0befda2866fd895e1bc2ea26297e5f2b5f451d3af0a780cb49356539dfbf33",
+    "blind": "66f1d0f9ab28589969c3274df80a5499002ec98777d9ba7517bfeb4ff535cab1",
+    "reconciliation": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1"
+  },
+  "stages": {
+    "labeler": {
+      "stage": "labeler",
+      "run_id": "batch-004",
+      "batch_id": "cursor-batch-004",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "4e0befda2866fd895e1bc2ea26297e5f2b5f451d3af0a780cb49356539dfbf33",
+      "model_id": "claude-haiku-5-5-thinking-high",
+      "assigned_annotation_ids": [
+        "ann_874c5af629f5170ca77e0992",
+        "ann_ba5f99830b9d5f0693bcea0f",
+        "ann_816babeff857da2e18e8e64e",
+        "ann_dcf13d4db14f08d62eeeb36c",
+        "ann_cc8c31f48c158a58d3bff68f",
+        "ann_e13bd4a50b38fedd5bd25a4c",
+        "ann_b316cfc6aebdeb637969ffe0",
+        "ann_2d2f7dd36f0d4e844a1a1bb0",
+        "ann_ed72d818697136ae1525e8e7",
+        "ann_0ce1deaef2e9ea13fa554dc9",
+        "ann_30032932de9e540089bd8e6a",
+        "ann_5981fdec9524a824adedf951",
+        "ann_2fb635eb935eca36eb2e4d2c",
+        "ann_fff84761dcb863829d435b93",
+        "ann_c170c80f1397740b10cbdcf9",
+        "ann_75d9b76fa830f36acd422044",
+        "ann_862a5013d9d4308f90bdaa53",
+        "ann_a73addbca185076b532ace2f",
+        "ann_5971fef40b184eedb16c3cec",
+        "ann_eab5f2f03b035625d6bcba72"
+      ]
+    },
+    "blind": {
+      "stage": "blind",
+      "run_id": "batch-004",
+      "batch_id": "cursor-batch-004",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "66f1d0f9ab28589969c3274df80a5499002ec98777d9ba7517bfeb4ff535cab1",
+      "model_id": "gpt-5.6-luna-high",
+      "assigned_annotation_ids": [
+        "ann_874c5af629f5170ca77e0992",
+        "ann_ba5f99830b9d5f0693bcea0f",
+        "ann_816babeff857da2e18e8e64e",
+        "ann_dcf13d4db14f08d62eeeb36c",
+        "ann_cc8c31f48c158a58d3bff68f",
+        "ann_e13bd4a50b38fedd5bd25a4c",
+        "ann_b316cfc6aebdeb637969ffe0",
+        "ann_2d2f7dd36f0d4e844a1a1bb0",
+        "ann_ed72d818697136ae1525e8e7",
+        "ann_0ce1deaef2e9ea13fa554dc9",
+        "ann_30032932de9e540089bd8e6a",
+        "ann_5981fdec9524a824adedf951",
+        "ann_2fb635eb935eca36eb2e4d2c",
+        "ann_fff84761dcb863829d435b93",
+        "ann_c170c80f1397740b10cbdcf9",
+        "ann_75d9b76fa830f36acd422044",
+        "ann_862a5013d9d4308f90bdaa53",
+        "ann_a73addbca185076b532ace2f",
+        "ann_5971fef40b184eedb16c3cec",
+        "ann_eab5f2f03b035625d6bcba72"
+      ]
+    },
+    "reconciliation": {
+      "stage": "reconciliation",
+      "run_id": "batch-004",
+      "batch_id": "cursor-batch-004",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+      "model_id": "gpt-5.6-luna-high",
+      "assigned_annotation_ids": [
+        "ann_0ce1deaef2e9ea13fa554dc9",
+        "ann_2d2f7dd36f0d4e844a1a1bb0",
+        "ann_75d9b76fa830f36acd422044",
+        "ann_816babeff857da2e18e8e64e",
+        "ann_874c5af629f5170ca77e0992",
+        "ann_ba5f99830b9d5f0693bcea0f",
+        "ann_c170c80f1397740b10cbdcf9",
+        "ann_cc8c31f48c158a58d3bff68f",
+        "ann_dcf13d4db14f08d62eeeb36c",
+        "ann_e13bd4a50b38fedd5bd25a4c",
+        "ann_eab5f2f03b035625d6bcba72"
+      ]
+    }
+  },
+  "prepared_artifacts": {
+    "description_packets.json": "8ea357314c197c12d4798416c29ffef84972294fdab859bb9dff350cabce9926",
+    "parent_join_map.json": "fe24d512d3d110323fd157e6163e0438989706781b44b122b8b61bc46a7be37f"
+  },
+  "selection_artifact": {
+    "selection.json": "b47d929ac75f1f6c876be1e9c39f1bfdca229f0a8a369255e97d9e1b53093831"
+  },
+  "checkpoints": {
+    "stages/labeler/ann_874c5af629f5170ca77e0992.json": "ff920b6af9a08d3a54bb3f9675ecf974ff4c10182920e3a80964690339e316a9",
+    "stages/labeler/ann_ba5f99830b9d5f0693bcea0f.json": "8871a5b05cfe2f998b2606a277b4eb19bf9c5f6b344d3c2410dac13e569188db",
+    "stages/labeler/ann_816babeff857da2e18e8e64e.json": "b5e0ff768a90290136364dc876037f122cacb05a5203c2e0861fdbebcfea13fb",
+    "stages/labeler/ann_dcf13d4db14f08d62eeeb36c.json": "6c527b0ac7bc5638bcbe6030883837aec4583516d11db57eb7515f7c6dd81dfa",
+    "stages/labeler/ann_cc8c31f48c158a58d3bff68f.json": "cb55e896a74767058a4899fe03e237a1b123864609e834ef90c0ea01964f432d",
+    "stages/labeler/ann_e13bd4a50b38fedd5bd25a4c.json": "f73bfa27e66c24dc4079d6a975c2b9c80d15a6d147dfd3f721910d40a88dae7a",
+    "stages/labeler/ann_b316cfc6aebdeb637969ffe0.json": "d5d29abd0490bd605cc69519777540c68c4378a24ce30037fbab526bbc7324c2",
+    "stages/labeler/ann_2d2f7dd36f0d4e844a1a1bb0.json": "3f3b8845a2107cff345b04555f62e5d295f1ebe63f17d742a48f806fcd23094b",
+    "stages/labeler/ann_ed72d818697136ae1525e8e7.json": "3e25e046a3ecaa7399e517e8f5d050c7467bbed19558a7d7d81f7e6532c73ef3",
+    "stages/labeler/ann_0ce1deaef2e9ea13fa554dc9.json": "3eb9d3eeac4de719ceda9c9b5610d7079d8d98e7d86727aeab4624672b043fd8",
+    "stages/labeler/ann_30032932de9e540089bd8e6a.json": "3af2e6e39e934021b4d4959f89342b3ffb7f75cc3c84d60d98e97fdaf2709ce3",
+    "stages/labeler/ann_5981fdec9524a824adedf951.json": "112bc1e49e52ac7f4b568bc7fb2084b81a9cd39b6335bf85eb7ef2f42ee8a926",
+    "stages/labeler/ann_2fb635eb935eca36eb2e4d2c.json": "b300bdb9fd8d6c64ba5ff1513e915d626295a882740ba072c9837d17765441ac",
+    "stages/labeler/ann_fff84761dcb863829d435b93.json": "68cd7d75f9e8847de2e945812294cb41001c59316e64ae8ade3abcc43581fcf1",
+    "stages/labeler/ann_c170c80f1397740b10cbdcf9.json": "5f8e2da7976ee4c70b3299fc760e1ddac4efec695254cfe7c220b40e89f07893",
+    "stages/labeler/ann_75d9b76fa830f36acd422044.json": "f95709504bbe377488f197ddf9c4a857f4881cdaaba856e348f9569318d7a817",
+    "stages/labeler/ann_862a5013d9d4308f90bdaa53.json": "d5c611589ecce6f226c35700242c3e614b0a8a6329bbe8e1b4827d133c10d6c2",
+    "stages/labeler/ann_a73addbca185076b532ace2f.json": "ba2685de57628b2dd8509d9e3db501ef8550983056c94c4b4d1745a4d7c7eb9f",
+    "stages/labeler/ann_5971fef40b184eedb16c3cec.json": "7a29fd60c27a707dc46da3809534ace2b4a79d3e3ffe7829877970020fbddb82",
+    "stages/labeler/ann_eab5f2f03b035625d6bcba72.json": "e9f4df32406c5d2fdf1ab9b9159b5c9211ac9a1fd35bca117bdec89a5d01ceed",
+    "stages/blind/ann_874c5af629f5170ca77e0992.json": "1823b918c68276a9e204ed9312752a208ba7d784b8bd38f2911e642f1aa3cd13",
+    "stages/blind/ann_ba5f99830b9d5f0693bcea0f.json": "d555422f373ef9cef307e78169acd229f4f396d1ab1c4a38129555e6a40e3c87",
+    "stages/blind/ann_816babeff857da2e18e8e64e.json": "e09b003a049dc79613e221043cc63eac726479d8c065233ae4ce9adb87169bdf",
+    "stages/blind/ann_dcf13d4db14f08d62eeeb36c.json": "27bfa6a064be5d70a70af2ae94fe3ac32d129d34a950e82d773f89bb19318c42",
+    "stages/blind/ann_cc8c31f48c158a58d3bff68f.json": "798bb6fbd9a2ca6c75452f8b2361f2c9366b0a235637eedb577ab019fa138b0c",
+    "stages/blind/ann_e13bd4a50b38fedd5bd25a4c.json": "2037f5d16f9bbbfe15b54106512e5fc5bd5c90770a70048deb559519b093430a",
+    "stages/blind/ann_b316cfc6aebdeb637969ffe0.json": "d42d0881635c80e15c42f3958238148d280adaf638b7105ad8e8e77fd1fe8f61",
+    "stages/blind/ann_2d2f7dd36f0d4e844a1a1bb0.json": "58b24e18c566726bc25e14e727396c7f4e37a877d05bf2f68f32d321f53dafc9",
+    "stages/blind/ann_ed72d818697136ae1525e8e7.json": "233550be85e76b1a4bea490a4ed0fdb9ca5147b5712d231fefa9450e1783f612",
+    "stages/blind/ann_0ce1deaef2e9ea13fa554dc9.json": "2c037c1852e360161d99c053149b59d936aa9d5c8e984b51a14c9b2feaf42eba",
+    "stages/blind/ann_30032932de9e540089bd8e6a.json": "aa0860053c0b453898840b08bea7995cb00ed7eb4bd4c4a34542656037a46d8d",
+    "stages/blind/ann_5981fdec9524a824adedf951.json": "5e8a1e40acc3ae427b530a3bde5a20f4756811c69f1de53381be41a494b16ea0",
+    "stages/blind/ann_2fb635eb935eca36eb2e4d2c.json": "095915c59ddcc89a92bcd191c3bdb03b7ac9a19d00e78f744bcb8d8dd4051844",
+    "stages/blind/ann_fff84761dcb863829d435b93.json": "7cef3d6b4f113389bba8ea2caed3931f32d92b6aa2a1584b9414359e4ddf4cc1",
+    "stages/blind/ann_c170c80f1397740b10cbdcf9.json": "9bde8e98e0b93aee5185ea75d9129724ac679ceff68388c086a7a90889055c7d",
+    "stages/blind/ann_75d9b76fa830f36acd422044.json": "49f29bd1c76ea41fcedd8a82e494d354c6abb3e6e30236ba26a537c18c935b1d",
+    "stages/blind/ann_862a5013d9d4308f90bdaa53.json": "64d5fe4eb0150cd6fabb5ed0b665fd7ce66e7c7f27f21a87f438e4fdd2c3c00d",
+    "stages/blind/ann_a73addbca185076b532ace2f.json": "91f4c0c8b5f68506436b724ce5d8b8938fb4f0f856c59da652141e98e3076d0c",
+    "stages/blind/ann_5971fef40b184eedb16c3cec.json": "9d3489084ac3e8d7e2f3adb47e9eba9bfcb704bba2f7aaed8fc37cfe18a675be",
+    "stages/blind/ann_eab5f2f03b035625d6bcba72.json": "099c7b9620292d6653d14e5b74847eba5923ae1e1daaf529fa9d99e7ad387023",
+    "stages/reconciliation/ann_0ce1deaef2e9ea13fa554dc9.json": "56c2687adeb4d5faa92def69e3d4404c72d8463a9cb693940d1dd5534d71f595",
+    "stages/reconciliation/ann_2d2f7dd36f0d4e844a1a1bb0.json": "89887304deac1f573cf8a6fdddb64cfdaf0e374f3f903988a94e635b87ee54b9",
+    "stages/reconciliation/ann_75d9b76fa830f36acd422044.json": "da140263402ac3bb32fd0f4694b24b7eafc9f9c10a4e4448c6bd64a2dbe9d4a8",
+    "stages/reconciliation/ann_816babeff857da2e18e8e64e.json": "273c82c64f3b8072e40fc13a42b564197d9d698d6525f41467b0931e6676c521",
+    "stages/reconciliation/ann_874c5af629f5170ca77e0992.json": "a7c5e88e952033d155914c27a01b8dce4ee17f115b51c1d5df3918d65ac8645f",
+    "stages/reconciliation/ann_ba5f99830b9d5f0693bcea0f.json": "b7096894ef0337c09d45b732cf63d0c8557e3657638c00d660b74fe9e76d0319",
+    "stages/reconciliation/ann_c170c80f1397740b10cbdcf9.json": "eacc085d1a5571550acb6097fa05b845f66605f8bd55a56c1769e42413198d40",
+    "stages/reconciliation/ann_cc8c31f48c158a58d3bff68f.json": "eaa83f40fa4807a24af1e359473c731ec9f1f3c6f7330700e6ebe2d32569d7a4",
+    "stages/reconciliation/ann_dcf13d4db14f08d62eeeb36c.json": "7d0c71edc70415900f81dd3c463ce0727a94585c08f673a890c1245fec572485",
+    "stages/reconciliation/ann_e13bd4a50b38fedd5bd25a4c.json": "8341e75eafa2b01e24744930a9df9175f4efeb8cb94bbaaee393d340329e751b",
+    "stages/reconciliation/ann_eab5f2f03b035625d6bcba72.json": "79b214d3e3ef5d4053a988bf0e04e77e67eacfee18d33a8a181e2977e526d2e3"
+  },
+  "exports": {
+    "description_labels.json": "e9a7179fbf4b7dabf58c389650b0fb88aa638689596b9b67c91d2ca0f95a893b",
+    "record_labels.json": "7a92fe2193aaf34b0f28efb21decd056a73807429c951790df3c46db78f2327a",
+    "review_ledger.json": "ef9d9df39dd519525f25cbfe14abfc84f07c00111930966e4a5b6316620ead34",
+    "review_queue.json": "4a0dc2621b0fd277046504d892c4b7edce1c8c4ec257efa9aaef9c6445090239",
+    "non_ai_candidates.csv": "2de79b83e6ef984efee3f2a201972631d0940c19fc4f84fa1d48df813198c3fd",
+    "calibration_report.json": "e32d6b9df0f333d90d052254754807d0342977cf61b823af0afa51e1d34fcaa9"
+  }
+}

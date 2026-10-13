@@ -1,0 +1,20 @@
+{
+  "annotation_id": "ann_0ce1deaef2e9ea13fa554dc9",
+  "description_sha256": "5683fcfc9468e4cdcc59be1505c8a6793e45e0751a38573b744506c44da052a4",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "The description explicitly says the IVRO and IVRA offering comprises Artificial Intelligence (AI) driven analytics.",
+  "ai_type_rationale": "The text separately describes IVR menu streamlining and self-service alongside AI-driven analytics, but does not establish that the conventional functions remain without the AI.",
+  "evidence_spans": [
+    "comprising Artificial Intelligence (AI) driven analytics to boost customer experiences across IVR journeys"
+  ],
+  "ai_type_evidence_spans": [
+    "NICE IVRO 8.0 is designed to streamline menus and facilitate self-service",
+    "comprising Artificial Intelligence (AI) driven analytics to boost customer experiences across IVR journeys"
+  ],
+  "conflict_response": "The explicit AI-driven analytics supports the binary AI label. The stated menu-streamlining and self-service functions support an enabled interpretation, but the description does not explicitly establish their independence from AI, so the subtype remains enabled with weak, forced evidence rather than being treated as supported."
+}

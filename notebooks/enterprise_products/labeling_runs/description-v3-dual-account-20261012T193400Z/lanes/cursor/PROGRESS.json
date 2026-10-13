@@ -1,0 +1,34 @@
+{
+  "status": "ready_for_next_batch",
+  "lane": "cursor",
+  "new_completed_descriptions": 80,
+  "new_completed_rows": 80,
+  "remaining_lane_descriptions": 540,
+  "remaining_lane_rows": 559,
+  "finalized_batches": [
+    "batch-001",
+    "batch-002",
+    "batch-003",
+    "batch-004"
+  ],
+  "current_batch": "batch-004",
+  "active_workers": 0,
+  "stop_on_usage_limit": true,
+  "resume_requires_user_request": false,
+  "prepared_batch": "batch-001",
+  "batch_001_frozen_selection_reused": true,
+  "batch_001_selected_descriptions": 20,
+  "batch_001_selected_source_rows": 20,
+  "batch_001_annotations_completed": 0,
+  "cost_usd": null,
+  "billed_tokens": null,
+  "latest_authorization": "ok resume the codex labeling workflow as well, run both the cursor and codex labeling workflows, dont stop unless theres a big error im gonna go to bed now and feel free to repair or fix anything that comes up",
+  "current_stage": "batch004_finalized",
+  "native_targets": {
+    "labeler": "cursor-haiku-d004",
+    "blind": "cursor-luna-d004"
+  },
+  "integration_owner": "parent",
+  "reconciliation_count": 11,
+  "blocker_receipt": "../../runtime/OVERNIGHT_CODEX_RESUME_BLOCKER.json"
+}

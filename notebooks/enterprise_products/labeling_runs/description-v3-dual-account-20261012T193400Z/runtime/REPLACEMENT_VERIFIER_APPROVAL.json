@@ -1,0 +1,13 @@
+{
+  "authorization": "User: i approve of this replacement verifier",
+  "scope": "Codex batch001 pending11-ID reconciliation ONLY; no independent reannotation",
+  "original_blind_run_id": "1a0c6684-165e-4393-941a-5153ffdc90d2",
+  "recovered_blind_run_id": "744f5405-9265-42db-83c4-6b041c2d3b08",
+  "why": "Prior-session native ownership prevents retained resume; explicit approved exception to same-verifier policy",
+  "replacement_model": "openai-codex/gpt-6-luna:high",
+  "replacement_context": "fresh",
+  "original_judgments_preserved": true,
+  "reading_order": "Original independent proposals committed before replacement; replacement receives source and both proposals for final reconciliation, not a blind pass",
+  "one_semantic_reconciliation_only": true,
+  "stop_conditions": "completion, major error or usage limit; no automatic fallback/account/payment changes"
+}

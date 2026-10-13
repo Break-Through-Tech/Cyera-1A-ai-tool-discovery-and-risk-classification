@@ -1,0 +1,422 @@
+{
+  "stage": "reconciliation",
+  "records": [
+    {
+      "packet": {
+        "annotation_id": "ann_06c40364f7d00ee114c6dac1",
+        "description_sha256": "d680e7cf902804b04878d51bfe7378b6693992d0d38514889608a803c59ec3ea",
+        "description": "Adobe Campaign connects your online and offline marketing to improve speed, efficiency, personalization, and reporting by integrating with other powerful technologies from Adobe Experience Cloud and Creative Cloud.",
+        "source_record_references": [
+          "200"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_06c40364f7d00ee114c6dac1",
+        "description_sha256": "d680e7cf902804b04878d51bfe7378b6693992d0d38514889608a803c59ec3ea",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes connecting online and offline marketing, reporting, and integration with Adobe Experience Cloud and Creative Cloud, which are conventional marketing-platform functions. 'Personalization' is an unexplained benefit with no described mechanism, and the description is too thin to support a supported negative, so the label is weak and forced.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "connects your online and offline marketing to improve speed, efficiency, personalization, and reporting",
+          "by integrating with other powerful technologies from Adobe Experience Cloud and Creative Cloud."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind": {
+        "annotation_id": "ann_06c40364f7d00ee114c6dac1",
+        "description_sha256": "d680e7cf902804b04878d51bfe7378b6693992d0d38514889608a803c59ec3ea",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description presents campaign software that connects online and offline marketing and integrates with other technologies for reporting, personalization, and efficiency; these are conventional marketing functions without an affirmative AI signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "connects your online and offline marketing"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "parent_concerns": "Address whether described integration and reporting meaningfully support conventional offering; personalization alone need not imply AI, but thinness cannot be ignored."
+    },
+    {
+      "packet": {
+        "annotation_id": "ann_0c20e538f63299efa965a629",
+        "description_sha256": "ff991bcafabaf06518c1685309db9ae2600514ba02fa850d0ecf2b4e66f6dfaa",
+        "description": "Account-based experience — ABX — reinvents ABM around the customer experience.\n\nInject Account Intelligence into every step of the B2B buyer journey and orchestrate every action across marketing and sales. That’s Smarter GTM.\n\nThe Engagement Platform is a single pane of glass that connects every source of intelligence and insight — and every sales and marketing play — so you spot opportunities earlier, engage with them more intelligently, and close deals faster.",
+        "source_record_references": [
+          "192"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_0c20e538f63299efa965a629",
+        "description_sha256": "ff991bcafabaf06518c1685309db9ae2600514ba02fa850d0ecf2b4e66f6dfaa",
+        "ai_status": "ai",
+        "ai_type": "ai_enabled",
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": "weak",
+        "ai_type_forced_decision": true,
+        "rationale": "Describes ABM orchestration and an engagement platform, but also relies on 'Account Intelligence' and 'intelligence and insight' with no described mechanism. The unexplained intelligence feature may be AI-dependent and the marketing language does not establish a conventional implementation, so the binary is weak and forced.",
+        "ai_type_rationale": "Cross-channel orchestration across marketing and sales is described as the conventional core and would remain without the described intelligence layer. Whether the intelligence is core or an enhancement is unresolved, so enabled is a weak forced subtype.",
+        "evidence_spans": [
+          "Inject Account Intelligence into every step of the B2B buyer journey",
+          "connects every source of intelligence and insight"
+        ],
+        "ai_type_evidence_spans": [
+          "orchestrate every action across marketing and sales",
+          "reinvents ABM around the customer experience"
+        ]
+      },
+      "blind": {
+        "annotation_id": "ann_0c20e538f63299efa965a629",
+        "description_sha256": "ff991bcafabaf06518c1685309db9ae2600514ba02fa850d0ecf2b4e66f6dfaa",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description describes an account-based marketing engagement platform that connects intelligence sources and orchestrates marketing and sales actions, which is conventional coordination functionality without an affirmative AI signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "orchestrate every action across marketing and sales"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "parent_concerns": "Address Account Intelligence and connected intelligence sources: does text establish conventional orchestration or unresolved included AI-dependent functionality? Do not infer mechanism."
+    },
+    {
+      "packet": {
+        "annotation_id": "ann_178fa64f315fc58b4a8f2822",
+        "description_sha256": "7f50cd84c1de3a9508124e3163450dc91d777b7510cb87a419bc12f9c434ece8",
+        "description": "Intent HQ enables consumer brands to gain actionable insight on their customers. Intent HQ looks at the people behind the data to assist businesses to move from  customer centric  to  human centric  view; enabling to know who to market to, creating more helpful service interactions, shaping strategy and predicting customer behaviour.\n\nThe Platform that provides you with the following capabilities:\nThe ingestion and storage of your event level customer data, organized by individual.\nA linear scale, configuration driven system to compute profiles in near real-time as data changes, allowing you to respond to customer changes on demand.\nA collaborative toolset for your data scientists to safely automate and run complex tasks, including data sampling and feature generation on a production dataset.\nThe ability to host applications that  Know, Infer and Predict  customer attributes and behaviors from patterns in your data and easily take action on them.\nAPIs to orchestrate data to other business applications, enabling hyper-personalized experiences across all customer touch points.\nAn Insight Explorer that provides the ability to ask 'train of thought  questions on how customer behavior affects your core KPIs, and easily generate audiences based on this insight.\nCompliance with applicable processor privacy regulations required for customer data processing, storage, retrieval and deletion, and managed via a comprehensive set of APIs for control of your customers' data.",
+        "source_record_references": [
+          "202"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_178fa64f315fc58b4a8f2822",
+        "description_sha256": "7f50cd84c1de3a9508124e3163450dc91d777b7510cb87a419bc12f9c434ece8",
+        "ai_status": "ai",
+        "ai_type": "ai_enabled",
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": "weak",
+        "ai_type_forced_decision": true,
+        "rationale": "Describes predicting customer behaviour and hosted applications that infer and predict customer attributes and behaviors from patterns in your data, supported by data-scientist tooling including feature generation. The text establishes learned or statistical prediction models as a product function, so the binary is supported.",
+        "ai_type_rationale": "Ingestion and storage of event-level customer data, profile computation and APIs are described as the conventional data-platform core. Whether the predictive applications are core or optional is unclear, so enabled is a weak forced subtype.",
+        "evidence_spans": [
+          "predicting customer behaviour",
+          "customer attributes and behaviors from patterns in your data",
+          "including data sampling and feature generation on a production dataset"
+        ],
+        "ai_type_evidence_spans": [
+          "The ingestion and storage of your event level customer data, organized by individual.",
+          "APIs to orchestrate data to other business applications"
+        ]
+      },
+      "blind": {
+        "annotation_id": "ann_178fa64f315fc58b4a8f2822",
+        "description_sha256": "7f50cd84c1de3a9508124e3163450dc91d777b7510cb87a419bc12f9c434ece8",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description clearly covers customer-data ingestion, profiles, APIs, and audience generation, but its infer-and-predict applications and feature generation do not establish whether the mechanism is AI-dependent.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "The ability to host applications that  Know, Infer and Predict  customer attributes and behaviors from patterns in your data and easily take action on them."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "parent_concerns": "Labeler claims learned/statistical prediction models are established, but source does not explicitly state learned models. Recheck inference/prediction from patterns, feature generation, data-science toolkit and host-app inclusion; keep binary/subtype uncertainty separate."
+    },
+    {
+      "packet": {
+        "annotation_id": "ann_40f548e163f940c9ecb040ea",
+        "description_sha256": "05c168d87ff73360dc79331af040b8ef84c5fe4d2f69a56117f2045ff31d159e",
+        "description": "Core Platform, to include: Private & Public Company Data; Industry Analytics; Client-Only Newsletter; Workflow (Collections, Notes, Stories); Core Intelligence.",
+        "source_record_references": [
+          "190"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_40f548e163f940c9ecb040ea",
+        "description_sha256": "05c168d87ff73360dc79331af040b8ef84c5fe4d2f69a56117f2045ff31d159e",
+        "ai_status": "ai",
+        "ai_type": "ai_enabled",
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": "weak",
+        "ai_type_forced_decision": true,
+        "rationale": "The core platform lists conventional data, analytics, newsletter and workflow modules, but also includes 'Core Intelligence' with no described mechanism. The unexplained included feature may be AI-dependent and conventional modules cannot erase it, so the binary is weak and forced rather than supported non-AI.",
+        "ai_type_rationale": "Conventional data, analytics, newsletter and workflow modules are described as core and would remain without Core Intelligence. Whether Core Intelligence is core or an enhancement is not established, so enabled is a weak forced subtype.",
+        "evidence_spans": [
+          "Core Intelligence"
+        ],
+        "ai_type_evidence_spans": [
+          "Private & Public Company Data; Industry Analytics; Client-Only Newsletter; Workflow (Collections, Notes, Stories)",
+          "Core Intelligence"
+        ]
+      },
+      "blind": {
+        "annotation_id": "ann_40f548e163f940c9ecb040ea",
+        "description_sha256": "05c168d87ff73360dc79331af040b8ef84c5fe4d2f69a56117f2045ff31d159e",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The listed offering consists of company data, industry analytics, a newsletter, and workflow features for collections, notes, and stories; these are conventional functions without an affirmative AI signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Private & Public Company Data; Industry Analytics; Client-Only Newsletter; Workflow (Collections, Notes, Stories)"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "parent_concerns": "Address Core Intelligence explicitly; distinguish a generic label from an unexplained included AI-suggestive capability. Do not erase ambiguity by listing other conventional modules."
+    },
+    {
+      "packet": {
+        "annotation_id": "ann_8828a3f4e8ce591beb82bc55",
+        "description_sha256": "842087f5809efb3d876e2acd5d3a25da245e4ff51a45925fdcc9ebe6d3d262c4",
+        "description": "Telogical is a full-service data provider; from data exploration to delivery\nWhen our customers have pressing questions about the competition, we respond with timely, accurate data in a format that most clearly provides the right answer. Our services are multi-industry, and our data and tools have been used to support strategic planning, aid marketing functions, improve sales and retention outcomes, and forecast future customer behavior.",
+        "source_record_references": [
+          "203"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_8828a3f4e8ce591beb82bc55",
+        "description_sha256": "842087f5809efb3d876e2acd5d3a25da245e4ff51a45925fdcc9ebe6d3d262c4",
+        "ai_status": "ai",
+        "ai_type": "ai_enabled",
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": "weak",
+        "ai_type_forced_decision": true,
+        "rationale": "Describes a data provider whose data and tools have been used to forecast future customer behavior. The forecasting mechanism is unresolved and could be statistical or learned, so the binary is weak and forced rather than supported non-AI.",
+        "ai_type_rationale": "Data exploration, delivery and timely accurate data are described as the conventional core. Forecasting is listed as one use of the data and tools, so whether it is core or an enhancement is unresolved and enabled is a weak forced subtype.",
+        "evidence_spans": [
+          "our data and tools have been used to support strategic planning",
+          "forecast future customer behavior"
+        ],
+        "ai_type_evidence_spans": [
+          "Telogical is a full-service data provider; from data exploration to delivery",
+          "we respond with timely, accurate data in a format that most clearly provides the right answer"
+        ]
+      },
+      "blind": {
+        "annotation_id": "ann_8828a3f4e8ce591beb82bc55",
+        "description_sha256": "842087f5809efb3d876e2acd5d3a25da245e4ff51a45925fdcc9ebe6d3d262c4",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description presents data exploration, delivery, and support for planning, marketing, sales, and retention, but forecasting future customer behavior does not resolve whether the mechanism is AI-dependent.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "forecast future customer behavior"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "parent_concerns": "Distinguish provider delivering data used by customers to forecast from forecasting implemented in the offering; mechanism and inclusion must not be invented."
+    },
+    {
+      "packet": {
+        "annotation_id": "ann_ac05cc32a9e81d4f40a69c1c",
+        "description_sha256": "5ec367cda9f4420092189407e165f2daafc6888077e22637c4b40fdcf7c299fa",
+        "description": "MARS is a portable, integrated set of digital signal processing (DSP) 'software only  tools, including signal recognition/classification, radio identification, signal generation, signal transformation, and signal analysis capabilities. It can process live signals in the radio frequency (RF) environment, captured signals that have been stored to disk, and streaming data samples from client applications.",
+        "source_record_references": [
+          "198"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_ac05cc32a9e81d4f40a69c1c",
+        "description_sha256": "5ec367cda9f4420092189407e165f2daafc6888077e22637c4b40fdcf7c299fa",
+        "ai_status": "ai",
+        "ai_type": "ai_enabled",
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": "weak",
+        "ai_type_forced_decision": true,
+        "rationale": "Describes DSP tools including signal recognition/classification and radio identification. The text does not establish whether classification is algorithmic or learned, so the binary is weak and forced rather than supported non-AI.",
+        "ai_type_rationale": "Core DSP capabilities for generation, transformation, analysis and live processing are conventional and remain described without the classification feature. The classification's role is unresolved, so enabled is a weak forced subtype.",
+        "evidence_spans": [
+          "including signal recognition/classification, radio identification"
+        ],
+        "ai_type_evidence_spans": [
+          "signal generation, signal transformation, and signal analysis capabilities",
+          "It can process live signals in the radio frequency (RF) environment"
+        ]
+      },
+      "blind": {
+        "annotation_id": "ann_ac05cc32a9e81d4f40a69c1c",
+        "description_sha256": "5ec367cda9f4420092189407e165f2daafc6888077e22637c4b40fdcf7c299fa",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description details digital signal processing tools for recognizing, identifying, generating, transforming, and analyzing radio signals, which is conventional signal-processing functionality without an affirmative AI signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "signal recognition/classification, radio identification, signal generation, signal transformation, and signal analysis capabilities"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "parent_concerns": "Address signal recognition/classification in DSP context without assuming learned or deterministic implementation. Explain whether support or ambiguity is justified."
+    },
+    {
+      "packet": {
+        "annotation_id": "ann_b0348aa6dbf16996c7a153fb",
+        "description_sha256": "503c0e187ebd79aef31d29642caa7274db7ea0188a7451799882ecec0d594313",
+        "description": "An advanced system of sensors, algorithms and artificial intelligence to detect, locate and alert police to gunfire.From Web - A gunfire locator or gunshot detection system is a system that detects and conveys the location of gunfire or other weapon fire using acoustic, optical, or potentially other types of sensors, as well as a combination of such sensors. These systems are used by law enforcement, security, military and businesses to identify the source and, in some cases, the direction of gunfire and/or the type of weapon fired.",
+        "source_record_references": [
+          "208"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_b0348aa6dbf16996c7a153fb",
+        "description_sha256": "503c0e187ebd79aef31d29642caa7274db7ea0188a7451799882ecec0d594313",
+        "ai_status": "ai",
+        "ai_type": "ai_native",
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": "supported",
+        "ai_type_forced_decision": false,
+        "rationale": "Explicitly describes an advanced system of sensors, algorithms and artificial intelligence that detects, locates and alerts police to gunfire. This is an explicit product-specific AI mention.",
+        "ai_type_rationale": "The stated detection, location and alerting function is described as performed by a system that includes artificial intelligence, so the core detection function depends on the described AI component.",
+        "evidence_spans": [
+          "An advanced system of sensors, algorithms and artificial intelligence to detect, locate and alert police to gunfire."
+        ],
+        "ai_type_evidence_spans": [
+          "An advanced system of sensors, algorithms and artificial intelligence to detect, locate and alert police to gunfire.",
+          "is a system that detects and conveys the location of gunfire or other weapon fire using acoustic, optical, or potentially other types of sensors"
+        ]
+      },
+      "blind": {
+        "annotation_id": "ann_b0348aa6dbf16996c7a153fb",
+        "description_sha256": "503c0e187ebd79aef31d29642caa7274db7ea0188a7451799882ecec0d594313",
+        "ai_status": "ai",
+        "ai_type": "ai_native",
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": "supported",
+        "ai_type_forced_decision": false,
+        "rationale": "The description explicitly includes artificial intelligence in a system whose core function is detecting, locating, and alerting police to gunfire.",
+        "ai_type_rationale": "Artificial intelligence is stated as part of the core gunfire detection system alongside its sensors and algorithms.",
+        "evidence_spans": [
+          "An advanced system of sensors, algorithms and artificial intelligence to detect, locate and alert police to gunfire."
+        ],
+        "ai_type_evidence_spans": [
+          "artificial intelligence to detect, locate and alert police to gunfire"
+        ]
+      },
+      "parent_concerns": "Binary explicitly mentions artificial intelligence and is supported. Both proposals treat inclusion of AI alongside sensors/algorithms as proof of core dependence. Recheck whether core depends on AI or meaningful conventional functionality remains; if description does not settle subtype, keep subtype weak independently."
+    },
+    {
+      "packet": {
+        "annotation_id": "ann_df2fa8d626e77fe9d736802d",
+        "description_sha256": "e1ecef9e293bec2e003c61a50eeb5ab4e19c11cfe905141eba6c424e47ec82a7",
+        "description": "With Epsilon PeopleCloud Customer, an enterprise-ready Customer Data Platform (CDP), you'll power your multi-channel marketing with a single view of each customer. Using data-driven personalized marketing, you'll be able to predict which offer and channel will be the most successful for each individual at every step in their journey. View of customers and prospects'so you'll predict their future buying behaviors and build a lifetime of loyalty.",
+        "source_record_references": [
+          "197"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_df2fa8d626e77fe9d736802d",
+        "description_sha256": "e1ecef9e293bec2e003c61a50eeb5ab4e19c11cfe905141eba6c424e47ec82a7",
+        "ai_status": "ai",
+        "ai_type": "ai_enabled",
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": "weak",
+        "ai_type_forced_decision": true,
+        "rationale": "Claims the platform predicts which offer and channel will be most successful for each individual and predicts future buying behavior. The predictive mechanism is unresolved, so the binary is weak and forced rather than supported non-AI; conventional single-view functions do not erase the unexplained predictive feature.",
+        "ai_type_rationale": "A CDP providing a single view of each customer for multi-channel marketing is described as the conventional core. Predictive personalization is an unresolved layer on top, so enabled is a weak forced subtype.",
+        "evidence_spans": [
+          "predict which offer and channel will be the most successful for each individual at every step in their journey",
+          "you'll predict their future buying behaviors"
+        ],
+        "ai_type_evidence_spans": [
+          "an enterprise-ready Customer Data Platform (CDP), you'll power your multi-channel marketing with a single view of each customer"
+        ]
+      },
+      "blind": {
+        "annotation_id": "ann_df2fa8d626e77fe9d736802d",
+        "description_sha256": "e1ecef9e293bec2e003c61a50eeb5ab4e19c11cfe905141eba6c424e47ec82a7",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description clearly describes a customer data platform and personalized marketing, but its claims to predict successful offers, channels, and future buying behavior do not resolve whether the mechanism is AI-dependent.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "enterprise-ready Customer Data Platform (CDP)"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "parent_concerns": "Address per-person successful offer/channel prediction and future buying behavior. Hash was mechanically copied from pinned packet only; semantics unchanged. Prediction mechanism unresolved in proposals."
+    },
+    {
+      "packet": {
+        "annotation_id": "ann_f9f555edff960ce974738b9a",
+        "description_sha256": "40cdd84e43cd4b43c092aeeb27438caf32c784c4a8035ee926d30fe9bfe36c81",
+        "description": "Ascend is the autonomous experience optimization solution for websites and mobile applications. Autonomous experience optimization solution for websites and mobile applications,Cloud Service: The Ascend service - Supplier's proprietary massively multivariate testing and optimization service that allows subscribers to test multiple improvements to a web or mobile property (including but not limited to, new text, new images, new styles, new design elements, and new layouts) for Visitors to the web and/or mobile property, and determine the combination or combinations of those improvements and existing site features which deliver the best performance against a goal set by the customer.",
+        "source_record_references": [
+          "204"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_f9f555edff960ce974738b9a",
+        "description_sha256": "40cdd84e43cd4b43c092aeeb27438caf32c784c4a8035ee926d30fe9bfe36c81",
+        "ai_status": "ai",
+        "ai_type": "ai_enabled",
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": "weak",
+        "ai_type_forced_decision": true,
+        "rationale": "Positions the product as an autonomous experience optimization solution. The autonomy mechanism is not described, so the binary is weak and forced rather than supported non-AI, even though the described testing service is conventional.",
+        "ai_type_rationale": "The described core is a multivariate testing and optimization service that can run without the autonomy claim. Whether autonomous optimization is core or an enhancement is unresolved, so enabled is a weak forced subtype.",
+        "evidence_spans": [
+          "Ascend is the autonomous experience optimization solution for websites and mobile applications."
+        ],
+        "ai_type_evidence_spans": [
+          "massively multivariate testing and optimization service that allows subscribers to test multiple improvements"
+        ]
+      },
+      "blind": {
+        "annotation_id": "ann_f9f555edff960ce974738b9a",
+        "description_sha256": "40cdd84e43cd4b43c092aeeb27438caf32c784c4a8035ee926d30fe9bfe36c81",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description specifies massively multivariate testing and selecting the best-performing combinations of site improvements against customer-set goals, which is conventional experimentation and optimization functionality.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "allows subscribers to test multiple improvements to a web or mobile property"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "parent_concerns": "Address autonomous optimization alongside detailed multivariate testing. Do not infer AI from autonomy alone or silently erase unexplained functionality."
+    }
+  ]
+}

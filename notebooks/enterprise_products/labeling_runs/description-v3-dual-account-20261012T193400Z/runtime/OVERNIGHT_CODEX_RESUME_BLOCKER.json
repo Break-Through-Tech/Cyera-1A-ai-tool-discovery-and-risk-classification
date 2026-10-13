@@ -1,0 +1,14 @@
+{
+  "status": "stopped_cross_session_resume_boundary",
+  "timestamp": "2026-10-13T04:25:19.452817+00:00",
+  "user_authorized_both_lanes": true,
+  "native_child": "604a3064-2a35-454d-9d90-ca41cb72fc74",
+  "status_identified_retained_child": true,
+  "authoritative_resume_error": "Async run '604a3064-2a35-454d-9d90-ca41cb72fc74' was not found in the active session.",
+  "codex_preserved_checkpoints": 10,
+  "codex_missing_id": "ann_e7ae22b6912da54ad1badcb8",
+  "cursor_batch004_mechanical_assembly": "passed;20 original valid checkpoints; labels unchanged",
+  "active_annotation_workers": 0,
+  "no_model_or_execution_fallback": true,
+  "next_action": "Resume original parent Pi session owning retained verifier, or explicitly approve a new replacement verifier for ONLY Codex001 missing1; existing10 immutable. No further automatic semantic replacement."
+}

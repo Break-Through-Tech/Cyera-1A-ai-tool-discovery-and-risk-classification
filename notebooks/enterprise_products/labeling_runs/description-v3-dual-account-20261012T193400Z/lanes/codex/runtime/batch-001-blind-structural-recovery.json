@@ -1,0 +1,16 @@
+{
+  "stage": "blind",
+  "original_run_id": "1a0c6684-165e-4393-941a-5153ffdc90d2",
+  "defect": "Premature empty result.json with zero annotations/checkpoints.",
+  "raw_empty_path": "agents/blind/raw-empty-result.json",
+  "raw_sha256": "c5014b552a09004ec836288a248588cfdab58f7a7b2cb69bb8014299cd6c591f",
+  "parent_action": "Preserved exact empty aggregate by moving it out of the bound result path; no label changed or completed annotation repeated.",
+  "recovery_authorization": "One same-original-role structural-output recovery, completing20 unfinished annotations; no second structural retry.",
+  "valid_completed_records": 0,
+  "stage_model_id": "openai-codex/gpt-6-luna:high",
+  "stop_if_repeated": true,
+  "original_native_validation_error": "value.records fewer than20 items: original empty structured_output; same initial attempt",
+  "recovery_run_id": "744f5405-9265-42db-83c4-6b041c2d3b08",
+  "recovery_protocol": "Native retained original child resume, same model/context/schema; not rerun workflow or completed labeler",
+  "recovery_attempts_launched": 1
+}

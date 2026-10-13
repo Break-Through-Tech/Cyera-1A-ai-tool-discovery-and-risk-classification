@@ -1,0 +1,52 @@
+{
+  "event": "replacement-approved-wave-001-model-startup-blocker",
+  "observed_at": "2026-10-12",
+  "batch_id": "batch-001",
+  "parent_clearance": "Same-native-protocol inline-mode correction explicitly cleared; replacement workflow accepted launch preflight.",
+  "preexisting_batch_reused": true,
+  "freeze_or_reassignment_repeated": false,
+  "assignments": {
+    "labeler": {
+      "agent_name": "cursor-haiku-d001",
+      "pane": "wF:p19",
+      "start_args": [
+        "--model",
+        "claude-haiku-5-5-thinking-high",
+        "--workspace",
+        "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-001/agents/labeler"
+      ],
+      "start_observation": "Native herdr_agent start succeeded; terminal banner showed Claude Haiku 5.5 300K High.",
+      "annotation_prompt_submitted": false,
+      "result_or_checkpoint_written": false,
+      "stopped_by": "native herdr_agent ctrl+d after blind model startup failure"
+    },
+    "blind": {
+      "agent_name": "cursor-luna-d001",
+      "pane": "wF:p1A",
+      "start_args": [
+        "--model",
+        "gpt-5.6-luna-high",
+        "--workspace",
+        "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-001/agents/blind"
+      ],
+      "start_observation": "Native startup timed out; inspection confirmed no registered agent and terminal startup error exactly `Cannot use this model: gpt-5.6-luna-high. Available models:`.",
+      "annotation_prompt_submitted": false,
+      "result_or_checkpoint_written": false,
+      "fallback_or_retry": false
+    }
+  },
+  "batch_validation_before_launch": {
+    "selected_descriptions": 20,
+    "selected_source_rows": 20,
+    "manifest_and_frozen_inputs_verified": true,
+    "selection_and_both_stage_assignments_verified": true,
+    "checkpoint_counts": {"labeler": 0, "blind": 0},
+    "result_files": {"labeler": false, "blind": false},
+    "helper_stage_checkpoint_counts": {"labeler": 0, "blind": 0}
+  },
+  "stop_reason": "Required gpt-5.6-luna-high model rejected by native Cursor CLI; major model/configuration error.",
+  "parent_direction": "No model substitution or retry authorized; this is the BOTH-lanes major-error stop condition. Parent will safely stop/checkpoint Codex and request any new model/provider decision from user.",
+  "active_workers": 0,
+  "cost_usd": null,
+  "billed_tokens": null
+}

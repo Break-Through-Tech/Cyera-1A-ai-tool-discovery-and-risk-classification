@@ -1,0 +1,16 @@
+{
+  "cursor_wave_run_id": "da63f364-5d38-4c51-a9ca-d575f0d6ad78",
+  "cursor_wave_batches": [
+    "batch-001",
+    "batch-002",
+    "batch-003",
+    "batch-004",
+    "batch-005"
+  ],
+  "cursor_handoff": "lanes/cursor/runtime/wave-001-handoff.md",
+  "codex_independent_workflow_run_id": "af8ce1ad-c5d7-412b-b3ba-38efef67558e",
+  "codex_current_batch": "batch-001",
+  "native_completions": "Wake parent automatically; no polling or bg_wait",
+  "authority": "Continue both disjoint lanes until dataset complete, major error or any usage limit; no automatic model/provider/payment fallback",
+  "actual_annotation_workers": "Launches requested asynchronously; four-slot ceiling, not proof all workers already writing."
+}

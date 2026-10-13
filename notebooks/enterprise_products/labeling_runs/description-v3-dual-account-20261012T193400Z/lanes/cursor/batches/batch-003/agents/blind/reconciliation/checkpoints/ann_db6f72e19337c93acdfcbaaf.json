@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_db6f72e19337c93acdfcbaaf",
+  "description_sha256": "9d227b7f1b5659e3bd7c0629bc57993a5c14a6f566eaab25936e68dd0b3c74af",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description explicitly includes review submission, acceptability determination, dashboard error handling, reporting, and statistics. Because it does not say whether acceptability is determined by a human, rules, or AI, the non_ai label remains weak and forced.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "including reading each review and determining if each review is acceptable or unacceptable and making any applicable updates",
+    "reporting, statistics and pending transactions"
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "Both proposals correctly identify the unresolved mechanism for acceptability determination. The surrounding dashboard and reporting functions cannot upgrade the included ambiguous determination feature; no affirmative AI signal supports non_ai as the best forced call."
+}

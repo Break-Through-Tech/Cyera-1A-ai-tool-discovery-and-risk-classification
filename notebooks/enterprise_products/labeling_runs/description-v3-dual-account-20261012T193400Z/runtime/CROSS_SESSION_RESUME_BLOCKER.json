@@ -1,0 +1,18 @@
+{
+  "status": "blocked_safe_stop_confirmed",
+  "failed_workflow_run_id": "6e9c76f0-0419-418b-a4ac-f6aa6c2951c4",
+  "original_verifier_run_id": "744f5405-9265-42db-83c4-6b041c2d3b08",
+  "failure": "Async run '744f5405-9265-42db-83c4-6b041c2d3b08' was not found in the active session.",
+  "workflow_and_direct_native_resume_rejected": true,
+  "reconciliation_children_launched": 0,
+  "cursor_coordinator_run_id": "a5b9877b-2ed4-4206-b2af-6d529b900499",
+  "cursor_state": "Prepared batch001; Haiku startup verified then exited before annotation prompt; no verifier launched",
+  "active_annotation_workers": 0,
+  "finalized_descriptions": 160,
+  "finalized_rows": 174,
+  "pending_codex_descriptions": 20,
+  "pending_codex_reconciliation_ids": 11,
+  "all_prior_baseline_hashes_unchanged": true,
+  "repair_retained": "Quote transcription fixed in separate native-byte accepted artifact; future double-writing removed; Cursor shell availability verified",
+  "next_safe_action": "Resume original parent Pi session, where retained verifier is eligible, then invoke prepared11-ID reconciliation with updated launch script. Alternatively ask for explicit verifier-policy change; do not bypass session ownership or edit harness metadata."
+}

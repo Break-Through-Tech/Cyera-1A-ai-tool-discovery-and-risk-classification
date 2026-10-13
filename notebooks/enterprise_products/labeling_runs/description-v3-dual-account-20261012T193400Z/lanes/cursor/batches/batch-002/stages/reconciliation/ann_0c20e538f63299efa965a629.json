@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_0c20e538f63299efa965a629",
+  "description_sha256": "ff991bcafabaf06518c1685309db9ae2600514ba02fa850d0ecf2b4e66f6dfaa",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description clearly describes ABM and marketing-sales orchestration, but Account Intelligence and intelligence and insight have no stated mechanism. The lack of an affirmative AI signal supports non_ai only weakly because an included AI-dependent capability remains unresolved.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "Inject Account Intelligence into every step of the B2B buyer journey and orchestrate every action across marketing and sales.",
+    "connects every source of intelligence and insight"
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The labeler's concern correctly identifies an included unexplained intelligence capability, but the wording does not establish AI or ML. I therefore downgrade the blind supported-negative call to weak non_ai rather than upgrade it to ai; subtype uncertainty is separate and remains null for non_ai."
+}

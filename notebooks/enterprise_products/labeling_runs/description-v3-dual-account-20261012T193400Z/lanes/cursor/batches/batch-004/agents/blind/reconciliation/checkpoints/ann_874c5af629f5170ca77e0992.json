@@ -1,0 +1,17 @@
+{
+  "annotation_id": "ann_874c5af629f5170ca77e0992",
+  "description_sha256": "23fa902cda558459f27af3e7d736ffea52728a594ca75b97bbadf58ed02b4faa",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "ai_type_rationale": null,
+  "rationale": "The description establishes a voice-driven directory-assistance function that recognizes listings, but does not state whether the recognition mechanism is AI-dependent, so the forced binary call remains weak.",
+  "evidence_spans": [
+    "voice-driven nationwide directory assistance application that can accurately recognize more than 100 million residential and business listings"
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The labeler identifies a potentially AI-dependent voice feature, while the blind call identifies the absence of an AI mechanism. The text supports a conventional directory-assistance function but leaves voice recognition unresolved, so I retain non_ai as a weak, forced call rather than treating either mechanism as established."
+}

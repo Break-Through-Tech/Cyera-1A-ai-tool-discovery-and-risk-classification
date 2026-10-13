@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_ac05cc32a9e81d4f40a69c1c",
+  "description_sha256": "5ec367cda9f4420092189407e165f2daafc6888077e22637c4b40fdcf7c299fa",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description explicitly frames the offering as digital signal processing software and lists signal recognition/classification, identification, generation, transformation, analysis, and live processing. In this DSP context, these are conventional signal-processing functions without an AI or learned-model claim.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "including signal recognition/classification, radio identification, signal generation, signal transformation, and signal analysis capabilities",
+    "It can process live signals in the radio frequency (RF) environment"
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The labeler's concern correctly avoids assuming whether recognition/classification is learned or deterministic, but ambiguity alone does not establish AI. The explicit DSP framing and the broader processing functions meaningfully support a conventional offering, so the blind supported non_ai call remains justified."
+}

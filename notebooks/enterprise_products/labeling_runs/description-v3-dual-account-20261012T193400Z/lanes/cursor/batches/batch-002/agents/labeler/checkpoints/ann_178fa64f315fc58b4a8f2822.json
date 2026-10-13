@@ -1,0 +1,21 @@
+{
+  "annotation_id": "ann_178fa64f315fc58b4a8f2822",
+  "description_sha256": "7f50cd84c1de3a9508124e3163450dc91d777b7510cb87a419bc12f9c434ece8",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "Describes predicting customer behaviour and hosted applications that infer and predict customer attributes and behaviors from patterns in your data, supported by data-scientist tooling including feature generation. The text establishes learned or statistical prediction models as a product function, so the binary is supported.",
+  "ai_type_rationale": "Ingestion and storage of event-level customer data, profile computation and APIs are described as the conventional data-platform core. Whether the predictive applications are core or optional is unclear, so enabled is a weak forced subtype.",
+  "evidence_spans": [
+    "predicting customer behaviour",
+    "customer attributes and behaviors from patterns in your data",
+    "including data sampling and feature generation on a production dataset"
+  ],
+  "ai_type_evidence_spans": [
+    "The ingestion and storage of your event level customer data, organized by individual.",
+    "APIs to orchestrate data to other business applications"
+  ]
+}

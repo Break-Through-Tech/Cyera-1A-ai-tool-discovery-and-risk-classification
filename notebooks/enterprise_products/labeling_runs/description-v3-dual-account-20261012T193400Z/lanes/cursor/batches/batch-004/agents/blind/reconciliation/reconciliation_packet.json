@@ -1,0 +1,509 @@
+{
+  "stage": "reconciliation",
+  "records": [
+    {
+      "packet": {
+        "annotation_id": "ann_0ce1deaef2e9ea13fa554dc9",
+        "description_sha256": "5683fcfc9468e4cdcc59be1505c8a6793e45e0751a38573b744506c44da052a4",
+        "description": "NICE Interactive Voice Response Optimization (IVRO) and Interactive Voice Response Analytics (IVRA) comprising Artificial Intelligence (AI) driven analytics to boost customer experiences across IVR journeys. NICE IVRO 8.0 is designed to streamline menus and facilitate self-service so customers can easily get the answers they need, while enabling organizations to benefit from savings as a result of lower deflection to contact centers.",
+        "source_record_references": [
+          "284"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_0ce1deaef2e9ea13fa554dc9",
+        "description_sha256": "5683fcfc9468e4cdcc59be1505c8a6793e45e0751a38573b744506c44da052a4",
+        "ai_status": "ai",
+        "ai_type": "ai_enabled",
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": "supported",
+        "ai_type_forced_decision": false,
+        "rationale": "The text explicitly states that the IVRO and IVRA offering comprises Artificial Intelligence (AI) driven analytics, which is a product-specific affirmative AI mention.",
+        "ai_type_rationale": "The IVR menu streamlining and self-service function is described as the product's design purpose, and the AI-driven analytics are described as an added layer to boost customer experiences, so the offering is AI-enabled.",
+        "evidence_spans": [
+          "NICE Interactive Voice Response Optimization (IVRO) and Interactive Voice Response Analytics (IVRA) comprising Artificial Intelligence (AI) driven analytics"
+        ],
+        "ai_type_evidence_spans": [
+          "NICE IVRO 8.0 is designed to streamline menus and facilitate self-service"
+        ]
+      },
+      "blind": {
+        "annotation_id": "ann_0ce1deaef2e9ea13fa554dc9",
+        "description_sha256": "5683fcfc9468e4cdcc59be1505c8a6793e45e0751a38573b744506c44da052a4",
+        "ai_status": "ai",
+        "ai_type": "ai_enabled",
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": "supported",
+        "ai_type_forced_decision": false,
+        "rationale": "The IVR optimization and analytics offering is explicitly described as using AI-driven analytics.",
+        "ai_type_rationale": "The conventional core is IVR menu streamlining and self-service, while AI-driven analytics is described as the enhancement.",
+        "evidence_spans": [
+          "comprising Artificial Intelligence (AI) driven analytics to boost customer experiences across IVR journeys"
+        ],
+        "ai_type_evidence_spans": [
+          "Interactive Voice Response Optimization (IVRO) and Interactive Voice Response Analytics (IVRA)",
+          "comprising Artificial Intelligence (AI) driven analytics to boost customer experiences across IVR journeys"
+        ]
+      },
+      "parent_concerns": "Binary explicit AI-driven analytics supported. IVRO/IVRA comprises AI analytics and menu/self-service optimization. Recheck whether conventional meaningful core remains without AI, rather than assuming added layer."
+    },
+    {
+      "packet": {
+        "annotation_id": "ann_2d2f7dd36f0d4e844a1a1bb0",
+        "description_sha256": "e55660a604d602710724fcc5d6a23400c15b9afb1dc1d200cf02b8e58d643c70",
+        "description": "Industry leading solution to monetize and manage your subscription service. Zuora is an enterprise software company that creates and provides software for businesses to launch and manage their subscription-based services. Zuora's applications are designed to automate recurring billing, collections, quoting, revenue recognition, and subscription metrics.",
+        "source_record_references": [
+          "282"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_2d2f7dd36f0d4e844a1a1bb0",
+        "description_sha256": "e55660a604d602710724fcc5d6a23400c15b9afb1dc1d200cf02b8e58d643c70",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The text describes conventional subscription billing software for recurring billing, collections, quoting, revenue recognition, and subscription metrics. These are deterministic billing and finance functions, and no AI mention or AI-dependent functionality is described.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "designed to automate recurring billing, collections, quoting, revenue recognition, and subscription metrics"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind": {
+        "annotation_id": "ann_2d2f7dd36f0d4e844a1a1bb0",
+        "description_sha256": "e55660a604d602710724fcc5d6a23400c15b9afb1dc1d200cf02b8e58d643c70",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "ai_type_rationale": null,
+        "rationale": "The description covers subscription-service management with recurring billing, collections, quoting, revenue recognition, and subscription metrics.",
+        "evidence_spans": [
+          "automate recurring billing, collections, quoting, revenue recognition, and subscription metrics"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "parent_concerns": "Labeler calls billing/collections deterministic without text specifying implementation. Recheck support from concrete billing functions, not invented determinism; generic routine automation alone need not imply AI."
+    },
+    {
+      "packet": {
+        "annotation_id": "ann_75d9b76fa830f36acd422044",
+        "description_sha256": "b632f2dbf45ce8ea79979aef428f4437c65fe03f19a6dbc0fd63e1fd85eeba2b",
+        "description": "Tariffmatch is uniquely placed to work for the benefit of both service providers and their customers. Our core service is to provide detailed billing data analysis for telecoms carriers, to help them provide the best solutions for their business customers. Monthly subscription for UK and EMEA",
+        "source_record_references": [
+          "290"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_75d9b76fa830f36acd422044",
+        "description_sha256": "b632f2dbf45ce8ea79979aef428f4437c65fe03f19a6dbc0fd63e1fd85eeba2b",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The text describes a billing data analysis service for telecoms carriers with a monthly subscription. The analysis method is not specified, and the tariff-matching description is vague, so the negative is weak and forced.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Our core service is to provide detailed billing data analysis for telecoms carriers"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind": {
+        "annotation_id": "ann_75d9b76fa830f36acd422044",
+        "description_sha256": "b632f2dbf45ce8ea79979aef428f4437c65fe03f19a6dbc0fd63e1fd85eeba2b",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "ai_type_rationale": null,
+        "rationale": "Tariffmatch is described as providing detailed billing-data analysis for telecom carriers to support business-customer solutions.",
+        "evidence_spans": [
+          "provide detailed billing data analysis for telecoms carriers"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "parent_concerns": "Detailed billing-data analysis core explicitly described; labeler references tariff-matching based on name, not source functionality. Product-name inference forbidden. Assess actual analysis evidence not generic possibilities."
+    },
+    {
+      "packet": {
+        "annotation_id": "ann_816babeff857da2e18e8e64e",
+        "description_sha256": "9f71142ff5557b94a2d56e5c677ffb2e1b69bebc7cd466619c7dcbc21fadbd4d",
+        "description": "Voice ID system by repeating a short phrase several times to create a unique voiceprint. When a customer calls in the future, they will be asked to say that phrase again, so the technology can compare their verification voiceprint with the one that was created during enrollment.",
+        "source_record_references": [
+          "277"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_816babeff857da2e18e8e64e",
+        "description_sha256": "9f71142ff5557b94a2d56e5c677ffb2e1b69bebc7cd466619c7dcbc21fadbd4d",
+        "ai_status": "ai",
+        "ai_type": "ai_native",
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": "weak",
+        "ai_type_forced_decision": true,
+        "rationale": "The text describes voiceprint creation at enrollment and voiceprint comparison at verification without stating the comparison mechanism. Because this is an unexplained potentially AI-dependent biometric feature, non_ai is not supported. Binary positive is weak and forced.",
+        "ai_type_rationale": "The core offering is voice biometric verification via voiceprint comparison. The text does not establish whether that comparison depends on AI, so the subtype is weak and forced.",
+        "evidence_spans": [
+          "Voice ID system by repeating a short phrase several times to create a unique voiceprint",
+          "compare their verification voiceprint with the one that was created during enrollment"
+        ],
+        "ai_type_evidence_spans": [
+          "Voice ID system by repeating a short phrase several times to create a unique voiceprint"
+        ]
+      },
+      "blind": {
+        "annotation_id": "ann_816babeff857da2e18e8e64e",
+        "description_sha256": "9f71142ff5557b94a2d56e5c677ffb2e1b69bebc7cd466619c7dcbc21fadbd4d",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The text describes conventional voiceprint enrollment and comparison for caller verification, but does not resolve whether the voice mechanism is AI-dependent.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "create a unique voiceprint",
+          "the technology can compare their verification voiceprint with the one that was created during enrollment"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "parent_concerns": "Voiceprint enrollment/comparison mechanism unresolved; reconcile best forced binary without assuming AI or deterministic implementation."
+    },
+    {
+      "packet": {
+        "annotation_id": "ann_874c5af629f5170ca77e0992",
+        "description_sha256": "23fa902cda558459f27af3e7d736ffea52728a594ca75b97bbadf58ed02b4faa",
+        "description": "Nuance, a provider of natural speech interface software for telecommunications, enterprise and Web-based systems, has unveiled a voice-driven nationwide directory assistance application that can accurately recognize more than 100 million residential and business listings.",
+        "source_record_references": [
+          "275"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_874c5af629f5170ca77e0992",
+        "description_sha256": "23fa902cda558459f27af3e7d736ffea52728a594ca75b97bbadf58ed02b4faa",
+        "ai_status": "ai",
+        "ai_type": "ai_native",
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": "weak",
+        "ai_type_forced_decision": true,
+        "rationale": "The described core is a voice-driven directory assistance application that recognizes listings from speech. The text does not state the recognition mechanism, so non_ai is not supported; an unexplained potentially AI-dependent voice feature is present. Binary positive is weak and forced.",
+        "ai_type_rationale": "The core offering is voice-driven recognition of listings. Whether that recognition depends on AI is not established by the text, so the subtype is weak and forced.",
+        "evidence_spans": [
+          "voice-driven nationwide directory assistance application",
+          "that can accurately recognize more than 100 million residential and business listings"
+        ],
+        "ai_type_evidence_spans": [
+          "voice-driven nationwide directory assistance application"
+        ]
+      },
+      "blind": {
+        "annotation_id": "ann_874c5af629f5170ca77e0992",
+        "description_sha256": "23fa902cda558459f27af3e7d736ffea52728a594ca75b97bbadf58ed02b4faa",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description establishes a voice-driven directory-assistance and speech-recognition function, but does not establish an AI mechanism; voice recognition therefore leaves the binary classification ambiguous.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "voice-driven nationwide directory assistance application that can accurately recognize more than 100 million residential and business listings"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "parent_concerns": "Voice-driven nationwide recognition is described, but mechanism not stated; reconcile binary forced choice and preserve unresolved support flags."
+    },
+    {
+      "packet": {
+        "annotation_id": "ann_ba5f99830b9d5f0693bcea0f",
+        "description_sha256": "460e29de17f3ac324c906eb36eb6abfebc92470a4064aac15e9ffa58df99a8cf",
+        "description": "Nuance Communications has announced the launch of its next-generation Security Suite biometric fraud prevention and authentication solution, which uses third generation deep neural networks and advanced AI algorithms to detect anomalies in an interaction. \n\nThe new Security Suite introduces Nuance's ConversationPrint behavioural biometric technology and enhances the company's Omni-Channel Customer Engagement Platform, according to the announcement. ConversationPrint applies Nuance's core speech-to-text competency to short speech samples and analyzes vocabulary, sentence structure, grammar, and other characteristics that are individually unique to detect fraud.",
+        "source_record_references": [
+          "276"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_ba5f99830b9d5f0693bcea0f",
+        "description_sha256": "460e29de17f3ac324c906eb36eb6abfebc92470a4064aac15e9ffa58df99a8cf",
+        "ai_status": "ai",
+        "ai_type": "ai_native",
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": "supported",
+        "ai_type_forced_decision": false,
+        "rationale": "The described Security Suite fraud prevention and authentication solution is stated to use third generation deep neural networks and advanced AI algorithms to detect anomalies in an interaction.",
+        "ai_type_rationale": "The core detection function of the newly launched Security Suite is stated to depend on deep neural networks and AI algorithms, so the offering is AI-native as described.",
+        "evidence_spans": [
+          "uses third generation deep neural networks and advanced AI algorithms to detect anomalies in an interaction"
+        ],
+        "ai_type_evidence_spans": [
+          "Security Suite biometric fraud prevention and authentication solution, which uses third generation deep neural networks"
+        ]
+      },
+      "blind": {
+        "annotation_id": "ann_ba5f99830b9d5f0693bcea0f",
+        "description_sha256": "460e29de17f3ac324c906eb36eb6abfebc92470a4064aac15e9ffa58df99a8cf",
+        "ai_status": "ai",
+        "ai_type": "ai_enabled",
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": "supported",
+        "ai_type_forced_decision": false,
+        "rationale": "The Security Suite is explicitly described as using deep neural networks and advanced AI algorithms to detect interaction anomalies.",
+        "ai_type_rationale": "The described conventional core is biometric fraud prevention and authentication, while the AI is described as the detection enhancement.",
+        "evidence_spans": [
+          "uses third generation deep neural networks and advanced AI algorithms to detect anomalies in an interaction"
+        ],
+        "ai_type_evidence_spans": [
+          "biometric fraud prevention and authentication solution",
+          "uses third generation deep neural networks and advanced AI algorithms to detect anomalies in an interaction"
+        ]
+      },
+      "parent_concerns": "Explicit deep neural networks/AI establish binary. Blind calls biometric authentication conventional core enhanced by AI but does text actually establish it can remain without AI? Labeler calls core detection dependent. Recheck native/enabled based only on stated core, subtype uncertainty independent."
+    },
+    {
+      "packet": {
+        "annotation_id": "ann_c170c80f1397740b10cbdcf9",
+        "description_sha256": "b9186ef969da9c31702ea9eb1ff92886ef21966c2b0ad0aa7e749cc9d6a60829",
+        "description": "Amplitude is a product analytics application that assists companies to monitor website visitors using collaborative analytics. It utilizes behavioral reports to comprehend users' engagement with products and offers insights to speed up work in real time. Further, the program aids firms to grow by leveraging retention and conversion metrics.\n\nAmplitutde Growth Platform\nAmplitude Accounts\nAmplitude Platform Data Volume (50M events)",
+        "source_record_references": [
+          "289"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_c170c80f1397740b10cbdcf9",
+        "description_sha256": "b9186ef969da9c31702ea9eb1ff92886ef21966c2b0ad0aa7e749cc9d6a60829",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The text describes conventional behavioral reports, retention and conversion metrics, and collaborative analytics for website visitors. However, the text says the product offers insights in real time without describing how those insights are produced, so the negative is weak and forced.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "It utilizes behavioral reports to comprehend users' engagement with products and offers insights to speed up work in real time"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind": {
+        "annotation_id": "ann_c170c80f1397740b10cbdcf9",
+        "description_sha256": "b9186ef969da9c31702ea9eb1ff92886ef21966c2b0ad0aa7e749cc9d6a60829",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "ai_type_rationale": null,
+        "rationale": "The product is described as collaborative product analytics with behavioral reports, engagement insights, and retention and conversion metrics.",
+        "evidence_spans": [
+          "utilizes behavioral reports to comprehend users' engagement with products and offers insights to speed up work in real time",
+          "retention and conversion metrics"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "parent_concerns": "Behavioral reports, retention/conversion metrics and insights: are insights ordinary presentation of described metrics or unexplained generation? Reconcile without product memory."
+    },
+    {
+      "packet": {
+        "annotation_id": "ann_cc8c31f48c158a58d3bff68f",
+        "description_sha256": "807ee094050c0118551ca406eee5b458c76c95c2c9e6b721f6e927814ba11f5f",
+        "description": "The RetailNext SaaS platform organizes, analyzes and displays visualizations of massive volumes of diverse retail data. The software aggregates information from all your stores on the cloud, providing a unified and instant view of your stores and shoppers, across your chain-all in real time.",
+        "source_record_references": [
+          "279"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_cc8c31f48c158a58d3bff68f",
+        "description_sha256": "807ee094050c0118551ca406eee5b458c76c95c2c9e6b721f6e927814ba11f5f",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The text describes conventional cloud aggregation of store data into a unified, real-time dashboard view with visualizations. The word analyzes is unspecified and no mechanism is given, so the analytics ambiguity keeps this negative weak and forced.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "organizes, analyzes and displays visualizations of massive volumes of diverse retail data",
+          "The software aggregates information from all your stores on the cloud, providing a unified and instant view of your stores and shoppers, across your chain-all in real time"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind": {
+        "annotation_id": "ann_cc8c31f48c158a58d3bff68f",
+        "description_sha256": "807ee094050c0118551ca406eee5b458c76c95c2c9e6b721f6e927814ba11f5f",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The platform is described as organizing, analyzing, visualizing, aggregating, and reporting retail data across stores in real time.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "organizes, analyzes and displays visualizations of massive volumes of diverse retail data",
+          "aggregates information from all your stores on the cloud, providing a unified and instant view of your stores and shoppers"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "parent_concerns": "Cloud aggregation/visualizations/instant unified store views concrete; unspecified analyzes alone need not imply AI or weakness; do not invent mechanisms."
+    },
+    {
+      "packet": {
+        "annotation_id": "ann_dcf13d4db14f08d62eeeb36c",
+        "description_sha256": "46a0f1e8412d8cf3662e0d886d19c0c4e28928e519292199c5307cb8185762c3",
+        "description": "ShopperTrak is the leading global provider of retail analytics. Provider of people counter technology and foot traffic analysis that improve retail profitability.",
+        "source_record_references": [
+          "278"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_dcf13d4db14f08d62eeeb36c",
+        "description_sha256": "46a0f1e8412d8cf3662e0d886d19c0c4e28928e519292199c5307cb8185762c3",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The text describes people counter technology and foot traffic analysis, which are conventional counting and reporting functions with no described learned component. However, the analysis mechanism is unspecified and the description is brief, so the negative is weak and forced.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Provider of people counter technology and foot traffic analysis that improve retail profitability"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind": {
+        "annotation_id": "ann_dcf13d4db14f08d62eeeb36c",
+        "description_sha256": "46a0f1e8412d8cf3662e0d886d19c0c4e28928e519292199c5307cb8185762c3",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description meaningfully identifies retail analytics, people counting, and foot-traffic analysis for improving retail profitability.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "retail analytics",
+          "people counter technology and foot traffic analysis that improve retail profitability"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "parent_concerns": "People counting and foot-traffic analysis are concrete functions. Briefness/generic analytics alone need not make weak; distinguish any genuinely unresolved AI-suggestive capability."
+    },
+    {
+      "packet": {
+        "annotation_id": "ann_e13bd4a50b38fedd5bd25a4c",
+        "description_sha256": "485f02d0ec344c5510b30a650f2cf242d91e612f694ae379a924705ae20b22fd",
+        "description": "Operational Customer Experience Management OCEM platform, delivered under a Software-as-a-Service SaaS model, known as the Medallia Experience Cloud Core Platform. Track Experience Signals Created on Daily Journeys Using Proprietary AI Technology. Identify Causes & Outcomes by Observing Cross-Channel Brand Interactions. \n\nThe Core Platform captures customer feedback at different touch points where a customer interacts with your organization (e.g., a call center, website, or property) and provides real-time reporting and analysis of responses. Reporting & analytical tools.",
+        "source_record_references": [
+          "280"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_e13bd4a50b38fedd5bd25a4c",
+        "description_sha256": "485f02d0ec344c5510b30a650f2cf242d91e612f694ae379a924705ae20b22fd",
+        "ai_status": "ai",
+        "ai_type": "ai_enabled",
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": "supported",
+        "ai_type_forced_decision": false,
+        "rationale": "The text explicitly states that experience signals are tracked using proprietary AI technology, which is a product-specific affirmative AI mention.",
+        "ai_type_rationale": "The Core Platform is described as capturing customer feedback at touch points and providing reporting and analysis of responses, which remain as conventional functions. The AI signal tracking is described as an added capability on top of that core, so the offering is AI-enabled.",
+        "evidence_spans": [
+          "Track Experience Signals Created on Daily Journeys Using Proprietary AI Technology"
+        ],
+        "ai_type_evidence_spans": [
+          "The Core Platform captures customer feedback at different touch points where a customer interacts with your organization",
+          "provides real-time reporting and analysis of responses"
+        ]
+      },
+      "blind": {
+        "annotation_id": "ann_e13bd4a50b38fedd5bd25a4c",
+        "description_sha256": "485f02d0ec344c5510b30a650f2cf242d91e612f694ae379a924705ae20b22fd",
+        "ai_status": "ai",
+        "ai_type": "ai_enabled",
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": "supported",
+        "ai_type_forced_decision": false,
+        "rationale": "The platform explicitly tracks experience signals using proprietary AI technology while capturing feedback and providing reporting and analysis.",
+        "ai_type_rationale": "The conventional customer-feedback capture and reporting platform remains the described core, with proprietary AI used to track signals and identify causes and outcomes.",
+        "evidence_spans": [
+          "Track Experience Signals Created on Daily Journeys Using Proprietary AI Technology"
+        ],
+        "ai_type_evidence_spans": [
+          "The Core Platform captures customer feedback at different touch points",
+          "Track Experience Signals Created on Daily Journeys Using Proprietary AI Technology"
+        ]
+      },
+      "parent_concerns": "Binary explicit proprietary AI supported. AI tracking appears in Core Platform; both call it added enhancement. Does description establish conventional feedback capture/reporting remaining without AI? Recheck subtype without inventing optionality."
+    },
+    {
+      "packet": {
+        "annotation_id": "ann_eab5f2f03b035625d6bcba72",
+        "description_sha256": "44435b7b6c9cf7edd1d57ec01b2a98ff9c8e8d20c82a02f9b6a587e77b2a5c2a",
+        "description": "Clarabridge helps hundreds of the world's leading brands understand and improve their customer experience. Using advanced text analytics, Clarabridge'transforms survey, social, voice and all other forms of customer feedback into intelligence used to empower confident, decisive action across the business\n\nProvides a highly effective means of capturing what customers are saying with a best-in-class, industry-recognized text analytics solution. Listen to conversations from anywhere, at any time, to make accurate predictions that save time, effort, and money.",
+        "source_record_references": [
+          "294"
+        ]
+      },
+      "labeler": {
+        "annotation_id": "ann_eab5f2f03b035625d6bcba72",
+        "description_sha256": "44435b7b6c9cf7edd1d57ec01b2a98ff9c8e8d20c82a02f9b6a587e77b2a5c2a",
+        "ai_status": "ai",
+        "ai_type": "ai_native",
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": "weak",
+        "ai_type_forced_decision": true,
+        "rationale": "The text describes advanced text analytics that make accurate predictions, but the analytics mechanism and the predictive mechanism are unresolved. An unexplained potentially AI-dependent feature prevents a supported non_ai label, so the binary positive is weak and forced.",
+        "ai_type_rationale": "The core offering is text analytics that turns feedback into intelligence. The text does not establish whether that analysis depends on AI, so the subtype is weak and forced.",
+        "evidence_spans": [
+          "Using advanced text analytics, Clarabridge'transforms survey, social, voice and all other forms of customer feedback into intelligence",
+          "make accurate predictions that save time, effort, and money"
+        ],
+        "ai_type_evidence_spans": [
+          "Using advanced text analytics, Clarabridge'transforms survey, social, voice and all other forms of customer feedback into intelligence"
+        ]
+      },
+      "blind": {
+        "annotation_id": "ann_eab5f2f03b035625d6bcba72",
+        "description_sha256": "44435b7b6c9cf7edd1d57ec01b2a98ff9c8e8d20c82a02f9b6a587e77b2a5c2a",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "ai_type_rationale": null,
+        "rationale": "The description establishes text analytics over customer feedback and predictions, but does not resolve whether the analytics or predictive mechanism is AI-dependent.",
+        "evidence_spans": [
+          "advanced text analytics",
+          "make accurate predictions that save time, effort, and money"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "parent_concerns": "Text analytics transforms feedback into intelligence and makes accurate predictions. Mechanism unresolved; conventional surroundings cannot erase prediction uncertainty."
+    }
+  ]
+}

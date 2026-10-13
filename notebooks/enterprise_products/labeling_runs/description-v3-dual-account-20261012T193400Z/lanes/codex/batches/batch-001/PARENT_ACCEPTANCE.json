@@ -1,0 +1,35 @@
+{
+  "status": "finalized",
+  "timestamp": "2026-10-13T04:33:06.032433+00:00",
+  "selected_descriptions": 20,
+  "selected_rows": 20,
+  "exact_schema_quotes_checkpoint_equality": true,
+  "preserved10_reconciliation_hashes": {
+    "agents/reconciliation/checkpoints/ann_24e1253aaf6d1a80efea9db5.json": "449b437f0605486ee783cd5d72ff7b2e487cefc12e95130664cdf962479cdccf",
+    "agents/reconciliation/checkpoints/ann_4181dfa9cb5dafd03e5b6ccc.json": "3e3019d9ee8108c0abe7a732d725ca6ca38a12cb8a185d42a8dc2ae0284e8363",
+    "agents/reconciliation/checkpoints/ann_7fb5228e4f476879782e91e6.json": "3256d05ca33d5d84deb1cc9c10af6ab1781a39862995214417a243121d7bce79",
+    "agents/reconciliation/checkpoints/ann_8e4d7d75fef3e523cf1b348d.json": "a879419624a8aedc18ccc6378ab687c8182591d1b6364a76fdaea2e06d92cb15",
+    "agents/reconciliation/checkpoints/ann_94b003685876d31ef38a3948.json": "70de0eabdf003e9dd4b2bdf9b6b7c19e14e219450a8a662d35daebba66da198b",
+    "agents/reconciliation/checkpoints/ann_cb220c3971148790e50ff1bf.json": "f2b4307380c228edeffd4a00a56a515be3498ecb67e53c8f36712cf0dba9d834",
+    "agents/reconciliation/checkpoints/ann_df74f2c21523d165ee5124bf.json": "dcced5c492b1073068f2182ac59adc1d1a39bf701d46468d81003ab27f8005c8",
+    "agents/reconciliation/checkpoints/ann_eb5d8ec36addf3e43474feca.json": "982eddd8ecbb47221f05e5b4ee58b70e1dfbee1576a5dfbddf6daa32bf350bd9",
+    "agents/reconciliation/checkpoints/ann_fccc94b7422f66f704eaddfd.json": "107a650f89af762a2bd7a89a73b9cb1b678379d614cd09a15082cb25e3cd4a64",
+    "agents/reconciliation/checkpoints/ann_ff019aa7d0b357b4c065e130.json": "d450e6faf42e16b2f3cca1a279f881d191aead7f83397af4da579a5bde30a745"
+  },
+  "replacement_lineage": {
+    "first_replacement": "604a3064-2a35-454d-9d90-ca41cb72fc74",
+    "missing_only_replacement": "f1875dcc-f842-49cf-84cb-3f370fa9b622",
+    "workflow": "65d5b655-e451-4a60-a517-eb993704175c",
+    "changed_context_reason": "Native original resume rejected active-session ownership; user explicitly authorized same-model replacement missing1",
+    "scope": "Only ann_e7ae22b6912da54ad1badcb8;10 complete judgments unchanged"
+  },
+  "semantics_review": "Parent inspected original text/proposals and all11 final reviews;10 unresolved binary cases kept weak; conventional data/feedback/prospecting/research/email/scheduling/media functions supported from text. Attribution support differs between exact descriptions; no forced cross-description uniformity or implementation inference",
+  "accepted_reconciliation": "agents/reconciliation/accepted-combined-result.json",
+  "native_missing_record_equality": true,
+  "models": {
+    "labeler": "openai-codex/gpt-6-luna:high",
+    "blind": "openai-codex/gpt-6-luna:high",
+    "reconciliation": "openai-codex/gpt-6-luna:high"
+  },
+  "usage_source": "native workflow metadata, not billing audit"
+}

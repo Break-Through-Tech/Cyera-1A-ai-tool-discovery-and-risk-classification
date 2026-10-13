@@ -1,0 +1,47 @@
+{
+  "status": "active",
+  "lane": "codex",
+  "new_completed_descriptions": 20,
+  "new_completed_rows": 20,
+  "remaining_lane_descriptions": 591,
+  "remaining_lane_rows": 605,
+  "finalized_batches": [
+    "batch-001"
+  ],
+  "current_batch": "batch-002",
+  "active_workers": 2,
+  "stop_on_usage_limit": true,
+  "independent_workflow_run_id": "0906986e-f360-40cf-9d3f-0d079b2eca88",
+  "annotation_worker_slots_reserved": 0,
+  "original_blind_run_id": "1a0c6684-165e-4393-941a-5153ffdc90d2",
+  "recovery_blind_run_id": "744f5405-9265-42db-83c4-6b041c2d3b08",
+  "labeler_run_id": "39bca648-d9a2-4e76-85ae-1ff8cdd2ad6d",
+  "labeler_state": "complete20, structurally validated and unchanged; unfinalized",
+  "structural_recoveries_used": 1,
+  "resume_requires_user_request": false,
+  "blind_state": "native/checkpoint equality verified; exact native-byte accepted copy preserved alongside corrupt aggregate",
+  "repair_receipt": "runtime/PIPELINE_REPAIR_RECEIPT.json",
+  "latest_authorization": "ok resume the codex labeling workflow as well, run both the cursor and codex labeling workflows, dont stop unless theres a big error im gonna go to bed now and feel free to repair or fix anything that comes up",
+  "current_stage": "independent",
+  "reconciliation_workflow_run_id": "6e9c76f0-0419-418b-a4ac-f6aa6c2951c4",
+  "active_annotation_workers": 0,
+  "replacement_approval": "runtime/REPLACEMENT_VERIFIER_APPROVAL.json",
+  "replacement_child_run_id": "604a3064-2a35-454d-9d90-ca41cb72fc74",
+  "replacement_workflow_run_id": "a2214eac-d241-4a79-a755-ee968d26a615",
+  "completed_reconciliation_ids": [
+    "ann_24e1253aaf6d1a80efea9db5",
+    "ann_4181dfa9cb5dafd03e5b6ccc",
+    "ann_7fb5228e4f476879782e91e6",
+    "ann_8e4d7d75fef3e523cf1b348d",
+    "ann_94b003685876d31ef38a3948",
+    "ann_cb220c3971148790e50ff1bf",
+    "ann_df74f2c21523d165ee5124bf",
+    "ann_eb5d8ec36addf3e43474feca",
+    "ann_fccc94b7422f66f704eaddfd",
+    "ann_ff019aa7d0b357b4c065e130"
+  ],
+  "missing_reconciliation_ids": [
+    "ann_e7ae22b6912da54ad1badcb8"
+  ],
+  "blocker_receipt": "../../runtime/OVERNIGHT_CODEX_RESUME_BLOCKER.json"
+}

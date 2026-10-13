@@ -1,0 +1,23 @@
+{
+  "cursor_wave_run_id": "a5b9877b-2ed4-4206-b2af-6d529b900499",
+  "cursor_wave_batches": [
+    "batch-001",
+    "batch-002",
+    "batch-003",
+    "batch-004",
+    "batch-005"
+  ],
+  "cursor_handoff": "lanes/cursor/runtime/wave-001-resumed-handoff.md",
+  "codex_reconciliation_workflow_run_id": "6e9c76f0-0419-418b-a4ac-f6aa6c2951c4",
+  "codex_current_batch": "batch-001",
+  "authority": "User requested fix pipeline bug and continue labeling; same disjoint plan until completion/major error/usage limit",
+  "repair_receipt": "runtime/PIPELINE_REPAIR_RECEIPT.json",
+  "native_completions": "Wake parent automatically; no polling/bg_wait",
+  "four_worker_ceiling": 4,
+  "actual_annotation_workers": "Async launches requested; not proof Cursor pair has started",
+  "prior_finalized_verified": [
+    160,
+    174
+  ],
+  "ownership_verified": true
+}

@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_3a4cf02211f0c2d9a6d002b4",
+  "description_sha256": "5f5711d9e6f6896aa2a0910736997eebdc52883d68c1d00a34b76426e11b7b5e",
+  "ai_status": "ai",
+  "ai_type": "ai_native",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "The description explicitly states the platform automates sales rep ramp, coaching, activity analytics, and CRM data entry using machine learning, a product-specific affirmative AI claim that supports the binary positive.",
+  "ai_type_rationale": "The text presents the ML-based automation as the platform's own function, so ai_native is the best-supported subtype; it does not establish that the core sales management offering depends on ML rather than treating ML as an enhancement, so the subtype is weak and forced.",
+  "evidence_spans": [
+    "Provides sales management platform",
+    "automates sales rep ramp, coaching, activity analytics, and customer relationship management data entry using machine learning"
+  ],
+  "ai_type_evidence_spans": [
+    "through its platform, automates sales rep ramp, coaching, activity analytics, and customer relationship management data entry using machine learning"
+  ]
+}

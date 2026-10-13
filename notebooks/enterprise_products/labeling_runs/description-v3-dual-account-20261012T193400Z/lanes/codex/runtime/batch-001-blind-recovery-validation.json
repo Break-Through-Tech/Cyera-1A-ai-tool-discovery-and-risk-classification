@@ -1,0 +1,31 @@
+{
+  "status": "blocked",
+  "recovery_run_id": "744f5405-9265-42db-83c4-6b041c2d3b08",
+  "original_run_id": "1a0c6684-165e-4393-941a-5153ffdc90d2",
+  "saved_records": 20,
+  "native_records": 20,
+  "persisted_native_equality": false,
+  "record_map_equality": false,
+  "different_records": [
+    {
+      "annotation_id": "ann_7fb5228e4f476879782e91e6",
+      "fields": [
+        "evidence_spans"
+      ]
+    }
+  ],
+  "saved_schema_coverage_quotes": "evidence_spans contains blank or non-exact quotation",
+  "native_schema_coverage_quotes": "passed",
+  "checkpoint_mismatches": [
+    "ann_7fb5228e4f476879782e91e6"
+  ],
+  "raw_empty_preserved": true,
+  "labeler_raw_unchanged": true,
+  "native_output_path": "/tmp/pi-subagents-uid-1000/async-subagent-runs/744f5405-9265-42db-83c4-6b041c2d3b08/structured-output/pi-subagent-structured-EZvXYx/output.json",
+  "native_output_sha256": "2fe27d21647b3c0999e36ce02d6d1793b1e13b081295cbfaaa1a37dced5b58a3",
+  "persisted_output_sha256": "891237bd349d2b9842b42951761a96bace69256ee67e61eb25b3e71b7b79a909",
+  "finalized": false,
+  "comparison_reconciliation_not_started": true,
+  "further_recovery_allowed": false,
+  "stop_state": "All workers settled; original one recovery failed equality gate; no more retries or stages without explicit new authorization."
+}

@@ -1,0 +1,20 @@
+{
+  "annotation_id": "ann_8c8bf1e6749acce68b164a48",
+  "description_sha256": "9412e72dd9233666a21469ff77c2e45ca93e9a3c65afe61ad324a585e3f5c15c",
+  "ai_status": "ai",
+  "ai_type": "ai_native",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "supported",
+  "ai_type_forced_decision": false,
+  "rationale": "The description explicitly names Conversational AI and NLP as technologies leveraged by the CSA platform to optimize customer-agent interactions and increase self-service, alongside RPA and agent-task automation.",
+  "ai_type_rationale": "The platform is named Conversational Service Automation and its central interaction and self-service function is expressly described as leveraging Conversational AI and NLP. RPA is an additional mechanism, not evidence that the AI is merely an optional enhancement.",
+  "evidence_spans": [
+    "Conversational Service Automation (CSA) Platform",
+    "Leveraging Conversational AI, NLP and RPA, CSA optimizes customer-agent interactions increasing self-service rates"
+  ],
+  "ai_type_evidence_spans": [
+    "Leveraging Conversational AI, NLP and RPA, CSA optimizes customer-agent interactions increasing self-service rates"
+  ],
+  "conflict_response": "The RPA and after-call-work functions are included, but the text places Conversational AI and NLP in the central CSA interaction and self-service offering. This supports ai_native based on stated core dependence, not on the AI mention alone."
+}
