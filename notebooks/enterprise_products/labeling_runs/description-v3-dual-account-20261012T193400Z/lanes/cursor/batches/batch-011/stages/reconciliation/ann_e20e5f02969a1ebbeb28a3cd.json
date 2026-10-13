@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_e20e5f02969a1ebbeb28a3cd",
+  "description_sha256": "ca4b06bfc99ff4c896d41c2e5a466fb2167b4ad6b10fc775da10fd41e2f80463",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description meaningfully identifies a customizable RF planning tool used by engineers to plan and optimize cell site configurations. It does not describe AI or a learned optimization method.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "Atoll is a third-party RF planning tool from Forsk SAS that allows for customizations.",
+    "It is used by RF design and system performance engineers to plan and optimize cell site configurations."
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "Although the optimization mechanism is not specified, RF planning and cell-site configuration are concrete conventional functions in the supplied text. The word 'optimize' alone is not an affirmative AI signal, so the description supports non_ai rather than requiring a weak forced decision."
+}

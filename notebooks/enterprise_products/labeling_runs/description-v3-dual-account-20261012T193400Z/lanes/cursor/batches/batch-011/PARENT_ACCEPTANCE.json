@@ -1,0 +1,47 @@
+{
+  "status": "finalized",
+  "batch_id": "batch-011",
+  "selected_descriptions": 20,
+  "selected_rows": 20,
+  "exact_plan_hash_and_reference_coverage": true,
+  "exact_schema_quotes_provenance_checkpoint_equality": true,
+  "independent_results_registered_before_comparison": true,
+  "raw_results_and_private_checkpoints_preserved_unchanged": true,
+  "raw_hash_receipt": "runtime/independent-result-hashes.json",
+  "structural_repair_receipt": "runtime/structural-recovery-receipt.json",
+  "mechanical_repairs": 1,
+  "semantic_fields_unchanged": true,
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "transport_observations": {
+    "labeler": "Native Cursor CLI Claude Haiku 5.5 300K High; explicit model/workspace; 20 complete records",
+    "blind": "Native Cursor CLI GPT-5.6 Luna 272K High; explicit model/workspace; 20 blind records and one 9-ID reconciliation in same conversation"
+  },
+  "reconciliation_count": 9,
+  "helper_required_reconciliation_ids": [
+    "ann_60e84405ce4c16858ddec010",
+    "ann_652466f718507d125f9c2994",
+    "ann_696e867d3bee876ddafc4018",
+    "ann_93ff65b639005d799a5df5a3",
+    "ann_c7635e3697cf7af5ffba1012",
+    "ann_dc3ff727c6594e6bdad3fc88",
+    "ann_e20e5f02969a1ebbeb28a3cd",
+    "ann_e351cbca126ceb416e11b6b0"
+  ],
+  "semantics_review": "All 20 exact text/proposal pairs inspected. Reconciliation covered all helper-required weak/disagreement/subtype and concrete support concerns; only one structural quote-only correction, preserving raw worker bytes and all semantic fields. Weak final cases remain flagged; AI binary and subtype evidence independent.",
+  "final_binary_weak_count": 2,
+  "final_subtype_weak_count": 0,
+  "exports_verified": true,
+  "export_hashes": {
+    "description_labels.json": "c6e81130658affc061df8325502d62f2fe8540ad1353f1d47091eaa4f9a07d82",
+    "record_labels.json": "9458753670636270436dab8a2e9a166c3047e7d55867adea458862b28b513890",
+    "review_ledger.json": "1813b86865b8b20ba3821a6069026eb6720b2d80a4586c441e7d5b3eea2c0329",
+    "review_queue.json": "1131fefd7fc18345688a00d27e4350bc395ef081f5ef393208ca0285d44069fa",
+    "non_ai_candidates.csv": "cd0cd36a5fda42c35571ba158e3d8d6b9897ba5e6a4695fbb610338b01d31985",
+    "calibration_report.json": "705415b57f82f4bf22e5ea88fafc0faacf160f310c0cc35363d3336b435042e9"
+  },
+  "cost_usd": null,
+  "billed_tokens": null
+}

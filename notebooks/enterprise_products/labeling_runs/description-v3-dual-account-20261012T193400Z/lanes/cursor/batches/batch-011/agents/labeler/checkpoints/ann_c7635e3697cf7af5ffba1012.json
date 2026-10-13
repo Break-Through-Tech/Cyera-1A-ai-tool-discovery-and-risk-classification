@@ -1,0 +1,17 @@
+{
+  "annotation_id": "ann_c7635e3697cf7af5ffba1012",
+  "description_sha256": "7264dd8f5390a70c6dc5594db563b150ff4d9388d12434ae10d850d441da7564",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "Describes line-parameter reprofiling, line and network diagnostics, a SOAP northbound API, and SNMP/JMX monitoring, but 'optimizing the operating parameters' does not state whether the optimization is rule-based or learned; non-AI is a weak forced label.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "optimizing the operating parameters of each DSL line, known as reprofiling",
+    "The DSL Expresse Northbound API (NAPI) is used to communicate such information over a webservice (XML over SOAP)"
+  ],
+  "ai_type_evidence_spans": null
+}

@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_60e84405ce4c16858ddec010",
+  "description_sha256": "0fc0840dea74681d1350eddfdc1d5fc10a4c3623316cb90dfa3344b5b84218fc",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description meaningfully specifies network operations monitoring, physical and virtual inventory discovery, and network performance monitoring. The term analytics is not presented as AI or as an unexplained AI-dependent method.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "is a converged network operations monitoring solution for enterprise and service provider networks",
+    "discovers traditional, physical inventories as well as modern, dynamic inventories in virtual and logical overlays.",
+    "comprehensive and highly scalable network performance monitoring and analytics platform."
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The labeler correctly identified that analytics is not specified as AI, but its weak qualification is unnecessary here. The description independently establishes conventional monitoring and inventory-discovery functionality, while the analytics wording is not enough to infer a learned or AI implementation. Therefore the binary negative is supported rather than weak or forced."
+}

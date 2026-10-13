@@ -1,0 +1,360 @@
+[
+  {
+    "product_description": "Developed by Ribbon, the Virtual Network Function Manager (VNFM) is a virtualized management application that provides VNF Lifecycle Management (LCM) for Ribbon VNFs. The VNFM is part of a standard-based ETSI NFV architecture, and works with customer-provided NFV Orchestrators (NFVO) and Virtual Infrastructure Managers (VIM)-the latter being based on OpenStack.",
+    "annotation_id": "ann_034c700f91e0b48873e17292",
+    "description_sha256": "1a7701c839328c4531aace64844bae129dab62ee4528c774fc3c3cf21aa8d7ca",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a virtualized application providing VNF lifecycle management within an ETSI NFV architecture that works with customer-provided orchestrators and infrastructure managers; no AI functionality is described.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "provides VNF Lifecycle Management (LCM) for Ribbon VNFs",
+      "works with customer-provided NFV Orchestrators (NFVO) and Virtual Infrastructure Managers (VIM)"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "EXFO's platform baseline services and shell environment. This software package includes all the platform-enabled services that are used by compatible platform and module applications. This package also includes the system shell environment defined as ToolBox X. The download version of EXFO ToolBox Office is 7. Use it for fiber optic line traces analysis.",
+    "annotation_id": "ann_27e853b6b1f40c568fd2f225",
+    "description_sha256": "69139643630fb6f512bbfff263a70e1e126828d54d89810402a881b29445b32a",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes platform-enabled baseline services, a system shell environment, and fiber optic line trace analysis use; these are conventional software functions with no AI mention.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "This software package includes all the platform-enabled services that are used by compatible platform and module applications.",
+      "Use it for fiber optic line traces analysis."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "The purpose of this application is track inventory for cell sites, MSC, and network. The application allows the field operations to enter serial numbers, parts, and track ID on purchases or returns.",
+    "annotation_id": "ann_3a30537c5678544f7e3b7dc5",
+    "description_sha256": "a9d702485558bc6b3f73d778d41c7f227f933051b91de3ac9b7632a3feebf0d6",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a field inventory-tracking application for entering serial numbers, parts, and track IDs on purchases or returns; this is conventional data entry and tracking with no AI mention.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "The application allows the field operations to enter serial numbers, parts, and track ID on purchases or returns."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "The Swim Platform is a distributed operating system for running stateful, real-time streaming Web Agent applications. A Swim Fabric is a cluster of compute nodes running the Swim Platform software. A Web Agent is a general-purpose distributed compute process that runs on a Swim Fabric. Web Agent Applications are particular programs that execute inside a Web Agent process.",
+    "annotation_id": "ann_576657661d69ec642aa45d3b",
+    "description_sha256": "7fb21faa8df95bdb7e845d39deb762e0ff3b1febe26ca4ef5403521e4dd950ee",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a distributed operating system and compute-cluster runtime for stateful, real-time streaming application processes; this is conventional distributed-systems software with no AI mention.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "The Swim Platform is a distributed operating system for running stateful, real-time streaming Web Agent applications.",
+      "A Swim Fabric is a cluster of compute nodes running the Swim Platform software."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "CA Performance Management is a converged network operations monitoring solution for enterprise and service provider networks that discovers traditional, physical inventories as well as modern, dynamic inventories in virtual and logical overlays.\n\nCA Performance Management is a comprehensive and highly scalable network performance monitoring and analytics platform. It was built to meet the unique demands of big data and modern networks architectures, including highly dynamic and complex hybrid cloud and software-defined networks (SDN).",
+    "annotation_id": "ann_60e84405ce4c16858ddec010",
+    "description_sha256": "0fc0840dea74681d1350eddfdc1d5fc10a4c3623316cb90dfa3344b5b84218fc",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description meaningfully specifies network operations monitoring, physical and virtual inventory discovery, and network performance monitoring. The term analytics is not presented as AI or as an unexplained AI-dependent method.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "is a converged network operations monitoring solution for enterprise and service provider networks",
+      "discovers traditional, physical inventories as well as modern, dynamic inventories in virtual and logical overlays.",
+      "comprehensive and highly scalable network performance monitoring and analytics platform."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "EXFOWorx is a network performance tool.",
+    "annotation_id": "ann_652466f718507d125f9c2994",
+    "description_sha256": "0099b135d8cd534dc1c36b87a6873a93010f0ad004beac6113297794c37f474b",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The only supplied functionality is the generic category 'network performance tool'; it provides no specific conventional feature detail and no affirmative AI signal, so the non-AI judgment is weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "EXFOWorx is a network performance tool."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Software defined wide area network SD-WAN is a software-defined approach to managing the wide-area network, or WAN. Extend intent-based networking across the branch, WAN, and cloud\n\nCisco Meraki allows you to configure security for Internet-connected devices, routers, switches, firewalls and WiFi networks your company uses through an internet-connected browser. It provides a convenient and efficient way of configuring your organization's entire network.",
+    "annotation_id": "ann_696e867d3bee876ddafc4018",
+    "description_sha256": "3f6a07f2dfbde19e375c39c4231a728c1f7059b72e2e22503040f34d355bf423",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description explicitly establishes conventional SD-WAN management and browser-based configuration of security and network devices. 'Intent-based networking' is not described as AI, learned behavior, or a model.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Software defined wide area network SD-WAN is a software-defined approach to managing the wide-area network, or WAN.",
+      "It provides a convenient and efficient way of configuring your organization's entire network."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "SolarWinds' NetFlow Traffic Analyzer (NTA) allows you to capture data from continuous streams of network traffic, and convert those raw numbers into easy-to-interpret charts and tables that quantify exactly how the corporate network is being used, by whom, and for what purpose.",
+    "annotation_id": "ann_7536d67fee42ee21117d2160",
+    "description_sha256": "caaff0d76239817cbea4e88b21ee614e88d2457f4c62d17ebc5c1528b2c84cb5",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes capturing network traffic data and converting it into charts and tables for usage reporting; this is conventional traffic reporting with no AI functionality mentioned.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "capture data from continuous streams of network traffic",
+      "convert those raw numbers into easy-to-interpret charts and tables"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "SNAP sends test traffic through the core network to report on Frame Loss, Frame Delay, and Frame Delay Variation.",
+    "annotation_id": "ann_78fcd49ad79bf55c35cc44b7",
+    "description_sha256": "281021ded130385170fa1e7f07f356c2e0fb190fa5b97b6c53007f63fa41cb6a",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes sending test traffic through the core network to report Frame Loss, Frame Delay, and Frame Delay Variation, which are conventional network measurements; no AI functionality is mentioned.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "SNAP sends test traffic through the core network to report on Frame Loss, Frame Delay, and Frame Delay Variation."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Powered by IrisView . ISA leverages a proven multi-protocol correlation engine for real-time and historical trace options from a single application.\n\nIris Session Analyzer (ISA) uncovers and analyzes the specific calls and sessions that fail to deliver required performance.",
+    "annotation_id": "ann_7e4d631aadcf117af8a760dd",
+    "description_sha256": "ea3aa10462d0ca41d3114ed68c199853d1304566d61b7e34e20381d56f3fb416",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a multi-protocol correlation engine providing real-time and historical trace options and identification of failing calls and sessions; these are conventional correlation and tracing functions with no AI mention.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "ISA leverages a proven multi-protocol correlation engine for real-time and historical trace options from a single application.",
+      "uncovers and analyzes the specific calls and sessions that fail to deliver required performance"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "nGeniusONE assures performance of the cloud, virtual, co-lo, and on-site data center platforms running todays government, healthcare, and business services. nGeniusONE assures remote user experience by monitoring capacity and performance of VPN, VDI, UC, and healthcare delivery services.",
+    "annotation_id": "ann_8a7d2bd95e0cb59e32e6e103",
+    "description_sha256": "5fcb34fc9cbcbfc4fbab77891f323cfada0d1481035c94df86d30bf7dec9c4f6",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes monitoring of capacity and performance for VPN, VDI, UC, and healthcare delivery services; this is conventional performance monitoring with no AI mention.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "nGeniusONE assures remote user experience by monitoring capacity and performance of VPN, VDI, UC, and healthcare delivery services."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "The Cisco Crosswork Infrastructure with Cisco Crosswork Change Automation and Health Insights enables service providers to quickly deploy intent-driven, closed-loop operations.\n\nCisco Crosswork Change Automation and Health Insights provides a ready-to-use solution supporting the following use cases:\n\nMonitor Key Performance Indicators (KPIs) and notify of any anomalies.\n\nPrepare network changes triggered by changes in KPIs and roll out these changes.\n\nAutomate change-impact and remediation.",
+    "annotation_id": "ann_93ff65b639005d799a5df5a3",
+    "description_sha256": "a90bd8f91052306b9836d965c00a1672118eeb805ef54ba10318de8dd2c86ab1",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description provides concrete monitoring, KPI-triggered network changes, rollout, and remediation automation. Anomaly notification and closed-loop automation are not described as learned or AI functionality.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Monitor Key Performance Indicators (KPIs) and notify of any anomalies.",
+      "Prepare network changes triggered by changes in KPIs and roll out these changes.",
+      "Automate change-impact and remediation."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "TrueCall is the first LTE network visualization application delivering maps showing demand, throughput and user equipment performancet.  TrueCall® is a software solution that provides real-time, 24x7x365 analysis of data originating in the radio access network (RAN). The data is enriched using TrueCall’s advanced geolocation algorithm, and correlated with subscriber and device data. It enables complete insight into the true performance of the RAN by combining all critical dimensions of RAN operation in one place",
+    "annotation_id": "ann_a9e17ae1e1dc0e4fce93551b",
+    "description_sha256": "315b71a585dff7ad56f60e9b1be932a35d18430838f8945cb7e933ca27c38b43",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description specifies RAN data analysis, map visualization, geolocation enrichment, and data correlation. 'Advanced geolocation algorithm' does not state AI, learning, or a model.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "TrueCall® is a software solution that provides real-time, 24x7x365 analysis of data originating in the radio access network (RAN).",
+      "The data is enriched using TrueCall’s advanced geolocation algorithm, and correlated with subscriber and device data."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Test calls generator product, and application software. The NetSense call allows a carrier to perform a variety of quality measurements and verifications to a mixture of destinations all over the world. The test calls are originated in the carriers own network and the result of the same can be analyzed in real-time.",
+    "annotation_id": "ann_ab74469531728702645c7e8d",
+    "description_sha256": "7ac806a8da9b0bf229794d75f42cf22b0853001791759ebe48d38bd50aca259a",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a test-call generator that performs carrier quality measurements and verifications and allows real-time analysis of results; this is conventional measurement functionality with no AI mention.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "The NetSense call allows a carrier to perform a variety of quality measurements and verifications to a mixture of destinations all over the world.",
+      "the result of the same can be analyzed in real-time"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "ASSIA's DSL Expresse  software platform enables operators to extend the rate and reach of their DSL\nnetworks while maximizing service quality and minimizing maintenance costs.\nDSL Expresse does this by optimizing the operating parameters of each DSL line, known as reprofiling,\nwhile also providing detailed line-level and network-level diagnostics for both the copper plant and the\nDSL services running upon it. In order to collect data from the network, basic information regarding the DSLAMs and their ports is required. The DSL Expresse Northbound API (NAPI) is used to communicate such information over a webservice (XML over SOAP). Communication can be direct from the operator's Operations Support System\n(OSS), or via intermediate flat-files that are loaded periodically via a NAPI frontend tool. A minimal integration of DSL Expresse provides a flow of this information from the OSS to the NAPI and monitoring of the platform. Monitoring of the DSL Expresse platform is achieved using SNMP or the Java management extensions (JMX). An ASSIA MIB is provided for SNMP monitoring that covers a rich set of observables.",
+    "annotation_id": "ann_c7635e3697cf7af5ffba1012",
+    "description_sha256": "7264dd8f5390a70c6dc5594db563b150ff4d9388d12434ae10d850d441da7564",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description meaningfully specifies DSL line reprofiling, line and network diagnostics, SOAP data integration, and SNMP/JMX monitoring. Optimization is not described as learned or AI-based.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "optimizing the operating parameters of each DSL line, known as reprofiling,",
+      "while also providing detailed line-level and network-level diagnostics for both the copper plant and the\nDSL services running upon it.",
+      "Monitoring of the DSL Expresse platform is achieved using SNMP or the Java management extensions (JMX)."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Ericsson Network Manager is a unified network management system designed to meet the needs of local and global service providers. Hosted Ericsson ENM cloud service. Used to manage Ericsson 5G gNodeB and 4G eNodeB in the Innovation Center labs and some Alley locations. Ericsson Network Manager offers a uniform operational environment with a collection of consolidated management functions based on a cloud-based ready software platform. With it's close to zero-downtime during software upgrade in ensure full visibility and control of the networks. The system also provides a set of unified applications and tools to manage Radio access, Transport, and Core networks in a controlled and secure way.",
+    "annotation_id": "ann_c8faebeac6408d458285b484",
+    "description_sha256": "4c2c3fc4ee9005b12d24fcfb8cc4c5c5663085208dff67eeab4f0120393ff042",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a unified network management system with consolidated management functions, controlled software upgrades, and unified tools for managing radio access, transport, and core networks; no AI functionality is mentioned.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Ericsson Network Manager is a unified network management system",
+      "a collection of consolidated management functions based on a cloud-based ready software platform"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Emergency Gateway (EGW) is an on-site appliance that streamlines E9-1-1 management. It ensures that your IP phone locations'are updated and current and notifies on-site security personnel any time 9-1-1 is dialed from within your enterprise.  Previously West Safety Services E911",
+    "annotation_id": "ann_d8950bebc643deda09020bc0",
+    "description_sha256": "da51c9f4b3fcd99db68dc5d7f853c4def9a0e43af9ddca2c73d0290dbe82c6a3",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes an on-site E9-1-1 appliance that keeps IP phone location data current and notifies security personnel when 9-1-1 is dialed; these are conventional location-update and notification functions with no AI mention.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "It ensures that your IP phone locations'are updated and current",
+      "notifies on-site security personnel any time 9-1-1 is dialed from within your enterprise"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Trusted Call Solutions help Communications Service Providers (CSPs) and enterprises take action to protect consumers from the onslaught of robocalls and call spoofing, and get calls answered.",
+    "annotation_id": "ann_dc3ff727c6594e6bdad3fc88",
+    "description_sha256": "99857878a53f32a42d876824e5b1e9920fa92ed0b066e997e8d3d9278728f881",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description states an intended call-protection outcome against robocalls and spoofing but does not describe the mechanism or enough conventional functionality to support a firm negative; non_ai is therefore weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Trusted Call Solutions help Communications Service Providers (CSPs) and enterprises take action to protect consumers from the onslaught of robocalls and call spoofing, and get calls answered."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Atoll is a third-party RF planning tool from Forsk SAS that allows for customizations. It is used by RF design and system performance engineers to plan and optimize cell site configurations.",
+    "annotation_id": "ann_e20e5f02969a1ebbeb28a3cd",
+    "description_sha256": "ca4b06bfc99ff4c896d41c2e5a466fb2167b4ad6b10fc775da10fd41e2f80463",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description meaningfully identifies a customizable RF planning tool used by engineers to plan and optimize cell site configurations. It does not describe AI or a learned optimization method.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Atoll is a third-party RF planning tool from Forsk SAS that allows for customizations.",
+      "It is used by RF design and system performance engineers to plan and optimize cell site configurations."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Quick troubleshooting and conduct root-cause analysis of wireless networks. Accuver delivers comprehensive wireless testing and measurement solutions for LTE and IoT network operators, infrastructure vendors, and device and chipset manufacturers. Mid Tier, XCAL-M and XCAP-M bundle package for 5G NR NSA",
+    "annotation_id": "ann_e351cbca126ceb416e11b6b0",
+    "description_sha256": "e810b450ff0db64835aa2ea257ba37af8cc433c901e9843f22d31571815aefa7",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description meaningfully specifies wireless troubleshooting, root-cause analysis, and testing and measurement solutions. It does not describe AI, learned models, or an AI-dependent method.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Quick troubleshooting and conduct root-cause analysis of wireless networks.",
+      "Accuver delivers comprehensive wireless testing and measurement solutions for LTE and IoT network operators, infrastructure vendors, and device and chipset manufacturers."
+    ],
+    "ai_type_evidence_spans": null
+  }
+]

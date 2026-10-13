@@ -1,0 +1,18 @@
+{
+  "status": "mechanical_repair_only",
+  "raw_artifacts_unchanged": true,
+  "repairs": [
+    {
+      "role": "blind",
+      "annotation_id": "ann_c7635e3697cf7af5ffba1012",
+      "field": "evidence_spans[0]",
+      "before": "while also providing detailed line-level and network-level diagnostics for both the copper plant and the DSL services running upon it.",
+      "after": "while also providing detailed line-level and network-level diagnostics for both the copper plant and the\nDSL services running upon it.",
+      "description_sha256": "7264dd8f5390a70c6dc5594db563b150ff4d9388d12434ae10d850d441da7564",
+      "semantic_fields_unchanged": true,
+      "mechanical_reason": "original span omitted a source newline; accepted quote is copied exactly from frozen description"
+    }
+  ],
+  "valid_semantic_fields_preserved": true,
+  "repair_count": 1
+}

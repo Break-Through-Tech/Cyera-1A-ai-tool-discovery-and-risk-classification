@@ -1,0 +1,168 @@
+{
+  "stage": "reconciliation",
+  "records": [
+    {
+      "annotation_id": "ann_60e84405ce4c16858ddec010",
+      "description_sha256": "0fc0840dea74681d1350eddfdc1d5fc10a4c3623316cb90dfa3344b5b84218fc",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description meaningfully specifies network operations monitoring, physical and virtual inventory discovery, and network performance monitoring. The term analytics is not presented as AI or as an unexplained AI-dependent method.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is a converged network operations monitoring solution for enterprise and service provider networks",
+        "discovers traditional, physical inventories as well as modern, dynamic inventories in virtual and logical overlays.",
+        "comprehensive and highly scalable network performance monitoring and analytics platform."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler correctly identified that analytics is not specified as AI, but its weak qualification is unnecessary here. The description independently establishes conventional monitoring and inventory-discovery functionality, while the analytics wording is not enough to infer a learned or AI implementation. Therefore the binary negative is supported rather than weak or forced."
+    },
+    {
+      "annotation_id": "ann_652466f718507d125f9c2994",
+      "description_sha256": "0099b135d8cd534dc1c36b87a6873a93010f0ad004beac6113297794c37f474b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The only supplied functionality is the generic category 'network performance tool'; it provides no specific conventional feature detail and no affirmative AI signal, so the non-AI judgment is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "EXFOWorx is a network performance tool."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The blind proposal treated the generic category as enough for supported negative evidence, but the labeler correctly identified that no concrete function is described. Because the text is too sparse to establish the required conventional functionality, I retain non_ai only as a weak forced decision; the lack of an AI term does not strengthen it."
+    },
+    {
+      "annotation_id": "ann_696e867d3bee876ddafc4018",
+      "description_sha256": "3f6a07f2dfbde19e375c39c4231a728c1f7059b72e2e22503040f34d355bf423",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description explicitly establishes conventional SD-WAN management and browser-based configuration of security and network devices. 'Intent-based networking' is not described as AI, learned behavior, or a model.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Software defined wide area network SD-WAN is a software-defined approach to managing the wide-area network, or WAN.",
+        "It provides a convenient and efficient way of configuring your organization's entire network."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The unexplained phrase 'intent-based networking' does not by itself establish product-specific AI or a learned model. The same text concretely describes WAN management and configuration of devices, routers, switches, firewalls, and WiFi through a browser, which is meaningful conventional functionality. That supports non_ai without forcing the decision."
+    },
+    {
+      "annotation_id": "ann_93ff65b639005d799a5df5a3",
+      "description_sha256": "a90bd8f91052306b9836d965c00a1672118eeb805ef54ba10318de8dd2c86ab1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description provides concrete monitoring, KPI-triggered network changes, rollout, and remediation automation. Anomaly notification and closed-loop automation are not described as learned or AI functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Monitor Key Performance Indicators (KPIs) and notify of any anomalies.",
+        "Prepare network changes triggered by changes in KPIs and roll out these changes.",
+        "Automate change-impact and remediation."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's uncertainty about whether anomaly detection or remediation is learned is not resolved by the text, but that missing implementation detail does not make the binary negative weak here. The description explicitly supplies conventional KPI monitoring, KPI-triggered changes, rollout, and automation; it contains no affirmative AI signal. Thus non_ai remains supported, with no subtype applicable."
+    },
+    {
+      "annotation_id": "ann_a9e17ae1e1dc0e4fce93551b",
+      "description_sha256": "315b71a585dff7ad56f60e9b1be932a35d18430838f8945cb7e933ca27c38b43",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies RAN data analysis, map visualization, geolocation enrichment, and data correlation. 'Advanced geolocation algorithm' does not state AI, learning, or a model.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "TrueCall® is a software solution that provides real-time, 24x7x365 analysis of data originating in the radio access network (RAN).",
+        "The data is enriched using TrueCall’s advanced geolocation algorithm, and correlated with subscriber and device data."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The phrase 'advanced geolocation algorithm' identifies an algorithm but does not affirmatively identify AI or learned functionality. The surrounding text describes conventional data analysis, enrichment, correlation, and visualization, so the concern does not require a weak label. The supported non_ai binary judgment stands and subtype fields remain null."
+    },
+    {
+      "annotation_id": "ann_c7635e3697cf7af5ffba1012",
+      "description_sha256": "7264dd8f5390a70c6dc5594db563b150ff4d9388d12434ae10d850d441da7564",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description meaningfully specifies DSL line reprofiling, line and network diagnostics, SOAP data integration, and SNMP/JMX monitoring. Optimization is not described as learned or AI-based.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "optimizing the operating parameters of each DSL line, known as reprofiling,",
+        "while also providing detailed line-level and network-level diagnostics for both the copper plant and the\nDSL services running upon it.",
+        "Monitoring of the DSL Expresse platform is achieved using SNMP or the Java management extensions (JMX)."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's concern correctly notes that the optimization method is unspecified, but 'optimizing' and 'reprofiling' do not affirmatively establish AI or a learned method. The same description gives substantial conventional functionality—diagnostics, XML/SOAP integration, and SNMP/JMX monitoring—so the binary non_ai judgment is supported rather than weak or forced."
+    },
+    {
+      "annotation_id": "ann_dc3ff727c6594e6bdad3fc88",
+      "description_sha256": "99857878a53f32a42d876824e5b1e9920fa92ed0b066e997e8d3d9278728f881",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description states an intended call-protection outcome against robocalls and spoofing but does not describe the mechanism or enough conventional functionality to support a firm negative; non_ai is therefore weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Trusted Call Solutions help Communications Service Providers (CSPs) and enterprises take action to protect consumers from the onslaught of robocalls and call spoofing, and get calls answered."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The blind proposal treated the stated call-protection outcome as conventional functionality, but the labeler's concern is material because no mechanism is described. The text has no affirmative AI signal, yet it also does not establish how protection is delivered; I therefore retain non_ai only as a weak forced judgment rather than upgrading it to supported."
+    },
+    {
+      "annotation_id": "ann_e20e5f02969a1ebbeb28a3cd",
+      "description_sha256": "ca4b06bfc99ff4c896d41c2e5a466fb2167b4ad6b10fc775da10fd41e2f80463",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description meaningfully identifies a customizable RF planning tool used by engineers to plan and optimize cell site configurations. It does not describe AI or a learned optimization method.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Atoll is a third-party RF planning tool from Forsk SAS that allows for customizations.",
+        "It is used by RF design and system performance engineers to plan and optimize cell site configurations."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Although the optimization mechanism is not specified, RF planning and cell-site configuration are concrete conventional functions in the supplied text. The word 'optimize' alone is not an affirmative AI signal, so the description supports non_ai rather than requiring a weak forced decision."
+    },
+    {
+      "annotation_id": "ann_e351cbca126ceb416e11b6b0",
+      "description_sha256": "e810b450ff0db64835aa2ea257ba37af8cc433c901e9843f22d31571815aefa7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description meaningfully specifies wireless troubleshooting, root-cause analysis, and testing and measurement solutions. It does not describe AI, learned models, or an AI-dependent method.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Quick troubleshooting and conduct root-cause analysis of wireless networks.",
+        "Accuver delivers comprehensive wireless testing and measurement solutions for LTE and IoT network operators, infrastructure vendors, and device and chipset manufacturers."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler correctly observes that the root-cause-analysis method is unspecified, but the description also explicitly identifies wireless testing and measurement solutions, which are meaningful conventional functions. Root-cause analysis is not stated as learned or AI-based, so the binary non_ai judgment remains supported rather than weak."
+    }
+  ]
+}
