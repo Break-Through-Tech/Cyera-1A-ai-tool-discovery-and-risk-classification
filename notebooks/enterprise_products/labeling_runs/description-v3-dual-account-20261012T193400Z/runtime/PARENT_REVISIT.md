@@ -1,5 +1,11 @@
 # Parent revisit — BOTH LANES ACTIVE, GO AHEAD and routine repairs + Git authorized
 
+## Latest wake — Codex006 misplaced own checkpoint repaired, original worker finishing
+
+Codex006 blind child8701a26c reported own checkpoint path accidentally omitted lane/batch prefix; other19 correct. Parent paused writes, inspected root agents/blind/checkpoints/ann_4d0778c77b366b8593c70b60.json: newly created/untracked/unregistered, validated own source/schema/hash/exact quotes, no other worker/registered artifact touched. Preserved accidental original, raw-byte copied into previously nonexistent correct private batch006/agents/blind/checkpoints path, asserted identical hash;19 unchanged. Receipt batch006/runtime-write-boundary-repair.json. Replied actual current supervisor askca97e2e3 to original child: all20 correct private checkpoints now available, read only own correct private stage and emit identical native structured_output; no semantic redo/new writes. Workflow22348d57 remains active until both native results complete; then parent normal20+20 gates/source comparison/reconciliation. No unresolved approval request.
+
+Cursor67f50f80 still exclusive012–014. Latest saved log at3880–3942 shows012 blind20 completed and original verifier ONE reconciliation now herdr_agent wait; last observed reading assignment, not error/quota. Parent's previous steer is queued while tool wait active; do not interfere/control panes or duplicate annotation. Wait for native async update; major errors only stop. Global finalized480/496 unchanged. Prior header below current acceptance checkpoints.
+
 ## Latest wake — accepted480/496, Codex006 launched, Cursor012 continuing
 
 Codex005 original-verifier4-item native completion9b865c89 passed all schema/quotes/checkpoint equality; parent inspected4 source/final concern resolutions and verified all independent raw hashes, finalized20/20 (19negative1AI,2weak binaries,17trusted negatives), committedfb7b451. Codex006 frozen from exact disjoint plan20/20 and both roles assigned; exact original launch body/config selfcheck passed. Fresh native pair ACTIVE workflow22348d57-1298-45e2-bbf5-95ce028d2d71 via codex/runtime/batch-006-launch.js. On completion gate actual20each native/checkpoints/schema/quotes/equality+source/proposal review then SAME original blind one required/support reconciliation; finalize/commit then launch007.
