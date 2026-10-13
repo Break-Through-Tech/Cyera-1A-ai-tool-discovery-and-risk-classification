@@ -1,0 +1,21 @@
+{
+  "annotation_id": "ann_b35536cca80005bdac2360fc",
+  "description_sha256": "9b07a9d709da3aafdb1db4911f342c3235fd959272028e3d0dc64b39debd18fc",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "The AI-powered command-center claim is an affirmative product-specific AI signal. The text also describes a real-time website chat platform as a conventional function.",
+  "ai_type_rationale": "The separate chat-platform description suggests conventional chat can exist, but the text does not establish whether that functionality is the meaningful core offering independent of the AI-powered command center; enabled is tentative.",
+  "evidence_spans": [
+    "your AI-powered command center for consumer conversations",
+    "Chat platform that allows companies to talk with visitors in real time on their websites."
+  ],
+  "ai_type_evidence_spans": [
+    "your AI-powered command center for consumer conversations",
+    "Chat platform that allows companies to talk with visitors in real time on their websites."
+  ],
+  "conflict_response": "The binary is supported by the explicit AI-powered claim. For subtype, the chat-platform sentence is evidence of conventional functionality but not proof that this is the core that survives without AI; conversely the command-center phrase does not specify that all conversation functionality depends on AI. I retain ai_enabled as the best tentative subtype with weak/forced status."
+}
