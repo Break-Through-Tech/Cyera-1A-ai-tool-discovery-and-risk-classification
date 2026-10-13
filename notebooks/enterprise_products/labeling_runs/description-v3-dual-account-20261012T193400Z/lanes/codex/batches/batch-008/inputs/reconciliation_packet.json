@@ -1,0 +1,393 @@
+[
+  {
+    "annotation_id": "ann_0fb78c54acffc9a5200ccfac",
+    "description_sha256": "91b8659524731d7f49c90a26de2694077fbebe05945a7e6bae3077bccafc5000",
+    "description": "Fully managed file system for EC2",
+    "source_record_references": [
+      "479"
+    ],
+    "labeler": {
+      "annotation_id": "ann_0fb78c54acffc9a5200ccfac",
+      "description_sha256": "91b8659524731d7f49c90a26de2694077fbebe05945a7e6bae3077bccafc5000",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described functionality is managed file storage for EC2, a conventional file-system service.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Fully managed file system for EC2"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_0fb78c54acffc9a5200ccfac",
+      "description_sha256": "91b8659524731d7f49c90a26de2694077fbebe05945a7e6bae3077bccafc5000",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The phrase identifies a managed file-system offering for EC2, a conventional storage function, but gives little detail about its capabilities.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Fully managed file system for EC2"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Assess stated conventional functionality vs sparse category-only evidence from exact text. No need for exhaustive feature inventory, but missing AI words alone insufficient; do not import named-tool capabilities."
+    ]
+  },
+  {
+    "annotation_id": "ann_2f8d11f0973c47d3685d0ccc",
+    "description_sha256": "a71c87ab30feb63ebc6a9a15249846e8fa8d3130e65405fdd1490be1da5dfaf4",
+    "description": "Create and manage resources with templates",
+    "source_record_references": [
+      "473"
+    ],
+    "labeler": {
+      "annotation_id": "ann_2f8d11f0973c47d3685d0ccc",
+      "description_sha256": "a71c87ab30feb63ebc6a9a15249846e8fa8d3130e65405fdd1490be1da5dfaf4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers resource creation and administration through templates, a conventional configuration-management capability.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Create and manage resources with templates"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_2f8d11f0973c47d3685d0ccc",
+      "description_sha256": "a71c87ab30feb63ebc6a9a15249846e8fa8d3130e65405fdd1490be1da5dfaf4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes template-based creation and management of resources, a conventional provisioning function, but offers only a brief tagline and little product context.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Create and manage resources with templates"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Assess stated conventional functionality vs sparse category-only evidence from exact text. No need for exhaustive feature inventory, but missing AI words alone insufficient; do not import named-tool capabilities."
+    ]
+  },
+  {
+    "annotation_id": "ann_37788b3da934703f15f1f65f",
+    "description_sha256": "c0fe291dcd8e3c63bda3324e50193c44b435d9c55a406f81ff9e0a969c38e934",
+    "description": "Scale multiple resources to meet demand",
+    "source_record_references": [
+      "471"
+    ],
+    "labeler": {
+      "annotation_id": "ann_37788b3da934703f15f1f65f",
+      "description_sha256": "c0fe291dcd8e3c63bda3324e50193c44b435d9c55a406f81ff9e0a969c38e934",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description states a conventional resource-scaling function to meet demand.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Scale multiple resources to meet demand"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_37788b3da934703f15f1f65f",
+      "description_sha256": "c0fe291dcd8e3c63bda3324e50193c44b435d9c55a406f81ff9e0a969c38e934",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The tagline suggests resource scaling to match demand, a conventional infrastructure-management task, but gives little detail to assess the product or whether this is a full feature description.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Scale multiple resources to meet demand"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Assess stated conventional functionality vs sparse category-only evidence from exact text. No need for exhaustive feature inventory, but missing AI words alone insufficient; do not import named-tool capabilities."
+    ]
+  },
+  {
+    "annotation_id": "ann_3ced93a2e750c53fa1101bbd",
+    "description_sha256": "a418505a25f0539e7e9304a9b411d6313c1a3412f2929194b7904429eaa9013d",
+    "description": "Network device tracking software designed to locate users and devices on your network.",
+    "source_record_references": [
+      "466"
+    ],
+    "labeler": {
+      "annotation_id": "ann_3ced93a2e750c53fa1101bbd",
+      "description_sha256": "a418505a25f0539e7e9304a9b411d6313c1a3412f2929194b7904429eaa9013d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The stated function is conventional network inventory/tracking to locate users and devices.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Network device tracking software designed to locate users and devices on your network."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_3ced93a2e750c53fa1101bbd",
+      "description_sha256": "a418505a25f0539e7e9304a9b411d6313c1a3412f2929194b7904429eaa9013d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described function is deterministic network inventory/tracking to locate users and devices.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Network device tracking software designed to locate users and devices on your network."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Blind claims deterministic implementation not stated; assess locating network devices without invented implementation."
+    ]
+  },
+  {
+    "annotation_id": "ann_4ede9bf70ae053bdee027a59",
+    "description_sha256": "2e962857a24156366d94fc803fb7be722fba78124366cf23a8e2a8a49c3f1fc1",
+    "description": "System Center Operations Manager (SCOM) is a cross-platform data center monitoring system for operating systems and hypervisors. It uses a single interface that shows state, health, and performance information of computer systems. It also provides alerts generated according to some availability, performance, configuration, or security situation being identified. It works with Microsoft Windows Server and Unix-based hosts.",
+    "source_record_references": [
+      "462"
+    ],
+    "labeler": {
+      "annotation_id": "ann_4ede9bf70ae053bdee027a59",
+      "description_sha256": "2e962857a24156366d94fc803fb7be722fba78124366cf23a8e2a8a49c3f1fc1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes conventional data-center monitoring of system state, health, performance, and availability/configuration/security alerts.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "cross-platform data center monitoring system for operating systems and hypervisors",
+        "shows state, health, and performance information of computer systems",
+        "alerts generated according to some availability, performance, configuration, or security situation being identified"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_4ede9bf70ae053bdee027a59",
+      "description_sha256": "2e962857a24156366d94fc803fb7be722fba78124366cf23a8e2a8a49c3f1fc1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies conventional cross-platform monitoring, display of system state and performance, and rule/situation-based alerts.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "cross-platform data center monitoring system for operating systems and hypervisors",
+        "shows state, health, and performance information",
+        "alerts generated according to some availability, performance, configuration, or security situation being identified"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Blind refers to rule-based alerts but source only situation-based identified conditions; avoid inferring implementation while evaluating monitoring/display/alerts."
+    ]
+  },
+  {
+    "annotation_id": "ann_55111a072d60ebd5048fbdde",
+    "description_sha256": "efdf63cf3986e8d69e58a099ef2446de1d5d73c898f78b2e6e660278196f2cfd",
+    "description": "Automate operations with Chef and Puppet",
+    "source_record_references": [
+      "483"
+    ],
+    "labeler": {
+      "annotation_id": "ann_55111a072d60ebd5048fbdde",
+      "description_sha256": "efdf63cf3986e8d69e58a099ef2446de1d5d73c898f78b2e6e660278196f2cfd",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes operational automation using configuration-management tools, a conventional systems-administration function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Automate operations with Chef and Puppet"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_55111a072d60ebd5048fbdde",
+      "description_sha256": "efdf63cf3986e8d69e58a099ef2446de1d5d73c898f78b2e6e660278196f2cfd",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The tagline indicates operations automation using named configuration-management tools, a conventional automation function, but gives little additional description.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Automate operations with Chef and Puppet"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Assess stated conventional functionality vs sparse category-only evidence from exact text. No need for exhaustive feature inventory, but missing AI words alone insufficient; do not import named-tool capabilities."
+    ]
+  },
+  {
+    "annotation_id": "ann_5d571ba842660556ee3630f7",
+    "description_sha256": "b1200423688ce41f8efa8d78335e760f2bd3c4d2fc6d8d677826f02e27e02ad6",
+    "description": "Orchestration service for periodic, data-driven workflows",
+    "source_record_references": [
+      "477"
+    ],
+    "labeler": {
+      "annotation_id": "ann_5d571ba842660556ee3630f7",
+      "description_sha256": "b1200423688ce41f8efa8d78335e760f2bd3c4d2fc6d8d677826f02e27e02ad6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The stated offering coordinates periodic workflows driven by data, a conventional workflow orchestration function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Orchestration service for periodic, data-driven workflows"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_5d571ba842660556ee3630f7",
+      "description_sha256": "b1200423688ce41f8efa8d78335e760f2bd3c4d2fc6d8d677826f02e27e02ad6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies periodic, data-driven workflow orchestration, a conventional scheduling/orchestration function, but is too brief to establish more about the service.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Orchestration service for periodic, data-driven workflows"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Assess stated conventional functionality vs sparse category-only evidence from exact text. No need for exhaustive feature inventory, but missing AI words alone insufficient; do not import named-tool capabilities."
+    ]
+  },
+  {
+    "annotation_id": "ann_9a7379191268960279ea22d9",
+    "description_sha256": "43999317475e79039663e36e11555855686df5f90633e1d7c6569c63ba4e110d",
+    "description": "Managed search service",
+    "source_record_references": [
+      "474"
+    ],
+    "labeler": {
+      "annotation_id": "ann_9a7379191268960279ea22d9",
+      "description_sha256": "43999317475e79039663e36e11555855686df5f90633e1d7c6569c63ba4e110d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text identifies a managed search service, a conventional information-retrieval offering.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Managed search service"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_9a7379191268960279ea22d9",
+      "description_sha256": "43999317475e79039663e36e11555855686df5f90633e1d7c6569c63ba4e110d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "A managed search service is a conventional search function, but the very brief description gives no detail about what it includes or how it works.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Managed search service"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Assess stated conventional functionality vs sparse category-only evidence from exact text. No need for exhaustive feature inventory, but missing AI words alone insufficient; do not import named-tool capabilities."
+    ]
+  },
+  {
+    "annotation_id": "ann_a16f9e34600e437b9befc010",
+    "description_sha256": "38e2866fcd3330dc6699baf1fc7e9fa3490e94f74dd199523ca8902d41cf2fd6",
+    "description": "Run batch jobs at any scale",
+    "source_record_references": [
+      "472"
+    ],
+    "labeler": {
+      "annotation_id": "ann_a16f9e34600e437b9befc010",
+      "description_sha256": "38e2866fcd3330dc6699baf1fc7e9fa3490e94f74dd199523ca8902d41cf2fd6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The function described is running batch jobs at scale, a conventional workload execution capability.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Run batch jobs at any scale"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_a16f9e34600e437b9befc010",
+      "description_sha256": "38e2866fcd3330dc6699baf1fc7e9fa3490e94f74dd199523ca8902d41cf2fd6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The tagline describes batch-job execution at scale, a conventional computing workload, but supplies little context about the offering or its implementation.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Run batch jobs at any scale"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Assess stated conventional functionality vs sparse category-only evidence from exact text. No need for exhaustive feature inventory, but missing AI words alone insufficient; do not import named-tool capabilities."
+    ]
+  }
+]
