@@ -1,34 +1,67 @@
 {
-  "status": "ready_for_next_batch",
+  "status": "in_progress",
   "lane": "cursor",
-  "new_completed_descriptions": 80,
-  "new_completed_rows": 80,
-  "remaining_lane_descriptions": 540,
-  "remaining_lane_rows": 559,
+  "new_completed_descriptions": 260,
+  "new_completed_rows": 262,
+  "remaining_lane_descriptions": 360,
+  "remaining_lane_rows": 377,
   "finalized_batches": [
     "batch-001",
     "batch-002",
     "batch-003",
-    "batch-004"
+    "batch-004",
+    "batch-005",
+    "batch-006",
+    "batch-007",
+    "batch-008",
+    "batch-009",
+    "batch-010",
+    "batch-011",
+    "batch-012",
+    "batch-013"
   ],
-  "current_batch": "batch-004",
+  "current_batch": "batch-014",
   "active_workers": 0,
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
-  "prepared_batch": "batch-001",
-  "batch_001_frozen_selection_reused": true,
-  "batch_001_selected_descriptions": 20,
-  "batch_001_selected_source_rows": 20,
-  "batch_001_annotations_completed": 0,
   "cost_usd": null,
   "billed_tokens": null,
-  "latest_authorization": "ok resume the codex labeling workflow as well, run both the cursor and codex labeling workflows, dont stop unless theres a big error im gonna go to bed now and feel free to repair or fix anything that comes up",
-  "current_stage": "batch004_finalized",
+  "latest_authorization": "2026-10-13 user authorized both workflows and routine repair; no routine pauses",
+  "current_stage": "batch-013_finalized_batch-014_pending",
   "native_targets": {
-    "labeler": "cursor-haiku-d004",
-    "blind": "cursor-luna-d004"
+    "labeler": "cursor-haiku-d009 exited; shell verified in wF:p19",
+    "blind": "cursor-luna-d009 exited; shell verified in wF:p1A"
   },
-  "integration_owner": "parent",
-  "reconciliation_count": 11,
-  "blocker_receipt": "../../runtime/OVERNIGHT_CODEX_RESUME_BLOCKER.json"
+  "integration_owner": "enterprise-cursor-coordinator",
+  "reconciliation_count": 62,
+  "last_finalized_batch": {
+    "batch_id": "batch-013",
+    "descriptions": 20,
+    "rows": 20,
+    "reconciliation_count": 3,
+    "exports_verified": true,
+    "weak_binary_count": 0,
+    "weak_subtype_count": 0,
+    "path": "batches/batch-013",
+    "labeler_aggregate": "assembled from 20 valid checkpoints; no annotation rerun"
+  },
+  "last_wave": {
+    "batches": [
+      "batch-010",
+      "batch-011",
+      "batch-012",
+      "batch-013"
+    ],
+    "descriptions": 80,
+    "rows": 80,
+    "reconciliation_count": 21,
+    "remaining_descriptions": 360,
+    "remaining_rows": 377,
+    "weak_binary_count": 8,
+    "weak_subtype_count": 2,
+    "structural_repairs": 1,
+    "process_deviations": 1,
+    "artifact_only_aggregate_assemblies": 1
+  },
+  "next_safe_action": "Prepare/freeze batch-014 from immutable plan; launch fresh native Cursor sessions in verified assigned shells with pinned models."
 }
