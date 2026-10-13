@@ -1,0 +1,455 @@
+[
+  {
+    "annotation_id": "ann_1ea006ddcd7f0e48fa5b6393",
+    "description_sha256": "57a4ea681f6b0961776b59d3cbdd73805d478b88566113284af067da5c6ff862",
+    "source_record_references": [
+      "400"
+    ],
+    "description": "SAPIEN DevOps Suite offers current versions of all SAPIEN Technologies desktop software tools; PrimalScript, PowerShell Studio, VersionRecall, PrimalSQL, PrimalXML, PowerShell HelpWriter, WMI Explorer, and PowerShell ModuleManager.",
+    "labeler_proposal": {
+      "annotation_id": "ann_1ea006ddcd7f0e48fa5b6393",
+      "description_sha256": "57a4ea681f6b0961776b59d3cbdd73805d478b88566113284af067da5c6ff862",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No AI mention, but the text only names a suite of desktop tools and does not describe what they do; the conventional-function negative rests on tool names alone.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "SAPIEN DevOps Suite offers current versions of all SAPIEN Technologies desktop software tools",
+        "PrimalScript, PowerShell Studio, VersionRecall, PrimalSQL, PrimalXML, PowerShell HelpWriter, WMI Explorer, and PowerShell ModuleManager"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_1ea006ddcd7f0e48fa5b6393",
+      "description_sha256": "57a4ea681f6b0961776b59d3cbdd73805d478b88566113284af067da5c6ff862",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description only says the suite offers current versions of named desktop software tools, without meaningfully describing their functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "SAPIEN DevOps Suite offers current versions of all SAPIEN Technologies desktop software tools; PrimalScript, PowerShell Studio, VersionRecall, PrimalSQL, PrimalXML, PowerShell HelpWriter, WMI Explorer, and PowerShell ModuleManager."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Both proposals weak; text lists tool names without what those tools do. Confirm weak remains."
+  },
+  {
+    "annotation_id": "ann_27453a4424ae3452fdb638a5",
+    "description_sha256": "1571533ac1f27d135a28f3491b550e6305e2584f51d20a3d290aa95acd5e9ce4",
+    "source_record_references": [
+      "406"
+    ],
+    "description": "Centralized management system for Ubiquiti UniFi AP",
+    "labeler_proposal": {
+      "annotation_id": "ann_27453a4424ae3452fdb638a5",
+      "description_sha256": "1571533ac1f27d135a28f3491b550e6305e2584f51d20a3d290aa95acd5e9ce4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No AI mention, but the text is a short noun-phrase label for a centralized management system for UniFi APs and does not describe its functions; the conventional negative is thin.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Centralized management system for Ubiquiti UniFi AP"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_27453a4424ae3452fdb638a5",
+      "description_sha256": "1571533ac1f27d135a28f3491b550e6305e2584f51d20a3d290aa95acd5e9ce4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies conventional centralized management for UniFi access points.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Centralized management system for Ubiquiti UniFi AP"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Labeler considers this a noun-phrase category without specific UniFi AP operations; blind treats centralized management as function. Is that enough concrete evidence?"
+  },
+  {
+    "annotation_id": "ann_aeab219bd73f7b177c7a7ee9",
+    "description_sha256": "06a36746efa27a3514d682ba59568417f314769e908a4ac7319e54e15d9fc313",
+    "source_record_references": [
+      "407"
+    ],
+    "description": "Pivotal'tools can help customers manage big data, build applications using that data, and then analyze it",
+    "labeler_proposal": {
+      "annotation_id": "ann_aeab219bd73f7b177c7a7ee9",
+      "description_sha256": "06a36746efa27a3514d682ba59568417f314769e908a4ac7319e54e15d9fc313",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No AI mention; managing big data and building applications are conventional, but 'analyze it' does not say what analysis is performed and analytics can be ambiguous, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "can help customers manage big data, build applications using that data, and then analyze it"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_aeab219bd73f7b177c7a7ee9",
+      "description_sha256": "06a36746efa27a3514d682ba59568417f314769e908a4ac7319e54e15d9fc313",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description describes conventional tools for managing big data, building applications with it and analyzing it.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Pivotal'tools can help customers manage big data, build applications using that data, and then analyze it"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Labeler flags ambiguous analysis; blind calls managing/building/analyzing data conventional. Exact function “analyze it” does not specify method; decide whether supported or weak."
+  },
+  {
+    "annotation_id": "ann_29246d31f14606a2c7923b63",
+    "description_sha256": "ae0e11f67683f493ed0e788cda2bec622bcdb40427aeda477980565a0a692194",
+    "source_record_references": [
+      "408"
+    ],
+    "description": "Oracle is the exclusive provider of Micro Focus COBOL compilers for PeopleSoft applications. With our certification of the new Visual COBOL compiler last year, Oracle had announced that the Server Express and Net Express would not be supported past December, 2020.",
+    "labeler_proposal": {
+      "annotation_id": "ann_29246d31f14606a2c7923b63",
+      "description_sha256": "ae0e11f67683f493ed0e788cda2bec622bcdb40427aeda477980565a0a692194",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No AI mention, but the text covers vendor exclusivity, certification and end-of-support timing for COBOL compilers rather than the product's conventional function; support-only text is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Oracle is the exclusive provider of Micro Focus COBOL compilers for PeopleSoft applications",
+        "Server Express and Net Express would not be supported past December, 2020"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_29246d31f14606a2c7923b63",
+      "description_sha256": "ae0e11f67683f493ed0e788cda2bec622bcdb40427aeda477980565a0a692194",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description is limited to provider, certification and support-status information about COBOL compilers, without meaningfully describing compiler functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Oracle is the exclusive provider of Micro Focus COBOL compilers for PeopleSoft applications. With our certification of the new Visual COBOL compiler last year, Oracle had announced that the Server Express and Net Express would not be supported past December, 2020."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Both describe provider/certification/support-status context rather than compiler behavior. Confirm category/support-only limitation and weak status."
+  },
+  {
+    "annotation_id": "ann_6387fdf09866dbdc0658a48b",
+    "description_sha256": "1adffe7fe95745711049e00897cc0c7a3466831fda77ba89c1ea886f749d1edb",
+    "source_record_references": [
+      "410"
+    ],
+    "description": "Tricentis QTest offers a suite of Agile testing tools designed to improve efficiency and ensure collaboration on your journey to release the best software.",
+    "labeler_proposal": {
+      "annotation_id": "ann_6387fdf09866dbdc0658a48b",
+      "description_sha256": "1adffe7fe95745711049e00897cc0c7a3466831fda77ba89c1ea886f749d1edb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No AI mention, but the text is generic marketing for a suite of Agile testing tools and names no concrete testing function; the conventional negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "offers a suite of Agile testing tools designed to improve efficiency and ensure collaboration"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_6387fdf09866dbdc0658a48b",
+      "description_sha256": "1adffe7fe95745711049e00897cc0c7a3466831fda77ba89c1ea886f749d1edb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a conventional suite of Agile software testing tools for efficiency and collaboration.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Tricentis QTest offers a suite of Agile testing tools designed to improve efficiency and ensure collaboration on your journey to release the best software."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Labeler says marketing-only Agile testing suite with no testing operation; blind supports category. Decide if the phrase states substantive conventional testing functionality."
+  },
+  {
+    "annotation_id": "ann_f4aee68c9606d9ac6cad150b",
+    "description_sha256": "4dbfebc3b81a47bd3923b18c99508f0e20cf1366fd7d72e8fd9529bcac1649f3",
+    "source_record_references": [
+      "413"
+    ],
+    "description": "Kubernates Package Manager",
+    "labeler_proposal": {
+      "annotation_id": "ann_f4aee68c9606d9ac6cad150b",
+      "description_sha256": "4dbfebc3b81a47bd3923b18c99508f0e20cf1366fd7d72e8fd9529bcac1649f3",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No AI mention, but the text is a bare category label ('Package Manager' for Kubernetes) with no described actions, so conventional function is not established.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Kubernates Package Manager"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_f4aee68c9606d9ac6cad150b",
+      "description_sha256": "4dbfebc3b81a47bd3923b18c99508f0e20cf1366fd7d72e8fd9529bcac1649f3",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a conventional package manager for Kubernetes.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Kubernates Package Manager"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Bare package-manager category with no specific actions. Determine whether that category phrase alone sufficiently describes conventional function."
+  },
+  {
+    "annotation_id": "ann_7dd667cbb052f9daf60e870e",
+    "description_sha256": "d113894cef1a30be4fd2c7dce1a6bd019b788eb926703db7978ee7dadf4fddbc",
+    "source_record_references": [
+      "417"
+    ],
+    "description": "JavaScript runtime engine",
+    "labeler_proposal": {
+      "annotation_id": "ann_7dd667cbb052f9daf60e870e",
+      "description_sha256": "d113894cef1a30be4fd2c7dce1a6bd019b788eb926703db7978ee7dadf4fddbc",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No AI mention, but the text is a bare category label ('runtime engine') with no described functions, so conventional function is not established.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "JavaScript runtime engine"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_7dd667cbb052f9daf60e870e",
+      "description_sha256": "d113894cef1a30be4fd2c7dce1a6bd019b788eb926703db7978ee7dadf4fddbc",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a conventional JavaScript runtime engine.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "JavaScript runtime engine"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Bare JavaScript runtime engine category; decide whether this alone is substantive conventional function."
+  },
+  {
+    "annotation_id": "ann_19d27a859b51c1a54b865f82",
+    "description_sha256": "04fce45a53836138122058cf96ee5f5bf2325842151fb923316ca0350360f037",
+    "source_record_references": [
+      "418"
+    ],
+    "description": "Template for React Applications",
+    "labeler_proposal": {
+      "annotation_id": "ann_19d27a859b51c1a54b865f82",
+      "description_sha256": "04fce45a53836138122058cf96ee5f5bf2325842151fb923316ca0350360f037",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No AI mention, but the text is a bare artifact label ('Template for React Applications') with no described functions, so conventional function is not established.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Template for React Applications"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_19d27a859b51c1a54b865f82",
+      "description_sha256": "04fce45a53836138122058cf96ee5f5bf2325842151fb923316ca0350360f037",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a conventional application template for React.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Template for React Applications"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Template for React applications is an artifact/category label with no stated operations. Decide whether that is enough for supported negative."
+  },
+  {
+    "annotation_id": "ann_dc645aae93000132b5782676",
+    "description_sha256": "31012168f308095a98cd48b50c36303c6c3bea3b83c1a368063134339e47e306",
+    "source_record_references": [
+      "419"
+    ],
+    "description": "Single page application user interfact builder",
+    "labeler_proposal": {
+      "annotation_id": "ann_dc645aae93000132b5782676",
+      "description_sha256": "31012168f308095a98cd48b50c36303c6c3bea3b83c1a368063134339e47e306",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No AI mention, but the text is a short noun-phrase label for a UI builder with no described functions; the conventional negative is thin.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Single page application user interfact builder"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_dc645aae93000132b5782676",
+      "description_sha256": "31012168f308095a98cd48b50c36303c6c3bea3b83c1a368063134339e47e306",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a conventional builder for single-page application user interfaces.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Single page application user interfact builder"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "UI builder noun phrase; no described behavior. Decide if enough conventional function or weak."
+  },
+  {
+    "annotation_id": "ann_3f66fb4e7db2d8552e336f1b",
+    "description_sha256": "84ce7b0043d2723d8aa2eedbdf78d14845a4f0f787e45f6d89342b316c4ad12d",
+    "source_record_references": [
+      "420"
+    ],
+    "description": "Native Android and IOS Development Platform",
+    "labeler_proposal": {
+      "annotation_id": "ann_3f66fb4e7db2d8552e336f1b",
+      "description_sha256": "84ce7b0043d2723d8aa2eedbdf78d14845a4f0f787e45f6d89342b316c4ad12d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No AI mention, but the text is a platform category label ('Native Android and IOS Development Platform') with no described functions; the conventional negative is thin.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Native Android and IOS Development Platform"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_3f66fb4e7db2d8552e336f1b",
+      "description_sha256": "84ce7b0043d2723d8aa2eedbdf78d14845a4f0f787e45f6d89342b316c4ad12d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a conventional native development platform for Android and iOS.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Native Android and IOS Development Platform"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Native Android/iOS development platform category; no behavior described. Decide if enough conventional functionality or weak."
+  },
+  {
+    "annotation_id": "ann_9f477623623ae07018c1b47a",
+    "description_sha256": "610abd3936dd8aa699a5cba4e9d08c95c626919069c9258165b2992833ebfd60",
+    "source_record_references": [
+      "421"
+    ],
+    "description": "Application State Management",
+    "labeler_proposal": {
+      "annotation_id": "ann_9f477623623ae07018c1b47a",
+      "description_sha256": "610abd3936dd8aa699a5cba4e9d08c95c626919069c9258165b2992833ebfd60",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No AI mention, but the text is a bare topic label ('Application State Management') with no described product functions, so conventional function is not established.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Application State Management"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_9f477623623ae07018c1b47a",
+      "description_sha256": "610abd3936dd8aa699a5cba4e9d08c95c626919069c9258165b2992833ebfd60",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description is only a broad category label for application state management and does not provide enough detail to establish a substantive conventional offering.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Application State Management"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Both proposals weak; category-level application state management without concrete behavior. Confirm weak remains."
+  }
+]

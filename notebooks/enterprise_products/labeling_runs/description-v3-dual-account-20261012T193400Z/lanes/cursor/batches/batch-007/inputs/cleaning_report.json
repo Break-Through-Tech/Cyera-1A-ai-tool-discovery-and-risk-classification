@@ -1,0 +1,1060 @@
+{
+  "input_records": 1494,
+  "retained_records": 1438,
+  "excluded_records": 56,
+  "exclusion_reason_counts": {
+    "placeholder_description": 2,
+    "replacement_character_in_description": 52,
+    "reviewed_consulting_support_package": 1,
+    "reviewed_fee_entry": 1
+  },
+  "exclusion_counts_may_overlap": true,
+  "excluded_source_records": [
+    {
+      "source_record_number": 3,
+      "product_name": "Signature Services",
+      "vendor_name": "QLIKTECH INC",
+      "reasons": [
+        "reviewed_consulting_support_package"
+      ]
+    },
+    {
+      "source_record_number": 9,
+      "product_name": "Hyperion BI Analysis Fee",
+      "vendor_name": "KURT STECKEL",
+      "reasons": [
+        "reviewed_fee_entry"
+      ]
+    },
+    {
+      "source_record_number": 717,
+      "product_name": "Linux Workstation",
+      "vendor_name": "IBM",
+      "reasons": [
+        "placeholder_description"
+      ]
+    },
+    {
+      "source_record_number": 723,
+      "product_name": "Resilient Storage",
+      "vendor_name": "IBM",
+      "reasons": [
+        "placeholder_description"
+      ]
+    },
+    {
+      "source_record_number": 882,
+      "product_name": "Address Cleaning Solution",
+      "vendor_name": "VERTEX INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 883,
+      "product_name": "L Series Communications Tax",
+      "vendor_name": "VERTEX INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 885,
+      "product_name": "Q Series Communications Tax",
+      "vendor_name": "VERTEX INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 895,
+      "product_name": "Integration Hub Enterprise",
+      "vendor_name": "SERVICENOW INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 898,
+      "product_name": "Learning Platform",
+      "vendor_name": "QUALTRICS LLC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 909,
+      "product_name": "Learning Analytics Platform",
+      "vendor_name": "WATERSHED SYSTEMS INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 912,
+      "product_name": "Cadency",
+      "vendor_name": "TRINTECH INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 915,
+      "product_name": "Mindtouch",
+      "vendor_name": "MINDTOUCH INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 918,
+      "product_name": "Marketplace eCommerce",
+      "vendor_name": "BROADLEAF COMMERCE LLC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 927,
+      "product_name": "Fusion",
+      "vendor_name": "LUCIDWORKS INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 937,
+      "product_name": "Toolkit",
+      "vendor_name": "ACTIVE PDF INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 940,
+      "product_name": "ActiveBatch",
+      "vendor_name": "ADVANCED SYSTEMS CONCEPTS INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 943,
+      "product_name": "Configure Price Quote (CPQ)",
+      "vendor_name": "APTTUS CORPORATION",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 944,
+      "product_name": "FAXCOM Server",
+      "vendor_name": "BISCOM INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 946,
+      "product_name": "Automic",
+      "vendor_name": "CA INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 950,
+      "product_name": "Costpoint",
+      "vendor_name": "DELTEK INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 952,
+      "product_name": "DesignPro Tools Plus",
+      "vendor_name": "ELIXIR TECHNOLOGIES CORP",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 957,
+      "product_name": "Vendor Invoice Management",
+      "vendor_name": "OPEN TEXT CORP",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 959,
+      "product_name": "Business Monitor",
+      "vendor_name": "IBM",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 960,
+      "product_name": "Content Manager OnDemand (CMOD)",
+      "vendor_name": "IBM",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 961,
+      "product_name": "Content Manager",
+      "vendor_name": "IBM",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 963,
+      "product_name": "Enterprise Records",
+      "vendor_name": "IBM",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 967,
+      "product_name": "Workforce Central Workforce Integration Manager (WIM)",
+      "vendor_name": "KRONOS INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 978,
+      "product_name": "GeoTAX",
+      "vendor_name": "PRECISELY SOFTWARE INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 979,
+      "product_name": "Poppulo",
+      "vendor_name": "POPPULO INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 981,
+      "product_name": "DocuWare",
+      "vendor_name": "RICOH USA INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 982,
+      "product_name": "Auto Store (NSI File Import)",
+      "vendor_name": "RICOH USA INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 988,
+      "product_name": "Sharegate Migration Tool",
+      "vendor_name": "SHAREGATE",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 991,
+      "product_name": "Enterprise Workforce Management (WFM)",
+      "vendor_name": "VERINT AMERICAS INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 992,
+      "product_name": "SEC Reporting Tool",
+      "vendor_name": "WORKIVA INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 993,
+      "product_name": "EPM Maestro",
+      "vendor_name": "AMOSCA LIMITED",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 997,
+      "product_name": "iGrafx",
+      "vendor_name": "IGRAFX LLC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1006,
+      "product_name": "RFP Response",
+      "vendor_name": "LOOPIO INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1007,
+      "product_name": "Avalara AvaTax",
+      "vendor_name": "AVALARA INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1023,
+      "product_name": "Cashflow Management Platform",
+      "vendor_name": "TESORIO INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1059,
+      "product_name": "DocAve Manager",
+      "vendor_name": "AVEPOINT INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1064,
+      "product_name": "CODE-1 Plus",
+      "vendor_name": "PRECISELY SOFTWARE INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1067,
+      "product_name": "VeriMove",
+      "vendor_name": "PRECISELY SOFTWARE INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1071,
+      "product_name": "EVE-NG Pro",
+      "vendor_name": "EVE-NG",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1083,
+      "product_name": "Data Sync Manager (DSM)",
+      "vendor_name": "EPI-USE LABS",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1114,
+      "product_name": "e-Discovery",
+      "vendor_name": "RELATIVITY ODA LLC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1115,
+      "product_name": "Retrium",
+      "vendor_name": "RETRIUM",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1129,
+      "product_name": "Syn Apps",
+      "vendor_name": "SYN-APPS INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1147,
+      "product_name": "Fusion",
+      "vendor_name": "NAGIOS ENTERPRISES",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1149,
+      "product_name": "Log Server",
+      "vendor_name": "NAGIOS ENTERPRISES",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1152,
+      "product_name": "Fusion Risk Management",
+      "vendor_name": "FUSION RISK MANAGEMENT",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1160,
+      "product_name": "Axon",
+      "vendor_name": "INFORMATICA LLC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1161,
+      "product_name": "Enterprise Information Catalog Production",
+      "vendor_name": "INFORMATICA LLC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1167,
+      "product_name": "Intelligent Data Management Cloud",
+      "vendor_name": "INFORMATICA LLC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1170,
+      "product_name": "Additional Non-Production Instance",
+      "vendor_name": "SERVICENOW INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1173,
+      "product_name": "Dedicated Server Option",
+      "vendor_name": "SERVICENOW INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    },
+    {
+      "source_record_number": 1176,
+      "product_name": "US Citizen / US Soil Customer Support",
+      "vendor_name": "SERVICENOW INC",
+      "reasons": [
+        "replacement_character_in_description"
+      ]
+    }
+  ],
+  "normalized_retained_values_by_field": {
+    "product_description": 308,
+    "product_name": 2
+  },
+  "retained_product_groups": 1406,
+  "repeated_product_groups": [
+    {
+      "product_group_id": "enterprise-17f24ea6008abeb096b104ec6d9d3cce5be28cf5087409991fd7aadb09df7a64",
+      "source_record_numbers": [
+        1286,
+        1287
+      ],
+      "memberships": [
+        {
+          "category": "IT Infrastructure Software Services",
+          "subcategory": "Middleware"
+        },
+        {
+          "category": "Telecom Network Management",
+          "subcategory": "Other Network Services and Operational"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-1b5f8009c50c71a8fbf746634a2586bf11e6b79bcf31b6cbd38948276a6c020b",
+      "source_record_numbers": [
+        1305,
+        1306
+      ],
+      "memberships": [
+        {
+          "category": "BI & Data Analytics",
+          "subcategory": "Analytics Database"
+        },
+        {
+          "category": "Performance, Monitoring & Logging",
+          "subcategory": "Monitoring & Logging"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-2719461082dcd1854e79d094be0674aaf98001577426188716108ae3079f4900",
+      "source_record_numbers": [
+        805,
+        806
+      ],
+      "memberships": [
+        {
+          "category": "BI & Data Analytics",
+          "subcategory": "Analytics Database"
+        },
+        {
+          "category": "IT Infrastructure Software Services",
+          "subcategory": "Database Management Systems (DBMS)"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-339f1c14fe804e98dcbbefc55974f1e96652e6bff3eef5ac96a7e29b9fc3c824",
+      "source_record_numbers": [
+        1250,
+        1251,
+        1252
+      ],
+      "memberships": [
+        {
+          "category": "AI & ML",
+          "subcategory": "Development"
+        },
+        {
+          "category": "BI & Data Analytics",
+          "subcategory": "Data Movement Management"
+        },
+        {
+          "category": "Design, Development & Delivery",
+          "subcategory": "UX/UI Design & Multimedia"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-3a74acceba4d2876d20aa15ed7db46312668c75cf6cf0c2837494013be50d0fb",
+      "source_record_numbers": [
+        563,
+        564
+      ],
+      "memberships": [
+        {
+          "category": "Customer Operational Platforms",
+          "subcategory": "Customer Experience"
+        },
+        {
+          "category": "Management & Governance",
+          "subcategory": "Risk & Compliance"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-3e8cf40bfade838ba820a73823bc9fbef9808f1871035a42bc56631c73a360bf",
+      "source_record_numbers": [
+        1289,
+        1290,
+        1291
+      ],
+      "memberships": [
+        {
+          "category": "AI & ML",
+          "subcategory": "Development"
+        },
+        {
+          "category": "IT Infrastructure Software Services",
+          "subcategory": "Database Management Systems (DBMS)"
+        },
+        {
+          "category": "IT Infrastructure Software Services",
+          "subcategory": "Generic Cloud Services"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-44ca8b31e10c85b8c49b333b6df5c6c256af3558c6da9c260d4c60b49cf4ba19",
+      "source_record_numbers": [
+        1301,
+        1302
+      ],
+      "memberships": [
+        {
+          "category": "Design, Development & Delivery",
+          "subcategory": "Software Design & Development"
+        },
+        {
+          "category": "IT Infrastructure Software Services",
+          "subcategory": "Call Handling"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-47fca10c0c6d4491907744c62e0634f178f7685d7d2b0a37b738b126ddf1632b",
+      "source_record_numbers": [
+        1307,
+        1308
+      ],
+      "memberships": [
+        {
+          "category": "AI & ML",
+          "subcategory": "Development"
+        },
+        {
+          "category": "Design, Development & Delivery",
+          "subcategory": "Quality Engineering"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-482a72dff3f3c7d70da90748eb51d2d1fdee2cc29da7b64d927dcc905956dc4c",
+      "source_record_numbers": [
+        75,
+        76
+      ],
+      "memberships": [
+        {
+          "category": "Digital Workplace",
+          "subcategory": "End-User Compute"
+        },
+        {
+          "category": "IT Infrastructure Software Services",
+          "subcategory": "Virtualization"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-4b1fe3437692e58e42212566ad5138429b3e7bd8b0c8c7fef5e8d1e55896f010",
+      "source_record_numbers": [
+        1242,
+        1243
+      ],
+      "memberships": [
+        {
+          "category": "IT Infrastructure Software Services",
+          "subcategory": "Other Utilities"
+        },
+        {
+          "category": "Performance, Monitoring & Logging",
+          "subcategory": "Monitoring & Logging"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-4cc94dbcf7a0eefdd64811b20141dc1e33fd7639357e06455779f79fdfa5ab24",
+      "source_record_numbers": [
+        381,
+        382
+      ],
+      "memberships": [
+        {
+          "category": "Design, Development & Delivery",
+          "subcategory": "Software Delivery"
+        },
+        {
+          "category": "IT Infrastructure Software Services",
+          "subcategory": "Configuration Management"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-5ad0fa1ef41310d40b460f323a956ac21aa2d6575b2898b16a0ebbc3a0cbf406",
+      "source_record_numbers": [
+        1235,
+        1236,
+        1237
+      ],
+      "memberships": [
+        {
+          "category": "Design, Development & Delivery",
+          "subcategory": "Quality Engineering"
+        },
+        {
+          "category": "Digital Workplace",
+          "subcategory": "Collaboration & Productivity"
+        },
+        {
+          "category": "Management & Governance",
+          "subcategory": "Risk & Compliance"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-5d8bd821772cde5b4ffd5d5b39a5700a8aa9f65b1fa6adb61b09256e7c043f5b",
+      "source_record_numbers": [
+        1273,
+        1274
+      ],
+      "memberships": [
+        {
+          "category": "BI & Data Analytics",
+          "subcategory": "Analytics Database"
+        },
+        {
+          "category": "BI & Data Analytics",
+          "subcategory": "Data Governance"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-7d0c53664b608921a696dbb49ad976cec88f965881ab9043d902cafb40a6f2b4",
+      "source_record_numbers": [
+        1270,
+        1271
+      ],
+      "memberships": [
+        {
+          "category": "BI & Data Analytics",
+          "subcategory": "Data Governance"
+        },
+        {
+          "category": "IT Infrastructure Software Services",
+          "subcategory": "Database Management Systems (DBMS)"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-a986527255effaa673d578cfb16e4c7dce0f4d680e9ff598118bc81c27b44650",
+      "source_record_numbers": [
+        316,
+        317
+      ],
+      "memberships": [
+        {
+          "category": "Customer Operational Platforms",
+          "subcategory": "Retail & Ecommerce"
+        },
+        {
+          "category": "Management & Governance",
+          "subcategory": "Asset Management"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-b50944377d77b04d06f063d412cb18d9ec57e877bf9bef4f8bca39283407dc34",
+      "source_record_numbers": [
+        1253,
+        1254,
+        1255,
+        1256
+      ],
+      "memberships": [
+        {
+          "category": "AI & ML",
+          "subcategory": "Development"
+        },
+        {
+          "category": "BI & Data Analytics",
+          "subcategory": "Analytics Database"
+        },
+        {
+          "category": "BI & Data Analytics",
+          "subcategory": "Data Governance"
+        },
+        {
+          "category": "Customer Operational Platforms",
+          "subcategory": "Ordering & Billing"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-b94127eeafe8dc157278c2516d04d54ccddd0d4f67502295844f078f0a0410e6",
+      "source_record_numbers": [
+        69,
+        70
+      ],
+      "memberships": [
+        {
+          "category": "BI & Data Analytics",
+          "subcategory": "Data Movement Management"
+        },
+        {
+          "category": "Management & Governance",
+          "subcategory": "Risk & Compliance"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-cb86670b629a997e127e36201d07e2ce90c83aa68b4ecd9daf40a13fea416cf4",
+      "source_record_numbers": [
+        1177,
+        1178,
+        1179
+      ],
+      "memberships": [
+        {
+          "category": "AI & ML",
+          "subcategory": "Development"
+        },
+        {
+          "category": "BI & Data Analytics",
+          "subcategory": "Analytics Database"
+        },
+        {
+          "category": "Customer Operational Platforms",
+          "subcategory": "Ordering & Billing"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-ccf20a5d709cbf76e93bc0a8ff1abadcffb2328828599ca756f44a194baad27c",
+      "source_record_numbers": [
+        1024,
+        1025
+      ],
+      "memberships": [
+        {
+          "category": "Performance, Monitoring & Logging",
+          "subcategory": "Monitoring & Logging"
+        },
+        {
+          "category": "Performance, Monitoring & Logging",
+          "subcategory": "Network Performance & Resiliency"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-d809f5bb245a451cd4e75bc48afbcca91c750a1a11c27ed2b54ce7126de3e1ad",
+      "source_record_numbers": [
+        231,
+        1012
+      ],
+      "memberships": [
+        {
+          "category": "Enterprise Platforms",
+          "subcategory": "Enterprise Content Management (ECM)"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-d971a2bc6a95db04e42e50a941321fd697d46a4f09ad4f98d28e1dae39ce1318",
+      "source_record_numbers": [
+        1244,
+        1245
+      ],
+      "memberships": [
+        {
+          "category": "Enterprise Platforms",
+          "subcategory": "Workflow and Business Process Management (W-BPM)"
+        },
+        {
+          "category": "IT Infrastructure Software Services",
+          "subcategory": "Database Tools"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-dab623d52e7313be01e9f38a43d5f998e4a7dd22dc6ba0d39cb91f2acc6cd7b9",
+      "source_record_numbers": [
+        1309,
+        1310
+      ],
+      "memberships": [
+        {
+          "category": "Performance, Monitoring & Logging",
+          "subcategory": "Network Performance & Resiliency"
+        },
+        {
+          "category": "Telecom Network Management",
+          "subcategory": "Network Availability and Performance"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-e1c5b3695349b646477766305670014070bc8c42f67bf792485b3249556aa035",
+      "source_record_numbers": [
+        697,
+        698
+      ],
+      "memberships": [
+        {
+          "category": "AI & ML",
+          "subcategory": "Serving"
+        },
+        {
+          "category": "Customer Operational Platforms",
+          "subcategory": "Customer Experience"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-e4146574e3186d8d546952d02917f15af328fb52180b585b982f227c4cf8b5e5",
+      "source_record_numbers": [
+        325,
+        326
+      ],
+      "memberships": [
+        {
+          "category": "Design, Development & Delivery",
+          "subcategory": "Software Design & Development"
+        },
+        {
+          "category": "Emerging Technologies",
+          "subcategory": "Internet of Things (IOT)"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-ecde007c4f5960e406adeced0a8eab562383a56115dd413c5baaaaae11d655cf",
+      "source_record_numbers": [
+        1258,
+        1259
+      ],
+      "memberships": [
+        {
+          "category": "BI & Data Analytics",
+          "subcategory": "Data Governance"
+        },
+        {
+          "category": "BI & Data Analytics",
+          "subcategory": "Data Movement Management"
+        }
+      ]
+    },
+    {
+      "product_group_id": "enterprise-fd66ab14ca2f2a7b68ed91bc847c81dfa787b018e9dab43f2e7728a1daed8dbd",
+      "source_record_numbers": [
+        984,
+        985
+      ],
+      "memberships": [
+        {
+          "category": "Enterprise Platforms",
+          "subcategory": "Enterprise Resource Planning (ERP)"
+        },
+        {
+          "category": "IT Infrastructure Software Services",
+          "subcategory": "Database Management Systems (DBMS)"
+        }
+      ]
+    }
+  ],
+  "category_record_counts": {
+    "AI & ML": 29,
+    "BI & Data Analytics": 111,
+    "Customer Operational Platforms": 149,
+    "Design, Development & Delivery": 172,
+    "Digital Workplace": 63,
+    "Emerging Technologies": 7,
+    "Enterprise Platforms": 198,
+    "Geographic Information Systems (GIS)": 49,
+    "IT Infrastructure Software Services": 276,
+    "Management & Governance": 68,
+    "Marketing Management": 89,
+    "Performance, Monitoring & Logging": 139,
+    "Telecom Network Management": 88
+  },
+  "subcategory_record_counts": {
+    "Analytics Database": 24,
+    "Application Development Lifecycle Management (ADLM)": 12,
+    "Application Performance & Resiliency": 19,
+    "Asset Management": 24,
+    "Augmented Reality & Virtual Reality": 2,
+    "Backup and Recovery": 13,
+    "Block Chain": 1,
+    "Call Handling": 15,
+    "Cartography/Mapping": 17,
+    "Collaboration & Productivity": 58,
+    "Compute & Containers": 8,
+    "Configuration Management": 17,
+    "Customer Experience": 64,
+    "Data Governance": 20,
+    "Data Movement Management": 28,
+    "Database Management Systems (DBMS)": 37,
+    "Database Tools": 23,
+    "Development": 24,
+    "Device Management": 14,
+    "End-User Compute": 5,
+    "Enterprise Architecture Management (EAM)": 9,
+    "Enterprise Content Management (ECM)": 64,
+    "Enterprise Resource Planning (ERP)": 19,
+    "Enterprise Services Management (ESM)": 9,
+    "Field / Dispatch Services Management (FDSM)": 3,
+    "Finance": 35,
+    "Generic Cloud Services": 16,
+    "Human Resources Management (HRM)": 23,
+    "Internet of Things (IOT)": 2,
+    "Inventory Management": 20,
+    "Location-Aware Services": 29,
+    "Mainframe": 2,
+    "Market Intelligence": 58,
+    "Marketing Automation": 7,
+    "Marketing Content Design & Delivery": 6,
+    "Messaging/Communication Systems": 18,
+    "Middleware": 30,
+    "Monitoring & Logging": 83,
+    "Navigation Tools": 3,
+    "Network Availability and Performance": 40,
+    "Network Performance & Resiliency": 37,
+    "Operating Systems": 16,
+    "Ordering & Billing": 39,
+    "Other Network Services and Operational": 28,
+    "Other Utilities": 47,
+    "Quality Engineering": 25,
+    "Retail & Ecommerce": 16,
+    "Risk & Compliance": 18,
+    "Robotics": 2,
+    "Sales Mgmt": 30,
+    "Self-Serve Visualization & Ent. Reporting": 39,
+    "Serving": 5,
+    "Software Delivery": 34,
+    "Software Design & Development": 93,
+    "Storage Management": 36,
+    "Supply Chain Management (SCM)": 14,
+    "UX/UI Design & Multimedia": 20,
+    "Virtualization": 16,
+    "Workflow and Business Process Management (W-BPM)": 22
+  },
+  "rule_version": "enterprise-products-cleaning-v1",
+  "source": {
+    "path": "data/technology-product-categorization/products.csv",
+    "sha256": "afe7cdbcbf82d9b11f579eb6dce000815a04a301410636e2942036f072fc7aa1",
+    "record_reference": "one-based logical CSV data record, excluding header"
+  },
+  "output": {
+    "path": "data/technology-product-categorization/products_cleaned.csv",
+    "sha256": "c9f0d234d3b66327250d7eb372e9fc962e06f16c2bc0181cc34654fdb897eb2b",
+    "fields": [
+      "source_record_number",
+      "product_group_id",
+      "product_name",
+      "vendor_name",
+      "taxonomy_category",
+      "taxonomy_sub_category",
+      "product_description"
+    ]
+  },
+  "code_sha256": {
+    "clean.py": "9b3a8efbf0af0c9199fb0f3d393227783035d64587e8bf974fb9415382b18823",
+    "eda.py": "a1bebed007f17adb12d4dfb86c47fc8336644969c73d9e31a634e4ef92964f7d"
+  },
+  "rules": {
+    "normalization": "Trim outer whitespace and convert CRLF/CR to LF; preserve internal spacing, punctuation and Unicode.",
+    "reviewed_exclusions": [
+      {
+        "product_name_key": "hyperion bi analysis fee",
+        "vendor_name_key": "kurt steckel",
+        "reason": "reviewed_fee_entry"
+      },
+      {
+        "product_name_key": "signature services",
+        "vendor_name_key": "qliktech inc",
+        "reason": "reviewed_consulting_support_package"
+      }
+    ],
+    "grouping": "NFKC/case-folded, whitespace-collapsed product name plus vendor, following the reviewed multi-category assumption. Retain every eligible row and category/subcategory pair."
+  },
+  "limitations": [
+    "The cleaned view is not an AI/non-AI labeled dataset; source taxonomy is not mapped to AIToolBuzz.",
+    "Only the two specifically reviewed fee/service entries are excluded; other service-name cues need review, not automatic deletion.",
+    "Group IDs are source-scoped grouping clues, not confirmed identity across datasets or vendors.",
+    "Shared descriptions across different product groups still need leakage review before freezing partitions.",
+    "No encoding repair, fuzzy deduplication, AI-role labels, training splits or model features are produced.",
+    "Source reuse permission remains unresolved before training or redistribution."
+  ]
+}
