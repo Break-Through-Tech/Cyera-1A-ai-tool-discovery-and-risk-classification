@@ -1,0 +1,36 @@
+{
+  "source_cutoff": "28a32b79f8f4c7ab000e2e66ba7fd21202d3dd44",
+  "input_examples": 16688,
+  "normalized_duplicate_groups": 19,
+  "duplicate_examples_removed": 19,
+  "merged_examples": 16669,
+  "eligible_examples": 16669,
+  "quarantined_examples": 0,
+  "quarantined_by_class": {},
+  "quarantined_source_class_memberships": {},
+  "duplicate_merges_by_source": {
+    "aitoolbuzz": 19
+  },
+  "leakage_groups": 16444,
+  "identity_review_candidates": 170,
+  "near_text_candidate_pairs": 44,
+  "high_confidence_conflict_groups": 0,
+  "feature_allowlist": [
+    "description_text"
+  ],
+  "normalization_policy_version": "matching-v1: Unicode casefold; trim and collapse whitespace; punctuation retained",
+  "grouping_policy_version": "leakage-groups-v1: exact/normalized text, near-text candidates, enterprise product groups, and every same-normalized-name candidate set connect groups; same-name identity/conflict links require a shared non-generic vendor; domains are ambiguous evidence only",
+  "near_duplicate_policy_version": "near-text-v1: token Jaccard >= 0.82; >= 8 distinct tokens, >= 60 chars, and >= 6 shared tokens; rare-token inverted index capped at 100 postings per token",
+  "partition_assignment": "not assigned in this phase",
+  "input_sha256": {
+    "v2_examples.json": "7fd80a5fb47ddb933b8d9c01d64a963086823d63bd2cad3df628cd8b0ec91606",
+    "v2_manifest.json": "f6d0c46dfba4a733316d98595135b71cdd97da13d795fa2051dfcd06c33755de"
+  },
+  "artifact_sha256": {
+    "examples.json": "18aacb14bebd646286da80dec5d1d63b672fc69349c4f550177a0524632b05bc",
+    "quarantined.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "duplicate_audit.json": "06e50cce4707d8e0d9d0abcaec68861002252789cf1c9196398c6ca0eb2ee440",
+    "identity_review.json": "1cb2bc25d637c4bbd0fa23fd8b7d5083117879951c88e4ee0ce5b7536f04f4b2",
+    "conflicts.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  }
+}

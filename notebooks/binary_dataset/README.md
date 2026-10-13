@@ -33,6 +33,28 @@ Generated milestone-2 paths (do not hand-edit):
 
 At the pinned cutoff the raw AIToolBuzz file contains **16,762 records**; **530** have empty/whitespace-only descriptions and are excluded, leaving **16,232** candidate AI rows (**16,213** distinct exact texts). Combined with **456** trusted enterprise descriptions (**40 AI, 416 non-AI; 471 source-record memberships**), the unified candidate pool has **16,688 examples**. Duplicates, including identical descriptions across sources, are intentionally retained as candidates for milestone 3. These counts are generated and checked, not hard-coded targets.
 
+## Review duplicates and leakage groups (milestone 3)
+
+After milestone 2 has generated `data/binary_ai_dataset/v2/`, run:
+
+```sh
+python3 notebooks/binary_dataset/review_dataset_leakage.py build
+python3 -m unittest discover -s notebooks/binary_dataset -p 'test_*.py'
+```
+
+The reviewer verifies the frozen v2 checksums and emits reproducible connected leakage groups without assigning partitions. It merges only candidates with identical casefolded text after trimming/collapsing whitespace; one exact description string is retained and all original example IDs, source record IDs, labels, and provenance remain in metadata. Distinct normalized text candidates stay separate. Near-text candidates are generated with a sparse inverted index (rare token postings capped at 100), then require token Jaccard >= 0.82, at least 8 tokens, 60 characters, and 6 shared tokens. This is a conservative candidate generator, not a semantic identity oracle; the review queue states that near-text matches share a leakage group but remain distinct examples.
+
+Enterprise rows sharing a product-group ID are linked. Every exact normalized-name candidate set is connected for leakage prevention, but candidate links do not assert identity. A shared non-generic vendor supports high-confidence same-tool/conflict edges only among the actual members sharing that vendor; evidence from separate subgroups is never combined. Shared website/catalog domains are ambiguous evidence only, not identity authority, and a shared vendor/domain alone never links different product names. Opposite labels on normalized duplicate text, within one enterprise product group, or within a directly corroborated same-name/vendor pair quarantine the entire connected leakage group; labels and dated judgments are never rewritten. The generated run found **19 normalized duplicate groups (19 examples removed), 44 near-text candidate pairs, 170 name review candidates, 16,444 leakage groups, and 0 quarantined examples**; counts are measured from v2 inputs, not hard-coded.
+
+Generated milestone-3 paths (do not hand-edit):
+
+- `data/binary_ai_dataset/v3/examples.json` — one example per normalized duplicate cluster, with stable leakage-group IDs and member/source provenance.
+- `data/binary_ai_dataset/v3/quarantined.json` — excluded whole conflict groups, with source, class, and evidence references (currently empty).
+- `data/binary_ai_dataset/v3/duplicate_audit.json` — normalized-text duplicate members, variant counts, and merge policy.
+- `data/binary_ai_dataset/v3/identity_review.json` — ambiguous/corroborated name and near-text candidates with explicit identity/grouping disposition.
+- `data/binary_ai_dataset/v3/conflicts.json` — high-confidence opposite-label edges/reasons and quarantine disposition.
+- `data/binary_ai_dataset/v3/manifest.json` — input/artifact checksums, policies, candidate counts, and class/source quarantine memberships.
+
 Generated paths (created only by the script):
 
 - `data/binary_ai_dataset/v1/enterprise_descriptions.json` — one exact-text description row per finalized annotation, including weak/forced labels, subtype metadata, binary eligibility/exclusion reason, evidence and provenance.
@@ -49,4 +71,4 @@ Subtype values, rationales, quotes, provenance, product/source metadata and labe
 
 The source describes a dated enterprise-product snapshot and is not current-product truth or proof of actual feature use. AI/non-AI labels are description-based rubric judgments. Source/style leakage remains possible even when later splitting groups identical text and related tools. Historical v3 execution was not uniformly the earlier two-Luna setup: the accepted Cursor Haiku/Luna and Codex Luna lanes were explicitly authorized in pinned run-specific preparation/continuation receipts. The generated manifest records stage model IDs and checksums for those approvals and their acceptance evidence; the older two-Luna workflow prose is not treated as the execution record. This is not permission to use a model fallback in new work. There is no implemented registry/retrieval corpus here, so this does **not** claim previously-unseen-tool runtime evaluation. The private reuse permission recorded in `notebooks/enterprise_products/LABELING_WORKFLOW.md` is the approved scope; the legacy unresolved-license note in `data/technology-product-categorization/SOURCE.md` and `notebooks/enterprise_products/README.md` is stale and is not replaced with a public license claim or correspondence. The source permission/correspondence was not altered or published. The harness task IDs 4–7 are local todo IDs, not GitHub issues; this step did not mutate issue #4.
 
-No model training, vectorizer/embedding fitting, classifier threshold selection, cross-source deduplication, or application implementation occurs in this milestone. Review generated files and all limitations before authorizing the next dataset-preparation milestone. Do not train until all four preparation milestones have passed separate review and the user has reviewed the resulting dataset.
+No model training, vectorizer/embedding fitting, classifier threshold selection, partition assignment, or application implementation occurs in this milestone. Cross-source duplicates and candidate leakage links are reviewed here; only normalized-text duplicates are merged. Review generated files and all limitations before authorizing the next dataset-preparation milestone. Do not train until all four preparation milestones have passed separate review and the user has reviewed the resulting dataset.
