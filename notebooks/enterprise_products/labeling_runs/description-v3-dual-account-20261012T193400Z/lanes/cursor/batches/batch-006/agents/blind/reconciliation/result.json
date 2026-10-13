@@ -1,0 +1,160 @@
+{
+  "stage": "reconciliation",
+  "records": [
+    {
+      "annotation_id": "ann_0473c3fd96c3e173b5d27ee3",
+      "description_sha256": "73cf396ce8b13bdf8682ae0dc92c5162156543a1f082807071582b6a176731dd",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text clearly describes SDLC data collection, but the unexplained business-insights function is not concrete enough to establish a conventional implementation; no affirmative AI signal appears.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "collects entire software development lifecycle data from all the DevOps & associated tools",
+        "provides business insights into what, how, and why of the SDLC"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Both proposals agree on non_ai and cite the same phrases. Data collection is conventional, but \"provides business insights into what, how, and why of the SDLC\" does not specify a concrete reporting or deterministic operation, so the negative remains weak and forced."
+    },
+    {
+      "annotation_id": "ann_1509ea5b87893d0102262b63",
+      "description_sha256": "4958b19fa3309228b40637d0329ad9679e8cd6c4956597d97cc3791166b2b642",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description states that the tool manages work-related activities in SharePoint, which is a conventional function; the BI category and promotional wording do not add an AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "manage work related activities"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The BI label alone would be only category-level evidence, but \"manage work related activities\" states a conventional work-management function. That exact function supports non_ai; generic promotional wording and the BI category do not make it weak."
+    },
+    {
+      "annotation_id": "ann_29d7e5ce8e325b6fb0c99ec7",
+      "description_sha256": "39c2b5f3011c95c6069ad23dba3591996511deb85aa4a1b01171b11cd8ed94a6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description provides only the category-level phrase cloud workflow management application and no concrete workflow operation, so the conventional negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "cloud workflow management application"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The proposals agree on non_ai but differ on strength. \"Cloud workflow management application\" identifies a product category without describing a specific conventional operation, so the labeler’s weak/forced assessment resolves the concern."
+    },
+    {
+      "annotation_id": "ann_4cdcd73da9a36cd512ef896e",
+      "description_sha256": "c3d287cc572ee3ceab03897284043613c1b08137cd6caa8a9757bc35a3331a65",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description supplies only the category-level phrase cloud-based customer support software and helpdesk solution, without a concrete operation, so the conventional negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Freshdesk is a cloud-based customer support software and helpdesk solution."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The proposals agree on non_ai but differ on strength. The exact description names a customer-support/helpdesk category without stating a specific conventional operation, so the category-only concern requires weak/forced evidence."
+    },
+    {
+      "annotation_id": "ann_637979d4e4ca9fb5a360976a",
+      "description_sha256": "c9e84899151890bf4e5c3bd373fbb8def19cc9292ea355742a0e84e704d700f1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description gives only the category-level phrase optimization software package and no described operation, so the conventional negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is an optimization software package."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The proposals agree on non_ai but differ on strength. Although optimization is a conventional software category, the exact text only says \"is an optimization software package\" and supplies no concrete operation, so the negative remains weak/forced."
+    },
+    {
+      "annotation_id": "ann_b35bf89d3e42910bbf0ed1dc",
+      "description_sha256": "26505fd581f9940a5f08be3f5887a00f3232c99ad2b154bfb7e1d8fe654a0779",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description explicitly identifies an optimizing C/C++ compiler, which is a concrete conventional compilation and optimization function, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "optimizing C/C++ compiler for IBM-supported environments"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler’s sparse-detail concern is resolved by the explicit function: \"optimizing C/C++ compiler for IBM-supported environments\" identifies compilation and optimization, not merely a product category. That concrete conventional function supports non_ai."
+    },
+    {
+      "annotation_id": "ann_b75855500d2a9f94be6fbee3",
+      "description_sha256": "eb7f1f5ccb3f1b62f5b1d5dfc75b5a7e13fadbd9680e5a8119def4b3ba260a76",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Despite its fragmentary status wording, the text names routine auto-remediation and application analysis and debugging operations, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "auto-remediation",
+        "Analyze and debug your applications"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The fragmentary date/status text does not remove the two explicit operations. \"auto-remediation\" is routine automation, and \"Analyze and debug your applications\" describes conventional diagnostics; generic possibility of AI does not weaken these ordinary functions."
+    },
+    {
+      "annotation_id": "ann_c1f69ddff217783f79a7e98f",
+      "description_sha256": "9e2bc9cefe4a6f88c4324cf4c72c68a774b0c8205cf3709e1daafba4df1d05e5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies only a 4GL programming-language category and its history, without describing a concrete conventional operation, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "4GL programming language developed by Informix during the mid-1980s"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The proposals agree on non_ai but differ on strength. \"4GL programming language developed by Informix during the mid-1980s\" identifies a language category and history, not a described operation, so the category-only concern requires weak/forced evidence."
+    },
+    {
+      "annotation_id": "ann_cfa70fcc5d0c69f4b8da343c",
+      "description_sha256": "e8f061e3044863aebbf0badc499305ffb571a75d1d756c234f307b0f04f6985b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description explicitly states conventional development and maintenance of IBM z/OS applications through DevOps practices, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "developing and maintaining IBM z/OS applications through the use of DevOps practices"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler’s generic-toolset concern is outweighed by the explicit function \"developing and maintaining IBM z/OS applications through the use of DevOps practices.\" This meaningfully describes conventional development and maintenance, so the negative is supported."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "status": "original_independent_results_hash_registered_before_accepted_comparison",
+  "stages": {
+    "labeler": {
+      "result_sha256": "36bd73c0c74087b1c34bc00264307acd84e2c707c37a706d97fc2684b40f5987",
+      "checkpoints": {
+        "agents/labeler/checkpoints/ann_0101f0415fc1fa304413483a.json": "cc4a0be077ed1fa92113f4072540ad7e9e40bdf08420dd63daea9beef53bade2",
+        "agents/labeler/checkpoints/ann_0473c3fd96c3e173b5d27ee3.json": "819c7f3c28df71763b48fae06a27e18a02d5e65aeb3824e755ae5e19bdaa6237",
+        "agents/labeler/checkpoints/ann_1509ea5b87893d0102262b63.json": "36e3f6d0ed1b989b71646a719999d14b75c5a833266e7f58ee5ce5aea9b27292",
+        "agents/labeler/checkpoints/ann_29d7e5ce8e325b6fb0c99ec7.json": "94727c9c2c8c14faa21da4ff457069663911f4164e11804ffd0dba6e504a5f26",
+        "agents/labeler/checkpoints/ann_2c3512d2b65127b8781e3f08.json": "13e947c185f5ff096d61de0ac684495be0752f201b80e39fca79a689d168e6bb",
+        "agents/labeler/checkpoints/ann_2c401fa2a4af70443d189542.json": "ae58c18ae0269b0dc1b320c3e7d56c0ec9a68cf6fe8102613da8f745012f64ed",
+        "agents/labeler/checkpoints/ann_425f22be05c7bc206486ef19.json": "1d9459111e678391aa612c859cc416582414771515d041c6908137eee06b77fa",
+        "agents/labeler/checkpoints/ann_4cdcd73da9a36cd512ef896e.json": "d72f4316813d091c30e54f35420e1e3f36cde8a19ab008bc99e2e1cb30e6b962",
+        "agents/labeler/checkpoints/ann_637979d4e4ca9fb5a360976a.json": "304950de8739286c86fda99d6296761cf0d95bc6aaebaff2d338f540d948853f",
+        "agents/labeler/checkpoints/ann_8610541190ceb6c789cb3447.json": "5dfea89bee9207a72c7d096201bc8700765c21726d63744628959acffe1b1745",
+        "agents/labeler/checkpoints/ann_9db48656472ac05088ce5a88.json": "3564925fe3e614141b7d8b14d5c2dca2d737718743869de9db2aab1b2facebfe",
+        "agents/labeler/checkpoints/ann_a25f40dd32ef43be932b73a7.json": "bd4e06f2783138e195e54a52d42961d1c6425395e71e3e5784c4cb0bd9315369",
+        "agents/labeler/checkpoints/ann_b35bf89d3e42910bbf0ed1dc.json": "8c0b9292555dba5fcf580ad5915d38d223e3892774669cf09d0d878dbea2309d",
+        "agents/labeler/checkpoints/ann_b3d8ab1d4393ca2dec602c43.json": "b25a174e691abfdb8512b6929d82346e0228cbbd44501a8469cc57e25bf0860c",
+        "agents/labeler/checkpoints/ann_b75855500d2a9f94be6fbee3.json": "fe2b78c69c1f7c605b613cb5e9ca30cb454b435a6782b1970d897bbb6125293f",
+        "agents/labeler/checkpoints/ann_c1f69ddff217783f79a7e98f.json": "4d2712901873fe7ecc8952964b8b360a1cf89528b9e6c4684f3254af32820c86",
+        "agents/labeler/checkpoints/ann_c62582535bf97dda19b1f99f.json": "6b05bcd35edb90ddf898d0df4283d38baf26f5cd57abfe6801866221ab6019ac",
+        "agents/labeler/checkpoints/ann_cfa70fcc5d0c69f4b8da343c.json": "71b2b9fe4c12c3b5562a6578654b76c456f710b0a28e371824a570b82f3f1e05",
+        "agents/labeler/checkpoints/ann_d76db7d1f4d132e31ee492b0.json": "2960d7c7f151379103d469dc6da5d17acca7966abe47edf6d9bd716e286a93d8",
+        "agents/labeler/checkpoints/ann_e2313349d4bfaa6389fae781.json": "f4caa4c3f0dd75de92b444171bfdcc0aa339d723f408ff762f935593dbaa4aef"
+      }
+    },
+    "blind": {
+      "result_sha256": "d9a327f029fd0d98a4fef589ebcbf9525addd6a2732f6d2b59618cdbe2e7f6ff",
+      "checkpoints": {
+        "agents/blind/checkpoints/ann_0101f0415fc1fa304413483a.json": "8c0faa712bd6654a399a32c1e1dd2ff9003f882e8a1f7f5fa6c141073ec661fd",
+        "agents/blind/checkpoints/ann_0473c3fd96c3e173b5d27ee3.json": "09770dc894f2acda4c19daaf020f82e04c826889dd0bc1763e26bd6d7d93958b",
+        "agents/blind/checkpoints/ann_1509ea5b87893d0102262b63.json": "ad4616ce13dbdbcd163666526e7706cf9e939e4c73aba93845d0e33a630c6440",
+        "agents/blind/checkpoints/ann_29d7e5ce8e325b6fb0c99ec7.json": "99a8d9d49b33af8831f33e67bbeced73bf6594568d4994e45d28242857ee3f8f",
+        "agents/blind/checkpoints/ann_2c3512d2b65127b8781e3f08.json": "003ea8d4435ac63feee99843741adba9be49fd7d47c77929dc3129a72d0ec1fc",
+        "agents/blind/checkpoints/ann_2c401fa2a4af70443d189542.json": "7b456eade99698738a69d7316868236c0befdf21cfe05bf23d116d7c35d4b11f",
+        "agents/blind/checkpoints/ann_425f22be05c7bc206486ef19.json": "9e83e53620d5e2e5829a88a520ef90199b29543947bce723323c46ad9398eea4",
+        "agents/blind/checkpoints/ann_4cdcd73da9a36cd512ef896e.json": "3369d68e9f24f085a67d1c05763a534fbc62ace4a60087ee2181408a1d4ab2d6",
+        "agents/blind/checkpoints/ann_637979d4e4ca9fb5a360976a.json": "7b4996e90a269d2d5e9828396f91d9c0cdb8aada9360332dd0f68fafdb84bc6b",
+        "agents/blind/checkpoints/ann_8610541190ceb6c789cb3447.json": "8208ce967648a1b4a440ffe25ef4127584bb95e10b1fe0815f1f619018f77d0b",
+        "agents/blind/checkpoints/ann_9db48656472ac05088ce5a88.json": "d3732777431d152c6533b331e840a85281c37e3b5c163ddac580baf2232687e1",
+        "agents/blind/checkpoints/ann_a25f40dd32ef43be932b73a7.json": "8173919047269c9541015df6c54c261aac1c6a1d19307ceaf5b1a0527ee454ee",
+        "agents/blind/checkpoints/ann_b35bf89d3e42910bbf0ed1dc.json": "1398aa5e99d32949703cea1ef23a08b2cfd7ab84086c03d549b57af46e1143ba",
+        "agents/blind/checkpoints/ann_b3d8ab1d4393ca2dec602c43d.json": "be4d07b25d473f5dfe8f893e4baa7ad7d19fe25c574a284921deaf03cc83fcc3",
+        "agents/blind/checkpoints/ann_b75855500d2a9f94be6fbee3.json": "ca3f07dc6c2ac312a266b0824cf82f9a6c4b19ab240c22ac27372ac084f2e8f8",
+        "agents/blind/checkpoints/ann_c1f69ddff217783f79a7e98f.json": "11e094aed13a0c825d4535a9fa0bd360824c1fc7dff563739fbc3aed5621071f",
+        "agents/blind/checkpoints/ann_c62582535bf97dda19b1f99f.json": "0c34384a5e369d839fbf9590b7c99db401414d7a4d2c6732367f19742839a399",
+        "agents/blind/checkpoints/ann_cfa70fcc5d0c69f4b8da343c.json": "372c53075f7ea96b8f4fca3ed19d95b3ada7377e3a17c1855188be5d13f03663",
+        "agents/blind/checkpoints/ann_d76db7d1f4d132e31ee492b0.json": "a0361bd7d4140eeac0f1cb699d6b1baa432d589c538b517dc61cec8a87c4bb51",
+        "agents/blind/checkpoints/ann_e2313349d4bfaa6389fae781.json": "9cac687d03418499790225b455382a33228f82a4ea434e7a95e3860d0bfe1fb8"
+      }
+    }
+  },
+  "structural_recovery": {
+    "record_sha256": "0792ed8689f0ed6a7fa6147473aa20c9af6273cc629fadcb155722a168c73e13",
+    "provenance_sha256": "4ad7d2e5a7cc9ad4fb0c826b92af4c3a42c177fb3e97df1af27e3cd61df1aab9",
+    "original_bad_id": "ann_b3d8ab1d4393ca2dec602c43d",
+    "corrected_id": "ann_b3d8ab1d4393ca2dec602c43"
+  }
+}

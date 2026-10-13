@@ -1,0 +1,17 @@
+{
+  "annotation_id": "ann_b35bf89d3e42910bbf0ed1dc",
+  "description_sha256": "26505fd581f9940a5f08be3f5887a00f3232c99ad2b154bfb7e1d8fe654a0779",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description explicitly identifies an optimizing C/C++ compiler, which is a concrete conventional compilation and optimization function, with no affirmative AI signal.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "optimizing C/C++ compiler for IBM-supported environments"
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The labeler’s sparse-detail concern is resolved by the explicit function: \"optimizing C/C++ compiler for IBM-supported environments\" identifies compilation and optimization, not merely a product category. That concrete conventional function supports non_ai."
+}

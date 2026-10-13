@@ -1,0 +1,376 @@
+[
+  {
+    "annotation_id": "ann_0473c3fd96c3e173b5d27ee3",
+    "description_sha256": "73cf396ce8b13bdf8682ae0dc92c5162156543a1f082807071582b6a176731dd",
+    "source_record_references": [
+      "369"
+    ],
+    "description": "Software Delivery Excellence solution which collects entire software development lifecycle data from all the DevOps & associated tools and provides business insights into what, how, and why of the SDLC.",
+    "labeler_proposal": {
+      "annotation_id": "ann_0473c3fd96c3e173b5d27ee3",
+      "description_sha256": "73cf396ce8b13bdf8682ae0dc92c5162156543a1f082807071582b6a176731dd",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Collecting SDLC data is conventional, but the business insights into what, how and why is analytics-type wording whose implementation the text does not establish, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "collects entire software development lifecycle data from all the DevOps & associated tools",
+        "provides business insights into what, how, and why of the SDLC"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_0473c3fd96c3e173b5d27ee3",
+      "description_sha256": "73cf396ce8b13bdf8682ae0dc92c5162156543a1f082807071582b6a176731dd",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text clearly describes SDLC data collection, but the unexplained 'business insights' functionality could be implemented in more than one way; no affirmative AI signal appears.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "collects entire software development lifecycle data from all the DevOps & associated tools",
+        "provides business insights into what, how, and why of the SDLC"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Both proposals leave binary weak: evaluate whether SDLC data collection and “business insights” are sufficiently concrete conventional functions, or whether analytics behavior remains unexplained; do not infer AI merely as a possibility."
+  },
+  {
+    "annotation_id": "ann_1509ea5b87893d0102262b63",
+    "description_sha256": "4958b19fa3309228b40637d0329ad9679e8cd6c4956597d97cc3791166b2b642",
+    "source_record_references": [
+      "363"
+    ],
+    "description": "CorasWorks is a BI tool for Sharepoint.  The v11 is a mature product that has evolved along with the Microsoft SharePoint platform.  It is designed to be  The Fastest and Easiest way to add Business Value to SharePoint.  But to be more specific, CorasWorks is focused on making it fast and easy to manage work related activities.",
+    "labeler_proposal": {
+      "annotation_id": "ann_1509ea5b87893d0102262b63",
+      "description_sha256": "4958b19fa3309228b40637d0329ad9679e8cd6c4956597d97cc3791166b2b642",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a BI tool for SharePoint that helps manage work activities. BI could imply analytics whose implementation the text does not establish, and the rest is promotional wording without specific functions, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "CorasWorks is a BI tool for Sharepoint.",
+        "fast and easy to manage work related activities"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_1509ea5b87893d0102262b63",
+      "description_sha256": "4958b19fa3309228b40637d0329ad9679e8cd6c4956597d97cc3791166b2b642",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description explains conventional SharePoint work-activity management, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "manage work related activities"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Labeler flags unexplained BI/analytics wording; blind calls supported while relying on work-activity management without exact description wording. Assess whether text supports conventional function or is only category/promotion."
+  },
+  {
+    "annotation_id": "ann_29d7e5ce8e325b6fb0c99ec7",
+    "description_sha256": "39c2b5f3011c95c6069ad23dba3591996511deb85aa4a1b01171b11cd8ed94a6",
+    "source_record_references": [
+      "358"
+    ],
+    "description": "Amazon Simple Workflow (Amazon SWF) is a cloud workflow management application",
+    "labeler_proposal": {
+      "annotation_id": "ann_29d7e5ce8e325b6fb0c99ec7",
+      "description_sha256": "39c2b5f3011c95c6069ad23dba3591996511deb85aa4a1b01171b11cd8ed94a6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes only a category label (cloud workflow management application) and names no concrete capability, so the conventional-function negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "cloud workflow management application"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_29d7e5ce8e325b6fb0c99ec7",
+      "description_sha256": "39c2b5f3011c95c6069ad23dba3591996511deb85aa4a1b01171b11cd8ed94a6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a conventional cloud workflow management application, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "cloud workflow management application"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Labeler says category-only cloud workflow management with no stated capability; blind treats application category as conventional. Decide whether category wording itself meaningfully describes conventional function."
+  },
+  {
+    "annotation_id": "ann_4cdcd73da9a36cd512ef896e",
+    "description_sha256": "c3d287cc572ee3ceab03897284043613c1b08137cd6caa8a9757bc35a3331a65",
+    "source_record_references": [
+      "364"
+    ],
+    "description": "Freshdesk is a cloud-based customer support software and helpdesk solution.",
+    "labeler_proposal": {
+      "annotation_id": "ann_4cdcd73da9a36cd512ef896e",
+      "description_sha256": "c3d287cc572ee3ceab03897284043613c1b08137cd6caa8a9757bc35a3331a65",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Only a category label (cloud-based customer support software and helpdesk solution) with no specific functions named, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Freshdesk is a cloud-based customer support software and helpdesk solution."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_4cdcd73da9a36cd512ef896e",
+      "description_sha256": "c3d287cc572ee3ceab03897284043613c1b08137cd6caa8a9757bc35a3331a65",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies conventional customer support and helpdesk software, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "customer support software and helpdesk solution"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Labeler says category-only customer support/helpdesk, blind calls conventional without specific functions. Determine if this is meaningful function description or merely category."
+  },
+  {
+    "annotation_id": "ann_637979d4e4ca9fb5a360976a",
+    "description_sha256": "c9e84899151890bf4e5c3bd373fbb8def19cc9292ea355742a0e84e704d700f1",
+    "source_record_references": [
+      "373"
+    ],
+    "description": "IBM ILOG CPLEX Optimization Studio is an optimization software package.",
+    "labeler_proposal": {
+      "annotation_id": "ann_637979d4e4ca9fb5a360976a",
+      "description_sha256": "c9e84899151890bf4e5c3bd373fbb8def19cc9292ea355742a0e84e704d700f1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Only a category label (optimization software package) with no described functions. The negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is an optimization software package."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_637979d4e4ca9fb5a360976a",
+      "description_sha256": "c9e84899151890bf4e5c3bd373fbb8def19cc9292ea355742a0e84e704d700f1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies an optimization software package, a conventional software function, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "optimization software package"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Labeler says optimization-software category with no described functions; blind calls conventional software function. Evaluate concrete functionality in the exact phrase and avoid unsupported subtype assumptions."
+  },
+  {
+    "annotation_id": "ann_b35bf89d3e42910bbf0ed1dc",
+    "description_sha256": "26505fd581f9940a5f08be3f5887a00f3232c99ad2b154bfb7e1d8fe654a0779",
+    "source_record_references": [
+      "372"
+    ],
+    "description": "XL C/C++ is the name of IBM's proprietary optimizing C/C++ compiler for IBM-supported environments.",
+    "labeler_proposal": {
+      "annotation_id": "ann_b35bf89d3e42910bbf0ed1dc",
+      "description_sha256": "26505fd581f9940a5f08be3f5887a00f3232c99ad2b154bfb7e1d8fe654a0779",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Names a compiler product with no functional detail beyond compilation. The offering is conventional, but the description is category-level, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "optimizing C/C++ compiler for IBM-supported environments"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_b35bf89d3e42910bbf0ed1dc",
+      "description_sha256": "26505fd581f9940a5f08be3f5887a00f3232c99ad2b154bfb7e1d8fe654a0779",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a conventional optimizing C/C++ compiler, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "proprietary optimizing C/C++ compiler"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Labeler weak because compiler has limited detail; blind calls C/C++ compiler conventional. Decide whether explicit compiling/optimizing is concrete conventional functionality or too sparse."
+  },
+  {
+    "annotation_id": "ann_b75855500d2a9f94be6fbee3",
+    "description_sha256": "eb7f1f5ccb3f1b62f5b1d5dfc75b5a7e13fadbd9680e5a8119def4b3ba260a76",
+    "source_record_references": [
+      "359"
+    ],
+    "description": "4/1/2020 Allowed but still completing auto-remediation Analyze and debug your applications",
+    "labeler_proposal": {
+      "annotation_id": "ann_b75855500d2a9f94be6fbee3",
+      "description_sha256": "eb7f1f5ccb3f1b62f5b1d5dfc75b5a7e13fadbd9680e5a8119def4b3ba260a76",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Fragmentary text with a date and a status note. The only functional phrases (auto-remediation, analyze and debug) do not establish a conventional function or the absence of AI, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Allowed but still completing auto-remediation",
+        "Analyze and debug your applications"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_b75855500d2a9f94be6fbee3",
+      "description_sha256": "eb7f1f5ccb3f1b62f5b1d5dfc75b5a7e13fadbd9680e5a8119def4b3ba260a76",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes conventional auto-remediation and application analysis and debugging, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "auto-remediation",
+        "Analyze and debug your applications"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Labeler finds fragmentary context and ambiguous auto-remediation/analyze/debug; blind calls these conventional. Assess if these are concrete conventional operations or potentially AI-dependent unexplained functions."
+  },
+  {
+    "annotation_id": "ann_c1f69ddff217783f79a7e98f",
+    "description_sha256": "9e2bc9cefe4a6f88c4324cf4c72c68a774b0c8205cf3709e1daafba4df1d05e5",
+    "source_record_references": [
+      "374"
+    ],
+    "description": "Informix-4GL is a 4GL programming language developed by Informix during the mid-1980s.",
+    "labeler_proposal": {
+      "annotation_id": "ann_c1f69ddff217783f79a7e98f",
+      "description_sha256": "9e2bc9cefe4a6f88c4324cf4c72c68a774b0c8205cf3709e1daafba4df1d05e5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Names a 4GL programming language and its era only, with no described functions. The negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "4GL programming language developed by Informix during the mid-1980s"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_c1f69ddff217783f79a7e98f",
+      "description_sha256": "9e2bc9cefe4a6f88c4324cf4c72c68a774b0c8205cf3709e1daafba4df1d05e5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a conventional 4GL programming language, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "4GL programming language"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Labeler weak because 4GL is named without behavior; blind treats programming language category as conventional. Decide whether language description itself is sufficient conventional function."
+  },
+  {
+    "annotation_id": "ann_cfa70fcc5d0c69f4b8da343c",
+    "description_sha256": "e8f061e3044863aebbf0badc499305ffb571a75d1d756c234f307b0f04f6985b",
+    "source_record_references": [
+      "371"
+    ],
+    "description": "Developer for z/OS  is a modern, robust toolset for developing and maintaining IBM z/OS applications through the use of DevOps practices.",
+    "labeler_proposal": {
+      "annotation_id": "ann_cfa70fcc5d0c69f4b8da343c",
+      "description_sha256": "e8f061e3044863aebbf0badc499305ffb571a75d1d756c234f307b0f04f6985b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Generic toolset description for developing and maintaining z/OS applications with DevOps practices. No specific function is named, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "modern, robust toolset for developing and maintaining IBM z/OS applications"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_cfa70fcc5d0c69f4b8da343c",
+      "description_sha256": "e8f061e3044863aebbf0badc499305ffb571a75d1d756c234f307b0f04f6985b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers conventional development and maintenance of z/OS applications through DevOps practices, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "developing and maintaining IBM z/OS applications through the use of DevOps practices"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_concern": "Labeler says generic toolset/DevOps description lacks specific functions; blind calls development and maintenance conventional. Assess whether text meaningfully describes conventional work."
+  }
+]
