@@ -1,0 +1,21 @@
+{
+  "annotation_id": "ann_50e9b00b59115a61ce689602",
+  "description_sha256": "2fbe73c6a20b98fb7b390b8491e500d4966a3db955d948c2a940b08df088a4e7",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "The description explicitly identifies the Live Assist feature and an available response as AI, supporting an AI-positive label.",
+  "ai_type_rationale": "The only described offering is an AI Live Assist feature that monitors an agent-user chat and surfaces answers. The chat is contextual, but the text does not establish that meaningful conventional functionality is part of this offering or that it remains without AI. Enabled is the best tentative subtype, with weak evidence and forced subtype decision.",
+  "evidence_spans": [
+    "AI-powered Live Assist feature",
+    "wherever the AI response is available, notify the agent through a pop-up and the agent can use that answer rather than spending his time searching for the response with just a single click."
+  ],
+  "ai_type_evidence_spans": [
+    "AI-powered Live Assist feature enables Sia  to consistently monitor the live chat between the agent and the user",
+    "wherever the AI response is available, notify the agent through a pop-up"
+  ],
+  "conflict_response": "The AI wording directly supports the binary positive. I do not treat the surrounding agent-user chat as proof of a separate conventional product core: the text only describes chat as the context monitored by Live Assist, leaving core dependence unresolved. Thus subtype remains weak/forced rather than supported enabled or native."
+}

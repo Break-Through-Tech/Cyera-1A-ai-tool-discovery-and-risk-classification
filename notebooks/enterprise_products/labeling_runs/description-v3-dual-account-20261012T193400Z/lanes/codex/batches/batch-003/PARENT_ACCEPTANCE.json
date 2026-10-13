@@ -1,0 +1,79 @@
+{
+  "status": "finalized",
+  "timestamp": "2026-10-13T04:46:40.350087+00:00",
+  "selected_descriptions": 20,
+  "selected_rows": 20,
+  "exact_native_checkpoint_equality_and_quotes": true,
+  "original_independent_roles": {
+    "labeler": {
+      "run_id": "7a3566b3-66ab-498e-a3c5-ba071f26ed4d",
+      "native_path": "/tmp/pi-subagents-uid-1000/async-subagent-runs/7a3566b3-66ab-498e-a3c5-ba071f26ed4d/structured-output/pi-subagent-structured-GmOvS1/output.json",
+      "accepted_sha256": "50d1044ae4d83593696fd53404e3ef8cbf663f036966210b52c2ccc2d6e73060",
+      "model": "openai-codex/gpt-6-luna:high",
+      "thinking": "high",
+      "checkpoint_hashes": {
+        "agents/labeler/checkpoints/ann_50e9b00b59115a61ce689602.json": "968cc4cb353ea1ee336cfac58b3dc06545ad1761fe95b32bcaddb7f60e8b325f",
+        "agents/labeler/checkpoints/ann_4737466934ce7ba4d9b4e2db.json": "cc696ef9616b63e279beb94c673ae9a4c4ff993627fdb23ee6de41fa623b69ea",
+        "agents/labeler/checkpoints/ann_e9f094322b2e623cd781d621.json": "64a1112007b18e1a8e41feecc0f97a74fa6dc7d32b27838f8b91b2e2449fb83a",
+        "agents/labeler/checkpoints/ann_e2e0504d45f9fed7ecb40528.json": "76fb0635a84c0bee0bd0b358f2bf2cc40de80e15e602773f89aef7f245f427a0",
+        "agents/labeler/checkpoints/ann_08c47155bc676cd9976377c7.json": "5e35171c9f2b04b30fe738941d0b6a0455d087c73c519ac94fa34813e9d925bb",
+        "agents/labeler/checkpoints/ann_4534d8c420b5d26701484931.json": "a91fea34ed847504b3e0694d4bd339c4cad536b19f352a7d2b3f067a740db394",
+        "agents/labeler/checkpoints/ann_8d5631a4c7fe215158d5d5d9.json": "e7b0b921fb64e1c6bc06ab1892adef312db0f4789f30ae5ccd25043d62821354",
+        "agents/labeler/checkpoints/ann_9064d99e1b5b98459a77b70b.json": "a4b3c71ec63cb18f2d4611d20690b33be571b6c1ae321ff454d6b899969a53d4",
+        "agents/labeler/checkpoints/ann_39822b56b7451ef964da78b9.json": "df066105bc37e39f11e642765e1e4b2fd53aa9497a9b3fee49a4832567e825fb",
+        "agents/labeler/checkpoints/ann_eef926742ab591c4a5650cc8.json": "6af8b45e94904d93f7f359bc8679ead4ba2c2722d7d05c75f3e6ef1fdcf3a28e",
+        "agents/labeler/checkpoints/ann_36de0dff70124a2470d62944.json": "bf40631d028bebca89c01bddf58360472004fad953d36b2ab43aba213dccdafd",
+        "agents/labeler/checkpoints/ann_3f43d1840655b2e6d558248d.json": "54d2c5b6b6b5bca5f5b5931724c55d4f643a4087271d8e93686c22c8af676d95",
+        "agents/labeler/checkpoints/ann_708385c322f5fe904fd281c8.json": "75548bf29b31dce79c2445b04bea06725ee3758f86028ddad56804273dc8f464",
+        "agents/labeler/checkpoints/ann_502c01ea6fcd7958cad21eb6.json": "2536e3aea6c2ac84792021b65695d980604f31bb564a986c9d65e9f5e0873807",
+        "agents/labeler/checkpoints/ann_6fe920806541324d05b73971.json": "9dfbb987c2fa8b93f29ca2afbe467f9d3a59e025e6aa1fc0e84c2c9bf10414c3",
+        "agents/labeler/checkpoints/ann_c240545c4c4a74274eca3206.json": "2a8dd1c9dc28c4cbdf20ea297b60ec15731b8b911742f4e91817ae5c3b3011dc",
+        "agents/labeler/checkpoints/ann_b3221c1bdc559e58868a8b86.json": "d8c0d48b264b6dab5b65a66f87b34fcc76bbc9f9b8efd2c1e909ac5ff13ef6b1",
+        "agents/labeler/checkpoints/ann_2d079ac7ee64d7b264af8eab.json": "aa6b63274c799921ae5d27e8946c324efe2a1f0ed76691dd672730b627435f6b",
+        "agents/labeler/checkpoints/ann_0e0a6ab5608dcc334e88899d.json": "83b50c097079eb2c29ed6fcde652785d49d7d01fe9a6b669e7f9abed766f221f",
+        "agents/labeler/checkpoints/ann_615963a3cc4e35148a9210d3.json": "542f483ae119d5200f701bdc7d927984c9856e1a35cbcfd6068332859598a7f6"
+      }
+    },
+    "blind": {
+      "run_id": "40233aaf-9b3e-43c7-b66a-cdbe1254f6b3",
+      "native_path": "/tmp/pi-subagents-uid-1000/async-subagent-runs/40233aaf-9b3e-43c7-b66a-cdbe1254f6b3/structured-output/pi-subagent-structured-OTILiM/output.json",
+      "accepted_sha256": "36007118d1262f429306959281f86c864627aa3bf427aac7abbb497e82b8106b",
+      "model": "openai-codex/gpt-6-luna:high",
+      "thinking": "high",
+      "checkpoint_hashes": {
+        "agents/blind/checkpoints/ann_50e9b00b59115a61ce689602.json": "ab2ed1b94ed37ad97fec360867ebadcf7849ba6328985f578cdc019442c34166",
+        "agents/blind/checkpoints/ann_4737466934ce7ba4d9b4e2db.json": "e10fb507c42277dc982f4200ceecd38fc968404bb28e06a03922f135e89cf703",
+        "agents/blind/checkpoints/ann_e9f094322b2e623cd781d621.json": "39c42604a51486ba90724259262b6bd5d1fcc3329c684d0e5eb3cd7d37272c9e",
+        "agents/blind/checkpoints/ann_e2e0504d45f9fed7ecb40528.json": "f594266c43aaad8bd356f2620bdc57e4b9a39151a20a8150b8dfe6675ad46ad6",
+        "agents/blind/checkpoints/ann_08c47155bc676cd9976377c7.json": "a32b6b5cc0a6f7e0d6193276c0188f1655f2266d1bca97c04ddb12ea89ca0aa1",
+        "agents/blind/checkpoints/ann_4534d8c420b5d26701484931.json": "30a3eb12fa92936bc11fac834b626484a385cc33fc48b75f290d3b26c2a27a3e",
+        "agents/blind/checkpoints/ann_8d5631a4c7fe215158d5d5d9.json": "263b54541151d6b413162e8eaa56ee33d96c02b8077ae5190372001bb73da70f",
+        "agents/blind/checkpoints/ann_9064d99e1b5b98459a77b70b.json": "e11b228a6c59c32dae661d50c670aff9a58fecd14a918515af1cc72ec4cf7f54",
+        "agents/blind/checkpoints/ann_39822b56b7451ef964da78b9.json": "b655c37fbe84e5e1eed8cba187adae163973d72fe80236196a96ce959598bf62",
+        "agents/blind/checkpoints/ann_eef926742ab591c4a5650cc8.json": "e0e71453d880ceccb3abed2ef4dd2da19fd49a46bc4bb59413190fe94c56269d",
+        "agents/blind/checkpoints/ann_36de0dff70124a2470d62944.json": "2bb1fcc4a86dad18c651ff9d8d7a865d2ab5c8522a21cf8b8e5ae556b4820606",
+        "agents/blind/checkpoints/ann_3f43d1840655b2e6d558248d.json": "3b33e95ae8b1507fecd39facabceaa8660ec14dfa3afa943da57f269d8ef0118",
+        "agents/blind/checkpoints/ann_708385c322f5fe904fd281c8.json": "d71c5b2a5ee45f4aa0ce2301c46beef6b8086d3e21d6944cca64c89ac87c80be",
+        "agents/blind/checkpoints/ann_502c01ea6fcd7958cad21eb6.json": "7751dfc11e0630ff517037376c896d97875ee3a5b3133910703fa823fa6ffc69",
+        "agents/blind/checkpoints/ann_6fe920806541324d05b73971.json": "b58e77e853b184ac45127c1a868f228c718b49cf453cbf741f2027b8de7ca570",
+        "agents/blind/checkpoints/ann_c240545c4c4a74274eca3206.json": "1937cc5a2f622f72751a439589246d91958bd94f6236e267ab945a370c70afc9",
+        "agents/blind/checkpoints/ann_b3221c1bdc559e58868a8b86.json": "be44bab759a94bc043a8c8bbe76a5135f13132796119e19950285111bd2e256a",
+        "agents/blind/checkpoints/ann_2d079ac7ee64d7b264af8eab.json": "8e96448f7ca74a337c7a5cb8b9f96786735bf7e27fa7f52241276fdf8f69a751",
+        "agents/blind/checkpoints/ann_0e0a6ab5608dcc334e88899d.json": "27c8e3d882755a18ea4041a4d57fcd0d7764e235642832b25de4957e0ad260d7",
+        "agents/blind/checkpoints/ann_615963a3cc4e35148a9210d3.json": "8a73cea343ffadb4a2f129c8bc364bcca1fb6a46c5efedce4253064b06c93136"
+      }
+    }
+  },
+  "same_original_verifier_lineage": [
+    "40233aaf-9b3e-43c7-b66a-cdbe1254f6b3",
+    "6c8fa8ad-8015-492e-b0c0-a9c3d7133258"
+  ],
+  "reconciliation_workflow": "3b236507-8685-40e2-a0ea-51c0539663a2",
+  "semantics_review": "Parent inspected all20 source/proposal pairs and all5 finals; source-only conventional fulfillment/chat/content functions supported without invented determinism or product-name features; separate Recognizer AI applicability remains weak non_ai for Vocalizer; explicit Live Assist binary supported with independently weak subtype",
+  "native_reconciliation_sha256": "34360b31e4b88fc18e6790b1b4c13bb262ce8df447ad4c8b7edeea9304e4f86d",
+  "models": {
+    "labeler": "openai-codex/gpt-6-luna:high",
+    "blind": "openai-codex/gpt-6-luna:high"
+  },
+  "review_flags_saved": true
+}
