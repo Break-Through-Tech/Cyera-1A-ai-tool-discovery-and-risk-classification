@@ -1,0 +1,97 @@
+{
+  "dataset_id": "aitoolbuzz-category-v1",
+  "source": "data/aitoolbuzz-com-16k-ai-tools-database/ai_tools_cleaned.csv",
+  "source_sha256": "434bceb96ae90d49a41ed5d2ae662f91ac76476737849980bdef608ad9b4bdda",
+  "quality_report_sha256": "fb5f991c050198a16e33c2488784d21b0a83b96cfdef24b691d6bc48af0da439",
+  "policy": "description-only-identity-and-near-description-groups-v1",
+  "seed": 20261014,
+  "input_feature_allowlist": [
+    "description_text"
+  ],
+  "target": "category",
+  "identity_group_keys": [
+    "normalized_description",
+    "normalized_name",
+    "website_hostname",
+    "near_description_similarity_at_least_0.92"
+  ],
+  "split_method": "StratifiedGroupKFold: fold 0 test, fold 1 validation, folds 2-4 train",
+  "review_policy": "Conflicting category labels for identical normalized text are held out pending manual review; same-label duplicate text is retained in one split.",
+  "counts": {
+    "source_rows": 13701,
+    "eligible_rows": 13691,
+    "review_rows": 34,
+    "conflict_rows_excluded": 10,
+    "same_label_duplicate_rows_retained": 24,
+    "near_description_pairs_grouped": 44,
+    "near_description_pairs_with_category_disagreement": 3,
+    "groups": 13420
+  },
+  "partitions": {
+    "train": {
+      "rows": 8214,
+      "groups": 8052,
+      "category_support": {
+        "Ai And Machine Learning": 640,
+        "Business And Finance": 507,
+        "Communication And Support": 956,
+        "Creative And Entertainment": 303,
+        "Data And Analytics": 368,
+        "Education And Learning": 141,
+        "Industry Specific": 161,
+        "Marketing And Sales": 689,
+        "Media And Content Creation": 2117,
+        "Operations And Management": 753,
+        "Personal And Lifestyle": 134,
+        "Security And Privacy": 100,
+        "Specialized Technologies": 481,
+        "Technology And Development": 864
+      },
+      "sha256": "bd20c77b055f23a102035493cfb1bda6644b5c78fc1898c4ad6eb2548cc4b798"
+    },
+    "validation": {
+      "rows": 2739,
+      "groups": 2684,
+      "category_support": {
+        "Ai And Machine Learning": 214,
+        "Business And Finance": 168,
+        "Communication And Support": 319,
+        "Creative And Entertainment": 102,
+        "Data And Analytics": 122,
+        "Education And Learning": 46,
+        "Industry Specific": 54,
+        "Marketing And Sales": 230,
+        "Media And Content Creation": 705,
+        "Operations And Management": 252,
+        "Personal And Lifestyle": 45,
+        "Security And Privacy": 33,
+        "Specialized Technologies": 161,
+        "Technology And Development": 288
+      },
+      "sha256": "5ad1b4fd176fd28ab81c414d1540191c9d25cb3ce02676d922a346ae4f2bcb00"
+    },
+    "test": {
+      "rows": 2738,
+      "groups": 2684,
+      "category_support": {
+        "Ai And Machine Learning": 214,
+        "Business And Finance": 168,
+        "Communication And Support": 318,
+        "Creative And Entertainment": 102,
+        "Data And Analytics": 123,
+        "Education And Learning": 46,
+        "Industry Specific": 53,
+        "Marketing And Sales": 230,
+        "Media And Content Creation": 705,
+        "Operations And Management": 252,
+        "Personal And Lifestyle": 45,
+        "Security And Privacy": 33,
+        "Specialized Technologies": 160,
+        "Technology And Development": 289
+      },
+      "sha256": "8af06bdf80c2ce45c4b2bf933185bbc231bcf8a13a1c97c42d36923e83cef394"
+    }
+  },
+  "review_sha256": "4f153c2006a5438cbc3dc93f8ddc1e59d6ea47d8cf22c56b938392ce07b951c1",
+  "near_review_sha256": "0ceba32dc2ec5fd1235ab56eb49bcdf84567cd5aee1a257fb24dc26635ebe0c1"
+}
