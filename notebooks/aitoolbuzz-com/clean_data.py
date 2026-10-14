@@ -1,12 +1,14 @@
-"""Prepare the AIToolBuzz archive for NLP-based risk classification.
+"""Prepare the AIToolBuzz dataset for NLP-based risk classification.
 
-The source archive is expected at ``data/archive.zip`` and must contain one
-CSV file. By default, this script writes ``data/ai_tools_cleaned.csv``.
+By default, read the original CSV from
+``data/aitoolbuzz-com-16k-ai-tools-database/`` and write ``ai_tools_cleaned.csv``
+and ``ai_tools_quality_report.json`` in that same folder. ZIP archives containing
+exactly one CSV are also supported with --input.
 
 Examples
 --------
-python data/clean_data.py
-python data/clean_data.py --input C:\\path\\to\\archive.zip --output data/ai_tools_cleaned.csv
+python notebooks/aitoolbuzz-com/clean_data.py
+python notebooks/aitoolbuzz-com/clean_data.py --input C:/path/to/archive.zip
 """
 
 from __future__ import annotations
@@ -19,7 +21,7 @@ import json
 import re
 from collections import Counter
 from pathlib import Path
-from typing import Iterable
+from typing import Iterable, TextIO
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from zipfile import ZipFile
 
@@ -115,21 +117,31 @@ def csv_member(archive: ZipFile) -> str:
     return members[0]
 
 
+def read_csv_rows(source: TextIO) -> Iterable[dict[str, str]]:
+    """Validate the source columns and read its rows."""
+    reader = csv.DictReader(source)
+    missing_columns = REQUIRED_COLUMNS - set(reader.fieldnames or [])
+    if missing_columns:
+        raise ValueError(
+            "Input CSV is missing required columns: "
+            + ", ".join(sorted(missing_columns))
+        )
+    yield from reader
+
+
 def load_rows(input_path: Path) -> Iterable[dict[str, str]]:
-    """Read the CSV directly from the ZIP archive."""
+    """Read a CSV file or the sole CSV in a ZIP archive."""
+    if input_path.suffix.lower() != ".zip":
+        with input_path.open(encoding="utf-8-sig", newline="") as source:
+            yield from read_csv_rows(source)
+        return
+
     with ZipFile(input_path) as archive:
         member = csv_member(archive)
         with archive.open(member) as raw_file:
             # utf-8-sig safely handles either ordinary UTF-8 or a BOM.
-            reader = csv.DictReader(io.TextIOWrapper(raw_file, encoding="utf-8-sig", newline=""))
-            actual_columns = set(reader.fieldnames or [])
-            missing_columns = REQUIRED_COLUMNS - actual_columns
-            if missing_columns:
-                raise ValueError(
-                    "Input CSV is missing required columns: "
-                    + ", ".join(sorted(missing_columns))
-                )
-            yield from reader
+            with io.TextIOWrapper(raw_file, encoding="utf-8-sig", newline="") as source:
+                yield from read_csv_rows(source)
 
 
 def clean_rows(rows: Iterable[dict[str, str]]) -> tuple[list[dict[str, str]], Counter[str]]:
@@ -254,25 +266,26 @@ def write_quality_report(
 
 
 def parse_args() -> argparse.Namespace:
-    repository_root = Path(__file__).resolve().parents[1]
+    repository_root = Path(__file__).resolve().parents[2]
+    data_dir = repository_root / "data" / "aitoolbuzz-com-16k-ai-tools-database"
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--input",
         type=Path,
-        default=repository_root / "data" / "archive.zip",
-        help="ZIP archive containing the source CSV (default: data/archive.zip).",
+        default=data_dir / "Complete AI Tools Dataset 2025 - 16763 Tools from AIToolBuzz.csv",
+        help="Source CSV or ZIP containing one CSV (default: %(default)s).",
     )
     parser.add_argument(
         "--output",
         type=Path,
-        default=repository_root / "data" / "ai_tools_cleaned.csv",
-        help="Destination for the cleaned CSV (default: data/ai_tools_cleaned.csv).",
+        default=data_dir / "ai_tools_cleaned.csv",
+        help="Destination for the cleaned CSV (default: %(default)s).",
     )
     parser.add_argument(
         "--report",
         type=Path,
-        default=repository_root / "data" / "ai_tools_quality_report.json",
-        help="Destination for the quality report (default: data/ai_tools_quality_report.json).",
+        default=data_dir / "ai_tools_quality_report.json",
+        help="Destination for the quality report (default: %(default)s).",
     )
     return parser.parse_args()
 
@@ -280,7 +293,7 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     args = parse_args()
     if not args.input.is_file():
-        raise FileNotFoundError(f"Input archive not found: {args.input}")
+        raise FileNotFoundError(f"Input file not found: {args.input}")
 
     rows, report = clean_rows(load_rows(args.input))
     write_csv(rows, args.output)
