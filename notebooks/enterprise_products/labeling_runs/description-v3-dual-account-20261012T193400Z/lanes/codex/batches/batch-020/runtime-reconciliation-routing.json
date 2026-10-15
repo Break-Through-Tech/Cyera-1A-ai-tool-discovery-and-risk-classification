@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-10-15T15:00:23.604839+00:00",
+  "all_pairs_parent_reviewed": 20,
+  "required_ids": [
+    "ann_145f4bcbb866f397b8a9d267",
+    "ann_2ecd9733e35040fd61c3e884",
+    "ann_4c1707c578b428ffa58e15de",
+    "ann_d170dbd5198523f230af18df"
+  ],
+  "extra_concerns": {
+    "ann_695e3df32de02d5745f8d49a": "ERP category, integrated modules and covers virtually every aspect of business management do not specify operations. Assess meaningful described conventional functionality vs category/coverage alone; no SAP product knowledge.",
+    "ann_85c3ede6731f11a31739ab2d": "Description identifies vendor specializing in HCM/ERP/financial applications but not actual functions. Proposals infer concrete business-management operations from categories; assess support under meaningful-function requirement.",
+    "ann_13bc4132fc78e6d52f9350bb": "Automates responding to sales proposals could be workflow coordination, templates, or AI text generation. Source does not explain mechanism or actual automated tasks; assess whether unresolved response automation undermines supported negative.",
+    "ann_e5e2982c2633928ff0c31978": "Quality validation/compliance and faster document review are outcomes with unspecified mechanism; do not infer human-review workflow or conventional checking implementation. Assess whether actual described functionality supports negative vs unresolved potentially AI-dependent validation.",
+    "ann_327904651070fcdb5be1009a": "No-code automation turning workloads into streamlined workflows does not explicitly state deterministic rules, which labeler inferred. Distinguish category/outcome from concrete functionality; no-code alone is not implementation proof."
+  },
+  "routed_ids": [
+    "ann_13bc4132fc78e6d52f9350bb",
+    "ann_145f4bcbb866f397b8a9d267",
+    "ann_2ecd9733e35040fd61c3e884",
+    "ann_327904651070fcdb5be1009a",
+    "ann_4c1707c578b428ffa58e15de",
+    "ann_695e3df32de02d5745f8d49a",
+    "ann_85c3ede6731f11a31739ab2d",
+    "ann_d170dbd5198523f230af18df",
+    "ann_e5e2982c2633928ff0c31978"
+  ],
+  "packet_sha256": "82abf2471f7af0cb9b5ffca2d7898a6da02e9a340e6e3105d0210a8aeda14935",
+  "original_blind_run_id": "64d2c432-7d3e-48f1-b15c-3e25d49ab42a",
+  "latest_transport_blind_run_id": "f08af599-dc55-4240-802c-7a24cb67e7bb",
+  "semantic_pass": 1,
+  "two_quote_overrides_only": true
+}
