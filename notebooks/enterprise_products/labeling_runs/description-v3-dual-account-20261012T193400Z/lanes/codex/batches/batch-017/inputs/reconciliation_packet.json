@@ -1,0 +1,347 @@
+[
+  {
+    "annotation_id": "ann_1ac429c77a76c6175319676a",
+    "description_sha256": "a6f127015451f3fb1acdf57577b0d5fbb0a61de06bb3cee83b106a4b5c8df16f",
+    "description": "Sitetracker is a cloud-based project management solution designed to help enterprises manage high-volume distributed projects.\n\nSitetracker delivers real-time collaboration, automated reports, and forecasting for site-based project management teams. Maximize the value of your assets and shorten time to revenue by managing post-deployment activities, such as maintenance, upgrades, and marketing together in one platform. Optimize processes with automatic scheduling and assignment. Quickly share user-friendly maps to market sites to potential customers.",
+    "source_record_references": [
+      "848"
+    ],
+    "labeler": {
+      "annotation_id": "ann_1ac429c77a76c6175319676a",
+      "description_sha256": "a6f127015451f3fb1acdf57577b0d5fbb0a61de06bb3cee83b106a4b5c8df16f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes project management with collaboration, reports, forecasting, scheduling, and assignment; these are ordinary project-planning and workflow functions and the text gives no AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "real-time collaboration, automated reports, and forecasting for site-based project management teams",
+        "Optimize processes with automatic scheduling and assignment."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_1ac429c77a76c6175319676a",
+      "description_sha256": "a6f127015451f3fb1acdf57577b0d5fbb0a61de06bb3cee83b106a4b5c8df16f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes project-management collaboration, automated reports, scheduling, forecasting, and asset maintenance workflows; these are conventional project-management functions, with no AI signal stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "real-time collaboration, automated reports, and forecasting for site-based project management teams",
+        "Optimize processes with automatic scheduling and assignment."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Both proposals treat forecasting and automatic scheduling/assignment as ordinary project management. The text gives no forecasting or assignment mechanism. Reassess whether conventional surrounding collaboration/reports is sufficient to support the binary decision while these potentially AI-dependent functions remain unexplained. Do not infer AI merely from forecasting/automation, but do not assume a deterministic method either; preserve weak/forced uncertainty if unresolved."
+    ]
+  },
+  {
+    "annotation_id": "ann_4bbcb4bf99d068e3d296b048",
+    "description_sha256": "15de2b181c755c21783949e3045ce5f16a27ef1f0dd352b9f4f9c96eef8f31c3",
+    "description": "Deque Systems is a leading technology provider of end to end integrated Web compliance solutions that deliver accessibility, quality, privacy, and security",
+    "source_record_references": [
+      "837"
+    ],
+    "labeler": {
+      "annotation_id": "ann_4bbcb4bf99d068e3d296b048",
+      "description_sha256": "15de2b181c755c21783949e3045ce5f16a27ef1f0dd352b9f4f9c96eef8f31c3",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described offering provides integrated web compliance for accessibility, quality, privacy, and security, a conventional compliance-solutions function without an AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "integrated Web compliance solutions that deliver accessibility, quality, privacy, and security"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_4bbcb4bf99d068e3d296b048",
+      "description_sha256": "15de2b181c755c21783949e3045ce5f16a27ef1f0dd352b9f4f9c96eef8f31c3",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text only broadly characterizes integrated web compliance solutions and names accessibility, privacy, quality, and security outcomes; it gives little detail about concrete functions, but no AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "end to end integrated Web compliance solutions that deliver accessibility, quality, privacy, and security"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": []
+  },
+  {
+    "annotation_id": "ann_5cd806a608b88d87de781f1e",
+    "description_sha256": "e4bb2627424dd3d6c4597bc66b8f23e16eee3542fa4d09886ca59b2106c8edf6",
+    "description": "CATS (Centralized Asset Transactional Services): Asset Lifecycle Management Software by Fulcrum Technologies",
+    "source_record_references": [
+      "852"
+    ],
+    "labeler": {
+      "annotation_id": "ann_5cd806a608b88d87de781f1e",
+      "description_sha256": "e4bb2627424dd3d6c4597bc66b8f23e16eee3542fa4d09886ca59b2106c8edf6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Identifies the offering as asset lifecycle management software, a conventional asset-management function; no AI-dependent functionality is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Asset Lifecycle Management Software"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_5cd806a608b88d87de781f1e",
+      "description_sha256": "e4bb2627424dd3d6c4597bc66b8f23e16eee3542fa4d09886ca59b2106c8edf6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies asset lifecycle management software but supplies no specific lifecycle operations; this is a conventional software category and contains no AI signal, though detail is sparse.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Asset Lifecycle Management Software"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": []
+  },
+  {
+    "annotation_id": "ann_71e1213727a55af4e5d88f95",
+    "description_sha256": "fed369346add8865ef676355482b875c16090c0c88c66215e9409c35d41f641a",
+    "description": "Advanced automated research platform to answer questions from business strategy to product development, product launch, and performance monitoring.",
+    "source_record_references": [
+      "839"
+    ],
+    "labeler": {
+      "annotation_id": "ann_71e1213727a55af4e5d88f95",
+      "description_sha256": "fed369346add8865ef676355482b875c16090c0c88c66215e9409c35d41f641a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The only description is an automated research platform that answers broad business questions; it does not explain whether this is conventional research automation or AI-dependent question answering, so the negative is uncertain.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Advanced automated research platform to answer questions from business strategy to product development, product launch, and performance monitoring."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_71e1213727a55af4e5d88f95",
+      "description_sha256": "fed369346add8865ef676355482b875c16090c0c88c66215e9409c35d41f641a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text says an automated research platform answers broad business and product questions but does not explain how answers are produced; it is too sparse to establish an AI signal or a specific AI-dependent function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Advanced automated research platform to answer questions from business strategy to product development, product launch, and performance monitoring."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": []
+  },
+  {
+    "annotation_id": "ann_81680e107decd59c2d74eb83",
+    "description_sha256": "c3f54d52530246babcd7ad96fd2bf8e758964787b0ea5bb37b4daf52a685b973",
+    "description": "Clarity is'a full-feature enterprise-grade PPM platform that fulfills large complexity use cases. The data model is deep across demand management, project management, custom investment management, resource management, financial management, program, and portfolio capabilities.\n\nCA PPM, formerly Clarity PPM is a Project and Portfolio Management platform that helps businesses effectively manage their products, people, services, and finances.",
+    "source_record_references": [
+      "840"
+    ],
+    "labeler": {
+      "annotation_id": "ann_81680e107decd59c2d74eb83",
+      "description_sha256": "c3f54d52530246babcd7ad96fd2bf8e758964787b0ea5bb37b4daf52a685b973",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes project and portfolio management spanning demand, projects, resources, finances, programs, and portfolios—a conventional planning and management platform.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The data model is deep across demand management, project management, custom investment management, resource management, financial management, program, and portfolio capabilities.",
+        "helps businesses effectively manage their products, people, services, and finances."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_81680e107decd59c2d74eb83",
+      "description_sha256": "c3f54d52530246babcd7ad96fd2bf8e758964787b0ea5bb37b4daf52a685b973",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes project and portfolio management across demand, projects, resources, finances, programs, and products/people/services, conventional planning and management functions with no AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "demand management, project management, custom investment management, resource management, financial management, program, and portfolio capabilities",
+        "manage their products, people, services, and finances"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "The description enumerates management categories and a deep data model, then claims it helps manage products/people/services/finances. Are concrete software operations stated, or mainly category/coverage/outcome claims? Reassess supported negative without inventing planning operations or importing PPM capabilities."
+    ]
+  },
+  {
+    "annotation_id": "ann_d98622f25ddd4ef3f7e53c0c",
+    "description_sha256": "fa2b04e522671a03ec5edb67ad3f38e94d0c632f4b71ef5b2a4cbc181cbe8791",
+    "description": "LexisNexis' Bridger Insight  XG is a fully integrated compliance platform that enables organizations like yours to consolidate compliance processes, standardize controls and bring enterprise-wide operational consistency. Reduce the complexity and boost the efficiency of your KYC processes by accessing identity verification, screening, due diligence and fraud prevention services through a single point of entry for a consistent user experience.",
+    "source_record_references": [
+      "838"
+    ],
+    "labeler": {
+      "annotation_id": "ann_d98622f25ddd4ef3f7e53c0c",
+      "description_sha256": "fa2b04e522671a03ec5edb67ad3f38e94d0c632f4b71ef5b2a4cbc181cbe8791",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Specifies compliance-process consolidation, control standardization, KYC identity verification, screening, due diligence, and fraud-prevention services—conventional compliance operations, with no AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "consolidate compliance processes, standardize controls",
+        "identity verification, screening, due diligence and fraud prevention services through a single point of entry"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_d98622f25ddd4ef3f7e53c0c",
+      "description_sha256": "fa2b04e522671a03ec5edb67ad3f38e94d0c632f4b71ef5b2a4cbc181cbe8791",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The platform consolidates compliance operations including identity verification, screening, due diligence, and fraud prevention services—conventional compliance workflows described without an AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "consolidate compliance processes, standardize controls",
+        "identity verification, screening, due diligence and fraud prevention services"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Consolidation/standardized controls/single entry point are stated workflows, but identity verification/screening/fraud prevention methods are not explained. Reassess whether the stated conventional functions suffice for a supported negative without assuming rule-based verification or treating absence of explicit AI as sufficient. Address potential mechanism ambiguity on text alone."
+    ]
+  },
+  {
+    "annotation_id": "ann_e9b77f9dd459123d30c5be7e",
+    "description_sha256": "be77ca4f9f154d5bfa52c8912d8e23c5f38657de3d7ed03424dd0ad4eca72009",
+    "description": "Informatica MDM'stands for Informatica Master Data Management. It is an Informatica'system that is used widely by organizations for business management. It becomes extremely difficult for organizations to grow their business when there is a consistent change in software and reporting processes.",
+    "source_record_references": [
+      "855"
+    ],
+    "labeler": {
+      "annotation_id": "ann_e9b77f9dd459123d30c5be7e",
+      "description_sha256": "be77ca4f9f154d5bfa52c8912d8e23c5f38657de3d7ed03424dd0ad4eca72009",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Identifies a master data management system used for business management and mentions changing software and reporting processes; these are conventional data and business-process management functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Informatica MDM'stands for Informatica Master Data Management.",
+        "It is an Informatica'system that is used widely by organizations for business management.",
+        "there is a consistent change in software and reporting processes."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_e9b77f9dd459123d30c5be7e",
+      "description_sha256": "be77ca4f9f154d5bfa52c8912d8e23c5f38657de3d7ed03424dd0ad4eca72009",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It identifies a master data management system and mentions changing software/reporting processes as a business-growth difficulty, but gives little detail on the system's operations; no AI capability is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Informatica MDM'stands for Informatica Master Data Management. It is an Informatica'system that is used widely by organizations for business management.",
+        "consistent change in software and reporting processes"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": []
+  },
+  {
+    "annotation_id": "ann_ef86e40ecff00745b9d8558b",
+    "description_sha256": "4da0143fbd8ee6e2a8e6ad8ca3015543e1491d034672dd2e6987783693ab102f",
+    "description": "ALM/Quality Center is an application lifecycle management tool for software quality assurance and test management to deliver apps quickly with confidence.",
+    "source_record_references": [
+      "844"
+    ],
+    "labeler": {
+      "annotation_id": "ann_ef86e40ecff00745b9d8558b",
+      "description_sha256": "4da0143fbd8ee6e2a8e6ad8ca3015543e1491d034672dd2e6987783693ab102f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes application lifecycle management for software quality assurance and test management, conventional software-development and testing workflows.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "application lifecycle management tool for software quality assurance and test management"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_ef86e40ecff00745b9d8558b",
+      "description_sha256": "4da0143fbd8ee6e2a8e6ad8ca3015543e1491d034672dd2e6987783693ab102f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It is explicitly an application lifecycle management tool for software quality assurance and test management, conventional software development functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an application lifecycle management tool for software quality assurance and test management"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "The text names application lifecycle management, quality assurance and test management as category/intended use and faster-confident delivery as outcome. Reassess whether enough actual functionality is stated for supported non-AI or this is category-only weak/forced evidence; no unstated testing capabilities."
+    ]
+  }
+]
