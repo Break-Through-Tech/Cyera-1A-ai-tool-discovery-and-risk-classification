@@ -1,0 +1,307 @@
+[
+  {
+    "annotation_id": "ann_200dbb3f9b7faeb68a094218",
+    "description_sha256": "416109ab428aea11e5b096433d5f48f5b6d99cef672727070c6d4ec7f16bd889",
+    "description": "The NetApp Software Data ONTAP Essentials for FAS2240 includes a host of software for powerful performance, efficient storage and easy data management. With Multipath I/O, MultiStore, FlexShare and Storage QoS, the ONTAP Essentials for FAS2220 provides high availability and performance.",
+    "source_record_references": [
+      "760"
+    ],
+    "labeler": {
+      "annotation_id": "ann_200dbb3f9b7faeb68a094218",
+      "description_sha256": "416109ab428aea11e5b096433d5f48f5b6d99cef672727070c6d4ec7f16bd889",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies storage software features for performance, storage management, multipath I/O, availability and quality of service—conventional storage functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "includes a host of software for powerful performance, efficient storage and easy data management.",
+        "With Multipath I/O, MultiStore, FlexShare and Storage QoS, the ONTAP Essentials for FAS2220 provides high availability and performance."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_200dbb3f9b7faeb68a094218",
+      "description_sha256": "416109ab428aea11e5b096433d5f48f5b6d99cef672727070c6d4ec7f16bd889",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes storage software features for performance, data management, multipathing, sharing and storage quality of service; these are conventional storage functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "includes a host of software for powerful performance, efficient storage and easy data management.",
+        "With Multipath I/O, MultiStore, FlexShare and Storage QoS"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Source gives performance/efficient storage/easy management/availability outcomes and named features including Multipath I/O and Storage QoS. Rationales infer storage management/multipathing/sharing operations. Reassess sufficient stated conventional functionality versus feature names/outcomes only; avoid importing hidden mechanisms."
+    ]
+  },
+  {
+    "annotation_id": "ann_2d1a08e84e3c8bc0c21dd199",
+    "description_sha256": "0c9210a083d8f2c74c85731727f1f0d11b727044546a4f57e3c18f87e88ba53a",
+    "description": "The Oracle Exadata Database Machine is a computing platform optimized for running Oracle Database. Exadata is a combined hardware and software platform.",
+    "source_record_references": [
+      "769"
+    ],
+    "labeler": {
+      "annotation_id": "ann_2d1a08e84e3c8bc0c21dd199",
+      "description_sha256": "0c9210a083d8f2c74c85731727f1f0d11b727044546a4f57e3c18f87e88ba53a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes a computing platform consisting of hardware and software optimized for running a database, conventional computing and database infrastructure.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a computing platform optimized for running Oracle Database.",
+        "Exadata is a combined hardware and software platform."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_2d1a08e84e3c8bc0c21dd199",
+      "description_sha256": "0c9210a083d8f2c74c85731727f1f0d11b727044546a4f57e3c18f87e88ba53a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes an optimized computing platform made of hardware and software for running a database, conventional database infrastructure.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a computing platform optimized for running Oracle Database.",
+        "a combined hardware and software platform."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Hardware/software computing platform optimized for running a named database describes intended use, composition and optimization, not actual operations. Explain whether this supplies meaningful conventional functional evidence or remains weak/category/intended-use-only under the rubric; do not infer database functions."
+    ]
+  },
+  {
+    "annotation_id": "ann_4b1553a5ebd73c3a754f71ea",
+    "description_sha256": "5d2aeca7c56390a43b842fc1036e933a468f3c126cd9582a93098c7d62f2f347",
+    "description": "The E3 subscription is required to elevate the Windows Pro License to a Windows Enterprise License; Windows Enterprise is required for use of many of the security features of Windows; Bitlocker Mgmt; App Locker; Device Guard; Credential Guard;  Telemetry can be turned Off,  etc",
+    "source_record_references": [
+      "754"
+    ],
+    "labeler": {
+      "annotation_id": "ann_4b1553a5ebd73c3a754f71ea",
+      "description_sha256": "5d2aeca7c56390a43b842fc1036e933a468f3c126cd9582a93098c7d62f2f347",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes a Windows license tier and conventional security controls including BitLocker management, application lockdown, device and credential guards, and telemetry settings.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Windows Enterprise is required for use of many of the security features of Windows; Bitlocker Mgmt; App Locker; Device Guard; Credential Guard;  Telemetry can be turned Off,  etc"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_4b1553a5ebd73c3a754f71ea",
+      "description_sha256": "5d2aeca7c56390a43b842fc1036e933a468f3c126cd9582a93098c7d62f2f347",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes an enterprise license associated with security controls including disk encryption, application control and credential/device protections, conventional endpoint security features.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Windows Enterprise is required for use of many of the security features of Windows; Bitlocker Mgmt; App Locker; Device Guard; Credential Guard"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "The description is chiefly license entitlement and named security features; rationales infer application lockdown, disk encryption, and credential/device protection mechanisms from names. Telemetry can be turned off is explicit. Reassess support from only stated functionality, not feature-name/product knowledge. Explain which actual function justifies support, or preserve weak/forced uncertainty."
+    ]
+  },
+  {
+    "annotation_id": "ann_5e45f9fd0ea9b5e5b7982b08",
+    "description_sha256": "e3d4336fb5bc3a4a228ff876be67674c64df39deb30ad6db5e2bc522ac1fe6ac",
+    "description": "Oracle MySQL is an open source relational database designed to be fast, scalable, and reliable",
+    "source_record_references": [
+      "771"
+    ],
+    "labeler": {
+      "annotation_id": "ann_5e45f9fd0ea9b5e5b7982b08",
+      "description_sha256": "e3d4336fb5bc3a4a228ff876be67674c64df39deb30ad6db5e2bc522ac1fe6ac",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a relational database and its conventional attributes of speed, scalability and reliability.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an open source relational database designed to be fast, scalable, and reliable"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_5e45f9fd0ea9b5e5b7982b08",
+      "description_sha256": "e3d4336fb5bc3a4a228ff876be67674c64df39deb30ad6db5e2bc522ac1fe6ac",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Identifies an open-source relational database and its conventional performance, scalability and reliability attributes.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an open source relational database designed to be fast, scalable, and reliable"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "This text gives relational database category plus speed/scalability/reliability outcomes only, without concrete operations. Is supported negative justified under the frozen rubric, rather than inferred database functions or absence of AI terms? Address category-only support directly."
+    ]
+  },
+  {
+    "annotation_id": "ann_b5a0175d902d14ebb665102b",
+    "description_sha256": "8266db73000b2dfd3242d8bfa11a075d1b155c9633dad9fb49a28c291261ee4b",
+    "description": "Managed Services, etc.",
+    "source_record_references": [
+      "764"
+    ],
+    "labeler": {
+      "annotation_id": "ann_b5a0175d902d14ebb665102b",
+      "description_sha256": "8266db73000b2dfd3242d8bfa11a075d1b155c9633dad9fb49a28c291261ee4b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The fragment only says \"Managed Services, etc.\" and does not meaningfully specify software functionality; non-AI is the forced best-supported choice from this insufficient text.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Managed Services, etc."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_b5a0175d902d14ebb665102b",
+      "description_sha256": "8266db73000b2dfd3242d8bfa11a075d1b155c9633dad9fb49a28c291261ee4b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text only names managed services and provides no detail about their functionality; the best forced decision is non-AI, but the description is too vague to establish a conventional function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Managed Services, etc."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": []
+  },
+  {
+    "annotation_id": "ann_c706f2461115854dd5fc35ab",
+    "description_sha256": "b34d371146367006b0fbbb31702fdab38e90b0f64bcf1ad3bc8cd5168f4c4d1d",
+    "description": "Oracle Database is an object-relational database management system developed and marketed by Oracle Corporation.",
+    "source_record_references": [
+      "774"
+    ],
+    "labeler": {
+      "annotation_id": "ann_c706f2461115854dd5fc35ab",
+      "description_sha256": "b34d371146367006b0fbbb31702fdab38e90b0f64bcf1ad3bc8cd5168f4c4d1d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The product is described as an object-relational database management system, a conventional database function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an object-relational database management system"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_c706f2461115854dd5fc35ab",
+      "description_sha256": "b34d371146367006b0fbbb31702fdab38e90b0f64bcf1ad3bc8cd5168f4c4d1d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Explicitly describes an object-relational database management system, a conventional database function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an object-relational database management system"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "The source only identifies an object-relational database management system and developer/marketer; it does not state operations. Reassess supported negative versus weak/forced category-only evidence; do not import database features."
+    ]
+  },
+  {
+    "annotation_id": "ann_c8aeeeccbe9b02c16c1595d9",
+    "description_sha256": "5fd4c131a7e2f9df084b039c5dd8653cc63d7327979b8c29312d114346eba0af",
+    "description": "Oracle's comprehensive line of communications software enables customers to manage and monetize the explosive growth in mobile data traffic and multimedia applications. With Oracle and Tekelec's combined global support services, essential technical assistance and telecom expertise, you can leverage the full potential of your communications networking software.",
+    "source_record_references": [
+      "773"
+    ],
+    "labeler": {
+      "annotation_id": "ann_c8aeeeccbe9b02c16c1595d9",
+      "description_sha256": "5fd4c131a7e2f9df084b039c5dd8653cc63d7327979b8c29312d114346eba0af",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes communications networking software for managing mobile data traffic and multimedia applications, alongside technical support and telecom expertise—conventional telecom functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "enables customers to manage and monetize the explosive growth in mobile data traffic and multimedia applications.",
+        "essential technical assistance and telecom expertise"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_c8aeeeccbe9b02c16c1595d9",
+      "description_sha256": "5fd4c131a7e2f9df084b039c5dd8653cc63d7327979b8c29312d114346eba0af",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes communications software for managing and monetizing mobile data traffic and multimedia applications, plus technical support services; no AI-dependent function is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "communications software enables customers to manage and monetize the explosive growth in mobile data traffic and multimedia applications.",
+        "essential technical assistance and telecom expertise"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Manage and monetize explosive growth and leverage full potential are broad business outcomes; networking category and support expertise are not specific software functions. Reassess whether enough concrete conventional functionality is actually stated for supported non-AI, without inventing traffic control/billing/analytics mechanisms."
+    ]
+  }
+]
