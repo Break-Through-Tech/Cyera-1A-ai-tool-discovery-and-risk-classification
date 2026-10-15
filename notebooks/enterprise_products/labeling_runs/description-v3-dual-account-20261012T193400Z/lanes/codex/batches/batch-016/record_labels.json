@@ -1,0 +1,401 @@
+[
+  {
+    "source_record_number": "804",
+    "product_group_id": "enterprise-292bc4d2a73a2bb8b0b8ef2f80d4d843b110be7e48dccf639079c21b00ff6003",
+    "product_description": "TOPCOM Licensed Software is a communications middleware software product which communicates with copies of itself or other Ericsson middleware over a TCIP/IP network using Transaction Oriented Protocol (TOP).",
+    "annotation_id": "ann_0037469ed50d6a03d9c0da0c",
+    "description_sha256": "bf4bb7774ee4b274673c3d701ca87f3055b76b821c71494bd47f7f877c197541",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes middleware for communications between software copies over a network using a transaction-oriented protocol, a conventional messaging function.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "communications middleware software product which communicates with copies of itself or other Ericsson middleware over a TCIP/IP network using Transaction Oriented Protocol (TOP)."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "813",
+    "product_group_id": "enterprise-46f1dfcbc6435015acdbedd7f1d7ab17836fe9687d50794ed4336dd80bfd0119",
+    "product_description": "VMware Workstation Pro is a hosted hypervisor that runs on x64 versions of Windows and Linux operating systems; it enables users to set up virtual machines on a single physical machine and use them simultaneously along with the host machine.",
+    "annotation_id": "ann_0e8f371511037d06acfb7849",
+    "description_sha256": "6ebaaa86213ac3a0fcd85e700c5933455127568dbafb757851d8e03cca050e42",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes hosted virtualization: running virtual machines on one physical computer alongside its host operating system.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "it enables users to set up virtual machines on a single physical machine and use them simultaneously along with the host machine."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "802",
+    "product_group_id": "enterprise-aeaf45bce05f82df53c94d8f4a05daae5a9fe4ea13cf8a2f8ce72d8dc350a0e0",
+    "product_description": "Syncsort is a batch sort utility that competes with IBMs DFSORT (current name). Syncsort was written originally in the 1970s to provide a then-better sort than the one supplied by IBM for its various'mainframe operating systems. It is compatible with IBMs product.",
+    "annotation_id": "ann_0eba4fac6e995710193942da",
+    "description_sha256": "d27a44c0489087939fde606c16d0ad6fce01c35e03f45b39ae3b1734f770b9bc",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "A batch sorting utility described by its sorting capability and compatibility with a mainframe operating-system product.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Syncsort is a batch sort utility that competes with IBMs DFSORT (current name)."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "807",
+    "product_group_id": "enterprise-f362abfa2cdd9f2cd8da02e62d00d3a9dfdd5f6dbb1865ba441db46c40f1e819",
+    "product_description": "TIBCO Enterprise Message Service is a standards-based messaging solution that can serve as the backbone of an SOA by providing Java Message Service (JMS) compliant communications across a wide range of platforms and application technologies.",
+    "annotation_id": "ann_11adf0b20430efeb35b03fd6",
+    "description_sha256": "36044559773dc82b9b1880938d0226d465d1c97e69f9140f4effafe3cac7ca1b",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a standards-based messaging service providing JMS-compliant communications across platforms and application technologies.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "providing Java Message Service (JMS) compliant communications across a wide range of platforms and application technologies."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "809",
+    "product_group_id": "enterprise-b483c14c9aa1b19f2136ecdea5ef2a2b167d635645a947ad0ae19579a01a2a61",
+    "product_description": "Veeam Backup & Replication is backup application for virtual environments built on VMware vSphere, Nutanix AHV, and Microsoft Hyper-V hypervisor",
+    "annotation_id": "ann_205412280c2dd8516546b84b",
+    "description_sha256": "24124343deb6267bcbae12a99dcbb314ff3324dba975b3c1f393c3076ab415b3",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Identifies the offering as backup software for virtual environments, a conventional data protection function.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Veeam Backup & Replication is backup application for virtual environments built on VMware vSphere, Nutanix AHV, and Microsoft Hyper-V hypervisor"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "812",
+    "product_group_id": "enterprise-dafe1766a7c442b0fa6d074434d5c079c90b44152431f1dd45471b8cf5c9029b",
+    "product_description": "vCenter Server is the centralized management utility for VMware, and is used to manage virtual machines, multiple ESXi hosts, and all dependent components from a single centralized location. VMware vMotion and svMotion require the use of vCenter and ESXi hosts",
+    "annotation_id": "ann_340bc8f780f188c9effaadfc",
+    "description_sha256": "46390b267b10fd719d8e522d2d2be091482252d31f5066a3bad9955d36d2d113",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description explicitly gives centralized management of virtual machines, multiple hosts, and dependent components as the utility's function, which is meaningful conventional infrastructure administration. It does not explain the named vMotion products' functions.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "used to manage virtual machines, multiple ESXi hosts, and all dependent components from a single centralized location."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "796",
+    "product_group_id": "enterprise-9c4eabe966aa191e6ec50e8d43b1ea699a76515a1a53a63f98af8745d7dc8acd",
+    "product_description": "Ensure the secure, continuous flow of information across your business networks, with SEEBURGER Business Integration Suite (BIS). BIS allows you to access all your data anywhere in real-time, enabling maximum process efficiency and control, on-premises or in the cloud. The core platform includes:\n\nManaged File Transfer (MFT)- Secure transmission of data between systems and/or people\nAPI/EAI- Connect applications and cloud services in real time\nB2B/EDI-Industry-standard and controlled exchange of documents \nIoT/Industry 4.0- Integrate equipment, systems and devices into business processes\nE-Invoicing- Predefined country-specific regulations and compliance, reporting and more\nERP/SAP- Connection to any ERP system seamlessly, agile SAP Integration",
+    "annotation_id": "ann_589ed5e9ae7d07f302a069c8",
+    "description_sha256": "6cf58b936a1f73ad2c85959673a1f958349318e2328678929ab66ca7ff126b45",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Lists conventional integration capabilities: managed file transfer, API/application connections, B2B document exchange, device integration, invoicing compliance, and ERP connectivity.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Managed File Transfer (MFT)- Secure transmission of data between systems and/or people\nAPI/EAI- Connect applications and cloud services in real time\nB2B/EDI-Industry-standard and controlled exchange of documents \nIoT/Industry 4.0- Integrate equipment, systems and devices into business processes\nE-Invoicing- Predefined country-specific regulations and compliance, reporting and more\nERP/SAP- Connection to any ERP system seamlessly, agile SAP Integration"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "801",
+    "product_group_id": "enterprise-ef69b36f3155f4ba3d312769a6c578963714e833789286d2de170f57452eb625",
+    "product_description": "Syncsort MFX offers high-performance sort, copy and join, and other sort optimization features designed to work with the z/OS operating system and IBM mainframes.\n\nSpend is for both Z/OS and ZP Saver Suite.",
+    "annotation_id": "ann_6277a52414eb55e2eba11442",
+    "description_sha256": "bf93d6e34c53b98926d679e4304ccab08e574f3c5ee5bf904822ce93060bc0e1",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes mainframe sorting, copying, joining, and sort optimization utilities for z/OS.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "offers high-performance sort, copy and join, and other sort optimization features designed to work with the z/OS operating system and IBM mainframes."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "814",
+    "product_group_id": "enterprise-d3c49a6cc42e8000bc3034a9fb03867e2ffa7583bfd589314a98bdb4fd5c6bb2",
+    "product_description": "Wowza is a live video streaming platform with industry-leading technology delivering broadcast-quality live streaming'to any sized audience on any device.",
+    "annotation_id": "ann_6b3eb27fcd1371d9e19d45b0",
+    "description_sha256": "558787d7e0b32485c2fb4afd73ec8c14fd482d1dd7d0e10a7f231681ac2d831a",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The described function is live video streaming and delivery to audiences on devices.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Wowza is a live video streaming platform with industry-leading technology delivering broadcast-quality live streaming'to any sized audience on any device."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "811",
+    "product_group_id": "enterprise-8e62ffe6ece0cd0caddbb1ac27e99a5306c09015923a82c69af7a6eb1005f511",
+    "product_description": "The AirWatch Container app, lets IT segregate corporate and personal assets on users iOS and Android devices. VMware AirWatch can provide reports on user activity and usage patterns, and admins can use its remote-control capabilities to support and troubleshoot mobile devices as needed",
+    "annotation_id": "ann_82617b16cae06c2be4fb9277",
+    "description_sha256": "98f887ad87ad99b11cb24d14c5ebfd965298d73e63b219b1864128ad065d443e",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes mobile-device management functions: separating corporate and personal assets, reporting activity and usage, and remote support/troubleshooting.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "lets IT segregate corporate and personal assets on users iOS and Android devices. VMware AirWatch can provide reports on user activity and usage patterns, and admins can use its remote-control capabilities to support and troubleshoot mobile devices as needed"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "799",
+    "product_group_id": "enterprise-ccefaa150457e55cfbba6130dff9f21811e6f4fe8db8bbab32f2e435338f424f",
+    "product_description": "Charon-VAX creates a virtual VAX environment on a standard Windows-based host system.  Charon-VAX creates a virtualized replica of the original VAX hardware, allowing the VAX/VMS operating system and software to remain working in their existing binary form.",
+    "annotation_id": "ann_b050266bf63ddc0b04ccb2f0",
+    "description_sha256": "0a10dd363a798ba392b90ded1c508440c2bba56e12f55cc10717a4ded7b6b433",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes hardware virtualization that runs the legacy operating system and software in their existing binary form.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "creates a virtualized replica of the original VAX hardware, allowing the VAX/VMS operating system and software to remain working in their existing binary form."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "798",
+    "product_group_id": "enterprise-2bc518757a8ce181756cc1f951565173636a69824d5c1dd54e9d77e622d35a33",
+    "product_description": "Adabas, a contraction of adaptable database system. It is a non-relational database orginially developed for mainframe but now  marketed for use on a wider range of platforms, including Linux, Unix, and Windows. It is primarily focused on integrating legacy application into a modern architecture.",
+    "annotation_id": "ann_b6845e04769bbdc87d4f0917",
+    "description_sha256": "66bd37f47ac323d4a1d508df5a0a08dec22a58dfebda73412a91a6423734957b",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a non-relational database across operating-system platforms and integration of legacy applications into modern architecture.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "It is a non-relational database orginially developed for mainframe but now  marketed for use on a wider range of platforms, including Linux, Unix, and Windows. It is primarily focused on integrating legacy application into a modern architecture."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "803",
+    "product_group_id": "enterprise-b6a1d79be09cfbd4fd0d177946e94a755e7d36317c29a90959bd677b972e003a",
+    "product_description": "TAA Productivity Tools'is a suite of commands and utilities that complement and enhance the IBM i, the worlds best midrange platform. These high-quality'tools'help you control and manage your system, programs, and data.",
+    "annotation_id": "ann_ccb271cf0f682622118490aa",
+    "description_sha256": "7a2f2d9c8887249239320059295c914a34a39941022e270df403718fa67a727f",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "A suite of commands and utilities for controlling and managing the system, programs, and data.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "TAA Productivity Tools'is a suite of commands and utilities that complement and enhance the IBM i, the worlds best midrange platform. These high-quality'tools'help you control and manage your system, programs, and data."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "800",
+    "product_group_id": "enterprise-d1c7cb284e8054cdf250db4f0ace1e84d4edd3010eddcb20558e61c0d3abfbb0",
+    "product_description": "SUSE Linux is a computer operating system developed by SUSE. It is built on top of the free and open source Linux kernel and is distributed with system and application software from other open source projects.",
+    "annotation_id": "ann_d05a7ba3b83d0e8204e2a0ee",
+    "description_sha256": "e7221048bf994132eb4ee36ee9870d9da474d5ad0d04e0386ae9fcfc159e1b80",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text identifies an operating-system category and states its kernel foundation and included software, but does not describe what operations or functions the supplied software performs. With no affirmative AI signal, the best binary choice is forced non-AI, but conventional functionality is not described sufficiently for support.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "SUSE Linux is a computer operating system developed by SUSE. It is built on top of the free and open source Linux kernel and is distributed with system and application software from other open source projects."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "795",
+    "product_group_id": "enterprise-bbb7abafdda400c40fb1b5c29106ca7814f2cbfe39cefae7a9c582125bebbdab",
+    "product_description": "Rocket Mainstar. Catalog Recovery Plus. (CR+) Provides an easy-to-use, flexible, and extremely powerful way to centrally manage and protect ICF catalogs'  without impacting business applications. ASG Technologies acquired Rocket",
+    "annotation_id": "ann_df88eeac3d195f6f3374e7c1",
+    "description_sha256": "39871d15a39bcae56c636dda20e6a8b07eb8fc7629c632c0d093f310dcdea784",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes centrally managing and protecting ICF catalogs without affecting business applications, a conventional catalog administration and protection function.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Provides an easy-to-use, flexible, and extremely powerful way to centrally manage and protect ICF catalogs'  without impacting business applications."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "797",
+    "product_group_id": "enterprise-97f04ba8fce9b37e6d32c90dd576e4dec8ea37fec44f15d6e8aa53ca929e77e1",
+    "product_description": "SnapLogics'intelligent integration platform as a service delivers fast, multi-point, modern big data integrations",
+    "annotation_id": "ann_e1260cfcd1362b2b1e523fef",
+    "description_sha256": "b7fbb18fcb727e4f4f78b4f356e4d582d48a7cf3263c3a663d5a6a37e69cb638",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description states that the platform delivers multi-point integrations of big data, which is a concrete conventional integration function. 'Intelligent' alone does not specify AI/ML or explain an AI-dependent operation.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "intelligent integration platform as a service delivers fast, multi-point, modern big data integrations"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "810",
+    "product_group_id": "enterprise-04b4ef8614d0fca82b19f30ea5f0006ba6b4588b95b39e52db6899e052050f14",
+    "product_description": "NetBackup is an enterprise-class backup and recovery suite. It provides backup functionality to Windows, Linux, UNIX and Linux platforms.\n\nPurchased by Softbank.",
+    "annotation_id": "ann_e48d69b6b62388a328052cc3",
+    "description_sha256": "91689cf8cc124a5c8cabe8efafb5fab65b4db5970f78d874a1ece91cf9692127",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes an enterprise backup and recovery suite providing backup for multiple operating-system platforms.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "NetBackup is an enterprise-class backup and recovery suite. It provides backup functionality to Windows, Linux, UNIX and Linux platforms."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "805",
+    "product_group_id": "enterprise-2719461082dcd1854e79d094be0674aaf98001577426188716108ae3079f4900",
+    "product_description": "Teradata is a fully scalable relational database management system produced by Teradata Corp. ... The Teradata database system is based on off-the-shelf symmetric multiprocessing technology combined with communication networking, connecting symmetric multiprocessing systems to form large parallel processing systems.",
+    "annotation_id": "ann_f36ac0a1b7c0f8d5114193ce",
+    "description_sha256": "a20c74424a1612650254ced58deec0e17e8b4901c0891b8441709a809365516c",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a relational database system using symmetric multiprocessing and networking to form parallel processing systems.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "The Teradata database system is based on off-the-shelf symmetric multiprocessing technology combined with communication networking, connecting symmetric multiprocessing systems to form large parallel processing systems."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "806",
+    "product_group_id": "enterprise-2719461082dcd1854e79d094be0674aaf98001577426188716108ae3079f4900",
+    "product_description": "Teradata is a fully scalable relational database management system produced by Teradata Corp. ... The Teradata database system is based on off-the-shelf symmetric multiprocessing technology combined with communication networking, connecting symmetric multiprocessing systems to form large parallel processing systems.",
+    "annotation_id": "ann_f36ac0a1b7c0f8d5114193ce",
+    "description_sha256": "a20c74424a1612650254ced58deec0e17e8b4901c0891b8441709a809365516c",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a relational database system using symmetric multiprocessing and networking to form parallel processing systems.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "The Teradata database system is based on off-the-shelf symmetric multiprocessing technology combined with communication networking, connecting symmetric multiprocessing systems to form large parallel processing systems."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "808",
+    "product_group_id": "enterprise-56ae81b723e1f180fe318557488895207b84b575a656be8e13fffb4887246b94",
+    "product_description": "TN3270 Plus is a 3270 terminal emulator. TN3270 Plus is one of the widely used Telnet terminal emulators. TN3270 Plus is used for connecting Windows PC to IBM mainframes.",
+    "annotation_id": "ann_fe1a6caf3eb87722ec2e6285",
+    "description_sha256": "4bd5f03db9753c214120f63a9a36de34dafce3987a7ec5f55d40ff990e766b7b",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a terminal emulator used to connect Windows PCs to IBM mainframes via Telnet, a conventional connectivity function.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "TN3270 Plus is a 3270 terminal emulator. TN3270 Plus is one of the widely used Telnet terminal emulators. TN3270 Plus is used for connecting Windows PC to IBM mainframes."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "815",
+    "product_group_id": "enterprise-793adb205a4c91934d836c63d3af39e1262d0baa90a4a1eb074f2326bb9dc8ef",
+    "product_description": "Revive Legacy Applications Instantly: Web-enabling the millions of lines of executable code on those systems. Automatically rejuvenating those systems host applications. Easily sharing with your partners, new users, and suppliers the vital information those systems contain.",
+    "annotation_id": "ann_ffd42459326ee63e4887fa96",
+    "description_sha256": "b0d57f4ad87fca069925e24c1a09590ee60537a837df2b9b1aa8ec4eb24fa6f4",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description names web-enabling legacy executable code and sharing its information, but 'Automatically rejuvenating' is not explained and could refer to functionality beyond those conventional tasks. No affirmative AI signal appears, so the best forced binary choice is non-AI, with weak evidence.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Web-enabling the millions of lines of executable code on those systems. Automatically rejuvenating those systems host applications. Easily sharing with your partners, new users, and suppliers the vital information those systems contain."
+    ],
+    "ai_type_evidence_spans": null
+  }
+]
