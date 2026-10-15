@@ -1,6 +1,6 @@
 {
   "status": "both_lanes_continuing",
-  "updated_at": "2026-10-15T06:33:46.877610+00:00",
+  "updated_at": "2026-10-15T06:34:39.643188+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
   "new_completed_descriptions": 560,
@@ -13,8 +13,8 @@
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
   "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
-  "cursor_status": "001–017 parent-verified; count only014/015 promotion copies.018–020 nextfreshwave to launch.",
-  "codex_status": "001–011 finalized;012 fresh independent pair active.",
+  "cursor_status": "001\u2013017 parent-verified; fresh018\u2013020 coordinator e266e50a active.",
+  "codex_status": "001\u2013011 finalized;012 fresh independent pair active.",
   "codex_active_workers": 2,
   "cursor_live_worker_state": "Exclusive native coordinator04ce6344 owns assignedp1F(labeler)/p1E(blind), max2annotation workers.",
   "active_runs": {
@@ -22,7 +22,8 @@
       "wF:p1F",
       "wF:p1E"
     ],
-    "codex_independent_workflow": "5b902633-b7e1-4992-af8a-7b4564ce721d"
+    "codex_independent_workflow": "5b902633-b7e1-4992-af8a-7b4564ce721d",
+    "cursor_integration_owner": "e266e50a-af07-4bed-819a-d4ba074c19e3"
   },
   "native_resume_receipt": "runtime/NATIVE_RESUME_20261015.json"
 }
