@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-10-15T06:19:57.211824+00:00",
+  "inspected_source_proposal_pairs": 20,
+  "required_ids": [
+    "ann_753c44e6d9dd42845542b469",
+    "ann_83bdc61a03b953aa484945db",
+    "ann_931636d5a722ba2a6d2ef1c1"
+  ],
+  "parent_extra_ids": [
+    "ann_343905d9b62b4edf2c4e9039",
+    "ann_5e0ea0100620346c6e7c6336",
+    "ann_6af4fb2829dd47b0f2e2b004",
+    "ann_7e3bac189f7fecd8823f65e9",
+    "ann_d3434022c199c3cd9576a682"
+  ],
+  "concerns": {
+    "ann_753c44e6d9dd42845542b469": "Sparse receive-automation title and unexpanded ASR acronym; do not assume ASR means speech recognition or import linked-site facts. Assess weak forced judgment against exact title alone.",
+    "ann_83bdc61a03b953aa484945db": "Aircraft outcome claims without actual product functions: preserve appropriate uncertainty rather than absence-of-AI supported negative.",
+    "ann_931636d5a722ba2a6d2ef1c1": "Managed Services name only, no functionality; assess forced weak judgment.",
+    "ann_d3434022c199c3cd9576a682": "Only network/infrastructure management platform category plus acquisition history, no concrete operations; both proposals treat category as meaningful conventional function. Assess support vs sparse category-only evidence without remembered SevOne features.",
+    "ann_343905d9b62b4edf2c4e9039": "Only relational database management system category/developer is stated, while proposals expand to storage/management operations. Assess whether actual functionality meaningfully described versus inferred solely from category.",
+    "ann_7e3bac189f7fecd8823f65e9": "Only operating-system category and device platforms given; proposals call this conventional functionality. Assess supported vs weak when no actual operations stated, without remembered Windows features.",
+    "ann_6af4fb2829dd47b0f2e2b004": "Centralized intelligence and element management are unexplained in brief Optical LAN/PON manager description. Assess substantive conventional functions vs category-only and unexplained intelligence, no invented AI or deterministic implementation.",
+    "ann_5e0ea0100620346c6e7c6336": "Assess intelligent routing, real-time contextual journeys, personalization and understanding interactions in full supplied context. Meaningful omnichannel contact-center functions vs unexplained potentially AI-dependent capability; neither intelligent keyword alone nor remembered product facts establish AI/non-AI."
+  },
+  "original_blind_run_id": "5dd89ae9-1c08-4666-8b31-33426fa8d45a",
+  "packet_sha256": "51fd8949d4e1b374a539199df74b01a6e16851bd644bea908684048f2994ae4d",
+  "independent_receipt": "runtime-independent-validation.json",
+  "mechanical_json_repair_receipt": "runtime-json-repair-receipt.json",
+  "source_rows": 21
+}

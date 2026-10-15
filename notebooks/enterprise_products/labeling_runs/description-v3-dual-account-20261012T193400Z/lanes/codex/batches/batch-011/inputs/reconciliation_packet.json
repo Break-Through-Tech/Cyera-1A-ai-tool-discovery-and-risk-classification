@@ -1,0 +1,352 @@
+[
+  {
+    "annotation_id": "ann_343905d9b62b4edf2c4e9039",
+    "description_sha256": "19407f08c0333e4cd529981cabcef7d82489cf796885b6cdff922fe2f781b44a",
+    "description": "Microsoft SQL Server is a relational database management system developed by Microsoft.",
+    "source_record_references": [
+      "604"
+    ],
+    "labeler": {
+      "annotation_id": "ann_343905d9b62b4edf2c4e9039",
+      "description_sha256": "19407f08c0333e4cd529981cabcef7d82489cf796885b6cdff922fe2f781b44a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described function is relational database management, a conventional data storage and management function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Microsoft SQL Server is a relational database management system developed by Microsoft."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_343905d9b62b4edf2c4e9039",
+      "description_sha256": "19407f08c0333e4cd529981cabcef7d82489cf796885b6cdff922fe2f781b44a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a relational database management system, a conventional data storage and management function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Microsoft SQL Server is a relational database management system developed by Microsoft."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Only relational database management system category/developer is stated, while proposals expand to storage/management operations. Assess whether actual functionality meaningfully described versus inferred solely from category."
+    ]
+  },
+  {
+    "annotation_id": "ann_5e0ea0100620346c6e7c6336",
+    "description_sha256": "a6dd7c999c110e295b2783695bca462a4dcfadc7c3f3fd8b45e35985dc7adcc2",
+    "description": "Genesys Engage combines world-class intelligent routing, real-time contextual journeys, and tools for digital transformation. These capabilities make customer experience your competitive differentiator-setting you up to deliver competitively superior experiences and digital transformation at any scale. A personalized, customer-centric approach across all channels differentiates your brand and builds loyalty. Deliver superior experiences and drive digital transformation at any scale with Genesys Engage, the only omnichannel and multi-cloud customer engagement solution for large-scale businesses.\n\nThe Genesys Cloud platform is the next-generation, all-in-one cloud contact center solution that helps you manage and understand omnichannel interactions in a seamless customer journey.",
+    "source_record_references": [
+      "599"
+    ],
+    "labeler": {
+      "annotation_id": "ann_5e0ea0100620346c6e7c6336",
+      "description_sha256": "a6dd7c999c110e295b2783695bca462a4dcfadc7c3f3fd8b45e35985dc7adcc2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes omnichannel customer engagement and contact-center functions, including routing, customer journeys, and management of interactions across channels; 'intelligent routing' alone does not establish AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "world-class intelligent routing, real-time contextual journeys, and tools for digital transformation.",
+        "The Genesys Cloud platform is the next-generation, all-in-one cloud contact center solution that helps you manage and understand omnichannel interactions in a seamless customer journey."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_5e0ea0100620346c6e7c6336",
+      "description_sha256": "a6dd7c999c110e295b2783695bca462a4dcfadc7c3f3fd8b45e35985dc7adcc2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes customer engagement/contact-center software for omnichannel interactions, journeys, routing, and channel management. 'Intelligent routing' alone does not establish AI; these are conventional engagement and routing functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "world-class intelligent routing, real-time contextual journeys, and tools for digital transformation.",
+        "omnichannel and multi-cloud customer engagement solution for large-scale businesses.",
+        "cloud contact center solution that helps you manage and understand omnichannel interactions"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Assess intelligent routing, real-time contextual journeys, personalization and understanding interactions in full supplied context. Meaningful omnichannel contact-center functions vs unexplained potentially AI-dependent capability; neither intelligent keyword alone nor remembered product facts establish AI/non-AI."
+    ]
+  },
+  {
+    "annotation_id": "ann_6af4fb2829dd47b0f2e2b004",
+    "description_sha256": "6b4c408ad392451d19733539bdbba8246b7e3e71759c13ff31dc268db88a0f03",
+    "description": "Tellabs Panorama PON Manager is the cornerstone of an Optical LAN end-to-end system. It provides the centralized intelligence and element management",
+    "source_record_references": [
+      "597"
+    ],
+    "labeler": {
+      "annotation_id": "ann_6af4fb2829dd47b0f2e2b004",
+      "description_sha256": "6b4c408ad392451d19733539bdbba8246b7e3e71759c13ff31dc268db88a0f03",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a PON manager within an Optical LAN system providing centralized intelligence and element management; in context this is conventional network element management, not an affirmative AI claim.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Tellabs Panorama PON Manager is the cornerstone of an Optical LAN end-to-end system. It provides the centralized intelligence and element management"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_6af4fb2829dd47b0f2e2b004",
+      "description_sha256": "6b4c408ad392451d19733539bdbba8246b7e3e71759c13ff31dc268db88a0f03",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes an Optical LAN system's PON manager providing element management, a conventional network-management function; 'centralized intelligence' is in this context and does not establish AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Tellabs Panorama PON Manager is the cornerstone of an Optical LAN end-to-end system.",
+        "It provides the centralized intelligence and element management"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Centralized intelligence and element management are unexplained in brief Optical LAN/PON manager description. Assess substantive conventional functions vs category-only and unexplained intelligence, no invented AI or deterministic implementation."
+    ]
+  },
+  {
+    "annotation_id": "ann_753c44e6d9dd42845542b469",
+    "description_sha256": "035dd045491694d736789b9402f41195641a20faddc8312c03a26d40f5fc50f6",
+    "description": "Virtual Front Office (VFO) ASR Receive Automation\n(https://sequentialtech.com/)",
+    "source_record_references": [
+      "591"
+    ],
+    "labeler": {
+      "annotation_id": "ann_753c44e6d9dd42845542b469",
+      "description_sha256": "035dd045491694d736789b9402f41195641a20faddc8312c03a26d40f5fc50f6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The fragment names receive automation and ASR but gives no functional detail or explicit AI claim; its specific implementation cannot be established from this terse text, so the best-supported label is a forced negative.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Virtual Front Office (VFO) ASR Receive Automation"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_753c44e6d9dd42845542b469",
+      "description_sha256": "035dd045491694d736789b9402f41195641a20faddc8312c03a26d40f5fc50f6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The title only identifies a VFO ASR receive-automation offering and gives no account of its functionality or whether speech recognition uses AI; forced non-AI because no AI function is established.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Virtual Front Office (VFO) ASR Receive Automation"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Sparse receive-automation title and unexpanded ASR acronym; do not assume ASR means speech recognition or import linked-site facts. Assess weak forced judgment against exact title alone."
+    ]
+  },
+  {
+    "annotation_id": "ann_7e3bac189f7fecd8823f65e9",
+    "description_sha256": "0df142f6c2310c596b8db235b8343f9453c144e53f158b9c88a756ef41a7ec1d",
+    "description": "Windows 10 is a Microsoft operating system for personal computers, tablets, embedded devices and internet of things devices.",
+    "source_record_references": [
+      "608",
+      "756"
+    ],
+    "labeler": {
+      "annotation_id": "ann_7e3bac189f7fecd8823f65e9",
+      "description_sha256": "0df142f6c2310c596b8db235b8343f9453c144e53f158b9c88a756ef41a7ec1d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes an operating system for personal computers, tablets, embedded, and IoT devices, conventional device software functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Windows 10 is a Microsoft operating system for personal computers, tablets, embedded devices and internet of things devices."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_7e3bac189f7fecd8823f65e9",
+      "description_sha256": "0df142f6c2310c596b8db235b8343f9453c144e53f158b9c88a756ef41a7ec1d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes Windows 10 as an operating system for personal computers, tablets, embedded devices, and IoT devices, a conventional device operating-system function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Windows 10 is a Microsoft operating system for personal computers, tablets, embedded devices and internet of things devices."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Only operating-system category and device platforms given; proposals call this conventional functionality. Assess supported vs weak when no actual operations stated, without remembered Windows features."
+    ]
+  },
+  {
+    "annotation_id": "ann_83bdc61a03b953aa484945db",
+    "description_sha256": "786e925b7a148e15ae2b14c25d63f295e666243156cb54dd3e3f78ac64b850c9",
+    "description": "More fuel-efficient aircraft.\n\nMore direct and on-time flights. Safer skies and airports. Found on virtually every commercial, defense and space aircraft.",
+    "source_record_references": [
+      "598"
+    ],
+    "labeler": {
+      "annotation_id": "ann_83bdc61a03b953aa484945db",
+      "description_sha256": "786e925b7a148e15ae2b14c25d63f295e666243156cb54dd3e3f78ac64b850c9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text gives outcome-oriented claims about aircraft efficiency, flights, and safety and says the offering is found on aircraft, but identifies no software function or AI signal; forced negative due to limited description.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "More fuel-efficient aircraft.\n\nMore direct and on-time flights. Safer skies and airports. Found on virtually every commercial, defense and space aircraft."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_83bdc61a03b953aa484945db",
+      "description_sha256": "786e925b7a148e15ae2b14c25d63f295e666243156cb54dd3e3f78ac64b850c9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description gives only broad aircraft outcomes and says the offering is found on aircraft, without identifying the product functionality; forced non-AI because no AI function is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "More fuel-efficient aircraft.",
+        "Found on virtually every commercial, defense and space aircraft."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Aircraft outcome claims without actual product functions: preserve appropriate uncertainty rather than absence-of-AI supported negative."
+    ]
+  },
+  {
+    "annotation_id": "ann_931636d5a722ba2a6d2ef1c1",
+    "description_sha256": "808c5b58b4d07f35b8355e5cf3637477a65e4d78b8c6d2b877340e2920cc299c",
+    "description": "Hitachi Managed Services",
+    "source_record_references": [
+      "600"
+    ],
+    "labeler": {
+      "annotation_id": "ann_931636d5a722ba2a6d2ef1c1",
+      "description_sha256": "808c5b58b4d07f35b8355e5cf3637477a65e4d78b8c6d2b877340e2920cc299c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Only the phrase 'Managed Services' is supplied, without a description of specific functions or an AI signal; non-AI is the best forced label given the limited text.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Hitachi Managed Services"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_931636d5a722ba2a6d2ef1c1",
+      "description_sha256": "808c5b58b4d07f35b8355e5cf3637477a65e4d78b8c6d2b877340e2920cc299c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description is only the phrase 'Hitachi Managed Services'; it does not meaningfully describe functionality. Forced non-AI because no AI function is established.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Hitachi Managed Services"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Managed Services name only, no functionality; assess forced weak judgment."
+    ]
+  },
+  {
+    "annotation_id": "ann_d3434022c199c3cd9576a682",
+    "description_sha256": "990b6ea87b2bcaf5bb62a8c350b9cc069e290f181060403296422f3a9b68a764",
+    "description": "The SevOne Data Platform is a network and infrastructure management platform\nSevOne was acquired by Turbonomic in 2019. Then as part of Turbonomic, the SevOne product line was acquired in 2021 by IBM, and made available by IBM as IBM SevOne Network Performance Management (NPM).",
+    "source_record_references": [
+      "592"
+    ],
+    "labeler": {
+      "annotation_id": "ann_d3434022c199c3cd9576a682",
+      "description_sha256": "990b6ea87b2bcaf5bb62a8c350b9cc069e290f181060403296422f3a9b68a764",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The product is described as a network and infrastructure management platform; this is conventional management software and the text makes no AI claim.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The SevOne Data Platform is a network and infrastructure management platform"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_d3434022c199c3cd9576a682",
+      "description_sha256": "990b6ea87b2bcaf5bb62a8c350b9cc069e290f181060403296422f3a9b68a764",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described offering is a network and infrastructure management platform, a conventional management function; the rest is acquisition history.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The SevOne Data Platform is a network and infrastructure management platform"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Only network/infrastructure management platform category plus acquisition history, no concrete operations; both proposals treat category as meaningful conventional function. Assess support vs sparse category-only evidence without remembered SevOne features."
+    ]
+  }
+]

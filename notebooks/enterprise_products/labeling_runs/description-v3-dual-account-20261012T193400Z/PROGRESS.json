@@ -1,6 +1,6 @@
 {
   "status": "both_lanes_continuing",
-  "updated_at": "2026-10-15T06:17:43.706480+00:00",
+  "updated_at": "2026-10-15T06:20:29.425034+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
   "new_completed_descriptions": 480,
@@ -13,9 +13,9 @@
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
   "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
-  "cursor_status": "015–016 child-finalized pending parent provenance gates;017 duplicate-write evidence recovery underway in same coordinator; no new Cursor batches counted.",
-  "codex_status": "001–010 parent-verified finalized;011 fresh independent pair active (20 descriptions/21 rows).",
-  "codex_active_workers": 2,
+  "cursor_status": "015\u2013016 child-finalized pending parent provenance gates;017 duplicate-write evidence recovery underway in same coordinator; no new Cursor batches counted.",
+  "codex_status": "001\u2013010 finalized;011 independent40 validated/registered, same original blind8-item reconciliation active.",
+  "codex_active_workers": 1,
   "cursor_live_worker_state": "Exclusive native coordinator04ce6344 owns assignedp1F(labeler)/p1E(blind), max2annotation workers.",
   "active_runs": {
     "cursor_integration_owner": "04ce6344-c886-434f-8cb7-aec25d854e88",
@@ -23,7 +23,10 @@
       "wF:p1F",
       "wF:p1E"
     ],
-    "codex_independent_workflow": "7546fc6f-be9b-4d1f-9456-6bf86c9623dc"
+    "codex_independent_workflow": "7546fc6f-be9b-4d1f-9456-6bf86c9623dc",
+    "codex_labeler": "4305f85c-8fd3-4222-9640-65052215e712",
+    "codex_blind": "5dd89ae9-1c08-4666-8b31-33426fa8d45a",
+    "codex_reconciliation_workflow": "3e66d6ed-aa7e-41c3-9577-7bf6937c990b"
   },
   "native_resume_receipt": "runtime/NATIVE_RESUME_20261015.json"
 }
