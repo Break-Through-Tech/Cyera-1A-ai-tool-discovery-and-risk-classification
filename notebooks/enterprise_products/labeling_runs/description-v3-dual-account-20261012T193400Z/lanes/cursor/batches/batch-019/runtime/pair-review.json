@@ -1,0 +1,928 @@
+{
+  "review": {
+    "batch_id": "batch-019",
+    "reviewed_all_pairs": true,
+    "pair_count": 20,
+    "helper_required_ids": [
+      "ann_095a7eeeaad439d998e7eb22",
+      "ann_1fbf14968fabb6490cf00217",
+      "ann_7086a81b8212b077fe178739",
+      "ann_963d41894b3fdbe58fea7fb1",
+      "ann_dcb916a4a79eb7c2e415df21",
+      "ann_fe4a6b7c9f0809caf4bdff2b"
+    ],
+    "additional_support_concern_ids": [
+      "ann_087639d65e37c1ca1cab9fda",
+      "ann_4def834d46860e5e352e1697"
+    ],
+    "reconciliation_ids": [
+      "ann_087639d65e37c1ca1cab9fda",
+      "ann_095a7eeeaad439d998e7eb22",
+      "ann_1fbf14968fabb6490cf00217",
+      "ann_4def834d46860e5e352e1697",
+      "ann_7086a81b8212b077fe178739",
+      "ann_963d41894b3fdbe58fea7fb1",
+      "ann_dcb916a4a79eb7c2e415df21",
+      "ann_fe4a6b7c9f0809caf4bdff2b"
+    ],
+    "support_concerns": {
+      "ann_4def834d46860e5e352e1697": "Description states only that enterprise software is designed/developed for the BPM category, without concrete workflows or behaviors; scrutinize whether the category-only statement alone supports a conventional negative.",
+      "ann_087639d65e37c1ca1cab9fda": "Description includes “Smart groups” but neither proposal explains what it means. Assess whether this is merely conventional grouping or an unresolved potential AI cue; do not infer implementation."
+    },
+    "agreement_is_not_validation": true,
+    "integration_owner_did_not_relabel": true,
+    "source_boundary": "Only original selected description text; no product facts/web/history."
+  },
+  "pairs": [
+    {
+      "annotation_id": "ann_7086a81b8212b077fe178739",
+      "description_sha256": "a78b7b4f4a8d709701b03da8ff03ac8dbebd97d93aeb038480a29c3234499af7",
+      "source_record_references": [
+        "902"
+      ],
+      "description": "End-to-end sales and use tax automation helps increase productivity.",
+      "labeler_proposal": {
+        "annotation_id": "ann_7086a81b8212b077fe178739",
+        "description_sha256": "a78b7b4f4a8d709701b03da8ff03ac8dbebd97d93aeb038480a29c3234499af7",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes only sales and use tax automation with a generic productivity claim. No AI signal is present, but the text gives too little functional detail to support a confident negative.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "End-to-end sales and use tax automation helps increase productivity."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_7086a81b8212b077fe178739",
+        "description_sha256": "a78b7b4f4a8d709701b03da8ff03ac8dbebd97d93aeb038480a29c3234499af7",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description identifies conventional sales and use tax automation for productivity.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "End-to-end sales and use tax automation helps increase productivity."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": true,
+      "integration_support_concern": false,
+      "review_note": "Helper-required route due to weak/forced evidence; inspect original description and address the uncertainty without treating agreement as proof.",
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_963d41894b3fdbe58fea7fb1",
+      "description_sha256": "0a2fabee6574c3dadb4f05923d1a93a0a36f40711f7f961ce768b82d98981095",
+      "source_record_references": [
+        "903"
+      ],
+      "description": "Billing for annual Exemption Certificate Software license",
+      "labeler_proposal": {
+        "annotation_id": "ann_963d41894b3fdbe58fea7fb1",
+        "description_sha256": "0a2fabee6574c3dadb4f05923d1a93a0a36f40711f7f961ce768b82d98981095",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes only a billing line item for an annual license. No product functionality is described, so the non-AI reading is weak.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Billing for annual Exemption Certificate Software license"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_963d41894b3fdbe58fea7fb1",
+        "description_sha256": "0a2fabee6574c3dadb4f05923d1a93a0a36f40711f7f961ce768b82d98981095",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description is a conventional software license billing entry for exemption certificates.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Billing for annual Exemption Certificate Software license"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": true,
+      "integration_support_concern": false,
+      "review_note": "Helper-required route due to weak/forced evidence; inspect original description and address the uncertainty without treating agreement as proof.",
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_db3c5bbad002a987ffbeded5",
+      "description_sha256": "50d4c257da89f7f5fe8753cdd71f0bb6179e9b962454c0529d2e59c52b5eccb6",
+      "source_record_references": [
+        "904"
+      ],
+      "description": "Blackline cloud based solution designed to automate and control the entire month end process. Blackline's secure and pre-configured connector to SAP (SAP ECC or S/4HANA) to ensure seamless data transfer to you ERP",
+      "labeler_proposal": {
+        "annotation_id": "ann_db3c5bbad002a987ffbeded5",
+        "description_sha256": "50d4c257da89f7f5fe8753cdd71f0bb6179e9b962454c0529d2e59c52b5eccb6",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes a cloud month-end close automation solution with a pre-configured SAP connector for data transfer. These are conventional close and integration functions with no AI signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "cloud based solution designed to automate and control the entire month end process",
+          "pre-configured connector to SAP (SAP ECC or S/4HANA) to ensure seamless data transfer to you ERP"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_db3c5bbad002a987ffbeded5",
+        "description_sha256": "50d4c257da89f7f5fe8753cdd71f0bb6179e9b962454c0529d2e59c52b5eccb6",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description covers conventional month-end process automation and an SAP data connector.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "designed to automate and control the entire month end process."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": false,
+      "integration_support_concern": false,
+      "review_note": null,
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_981dc0c90bc81167efcd817d",
+      "description_sha256": "6b7acdbe905f543330ef75c24b5af5a0f4d401b06118c0ec4bbca928fc3b0a62",
+      "source_record_references": [
+        "905"
+      ],
+      "description": "Gain the ability to store all contacts in one secure repository for easy access, version tracking, and advanced reporting. Improve your revenue lifecycle management with the kind of visibility and traceability that allows you to control processes and ensure compliance. Get key insights into renewals, expirations, cycle times, and workloads. Built for single department use and works with any CRM.",
+      "labeler_proposal": {
+        "annotation_id": "ann_981dc0c90bc81167efcd817d",
+        "description_sha256": "6b7acdbe905f543330ef75c24b5af5a0f4d401b06118c0ec4bbca928fc3b0a62",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes a secure contact repository with access, version tracking, and reporting on renewals, expirations, cycle times, and workloads. This is ordinary record storage and reporting; the wording 'advanced reporting' does not establish AI.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "store all contacts in one secure repository for easy access, version tracking, and advanced reporting",
+          "Get key insights into renewals, expirations, cycle times, and workloads"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_981dc0c90bc81167efcd817d",
+        "description_sha256": "6b7acdbe905f543330ef75c24b5af5a0f4d401b06118c0ec4bbca928fc3b0a62",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description presents a conventional contact repository with tracking, reporting, and lifecycle visibility.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "store all contacts in one secure repository for easy access, version tracking, and advanced reporting."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": false,
+      "integration_support_concern": false,
+      "review_note": null,
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_712d577e71139b4b62fd5b21",
+      "description_sha256": "9c7a82af7ba2c5dd62f58d9c5552fc45f1d661ada4373391be081b5b789fd58a",
+      "source_record_references": [
+        "906"
+      ],
+      "description": "Simplify your revenue lifecycle management with Conga Sign and secure the signatures you need for business-critical agreements like proposals, contracts, and renewals. Speed up approvals and reduce the time to yes from days to minutes. Sign documents quickly and securely, save money, and reduces risk all while creating an easy, efficient experience for your customers and employees.",
+      "labeler_proposal": {
+        "annotation_id": "ann_712d577e71139b4b62fd5b21",
+        "description_sha256": "9c7a82af7ba2c5dd62f58d9c5552fc45f1d661ada4373391be081b5b789fd58a",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes e-signature collection for proposals, contracts, and renewals, with secure signing and faster approvals. These are conventional e-signature workflow functions with no AI signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "secure the signatures you need for business-critical agreements like proposals, contracts, and renewals",
+          "Sign documents quickly and securely"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_712d577e71139b4b62fd5b21",
+        "description_sha256": "9c7a82af7ba2c5dd62f58d9c5552fc45f1d661ada4373391be081b5b789fd58a",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description concerns conventional electronic signatures, document approvals, and contract execution.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "secure the signatures you need for business-critical agreements like proposals, contracts, and renewals."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": false,
+      "integration_support_concern": false,
+      "review_note": null,
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_365da0c635505a02470cb3d3",
+      "description_sha256": "a37d2cf5465c3bf6ea303500a06a97506c670bb5f677413c50792321448c9594",
+      "source_record_references": [
+        "907"
+      ],
+      "description": "Conga Grid is a productivity tool in Salesforce that allows you to manage data from a single screen",
+      "labeler_proposal": {
+        "annotation_id": "ann_365da0c635505a02470cb3d3",
+        "description_sha256": "a37d2cf5465c3bf6ea303500a06a97506c670bb5f677413c50792321448c9594",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes a Salesforce productivity tool for managing data from a single screen. This is a conventional data-management interface with no AI signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "productivity tool in Salesforce that allows you to manage data from a single screen"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_365da0c635505a02470cb3d3",
+        "description_sha256": "a37d2cf5465c3bf6ea303500a06a97506c670bb5f677413c50792321448c9594",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description identifies a conventional Salesforce data-management productivity tool.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "a productivity tool in Salesforce that allows you to manage data from a single screen"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": false,
+      "integration_support_concern": false,
+      "review_note": null,
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_b69ba04bc62af4d12380d66a",
+      "description_sha256": "d5ad3117b5f4e3cfac872fd612ca98b2e6adc1d50fbce4d3e10b9d645bd21077",
+      "source_record_references": [
+        "908"
+      ],
+      "description": "Org chart software that allows users to build org charts for the enterprise",
+      "labeler_proposal": {
+        "annotation_id": "ann_b69ba04bc62af4d12380d66a",
+        "description_sha256": "d5ad3117b5f4e3cfac872fd612ca98b2e6adc1d50fbce4d3e10b9d645bd21077",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes org chart software for building enterprise org charts, a conventional diagram-building function with no AI signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Org chart software that allows users to build org charts for the enterprise"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_b69ba04bc62af4d12380d66a",
+        "description_sha256": "d5ad3117b5f4e3cfac872fd612ca98b2e6adc1d50fbce4d3e10b9d645bd21077",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description is for conventional enterprise organizational chart software.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Org chart software that allows users to build org charts for the enterprise"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": false,
+      "integration_support_concern": false,
+      "review_note": null,
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_1fbf14968fabb6490cf00217",
+      "description_sha256": "6036f3502d4099ae4b8cb5f0c3d89f06c6ef461874989bde6f3492803e4549f5",
+      "source_record_references": [
+        "910"
+      ],
+      "description": "Mobile, Consumer & Connected Devices Market Research and Analysis Understand the broad arena of mobile, consumer and connected devices. Provides analysis of the Mobile Device supply chain and component costing trends, Mobile device teardown, illuminating the Bill of Material cost, and complexity to build the device, IHSMarkit also provides financial analysis of our device suppliers, including US and Global market share",
+      "labeler_proposal": {
+        "annotation_id": "ann_1fbf14968fabb6490cf00217",
+        "description_sha256": "6036f3502d4099ae4b8cb5f0c3d89f06c6ef461874989bde6f3492803e4549f5",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes market research and analysis of device supply chains, teardowns, and supplier financials. This is a research content offering rather than described software functionality, so the non-AI reading is weak.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Provides analysis of the Mobile Device supply chain and component costing trends"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_1fbf14968fabb6490cf00217",
+        "description_sha256": "6036f3502d4099ae4b8cb5f0c3d89f06c6ef461874989bde6f3492803e4549f5",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description covers conventional market research, supply-chain analysis, teardown, costing, and market-share reporting.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Mobile, Consumer & Connected Devices Market Research and Analysis"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": true,
+      "integration_support_concern": false,
+      "review_note": "Helper-required route due to weak/forced evidence; inspect original description and address the uncertainty without treating agreement as proof.",
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_186df3d5758f25cae1c14265",
+      "description_sha256": "de57e27359de498a1c1f1cd79d29758dfff79b7b30aa28cb85e04cfc62702b75",
+      "source_record_references": [
+        "911"
+      ],
+      "description": "Software that automates daily, monthly, and periodic reconciliation and account balancing processes through powerful matching algorithms - electronically matching your data and automatically reconciling accounts. high-volume transaction and matching software automates over 90% of daily, monthly, and periodic reconciliation while reducing associated costs and risks.",
+      "labeler_proposal": {
+        "annotation_id": "ann_186df3d5758f25cae1c14265",
+        "description_sha256": "de57e27359de498a1c1f1cd79d29758dfff79b7b30aa28cb85e04cfc62702b75",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes reconciliation and account-balancing automation based on matching of transaction data. No learned-model or AI capability is described.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Software that automates daily, monthly, and periodic reconciliation and account balancing processes through powerful matching algorithms",
+          "high-volume transaction and matching software automates over 90% of daily, monthly, and periodic reconciliation"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_186df3d5758f25cae1c14265",
+        "description_sha256": "de57e27359de498a1c1f1cd79d29758dfff79b7b30aa28cb85e04cfc62702b75",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description specifies conventional reconciliation and account balancing through matching and automation.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "automates daily, monthly, and periodic reconciliation and account balancing processes through powerful matching algorithms"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": false,
+      "integration_support_concern": false,
+      "review_note": null,
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_709ac0f1eed038f8e466f0ba",
+      "description_sha256": "41f34bf3dc22ad1466bc1c17b294744b0f3acd98b07481e9153f93ebed0e4597",
+      "source_record_references": [
+        "913"
+      ],
+      "description": "UPCS (Unclaimed Property Compliance System) automates Escheatment process (process of identifying customer's bank accounts that are considered abandoned). Automating every step of the escheatment process from start to finish. Put the days of tracking regulations and filing due diligence paperwork behind you. Save time, improve your workflows, and keep your customer data secure, all with UPCS.",
+      "labeler_proposal": {
+        "annotation_id": "ann_709ac0f1eed038f8e466f0ba",
+        "description_sha256": "41f34bf3dc22ad1466bc1c17b294744b0f3acd98b07481e9153f93ebed0e4597",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes unclaimed-property compliance automation for escheatment steps and due-diligence filings. These are conventional compliance workflow functions with no AI signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "UPCS (Unclaimed Property Compliance System) automates Escheatment process",
+          "Automating every step of the escheatment process from start to finish"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_709ac0f1eed038f8e466f0ba",
+        "description_sha256": "41f34bf3dc22ad1466bc1c17b294744b0f3acd98b07481e9153f93ebed0e4597",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description covers conventional escheatment compliance workflow automation and secure customer-data handling.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Automating every step of the escheatment process from start to finish."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": false,
+      "integration_support_concern": false,
+      "review_note": null,
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_095a7eeeaad439d998e7eb22",
+      "description_sha256": "e5fb6e2e7cb862001eda7e0d4b32b34323160b68cc739843bbf4933316876cbe",
+      "source_record_references": [
+        "914"
+      ],
+      "description": "Apttus' Contract Lifecycle Management (CLM) solution ends the era of manual and disjointed contract processes and enables you to deliver higher-quality customer experiences through automation and increased visibility. Apttus Intelligent Workflow Approvals (IWA) enables users to set up approvals on pricing, discounting, promotions, contract terms, agreement clauses, and more. Now a Conga Company.",
+      "labeler_proposal": {
+        "annotation_id": "ann_095a7eeeaad439d998e7eb22",
+        "description_sha256": "e5fb6e2e7cb862001eda7e0d4b32b34323160b68cc739843bbf4933316876cbe",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes contract lifecycle management with user-configured approval rules on pricing, discounts, and terms. The word 'Intelligent' appears only in a product name and is not explained, so the non-AI reading is weak.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Intelligent Workflow Approvals (IWA) enables users to set up approvals on pricing, discounting, promotions, contract terms, agreement clauses, and more"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_095a7eeeaad439d998e7eb22",
+        "description_sha256": "e5fb6e2e7cb862001eda7e0d4b32b34323160b68cc739843bbf4933316876cbe",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description identifies conventional contract lifecycle management and workflow approvals.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "ends the era of manual and disjointed contract processes"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": true,
+      "integration_support_concern": false,
+      "review_note": "Helper-required route due to weak/forced evidence; inspect original description and address the uncertainty without treating agreement as proof.",
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_f4f7430eba2c6588aa4227c3",
+      "description_sha256": "ab59bac1da114207757d82c87235f98a6db3f7a9ccb335a3bba3f0eb425303a3",
+      "source_record_references": [
+        "916"
+      ],
+      "description": "Acquia Cloud Site Factory licenses facilitate the Web Sites that VISP requires for marketing and other external facing purposes. Build, Run and Optimize Sites On the Only Digital Experience Platform Made For Drupal.",
+      "labeler_proposal": {
+        "annotation_id": "ann_f4f7430eba2c6588aa4227c3",
+        "description_sha256": "ab59bac1da114207757d82c87235f98a6db3f7a9ccb335a3bba3f0eb425303a3",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes licensed hosting and management of websites for a Drupal-based digital experience platform. These are conventional site hosting and management functions; the generic word 'Optimize' is not described as AI.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Acquia Cloud Site Factory licenses facilitate the Web Sites that VISP requires for marketing and other external facing purposes",
+          "Build, Run and Optimize Sites On the Only Digital Experience Platform Made For Drupal."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_f4f7430eba2c6588aa4227c3",
+        "description_sha256": "ab59bac1da114207757d82c87235f98a6db3f7a9ccb335a3bba3f0eb425303a3",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description concerns conventional website licensing and Drupal digital experience platform functions.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Build, Run and Optimize Sites On the Only Digital Experience Platform Made For Drupal."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": false,
+      "integration_support_concern": false,
+      "review_note": null,
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_4def834d46860e5e352e1697",
+      "description_sha256": "ca4c6faf67f362d5e0516b999f0b628504a557dc3337aaa3a23bc94cbfa34283",
+      "source_record_references": [
+        "917"
+      ],
+      "description": "Designs and develops enterprise software for Business Process Management (BPM).",
+      "labeler_proposal": {
+        "annotation_id": "ann_4def834d46860e5e352e1697",
+        "description_sha256": "ca4c6faf67f362d5e0516b999f0b628504a557dc3337aaa3a23bc94cbfa34283",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes designing and developing enterprise Business Process Management software, a conventional workflow-software category. No AI signal is stated.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Designs and develops enterprise software for Business Process Management (BPM)."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_4def834d46860e5e352e1697",
+        "description_sha256": "ca4c6faf67f362d5e0516b999f0b628504a557dc3337aaa3a23bc94cbfa34283",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description identifies conventional enterprise business process management software.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Designs and develops enterprise software for Business Process Management (BPM)."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": false,
+      "integration_support_concern": true,
+      "review_note": "Description states only that enterprise software is designed/developed for the BPM category, without concrete workflows or behaviors; scrutinize whether the category-only statement alone supports a conventional negative.",
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_dcb916a4a79eb7c2e415df21",
+      "description_sha256": "4326777e08b6904ab62e914026c98e8a5509b10e01272e5412ade5677d6d8a55",
+      "source_record_references": [
+        "919"
+      ],
+      "description": "Our platform easily manages your operations, cases, records, evidence and more, while providing convenient features like dashboards, link analysis, the ability to work securely from any location, and intelligent forms so you never have to fill out duplicate information again. Our goal is always to make your job easier and the world a safer place.",
+      "labeler_proposal": {
+        "annotation_id": "ann_dcb916a4a79eb7c2e415df21",
+        "description_sha256": "4326777e08b6904ab62e914026c98e8a5509b10e01272e5412ade5677d6d8a55",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes operations, case, and records management with dashboards and link analysis. The phrase 'intelligent forms' is the only ambiguous cue and the text does not establish how it works, so the non-AI reading is weak.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "dashboards, link analysis, the ability to work securely from any location, and intelligent forms"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_dcb916a4a79eb7c2e415df21",
+        "description_sha256": "4326777e08b6904ab62e914026c98e8a5509b10e01272e5412ade5677d6d8a55",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description lists conventional case, records, evidence, dashboards, link analysis, and forms management.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "manages your operations, cases, records, evidence and more"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": true,
+      "integration_support_concern": false,
+      "review_note": "Helper-required route due to weak/forced evidence; inspect original description and address the uncertainty without treating agreement as proof.",
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_fe4a6b7c9f0809caf4bdff2b",
+      "description_sha256": "e37f741643b012df54528caa3e5d610dc6c9988c2ef050abb48907ba13d6076c",
+      "source_record_references": [
+        "920"
+      ],
+      "description": "Employee Relations and Investigations case management solution. Equips organizations with built-in expertise to assist in tracking, investigating, and analyzing employee issues",
+      "labeler_proposal": {
+        "annotation_id": "ann_fe4a6b7c9f0809caf4bdff2b",
+        "description_sha256": "e37f741643b012df54528caa3e5d610dc6c9988c2ef050abb48907ba13d6076c",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes employee-relations case tracking, investigation, and analysis. 'Built-in expertise to assist' is ambiguous and does not state whether it is AI, so the non-AI reading is weak.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Equips organizations with built-in expertise to assist in tracking, investigating, and analyzing employee issues"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_fe4a6b7c9f0809caf4bdff2b",
+        "description_sha256": "e37f741643b012df54528caa3e5d610dc6c9988c2ef050abb48907ba13d6076c",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description covers conventional employee-relations and investigations case management.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "tracking, investigating, and analyzing employee issues"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": true,
+      "integration_support_concern": false,
+      "review_note": "Helper-required route due to weak/forced evidence; inspect original description and address the uncertainty without treating agreement as proof.",
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_086d22f2ae387db65c092690",
+      "description_sha256": "f969d493bffe5d8d3d2113b215c938628c7894270420078b00a6e57dcff99a14",
+      "source_record_references": [
+        "921"
+      ],
+      "description": "Web-based application that allows companies to create, monitor, and manage a complete OFCCP (Office of Federal Contract Compliance Programs) compliant plan right from the web, including Affirmative Action Plans (AAP) . The Office of Federal Contract Compliance Programs is part of the U.S. Department of Labor. OFCCP is responsible for ensuring that employers doing business with the Federal government comply with the laws and regulations requiring nondiscrimination.",
+      "labeler_proposal": {
+        "annotation_id": "ann_086d22f2ae387db65c092690",
+        "description_sha256": "f969d493bffe5d8d3d2113b215c938628c7894270420078b00a6e57dcff99a14",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes a web application for creating, monitoring, and managing an OFCCP compliance plan and Affirmative Action Plans. These are conventional plan-management functions with no AI signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Web-based application that allows companies to create, monitor, and manage a complete OFCCP (Office of Federal Contract Compliance Programs) compliant plan right from the web"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_086d22f2ae387db65c092690",
+        "description_sha256": "f969d493bffe5d8d3d2113b215c938628c7894270420078b00a6e57dcff99a14",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description specifies conventional web-based compliance-plan creation and management.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "create, monitor, and manage a complete OFCCP (Office of Federal Contract Compliance Programs) compliant plan right from the web"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": false,
+      "integration_support_concern": false,
+      "review_note": null,
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_66ccc87ba4ec62d220a3732e",
+      "description_sha256": "a10a6ab8e31d1f924ecc3727e20de1a054729fe06aa501f352d0a35bbf5f2d87",
+      "source_record_references": [
+        "922"
+      ],
+      "description": "Deliver robust financial reports filled with dynamic charts, tables, and source data linked from multiple enterprise systems and spreadsheets. Enables you to unify and prepare data with queries, contextual tagging, and filters.",
+      "labeler_proposal": {
+        "annotation_id": "ann_66ccc87ba4ec62d220a3732e",
+        "description_sha256": "a10a6ab8e31d1f924ecc3727e20de1a054729fe06aa501f352d0a35bbf5f2d87",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes financial reporting with charts, tables, linked source data, queries, tagging, and filters. These are conventional reporting and data-preparation functions with no AI signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Deliver robust financial reports filled with dynamic charts, tables, and source data linked from multiple enterprise systems and spreadsheets",
+          "Enables you to unify and prepare data with queries, contextual tagging, and filters."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_66ccc87ba4ec62d220a3732e",
+        "description_sha256": "a10a6ab8e31d1f924ecc3727e20de1a054729fe06aa501f352d0a35bbf5f2d87",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description covers conventional financial reporting, data preparation, queries, tagging, and filters.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "financial reports filled with dynamic charts, tables, and source data linked from multiple enterprise systems and spreadsheets."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": false,
+      "integration_support_concern": false,
+      "review_note": null,
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_861c8387d0890424464654df",
+      "description_sha256": "49d9b2747cc69db062f6ac2d955b53d3c2314f611b3e1ba20f77c5bd52585624",
+      "source_record_references": [
+        "923"
+      ],
+      "description": "Skilljar is the leading, purpose-built training platform for external education. Our enterprise-grade platform gives you all the tools you need to onboard, engage, and retain customers at scale. Internal employee and customer training.",
+      "labeler_proposal": {
+        "annotation_id": "ann_861c8387d0890424464654df",
+        "description_sha256": "49d9b2747cc69db062f6ac2d955b53d3c2314f611b3e1ba20f77c5bd52585624",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes a purpose-built training platform for onboarding, engaging, and retaining customers and employees. This is conventional learning-platform functionality with no AI signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Skilljar is the leading, purpose-built training platform for external education.",
+          "Our enterprise-grade platform gives you all the tools you need to onboard, engage, and retain customers at scale."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_861c8387d0890424464654df",
+        "description_sha256": "49d9b2747cc69db062f6ac2d955b53d3c2314f611b3e1ba20f77c5bd52585624",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description identifies a conventional external and internal training platform.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "purpose-built training platform for external education"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": false,
+      "integration_support_concern": false,
+      "review_note": null,
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_087639d65e37c1ca1cab9fda",
+      "description_sha256": "14bb0f7aec2a204fa0562807a9646e229351bad2ec34839d2b45523fb70d7914",
+      "source_record_references": [
+        "924"
+      ],
+      "description": "Build, share and track unlimited lessons. Quizzing and Surveys. Insights and Reporting. Client Experience Manager. Learning Library. Advanced Lesson Collaboration. Ask the Expert. User Management with Smart groups. User roles and permissions. Single Sign On. Automation. Custom Branding.\nLessonly acquired by Seismic",
+      "labeler_proposal": {
+        "annotation_id": "ann_087639d65e37c1ca1cab9fda",
+        "description_sha256": "14bb0f7aec2a204fa0562807a9646e229351bad2ec34839d2b45523fb70d7914",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Lists lesson building, quizzing, surveys, reporting, user management, roles, SSO, and branding. These are conventional learning-management features, and no AI capability is described.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Build, share and track unlimited lessons. Quizzing and Surveys. Insights and Reporting.",
+          "User Management with Smart groups. User roles and permissions. Single Sign On."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_087639d65e37c1ca1cab9fda",
+        "description_sha256": "14bb0f7aec2a204fa0562807a9646e229351bad2ec34839d2b45523fb70d7914",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description lists conventional lesson authoring, quizzing, reporting, user management, permissions, and automation.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Build, share and track unlimited lessons."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": false,
+      "integration_support_concern": true,
+      "review_note": "Description includes “Smart groups” but neither proposal explains what it means. Assess whether this is merely conventional grouping or an unresolved potential AI cue; do not infer implementation.",
+      "rationales_examined": true
+    },
+    {
+      "annotation_id": "ann_6342fe5dab570b8e6f01b1e4",
+      "description_sha256": "7b7b3b5c98bc986ec437d78022d3b4ea54fe42358d07a0995d566b6d830d924a",
+      "source_record_references": [
+        "925"
+      ],
+      "description": "Magnolia CMS is a Java-based content management system that uses a JCR repository to store, retrieve and search data. In this respect Magnolia is similar to Adobe Experience Manager, Hippo CMS and Jahia which also use JCR. Comprehensive content management solution for building websites, mobile apps and forms, easy to manage marketing content and assets",
+      "labeler_proposal": {
+        "annotation_id": "ann_6342fe5dab570b8e6f01b1e4",
+        "description_sha256": "7b7b3b5c98bc986ec437d78022d3b4ea54fe42358d07a0995d566b6d830d924a",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes a Java-based CMS using a JCR repository to store, retrieve, and search content, plus website and marketing content management. These are conventional CMS functions with no AI signal; the named comparison products are text only.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Magnolia CMS is a Java-based content management system that uses a JCR repository to store, retrieve and search data",
+          "Comprehensive content management solution for building websites, mobile apps and forms"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_6342fe5dab570b8e6f01b1e4",
+        "description_sha256": "7b7b3b5c98bc986ec437d78022d3b4ea54fe42358d07a0995d566b6d830d924a",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description concerns conventional content management for websites, mobile apps, forms, and marketing assets.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Comprehensive content management solution for building websites, mobile apps and forms"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "helper_required_reconciliation": false,
+      "integration_support_concern": false,
+      "review_note": null,
+      "rationales_examined": true
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "session_uuid": "cdc542c3-887f-4659-a57c-2aac7b53e95a",
+  "transcript_path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/cdc542c3-887f-4659-a57c-2aac7b53e95a/cdc542c3-887f-4659-a57c-2aac7b53e95a.jsonl",
+  "transcript_sha256": "8afdcd9df8d3f8ce28ed044da3f11b83c0c3a2adb16485e33c8b8975bd044c13",
+  "model_observation": "Transcript line2 states Selected model GPT-5.6 Luna; native pane p1K displayed GPT-5.6 Luna 272K High.",
+  "mutation_events": [
+    {
+      "line": 15,
+      "tool": "ApplyPatch",
+      "action": "added original malformed checkpoint",
+      "payload_sha256": "f3869d789b0e5c0e2b37bf3587147931e94b80bfec453d9e44c14ef36e4f96a7",
+      "reconstructed_file_sha256": "1efc706d74987ce93427dbb8dc990286bfd02692676cebec0f30f4e291840835"
+    },
+    {
+      "line": 25,
+      "tool": "ApplyPatch",
+      "action": "added original malformed aggregate",
+      "payload_sha256": "e6430eb6c85b5964f917f54c83a7e61b3b90868966f95d4ed0aed2c37243c90a",
+      "reconstructed_file_sha256": "fe41d76be8ac4fd611d84c6eae297db031b7d892f7bb42a1d421bdb7ee9ccd30"
+    },
+    {
+      "line": 35,
+      "tool": "ApplyPatch",
+      "action": "added corrected-name checkpoint; content differs from original malformed checkpoint only in annotation_id",
+      "payload_sha256": "3936a869ed70ee3c2f8ad142894aeefba4ad04947dcab5034470c23269822fe5",
+      "reconstructed_file_sha256": "13e34cdb5e4a861aa3c140aaa94308486d79bc8197276efed86a6a194effbf7b"
+    },
+    {
+      "line": 36,
+      "tool": "CallDynamicTool cursor.Delete",
+      "action": "deleted malformed checkpoint path",
+      "payload_sha256": "c844433505aadfcf01839251e4a0ee71f299fdba5fc888af85390c8a700dde7d",
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-019/agents/blind/checkpoints/ann_f4f743f0eba2c6588aa4227c3.json"
+    },
+    {
+      "line": 37,
+      "tool": "ApplyPatch",
+      "action": "updated only aggregate annotation_id",
+      "payload_sha256": "a377e27c8999fb18fc0c44782f23685084795db39da24e926ec2a63c88c171c7"
+    }
+  ],
+  "payload_to_raw_hash_matches": {
+    "original_checkpoint": true,
+    "original_aggregate": true,
+    "corrected_checkpoint": true
+  },
+  "current_post_mutation": {
+    "corrected_checkpoint_sha256": "13e34cdb5e4a861aa3c140aaa94308486d79bc8197276efed86a6a194effbf7b",
+    "aggregate_sha256": "fce1f6a6559f3e9af50730c4d8fd6efad9b8651bbab8007f1408ecfec2b03e11",
+    "aggregate_diff_from_raw_only_annotation_id": true,
+    "malformed_raw_original_sha256": "1efc706d74987ce93427dbb8dc990286bfd02692676cebec0f30f4e291840835",
+    "malformed_active_checkpoint_absent_but_preserved_raw_copy_present": true
+  }
+}

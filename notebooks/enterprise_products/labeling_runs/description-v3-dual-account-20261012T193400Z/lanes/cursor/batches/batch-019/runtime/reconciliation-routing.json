@@ -1,0 +1,55 @@
+{
+  "batch_id": "batch-019",
+  "reviewed_all_pairs": true,
+  "pair_count": 20,
+  "helper_required_ids": [
+    "ann_095a7eeeaad439d998e7eb22",
+    "ann_1fbf14968fabb6490cf00217",
+    "ann_7086a81b8212b077fe178739",
+    "ann_963d41894b3fdbe58fea7fb1",
+    "ann_dcb916a4a79eb7c2e415df21",
+    "ann_fe4a6b7c9f0809caf4bdff2b"
+  ],
+  "additional_support_concern_ids": [
+    "ann_087639d65e37c1ca1cab9fda",
+    "ann_4def834d46860e5e352e1697"
+  ],
+  "reconciliation_ids": [
+    "ann_087639d65e37c1ca1cab9fda",
+    "ann_095a7eeeaad439d998e7eb22",
+    "ann_1fbf14968fabb6490cf00217",
+    "ann_4def834d46860e5e352e1697",
+    "ann_7086a81b8212b077fe178739",
+    "ann_963d41894b3fdbe58fea7fb1",
+    "ann_dcb916a4a79eb7c2e415df21",
+    "ann_fe4a6b7c9f0809caf4bdff2b"
+  ],
+  "support_concerns": {
+    "ann_4def834d46860e5e352e1697": "Description states only that enterprise software is designed/developed for the BPM category, without concrete workflows or behaviors; scrutinize whether the category-only statement alone supports a conventional negative.",
+    "ann_087639d65e37c1ca1cab9fda": "Description includes \u201cSmart groups\u201d but neither proposal explains what it means. Assess whether this is merely conventional grouping or an unresolved potential AI cue; do not infer implementation."
+  },
+  "agreement_is_not_validation": true,
+  "integration_owner_did_not_relabel": true,
+  "source_boundary": "Only original selected description text; no product facts/web/history.",
+  "reconciliation_stage_receipt": {
+    "stage": "reconciliation",
+    "run_id": "batch-019",
+    "batch_id": "batch-019",
+    "rubric_id": "enterprise-description-only-v3",
+    "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+    "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+    "model_id": "gpt-5.6-luna-high",
+    "assigned_annotation_ids": [
+      "ann_087639d65e37c1ca1cab9fda",
+      "ann_095a7eeeaad439d998e7eb22",
+      "ann_1fbf14968fabb6490cf00217",
+      "ann_4def834d46860e5e352e1697",
+      "ann_7086a81b8212b077fe178739",
+      "ann_963d41894b3fdbe58fea7fb1",
+      "ann_dcb916a4a79eb7c2e415df21",
+      "ann_fe4a6b7c9f0809caf4bdff2b"
+    ]
+  },
+  "reconciliation_packet_sha256": "fc869f11ca68ffd4e0cc596ecffb969228efa4a86ef125d401f56cad723e88de",
+  "transport_exception": "see runtime/blind-transport-transcript-validation.json; parent authorized current corrected20 plus preserved original raw copy; no accepted-result path required"
+}

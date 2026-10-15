@@ -1,0 +1,135 @@
+{
+  "batch_id": "batch-019",
+  "role": "labeler",
+  "before_any_recovery": true,
+  "raw_result_sha256": "9976bb49adbca865c9672d23e5b1edd4e0d926a8ce88c9c51aa68b57e05d6920",
+  "checkpoint_count": 20,
+  "files": [
+    {
+      "source": "agents/labeler/result.json",
+      "copy": "runtime/pre-recovery-raw/labeler/result.json",
+      "sha256": "9976bb49adbca865c9672d23e5b1edd4e0d926a8ce88c9c51aa68b57e05d6920",
+      "copy_sha256": "9976bb49adbca865c9672d23e5b1edd4e0d926a8ce88c9c51aa68b57e05d6920"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_086d22f2ae387db65c092690.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_086d22f2ae387db65c092690.json",
+      "sha256": "93f995025ddc5e01bb373d1e77c2950f69f0c5d6dd80c085f97fc56f70876dd1",
+      "copy_sha256": "93f995025ddc5e01bb373d1e77c2950f69f0c5d6dd80c085f97fc56f70876dd1"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_087639d65e37c1ca1cab9fda.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_087639d65e37c1ca1cab9fda.json",
+      "sha256": "5df34c8ba77c4bfe4f27e336e544f042723315b487a9c56c6ab108856a19dcc7",
+      "copy_sha256": "5df34c8ba77c4bfe4f27e336e544f042723315b487a9c56c6ab108856a19dcc7"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_095a7eeeaad439d998e7eb22.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_095a7eeeaad439d998e7eb22.json",
+      "sha256": "6a09ab853fe1fdc0ee31d0873f437776cc8d6ff01b7870f2481248b92861e7bc",
+      "copy_sha256": "6a09ab853fe1fdc0ee31d0873f437776cc8d6ff01b7870f2481248b92861e7bc"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_186df3d5758f25cae1c14265.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_186df3d5758f25cae1c14265.json",
+      "sha256": "d7243b1188558fc445ed1b1f682ffa172a686a30800a1f541e8cb2b52296b916",
+      "copy_sha256": "d7243b1188558fc445ed1b1f682ffa172a686a30800a1f541e8cb2b52296b916"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_1fbf14968fabb6490cf00217.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_1fbf14968fabb6490cf00217.json",
+      "sha256": "2d91c7e1b474061ce7289e63316550e8bd8adf2dddb7fb0de87f14ba23daace8",
+      "copy_sha256": "2d91c7e1b474061ce7289e63316550e8bd8adf2dddb7fb0de87f14ba23daace8"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_365da0c635505a02470cb3d3.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_365da0c635505a02470cb3d3.json",
+      "sha256": "724b9f94cdc293e6b0cc9c82f2c864392326120fd5aa89fccbddfab0023d6db9",
+      "copy_sha256": "724b9f94cdc293e6b0cc9c82f2c864392326120fd5aa89fccbddfab0023d6db9"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_4def834d46860e5e352e1697.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_4def834d46860e5e352e1697.json",
+      "sha256": "736ea9aa6feddee23a8abfeb0d9cbd1872c534836471b41719c204323a7f8043",
+      "copy_sha256": "736ea9aa6feddee23a8abfeb0d9cbd1872c534836471b41719c204323a7f8043"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_6342fe5dab570b8e6f01b1e4.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_6342fe5dab570b8e6f01b1e4.json",
+      "sha256": "c2407b6f9e5b5f6408c570ab469e5c046cdd1ca4c74173e1c065c964fa07ff90",
+      "copy_sha256": "c2407b6f9e5b5f6408c570ab469e5c046cdd1ca4c74173e1c065c964fa07ff90"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_66ccc87ba4ec62d220a3732e.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_66ccc87ba4ec62d220a3732e.json",
+      "sha256": "bd7dc91e841aac614b184eeec9e1d0ae5164f6cc3e862384e55613aa2e5ab7a9",
+      "copy_sha256": "bd7dc91e841aac614b184eeec9e1d0ae5164f6cc3e862384e55613aa2e5ab7a9"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_7086a81b8212b077fe178739.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_7086a81b8212b077fe178739.json",
+      "sha256": "764d57bc60ca18ae9b8657eaeaf0ad82509eea1e7f5bcaede97ba7b3c001cff8",
+      "copy_sha256": "764d57bc60ca18ae9b8657eaeaf0ad82509eea1e7f5bcaede97ba7b3c001cff8"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_709ac0f1eed038f8e466f0ba.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_709ac0f1eed038f8e466f0ba.json",
+      "sha256": "526a53038e923f5bd03c716565902d52badd7502b41c7f2f3624205a576f7b3d",
+      "copy_sha256": "526a53038e923f5bd03c716565902d52badd7502b41c7f2f3624205a576f7b3d"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_712d577e71139b4b62fd5b21.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_712d577e71139b4b62fd5b21.json",
+      "sha256": "c12e1828211114c1cf6f3016c52eeeea378d1aa0764e9f008fada3133f9b527b",
+      "copy_sha256": "c12e1828211114c1cf6f3016c52eeeea378d1aa0764e9f008fada3133f9b527b"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_861c8387d0890424464654df.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_861c8387d0890424464654df.json",
+      "sha256": "5cedfde6534fbc4128b8be6472c8351826614eb85dfd18603bc9da798ac677d6",
+      "copy_sha256": "5cedfde6534fbc4128b8be6472c8351826614eb85dfd18603bc9da798ac677d6"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_963d41894b3fdbe58fea7fb1.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_963d41894b3fdbe58fea7fb1.json",
+      "sha256": "54e5ca7709808e5c8763a43654398f248591b155d7a437fa772e244e4b3800bd",
+      "copy_sha256": "54e5ca7709808e5c8763a43654398f248591b155d7a437fa772e244e4b3800bd"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_981dc0c90bc81167efcd817d.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_981dc0c90bc81167efcd817d.json",
+      "sha256": "7cd7a1f9ee10490c2a485c2c15d9ef9ad6a46d3926cf75f2873b7ef1b5b72771",
+      "copy_sha256": "7cd7a1f9ee10490c2a485c2c15d9ef9ad6a46d3926cf75f2873b7ef1b5b72771"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_b69ba04bc62af4d12380d66a.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_b69ba04bc62af4d12380d66a.json",
+      "sha256": "5d2342903d57976d5d6caacd8f9c2aac9352e20db2106b6153739a9e0afab533",
+      "copy_sha256": "5d2342903d57976d5d6caacd8f9c2aac9352e20db2106b6153739a9e0afab533"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_db3c5bbad002a987ffbeded5.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_db3c5bbad002a987ffbeded5.json",
+      "sha256": "1b1f68b1b24ad3d3d0a88ad6a0eafc016d62e00824b2c05f64a1d933577c9c2a",
+      "copy_sha256": "1b1f68b1b24ad3d3d0a88ad6a0eafc016d62e00824b2c05f64a1d933577c9c2a"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_dcb916a4a79eb7c2e415df21.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_dcb916a4a79eb7c2e415df21.json",
+      "sha256": "7fe799aaad08ecfcd9b2be1e91f025e7ef2cdcf16d4e7d3dd4ecde67e9e75ce5",
+      "copy_sha256": "7fe799aaad08ecfcd9b2be1e91f025e7ef2cdcf16d4e7d3dd4ecde67e9e75ce5"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_f4f7430eba2c6588aa4227c3.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_f4f7430eba2c6588aa4227c3.json",
+      "sha256": "91944fa12a4b51ba4e2d31c3eef078a3b6593dc27165f464931f18ccdb9db87a",
+      "copy_sha256": "91944fa12a4b51ba4e2d31c3eef078a3b6593dc27165f464931f18ccdb9db87a"
+    },
+    {
+      "source": "agents/labeler/checkpoints/ann_fe4a6b7c9f0809caf4bdff2b.json",
+      "copy": "runtime/pre-recovery-raw/labeler/ann_fe4a6b7c9f0809caf4bdff2b.json",
+      "sha256": "552b74407ddaa88ea43531f09606c8d2b48c6ea08ebeb7228ff7ba489ea43976",
+      "copy_sha256": "552b74407ddaa88ea43531f09606c8d2b48c6ea08ebeb7228ff7ba489ea43976"
+    }
+  ]
+}

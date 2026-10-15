@@ -1,0 +1,33 @@
+{
+  "batch_id": "batch-019",
+  "status": "stopped_persistent_structural_malformed_output",
+  "frozen_plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "selected_descriptions": 20,
+  "selected_source_references": 20,
+  "labeler": {
+    "result_sha256": "9976bb49adbca865c9672d23e5b1edd4e0d926a8ce88c9c51aa68b57e05d6920",
+    "checkpoint_count": 20,
+    "assigned_id_set_exact": true,
+    "aggregate_sha256_matches_pre_recovery_copy": true
+  },
+  "blind": {
+    "result_sha256_current": "fe41d76be8ac4fd611d84c6eae297db031b7d892f7bb42a1d421bdb7ee9ccd30",
+    "result_sha256_pre_recovery": "fe41d76be8ac4fd611d84c6eae297db031b7d892f7bb42a1d421bdb7ee9ccd30",
+    "result_unchanged": true,
+    "result_has_malformed_id": "ann_f4f743f0eba2c6588aa4227c3",
+    "expected_id": "ann_f4f7430eba2c6588aa4227c3",
+    "checkpoint_files": 21,
+    "original_malformed_checkpoint_sha256": "1efc706d74987ce93427dbb8dc990286bfd02692676cebec0f30f4e291840835",
+    "current_malformed_checkpoint_sha256": "1efc706d74987ce93427dbb8dc990286bfd02692676cebec0f30f4e291840835",
+    "extra_correctly_named_checkpoint_sha256": "13e34cdb5e4a861aa3c140aaa94308486d79bc8197276efed86a6a194effbf7b",
+    "recovery_attempts": 1,
+    "recovery_outcome": "Original Luna context created a correctly named checkpoint while leaving the malformed checkpoint and malformed aggregate unchanged; 21 checkpoint files now exist for 20 assigned IDs. No further correction permitted without parent decision."
+  },
+  "cross_proposal_comparison_started": false,
+  "reconciliation_started": false,
+  "exports_finalized": false,
+  "tests_for_batch019": "not run; batch blocked before comparison/finalization",
+  "active_worker_lifecycle": "both assigned Cursor contexts idle; no further prompts or relaunches",
+  "next_safe_action": "Parent reviews preserved raw recovery evidence and determines an authorized safe disposition; do not delete, overwrite, compare, rerun, relabel or start batch020 without explicit parent direction."
+}

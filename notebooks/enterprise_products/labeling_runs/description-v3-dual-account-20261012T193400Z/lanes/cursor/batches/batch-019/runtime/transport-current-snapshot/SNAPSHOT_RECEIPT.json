@@ -1,0 +1,55 @@
+{
+  "batch_id": "batch-019",
+  "captured_before_any_pair_comparison": true,
+  "selected_ids": [
+    "ann_7086a81b8212b077fe178739",
+    "ann_963d41894b3fdbe58fea7fb1",
+    "ann_db3c5bbad002a987ffbeded5",
+    "ann_981dc0c90bc81167efcd817d",
+    "ann_712d577e71139b4b62fd5b21",
+    "ann_365da0c635505a02470cb3d3",
+    "ann_b69ba04bc62af4d12380d66a",
+    "ann_1fbf14968fabb6490cf00217",
+    "ann_186df3d5758f25cae1c14265",
+    "ann_709ac0f1eed038f8e466f0ba",
+    "ann_095a7eeeaad439d998e7eb22",
+    "ann_f4f7430eba2c6588aa4227c3",
+    "ann_4def834d46860e5e352e1697",
+    "ann_dcb916a4a79eb7c2e415df21",
+    "ann_fe4a6b7c9f0809caf4bdff2b",
+    "ann_086d22f2ae387db65c092690",
+    "ann_66ccc87ba4ec62d220a3732e",
+    "ann_861c8387d0890424464654df",
+    "ann_087639d65e37c1ca1cab9fda",
+    "ann_6342fe5dab570b8e6f01b1e4"
+  ],
+  "parents_current_transport_disposition": "runtime/PARENT_STRUCTURAL_DISPOSITION.json",
+  "all_pre_recovery_raw_files_match_registered_sha256": true,
+  "current_blind_aggregate_sha256": "fce1f6a6559f3e9af50730c4d8fd6efad9b8651bbab8007f1408ecfec2b03e11",
+  "original_blind_aggregate_preserved_sha256": "fe41d76be8ac4fd611d84c6eae297db031b7d892f7bb42a1d421bdb7ee9ccd30",
+  "current_labeler_aggregate_sha256": "9976bb49adbca865c9672d23e5b1edd4e0d926a8ce88c9c51aa68b57e05d6920",
+  "current_correct_checkpoint_sha256": "13e34cdb5e4a861aa3c140aaa94308486d79bc8197276efed86a6a194effbf7b",
+  "exact_metadata_only_aggregate_difference": [
+    [
+      11,
+      "annotation_id",
+      "ann_f4f743f0eba2c6588aa4227c3",
+      "ann_f4f7430eba2c6588aa4227c3"
+    ]
+  ],
+  "current_blind_exact20_assigned_ids": true,
+  "current_blind_result_equals_exact20_checkpoints": true,
+  "current_labeler_result_equals20_checkpoints": true,
+  "helper_individual_validation_schema_source_quotes_pass": true,
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "selection_sha256": "400702751461df156db4adc988f2ee56d9a8f0eb62ed0ba8d39ad8ce100c4748",
+  "transcript_evidence": "runtime/blind-transport-transcript-validation.json",
+  "snapshot_files": {
+    "blind/result.json": "fce1f6a6559f3e9af50730c4d8fd6efad9b8651bbab8007f1408ecfec2b03e11",
+    "labeler/result.json": "9976bb49adbca865c9672d23e5b1edd4e0d926a8ce88c9c51aa68b57e05d6920"
+  },
+  "snapshot_checkpoint_counts": {
+    "blind": 20,
+    "labeler": 20
+  }
+}
