@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-15T05:23:28.060104+00:00",
+  "status": "unfinished_checkpoint_not_finalized",
+  "coverage_addition": 0,
+  "accepted_independent_records_per_role": 20,
+  "original_and_accepted_result_receipt_hashes_verified": true,
+  "all40_original_checkpoint_hashes_verified": true,
+  "reconciliation_records": 3,
+  "reconciliation_schema_quotes_and_checkpoint_equality": true,
+  "reconciliation_result_sha256": "37e6ecadc3d43c23d4b6227fedf0525aee80c5fe5c0be9c99d259a8d6d8a1beb",
+  "reconciliation_checkpoint_hashes": {
+    "agents/blind/reconciliation/checkpoints/ann_4a100aec1947a807a60adbfd.json": "2128910104691901466396f61764d70e20170fc7f757ce9ffe015ad7a1453ce2",
+    "agents/blind/reconciliation/checkpoints/ann_136fca36af98d985157f45ce.json": "ef6e3e487680e6bae43043a7ed6573438eaa5c1a0d8084d35b05c25541e9a5df",
+    "agents/blind/reconciliation/checkpoints/ann_b5094c7f326fcb93e5f3f565.json": "e42e7648bfa8678f8fdd2cb0e806b9423cbf9830131ae41a4f58a56b9ed9729c"
+  },
+  "unresolved_support_concern": "ann_c55bfa2754c68cc24cc1f583: exact description does not state database functionality; both independent rationales infer it from named PostgreSQL. Preserve completed3 reconciliations without repeating them.",
+  "coordinator_recovery": "Original coordinator timed out; original blind pane wF:p1A no longer exists. Original labeler target cur014-label observed idle at repository-root blank prompt, not proof of retained batch context. Native CLI context recovery must verify original verifier lineage before any further semantic review."
+}

@@ -1,0 +1,17 @@
+{
+  "annotation_id": "ann_c55bfa2754c68cc24cc1f583",
+  "description_sha256": "31a3d439f9194baa76a8192abc9c28dc7a5e27e680ba40b36d3e90b539db3d5a",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The supplied text describes PostgreSQL as trusted, open source, and enterprise-optimized, but does not state conventional software functionality or provide an affirmative AI signal.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "Crunchy Certified PostgreSQL is trusted, open source PostgreSQL optimized for the enterprise"
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "Both proposals infer database functionality from the term PostgreSQL in the product name. Under the description-only boundary, that product-name knowledge cannot supply missing evidence: the exact text only says it is trusted, open source, and optimized for the enterprise. Those words do not meaningfully describe a conventional function, and they contain no affirmative AI signal. Retain non_ai as a weak, forced judgment because the supplied text is insufficient for a supported binary negative."
+}

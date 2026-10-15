@@ -1,0 +1,59 @@
+{
+  "stage": "reconciliation",
+  "records": [
+    {
+      "annotation_id": "ann_136fca36af98d985157f45ce",
+      "description_sha256": "8546e88ec43695c5e1df8d1143f65388721d82a6416c67f9206afa298e9c81fa",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies voice-response scaling, usage-based pricing, and unified messaging, but does not establish an AI function; the meaning of voice response leaves unresolved applicability uncertainty.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "enables you to scale at speed to support peak or unpredictable call volume",
+        "Includes Blueworx unified messaging for voice response"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler treated the unresolved possibility of AI-based speech processing as making the non-AI judgment weak, while the blind proposal treated the described communications functions as conventionally supported. The exact text establishes voice-response scaling, minutes-based pricing, and unified messaging, but does not state AI or explain how voice responses are handled. Because the text does not resolve whether any AI-dependent processing is included, retain non_ai with weak evidence and a forced decision rather than converting the ambiguity into supported evidence."
+    },
+    {
+      "annotation_id": "ann_4a100aec1947a807a60adbfd",
+      "description_sha256": "1ed29b48b6a882ed372597149823ffff368dd08984a685f67fcb4ee1c53f11d8",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly states that the data management product family offers AI-empowered capabilities for managing structured and unstructured data.",
+      "ai_type_rationale": "The text identifies data management as the core product and presents AI as capabilities offered by that conventional core, supporting ai_enabled without forcing the subtype.",
+      "evidence_spans": [
+        "hybrid data management products offering a complete suite of AI-empowered capabilities designed to help you manage both structured and unstructured data"
+      ],
+      "ai_type_evidence_spans": [
+        "hybrid data management products offering a complete suite of AI-empowered capabilities"
+      ],
+      "conflict_response": "Both proposals support the AI binary label. The labeler marked ai_enabled as weak because the description does not explicitly say whether data management can operate without AI, while the blind proposal treated the conventional core as sufficient. The exact text directly calls the offering data management products and describes AI as capabilities for that function; it does not describe an AI-dependent core. This independently supports ai_enabled, so no forced subtype decision is needed."
+    },
+    {
+      "annotation_id": "ann_b5094c7f326fcb93e5f3f565",
+      "description_sha256": "7b2500c8781d7d206200a8e9c1ba44b8f9644f4300101a5611c7b0b5dd9d556f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description contains only the label Hardware Support, which does not meaningfully describe conventional software functionality or establish an AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Hardware Support"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Both proposals retain non_ai with weak evidence and a forced decision because the only supplied text is \"Hardware Support.\" Agreement does not add evidence: the phrase is insufficient to establish conventional software functionality, and it also contains no affirmative AI signal. The uncertainty therefore remains unresolved rather than becoming supported."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "status": "mechanical_hash_field_repairs_only",
+  "raw_results_and_checkpoints_unchanged": true,
+  "repairs": [
+    {
+      "role": "labeler",
+      "annotation_id": "ann_d317f03272994c670324b6a2",
+      "field": "description_sha256",
+      "before": "e2a3b22b47592bf33f137a398fd97906d5460a18a9d2adedd58e1b80ecc83e3",
+      "after": "e2a3b22b47592bf33f137a398fd97906d5460a18a9d2adedd58e1b80ecc83e3d",
+      "semantic_fields_unchanged": true,
+      "reason": "terminal hex character omitted; restored directly from immutable description packet hash"
+    },
+    {
+      "role": "labeler",
+      "annotation_id": "ann_b5094c7f326fcb93e5f3f565",
+      "field": "description_sha256",
+      "before": "7b2500c8781d7d206200a8e9c1ba44b8f9644f4300101a5611c7b0b5dd9d556",
+      "after": "7b2500c8781d7d206200a8e9c1ba44b8f9644f4300101a5611c7b0b5dd9d556f",
+      "semantic_fields_unchanged": true,
+      "reason": "terminal hex character omitted; restored directly from immutable description packet hash"
+    }
+  ],
+  "semantic_fields_changed": false,
+  "repair_count": 2
+}

@@ -1,0 +1,44 @@
+{
+  "status": "integration_only_expanded_reconciliation_route",
+  "logical_plan_batch_id": "batch-014",
+  "new_acceptance_copy": "batches/batch-014-parent-integration",
+  "source_original_batch": "batches/batch-014",
+  "original_manifest_sha256": "60ea4d82bda0d9bac327aad3ef09e293deb5acbe2dabb904e462171fc3686356",
+  "original_manifest_and_three_id_stage_receipt_preserved_in_source": true,
+  "original_three_reconciliation_ids": [
+    "agents/blind/reconciliation/checkpoints/ann_4a100aec1947a807a60adbfd.json",
+    "agents/blind/reconciliation/checkpoints/ann_136fca36af98d985157f45ce.json",
+    "agents/blind/reconciliation/checkpoints/ann_b5094c7f326fcb93e5f3f565.json"
+  ],
+  "late_first_time_support_concern_id": "ann_c55bfa2754c68cc24cc1f583",
+  "reason": "Parent source review found both proposals infer database functionality from product-name term PostgreSQL, not stated by exact description; same original Luna supplied one first-time concern resolution.",
+  "original_verifier_session_uuid": "9582567b-b0eb-47a9-b1b5-b6e432ca603f",
+  "verified_model_id": "gpt-5.6-luna-high",
+  "fourth_item_source_result": "agents/blind/reconciliation/fourth-item-result.json",
+  "fourth_item_result_sha256": "bd895eadfcdb430931182704c82b944dc6566c3c3f8a00fe74ccc32252f5500d",
+  "fourth_item_source_checkpoint": "agents/blind/reconciliation/checkpoints/ann_c55bfa2754c68cc24cc1f583.json",
+  "fourth_item_checkpoint_sha256": "a704ae74b42de4f8707c110eb44c6ad312da2c1e13ad53ce57cb5973e1135bad",
+  "expanded_stage_receipt_in_copy": {
+    "stage": "reconciliation",
+    "run_id": "batch-014",
+    "batch_id": "cursor-batch-014",
+    "rubric_id": "enterprise-description-only-v3",
+    "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+    "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+    "model_id": "gpt-5.6-luna-high",
+    "assigned_annotation_ids": [
+      "ann_136fca36af98d985157f45ce",
+      "ann_4a100aec1947a807a60adbfd",
+      "ann_b5094c7f326fcb93e5f3f565",
+      "ann_c55bfa2754c68cc24cc1f583"
+    ]
+  },
+  "four_helper_stage_checkpoints_registered": true,
+  "record_fields_unchanged": true,
+  "no_repeated_semantic_pass": true,
+  "helper_required_route_ids": [
+    "ann_136fca36af98d985157f45ce",
+    "ann_4a100aec1947a807a60adbfd",
+    "ann_b5094c7f326fcb93e5f3f565"
+  ]
+}

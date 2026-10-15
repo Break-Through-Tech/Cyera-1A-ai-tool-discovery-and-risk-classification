@@ -1,0 +1,54 @@
+{
+  "status": "finalized_parent_integration_copy",
+  "logical_plan_batch_id": "batch-014",
+  "accepted_batch_path": "batches/batch-014-parent-integration",
+  "supersedes_original_for_acceptance_only": true,
+  "original_batch": "batches/batch-014",
+  "original_batch_left_unfinalized_and_unchanged": true,
+  "selected_descriptions": 20,
+  "selected_rows": 21,
+  "exact_plan_hash_and_source_reference_coverage": true,
+  "independent_results_and_all40_checkpoint_hashes_preserved": true,
+  "exact_quote_schema_coverage_provenance_checkpoint_equality": true,
+  "reconciliation_ids": [
+    "ann_136fca36af98d985157f45ce",
+    "ann_4a100aec1947a807a60adbfd",
+    "ann_b5094c7f326fcb93e5f3f565",
+    "ann_c55bfa2754c68cc24cc1f583"
+  ],
+  "reconciliation_count": 4,
+  "same_original_verifier_uuid": "9582567b-b0eb-47a9-b1b5-b6e432ca603f",
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "late_support_concern": {
+    "annotation_id": "ann_c55bfa2754c68cc24cc1f583",
+    "exact_text": "Crunchy Certified PostgreSQL is trusted, open source PostgreSQL optimized for the enterprise",
+    "final_binary": "non_ai",
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "basis": "Text does not meaningfully describe conventional functionality; name-based database assumption excluded.",
+    "source_result_sha256": "bd895eadfcdb430931182704c82b944dc6566c3c3f8a00fe74ccc32252f5500d",
+    "source_checkpoint_sha256": "a704ae74b42de4f8707c110eb44c6ad312da2c1e13ad53ce57cb5973e1135bad"
+  },
+  "existing_three_reconciliation_sha256": "37e6ecadc3d43c23d4b6227fedf0525aee80c5fe5c0be9c99d259a8d6d8a1beb",
+  "original_manifest_sha256": "60ea4d82bda0d9bac327aad3ef09e293deb5acbe2dabb904e462171fc3686356",
+  "weak_or_forced_description_count": 3,
+  "weak_flags_remain_excluded": true,
+  "final_binary_weak_count": 3,
+  "final_subtype_weak_count": 0,
+  "trusted_negative_records": 15,
+  "exports_verified": true,
+  "export_hashes": {
+    "description_labels.json": "961162249d4911e4a60ff7a80f8740986926de17daa07b2345e37f88d60b8532",
+    "record_labels.json": "a01574817be3df432101a5d2a07d90c7109c16ff56cf5780f3ebfa88cd48e1fe",
+    "review_ledger.json": "eae9fff97acdf09aeafcc5dc35ce0cf2556814079193bd69791089cf36b4cc1a",
+    "review_queue.json": "b9b792fba2aeabffc1b38eb1128349d177338f595fe942cc88c7351eeae2d071",
+    "non_ai_candidates.csv": "7f17f67fbf1d67b38508de2fc3d23ec937a2a2c65264f5838baf0ad67740e631",
+    "calibration_report.json": "0e34df248924fd668fa41948b1df8976ebc00d003c9c1249c166c32e559fce82"
+  },
+  "cost_usd": null,
+  "billed_tokens": null,
+  "transport_observation": "Native Cursor CLI resumed original GPT-5.6 Luna transcript and GPT-5.6 Luna 272K High banner at exact blind workspace; exactly one additional one-ID reconciliation. Haiku observed Claude Haiku 5.5 300K High."
+}

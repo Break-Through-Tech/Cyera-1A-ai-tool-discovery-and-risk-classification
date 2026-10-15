@@ -1,10 +1,10 @@
 {
   "status": "in_progress",
   "lane": "cursor",
-  "new_completed_descriptions": 260,
-  "new_completed_rows": 262,
-  "remaining_lane_descriptions": 360,
-  "remaining_lane_rows": 377,
+  "new_completed_descriptions": 280,
+  "new_completed_rows": 283,
+  "remaining_lane_descriptions": 340,
+  "remaining_lane_rows": 356,
   "finalized_batches": [
     "batch-001",
     "batch-002",
@@ -18,50 +18,54 @@
     "batch-010",
     "batch-011",
     "batch-012",
-    "batch-013"
+    "batch-013",
+    "batch-014 (accepted integration copy: batches/batch-014-parent-integration)"
   ],
-  "current_batch": "batch-014",
+  "current_batch": null,
   "active_workers": 0,
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
   "cost_usd": null,
   "billed_tokens": null,
   "latest_authorization": "2026-10-13 user authorized both workflows and routine repair; no routine pauses",
-  "current_stage": "batch-013_finalized_batch-014_pending",
+  "current_stage": "wave010_014_finalized_no_workers_active",
   "native_targets": {
     "labeler": "cursor-haiku-d009 exited; shell verified in wF:p19",
     "blind": "cursor-luna-d009 exited; shell verified in wF:p1A"
   },
   "integration_owner": "enterprise-cursor-coordinator",
-  "reconciliation_count": 62,
+  "reconciliation_count": 66,
   "last_finalized_batch": {
-    "batch_id": "batch-013",
+    "batch_id": "batch-014",
+    "accepted_path": "batches/batch-014-parent-integration",
     "descriptions": 20,
-    "rows": 20,
-    "reconciliation_count": 3,
+    "rows": 21,
+    "reconciliation_count": 4,
     "exports_verified": true,
-    "weak_binary_count": 0,
+    "weak_binary_count": 3,
     "weak_subtype_count": 0,
-    "path": "batches/batch-013",
-    "labeler_aggregate": "assembled from 20 valid checkpoints; no annotation rerun"
+    "integration_only_copy": true,
+    "source_batch_original_unfinalized_unchanged": "batches/batch-014"
   },
   "last_wave": {
     "batches": [
       "batch-010",
       "batch-011",
       "batch-012",
-      "batch-013"
+      "batch-013",
+      "batch-014"
     ],
-    "descriptions": 80,
-    "rows": 80,
-    "reconciliation_count": 21,
-    "remaining_descriptions": 360,
-    "remaining_rows": 377,
-    "weak_binary_count": 8,
+    "descriptions": 100,
+    "rows": 103,
+    "reconciliation_count": 25,
+    "remaining_descriptions": 340,
+    "remaining_rows": 356,
+    "weak_binary_count": 11,
     "weak_subtype_count": 2,
     "structural_repairs": 1,
-    "process_deviations": 1,
-    "artifact_only_aggregate_assemblies": 1
+    "process_deviations": 2,
+    "artifact_only_aggregate_assemblies": 1,
+    "integration_copy_for_late_support_concern": true
   },
-  "next_safe_action": "Prepare/freeze batch-014 from immutable plan; launch fresh native Cursor sessions in verified assigned shells with pinned models."
+  "next_safe_action": "Parent verifies the batch-014-parent-integration acceptance copy and commits as appropriate; then continue Cursor batch015 fresh native pair from frozen plan. No015 workers launched here."
 }
