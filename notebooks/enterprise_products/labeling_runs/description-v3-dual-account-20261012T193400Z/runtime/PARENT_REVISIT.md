@@ -1,5 +1,11 @@
 # Parent revisit — BOTH LANES RESUMED through ACTUAL pi-subagents
 
+## Latest wake — Codex016 single hash-transcription override authorized
+
+Answered supervisor0f55e7f2 blind e1dd2c82: claimedpacket65hex reproducedactualpacketVALID64/recomputed360445...7ca1b, privatecheckpointann_11adf0b20430efeb35b03fd6 alone addsONEtrailing1. Parentpreservedoriginalrawcopy+ALLcurrentblindhashes andcreatedNEWruntime/accepted-hash-repair/checkpoints/ID.json changingONLYdescription_sha256 toactualfrozenhash, nosemanticchanges; single-recordschema/sourcequotespassed. runtime-hash-repair-receipt.json includesONEoverride, original/acceptedhashes, actualpacketproof. ReplyoriginalworkerreadONLYcorrectedownrecord+owncheckpoints emit20native withONEoverride, NOfilewrites/relabels/sourcechanges. Nextblindgate useacceptedoverrideONLYthisID, preserveall20originalprivatefilenames/hashes; other19nativeequalsoriginal. No sourceprovenancechange. Workflowe1e1e4e8 stillactive; labelerbfe2e8c0 COMPLETE andactual20native/private/schema/sourcequotespassed, acceptedrawbytecopy+runtime-labeler-validation saved. No comparison untilbothaccepted. TheninspectALL20pairs/gatherrequired/supportconcerns beforeONEoriginalblindsemanticreconciliation ABSOLUTEnewpaths.
+
+Cursor retainedowner6cac6f55 activechecking019actualCursortranscriptmutationproof beforeintegration underpreviousd12a3023reply; parentno competingfiles/panes. Global820/842unchanged; trainingdatasetuntouched. Nativecompletionwakes/no polling/bg_wait/pstack. Nootherpendingasks.
+
 ## Latest wake — finalized820/842; Codex016 active, Cursor019 transcript gate
 
 Codex015 originalblind7-item3bd606a6 COMPLETE. Actualnative/private7/schema/exactsourcequotes/coverage/modelpassed. Parent inspectedall7finalsource/conflictresponses; all40independentraw/native/stagehashesunchanged, two wrongpathoriginals equalacceptedcopies andsingleactualtoolpayloads. Helperregistered7/finalized20/20,3weakbinary17trustednegativerows. Originalverifierexplicitly explains relationalDB/DBMS/runningDB/storagemanagement support withoutimportingmechanisms; licensefeature-names,managedservicesfragment,telecomoutcomesweak. Exactuniqueglobal820descriptions842rows, remaining571/596; Codex300/304 Cursor360/364 prior160/174. All1387baselinehashesunchanged; trainingdatasetuntouched.
