@@ -1,0 +1,62 @@
+{
+  "batch_id": "batch-020",
+  "reviewed_all_pairs": true,
+  "pair_count": 20,
+  "helper_required_ids": [
+    "ann_18c78f2dd382b6828cb098df",
+    "ann_21374172206f7617839504ea",
+    "ann_3f57e48011d1fb4ddfdd1918",
+    "ann_445ff39d341b60cb207c07b6",
+    "ann_6f0d56c0c9c78b5b8e164cea",
+    "ann_88ea74f37e7d1d579a468862"
+  ],
+  "additional_support_concern_ids": [
+    "ann_1907e9574dc2551de17169d1",
+    "ann_4dce633c3b737b034b753aee",
+    "ann_d03ccc4778c08ab771db5c77",
+    "ann_e15eebb5f798ed00e3bb1e6a"
+  ],
+  "reconciliation_ids": [
+    "ann_18c78f2dd382b6828cb098df",
+    "ann_1907e9574dc2551de17169d1",
+    "ann_21374172206f7617839504ea",
+    "ann_3f57e48011d1fb4ddfdd1918",
+    "ann_445ff39d341b60cb207c07b6",
+    "ann_4dce633c3b737b034b753aee",
+    "ann_6f0d56c0c9c78b5b8e164cea",
+    "ann_88ea74f37e7d1d579a468862",
+    "ann_d03ccc4778c08ab771db5c77",
+    "ann_e15eebb5f798ed00e3bb1e6a"
+  ],
+  "support_concerns": {
+    "ann_4dce633c3b737b034b753aee": "Omnichannel communications are described as highly personalized/insightful and real-time using organizational data/content, but no mechanism is provided; assess whether this is conventional content selection or unresolved possible AI dependence.",
+    "ann_1907e9574dc2551de17169d1": "The phrase \u201cintelligently automates business processes\u201d is unexplained; assess as conventional workflow automation versus unresolved possible AI, without inferring implementation.",
+    "ann_d03ccc4778c08ab771db5c77": "\u201cAutomatically identify and capture data from incoming documents\u201d does not identify the extraction mechanism; assess whether the text supports a conventional non-AI function or leaves potential AI-dependent extraction unexplained.",
+    "ann_e15eebb5f798ed00e3bb1e6a": "\u201cIntelligent business applications\u201d is unexplained suite wording; assess whether it is only generic branding or a product-specific potential AI cue, independently of the concrete ERP/accounting/SQL functions."
+  },
+  "agreement_is_not_validation": true,
+  "integration_owner_did_not_relabel": true,
+  "evidence_boundary": "Only frozen exact description text; no outside sources.",
+  "stage_receipt": {
+    "stage": "reconciliation",
+    "run_id": "batch-020",
+    "batch_id": "batch-020",
+    "rubric_id": "enterprise-description-only-v3",
+    "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+    "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+    "model_id": "gpt-5.6-luna-high",
+    "assigned_annotation_ids": [
+      "ann_18c78f2dd382b6828cb098df",
+      "ann_1907e9574dc2551de17169d1",
+      "ann_21374172206f7617839504ea",
+      "ann_3f57e48011d1fb4ddfdd1918",
+      "ann_445ff39d341b60cb207c07b6",
+      "ann_4dce633c3b737b034b753aee",
+      "ann_6f0d56c0c9c78b5b8e164cea",
+      "ann_88ea74f37e7d1d579a468862",
+      "ann_d03ccc4778c08ab771db5c77",
+      "ann_e15eebb5f798ed00e3bb1e6a"
+    ]
+  },
+  "reconciliation_packet_sha256": "6083378dc0c48ba08cdcc6b72cb795d4ce6d48b2c85ebde00cbe910e8e9bc643"
+}

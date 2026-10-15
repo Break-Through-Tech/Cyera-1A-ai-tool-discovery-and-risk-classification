@@ -1,0 +1,19 @@
+{
+  "batch_id": "batch-020",
+  "role": "blind",
+  "structural_only": true,
+  "recovery_count": 1,
+  "before_raw_result_sha256": "ef77c665ee2453a439902df9df1310ac84e62b5bc2881253ddb26382d91e4ab3",
+  "after_result_sha256": "446d8d99760d2da71611f2093f1fdb22bc26c1c810818e6d727e3b2e7de135c9",
+  "before_bad_checkpoint_sha256": "1e5acfd4c90c7461b74198791ac5d6fa23aeba1e250d578c3db81fb781af2f42",
+  "after_checkpoint_sha256": "eb7034bf4472acff4af5699c6d78f7a57bf0b71dd29889c4a8918dbacac6b70b",
+  "changed_annotation_id": "ann_88ea74f37e7d1d579a468862",
+  "changed_field": "evidence_spans[0]",
+  "old_nonexact_quote": "a Workforce Management Solution Which Will Provide A Forecasting, Scheduling, Time Capture And Analytics And Communication Platform",
+  "new_exact_quote": "Kronos Dimensions Is A Workforce Management Solution Which Will Provide A Forecasting, Scheduling, Time Capture And Analytics And Communication Platform",
+  "source_quote_exact": true,
+  "only_one_logical_field_changed_in_checkpoint_and_aggregate": true,
+  "all_other19_checkpoints_and_result_records_unchanged": true,
+  "exact_coverage_schema_quotes_and_private_equality_pass": true,
+  "raw_backup_receipt": "runtime/blind-quote-structural-recovery-prestate.json"
+}

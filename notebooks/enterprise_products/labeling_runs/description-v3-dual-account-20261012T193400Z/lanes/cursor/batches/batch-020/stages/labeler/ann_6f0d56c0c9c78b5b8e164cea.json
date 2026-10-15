@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_6f0d56c0c9c78b5b8e164cea",
+  "description_sha256": "c55b464a3ffcc69c923db0bb209d2e682ee0027cc4ab71dc73242a8af574c910",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "Explicitly states the service desk software is powered by machine learning, a product-specific AI mention that supports the positive binary.",
+  "ai_type_rationale": "The core offering is service desk software for standardizing service delivery and support. The text does not say whether those core functions depend on machine learning, so the enabled subtype is weak and forced.",
+  "evidence_spans": [
+    "Service Manager is scalable service desk software powered by machine learning, analytics, and automation"
+  ],
+  "ai_type_evidence_spans": [
+    "scalable service desk software",
+    "standardizing service delivery and support across the enterprise"
+  ]
+}

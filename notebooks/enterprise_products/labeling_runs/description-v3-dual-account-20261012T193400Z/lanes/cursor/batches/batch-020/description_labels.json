@@ -1,0 +1,354 @@
+[
+  {
+    "product_description": "MetaSolv Solution (MSS) provides end-to-end service fulfillment for communications service providers, including order management, inventory management, and service activation. Use MSS to create service requests, define product offerings, design network systems, provision services, and manage inventory, such as equipment, connections, IP addresses, telephone numbers, and networks.",
+    "annotation_id": "ann_006be0f98f6449faa236de41",
+    "description_sha256": "eeab434a0351eab0281c13cd37830ad44ed188436476ae3b8ac12d9663402c26",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional communications service fulfillment: order, inventory and service activation management plus service requests, product offerings and network design. No AI signal is described.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "provides end-to-end service fulfillment for communications service providers, including order management, inventory management, and service activation",
+      "provision services, and manage inventory"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "PeopleSoft is an ERP solution that integrates human capital management (HCM), financial management, supplier relationship management, enterprise services automation, supply chain management and campus solutions modules.",
+    "annotation_id": "ann_0421cbfdf91612004f57363f",
+    "description_sha256": "73d87b7c01822768b0053f2ad7b070006dfdf75c0fa98fdbff39c7671f664f2c",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional ERP suite integrating HCM, financial, supplier relationship, services, supply chain and campus modules. No AI signal is described.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "PeopleSoft is an ERP solution that integrates human capital management (HCM), financial management, supplier relationship management, enterprise services automation, supply chain management and campus solutions modules"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Case management is a software-based approach to helping people accomplish daily work and automating work from end-to-end. As the central concept of our low-code automation platform, the case is the epicenter and used to manage tasks, outcomes, and related sub-cases – all with the goal of completing a journey and delivering business outcomes",
+    "annotation_id": "ann_12f4a85b0e9164043e2e20f4",
+    "description_sha256": "e33764f79dcd51d85a4ca333e36e48c839630d5644f3da7c427c7bc28fbe4480",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional low-code case management that tracks tasks, outcomes and sub-cases toward completing work journeys. The automation described is routine workflow automation, and no AI term or AI-dependent capability appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Case management is a software-based approach to helping people accomplish daily work and automating work from end-to-end",
+      "the case is the epicenter and used to manage tasks, outcomes, and related sub-cases"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Logility is a supply chain management software that provides you with advanced analytics and optimized planning to enable you to gain a competitive advantage. Integrated business planning. Demand optimization.  Inventory optimization.  Integration and master data management.",
+    "annotation_id": "ann_18c78f2dd382b6828cb098df",
+    "description_sha256": "94ce5af1cb37cccf7c0477b9e0454504ac68c8294de8c1acf355aeb6e635d462",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description meaningfully specifies conventional supply-chain planning, demand and inventory optimization, integration, and master data management. Advanced analytics is not identified as AI or as relying on an AI mechanism.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Integrated business planning. Demand optimization.  Inventory optimization.  Integration and master data management."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Integrate content services with lead applications to bridge content silos, expedite information flows and expand governance.  Includes Prime Protect Program Fee\n\nWith OpenText Extended ECM Platform, content is transparently integrated with other leading applications such as SAP S/4HANA, SAP SuccessFactors, Salesforce, Microsoft Office 365 or any other process-driving software. With ECM integrations, the content services platform bridges content silos and intelligently automates business processes to allow information to flow effortlessly across applications.",
+    "annotation_id": "ann_1907e9574dc2551de17169d1",
+    "description_sha256": "c1c18e0f50480c88aec48428a77fbae8e0573fec7825fe6fbc01e33daf2ea082",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description clearly covers content-service integration, content silos, governance, and business-process automation, but it also says the platform 'intelligently automates' processes without explaining whether that is conventional workflow automation or an AI-dependent capability.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "the content services platform bridges content silos and intelligently automates business processes"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "IBM FileNet Content Manager is a flexible, full-featured content management solution that helps enable the creation of innovative business applications on any cloud to govern all enterprise content, automatically extract insight from unstructured content and dissolve content silos",
+    "annotation_id": "ann_21374172206f7617839504ea",
+    "description_sha256": "fde6aff80c9b4a812cd9f709b1ebf833b734d5da362bbeeeae87d7331032bb82",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description meaningfully describes conventional content management and governance, but 'automatically extract insight from unstructured content' does not identify its mechanism. It is not an affirmative AI claim, yet its possible AI dependence is unresolved.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "automatically extract insight from unstructured content"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "GXS provides business-to-business integration and on-demand supply chain integration, synchronization and collaboration solutions over its cloud platform.",
+    "annotation_id": "ann_239cb2d0c0ee6c8872bd250b",
+    "description_sha256": "edd39fbdef20382038d4fff97c43b5f7961b79bba3f940151858b17805a1fb81",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional B2B integration, synchronization and collaboration solutions delivered over a cloud platform; no AI or AI-dependent functionality is mentioned.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "provides business-to-business integration and on-demand supply chain integration, synchronization and collaboration solutions over its cloud platform"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "RightFax is a scalable fax server solution that can meet the needs of any size organization. Key benefits include: ... Increase productivity by allowing users to fax directly from business applications and workstations. Shorten the business cycle by speeding document delivery and integrating with your business workflow.",
+    "annotation_id": "ann_23fb0773c07f4b8c1c72d0ba",
+    "description_sha256": "44c8a2bb485ce00eb2284e0d2bbebea8c9ad34b0e48255448780d88d61c7e75d",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional fax server with direct faxing from business applications and workstations and delivery integrated into business workflow; no AI signal is described.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "RightFax is a scalable fax server solution",
+      "allowing users to fax directly from business applications and workstations"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "JDA Software is a software and consultancy company that specializes in selling supply chain management products and services to businesses. Name changed to Blue Yonder.",
+    "annotation_id": "ann_3f57e48011d1fb4ddfdd1918",
+    "description_sha256": "85cb9ec0d31bb7db733e0426400e161617a332ed5fed8094bf343ebbd7e9200e",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description only identifies a software and consultancy company selling supply-chain management products and services; it does not provide enough product functionality to support a conventional non-AI judgment.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "specializes in selling supply chain management products and services to businesses"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "IBM's Business Rule Management System (BRMS)",
+    "annotation_id": "ann_445ff39d341b60cb207c07b6",
+    "description_sha256": "8ebdb38f484a60c9ce0b6717b073856115f2c633102796dadaac86d83f749ee2",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description only names a Business Rule Management System and does not describe enough functionality to establish a supported conventional non-AI offering.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "IBM's Business Rule Management System (BRMS)"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "OpenText Exstream is designed for omnichannel customer communication management (CCM), transforming regular customer communications into highly personalized, engaging customer experiences. Exstream leverages data and existing content within the organization to deliver communications through customers' preferred digital and print channels, screen sizes and devices.\n\nExstream is a multichannel customer communication management (CCM) solution that empowers you to make the most of every customer touch point by creating insightful, impactful, real-time customer communications.\n\nExstream product also includes the B2- SWM Renewal - Proforma - Output Sorting and Bundling, Node Locked, Production Maint, Portable Document Format (PDF) Output",
+    "annotation_id": "ann_4dce633c3b737b034b753aee",
+    "description_sha256": "b76ac2983acc39e5195aead0b0e9be1639164616b1dfd70055e3d3dd7729fd69",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description meaningfully specifies conventional customer communication management, content and data reuse, personalization, and digital or print delivery. Personalization and real-time communications are not identified as AI functionality.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "designed for omnichannel customer communication management (CCM)",
+      "deliver communications through customers' preferred digital and print channels"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Service Manager is scalable service desk software powered by machine learning, analytics, and automation. Proven, integrated, and easy to use, it provides a powerful ITSM platform for standardizing service delivery and support across the enterprise.",
+    "annotation_id": "ann_6f0d56c0c9c78b5b8e164cea",
+    "description_sha256": "c55b464a3ffcc69c923db0bb209d2e682ee0027cc4ab71dc73242a8af574c910",
+    "ai_status": "ai",
+    "ai_type": "ai_enabled",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "weak",
+    "ai_type_forced_decision": true,
+    "rationale": "The description explicitly states that the service desk software is powered by machine learning, supporting the AI-positive binary.",
+    "ai_type_rationale": "The text describes a conventional service desk and ITSM platform as well as machine learning, supporting an enabled interpretation, but it does not establish whether the core service-desk functions depend on machine learning. The subtype is therefore weak and forced.",
+    "evidence_spans": [
+      "Service Manager is scalable service desk software powered by machine learning, analytics, and automation"
+    ],
+    "ai_type_evidence_spans": [
+      "scalable service desk software",
+      "standardizing service delivery and support across the enterprise"
+    ]
+  },
+  {
+    "product_description": "The cornerstone of our platform for nearly 20 years, ReflectView is the trusted digital signage platform for many of America's top companies. ReflectView successfully delivers content to more than 400,000 screens daily.\n\nReflectView enables seamless operation and management of vast digital signage networks",
+    "annotation_id": "ann_86c098fe69ac58e36ebd4c1b",
+    "description_sha256": "eb8e84653de903c5dbde2fe5dac43067218f06089b113ca8bf38bff7a8a76baa",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional digital signage content delivery and network operation at scale. No AI signal or AI-dependent functionality is mentioned.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "ReflectView successfully delivers content to more than 400,000 screens daily",
+      "ReflectView enables seamless operation and management of vast digital signage networks"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Kronos Dimensions Is A Workforce Management Solution Which Will Provide A Forecasting, Scheduling, Time Capture And Analytics And Communication Platform For The Wireless Retail Stores.  With This Engagement We Will Receive A Desktop And Mobile Solution.",
+    "annotation_id": "ann_88ea74f37e7d1d579a468862",
+    "description_sha256": "4d05bb4bb5ef03067d5473f1342f2d5b03cd35a477aa8bdbbdbb785273d8e087",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description meaningfully specifies conventional workforce management functions: forecasting, scheduling, time capture, analytics, communication, and desktop/mobile access. It contains no product-specific AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Kronos Dimensions Is A Workforce Management Solution Which Will Provide A Forecasting, Scheduling, Time Capture And Analytics And Communication Platform",
+      "With This Engagement We Will Receive A Desktop And Mobile Solution."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Infor CloudSuite Workforce Management (WFM) is a leading-edge, comprehensive, and modern solution that strategically enhances workforce planning, execution, and analysis. ... Infor Workforce Management is a comprehensive solution that aligns labor management with corporate strategy.",
+    "annotation_id": "ann_8c4c14a23689db7ee50b0bea",
+    "description_sha256": "8bd3d66aa6481c757ae070f7850ea7e47ceccb4de03cc962c0b7e16ec579214e",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional workforce management: workforce planning, execution and analysis aligned with labor management and corporate strategy. No AI or prediction signal is described.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "strategically enhances workforce planning, execution, and analysis",
+      "aligns labor management with corporate strategy"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "OnBase, Hylands flagship product, is a single enterprise information platform designed to manage your content, processes and cases. OnBase centralizes your important business content in one secure location, and then delivers relevant information to you when you need it, wherever you are. Increase productivity, deliver excellent customer service and reduce risk across your entire enterprise. Vendor name in AP Transaction is DataBank IMX LLC",
+    "annotation_id": "ann_ab91f610ae6432f12af62852",
+    "description_sha256": "4427c5672cf64e00b76f1d903b29e4efdefc7ef064803b7b3455de8be36a62d4",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional enterprise content, process and case management with centralized secure storage and information delivery; no AI signal is described. Trailing vendor-name text is not used as evidence.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "designed to manage your content, processes and cases",
+      "centralizes your important business content in one secure location"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Designer and Generate provide an integrated environment for designing and publishing personalized customer communications",
+    "annotation_id": "ann_af7d8a66910af0f185cca581",
+    "description_sha256": "39ada2bd7c11de05fe7a113df2ee561e7574d3e58dc524d097e641ed513fc521",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes an integrated environment for designing and publishing personalized customer communications, a conventional communication design and publishing function. No AI signal is described.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Designer and Generate provide an integrated environment for designing and publishing personalized customer communications"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Enables customers to transform powerful Advanced Function Presentation (AFP) data streams into Web-ready electronic PDF documents.",
+    "annotation_id": "ann_cbc7a3c27f2fdc272530e08f",
+    "description_sha256": "cf6fa644c0185edaee4f08ed867874db25431207c11e7d797af3dad43bf865bb",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional document transformation function that converts AFP data streams into PDF documents. No AI signal is described.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "transform powerful Advanced Function Presentation (AFP) data streams into Web-ready electronic PDF documents"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "AnyDoc is a powerful automated data capture product that can be leveraged alongside OnBase or any 3rd party content repository. With AnyDoc, organizations automatically identify and capture data from incoming documents to streamline key processes and ensure accurate information gets to those who need it as quickly as possible.",
+    "annotation_id": "ann_d03ccc4778c08ab771db5c77",
+    "description_sha256": "a20f5e8468cee7795ca65ef17c1d140fc264782344236ab2ce1e069542fcdccb",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description meaningfully covers automated document data capture and routing, but it does not identify the mechanism used to identify and capture data. The text has no affirmative AI claim, yet possible AI dependence remains unresolved.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "automatically identify and capture data from incoming documents"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Microsoft Dynamics is a line of enterprise resource planning and customer relationship management software applications.\n\nDynamics GP mid-market business accounting or enterprise resource planning (ERP) software package that uses Microsoft SQL Server to store data. It's written in the Dexterity programming language and is part of the Microsoft Dynamics suite of intelligent business applications.",
+    "annotation_id": "ann_e15eebb5f798ed00e3bb1e6a",
+    "description_sha256": "732784f63b6eba3f447b08a06db7cc07a29bed60d53d001f41867eb8ee5349c3",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description meaningfully specifies conventional ERP, CRM, accounting, SQL Server storage, and programming-language functionality. 'Intelligent business applications' is generic suite wording without an AI-specific capability.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Microsoft Dynamics is a line of enterprise resource planning and customer relationship management software applications",
+      "mid-market business accounting or enterprise resource planning (ERP) software package that uses Microsoft SQL Server to store data"
+    ],
+    "ai_type_evidence_spans": null
+  }
+]

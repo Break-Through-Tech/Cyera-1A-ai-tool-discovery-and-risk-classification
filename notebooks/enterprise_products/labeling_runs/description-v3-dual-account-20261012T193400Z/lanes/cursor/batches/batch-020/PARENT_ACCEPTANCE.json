@@ -1,0 +1,29 @@
+{
+  "status": "pending_parent_independent_acceptance",
+  "batch_id": "batch-020",
+  "selected_descriptions": 20,
+  "selected_rows": 20,
+  "exact_plan_hash_and_reference_coverage": true,
+  "independent_results_hash_registered_before_comparison": true,
+  "exact_schema_quotes_private_equality_helper_stages": true,
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high",
+    "reconciliation": "gpt-5.6-luna-high; original session 441556c9-470a-4239-bad6-77d1d195253a"
+  },
+  "reconciliation_count": 10,
+  "binary_weak_count": 5,
+  "subtype_weak_count": 1,
+  "trusted_negative_records": 14,
+  "exports_verified": true,
+  "export_hashes": {
+    "description_labels.json": "a42fd0d19877a7c2e6e1eecc6981976e672b4346e94b4018f438eb103954d9b4",
+    "record_labels.json": "e368de2e166882329f09389c2d72c48377cc73709074310040ed48f54d1b3166",
+    "review_ledger.json": "ca24b063f2e4b90336d5317c8aceaac45f587851d8a864b50c692e14645c76cc",
+    "review_queue.json": "866c8bc22429778f465e9f069c36cfbd89bf8404e9ef329410f3de89c0bbf3f3",
+    "non_ai_candidates.csv": "f0dd54515418ecebc83036a0c0882c993c41eb4795f3f2b7b6b724c2f34be3ef",
+    "calibration_report.json": "e008c6f736a86db7a2f1b74e6e9d2dff7fc5dbfdc8d32c5e4c88ab0e7ea810b2"
+  },
+  "parent_gate": "Parent independent acceptance required; no acceptance claim.",
+  "test_result": "36 enterprise tests passed"
+}

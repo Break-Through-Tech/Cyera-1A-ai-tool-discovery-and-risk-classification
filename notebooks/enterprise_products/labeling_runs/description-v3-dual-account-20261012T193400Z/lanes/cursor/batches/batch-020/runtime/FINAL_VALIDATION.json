@@ -1,0 +1,63 @@
+{
+  "batch_id": "batch-020",
+  "status": "finalized_pending_parent_independent_acceptance",
+  "plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "selected_descriptions": 20,
+  "source_rows": 20,
+  "exact_plan_hash_and_reference_coverage": true,
+  "precomparison_result_registration": "runtime/independent-result-registration.json",
+  "labeler_result_sha256": "fdccbfe5b3b68bd5e2f5c4a30a2e7af3a28bd7bca32d54978f4b3073e08f4d23",
+  "blind_result_sha256": "446d8d99760d2da71611f2093f1fdb22bc26c1c810818e6d727e3b2e7de135c9",
+  "blind_original_raw_result_sha256": "ef77c665ee2453a439902df9df1310ac84e62b5bc2881253ddb26382d91e4ab3",
+  "blind_structural_quote_recovery": "One exact-quote-only correction in same blind agent; pre-recovery originals preserved at runtime/pre-recovery-raw/blind-quote; validation runtime/blind-quote-structural-recovery-validation.json",
+  "all20_pairs_reviewed": "runtime/pair-review.json",
+  "helper_required_reconciliation_ids": [
+    "ann_18c78f2dd382b6828cb098df",
+    "ann_21374172206f7617839504ea",
+    "ann_3f57e48011d1fb4ddfdd1918",
+    "ann_445ff39d341b60cb207c07b6",
+    "ann_6f0d56c0c9c78b5b8e164cea",
+    "ann_88ea74f37e7d1d579a468862"
+  ],
+  "additional_support_concern_ids": [
+    "ann_1907e9574dc2551de17169d1",
+    "ann_4dce633c3b737b034b753aee",
+    "ann_d03ccc4778c08ab771db5c77",
+    "ann_e15eebb5f798ed00e3bb1e6a"
+  ],
+  "reconciliation_ids": [
+    "ann_18c78f2dd382b6828cb098df",
+    "ann_1907e9574dc2551de17169d1",
+    "ann_21374172206f7617839504ea",
+    "ann_3f57e48011d1fb4ddfdd1918",
+    "ann_445ff39d341b60cb207c07b6",
+    "ann_4dce633c3b737b034b753aee",
+    "ann_6f0d56c0c9c78b5b8e164cea",
+    "ann_88ea74f37e7d1d579a468862",
+    "ann_d03ccc4778c08ab771db5c77",
+    "ann_e15eebb5f798ed00e3bb1e6a"
+  ],
+  "reconciliation_result_sha256": "26911621e2ad67f630b855d1dc5f6a9fd4e4c37d5112816979a96c20c6b865c5",
+  "reconciliation_model": "gpt-5.6-luna-high",
+  "reconciliation_same_original_blind_uuid": "441556c9-470a-4239-bad6-77d1d195253a",
+  "reconciliation_all10_reviewed": "runtime/reconciliation-semantic-review.json",
+  "reconciliation_count": 10,
+  "binary_weak_count": 5,
+  "subtype_weak_count": 1,
+  "trusted_negative_records": 14,
+  "exports": {
+    "description_labels.json": "a42fd0d19877a7c2e6e1eecc6981976e672b4346e94b4018f438eb103954d9b4",
+    "record_labels.json": "e368de2e166882329f09389c2d72c48377cc73709074310040ed48f54d1b3166",
+    "review_ledger.json": "ca24b063f2e4b90336d5317c8aceaac45f587851d8a864b50c692e14645c76cc",
+    "review_queue.json": "866c8bc22429778f465e9f069c36cfbd89bf8404e9ef329410f3de89c0bbf3f3",
+    "non_ai_candidates.csv": "f0dd54515418ecebc83036a0c0882c993c41eb4795f3f2b7b6b724c2f34be3ef",
+    "calibration_report.json": "e008c6f736a86db7a2f1b74e6e9d2dff7fc5dbfdc8d32c5e4c88ab0e7ea810b2"
+  },
+  "manifest_sha256": "a7b9d40b96548f8ea805bdccf17839adac1a2340b5d5400938b181cff2e87f03",
+  "scope": "Parent acceptance pending. Parent-owned global/Git untouched. No earlier batches modified.",
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s notebooks/enterprise_products -p 'test_*.py' (from repository root)",
+    "result": "36 passed"
+  }
+}
