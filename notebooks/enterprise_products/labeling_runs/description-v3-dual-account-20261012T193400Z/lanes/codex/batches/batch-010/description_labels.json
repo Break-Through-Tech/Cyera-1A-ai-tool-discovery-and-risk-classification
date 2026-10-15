@@ -1,0 +1,360 @@
+[
+  {
+    "product_description": "Zenoss'is a company that develops hybrid IT monitoring analytics software for visibility in cloud , virtual and physical IT environments.\n\nOptimize application performance in any environment-from simple infrastructures to the most complex, dynamic multicloud IT deployments.",
+    "annotation_id": "ann_02448ab390dc435747c36466",
+    "description_sha256": "6c261eec57a6454174345479367dbeb49d20cf237fac639fdea21df3e31d07d5",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text describes hybrid-IT monitoring and visibility across cloud, virtual, and physical environments, a conventional infrastructure monitoring function; no AI capability is stated.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "hybrid IT monitoring analytics software for visibility in cloud , virtual and physical IT environments."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "uberAgent is a Splunk agent for end-user computing on Windows & macOS.",
+    "annotation_id": "ann_03d368a714da90577eface7f",
+    "description_sha256": "9f572f623a247bfd888f8168cea3f64ae4394f183a8bd3a29e4562b2739bc2a1",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text identifies an agent for end-user computing and its supported operating systems, but does not describe what the agent does beyond that category-level role. No AI signal appears; negative is retained weakly because the conventional functionality is underspecified.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "a Splunk agent for end-user computing on Windows & macOS."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Zabbix is an open-source monitoring software tool for diverse IT components, including networks, servers, virtual machines (VMs) and cloud services.",
+    "annotation_id": "ann_0b6c675eef3938dfbe1c609a",
+    "description_sha256": "583962c1c79b03b233b359d6913648b0fb58d9a32d6a6ccf16d0f8544180d1a4",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description specifies monitoring of networks, servers, virtual machines, and cloud services, conventional IT infrastructure monitoring without an AI claim.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "monitoring software tool for diverse IT components, including networks, servers, virtual machines (VMs) and cloud services."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "iXDetect is a full-function FMS enabling operator users to successfully navigate the complexities of today's telecom threats and protect against revenue loss. Whether threats come from fixed, mobile, roaming, or VoIP technologies, iXDetect provides a critical tool for defeating fraud wherever it originates",
+    "annotation_id": "ann_1c828c009a4f09d0b2d3dd8a",
+    "description_sha256": "6670cd97e2b46ff77cbb25cfc001ba9eca23cb509d12635567518acd61a80f85",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text identifies a telecom fraud-management offering and claims threat and revenue protection, but gives no detection mechanism or operational detail. Fraud/threat outcomes alone do not establish conventional implementation or AI, so the best binary judgment is weak/forced non_ai rather than assuming either mechanism.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "full-function FMS enabling operator users to successfully navigate the complexities of today's telecom threats and protect against revenue loss.",
+      "provides a critical tool for defeating fraud wherever it originates"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Syncsort Optimize DB2 complements traditional Db2 performance tools. While traditional tools focus on real time monitoring of SQL statements and historical analysis of static SQL workloads, Syncsort Optimize DB2 takes a unique end-to-end  Workload-Centric and Workload-Aware  approach to performance optimization for both dynamic and static SQL.\n\nUsing Syncsort Optimize DB2, it's easy to monitor Db2 SQL workloads, collecting static and dynamic SQL that application programmers, DBAs and performance analysts can use to quickly identify high-cost or problematic statements. Vital performance data, including a multi-dimensional analysis of the SQL workload, allows you to drill down into the SQL metrics and access paths.\n\nEZ DB2",
+    "annotation_id": "ann_307c2f6ff1495264a2488ec1",
+    "description_sha256": "5ad1fd0b632fbe613f5983bae8405a83141d0e23b15f807ef2232169ef1fab76",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text describes monitoring DB2 SQL workloads, collecting statements, and analyzing SQL metrics and access paths for performance tuning—conventional database performance tooling.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "easy to monitor Db2 SQL workloads, collecting static and dynamic SQL",
+      "allows you to drill down into the SQL metrics and access paths."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Logging\n\nFluentd is an open source data collector for unified logging layer.\nFluentd allows you to unify data collection and consumption for a better use and understanding of data.",
+    "annotation_id": "ann_3b7559ff620abe944b7c0df0",
+    "description_sha256": "0dc2b936415a203e3adcfb145d9703d40f5ae2f9c7bf9aa222cbe94d8c8c292b",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description identifies an open-source logging data collector that unifies data collection and consumption, a conventional data-ingestion function.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Fluentd is an open source data collector for unified logging layer.",
+      "Fluentd allows you to unify data collection and consumption"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Twilio allows software developers to programmatically make and receive phone calls, send and receive text messages, and perform other communication functions using its web service APIs.",
+    "annotation_id": "ann_46c8d2f38bd7771c7435ce80",
+    "description_sha256": "a37446a4cc23993f3126009cdc521fd5b433e68712698669a7b5f4047beb007c",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text describes web-service APIs for making calls, sending messages, and other communications, conventional communications integrations without an AI capability.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "programmatically make and receive phone calls, send and receive text messages, and perform other communication functions using its web service APIs."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Dragon is a speech-recognition program that can be used to, among other things, dictate answers to homework questions, a five-paragraph essay, or even to write a novel.",
+    "annotation_id": "ann_4e9d28d8e7ffa4d0f290ea0a",
+    "description_sha256": "2beca336e95d548e62972b157bf3fa9dc6d1c282db0a37e347ededb48e6a5e57",
+    "ai_status": "ai",
+    "ai_type": "ai_native",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "weak",
+    "ai_type_forced_decision": true,
+    "rationale": "The text explicitly identifies speech recognition as the program's central function and describes using it to dictate text. That capability is clearly AI functionality at the task level, establishing the binary positive, although the text does not specify a particular implementation.",
+    "ai_type_rationale": "Speech recognition is the described core, supporting native rather than an add-on characterization if treated as AI. The text does not establish whether the core specifically depends on AI, so subtype remains weak and forced.",
+    "evidence_spans": [
+      "Dragon is a speech-recognition program",
+      "dictate answers to homework questions, a five-paragraph essay, or even to write a novel."
+    ],
+    "ai_type_evidence_spans": [
+      "Dragon is a speech-recognition program",
+      "dictate answers to homework questions"
+    ]
+  },
+  {
+    "product_description": "Moon is a browser automation solution compatible with Selenium, Cypress, Playwright and Puppeteer using Kubernetes or Openshift to launch browsers.\n\nMoon is a commercial closed-source enterprise Selenium implementation using Kubernetes to launch browsers.",
+    "annotation_id": "ann_541440f1f58299db2725c52a",
+    "description_sha256": "a23173fea54e793cebe898c6509e5acaa89061919513392466080bf350e0cec7",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text describes launching browsers with Kubernetes or Openshift for compatibility with browser-automation frameworks, conventional test-browser orchestration.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "browser automation solution compatible with Selenium, Cypress, Playwright and Puppeteer using Kubernetes or Openshift to launch browsers."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Enterprise Experience Management Software for UC, CC, Payments & MSP. Streamline UC Operations. Improve Prognosis. Increased Productivity. No Downtime. Customizable Dashboards. Better User Experience. Quick Troubleshooting. Reduce Operational Costs.",
+    "annotation_id": "ann_7d3a9efee512a2dc84b5d3d6",
+    "description_sha256": "f77517e1546541ed6c5b94f892a4b8b529e8d71374fdc9222599be7215d8a77e",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Despite generic outcome claims, the text identifies customizable dashboards and quick troubleshooting as conventional functions, alongside streamlining UC operations. These specific reporting and troubleshooting functions support a conventional non-AI judgment without assuming a monitoring mechanism.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Streamline UC Operations.",
+      "Customizable Dashboards.",
+      "Quick Troubleshooting."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "The Observer Platform is a comprehensive network performance monitoring and diagnostics (NPMD) solution ideal for maintaining peak performance of all IT services.\n\nGigaStor Portable is'the first self-contained performance monitoring and analysis solution. Count on it for troubleshooting network and application problems wherever they occur.  Gigastor, NetComplete and EtherAssure fall under the Observe Platform per the Viavi website.",
+    "annotation_id": "ann_966c38107b42b081442620f3",
+    "description_sha256": "3125621c80f1dcf0f75624123a8aae108588b50a1bbba40034c7c0e6790846ba",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text describes network performance monitoring, analysis, and troubleshooting of network and application problems, conventional diagnostics functionality.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "network performance monitoring and diagnostics (NPMD) solution",
+      "troubleshooting network and application problems wherever they occur."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Comprehensive set of tools that automates and streamlines a carriers interconnect routing, billing, settlement, audit and trading processes.\n\nTelarix empowers communications companies across the globe to manage their international wholesale operations with a true end-to-end solution. From pricing and operations, to billing and fraud detection, Telarix offers carriers an unprecedented level of visibility and control of their interconnect traffic.",
+    "annotation_id": "ann_9eae0a4ee9ce555926264429",
+    "description_sha256": "dc830b391e7614ecc60b6b28bad71ad7aa8c9079cee9c287c8c087f8c47aa89a",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The offering automates carrier interconnect routing, billing, settlement, audit, and trading, plus pricing and operations; these are conventional workflow functions and fraud detection is not attributed to AI.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "automates and streamlines a carriers interconnect routing, billing, settlement, audit and trading processes.",
+      "From pricing and operations, to billing and fraud detection"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "BIG-IP Local Traffic Manager (LTM) intelligently manages network traffic so applications are always fast, available, and secure.\n\nF5 technologies focus on the delivery, security, performance, and availability of web applications, including the availability of computing, storage, and network resources. ... F5 technologies are available in data center and cloud environments.",
+    "annotation_id": "ann_a67300aab89092208e2286b1",
+    "description_sha256": "ca98285df603c9f5eb0c79d7ad462e3f3f5ddf7a57cf9adf0af8ca6183c24034",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description says the traffic manager manages network traffic to support application speed, availability, and security, and describes delivery and resource availability—conventional traffic management.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "intelligently manages network traffic so applications are always fast, available, and secure.",
+      "delivery, security, performance, and availability of web applications"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "The Avi Networks is a software solution that provides centralized multitenancy with self-service, and implements elastic network services such as load balancing,",
+    "annotation_id": "ann_af381c075b52133ab14dbd23",
+    "description_sha256": "60c327ed217b0c40a97535c38c63fad416d6c7e589a8ee7100f688425b0b9bfb",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text describes centralized multitenancy, self-service, and elastic network services such as load balancing, conventional network service management.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "provides centralized multitenancy with self-service, and implements elastic network services such as load balancing,"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "SecureMedia DRM Network Related product - Encryptonite ONE Server SW. VMS mobility feature allows users to consume DVR, VOD as well as LIVE TV content on their mobile devices. Users shall be able to view DVR content either by transferring it to their mobile devices using sync-n- go feature or by streaming it in home or remotely. Users can view LIVE TV, VOD content on their mobile devices within a home. LIVE TV content shall be accessible\nremotely as well.",
+    "annotation_id": "ann_be5eaa405ea00c21efc728ab",
+    "description_sha256": "7a938eaabc480e0a269cfce3315c0b99845eb45f45f1df0458d92b2682159d8b",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description covers DRM-related media delivery, syncing or streaming DVR content, and viewing live TV and video on mobile devices, conventional content access functions.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "VMS mobility feature allows users to consume DVR, VOD as well as LIVE TV content on their mobile devices.",
+      "by transferring it to their mobile devices using sync-n- go feature or by streaming it in home or remotely."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "SuperVision is a Data Center Management Suite.  \n\nSecureAgent® Software is a division of Global Interface Solutions, Inc.",
+    "annotation_id": "ann_be8bb077b637747ba4df9908",
+    "description_sha256": "8a2cf548a7dde16f5214498a0b0435994d68745dc3ac8194b127f075130b77d6",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description supplies only the broad category of a data-center management suite and a corporate identity statement; it does not state particular management operations. Best-supported binary is weak/forced non_ai because meaningful conventional functionality is not detailed.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "SuperVision is a Data Center Management Suite."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Ixia network visibility solutions provides the components of your visibilty archectecture which include the access layer, virtual visibility.  Includes Hawkeye, Chariot, NVS (Network Visibility Solutions) Enterprise, BreakingPoint products.\n\nThe Keysight Security Fabric is a powerful network visibility engine and its context-aware data processing engine provides administrators with a dashboard of graphs, charts, maps, and statistics of known and unknown applications, geographies, and devices on their network.",
+    "annotation_id": "ann_c06a640040a916039bfd039a",
+    "description_sha256": "6db32d857bbd1c42424b6cdf5ca741fcb5550610ab56d7f4e552016c156bde25",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text describes network visibility components and a processing engine presenting graphs, charts, maps, and statistics for applications, geographies, and devices, conventional monitoring and reporting.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "network visibility engine and its context-aware data processing engine provides administrators with a dashboard of graphs, charts, maps, and statistics of known and unknown applications, geographies, and devices on their network."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Securely connect and monetize your IoT devices with Private LTE, 5G, and blockchain to grow your business.Syniverse is a global company that provides technology and business services for a number of telecommunications companies as well as a variety of other multinational enterprises. Leading mobile roaming clearing and settlement, networking and messaging solutions. Protect your business with securework, messaging, identity and roaming fraud management products. Syniverses suite of services addresses pre-provisioning, porting, and fallout.",
+    "annotation_id": "ann_cb41160eb74ae7d371e5a5cf",
+    "description_sha256": "bfc53d95d7508eb611e50ce51c9eaf6f86b90dab6af461d8e70b3cb32e788019",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description lists private LTE/5G connectivity, roaming settlement, networking, messaging, identity, fraud management, porting, and provisioning services, all conventional telecom operations.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Leading mobile roaming clearing and settlement, networking and messaging solutions.",
+      "messaging, identity and roaming fraud management products.",
+      "addresses pre-provisioning, porting, and fallout."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "SolarWinds' Database Performance Analyzer is a performance monitoring tool for database administrators running databases on VMware, helping them achieve high performance and reliability.\n\nMonitor, analyze, diagnose, and optimize database performance and data ops that drive your business-critical applications. Unify on-premises and cloud database visibility, control, and management with streamlined monitoring, mapping, data lineage, data integration, and tuning across multiple vendors.\n\nSQL tuning software for faster database performance. Reveal performance bottlenecks deep inside your SQL Server, Oracle, DB2 and SAP ASE instances. No other database monitoring tool focuses on response time and Multi-Dimensional Performance Analysis' like DPA does.",
+    "annotation_id": "ann_e9b93069a2a238456020aa67",
+    "description_sha256": "17755df59ef2fb60ce5ef61ba2429a4743a6a1a51a82588aac10b4b91085e2b8",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The database tool monitors, analyzes, diagnoses, and tunes database and SQL performance, including response-time and multidimensional performance analysis; these are conventional DBA functions.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Monitor, analyze, diagnose, and optimize database performance and data ops",
+      "Reveal performance bottlenecks deep inside your SQL Server, Oracle, DB2 and SAP ASE instances.",
+      "focuses on response time and Multi-Dimensional Performance Analysis' like DPA does."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Combine Network and Application Performance Monitoring to turn a billion data points into a single meaningful notification with SamKnows. \n\nWeb Platform is for the sole purpose of enabling the client to access and view the data collected from the performance panel for its internal business purposes. Core Analytics and advanced analytics which includes performance metrics, line charts, scatter plot, bar charts, heat map summary table, aggregation mean average, presenter mode and exports, data normalization.",
+    "annotation_id": "ann_fc989a38d3603bd0e8e4b9bb",
+    "description_sha256": "acce4330f149a4fdd060d733b5ed25fd99fe9942d1a2ed6b4c619b37cbe648f1",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description covers performance-data access, metrics, charts, aggregation, normalization, and exports, which are conventional monitoring analytics and reporting functions.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "access and view the data collected from the performance panel",
+      "performance metrics, line charts, scatter plot, bar charts, heat map summary table, aggregation mean average, presenter mode and exports, data normalization."
+    ],
+    "ai_type_evidence_spans": null
+  }
+]

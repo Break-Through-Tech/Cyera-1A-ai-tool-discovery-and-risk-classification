@@ -1,0 +1,1270 @@
+[
+  {
+    "annotation_id": "ann_02448ab390dc435747c36466",
+    "description_sha256": "6c261eec57a6454174345479367dbeb49d20cf237fac639fdea21df3e31d07d5",
+    "source_record_references": [
+      "551"
+    ],
+    "labeler": {
+      "annotation_id": "ann_02448ab390dc435747c36466",
+      "description_sha256": "6c261eec57a6454174345479367dbeb49d20cf237fac639fdea21df3e31d07d5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes hybrid-IT monitoring and visibility across cloud, virtual, and physical environments, a conventional infrastructure monitoring function; no AI capability is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "hybrid IT monitoring analytics software for visibility in cloud , virtual and physical IT environments."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_02448ab390dc435747c36466",
+      "description_sha256": "6c261eec57a6454174345479367dbeb49d20cf237fac639fdea21df3e31d07d5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes hybrid IT monitoring analytics for visibility across cloud, virtual, and physical environments, plus application performance optimization—conventional infrastructure monitoring and performance-management functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "hybrid IT monitoring analytics software for visibility in cloud , virtual and physical IT environments.",
+        "Optimize application performance"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_02448ab390dc435747c36466",
+      "description_sha256": "6c261eec57a6454174345479367dbeb49d20cf237fac639fdea21df3e31d07d5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes hybrid-IT monitoring and visibility across cloud, virtual, and physical environments, a conventional infrastructure monitoring function; no AI capability is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "hybrid IT monitoring analytics software for visibility in cloud , virtual and physical IT environments."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_03d368a714da90577eface7f",
+    "description_sha256": "9f572f623a247bfd888f8168cea3f64ae4394f183a8bd3a29e4562b2739bc2a1",
+    "source_record_references": [
+      "548"
+    ],
+    "labeler": {
+      "annotation_id": "ann_03d368a714da90577eface7f",
+      "description_sha256": "9f572f623a247bfd888f8168cea3f64ae4394f183a8bd3a29e4562b2739bc2a1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This is described as an end-user-computing agent for Windows and macOS, a conventional endpoint software function; no AI functionality is specified.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a Splunk agent for end-user computing on Windows & macOS."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_03d368a714da90577eface7f",
+      "description_sha256": "9f572f623a247bfd888f8168cea3f64ae4394f183a8bd3a29e4562b2739bc2a1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes an agent for end-user computing on Windows and macOS, a conventional endpoint software function with no AI signal in the text.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a Splunk agent for end-user computing on Windows & macOS."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_03d368a714da90577eface7f",
+      "description_sha256": "9f572f623a247bfd888f8168cea3f64ae4394f183a8bd3a29e4562b2739bc2a1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text identifies an agent for end-user computing and its supported operating systems, but does not describe what the agent does beyond that category-level role. No AI signal appears; negative is retained weakly because the conventional functionality is underspecified.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a Splunk agent for end-user computing on Windows & macOS."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The platform names and end-user-computing category do not establish actual endpoint operations. I therefore resolve the proposals' supported-negative assumption downward to weak/forced non_ai, rather than importing capabilities from the product or integration names."
+    },
+    "final": {
+      "annotation_id": "ann_03d368a714da90577eface7f",
+      "description_sha256": "9f572f623a247bfd888f8168cea3f64ae4394f183a8bd3a29e4562b2739bc2a1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text identifies an agent for end-user computing and its supported operating systems, but does not describe what the agent does beyond that category-level role. No AI signal appears; negative is retained weakly because the conventional functionality is underspecified.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a Splunk agent for end-user computing on Windows & macOS."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The platform names and end-user-computing category do not establish actual endpoint operations. I therefore resolve the proposals' supported-negative assumption downward to weak/forced non_ai, rather than importing capabilities from the product or integration names."
+    }
+  },
+  {
+    "annotation_id": "ann_0b6c675eef3938dfbe1c609a",
+    "description_sha256": "583962c1c79b03b233b359d6913648b0fb58d9a32d6a6ccf16d0f8544180d1a4",
+    "source_record_references": [
+      "550"
+    ],
+    "labeler": {
+      "annotation_id": "ann_0b6c675eef3938dfbe1c609a",
+      "description_sha256": "583962c1c79b03b233b359d6913648b0fb58d9a32d6a6ccf16d0f8544180d1a4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies monitoring of networks, servers, virtual machines, and cloud services, conventional IT infrastructure monitoring without an AI claim.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "monitoring software tool for diverse IT components, including networks, servers, virtual machines (VMs) and cloud services."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_0b6c675eef3938dfbe1c609a",
+      "description_sha256": "583962c1c79b03b233b359d6913648b0fb58d9a32d6a6ccf16d0f8544180d1a4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes open-source monitoring of IT components including networks, servers, virtual machines, and cloud services—a conventional infrastructure-monitoring function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "monitoring software tool for diverse IT components, including networks, servers, virtual machines (VMs) and cloud services."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_0b6c675eef3938dfbe1c609a",
+      "description_sha256": "583962c1c79b03b233b359d6913648b0fb58d9a32d6a6ccf16d0f8544180d1a4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies monitoring of networks, servers, virtual machines, and cloud services, conventional IT infrastructure monitoring without an AI claim.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "monitoring software tool for diverse IT components, including networks, servers, virtual machines (VMs) and cloud services."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_1c828c009a4f09d0b2d3dd8a",
+    "description_sha256": "6670cd97e2b46ff77cbb25cfc001ba9eca23cb509d12635567518acd61a80f85",
+    "source_record_references": [
+      "566"
+    ],
+    "labeler": {
+      "annotation_id": "ann_1c828c009a4f09d0b2d3dd8a",
+      "description_sha256": "6670cd97e2b46ff77cbb25cfc001ba9eca23cb509d12635567518acd61a80f85",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The offering is described as telecom fraud-management software protecting revenue across fixed, mobile, roaming, and VoIP services; fraud management is stated without an AI mechanism.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "iXDetect is a full-function FMS enabling operator users to successfully navigate the complexities of today's telecom threats and protect against revenue loss.",
+        "iXDetect provides a critical tool for defeating fraud wherever it originates"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_1c828c009a4f09d0b2d3dd8a",
+      "description_sha256": "6670cd97e2b46ff77cbb25cfc001ba9eca23cb509d12635567518acd61a80f85",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a fraud-management system for telecom revenue protection across fixed, mobile, roaming, and VoIP services. Those are conventional fraud detection and revenue-protection functions; no AI method is asserted.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "full-function FMS enabling operator users to successfully navigate the complexities of today's telecom threats and protect against revenue loss.",
+        "provides a critical tool for defeating fraud"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_1c828c009a4f09d0b2d3dd8a",
+      "description_sha256": "6670cd97e2b46ff77cbb25cfc001ba9eca23cb509d12635567518acd61a80f85",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text identifies a telecom fraud-management offering and claims threat and revenue protection, but gives no detection mechanism or operational detail. Fraud/threat outcomes alone do not establish conventional implementation or AI, so the best binary judgment is weak/forced non_ai rather than assuming either mechanism.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "full-function FMS enabling operator users to successfully navigate the complexities of today's telecom threats and protect against revenue loss.",
+        "provides a critical tool for defeating fraud wherever it originates"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The product category and protection claims are meaningful intended functions, but not sufficient explanation of how fraud is identified. Since the text neither asserts AI nor rules out potentially AI-dependent detection, I retain non_ai only as a forced weak best judgment, not as supported conventional functionality."
+    },
+    "final": {
+      "annotation_id": "ann_1c828c009a4f09d0b2d3dd8a",
+      "description_sha256": "6670cd97e2b46ff77cbb25cfc001ba9eca23cb509d12635567518acd61a80f85",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text identifies a telecom fraud-management offering and claims threat and revenue protection, but gives no detection mechanism or operational detail. Fraud/threat outcomes alone do not establish conventional implementation or AI, so the best binary judgment is weak/forced non_ai rather than assuming either mechanism.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "full-function FMS enabling operator users to successfully navigate the complexities of today's telecom threats and protect against revenue loss.",
+        "provides a critical tool for defeating fraud wherever it originates"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The product category and protection claims are meaningful intended functions, but not sufficient explanation of how fraud is identified. Since the text neither asserts AI nor rules out potentially AI-dependent detection, I retain non_ai only as a forced weak best judgment, not as supported conventional functionality."
+    }
+  },
+  {
+    "annotation_id": "ann_307c2f6ff1495264a2488ec1",
+    "description_sha256": "5ad1fd0b632fbe613f5983bae8405a83141d0e23b15f807ef2232169ef1fab76",
+    "source_record_references": [
+      "547"
+    ],
+    "labeler": {
+      "annotation_id": "ann_307c2f6ff1495264a2488ec1",
+      "description_sha256": "5ad1fd0b632fbe613f5983bae8405a83141d0e23b15f807ef2232169ef1fab76",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes monitoring DB2 SQL workloads, collecting statements, and analyzing SQL metrics and access paths for performance tuning—conventional database performance tooling.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "easy to monitor Db2 SQL workloads, collecting static and dynamic SQL",
+        "allows you to drill down into the SQL metrics and access paths."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_307c2f6ff1495264a2488ec1",
+      "description_sha256": "5ad1fd0b632fbe613f5983bae8405a83141d0e23b15f807ef2232169ef1fab76",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes monitoring, collection, and multidimensional analysis of static and dynamic SQL workloads, with metrics and access paths to identify costly statements. These are conventional database performance-analysis functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "easy to monitor Db2 SQL workloads, collecting static and dynamic SQL",
+        "quickly identify high-cost or problematic statements.",
+        "multi-dimensional analysis of the SQL workload"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_307c2f6ff1495264a2488ec1",
+      "description_sha256": "5ad1fd0b632fbe613f5983bae8405a83141d0e23b15f807ef2232169ef1fab76",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes monitoring DB2 SQL workloads, collecting statements, and analyzing SQL metrics and access paths for performance tuning—conventional database performance tooling.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "easy to monitor Db2 SQL workloads, collecting static and dynamic SQL",
+        "allows you to drill down into the SQL metrics and access paths."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_3b7559ff620abe944b7c0df0",
+    "description_sha256": "0dc2b936415a203e3adcfb145d9703d40f5ae2f9c7bf9aa222cbe94d8c8c292b",
+    "source_record_references": [
+      "556"
+    ],
+    "labeler": {
+      "annotation_id": "ann_3b7559ff620abe944b7c0df0",
+      "description_sha256": "0dc2b936415a203e3adcfb145d9703d40f5ae2f9c7bf9aa222cbe94d8c8c292b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies an open-source logging data collector that unifies data collection and consumption, a conventional data-ingestion function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Fluentd is an open source data collector for unified logging layer.",
+        "Fluentd allows you to unify data collection and consumption"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_3b7559ff620abe944b7c0df0",
+      "description_sha256": "0dc2b936415a203e3adcfb145d9703d40f5ae2f9c7bf9aa222cbe94d8c8c292b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes an open-source data collector that unifies logging data collection and consumption, a conventional log-pipeline function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Fluentd is an open source data collector for unified logging layer.",
+        "unify data collection and consumption"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_3b7559ff620abe944b7c0df0",
+      "description_sha256": "0dc2b936415a203e3adcfb145d9703d40f5ae2f9c7bf9aa222cbe94d8c8c292b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies an open-source logging data collector that unifies data collection and consumption, a conventional data-ingestion function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Fluentd is an open source data collector for unified logging layer.",
+        "Fluentd allows you to unify data collection and consumption"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_46c8d2f38bd7771c7435ce80",
+    "description_sha256": "a37446a4cc23993f3126009cdc521fd5b433e68712698669a7b5f4047beb007c",
+    "source_record_references": [
+      "552"
+    ],
+    "labeler": {
+      "annotation_id": "ann_46c8d2f38bd7771c7435ce80",
+      "description_sha256": "a37446a4cc23993f3126009cdc521fd5b433e68712698669a7b5f4047beb007c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes web-service APIs for making calls, sending messages, and other communications, conventional communications integrations without an AI capability.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "programmatically make and receive phone calls, send and receive text messages, and perform other communication functions using its web service APIs."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_46c8d2f38bd7771c7435ce80",
+      "description_sha256": "a37446a4cc23993f3126009cdc521fd5b433e68712698669a7b5f4047beb007c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes communication APIs for programmatically making and receiving calls and sending and receiving text messages—conventional programmable communications functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "programmatically make and receive phone calls, send and receive text messages, and perform other communication functions using its web service APIs."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_46c8d2f38bd7771c7435ce80",
+      "description_sha256": "a37446a4cc23993f3126009cdc521fd5b433e68712698669a7b5f4047beb007c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes web-service APIs for making calls, sending messages, and other communications, conventional communications integrations without an AI capability.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "programmatically make and receive phone calls, send and receive text messages, and perform other communication functions using its web service APIs."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_4e9d28d8e7ffa4d0f290ea0a",
+    "description_sha256": "2beca336e95d548e62972b157bf3fa9dc6d1c282db0a37e347ededb48e6a5e57",
+    "source_record_references": [
+      "563",
+      "564"
+    ],
+    "labeler": {
+      "annotation_id": "ann_4e9d28d8e7ffa4d0f290ea0a",
+      "description_sha256": "2beca336e95d548e62972b157bf3fa9dc6d1c282db0a37e347ededb48e6a5e57",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The product is explicitly described as a speech-recognition program used to dictate text, which establishes a speech-recognition AI functionality, though the implementation is not detailed.",
+      "ai_type_rationale": "Dictation via speech recognition is the product's stated central function, suggesting an AI-dependent core; the description does not specify how recognition works, so native classification is uncertain.",
+      "evidence_spans": [
+        "Dragon is a speech-recognition program",
+        "dictate answers to homework questions, a five-paragraph essay, or even to write a novel."
+      ],
+      "ai_type_evidence_spans": [
+        "Dragon is a speech-recognition program",
+        "dictate answers to homework questions"
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_4e9d28d8e7ffa4d0f290ea0a",
+      "description_sha256": "2beca336e95d548e62972b157bf3fa9dc6d1c282db0a37e347ededb48e6a5e57",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The described core is a speech-recognition program for dictation. Speech recognition can be AI-dependent, but the text does not explicitly identify AI or establish its implementation; forced weak positive on this potentially AI-dependent core functionality.",
+      "ai_type_rationale": "If the speech-recognition function is AI, it is the program's stated core purpose, suggesting native rather than an enhancement; the description does not establish the technology, so subtype remains weak and forced.",
+      "evidence_spans": [
+        "speech-recognition program",
+        "dictate answers to homework questions, a five-paragraph essay, or even to write a novel."
+      ],
+      "ai_type_evidence_spans": [
+        "speech-recognition program"
+      ]
+    },
+    "reconciliation": {
+      "annotation_id": "ann_4e9d28d8e7ffa4d0f290ea0a",
+      "description_sha256": "2beca336e95d548e62972b157bf3fa9dc6d1c282db0a37e347ededb48e6a5e57",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The text explicitly identifies speech recognition as the program's central function and describes using it to dictate text. That capability is clearly AI functionality at the task level, establishing the binary positive, although the text does not specify a particular implementation.",
+      "ai_type_rationale": "Speech recognition is the described core, supporting native rather than an add-on characterization if treated as AI. The text does not establish whether the core specifically depends on AI, so subtype remains weak and forced.",
+      "evidence_spans": [
+        "Dragon is a speech-recognition program",
+        "dictate answers to homework questions, a five-paragraph essay, or even to write a novel."
+      ],
+      "ai_type_evidence_spans": [
+        "Dragon is a speech-recognition program",
+        "dictate answers to homework questions"
+      ],
+      "conflict_response": "I resolve the binary disagreement in favor of AI with supported evidence: unlike generic automation, the text directly describes speech recognition as the product's core capability. The implementation ambiguity does not negate the clearly specified AI task, but does keep native subtype weak/forced rather than treating subtype as established."
+    },
+    "final": {
+      "annotation_id": "ann_4e9d28d8e7ffa4d0f290ea0a",
+      "description_sha256": "2beca336e95d548e62972b157bf3fa9dc6d1c282db0a37e347ededb48e6a5e57",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The text explicitly identifies speech recognition as the program's central function and describes using it to dictate text. That capability is clearly AI functionality at the task level, establishing the binary positive, although the text does not specify a particular implementation.",
+      "ai_type_rationale": "Speech recognition is the described core, supporting native rather than an add-on characterization if treated as AI. The text does not establish whether the core specifically depends on AI, so subtype remains weak and forced.",
+      "evidence_spans": [
+        "Dragon is a speech-recognition program",
+        "dictate answers to homework questions, a five-paragraph essay, or even to write a novel."
+      ],
+      "ai_type_evidence_spans": [
+        "Dragon is a speech-recognition program",
+        "dictate answers to homework questions"
+      ],
+      "conflict_response": "I resolve the binary disagreement in favor of AI with supported evidence: unlike generic automation, the text directly describes speech recognition as the product's core capability. The implementation ambiguity does not negate the clearly specified AI task, but does keep native subtype weak/forced rather than treating subtype as established."
+    }
+  },
+  {
+    "annotation_id": "ann_541440f1f58299db2725c52a",
+    "description_sha256": "a23173fea54e793cebe898c6509e5acaa89061919513392466080bf350e0cec7",
+    "source_record_references": [
+      "560"
+    ],
+    "labeler": {
+      "annotation_id": "ann_541440f1f58299db2725c52a",
+      "description_sha256": "a23173fea54e793cebe898c6509e5acaa89061919513392466080bf350e0cec7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes launching browsers with Kubernetes or Openshift for compatibility with browser-automation frameworks, conventional test-browser orchestration.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "browser automation solution compatible with Selenium, Cypress, Playwright and Puppeteer using Kubernetes or Openshift to launch browsers."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_541440f1f58299db2725c52a",
+      "description_sha256": "a23173fea54e793cebe898c6509e5acaa89061919513392466080bf350e0cec7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes browser automation compatible with named testing frameworks and launching browsers through Kubernetes or Openshift, a conventional test-environment automation function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "browser automation solution compatible with Selenium, Cypress, Playwright and Puppeteer using Kubernetes or Openshift to launch browsers."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_541440f1f58299db2725c52a",
+      "description_sha256": "a23173fea54e793cebe898c6509e5acaa89061919513392466080bf350e0cec7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes launching browsers with Kubernetes or Openshift for compatibility with browser-automation frameworks, conventional test-browser orchestration.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "browser automation solution compatible with Selenium, Cypress, Playwright and Puppeteer using Kubernetes or Openshift to launch browsers."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_7d3a9efee512a2dc84b5d3d6",
+    "description_sha256": "f77517e1546541ed6c5b94f892a4b8b529e8d71374fdc9222599be7215d8a77e",
+    "source_record_references": [
+      "559"
+    ],
+    "labeler": {
+      "annotation_id": "ann_7d3a9efee512a2dc84b5d3d6",
+      "description_sha256": "f77517e1546541ed6c5b94f892a4b8b529e8d71374fdc9222599be7215d8a77e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description lists enterprise experience management, dashboards, troubleshooting, and operational-cost benefits for communications and payment services, conventional monitoring and management functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Customizable Dashboards. Better User Experience. Quick Troubleshooting. Reduce Operational Costs."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_7d3a9efee512a2dc84b5d3d6",
+      "description_sha256": "f77517e1546541ed6c5b94f892a4b8b529e8d71374fdc9222599be7215d8a77e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text identifies experience-management software and conventional operational benefits, troubleshooting, dashboards, and cost reduction, but provides little detail on the software's actual functions. No AI signal is present; negative is retained with weak support due to the generic description.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Enterprise Experience Management Software for UC, CC, Payments & MSP.",
+        "Customizable Dashboards. Better User Experience. Quick Troubleshooting. Reduce Operational Costs."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_7d3a9efee512a2dc84b5d3d6",
+      "description_sha256": "f77517e1546541ed6c5b94f892a4b8b529e8d71374fdc9222599be7215d8a77e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Despite generic outcome claims, the text identifies customizable dashboards and quick troubleshooting as conventional functions, alongside streamlining UC operations. These specific reporting and troubleshooting functions support a conventional non-AI judgment without assuming a monitoring mechanism.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Streamline UC Operations.",
+        "Customizable Dashboards.",
+        "Quick Troubleshooting."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "I resolve the support disagreement based on the expressly stated dashboard and troubleshooting functions: they are meaningful conventional functions, not merely projected benefits. I do not infer monitoring mechanisms from the experience-management category, but the stated functions are enough for supported non_ai."
+    },
+    "final": {
+      "annotation_id": "ann_7d3a9efee512a2dc84b5d3d6",
+      "description_sha256": "f77517e1546541ed6c5b94f892a4b8b529e8d71374fdc9222599be7215d8a77e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Despite generic outcome claims, the text identifies customizable dashboards and quick troubleshooting as conventional functions, alongside streamlining UC operations. These specific reporting and troubleshooting functions support a conventional non-AI judgment without assuming a monitoring mechanism.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Streamline UC Operations.",
+        "Customizable Dashboards.",
+        "Quick Troubleshooting."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "I resolve the support disagreement based on the expressly stated dashboard and troubleshooting functions: they are meaningful conventional functions, not merely projected benefits. I do not infer monitoring mechanisms from the experience-management category, but the stated functions are enough for supported non_ai."
+    }
+  },
+  {
+    "annotation_id": "ann_966c38107b42b081442620f3",
+    "description_sha256": "3125621c80f1dcf0f75624123a8aae108588b50a1bbba40034c7c0e6790846ba",
+    "source_record_references": [
+      "549"
+    ],
+    "labeler": {
+      "annotation_id": "ann_966c38107b42b081442620f3",
+      "description_sha256": "3125621c80f1dcf0f75624123a8aae108588b50a1bbba40034c7c0e6790846ba",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes network performance monitoring, analysis, and troubleshooting of network and application problems, conventional diagnostics functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "network performance monitoring and diagnostics (NPMD) solution",
+        "troubleshooting network and application problems wherever they occur."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_966c38107b42b081442620f3",
+      "description_sha256": "3125621c80f1dcf0f75624123a8aae108588b50a1bbba40034c7c0e6790846ba",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes network performance monitoring, diagnostics, and portable performance analysis for troubleshooting network and application problems—conventional network observability functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "network performance monitoring and diagnostics (NPMD) solution",
+        "troubleshooting network and application problems wherever they occur."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_966c38107b42b081442620f3",
+      "description_sha256": "3125621c80f1dcf0f75624123a8aae108588b50a1bbba40034c7c0e6790846ba",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes network performance monitoring, analysis, and troubleshooting of network and application problems, conventional diagnostics functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "network performance monitoring and diagnostics (NPMD) solution",
+        "troubleshooting network and application problems wherever they occur."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_9eae0a4ee9ce555926264429",
+    "description_sha256": "dc830b391e7614ecc60b6b28bad71ad7aa8c9079cee9c287c8c087f8c47aa89a",
+    "source_record_references": [
+      "565"
+    ],
+    "labeler": {
+      "annotation_id": "ann_9eae0a4ee9ce555926264429",
+      "description_sha256": "dc830b391e7614ecc60b6b28bad71ad7aa8c9079cee9c287c8c087f8c47aa89a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The offering automates carrier interconnect routing, billing, settlement, audit, and trading, plus pricing and operations; these are conventional workflow functions and fraud detection is not attributed to AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "automates and streamlines a carriers interconnect routing, billing, settlement, audit and trading processes.",
+        "From pricing and operations, to billing and fraud detection"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_9eae0a4ee9ce555926264429",
+      "description_sha256": "dc830b391e7614ecc60b6b28bad71ad7aa8c9079cee9c287c8c087f8c47aa89a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes automation and streamlining of carrier interconnect routing, billing, settlement, audit, trading, pricing, operations, and fraud detection—conventional communications-business workflows.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "automates and streamlines a carriers interconnect routing, billing, settlement, audit and trading processes.",
+        "From pricing and operations, to billing and fraud detection"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_9eae0a4ee9ce555926264429",
+      "description_sha256": "dc830b391e7614ecc60b6b28bad71ad7aa8c9079cee9c287c8c087f8c47aa89a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The offering automates carrier interconnect routing, billing, settlement, audit, and trading, plus pricing and operations; these are conventional workflow functions and fraud detection is not attributed to AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "automates and streamlines a carriers interconnect routing, billing, settlement, audit and trading processes.",
+        "From pricing and operations, to billing and fraud detection"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_a67300aab89092208e2286b1",
+    "description_sha256": "ca98285df603c9f5eb0c79d7ad462e3f3f5ddf7a57cf9adf0af8ca6183c24034",
+    "source_record_references": [
+      "561"
+    ],
+    "labeler": {
+      "annotation_id": "ann_a67300aab89092208e2286b1",
+      "description_sha256": "ca98285df603c9f5eb0c79d7ad462e3f3f5ddf7a57cf9adf0af8ca6183c24034",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description says the traffic manager manages network traffic to support application speed, availability, and security, and describes delivery and resource availability—conventional traffic management.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "intelligently manages network traffic so applications are always fast, available, and secure.",
+        "delivery, security, performance, and availability of web applications"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_a67300aab89092208e2286b1",
+      "description_sha256": "ca98285df603c9f5eb0c79d7ad462e3f3f5ddf7a57cf9adf0af8ca6183c24034",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes network traffic management to support application speed, availability, and security, alongside delivery and resource availability functions—conventional traffic and application infrastructure management.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "intelligently manages network traffic so applications are always fast, available, and secure.",
+        "delivery, security, performance, and availability of web applications"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_a67300aab89092208e2286b1",
+      "description_sha256": "ca98285df603c9f5eb0c79d7ad462e3f3f5ddf7a57cf9adf0af8ca6183c24034",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description says the traffic manager manages network traffic to support application speed, availability, and security, and describes delivery and resource availability—conventional traffic management.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "intelligently manages network traffic so applications are always fast, available, and secure.",
+        "delivery, security, performance, and availability of web applications"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_af381c075b52133ab14dbd23",
+    "description_sha256": "60c327ed217b0c40a97535c38c63fad416d6c7e589a8ee7100f688425b0b9bfb",
+    "source_record_references": [
+      "544",
+      "554"
+    ],
+    "labeler": {
+      "annotation_id": "ann_af381c075b52133ab14dbd23",
+      "description_sha256": "60c327ed217b0c40a97535c38c63fad416d6c7e589a8ee7100f688425b0b9bfb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes centralized multitenancy, self-service, and elastic network services such as load balancing, conventional network service management.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides centralized multitenancy with self-service, and implements elastic network services such as load balancing,"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_af381c075b52133ab14dbd23",
+      "description_sha256": "60c327ed217b0c40a97535c38c63fad416d6c7e589a8ee7100f688425b0b9bfb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes centralized multitenancy with self-service and elastic network services such as load balancing, conventional networking and traffic-management functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides centralized multitenancy with self-service, and implements elastic network services such as load balancing,"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_af381c075b52133ab14dbd23",
+      "description_sha256": "60c327ed217b0c40a97535c38c63fad416d6c7e589a8ee7100f688425b0b9bfb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes centralized multitenancy, self-service, and elastic network services such as load balancing, conventional network service management.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides centralized multitenancy with self-service, and implements elastic network services such as load balancing,"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_be5eaa405ea00c21efc728ab",
+    "description_sha256": "7a938eaabc480e0a269cfce3315c0b99845eb45f45f1df0458d92b2682159d8b",
+    "source_record_references": [
+      "567"
+    ],
+    "labeler": {
+      "annotation_id": "ann_be5eaa405ea00c21efc728ab",
+      "description_sha256": "7a938eaabc480e0a269cfce3315c0b99845eb45f45f1df0458d92b2682159d8b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers DRM-related media delivery, syncing or streaming DVR content, and viewing live TV and video on mobile devices, conventional content access functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "VMS mobility feature allows users to consume DVR, VOD as well as LIVE TV content on their mobile devices.",
+        "by transferring it to their mobile devices using sync-n- go feature or by streaming it in home or remotely."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_be5eaa405ea00c21efc728ab",
+      "description_sha256": "7a938eaabc480e0a269cfce3315c0b99845eb45f45f1df0458d92b2682159d8b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes DRM-related content delivery and viewing, including DVR, VOD, and live TV transfers or streams to mobile devices at home or remotely—a conventional digital-content access function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "VMS mobility feature allows users to consume DVR, VOD as well as LIVE TV content on their mobile devices.",
+        "by transferring it to their mobile devices using sync-n- go feature or by streaming it"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_be5eaa405ea00c21efc728ab",
+      "description_sha256": "7a938eaabc480e0a269cfce3315c0b99845eb45f45f1df0458d92b2682159d8b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers DRM-related media delivery, syncing or streaming DVR content, and viewing live TV and video on mobile devices, conventional content access functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "VMS mobility feature allows users to consume DVR, VOD as well as LIVE TV content on their mobile devices.",
+        "by transferring it to their mobile devices using sync-n- go feature or by streaming it in home or remotely."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_be8bb077b637747ba4df9908",
+    "description_sha256": "8a2cf548a7dde16f5214498a0b0435994d68745dc3ac8194b127f075130b77d6",
+    "source_record_references": [
+      "545"
+    ],
+    "labeler": {
+      "annotation_id": "ann_be8bb077b637747ba4df9908",
+      "description_sha256": "8a2cf548a7dde16f5214498a0b0435994d68745dc3ac8194b127f075130b77d6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The offering is identified as a data-center management suite; this is a conventional management-software function, with no AI capability specified.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "SuperVision is a Data Center Management Suite."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_be8bb077b637747ba4df9908",
+      "description_sha256": "8a2cf548a7dde16f5214498a0b0435994d68745dc3ac8194b127f075130b77d6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The only product function given is the broad category 'Data Center Management Suite'; the text does not explain its management functions. Best-supported negative with weak evidence because description detail is insufficient.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "SuperVision is a Data Center Management Suite."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_be8bb077b637747ba4df9908",
+      "description_sha256": "8a2cf548a7dde16f5214498a0b0435994d68745dc3ac8194b127f075130b77d6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description supplies only the broad category of a data-center management suite and a corporate identity statement; it does not state particular management operations. Best-supported binary is weak/forced non_ai because meaningful conventional functionality is not detailed.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "SuperVision is a Data Center Management Suite."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The product-category label alone does not identify what data-center functions the suite performs, so I resolve the support conflict as weak/forced rather than treating the category name as substantive conventional functionality. The unrelated corporate identity sentence adds no product capability evidence."
+    },
+    "final": {
+      "annotation_id": "ann_be8bb077b637747ba4df9908",
+      "description_sha256": "8a2cf548a7dde16f5214498a0b0435994d68745dc3ac8194b127f075130b77d6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description supplies only the broad category of a data-center management suite and a corporate identity statement; it does not state particular management operations. Best-supported binary is weak/forced non_ai because meaningful conventional functionality is not detailed.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "SuperVision is a Data Center Management Suite."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The product-category label alone does not identify what data-center functions the suite performs, so I resolve the support conflict as weak/forced rather than treating the category name as substantive conventional functionality. The unrelated corporate identity sentence adds no product capability evidence."
+    }
+  },
+  {
+    "annotation_id": "ann_c06a640040a916039bfd039a",
+    "description_sha256": "6db32d857bbd1c42424b6cdf5ca741fcb5550610ab56d7f4e552016c156bde25",
+    "source_record_references": [
+      "553"
+    ],
+    "labeler": {
+      "annotation_id": "ann_c06a640040a916039bfd039a",
+      "description_sha256": "6db32d857bbd1c42424b6cdf5ca741fcb5550610ab56d7f4e552016c156bde25",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes network visibility components and a processing engine presenting graphs, charts, maps, and statistics for applications, geographies, and devices, conventional monitoring and reporting.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "network visibility engine and its context-aware data processing engine provides administrators with a dashboard of graphs, charts, maps, and statistics of known and unknown applications, geographies, and devices on their network."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_c06a640040a916039bfd039a",
+      "description_sha256": "6db32d857bbd1c42424b6cdf5ca741fcb5550610ab56d7f4e552016c156bde25",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes network visibility components and an engine that processes network context into dashboards of graphs, charts, maps, and statistics about applications, geographies, and devices. These are conventional visibility, data processing, and reporting functions; context-aware wording alone does not establish AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "network visibility solutions provides the components of your visibilty archectecture which include the access layer, virtual visibility.",
+        "context-aware data processing engine provides administrators with a dashboard of graphs, charts, maps, and statistics of known and unknown applications, geographies, and devices on their network."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_c06a640040a916039bfd039a",
+      "description_sha256": "6db32d857bbd1c42424b6cdf5ca741fcb5550610ab56d7f4e552016c156bde25",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes network visibility components and a processing engine presenting graphs, charts, maps, and statistics for applications, geographies, and devices, conventional monitoring and reporting.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "network visibility engine and its context-aware data processing engine provides administrators with a dashboard of graphs, charts, maps, and statistics of known and unknown applications, geographies, and devices on their network."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_cb41160eb74ae7d371e5a5cf",
+    "description_sha256": "bfc53d95d7508eb611e50ce51c9eaf6f86b90dab6af461d8e70b3cb32e788019",
+    "source_record_references": [
+      "562"
+    ],
+    "labeler": {
+      "annotation_id": "ann_cb41160eb74ae7d371e5a5cf",
+      "description_sha256": "bfc53d95d7508eb611e50ce51c9eaf6f86b90dab6af461d8e70b3cb32e788019",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description lists private LTE/5G connectivity, roaming settlement, networking, messaging, identity, fraud management, porting, and provisioning services, all conventional telecom operations.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Leading mobile roaming clearing and settlement, networking and messaging solutions.",
+        "messaging, identity and roaming fraud management products.",
+        "addresses pre-provisioning, porting, and fallout."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_cb41160eb74ae7d371e5a5cf",
+      "description_sha256": "bfc53d95d7508eb611e50ce51c9eaf6f86b90dab6af461d8e70b3cb32e788019",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes IoT connectivity and telecommunications business services including roaming clearing and settlement, networking, messaging, identity, fraud management, provisioning, and porting—conventional telecom operations and security functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Securely connect and monetize your IoT devices with Private LTE, 5G, and blockchain",
+        "Leading mobile roaming clearing and settlement, networking and messaging solutions.",
+        "identity and roaming fraud management products."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_cb41160eb74ae7d371e5a5cf",
+      "description_sha256": "bfc53d95d7508eb611e50ce51c9eaf6f86b90dab6af461d8e70b3cb32e788019",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description lists private LTE/5G connectivity, roaming settlement, networking, messaging, identity, fraud management, porting, and provisioning services, all conventional telecom operations.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Leading mobile roaming clearing and settlement, networking and messaging solutions.",
+        "messaging, identity and roaming fraud management products.",
+        "addresses pre-provisioning, porting, and fallout."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_e9b93069a2a238456020aa67",
+    "description_sha256": "17755df59ef2fb60ce5ef61ba2429a4743a6a1a51a82588aac10b4b91085e2b8",
+    "source_record_references": [
+      "546"
+    ],
+    "labeler": {
+      "annotation_id": "ann_e9b93069a2a238456020aa67",
+      "description_sha256": "17755df59ef2fb60ce5ef61ba2429a4743a6a1a51a82588aac10b4b91085e2b8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The database tool monitors, analyzes, diagnoses, and tunes database and SQL performance, including response-time and multidimensional performance analysis; these are conventional DBA functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Monitor, analyze, diagnose, and optimize database performance and data ops",
+        "Reveal performance bottlenecks deep inside your SQL Server, Oracle, DB2 and SAP ASE instances.",
+        "focuses on response time and Multi-Dimensional Performance Analysis' like DPA does."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_e9b93069a2a238456020aa67",
+      "description_sha256": "17755df59ef2fb60ce5ef61ba2429a4743a6a1a51a82588aac10b4b91085e2b8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes database performance monitoring, analysis, diagnosis, optimization, visibility, mapping, lineage, integration, tuning, and response-time analysis for named database types—a conventional database administration and performance-optimization suite.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "performance monitoring tool for database administrators running databases on VMware",
+        "Monitor, analyze, diagnose, and optimize database performance",
+        "SQL tuning software for faster database performance.",
+        "focuses on response time and Multi-Dimensional Performance Analysis' like DPA does."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_e9b93069a2a238456020aa67",
+      "description_sha256": "17755df59ef2fb60ce5ef61ba2429a4743a6a1a51a82588aac10b4b91085e2b8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The database tool monitors, analyzes, diagnoses, and tunes database and SQL performance, including response-time and multidimensional performance analysis; these are conventional DBA functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Monitor, analyze, diagnose, and optimize database performance and data ops",
+        "Reveal performance bottlenecks deep inside your SQL Server, Oracle, DB2 and SAP ASE instances.",
+        "focuses on response time and Multi-Dimensional Performance Analysis' like DPA does."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_fc989a38d3603bd0e8e4b9bb",
+    "description_sha256": "acce4330f149a4fdd060d733b5ed25fd99fe9942d1a2ed6b4c619b37cbe648f1",
+    "source_record_references": [
+      "557"
+    ],
+    "labeler": {
+      "annotation_id": "ann_fc989a38d3603bd0e8e4b9bb",
+      "description_sha256": "acce4330f149a4fdd060d733b5ed25fd99fe9942d1a2ed6b4c619b37cbe648f1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers performance-data access, metrics, charts, aggregation, normalization, and exports, which are conventional monitoring analytics and reporting functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "access and view the data collected from the performance panel",
+        "performance metrics, line charts, scatter plot, bar charts, heat map summary table, aggregation mean average, presenter mode and exports, data normalization."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_fc989a38d3603bd0e8e4b9bb",
+      "description_sha256": "acce4330f149a4fdd060d733b5ed25fd99fe9942d1a2ed6b4c619b37cbe648f1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes collecting and presenting network-performance data through metrics, charts, tables, normalization, and exports for internal business use—a conventional measurement, analytics, and reporting function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Web Platform is for the sole purpose of enabling the client to access and view the data collected from the performance panel for its internal business purposes.",
+        "performance metrics, line charts, scatter plot, bar charts, heat map summary table, aggregation mean average, presenter mode and exports, data normalization."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_fc989a38d3603bd0e8e4b9bb",
+      "description_sha256": "acce4330f149a4fdd060d733b5ed25fd99fe9942d1a2ed6b4c619b37cbe648f1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers performance-data access, metrics, charts, aggregation, normalization, and exports, which are conventional monitoring analytics and reporting functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "access and view the data collected from the performance panel",
+        "performance metrics, line charts, scatter plot, bar charts, heat map summary table, aggregation mean average, presenter mode and exports, data normalization."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  }
+]

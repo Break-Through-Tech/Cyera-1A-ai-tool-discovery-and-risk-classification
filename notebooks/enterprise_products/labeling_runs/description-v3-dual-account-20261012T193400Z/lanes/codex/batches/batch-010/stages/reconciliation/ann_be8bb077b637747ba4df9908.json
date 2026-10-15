@@ -1,0 +1,17 @@
+{
+  "annotation_id": "ann_be8bb077b637747ba4df9908",
+  "description_sha256": "8a2cf548a7dde16f5214498a0b0435994d68745dc3ac8194b127f075130b77d6",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description supplies only the broad category of a data-center management suite and a corporate identity statement; it does not state particular management operations. Best-supported binary is weak/forced non_ai because meaningful conventional functionality is not detailed.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "SuperVision is a Data Center Management Suite."
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The product-category label alone does not identify what data-center functions the suite performs, so I resolve the support conflict as weak/forced rather than treating the category name as substantive conventional functionality. The unrelated corporate identity sentence adds no product capability evidence."
+}

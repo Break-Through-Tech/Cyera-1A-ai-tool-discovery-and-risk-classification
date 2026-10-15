@@ -1,21 +1,21 @@
 {
   "status": "both_lanes_continuing",
-  "updated_at": "2026-10-15T05:51:20.564218+00:00",
+  "updated_at": "2026-10-15T06:17:43.706480+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
-  "new_completed_descriptions": 460,
-  "new_completed_rows": 464,
-  "cumulative_finalized_descriptions": 620,
-  "cumulative_finalized_rows": 638,
-  "remaining_descriptions": 771,
-  "remaining_rows": 800,
+  "new_completed_descriptions": 480,
+  "new_completed_rows": 486,
+  "cumulative_finalized_descriptions": 640,
+  "cumulative_finalized_rows": 660,
+  "remaining_descriptions": 751,
+  "remaining_rows": 778,
   "annotation_workers_max": 4,
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
   "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
-  "cursor_status": "Fresh015–017 coordinator04ce6344 correcting workspace-before-start initialization order; verified parent panes exist.",
-  "codex_status": "001–009 finalized;01020+20 validated/registered, same-original5-item reconciliation active.",
-  "codex_active_workers": 1,
+  "cursor_status": "015–016 child-finalized pending parent provenance gates;017 duplicate-write evidence recovery underway in same coordinator; no new Cursor batches counted.",
+  "codex_status": "001–010 parent-verified finalized;011 fresh independent pair active (20 descriptions/21 rows).",
+  "codex_active_workers": 2,
   "cursor_live_worker_state": "Exclusive native coordinator04ce6344 owns assignedp1F(labeler)/p1E(blind), max2annotation workers.",
   "active_runs": {
     "cursor_integration_owner": "04ce6344-c886-434f-8cb7-aec25d854e88",
@@ -23,10 +23,7 @@
       "wF:p1F",
       "wF:p1E"
     ],
-    "codex_independent_workflow": "c9a858f6-3be7-4d02-9f73-a9367be10005",
-    "codex_labeler": "a41e486c-a570-4414-bed1-7a1563b9312b",
-    "codex_blind": "0b2c7dce-ba46-43f5-8128-fac3e7d7ee3d",
-    "codex_reconciliation_workflow": "0db935ab-69da-4f88-92fc-fe75ee4d2ca8"
+    "codex_independent_workflow": "7546fc6f-be9b-4d1f-9456-6bf86c9623dc"
   },
   "native_resume_receipt": "runtime/NATIVE_RESUME_20261015.json"
 }

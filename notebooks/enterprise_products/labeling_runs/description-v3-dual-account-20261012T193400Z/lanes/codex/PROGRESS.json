@@ -1,11 +1,11 @@
 {
   "status": "in_progress",
   "lane": "codex",
-  "updated_at": "2026-10-15T05:43:22.905022+00:00",
-  "new_completed_descriptions": 180,
-  "new_completed_rows": 181,
-  "remaining_lane_descriptions": 431,
-  "remaining_lane_rows": 444,
+  "updated_at": "2026-10-15T06:17:43.706480+00:00",
+  "new_completed_descriptions": 200,
+  "new_completed_rows": 203,
+  "remaining_lane_descriptions": 411,
+  "remaining_lane_rows": 422,
   "finalized_batches": [
     "batch-001",
     "batch-002",
@@ -15,16 +15,16 @@
     "batch-006",
     "batch-007",
     "batch-008",
-    "batch-009"
+    "batch-009",
+    "batch-010"
   ],
-  "current_batch": "batch-010",
-  "next_batch": "batch-011",
-  "current_stage": "batch010_reconciliation_active",
-  "active_workers": 1,
+  "current_batch": "batch-011",
+  "next_batch": "batch-012",
+  "current_stage": "batch011_independent_active",
+  "active_workers": 2,
   "resume_requires_user_request": false,
   "stop_on_usage_limit": true,
   "original_verifier_run_id": "0b2c7dce-ba46-43f5-8128-fac3e7d7ee3d",
   "labeler_run_id": "a41e486c-a570-4414-bed1-7a1563b9312b",
-  "independent_workflow_run_id": "c9a858f6-3be7-4d02-9f73-a9367be10005",
-  "reconciliation_workflow_run_id": "0db935ab-69da-4f88-92fc-fe75ee4d2ca8"
+  "independent_workflow_run_id": "7546fc6f-be9b-4d1f-9456-6bf86c9623dc"
 }
