@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-10-15T07:14:09.882195+00:00",
+  "all_independent_pairs_inspected": 20,
+  "required_ids": [
+    "ann_ffd42459326ee63e4887fa96"
+  ],
+  "parent_concerns": {
+    "ann_d05a7ba3b83d0e8204e2a0ee": "The source identifies an operating system, Linux-kernel foundation and bundled software provenance, but states no actual OS operations. Reassess whether this is meaningful function evidence or only category/composition evidence under the rubric; do not import OS capabilities or use absent AI terminology alone.",
+    "ann_e1260cfcd1362b2b1e523fef": "The source calls this intelligent integration and says it delivers fast multi-point big-data integrations. Both proposals dismiss intelligent as promotional. Explain whether the short text actually establishes enough concrete conventional functionality for supported negative or remains ambiguous/weak; intelligent alone is neither definitive AI nor proof of non-AI. No outside SnapLogic knowledge.",
+    "ann_340bc8f780f188c9effaadfc": "Labeler rationale asserts support for migration functions from the names vMotion/svMotion; source only says these require vCenter/ESXi, not what they do. Remove reliance on imported name-to-function knowledge; decide whether explicit centralized management of VMs/hosts itself supports the negative and address the unsupported migration assertion."
+  },
+  "routed_ids": [
+    "ann_340bc8f780f188c9effaadfc",
+    "ann_d05a7ba3b83d0e8204e2a0ee",
+    "ann_e1260cfcd1362b2b1e523fef",
+    "ann_ffd42459326ee63e4887fa96"
+  ],
+  "packet_sha256": "52a6f541f9d2bbf19383271515442ea4a7754154576f1f9820685edf234d54d1",
+  "original_blind_run_id": "e1dd2c82-d185-4d19-a079-29f216af825b",
+  "semantic_pass_count": 1
+}

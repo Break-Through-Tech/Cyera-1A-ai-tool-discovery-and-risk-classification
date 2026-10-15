@@ -1,0 +1,172 @@
+[
+  {
+    "annotation_id": "ann_340bc8f780f188c9effaadfc",
+    "description_sha256": "46390b267b10fd719d8e522d2d2be091482252d31f5066a3bad9955d36d2d113",
+    "description": "vCenter Server is the centralized management utility for VMware, and is used to manage virtual machines, multiple ESXi hosts, and all dependent components from a single centralized location. VMware vMotion and svMotion require the use of vCenter and ESXi hosts",
+    "source_record_references": [
+      "812"
+    ],
+    "labeler": {
+      "annotation_id": "ann_340bc8f780f188c9effaadfc",
+      "description_sha256": "46390b267b10fd719d8e522d2d2be091482252d31f5066a3bad9955d36d2d113",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes centralized administration of virtual machines, hosts, and related components, including support for migration functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "used to manage virtual machines, multiple ESXi hosts, and all dependent components from a single centralized location."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_340bc8f780f188c9effaadfc",
+      "description_sha256": "46390b267b10fd719d8e522d2d2be091482252d31f5066a3bad9955d36d2d113",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes centralized administration of virtual machines, hypervisor hosts, and dependent components, conventional infrastructure management.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "used to manage virtual machines, multiple ESXi hosts, and all dependent components from a single centralized location."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Labeler rationale asserts support for migration functions from the names vMotion/svMotion; source only says these require vCenter/ESXi, not what they do. Remove reliance on imported name-to-function knowledge; decide whether explicit centralized management of VMs/hosts itself supports the negative and address the unsupported migration assertion."
+    ]
+  },
+  {
+    "annotation_id": "ann_d05a7ba3b83d0e8204e2a0ee",
+    "description_sha256": "e7221048bf994132eb4ee36ee9870d9da474d5ad0d04e0386ae9fcfc159e1b80",
+    "description": "SUSE Linux is a computer operating system developed by SUSE. It is built on top of the free and open source Linux kernel and is distributed with system and application software from other open source projects.",
+    "source_record_references": [
+      "800"
+    ],
+    "labeler": {
+      "annotation_id": "ann_d05a7ba3b83d0e8204e2a0ee",
+      "description_sha256": "e7221048bf994132eb4ee36ee9870d9da474d5ad0d04e0386ae9fcfc159e1b80",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Identifies an operating system built on the Linux kernel and distributed with system and application software.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "It is built on top of the free and open source Linux kernel and is distributed with system and application software from other open source projects."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_d05a7ba3b83d0e8204e2a0ee",
+      "description_sha256": "e7221048bf994132eb4ee36ee9870d9da474d5ad0d04e0386ae9fcfc159e1b80",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It is described as an operating system built on the Linux kernel and distributed with system and application software, conventional operating-system functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "It is built on top of the free and open source Linux kernel and is distributed with system and application software from other open source projects."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "The source identifies an operating system, Linux-kernel foundation and bundled software provenance, but states no actual OS operations. Reassess whether this is meaningful function evidence or only category/composition evidence under the rubric; do not import OS capabilities or use absent AI terminology alone."
+    ]
+  },
+  {
+    "annotation_id": "ann_e1260cfcd1362b2b1e523fef",
+    "description_sha256": "b7fbb18fcb727e4f4f78b4f356e4d582d48a7cf3263c3a663d5a6a37e69cb638",
+    "description": "SnapLogics'intelligent integration platform as a service delivers fast, multi-point, modern big data integrations",
+    "source_record_references": [
+      "797"
+    ],
+    "labeler": {
+      "annotation_id": "ann_e1260cfcd1362b2b1e523fef",
+      "description_sha256": "b7fbb18fcb727e4f4f78b4f356e4d582d48a7cf3263c3a663d5a6a37e69cb638",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Despite the promotional word 'intelligent,' the stated function is an integration platform delivering multi-point data integrations; no AI capability is specified.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "intelligent integration platform as a service delivers fast, multi-point, modern big data integrations"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_e1260cfcd1362b2b1e523fef",
+      "description_sha256": "b7fbb18fcb727e4f4f78b4f356e4d582d48a7cf3263c3a663d5a6a37e69cb638",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies an integration platform as a service delivering multi-point big-data integrations, a conventional system integration function; 'intelligent' alone does not establish AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "intelligent integration platform as a service delivers fast, multi-point, modern big data integrations"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "The source calls this intelligent integration and says it delivers fast multi-point big-data integrations. Both proposals dismiss intelligent as promotional. Explain whether the short text actually establishes enough concrete conventional functionality for supported negative or remains ambiguous/weak; intelligent alone is neither definitive AI nor proof of non-AI. No outside SnapLogic knowledge."
+    ]
+  },
+  {
+    "annotation_id": "ann_ffd42459326ee63e4887fa96",
+    "description_sha256": "b0d57f4ad87fca069925e24c1a09590ee60537a837df2b9b1aa8ec4eb24fa6f4",
+    "description": "Revive Legacy Applications Instantly: Web-enabling the millions of lines of executable code on those systems. Automatically rejuvenating those systems host applications. Easily sharing with your partners, new users, and suppliers the vital information those systems contain.",
+    "source_record_references": [
+      "815"
+    ],
+    "labeler": {
+      "annotation_id": "ann_ffd42459326ee63e4887fa96",
+      "description_sha256": "b0d57f4ad87fca069925e24c1a09590ee60537a837df2b9b1aa8ec4eb24fa6f4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes web-enabling legacy host applications and sharing information held in those systems; the automation described is application modernization, not an AI capability.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Web-enabling the millions of lines of executable code on those systems. Automatically rejuvenating those systems host applications. Easily sharing with your partners, new users, and suppliers the vital information those systems contain."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_ffd42459326ee63e4887fa96",
+      "description_sha256": "b0d57f4ad87fca069925e24c1a09590ee60537a837df2b9b1aa8ec4eb24fa6f4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text suggests web-enabling legacy code and sharing information, but 'Automatically rejuvenating' is vague and does not explain the underlying function; best forced binary judgment is non-AI absent an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Web-enabling the millions of lines of executable code on those systems. Automatically rejuvenating those systems host applications. Easily sharing with your partners, new users, and suppliers the vital information those systems contain."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": []
+  }
+]
