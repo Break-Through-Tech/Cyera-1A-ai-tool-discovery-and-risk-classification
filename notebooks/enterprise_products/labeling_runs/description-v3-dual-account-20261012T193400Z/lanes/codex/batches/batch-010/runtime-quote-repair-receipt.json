@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-15T05:52:44.099323+00:00",
+  "status": "deterministic_exact_quote_case_only",
+  "role": "blind",
+  "original_worker_run_id": "0b2c7dce-ba46-43f5-8128-fac3e7d7ee3d",
+  "annotation_id": "ann_cb41160eb74ae7d371e5a5cf",
+  "original_checkpoint": "agents/blind/checkpoints/ann_cb41160eb74ae7d371e5a5cf.json",
+  "original_sha256": "4c2f1f29d98960c4ed005ec04526b0853997a375d7f879c07e33c68a37cdc769",
+  "accepted_checkpoint": "runtime/accepted-quote-repair/checkpoints/ann_cb41160eb74ae7d371e5a5cf.json",
+  "accepted_sha256": "78e4ed08a1cdf018506927d6db6ef120dcd745f805be6ca248c356573ca3187f",
+  "only_changed_field": "evidence_spans[0] first character s -> S to match exact source",
+  "no_semantic_fields_changed": true,
+  "original_preserved": true,
+  "checkpoint_path_overrides": {
+    "ann_cb41160eb74ae7d371e5a5cf": "runtime/accepted-quote-repair/checkpoints/ann_cb41160eb74ae7d371e5a5cf.json"
+  }
+}
