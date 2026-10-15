@@ -1,5 +1,9 @@
 # Parent revisit — BOTH LANES RESUMED through ACTUAL pi-subagents
 
+## Parent Cursor015 semantic gate — two never-routed support concerns
+
+Parent inspected actual ALL20 source/proposal/final pairs015 and016.016 semantic resolutions acceptable pending raw/provenance gates.015 additional material support concerns ann_243193ca75f9f9442c11ca71 (ITSM suite category plus engaging end-user experience, no actual functions) and ann_3475147fec04b6525226088e (network management category plus optimal-performance outcome, no operations). Sent native steer5cab2c64 to originalcoordinator04ce6344: preserve original finalized015 exports/manifest/completed4; determine whether original015 blind already explicitly addressed these; if not SAME original blind missing-item completion ONLY and NEW integration-copy expandedroute as014 precedent, no replacement annotator or repeated4. Prioritize durable recovery/handoff near30min deadline.015 remains unaccepted/un-counted. No parent writes to child-owned batches.
+
 ## Latest wake — Codex010 accepted640/660; Codex011 fresh native pair launched
 
 Parent verified actual original raw40 hashes, original-case-only quote override, native/private/schema/source equality for5 final records and all original-blind lineage. Source/final concerns inspected; finalized01020 descriptions22 rows,3 weak binary/1 weak subtype/17 trusted negative rows. All1387 prior baseline hashes unchanged;36 tests pass. Exact unique accepted global640descriptions660rows, remaining751/778. Cursor015–016 NOT counted until parent gates/recovery complete; child04ce6344 owns new recovery receipts and017. Supervisorf32b159c answered conditional original-transcript byte-identical duplicate-write proof for017 before integration,015 exact-original-byte recovery and016 aggregate-ID whitespace evidence; no replacement semantic pass or original edits. No pending supervisor asks at06:16.
