@@ -1,4 +1,16 @@
-# Parent revisit — BOTH LANES ACTIVE, GO AHEAD and routine repairs + Git authorized
+# Parent revisit — BOTH LANES AUTHORIZED; native workflow tools unavailable
+
+## Latest resume preflight — 580 descriptions / 597 rows finalized; restart blocked
+
+Latest user explicitly said go ahead to resume BOTH lanes from saved checkpoints, frequent concise local commits, routine fixes, stop only major blockers/usage. Approval remains valid; no need to ask again for existing scope. This session has NO native subagent/subagent_supervisor tools (inventory checked). Do not silently substitute functions.agent, CLI runners, change harness/session metadata or relabel completed work. Restore original native workflow controls in owning Pi session before launching further batches. Saved blocker/coverage/previous state: runtime/RESUME_PREFLIGHT_BLOCKER.json. No background labeling continuation claimed.
+
+Codex008 original-verifier reconciliation workflow145fcfa5 completed native child10687463-0891-4696-be50-e9069f2e4a7b, but resumed worker retained ORIGINAL agents/blind cwd and wrote9 relative checkpoints over its blind originals. Current Git had already captured overwritten bytes. Parent recovered ALL20 original blind write payloads from saved native session, proved exact equality with pre-reconciliation20 recorded SHA256 hashes, preserved9 overwritten final bytes under runtime-overwrite-recovery and copied them to correct agents/reconciliation/checkpoints, then restored9 originals. Native aggregate copied unchanged to accepted-native-result.json. Original blind accepted aggregate/helper stages remained intact. Full receipt runtime-overwrite-recovery-receipt.json, repair commit470df59. Future launch-reconciliation.js now explicitly requires ABSOLUTE reconciliation checkpoint paths because resume retains blind cwd; existing generated launches remain historical. Mocked retained-context absolute-path self-check and36 enterprise tests pass. No model calls/relabeling occurred.
+
+Parent inspected all9 source/final resolutions, validated native/private equality and all independent raw hashes, integrated9, finalized00820descriptions20rows and PARENT_ACCEPTANCE. Codex001–008 now160descriptions161rows, next009 not prepared/launched. Prior1387 baseline file hashes unchanged; exact unique accepted global580descriptions597rows, remaining811/841. New labels NOT merged into existing frozen training dataset/partitions/evaluation.
+
+Cursor previous coordinatorb425d25d FAILED1800000ms timeout. Saved014 accepted independent20+20 equal registered stages, reconciliation3 schema/quotes/private equality passes at agents/blind/reconciliation/result.json (NOT agents/reconciliation). Parent inspected20 source/proposal pairs and3 final resolutions; no finalization: additional support concern ann_c55bfa2754c68cc24cc1f583 describes only named PostgreSQL/open source/enterprise optimization, both proposals infer database functionality not stated in exact text. Needs original-verifier support resolution within one-pass policy; parent must not silently invent labels or repeat completed3. Preserve all raw outputs and prior coordinator lineage. Cursor live panes not inspected here; do NOT infer shell/idle state from files. Lane PROGRESS historical fields may lag; root blocker is latest authority. Never rerun014 independent work or any accepted001–013.
+
+Historical continuation notes follow; references to running workers below are stale.
 
 ## Latest wake — Codex0089-item reconciliation active; Cursor014 ready-state wait flaw diagnosed
 

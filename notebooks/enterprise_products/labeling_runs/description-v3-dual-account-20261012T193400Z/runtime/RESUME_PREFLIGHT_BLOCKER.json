@@ -1,0 +1,118 @@
+{
+  "timestamp": "2026-10-15T05:19:48.575473+00:00",
+  "authorization": "Latest user GO AHEAD to resume both lanes, preserve checkpoints, routine repairs and concise local commits.",
+  "blocker": "Native subagent and subagent_supervisor controls are not available in this session tool inventory; cannot resume retained workers or launch existing workflow scripts through their approved protocol. No alternate runner used.",
+  "required_recovery": "Restore native workflow tools in the owning Pi session; no further permission needed for the existing labeling scope.",
+  "previous_global_progress": {
+    "status": "both_lanes_continuing",
+    "prior_completed_descriptions": 160,
+    "prior_completed_rows": 174,
+    "new_completed_descriptions": 400,
+    "new_completed_rows": 403,
+    "cumulative_finalized_descriptions": 560,
+    "cumulative_finalized_rows": 577,
+    "remaining_descriptions": 831,
+    "remaining_rows": 861,
+    "annotation_workers_max": 4,
+    "stop_on_usage_limit": true,
+    "lanes": {
+      "cursor": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor",
+      "codex": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex"
+    },
+    "active_runs": {
+      "cursor_integration_owner": "b425d25d-0559-4aa0-bc35-be8b3fa5943e",
+      "cursor_panes": [
+        "wF:p19",
+        "wF:p1A"
+      ],
+      "codex_active_workers": 2,
+      "codex_independent_workflow": "0cfc7ccc-d50a-4bc9-ac1d-a692fce1657c",
+      "cursor_coordinator": "b425d25d-0559-4aa0-bc35-be8b3fa5943e",
+      "codex_reconciliation_workflow": "726c813f-936f-409d-b842-2d1087ea60a6"
+    },
+    "resume_requires_user_request": false,
+    "cursor_status": "001–013 finalized;014 same revived coordinator",
+    "codex_status": "001–007 finalized;008 fresh independent pair",
+    "native_recovery_run_id": "744f5405-9265-42db-83c4-6b041c2d3b08",
+    "active_annotation_workers": 4,
+    "repair_receipt": "runtime/PIPELINE_REPAIR_RECEIPT.json",
+    "latest_authorization": "User GO AHEAD both workflows, repair anything routine, stop only major error; frequent concise Git checkpoint commits",
+    "active_workers": 4,
+    "replacement_approval": "runtime/REPLACEMENT_VERIFIER_APPROVAL.json",
+    "blocker_receipt": "runtime/OVERNIGHT_CODEX_RESUME_BLOCKER.json",
+    "current_stage": "codex008_independent_cursor014",
+    "current_batch": "batch-004",
+    "native_targets": {
+      "labeler": "cursor-haiku-d004",
+      "blind": "cursor-luna-d004"
+    }
+  },
+  "codex008": "Finished prior completed original-verifier native review, repaired misplaced final checkpoints and exact restored original blind hashes; finalized20/20. Next fresh batch009.",
+  "cursor014": {
+    "coordinator_run_id": "b425d25d-0559-4aa0-bc35-be8b3fa5943e",
+    "saved_coordinator_state": "failed_after_1800000ms_timeout",
+    "independent_records_per_role": 20,
+    "saved_reconciliation_records": 3,
+    "reconciliation_path": "agents/blind/reconciliation/result.json",
+    "structural_gates_passed": true,
+    "finalized": false,
+    "additional_support_concern": {
+      "annotation_id": "ann_c55bfa2754c68cc24cc1f583",
+      "description": "Crunchy Certified PostgreSQL is trusted, open source PostgreSQL optimized for the enterprise",
+      "concern": "Both proposals infer database functionality from the product name. Exact text does not state it. Requires original-verifier support resolution under one-pass policy; parent must not replace semantic label or silently finalize. Preserve completed three reconciliations; do not repeat them."
+    },
+    "live_cli_state": "Not inspected in this preflight; do not infer idle or shell from historical files."
+  },
+  "baseline_files_verified": 1387,
+  "enterprise_tests_passed": 36,
+  "counts": {
+    "prior": {
+      "descriptions": 160,
+      "rows": 174,
+      "batches": [
+        "description-v3-calibration-20261012T153139Z",
+        "description-v3-test-batch-02-20261012T155915Z",
+        "batch-003",
+        "batch-004",
+        "batch-005",
+        "description-v3-cursor-test-20261012T183810Z-r1",
+        "batch-001",
+        "batch-002"
+      ]
+    },
+    "cursor": {
+      "descriptions": 260,
+      "rows": 262,
+      "batches": [
+        "batch-001",
+        "batch-002",
+        "batch-003",
+        "batch-004",
+        "batch-005",
+        "batch-006",
+        "batch-007",
+        "batch-008",
+        "batch-009",
+        "batch-010",
+        "batch-011",
+        "batch-012",
+        "batch-013"
+      ]
+    },
+    "codex": {
+      "descriptions": 160,
+      "rows": 161,
+      "batches": [
+        "batch-001",
+        "batch-002",
+        "batch-003",
+        "batch-004",
+        "batch-005",
+        "batch-006",
+        "batch-007",
+        "batch-008"
+      ]
+    }
+  },
+  "existing_training_dataset": "Unchanged; new finalized batch not automatically merged into frozen dataset, partitions or evaluation."
+}

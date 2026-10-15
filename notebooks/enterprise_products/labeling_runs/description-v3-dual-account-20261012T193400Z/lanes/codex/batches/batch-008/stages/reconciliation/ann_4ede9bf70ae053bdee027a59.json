@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_4ede9bf70ae053bdee027a59",
+  "description_sha256": "2e962857a24156366d94fc803fb7be722fba78124366cf23a8e2a8a49c3f1fc1",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description details cross-platform data-center monitoring, display of system state/health/performance, and alerts tied to identified availability, performance, configuration, or security situations.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "cross-platform data center monitoring system for operating systems and hypervisors",
+    "shows state, health, and performance information of computer systems",
+    "alerts generated according to some availability, performance, configuration, or security situation being identified"
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "I remove the unsupported implication that alerts are rule-based: the text only says they are generated according to identified situations. Monitoring, displaying system metrics, and situation-triggered alerts remain meaningful conventional functions; no alert implementation is inferred."
+}
