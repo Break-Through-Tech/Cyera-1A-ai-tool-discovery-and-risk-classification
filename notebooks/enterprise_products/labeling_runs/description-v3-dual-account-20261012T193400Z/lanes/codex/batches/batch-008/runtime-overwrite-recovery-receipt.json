@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-10-15T05:18:26.069234+00:00",
+  "root_cause": "Resumed verifier retained agents/blind cwd; relative reconciliation writes overwrote nine independent checkpoints.",
+  "original_recovery_source": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-13T01-49-45-417Z_01a132f3-9049-7319-a5b8-81b6b3ad5d0a/aab0d51d-03c3-4095-a2ed-77ba7fe7f5ec/run-0/session.jsonl",
+  "original_recovery_method": "Exact original write payload bytes matched all20 pre-reconciliation receipt hashes; not reconstructed from labels or current Git.",
+  "native_child_run_id": "10687463-0891-4696-be50-e9069f2e4a7b",
+  "native_path": "/tmp/pi-subagents-uid-1000/async-subagent-runs/10687463-0891-4696-be50-e9069f2e4a7b/structured-output/pi-subagent-structured-ppvy9Q/output.json",
+  "accepted_native_sha256": "2572fb1b4aeb7361f129f071922f349328eb5e57d7be2b8e830cff27cb232575",
+  "all20_original_blind_hashes_restored": true,
+  "no_semantic_relabeling": true,
+  "files": [
+    {
+      "original_checkpoint": "agents/blind/checkpoints/ann_0fb78c54acffc9a5200ccfac.json",
+      "restored_sha256": "9fc1b22ce8f0762443a868bea82137423f3a553f664cd9f57a8fd3716cf8d742",
+      "preserved_overwritten_path": "runtime-overwrite-recovery/ann_0fb78c54acffc9a5200ccfac.json",
+      "reconciliation_checkpoint": "agents/reconciliation/checkpoints/ann_0fb78c54acffc9a5200ccfac.json",
+      "reconciliation_sha256": "f190e1fad4d3cd1b238a86ea22dce85e7e440154b1eb6887ab55b946a3ea32bb"
+    },
+    {
+      "original_checkpoint": "agents/blind/checkpoints/ann_2f8d11f0973c47d3685d0ccc.json",
+      "restored_sha256": "70ded20c64a8cf0a611f070128ce31d0464c74263a36382e2037ea35248239c4",
+      "preserved_overwritten_path": "runtime-overwrite-recovery/ann_2f8d11f0973c47d3685d0ccc.json",
+      "reconciliation_checkpoint": "agents/reconciliation/checkpoints/ann_2f8d11f0973c47d3685d0ccc.json",
+      "reconciliation_sha256": "c786d49f453460c70c7b2c89bddf6b6355823309c1d2b4cf3702696302ab9f4f"
+    },
+    {
+      "original_checkpoint": "agents/blind/checkpoints/ann_37788b3da934703f15f1f65f.json",
+      "restored_sha256": "b5ad6965638243c7a81e0be9be04a589a1b53708b8b91f5e2e5fa824a07a02cd",
+      "preserved_overwritten_path": "runtime-overwrite-recovery/ann_37788b3da934703f15f1f65f.json",
+      "reconciliation_checkpoint": "agents/reconciliation/checkpoints/ann_37788b3da934703f15f1f65f.json",
+      "reconciliation_sha256": "98e813e9b48106b380971714ec1d3c3742b296764b2f0a06ba0cc888545bd188"
+    },
+    {
+      "original_checkpoint": "agents/blind/checkpoints/ann_3ced93a2e750c53fa1101bbd.json",
+      "restored_sha256": "6fd96f91de58ade69142427cf8d0f2423a13cac9fc951551c1bd5d69ccfd693e",
+      "preserved_overwritten_path": "runtime-overwrite-recovery/ann_3ced93a2e750c53fa1101bbd.json",
+      "reconciliation_checkpoint": "agents/reconciliation/checkpoints/ann_3ced93a2e750c53fa1101bbd.json",
+      "reconciliation_sha256": "22a914751c8afdf8841da34187e8539e8e783cd2bfde68e277a709e1c7e71d56"
+    },
+    {
+      "original_checkpoint": "agents/blind/checkpoints/ann_4ede9bf70ae053bdee027a59.json",
+      "restored_sha256": "9df9d86eb760e1b950e18f5f3a20741984efc853879a89d95befe81cadd026d7",
+      "preserved_overwritten_path": "runtime-overwrite-recovery/ann_4ede9bf70ae053bdee027a59.json",
+      "reconciliation_checkpoint": "agents/reconciliation/checkpoints/ann_4ede9bf70ae053bdee027a59.json",
+      "reconciliation_sha256": "e5db292a6bcd4fb5db48b11922fe814292ccedec6c025722570b260484172cc0"
+    },
+    {
+      "original_checkpoint": "agents/blind/checkpoints/ann_55111a072d60ebd5048fbdde.json",
+      "restored_sha256": "e7a308b362e8c74683a4b6db0c7e7181572a34bcd1ba1a7ee175751c995c8152",
+      "preserved_overwritten_path": "runtime-overwrite-recovery/ann_55111a072d60ebd5048fbdde.json",
+      "reconciliation_checkpoint": "agents/reconciliation/checkpoints/ann_55111a072d60ebd5048fbdde.json",
+      "reconciliation_sha256": "6fe29e6e7bae348301eb2fb0d4feeeb16599c34fc54dd20479c9eaf0086a0584"
+    },
+    {
+      "original_checkpoint": "agents/blind/checkpoints/ann_5d571ba842660556ee3630f7.json",
+      "restored_sha256": "f455d715ca3a2f1b1c9941f8d6f3bc5ec1a9b587370fe1eea984cddee34d7feb",
+      "preserved_overwritten_path": "runtime-overwrite-recovery/ann_5d571ba842660556ee3630f7.json",
+      "reconciliation_checkpoint": "agents/reconciliation/checkpoints/ann_5d571ba842660556ee3630f7.json",
+      "reconciliation_sha256": "ccb6fbb577daa8613a18e1e68e70b25b1dedf1bb36c3538ba7927a76beb0948f"
+    },
+    {
+      "original_checkpoint": "agents/blind/checkpoints/ann_9a7379191268960279ea22d9.json",
+      "restored_sha256": "6a5d9e8bac2c0c9e95febf5d5253a7a1d55b1a0a2fb3dc30e154f5606109d811",
+      "preserved_overwritten_path": "runtime-overwrite-recovery/ann_9a7379191268960279ea22d9.json",
+      "reconciliation_checkpoint": "agents/reconciliation/checkpoints/ann_9a7379191268960279ea22d9.json",
+      "reconciliation_sha256": "8ed9d080df29e8c4e69b03e5fda735d7d93a386429a23da1a388972c9d283b3f"
+    },
+    {
+      "original_checkpoint": "agents/blind/checkpoints/ann_a16f9e34600e437b9befc010.json",
+      "restored_sha256": "5e0228daa50fe1445e1ce126250a25e32a7494938a1c56af1b10e8b164e08c86",
+      "preserved_overwritten_path": "runtime-overwrite-recovery/ann_a16f9e34600e437b9befc010.json",
+      "reconciliation_checkpoint": "agents/reconciliation/checkpoints/ann_a16f9e34600e437b9befc010.json",
+      "reconciliation_sha256": "dfafa6a28b7cf1b5c2fe63ee9596551dd676a9efddfac7f379cb11d586855369"
+    }
+  ]
+}
