@@ -1,5 +1,13 @@
 # Parent revisit — BOTH LANES RESUMED through ACTUAL pi-subagents
 
+## Latest wake — finalized780/802; Codex014 active, Cursor019shells supplied
+
+Codex013 originalblind2 nativeac6951d5 completed; actualnative/private/schema/quotes/coverage/alloriginal40hashespassed; inspectedbothsource/finalresponses, vagueutilities andappliancedeployment/outcomes weak/forced. Helperfinalized20/20,2weak18trustednegative rows. FreshCodex01420/20 preparedexactplan/assigned/template/syntaxchecked andnativeworkflow14fb4046-7fa8-477d-a815-02b7bbefe34d ACTIVE. Oncompletion20+20native/private/source/quote/schema/rawreceipts BEFOREcompare, inspectALL20pairs+gatherallrequired/supportconcerns toSAMEoriginalblind ONEreconciliation withABSOLUTEpaths; finalize/commit/015fresh.
+
+Cursor018actualall20pairs/9finalconflictresponses inspected; actualprivate/helper/schema/source/raw40+9resultcheckpointhashes/exactplanrefs/exports passed. NEW018/PARENT_VALIDATION statusaccepted; originalPARENT_ACCEPTANCE remainspendingchildrecord but parentvalidationauthoritative. Sixweakbinary/oneweaksubtype flagged; AIrecruitingbinarysupported, speechtranscriptionweak preserved. Parentsteeredowner6e3f179b accepted018, Cursor360/364remaining260/275. Supervisorfebe7fcf answered:019alreadyfrozenprepared20/20 but018p1G/p1HTUIsoccupied; parentcreated freshnativeordinaryshellswF:p1Jlabeler/p1Kblind at019privatecwd, preservefocus/oldcontexts, norepeat018 orreselect019. Coordinator e266e50a owns019–020/nativeNEWpanes. Parentno competingCursorwritesexceptcompleted018validation.
+
+Exactuniqueglobal780descriptions802rows, remaining611/636; Codex260/264 Cursor360/364 prior160/174. All1387priorbaselinehashesunchanged. Trainingdatasetuntouched. Nativecompletionswake/no polling/bg_wait/pstack.
+
 ## Latest wake — Codex013 originalblind2-item reconciliation active
 
 Codex013 nativeindependents b49b6535/388e0255 COMPLETE. Actual20each coverage/schema/hash/sourceexactquotes/private/native equality pass; rawnative acceptedbytecopies+runtime-independent-validation.json saved BEFORE compare, no repairs. Parent inspectedALL20pairs; helperregistered40, routedrequired1MainframeUtilities sparse-title PLUS1 ENCScomputeappliance nameddeployment/outcome/categorysupportconcern. SAMEoriginalblind ONE2-itemreconciliation ACTIVEworkflow148b329c-7f6f-4edc-8be9-e6f0a2fc89d0 correctedABSOLUTEpaths. Oncompletion inspectactualnative/private2/source-finalconcerns/alloriginal40hashes; helperfinalize/accept/commitandlaunch014fresh. Global740/762unchanged.

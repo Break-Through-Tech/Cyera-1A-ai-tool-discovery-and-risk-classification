@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_7d51019b7ab0ac188c137bf5",
+  "description_sha256": "0040e3d003aeff8ad983f96a2f99da0a442c6c47da0ebcaf6ace727b0092f53d",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description presents supply-chain planning but names forecasting, anticipation, and alternatives without explaining whether those functions use ordinary planning logic or AI-dependent prediction; non_ai is retained as weak and forced.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "helps companies forecast sales and revenues",
+    "anticipate and address any supply chain bottlenecks"
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The labeler treated forecasting and bottleneck anticipation as unresolved prediction-type functions, while the blind proposal treated them as conventional planning. Since the description does not state a mechanism, the conventional negative is retained but downgraded to weak and forced rather than presented as supported."
+}

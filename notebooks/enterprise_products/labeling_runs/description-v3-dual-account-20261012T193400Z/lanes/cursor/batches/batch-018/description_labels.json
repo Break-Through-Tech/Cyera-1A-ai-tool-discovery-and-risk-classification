@@ -1,0 +1,354 @@
+[
+  {
+    "product_description": "Box is the only cloud-based platform that enables users to create, access and collaborate on their business documents, while also providing robust information governance controls to ensure all business information is being shared, preserved and disposed of in a manner that adheres to internal and external compliance",
+    "annotation_id": "ann_2529092220d2dbd8502c03a0",
+    "description_sha256": "356f0967dde08e273e4b0e70ca644be842d281fc225ed7c1dea38ae80ef6449f",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional cloud document collaboration platform with information governance controls; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "enables users to create, access and collaborate on their business documents"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Micro Focus' Universal Discovery (UD) software combines the automation of inventory discovery and dependency mapping. Universal Discovery assists with incident, problem and change manage- ment, as well as asset management, business service management and transformation projects",
+    "annotation_id": "ann_462457f8c803e7a0d3bc4824",
+    "description_sha256": "86ad75ae1475796d02ff80065413fdeaf614133bca3c6a5c768689a9cf81e3db",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional inventory discovery, dependency mapping and incident, asset and business service management uses with no AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "combines the automation of inventory discovery and dependency mapping",
+      "as well as asset management, business service management"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Verint Speech Analytics is an enterprise-grade solution that transcribes 100% of recorded calls to automatically discover and analyze words, phrases, categories, and themes. With Speech Analytics, you can: Enhance contact center performance with insights to reduce agent handle time, and repeat calls.",
+    "annotation_id": "ann_4a40a84df28695d446100c5c",
+    "description_sha256": "b50dd7bd32754697ac9c4ebc6563e76ff3bfae18f45347d4a465b8e7040bb6ec",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description establishes call transcription and automatic speech-analytics analysis but does not state AI, ML, learned models, or another mechanism; non_ai is retained only as a forced weak judgment.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "transcribes 100% of recorded calls to automatically discover and analyze words, phrases, categories, and themes"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "SAP Fieldglass is a cloud-based, open vendor management system (VMS) that helps organizations find, engage, manage, pay, and unlock more value from this growing external workforce",
+    "annotation_id": "ann_5eaad71971f498e62c22ff3d",
+    "description_sha256": "da152acd580270cee9fce2f3f3c57b8319eee4d1569a7438751b1cecec759770",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional cloud vendor management system for engaging, managing and paying external workers; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "cloud-based, open vendor management system (VMS)",
+      "helps organizations find, engage, manage, pay"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Travel and Expense suite. Pre-spend control, request and approval process for employee travel expense. Integrates with Concur Travel, and Expense, providing budget insights and projected cost analysis.\nNow owned by SAP",
+    "annotation_id": "ann_6ec3af5c8438ede595a8bc10",
+    "description_sha256": "8bd367d1e31811692ad2f5bc3c3938ed9d8249209c96a8eabd0aba3cde861065",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description clearly describes conventional travel and expense controls, but its budget insights and projected cost analysis do not explain whether the projection is ordinary analysis or AI-dependent; non_ai is therefore weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Pre-spend control, request and approval process for employee travel expense",
+      "providing budget insights and projected cost analysis"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "SAP Integrated Business Planning (IBP) is a cloud-based solution that helps companies forecast sales and revenues, plan their inventories in order to maximize profits and service fill rates, anticipate and address any supply chain bottlenecks, identify potential alternatives",
+    "annotation_id": "ann_7d51019b7ab0ac188c137bf5",
+    "description_sha256": "0040e3d003aeff8ad983f96a2f99da0a442c6c47da0ebcaf6ace727b0092f53d",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description presents supply-chain planning but names forecasting, anticipation, and alternatives without explaining whether those functions use ordinary planning logic or AI-dependent prediction; non_ai is retained as weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "helps companies forecast sales and revenues",
+      "anticipate and address any supply chain bottlenecks"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Hiretual (now hireEZ) is an AI-powered outbound recruitment platform that centralizes all recruiting efforts for hiring teams big and small to make outbound recruiting easy. Experience fast and simple AI Sourcing across 800M+ open web profiles and 45+ platforms.",
+    "annotation_id": "ann_8331689c27b7be6c0dd575c5",
+    "description_sha256": "da3f68e00c41b7f96af971e1da2fa9ebe7a684bd796e0e18044e1ad05b0e41f3",
+    "ai_status": "ai",
+    "ai_type": "ai_enabled",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "weak",
+    "ai_type_forced_decision": true,
+    "rationale": "The description explicitly identifies an AI-powered recruitment platform and AI Sourcing, which supports the binary ai judgment.",
+    "ai_type_rationale": "The description also says the platform centralizes recruiting efforts and makes outbound recruiting easy, so conventional recruiting functionality may remain alongside AI sourcing; the subtype is consequently uncertain.",
+    "evidence_spans": [
+      "is an AI-powered outbound recruitment platform",
+      "Experience fast and simple AI Sourcing across 800M+ open web profiles"
+    ],
+    "ai_type_evidence_spans": [
+      "is an AI-powered outbound recruitment platform",
+      "Experience fast and simple AI Sourcing across 800M+ open web profiles"
+    ]
+  },
+  {
+    "product_description": "Software Center Configuration Manager is an application thats installed when you install the Configuration Manager client on a Windows device. Users use Software Center to request and install software that you deploy.",
+    "annotation_id": "ann_912c51241c876e285f71b997",
+    "description_sha256": "df3474ba2093a463ba21b59245de496dc561d856e7e6a7ba7fec3dcc7a8ba3fb",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional client application through which users request and install deployed software; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Users use Software Center to request and install software that you deploy."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Workspace Provisioning & Management. Milan provides a unified approach to creating and maintaining iManage workspaces, IRM physical records, and SharePoint sites. ... Firms can examine and modify workspaces, create scripts and templates, and manage and update data in bulk. Our software helps increase user adoption, simplifies administration, and helps secure content in iManage and it scales from small departmental to large multi-national enterprises",
+    "annotation_id": "ann_91c2f5e8c6b1f9038bfed007",
+    "description_sha256": "68958981282fd9439084e47812ec5f84a9d6490f8f0fcc8de3a9783c269908f8",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional workspace provisioning, template and script administration, and bulk data management across document systems; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "provides a unified approach to creating and maintaining iManage workspaces, IRM physical records, and SharePoint sites",
+      "manage and update data in bulk"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Oracle Self-Service E-Billing On Demand lowers print and payment processing costs; eliminates postage costs; and accelerates collections with online bill payment, presentment and dispute adjudication capabilities.",
+    "annotation_id": "ann_9df829bf633312ac491bdd13",
+    "description_sha256": "6b9b665c9b8a651901df9ed26181b2aabfc4bb4c54c1fb97b780211399883ee1",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional online bill payment, bill presentment and dispute adjudication capabilities; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "online bill payment, presentment and dispute adjudication capabilities"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Nlyte's'Software Solution Automates Management of Assets, Power, Energy, & Workflows. Data Center Infrastructure Management (DCIM)",
+    "annotation_id": "ann_9e8e1f322a692686a9b3dbed",
+    "description_sha256": "75aa4ff1a27c25740fa82542730a8e6336ff9b12d04feefe80e8cc131a17405e",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional DCIM management of assets, power, energy and workflows with routine automation; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Automates Management of Assets, Power, Energy, & Workflows",
+      "Data Center Infrastructure Management (DCIM)"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Java-based https web front end, Oracle 10g back end used for cataloging and managing circuit inventory and paying invoices for IT-purposed telecom circuits. Hosted, no hardware exists under our direct control. The vendor is Tangoe. Tangoe purchased Rivermine from IBM in 2015.",
+    "annotation_id": "ann_9f3e4b5de1cdcdc4ec2d8dd8",
+    "description_sha256": "8d1268d8ff8db4bd76f2937dd443292694f7600b8c88c8cbf9eb11b928c8becf",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional web application for cataloging circuit inventory and paying telecom invoices; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "used for cataloging and managing circuit inventory and paying invoices for IT-purposed telecom circuits"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Microsoft Developer Network (MSDN) was the division of Microsoft responsible for managing the firms relationship with developers and testers, such as hardware developers interested in the operating system (OS), and software developers developing on the various OS platforms or using the API or scripting languages\n\nnow called Visual Studio Subscriptions",
+    "annotation_id": "ann_affc31ae7ec1ecfafbc712ed",
+    "description_sha256": "4bdc3954e6dcee1b7320ab29f098f1934df2dff838f000e0eac20d74e75ffbd7",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description identifies developer relationship management and a subscription title but does not explain concrete software functionality; with no AI signal, non_ai is retained only as weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "managing the firms relationship with developers and testers",
+      "now called Visual Studio Subscriptions"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Nektar provides asset clarity and data management solutions to clients in construction, agriculture, oil and gas, pipeline development, transportation, utilities, and government. Our solutions are flexible and work as simply as field staff require and expect, giving your organization a broad range of benefits, from increased efficiency to higher profitability.",
+    "annotation_id": "ann_b34389c045536756ea7ce0bd",
+    "description_sha256": "e3f51b127a248f3eaaf0629aa720873682d7a28560655bd74b30062a49e42474",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description gives a generic asset-clarity and data-management category plus broad benefits, but no concrete conventional workflows; non_ai is therefore weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "asset clarity and data management solutions",
+      "from increased efficiency to higher profitability"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Exception Correction - One time cost, do not think this is recurring",
+    "annotation_id": "ann_c27fbb3d799ab75830ea5c00",
+    "description_sha256": "886c31aaa771297bbe5d79a147cd4e1715d2754114904ea4b333bcbddfc522c1",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text is a one-time cost note rather than a meaningful product-function description and contains no AI signal; non_ai remains a forced weak judgment.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Exception Correction - One time cost, do not think this is recurring"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Oracle Data Relationship Governance provides essential change management and data quality remediation workflows, capturing business changes and applying them with consistency and accuracy across transactional and analytical system silos.",
+    "annotation_id": "ann_c798c50fed8128f9656ca5e6",
+    "description_sha256": "e5ef95550e0bf48fadcab2a427ae1b0741d7db79ad81d5628a4b9c32e98babaa",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional change management and data quality remediation workflows applied across systems; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "provides essential change management and data quality remediation workflows"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Oracle Business Intelligence (BI) Applications are complete, prebuilt BI solutions that deliver intuitive, role-based intelligence throughout an organization. These solutions enable organizations to gain more insight and greater value from a range of data sources, including Oracle Fusion Cloud and On-Premise Applications, E-Business Suite, PeopleSoft, JD Edwards, Siebel, and third party systems. Oracle BI Applications are built on the Oracle BI Foundation, a comprehensive and market leading BI platform.",
+    "annotation_id": "ann_d0b54c33f65c325763dfbfad",
+    "description_sha256": "4fd5a932dd32fb14db5dd94c06b28814e08e2f2d80e8270ee1cda4d91148df39",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes prebuilt business intelligence applications drawing on enterprise data sources and resting on a BI foundation; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "are complete, prebuilt BI solutions that deliver intuitive, role-based intelligence throughout an organization"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Micro Focus Operations Bridge (OpsBridge) monitors your IT environment and consolidates data from existing tools. It applies automated discovery, monitoring, analytics, and remediation to data across traditional, private, public, multi-cloud and container-based infrastructure",
+    "annotation_id": "ann_e47bae695c4aeca4eba652ee",
+    "description_sha256": "747549b6ebf90f4e832c029587e900d48503e7b2cd565b681de2a3eff7afc32a",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description directly lists conventional IT monitoring, automated discovery, analytics, and remediation across infrastructure without an affirmative AI or ML signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "applies automated discovery, monitoring, analytics, and remediation to data across traditional, private, public, multi-cloud and container-based infrastructure"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "NetSuite is the world's leading provider of cloud-based business management software. NetSuite helps companies manage core business processes with a single, fully integrated system covering ERP/financials, CRM, ecommerce, inventory and more.",
+    "annotation_id": "ann_f796a5891e010cf09e812c0e",
+    "description_sha256": "5d474f826ea5fc9317939eebb71f03dbf8d41d5062f4b11ce371e48a22f96018",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional cloud business management system covering ERP/financials, CRM, ecommerce and inventory; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "helps companies manage core business processes with a single, fully integrated system covering ERP/financials, CRM, ecommerce, inventory and more"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Engagement platform to showcase/manage customer service incentives and employee communications to drive business focuses and drive revenue within the channel",
+    "annotation_id": "ann_fe55b1f7eda504a09b17837e",
+    "description_sha256": "55e69eaee4008d7572c4dfa4fea7f1529c02657c8c6b7e10cb4d8d40d5e9f789",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description directly states conventional engagement functions for showcasing and managing incentives and employee communications, with no affirmative AI or ML signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "showcase/manage customer service incentives and employee communications"
+    ],
+    "ai_type_evidence_spans": null
+  }
+]

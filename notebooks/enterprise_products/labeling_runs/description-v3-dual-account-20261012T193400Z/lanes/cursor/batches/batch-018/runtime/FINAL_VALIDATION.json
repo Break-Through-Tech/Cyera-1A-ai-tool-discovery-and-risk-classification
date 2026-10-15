@@ -1,0 +1,59 @@
+{
+  "batch_id": "batch-018",
+  "status": "finalized_pending_parent_independent_acceptance",
+  "frozen_plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "selected_descriptions": 20,
+  "source_rows": 20,
+  "exact_plan_hash_and_source_reference_coverage": true,
+  "prior_local_unique_descriptions": 340,
+  "prior_local_unique_source_references": 344,
+  "new_unique_hashes": 20,
+  "new_unique_refs": 20,
+  "overlap": 0,
+  "precomparison_raw_result_checkpoint_hash_receipts": true,
+  "independent_coverage_schema_source_hash_quote_private_checkpoint_result_equality": true,
+  "all20_source_proposal_pairs_reviewed": "runtime/pair-review.json",
+  "helper_required_reconciliation_ids": [
+    "ann_4a40a84df28695d446100c5c",
+    "ann_6ec3af5c8438ede595a8bc10",
+    "ann_7d51019b7ab0ac188c137bf5",
+    "ann_8331689c27b7be6c0dd575c5",
+    "ann_affc31ae7ec1ecfafbc712ed",
+    "ann_b34389c045536756ea7ce0bd",
+    "ann_c27fbb3d799ab75830ea5c00",
+    "ann_e47bae695c4aeca4eba652ee",
+    "ann_fe55b1f7eda504a09b17837e"
+  ],
+  "additional_support_concern_ids": [],
+  "reconciliation_ids": [
+    "ann_4a40a84df28695d446100c5c",
+    "ann_6ec3af5c8438ede595a8bc10",
+    "ann_7d51019b7ab0ac188c137bf5",
+    "ann_8331689c27b7be6c0dd575c5",
+    "ann_affc31ae7ec1ecfafbc712ed",
+    "ann_b34389c045536756ea7ce0bd",
+    "ann_c27fbb3d799ab75830ea5c00",
+    "ann_e47bae695c4aeca4eba652ee",
+    "ann_fe55b1f7eda504a09b17837e"
+  ],
+  "same_original_luna_single_pass_validated": true,
+  "reconciliation_result_sha256": "0d404f460404e26db22ef93b75470fef551a3c730bee62cb8bc9df10a7045001",
+  "binary_weak_count": 6,
+  "subtype_weak_count": 1,
+  "trusted_negative_records": 13,
+  "exports": {
+    "description_labels.json": "473f7611b15286692ce5293cfd41512cde519f76e569eb1175267e85c0ecfc6c",
+    "record_labels.json": "f10d5ef881ed23ae7668cc5435a907c340d878fe56a117a2aa0be1417fdee83c",
+    "review_ledger.json": "00bd1c95d83f87073bb1dcafdc41b8f0b83eeaaa3211f8398a3073024f38ab00",
+    "review_queue.json": "f8c007a800077072a8210e79eab4fe4d17f9e5e38bf26cacace35fd049ba64ff",
+    "non_ai_candidates.csv": "3e4b9fbe336a9b5389fabd99a76240decf1842ab3d167486bd955e300d8ef1bc",
+    "calibration_report.json": "ea53392c06b0fdf771b1b60a678bc6c073492ce0b9a8ee37cbee2169d23541ea"
+  },
+  "manifest_sha256": "b31f368859355357aef8cce94f7ce22416e09cc07f07a4ca4e6ba3b17e9f9cf1",
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s notebooks/enterprise_products -p 'test_*.py' (from repository root)",
+    "result": "36 passed"
+  },
+  "scope": "No earlier accepted annotations modified or relabeled. No model fallback, semantic rewrite, training, root/global/Git operation."
+}

@@ -1,0 +1,29 @@
+{
+  "status": "accepted",
+  "timestamp": "2026-10-15T06:48:09.484163+00:00",
+  "logical_plan_batch_id": "batch-018",
+  "descriptions": 20,
+  "source_rows": 20,
+  "stages_verified": [
+    20,
+    20,
+    9
+  ],
+  "raw_result_and_checkpoint_hashes_unchanged": true,
+  "plan_selection_exact": true,
+  "exports": {
+    "description_labels.json": "473f7611b15286692ce5293cfd41512cde519f76e569eb1175267e85c0ecfc6c",
+    "record_labels.json": "f10d5ef881ed23ae7668cc5435a907c340d878fe56a117a2aa0be1417fdee83c",
+    "review_ledger.json": "00bd1c95d83f87073bb1dcafdc41b8f0b83eeaaa3211f8398a3073024f38ab00",
+    "review_queue.json": "f8c007a800077072a8210e79eab4fe4d17f9e5e38bf26cacace35fd049ba64ff",
+    "non_ai_candidates.csv": "3e4b9fbe336a9b5389fabd99a76240decf1842ab3d167486bd955e300d8ef1bc",
+    "calibration_report.json": "ea53392c06b0fdf771b1b60a678bc6c073492ce0b9a8ee37cbee2169d23541ea"
+  },
+  "semantic_review": "Parent inspected all20 exact source/proposal pairs and9 final original-verifier conflict responses. Six weak binary cases remain flagged/excluded; explicit AI recruiting binary supported with separate weak subtype; speechtranscription uncertainty stays weak rather than supported negative. Stated operations support conventional monitoring and incentive communications. No invented parent labels, repeated votes or source edits.",
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high",
+    "reconciliation": "gpt-5.6-luna-high, same original blind context"
+  },
+  "structural_repairs": 0
+}

@@ -1,0 +1,17 @@
+{
+  "annotation_id": "ann_fe55b1f7eda504a09b17837e",
+  "description_sha256": "55e69eaee4008d7572c4dfa4fea7f1529c02657c8c6b7e10cb4d8d40d5e9f789",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description directly states conventional engagement functions for showcasing and managing incentives and employee communications, with no affirmative AI or ML signal.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "showcase/manage customer service incentives and employee communications"
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The labeler regarded the short statement as too generic for a supported negative, while the blind proposal identified the stated showcase, incentive-management, and communications functions as conventional. Those functions are concrete enough to support non_ai under the description-only rubric, so supported non_ai is retained without inferring anything beyond the text."
+}

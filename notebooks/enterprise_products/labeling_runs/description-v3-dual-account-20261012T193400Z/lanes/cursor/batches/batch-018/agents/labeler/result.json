@@ -1,0 +1,335 @@
+[
+  {
+    "annotation_id": "ann_e47bae695c4aeca4eba652ee",
+    "description_sha256": "747549b6ebf90f4e832c029587e900d48503e7b2cd565b681de2a3eff7afc32a",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional IT monitoring, consolidation of existing tool data, discovery and remediation, but the unexplained word 'analytics' could imply AI-dependent functionality, so the negative is weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "monitors your IT environment and consolidates data from existing tools",
+      "applies automated discovery, monitoring, analytics, and remediation to data"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_462457f8c803e7a0d3bc4824",
+    "description_sha256": "86ad75ae1475796d02ff80065413fdeaf614133bca3c6a5c768689a9cf81e3db",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional inventory discovery, dependency mapping and incident, asset and business service management uses with no AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "combines the automation of inventory discovery and dependency mapping",
+      "as well as asset management, business service management"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_affc31ae7ec1ecfafbc712ed",
+    "description_sha256": "4bdc3954e6dcee1b7320ab29f098f1934df2dff838f000e0eac20d74e75ffbd7",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a former Microsoft division's developer-relations role rather than a software function; no AI signal appears, but conventional software functionality is not described, so the negative is weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "was the division of Microsoft responsible for managing the firms relationship with developers and testers"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_912c51241c876e285f71b997",
+    "description_sha256": "df3474ba2093a463ba21b59245de496dc561d856e7e6a7ba7fec3dcc7a8ba3fb",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional client application through which users request and install deployed software; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Users use Software Center to request and install software that you deploy."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_9e8e1f322a692686a9b3dbed",
+    "description_sha256": "75aa4ff1a27c25740fa82542730a8e6336ff9b12d04feefe80e8cc131a17405e",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional DCIM management of assets, power, energy and workflows with routine automation; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Automates Management of Assets, Power, Energy, & Workflows",
+      "Data Center Infrastructure Management (DCIM)"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_9f3e4b5de1cdcdc4ec2d8dd8",
+    "description_sha256": "8d1268d8ff8db4bd76f2937dd443292694f7600b8c88c8cbf9eb11b928c8becf",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional web application for cataloging circuit inventory and paying telecom invoices; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "used for cataloging and managing circuit inventory and paying invoices for IT-purposed telecom circuits"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_b34389c045536756ea7ce0bd",
+    "description_sha256": "e3f51b127a248f3eaaf0629aa720873682d7a28560655bd74b30062a49e42474",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Names only generic asset clarity and data management solutions and benefit claims; no AI signal appears, but no concrete conventional functionality is described, so the negative is weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "provides asset clarity and data management solutions to clients in construction, agriculture"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_7d51019b7ab0ac188c137bf5",
+    "description_sha256": "0040e3d003aeff8ad983f96a2f99da0a442c6c47da0ebcaf6ace727b0092f53d",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes planning, inventory and supply-chain bottleneck management, but forecasting and anticipation are prediction-type functions whose implementation the text does not establish, so the negative is weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "helps companies forecast sales and revenues",
+      "anticipate and address any supply chain bottlenecks"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_5eaad71971f498e62c22ff3d",
+    "description_sha256": "da152acd580270cee9fce2f3f3c57b8319eee4d1569a7438751b1cecec759770",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional cloud vendor management system for engaging, managing and paying external workers; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "cloud-based, open vendor management system (VMS)",
+      "helps organizations find, engage, manage, pay"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_c27fbb3d799ab75830ea5c00",
+    "description_sha256": "886c31aaa771297bbe5d79a147cd4e1715d2754114904ea4b333bcbddfc522c1",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Is a cost note rather than a software product description; no AI signal appears, but no software functionality is described, so the negative is weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Exception Correction - One time cost, do not think this is recurring"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_4a40a84df28695d446100c5c",
+    "description_sha256": "b50dd7bd32754697ac9c4ebc6563e76ff3bfae18f45347d4a465b8e7040bb6ec",
+    "ai_status": "ai",
+    "ai_type": "ai_native",
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": "weak",
+    "ai_type_forced_decision": true,
+    "rationale": "Automatic discovery and categorization of themes from transcribed calls is ML-like, but the text never explicitly states AI or learned models, so the positive is weak and forced.",
+    "ai_type_rationale": "The core speech analytics offering is the automatic discovery of themes and categories from transcripts; the text does not establish whether that depends on learned models, so the subtype is weak and forced.",
+    "evidence_spans": [
+      "transcribes 100% of recorded calls to automatically discover and analyze words, phrases, categories, and themes"
+    ],
+    "ai_type_evidence_spans": [
+      "transcribes 100% of recorded calls to automatically discover and analyze words, phrases, categories, and themes"
+    ]
+  },
+  {
+    "annotation_id": "ann_f796a5891e010cf09e812c0e",
+    "description_sha256": "5d474f826ea5fc9317939eebb71f03dbf8d41d5062f4b11ce371e48a22f96018",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional cloud business management system covering ERP/financials, CRM, ecommerce and inventory; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "helps companies manage core business processes with a single, fully integrated system covering ERP/financials, CRM, ecommerce, inventory and more"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_d0b54c33f65c325763dfbfad",
+    "description_sha256": "4fd5a932dd32fb14db5dd94c06b28814e08e2f2d80e8270ee1cda4d91148df39",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes prebuilt business intelligence applications drawing on enterprise data sources and resting on a BI foundation; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "are complete, prebuilt BI solutions that deliver intuitive, role-based intelligence throughout an organization"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_9df829bf633312ac491bdd13",
+    "description_sha256": "6b9b665c9b8a651901df9ed26181b2aabfc4bb4c54c1fb97b780211399883ee1",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional online bill payment, bill presentment and dispute adjudication capabilities; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "online bill payment, presentment and dispute adjudication capabilities"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_c798c50fed8128f9656ca5e6",
+    "description_sha256": "e5ef95550e0bf48fadcab2a427ae1b0741d7db79ad81d5628a4b9c32e98babaa",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional change management and data quality remediation workflows applied across systems; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "provides essential change management and data quality remediation workflows"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_8331689c27b7be6c0dd575c5",
+    "description_sha256": "da3f68e00c41b7f96af971e1da2fa9ebe7a684bd796e0e18044e1ad05b0e41f3",
+    "ai_status": "ai",
+    "ai_type": "ai_native",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "supported",
+    "ai_type_forced_decision": false,
+    "rationale": "The description explicitly calls the product an AI-powered outbound recruitment platform and names AI Sourcing as its sourcing function.",
+    "ai_type_rationale": "The described core offering is itself an AI-powered recruitment platform whose sourcing is stated as AI Sourcing, so the core depends on AI.",
+    "evidence_spans": [
+      "is an AI-powered outbound recruitment platform",
+      "Experience fast and simple AI Sourcing across 800M+ open web profiles"
+    ],
+    "ai_type_evidence_spans": [
+      "is an AI-powered outbound recruitment platform",
+      "Experience fast and simple AI Sourcing across 800M+ open web profiles"
+    ]
+  },
+  {
+    "annotation_id": "ann_2529092220d2dbd8502c03a0",
+    "description_sha256": "356f0967dde08e273e4b0e70ca644be842d281fc225ed7c1dea38ae80ef6449f",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional cloud document collaboration platform with information governance controls; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "enables users to create, access and collaborate on their business documents"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_91c2f5e8c6b1f9038bfed007",
+    "description_sha256": "68958981282fd9439084e47812ec5f84a9d6490f8f0fcc8de3a9783c269908f8",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional workspace provisioning, template and script administration, and bulk data management across document systems; no AI signal appears.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "provides a unified approach to creating and maintaining iManage workspaces, IRM physical records, and SharePoint sites",
+      "manage and update data in bulk"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_6ec3af5c8438ede595a8bc10",
+    "description_sha256": "8bd367d1e31811692ad2f5bc3c3938ed9d8249209c96a8eabd0aba3cde861065",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional pre-spend control and request/approval workflows, but 'budget insights and projected cost analysis' are unexplained analytics or prediction-type functions, so the negative is weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Pre-spend control, request and approval process for employee travel expense",
+      "providing budget insights and projected cost analysis"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_fe55b1f7eda504a09b17837e",
+    "description_sha256": "55e69eaee4008d7572c4dfa4fea7f1529c02657c8c6b7e10cb4d8d40d5e9f789",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes showcasing and managing incentives and communications in general terms; no AI signal appears, but the functionality is too vague to support a conventional-software negative, so it is weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Engagement platform to showcase/manage customer service incentives and employee communications"
+    ],
+    "ai_type_evidence_spans": null
+  }
+]

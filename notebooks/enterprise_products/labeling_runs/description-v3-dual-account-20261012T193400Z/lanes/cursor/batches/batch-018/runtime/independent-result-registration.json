@@ -1,0 +1,66 @@
+{
+  "batch_id": "batch-018",
+  "results_committed_before_comparison": true,
+  "roles": {
+    "labeler": {
+      "result_path": "agents/labeler/result.json",
+      "result_sha256": "d70b8b2609c78a45fa59ff2fa3df764a75afd4f085ca0e207d2802cc97429410",
+      "checkpoint_count": 20,
+      "checkpoint_sha256": {
+        "checkpoints/ann_e47bae695c4aeca4eba652ee.json": "c1466ba600c36200da7f288889e60e15d63df7eab8599375a0e1950ff765332e",
+        "checkpoints/ann_462457f8c803e7a0d3bc4824.json": "ede7c1a001a8306c7d69f0575e0a95f5287b976c7653b30fd4793218b061b72a",
+        "checkpoints/ann_affc31ae7ec1ecfafbc712ed.json": "121ca103a74dea48f84b84a43f2160536fb2e5a2fd21125d965c4a8d1d349e4f",
+        "checkpoints/ann_912c51241c876e285f71b997.json": "df971cf62d92810714751dcf767719f0df275499254bd5ec65d198ccd1be5e1f",
+        "checkpoints/ann_9e8e1f322a692686a9b3dbed.json": "0a8beca4767a864b5c128d27c38c3f6f5b382968307cd954bb62372e9d6589ea",
+        "checkpoints/ann_9f3e4b5de1cdcdc4ec2d8dd8.json": "b77ee072e85c9a2a17a7d0430b4b8648c041c4469a58c59d828872354a37ff0b",
+        "checkpoints/ann_b34389c045536756ea7ce0bd.json": "c3a1d481f7b11039ab66000ba96b608b3b567bde20e147422c25149957322b9e",
+        "checkpoints/ann_7d51019b7ab0ac188c137bf5.json": "6307497d7943cbfcc3de26b6d23d32974c52a609e0d647b2a5a077e0c20e298a",
+        "checkpoints/ann_5eaad71971f498e62c22ff3d.json": "5971d9c120b147cc12585fd6ccc6937044edaf84a3f125285fb9c52aa800c16a",
+        "checkpoints/ann_c27fbb3d799ab75830ea5c00.json": "645d1246c57c0c7219d9b96754b7955d3e73482c118dbb38779f0c2cb0002f26",
+        "checkpoints/ann_4a40a84df28695d446100c5c.json": "53066a9b23814d16f80c98d0aeaf3a74a8e4261c0f59431b753cf27e4b562244",
+        "checkpoints/ann_f796a5891e010cf09e812c0e.json": "d7f0666fef80e30ca190cf4ef5ebb2821bea118a76754d0d60928370b754ac37",
+        "checkpoints/ann_d0b54c33f65c325763dfbfad.json": "3ddffa6999d49b0d1f7cb601612174d11cf50fea5f7cf32b0b760214d279b9ba",
+        "checkpoints/ann_9df829bf633312ac491bdd13.json": "d743a604dbe72802cc2eef527cc0eb44ca57a5442ebe1db74d081e4da9dc020c",
+        "checkpoints/ann_c798c50fed8128f9656ca5e6.json": "b11631691b20ba87ea4092c3414f82267045fbd4b4ce19755329a362ef23f147",
+        "checkpoints/ann_8331689c27b7be6c0dd575c5.json": "4c57030f1f6379627b68fe5926c4ced1b33ddd42bf1e5ca79f75e95ce1ffabc2",
+        "checkpoints/ann_2529092220d2dbd8502c03a0.json": "5eaa63a4e8ada2ba58a3662397e7307612824af06cd0ed1a147155d150248b20",
+        "checkpoints/ann_91c2f5e8c6b1f9038bfed007.json": "be6087a20205a55ab3faa3247f9d335706ab5f0466498830f2e2aec1c74c84c8",
+        "checkpoints/ann_6ec3af5c8438ede595a8bc10.json": "f380f3fc3e166991b7b5e3013b1e8cad965147af9cdd406fbfbd8ab991cd4ee1",
+        "checkpoints/ann_fe55b1f7eda504a09b17837e.json": "0fffd735e7292d80b5c5b2e1e424f6314cdaaa33af568a5011840019cde4c4b9"
+      },
+      "private_result_checkpoint_exact_equality": true,
+      "coverage_exact": true,
+      "schema_and_exact_quotes_validated": true
+    },
+    "blind": {
+      "result_path": "agents/blind/result.json",
+      "result_sha256": "a665ec0ceda7acaf7536e28a9f51ff72f9ca3f964f77b5e86f4bfb1e2f21e2c3",
+      "checkpoint_count": 20,
+      "checkpoint_sha256": {
+        "checkpoints/ann_e47bae695c4aeca4eba652ee.json": "eb11f3e0aa5065734f9ac8df2e3e4ed5ce9597a1e8926ce5a431e9d5b3a555f5",
+        "checkpoints/ann_462457f8c803e7a0d3bc4824.json": "5b0a610e46640d19b0ece2fc05b40dd04ba86f4f38088de8a740509d1745ee30",
+        "checkpoints/ann_affc31ae7ec1ecfafbc712ed.json": "5110371f356b67f4516be23e9769d1a83d135ac9dfeaba50b71e2aae116a6205",
+        "checkpoints/ann_912c51241c876e285f71b997.json": "9a0ed959362013b215bf977a86eb8e5005477c6e11bade6a2624adeaf28e3037",
+        "checkpoints/ann_9e8e1f322a692686a9b3dbed.json": "b593f22914a044746877f073d41155cd07cbf0e4e372f14a76beb5461665093d",
+        "checkpoints/ann_9f3e4b5de1cdcdc4ec2d8dd8.json": "671f6f9b51d02223fb73eea1f4b6944e5d6eeec2fbd59039bb46c10237e54837",
+        "checkpoints/ann_b34389c045536756ea7ce0bd.json": "2addbeab9d084fad0eb81a3b012e7722e6f0ced5b539cfe9637828835c9660cf",
+        "checkpoints/ann_7d51019b7ab0ac188c137bf5.json": "cacb3deb44941f1c48cfb52d867be5ed7fb69ffb9ba0cdea3671dbb15cc8e377",
+        "checkpoints/ann_5eaad71971f498e62c22ff3d.json": "4bcfd25a01bcb21c31c296be941753a44e110319c267ea4d0a705a72c8690e8e",
+        "checkpoints/ann_c27fbb3d799ab75830ea5c00.json": "e58ec09169e615ce54f487686a9debaf81cc77f536032f608136a742327a2167",
+        "checkpoints/ann_4a40a84df28695d446100c5c.json": "2541242b7f649dfa76a92bd7af4ea8aedba39d6b1332a12b821491516352ba0a",
+        "checkpoints/ann_f796a5891e010cf09e812c0e.json": "9eaf0df4a0067657a3fe838adda4b6788246c16747ba18ec7dfffaea8e7d49d3",
+        "checkpoints/ann_d0b54c33f65c325763dfbfad.json": "21c7a595b3d658be07dd48bc4796cded522677f2efc182a8954ba225af659609",
+        "checkpoints/ann_9df829bf633312ac491bdd13.json": "2a0964fb6574bc959997b2923494661c7fd3fa6b84ce8de254f7392b1bea9816",
+        "checkpoints/ann_c798c50fed8128f9656ca5e6.json": "84600d6c1a30faddae9263f3a040c6f01ee66d8e43eaffdbe66c49093404ea3f",
+        "checkpoints/ann_8331689c27b7be6c0dd575c5.json": "9c601db87ad6fe066835abcbd8473524724d88071a58fd1d0c494c746778f39f",
+        "checkpoints/ann_2529092220d2dbd8502c03a0.json": "8e474750e7a5a411e6d86423e28f24468a1651c17102f327e4524d5be3f39e0b",
+        "checkpoints/ann_91c2f5e8c6b1f9038bfed007.json": "832d78c14e6d7e09ebd1513c8ff6d255ca9251c85c262d4a49f7d72d8e0b4335",
+        "checkpoints/ann_6ec3af5c8438ede595a8bc10.json": "412d766480915ec74ab2c1a1981ad3466248892ecb5eb25939345a011cc7c20e",
+        "checkpoints/ann_fe55b1f7eda504a09b17837e.json": "18c8f05e78a59e7c820b2289d2ee20c108d487e0ce29f06c89a86402cd52f8ef"
+      },
+      "private_result_checkpoint_exact_equality": true,
+      "coverage_exact": true,
+      "schema_and_exact_quotes_validated": true
+    }
+  }
+}
