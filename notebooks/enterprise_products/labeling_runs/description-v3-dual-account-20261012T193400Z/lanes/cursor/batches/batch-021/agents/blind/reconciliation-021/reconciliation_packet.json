@@ -1,0 +1,280 @@
+[
+  {
+    "annotation_id": "ann_1823eb72d7c77ba3a1d2a859",
+    "description_sha256": "29dde6c979637cb2e971cbb2a52394c386bd66765b6f28005d42ed8af061b8b8",
+    "description": "LeanIX backs your Enterprise Architecture to leverage technology, make decisions, and manage change with our outcome-driven approach. The flexible, best practice data model is the foundation to meet all future business challenges.",
+    "labeler_proposal": {
+      "annotation_id": "ann_1823eb72d7c77ba3a1d2a859",
+      "description_sha256": "29dde6c979637cb2e971cbb2a52394c386bd66765b6f28005d42ed8af061b8b8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes enterprise architecture management and a data model at a high marketing level. Functions are generic and not concrete. No AI signal, so non_ai is best-supported but weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "LeanIX backs your Enterprise Architecture to leverage technology, make decisions, and manage change with our outcome-driven approach.",
+        "The flexible, best practice data model is the foundation to meet all future business challenges."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_1823eb72d7c77ba3a1d2a859",
+      "description_sha256": "29dde6c979637cb2e971cbb2a52394c386bd66765b6f28005d42ed8af061b8b8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description presents enterprise architecture data modeling for technology decisions and change management, without an affirmative AI or ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The flexible, best practice data model is the foundation to meet all future business challenges."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_support_concern": "Generic enterprise-architecture/data-model claims lack meaningful function detail; labeler weak vs blind supported; routed by helper."
+  },
+  {
+    "annotation_id": "ann_696906b4632c24116763c30f",
+    "description_sha256": "c189f62cd82c5245611836036d25b4460385e9f4860f02ca6d2f08d8d326f6dc",
+    "description": "BinBase.com provides merchant solutions for reducing credit card losses, and offers law\nenforcement agency support for Bank Identification Number information.",
+    "labeler_proposal": {
+      "annotation_id": "ann_696906b4632c24116763c30f",
+      "description_sha256": "c189f62cd82c5245611836036d25b4460385e9f4860f02ca6d2f08d8d326f6dc",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes Bank Identification Number information support and merchant loss-reduction solutions. The loss-reduction mechanism is unspecified and could be rules-based or model-based, so the non-AI negative is weak. No explicit AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides merchant solutions for reducing credit card losses",
+        "support for Bank Identification Number information"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_696906b4632c24116763c30f",
+      "description_sha256": "c189f62cd82c5245611836036d25b4460385e9f4860f02ca6d2f08d8d326f6dc",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers merchant solutions for reducing credit card losses and support for Bank Identification Number information, without an affirmative AI or ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides merchant solutions for reducing credit card losses",
+        "law\nenforcement agency support for Bank Identification Number information"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_support_concern": "Credit-card-loss reduction mechanism is unspecified; labeler weak vs blind supported; routed by helper."
+  },
+  {
+    "annotation_id": "ann_8e35824efe8f820e69bc81db",
+    "description_sha256": "ca39f26c72b72d6db6739f3589225645848e5afbf02da228f2586988dc76f79f",
+    "description": "The solution provides in-application help and e-learning content to users. And with the SAP Companion service as an interface for SAP Enable Now, you can deliver that assistance intelligently.",
+    "labeler_proposal": {
+      "annotation_id": "ann_8e35824efe8f820e69bc81db",
+      "description_sha256": "ca39f26c72b72d6db6739f3589225645848e5afbf02da228f2586988dc76f79f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Described functions are conventional in-application help and e-learning content. 'Deliver that assistance intelligently' is an undefined claim that does not establish learned or AI functionality, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The solution provides in-application help and e-learning content to users.",
+        "you can deliver that assistance intelligently."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_8e35824efe8f820e69bc81db",
+      "description_sha256": "ca39f26c72b72d6db6739f3589225645848e5afbf02da228f2586988dc76f79f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description clearly names in-application help and e-learning, but the unexplained phrase \"deliver that assistance intelligently\" is ambiguous and does not establish AI or ML.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "in-application help and e-learning content to users",
+        "deliver that assistance intelligently"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_support_concern": "In-application help/e-learning are concrete; unexplained “deliver assistance intelligently” is a material potential-AI ambiguity; both weak and routed."
+  },
+  {
+    "annotation_id": "ann_8f2c2b28c7a237b0e8032a4c",
+    "description_sha256": "78324915c4db4208e1a6a7b50624061ed34bda6b49c3050b5e19eba68cfb4e25",
+    "description": "GovernX gives you the power to manage your entire portfolio of contracts, continuously monitor and evaluate performance, risks and issues, integrating seamlessly with your financial, procurement and other business applications. Advanced analytics and automation.",
+    "labeler_proposal": {
+      "annotation_id": "ann_8f2c2b28c7a237b0e8032a4c",
+      "description_sha256": "78324915c4db4208e1a6a7b50624061ed34bda6b49c3050b5e19eba68cfb4e25",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes contract portfolio management, performance and risk monitoring, and integration with business applications, which are conventional functions. 'Advanced analytics' is an unexplained analytics claim whose implementation is not established, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "manage your entire portfolio of contracts",
+        "continuously monitor and evaluate performance, risks and issues",
+        "Advanced analytics and automation."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_8f2c2b28c7a237b0e8032a4c",
+      "description_sha256": "78324915c4db4208e1a6a7b50624061ed34bda6b49c3050b5e19eba68cfb4e25",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers contract portfolio management, performance and risk monitoring, integrations, analytics, and routine automation without an affirmative AI or ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "manage your entire portfolio of contracts, continuously monitor and evaluate performance, risks and issues",
+        "Advanced analytics and automation."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_support_concern": "Advanced analytics is not method-specific; labeler weak vs blind supported; routed by helper."
+  },
+  {
+    "annotation_id": "ann_b5dc6093878e8f6bbf9afd59",
+    "description_sha256": "04b126654fe1fd798bb7dc39bf7835a9bd576bfb54ebef1cc1f7444a20607637",
+    "description": "SAP National Security Service Inc support contract",
+    "labeler_proposal": {
+      "annotation_id": "ann_b5dc6093878e8f6bbf9afd59",
+      "description_sha256": "04b126654fe1fd798bb7dc39bf7835a9bd576bfb54ebef1cc1f7444a20607637",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text only names a support contract. No software functionality is described and no AI signal is present, so the negative is forced by insufficient description.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "SAP National Security Service Inc support contract"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_b5dc6093878e8f6bbf9afd59",
+      "description_sha256": "04b126654fe1fd798bb7dc39bf7835a9bd576bfb54ebef1cc1f7444a20607637",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description is a support contract reference and does not describe AI, ML, or any potentially AI-dependent functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "support contract"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_support_concern": "Support-contract-only description lacks software functionality; blind supported negative is insufficiently grounded; routed by helper."
+  },
+  {
+    "annotation_id": "ann_d519f9d61de36ae3aca61c66",
+    "description_sha256": "1350de8e0e2e27288511a1710f64b88d7e4d2ede4c4fd8410caa33597bef428d",
+    "description": "SAP Cloud Application Services provides a wide range of services for managing business process and application logic, data layers, application security, software releases, performance, integrations, and more through a subscription. SAP Cloud for Service C4S. Sales and Service Cloud Test Tenant is the testing environment for SAP Service Cloud. Test Tenant is an additional $154,125",
+    "labeler_proposal": {
+      "annotation_id": "ann_d519f9d61de36ae3aca61c66",
+      "description_sha256": "1350de8e0e2e27288511a1710f64b88d7e4d2ede4c4fd8410caa33597bef428d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Lists conventional cloud application-management services (security, releases, integrations, test tenant), but the scope is vague and mixed with a pricing fragment, so the negative is weak. No AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides a wide range of services for managing business process and application logic, data layers, application security, software releases, performance, integrations, and more",
+        "Test Tenant is the testing environment for SAP Service Cloud"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_d519f9d61de36ae3aca61c66",
+      "description_sha256": "1350de8e0e2e27288511a1710f64b88d7e4d2ede4c4fd8410caa33597bef428d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers managed business processes, application logic, data, security, releases, performance, integrations, and a test tenant, all conventional cloud application services without an affirmative AI or ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "managing business process and application logic, data layers, application security, software releases, performance, integrations, and more through a subscription."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_support_concern": "Broad cloud management/service list with mixed test-tenant/pricing fragments; labeler weak vs blind supported; routed by helper."
+  },
+  {
+    "annotation_id": "ann_ef3cfd084619840e5d5f98ae",
+    "description_sha256": "f2a8398b6667a0653bcf922541da6e4cae658e7e725a19676fe835b18b6c9059",
+    "description": "Activation fee for RF ID on Fios Vehicles real time visibility for vehicles. Asset tracking system. Inventory control. trucks that have certain types of material. 1 year warranty 17.35 per vehicle. Pricing locked in through 2020. Helps make decisions of where inventory needs to go. MA 00565-2017. \nI-Connect Devices allow you to track items with Bluetooth and RFID tags.\nRTLS/GPS tags allow you to track items with Satellite or LTE network.",
+    "labeler_proposal": {
+      "annotation_id": "ann_ef3cfd084619840e5d5f98ae",
+      "description_sha256": "f2a8398b6667a0653bcf922541da6e4cae658e7e725a19676fe835b18b6c9059",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional asset tracking via RFID, Bluetooth and GPS tags, plus inventory control. The decision-making claim is unexplained and the text is fragmented with pricing and contract fragments, so the negative is weak. No AI mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Asset tracking system. Inventory control.",
+        "Helps make decisions of where inventory needs to go.",
+        "RTLS/GPS tags allow you to track items with Satellite or LTE network."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_ef3cfd084619840e5d5f98ae",
+      "description_sha256": "f2a8398b6667a0653bcf922541da6e4cae658e7e725a19676fe835b18b6c9059",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers RFID, Bluetooth, GPS, satellite, LTE, asset tracking, inventory control, and location-based decisions, which is conventional tracking functionality without an affirmative AI or ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "I-Connect Devices allow you to track items with Bluetooth and RFID tags.",
+        "RTLS/GPS tags allow you to track items with Satellite or LTE network."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_support_concern": "RFID/Bluetooth/GPS tracking is conventional, but “helps make decisions” mechanism is unexplained in fragmented text; labeler weak vs blind supported; routed by helper."
+  }
+]

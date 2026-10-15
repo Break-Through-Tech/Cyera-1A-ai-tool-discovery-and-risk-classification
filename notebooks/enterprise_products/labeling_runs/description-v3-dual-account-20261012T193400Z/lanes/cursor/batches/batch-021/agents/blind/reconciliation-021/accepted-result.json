@@ -1,0 +1,130 @@
+[
+  {
+    "annotation_id": "ann_1823eb72d7c77ba3a1d2a859",
+    "description_sha256": "29dde6c979637cb2e971cbb2a52394c386bd66765b6f28005d42ed8af061b8b8",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text refers to enterprise architecture and a data model, but its generic marketing claims do not provide enough concrete functionality to support a non-AI judgment strongly.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "LeanIX backs your Enterprise Architecture to leverage technology, make decisions, and manage change with our outcome-driven approach.",
+      "The flexible, best practice data model is the foundation to meet all future business challenges."
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler's weak/forced concern is accepted: the text has conventional enterprise-architecture wording but remains too generic to establish meaningful functionality. The blind supported judgment is therefore changed to non_ai weak/forced; no affirmative AI signal appears."
+  },
+  {
+    "annotation_id": "ann_696906b4632c24116763c30f",
+    "description_sha256": "c189f62cd82c5245611836036d25b4460385e9f4860f02ca6d2f08d8d326f6dc",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text describes merchant loss-reduction solutions and Bank Identification Number support, but does not explain whether loss reduction is rules-based, model-based, or another mechanism.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "provides merchant solutions for reducing credit card losses",
+      "law\nenforcement agency support for Bank Identification Number information"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The unspecified loss-reduction mechanism is a material ambiguity under the description-only rubric. The labeler's weak/forced negative is retained; the blind supported negative is not strong enough because the text does not establish how the solution works, and no affirmative AI signal is present."
+  },
+  {
+    "annotation_id": "ann_8e35824efe8f820e69bc81db",
+    "description_sha256": "ca39f26c72b72d6db6739f3589225645848e5afbf02da228f2586988dc76f79f",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text concretely describes in-application help and e-learning, but the unexplained claim that assistance is delivered intelligently does not establish AI or ML.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "The solution provides in-application help and e-learning content to users.",
+      "you can deliver that assistance intelligently."
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "Both proposals correctly retain non_ai weak/forced. The concrete help and e-learning functions support the conventional side, while \"you can deliver that assistance intelligently\" is a material but unexplained potential-AI ambiguity; agreement does not convert it to supported."
+  },
+  {
+    "annotation_id": "ann_8f2c2b28c7a237b0e8032a4c",
+    "description_sha256": "78324915c4db4208e1a6a7b50624061ed34bda6b49c3050b5e19eba68cfb4e25",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text clearly describes contract management, monitoring, integrations, and automation, but the unexplained claim of advanced analytics leaves the implementation ambiguous.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "manage your entire portfolio of contracts",
+      "continuously monitor and evaluate performance, risks and issues",
+      "Advanced analytics and automation."
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler's weak/forced concern is accepted because \"Advanced analytics\" is not method-specific and could conceal an unexplained AI-dependent function. The conventional contract-management text supports non_ai as the best binary judgment, but the blind supported status is reduced to weak/forced."
+  },
+  {
+    "annotation_id": "ann_b5dc6093878e8f6bbf9afd59",
+    "description_sha256": "04b126654fe1fd798bb7dc39bf7835a9bd576bfb54ebef1cc1f7444a20607637",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text only identifies a support contract and supplies no software functionality from which a supported non-AI judgment can be established.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "SAP National Security Service Inc support contract"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler's weak/forced concern is accepted: a support-contract-only description lacks meaningful functionality evidence. The blind supported negative is changed to non_ai weak/forced; the text contains no affirmative AI signal but is too sparse for a supported negative."
+  },
+  {
+    "annotation_id": "ann_d519f9d61de36ae3aca61c66",
+    "description_sha256": "1350de8e0e2e27288511a1710f64b88d7e4d2ede4c4fd8410caa33597bef428d",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description meaningfully enumerates conventional cloud application-management functions including business processes, application logic, data, security, releases, performance, integrations, and a test tenant; the pricing fragment does not add an AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "provides a wide range of services for managing business process and application logic, data layers, application security, software releases, performance, integrations, and more through a subscription.",
+      "Test Tenant is the testing environment for SAP Service Cloud"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler's breadth and pricing-fragment concern was reviewed against the text. Despite the mixed wording, the listed functions are concrete conventional cloud services and the test-tenant statement is clear; the fragment does not create unresolved AI ambiguity, so the blind supported non_ai judgment is retained."
+  },
+  {
+    "annotation_id": "ann_ef3cfd084619840e5d5f98ae",
+    "description_sha256": "f2a8398b6667a0653bcf922541da6e4cae658e7e725a19676fe835b18b6c9059",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text explicitly describes conventional asset tracking, inventory control, and RFID, Bluetooth, GPS, satellite, and LTE tags; the generic decision-making phrase does not establish AI.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Asset tracking system. Inventory control.",
+      "Helps make decisions of where inventory needs to go.",
+      "I-Connect Devices allow you to track items with Bluetooth and RFID tags.",
+      "RTLS/GPS tags allow you to track items with Satellite or LTE network."
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The fragmented pricing and contract text was reviewed, but the core tracking functions are explicit and conventional. \"Helps make decisions of where inventory needs to go\" does not identify prediction, learning, or another AI mechanism; therefore the blind supported non_ai judgment is retained rather than treating a generic phrase as unresolved AI evidence."
+  }
+]

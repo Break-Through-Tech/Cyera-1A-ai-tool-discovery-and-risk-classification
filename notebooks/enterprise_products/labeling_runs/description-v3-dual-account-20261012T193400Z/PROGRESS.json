@@ -1,32 +1,31 @@
 {
   "status": "active",
-  "updated_at": "2026-10-15T14:33:03.361041+00:00",
+  "updated_at": "2026-10-15T14:50:29.649352+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
-  "new_completed_descriptions": 760,
-  "new_completed_rows": 769,
-  "cumulative_finalized_descriptions": 920,
-  "cumulative_finalized_rows": 943,
-  "remaining_descriptions": 471,
-  "remaining_rows": 495,
+  "new_completed_descriptions": 800,
+  "new_completed_rows": 810,
+  "cumulative_finalized_descriptions": 960,
+  "cumulative_finalized_rows": 984,
+  "remaining_descriptions": 431,
+  "remaining_rows": 454,
   "annotation_workers_max": 4,
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
   "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
-  "cursor_status": "001\u2013020 parent accepted; retained coordinator preparing021then022; freshpane request pending.",
-  "codex_status": "001\u2013018 finalized;019 actual40 independent results validated and all20pairs parent-reviewed;8-ID originalblind reconciliation active.",
-  "codex_active_workers": 1,
+  "cursor_status": "001\u2013021 parent accepted;022 freshnativepairp1S/T launched/preparing underretainedowner.",
+  "codex_status": "001\u2013019 finalized;020 fresh independent20descriptions21rows pairactive.",
+  "codex_active_workers": 2,
   "cursor_live_worker_state": "Retained coordinator f98dcb8d active; original019 Luna resumed on new pane p1M.",
   "active_runs": {
     "cursor_panes": [
-      "wF:p1N",
-      "wF:p1P"
+      "wF:p1S",
+      "wF:p1T"
     ],
     "cursor_integration_owner": "0e8cc295-65d0-4e84-b9e6-ad8edec13438",
-    "codex_independent_workflow": "4a152ed7-22f1-4be9-a50b-d3cf94cba7b4",
-    "codex_reconciliation_workflow": "2cb261a2-553c-4c0c-83ad-e4336f8579d5"
+    "codex_independent_workflow": "1711e81e-9b3c-463c-b602-0ab8928ed713"
   },
   "native_resume_receipt": "runtime/NATIVE_RESUME_AFTER_RESET_20261015.json",
-  "active_workers": 1,
+  "active_workers": 4,
   "blocker": null
 }

@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_8f2c2b28c7a237b0e8032a4c",
+  "description_sha256": "78324915c4db4208e1a6a7b50624061ed34bda6b49c3050b5e19eba68cfb4e25",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The text clearly describes contract management, monitoring, integrations, and automation, but the unexplained claim of advanced analytics leaves the implementation ambiguous.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "manage your entire portfolio of contracts",
+    "continuously monitor and evaluate performance, risks and issues",
+    "Advanced analytics and automation."
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The labeler's weak/forced concern is accepted because \"Advanced analytics\" is not method-specific and could conceal an unexplained AI-dependent function. The conventional contract-management text supports non_ai as the best binary judgment, but the blind supported status is reduced to weak/forced."
+}

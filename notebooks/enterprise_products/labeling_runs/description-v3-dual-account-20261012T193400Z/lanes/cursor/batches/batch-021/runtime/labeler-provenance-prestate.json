@@ -1,0 +1,40 @@
+{
+  "batch_id": "batch-021",
+  "role": "labeler",
+  "reason": "single invalid description_sha256 on ann_47f1342c80d8494bd275e4bb",
+  "structural_only": true,
+  "recovery_count": 0,
+  "backup_paths": {
+    "result": "batches/batch-021/runtime/pre-recovery-raw/labeler-provenance/result.json",
+    "checkpoints": "batches/batch-021/runtime/pre-recovery-raw/labeler-provenance/checkpoints/"
+  },
+  "raw_result_sha256": "15aa83265dc36e6514e158a2bfeadb12cd220c8ec2668643bde913dca6925f54",
+  "checkpoint_count": 20,
+  "checkpoint_sha256": {
+    "ann_007be2b81d261c922052501d.json": "deb4add472fe708f1998a61254349f93ec25a8cfc60b0947738741e3c2b6d08c",
+    "ann_1823eb72d7c77ba3a1d2a859.json": "fc254db8728384ce768db76b1b6bd6a55baaf81f8bdf6f25e5e818d235d65441",
+    "ann_38511624a427f2b2b83c0454.json": "978c1ae0dfc11e95d43bf2b8a64d2049432b651f58220c860d1fccfbee1e16f1",
+    "ann_38f68f00899ce708acd51371.json": "8df515ca758f81ec25c64c940e57ad42f0194a2366535c21e527d6438a1f0df8",
+    "ann_3d0f3aaa26d2d8a8737b2e41.json": "7123dec2fca8ebe5b749acd29c040cec79f9fe2688d6b44f8820709f9f9a4422",
+    "ann_47f1342c80d8494bd275e4bb.json": "d2e2e18f6159b94da016420b8c6da43eedad49df79db0f9915757ec296fd09a2",
+    "ann_696906b4632c24116763c30f.json": "460f5945156011b2585ccfe48d869b88e09a1de1258ebf6b1d13547c27992396",
+    "ann_8e35824efe8f820e69bc81db.json": "1cc3d430ecdd707cf710349e328bed38c688fca962d965355dd0b71cedaf4468",
+    "ann_8f2c2b28c7a237b0e8032a4c.json": "3163aba2660f4ccff9e5d713412b117bdc50d9379548fd16f95bf72e3052c836",
+    "ann_9dd2136a82699018b4ee0453.json": "82640b44c89c095690f0463745dea1cb3f5d5296b09b50fef96629c5a97bdb14",
+    "ann_b5dc6093878e8f6bbf9afd59.json": "c3b432c1e80c9e021651e4cd2470c5f69cf669ab2cc21e491a73964e4ce8bfe5",
+    "ann_cbe6aea653721cbf89d1bf6d.json": "508bc3ea53f359a269227e2779daba81bde591c48e196a407ec1a60cf14a5b92",
+    "ann_d519f9d61de36ae3aca61c66.json": "fe7a91da267cfc015c217eb6471ea144117e93c375e8c063cc6ce6eafafbab0d",
+    "ann_d97c88e02e4624cb6b8848eb.json": "8230ada30795fdd2ca4b7c4fad6f58478ee267f0ea345abe589f0194ce9c083a",
+    "ann_db5977f177906f40e4d23539.json": "e0cae970603701e702e62dbe99196657927d45940b9af3af2049cb6fbb3a5191",
+    "ann_e76cd32699aa5a59d9f83e99.json": "bdbf2df44d290218adfc43d3c659cfbeea51bdabc2a0a2fd12c4d3e808a3293e",
+    "ann_e82aa552ad4d1d5a9a92f6ce.json": "54a8ace3f425fa28e647059c7e4b2d6a0bcd24e1e7fe53af6ee39d9f69cda05d",
+    "ann_ec227d52a860f557c78b0717.json": "bc1947818fc618f7c7ede9a4b5d120dca485438f86bafc9569fca7de6f717ef8",
+    "ann_ef3cfd084619840e5d5f98ae.json": "0d7b4e255b7fd2963d1ec1be35d85fb1e88da410b8f9f5f7849d4607de7f6198",
+    "ann_efc88fe3c56a4b30aec5ebbc.json": "61ded7bb189af68f7eb98d553d170653c52331d0c8cc71a2eba8b0a3ad962227"
+  },
+  "bad_annotation_id": "ann_47f1342c80d8494bd275e4bb",
+  "bad_field": "description_sha256",
+  "observed_hash": "94a9e31e4d2e77bd2824eca33f871dd4d5f47b808df5c8eb973654feb14143ed",
+  "expected_hash": "791bee2931bf3cc4ae835dbb0e075567b1754aa342d4d2fffe3375fc42a19a43",
+  "all_other_fields_pending_recovery_diff_check": true
+}

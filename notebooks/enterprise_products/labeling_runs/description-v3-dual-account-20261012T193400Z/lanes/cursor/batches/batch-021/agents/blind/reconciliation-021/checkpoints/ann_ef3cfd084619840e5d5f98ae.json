@@ -1,0 +1,20 @@
+{
+  "annotation_id": "ann_ef3cfd084619840e5d5f98ae",
+  "description_sha256": "f2a8398b6667a0653bcf922541da6e4cae658e7e725a19676fe835b18b6c9059",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The text explicitly describes conventional asset tracking, inventory control, and RFID, Bluetooth, GPS, satellite, and LTE tags; the generic decision-making phrase does not establish AI.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "Asset tracking system. Inventory control.",
+    "Helps make decisions of where inventory needs to go.",
+    "I-Connect Devices allow you to track items with Bluetooth and RFID tags.",
+    "RTLS/GPS tags allow you to track items with Satellite or LTE network."
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The fragmented pricing and contract text was reviewed, but the core tracking functions are explicit and conventional. \"Helps make decisions of where inventory needs to go\" does not identify prediction, learning, or another AI mechanism; therefore the blind supported non_ai judgment is retained rather than treating a generic phrase as unresolved AI evidence."
+}

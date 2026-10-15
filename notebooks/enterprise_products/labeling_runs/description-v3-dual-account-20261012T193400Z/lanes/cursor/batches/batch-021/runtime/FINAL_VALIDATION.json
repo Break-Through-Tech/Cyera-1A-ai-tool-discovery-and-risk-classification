@@ -1,0 +1,55 @@
+{
+  "batch_id": "batch-021",
+  "status": "finalized_pending_parent_independent_acceptance",
+  "frozen_plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "selected_descriptions": 20,
+  "selected_source_rows": 21,
+  "exact_plan_hash_all_source_references": true,
+  "precomparison_result_registration": "runtime/independent-result-registration.json",
+  "labeler_result_sha256": "94e930111c751061f63d6d4fc2aa99c43f0f368aac50eeb5616dc2dd8165d991",
+  "labeler_original_raw_result_sha256": "15aa83265dc36e6514e158a2bfeadb12cd220c8ec2668643bde913dca6925f54",
+  "blind_result_sha256": "58b0cd794974139a1e9b8312fa6dffb3079a85baf064d6813d13496c81d62cd3",
+  "all20_pairs_reviewed": "runtime/pair-review.json",
+  "helper_required_reconciliation_ids": [
+    "ann_1823eb72d7c77ba3a1d2a859",
+    "ann_696906b4632c24116763c30f",
+    "ann_8e35824efe8f820e69bc81db",
+    "ann_8f2c2b28c7a237b0e8032a4c",
+    "ann_b5dc6093878e8f6bbf9afd59",
+    "ann_d519f9d61de36ae3aca61c66",
+    "ann_ef3cfd084619840e5d5f98ae"
+  ],
+  "additional_support_concern_ids": [],
+  "reconciliation_ids": [
+    "ann_1823eb72d7c77ba3a1d2a859",
+    "ann_696906b4632c24116763c30f",
+    "ann_8e35824efe8f820e69bc81db",
+    "ann_8f2c2b28c7a237b0e8032a4c",
+    "ann_b5dc6093878e8f6bbf9afd59",
+    "ann_d519f9d61de36ae3aca61c66",
+    "ann_ef3cfd084619840e5d5f98ae"
+  ],
+  "reconciliation_result_sha256": "426d2c9f5d4cb0a366abbb8311dc4a47b389d4ee47d8824833160547a690ee35",
+  "reconciliation_same_original_blind_uuid": "98e24180-02a0-4d9d-85ba-d58637fddd18",
+  "reconciliation_all7_reviewed": "runtime/reconciliation-semantic-review.json",
+  "reconciliation_count": 7,
+  "binary_weak_count": 5,
+  "subtype_weak_count": 0,
+  "trusted_negative_rows": 16,
+  "structural_recovery": "One provenance-only description_sha256 correction for ann_47f1342c80d8494bd275e4bb; exact one field in result/checkpoint, all valid labels unchanged. Raw result and20 original checkpoints preserved in runtime/pre-recovery-raw/labeler-provenance/. Receipt runtime/labeler-structural-recovery-validation.json.",
+  "exports": {
+    "description_labels.json": "1ca6ec5d4caf0c690fbbb3bb3c14dee2ede8a1d591d1057a791edb79ab0f2027",
+    "record_labels.json": "d1db8361a7f31382134bf14c574a7ee87aea6474a985ba595826a216bd043b45",
+    "review_ledger.json": "5ab8a23af5bfaa9fd412d2119d11e0b919ca9eddd2ca6cc47e94f55a2ae4b45b",
+    "review_queue.json": "f28dc6bafec6cafa2c05f491a1abf896223cd0e8d930a2f071d872c5fad8ecc9",
+    "non_ai_candidates.csv": "6bcd82984fd7e0f14543001eda745cc379f066a22c5107790f2145c23c6023e2",
+    "calibration_report.json": "c46cb6732b122f094d1a7c6c96a1efb4b3164e450ad6d9476e5901d82dc23432"
+  },
+  "manifest_sha256": "f4bccf8a037508f04593e1571c7e3d3e4417a478414b4e15efd99c6a79d28d76",
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s notebooks/enterprise_products -p 'test_*.py' (from repository root)",
+    "result": "36 passed"
+  },
+  "scope": "No prior batches modified. Parent acceptance pending. Parent owns global/Git; no Codex files touched."
+}

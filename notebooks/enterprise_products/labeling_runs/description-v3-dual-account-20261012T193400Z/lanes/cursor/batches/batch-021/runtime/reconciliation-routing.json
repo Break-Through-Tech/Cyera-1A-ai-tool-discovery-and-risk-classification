@@ -1,0 +1,46 @@
+{
+  "batch_id": "batch-021",
+  "reviewed_all_pairs": true,
+  "pair_count": 20,
+  "helper_required_ids": [
+    "ann_1823eb72d7c77ba3a1d2a859",
+    "ann_696906b4632c24116763c30f",
+    "ann_8e35824efe8f820e69bc81db",
+    "ann_8f2c2b28c7a237b0e8032a4c",
+    "ann_b5dc6093878e8f6bbf9afd59",
+    "ann_d519f9d61de36ae3aca61c66",
+    "ann_ef3cfd084619840e5d5f98ae"
+  ],
+  "additional_support_concern_ids": [],
+  "reconciliation_ids": [
+    "ann_1823eb72d7c77ba3a1d2a859",
+    "ann_696906b4632c24116763c30f",
+    "ann_8e35824efe8f820e69bc81db",
+    "ann_8f2c2b28c7a237b0e8032a4c",
+    "ann_b5dc6093878e8f6bbf9afd59",
+    "ann_d519f9d61de36ae3aca61c66",
+    "ann_ef3cfd084619840e5d5f98ae"
+  ],
+  "agreement_is_not_validation": true,
+  "integration_owner_did_not_relabel": true,
+  "evidence_boundary": "Exact frozen descriptions only; no outside evidence.",
+  "stage_receipt": {
+    "stage": "reconciliation",
+    "run_id": "batch-021",
+    "batch_id": "batch-021",
+    "rubric_id": "enterprise-description-only-v3",
+    "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+    "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+    "model_id": "gpt-5.6-luna-high",
+    "assigned_annotation_ids": [
+      "ann_1823eb72d7c77ba3a1d2a859",
+      "ann_696906b4632c24116763c30f",
+      "ann_8e35824efe8f820e69bc81db",
+      "ann_8f2c2b28c7a237b0e8032a4c",
+      "ann_b5dc6093878e8f6bbf9afd59",
+      "ann_d519f9d61de36ae3aca61c66",
+      "ann_ef3cfd084619840e5d5f98ae"
+    ]
+  },
+  "packet_sha256": "6c4a99105d4b8f07036f87067bf05f39070cbe0a4b8a51077a10a4861faa8e9e"
+}

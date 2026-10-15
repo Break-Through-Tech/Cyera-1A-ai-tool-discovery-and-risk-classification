@@ -1,0 +1,50 @@
+{
+  "batch_id": "batch-021",
+  "reviewed_all_source_proposal_pairs": true,
+  "pair_count": 20,
+  "evidence_boundary": "Only exact frozen description text; proposals used only as proposals, no outside product facts.",
+  "integration_owner_did_not_relabel": true,
+  "support_concerns": {
+    "ann_8f2c2b28c7a237b0e8032a4c": "Advanced analytics is not method-specific; labeler weak vs blind supported; routed by helper.",
+    "ann_38f68f00899ce708acd51371": "Structured finance administration is concretely described; Analytics appears in product name rather than described function; no support concern.",
+    "ann_ec227d52a860f557c78b0717": "Enterprise content management and collaborative legal/professional-service use are concrete conventional functions; no concern.",
+    "ann_b5dc6093878e8f6bbf9afd59": "Support-contract-only description lacks software functionality; blind supported negative is insufficiently grounded; routed by helper.",
+    "ann_e76cd32699aa5a59d9f83e99": "Exam scheduling/booking and subscription access are concrete conventional functions; no concern.",
+    "ann_d519f9d61de36ae3aca61c66": "Broad cloud management/service list with mixed test-tenant/pricing fragments; labeler weak vs blind supported; routed by helper.",
+    "ann_8e35824efe8f820e69bc81db": "In-application help/e-learning are concrete; unexplained \u201cdeliver assistance intelligently\u201d is a material potential-AI ambiguity; both weak and routed.",
+    "ann_3d0f3aaa26d2d8a8737b2e41": "ERP across named business functions plus routine process automation; no AI-specific cue; no concern.",
+    "ann_e82aa552ad4d1d5a9a92f6ce": "Digital learning, collaborative/hands-on and expert-led training are concrete; no concern.",
+    "ann_696906b4632c24116763c30f": "Credit-card-loss reduction mechanism is unspecified; labeler weak vs blind supported; routed by helper.",
+    "ann_47f1342c80d8494bd275e4bb": "Policy-based network automation, monitoring and security are conventional infrastructure functions; no concern.",
+    "ann_db5977f177906f40e4d23539": "Automated account reconciliation is routine accounting automation; no unexplained AI claim; no concern.",
+    "ann_cbe6aea653721cbf89d1bf6d": "Enterprise architecture repository/model relationships are described; \u201cmodels\u201d refers to artifacts in text, not AI; no concern.",
+    "ann_efc88fe3c56a4b30aec5ebbc": "Business modeling, strategic planning, role-based dashboards and holistic insights are described; generic insights wording alone not AI; no concern.",
+    "ann_007be2b81d261c922052501d": "Field-service scheduling, dispatch, reports, routing, inventory and maintenance are concrete; no concern.",
+    "ann_ef3cfd084619840e5d5f98ae": "RFID/Bluetooth/GPS tracking is conventional, but \u201chelps make decisions\u201d mechanism is unexplained in fragmented text; labeler weak vs blind supported; routed by helper.",
+    "ann_9dd2136a82699018b4ee0453": "Ticket processing/cataloging is concrete service-request functionality; no concern.",
+    "ann_38511624a427f2b2b83c0454": "Ticketing, incident/problem/change management are concrete conventional ITSM functions; no concern.",
+    "ann_d97c88e02e4624cb6b8848eb": "Archiving, disaster recovery and virtual-infrastructure provisioning are task automation described without AI-specific mechanism; ordinary orchestration; no concern.",
+    "ann_1823eb72d7c77ba3a1d2a859": "Generic enterprise-architecture/data-model claims lack meaningful function detail; labeler weak vs blind supported; routed by helper."
+  },
+  "additional_support_concern_ids": [],
+  "helper_required_ids": [
+    "ann_1823eb72d7c77ba3a1d2a859",
+    "ann_696906b4632c24116763c30f",
+    "ann_8e35824efe8f820e69bc81db",
+    "ann_8f2c2b28c7a237b0e8032a4c",
+    "ann_b5dc6093878e8f6bbf9afd59",
+    "ann_d519f9d61de36ae3aca61c66",
+    "ann_ef3cfd084619840e5d5f98ae"
+  ],
+  "reconciliation_ids": [
+    "ann_1823eb72d7c77ba3a1d2a859",
+    "ann_696906b4632c24116763c30f",
+    "ann_8e35824efe8f820e69bc81db",
+    "ann_8f2c2b28c7a237b0e8032a4c",
+    "ann_b5dc6093878e8f6bbf9afd59",
+    "ann_d519f9d61de36ae3aca61c66",
+    "ann_ef3cfd084619840e5d5f98ae"
+  ],
+  "all_concerns_routed_before_single_reconciliation": true,
+  "agreement_is_not_validation": true
+}
