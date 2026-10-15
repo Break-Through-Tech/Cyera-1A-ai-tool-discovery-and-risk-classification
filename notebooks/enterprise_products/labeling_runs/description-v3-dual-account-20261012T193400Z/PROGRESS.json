@@ -1,21 +1,21 @@
 {
   "status": "active",
-  "updated_at": "2026-10-15T14:16:33.905849+00:00",
+  "updated_at": "2026-10-15T14:29:19.194047+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
-  "new_completed_descriptions": 720,
-  "new_completed_rows": 729,
-  "cumulative_finalized_descriptions": 880,
-  "cumulative_finalized_rows": 903,
-  "remaining_descriptions": 511,
-  "remaining_rows": 535,
+  "new_completed_descriptions": 740,
+  "new_completed_rows": 749,
+  "cumulative_finalized_descriptions": 900,
+  "cumulative_finalized_rows": 923,
+  "remaining_descriptions": 491,
+  "remaining_rows": 515,
   "annotation_workers_max": 4,
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
   "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
   "cursor_status": "001\u2013019 parent accepted;020 fresh independent pair launching on p1N/p1P; original019 p1M context preserved.",
-  "codex_status": "001\u2013017 finalized;018 complete independent pair reverified, all20 pairs parent-reviewed, 12-ID original-blind reconciliation active.",
-  "codex_active_workers": 1,
+  "codex_status": "001\u2013018 finalized;019 fresh independent20+20 pair active.",
+  "codex_active_workers": 2,
   "cursor_live_worker_state": "Retained coordinator f98dcb8d active; original019 Luna resumed on new pane p1M.",
   "active_runs": {
     "cursor_panes": [
@@ -23,10 +23,9 @@
       "wF:p1P"
     ],
     "cursor_integration_owner": "f98dcb8d-e4a7-4530-b038-910ce9a4bff4",
-    "codex_independent_workflow": "d5bb955f-c00e-419e-93a4-5012691cf8cf",
-    "codex_reconciliation_workflow": "cde42073-3d5d-4831-abfc-dcdc5fb10add"
+    "codex_independent_workflow": "4a152ed7-22f1-4be9-a50b-d3cf94cba7b4"
   },
   "native_resume_receipt": "runtime/NATIVE_RESUME_AFTER_RESET_20261015.json",
-  "active_workers": 2,
+  "active_workers": 4,
   "blocker": null
 }

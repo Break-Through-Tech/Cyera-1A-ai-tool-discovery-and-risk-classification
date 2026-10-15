@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-10-15T14:28:52.774269+00:00",
+  "status": "prepared_not_launched",
+  "plan_batch_id": "batch-019",
+  "description_count": 20,
+  "source_row_count": 20,
+  "packet_sha256": "6110afbf92d691c1d9ebf6a077e60c4526f4350fd0d494b334727fe84a6e21b4",
+  "launch_script_sha256": "990100944fd4aaeb6ef355df6501731ad182395b3ed498b642f20936f658c322",
+  "original_template_sha256": "7923325025e76b48068e4f8694a4afdba8e0a755d50d00a0f4efe553761b37bf",
+  "models": {
+    "labeler": "openai-codex/gpt-6-luna:high",
+    "blind": "openai-codex/gpt-6-luna:high"
+  },
+  "fresh_private_cwd_per_role": true,
+  "no_prior_labels_reused": true
+}
