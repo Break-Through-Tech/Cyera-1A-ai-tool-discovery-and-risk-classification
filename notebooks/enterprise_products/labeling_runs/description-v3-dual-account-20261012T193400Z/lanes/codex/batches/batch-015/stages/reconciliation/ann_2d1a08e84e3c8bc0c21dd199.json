@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_2d1a08e84e3c8bc0c21dd199",
+  "description_sha256": "0c9210a083d8f2c74c85731727f1f0d11b727044546a4f57e3c18f87e88ba53a",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The text identifies a computing platform whose stated function is running a database, and specifies that it combines hardware and software. This is meaningful conventional database-computing infrastructure; no database operations beyond running it are inferred.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "a computing platform optimized for running Oracle Database.",
+    "Exadata is a combined hardware and software platform."
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "Although the description gives no specific database operations, running a database is explicitly its stated use and is a conventional computing function, not just a name or performance claim. I therefore retain supported non-AI based on this limited but meaningful infrastructure function, without inferring database features."
+}

@@ -1,0 +1,124 @@
+{
+  "runDirectory": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-016",
+  "ids": [
+    "ann_0037469ed50d6a03d9c0da0c",
+    "ann_0e8f371511037d06acfb7849",
+    "ann_0eba4fac6e995710193942da",
+    "ann_11adf0b20430efeb35b03fd6",
+    "ann_205412280c2dd8516546b84b",
+    "ann_340bc8f780f188c9effaadfc",
+    "ann_589ed5e9ae7d07f302a069c8",
+    "ann_6277a52414eb55e2eba11442",
+    "ann_6b3eb27fcd1371d9e19d45b0",
+    "ann_82617b16cae06c2be4fb9277",
+    "ann_b050266bf63ddc0b04ccb2f0",
+    "ann_b6845e04769bbdc87d4f0917",
+    "ann_ccb271cf0f682622118490aa",
+    "ann_d05a7ba3b83d0e8204e2a0ee",
+    "ann_df88eeac3d195f6f3374e7c1",
+    "ann_e1260cfcd1362b2b1e523fef",
+    "ann_e48d69b6b62388a328052cc3",
+    "ann_f36ac0a1b7c0f8d5114193ce",
+    "ann_fe1a6caf3eb87722ec2e6285",
+    "ann_ffd42459326ee63e4887fa96"
+  ],
+  "batchId": "batch-016",
+  "recordSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "annotation_id",
+      "description_sha256",
+      "ai_status",
+      "ai_type",
+      "evidence_strength",
+      "forced_decision",
+      "ai_type_evidence_strength",
+      "ai_type_forced_decision",
+      "rationale",
+      "ai_type_rationale",
+      "evidence_spans",
+      "ai_type_evidence_spans"
+    ],
+    "properties": {
+      "annotation_id": {
+        "type": "string"
+      },
+      "description_sha256": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+      },
+      "ai_status": {
+        "enum": [
+          "ai",
+          "non_ai"
+        ]
+      },
+      "ai_type": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "enum": [
+          "ai_native",
+          "ai_enabled",
+          null
+        ]
+      },
+      "evidence_strength": {
+        "enum": [
+          "supported",
+          "weak"
+        ]
+      },
+      "forced_decision": {
+        "type": "boolean"
+      },
+      "ai_type_evidence_strength": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "enum": [
+          "supported",
+          "weak",
+          null
+        ]
+      },
+      "ai_type_forced_decision": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "rationale": {
+        "type": "string",
+        "minLength": 1
+      },
+      "ai_type_rationale": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "evidence_spans": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1
+      },
+      "ai_type_evidence_spans": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
