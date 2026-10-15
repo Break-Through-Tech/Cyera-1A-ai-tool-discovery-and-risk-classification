@@ -1,0 +1,41 @@
+{
+  "batch_id": "batch-023",
+  "frozen_plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "manifest_sha256": "5785109834a786c32cc8e04025f1382930f1673e020b6012684808953c59dbe5",
+  "selection_sha256": "08a151826a5915ce76961c2048965a142dddb7a898086401687b4340dc8262a1",
+  "selected_descriptions": 20,
+  "selected_source_references": 20,
+  "exact_plan_hash_all_source_references": true,
+  "prior_plan_batch_overlap_checked": true,
+  "role_workspaces": {
+    "labeler": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-023/agents/labeler",
+    "blind": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-023/agents/blind"
+  },
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "description_packet_hashes": {
+    "ann_15d3b44efb91829688f3b8b7": "a57188e507bcb7f25b74a2b4f53baa848ace6a3e98b34918245a4c545686b9e2",
+    "ann_340877aaba7daea7a69fbcc5": "bf1e0b2233058f203ec77685ac08481f2f6d97472e2efcd1830915b860d1576f",
+    "ann_35f7dc72b71afdd063983fa2": "dce80c3ec1cd99686191533c67cd920973b7405f9ffd19f69f40be498dbc0b46",
+    "ann_39df441154e2aeb2620dc20b": "798eb8d6c3a4025b16b8dd5e02c390ebe07556b7c20bea57550780abb74a96ba",
+    "ann_496794aed0486cb1dc9c40c4": "2d5987ff78694fcbd8220edf18d0fd3b9ea4c65fcae23e0593c2c26b94dd5213",
+    "ann_4f57884634f07ba2c7605ad9": "77a66d48b9b6bc94a1d2287f56da387c5d8ca5cda7a7818809303c59ffbd5203",
+    "ann_515e3beaaadb79d4892c9515": "8b2c481a76641e16b5868ade710ea8bd1cf58d7b3ba5ba56f6de2d5e7046b987",
+    "ann_562aecd6cc121ff848c25604": "39122b7727c16bc0bff03ae5e1ecf37488f118c6beda8de8080a13b2860541e9",
+    "ann_5ff4f088250cb270e10f9e42": "9806ca9e869ea7ed60ffcd0e9e05cc92de177840758812b1c473dcd279f67b11",
+    "ann_72a4a0e6c3417e1e26b9676c": "f7ce85014fc4fe4189136258b425e28447374500b67a6c6ee218b760663c4b27",
+    "ann_7992ac20a8cb96cf09c2056a": "3a9d1134323e9bb4611681e6e42db6e2a09a8abfd8bbedc1ac432ada43bce615",
+    "ann_7a615b52095cee674dcf5d54": "38ac0c723114b9d0a1f223f630b28099040239c6debcf91415b58053283082f4",
+    "ann_831a95df4ee0e76e9c0b7d61": "e0f444151d23aaf4dd41fc65fba2d7faa12e6cea9f7b807ca82fbdb53ef7463f",
+    "ann_a1d1f84e17b81e1e33845c39": "fb0148b1ceb1bf4155e8971c4916065eb55d76c28fe6b8e7a82852a01781e410",
+    "ann_aaf60ff0e26980779ed7c771": "3bb6b8a20076028d2e0e5a920d2851d2fbebf2e2ccd65951c0a4a132656db118",
+    "ann_ae0c75c7054802533a449269": "920c45bd3500fcfb01d7ee68c2a1c48dc315d3b3614bae7f9ff90d6ca77a5980",
+    "ann_b11ef17298097292cb0ed98a": "188321960e07a4bd7ca448b32f5ff551361f74e0777dc7d638ecdc14dd72d552",
+    "ann_c0efebc0b8af286546225a5e": "fc69a32d301d43699ac4bd726bb22e38c91d1dd73fe8721d0cc2c24dcdb7a072",
+    "ann_d0bd79f925ad2ae768f75277": "61b6a878dfcde1323a9538e57083be4cf5407ee0de27bc55ccbabda20b037bca",
+    "ann_fe31f687ab55ef3472c0095b": "e3519d1b6d8d13e72ed3b449e1ce66fd78fb0f7c04181193e5fb81b62111bb9c"
+  }
+}

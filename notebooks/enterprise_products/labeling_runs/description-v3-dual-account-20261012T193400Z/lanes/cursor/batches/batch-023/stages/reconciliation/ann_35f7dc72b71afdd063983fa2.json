@@ -1,0 +1,17 @@
+{
+  "annotation_id": "ann_35f7dc72b71afdd063983fa2",
+  "description_sha256": "dce80c3ec1cd99686191533c67cd920973b7405f9ffd19f69f40be498dbc0b46",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The text states only a security and control goal for file transfers and gives no concrete mechanism or functionality; the conventional negative is therefore weak and forced.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "Enhance security and control over file transfers in and outside your organization."
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The labeler correctly identifies the lack of described mechanism, while the blind supported judgment treated the goal statement as sufficient conventional functionality. Because the text gives only the goal, retain non_ai but downgrade the binary evidence to weak with forced_decision=true."
+}

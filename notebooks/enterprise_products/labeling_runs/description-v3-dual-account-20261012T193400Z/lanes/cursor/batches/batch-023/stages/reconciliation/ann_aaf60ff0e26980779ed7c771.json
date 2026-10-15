@@ -1,0 +1,17 @@
+{
+  "annotation_id": "ann_aaf60ff0e26980779ed7c771",
+  "description_sha256": "3bb6b8a20076028d2e0e5a920d2851d2fbebf2e2ccd65951c0a4a132656db118",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description identifies a cloud-services platform for building and running applications in a highly available, high-performance environment, which is conventional platform functionality with no AI signal.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "Oracle Cloud Infrastructure (OCI) is a platform of cloud services that enable you to build and run a wide range of applications in a highly-available, consistently high-performance environment."
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The labeler notes that the platform is broad and does not enumerate its services, while the blind proposal cites the explicitly stated ability to build and run applications. That is a concrete conventional platform function under the description-only rubric, so retain supported non_ai rather than treating breadth alone as weak evidence."
+}

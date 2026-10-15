@@ -1,0 +1,29 @@
+{
+  "source_input_records": 1494,
+  "cleaner_excluded_records": 56,
+  "retained_source_records": 1438,
+  "selected_descriptions": 20,
+  "selected_records": 20,
+  "remaining_distinct_descriptions": 1371,
+  "remaining_source_records": 1418,
+  "coverage_claim": "selected calibration only; not full dataset coverage",
+  "binary_counts": {
+    "non_ai": 19,
+    "ai": 1
+  },
+  "subtype_counts": {
+    "null": 19,
+    "ai_enabled": 1
+  },
+  "binary_weak_count": 2,
+  "binary_forced_count": 2,
+  "subtype_weak_count": 0,
+  "subtype_forced_count": 0,
+  "trusted_negative_records": 17,
+  "reconciliation_count": 6,
+  "required_reconciliation_count": 6,
+  "parent_reconciliation_count": 6,
+  "independent_binary_or_subtype_differences": 0,
+  "duplicate_records_within_selected_descriptions": 0,
+  "within_group_different_descriptions": 0
+}

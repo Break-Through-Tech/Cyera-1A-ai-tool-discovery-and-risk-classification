@@ -1,0 +1,27 @@
+{
+  "batch_id": "batch-023",
+  "stage": "reconciliation",
+  "result_path": "agents/blind/reconciliation-023/accepted-result.json",
+  "result_sha256": "d2721c364ee5bf91c510a1253482fa035dd5f30720f1f977ab5f0abf9710a7e2",
+  "checkpoint_count": 6,
+  "checkpoint_sha256": {
+    "agents/blind/reconciliation-023/checkpoints/ann_35f7dc72b71afdd063983fa2.json": "51bcbdc605f742ea8b4bbd68edde1182bfc97d88a49cf2fdeea6bd0974d067db",
+    "agents/blind/reconciliation-023/checkpoints/ann_562aecd6cc121ff848c25604.json": "e5a98dadcff3aa96d29785533e6933de8b20c6a9b26b6485b1e09d5cb5f16a21",
+    "agents/blind/reconciliation-023/checkpoints/ann_7992ac20a8cb96cf09c2056a.json": "d7e37b7d79b579fd6d4a5eaee1231484c5c8cbec5b57ab2e7789afb5e72c5392",
+    "agents/blind/reconciliation-023/checkpoints/ann_a1d1f84e17b81e1e33845c39.json": "dd13e121736e408155ded2828cd699e8d94cf85a3fd9a6eb7622966b4e123e08",
+    "agents/blind/reconciliation-023/checkpoints/ann_aaf60ff0e26980779ed7c771.json": "54760931ca2495967aebfd8a73dd9fdeb0205437e6c1ab1ea2dcfab23b6da3da",
+    "agents/blind/reconciliation-023/checkpoints/ann_ae0c75c7054802533a449269.json": "6769fab9f75512989362f842bfb86830333d133fc2c94b069bb8e95657ba4da2"
+  },
+  "assigned_ids": [
+    "ann_35f7dc72b71afdd063983fa2",
+    "ann_562aecd6cc121ff848c25604",
+    "ann_7992ac20a8cb96cf09c2056a",
+    "ann_a1d1f84e17b81e1e33845c39",
+    "ann_aaf60ff0e26980779ed7c771",
+    "ann_ae0c75c7054802533a449269"
+  ],
+  "exact_coverage_schema_quotes_desc_hash_private_equality_helper_stage": true,
+  "model": "gpt-5.6-luna-high",
+  "same_original_blind_session_uuid": "409686f6-4817-408d-873d-4da3f8ef877a",
+  "native_transcript_sha256_after_reconciliation": "8addc9ec620cf52df9c8ac961c7667040fdab4a47cbec1e6c6d453e697b5b3ac"
+}

@@ -1,0 +1,48 @@
+{
+  "batch_id": "batch-023",
+  "reviewed_all_source_proposal_pairs": true,
+  "pair_count": 20,
+  "evidence_boundary": "Exact frozen text only; no outside product knowledge.",
+  "integration_owner_did_not_relabel": true,
+  "support_review_by_id": {
+    "ann_15d3b44efb91829688f3b8b7": "Concrete Cognos lifecycle management, upgrades, deployment, version control and testing; routine QA automation, no unresolved AI cue.",
+    "ann_496794aed0486cb1dc9c40c4": "Service-order updates to NPAC and direct field/interface integration are conventional telecom workflow functions.",
+    "ann_b11ef17298097292cb0ed98a": "Replicated storage copies and hardware-failure recovery are conventional HCI resilience mechanisms.",
+    "ann_ae0c75c7054802533a449269": "Issue prevention language has no stated method; weak concern is routed by helper.",
+    "ann_562aecd6cc121ff848c25604": "Generic digital-signage operation/management statement has no concrete functionality; weak concern routed.",
+    "ann_7a615b52095cee674dcf5d54": "API-driven remote console access and Docker container deployment are conventional infrastructure management/automation.",
+    "ann_aaf60ff0e26980779ed7c771": "Generic cloud-services platform does not identify provided application functions; weak concern routed.",
+    "ann_515e3beaaadb79d4892c9515": "Cloud financial/accounting, reporting and routine process automation are concrete conventional functions.",
+    "ann_a1d1f84e17b81e1e33845c39": "Explicit advanced machine-learning claim establishes binary AI; core dependence/subtype differs (labeler weak ai_enabled vs blind supported), so routed for one subtype-aware reconciliation.",
+    "ann_72a4a0e6c3417e1e26b9676c": "Packaging and checking compliance against company rules/policies is described as deterministic policy validation; no unexplained AI cue.",
+    "ann_5ff4f088250cb270e10f9e42": "Address standardization/geocoding, planning and boundary correspondence are concrete conventional geospatial functions despite fragmentary text.",
+    "ann_fe31f687ab55ef3472c0095b": "Polling engine and stated polling capacity are conventional network monitoring functions.",
+    "ann_c0efebc0b8af286546225a5e": "High availability, monitoring and failover automation are conventional resilience functions.",
+    "ann_35f7dc72b71afdd063983fa2": "Security/control goal for file transfers lacks described functionality; weak concern routed.",
+    "ann_340877aaba7daea7a69fbcc5": "Syslog, SNMP trap and Windows event-log management are concrete conventional monitoring functions.",
+    "ann_39df441154e2aeb2620dc20b": "Scheduled backups and multi-device network configuration are routine deterministic automation.",
+    "ann_831a95df4ee0e76e9c0b7d61": "Cloud remote-control tool with supported OS/device types is concrete conventional remote access.",
+    "ann_7992ac20a8cb96cf09c2056a": "Call-center voice recording title lacks functional detail; weak concern routed.",
+    "ann_4f57884634f07ba2c7605ad9": "Cloud-native messaging/event streaming and data integration pipelines are conventional infrastructure functions.",
+    "ann_d0bd79f925ad2ae768f75277": "Destination local-time lookup via Salesforce custom field and action is a concrete conventional utility."
+  },
+  "additional_support_concern_ids": [],
+  "helper_required_ids": [
+    "ann_35f7dc72b71afdd063983fa2",
+    "ann_562aecd6cc121ff848c25604",
+    "ann_7992ac20a8cb96cf09c2056a",
+    "ann_a1d1f84e17b81e1e33845c39",
+    "ann_aaf60ff0e26980779ed7c771",
+    "ann_ae0c75c7054802533a449269"
+  ],
+  "reconciliation_ids": [
+    "ann_35f7dc72b71afdd063983fa2",
+    "ann_562aecd6cc121ff848c25604",
+    "ann_7992ac20a8cb96cf09c2056a",
+    "ann_a1d1f84e17b81e1e33845c39",
+    "ann_aaf60ff0e26980779ed7c771",
+    "ann_ae0c75c7054802533a449269"
+  ],
+  "all_material_concerns_routed_before_one_reconciliation": true,
+  "agreement_is_not_validation": true
+}

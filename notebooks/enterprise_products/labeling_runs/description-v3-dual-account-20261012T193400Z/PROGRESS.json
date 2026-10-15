@@ -1,31 +1,32 @@
 {
   "status": "active",
-  "updated_at": "2026-10-15T15:10:13.826313+00:00",
+  "updated_at": "2026-10-15T15:28:14.517171+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
-  "new_completed_descriptions": 840,
-  "new_completed_rows": 851,
-  "cumulative_finalized_descriptions": 1000,
-  "cumulative_finalized_rows": 1025,
-  "remaining_descriptions": 391,
-  "remaining_rows": 413,
+  "new_completed_descriptions": 860,
+  "new_completed_rows": 871,
+  "cumulative_finalized_descriptions": 1020,
+  "cumulative_finalized_rows": 1045,
+  "remaining_descriptions": 371,
+  "remaining_rows": 393,
   "annotation_workers_max": 4,
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
   "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
-  "cursor_status": "001\u2013022 parent accepted;023freshpairp1V/W underretainedcoordinator ea68ce00.",
-  "codex_status": "001\u2013020finalized;021fresh20+20independentpairactive.",
-  "codex_active_workers": 2,
-  "cursor_live_worker_state": "Retained coordinator f98dcb8d active; original019 Luna resumed on new pane p1M.",
+  "cursor_status": "001\u2013023 parent accepted;024 fresh p1X/Y under retained coordinator ea68ce00.",
+  "codex_status": "001\u2013020 finalized;021 original blind8-item reconciliation active.",
+  "codex_active_workers": 1,
+  "cursor_live_worker_state": "023 accepted;024 fresh native pair p1X/Y.",
   "active_runs": {
     "cursor_panes": [
-      "wF:p1V",
-      "wF:p1W"
+      "wF:p1X",
+      "wF:p1Y"
     ],
     "cursor_integration_owner": "ea68ce00-88b6-4fab-acc4-e79924526bf9",
-    "codex_independent_workflow": "5464193d-4126-4dd3-9557-d60db8dcd647"
+    "codex_independent_workflow": "5464193d-4126-4dd3-9557-d60db8dcd647",
+    "codex_reconciliation_workflow": "63365eb6-e8bb-4ebb-8bb2-6239d43f7dde"
   },
   "native_resume_receipt": "runtime/NATIVE_RESUME_AFTER_RESET_20261015.json",
-  "active_workers": 4,
+  "active_workers": 3,
   "blocker": null
 }

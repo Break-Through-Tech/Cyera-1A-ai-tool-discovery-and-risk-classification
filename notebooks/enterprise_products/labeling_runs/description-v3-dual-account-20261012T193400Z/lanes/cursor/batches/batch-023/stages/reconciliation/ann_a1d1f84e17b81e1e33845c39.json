@@ -1,0 +1,20 @@
+{
+  "annotation_id": "ann_a1d1f84e17b81e1e33845c39",
+  "description_sha256": "fb0148b1ceb1bf4155e8971c4916065eb55d76c28fe6b8e7a82852a01781e410",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "supported",
+  "ai_type_forced_decision": false,
+  "rationale": "The description explicitly says the product leverages advanced machine learning in its data migration and management offering.",
+  "ai_type_rationale": "The named core is data migration and management, while machine learning and process automation are described as streamlining migration initiatives and maintaining data quality; the conventional core remains without an indication that it depends on AI.",
+  "evidence_spans": [
+    "SAP Advanced Data Migration and Management by Syniti leverages advanced machine learning and process automation to streamline migration initiatives and maintain high data quality."
+  ],
+  "ai_type_evidence_spans": [
+    "SAP Advanced Data Migration and Management by Syniti",
+    "leverages advanced machine learning and process automation to streamline migration initiatives and maintain high data quality"
+  ],
+  "conflict_response": "Both proposals support the binary ai judgment. The labeler treats the subtype as weak because core dependence is not proven, while the blind proposal treats the named migration-and-management core plus the described ML enhancement as sufficient for ai_enabled. The text presents machine learning as streamlining an independently named conventional migration and management offering, so retain supported ai_enabled with no forced subtype decision."
+}
