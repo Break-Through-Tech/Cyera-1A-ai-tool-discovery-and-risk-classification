@@ -1,0 +1,228 @@
+[
+  {
+    "annotation_id": "ann_03d368a714da90577eface7f",
+    "description_sha256": "9f572f623a247bfd888f8168cea3f64ae4394f183a8bd3a29e4562b2739bc2a1",
+    "description": "uberAgent is a Splunk agent for end-user computing on Windows & macOS.",
+    "source_record_references": [
+      "548"
+    ],
+    "labeler": {
+      "annotation_id": "ann_03d368a714da90577eface7f",
+      "description_sha256": "9f572f623a247bfd888f8168cea3f64ae4394f183a8bd3a29e4562b2739bc2a1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This is described as an end-user-computing agent for Windows and macOS, a conventional endpoint software function; no AI functionality is specified.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a Splunk agent for end-user computing on Windows & macOS."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_03d368a714da90577eface7f",
+      "description_sha256": "9f572f623a247bfd888f8168cea3f64ae4394f183a8bd3a29e4562b2739bc2a1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes an agent for end-user computing on Windows and macOS, a conventional endpoint software function with no AI signal in the text.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a Splunk agent for end-user computing on Windows & macOS."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Both proposals call end-user computing agent a conventional endpoint function, but exact sentence identifies platforms and named Splunk integration, not actual agent operations. Assess sufficient conventional functionality vs category-only name/platform assumptions; no remembered Splunk/uberAgent features."
+    ]
+  },
+  {
+    "annotation_id": "ann_1c828c009a4f09d0b2d3dd8a",
+    "description_sha256": "6670cd97e2b46ff77cbb25cfc001ba9eca23cb509d12635567518acd61a80f85",
+    "description": "iXDetect is a full-function FMS enabling operator users to successfully navigate the complexities of today's telecom threats and protect against revenue loss. Whether threats come from fixed, mobile, roaming, or VoIP technologies, iXDetect provides a critical tool for defeating fraud wherever it originates",
+    "source_record_references": [
+      "566"
+    ],
+    "labeler": {
+      "annotation_id": "ann_1c828c009a4f09d0b2d3dd8a",
+      "description_sha256": "6670cd97e2b46ff77cbb25cfc001ba9eca23cb509d12635567518acd61a80f85",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The offering is described as telecom fraud-management software protecting revenue across fixed, mobile, roaming, and VoIP services; fraud management is stated without an AI mechanism.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "iXDetect is a full-function FMS enabling operator users to successfully navigate the complexities of today's telecom threats and protect against revenue loss.",
+        "iXDetect provides a critical tool for defeating fraud wherever it originates"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_1c828c009a4f09d0b2d3dd8a",
+      "description_sha256": "6670cd97e2b46ff77cbb25cfc001ba9eca23cb509d12635567518acd61a80f85",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a fraud-management system for telecom revenue protection across fixed, mobile, roaming, and VoIP services. Those are conventional fraud detection and revenue-protection functions; no AI method is asserted.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "full-function FMS enabling operator users to successfully navigate the complexities of today's telecom threats and protect against revenue loss.",
+        "provides a critical tool for defeating fraud"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Exact text promises telecom threat/revenue/fraud outcomes and calls it full-function FMS without explaining mechanism. Assess whether meaningful conventional functions are stated vs unsupported expansion/implementation or unexplained potentially AI-dependent detection; no imported product facts or automatic assumption all fraud detection is AI/non-AI."
+    ]
+  },
+  {
+    "annotation_id": "ann_4e9d28d8e7ffa4d0f290ea0a",
+    "description_sha256": "2beca336e95d548e62972b157bf3fa9dc6d1c282db0a37e347ededb48e6a5e57",
+    "description": "Dragon is a speech-recognition program that can be used to, among other things, dictate answers to homework questions, a five-paragraph essay, or even to write a novel.",
+    "source_record_references": [
+      "563",
+      "564"
+    ],
+    "labeler": {
+      "annotation_id": "ann_4e9d28d8e7ffa4d0f290ea0a",
+      "description_sha256": "2beca336e95d548e62972b157bf3fa9dc6d1c282db0a37e347ededb48e6a5e57",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The product is explicitly described as a speech-recognition program used to dictate text, which establishes a speech-recognition AI functionality, though the implementation is not detailed.",
+      "ai_type_rationale": "Dictation via speech recognition is the product's stated central function, suggesting an AI-dependent core; the description does not specify how recognition works, so native classification is uncertain.",
+      "evidence_spans": [
+        "Dragon is a speech-recognition program",
+        "dictate answers to homework questions, a five-paragraph essay, or even to write a novel."
+      ],
+      "ai_type_evidence_spans": [
+        "Dragon is a speech-recognition program",
+        "dictate answers to homework questions"
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_4e9d28d8e7ffa4d0f290ea0a",
+      "description_sha256": "2beca336e95d548e62972b157bf3fa9dc6d1c282db0a37e347ededb48e6a5e57",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The described core is a speech-recognition program for dictation. Speech recognition can be AI-dependent, but the text does not explicitly identify AI or establish its implementation; forced weak positive on this potentially AI-dependent core functionality.",
+      "ai_type_rationale": "If the speech-recognition function is AI, it is the program's stated core purpose, suggesting native rather than an enhancement; the description does not establish the technology, so subtype remains weak and forced.",
+      "evidence_spans": [
+        "speech-recognition program",
+        "dictate answers to homework questions, a five-paragraph essay, or even to write a novel."
+      ],
+      "ai_type_evidence_spans": [
+        "speech-recognition program"
+      ]
+    },
+    "parent_concerns": [
+      "Speech-recognition dictation is the stated core. Assess whether exact text establishes clearly AI-dependent functionality vs unresolved implementation ambiguity, not remembered Dragon facts; binary and subtype support independent. Address labeler supported binary vs blind weak binary and both weak native subtype; preserve uncertainty if text insufficient."
+    ]
+  },
+  {
+    "annotation_id": "ann_7d3a9efee512a2dc84b5d3d6",
+    "description_sha256": "f77517e1546541ed6c5b94f892a4b8b529e8d71374fdc9222599be7215d8a77e",
+    "description": "Enterprise Experience Management Software for UC, CC, Payments & MSP. Streamline UC Operations. Improve Prognosis. Increased Productivity. No Downtime. Customizable Dashboards. Better User Experience. Quick Troubleshooting. Reduce Operational Costs.",
+    "source_record_references": [
+      "559"
+    ],
+    "labeler": {
+      "annotation_id": "ann_7d3a9efee512a2dc84b5d3d6",
+      "description_sha256": "f77517e1546541ed6c5b94f892a4b8b529e8d71374fdc9222599be7215d8a77e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description lists enterprise experience management, dashboards, troubleshooting, and operational-cost benefits for communications and payment services, conventional monitoring and management functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Customizable Dashboards. Better User Experience. Quick Troubleshooting. Reduce Operational Costs."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_7d3a9efee512a2dc84b5d3d6",
+      "description_sha256": "f77517e1546541ed6c5b94f892a4b8b529e8d71374fdc9222599be7215d8a77e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text identifies experience-management software and conventional operational benefits, troubleshooting, dashboards, and cost reduction, but provides little detail on the software's actual functions. No AI signal is present; negative is retained with weak support due to the generic description.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Enterprise Experience Management Software for UC, CC, Payments & MSP.",
+        "Customizable Dashboards. Better User Experience. Quick Troubleshooting. Reduce Operational Costs."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Separate meaningful stated conventional functions (customizable dashboards/troubleshooting) from generic experience/outcome marketing; assess supported vs weak binary conflict without inferring monitoring mechanisms from category."
+    ]
+  },
+  {
+    "annotation_id": "ann_be8bb077b637747ba4df9908",
+    "description_sha256": "8a2cf548a7dde16f5214498a0b0435994d68745dc3ac8194b127f075130b77d6",
+    "description": "SuperVision is a Data Center Management Suite.  \n\nSecureAgent® Software is a division of Global Interface Solutions, Inc.",
+    "source_record_references": [
+      "545"
+    ],
+    "labeler": {
+      "annotation_id": "ann_be8bb077b637747ba4df9908",
+      "description_sha256": "8a2cf548a7dde16f5214498a0b0435994d68745dc3ac8194b127f075130b77d6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The offering is identified as a data-center management suite; this is a conventional management-software function, with no AI capability specified.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "SuperVision is a Data Center Management Suite."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_be8bb077b637747ba4df9908",
+      "description_sha256": "8a2cf548a7dde16f5214498a0b0435994d68745dc3ac8194b127f075130b77d6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The only product function given is the broad category 'Data Center Management Suite'; the text does not explain its management functions. Best-supported negative with weak evidence because description detail is insufficient.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "SuperVision is a Data Center Management Suite."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Only broad Data Center Management Suite category and corporate identity appear; assess whether conventional functionality is meaningfully described vs sparse category-only evidence; no imported product facts."
+    ]
+  }
+]
