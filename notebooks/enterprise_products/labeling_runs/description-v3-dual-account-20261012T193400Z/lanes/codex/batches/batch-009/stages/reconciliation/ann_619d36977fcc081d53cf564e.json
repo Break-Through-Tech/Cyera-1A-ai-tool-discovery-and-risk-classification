@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_619d36977fcc081d53cf564e",
+  "description_sha256": "e27af906900d895867d1509136947a91cf883e63fc82a4019156becf92d44813",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "The description explicitly characterizes the data-management suite as offering AI-empowered capabilities.",
+  "ai_type_rationale": "The text identifies hybrid data management as the product family and describes capabilities to manage structured and unstructured data, suggesting AI enhances data management; it does not establish that this conventional management core remains without AI, so the subtype stays weak/forced.",
+  "evidence_spans": [
+    "a complete suite of AI-empowered capabilities designed to help you manage both structured and unstructured data"
+  ],
+  "ai_type_evidence_spans": [
+    "a family of hybrid data management products offering a complete suite of AI-empowered capabilities designed to help you manage both structured and unstructured data"
+  ],
+  "conflict_response": "The binary AI label is supported by the explicit phrase “AI-empowered capabilities.” For subtype, the description does call these data-management products and describes data management, but it frames the suite's capabilities as AI-empowered and does not say whether meaningful data-management functionality remains without AI. Thus enabled is the best-supported subtype, but the description alone does not resolve the concern enough for supported subtype evidence; I retain weak/forced rather than treating the labeler's supported subtype or agreement as evidence."
+}
