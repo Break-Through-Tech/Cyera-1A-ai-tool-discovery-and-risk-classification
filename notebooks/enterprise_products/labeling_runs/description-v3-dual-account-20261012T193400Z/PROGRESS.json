@@ -1,6 +1,6 @@
 {
-  "status": "paused_major_runtime_error",
-  "updated_at": "2026-10-15T13:48:51.713688+00:00",
+  "status": "active",
+  "updated_at": "2026-10-15T14:14:32.175022+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
   "new_completed_descriptions": 700,
@@ -13,19 +13,20 @@
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
   "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
-  "cursor_status": "001–018 accepted;019independentresults+transcriptrepairproof/routing saved, originalblind8-IDreconciliation nativeconnectionfailed; coordinatorquotaerror.",
-  "codex_status": "001–017 finalized;018independent20+20savedvalidated, no comparison/reconciliationyet.",
-  "codex_active_workers": 0,
-  "cursor_live_worker_state": "cursor019-blind idle onwF:p1K withconnectionerror; originalUUID preserved; coordinator6cac6f55 failedquota.",
+  "cursor_status": "001\u2013018 accepted; original019 reconciliation resumed unfinished-only on fresh pane, coordinator validating final checkpoints.",
+  "codex_status": "001\u2013017 finalized;018 complete independent pair reverified, all20 pairs parent-reviewed, 12-ID original-blind reconciliation active.",
+  "codex_active_workers": 1,
+  "cursor_live_worker_state": "Retained coordinator f98dcb8d active; original019 Luna resumed on new pane p1M.",
   "active_runs": {
     "cursor_panes": [
-      "wF:p1J",
-      "wF:p1K"
+      "wF:p1M",
+      "wF:p1N"
     ],
-    "cursor_integration_owner": "6cac6f55-1da2-477c-91a9-6f3f2567226c",
-    "codex_independent_workflow": "d5bb955f-c00e-419e-93a4-5012691cf8cf"
+    "cursor_integration_owner": "f98dcb8d-e4a7-4530-b038-910ce9a4bff4",
+    "codex_independent_workflow": "d5bb955f-c00e-419e-93a4-5012691cf8cf",
+    "codex_reconciliation_workflow": "cde42073-3d5d-4831-abfc-dcdc5fb10add"
   },
-  "native_resume_receipt": "runtime/NATIVE_RESUME_20261015.json",
-  "active_workers": 0,
-  "blocker": "Codex account usage limit reached; nativeCursor019 originalblind connection interrupted repeatedly andstopped. Preservedpartialresults; nofallback."
+  "native_resume_receipt": "runtime/NATIVE_RESUME_AFTER_RESET_20261015.json",
+  "active_workers": 2,
+  "blocker": null
 }
