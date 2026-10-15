@@ -1,5 +1,11 @@
 # Parent revisit — BOTH LANES RESUMED through ACTUAL pi-subagents
 
+## Latest wake — Codex020 additional source-control-character quote transport repair
+
+No pendingasks. Both020nativeindependentscomplete; parentactualfullhandoffgate foundONEadditionalblindquote defectann_2ecd9733: frozen sourcecontainsU+001C inword simpli\u001cces, outputusedUnicode ligature. Parentpreservedoriginalcheckpoint+firstnativeaggregate andall20privatehashes; createdNEWacceptedoverrideONLYevidence_spans[0]shortenedtoexact Revenue Assurance solution from Subex; no labels/rationaleschanged. runtime-second-quote-repair-receipt.json actualprospective20passesFULLschema/sourcequotes/privateequality usingTWOexactquoteoverrides +18unchangedoriginalrecords. SAMEoriginalblind64d2c432 retainedresume f08af599-dc55-4240-802c-7a24cb67e7bb activeAGGREGATETRANSPORTONLY readtwoownacceptedoverrides/18checkpoints nativeemit20, NOfilewrites/revote. Gate latestnative usingbothreceipts/all20originalrawhashes+labelerexistingacceptednative20 beforecompare; thenparentALL20pairreview/ALLconcerns andONEoriginalblindsemanticreconciliation, nowlatestretainedf08af599. Do notresumestale64d2c432forsemanticpass.
+
+Cursorcoordinator0e8cc295 at26min active022structuralrecovery; sentdurablehandoff-now requestfd2f9303viafollowup, nointerrupt/redo/nativecontextstop. Oncompletion readauthoritative mappedhandoff, verifyactual022repairpayload/rawpreservation BEFOREparentgate andifunfinished SAMEretainedcoordinatorresume. No finishedlabelsrepeated. Global960/984unchanged, trainingdatasetuntouched. Nativecompletionwakes/no polling/sleep/bg_wait.
+
 ## Latest wake — both structural blockers reproduced; bounded original-context recovery
 
 Answered Codex020blind64d2c432 supervisor1fc7e8be: firstcheckpointfirstquote noncontiguousactualsource; parentpreservedraw+createdNEW acceptedquoteoverride changingONLYevidence_spans[0]toexactshortsubstring. Originalcheckpointunchanged; acceptedoverride/schema/sourcequotesproof runtime-quote-repair-receipt.json. Sameworker authorizedremaining19ONLY+native20aggregate usesONEoverride, nooverwrite/revote. Gatecurrentoriginal+acceptedoverride atcompletion, others19equalprivate. Labelerb84afadb COMPLETE actual20native/private/schema/quotes/modelpassed; preservedacceptednativebytecopy+runtime-labeler-validation BEFOREcompare. No comparisonuntilbothaccepted.
