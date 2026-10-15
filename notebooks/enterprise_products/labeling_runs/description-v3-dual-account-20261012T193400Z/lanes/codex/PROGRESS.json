@@ -1,7 +1,7 @@
 {
-  "status": "blocked_native_workflow_tools_unavailable",
+  "status": "in_progress",
   "lane": "codex",
-  "updated_at": "2026-10-15T05:19:48.575473+00:00",
+  "updated_at": "2026-10-15T05:43:22.905022+00:00",
   "new_completed_descriptions": 160,
   "new_completed_rows": 161,
   "remaining_lane_descriptions": 451,
@@ -16,13 +16,13 @@
     "batch-007",
     "batch-008"
   ],
-  "current_batch": "batch-008",
-  "next_batch": "batch-009",
-  "current_stage": "batch008_finalized_next_launch_blocked",
-  "active_workers": 0,
+  "current_batch": "batch-009",
+  "next_batch": "batch-010",
+  "current_stage": "batch009_independent_running",
+  "active_workers": 2,
   "resume_requires_user_request": false,
   "stop_on_usage_limit": true,
-  "original_verifier_run_id": "c7a040ee-e3fe-4a9e-8bb3-e3f87570a02f",
-  "reconciliation_child_run_id": "10687463-0891-4696-be50-e9069f2e4a7b",
-  "blocker_receipt": "../../runtime/RESUME_PREFLIGHT_BLOCKER.json"
+  "original_verifier_run_id": "6ef7c6b1-aed1-4e84-838f-7725845e5109",
+  "labeler_run_id": "5f807efa-419c-43ab-8489-a16f3e9b7bfa",
+  "independent_workflow_run_id": "cd054c1f-b053-4f4a-817f-f5f2aecfe4b3"
 }

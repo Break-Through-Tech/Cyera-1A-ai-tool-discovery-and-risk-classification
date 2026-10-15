@@ -1,6 +1,6 @@
 {
-  "status": "blocked_native_workflow_tools_unavailable",
-  "updated_at": "2026-10-15T05:19:48.575473+00:00",
+  "status": "both_lanes_resuming_native",
+  "updated_at": "2026-10-15T05:43:22.905022+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
   "new_completed_descriptions": 420,
@@ -12,10 +12,16 @@
   "annotation_workers_max": 4,
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
-  "latest_authorization": "User go ahead: resume both from existing checkpoints; frequent concise local commits; routine fixes; stop only major blocker or usage limit.",
-  "cursor_status": "001–013 finalized;014 saved20+20 independent and3 reconciliation; unfinalized support concern; coordinator timed out.",
-  "codex_status": "001–008 finalized;009 next fresh batch, not launched.",
-  "codex_active_workers": 0,
-  "cursor_live_worker_state": "not inspected; do not assume shell or idle from saved state",
-  "blocker_receipt": "runtime/RESUME_PREFLIGHT_BLOCKER.json"
+  "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
+  "cursor_status": "Same retained coordinator3947d183 recovering original014 verifier lineage and finishing saved work; no duplicate labels.",
+  "codex_status": "001–008 finalized;009 fresh independent pair running through native pi-subagents.",
+  "codex_active_workers": 2,
+  "cursor_live_worker_state": "Owned exclusively by revived native coordinator; recovery in progress",
+  "active_runs": {
+    "cursor_integration_owner": "3947d183-477a-419a-9c52-5166133e8b58",
+    "codex_independent_workflow": "cd054c1f-b053-4f4a-817f-f5f2aecfe4b3",
+    "codex_labeler": "5f807efa-419c-43ab-8489-a16f3e9b7bfa",
+    "codex_blind": "6ef7c6b1-aed1-4e84-838f-7725845e5109"
+  },
+  "native_resume_receipt": "runtime/NATIVE_RESUME_20261015.json"
 }
