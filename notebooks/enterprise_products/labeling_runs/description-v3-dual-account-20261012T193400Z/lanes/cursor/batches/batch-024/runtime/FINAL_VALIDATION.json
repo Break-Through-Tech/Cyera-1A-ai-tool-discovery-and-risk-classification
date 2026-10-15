@@ -1,0 +1,91 @@
+{
+  "batch_id": "batch-024",
+  "status": "finalized_pending_parent_independent_acceptance",
+  "frozen_plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "preparation_receipt": "runtime/PREPARATION_RECEIPT.json",
+  "selected_descriptions": 20,
+  "selected_source_rows": 22,
+  "exact_plan_hash_all_source_references": true,
+  "fresh_native_contexts_verified": true,
+  "labeler": {
+    "model": "claude-haiku-5-5-thinking-high",
+    "banner": "Claude Haiku 5.5 300K High",
+    "pane": "wF:p1X",
+    "uuid": "638efdc8-9879-44f9-9cac-9a399150c119",
+    "result_sha256": "dada81ec338aa1c3288200a81e15aa31c1166a8da203e0008f24cc49eddca672",
+    "checkpoint_hash_count": 20
+  },
+  "blind": {
+    "model": "gpt-5.6-luna-high",
+    "banner": "GPT-5.6 Luna 272K High",
+    "pane": "wF:p1Y",
+    "uuid": "cca7d0c2-b359-4a3e-854b-f308a71f24db",
+    "result_sha256": "2a1a774c165343bcb52445394a6ae497f7fd9a4ee2811b77d27ad39c318e8484",
+    "checkpoint_hash_count": 20
+  },
+  "independent_results_registered_before_comparison": "runtime/independent-result-registration.json",
+  "all20_stage_schema_quotes_desc_hash_coverage_private_equality_hashes_verified": true,
+  "pair_review": "runtime/pair-review.json",
+  "all20_pairs_manually_inspected": true,
+  "helper_required_reconciliation_ids": [
+    "ann_571274ed4fbcea923bd2fad1",
+    "ann_67953574aac51c307bb24edf",
+    "ann_67da437bc586e6e7199b77b6",
+    "ann_773b442492c73efb2d1bf68d",
+    "ann_8e01bfdb2883723c209c3d2b",
+    "ann_d3beb34f7b0fa3ec06fafa51",
+    "ann_fca171ddf8e836f22015579a"
+  ],
+  "additional_integration_support_concern_ids": [
+    "ann_0d349f852628b380079b3c3c"
+  ],
+  "reconciliation_ids": [
+    "ann_0d349f852628b380079b3c3c",
+    "ann_571274ed4fbcea923bd2fad1",
+    "ann_67953574aac51c307bb24edf",
+    "ann_67da437bc586e6e7199b77b6",
+    "ann_773b442492c73efb2d1bf68d",
+    "ann_8e01bfdb2883723c209c3d2b",
+    "ann_d3beb34f7b0fa3ec06fafa51",
+    "ann_fca171ddf8e836f22015579a"
+  ],
+  "single_original_luna_reconciliation": {
+    "model": "gpt-5.6-luna-high",
+    "uuid": "cca7d0c2-b359-4a3e-854b-f308a71f24db",
+    "pane": "wF:p1Y",
+    "result_sha256": "5c11417f1a5ff4c5d215717c1bf094f120334aac3ab9c4d4db26ce9e2922f85c",
+    "checkpoint_count": 8,
+    "raw_copy_and_hash_registration": "runtime/reconciliation-result-registration.json"
+  },
+  "all_reconciliation_results_reviewed_against_source": "runtime/reconciliation-semantic-review.json",
+  "structural_repairs": 0,
+  "weak_binary_final_count": 7,
+  "weak_subtype_final_count": 0,
+  "trusted_negative_source_rows": 11,
+  "binary_counts": {
+    "non_ai": 18,
+    "ai": 2
+  },
+  "subtype_counts": {
+    "null": 18,
+    "ai_native": 1,
+    "ai_enabled": 1
+  },
+  "reconciliation_count": 8,
+  "exports": {
+    "description_labels.json": "4efac558f490c1e7da75e8a2a20a1990771c5a4f9bcf41bb120e7153aa4d0780",
+    "record_labels.json": "98a4bdcbb24190c433fc6d3999049f338bc9b14555338fee95943f9681445231",
+    "review_ledger.json": "c42b099f56d0aba3d7efb282dbee2c1f24121955335d525fc31c9e1d73adf2ea",
+    "review_queue.json": "5600a459359965bab9e3545d20e8b836573be01739cc70d1858ed62d83de2892",
+    "non_ai_candidates.csv": "8efb5f2123e39b19143f5cd78d958f12fdeacf6d5edda9723a903860bc841e49",
+    "calibration_report.json": "65962d31105b21a5b7ec82e604bdf46d696a98bb3e5f6921894d801123eb143d"
+  },
+  "exports_hash_registered_in_manifest": true,
+  "manifest_sha256": "ac32e2ef104ed873ce8110d952a6edfdc0d7b817e284bf254eed516d18e71627",
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s notebooks/enterprise_products -p 'test_*.py' (from repository root)",
+    "result": "36 passed"
+  },
+  "scope": "No earlier batch, root/global/Git/Codex or source/helper/rubric files were modified."
+}

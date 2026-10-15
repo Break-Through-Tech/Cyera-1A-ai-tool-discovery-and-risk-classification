@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_e111aae0089eee078e7c9401",
+  "description_sha256": "d54230348b9e1f7289e76ef60fb0808e4b10efcf32c9044b8fcd0739f4e741c5",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "supported",
+  "ai_type_forced_decision": false,
+  "rationale": "The description explicitly states that BigQuery has built-in machine learning capabilities.",
+  "ai_type_rationale": "The described core is a managed SQL data warehouse, while machine learning is presented as an additional built-in capability, supporting the ai_enabled subtype.",
+  "evidence_spans": [
+    "It also has built-in machine learning capabilities"
+  ],
+  "ai_type_evidence_spans": [
+    "BigQuery is a fully managed, serverless data warehouse that enables scalable analysis over petabytes of data.",
+    "It also has built-in machine learning capabilities"
+  ]
+}

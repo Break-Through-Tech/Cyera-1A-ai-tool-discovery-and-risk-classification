@@ -1,0 +1,340 @@
+[
+  {
+    "annotation_id": "ann_0aa2ea5ddbe27645cac983e3",
+    "description_sha256": "8056f690c27439aadd255d405c61be7f0a7438dce31bb33ef71b62917327ee93",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional JavaScript data grid with grid display, filtering, sorting and customizability; no AI or ML signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "AG Grid provides a feature to display the data in proper grid format with filtering and sorting features already included in it",
+      "Ag-grid is a fully-featured and highly customizable javascript data grid."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_55f705af320f7319dd357c4f",
+    "description_sha256": "8e1d33bff46610377c49f9b53baa5b9639124192eb73cd0fee9d2f573d192b66",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional open-source distributed SQL query engine and an enterprise distribution with performance, security, deployment and connector services; no AI or ML signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Presto is an open source, distributed SQL query engine designed for fast, interactive queries on data in HDFS, and others.",
+      "Services for Starburst Enterprise including security enhancements, integrations and connectors."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_e111aae0089eee078e7c9401",
+    "description_sha256": "d54230348b9e1f7289e76ef60fb0808e4b10efcf32c9044b8fcd0739f4e741c5",
+    "ai_status": "ai",
+    "ai_type": "ai_enabled",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "supported",
+    "ai_type_forced_decision": false,
+    "rationale": "The description explicitly states the product has built-in machine learning capabilities.",
+    "ai_type_rationale": "The core offering is a managed, serverless SQL data warehouse; machine learning is described as an additional built-in capability, so the core remains without it.",
+    "evidence_spans": [
+      "It also has built-in machine learning capabilities"
+    ],
+    "ai_type_evidence_spans": [
+      "BigQuery is a fully managed, serverless data warehouse that enables scalable analysis over petabytes of data.",
+      "It also has built-in machine learning capabilities"
+    ]
+  },
+  {
+    "annotation_id": "ann_0d349f852628b380079b3c3c",
+    "description_sha256": "1cceeca8fe94939cf6ee7c208cc4813d63af45198698eef1f4129eac999f9d1c",
+    "ai_status": "ai",
+    "ai_type": "ai_native",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "supported",
+    "ai_type_forced_decision": false,
+    "rationale": "Self-described intelligent automation platform whose core reporting function is performed by natural language generation, an AI-category capability.",
+    "ai_type_rationale": "The core offering is the NLG-based reporting and automation itself, so the described core depends on natural language generation.",
+    "evidence_spans": [
+      "Quill is an intelligent automation platform",
+      "by using natural language generation"
+    ],
+    "ai_type_evidence_spans": [
+      "Quill is an intelligent automation platform that allows enterprise organizations to change how they do internal and external reporting by using natural language generation"
+    ]
+  },
+  {
+    "annotation_id": "ann_67953574aac51c307bb24edf",
+    "description_sha256": "5bc44738c291f64e06eccb135c94acfbfab7c3611fe009b1019625ccfb4cfb2d",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "No AI signal is stated and the text describes analytics and integrated planning; however analytics is ambiguous and the text does not establish whether the insights or planning are conventional or ML-driven, so the negative is weak.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "SAP Analytics Cloud supports trusted insights and integrated planning processes enterprise-wide"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_7a7a179d31edca35adf2330b",
+    "description_sha256": "126ee5d2b6860a3dee96d669902b94b2b7e5f548860e4c7d0549aa04fae34ef3",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a web client for analysts to analyze, profile and score data, which is conventional data profiling and scoring; no AI or ML signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "IDQ Analyst is a web-based application client that analysts can use to analyze, profile, and score data in an enterprise."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_86818c6f0ed9847f2f139996",
+    "description_sha256": "292355022eae7fd98fbee20c42a6572f01abb92c25c08d0b0b44d7225fd085a8",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes verifying accuracy and completeness of data integration operations and creating repeatable validation tests for PowerCenter mappings; conventional testing with no AI or ML signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Data validation is the process of verifying the accuracy and completeness of data integration operations such as the migration or replication of data.",
+      "Use Informatica Data Validation Option to create repeatable tests that validate PowerCenter mapping data."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_59c0aa1a0ce56355db80aa5d",
+    "description_sha256": "1483c9f79398e79c179018d76f394d25f39ef889e51894dbde3e4fea68e23eee",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes pre-built country and application rule sets and subscribable population packs, which are deterministic rule content; no AI or ML signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Country and application specific pre-built rules.",
+      "Populations are subscribed by individual country, applications (OFAC, AML, and Latin_1/International*), or a regional population pack"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_24e5f019cc2cb23198c97a12",
+    "description_sha256": "16f3ff80610dee3fa4d90eaef1aa3bc762c3314bf94fa6f4a192ab9edcd605be",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes content bundles of mapplets and rule specifications for common data quality issues; conventional rule-based data quality with no AI or ML signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "US and Canado accelerators are content bundles that address common data quality issues in a country, a region, or an industry.",
+      "An accelerator might contain mapplets or rule specifications that you can use to analyze and enhance the data in an organization."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_773b442492c73efb2d1bf68d",
+    "description_sha256": "5e9afe5eae675b5293f57af78485cf1eeffa74c1ffa1757494a2d82037fc5640",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Only defines unstructured data by its format and transactional nature; no product functionality is described and no AI signal is stated, so a conventional-software negative is not established.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Informatica unstructured data is non-transactional business data, the format of which cannot, or does not, easily conform to a relational database schema."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_a25ddb666324744246512712",
+    "description_sha256": "2a54fa97ab00afa458d3b3bb8986dcd2a6576e6aed2c7bf258bb94ccbca94b9b",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes data retention and lifecycle management for controlling data growth, minimizing cost and keeping data secure and compliant; conventional storage management with no AI or ML signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "DSG controls data growth and minimizes costs while supporting greater application performance.",
+      "ILM also prevents out-of-compliance conditions and reduces legal liability by ensuring that data is stored securely and is not retained for longer than is needed."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_257b6ccbae96dadde7015210",
+    "description_sha256": "2270a6a15566f5b49cfaf5d5fa467f2d43daefd7093c84f8fdde27547c6f3c46",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes spreadsheet and BI client access to multidimensional analysis with slice, dice, pivot, drill paths and write-back over relational or multidimensional storage; conventional OLAP functionality with no AI or ML signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "users can slice, dice, pivot and gain meaningful insight from their data",
+      "can navigate drill paths and write back for planning and ?what if? modeling purposes"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_8f5181033008c384c42441f5",
+    "description_sha256": "69e943ac6052d62ada3f2e187c8208ff8f109aa00d2501fbbd1b4cc22afa9f8a",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a service module that manages profile runs, scorecard generation and storage of profiling data and metadata in a warehouse; conventional data profiling with no AI or ML signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "The Profiling Service Module is a module in the Data Integration Service that manages request to run profiles and generate scorecards.",
+      "The Profiling Service Module stores profiling data and metadata in the profiling warehouse."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_571274ed4fbcea923bd2fad1",
+    "description_sha256": "62d0ea80384238a78d895b230eabd5dd936148d2fb374d399eb100e30e4e917d",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes only added production and non-production storage-limit instances, an entitlement rather than software functionality; no AI signal is stated, but no conventional function is established.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "One (1) additional production 4TB storage limit instance and one (1) non-production 4TB storage limit"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_d3beb34f7b0fa3ec06fafa51",
+    "description_sha256": "f5c642edc3a90fe46593f1dab3ac1df1f20f346c910b500db9e577d6f957f614",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text is only a service title and describes no product functionality; no AI signal is stated, but a conventional-software negative is not established.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Customer Success - 1 Day Platform Architect"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_8e01bfdb2883723c209c3d2b",
+    "description_sha256": "a148c5719f3497fe79c7bbb9e0349e5623d07cb322f6fbc78db8d44922b8c7a7",
+    "ai_status": "ai",
+    "ai_type": "ai_enabled",
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": "weak",
+    "ai_type_forced_decision": true,
+    "rationale": "Included applications name Predictive Intelligence, whose intelligence/prediction nature is not stated in explicit AI or ML terms, and a Virtual Agent; the described core is conventional project portfolio, agile and IT business management. The AI reading is ambiguous, so the positive is weak.",
+    "ai_type_rationale": "The core offering is conventional IT business management and portfolio tooling; the predictive and virtual agent components are listed among included applications rather than described as the core, so enabled is the best-supported subtype with weak evidence.",
+    "evidence_spans": [
+      "Predictive Intelligence"
+    ],
+    "ai_type_evidence_spans": [
+      "IT Business Management groups project portfolio management and agile capabilities into scalable packages that can grow with you as your needs change.",
+      "Predictive Intelligence"
+    ]
+  },
+  {
+    "annotation_id": "ann_5c246979c76cb438b0fc4834",
+    "description_sha256": "dd7d3ffd648962f7accf546af29297deebf5c0945472191185e2fd78abb20747",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes ITIL-aligned service management for access, availability, service requests and service streamlining; conventional workflow functionality with no AI or ML signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "IT Service Management (ITSM) aligns with ITIL standards to manage access and availability of services, fulfill service requests, and streamline services."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_67da437bc586e6e7199b77b6",
+    "description_sha256": "1f50a177656db8c5160eef07b1cea95224683689ec92bd277da3aa0579eb63e2",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Marketing-level description of a global data platform for connecting data, workloads and collaboration; no AI signal is stated, but no concrete conventional functionality is described, so the negative is weak.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "A single, global platform that powers the Data Cloud.",
+      "Snowflake is uniquely designed to connect businesses globally, across any type or scale of data and many different workloads, and unlock seamless data collaboration."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_fca171ddf8e836f22015579a",
+    "description_sha256": "bd248f048724905f4e653bc438342418cb61ee8734777c40e5c4ffe86538068f",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a support service tier with an assigned account manager rather than software functionality; no AI signal is stated, but no conventional product function is established.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Verint Premium Plus Support provides an assigned Support Account Manager to oversee your Verint Support needs."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "annotation_id": "ann_49d98f24d69f7e84fccd6d87",
+    "description_sha256": "4d3b7af0f7a3a03c91e9f4911bc3a3076443b5d2294115c122b1bcbbf7a65699",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes an optional job-prioritization feature for identifying critical jobs and ensuring timely processing; conventional workload assurance with no AI or ML signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Workload service assurance is an optional feature that allows you to identify critical jobs and to ensure that they are processed in a timely manner."
+    ],
+    "ai_type_evidence_spans": null
+  }
+]

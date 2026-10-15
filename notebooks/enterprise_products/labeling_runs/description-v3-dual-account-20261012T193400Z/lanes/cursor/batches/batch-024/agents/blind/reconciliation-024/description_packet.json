@@ -1,0 +1,344 @@
+[
+  {
+    "annotation_id": "ann_0d349f852628b380079b3c3c",
+    "description_sha256": "1cceeca8fe94939cf6ee7c208cc4813d63af45198698eef1f4129eac999f9d1c",
+    "description": "Quill is an intelligent automation platform that allows enterprise organizations to change how they do internal and external reporting by using natural language generation",
+    "source_record_references": [
+      "1157"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_0d349f852628b380079b3c3c",
+      "description_sha256": "1cceeca8fe94939cf6ee7c208cc4813d63af45198698eef1f4129eac999f9d1c",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "Self-described intelligent automation platform whose core reporting function is performed by natural language generation, an AI-category capability.",
+      "ai_type_rationale": "The core offering is the NLG-based reporting and automation itself, so the described core depends on natural language generation.",
+      "evidence_spans": [
+        "Quill is an intelligent automation platform",
+        "by using natural language generation"
+      ],
+      "ai_type_evidence_spans": [
+        "Quill is an intelligent automation platform that allows enterprise organizations to change how they do internal and external reporting by using natural language generation"
+      ]
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_0d349f852628b380079b3c3c",
+      "description_sha256": "1cceeca8fe94939cf6ee7c208cc4813d63af45198698eef1f4129eac999f9d1c",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly says the platform performs reporting by using natural language generation, which is an AI functionality.",
+      "ai_type_rationale": "The described platform's reporting automation is specifically performed through natural language generation, making AI central to the stated offering.",
+      "evidence_spans": [
+        "Quill is an intelligent automation platform that allows enterprise organizations to change how they do internal and external reporting by using natural language generation"
+      ],
+      "ai_type_evidence_spans": [
+        "Quill is an intelligent automation platform that allows enterprise organizations to change how they do internal and external reporting by using natural language generation"
+      ]
+    },
+    "integration_review_concern": "Both positives cite natural-language generation for reporting; additionally route because integration review finds the AI-category inference and native-core subtype should be tested against exact text rather than treated as self-evident. Text says intelligent automation and reporting by NLG; no outside implementation facts."
+  },
+  {
+    "annotation_id": "ann_571274ed4fbcea923bd2fad1",
+    "description_sha256": "62d0ea80384238a78d895b230eabd5dd936148d2fb374d399eb100e30e4e917d",
+    "description": "One (1) additional production 4TB storage limit instance and one (1) non-production 4TB storage limit\nstorage limit instance in ServiceNow data center.",
+    "source_record_references": [
+      "1171"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_571274ed4fbcea923bd2fad1",
+      "description_sha256": "62d0ea80384238a78d895b230eabd5dd936148d2fb374d399eb100e30e4e917d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes only added production and non-production storage-limit instances, an entitlement rather than software functionality; no AI signal is stated, but no conventional function is established.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "One (1) additional production 4TB storage limit instance and one (1) non-production 4TB storage limit"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_571274ed4fbcea923bd2fad1",
+      "description_sha256": "62d0ea80384238a78d895b230eabd5dd936148d2fb374d399eb100e30e4e917d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies production and non-production 4TB storage-limit instances, which is a conventional storage service offering with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "One (1) additional production 4TB storage limit instance and one (1) non-production 4TB storage limit\nstorage limit instance in ServiceNow data center."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_review_concern": "Weak labeler negative vs supported blind negative. Text is an entitlement/storage-limit item, not clearly software functionality; route, do not treat no AI term alone as supported negative."
+  },
+  {
+    "annotation_id": "ann_67953574aac51c307bb24edf",
+    "description_sha256": "5bc44738c291f64e06eccb135c94acfbfab7c3611fe009b1019625ccfb4cfb2d",
+    "description": "As the analytics and planning solution within SAP Business Technology Platform, SAP Analytics Cloud supports trusted insights and integrated planning processes enterprise-wide to help you make decisions without doubt.",
+    "source_record_references": [
+      "1158"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_67953574aac51c307bb24edf",
+      "description_sha256": "5bc44738c291f64e06eccb135c94acfbfab7c3611fe009b1019625ccfb4cfb2d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "No AI signal is stated and the text describes analytics and integrated planning; however analytics is ambiguous and the text does not establish whether the insights or planning are conventional or ML-driven, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "SAP Analytics Cloud supports trusted insights and integrated planning processes enterprise-wide"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_67953574aac51c307bb24edf",
+      "description_sha256": "5bc44738c291f64e06eccb135c94acfbfab7c3611fe009b1019625ccfb4cfb2d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description presents analytics and integrated planning for enterprise decision-making, which are conventional business intelligence and planning functions without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "SAP Analytics Cloud supports trusted insights and integrated planning processes enterprise-wide"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_review_concern": "Weak labeler negative vs supported blind negative. SAP analytics/insights/planning language could conceal ML or conventional analytics; route, keep binary and subtype evidence separate."
+  },
+  {
+    "annotation_id": "ann_67da437bc586e6e7199b77b6",
+    "description_sha256": "1f50a177656db8c5160eef07b1cea95224683689ec92bd277da3aa0579eb63e2",
+    "description": "A single, global platform that powers the Data Cloud. Snowflake is uniquely designed to connect businesses globally, across any type or scale of data and many different workloads, and unlock seamless data collaboration.",
+    "source_record_references": [
+      "1177",
+      "1178",
+      "1179"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_67da437bc586e6e7199b77b6",
+      "description_sha256": "1f50a177656db8c5160eef07b1cea95224683689ec92bd277da3aa0579eb63e2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Marketing-level description of a global data platform for connecting data, workloads and collaboration; no AI signal is stated, but no concrete conventional functionality is described, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A single, global platform that powers the Data Cloud.",
+        "Snowflake is uniquely designed to connect businesses globally, across any type or scale of data and many different workloads, and unlock seamless data collaboration."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_67da437bc586e6e7199b77b6",
+      "description_sha256": "1f50a177656db8c5160eef07b1cea95224683689ec92bd277da3aa0579eb63e2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description presents a global data platform for connecting data and workloads and enabling data collaboration, which is conventional data-platform functionality without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A single, global platform that powers the Data Cloud.",
+        "Snowflake is uniquely designed to connect businesses globally, across any type or scale of data and many different workloads, and unlock seamless data collaboration."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_review_concern": "Weak labeler negative vs supported blind negative. Broad global data-platform/collaboration marketing text needs care: route as weak, grounded text should support actual conventional function rather than category-only inference."
+  },
+  {
+    "annotation_id": "ann_773b442492c73efb2d1bf68d",
+    "description_sha256": "5e9afe5eae675b5293f57af78485cf1eeffa74c1ffa1757494a2d82037fc5640",
+    "description": "Informatica unstructured data is non-transactional business data, the format of which cannot, or does not, easily conform to a relational database schema.",
+    "source_record_references": [
+      "1165"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_773b442492c73efb2d1bf68d",
+      "description_sha256": "5e9afe5eae675b5293f57af78485cf1eeffa74c1ffa1757494a2d82037fc5640",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Only defines unstructured data by its format and transactional nature; no product functionality is described and no AI signal is stated, so a conventional-software negative is not established.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Informatica unstructured data is non-transactional business data, the format of which cannot, or does not, easily conform to a relational database schema."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_773b442492c73efb2d1bf68d",
+      "description_sha256": "5e9afe5eae675b5293f57af78485cf1eeffa74c1ffa1757494a2d82037fc5640",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies unstructured data by its non-transactional nature and lack of conformity to a relational schema, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Informatica unstructured data is non-transactional business data, the format of which cannot, or does not, easily conform to a relational database schema."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_review_concern": "Weak labeler negative vs supported blind negative. Text is a definition only, with no actual product operation; route to preserve insufficiency rather than infer a conventional product."
+  },
+  {
+    "annotation_id": "ann_8e01bfdb2883723c209c3d2b",
+    "description_sha256": "a148c5719f3497fe79c7bbb9e0349e5623d07cb322f6fbc78db8d44922b8c7a7",
+    "description": "IT Business Management groups project portfolio management and agile capabilities into scalable packages that can grow with you as your needs change.\n\nIncluded Applications: Project Portfolio Management; Demand Management; Agile Development; Scaled Agile Framework; Test Management; Release Management; Resource Management; Financial Planning; Investment Funding; Innovation Management; Alignment Planner Workspace; Predictive Intelligence; Virtual\nAgent; and Performance Analytics.\n\nThe product is was previously known as  IT Business Management Professional.",
+    "source_record_references": [
+      "1174"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_8e01bfdb2883723c209c3d2b",
+      "description_sha256": "a148c5719f3497fe79c7bbb9e0349e5623d07cb322f6fbc78db8d44922b8c7a7",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "Included applications name Predictive Intelligence, whose intelligence/prediction nature is not stated in explicit AI or ML terms, and a Virtual Agent; the described core is conventional project portfolio, agile and IT business management. The AI reading is ambiguous, so the positive is weak.",
+      "ai_type_rationale": "The core offering is conventional IT business management and portfolio tooling; the predictive and virtual agent components are listed among included applications rather than described as the core, so enabled is the best-supported subtype with weak evidence.",
+      "evidence_spans": [
+        "Predictive Intelligence"
+      ],
+      "ai_type_evidence_spans": [
+        "IT Business Management groups project portfolio management and agile capabilities into scalable packages that can grow with you as your needs change.",
+        "Predictive Intelligence"
+      ]
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_8e01bfdb2883723c209c3d2b",
+      "description_sha256": "a148c5719f3497fe79c7bbb9e0349e5623d07cb322f6fbc78db8d44922b8c7a7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description clearly lists conventional project, demand, agile, release, resource, financial, and portfolio-management applications, but also names Predictive Intelligence and Virtual Agent without establishing their implementation; the binary non-AI judgment is therefore forced and weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "IT Business Management groups project portfolio management and agile capabilities into scalable packages that can grow with you as your needs change.",
+        "Included Applications: Project Portfolio Management; Demand Management; Agile Development; Scaled Agile Framework; Test Management; Release Management; Resource Management; Financial Planning; Investment Funding; Innovation Management; Alignment Planner Workspace; Predictive Intelligence; Virtual\nAgent; and Performance Analytics."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_review_concern": "Weak labeler AI/ai_enabled vs weak blind non-AI. Predictive Intelligence and Virtual Agent are named but unexplained; route and keep independent binary signal and subtype/core-dependency assessment separate."
+  },
+  {
+    "annotation_id": "ann_d3beb34f7b0fa3ec06fafa51",
+    "description_sha256": "f5c642edc3a90fe46593f1dab3ac1df1f20f346c910b500db9e577d6f957f614",
+    "description": "Customer Success - 1 Day Platform Architect",
+    "source_record_references": [
+      "1172"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_d3beb34f7b0fa3ec06fafa51",
+      "description_sha256": "f5c642edc3a90fe46593f1dab3ac1df1f20f346c910b500db9e577d6f957f614",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text is only a service title and describes no product functionality; no AI signal is stated, but a conventional-software negative is not established.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Customer Success - 1 Day Platform Architect"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_d3beb34f7b0fa3ec06fafa51",
+      "description_sha256": "f5c642edc3a90fe46593f1dab3ac1df1f20f346c910b500db9e577d6f957f614",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a one-day customer-success platform-architect service, which is a conventional professional service with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Customer Success - 1 Day Platform Architect"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_review_concern": "Weak labeler negative vs supported blind negative. Text is only a service title; route because no concrete software function is stated."
+  },
+  {
+    "annotation_id": "ann_fca171ddf8e836f22015579a",
+    "description_sha256": "bd248f048724905f4e653bc438342418cb61ee8734777c40e5c4ffe86538068f",
+    "description": "Verint Premium Plus Support provides an assigned Support Account Manager to oversee your Verint Support needs. Managing and sustaining large, complex, or mission-critical software deployments can require additional levels of expertise and a more active level of support.",
+    "source_record_references": [
+      "1180"
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_fca171ddf8e836f22015579a",
+      "description_sha256": "bd248f048724905f4e653bc438342418cb61ee8734777c40e5c4ffe86538068f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a support service tier with an assigned account manager rather than software functionality; no AI signal is stated, but no conventional product function is established.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Verint Premium Plus Support provides an assigned Support Account Manager to oversee your Verint Support needs."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_fca171ddf8e836f22015579a",
+      "description_sha256": "bd248f048724905f4e653bc438342418cb61ee8734777c40e5c4ffe86538068f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers an assigned support account manager and expertise for complex software deployments, which is conventional support-service functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Verint Premium Plus Support provides an assigned Support Account Manager to oversee your Verint Support needs.",
+        "Managing and sustaining large, complex, or mission-critical software deployments can require additional levels of expertise and a more active level of support."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_review_concern": "Weak labeler negative vs supported blind negative. Text describes account-manager support for deployments; route because this is a support tier rather than clearly software functionality."
+  }
+]

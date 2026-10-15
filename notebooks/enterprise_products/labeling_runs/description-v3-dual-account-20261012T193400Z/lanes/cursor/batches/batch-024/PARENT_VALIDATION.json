@@ -1,0 +1,68 @@
+{
+  "status": "accepted",
+  "timestamp": "2026-10-15T15:36:53.489789+00:00",
+  "descriptions": 20,
+  "source_rows": 22,
+  "all20_pairs_and_all8_final_source_responses_parent_reviewed": true,
+  "exact_plan_hash_all_refs": true,
+  "all40_native_private_helper_schema_quotes_pass": true,
+  "no_repairs": true,
+  "native_reconciliation_single_write_payloads": [
+    {
+      "line": 31,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-024/agents/blind/reconciliation-024/checkpoints/ann_0d349f852628b380079b3c3c.json",
+      "sha256": "c460e41bd6fe7985fec167b58c658041ca7d79aa084f7022b8042133038a577b"
+    },
+    {
+      "line": 32,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-024/agents/blind/reconciliation-024/checkpoints/ann_571274ed4fbcea923bd2fad1.json",
+      "sha256": "b3209bbf409fd9ccae141df341010e555076b563590bd3e6675862d2581559b8"
+    },
+    {
+      "line": 33,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-024/agents/blind/reconciliation-024/checkpoints/ann_67953574aac51c307bb24edf.json",
+      "sha256": "51f92d93bdd72e13839c7d22d2802742174fde55d73c254c454737ad6450825e"
+    },
+    {
+      "line": 34,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-024/agents/blind/reconciliation-024/checkpoints/ann_67da437bc586e6e7199b77b6.json",
+      "sha256": "dd7239d3059c47e69f00cb17da0fb11f3b5d7c6e6ac9c098b0093bc23fc795ae"
+    },
+    {
+      "line": 35,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-024/agents/blind/reconciliation-024/checkpoints/ann_773b442492c73efb2d1bf68d.json",
+      "sha256": "951f51149008971fd3a6b426c10c258534d50d711538b6df573164759f3479f0"
+    },
+    {
+      "line": 36,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-024/agents/blind/reconciliation-024/checkpoints/ann_8e01bfdb2883723c209c3d2b.json",
+      "sha256": "439af6273cef4fd0d5e12bbe7b1685ee01707270268bea328ee566e3c1142224"
+    },
+    {
+      "line": 37,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-024/agents/blind/reconciliation-024/checkpoints/ann_d3beb34f7b0fa3ec06fafa51.json",
+      "sha256": "3c5b169de6595f08e4db9d51579466443f468ee747bb5cfc5dc15551473e88d8"
+    },
+    {
+      "line": 38,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-024/agents/blind/reconciliation-024/checkpoints/ann_fca171ddf8e836f22015579a.json",
+      "sha256": "8cdb574181d7bcc2fda1b6b8eeaf21d30d03e98049bf83bd5f65e5a2eec36981"
+    }
+  ],
+  "prior_baseline_files_unchanged": 1387,
+  "exports": {
+    "description_labels.json": "4efac558f490c1e7da75e8a2a20a1990771c5a4f9bcf41bb120e7153aa4d0780",
+    "record_labels.json": "98a4bdcbb24190c433fc6d3999049f338bc9b14555338fee95943f9681445231",
+    "review_ledger.json": "c42b099f56d0aba3d7efb282dbee2c1f24121955335d525fc31c9e1d73adf2ea",
+    "review_queue.json": "5600a459359965bab9e3545d20e8b836573be01739cc70d1858ed62d83de2892",
+    "non_ai_candidates.csv": "8efb5f2123e39b19143f5cd78d958f12fdeacf6d5edda9723a903860bc841e49",
+    "calibration_report.json": "65962d31105b21a5b7ec82e604bdf46d696a98bb3e5f6921894d801123eb143d"
+  },
+  "counts": {
+    "weak_binary": 7,
+    "weak_subtype": 0,
+    "trusted_negative_rows": 11,
+    "ai_descriptions": 2
+  },
+  "parent_semantic_assessment": "Quill explicit NLG tied to reporting supports native; BigQuery SQL warehouse plus additionalML supports enabled. PredictiveIntelligence/VirtualAgent names unexplained weak. All7weak preserved; no productknowledge imported."
+}

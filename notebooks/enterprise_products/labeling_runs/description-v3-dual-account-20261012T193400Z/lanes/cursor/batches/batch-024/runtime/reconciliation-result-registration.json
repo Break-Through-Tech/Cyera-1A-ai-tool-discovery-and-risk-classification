@@ -1,0 +1,40 @@
+{
+  "batch_id": "batch-024",
+  "stage": "reconciliation",
+  "registered_before_final_comparison": true,
+  "role": "original blind Luna, single authorized reconciliation pass",
+  "model_id": "gpt-5.6-luna-high",
+  "pane": "wF:p1Y",
+  "native_session_uuid": "cca7d0c2-b359-4a3e-854b-f308a71f24db",
+  "workspace": "batches/batch-024/agents/blind/reconciliation-024",
+  "native_transcript_path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/cca7d0c2-b359-4a3e-854b-f308a71f24db/cca7d0c2-b359-4a3e-854b-f308a71f24db.jsonl",
+  "native_transcript_sha256": "fe9506f79cc554ec539f4e42fa21db4cf5a49ed64d99bff7a5f4f394f392fd8e",
+  "result_path": "agents/blind/reconciliation-024/result.json",
+  "result_sha256": "5c11417f1a5ff4c5d215717c1bf094f120334aac3ab9c4d4db26ce9e2922f85c",
+  "assigned_annotation_ids": [
+    "ann_0d349f852628b380079b3c3c",
+    "ann_571274ed4fbcea923bd2fad1",
+    "ann_67953574aac51c307bb24edf",
+    "ann_67da437bc586e6e7199b77b6",
+    "ann_773b442492c73efb2d1bf68d",
+    "ann_8e01bfdb2883723c209c3d2b",
+    "ann_d3beb34f7b0fa3ec06fafa51",
+    "ann_fca171ddf8e836f22015579a"
+  ],
+  "checkpoint_count": 8,
+  "checkpoint_sha256": {
+    "ann_0d349f852628b380079b3c3c.json": "c460e41bd6fe7985fec167b58c658041ca7d79aa084f7022b8042133038a577b",
+    "ann_571274ed4fbcea923bd2fad1.json": "b3209bbf409fd9ccae141df341010e555076b563590bd3e6675862d2581559b8",
+    "ann_67953574aac51c307bb24edf.json": "51f92d93bdd72e13839c7d22d2802742174fde55d73c254c454737ad6450825e",
+    "ann_67da437bc586e6e7199b77b6.json": "dd7239d3059c47e69f00cb17da0fb11f3b5d7c6e6ac9c098b0093bc23fc795ae",
+    "ann_773b442492c73efb2d1bf68d.json": "951f51149008971fd3a6b426c10c258534d50d711538b6df573164759f3479f0",
+    "ann_8e01bfdb2883723c209c3d2b.json": "439af6273cef4fd0d5e12bbe7b1685ee01707270268bea328ee566e3c1142224",
+    "ann_d3beb34f7b0fa3ec06fafa51.json": "3c5b169de6595f08e4db9d51579466443f468ee747bb5cfc5dc15551473e88d8",
+    "ann_fca171ddf8e836f22015579a.json": "8cdb574181d7bcc2fda1b6b8eeaf21d30d03e98049bf83bd5f65e5a2eec36981"
+  },
+  "raw_copies_path": "runtime/pre-helper-raw/reconciliation-024",
+  "exact_private_result_checkpoint_equality": true,
+  "schema_coverage_description_hash_exact_quotes_nonempty_conflict_response": true,
+  "helper_validate_handoff_passed": true,
+  "no_original_independent_result_or_checkpoint_modified": true
+}
