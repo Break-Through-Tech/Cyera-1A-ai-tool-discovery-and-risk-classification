@@ -1,10 +1,10 @@
 {
-  "status": "in_progress",
+  "status": "paused_major_runtime_error",
   "lane": "cursor",
-  "new_completed_descriptions": 340,
-  "new_completed_rows": 344,
-  "remaining_lane_descriptions": 280,
-  "remaining_lane_rows": 295,
+  "new_completed_descriptions": 360,
+  "new_completed_rows": 364,
+  "remaining_lane_descriptions": 260,
+  "remaining_lane_rows": 275,
   "finalized_batches": [
     "batch-001",
     "batch-002",
@@ -20,35 +20,38 @@
     "batch-012",
     "batch-013",
     "batch-014 (accepted integration copy: batches/batch-014-parent-integration)",
-    "batch-015 (accepted integration copy: batches/batch-015-parent-integration; original immutable; pending parent gate)",
+    "batch-015 (accepted integration copy: batches/batch-015-parent-integration; original immutable; parent accepted in runtime/PARENT_ACCEPTANCE_WAVE015_017.json; commit 831976a)",
     "batch-016",
-    "batch-017"
+    "batch-017",
+    "batch-018 (parent accepted; batches/batch-018/PARENT_VALIDATION.json)"
   ],
-  "current_batch": null,
+  "current_batch": "batch-019",
   "active_workers": 0,
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
   "cost_usd": null,
   "billed_tokens": null,
   "latest_authorization": "2026-10-13 user authorized both workflows and routine repair; no routine pauses",
-  "current_stage": "wave015_017_complete_parent_gate_pending",
+  "current_stage": "paused_before_further_work_due_major_runtime_error",
   "native_targets": {
-    "labeler": "cursor017-label idle in wF:p1F; completed batch017 result; duplicate write evidence recorded",
-    "blind": "cursor015-luna-missing done in wF:p1E; resumed original015 Luna session solely for two missing reconciliations; original017 context UUID preserved in batch017/runtime/session-preservation-before-pane-reuse.json"
+    "labeler": "cursor019-label idle on wF:p1J; 20/20 result/checkpoints validated and hash-registered",
+    "blind": "cursor019-blind on wF:p1K; same original GPT-5.6 Luna UUID cdc542c3-887f-4659-a57c-2aac7b53e95a performing one assigned 8-ID semantic reconciliation",
+    "preserved_old_targets": "018 completed p1G/p1H unchanged; prior p1F/p1E untouched"
   },
   "integration_owner": "enterprise-cursor-coordinator",
-  "reconciliation_count": 80,
+  "reconciliation_count": 89,
+  "local_reconciliation_count_pending_parent": 0,
   "last_finalized_batch": {
-    "batch_id": "batch-017",
-    "accepted_path": "batches/batch-017",
+    "batch_id": "batch-018",
+    "accepted_path": "batches/batch-018",
     "descriptions": 20,
     "rows": 20,
-    "reconciliation_count": 3,
+    "reconciliation_count": 9,
     "exports_verified": true,
-    "weak_binary_count": 2,
-    "weak_subtype_count": 0,
-    "structural_repairs": 1,
-    "verified_identical_duplicate_checkpoint_write": true
+    "weak_binary_count": 6,
+    "weak_subtype_count": 1,
+    "structural_repairs": 0,
+    "parent_accepted": true
   },
   "last_parent_integration": {
     "logical_batch_id": "batch-015",
@@ -59,25 +62,40 @@
     "exports_verified": true,
     "weak_binary_count": 5,
     "weak_subtype_count": 0,
-    "pending_parent_gate": true
+    "pending_parent_gate": false,
+    "parent_accepted": true,
+    "parent_acceptance_source": "runtime/PARENT_ACCEPTANCE_WAVE015_017.json",
+    "parent_commit": "831976a"
   },
   "last_wave": {
     "batches": [
-      "batch-015 (integration copy)",
-      "batch-016",
-      "batch-017"
+      "batch-018 parent accepted; batch019 stopped before comparison/finalization"
     ],
-    "descriptions": 60,
-    "rows": 61,
-    "reconciliation_count": 14,
-    "remaining_descriptions": 280,
-    "remaining_rows": 295,
-    "weak_binary_count": 9,
-    "weak_subtype_count": 0,
-    "structural_repairs": 3,
-    "process_deviations": 3,
-    "artifact_only_aggregate_assemblies": 0
+    "descriptions": 20,
+    "rows": 20,
+    "reconciliation_count": 9,
+    "accepted_lane_descriptions": 360,
+    "accepted_lane_rows": 364,
+    "remaining_lane_descriptions": 260,
+    "remaining_lane_rows": 275,
+    "batch019_selected_descriptions": 20,
+    "batch019_selected_rows": 20,
+    "batch019_structural_blocker": "parent authorized a non-mutating accepted-result.json transport using same original Luna context; 21 raw checkpoints retained, selecting only exact20 assigned good filenames",
+    "batch019_stage": "one original-Luna reconciliation pass in progress; all20 raw result/checkpoint gates and pair-review routing complete"
   },
-  "next_safe_action": "Parent independently gates batch015 integration copy and batch016/017, updates root/global/Git as appropriate, then may launch fresh batch018. No batch018 started by this integration owner.",
-  "blocker": "Batch015 parent-integration copy is finalized and mechanically verified locally but remains pending parent independent acceptance; parent owns global coverage and Git. See runtime/wave015-017-handoff-20261015.9657f625.md."
+  "next_safe_action": "Complete one reconciliation pass for all8 routed IDs; validate/hash receipts and finalize batch019 via helper. Then test and parent gate before fresh020.",
+  "blocker": "Codex account usage limit reached; nativeCursor019 originalblind connection interrupted repeatedly andstopped. Preservedpartialresults; nofallback.",
+  "parent_gate_status": "batches015-018 accepted; batch018 accepted path unchanged. Parent global reports 800 descriptions / 822 rows after Codex014; parent owns global/Git.",
+  "last_parent_acceptance": {
+    "batches": "015-018",
+    "accepted": true,
+    "source": "batches/batch-018/PARENT_VALIDATION.json",
+    "global_coverage_reported": "800 descriptions / 822 rows after Codex014; parent-owned, not re-counted here"
+  },
+  "local_finalized_pending_parent": {
+    "descriptions": 0,
+    "rows": 0,
+    "batch": null
+  },
+  "updated_at": "2026-10-15T13:48:51.713688+00:00"
 }

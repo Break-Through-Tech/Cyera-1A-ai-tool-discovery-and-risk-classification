@@ -1,7 +1,7 @@
 {
-  "status": "in_progress",
+  "status": "paused_major_runtime_error",
   "lane": "codex",
-  "updated_at": "2026-10-15T07:20:58.678334+00:00",
+  "updated_at": "2026-10-15T13:48:51.713688+00:00",
   "new_completed_descriptions": 340,
   "new_completed_rows": 345,
   "remaining_lane_descriptions": 271,
@@ -27,9 +27,10 @@
   ],
   "current_batch": "batch-018",
   "next_batch": "batch-019",
-  "current_stage": "independent_pair_active",
-  "active_workers": 2,
+  "current_stage": "paused_before_further_work_due_major_runtime_error",
+  "active_workers": 0,
   "resume_requires_user_request": false,
   "stop_on_usage_limit": true,
-  "independent_workflow_run_id": "d5bb955f-c00e-419e-93a4-5012691cf8cf"
+  "independent_workflow_run_id": "d5bb955f-c00e-419e-93a4-5012691cf8cf",
+  "blocker": "Codex account usage limit reached; nativeCursor019 originalblind connection interrupted repeatedly andstopped. Preservedpartialresults; nofallback."
 }
