@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "updated_at": "2026-10-15T15:37:42.351029+00:00",
+  "updated_at": "2026-10-15T15:39:03.456740+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
   "new_completed_descriptions": 900,
@@ -14,8 +14,8 @@
   "resume_requires_user_request": false,
   "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
   "cursor_status": "001\u2013024 parent accepted;025 fresh pair p1Z/p10 under retained coordinator4f4c2546.",
-  "codex_status": "001\u2013021 finalized;022 fresh independent pair active.",
-  "codex_active_workers": 2,
+  "codex_status": "001\u2013021 finalized;022 originalblind7-item reconciliation active.",
+  "codex_active_workers": 1,
   "cursor_live_worker_state": "025 freshly provisioned p1Z/p10;024 accepted.",
   "active_runs": {
     "cursor_panes": [
@@ -23,9 +23,10 @@
       "wF:p10"
     ],
     "cursor_integration_owner": "4f4c2546-d3e3-47af-ba9d-b5f0a0aad48b",
-    "codex_independent_workflow": "ff3c601b-aec0-453e-88dc-7a29b6a8c4aa"
+    "codex_independent_workflow": "ff3c601b-aec0-453e-88dc-7a29b6a8c4aa",
+    "codex_reconciliation_workflow": "8be35b12-a929-4a40-af1e-5a4581eb2c6a"
   },
   "native_resume_receipt": "runtime/NATIVE_RESUME_AFTER_RESET_20261015.json",
-  "active_workers": 4,
+  "active_workers": 3,
   "blocker": null
 }

@@ -1,0 +1,304 @@
+[
+  {
+    "annotation_id": "ann_08816a0f7837f2d4fd6cced4",
+    "description_sha256": "b437a40a36d8dd0e7b13fbb1fe59446ecb32fed440c8b827fafd6f69d6a76041",
+    "description": "KEMP Virtual LoadMaster (VLM) is a virtualized edition of LoadMaster that can be deployed in the Cloud from Azure or AWS marketplaces (including the Government specific regions); in a virtual machine in any Cloud providers VMs; on private virtual infrastructures such as that from VMware, Hyper-V, VirtualBox, and Xen. VLM is ideal for use with IoT Platforms and infrastructure.",
+    "source_record_references": [
+      "1098"
+    ],
+    "labeler": {
+      "annotation_id": "ann_08816a0f7837f2d4fd6cced4",
+      "description_sha256": "b437a40a36d8dd0e7b13fbb1fe59446ecb32fed440c8b827fafd6f69d6a76041",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes deployment options for a virtualized load-balancing offering across public and private infrastructure, a conventional infrastructure function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a virtualized edition of LoadMaster that can be deployed in the Cloud from Azure or AWS marketplaces (including the Government specific regions); in a virtual machine in any Cloud providers VMs; on private virtual infrastructures such as that from VMware, Hyper-V, VirtualBox, and Xen."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_08816a0f7837f2d4fd6cced4",
+      "description_sha256": "b437a40a36d8dd0e7b13fbb1fe59446ecb32fed440c8b827fafd6f69d6a76041",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes virtualized load-balancer deployment across public and private cloud/virtual-machine environments, a conventional infrastructure deployment function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "KEMP Virtual LoadMaster (VLM) is a virtualized edition of LoadMaster that can be deployed in the Cloud from Azure or AWS marketplaces (including the Government specific regions); in a virtual machine in any Cloud providers VMs; on private virtual infrastructures such as that from VMware, Hyper-V, VirtualBox, and Xen. VLM is ideal for use with IoT Platforms and infrastructure."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "BOTH rationales infer load balancing, but source only names LoadMaster and lists virtual/cloud deployment options. No load-balancing operation is explicitly described. Evaluate evidence from literal text only, remove imported product knowledge, and retain weak/forced if deployment packaging alone lacks concrete functionality."
+    ]
+  },
+  {
+    "annotation_id": "ann_0aa5f5abcb43dd3ee362da3b",
+    "description_sha256": "16b86e3355f671488599ed9da0517d914d476e79fe7ef28444003a03fd82a2dd",
+    "description": "The Core Infrastructure Server Suites help you easily acquire the foundation for a protected, well- managed IT infrastructure. These suites offers a cost-efficient way to license the Windows Server. operating system, Microsoft System Center server management, and Microsoft ForefrontTM Client.",
+    "source_record_references": [
+      "1106"
+    ],
+    "labeler": {
+      "annotation_id": "ann_0aa5f5abcb43dd3ee362da3b",
+      "description_sha256": "16b86e3355f671488599ed9da0517d914d476e79fe7ef28444003a03fd82a2dd",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Identifies conventional server operating-system licensing and server-management software suites for protected IT infrastructure.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "These suites offers a cost-efficient way to license the Windows Server. operating system, Microsoft System Center server management, and Microsoft ForefrontTM Client."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_0aa5f5abcb43dd3ee362da3b",
+      "description_sha256": "16b86e3355f671488599ed9da0517d914d476e79fe7ef28444003a03fd82a2dd",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes licensing of operating-system, server-management, and client-software components in infrastructure suites, conventional IT software functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "These suites offers a cost-efficient way to license the Windows Server. operating system, Microsoft System Center server management, and Microsoft ForefrontTM Client."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "The source describes cost-efficient licensing suites and named OS/server-management components. Distinguish actual described software functions from entitlement/bundle listing; decide whether conventional functions are positively established enough for supported negative without importing named-product capabilities."
+    ]
+  },
+  {
+    "annotation_id": "ann_0c7f876b83336eacd9f27ea9",
+    "description_sha256": "d70d41dbcc6870e14a822eb921898ea5abe27217a0e86e11f898b6fe473b3d68",
+    "description": "Gisual provides outage intelligence for telecoms and service providers, used to diagnose commercial power outages in real-time to automate troubleshooting (utilities).",
+    "source_record_references": [
+      "1088"
+    ],
+    "labeler": {
+      "annotation_id": "ann_0c7f876b83336eacd9f27ea9",
+      "description_sha256": "d70d41dbcc6870e14a822eb921898ea5abe27217a0e86e11f898b6fe473b3d68",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes real-time outage diagnosis and automated troubleshooting but provides little about how this outage intelligence works; no affirmative AI signal appears, so non-AI is the best-supported forced judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides outage intelligence for telecoms and service providers, used to diagnose commercial power outages in real-time to automate troubleshooting (utilities)."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_0c7f876b83336eacd9f27ea9",
+      "description_sha256": "d70d41dbcc6870e14a822eb921898ea5abe27217a0e86e11f898b6fe473b3d68",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes real-time outage monitoring/diagnosis and automated troubleshooting for utility power outages, a conventional operational monitoring use case without a stated AI method.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Gisual provides outage intelligence for telecoms and service providers, used to diagnose commercial power outages in real-time to automate troubleshooting (utilities)."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": []
+  },
+  {
+    "annotation_id": "ann_1aa37c650acab05fb845ce71",
+    "description_sha256": "def783b481096c1ce0a204a69ad99a61b4f6149ccbdd5aa397c2a79f9862c4f0",
+    "description": "HeadSpin enables testing and monitoring of mobile, web, audio/video applications in real-time with AI based insights.",
+    "source_record_references": [
+      "1090"
+    ],
+    "labeler": {
+      "annotation_id": "ann_1aa37c650acab05fb845ce71",
+      "description_sha256": "def783b481096c1ce0a204a69ad99a61b4f6149ccbdd5aa397c2a79f9862c4f0",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly states that the application testing and monitoring product provides AI-based insights.",
+      "ai_type_rationale": "Testing and monitoring remain meaningful conventional core functions; AI is described as providing insights alongside them.",
+      "evidence_spans": [
+        "HeadSpin enables testing and monitoring of mobile, web, audio/video applications in real-time with AI based insights."
+      ],
+      "ai_type_evidence_spans": [
+        "with AI based insights"
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_1aa37c650acab05fb845ce71",
+      "description_sha256": "def783b481096c1ce0a204a69ad99a61b4f6149ccbdd5aa397c2a79f9862c4f0",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The description expressly identifies AI-based insights as a feature of application testing and monitoring, establishing an AI-positive offering.",
+      "ai_type_rationale": "AI-based insights are described as an enhancement alongside conventional testing and monitoring, but the text does not establish whether those remain the meaningful core without AI; enabled is the best-supported subtype with uncertainty.",
+      "evidence_spans": [
+        "HeadSpin enables testing and monitoring of mobile, web, audio/video applications in real-time with AI based insights."
+      ],
+      "ai_type_evidence_spans": [
+        "AI based insights"
+      ]
+    },
+    "parent_concerns": []
+  },
+  {
+    "annotation_id": "ann_40dfee122bdefbbdff006310",
+    "description_sha256": "223820fa41847b96c13a9ec4e0c2b289b4000d707ea00aed80e0b5efca6674ac",
+    "description": "Illuminated Cloud is a Salesforce development tool hosted within JetBrains IntelliJ IDEA. Illuminated Cloud was designed and implemented with the express intent of bringing feature sets of modern Java IDEs to Salesforce developers.",
+    "source_record_references": [
+      "1094"
+    ],
+    "labeler": {
+      "annotation_id": "ann_40dfee122bdefbbdff006310",
+      "description_sha256": "223820fa41847b96c13a9ec4e0c2b289b4000d707ea00aed80e0b5efca6674ac",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a Salesforce development tool hosted in an IDE and intended to provide modern Java IDE feature sets, conventional developer tooling.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Illuminated Cloud is a Salesforce development tool hosted within JetBrains IntelliJ IDEA.",
+        "bringing feature sets of modern Java IDEs to Salesforce developers."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_40dfee122bdefbbdff006310",
+      "description_sha256": "223820fa41847b96c13a9ec4e0c2b289b4000d707ea00aed80e0b5efca6674ac",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a Salesforce development tool hosted in an IDE that brings Java IDE feature sets to developers, conventional software-development tooling.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Illuminated Cloud is a Salesforce development tool hosted within JetBrains IntelliJ IDEA. Illuminated Cloud was designed and implemented with the express intent of bringing feature sets of modern Java IDEs to Salesforce developers."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Source names Salesforce development/IDE hosting and generic modern Java IDE feature sets, but does not enumerate operations. Assess whether conventional developer-tool function is explicit enough, without assuming completion/generation or current IDE capabilities from memory."
+    ]
+  },
+  {
+    "annotation_id": "ann_a74e628756e4e6ab975f0227",
+    "description_sha256": "7968ac1c0204dc812b0c2cec144c8ee35ccfb90b0d93dc0e5b115d486192ba28",
+    "description": "Automate the process of discovering and deploying 3rd party application updates and prioritize and remediate the vulnerabilities that pose the most risk to organization.",
+    "source_record_references": [
+      "1097"
+    ],
+    "labeler": {
+      "annotation_id": "ann_a74e628756e4e6ab975f0227",
+      "description_sha256": "7968ac1c0204dc812b0c2cec144c8ee35ccfb90b0d93dc0e5b115d486192ba28",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes discovering and deploying third-party application updates and prioritizing and remediating vulnerabilities, conventional patch and security-management functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Automate the process of discovering and deploying 3rd party application updates and prioritize and remediate the vulnerabilities that pose the most risk to organization."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_a74e628756e4e6ab975f0227",
+      "description_sha256": "7968ac1c0204dc812b0c2cec144c8ee35ccfb90b0d93dc0e5b115d486192ba28",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes discovering and deploying third-party application updates and prioritizing/remediating vulnerabilities, conventional patch and vulnerability-management operations.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Automate the process of discovering and deploying 3rd party application updates and prioritize and remediate the vulnerabilities that pose the most risk to organization."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Patch discovery/deployment is concrete but prioritizing highest-risk vulnerabilities is method-unspecified. Assess support for whole binary without inventing rule-based prioritization; ambiguous prioritization must not silently be treated as proof of non-AI."
+    ]
+  },
+  {
+    "annotation_id": "ann_fb0f899923137812d30efb49",
+    "description_sha256": "566d91c1f038ba0e2b0fee9d98782992746c66e0e7dc39b20ddf59452df0e9f4",
+    "description": "Create personalized digital experiences at scale with a core set of technologies that allow you to define, standardize, and tailor unique online experiences that connect with your audience.\n\nA complete set of tools that help you manage content, control what content and functions your users see, and enables everyone in your organization to collaborate and share knowledge more effectively.",
+    "source_record_references": [
+      "1100"
+    ],
+    "labeler": {
+      "annotation_id": "ann_fb0f899923137812d30efb49",
+      "description_sha256": "566d91c1f038ba0e2b0fee9d98782992746c66e0e7dc39b20ddf59452df0e9f4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes content management, controlling what users see, and organizational collaboration and knowledge sharing: conventional digital-experience and content-management functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A complete set of tools that help you manage content, control what content and functions your users see, and enables everyone in your organization to collaborate and share knowledge more effectively."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_fb0f899923137812d30efb49",
+      "description_sha256": "566d91c1f038ba0e2b0fee9d98782992746c66e0e7dc39b20ddf59452df0e9f4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes tools for creating and managing digital experiences, controlling content and user access, and enabling organizational collaboration and knowledge sharing.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A complete set of tools that help you manage content, control what content and functions your users see, and enables everyone in your organization to collaborate and share knowledge more effectively."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Personalized/tailored experiences and controlling what content users see may be ordinary content controls or automated recommendations. Source does describe content management/collaboration; assess whether that supports the whole negative and do not invent segmentation/recommendation mechanisms."
+    ]
+  }
+]

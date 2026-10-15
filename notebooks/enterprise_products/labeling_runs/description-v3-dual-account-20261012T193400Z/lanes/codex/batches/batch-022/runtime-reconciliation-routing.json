@@ -1,0 +1,43 @@
+{
+  "required": [
+    "ann_0c7f876b83336eacd9f27ea9",
+    "ann_1aa37c650acab05fb845ce71"
+  ],
+  "extra": [
+    "ann_08816a0f7837f2d4fd6cced4",
+    "ann_0aa5f5abcb43dd3ee362da3b",
+    "ann_40dfee122bdefbbdff006310",
+    "ann_a74e628756e4e6ab975f0227",
+    "ann_fb0f899923137812d30efb49"
+  ],
+  "routed_ids": [
+    "ann_08816a0f7837f2d4fd6cced4",
+    "ann_0aa5f5abcb43dd3ee362da3b",
+    "ann_0c7f876b83336eacd9f27ea9",
+    "ann_1aa37c650acab05fb845ce71",
+    "ann_40dfee122bdefbbdff006310",
+    "ann_a74e628756e4e6ab975f0227",
+    "ann_fb0f899923137812d30efb49"
+  ],
+  "all20_source_proposal_pairs_reviewed": true,
+  "parent_concerns": {
+    "ann_08816a0f7837f2d4fd6cced4": [
+      "BOTH rationales infer load balancing, but source only names LoadMaster and lists virtual/cloud deployment options. No load-balancing operation is explicitly described. Evaluate evidence from literal text only, remove imported product knowledge, and retain weak/forced if deployment packaging alone lacks concrete functionality."
+    ],
+    "ann_0aa5f5abcb43dd3ee362da3b": [
+      "The source describes cost-efficient licensing suites and named OS/server-management components. Distinguish actual described software functions from entitlement/bundle listing; decide whether conventional functions are positively established enough for supported negative without importing named-product capabilities."
+    ],
+    "ann_40dfee122bdefbbdff006310": [
+      "Source names Salesforce development/IDE hosting and generic modern Java IDE feature sets, but does not enumerate operations. Assess whether conventional developer-tool function is explicit enough, without assuming completion/generation or current IDE capabilities from memory."
+    ],
+    "ann_a74e628756e4e6ab975f0227": [
+      "Patch discovery/deployment is concrete but prioritizing highest-risk vulnerabilities is method-unspecified. Assess support for whole binary without inventing rule-based prioritization; ambiguous prioritization must not silently be treated as proof of non-AI."
+    ],
+    "ann_fb0f899923137812d30efb49": [
+      "Personalized/tailored experiences and controlling what content users see may be ordinary content controls or automated recommendations. Source does describe content management/collaboration; assess whether that supports the whole negative and do not invent segmentation/recommendation mechanisms."
+    ]
+  },
+  "same_original_blind_run": "35633262-4234-4497-8ff6-514f04cae166",
+  "semantic_pass": 1,
+  "packet_sha256": "6d39cd4737740bac766b19ccae455bc26fced0faedb8e05564af0f157faddeb4"
+}
