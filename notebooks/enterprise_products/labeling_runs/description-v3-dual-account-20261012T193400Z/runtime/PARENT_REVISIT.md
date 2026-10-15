@@ -1,5 +1,11 @@
 # Parent revisit — BOTH LANES RESUMED through ACTUAL pi-subagents
 
+## Latest wake — Codex013 originalblind2-item reconciliation active
+
+Codex013 nativeindependents b49b6535/388e0255 COMPLETE. Actual20each coverage/schema/hash/sourceexactquotes/private/native equality pass; rawnative acceptedbytecopies+runtime-independent-validation.json saved BEFORE compare, no repairs. Parent inspectedALL20pairs; helperregistered40, routedrequired1MainframeUtilities sparse-title PLUS1 ENCScomputeappliance nameddeployment/outcome/categorysupportconcern. SAMEoriginalblind ONE2-itemreconciliation ACTIVEworkflow148b329c-7f6f-4edc-8be9-e6f0a2fc89d0 correctedABSOLUTEpaths. Oncompletion inspectactualnative/private2/source-finalconcerns/alloriginal40hashes; helperfinalize/accept/commitandlaunch014fresh. Global740/762unchanged.
+
+Cursor e266e50a runningactive one-shotstatus; no pendingasks. Read-only lanePROGRESS still priorwave pendinggate/nullstage/oldpanes; sentsteer7a09a4f8 to exclusiveowner updateactual018/p1G+p1H state andclear alreadyresolved015–017parentgate flags withoutredo. ParentnoteditingCursorfiles/controlpanes. Nativecompletionswake/no polling/bg_wait/pstack.
+
 ## Latest wake — finalized740/762; Codex013 fresh native pair active
 
 Codex012 originalblind3 nativechildd1866b34 complete. Parent inspected all3actualfinal/source/conflictresponses (callverificationmethod ambiguity, connectedapplications vagueoutcomes, guestOSlicense-only), allweak/forcednonAI withnullsubtype. Actualnative/private3/schema/quotes/coverage and ALL40originalrawhashespassed. Helperfinalized20descriptions20rows,3weakbinary17trustednegative rows. Exactuniqueglobal740descriptions762rows, remaining651/676; prior1387baselinehashesunchanged,36testsPASS. Codex240/244; Cursor340/344.

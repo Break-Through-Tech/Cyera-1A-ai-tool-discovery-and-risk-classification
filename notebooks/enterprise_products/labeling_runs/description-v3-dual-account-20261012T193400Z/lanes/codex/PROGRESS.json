@@ -22,9 +22,12 @@
   ],
   "current_batch": "batch-013",
   "next_batch": "batch-014",
-  "current_stage": "batch013_independent_active",
-  "active_workers": 2,
+  "current_stage": "batch013_reconciliation_active",
+  "active_workers": 1,
   "resume_requires_user_request": false,
   "stop_on_usage_limit": true,
-  "independent_workflow_run_id": "9fe4eebd-b84b-4c19-8fbc-585793d63f99"
+  "independent_workflow_run_id": "9fe4eebd-b84b-4c19-8fbc-585793d63f99",
+  "labeler_run_id": "b49b6535-6efd-4047-b418-4c3e67b799e6",
+  "original_verifier_run_id": "388e0255-ad68-4ecc-950f-c7d1bf860917",
+  "reconciliation_workflow_run_id": "148b329c-7f6f-4edc-8be9-e6f0a2fc89d0"
 }
