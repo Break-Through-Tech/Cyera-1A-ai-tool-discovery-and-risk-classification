@@ -1,0 +1,354 @@
+[
+  {
+    "product_description": "Coursera is a totally comprehensive platform for adult further education. It offers everything from music, art and philosophy to computer security, software development, cloud computing, mechanical engineering and astronomy.",
+    "annotation_id": "ann_0e672b139bee8388f08d7620",
+    "description_sha256": "7a91f06e0d80b419673a2e295edd43d0ee58627afe708a757e4ef874b37c2b36",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The platform is described as adult further education offering courses across arts, philosophy, computing and engineering topics, conventional educational content delivery.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "a totally comprehensive platform for adult further education",
+      "It offers everything from music, art and philosophy to computer security, software development, cloud computing, mechanical engineering and astronomy."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "TIBCO Managed File Transfer lets you consolidate all your organization's file transfer processes into a single, secure, centrally managed MFT system with support for: File transfers between systems or applications (A2A) File transfers between business partners (B2B)",
+    "annotation_id": "ann_1266268ca0f7e042e88083f4",
+    "description_sha256": "3cf9bc1542b2b7e75b92d79b2d2b5c4b23b65feec82c24a66628d12e86c08756",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The product consolidates and centrally manages file transfers between systems/applications and business partners, a conventional secure file-transfer function.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "consolidate all your organization's file transfer processes into a single, secure, centrally managed MFT system",
+      "File transfers between systems or applications (A2A) File transfers between business partners (B2B)"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Qvidian is the proposal automation software for Blackboard's global RFP Team and it is used to respond to all strategic Sales proposals that have been approved via internal stakeholders.",
+    "annotation_id": "ann_13bc4132fc78e6d52f9350bb",
+    "description_sha256": "ca9e8c9d9c4f1f51fe2c073dce9d73af896d72b52ac84e94c3c09d3b2b5abb1e",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text calls this proposal automation and says it is used to respond to proposals, but does not explain whether responses are assembled through conventional templates/workflows or generated another way. The best binary choice is non-AI, but the mechanism is too unspecified for a supported negative.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "proposal automation software",
+      "used to respond to all strategic Sales proposals"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Seal Software provides a better way to find answers and continually improve outcomes. Seal is helping companies solve problems across a wide range of use cases. From strategic M&A initiatives to tactical projects Seal provides a faster time to value than manual processes and traditional contract management tools alone.",
+    "annotation_id": "ann_145f4bcbb866f397b8a9d267",
+    "description_sha256": "8d6fb7fce448e80b505400f9201485218a69c4f96b0a9635a74b430ab4d7403c",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description gives only broad promises about finding answers, outcomes and speed relative to manual processes and contract-management tools. It does not identify a concrete conventional implementation, so non-AI is the best but weak choice.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "provides a better way to find answers and continually improve outcomes",
+      "faster time to value than manual processes and traditional contract management tools alone"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "The ROC (Revenue Optimization Center) Revenue Assurance solution from Subex simpli\u001ces the highly complex Revenue Assurance domain by introducing two path breaking concepts- RevenuePad and Zen",
+    "annotation_id": "ann_2ecd9733e35040fd61c3e884",
+    "description_sha256": "41c5672894f227718e08a0b5a8d4a5dae3d133d8b2c24c3d3bb1f7635293b6d1",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text identifies a revenue-assurance solution and says it simplifies that domain through named concepts, but does not explain what the solution does. Non-AI is the best choice from this conventional domain description, with limited support.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Revenue Assurance solution from Subex",
+      "the highly complex Revenue Assurance domain"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "No-code automation software to transform high-volume workload into streamlined workflows. Thinkmart Automation Platform (TAP)",
+    "annotation_id": "ann_327904651070fcdb5be1009a",
+    "description_sha256": "16af6a79080b70572fe64ca8d4cb1aee8a616f4bcde30f76a49ac265498af39f",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The offering is explicitly described as no-code automation software that turns high-volume workload into streamlined workflows. This is a meaningful conventional workflow-automation function; the text does not require assuming a particular deterministic implementation.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "No-code automation software to transform high-volume workload into streamlined workflows"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Oracle Fusion Cloud Enterprise Performance Management (EPM) helps you model and plan across finance, HR, supply chain, and sales, streamline the financial close process, and drive better decisions.",
+    "annotation_id": "ann_4a591693075b847d375b126d",
+    "description_sha256": "148349b21518a1cb805c64e0d624e1eede6ce911ced941fffd502b40f9bc164b",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The EPM software helps model and plan across business functions and streamline financial close, conventional planning and finance-management tasks.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "helps you model and plan across finance, HR, supply chain, and sales, streamline the financial close process"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Business Rules Decision Modeling Notation (DMN)",
+    "annotation_id": "ann_4c1707c578b428ffa58e15de",
+    "description_sha256": "d10c2c01f780a8a2c52c239b68971f1a5734fd378feca4f0f9e87ce6f33273a4",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description supplies only the name of a business-rules decision-modeling notation, not a concrete product or what it does. Non-AI is the best binary choice, but the function is too sparsely described for supported evidence.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Business Rules Decision Modeling Notation (DMN)"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "SinglePoint delivers on the promise of research-driven competitive advantage by making information easy to find and use.  It is a custom-built enterprise knowledge management platform that seamlessly integrates and enables full-text search of all your research resources to create an invaluable market research/competitive intelligence portal.",
+    "annotation_id": "ann_54115376ab7993bf1438964f",
+    "description_sha256": "8b10ee712fd4c73d525d60863339c3971960b2ecd201e9322e9207f263b705d9",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "It describes an enterprise knowledge-management portal that integrates research resources and provides full-text search for market-research and competitive-intelligence information.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "custom-built enterprise knowledge management platform that seamlessly integrates and enables full-text search of all your research resources",
+      "market research/competitive intelligence portal"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "SAP S/4HANA (High-Performance Analytic Appliance) is SAP's ERP for large enterprises\n\nSAP stands for Systems Applications and Products in Data Processing. SAP, by definition, is also the name of the ERP (Enterprise Resource Planning) software as well as the name of the company. ... SAP system consists of a number of fully integrated modules, which covers virtually every aspect of business management. - 1 ERP Cloud Subscriptions. HEC (Hana Enterprise Cloud)",
+    "annotation_id": "ann_695e3df32de02d5745f8d49a",
+    "description_sha256": "36460dd10e4f99c1f068bdd706e3204c83a8d2a42b7362d1d5ce3c317083095a",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description expressly identifies enterprise resource-planning software and integrated modules covering business management. These specify a conventional enterprise-management function sufficiently for a description-based negative; no particular SAP features are inferred.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "SAP's ERP for large enterprises",
+      "fully integrated modules, which covers virtually every aspect of business management"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Payments analytics platform that automatically gathers your processor, gateway and order management data and breaks the numbers down for you. Pazien acquired by FIS",
+    "annotation_id": "ann_6c1af10583a59c24e7293af8",
+    "description_sha256": "dd6f23c77cb68df7abf897cb4b7ea6d4f26d1827dda947c4def2b9f9dbc3d64d",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description gives a conventional payments-analytics task: automatically gather processor, gateway and order data and break down the numbers. It does not establish AI-based analysis.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Payments analytics platform that automatically gathers your processor, gateway and order management data and breaks the numbers down for you."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Workday is a cloud-based software vendor that specializes in human capital management (HCM), enterprise resource management (ERP), and financial management applications",
+    "annotation_id": "ann_85c3ede6731f11a31739ab2d",
+    "description_sha256": "5aea6eacf20230a577ff0bd6ad0308ec31321b183ebf276e7352506382b5a4be",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description identifies enterprise applications in human-capital, enterprise-resource and financial management. These are stated functional domains of the software, supporting a conventional business-management offering without requiring inference of specific operations.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "human capital management (HCM), enterprise resource management (ERP), and financial management applications"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "360 Cloud Apps, automates recurring invoices, electronic payments, and renewals directly in NetSuite",
+    "annotation_id": "ann_8648956c8927534eb3ed8542",
+    "description_sha256": "b9eb132aa14fdc19deeecfae94551093e061cc4b5ccc8b0c9cc805590403b872",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description specifies automation of recurring invoices, electronic payments and renewals directly in NetSuite, ordinary transaction and billing workflows.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "automates recurring invoices, electronic payments, and renewals directly in NetSuite"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Oracle Enterprise Data Management Cloud (EDM) provides us a central change management platform that enables us to align our enterprise hierarchies in a single location and distribute them to the operational, financial and reporting systems.",
+    "annotation_id": "ann_a4ebd4a8399bb7b3ddb4e12f",
+    "description_sha256": "5ece0bb64fcb4ef6d0923ed2c5bd8cc92b5653f200a9aef312957aaa89a03e1e",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "It provides a central change-management platform for aligning enterprise hierarchies and distributing them to operational, financial and reporting systems, a conventional data-governance/integration function.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "central change management platform that enables us to align our enterprise hierarchies in a single location and distribute them to the operational, financial and reporting systems."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Nintex Drawloop DocGen for Salesforce is the only no-code document generation solution on the AppExchange. Its drag-and-drop designer interface makes it easy for Salesforce admins with no coding experience to build automated solutions for existing manual document creation tasks.",
+    "annotation_id": "ann_abef6bc51110e7a6b6bd62b5",
+    "description_sha256": "d8a46010ee3e74ceb26e8357b1633e0a4dee81c0f36feb3f7c4b7b88a059bd9d",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The described no-code drag-and-drop tool lets Salesforce admins automate manual document-creation tasks, a conventional document-generation workflow.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "no-code document generation solution",
+      "drag-and-drop designer interface makes it easy for Salesforce admins with no coding experience to build automated solutions for existing manual document creation tasks"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Shibumi is a cloud-based enterprise app providing work management, collaboration and performance measurement services for businesses. The platform is used to platform to create, track and analyze portfolio and value management for projects and programs within your organization.",
+    "annotation_id": "ann_ba8dc441c7dc60d0772fef7f",
+    "description_sha256": "c36383135673d57b2976106a44f8fa238f8b6ff60f119b94526c368ca50beea5",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The cloud app provides work management, collaboration and performance measurement, including tracking and analyzing project and program portfolios and value management.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "work management, collaboration and performance measurement services for businesses.",
+      "create, track and analyze portfolio and value management for projects and programs within your organization."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Support For Large Enterprise. Support for NSAP - VSAP",
+    "annotation_id": "ann_d170dbd5198523f230af18df",
+    "description_sha256": "901bbdf8999d84abe53d416a20dec365441be44a7f459acbc4388f0a91fcdaa9",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text only asserts enterprise support and mentions NSAP/VSAP; it does not explain software functionality, so the best binary choice is a weak non-AI judgment.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Support For Large Enterprise. Support for NSAP - VSAP"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "PleaseReview is a mission-critical application in support of proposal compliance and quality. PleaseReview provides significant value in terms of streamlining the quality validation process of proposal and contract modification reviews, reducing the time it takes to process inbound and outbound review documents from up to a week to just minutes\n\nNew Company name - IDEAGEN TECHNOLOGY",
+    "annotation_id": "ann_e5e2982c2633928ff0c31978",
+    "description_sha256": "a5afbd0bb9baaffac40c8c6fd357450ce89784cd55794daeee64059a37b01b76",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text states proposal-compliance support and quality validation/review of inbound and outbound documents, but does not explain how validation is performed. Non-AI is the best choice, though the unspecified mechanism makes the negative weak.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "support of proposal compliance and quality",
+      "streamlining the quality validation process of proposal and contract modification reviews"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "VisualizeROI enables value communication through Interactive ROI calculators, TCO tools, and Value selling tools.\n\neRealInvestor is a web-based suite of financial analysis software for residential real estate Investors and their professional advisors.",
+    "annotation_id": "ann_efb7531cf6e96c295645ef5a",
+    "description_sha256": "21e7f5bab0664fe94d6aa01cc8e0e7e860f3ca05d29333bfb221f8100c2837b8",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The described tools are interactive ROI calculators, TCO/value-selling tools and financial-analysis software for real-estate investors, conventional calculation and analysis functionality.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Interactive ROI calculators, TCO tools, and Value selling tools.",
+      "web-based suite of financial analysis software for residential real estate Investors and their professional advisors."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Cloud-based staff holiday planning and absence management software solution. Provided based on 16,000 staff worldwide\nWorkforce management tool",
+    "annotation_id": "ann_fe7fba8133ab0ba34c2062be",
+    "description_sha256": "cbdb0b1013cc151be7224134d004752beb58f1ad9ebde4b5a09e40ff9aa555c6",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "It describes staff holiday planning and absence management as a workforce-management tool, conventional scheduling and administration functions.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Cloud-based staff holiday planning and absence management software solution.",
+      "Workforce management tool"
+    ],
+    "ai_type_evidence_spans": null
+  }
+]

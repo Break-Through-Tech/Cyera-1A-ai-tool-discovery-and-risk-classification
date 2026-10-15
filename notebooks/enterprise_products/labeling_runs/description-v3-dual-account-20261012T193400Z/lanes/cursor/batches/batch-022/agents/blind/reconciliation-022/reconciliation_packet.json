@@ -1,0 +1,234 @@
+[
+  {
+    "annotation_id": "ann_19281a86a3a4dd330148d59d",
+    "description_sha256": "199b95690a01efc11b1cb8e88c4f4f38605d64414ffd7551b9b786caece8d3fc",
+    "description": "The American Registry for Internet Numbers (ARIN) is the primary nonprofit corporation that manages the registration of numerous blocks of IP addresses to North American Internet Service Providers (ISPs). More specifically, it does this in the US, Canada, Antarctica and many islands of the Caribbean.",
+    "labeler_proposal": {
+      "annotation_id": "ann_19281a86a3a4dd330148d59d",
+      "description_sha256": "199b95690a01efc11b1cb8e88c4f4f38605d64414ffd7551b9b786caece8d3fc",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Weak: the text describes a nonprofit's IP address registration role rather than software functionality; it contains no AI signal, but it does not establish a conventional software offering, so the non-AI label is forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The American Registry for Internet Numbers (ARIN) is the primary nonprofit corporation that manages the registration of numerous blocks of IP addresses to North American Internet Service Providers (ISPs)."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_19281a86a3a4dd330148d59d",
+      "description_sha256": "199b95690a01efc11b1cb8e88c4f4f38605d64414ffd7551b9b786caece8d3fc",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies IP-address block registration for internet service providers, a conventional registry function with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "manages the registration of numerous blocks of IP addresses to North American Internet Service Providers (ISPs)."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_support_concern": "Description identifies a nonprofit IP-address registration role, not meaningful software functionality; routed as weak."
+  },
+  {
+    "annotation_id": "ann_2453b1164c66b210b63ee5f6",
+    "description_sha256": "514c157bc199e2bdb20511781841bf69fc787d2efb10adb1b9e7c989bb866f79",
+    "description": "Shredding Service",
+    "labeler_proposal": {
+      "annotation_id": "ann_2453b1164c66b210b63ee5f6",
+      "description_sha256": "514c157bc199e2bdb20511781841bf69fc787d2efb10adb1b9e7c989bb866f79",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Weak: the entire description is 'Shredding Service', which names a service but describes no software functionality; there is no AI signal, but the text is too thin to establish a conventional offering, so the non-AI label is forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Shredding Service"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_2453b1164c66b210b63ee5f6",
+      "description_sha256": "514c157bc199e2bdb20511781841bf69fc787d2efb10adb1b9e7c989bb866f79",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description only identifies a shredding service and does not meaningfully establish software functionality or an affirmative AI signal, so the non-AI decision is forced and weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Shredding Service"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_support_concern": "“Shredding Service” is a service title only, with no software functionality; routed as weak."
+  },
+  {
+    "annotation_id": "ann_280685a8f08ee629b13bf4c0",
+    "description_sha256": "b62a90205e862674b106f7e86a91bd7d6ca736061f3e99f2f47da0f8e5f46468",
+    "description": "Providing specialized, intelligent telecom data solutions and content-rich resources to communications service providers and the enterprise market.\n\nSimplify Compliance helps its customers learn, comply, and succeed by providing mission-critical regulatory and business information, analysis, and tools.",
+    "labeler_proposal": {
+      "annotation_id": "ann_280685a8f08ee629b13bf4c0",
+      "description_sha256": "b62a90205e862674b106f7e86a91bd7d6ca736061f3e99f2f47da0f8e5f46468",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Weak: the text describes telecom data solutions, content resources, and regulatory information, analysis, and tools, which are conventional in form, but the unexplained adjective 'intelligent' could imply AI-dependent functionality, so the non-AI label is forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Providing specialized, intelligent telecom data solutions and content-rich resources to communications service providers and the enterprise market.",
+        "Simplify Compliance helps its customers learn, comply, and succeed by providing mission-critical regulatory and business information, analysis, and tools."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_280685a8f08ee629b13bf4c0",
+      "description_sha256": "b62a90205e862674b106f7e86a91bd7d6ca736061f3e99f2f47da0f8e5f46468",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies regulatory and business information, analysis, and tools for compliance as the offering's functions, without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "mission-critical regulatory and business information, analysis, and tools."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_support_concern": "“intelligent telecom data solutions” is unexplained and could signal AI; routed because labeler weak."
+  },
+  {
+    "annotation_id": "ann_8307e1b335460ad9125b64d3",
+    "description_sha256": "650057da29b8af1ebd5a8aa2a09684fe631e23441e03827e9e782d9b732cd125",
+    "description": "Monitoring customer flow detail records. Categorizing FDR data into categories based on customer usage.",
+    "labeler_proposal": {
+      "annotation_id": "ann_8307e1b335460ad9125b64d3",
+      "description_sha256": "650057da29b8af1ebd5a8aa2a09684fe631e23441e03827e9e782d9b732cd125",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Weak: monitoring flow detail records and grouping them by customer usage is conventional in form, but the categorization method is not stated and could be rule-based or model-based, so the non-AI label is forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Monitoring customer flow detail records.",
+        "Categorizing FDR data into categories based on customer usage."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_8307e1b335460ad9125b64d3",
+      "description_sha256": "650057da29b8af1ebd5a8aa2a09684fe631e23441e03827e9e782d9b732cd125",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description states that the offering monitors flow records and categorizes data by customer usage, which is conventional monitoring and categorization.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Monitoring customer flow detail records. Categorizing FDR data into categories based on customer usage."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_support_concern": "Categorization method for customer usage records is unspecified; possible AI-dependent categorization; routed because labeler weak."
+  },
+  {
+    "annotation_id": "ann_c7c62a3ee87120043a90cddd",
+    "description_sha256": "1ae72f106496aa968de4de1316b70508270ed9a39826749842c0eea0c395c5e9",
+    "description": "Connectbase is a B2B SaaS Go To Market platform for the connectivity industry. The Connected World transforms network buying and selling through the use of location intelligence powering automated applications in order to help buyers and sellers reach better deals, faster.",
+    "labeler_proposal": {
+      "annotation_id": "ann_c7c62a3ee87120043a90cddd",
+      "description_sha256": "1ae72f106496aa968de4de1316b70508270ed9a39826749842c0eea0c395c5e9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Weak: the text describes a B2B go-to-market platform, but 'location intelligence' and 'automated applications' are not explained, so the non-AI label is forced rather than supported.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Connectbase is a B2B SaaS Go To Market platform for the connectivity industry.",
+        "through the use of location intelligence powering automated applications"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_c7c62a3ee87120043a90cddd",
+      "description_sha256": "1ae72f106496aa968de4de1316b70508270ed9a39826749842c0eea0c395c5e9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a B2B SaaS connectivity platform using location intelligence and automated applications, but does not provide an affirmative product-specific AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The Connected World transforms network buying and selling through the use of location intelligence powering automated applications"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_support_concern": "“location intelligence” and automated applications are unexplained; routed because labeler weak."
+  },
+  {
+    "annotation_id": "ann_e93d4a977de5450faf9eff11",
+    "description_sha256": "e4998f79162672ba62087e482148f98e670338b12bd029096f5d46cd6ddfc6bf",
+    "description": "View system health, performance, and usage.\n\nGain operational insights with Cloudian HyperIQ, a monitoring and predictive analysis tool. View data from across your Cloudian environment, including storage and networking. Set thresholds and alerts to highlight potential issues and identify corrective action within a single site or across multiple locations, HyperIQ gives you real-time insights.",
+    "labeler_proposal": {
+      "annotation_id": "ann_e93d4a977de5450faf9eff11",
+      "description_sha256": "e4998f79162672ba62087e482148f98e670338b12bd029096f5d46cd6ddfc6bf",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Weak: the text describes monitoring with thresholds and alerts, which is conventional, but 'predictive analysis' does not state its method and could be AI-dependent, so the non-AI label is forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Gain operational insights with Cloudian HyperIQ, a monitoring and predictive analysis tool.",
+        "Set thresholds and alerts to highlight potential issues and identify corrective action within a single site or across multiple locations, HyperIQ gives you real-time insights."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_e93d4a977de5450faf9eff11",
+      "description_sha256": "e4998f79162672ba62087e482148f98e670338b12bd029096f5d46cd6ddfc6bf",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description focuses on monitoring health, performance, usage, thresholds, alerts, and corrective action; its predictive-analysis wording does not establish an AI implementation.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Set thresholds and alerts to highlight potential issues and identify corrective action within a single site or across multiple locations"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "integration_support_concern": "Predictive-analysis method is unspecified; material potential-AI ambiguity; routed because labeler weak."
+  }
+]

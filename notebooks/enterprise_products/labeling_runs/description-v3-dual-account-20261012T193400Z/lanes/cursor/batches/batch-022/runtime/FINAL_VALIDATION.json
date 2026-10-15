@@ -1,0 +1,53 @@
+{
+  "batch_id": "batch-022",
+  "status": "finalized_pending_parent_independent_acceptance",
+  "frozen_plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "selected_descriptions": 20,
+  "selected_source_rows": 20,
+  "exact_plan_hash_all_source_references": true,
+  "precomparison_result_registration": "runtime/independent-result-registration.json",
+  "labeler_result_sha256": "c51d8656ede9a1ae9cd9f27b92b0cd80de23b41af29d1042974a751982f10a1a",
+  "blind_raw_original_result_sha256": "4f3bdc9c34dd166a39ace339da0ba60cceb6cdfa90586665c125d8f9b75fcf56",
+  "blind_accepted_structural_result_sha256": "20f73c00af6b1e0d9ed2749867f44787bf87da6209d74958fcd8626f29a951f4",
+  "blind_structural_recovery": "Parent-authorized one original-agent structural recovery only. Original result and all20 original checkpoint paths/bytes preserved. Corrected checkpoint+accepted aggregate exact logical deltas: trailing8 removed from one annotation_id; aggregate-only ai_type_forced_decision:null added from its valid checkpoint. One malformed raw checkpoint retained and explicitly excluded from accepted20 allowlist. See runtime/PARENT_STRUCTURAL_DISPOSITION.json and runtime/blind-structural-recovery-validation.json, including transcript payload lines/hashes.",
+  "all20_pairs_reviewed": "runtime/pair-review.json",
+  "helper_required_reconciliation_ids": [
+    "ann_19281a86a3a4dd330148d59d",
+    "ann_2453b1164c66b210b63ee5f6",
+    "ann_280685a8f08ee629b13bf4c0",
+    "ann_8307e1b335460ad9125b64d3",
+    "ann_c7c62a3ee87120043a90cddd",
+    "ann_e93d4a977de5450faf9eff11"
+  ],
+  "additional_support_concern_ids": [],
+  "reconciliation_ids": [
+    "ann_19281a86a3a4dd330148d59d",
+    "ann_2453b1164c66b210b63ee5f6",
+    "ann_280685a8f08ee629b13bf4c0",
+    "ann_8307e1b335460ad9125b64d3",
+    "ann_c7c62a3ee87120043a90cddd",
+    "ann_e93d4a977de5450faf9eff11"
+  ],
+  "reconciliation_result_sha256": "4846cd8f8ddeb63c4b4aca773cf80882ac9e503b2a1f35cb4bd5456a8a82591c",
+  "reconciliation_same_original_blind_uuid": "413ac3ac-d671-45a7-9800-10b37baf0e2b",
+  "reconciliation_all6_reviewed": "runtime/reconciliation-semantic-review.json",
+  "reconciliation_count": 6,
+  "binary_weak_count": 6,
+  "subtype_weak_count": 0,
+  "trusted_negative_rows": 14,
+  "exports": {
+    "description_labels.json": "f5ece0b6c29cc5eb3f50f82839b9d0756fde251f1aa0c3d1d664fdc464101d57",
+    "record_labels.json": "679d9f007cad5d41d7a0fc66d984677b7f434884fb6f3b05dafe4d0edb0a5ad5",
+    "review_ledger.json": "5d5494b46296667c91edd2d0b3d6f096b7effaed514540913effd6a9e468081b",
+    "review_queue.json": "2f99d8904a4a96e81183440ec874e386ab815a54fabdab2f49c4026d789fa095",
+    "non_ai_candidates.csv": "9512dd13bdfa006de6552e84cf41816ff38e6917434db66cf36d3869902db0de",
+    "calibration_report.json": "22954b29d9ac757f4932e0fde22157c515ea0e820e229eccbea61330fe90ad7f"
+  },
+  "manifest_sha256": "04ab63f9ce223c442d557a48a58d360ceef7fae5dfa1a285d4e92e8fc6d98eb1",
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s notebooks/enterprise_products -p 'test_*.py' (from repository root)",
+    "result": "36 passed"
+  },
+  "scope": "Parent acceptance pending. Parent-owned global/Git/Codex untouched; no earlier batch modified."
+}

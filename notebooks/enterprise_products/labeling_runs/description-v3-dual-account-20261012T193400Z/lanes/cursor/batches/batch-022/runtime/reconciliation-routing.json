@@ -1,0 +1,45 @@
+{
+  "batch_id": "batch-022",
+  "reviewed_all_pairs": true,
+  "pair_count": 20,
+  "helper_required_ids": [
+    "ann_19281a86a3a4dd330148d59d",
+    "ann_2453b1164c66b210b63ee5f6",
+    "ann_280685a8f08ee629b13bf4c0",
+    "ann_8307e1b335460ad9125b64d3",
+    "ann_c7c62a3ee87120043a90cddd",
+    "ann_e93d4a977de5450faf9eff11"
+  ],
+  "additional_support_concern_ids": [],
+  "reconciliation_ids": [
+    "ann_19281a86a3a4dd330148d59d",
+    "ann_2453b1164c66b210b63ee5f6",
+    "ann_280685a8f08ee629b13bf4c0",
+    "ann_8307e1b335460ad9125b64d3",
+    "ann_c7c62a3ee87120043a90cddd",
+    "ann_e93d4a977de5450faf9eff11"
+  ],
+  "agreement_is_not_validation": true,
+  "integration_owner_did_not_relabel": true,
+  "evidence_boundary": "Exact frozen descriptions only; no outside evidence.",
+  "stage_receipt": {
+    "stage": "reconciliation",
+    "run_id": "batch-022",
+    "batch_id": "batch-022",
+    "rubric_id": "enterprise-description-only-v3",
+    "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+    "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+    "model_id": "gpt-5.6-luna-high",
+    "assigned_annotation_ids": [
+      "ann_19281a86a3a4dd330148d59d",
+      "ann_2453b1164c66b210b63ee5f6",
+      "ann_280685a8f08ee629b13bf4c0",
+      "ann_8307e1b335460ad9125b64d3",
+      "ann_c7c62a3ee87120043a90cddd",
+      "ann_e93d4a977de5450faf9eff11"
+    ]
+  },
+  "packet_sha256": "998013447823dce6640f66693db38d428687222ee499587baeb2ef6d46a98bf0",
+  "blind_structural_recovery_receipt": "runtime/blind-structural-recovery-validation.json",
+  "excluded_malformed_checkpoint_explicitly": true
+}

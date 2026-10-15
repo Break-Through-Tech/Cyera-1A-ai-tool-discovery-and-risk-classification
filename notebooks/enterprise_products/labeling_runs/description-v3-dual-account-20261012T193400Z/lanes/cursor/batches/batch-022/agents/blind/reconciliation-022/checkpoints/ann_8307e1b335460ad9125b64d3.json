@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_8307e1b335460ad9125b64d3",
+  "description_sha256": "650057da29b8af1ebd5a8aa2a09684fe631e23441e03827e9e782d9b732cd125",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The text describes monitoring records and categorizing them by customer usage, but does not state how categorization is performed. That leaves a material unresolved possibility of model-based functionality, so the non-AI judgment is weak and forced.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "Monitoring customer flow detail records.",
+    "Categorizing FDR data into categories based on customer usage."
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The blind proposal treated monitoring and categorization as conventional, but the labeler and parent concern identify the unspecified categorization method as potentially AI-dependent. The text does not establish AI, yet the ambiguity prevents a supported negative; weak and forced is retained."
+}

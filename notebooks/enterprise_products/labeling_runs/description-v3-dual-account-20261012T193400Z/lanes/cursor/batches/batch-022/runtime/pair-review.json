@@ -1,0 +1,48 @@
+{
+  "batch_id": "batch-022",
+  "reviewed_all_source_proposal_pairs": true,
+  "pair_count": 20,
+  "evidence_boundary": "Exact frozen description text only; no outside facts.",
+  "integration_owner_did_not_relabel": true,
+  "support_review_by_id": {
+    "ann_dbac0b60f8f89bdbb37ea31d": "Canadian postal-address database matching is concrete and conventional; no cue.",
+    "ann_3bf5adf1a9a30634df63a8ba": "Address validation, normalization, postal codes and reference matching are concrete conventional functions; no cue.",
+    "ann_8a133a553cda1535ecf4a177": "Address standardization/geocoding uses specified data files and network data; no cue.",
+    "ann_0fabd2eab510f9d891b1a8b4": "Geographic boundaries are aggregated into a file/table data package; no AI function stated.",
+    "ann_280685a8f08ee629b13bf4c0": "\u201cintelligent telecom data solutions\u201d is unexplained and could signal AI; routed because labeler weak.",
+    "ann_bcb7cd96803c7d8979578682": "Business Rules/DMN and separating/reasoning over process logic are deterministic rule functionality; no unexplained AI cue.",
+    "ann_8307e1b335460ad9125b64d3": "Categorization method for customer usage records is unspecified; possible AI-dependent categorization; routed because labeler weak.",
+    "ann_cf9a3a428073bd6eaa006a3d": "Data-center operations/planning and information bridging are conventional infrastructure management; no cue.",
+    "ann_edd8427fdf4c4c73b3b39d9d": "Backup, disaster recovery and local replication are conventional infrastructure functions.",
+    "ann_19281a86a3a4dd330148d59d": "Description identifies a nonprofit IP-address registration role, not meaningful software functionality; routed as weak.",
+    "ann_5219c1816bd1ab043bd9e91e": "Civil design/documentation and project planning are concrete conventional software functions.",
+    "ann_3c3b02106b83b40eaf3ad023": "Geospatial asset documentation/modeling and database integrations are conventional GIS functions.",
+    "ann_73c2f517436deba3edf12e83": "Cloud replication and point-in-time restore are concrete conventional data-management functions.",
+    "ann_e93d4a977de5450faf9eff11": "Predictive-analysis method is unspecified; material potential-AI ambiguity; routed because labeler weak.",
+    "ann_c7c62a3ee87120043a90cddd": "\u201clocation intelligence\u201d and automated applications are unexplained; routed because labeler weak.",
+    "ann_a2f2bb663422fc6ea9a69a22": "Joining building footprint polygons and address data is conventional data integration.",
+    "ann_2453b1164c66b210b63ee5f6": "\u201cShredding Service\u201d is a service title only, with no software functionality; routed as weak.",
+    "ann_fbf170fdfe40dde26bd573a8": "Database/file replication and performance characteristics are conventional; no cue.",
+    "ann_a4eec44f0fc9ae5062befbcd": "Installer creation/package management is concrete conventional tooling despite source truncation after \u201chandheld and mobile\u201d; no evidence of unresolved AI.",
+    "ann_cca7ac58a85ef5164a39ce5d": "Telecom repairs, troubleshooting and line tests are conventional service functions."
+  },
+  "additional_support_concern_ids": [],
+  "helper_required_ids": [
+    "ann_19281a86a3a4dd330148d59d",
+    "ann_2453b1164c66b210b63ee5f6",
+    "ann_280685a8f08ee629b13bf4c0",
+    "ann_8307e1b335460ad9125b64d3",
+    "ann_c7c62a3ee87120043a90cddd",
+    "ann_e93d4a977de5450faf9eff11"
+  ],
+  "reconciliation_ids": [
+    "ann_19281a86a3a4dd330148d59d",
+    "ann_2453b1164c66b210b63ee5f6",
+    "ann_280685a8f08ee629b13bf4c0",
+    "ann_8307e1b335460ad9125b64d3",
+    "ann_c7c62a3ee87120043a90cddd",
+    "ann_e93d4a977de5450faf9eff11"
+  ],
+  "all_concerns_routed_before_single_reconciliation": true,
+  "agreement_is_not_validation": true
+}

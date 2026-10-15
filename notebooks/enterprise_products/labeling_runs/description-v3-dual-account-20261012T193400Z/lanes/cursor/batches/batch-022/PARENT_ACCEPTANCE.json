@@ -1,0 +1,30 @@
+{
+  "status": "pending_parent_independent_acceptance",
+  "batch_id": "batch-022",
+  "selected_descriptions": 20,
+  "selected_rows": 20,
+  "exact_plan_hash_all_refs_verified": true,
+  "independent_results_hash_registered_before_comparison": true,
+  "schema_quotes_desc_hashes_private_equality_helper_stages_pass": true,
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high; native banner Claude Haiku 5.5 300K High",
+    "blind": "gpt-5.6-luna-high; native banner GPT-5.6 Luna 272K High",
+    "reconciliation": "gpt-5.6-luna-high; original UUID 413ac3ac-d671-45a7-9800-10b37baf0e2b"
+  },
+  "blind_structural_recovery_count": 1,
+  "reconciliation_count": 6,
+  "binary_weak": 6,
+  "subtype_weak": 0,
+  "trusted_negative_rows": 14,
+  "all6_exports_hash_verified": true,
+  "export_hashes": {
+    "description_labels.json": "f5ece0b6c29cc5eb3f50f82839b9d0756fde251f1aa0c3d1d664fdc464101d57",
+    "record_labels.json": "679d9f007cad5d41d7a0fc66d984677b7f434884fb6f3b05dafe4d0edb0a5ad5",
+    "review_ledger.json": "5d5494b46296667c91edd2d0b3d6f096b7effaed514540913effd6a9e468081b",
+    "review_queue.json": "2f99d8904a4a96e81183440ec874e386ab815a54fabdab2f49c4026d789fa095",
+    "non_ai_candidates.csv": "9512dd13bdfa006de6552e84cf41816ff38e6917434db66cf36d3869902db0de",
+    "calibration_report.json": "22954b29d9ac757f4932e0fde22157c515ea0e820e229eccbea61330fe90ad7f"
+  },
+  "tests": "36 passed",
+  "parent_gate": "Pending; no parent acceptance claim."
+}

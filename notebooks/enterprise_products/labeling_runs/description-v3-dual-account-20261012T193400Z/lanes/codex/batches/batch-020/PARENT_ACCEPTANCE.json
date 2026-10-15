@@ -1,0 +1,27 @@
+{
+  "status": "finalized",
+  "timestamp": "2026-10-15T15:08:24.551901+00:00",
+  "selected_descriptions": 20,
+  "selected_rows": 21,
+  "original_blind_run_id": "64d2c432-7d3e-48f1-b15c-3e25d49ab42a",
+  "reconciliation_child_run_id": "9ee14adb-e67c-4768-8d1c-207949b64f07",
+  "native_result_path": "/tmp/pi-subagents-uid-1000/async-subagent-runs/9ee14adb-e67c-4768-8d1c-207949b64f07/structured-output/pi-subagent-structured-Jonxcx/output.json",
+  "native_result_sha256": "989373a6a85fe59a4c664e7398690d50d0e27720a32a493313c95713be96cf07",
+  "original40_hashes_native_stage_unchanged": true,
+  "parent_all9_source_final_conflict_responses_reviewed": true,
+  "semantic_pass": 1,
+  "repairs": [
+    "TWO exactquoteonly independent overrides originals preserved",
+    "SEVEN misplaced final checkpoints copied byteexact withoriginal toolpayload proof originals preserved"
+  ],
+  "binary_weak": 6,
+  "trusted_negative_rows": 15,
+  "exports": {
+    "description_labels.json": "165366d4c2fa2ab74325ad013dea7d5da338e5d21e3d483fdc70975b1d38ee48",
+    "record_labels.json": "7c8a4b8dad0e284417e74eaec14ea5a7dce487a8f923996df89c25e653222711",
+    "review_ledger.json": "80c9f8d95d27c170d058c57de108207196a75cf7ca22c066f60351cb951dbc22",
+    "review_queue.json": "d4a2c99f3b912dfd8afbdf9a16a494227517d1436038a8239e3843a7f05ef256",
+    "non_ai_candidates.csv": "fa8b89f50bc6827f6a9dcc4a371b5569d4089d4708587e4e02332742ade15b8f",
+    "calibration_report.json": "855ebcb88ffab3487de2644280ae5eb6298abc8f6b4917a2a850443ea4bf176b"
+  }
+}

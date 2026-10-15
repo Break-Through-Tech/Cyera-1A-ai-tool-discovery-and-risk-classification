@@ -1,0 +1,63 @@
+{
+  "batch_id": "batch-022",
+  "role": "blind",
+  "structural_only": true,
+  "recovery_count": 1,
+  "parent_disposition": "runtime/PARENT_STRUCTURAL_DISPOSITION.json",
+  "raw_result_sha256": "4f3bdc9c34dd166a39ace339da0ba60cceb6cdfa90586665c125d8f9b75fcf56",
+  "accepted_structural_result_path": "agents/blind/accepted-structural-result.json",
+  "accepted_structural_result_sha256": "20f73c00af6b1e0d9ed2749867f44787bf87da6209d74958fcd8626f29a951f4",
+  "preserved_raw_original_checkpoint_count": 20,
+  "all_original_checkpoint_names_and_hashes_unchanged": true,
+  "new_correct_checkpoint_path": "agents/blind/checkpoints/ann_cf9a3a428073bd6eaa006a3d.json",
+  "new_correct_checkpoint_sha256": "21382d6d0e666c72c64ba975975d569e2fd262e6d9d93f1b5815d804763abce4",
+  "excluded_preserved_bad_checkpoint_path": "agents/blind/checkpoints/ann_cf9a3a428073bd6eaa006a3d8.json",
+  "excluded_bad_checkpoint_sha256": "9cf5941d0b3809005bce61f962597b89e6105b286e9d1d8e688987c7126f1f96",
+  "assigned_accepted_checkpoint_count": 20,
+  "accepted_checkpoint_allowlist": [
+    "ann_0fabd2eab510f9d891b1a8b4",
+    "ann_19281a86a3a4dd330148d59d",
+    "ann_2453b1164c66b210b63ee5f6",
+    "ann_280685a8f08ee629b13bf4c0",
+    "ann_3bf5adf1a9a30634df63a8ba",
+    "ann_3c3b02106b83b40eaf3ad023",
+    "ann_5219c1816bd1ab043bd9e91e",
+    "ann_73c2f517436deba3edf12e83",
+    "ann_8307e1b335460ad9125b64d3",
+    "ann_8a133a553cda1535ecf4a177",
+    "ann_a2f2bb663422fc6ea9a69a22",
+    "ann_a4eec44f0fc9ae5062befbcd",
+    "ann_bcb7cd96803c7d8979578682",
+    "ann_c7c62a3ee87120043a90cddd",
+    "ann_cca7ac58a85ef5164a39ce5d",
+    "ann_cf9a3a428073bd6eaa006a3d",
+    "ann_dbac0b60f8f89bdbb37ea31d",
+    "ann_e93d4a977de5450faf9eff11",
+    "ann_edd8427fdf4c4c73b3b39d9d",
+    "ann_fbf170fdfe40dde26bd573a8"
+  ],
+  "exact_structural_deltas": {
+    "one_annotation_id_suffix_removed": {
+      "from": "ann_cf9a3a428073bd6eaa006a3d8",
+      "to": "ann_cf9a3a428073bd6eaa006a3d"
+    },
+    "one_aggregate_only_required_null_added": {
+      "annotation_id": "ann_e93d4a977de5450faf9eff11",
+      "field": "ai_type_forced_decision",
+      "value": null
+    }
+  },
+  "all_other_aggregate_records_and_fields_unchanged": true,
+  "source_quotes_schema_description_hash_coverage_helper_validation_pass": true,
+  "private_result_checkpoint_equality_pass": true,
+  "no_semantic_labels_changed": true,
+  "native_transcript_path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/413ac3ac-d671-45a7-9800-10b37baf0e2b/413ac3ac-d671-45a7-9800-10b37baf0e2b.jsonl",
+  "native_transcript_sha256_after_recovery": "c217d6d7a693d356b505a21bc5f3afef93d79bf38dbd933dfc045ab80b65da39",
+  "actual_original_agent_tool_payload_lines": {
+    "new_corrected_checkpoint_write": 29,
+    "accepted_structural_aggregate_write": 30,
+    "aggregate_duplicate_key_cleanup": 31,
+    "completion_receipt": 32
+  },
+  "payload_proof_note": "Transcript line30 creates accepted aggregate with the one expected annotation_id correction and adds ai_type_forced_decision:null to ann_e93; line31 removes one duplicate occurrence of that same null key from the new aggregate. Final file has one required key, exactly the two authorized logical differences, and passes structural diff/helper gates."
+}
