@@ -1,32 +1,29 @@
 {
   "status": "both_lanes_continuing",
-  "updated_at": "2026-10-15T06:37:13.128159+00:00",
+  "updated_at": "2026-10-15T06:38:40.944965+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
-  "new_completed_descriptions": 560,
-  "new_completed_rows": 568,
-  "cumulative_finalized_descriptions": 720,
-  "cumulative_finalized_rows": 742,
-  "remaining_descriptions": 671,
-  "remaining_rows": 696,
+  "new_completed_descriptions": 580,
+  "new_completed_rows": 588,
+  "cumulative_finalized_descriptions": 740,
+  "cumulative_finalized_rows": 762,
+  "remaining_descriptions": 651,
+  "remaining_rows": 676,
   "annotation_workers_max": 4,
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
   "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
   "cursor_status": "Fresh018prepared; occupiedpriorTUIs preserved, parent supplied newp1Glabeler/p1Hblind tocoordinator e266e50a.",
-  "codex_status": "001\u2013011 finalized;012actual40 validated/registered, sameoriginal3-item reconciliation active.",
-  "codex_active_workers": 1,
+  "codex_status": "001–012 parentverified finalized;013 fresh independent pair active.",
+  "codex_active_workers": 2,
   "cursor_live_worker_state": "Exclusive native coordinator04ce6344 owns assignedp1F(labeler)/p1E(blind), max2annotation workers.",
   "active_runs": {
     "cursor_panes": [
       "wF:p1G",
       "wF:p1H"
     ],
-    "codex_independent_workflow": "5b902633-b7e1-4992-af8a-7b4564ce721d",
-    "cursor_integration_owner": "e266e50a-af07-4bed-819a-d4ba074c19e3",
-    "codex_labeler": "9cf63267-fedb-4e53-ba6a-375e942e7731",
-    "codex_blind": "d1a21fbf-c6cd-4c00-a88d-9bccb8d670dd",
-    "codex_reconciliation_workflow": "e5f8b6e1-313a-4697-99c8-e05b3d0fbcd3"
+    "codex_independent_workflow": "9fe4eebd-b84b-4c19-8fbc-585793d63f99",
+    "cursor_integration_owner": "e266e50a-af07-4bed-819a-d4ba074c19e3"
   },
   "native_resume_receipt": "runtime/NATIVE_RESUME_20261015.json"
 }

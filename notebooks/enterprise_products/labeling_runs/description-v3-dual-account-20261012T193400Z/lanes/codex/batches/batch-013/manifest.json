@@ -1,0 +1,118 @@
+{
+  "rubric_id": "enterprise-description-only-v3",
+  "run_id": "batch-013",
+  "counts": {
+    "source_input_records": 1494,
+    "cleaner_excluded_records": 56,
+    "records": 1438,
+    "product_groups": 1406,
+    "distinct_descriptions": 1391
+  },
+  "inputs": {
+    "raw": {
+      "path": "inputs/raw.csv",
+      "sha256": "afe7cdbcbf82d9b11f579eb6dce000815a04a301410636e2942036f072fc7aa1"
+    },
+    "cleaned": {
+      "path": "inputs/cleaned.csv",
+      "sha256": "c9f0d234d3b66327250d7eb372e9fc962e06f16c2bc0181cc34654fdb897eb2b"
+    },
+    "cleaning_report": {
+      "path": "inputs/cleaning_report.json",
+      "sha256": "5ee112cdb293fbe0640b61e4790d389331b35b729a907263237a2ecade0c0e7b"
+    },
+    "rubric": {
+      "path": "inputs/rubric.md",
+      "sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61"
+    },
+    "prompt_labeler": {
+      "path": "inputs/prompt_labeler.md",
+      "sha256": "b398a1cead49292a8dcec586037d257a671d08278ddb42507354bc77f544ab22"
+    },
+    "prompt_blind": {
+      "path": "inputs/prompt_blind.md",
+      "sha256": "afcf536ca4cfc906bf622cdb2df1a7af6b82494e8bad4a8b3aed58d8d9e49cbe"
+    },
+    "prompt_reconciliation": {
+      "path": "inputs/prompt_reconciliation.md",
+      "sha256": "c2b7913f26722139d4bac8b918bac639d108d55bef866c418024ffc84347267b"
+    }
+  },
+  "code_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "prompt_hashes": {
+    "labeler": "b398a1cead49292a8dcec586037d257a671d08278ddb42507354bc77f544ab22",
+    "blind": "afcf536ca4cfc906bf622cdb2df1a7af6b82494e8bad4a8b3aed58d8d9e49cbe",
+    "reconciliation": "c2b7913f26722139d4bac8b918bac639d108d55bef866c418024ffc84347267b"
+  },
+  "stages": {
+    "labeler": {
+      "stage": "labeler",
+      "run_id": "batch-013",
+      "batch_id": "codex-batch-013",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "b398a1cead49292a8dcec586037d257a671d08278ddb42507354bc77f544ab22",
+      "model_id": "openai-codex/gpt-6-luna:high",
+      "assigned_annotation_ids": [
+        "ann_e1095ff9efa0c400d3e0fa43",
+        "ann_c6e264283ec9a0b01d597cc3",
+        "ann_6b94d5dea90d46b2c8a3ebda",
+        "ann_86f215de98fa0bd98e91cc7d",
+        "ann_eff8dda31bd9d768fc53697c",
+        "ann_2c8c47cc1929ee8e3c053e75",
+        "ann_333d44b2fa007b7cb4383b9a",
+        "ann_7b2294b463f4daba366f032e",
+        "ann_fb5841af27c692fd0e5821d2",
+        "ann_b954d4e61e52a3bbce992734",
+        "ann_8c490e2a6933b325cbfea540",
+        "ann_e2c34566ce651903f3b93589",
+        "ann_d9be2d15212dbe10e355903f",
+        "ann_5e6bcd36c8c55ff386a80ec3",
+        "ann_13260f69441c0a8cbf865847",
+        "ann_f095f61ca30be62714af56f2",
+        "ann_992e3b6f9cb614951a461d06",
+        "ann_420c45b1898ba885c4627aba",
+        "ann_0c84845330940f283d6978d6",
+        "ann_6c6ea593c12c154f77be054a"
+      ]
+    },
+    "blind": {
+      "stage": "blind",
+      "run_id": "batch-013",
+      "batch_id": "codex-batch-013",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "afcf536ca4cfc906bf622cdb2df1a7af6b82494e8bad4a8b3aed58d8d9e49cbe",
+      "model_id": "openai-codex/gpt-6-luna:high",
+      "assigned_annotation_ids": [
+        "ann_e1095ff9efa0c400d3e0fa43",
+        "ann_c6e264283ec9a0b01d597cc3",
+        "ann_6b94d5dea90d46b2c8a3ebda",
+        "ann_86f215de98fa0bd98e91cc7d",
+        "ann_eff8dda31bd9d768fc53697c",
+        "ann_2c8c47cc1929ee8e3c053e75",
+        "ann_333d44b2fa007b7cb4383b9a",
+        "ann_7b2294b463f4daba366f032e",
+        "ann_fb5841af27c692fd0e5821d2",
+        "ann_b954d4e61e52a3bbce992734",
+        "ann_8c490e2a6933b325cbfea540",
+        "ann_e2c34566ce651903f3b93589",
+        "ann_d9be2d15212dbe10e355903f",
+        "ann_5e6bcd36c8c55ff386a80ec3",
+        "ann_13260f69441c0a8cbf865847",
+        "ann_f095f61ca30be62714af56f2",
+        "ann_992e3b6f9cb614951a461d06",
+        "ann_420c45b1898ba885c4627aba",
+        "ann_0c84845330940f283d6978d6",
+        "ann_6c6ea593c12c154f77be054a"
+      ]
+    }
+  },
+  "prepared_artifacts": {
+    "description_packets.json": "21bfe93fb1a5c094d89e13b4b87ded1387d218e784e560ae009dbb42059913f2",
+    "parent_join_map.json": "5fc85bd88321f35ce2f4adffefdd3e650371093b674d034dca15280a2f222203"
+  },
+  "selection_artifact": {
+    "selection.json": "aa47d67cc756641ca0e5c8922bb230187af09884ed47c0b9bcb0ee1971088085"
+  }
+}

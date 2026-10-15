@@ -1,5 +1,11 @@
 # Parent revisit — BOTH LANES RESUMED through ACTUAL pi-subagents
 
+## Latest wake — finalized740/762; Codex013 fresh native pair active
+
+Codex012 originalblind3 nativechildd1866b34 complete. Parent inspected all3actualfinal/source/conflictresponses (callverificationmethod ambiguity, connectedapplications vagueoutcomes, guestOSlicense-only), allweak/forcednonAI withnullsubtype. Actualnative/private3/schema/quotes/coverage and ALL40originalrawhashespassed. Helperfinalized20descriptions20rows,3weakbinary17trustednegative rows. Exactuniqueglobal740descriptions762rows, remaining651/676; prior1387baselinehashesunchanged,36testsPASS. Codex240/244; Cursor340/344.
+
+FreshCodex01320descriptions20rows preparedexactplan/assigned/freshprivatecwd/templateconfig/syntaxchecked; workflow9fe4eebd-b84b-4c19-8fbc-585793d63f99 ACTIVE. Oncomplete gateactual20+20native/private/schema/source/hashreceipts BEFOREcompare, inspectALL20pairs+routeALLrequired/supportconcerns together toSAMEoriginalblind ONEreconciliation usingABSOLUTEwritepaths. Finalize/committhen014fresh. Cursor e266e50a stillowns018–020 andnewnativep1G/p1H; one-shotstatusrunningactive, nopendingasks. ParentnocontrolofactiveCursorfiles/panes. Nativecompletionswake/no polling/bg_wait/pstack. Trainingdatasetunchanged.
+
 ## Latest wake — Cursor018 shellblocker repaired; Codex012 originalblind3-item active
 
 Supervisor72094803 answered: oldp1F/p1E still recognizedsettledCursorTUI afterctrl+c, native start rejects notavailableshell. Parent actualpane_list confirmed. Created freshsibling shells wF:p1Glabeler and wF:p1Hblind nativeHerdr at already-prepared018 privatecwd, focuspreserved. Child e266e50a now exclusivelytheseNEWpanes; oldp1F/p1E preserved, no duplicate018prompt ran/nonewmodels or rawagentdriving. Existing018frozen assignment reused.
