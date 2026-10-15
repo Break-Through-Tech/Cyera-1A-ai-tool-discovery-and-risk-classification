@@ -1,0 +1,86 @@
+{
+  "batch_id": "batch-016",
+  "reviewed_pair_count": 20,
+  "items": [
+    {
+      "annotation_id": "ann_4ff886c71e8154279e1d8f31",
+      "review_note": "Solaris text is a one-line category without described functions; source-supported weak negative is plausible; routed required because proposals differ on evidence strength."
+    },
+    {
+      "annotation_id": "ann_f33062152f0ff7daee5d3d5b",
+      "review_note": "Spatial DB and location-data management are explicit; analytics mechanism not given; routed required on weak-vs-supported disagreement."
+    },
+    {
+      "annotation_id": "ann_b550558b6c47ccb99de27f57",
+      "review_note": "Relational in-memory DB, persistence and high availability explicit; both rationales match source."
+    },
+    {
+      "annotation_id": "ann_58ba464edb6df90c019ea700",
+      "review_note": "Process/case/rules/tasks/forms/integration explicit; analytics unexplained; routed required for weak-vs-supported concern."
+    },
+    {
+      "annotation_id": "ann_88299a78412a4816ee8ff37c",
+      "review_note": "Application server, developing/deploying enterprise applications and server services explicit; both match."
+    },
+    {
+      "annotation_id": "ann_b7ecf1c68721a72e872f57be",
+      "review_note": "Open-source relational DB and compatible replacement explicit; conventional function supported."
+    },
+    {
+      "annotation_id": "ann_128fa47efb5e91042256c84e",
+      "review_note": "Message broker and messaging protocols/plugin architecture explicit; supported."
+    },
+    {
+      "annotation_id": "ann_f4975811f509fae6ad5063be",
+      "review_note": "File-archiving program and ZIP format explicit; supported."
+    },
+    {
+      "annotation_id": "ann_f7a1922ad62fc1fe9fd25485",
+      "review_note": "ADO.NET data provider, ORM and application-development/database context explicit; proposals describe function without outside PostgreSQL product assumptions."
+    },
+    {
+      "annotation_id": "ann_0371aaaad7d1f7839cbe631b",
+      "review_note": "Data warehouse, SQL-like query and analysis explicit; routine query/analysis not assumed AI."
+    },
+    {
+      "annotation_id": "ann_ad84ab84c96c6fe8051a439e",
+      "review_note": "Configuration-management/deployment tool explicit; automation is routine and no AI implementation assumed."
+    },
+    {
+      "annotation_id": "ann_6e2345540f50a4d89022fa7f",
+      "review_note": "Text describes storage-service delivery and uptime but not concrete conventional storage function; routed required due weak/support disagreement."
+    },
+    {
+      "annotation_id": "ann_f2499741d24ea16574ca608d",
+      "review_note": "Monitoring/optimization, performance diagnostics across infrastructure explicit; no learned/predictive function asserted."
+    },
+    {
+      "annotation_id": "ann_8e9f2b0bcd30b7a3bc5cb895",
+      "review_note": "Database replication function explicit; supported."
+    },
+    {
+      "annotation_id": "ann_7bb75c47511674b1a9d037ca",
+      "review_note": "SQL Server performance monitoring, diagnostics and tuning explicit; automation is not itself AI."
+    },
+    {
+      "annotation_id": "ann_2a9975401798e18e7e0d0591",
+      "review_note": "Database management toolset and SQL use explicit; supported."
+    },
+    {
+      "annotation_id": "ann_51126040efd13785a006c60c",
+      "review_note": "Video optimization mechanism unclear and description includes garbled acquisition text; routed required for weak/support disagreement."
+    },
+    {
+      "annotation_id": "ann_461567a9884d3bbdd8ade22f",
+      "review_note": "Database/cache/message broker, scaling/replication/failover explicit; rationale uses source-supported functions only."
+    },
+    {
+      "annotation_id": "ann_379a53be985edbb8871c8497",
+      "review_note": "SAP object transport, requests and change-management functions explicit; supported."
+    },
+    {
+      "annotation_id": "ann_d79e5b48c8da1ef6b8b07888",
+      "review_note": "Browser-based terminal emulation and host access explicit; supported."
+    }
+  ]
+}

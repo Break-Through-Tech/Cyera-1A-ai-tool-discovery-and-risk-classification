@@ -1,0 +1,99 @@
+{
+  "logical_plan_batch_id": "batch-015",
+  "accepted_copy": "batches/batch-015-parent-integration",
+  "source_original": "batches/batch-015",
+  "reason": "Add only the two omitted support-concern reconciliations after parent review; original four final decisions and immutable original exports remain unchanged.",
+  "original_manifest_acceptance_exports_and_four_final_hashes": {
+    "manifest_sha256": "0f5406cd9563ab9066fa6b6a9ff3eade1e2d9240b95619582af981e19706eb5a",
+    "acceptance_sha256": "94116893fe070ea8015810f21e5d5c81cb2e94c1357dcfa9faa670cb2ccb8f77",
+    "export_hashes": {
+      "description_labels.json": "537ebf66d61a451e1b98dde563942d0df43b818dbbc0e00a5720f80f81714869",
+      "record_labels.json": "62f8b221c3f7f176f6cf97d64eca8c8db3d4f687ebe6ec6c1678d10f04c8fa6a",
+      "review_ledger.json": "d8db421868776413fc3c6d01cfffccbee6e1224bfb195239c4a251cf5281bfb4",
+      "review_queue.json": "63df5bd407afd32b3359d14dd1cea9dbe1eec45458e62285c0c64ab26b1f1696",
+      "non_ai_candidates.csv": "336e35506da57a77864ec478881efda9f6679591b09e059c73005eacc8fd37d3",
+      "calibration_report.json": "88b60f11119ec8a6a3bbaa714d6eb45891e9dcf4200367bdf0476c0e983519ac"
+    },
+    "four_original_final_checkpoints": {
+      "ann_f2eade578a28d22ef5ce94c4": "95fc6e8924d7241986e37643205d0653d3e4acc64bfc43ca01be5e164ebf4c5b",
+      "ann_cf60a0593a37a0a1cb774b30": "99eb03665f5fb5fc65d0489f595b58dece18f94f5c3097bd47d5216cef8834e3",
+      "ann_04b42844fa957641f85e7a03": "935920d3a234c7ea51d22c56a01750c186b71f59bcb6d44e0db09fba5b62ad32",
+      "ann_1b68f76804558fd228ac40bd": "da237e5fbbdd44c12e77ab3393c6ad4dcc0c57654a71590c6dc5b3b5a6318fe2"
+    },
+    "four_original_verifier_result_sha256": "0fa2c3f4d1e6293ad5f5d5b01b5657f60896b85b4a2bb0426502303b92f5c797"
+  },
+  "original_manifest_frozen_and_not_modified": true,
+  "existing_original_route_ids": [
+    "ann_f2eade578a28d22ef5ce94c4",
+    "ann_cf60a0593a37a0a1cb774b30",
+    "ann_04b42844fa957641f85e7a03",
+    "ann_1b68f76804558fd228ac40bd"
+  ],
+  "new_missing_only_ids": [
+    "ann_243193ca75f9f9442c11ca71",
+    "ann_3475147fec04b6525226088e"
+  ],
+  "extended_route_ids": [
+    "ann_f2eade578a28d22ef5ce94c4",
+    "ann_cf60a0593a37a0a1cb774b30",
+    "ann_3475147fec04b6525226088e",
+    "ann_04b42844fa957641f85e7a03",
+    "ann_243193ca75f9f9442c11ca71",
+    "ann_1b68f76804558fd228ac40bd"
+  ],
+  "same_original_luna_session_uuid": "879c4961-01e1-4b69-a888-0a5f98b95c17",
+  "new_result_sha256": "42d8aca1feaa97f08ba1aca28f2dc39e6c3b245b9c17868b2f94d8cc7a5902fb",
+  "new_checkpoints_sha256": {
+    "ann_3475147fec04b6525226088e": "5bbb2e00ea3ad5b045b0bc76368e6226f5f59571f9579266d5f095ce5a38c673",
+    "ann_243193ca75f9f9442c11ca71": "03ccb60e01c73737377a8361dae1acf7f82eb2903b0ed3e0a28d233cedb4af20"
+  },
+  "new_recovery_validation": "../batch-015/runtime/missing-only-reconciliation-validation.json",
+  "original_manifest_sha256": "0f5406cd9563ab9066fa6b6a9ff3eade1e2d9240b95619582af981e19706eb5a",
+  "original_parent_acceptance_sha256": "94116893fe070ea8015810f21e5d5c81cb2e94c1357dcfa9faa670cb2ccb8f77",
+  "original_export_hashes": {
+    "description_labels.json": "537ebf66d61a451e1b98dde563942d0df43b818dbbc0e00a5720f80f81714869",
+    "record_labels.json": "62f8b221c3f7f176f6cf97d64eca8c8db3d4f687ebe6ec6c1678d10f04c8fa6a",
+    "review_ledger.json": "d8db421868776413fc3c6d01cfffccbee6e1224bfb195239c4a251cf5281bfb4",
+    "review_queue.json": "63df5bd407afd32b3359d14dd1cea9dbe1eec45458e62285c0c64ab26b1f1696",
+    "non_ai_candidates.csv": "336e35506da57a77864ec478881efda9f6679591b09e059c73005eacc8fd37d3",
+    "calibration_report.json": "88b60f11119ec8a6a3bbaa714d6eb45891e9dcf4200367bdf0476c0e983519ac"
+  },
+  "original_four_reconciliation_ids": [
+    "ann_f2eade578a28d22ef5ce94c4",
+    "ann_cf60a0593a37a0a1cb774b30",
+    "ann_04b42844fa957641f85e7a03",
+    "ann_1b68f76804558fd228ac40bd"
+  ],
+  "extended_six_route_ids": [
+    "ann_f2eade578a28d22ef5ce94c4",
+    "ann_cf60a0593a37a0a1cb774b30",
+    "ann_3475147fec04b6525226088e",
+    "ann_04b42844fa957641f85e7a03",
+    "ann_243193ca75f9f9442c11ca71",
+    "ann_1b68f76804558fd228ac40bd"
+  ],
+  "missing_only_reconciliation_session_uuid": "879c4961-01e1-4b69-a888-0a5f98b95c17",
+  "missing_only_result_sha256": "42d8aca1feaa97f08ba1aca28f2dc39e6c3b245b9c17868b2f94d8cc7a5902fb",
+  "missing_only_checkpoint_hashes": {
+    "ann_3475147fec04b6525226088e": "5bbb2e00ea3ad5b045b0bc76368e6226f5f59571f9579266d5f095ce5a38c673",
+    "ann_243193ca75f9f9442c11ca71": "03ccb60e01c73737377a8361dae1acf7f82eb2903b0ed3e0a28d233cedb4af20"
+  },
+  "missing_only_validation": "../batch-015/runtime/missing-only-reconciliation-validation.json",
+  "extended_stage_receipt": {
+    "stage": "reconciliation",
+    "run_id": "batch-015",
+    "batch_id": "cursor-batch-015-parent-integration",
+    "rubric_id": "enterprise-description-only-v3",
+    "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+    "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+    "model_id": "gpt-5.6-luna-high",
+    "assigned_annotation_ids": [
+      "ann_f2eade578a28d22ef5ce94c4",
+      "ann_cf60a0593a37a0a1cb774b30",
+      "ann_3475147fec04b6525226088e",
+      "ann_04b42844fa957641f85e7a03",
+      "ann_243193ca75f9f9442c11ca71",
+      "ann_1b68f76804558fd228ac40bd"
+    ]
+  }
+}

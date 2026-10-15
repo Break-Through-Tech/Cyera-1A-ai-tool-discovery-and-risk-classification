@@ -1,0 +1,34 @@
+{
+  "batch_id": "batch-015",
+  "stage": "reconciliation",
+  "model_id": "gpt-5.6-luna-high",
+  "workspace": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-015/agents/blind",
+  "private_assignment_subdirectory": "reconciliation/",
+  "assigned_annotation_ids": [
+    "ann_f2eade578a28d22ef5ce94c4",
+    "ann_cf60a0593a37a0a1cb774b30",
+    "ann_04b42844fa957641f85e7a03",
+    "ann_1b68f76804558fd228ac40bd"
+  ],
+  "assignment_receipt": {
+    "stage": "reconciliation",
+    "run_id": "batch-015",
+    "batch_id": "cursor-batch-015",
+    "rubric_id": "enterprise-description-only-v3",
+    "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+    "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+    "model_id": "gpt-5.6-luna-high",
+    "assigned_annotation_ids": [
+      "ann_f2eade578a28d22ef5ce94c4",
+      "ann_cf60a0593a37a0a1cb774b30",
+      "ann_04b42844fa957641f85e7a03",
+      "ann_1b68f76804558fd228ac40bd"
+    ]
+  },
+  "packet": "reconciliation/reconciliation_packet.json",
+  "role_prompt": "reconciliation/role_prompt.md",
+  "schema": "reconciliation/schema.json",
+  "checkpoints": "reconciliation/checkpoints/<annotation_id>.json",
+  "result": "reconciliation/result.json",
+  "policy": "Use only supplied text and both proposals; no outside evidence; address each concern once; keep unresolved uncertainty weak; do not alter independent files."
+}

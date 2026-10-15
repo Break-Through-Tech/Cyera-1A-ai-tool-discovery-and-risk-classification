@@ -1,0 +1,53 @@
+[
+  {
+    "annotation_id": "ann_daf06befeff11f8dda111638",
+    "description_sha256": "b66a46f369d930a6cdb1971f0cf4c2eb5c0c403f40d9cd95baef24af116b11a2",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description mentions data center solutions and a connected data center platform but gives no concrete product function. It has no affirmative AI signal, so non_ai is the best available binary judgment, but the text is too vague for a supported negative.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Flexentials consultative approach to data center solutions and solving the toughest IT challenges goes beyond the four walls of our highly connected, national data center platform."
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler correctly identifies that the description is too vague for a supported negative, while the blind proposal's supported judgment overstates what the exact text establishes. Retain non_ai only as weak and forced: the text describes data center solutions and a data center platform, but does not establish an AI signal or enough concrete functionality to support a non-forced negative."
+  },
+  {
+    "annotation_id": "ann_82b0fcd694a0accc26832e1c",
+    "description_sha256": "f6ba42decd8432ba23b12eed4806ddb4fff0e8746f12c11b2d962bb3dfaac2f0",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description concretely identifies remote eSIM provisioning and embedded SIM lifecycle management as the platform's functions. These are conventional functions in the supplied text, with no affirmative AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "RSP (Remote eSIM Provisioning) Platform and lifecycle management of embedded SIMs"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler's concern about limited detail does not make this text too vague for the binary decision: it explicitly names remote eSIM provisioning and embedded SIM lifecycle management, which meaningfully describes conventional functionality. Retain non_ai as supported and non-forced, without inferring any implementation beyond those stated functions."
+  },
+  {
+    "annotation_id": "ann_88b6ae0f4f1f55a6fb72ba53",
+    "description_sha256": "9ba2e83a57f6241ca934ae6571d502235aa355086c730f6870862a58b7cba93f",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description identifies content discovery and recommendations, but does not state how recommendations are produced or establish AI. The non_ai judgment is therefore weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "AppFlash is a content discovery service, which uses the power of your smartphone to make your life easier by giving you app, movie, music, and restaurant recommendations all in one place."
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "Both proposals appropriately retain weak, forced non_ai. The recommendation feature could be AI-dependent, but the exact description does not specify its method, so AI cannot be inferred; likewise, the absence of an AI signal cannot support a non-forced negative. Keep the binary judgment weak/forced and leave subtype fields null."
+  }
+]

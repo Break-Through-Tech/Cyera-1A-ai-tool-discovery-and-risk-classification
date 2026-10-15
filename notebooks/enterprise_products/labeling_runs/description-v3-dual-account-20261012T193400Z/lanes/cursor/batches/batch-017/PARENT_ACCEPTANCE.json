@@ -1,0 +1,51 @@
+{
+  "status": "finalized",
+  "batch_id": "batch-017",
+  "selected_descriptions": 20,
+  "selected_rows": 20,
+  "exact_plan_hash_and_reference_coverage": true,
+  "exact_schema_quotes_provenance_private_checkpoint_result_equality": true,
+  "both_independent_results_hash_registered_before_comparison": true,
+  "raw_worker_checkpoints_preserved_unchanged": true,
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "transport_observations": {
+    "labeler": "Native Claude Haiku 5.5 300K High. Complete20 checkpoints/result. Original agent admitted same checkpoint path was written twice; project-scoped transcript session ba3e29de-ff8e-4e22-afe2-f7a0a5573838 contains both complete Write payloads; contents match byte-for-byte and current checkpoint exactly. Accepted with documented idempotent duplicate-write process deviation; no relabel or semantic change. Evidence runtime/checkpoint-overwrite-write-evidence.json.",
+    "blind": "Native GPT-5.6 Luna 272K High.20 checkpoints/result. One exact 63-to-64-character description hash structural correction in same context; old checkpoint/result copied byte-for-byte first. Same original Luna reconciled three IDs once."
+  },
+  "duplicate_write_process_deviation": {
+    "verified": true,
+    "annotation_id": "ann_82b0fcd694a0accc26832e1c",
+    "tool_write_count": 2,
+    "serialized_payloads_identical": true,
+    "current_checkpoint_matches_original_payloads": true,
+    "source": "Cursor project transcript only"
+  },
+  "structural_repair_count": 1,
+  "structural_repair_receipt": "runtime/blind-structural-recovery-validation.json",
+  "reconciliation_count": 3,
+  "helper_required_reconciliation_ids": [
+    "ann_82b0fcd694a0accc26832e1c",
+    "ann_88b6ae0f4f1f55a6fb72ba53",
+    "ann_daf06befeff11f8dda111638"
+  ],
+  "semantics_review": "All20 exact source/proposal pairs inspected. Three weak/disagreement cases went once to same original Luna. Final weak binary flags stay flagged/excluded from trusted negative pool; subtype null and independent. Pair review and reconciliation files retained. Process deviation did not change any label.",
+  "final_binary_weak_count": 2,
+  "final_subtype_weak_count": 0,
+  "trusted_negative_records": 18,
+  "exports_verified": true,
+  "export_hashes": {
+    "description_labels.json": "e2e8d8b8fe3b0858698c41047f3835d6bd54c0018b915b4f5be8f25f8ac4ef93",
+    "record_labels.json": "98e12c4536d7f985c498f9b0e133df34834b8660dff971819a7935dcc1357f34",
+    "review_ledger.json": "f395a6f7b2ec2aa817d58eebf14d935fefa6fb3efd7968d8bbfc57a611f96b16",
+    "review_queue.json": "3e55c4e7d4cfe0883f6ea19d14e0adace3695f0c85df51717d6d2b04d081238c",
+    "non_ai_candidates.csv": "776ccf35293c93283a048181ae8ae5bef716079076ce05b4a135accceee98a1c",
+    "calibration_report.json": "1c2451669dced508d17d6519e893e38b60d3b3c51faf591d6c9a40d3a05d57da"
+  },
+  "test_result": "36 enterprise tests passed",
+  "cost_usd": null,
+  "billed_tokens": null,
+  "final_validation": "runtime/FINAL_VALIDATION.json"
+}

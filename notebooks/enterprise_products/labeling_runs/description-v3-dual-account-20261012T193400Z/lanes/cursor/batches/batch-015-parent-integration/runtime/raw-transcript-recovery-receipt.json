@@ -1,0 +1,23 @@
+{
+  "batch_id": "batch-015",
+  "source_session_uuid": "879c4961-01e1-4b69-a888-0a5f98b95c17",
+  "transcript_path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/879c4961-01e1-4b69-a888-0a5f98b95c17/879c4961-01e1-4b69-a888-0a5f98b95c17.jsonl",
+  "transcript_sha256": "66cb31465721fdc5088c3488abe7a1870023a7c342929a27eb69918d85d833cc",
+  "recovery_original_hash_receipt": "runtime/blind-structural-recovery-authorized.json",
+  "recovered_artifacts": {
+    "checkpoint": {
+      "transcript_line": 9,
+      "path": "runtime/raw-recovered-from-transcript/checkpoint.json",
+      "sha256": "46e364bc2a17837253d3c106f4d767e1eba6b38a11bf0cc2f3761ae56b41f3a2",
+      "matches_pre_repair_hash": true,
+      "byte_exact_from_tool_payload": true
+    },
+    "result": {
+      "transcript_line": 25,
+      "path": "runtime/raw-recovered-from-transcript/result.json",
+      "sha256": "6c44b537a25794a6972b6ddb3d0478f4feff66da1478af5d3db1694c7207a631",
+      "matches_pre_repair_hash": true,
+      "byte_exact_from_tool_payload": true
+    }
+  }
+}

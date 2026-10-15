@@ -1,0 +1,87 @@
+[
+  {
+    "annotation_id": "ann_4ff886c71e8154279e1d8f31",
+    "description_sha256": "8de9f643d441118bedb573f406e2c1fe562475545ebe8819a0fb709fd8489da3",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text only identifies a proprietary Unix operating system and does not meaningfully describe concrete functionality; it provides no affirmative AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": ["Solaris is a proprietary Unix operating system"],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler correctly identifies that this is category-level text rather than a feature description, while the blind proposal treated the category as sufficient conventional functionality. Because the text does not meaningfully describe functionality, the binary non_ai judgment remains weak and forced rather than supported, despite the absence of an AI signal."
+  },
+  {
+    "annotation_id": "ann_f33062152f0ff7daee5d3d5b",
+    "description_sha256": "45479979b88a7d6f0f25061053f96a0893aa07eb1893182a02333c69a84ef3ff",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description explicitly covers spatial and graph database functionality, analytics for Oracle Database, and geographic and location-data management, without an affirmative AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Oracle Spatial and Graph includes high performance, enterprise-scale, commercial spatial and graph database and analytics for Oracle Database.",
+      "The spatial features in Oracle Spatial and Graph aid users in managing geographic and location-data in a native type within an Oracle database."
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler raised possible AI dependence from the generic word “analytics,” but the supplied text also concretely describes spatial and graph database functionality and geographic data management. The rubric treats analytics as ambiguous and does not permit assuming an unstated AI implementation; these described conventional functions are meaningful enough for supported non_ai evidence."
+  },
+  {
+    "annotation_id": "ann_58ba464edb6df90c019ea700",
+    "description_sha256": "5ac4ebc3d7d97cb3532cfba53d6dc2c99e5937306c3623e1bc0ed67c33ee7714",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description explicitly covers process, case, rules, human tasks, forms, analytics, integration, collaboration, utilization, and throughput, without an affirmative AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Oracle BPM Suite is a single, comprehensive platform with a single design-time and unified engine for process, case, rules, human tasks, forms, analytics, and integration.",
+      "The suite provides support for human collaboration and improves process efficiency and quality by raising utilization and throughput."
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler treated the generic analytics reference as potentially AI-dependent, but the same text specifies a conventional BPM engine for processes, rules, tasks, forms, integration, and human collaboration. The rubric says not to assume an implementation that the text does not establish; generic analytics does not itself establish AI, so the conventional functionality is supported non_ai evidence."
+  },
+  {
+    "annotation_id": "ann_6e2345540f50a4d89022fa7f",
+    "description_sha256": "6d639e160c4c126798a8b27b95a08d5438c410a69302c5d7eac4fe29555a701a",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text describes an on-premises storage delivery experience and continuity claims but does not provide concrete storage functionality; it provides no affirmative AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "The Evergreen  Storage experience is like SaaS and the cloud, but on-premises as it continuously delivers Pure innovations in software and hardware to you-without any disruption, downtime, or data migrations."
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler correctly notes that the description does not state concrete storage functions, while the blind proposal treated the storage category and delivery claims as sufficient conventional functionality. The text is too vague to support a trusted negative, so non_ai is retained only as a weak forced judgment because no AI signal is stated."
+  },
+  {
+    "annotation_id": "ann_51126040efd13785a006c60c",
+    "description_sha256": "29a3d5bba2f91afad7ace3e2a38ab1cadfcccbedf8d3a752e2e308038db3b486",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description identifies enterprise streaming infrastructure and video optimization across deployed streaming platforms, without an affirmative AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "AltitudeCDN is common enterprise streaming infrastructure (CESI) that will optimize video from virtually all streaming platforms deployed within an organization."
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler treated “optimize video” as methodologically unspecified and noted the separate garbled acquisition sentence. The first sentence nevertheless meaningfully describes conventional streaming infrastructure and video optimization; “optimize” does not establish AI, and the unrelated acquisition fragment does not change that supplied functionality. The result is therefore supported non_ai."
+  }
+]

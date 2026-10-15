@@ -1,0 +1,20 @@
+{
+  "batch_id": "batch-016",
+  "stage": "blind",
+  "annotation_id": "ann_58ba464edb6df90c019ea700",
+  "original_checkpoint_path": "batches/batch-016/agents/blind/checkpoints/ann_58ba464edb6df90c019ea700.json",
+  "original_checkpoint_sha256": "423bd17b3796b306ca20b82f3a1c51def38b4121dfa125c0629613fe3a987263",
+  "preserved_checkpoint_copy": "batches/batch-016/runtime/pre-recovery-raw/checkpoints/ann_58ba464edb6df90c019ea700.json",
+  "preserved_checkpoint_sha256": "423bd17b3796b306ca20b82f3a1c51def38b4121dfa125c0629613fe3a987263",
+  "original_result_path": "batches/batch-016/agents/blind/result.json",
+  "original_result_sha256": "86d0f88a0b31bbb55a8e606a6ce8fc37304b81b504e5731fa63b577b780b4f8f",
+  "preserved_result_copy": "batches/batch-016/runtime/pre-recovery-raw/result.json",
+  "preserved_result_sha256": "86d0f88a0b31bbb55a8e606a6ce8fc37304b81b504e5731fa63b577b780b4f8f",
+  "byte_identical_copies_verified": true,
+  "defect": "evidence_spans[0] paraphrases and is not exact source substring",
+  "old_quote": "platform for process, case, rules, human tasks, forms, analytics, and integration",
+  "replacement_quote": "Oracle BPM Suite is a single, comprehensive platform with a single design-time and unified engine for process, case, rules, human tasks, forms, analytics, and integration.",
+  "only_field_allowed": "evidence_spans[0]",
+  "semantic_recovery_count": 0,
+  "structural_recovery_count_authorized": 1
+}

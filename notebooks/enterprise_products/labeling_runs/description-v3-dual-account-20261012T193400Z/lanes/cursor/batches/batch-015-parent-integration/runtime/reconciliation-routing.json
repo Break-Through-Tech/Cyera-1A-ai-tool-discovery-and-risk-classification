@@ -1,0 +1,35 @@
+{
+  "batch_id": "batch-015",
+  "integration_copy": "batches/batch-015-parent-integration",
+  "original_manifest_sha256": "0f5406cd9563ab9066fa6b6a9ff3eade1e2d9240b95619582af981e19706eb5a",
+  "existing_four_ids": [
+    "ann_f2eade578a28d22ef5ce94c4",
+    "ann_cf60a0593a37a0a1cb774b30",
+    "ann_04b42844fa957641f85e7a03",
+    "ann_1b68f76804558fd228ac40bd"
+  ],
+  "new_missing_only_support_ids": [
+    "ann_243193ca75f9f9442c11ca71",
+    "ann_3475147fec04b6525226088e"
+  ],
+  "helper_required_ids": [
+    "ann_1b68f76804558fd228ac40bd",
+    "ann_cf60a0593a37a0a1cb774b30"
+  ],
+  "additional_support_concern_ids": [
+    "ann_f2eade578a28d22ef5ce94c4",
+    "ann_04b42844fa957641f85e7a03",
+    "ann_243193ca75f9f9442c11ca71",
+    "ann_3475147fec04b6525226088e"
+  ],
+  "reconciliation_ids_in_frozen_selection_order": [
+    "ann_f2eade578a28d22ef5ce94c4",
+    "ann_cf60a0593a37a0a1cb774b30",
+    "ann_3475147fec04b6525226088e",
+    "ann_04b42844fa957641f85e7a03",
+    "ann_243193ca75f9f9442c11ca71",
+    "ann_1b68f76804558fd228ac40bd"
+  ],
+  "original_four_results_and_exports_unchanged": true,
+  "missing_only_completion": "Same original Luna context UUID879c4961-01e1-4b69-a888-0a5f98b95c17 completed only the two previously unreviewed exact-text concerns; no repeat of the original four."
+}

@@ -1,0 +1,58 @@
+{
+  "batch_id": "batch-016",
+  "pre_comparison": true,
+  "roles": {
+    "labeler": {
+      "result_path": "batches/batch-016/agents/labeler/result.json",
+      "result_sha256": "352c0ed9607c0d3591a34cd44dafa8cbb51c2e950244d38eebe404a904fa3d68",
+      "checkpoint_hashes": {
+        "agents/labeler/checkpoints/ann_0371aaaad7d1f7839cbe631b.json": "69e393d336c0c773e62326089d4ed6adb33d8fc2c3e35b2b5de282317ea6d314",
+        "agents/labeler/checkpoints/ann_128fa47efb5e91042256c84e.json": "99b79bee9ae99a9aaa9180caf6d1ae8feb7b96c0c24bd9c6d1f443439b4f10b7",
+        "agents/labeler/checkpoints/ann_2a9975401798e18e7e0d0591.json": "155a444e8ced01cd304a518eb807b6812e76cc491ee5974f9c5529aaac086314",
+        "agents/labeler/checkpoints/ann_379a53be985edbb8871c8497.json": "efe451c821be503bcc1ff55cdeebe3326083ca499eff48f5a84eebfca552b5d4",
+        "agents/labeler/checkpoints/ann_461567a9884d3bbdd8ade22f.json": "0044e0965ea2129f802e0a8cde6ad0c4baf4ec1fd7afcb031fa16f6256b1d5ec",
+        "agents/labeler/checkpoints/ann_4ff886c71e8154279e1d8f31.json": "1ba3d48aaa5eeadd718b2fdc195f7c2e5ef2b9fd10fa0fa2e12d3027b1dfbc87",
+        "agents/labeler/checkpoints/ann_51126040efd13785a006c60c.json": "13c1ccc72ba410eccf732df3fea1a4974f50809c54849f5f9aff5eb2a7a5948a",
+        "agents/labeler/checkpoints/ann_58ba464edb6df90c019ea700.json": "80ce3d7ced2d7207eb4f8b3b8fb46f4fc3c257b5e6a55411ff5558be42cdf6df",
+        "agents/labeler/checkpoints/ann_6e2345540f50a4d89022fa7f.json": "4221fc24dee348525d6a491b9c0bfcd585247a099c21d2d5ed23a502421eaa20",
+        "agents/labeler/checkpoints/ann_7bb75c47511674b1a9d037ca.json": "e790ec1f67ed2680ddfa9a414ae2393bb51b85764ec06c34a617743b09b6506d",
+        "agents/labeler/checkpoints/ann_88299a78412a4816ee8ff37c.json": "142c68ac522989a92f2a8018a0aaae522194780d648025d739a42e50676b926b",
+        "agents/labeler/checkpoints/ann_8e9f2b0bcd30b7a3bc5cb895.json": "4e8ed8047455823ec3fd1f2df22b449c738bc1b9583794133da9b87d38ea0e96",
+        "agents/labeler/checkpoints/ann_ad84ab84c96c6fe8051a439e.json": "6a4e3ca4ff71ab3b72a0321fdd1209e92340031b7b7ec0f962e11987a92cb8ac",
+        "agents/labeler/checkpoints/ann_b550558b6c47ccb99de27f57.json": "989b2ba6d701bca351072b96c878ce4ef7fcdc497213d231200c2f704dda9bd1",
+        "agents/labeler/checkpoints/ann_b7ecf1c68721a72e872f57be.json": "56f0ed4f19a320629991e0cfd1483c9d3c02f402e16fe6e13a83740c229dfed0",
+        "agents/labeler/checkpoints/ann_d79e5b48c8da1ef6b8b07888.json": "06393637fd3427d88158e32e0da47128945202526f6c4f4f672e1bca163d8d1d",
+        "agents/labeler/checkpoints/ann_f2499741d24ea16574ca608d.json": "a1522bcc923fe0b53d59fa69e670900f1aafde963984d93bd02758905d06063c",
+        "agents/labeler/checkpoints/ann_f33062152f0ff7daee5d3d5b.json": "54b50adf71fca11386b8f366f9e0a01b3384a8e6500c47f23c7c3dd96321a96a",
+        "agents/labeler/checkpoints/ann_f4975811f509fae6ad5063be.json": "c15131d9b4ae841eef5a84f11fe54ba6d5a28df518077365eb397a65606270c2",
+        "agents/labeler/checkpoints/ann_f7a1922ad62fc1fe9fd25485.json": "a84ee1e86f468b7170503dde19b329e916dc29dc3d567d1827c4351c28dccc05"
+      }
+    },
+    "blind": {
+      "result_path": "batches/batch-016/agents/blind/result.json",
+      "result_sha256": "86d0f88a0b31bbb55a8e606a6ce8fc37304b81b504e5731fa63b577b780b4f8f",
+      "checkpoint_hashes": {
+        "agents/blind/checkpoints/ann_0371aaaad7d1f7839cbe631b.json": "f8f05a8d5105b31eecdd23ecd0f678d1c44c6ff4bd887c92d99114f24aa2b552",
+        "agents/blind/checkpoints/ann_128fa47efb5e91042256c84e.json": "5305a31598530584415cfb136c0b3f1461652e334bf52527a7cf7e10b32847af",
+        "agents/blind/checkpoints/ann_2a9975401798e18e7e0d0591.json": "3b648159a101258f26245f65a51c4074ad859d3677d5512d172f1557499cbae0",
+        "agents/blind/checkpoints/ann_379a53be985edbb8871c8497.json": "6f0dd9295b0bc6c09ac20482e99b5d971252903a25782cfbcd26550d645facb7",
+        "agents/blind/checkpoints/ann_461567a9884d3bbdd8ade22f.json": "cb6d6060566b32a4e75b9d0520307dc4b2c3b7cdb175fc4e41341584a55e5eef",
+        "agents/blind/checkpoints/ann_4ff886c71e8154279e1d8f31.json": "bbadff0045a5c656517adf2dd898242bb61fe2d3a3e422aab3d7d8a74b532e62",
+        "agents/blind/checkpoints/ann_51126040efd13785a006c60c.json": "82a2038cea2745723f99bde60dcb554b6036f2602a8fc7da170e89ee0cf87044",
+        "agents/blind/checkpoints/ann_58ba464edb6df90c019ea700.json": "423bd17b3796b306ca20b82f3a1c51def38b4121dfa125c0629613fe3a987263",
+        "agents/blind/checkpoints/ann_6e2345540f50a4d89022fa7f.json": "68996fe0477107c1b66fe9fbc37ce38488fe752916e8c2384b7f7eeb199d2dec",
+        "agents/blind/checkpoints/ann_7bb75c47511674b1a9d037ca.json": "668d1c14de3f5f0d038818a767099df84486f1453ffd0a639f64e6d18d3fe35d",
+        "agents/blind/checkpoints/ann_88299a78412a4816ee8ff37c.json": "81933baf9e432c7df86bfad661b7753804221fca71426c2696c0a38385cc7986",
+        "agents/blind/checkpoints/ann_8e9f2b0bcd30b7a3bc5cb895.json": "b73ffea31fb3344e9921576895c3106280479b3ffb9c9f4fa0f63e1d096092b3",
+        "agents/blind/checkpoints/ann_ad84ab84c96c6fe8051a439e.json": "86f14e7b812df011f4ade4e68edd894277958d43129d91ba33bf7aa5f4d95099",
+        "agents/blind/checkpoints/ann_b550558b6c47ccb99de27f57.json": "8b50c56789c0b9ea3f5a19037b235da5adaebe8c72633742616b6e348a7d9537",
+        "agents/blind/checkpoints/ann_b7ecf1c68721a72e872f57be.json": "14126e6db03965dfa02b2e468832a4e62c95f27d03f99f9e6a000a16b25c4746",
+        "agents/blind/checkpoints/ann_d79e5b48c8da1ef6b8b07888.json": "6296668851230b675e8d4720746287c5aa4e601536e8b335f92db26f4d6b4524",
+        "agents/blind/checkpoints/ann_f2499741d24ea16574ca608d.json": "56589e0c722647c68fb695082c7ec0dc7ecc9bde146396d110793c962952628b",
+        "agents/blind/checkpoints/ann_f33062152f0ff7daee5d3d5b.json": "b9fd1ce362dfbaff2687bb7a0ff7baddffa6c12a1d1e178dc2794990570b5fc1",
+        "agents/blind/checkpoints/ann_f4975811f509fae6ad5063be.json": "c25c487436760c460cc535a8dc367e455832968a1742cf209a2810b2b0f0237f",
+        "agents/blind/checkpoints/ann_f7a1922ad62fc1fe9fd25485.json": "5865ff03d209a35f432bdb21cfb366d0bbf8dbb20f554482eaec7a4126d03f92"
+      }
+    }
+  }
+}

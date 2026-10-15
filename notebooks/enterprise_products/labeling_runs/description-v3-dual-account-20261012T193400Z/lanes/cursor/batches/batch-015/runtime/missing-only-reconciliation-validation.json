@@ -1,0 +1,33 @@
+{
+  "batch_id": "batch-015",
+  "stage": "missing-only reconciliation completion",
+  "same_original_session_uuid": "879c4961-01e1-4b69-a888-0a5f98b95c17",
+  "model_banner_observed": "GPT-5.6 Luna 272K High",
+  "assigned_ids": [
+    "ann_243193ca75f9f9442c11ca71",
+    "ann_3475147fec04b6525226088e"
+  ],
+  "result_sha256": "42d8aca1feaa97f08ba1aca28f2dc39e6c3b245b9c17868b2f94d8cc7a5902fb",
+  "checkpoint_sha256": {
+    "ann_243193ca75f9f9442c11ca71": "03ccb60e01c73737377a8361dae1acf7f82eb2903b0ed3e0a28d233cedb4af20",
+    "ann_3475147fec04b6525226088e": "5bbb2e00ea3ad5b045b0bc76368e6226f5f59571f9579266d5f095ce5a38c673"
+  },
+  "private_result_checkpoint_exact_equality": true,
+  "two_of_two_coverage_schema_hash_quotes_conflict_response_valid": true,
+  "original_four_reconciliation_result_unchanged_sha256": "0fa2c3f4d1e6293ad5f5d5b01b5657f60896b85b4a2bb0426502303b92f5c797",
+  "original_four_final_checkpoint_hashes_unchanged": {
+    "ann_f2eade578a28d22ef5ce94c4": "95fc6e8924d7241986e37643205d0653d3e4acc64bfc43ca01be5e164ebf4c5b",
+    "ann_04b42844fa957641f85e7a03": "935920d3a234c7ea51d22c56a01750c186b71f59bcb6d44e0db09fba5b62ad32",
+    "ann_1b68f76804558fd228ac40bd": "da237e5fbbdd44c12e77ab3393c6ad4dcc0c57654a71590c6dc5b3b5a6318fe2",
+    "ann_cf60a0593a37a0a1cb774b30": "99eb03665f5fb5fc65d0489f595b58dece18f94f5c3097bd47d5216cef8834e3"
+  },
+  "original_manifest_sha256_unchanged": "0f5406cd9563ab9066fa6b6a9ff3eade1e2d9240b95619582af981e19706eb5a",
+  "original_exports_hashes_unchanged": {
+    "description_labels.json": "537ebf66d61a451e1b98dde563942d0df43b818dbbc0e00a5720f80f81714869",
+    "record_labels.json": "62f8b221c3f7f176f6cf97d64eca8c8db3d4f687ebe6ec6c1678d10f04c8fa6a",
+    "review_ledger.json": "d8db421868776413fc3c6d01cfffccbee6e1224bfb195239c4a251cf5281bfb4",
+    "review_queue.json": "63df5bd407afd32b3359d14dd1cea9dbe1eec45458e62285c0c64ab26b1f1696",
+    "non_ai_candidates.csv": "336e35506da57a77864ec478881efda9f6679591b09e059c73005eacc8fd37d3",
+    "calibration_report.json": "88b60f11119ec8a6a3bbaa714d6eb45891e9dcf4200367bdf0476c0e983519ac"
+  }
+}

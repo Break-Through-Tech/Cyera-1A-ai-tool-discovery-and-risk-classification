@@ -1,0 +1,51 @@
+{
+  "status": "finalized",
+  "batch_id": "batch-015",
+  "selected_descriptions": 20,
+  "selected_rows": 21,
+  "exact_plan_hash_and_reference_coverage": true,
+  "exact_schema_quotes_provenance_private_result_checkpoint_equality": true,
+  "both_independent_results_hash_registered_before_comparison": true,
+  "raw_worker_checkpoints_preserved_unchanged": false,
+  "raw_checkpoint_deviation": "Blind ann_14e8a098bec5124631680031 exact evidence quote was corrected in-place by same original Luna during the one structural-only recovery. Pre-recovery result/checkpoint hashes and original quote are registered; a reconstructed logical snapshot is saved but is not byte-identical. No semantic field changed.",
+  "raw_hash_receipts": [
+    "runtime/raw-output-hashes.json",
+    "runtime/independent-validation-and-registration.json",
+    "runtime/blind-structural-recovery-authorized.json",
+    "runtime/pre-recovery-logical-snapshot-receipt.json"
+  ],
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "transport_observations": {
+    "labeler": "Native Cursor, Claude Haiku 5.5 300K High; 20 private checkpoints/result saved. Initial startup attempt before workspace preparation failed with nonexistent-directory error; prepared exact private workspace, same-pane retry succeeded.",
+    "blind": "Native Cursor, GPT-5.6 Luna 272K High; 20 private checkpoints/result saved; one exact quote-only structural recovery in the same original context, then one four-ID reconciliation pass."
+  },
+  "reconciliation_count": 4,
+  "helper_required_reconciliation_ids": [
+    "ann_1b68f76804558fd228ac40bd",
+    "ann_cf60a0593a37a0a1cb774b30"
+  ],
+  "additional_support_concern_ids": [
+    "ann_f2eade578a28d22ef5ce94c4",
+    "ann_04b42844fa957641f85e7a03"
+  ],
+  "semantics_review": "Inspected all20 source/proposal pairs; supported-negative rationales grounded in text. Routed two helper-required weak items and two concrete support concerns (category-only storage management and unexplained possible-AI wording \u201cadaptive service designs\u201d) once to the same original Luna. All three final weak binary judgments retained and excluded from trusted negatives; subtype null/independent. See runtime/pair-review.json.",
+  "final_binary_weak_count": 3,
+  "final_subtype_weak_count": 0,
+  "trusted_negative_records": 17,
+  "exports_verified": true,
+  "export_hashes": {
+    "description_labels.json": "537ebf66d61a451e1b98dde563942d0df43b818dbbc0e00a5720f80f81714869",
+    "record_labels.json": "62f8b221c3f7f176f6cf97d64eca8c8db3d4f687ebe6ec6c1678d10f04c8fa6a",
+    "review_ledger.json": "d8db421868776413fc3c6d01cfffccbee6e1224bfb195239c4a251cf5281bfb4",
+    "review_queue.json": "63df5bd407afd32b3359d14dd1cea9dbe1eec45458e62285c0c64ab26b1f1696",
+    "non_ai_candidates.csv": "336e35506da57a77864ec478881efda9f6679591b09e059c73005eacc8fd37d3",
+    "calibration_report.json": "88b60f11119ec8a6a3bbaa714d6eb45891e9dcf4200367bdf0476c0e983519ac"
+  },
+  "test_result": "36 enterprise tests passed",
+  "cost_usd": null,
+  "billed_tokens": null,
+  "final_validation": "runtime/FINAL_VALIDATION.json"
+}

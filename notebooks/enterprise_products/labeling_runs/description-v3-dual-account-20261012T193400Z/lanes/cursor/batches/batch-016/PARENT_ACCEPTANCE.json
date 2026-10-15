@@ -1,0 +1,48 @@
+{
+  "status": "finalized",
+  "batch_id": "batch-016",
+  "selected_descriptions": 20,
+  "selected_rows": 20,
+  "exact_plan_hash_and_reference_coverage": true,
+  "exact_schema_quotes_provenance_checkpoint_equality": true,
+  "both_independent_results_hash_registered_before_comparison": true,
+  "raw_worker_checkpoints_preserved_unchanged": true,
+  "raw_hash_receipts": [
+    "runtime/raw-output-hashes.json",
+    "runtime/independent-validation-and-registration.json",
+    "runtime/blind-structural-recovery-authorized.json"
+  ],
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "transport_observations": {
+    "labeler": "Native Claude Haiku 5.5 300K High; all20 private checkpoints/result saved. Agent reported correcting one annotation_id whitespace in its result aggregate before final coverage check; final result equals all checkpoints.",
+    "blind": "Native GPT-5.6 Luna 272K High; all20 private checkpoints/result saved; one exact quote-only structural correction in same original context; original bytes preserved first. Same original Luna completed five-ID reconciliation."
+  },
+  "reconciliation_count": 5,
+  "helper_required_reconciliation_ids": [
+    "ann_4ff886c71e8154279e1d8f31",
+    "ann_51126040efd13785a006c60c",
+    "ann_58ba464edb6df90c019ea700",
+    "ann_6e2345540f50a4d89022fa7f",
+    "ann_f33062152f0ff7daee5d3d5b"
+  ],
+  "semantics_review": "Inspected all20 source/proposal pairs. Five required weak/disagreement cases routed once to same original Luna. Final weak flags retained and excluded from trusted negative pool; subtype evidence independently null. No unsupported subtype or product-name inferences. See runtime/pair-review.json.",
+  "final_binary_weak_count": 2,
+  "final_subtype_weak_count": 0,
+  "trusted_negative_records": 18,
+  "exports_verified": true,
+  "export_hashes": {
+    "description_labels.json": "6e3b29eb366dfad3000bf49a335093c25e367171b6313cb1ec255fc25043f2a3",
+    "record_labels.json": "b4175bf4ed82193321b601fe968d903d5d305f8adc40d1233969c052ce4e67bc",
+    "review_ledger.json": "74af0e7b846fb6f6b29968651fecc4e2e921bda75faa92a9d0d1c4aaa9a8c60d",
+    "review_queue.json": "76dcb28c896f3183d515eb3fd74b3067ac517b6924f823b2c680a099196878c3",
+    "non_ai_candidates.csv": "26f32153aa0358c74c48aef0d172811639296e8605a8f74d021c1a2ac4bf409e",
+    "calibration_report.json": "012dafcb6e7b587cf3d8a45d334dfb5838745d14986358ad92ff986df214dcb3"
+  },
+  "test_result": "36 enterprise tests passed",
+  "cost_usd": null,
+  "billed_tokens": null,
+  "final_validation": "runtime/FINAL_VALIDATION.json"
+}

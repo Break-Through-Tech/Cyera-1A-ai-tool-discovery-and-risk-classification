@@ -1,0 +1,17 @@
+{
+  "stage": "missing-only-reconciliation-completion",
+  "logical_batch_id": "batch-015",
+  "model_id": "gpt-5.6-luna-high",
+  "session_uuid": "879c4961-01e1-4b69-a888-0a5f98b95c17",
+  "workspace": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-015/agents/blind",
+  "assigned_annotation_ids": [
+    "ann_243193ca75f9f9442c11ca71",
+    "ann_3475147fec04b6525226088e"
+  ],
+  "packet": "reconciliation/missing-items-015/packet.json",
+  "role_prompt": "reconciliation/missing-items-015/role_prompt.md",
+  "schema": "reconciliation/missing-items-015/schema.json",
+  "checkpoints": "reconciliation/missing-items-015/checkpoints/<annotation_id>.json",
+  "result": "reconciliation/missing-items-015/result.json",
+  "scope": "Complete only these two descriptions that were omitted from the original four-item route. Do not revisit the original four or any other ID. Original batch015 manifest, four-item reconciliation, exports and accepted files are immutable. Use only these exact descriptions and both unchanged proposals; no external evidence."
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "annotation_id": "ann_243193ca75f9f9442c11ca71",
+    "description_sha256": "804da67f8d86e8b8bfbfa871871c24ef37ddbb07d4c63eaf78850662bb537efb",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text names ITSM tools and software solutions and states an end-user experience outcome, but does not describe specific conventional software functions; the non-AI judgment is therefore weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "The Micro Focus Service Management Automation Suite is a collection of ITSM tools and software solutions that ensures engaging end-user experience"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "Both proposals treated the category label and outcome claim as sufficient for supported non_ai, but the exact text gives no specific IT service-management operations. Without inferring outside ITSM functionality, retain non_ai only as a weak forced judgment because the text does not meaningfully establish conventional software behavior."
+  },
+  {
+    "annotation_id": "ann_3475147fec04b6525226088e",
+    "description_sha256": "6aa76905294d2909f2f4afd8ab41d6e0eeba2d2352e695e2f82f33ce5ffd6e56",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text names network management software and an optimal-performance outcome but gives no specific network operations or functions; the non-AI judgment is therefore weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Telenium is an advanced network management software package designed to provide telecommunications, cable, government and utility markets with the tools they need to keep their network performing at optimal levels"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "Both proposals treated the network-management category and performance outcome as sufficient for supported non_ai, but the exact text states no concrete operations or features. Without importing network-management knowledge, retain non_ai only as a weak forced judgment because the description does not meaningfully establish conventional software functionality."
+  }
+]

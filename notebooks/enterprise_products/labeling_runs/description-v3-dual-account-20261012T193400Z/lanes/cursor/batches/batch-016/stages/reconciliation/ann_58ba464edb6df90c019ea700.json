@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_58ba464edb6df90c019ea700",
+  "description_sha256": "5ac4ebc3d7d97cb3532cfba53d6dc2c99e5937306c3623e1bc0ed67c33ee7714",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description explicitly covers process, case, rules, human tasks, forms, analytics, integration, collaboration, utilization, and throughput, without an affirmative AI signal.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "Oracle BPM Suite is a single, comprehensive platform with a single design-time and unified engine for process, case, rules, human tasks, forms, analytics, and integration.",
+    "The suite provides support for human collaboration and improves process efficiency and quality by raising utilization and throughput."
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The labeler treated the generic analytics reference as potentially AI-dependent, but the same text specifies a conventional BPM engine for processes, rules, tasks, forms, integration, and human collaboration. The rubric says not to assume an implementation that the text does not establish; generic analytics does not itself establish AI, so the conventional functionality is supported non_ai evidence."
+}

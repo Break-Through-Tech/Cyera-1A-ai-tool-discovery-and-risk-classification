@@ -1,0 +1,106 @@
+{
+  "batch_id": "batch-015",
+  "reviewed_pair_count": 20,
+  "items": [
+    {
+      "annotation_id": "ann_2ff3bdabb364d6ea52cb5d74",
+      "description_sha256": "2cd16325abc18c418b74c915422da5cca604be0049b9fb4e8259116e0754ff47",
+      "review_note": "Both rationales ground non_ai in explicit non-disruptive workload movement between storage systems and host-tool management; selected spans match that conventional function. No support or AI-dependent claim inferred."
+    },
+    {
+      "annotation_id": "ann_f2eade578a28d22ef5ce94c4",
+      "description_sha256": "0f9714467b22a11febfe5984efd9124e2fc59fadc9c42df9ce8e398768730741",
+      "review_note": "Both independent supported negatives relied on only a broad storage-management category and product names. Routed as concrete category-only support concern; same verifier correctly retained non_ai as weak/forced because no concrete conventional function is described."
+    },
+    {
+      "annotation_id": "ann_65b237a7c74400409e6c9df5",
+      "description_sha256": "ff16f463b62f566e32b1c4e8da8a60a36dcc282aec27b002d82772de36a21b31",
+      "review_note": "Both rationales cite explicit cloud computing, data management, security and hybrid integration services. They describe conventional service categories without inferring implementations from the product name."
+    },
+    {
+      "annotation_id": "ann_cf60a0593a37a0a1cb774b30",
+      "description_sha256": "96256b05c47c5f024bec288a2b7b5af9d000c87cb2304fcc58568788e7667fc8",
+      "review_note": "Both independent labels already weak; same verifier retained weak because membership/open-source participation text lacks clear product functionality."
+    },
+    {
+      "annotation_id": "ann_14e8a098bec5124631680031",
+      "description_sha256": "7a19c1cfe22e762e8288d7e3dae7cde91f9fbc2c2ec3c98ee5d323a225d63125",
+      "review_note": "Both rationales point to explicit batch-to-CICS command, file-access, program and transaction functions. Blind exact quote was mechanically corrected once by the same Luna; all other label fields unchanged."
+    },
+    {
+      "annotation_id": "ann_3bdf6792c5f71b589b954128",
+      "description_sha256": "b04110595b581958d7b2f7296ff6119c6c81e3cad44ab4be151cfd8c41520051",
+      "review_note": "Both rationales describe explicit relational database and SQL data-access functionality; no support inferred solely from product name."
+    },
+    {
+      "annotation_id": "ann_3475147fec04b6525226088e",
+      "description_sha256": "6aa76905294d2909f2f4afd8ab41d6e0eeba2d2352e695e2f82f33ce5ffd6e56",
+      "review_note": "Both cite network-management software and stated network-performance purpose; \u201cadvanced\u201d is marketing language, not an AI claim."
+    },
+    {
+      "annotation_id": "ann_1bd258cce40dcc776277d0a9",
+      "description_sha256": "6bd112fcb9fdf934846bcaf7cbcaeadb2e0fbe75bbbd8ba4d9a5c65dcde34d6e",
+      "review_note": "Both cite conventional transaction/analytics engine and low-latency data access; analytics is not described as predictive or learned."
+    },
+    {
+      "annotation_id": "ann_b2484be09f6b145aacbd07fa",
+      "description_sha256": "688b18793c8879eaaa7e006c2f04483e0a6971527ac5dcc305458cf911304cb5",
+      "review_note": "Both cite explicit searching, reporting, alerting and analysis for enterprise logs; generic analytics is not asserted to imply AI."
+    },
+    {
+      "annotation_id": "ann_04b42844fa957641f85e7a03",
+      "description_sha256": "f7018bf905be96e65290d7f82d32d0ffa05fec9a63ff43969e2cb2a87847d0f3",
+      "review_note": "Routed for \u201cadaptive service designs\u201d possible-AI concern. Same verifier assessed it in explicit catalog fulfillment/orchestration context, found no learned/model signal, and retained supported non_ai; no external implementation assumption."
+    },
+    {
+      "annotation_id": "ann_57dab241a2b4efbae956ca44",
+      "description_sha256": "42c8d6482637f21286a44e678a4531aca0da9f65ca501b3222d89c3a9f196d01",
+      "review_note": "Both cite explicit infrastructure-data integration into common business objects; rationale supported by stated integration functionality."
+    },
+    {
+      "annotation_id": "ann_5157636512abb9eb65c078dc",
+      "description_sha256": "6b9687b1b3cdb9a465fc6c86dd62fdd4b641a4f84c9fc51feea2c7b3830fac35",
+      "review_note": "Both cite explicit synchronization of item/relationship data between configuration systems and repositories; no extra deterministic implementation claim."
+    },
+    {
+      "annotation_id": "ann_0d1c497b251fdfe6cf90daaf",
+      "description_sha256": "ff990aef924a08bd2d0c1d6fd8659eeb1608b94a351a6b049759fd547fa4e88d",
+      "review_note": "Both cite compliance and vulnerability-risk-management automation across named infrastructure; no deterministic implementation or AI inference beyond text."
+    },
+    {
+      "annotation_id": "ann_243193ca75f9f9442c11ca71",
+      "description_sha256": "804da67f8d86e8b8bfbfa871871c24ef37ddbb07d4c63eaf78850662bb537efb",
+      "review_note": "Both cite explicit ITSM tools/software solutions; product-name word \u201cAutomation\u201d is not treated as an AI feature."
+    },
+    {
+      "annotation_id": "ann_5515a4b64e72bd18346498d9",
+      "description_sha256": "b16e5b9fcab1b586be7c0a03cd271221ea00b1fb68c8386d461a8a97a2d8a1a4",
+      "review_note": "Both cite storage resource management and consolidated view from a single pane; no feature inventory or outside product knowledge assumed."
+    },
+    {
+      "annotation_id": "ann_bb8b4b75e2d10ec83c1b5470",
+      "description_sha256": "23bc77d5275081c5375403710d5958be79bc623f50a3ec34030bbe8ca9ba424b",
+      "review_note": "Both cite storage resource monitoring/reporting across switches, SAN and NAS; no unsupported specific implementation claim."
+    },
+    {
+      "annotation_id": "ann_6a542119fa91c3deefb04445",
+      "description_sha256": "fb1066eed1e9a8159e3ccb519999dee620116e1f87d38938471fc19146f90d7e",
+      "review_note": "Both cite configuration-management database maintenance and automated infrastructure discovery; routine automation is not treated as AI."
+    },
+    {
+      "annotation_id": "ann_1eb225347639143876b39e79",
+      "description_sha256": "de3afa385570092ce9cf0ddf237529aaf0251c3048363990438333dcf25c1184",
+      "review_note": "Both cite explicit licensing bundle and identity, directory, email/calendar, collaboration and asset-management functions."
+    },
+    {
+      "annotation_id": "ann_9d699f3368d662f9651589a1",
+      "description_sha256": "8c5e4d06d7bfdf4d41c1a6ecfc16778079fabacc8bfe84fb598e66d7fc26c668",
+      "review_note": "Both cite explicit relational database management, storage and retrieval for applications; no database function inferred from product name alone."
+    },
+    {
+      "annotation_id": "ann_1b68f76804558fd228ac40bd",
+      "description_sha256": "4eaf542609f5c91cd0fa322a7c1ae99140f9de3bc5e73959b857b87dcba72a20",
+      "review_note": "Both independent labels weak; same verifier retained weak because the exact text is only a support-agreement title and gives no software functionality."
+    }
+  ]
+}

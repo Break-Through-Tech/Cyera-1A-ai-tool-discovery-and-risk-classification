@@ -1,0 +1,18 @@
+{
+  "batch_id": "batch-016",
+  "stage": "labeler",
+  "transcript_session_uuid": "8569dd1e-0a7c-4c02-bebd-97e47da40084",
+  "transcript_path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/8569dd1e-0a7c-4c02-bebd-97e47da40084/8569dd1e-0a7c-4c02-bebd-97e47da40084.jsonl",
+  "transcript_sha256": "b6f7e3848bad811b091aa48763ae14dd144643f5960919aee27ff47562b16dbc",
+  "original_result_tool_write_line": 7,
+  "repair_tool_line": 8,
+  "repair_tool": "StrReplace",
+  "old_string": "\"annotation_id\": \"ann_f f4975811f509fae6ad5063be\",",
+  "new_string": "\"annotation_id\": \"ann_f4975811f509fae6ad5063be\",",
+  "before_path": "runtime/pre-correction-raw/labeler-result-before-whitespace-correction.json",
+  "before_sha256": "cfe80fcafe9c1ebde91420a6bc287cf235be41d8e68b77171fa552d883e306b0",
+  "after_sha256": "352c0ed9607c0d3591a34cd44dafa8cbb51c2e950244d38eebe404a904fa3d68",
+  "exactly_one_transport_only_replacement_proven": true,
+  "no_semantic_field_change": true,
+  "current_result_matches_replayed_original_tool_operation_byte_for_byte": true
+}

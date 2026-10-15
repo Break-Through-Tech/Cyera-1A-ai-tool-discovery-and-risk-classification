@@ -1,0 +1,51 @@
+{
+  "batch_id": "batch-015",
+  "status": "passed",
+  "plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "source_hashes": {
+    "raw": "afe7cdbcbf82d9b11f579eb6dce000815a04a301410636e2942036f072fc7aa1",
+    "cleaned": "c9f0d234d3b66327250d7eb372e9fc962e06f16c2bc0181cc34654fdb897eb2b",
+    "cleaning_report": "5ee112cdb293fbe0640b61e4790d389331b35b729a907263237a2ecade0c0e7b",
+    "rubric": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+    "prompt_labeler": "4e0befda2866fd895e1bc2ea26297e5f2b5f451d3af0a780cb49356539dfbf33",
+    "prompt_blind": "66f1d0f9ab28589969c3274df80a5499002ec98777d9ba7517bfeb4ff535cab1",
+    "prompt_reconciliation": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1"
+  },
+  "selected_description_hashes_and_references_exact_frozen_plan": true,
+  "selected_descriptions": 20,
+  "source_rows": 21,
+  "unique_previous_accepted_descriptions": 280,
+  "unique_previous_accepted_references": 283,
+  "new_plan_hashes_overlap_previous": 0,
+  "new_source_reference_overlap_previous": 0,
+  "both_independent_results_registered_before_comparison": true,
+  "precomparison_receipts": [
+    "runtime/raw-output-hashes.json",
+    "runtime/independent-validation-and-registration.json"
+  ],
+  "independent_exact_coverage_schema_hash_quotes_private_result_checkpoint_equality": true,
+  "reconciliation_ids": [
+    "ann_f2eade578a28d22ef5ce94c4",
+    "ann_cf60a0593a37a0a1cb774b30",
+    "ann_04b42844fa957641f85e7a03",
+    "ann_1b68f76804558fd228ac40bd"
+  ],
+  "reconciliation_result_checkpoint_equality_exact_quotes_conflict_response": true,
+  "all20_pairs_inspected_and_support_notes_saved": "runtime/pair-review.json",
+  "final_weak_binary": 3,
+  "final_weak_subtype": 0,
+  "exports": {
+    "description_labels.json": "537ebf66d61a451e1b98dde563942d0df43b818dbbc0e00a5720f80f81714869",
+    "record_labels.json": "62f8b221c3f7f176f6cf97d64eca8c8db3d4f687ebe6ec6c1678d10f04c8fa6a",
+    "review_ledger.json": "d8db421868776413fc3c6d01cfffccbee6e1224bfb195239c4a251cf5281bfb4",
+    "review_queue.json": "63df5bd407afd32b3359d14dd1cea9dbe1eec45458e62285c0c64ab26b1f1696",
+    "non_ai_candidates.csv": "336e35506da57a77864ec478881efda9f6679591b09e059c73005eacc8fd37d3",
+    "calibration_report.json": "88b60f11119ec8a6a3bbaa714d6eb45891e9dcf4200367bdf0476c0e983519ac"
+  },
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s notebooks/enterprise_products -p 'test_*.py'",
+    "result": "36 passed"
+  },
+  "transport_note": "One original blind exact-quote structural recovery. Original result/checkpoint SHA-256 values were saved in runtime/raw-output-hashes.json and runtime/blind-structural-recovery-authorized.json. Due in-place editor correction, original blind bytes were not preserved; the malformed record/result logical content was reconstructed in runtime/pre-recovery-logical-snapshot/ with explicit non-byte-identical receipt. Corrected independent records were revalidated; all semantic fields unchanged. See runtime/pre-recovery-logical-snapshot-receipt.json."
+}

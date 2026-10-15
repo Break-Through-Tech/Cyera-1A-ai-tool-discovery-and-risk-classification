@@ -1,0 +1,82 @@
+{
+  "logical_batch_id": "batch-015",
+  "accepted_copy": "batches/batch-015-parent-integration",
+  "status": "passed_local_integrity_pending_parent_gate",
+  "plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "selected_descriptions": 20,
+  "selected_rows": 21,
+  "selected_plan_hashes_and_source_references_exact": true,
+  "all20_source_proposal_pairs_inspected": true,
+  "both_independent_results_precomparison_registered": true,
+  "exact_coverage_schema_quotes_provenance_private_checkpoint_result_equality_validated": true,
+  "extended_reconciliation_route_ids": [
+    "ann_f2eade578a28d22ef5ce94c4",
+    "ann_cf60a0593a37a0a1cb774b30",
+    "ann_3475147fec04b6525226088e",
+    "ann_04b42844fa957641f85e7a03",
+    "ann_243193ca75f9f9442c11ca71",
+    "ann_1b68f76804558fd228ac40bd"
+  ],
+  "reconciliation_count": 6,
+  "helper_required_reconciliations": 2,
+  "additional_support_concerns": 4,
+  "late_missing_only_reconciliations": 2,
+  "same_original_luna_session_uuid": "879c4961-01e1-4b69-a888-0a5f98b95c17",
+  "original_transcript_routing_review": {
+    "original_four_route_ids": [
+      "ann_f2eade578a28d22ef5ce94c4",
+      "ann_cf60a0593a37a0a1cb774b30",
+      "ann_04b42844fa957641f85e7a03",
+      "ann_1b68f76804558fd228ac40bd"
+    ],
+    "late_ids_absent_from_original_reconciliation_packet": [
+      "ann_243193ca75f9f9442c11ca71",
+      "ann_3475147fec04b6525226088e"
+    ],
+    "finding": "Original transcript addressed the first four only; same original Luna context completed only the two omitted items."
+  },
+  "missing_only_validation": "../batch-015/runtime/missing-only-reconciliation-validation.json",
+  "missing_only_result_sha256": "42d8aca1feaa97f08ba1aca28f2dc39e6c3b245b9c17868b2f94d8cc7a5902fb",
+  "missing_only_checkpoint_sha256": {
+    "ann_243193ca75f9f9442c11ca71": "03ccb60e01c73737377a8361dae1acf7f82eb2903b0ed3e0a28d233cedb4af20",
+    "ann_3475147fec04b6525226088e": "5bbb2e00ea3ad5b045b0bc76368e6226f5f59571f9579266d5f095ce5a38c673"
+  },
+  "original_immutable_hashes": {
+    "manifest_sha256": "0f5406cd9563ab9066fa6b6a9ff3eade1e2d9240b95619582af981e19706eb5a",
+    "parent_acceptance_sha256": "94116893fe070ea8015810f21e5d5c81cb2e94c1357dcfa9faa670cb2ccb8f77",
+    "four_final_checkpoint_sha256": {
+      "ann_f2eade578a28d22ef5ce94c4": "95fc6e8924d7241986e37643205d0653d3e4acc64bfc43ca01be5e164ebf4c5b",
+      "ann_cf60a0593a37a0a1cb774b30": "99eb03665f5fb5fc65d0489f595b58dece18f94f5c3097bd47d5216cef8834e3",
+      "ann_04b42844fa957641f85e7a03": "935920d3a234c7ea51d22c56a01750c186b71f59bcb6d44e0db09fba5b62ad32",
+      "ann_1b68f76804558fd228ac40bd": "da237e5fbbdd44c12e77ab3393c6ad4dcc0c57654a71590c6dc5b3b5a6318fe2"
+    },
+    "four_original_verifier_result_sha256": "0fa2c3f4d1e6293ad5f5d5b01b5657f60896b85b4a2bb0426502303b92f5c797",
+    "original_exports_unchanged": true
+  },
+  "raw_recovery_receipts": {
+    "015_original_raw_transcript_recovery": "../batch-015/runtime/raw-transcript-recovery-receipt.json",
+    "015_missing_only_validation": "../batch-015/runtime/missing-only-reconciliation-validation.json",
+    "016_labeler_aggregate_whitespace_recovery": "../batch-016/runtime/labeler-aggregate-whitespace-recovery-receipt.json",
+    "017_duplicate_write_evidence": "../batch-017/runtime/checkpoint-overwrite-write-evidence.json",
+    "017_blind_structural_recovery": "../batch-017/runtime/blind-structural-recovery-validation.json"
+  },
+  "exports_verified_by_label_v3__verified_manifest": true,
+  "export_hashes": {
+    "description_labels.json": "c052e979a809acee44ec6bd1baf297368c30027206384c3c38b28441ade5aeae",
+    "record_labels.json": "133296f52ef5ea208f1595f250b1088c7d22bff76199129278f3a6bca82bafc5",
+    "review_ledger.json": "a9a063dbbf21c8395b41427035dd5122bd3942ebfb10b48ae910b80ad19e9eab",
+    "review_queue.json": "a05226095dc6da9dacce4b7259448cb63b2ac0f95dbf0fcc3ab68ba7f81ab83b",
+    "non_ai_candidates.csv": "0465c890d6a55f9ed076821c6f4f27fd7e66f8db8740a6e43c300451762677ed",
+    "calibration_report.json": "07483da04571e884a452976360f462a7c7b61dc4eb75761c2b3a2f28549efbc6"
+  },
+  "counts": {
+    "final_binary_weak": 5,
+    "final_subtype_weak": 0,
+    "trusted_negative_records": 15,
+    "reconciliation": 6
+  },
+  "existing_enterprise_tests": "36 passed",
+  "cost_usd": null,
+  "billed_tokens": null
+}

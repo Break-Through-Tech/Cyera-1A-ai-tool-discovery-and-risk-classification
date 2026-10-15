@@ -1,0 +1,23 @@
+{
+  "batch_id": "batch-017",
+  "same_original_luna": "cursor017-blind",
+  "model_banner_observed": "GPT-5.6 Luna 272K High",
+  "route_ids": [
+    "ann_daf06befeff11f8dda111638",
+    "ann_82b0fcd694a0accc26832e1c",
+    "ann_88b6ae0f4f1f55a6fb72ba53"
+  ],
+  "result_sha256": "731dd595b20277b27c7c0fe3a66e70be7f45a6a5d3c2663cfd4b9526d29946d9",
+  "checkpoints": {
+    "ann_82b0fcd694a0accc26832e1c": "72a2a1087aa63bddcb13f48d95d82db0bb3a0fd7faa9294e4a9182f8207a0dc0",
+    "ann_88b6ae0f4f1f55a6fb72ba53": "209ad182b49ecb5f51001e9eabe36b5422f66a0a96615bd6a2b594d513732070",
+    "ann_daf06befeff11f8dda111638": "e256cf9b6a3c9907b45b9f49c3e48d3fc0cacece7af4c9125ff36c1c833a4b79"
+  },
+  "private_result_checkpoint_equality": true,
+  "helper_stage_checkpoint_hashes": {
+    "stages/reconciliation/ann_daf06befeff11f8dda111638.json": "e256cf9b6a3c9907b45b9f49c3e48d3fc0cacece7af4c9125ff36c1c833a4b79",
+    "stages/reconciliation/ann_82b0fcd694a0accc26832e1c.json": "72a2a1087aa63bddcb13f48d95d82db0bb3a0fd7faa9294e4a9182f8207a0dc0",
+    "stages/reconciliation/ann_88b6ae0f4f1f55a6fb72ba53.json": "209ad182b49ecb5f51001e9eabe36b5422f66a0a96615bd6a2b594d513732070"
+  },
+  "three_of_three_coverage_schema_source_hash_quotes_conflict_response_valid": true
+}

@@ -1,0 +1,88 @@
+{
+  "status": "accepted",
+  "timestamp": "2026-10-15T06:33:20.212076+00:00",
+  "source_handoff": "runtime/wave015-017-handoff-20261015.9657f625.md",
+  "batches": {
+    "batch-015": {
+      "manifest_sha256": "0f5406cd9563ab9066fa6b6a9ff3eade1e2d9240b95619582af981e19706eb5a",
+      "stages": [
+        20,
+        20,
+        4
+      ],
+      "exports": {
+        "description_labels.json": "537ebf66d61a451e1b98dde563942d0df43b818dbbc0e00a5720f80f81714869",
+        "record_labels.json": "62f8b221c3f7f176f6cf97d64eca8c8db3d4f687ebe6ec6c1678d10f04c8fa6a",
+        "review_ledger.json": "d8db421868776413fc3c6d01cfffccbee6e1224bfb195239c4a251cf5281bfb4",
+        "review_queue.json": "63df5bd407afd32b3359d14dd1cea9dbe1eec45458e62285c0c64ab26b1f1696",
+        "non_ai_candidates.csv": "336e35506da57a77864ec478881efda9f6679591b09e059c73005eacc8fd37d3",
+        "calibration_report.json": "88b60f11119ec8a6a3bbaa714d6eb45891e9dcf4200367bdf0476c0e983519ac"
+      },
+      "plan_refs_exact": true,
+      "repair_fields_only": [
+        "evidence_spans"
+      ]
+    },
+    "batch-016": {
+      "manifest_sha256": "d6c01953f3b2c93fee61555fc3b9c34299e3df9ddc11a2215fd8a3db8335dc83",
+      "stages": [
+        20,
+        20,
+        5
+      ],
+      "exports": {
+        "description_labels.json": "6e3b29eb366dfad3000bf49a335093c25e367171b6313cb1ec255fc25043f2a3",
+        "record_labels.json": "b4175bf4ed82193321b601fe968d903d5d305f8adc40d1233969c052ce4e67bc",
+        "review_ledger.json": "74af0e7b846fb6f6b29968651fecc4e2e921bda75faa92a9d0d1c4aaa9a8c60d",
+        "review_queue.json": "76dcb28c896f3183d515eb3fd74b3067ac517b6924f823b2c680a099196878c3",
+        "non_ai_candidates.csv": "26f32153aa0358c74c48aef0d172811639296e8605a8f74d021c1a2ac4bf409e",
+        "calibration_report.json": "012dafcb6e7b587cf3d8a45d334dfb5838745d14986358ad92ff986df214dcb3"
+      },
+      "plan_refs_exact": true,
+      "repair_fields_only": [
+        "evidence_spans"
+      ]
+    },
+    "batch-017": {
+      "manifest_sha256": "67e9cd02297a35a9c1a74c57351eec93d3b9baf2f3c963a3cd96913c9a9b7248",
+      "stages": [
+        20,
+        20,
+        3
+      ],
+      "exports": {
+        "description_labels.json": "e2e8d8b8fe3b0858698c41047f3835d6bd54c0018b915b4f5be8f25f8ac4ef93",
+        "record_labels.json": "98e12c4536d7f985c498f9b0e133df34834b8660dff971819a7935dcc1357f34",
+        "review_ledger.json": "f395a6f7b2ec2aa817d58eebf14d935fefa6fb3efd7968d8bbfc57a611f96b16",
+        "review_queue.json": "3e55c4e7d4cfe0883f6ea19d14e0adace3695f0c85df51717d6d2b04d081238c",
+        "non_ai_candidates.csv": "776ccf35293c93283a048181ae8ae5bef716079076ce05b4a135accceee98a1c",
+        "calibration_report.json": "1c2451669dced508d17d6519e893e38b60d3b3c51faf591d6c9a40d3a05d57da"
+      },
+      "plan_refs_exact": true,
+      "repair_fields_only": [
+        "description_sha256"
+      ]
+    },
+    "batch-015-parent-integration": {
+      "manifest_sha256": "75ac87957261fb49e275cbe52e340e44330b088e86b441176f90f0856d39afc8",
+      "stages": [
+        20,
+        20,
+        6
+      ],
+      "original_four_unchanged": true,
+      "only_new_two_missing_support_resolutions": true,
+      "exports": {
+        "description_labels.json": "c052e979a809acee44ec6bd1baf297368c30027206384c3c38b28441ade5aeae",
+        "record_labels.json": "133296f52ef5ea208f1595f250b1088c7d22bff76199129278f3a6bca82bafc5",
+        "review_ledger.json": "a9a063dbbf21c8395b41427035dd5122bd3942ebfb10b48ae910b80ad19e9eab",
+        "review_queue.json": "a05226095dc6da9dacce4b7259448cb63b2ac0f95dbf0fcc3ab68ba7f81ab83b",
+        "non_ai_candidates.csv": "0465c890d6a55f9ed076821c6f4f27fd7e66f8db8740a6e43c300451762677ed",
+        "calibration_report.json": "07483da04571e884a452976360f462a7c7b61dc4eb75761c2b3a2f28549efbc6"
+      }
+    }
+  },
+  "semantic_review": "Parent inspected all20 source/proposal/final pairs per batch015–017. Original015 missing2 concerns completed once in same original Luna; original4 preserved.016 five and017 three final concern responses reviewed, uncertainty retained. Actual private/helper/schema/sourcequotes/plan refs/export hashes verified.015 recovered original tool payload bytes match pre-repair hashes;016 malformed ID replay byte-exact;017 duplicate-write payloads byte-identical and only blindcheckpoint hash typo repaired. No parent label invention or rerun.",
+  "count_only_accepted_015_promotion": true,
+  "raw_in_place_repair_deviations_explicitly_documented": true
+}

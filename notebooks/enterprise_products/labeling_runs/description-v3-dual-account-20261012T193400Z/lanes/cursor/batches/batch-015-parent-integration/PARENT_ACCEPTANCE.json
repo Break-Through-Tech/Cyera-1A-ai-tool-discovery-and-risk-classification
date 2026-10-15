@@ -1,0 +1,73 @@
+{
+  "status": "finalized_parent_integration_copy_pending_parent_gate",
+  "logical_batch_id": "batch-015",
+  "batch_id": "batch-015-parent-integration",
+  "source_original": "batches/batch-015",
+  "original_batch_immutable": true,
+  "selected_descriptions": 20,
+  "selected_rows": 21,
+  "exact_plan_hash_and_reference_coverage": true,
+  "exact_schema_quotes_provenance_private_checkpoint_equality": true,
+  "both_independent_results_hash_registered_before_comparison": true,
+  "original_four_final_decisions_unchanged": true,
+  "raw_worker_checkpoints_preserved_unchanged": false,
+  "raw_hash_receipts": [
+    "runtime/raw-output-hashes.json",
+    "runtime/independent-validation-and-registration.json",
+    "runtime/blind-structural-recovery-authorized.json",
+    "runtime/pre-recovery-logical-snapshot-receipt.json",
+    "runtime/raw-transcript-recovery-receipt.json"
+  ],
+  "original_immutable_receipt": "runtime/parent-integration-base-receipt.json",
+  "original_manifest_sha256": "0f5406cd9563ab9066fa6b6a9ff3eade1e2d9240b95619582af981e19706eb5a",
+  "original_parent_acceptance_sha256": "94116893fe070ea8015810f21e5d5c81cb2e94c1357dcfa9faa670cb2ccb8f77",
+  "original_four_verifier_result_sha256": "0fa2c3f4d1e6293ad5f5d5b01b5657f60896b85b4a2bb0426502303b92f5c797",
+  "original_four_final_checkpoint_hashes_unchanged": true,
+  "original_exports_unchanged": true,
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high",
+    "reconciliation": "gpt-5.6-luna-high"
+  },
+  "reconciliation_count": 6,
+  "helper_required_reconciliation_ids": [
+    "ann_1b68f76804558fd228ac40bd",
+    "ann_cf60a0593a37a0a1cb774b30"
+  ],
+  "support_concern_ids": [
+    "ann_f2eade578a28d22ef5ce94c4",
+    "ann_04b42844fa957641f85e7a03",
+    "ann_243193ca75f9f9442c11ca71",
+    "ann_3475147fec04b6525226088e"
+  ],
+  "late_missing_only_ids_reconciled_once_in_same_original_luna_session": [
+    "ann_243193ca75f9f9442c11ca71",
+    "ann_3475147fec04b6525226088e"
+  ],
+  "same_original_luna_session_uuid": "879c4961-01e1-4b69-a888-0a5f98b95c17",
+  "missing_only_result_sha256": "42d8aca1feaa97f08ba1aca28f2dc39e6c3b245b9c17868b2f94d8cc7a5902fb",
+  "missing_only_checkpoint_sha256": {
+    "ann_243193ca75f9f9442c11ca71": "03ccb60e01c73737377a8361dae1acf7f82eb2903b0ed3e0a28d233cedb4af20",
+    "ann_3475147fec04b6525226088e": "5bbb2e00ea3ad5b045b0bc76368e6226f5f59571f9579266d5f095ce5a38c673"
+  },
+  "all20_source_proposal_pairs_reviewed": true,
+  "new_missing_items_only_reviewed": true,
+  "final_binary_weak_count": 5,
+  "final_subtype_weak_count": 0,
+  "trusted_negative_records": 15,
+  "weak_judgments_remain_flagged_and_excluded": true,
+  "exports_verified": true,
+  "export_hashes": {
+    "description_labels.json": "c052e979a809acee44ec6bd1baf297368c30027206384c3c38b28441ade5aeae",
+    "record_labels.json": "133296f52ef5ea208f1595f250b1088c7d22bff76199129278f3a6bca82bafc5",
+    "review_ledger.json": "a9a063dbbf21c8395b41427035dd5122bd3942ebfb10b48ae910b80ad19e9eab",
+    "review_queue.json": "a05226095dc6da9dacce4b7259448cb63b2ac0f95dbf0fcc3ab68ba7f81ab83b",
+    "non_ai_candidates.csv": "0465c890d6a55f9ed076821c6f4f27fd7e66f8db8740a6e43c300451762677ed",
+    "calibration_report.json": "07483da04571e884a452976360f462a7c7b61dc4eb75761c2b3a2f28549efbc6"
+  },
+  "test_result": "36 enterprise tests passed",
+  "cost_usd": null,
+  "billed_tokens": null,
+  "final_validation": "runtime/FINAL_VALIDATION.json",
+  "parent_gate": "Pending parent independent acceptance; parent owns Git and global coverage."
+}

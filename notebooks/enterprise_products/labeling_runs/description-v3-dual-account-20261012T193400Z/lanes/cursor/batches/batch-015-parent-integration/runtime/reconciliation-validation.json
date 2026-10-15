@@ -1,0 +1,28 @@
+{
+  "batch_id": "batch-015",
+  "stage": "reconciliation",
+  "same_original_blind_agent": "cursor015-blind",
+  "model_banner_observed": "GPT-5.6 Luna 272K High",
+  "role_workspace_observed": ".../batches/batch-015/agents/blind",
+  "route_ids": [
+    "ann_f2eade578a28d22ef5ce94c4",
+    "ann_cf60a0593a37a0a1cb774b30",
+    "ann_04b42844fa957641f85e7a03",
+    "ann_1b68f76804558fd228ac40bd"
+  ],
+  "result_sha256": "0fa2c3f4d1e6293ad5f5d5b01b5657f60896b85b4a2bb0426502303b92f5c797",
+  "checkpoints": {
+    "ann_04b42844fa957641f85e7a03": "935920d3a234c7ea51d22c56a01750c186b71f59bcb6d44e0db09fba5b62ad32",
+    "ann_1b68f76804558fd228ac40bd": "da237e5fbbdd44c12e77ab3393c6ad4dcc0c57654a71590c6dc5b3b5a6318fe2",
+    "ann_cf60a0593a37a0a1cb774b30": "99eb03665f5fb5fc65d0489f595b58dece18f94f5c3097bd47d5216cef8834e3",
+    "ann_f2eade578a28d22ef5ce94c4": "95fc6e8924d7241986e37643205d0653d3e4acc64bfc43ca01be5e164ebf4c5b"
+  },
+  "four_of_four_coverage_schema_exact_quote_conflict_response_private_equality": true,
+  "helper_stage_checkpoint_hashes": {
+    "stages/reconciliation/ann_f2eade578a28d22ef5ce94c4.json": "95fc6e8924d7241986e37643205d0653d3e4acc64bfc43ca01be5e164ebf4c5b",
+    "stages/reconciliation/ann_cf60a0593a37a0a1cb774b30.json": "99eb03665f5fb5fc65d0489f595b58dece18f94f5c3097bd47d5216cef8834e3",
+    "stages/reconciliation/ann_04b42844fa957641f85e7a03.json": "935920d3a234c7ea51d22c56a01750c186b71f59bcb6d44e0db09fba5b62ad32",
+    "stages/reconciliation/ann_1b68f76804558fd228ac40bd.json": "da237e5fbbdd44c12e77ab3393c6ad4dcc0c57654a71590c6dc5b3b5a6318fe2"
+  },
+  "independent_raw_result_hashes_unchanged": true
+}

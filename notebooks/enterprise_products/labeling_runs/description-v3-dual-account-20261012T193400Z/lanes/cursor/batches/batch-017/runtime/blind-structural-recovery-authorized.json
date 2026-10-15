@@ -1,0 +1,18 @@
+{
+  "batch_id": "batch-017",
+  "stage": "blind",
+  "annotation_id": "ann_b09cfbb30ede77b09ada9950",
+  "repair_count_authorized": 1,
+  "same_original_agent": "cursor017-blind",
+  "pre_repair_result_sha256": "18c72908a44f1bddcb74de18784e3cc3242bd3d355e190d5dffecb8e91aff7cc",
+  "pre_repair_checkpoint_sha256": "e0079b7160057895c57834e07eefae1da09017b6412bc12d42fb1ea9e5022c70",
+  "pre_repair_result_copy": "runtime/pre-recovery-raw/result.json",
+  "pre_repair_checkpoint_copy": "runtime/pre-recovery-raw/checkpoints/ann_b09cfbb30ede77b09ada9950.json",
+  "byte_identical_copies_verified": true,
+  "invalid_checkpoint_hash": "3cd1f01bbc57a54dd3e32dab8b3f78b492d8c2790b5a40fccf8e3651eff39a9",
+  "invalid_aggregate_hash": "3cd1f01bbc57a54dd3e32dab8b3f78b492d8c2790b5a40fccf8e3651eff39a9a",
+  "correct_description_sha256_from_frozen_packet": "3cd1f01bbc57a54dd3e32dab8b3f78b492d8c2790b5a40fccf8e3651eff39a9a",
+  "correct_hash_length": 64,
+  "only_permitted_field": "description_sha256",
+  "semantic_fields_must_remain_unchanged": true
+}

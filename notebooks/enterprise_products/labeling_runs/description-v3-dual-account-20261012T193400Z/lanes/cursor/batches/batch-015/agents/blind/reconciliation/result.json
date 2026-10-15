@@ -1,0 +1,72 @@
+[
+  {
+    "annotation_id": "ann_f2eade578a28d22ef5ce94c4",
+    "description_sha256": "0f9714467b22a11febfe5984efd9124e2fc59fadc9c42df9ce8e398768730741",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description identifies enterprise storage management and names products but does not state their concrete conventional software functions; the non-AI judgment is therefore forced and weak.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Innovation Data Processing, headquartered in Little Falls, NJ is a leader in enterprise storage management with industry leading products FDR (Fast Dump Restore), ABR, FDRPAS, FASTCPK, FDRSOS, FDRINSTANT, FDR/UPSTREAM, FATS/FATAR and IAM."
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "Both proposals selected supported non_ai, but the concern is material: the supplied text gives only the broad category “enterprise storage management” and product names, without concrete functionality. Because the text does not meaningfully establish conventional software functions, retain non_ai only as a weak forced judgment rather than supported evidence."
+  },
+  {
+    "annotation_id": "ann_cf60a0593a37a0a1cb774b30",
+    "description_sha256": "96256b05c47c5f024bec288a2b7b5af9d000c87cb2304fcc58568788e7667fc8",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text describes organizational support for shared open-source resources and participation in projects, not clear software product functionality; the non-AI judgment remains weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Linux Foundation members help support the development of shared technology resources, while accelerating their own innovation through open source leadership and participation in some of the world’s most successful open source projects."
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "Both proposals agree that the text is about membership, support, and participation rather than a clearly described software product, and both mark the decision weak and forced. The concern is therefore addressed by retaining non_ai with evidence_strength weak and forced_decision true; the text supplies no affirmative AI signal but is insufficient for a supported negative."
+  },
+  {
+    "annotation_id": "ann_04b42844fa957641f85e7a03",
+    "description_sha256": "f7018bf905be96e65290d7f82d32d0ffa05fec9a63ff43969e2cb2a87847d0f3",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description explicitly describes multi-cloud management, deployment, catalog-based fulfillment, orchestration, DevOps release orchestration, and governance. “Adaptive” is not explained as learned or AI-driven functionality.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Hybrid Cloud Management is a unified solution for multi-cloud management, enabling the design, deployment and management of services.",
+      "HCM flexibly automates the dynamic fulfillment of a wide range of environments from a streamlined catalog, using adaptive service designs and a master orchestrator.",
+      "HCM features integrated application release orchestration for DevOps and cloud governance."
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The concern’s “adaptive service designs” phrase is evaluated in its supplied context: catalog-based fulfillment, a master orchestrator, release orchestration, and cloud governance. The text does not establish learning, models, or AI dependence, so this is ordinary described automation/orchestration rather than unexplained AI-dependent functionality; retain supported non_ai."
+  },
+  {
+    "annotation_id": "ann_1b68f76804558fd228ac40bd",
+    "description_sha256": "4eaf542609f5c91cd0fa322a7c1ae99140f9de3bc5e73959b857b87dcba72a20",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text only names a support agreement and does not meaningfully describe software functionality, so non-AI remains a forced weak judgment.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Unified Support Agreement"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "Both proposals agree that the exact description is only the title “Unified Support Agreement,” with no software functionality. The listed concern is addressed by retaining non_ai with weak evidence_strength and forced_decision true; the lack of an AI mention alone does not support a stronger negative."
+  }
+]

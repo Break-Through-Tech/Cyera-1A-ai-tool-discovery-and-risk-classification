@@ -1,0 +1,30 @@
+{
+  "batch_id": "batch-016",
+  "stage": "reconciliation",
+  "agent": "cursor016-blind same original Luna",
+  "model_banner_observed": "GPT-5.6 Luna 272K High",
+  "route_ids": [
+    "ann_4ff886c71e8154279e1d8f31",
+    "ann_f33062152f0ff7daee5d3d5b",
+    "ann_58ba464edb6df90c019ea700",
+    "ann_6e2345540f50a4d89022fa7f",
+    "ann_51126040efd13785a006c60c"
+  ],
+  "result_sha256": "66d427aeec8a61750c0df29262e60b32203e287de64e067d45cbb7920719712b",
+  "checkpoints": {
+    "ann_4ff886c71e8154279e1d8f31": "f1f11876fd9fc6c281013f2a944910701deba8a0dfff52503b0eed5dc010f3d6",
+    "ann_51126040efd13785a006c60c": "2065d74f8477c668444e9585a7563fda6eb2243ddacecd4b79344837633ac1a4",
+    "ann_58ba464edb6df90c019ea700": "89231aad5004eb449b791c3b9e6ef34fe64277735b47dd38e2e59e8e7f0c1020",
+    "ann_6e2345540f50a4d89022fa7f": "288a25b86e788a4854910e93f081d9378c9faa476b5c6898fb097c250dfced76",
+    "ann_f33062152f0ff7daee5d3d5b": "2f8a308116511647e74b51fb79550393763845a8a71b36c24ca0d47ea40946ea"
+  },
+  "private_checkpoint_result_equality": true,
+  "helper_checkpoints": {
+    "stages/reconciliation/ann_4ff886c71e8154279e1d8f31.json": "971674c85200225afdbeb0db03b941b4e951d2d35f8f763b5dbbf5e34c8b841a",
+    "stages/reconciliation/ann_f33062152f0ff7daee5d3d5b.json": "2f8a308116511647e74b51fb79550393763845a8a71b36c24ca0d47ea40946ea",
+    "stages/reconciliation/ann_58ba464edb6df90c019ea700.json": "89231aad5004eb449b791c3b9e6ef34fe64277735b47dd38e2e59e8e7f0c1020",
+    "stages/reconciliation/ann_6e2345540f50a4d89022fa7f.json": "288a25b86e788a4854910e93f081d9378c9faa476b5c6898fb097c250dfced76",
+    "stages/reconciliation/ann_51126040efd13785a006c60c.json": "2065d74f8477c668444e9585a7563fda6eb2243ddacecd4b79344837633ac1a4"
+  },
+  "exact_coverage_schema_source_quotes_conflict_response": true
+}

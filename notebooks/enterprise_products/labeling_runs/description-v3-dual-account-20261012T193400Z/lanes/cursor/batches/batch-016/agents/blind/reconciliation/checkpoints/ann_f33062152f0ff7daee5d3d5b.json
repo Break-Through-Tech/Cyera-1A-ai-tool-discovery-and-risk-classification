@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_f33062152f0ff7daee5d3d5b",
+  "description_sha256": "45479979b88a7d6f0f25061053f96a0893aa07eb1893182a02333c69a84ef3ff",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description explicitly covers spatial and graph database functionality, analytics for Oracle Database, and geographic and location-data management, without an affirmative AI signal.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "Oracle Spatial and Graph includes high performance, enterprise-scale, commercial spatial and graph database and analytics for Oracle Database.",
+    "The spatial features in Oracle Spatial and Graph aid users in managing geographic and location-data in a native type within an Oracle database."
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The labeler raised possible AI dependence from the generic word “analytics,” but the supplied text also concretely describes spatial and graph database functionality and geographic data management. The rubric treats analytics as ambiguous and does not permit assuming an unstated AI implementation; these described conventional functions are meaningful enough for supported non_ai evidence."
+}

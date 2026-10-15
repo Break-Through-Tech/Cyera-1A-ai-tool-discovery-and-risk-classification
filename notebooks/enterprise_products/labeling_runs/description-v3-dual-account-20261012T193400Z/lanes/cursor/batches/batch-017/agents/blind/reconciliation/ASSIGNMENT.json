@@ -1,0 +1,32 @@
+{
+  "batch_id": "batch-017",
+  "stage": "reconciliation",
+  "model_id": "gpt-5.6-luna-high",
+  "workspace": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-017/agents/blind",
+  "private_assignment_subdirectory": "reconciliation/",
+  "assigned_annotation_ids": [
+    "ann_daf06befeff11f8dda111638",
+    "ann_82b0fcd694a0accc26832e1c",
+    "ann_88b6ae0f4f1f55a6fb72ba53"
+  ],
+  "assignment_receipt": {
+    "stage": "reconciliation",
+    "run_id": "batch-017",
+    "batch_id": "cursor-batch-017",
+    "rubric_id": "enterprise-description-only-v3",
+    "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+    "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+    "model_id": "gpt-5.6-luna-high",
+    "assigned_annotation_ids": [
+      "ann_daf06befeff11f8dda111638",
+      "ann_82b0fcd694a0accc26832e1c",
+      "ann_88b6ae0f4f1f55a6fb72ba53"
+    ]
+  },
+  "packet": "reconciliation/reconciliation_packet.json",
+  "role_prompt": "reconciliation/role_prompt.md",
+  "schema": "reconciliation/schema.json",
+  "checkpoints": "reconciliation/checkpoints/<annotation_id>.json",
+  "result": "reconciliation/result.json",
+  "policy": "Only supplied exact descriptions, proposals, concern and rubric. No outside evidence. Address each concern once; preserve independent records."
+}

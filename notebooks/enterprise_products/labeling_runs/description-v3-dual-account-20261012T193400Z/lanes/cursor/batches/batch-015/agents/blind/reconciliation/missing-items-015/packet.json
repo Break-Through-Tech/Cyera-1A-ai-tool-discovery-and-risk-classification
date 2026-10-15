@@ -1,0 +1,78 @@
+[
+  {
+    "annotation_id": "ann_243193ca75f9f9442c11ca71",
+    "description_sha256": "804da67f8d86e8b8bfbfa871871c24ef37ddbb07d4c63eaf78850662bb537efb",
+    "description": "The Micro Focus Service Management Automation Suite is a collection of ITSM tools and software solutions that ensures engaging end-user experience",
+    "labeler_proposal": {
+      "annotation_id": "ann_243193ca75f9f9442c11ca71",
+      "description_sha256": "804da67f8d86e8b8bfbfa871871c24ef37ddbb07d4c63eaf78850662bb537efb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a collection of conventional IT service management (ITSM) tools and software solutions. No AI signal appears; the word Automation is part of the product name only.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "collection of ITSM tools and software solutions"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_243193ca75f9f9442c11ca71",
+      "description_sha256": "804da67f8d86e8b8bfbfa871871c24ef37ddbb07d4c63eaf78850662bb537efb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a collection of conventional IT service management tools and software solutions, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The Micro Focus Service Management Automation Suite is a collection of ITSM tools and software solutions that ensures engaging end-user experience"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Both supported non_ai rationales treat “a collection of ITSM tools and software solutions” and “ensures engaging end-user experience” as sufficient conventional functionality. However, the exact description states no specific IT service-management functions. Determine whether this is merely a category/outcome claim insufficient for a supported negative; use no outside knowledge of ITSM."
+  },
+  {
+    "annotation_id": "ann_3475147fec04b6525226088e",
+    "description_sha256": "6aa76905294d2909f2f4afd8ab41d6e0eeba2d2352e695e2f82f33ce5ffd6e56",
+    "description": "Telenium is an advanced network management software package designed to provide telecommunications, cable, government and utility markets with the tools they need to keep their network performing at optimal levels",
+    "labeler_proposal": {
+      "annotation_id": "ann_3475147fec04b6525226088e",
+      "description_sha256": "6aa76905294d2909f2f4afd8ab41d6e0eeba2d2352e695e2f82f33ce5ffd6e56",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional network management software that keeps networks performing at optimal levels. The word advanced is generic marketing language and is not an AI claim.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Telenium is an advanced network management software package designed to provide telecommunications, cable, government and utility markets with the tools they need to keep their network performing at optimal levels"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_3475147fec04b6525226088e",
+      "description_sha256": "6aa76905294d2909f2f4afd8ab41d6e0eeba2d2352e695e2f82f33ce5ffd6e56",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers conventional network management software for maintaining telecommunications and utility network performance, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Telenium is an advanced network management software package designed to provide telecommunications, cable, government and utility markets with the tools they need to keep their network performing at optimal levels"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Both supported non_ai rationales treat “network management software” and keeping a network performing at optimal levels as sufficient conventional functionality, but no network operations/features are stated. Determine whether this category/performance outcome alone meaningfully describes conventional software functionality; use no outside product facts."
+  }
+]

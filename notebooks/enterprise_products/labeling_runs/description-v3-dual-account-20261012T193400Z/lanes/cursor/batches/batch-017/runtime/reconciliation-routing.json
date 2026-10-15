@@ -1,0 +1,22 @@
+{
+  "batch_id": "batch-017",
+  "independent_results_registered_before_comparison": true,
+  "helper_required_ids": [
+    "ann_82b0fcd694a0accc26832e1c",
+    "ann_88b6ae0f4f1f55a6fb72ba53",
+    "ann_daf06befeff11f8dda111638"
+  ],
+  "additional_support_concern_ids": [],
+  "all_pairs_inspected": 20,
+  "reconciliation_ids_in_frozen_selection_order": [
+    "ann_daf06befeff11f8dda111638",
+    "ann_82b0fcd694a0accc26832e1c",
+    "ann_88b6ae0f4f1f55a6fb72ba53"
+  ],
+  "reasons": {
+    "ann_82b0fcd694a0accc26832e1c": "Required: one-line description names remote eSIM provisioning and lifecycle management but contains little detail; labeler weak/forced, blind supported. Resolve if text meaningfully supports conventional functionality; no outside product facts.",
+    "ann_88b6ae0f4f1f55a6fb72ba53": "Required: content discovery makes app/movie/music/restaurant recommendations, but the description does not specify the recommendation method; both label weak. Address possible AI-dependent functionality without inferring implementation.",
+    "ann_daf06befeff11f8dda111638": "Required: text is marketing language about consultative data-center solutions and a platform without a concrete function; labeler weak/forced, blind supported. Determine support from exact text only."
+  },
+  "constraints": "Single same-original-Luna pass; exact source and both saved proposals; no external evidence/third adjudicator."
+}

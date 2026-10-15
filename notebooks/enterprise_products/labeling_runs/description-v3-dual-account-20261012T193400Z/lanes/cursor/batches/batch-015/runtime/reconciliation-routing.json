@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch-015",
+  "independent_results_registered_before_comparison": true,
+  "all_pairs_inspected": 20,
+  "helper_required_ids": [
+    "ann_1b68f76804558fd228ac40bd",
+    "ann_cf60a0593a37a0a1cb774b30"
+  ],
+  "additional_support_concern_ids": [
+    "ann_f2eade578a28d22ef5ce94c4",
+    "ann_04b42844fa957641f85e7a03"
+  ],
+  "reconciliation_ids_in_frozen_selection_order": [
+    "ann_f2eade578a28d22ef5ce94c4",
+    "ann_cf60a0593a37a0a1cb774b30",
+    "ann_04b42844fa957641f85e7a03",
+    "ann_1b68f76804558fd228ac40bd"
+  ],
+  "reasons": {
+    "ann_cf60a0593a37a0a1cb774b30": "Both roles mark weak/forced: text describes membership, support for shared open-source resources, and participation, not clear product software functionality; maintain weak pending original verifier.",
+    "ann_1b68f76804558fd228ac40bd": "Both roles mark weak/forced: exact description is only the title \u201cUnified Support Agreement,\u201d with no software functionality; maintain weak pending original verifier.",
+    "ann_f2eade578a28d22ef5ce94c4": "Concrete category-only negative concern: the description says \u201centerprise storage management\u201d and lists named products but does not state what conventional software functions they perform; both roles nevertheless assigned supported non_ai. Ask if text itself meaningfully establishes functionality, without inferring from product names.",
+    "ann_04b42844fa957641f85e7a03": "Concrete possible-AI concern: \u201cadaptive service designs\u201d appears in an automation/orchestration description; decide from supplied text whether this is ordinary deterministic service orchestration or unexplained potentially AI-dependent functionality. No outside product facts."
+  },
+  "constraints": "One same-original-Luna reconciliation only; exact source and both unchanged proposals; no third adjudicator or outside facts."
+}

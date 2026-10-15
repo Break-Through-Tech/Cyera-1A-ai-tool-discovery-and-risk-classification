@@ -1,0 +1,29 @@
+{
+  "batch_id": "batch-015",
+  "task": "missing-only reconciliation completion",
+  "original_reconciliation_ids": [
+    "ann_f2eade578a28d22ef5ce94c4",
+    "ann_cf60a0593a37a0a1cb774b30",
+    "ann_04b42844fa957641f85e7a03",
+    "ann_1b68f76804558fd228ac40bd"
+  ],
+  "omitted_ids": [
+    "ann_243193ca75f9f9442c11ca71",
+    "ann_3475147fec04b6525226088e"
+  ],
+  "omitted_ids_absent_from_original_reconciliation_packet": true,
+  "omitted_ids_absent_from_original_reconciliation_transcript_stage": true,
+  "original_transcript_session_uuid": "879c4961-01e1-4b69-a888-0a5f98b95c17",
+  "original_stage_results_unchanged": true,
+  "assigned_ids": [
+    "ann_243193ca75f9f9442c11ca71",
+    "ann_3475147fec04b6525226088e"
+  ],
+  "parent_concerns": {
+    "ann_243193ca75f9f9442c11ca71": "Both supported non_ai rationales treat \u201ca collection of ITSM tools and software solutions\u201d and \u201censures engaging end-user experience\u201d as sufficient conventional functionality. However, the exact description states no specific IT service-management functions. Determine whether this is merely a category/outcome claim insufficient for a supported negative; use no outside knowledge of ITSM.",
+    "ann_3475147fec04b6525226088e": "Both supported non_ai rationales treat \u201cnetwork management software\u201d and keeping a network performing at optimal levels as sufficient conventional functionality, but no network operations/features are stated. Determine whether this category/performance outcome alone meaningfully describes conventional software functionality; use no outside product facts."
+  },
+  "assignment_sha256": "c53188878e187d3ea0c55b0947f3f792950410152a75f3a59d8b9f1f00533bef",
+  "packet_sha256": "352bcace79f8c62bbd56b67e7238e9ff3aa41aea068903c1d67735cad6ea9f1b",
+  "role_prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1"
+}

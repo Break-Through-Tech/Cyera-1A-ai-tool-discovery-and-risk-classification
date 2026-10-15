@@ -1,0 +1,29 @@
+{
+  "batch_id": "batch-017",
+  "annotation_id": "ann_82b0fcd694a0accc26832e1c",
+  "stage": "labeler",
+  "transcript_session_uuid": "ba3e29de-ff8e-4e22-afe2-f7a0a5573838",
+  "transcript_path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/ba3e29de-ff8e-4e22-afe2-f7a0a5573838/ba3e29de-ff8e-4e22-afe2-f7a0a5573838.jsonl",
+  "transcript_sha256": "d7c251082cd3a9de75c622f08d3fe2c7a615d12e4965619c12caac3ef4e4e38a",
+  "write_tool_invocations": 2,
+  "invocations": [
+    {
+      "line": 4,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-017/agents/labeler/checkpoints/ann_82b0fcd694a0accc26832e1c.json",
+      "serialized_contents_sha256": "96c19419955f6d85348a1af82e56c7c7e2945c2595b43e29243bb2efdb4ad16d",
+      "evidence_artifact": "runtime/write-evidence/labeler-checkpoint-ann_82b0fcd694a0accc26832e1c-write1.json"
+    },
+    {
+      "line": 5,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-017/agents/labeler/checkpoints/ann_82b0fcd694a0accc26832e1c.json",
+      "serialized_contents_sha256": "96c19419955f6d85348a1af82e56c7c7e2945c2595b43e29243bb2efdb4ad16d",
+      "evidence_artifact": "runtime/write-evidence/labeler-checkpoint-ann_82b0fcd694a0accc26832e1c-write2.json"
+    }
+  ],
+  "first_and_second_serialized_contents_identical": true,
+  "current_checkpoint_matches_both_write_payloads_byte_for_byte": true,
+  "checkpoint_current_sha256": "96c19419955f6d85348a1af82e56c7c7e2945c2595b43e29243bb2efdb4ad16d",
+  "checkpoint_is_one_complete_record": true,
+  "no_semantic_or_quote/hash_field_changes_between_writes": true,
+  "no_repair_needed": true
+}

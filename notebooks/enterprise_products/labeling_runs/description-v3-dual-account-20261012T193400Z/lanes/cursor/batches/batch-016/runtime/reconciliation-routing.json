@@ -1,0 +1,28 @@
+{
+  "batch_id": "batch-016",
+  "independent_results_registered_before_comparison": true,
+  "all_pairs_inspected": 20,
+  "helper_required_ids": [
+    "ann_4ff886c71e8154279e1d8f31",
+    "ann_51126040efd13785a006c60c",
+    "ann_58ba464edb6df90c019ea700",
+    "ann_6e2345540f50a4d89022fa7f",
+    "ann_f33062152f0ff7daee5d3d5b"
+  ],
+  "additional_support_concern_ids": [],
+  "reconciliation_ids_in_frozen_selection_order": [
+    "ann_4ff886c71e8154279e1d8f31",
+    "ann_f33062152f0ff7daee5d3d5b",
+    "ann_58ba464edb6df90c019ea700",
+    "ann_6e2345540f50a4d89022fa7f",
+    "ann_51126040efd13785a006c60c"
+  ],
+  "reasons": {
+    "ann_4ff886c71e8154279e1d8f31": "Required by disagreement/weak flag: \u201cSolaris is a proprietary Unix operating system\u201d is category-only; labeler weak/forced, blind supported. Decide if text alone meaningfully describes conventional functionality.",
+    "ann_f33062152f0ff7daee5d3d5b": "Required by weak flag: spatial/graph database and geographic data management are named, but \u201canalytics\u201d is unexplained and labeler marked weak for possible AI dependence; blind marked supported. Assess only supplied text.",
+    "ann_58ba464edb6df90c019ea700": "Required by weak flag: BPM processes/rules/tasks/forms are described but \u201canalytics\u201d is not specified; labeler marked weak for possible AI dependency and blind supported. Determine whether exact text leaves an unexplained potentially AI-dependent function.",
+    "ann_6e2345540f50a4d89022fa7f": "Required by disagreement/weak flag: Evergreen describes a continuously delivered on-premises storage experience and \u201cPure innovations\u201d but does not state concrete storage functions; labeler weak, blind supported.",
+    "ann_51126040efd13785a006c60c": "Required by disagreement/weak flag: \u201coptimize video\u201d may be ordinary streaming optimization or potentially AI-dependent, and the description has a separate garbled acquisition sentence; labeler weak, blind supported. Resolve uncertainty from text only."
+  },
+  "constraints": "One original Luna reconciliation only; exact source and both unchanged proposals; no outside product facts or repeated votes."
+}

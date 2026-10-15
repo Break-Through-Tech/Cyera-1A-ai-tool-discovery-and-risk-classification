@@ -1,0 +1,28 @@
+{
+  "stage_assignment": {
+    "stage": "reconciliation",
+    "run_id": "batch-017",
+    "batch_id": "cursor-batch-017",
+    "rubric_id": "enterprise-description-only-v3",
+    "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+    "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+    "model_id": "gpt-5.6-luna-high",
+    "assigned_annotation_ids": [
+      "ann_daf06befeff11f8dda111638",
+      "ann_82b0fcd694a0accc26832e1c",
+      "ann_88b6ae0f4f1f55a6fb72ba53"
+    ]
+  },
+  "route_ids": [
+    "ann_daf06befeff11f8dda111638",
+    "ann_82b0fcd694a0accc26832e1c",
+    "ann_88b6ae0f4f1f55a6fb72ba53"
+  ],
+  "reconciliation_packet_sha256": "014907c2bcc6d5ac4300d5d925d08fbb2672e9aebdcc85940644ddcaef106106",
+  "independent_result_hashes": {
+    "labeler": "fe7ebe0c36102342c59134813fd87c8b53f95770e3ddbd73b98e04c9d8437116",
+    "blind": "18c72908a44f1bddcb74de18784e3cc3242bd3d355e190d5dffecb8e91aff7cc"
+  },
+  "overwrite_provenance": "runtime/checkpoint-overwrite-write-evidence.json",
+  "blind_structural_recovery": "runtime/blind-structural-recovery-validation.json"
+}

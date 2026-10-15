@@ -1,0 +1,82 @@
+{
+  "batch_id": "batch-015",
+  "pre_comparison": true,
+  "plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "roles": {
+    "labeler": {
+      "result_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-015/agents/labeler/result.json",
+      "result_sha256": "801fe7545f480a626990ff49acf51543c2c7a45397bc3c6dc76f121c9474cd44",
+      "original_result_sha256_before_recovery": "801fe7545f480a626990ff49acf51543c2c7a45397bc3c6dc76f121c9474cd44",
+      "checkpoint_count": 20,
+      "private_checkpoint_result_equality": true,
+      "helper_stage_checkpoint_count": 20,
+      "helper_stage_matches_result": true,
+      "exact_coverage_schema_description_hash_source_quotes_provenance": true,
+      "result_registered_before_comparison": true,
+      "checkpoints_sha256": {
+        "agents/labeler/checkpoints/ann_04b42844fa957641f85e7a03.json": "d80cbbbda0c15d6bc1bec5d00eb296156cfb67bfd283ee8daffee9d3ea93dca8",
+        "agents/labeler/checkpoints/ann_0d1c497b251fdfe6cf90daaf.json": "1497d5ec760ddf3be5c3631713acf4a89177baf9b002f0a0014ba5d5f5130669",
+        "agents/labeler/checkpoints/ann_14e8a098bec5124631680031.json": "d4f5a185a47b13a28a1908db1511c38f140dde5cbd1e8c158a26dc4dd0438ae5",
+        "agents/labeler/checkpoints/ann_1b68f76804558fd228ac40bd.json": "f63834c3c4aaf1acf9ac20b717b145ba34c4322d1986c5e266591f441cd57cdb",
+        "agents/labeler/checkpoints/ann_1bd258cce40dcc776277d0a9.json": "6526de844ef4fb75297f5571295615b35440f57c4450afb93ee1334a4ae1fa8b",
+        "agents/labeler/checkpoints/ann_1eb225347639143876b39e79.json": "856de5eba64f65120da6883500ba5eb0a43c7e29e3cced015c7d27f14c591e5e",
+        "agents/labeler/checkpoints/ann_243193ca75f9f9442c11ca71.json": "1a134b889ac54a5a96d332b269b486bc42d08bfc72f5a3fc08215eca63e3859f",
+        "agents/labeler/checkpoints/ann_2ff3bdabb364d6ea52cb5d74.json": "09dbe46d5e355b67b2b12360fed02aa657267786b5efed7ab1910da52f623502",
+        "agents/labeler/checkpoints/ann_3475147fec04b6525226088e.json": "a8b7dcbdfe5603bf68b1f65020f8a6c02ebc4437b02c7cf47016f3550113f213",
+        "agents/labeler/checkpoints/ann_3bdf6792c5f71b589b954128.json": "f0ac28996f5957c1c1018b8dfb3a82da26f67058a64b297f853fd0afd7c4d824",
+        "agents/labeler/checkpoints/ann_5157636512abb9eb65c078dc.json": "a9324cc4d15309dcc01b3fbaf83466a57bfbfff7a8f4bb3fbd281b2c4fefe455",
+        "agents/labeler/checkpoints/ann_5515a4b64e72bd18346498d9.json": "49db8cd7ff9830e99a5cfca552f951bf6a0e35947dbd7ad4122bfb59804e9baf",
+        "agents/labeler/checkpoints/ann_57dab241a2b4efbae956ca44.json": "db55c52077e2aba1c64a80f230255fd3772580750733d9f583a5e0ca9a898c7c",
+        "agents/labeler/checkpoints/ann_65b237a7c74400409e6c9df5.json": "3fd1abda4146cff81b3a675f1a51f7a01c18a5ad4f2e7fb312d514c51771e283",
+        "agents/labeler/checkpoints/ann_6a542119fa91c3deefb04445.json": "b1a15e21480df2650e6707bdef24b9a0adaf83f468698513897c7104a194b22a",
+        "agents/labeler/checkpoints/ann_9d699f3368d662f9651589a1.json": "7f2e14f6df2369991e16d93cb3b9e2d3577cec5f2a27066d34abdd57e12ea1a8",
+        "agents/labeler/checkpoints/ann_b2484be09f6b145aacbd07fa.json": "d5cbccf88343c66962a492e440c5a2cbdf3c47d191b97de971ae27f0607503a9",
+        "agents/labeler/checkpoints/ann_bb8b4b75e2d10ec83c1b5470.json": "de56262ee20c2f64749fb235e99ae1f720056a5a7aaabbf3d656a5cdf7d43229",
+        "agents/labeler/checkpoints/ann_cf60a0593a37a0a1cb774b30.json": "af7970e2067fd66f0722617dbda415d2ac8a0157be94e4c58a1363455b2f9e40",
+        "agents/labeler/checkpoints/ann_f2eade578a28d22ef5ce94c4.json": "b8ae029a1ed575789a0135337da124e007adc106b04e283302423215ab905d28"
+      }
+    },
+    "blind": {
+      "result_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-015/agents/blind/result.json",
+      "result_sha256": "aaf7f24bdfb760ded3dfd524d2e09c005aade37c9c9c1ec88252c60551cd0eaf",
+      "original_result_sha256_before_recovery": "6c44b537a25794a6972b6ddb3d0478f4feff66da1478af5d3db1694c7207a631",
+      "checkpoint_count": 20,
+      "private_checkpoint_result_equality": true,
+      "helper_stage_checkpoint_count": 20,
+      "helper_stage_matches_result": true,
+      "exact_coverage_schema_description_hash_source_quotes_provenance": true,
+      "result_registered_before_comparison": true,
+      "checkpoints_sha256": {
+        "agents/blind/checkpoints/ann_04b42844fa957641f85e7a03.json": "70b8f4e343c4caab9a1e4e862f8a9171ac960bc036077fc367b5f924c18e2bb0",
+        "agents/blind/checkpoints/ann_0d1c497b251fdfe6cf90daaf.json": "397e49764084ff7cfc36bedca6bb6f0e452e699bf0b2f88e0d3ec1cfcf548585",
+        "agents/blind/checkpoints/ann_14e8a098bec5124631680031.json": "c245943053ff910f627265df9299331d612fba9b203f7d4180ac4a6772a4f9db",
+        "agents/blind/checkpoints/ann_1b68f76804558fd228ac40bd.json": "e5e64be3183abad0abab7177104f51b90c6c5e69b3e9d3ab77799070dc75734e",
+        "agents/blind/checkpoints/ann_1bd258cce40dcc776277d0a9.json": "caa94fabcafb9a393aa4f7d572d77fa51e5efd4bb41cc9721b0c825e1f8dc06b",
+        "agents/blind/checkpoints/ann_1eb225347639143876b39e79.json": "ab8e84baddc6a2b24c1df980f0fb8d72cfa1356009f311de558f37aefcc24278",
+        "agents/blind/checkpoints/ann_243193ca75f9f9442c11ca71.json": "fa6ebc7eb9d37ffd78cc813ca325d623e5dfb07be750bfb4ef50eec4d74357b1",
+        "agents/blind/checkpoints/ann_2ff3bdabb364d6ea52cb5d74.json": "1e62f8b2057bb8e38f34c8c20a37f4b56fe8bf9ef712e990ac213f8f4af13086",
+        "agents/blind/checkpoints/ann_3475147fec04b6525226088e.json": "9d2065c23681ebea44c87a18aa68131d1a9e91418ee22d61d58397a789017811",
+        "agents/blind/checkpoints/ann_3bdf6792c5f71b589b954128.json": "37d2d7963333db4f7d6cd2531f5d72a619c3b5776a1c704ee36ef98f15874277",
+        "agents/blind/checkpoints/ann_5157636512abb9eb65c078dc.json": "55e5df8a7be77efe50db48671a88aedfb0c2adbdce2e6aece33ef06558c55d29",
+        "agents/blind/checkpoints/ann_5515a4b64e72bd18346498d9.json": "fdbc6d9b132eb7f26a8cd6d314c6dfb3799ee29849a74a5b4d44219c1f24a566",
+        "agents/blind/checkpoints/ann_57dab241a2b4efbae956ca44.json": "647ba4801a400151e41f3a3bad737031ce2f5d5e398e7b5718a03cc735bfa33a",
+        "agents/blind/checkpoints/ann_65b237a7c74400409e6c9df5.json": "bf5ccbba3b880dede638d561b368b53652e3b1ebea83a4c9e329f84fbb3cc7f9",
+        "agents/blind/checkpoints/ann_6a542119fa91c3deefb04445.json": "a1329f4186af46fdb693533cd5859a288153535269927ad3b2ecc892df6be2f6",
+        "agents/blind/checkpoints/ann_9d699f3368d662f9651589a1.json": "2d78af2943c917f10f3e306ad5c19c778f5af700519fbd5c099d6246ab7094fb",
+        "agents/blind/checkpoints/ann_b2484be09f6b145aacbd07fa.json": "a4b61e8e5bd98beb2aa910b415c508f12bcf797f2d6cfca98c897527e6f2eb58",
+        "agents/blind/checkpoints/ann_bb8b4b75e2d10ec83c1b5470.json": "f60c44c8820ea1dc806632548a1cd688f1b3217080085196ab308363bb8d797a",
+        "agents/blind/checkpoints/ann_cf60a0593a37a0a1cb774b30.json": "32dec9f2845bf15137a485a3610fcd8e9ab8d2aece1186d1e1af12e4f27f34f0",
+        "agents/blind/checkpoints/ann_f2eade578a28d22ef5ce94c4.json": "f010b64a2c789c66a51d4058438e4f6053f66f849f68ae64bd6cedd91b97d8ce"
+      }
+    }
+  },
+  "blind_structural_recovery": {
+    "count": 1,
+    "same_original_agent": "cursor015-blind",
+    "semantic_fields_unchanged": true,
+    "raw_output_bytes_preserved": false,
+    "original_hashes_retained": true,
+    "reconstructed_logical_snapshot_receipt": "runtime/pre-recovery-logical-snapshot-receipt.json"
+  }
+}

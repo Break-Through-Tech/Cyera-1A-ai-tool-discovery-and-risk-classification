@@ -1,0 +1,54 @@
+{
+  "batch_id": "batch-016",
+  "status": "passed",
+  "plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "source_hashes": {
+    "raw": "afe7cdbcbf82d9b11f579eb6dce000815a04a301410636e2942036f072fc7aa1",
+    "cleaned": "c9f0d234d3b66327250d7eb372e9fc962e06f16c2bc0181cc34654fdb897eb2b",
+    "cleaning_report": "5ee112cdb293fbe0640b61e4790d389331b35b729a907263237a2ecade0c0e7b",
+    "rubric": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+    "prompt_labeler": "4e0befda2866fd895e1bc2ea26297e5f2b5f451d3af0a780cb49356539dfbf33",
+    "prompt_blind": "66f1d0f9ab28589969c3274df80a5499002ec98777d9ba7517bfeb4ff535cab1",
+    "prompt_reconciliation": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1"
+  },
+  "selected_descriptions": 20,
+  "source_rows": 20,
+  "exact_frozen_plan_hash_and_reference_coverage": true,
+  "unique_previous_accepted_descriptions": 300,
+  "unique_previous_accepted_source_refs": 304,
+  "new_hash_or_ref_overlap": 0,
+  "precomparison_raw_result_and_checkpoint_hashes_registered": true,
+  "independent_schema_quote_source_provenance_checkpoint_equality": true,
+  "single_structural_quote_recovery": {
+    "stage": "blind",
+    "same_original_agent": "cursor016-blind",
+    "original_bytes_preserved_before_repair": true,
+    "semantic_fields_unchanged": true,
+    "receipt": "runtime/blind-structural-recovery-authorized.json"
+  },
+  "all20_pairs_inspected": "runtime/pair-review.json",
+  "reconciliation_ids": [
+    "ann_4ff886c71e8154279e1d8f31",
+    "ann_f33062152f0ff7daee5d3d5b",
+    "ann_58ba464edb6df90c019ea700",
+    "ann_6e2345540f50a4d89022fa7f",
+    "ann_51126040efd13785a006c60c"
+  ],
+  "reconciliation_checkpoint_result_schema_quote_conflict_response_equality": true,
+  "final_weak_binary_count": 2,
+  "final_weak_subtype_count": 0,
+  "exports": {
+    "description_labels.json": "6e3b29eb366dfad3000bf49a335093c25e367171b6313cb1ec255fc25043f2a3",
+    "record_labels.json": "b4175bf4ed82193321b601fe968d903d5d305f8adc40d1233969c052ce4e67bc",
+    "review_ledger.json": "74af0e7b846fb6f6b29968651fecc4e2e921bda75faa92a9d0d1c4aaa9a8c60d",
+    "review_queue.json": "76dcb28c896f3183d515eb3fd74b3067ac517b6924f823b2c680a099196878c3",
+    "non_ai_candidates.csv": "26f32153aa0358c74c48aef0d172811639296e8605a8f74d021c1a2ac4bf409e",
+    "calibration_report.json": "012dafcb6e7b587cf3d8a45d334dfb5838745d14986358ad92ff986df214dcb3"
+  },
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s notebooks/enterprise_products -p 'test_*.py'",
+    "result": "36 passed"
+  },
+  "labeler_transport_note": "Labeler reported correcting one annotation_id stray space in result.json before its final coverage check; all final checkpoints and result passed exact equality. No pre-correction aggregate hash/bytes were provided or captured."
+}

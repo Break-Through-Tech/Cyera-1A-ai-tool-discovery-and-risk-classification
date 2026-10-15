@@ -1,0 +1,25 @@
+{
+  "batch_id": "batch-015",
+  "stage": "blind",
+  "annotation_id": "ann_14e8a098bec5124631680031",
+  "recovery_type": "one structural-only exact-quote correction in original agent",
+  "original_checkpoint_sha256": "46e364bc2a17837253d3c106f4d767e1eba6b38a11bf0cc2f3761ae56b41f3a2",
+  "original_result_sha256": "6c44b537a25794a6972b6ddb3d0478f4feff66da1478af5d3db1694c7207a631",
+  "original_result_checkpoint_equality": true,
+  "only_invalid_field": "evidence_spans[0] is paraphrased and not an exact source substring",
+  "original_quote": "With MBC, you can quickly send commands from your batch jobs to your CICS regions to coordinate file access, dynamically enable or disable programs, transactions, and TDQs, launch transactions, send terminal messages, and more.",
+  "source_description_sha256": "7a19c1cfe22e762e8288d7e3dae7cde91f9fbc2c2ec3c98ee5d323a225d63125",
+  "source_text": "Mainframe Utility, MacKinney Batch to CICS puts you in control of your resources with all the tools needed to coordinate batch and CICS (Customer Information Control System) flow. \n\nWith MacKinney Batch to CICS (MBC), you can quickly send commands from your batch jobs to your CICS regions to coordinate file access, dynamically enable or disable programs, transactions, and TDQs, launch transactions, send terminal messages, and more. \nWith MBC you can quickly send commands from your batch jobs to your CICS regions to coordinate file access, dynamically enable or disable programs and transactions, kick off transactions, send terminal messages and more.",
+  "permitted_exact_replacement": "With MacKinney Batch to CICS (MBC), you can quickly send commands from your batch jobs to your CICS regions to coordinate file access, dynamically enable or disable programs, transactions, and TDQs, launch transactions, send terminal messages, and more.",
+  "semantic_fields_must_remain_unchanged": [
+    "ai_status",
+    "ai_type",
+    "evidence_strength",
+    "forced_decision",
+    "ai_type_evidence_strength",
+    "ai_type_forced_decision",
+    "rationale",
+    "ai_type_rationale",
+    "ai_type_evidence_spans"
+  ]
+}
