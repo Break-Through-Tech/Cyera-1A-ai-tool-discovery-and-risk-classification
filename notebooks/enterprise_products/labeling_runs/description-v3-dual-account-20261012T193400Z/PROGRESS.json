@@ -1,6 +1,6 @@
 {
-  "status": "both_lanes_resuming_native",
-  "updated_at": "2026-10-15T05:50:14.562838+00:00",
+  "status": "both_lanes_continuing",
+  "updated_at": "2026-10-15T05:51:20.564218+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
   "new_completed_descriptions": 460,
@@ -13,10 +13,19 @@
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
   "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
-  "cursor_status": "001–014 finalized;014 accepted ONLY at batch-014-parent-integration.015 next fresh wave.",
-  "codex_status": "001–009 finalized;010 next fresh pair.",
-  "codex_active_workers": 0,
-  "cursor_live_worker_state": "Owned exclusively by revived native coordinator; recovery in progress",
-  "active_runs": {},
+  "cursor_status": "001–014 accepted; fresh bounded015–017 native coordinator04ce6344 active.",
+  "codex_status": "001–009 finalized;010 fresh native independent pair running,20descriptions22rows.",
+  "codex_active_workers": 2,
+  "cursor_live_worker_state": "Exclusive native coordinator04ce6344 owns assignedp1F(labeler)/p1E(blind), max2annotation workers.",
+  "active_runs": {
+    "cursor_integration_owner": "04ce6344-c886-434f-8cb7-aec25d854e88",
+    "cursor_panes": [
+      "wF:p1F",
+      "wF:p1E"
+    ],
+    "codex_independent_workflow": "c9a858f6-3be7-4d02-9f73-a9367be10005",
+    "codex_labeler": "a41e486c-a570-4414-bed1-7a1563b9312b",
+    "codex_blind": "0b2c7dce-ba46-43f5-8128-fac3e7d7ee3d"
+  },
   "native_resume_receipt": "runtime/NATIVE_RESUME_20261015.json"
 }
