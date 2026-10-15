@@ -1,6 +1,6 @@
 {
   "status": "both_lanes_continuing",
-  "updated_at": "2026-10-15T06:48:53.320727+00:00",
+  "updated_at": "2026-10-15T06:52:29.366979+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
   "new_completed_descriptions": 620,
@@ -13,9 +13,9 @@
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
   "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
-  "cursor_status": "001–018 parentverified accepted;019prepared, coordinator supplied newp1J/p1K forfreshworkers.",
-  "codex_status": "001–013 parentverified finalized;014 fresh independent pair active.",
-  "codex_active_workers": 2,
+  "cursor_status": "001\u2013018 parentverified accepted;019prepared, coordinator supplied newp1J/p1K forfreshworkers.",
+  "codex_status": "001\u2013013 finalized;014one literalquote prefix defect, SAMEoriginalblind transport-only recovery active, no comparison yet.",
+  "codex_active_workers": 1,
   "cursor_live_worker_state": "Exclusive native coordinator04ce6344 owns assignedp1F(labeler)/p1E(blind), max2annotation workers.",
   "active_runs": {
     "cursor_panes": [
@@ -23,7 +23,10 @@
       "wF:p1K"
     ],
     "codex_independent_workflow": "14fb4046-7fa8-477d-a815-02b7bbefe34d",
-    "cursor_integration_owner": "e266e50a-af07-4bed-819a-d4ba074c19e3"
+    "cursor_integration_owner": "e266e50a-af07-4bed-819a-d4ba074c19e3",
+    "codex_labeler": "fc4ace2a-f65b-46e2-a8e1-97757d411971",
+    "codex_blind": "d00a7103-db9c-401f-95cb-dd4f452e43ac",
+    "codex_structural_repair_workflow": "119892fc-7dde-41bd-9511-a79885de949a"
   },
   "native_resume_receipt": "runtime/NATIVE_RESUME_20261015.json"
 }
