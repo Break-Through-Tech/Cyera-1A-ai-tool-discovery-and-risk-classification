@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-15T06:58:53.547739+00:00",
+  "original_reconciliation_run_id": "01950f2e-885c-49e6-8603-5c95dcd501b8",
+  "original_native_path": "/tmp/pi-subagents-uid-1000/async-subagent-runs/01950f2e-885c-49e6-8603-5c95dcd501b8/structured-output/pi-subagent-structured-SH0Uqw/output.json",
+  "original_native_sha256": "40f40a758b139aba89f683199a662cda2b0c80352dfc1356e71602e1ade38f51",
+  "original_checkpoint_hashes": {
+    "agents/reconciliation/checkpoints/ann_01925286eacd622e0a04920c.json": "3abf6f22ee524efc6ee80915622a4c3cb9e8b4990844625ac84b0e0edf93e627",
+    "agents/reconciliation/checkpoints/ann_0ac404eaaed218ca51d7d85f.json": "3e70a5598a8e5ab477a15fa58fdee5b5868d2d68425c1d26f906f5da31759d5a",
+    "agents/reconciliation/checkpoints/ann_751f443b3a98f08173b0f8af.json": "db2bfe08e0e3280871419975589f3b264ad86ff5f025a21a6f268ddd65dc6870",
+    "agents/reconciliation/checkpoints/ann_9b5fcb23eb9d439ca76c4cb5.json": "640c615a1cf93d71bf2f351d7a09b90eb4512cb3ab1380718869061b00efa1c5",
+    "agents/reconciliation/checkpoints/ann_b08138bb5e2a7f3e412b4542.json": "2fe44e0e9680581b34e117d950352ffe4778542aa649d78258916b1ec61ddbe5",
+    "agents/reconciliation/checkpoints/ann_bd13096bb98bf08c7eae7990.json": "a1b21b3336617bf37f0438d4a478218e47261f41688956eb2391a5a55cce7e3d"
+  },
+  "accepted_checkpoint": "runtime/accepted-reconciliation-quote-repair/checkpoints/ann_9b5fcb23eb9d439ca76c4cb5.json",
+  "accepted_sha256": "ab8261ba98913c550d40bcf30f6ccfe80b5cc72fa3e2611826b0103286192177",
+  "annotation_id": "ann_9b5fcb23eb9d439ca76c4cb5",
+  "only_changed_field": "evidence_spans[0] removes ONLY leading a-space",
+  "no_semantic_changes": true,
+  "source_final_conflict_responses_inspected": 6
+}
