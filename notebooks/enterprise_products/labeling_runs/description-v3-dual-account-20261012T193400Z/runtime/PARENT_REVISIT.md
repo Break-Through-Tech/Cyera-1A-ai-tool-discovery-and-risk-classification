@@ -1,5 +1,11 @@
 # Parent revisit — BOTH LANES RESUMED through ACTUAL pi-subagents
 
+## Latest wake — Cursor original014 verifier identity recovered; Codex009 labeler20 accepted structurally
+
+Parent answered coordinator supervisor94c102c4. SAME original014 Cursor Luna UUID9582567b-b0eb-47a9-b1b5-b6e432ca603f recovered from project-scoped transcript with014 blind and3reconciliation history. Child lacks herdr_layout, so parent created ONE ordinary sibling shellwF:p1E from parentp18 right, exact014/agents/blind cwd, focus unchanged. Child exclusively controls newp1E via native herdr_agent --resume UUID; verify exact approved model/workspace/context, finish ONLY missing never-reconciled fourth support concern; preserve completed3 and independent40 bytes. No replacement annotator. Other Cursorp1D/PipA/pX untouched. Same coordinator3947d183 still active, no parent Cursor-file edits/control.
+
+Codex009 labeler5f807efa completed20; parent validated actual native structured_output/private20checkpoint equality, schema, source hashes/exact quotations, copied raw bytes NEW agents/labeler/accepted-native-result.json; receipt runtime-labeler-validation.json. Blind6ef7c6b1 still running at workflowcd054c1f startup-completion check; do not rerun labeler or compare before blind committed. On blind/workflow completion validate20, combine pre-comparison raw receipts, inspect all20pairs, SAME original blind once required/support cases then finalize/accept/commit/advance010. Finalized coverage remains580/597. Native completion wakes; no polling/bg_wait.
+
 ## Latest authorization/native resume — active Codex009 and SAME retained Cursor coordinator
 
 User explicitly GO AHEAD BOTH lanes, fix routine issues, frequent concise local commits; ONLY actual pi-subagents extension, NO pstack. Native subagents_enable/subagent restored; missing-tools blocker below SUPERSEDED. Read runtime/NATIVE_RESUME_20261015.json. Global finalized580descriptions597rows unchanged until next actual acceptance; frozen training dataset/partitions/evaluation unchanged.
