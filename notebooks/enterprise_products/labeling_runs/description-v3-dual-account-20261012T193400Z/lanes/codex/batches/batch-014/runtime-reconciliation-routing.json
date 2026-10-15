@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-10-15T06:56:15.051734+00:00",
+  "all_independent_pairs_inspected": 20,
+  "required_ids": [
+    "ann_0ac404eaaed218ca51d7d85f"
+  ],
+  "parent_concerns": {
+    "ann_9b5fcb23eb9d439ca76c4cb5": "The labeler calls the transaction transformation deterministic, but the source does not state a mechanism. Reconsider support without inventing deterministic/rules-based operation or treating no hand-coding/automation alone as AI. Distinguish concrete stated data transformation from unsupported mechanism assumptions. The separate quotation-only repair changed no semantic judgment.",
+    "ann_b08138bb5e2a7f3e412b4542": "The text chiefly gives portfolio licensing, cost-per-TB, savings, test-use rights, and product names. Is supported non-AI justified by an actual described function, rather than storage category and inferred data-protection features? Explain and preserve weak/forced uncertainty where necessary.",
+    "ann_751f443b3a98f08173b0f8af": "Infrastructure management is a category and efficient/security/compliant operation are desired outcomes. Are concrete functions stated sufficiently to support the binary decision, without importing administration or compliance operations from product knowledge? Reassess support against the frozen rubric.",
+    "ann_01925286eacd622e0a04920c": "The text names Web Server and says it is a solution for websites and Java applications, but does not expressly describe serving or hosting operations. Determine whether this is enough ordinary-function evidence or only name/category/intended-use evidence; do not import hosting capabilities.",
+    "ann_bd13096bb98bf08c7eae7990": "The text explicitly describes management for running distributed applications on a shared grid and utilization outcomes. The rationales additionally assert resource allocation/scheduling, which are not explicitly stated. Resolve using the actual text, without invented mechanism/functions; explain whether the stated running/management function itself supports the binary judgment."
+  },
+  "routed_ids": [
+    "ann_01925286eacd622e0a04920c",
+    "ann_0ac404eaaed218ca51d7d85f",
+    "ann_751f443b3a98f08173b0f8af",
+    "ann_9b5fcb23eb9d439ca76c4cb5",
+    "ann_b08138bb5e2a7f3e412b4542",
+    "ann_bd13096bb98bf08c7eae7990"
+  ],
+  "packet_sha256": "be10982071d4b3b514754bbf553ad91e11c91dfb0a78c2b3a4097f6c3b0ccdb3",
+  "original_blind_run_id": "d00a7103-db9c-401f-95cb-dd4f452e43ac",
+  "retained_verifier_run_id": "728b16c3-a75a-47c3-ba81-12f1719eaccf",
+  "semantic_pass_count": 1
+}
