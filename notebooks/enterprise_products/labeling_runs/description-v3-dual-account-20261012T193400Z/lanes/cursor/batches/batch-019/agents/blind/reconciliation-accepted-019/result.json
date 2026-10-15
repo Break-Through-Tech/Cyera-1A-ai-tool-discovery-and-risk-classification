@@ -1,0 +1,139 @@
+[
+  {
+    "annotation_id": "ann_087639d65e37c1ca1cab9fda",
+    "description_sha256": "14bb0f7aec2a204fa0562807a9646e229351bad2ec34839d2b45523fb70d7914",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description lists conventional lesson, assessment, reporting, identity, permissions, and branding functions, but “Smart groups” is unexplained and could denote more than ordinary grouping; the binary negative is therefore weak.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Build, share and track unlimited lessons. Quizzing and Surveys. Insights and Reporting.",
+      "User Management with Smart groups. User roles and permissions."
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The two proposals agree on non_ai, but that agreement is not evidence. The labeler's supported reading overlooks the unexplained “Smart groups” cue; I retain non_ai only as a weak forced decision because the rest of the listed functions are conventional and the description does not establish AI."
+  },
+  {
+    "annotation_id": "ann_095a7eeeaad439d998e7eb22",
+    "description_sha256": "e5fb6e2e7cb862001eda7e0d4b32b34323160b68cc739843bbf4933316876cbe",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text describes contract lifecycle management and user-configured workflow approvals, but “Intelligent” in the product name is an unexplained product-specific cue; non_ai remains weak.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Apttus Intelligent Workflow Approvals (IWA) enables users to set up approvals on pricing, discounting, promotions, contract terms, agreement clauses, and more"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler treated the unexplained word as a reason for a weak non_ai label, while blind called the functions conventional and supported. Because the description gives no AI/ML meaning for “Intelligent,” I resolve to non_ai weak/forced rather than treat the product name as proof or ignore the ambiguity."
+  },
+  {
+    "annotation_id": "ann_1fbf14968fabb6490cf00217",
+    "description_sha256": "6036f3502d4099ae4b8cb5f0c3d89f06c6ef461874989bde6f3492803e4549f5",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text describes market research, supply-chain and component-cost analysis, device teardown, and supplier financial analysis, but not concrete software functionality; absent an AI signal, non_ai is retained weakly.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Provides analysis of the Mobile Device supply chain and component costing trends, Mobile device teardown, illuminating the Bill of Material cost, and complexity to build the device"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler marked weak because this is a research/content offering; blind marked supported based on conventional analysis. The description supports a non-AI reading but does not establish a conventional software offering, so I retain non_ai weak/forced."
+  },
+  {
+    "annotation_id": "ann_4def834d46860e5e352e1697",
+    "description_sha256": "ca4c6faf67f362d5e0516b999f0b628504a557dc3337aaa3a23bc94cbfa34283",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description identifies enterprise BPM software, a conventional category, but gives no concrete workflows or behaviors; the binary negative is therefore weak.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Designs and develops enterprise software for Business Process Management (BPM)."
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "Both proposals marked supported, but category naming alone is not proof of described conventional functionality. I retain non_ai because BPM software is the only stated offering and no AI signal appears, while forcing weak due to insufficient detail."
+  },
+  {
+    "annotation_id": "ann_7086a81b8212b077fe178739",
+    "description_sha256": "a78b7b4f4a8d709701b03da8ff03ac8dbebd97d93aeb038480a29c3234499af7",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description explicitly describes end-to-end sales and use tax automation, which is conventional functionality; its generic productivity claim does not establish an AI capability.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "End-to-end sales and use tax automation helps increase productivity."
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler considered the generic automation wording too thin, while blind supported it. The phrase explicitly describes end-to-end sales and use-tax automation, which is conventional functionality under the rubric; no unexplained AI cue remains, so supported non_ai is retained."
+  },
+  {
+    "annotation_id": "ann_963d41894b3fdbe58fea7fb1",
+    "description_sha256": "0a2fabee6574c3dadb4f05923d1a93a0a36f40711f7f961ce768b82d98981095",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text is only a billing entry for an annual software license and provides no product functionality; non_ai is a weak forced best judgment.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Billing for annual Exemption Certificate Software license"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler flagged the lack of functionality, while blind treated the entry as conventional software billing. Agreement is not proof; because the description does not describe functionality, I retain non_ai weak/forced rather than supported."
+  },
+  {
+    "annotation_id": "ann_dcb916a4a79eb7c2e415df21",
+    "description_sha256": "4326777e08b6904ab62e914026c98e8a5509b10e01272e5412ade5677d6d8a55",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The platform description lists conventional case and records management and forms, but “intelligent forms” is unexplained and potentially AI-dependent; non_ai remains weak.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Our platform easily manages your operations, cases, records, evidence and more, while providing convenient features like dashboards, link analysis, the ability to work securely from any location, and intelligent forms so you never have to fill out duplicate information again."
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler treated “intelligent forms” as ambiguous and blind selected supported based on surrounding conventional functions. I retain non_ai weak/forced because the phrase is not explained; the surrounding features do not establish AI or disprove it."
+  },
+  {
+    "annotation_id": "ann_fe4a6b7c9f0809caf4bdff2b",
+    "description_sha256": "e37f741643b012df54528caa3e5d610dc6c9988c2ef050abb48907ba13d6076c",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text describes employee-relations case tracking, investigation, and analysis, but “built-in expertise to assist” is not explained enough to exclude a potentially AI-dependent mechanism; non_ai remains weak.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Employee Relations and Investigations case management solution. Equips organizations with built-in expertise to assist in tracking, investigating, and analyzing employee issues"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler treated “built-in expertise” as ambiguous and blind treated the case-management functions as conventional. The description supports a non-AI reading of the stated workflows but does not explain the expertise feature, so I retain non_ai weak/forced."
+  }
+]

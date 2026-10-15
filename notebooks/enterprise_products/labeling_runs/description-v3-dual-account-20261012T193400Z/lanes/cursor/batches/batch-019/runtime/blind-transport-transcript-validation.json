@@ -50,5 +50,7 @@
     "aggregate_diff_from_raw_only_annotation_id": true,
     "malformed_raw_original_sha256": "1efc706d74987ce93427dbb8dc990286bfd02692676cebec0f30f4e291840835",
     "malformed_active_checkpoint_absent_but_preserved_raw_copy_present": true
-  }
+  },
+  "parent_authorized_transport_disposition": "runtime/PARENT_STRUCTURAL_DISPOSITION.json explicitly accepts the preserved original malformed raw result/checkpoint plus current correct20 aggregate/checkpoints after exact transcript/hash proof; no accepted-result.json required.",
+  "process_deviation_accepted_for_parent_gate": "Original Cursor Luna used ApplyPatch to add corrected-name checkpoint, cursor.Delete to remove malformed active checkpoint, and ApplyPatch to update the original result rather than write a new accepted-result. This changed only the annotation_id field in the aggregate and checkpoint; raw original files remain byte-identical in runtime/pre-recovery-raw. Parent authorized retaining the deviation and accepting the verified raw/current transport pair; no additional agent repair."
 }

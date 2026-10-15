@@ -1,5 +1,9 @@
 # Parent revisit — BOTH LANES RESUMED through ACTUAL pi-subagents
 
+## Latest wake — Cursor019 accepted880/903; fresh020 native pair
+
+Answered coordinator shell requestc29952c0: actual020 preparation20descriptions20refs verified, new ordinary shellwF:p1P splitp1N right exactprivateblindcwd; original019contextp1M preserved. Child owns020 nativep1N/p1P. Parent independently verified019 all40 originals/nativeaggregate/helper/schema/exactquotes, all8 finalprivate/stage/quotes, all7 pre-reset hashes unchanged; actualoriginalUUIDtranscriptlines52/53 exactly match sole missing checkpoint+aggregate. Parent readall8 actualfinal/source/conflictresponses;7weak1supported sales/use-taxautomation,13trustednegative rows. All6exports+1387priorbaselinehashes verified. PARENT_VALIDATION accepted, processdeviation retained. Exact global880 distinct descriptions903rows, remaining511/535. Codex018 originalblind12-ID reconciliation cde42073 stillactive. Trainingdatasetunchanged. On nativecompletion gatefinals/advance, no repeatedwork/polling/sleep.
+
 ## Latest user reset — both lanes resumed; fresh verified Herdr layout
 
 User confirms both usage limits reset, authorizes continue and cleanup moved panes. Parent inspected actual topology, preserved original019 UUID/transcript and all7 finished reconciliation hashes, closed only six old labeling panes, preserved parent/unrelated tabs. New p1M right/top and p1N right/bottom, parentp18 left; focus preserved. Receipt runtime/NATIVE_RESUME_AFTER_RESET_20261015.json. Retained actual pi-subagents Cursor coordinator f98dcb8d-e4a7-4530-b038-910ce9a4bff4 active original019 unfinished-only then020; no repeated independent judgments or7 completed finals. Parent owns topology/Git/root/Codex; child owns Cursor files/progress. On request prepare extra sibling Luna020 shell only after frozen020 preparation.

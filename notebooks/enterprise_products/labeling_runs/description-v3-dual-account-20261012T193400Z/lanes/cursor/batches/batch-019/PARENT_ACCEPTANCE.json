@@ -1,0 +1,31 @@
+{
+  "status": "pending_parent_independent_acceptance",
+  "batch_id": "batch-019",
+  "selected_descriptions": 20,
+  "selected_rows": 20,
+  "exact_plan_hash_and_reference_coverage": true,
+  "independent_results_hash_registered_before_comparison": true,
+  "exact_schema_quotes_private_equality_helper_stages": true,
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high",
+    "reconciliation": "gpt-5.6-luna-high; same UUID cdc542c3-887f-4659-a57c-2aac7b53e95a"
+  },
+  "transport_process_deviation": "Transcript-proven metadata-only ID correction involved delete of malformed active checkpoint and edit of original result instead of separate accepted-result. Parent explicitly authorized accepting preserved original raw + current correct20; evidence runtime/blind-transport-transcript-validation.json and PARENT_STRUCTURAL_DISPOSITION.json. All original raw copies remain unchanged.",
+  "reconciliation_count": 8,
+  "final_binary_weak_count": 7,
+  "final_subtype_weak_count": 0,
+  "trusted_negative_records": 13,
+  "exports_verified": true,
+  "export_hashes": {
+    "description_labels.json": "2ac5effab81fab209feb859c5951adb69a571b79e23df79a60e29474588b8224",
+    "record_labels.json": "646bc923d889879de3f7210d2652a0b61a98ca231d269f9b23c32c8f62f9bc8e",
+    "review_ledger.json": "f2e5c61463ad6236aee82c33c0918d464f911f672ece2158224a524a958db901",
+    "review_queue.json": "b8819920d078e9ebadb924b4c5e84fd95a7b7d6af75706dc068b17a6fd8b7515",
+    "non_ai_candidates.csv": "ce98e3514a4f3445e26aea54441362ac108d100c406af52ad7caa3857b9af369",
+    "calibration_report.json": "de3b2f8c773ea3b1c4dbb1468dcf0ff29dae47e1d64f47863ec3e81d2cd07558"
+  },
+  "tests": "Pending root test in this execution session; prior accepted batch018 root suite was 36 passed.",
+  "parent_gate": "Parent independent acceptance required; no parent acceptance claim.",
+  "test_result": "36 enterprise tests passed"
+}

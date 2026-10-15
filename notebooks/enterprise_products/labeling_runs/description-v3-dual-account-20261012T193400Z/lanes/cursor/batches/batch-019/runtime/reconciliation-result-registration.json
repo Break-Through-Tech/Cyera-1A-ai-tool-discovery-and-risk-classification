@@ -1,0 +1,22 @@
+{
+  "batch_id": "batch-019",
+  "same_original_luna_uuid": "cdc542c3-887f-4659-a57c-2aac7b53e95a",
+  "model_id": "gpt-5.6-luna-high",
+  "result_path": "agents/blind/reconciliation-accepted-019/result.json",
+  "result_sha256": "ebb221cf77fdd02e39bf0e85afeaedecfd87b4804585bcaac53f2d93997e6a20",
+  "checkpoint_count": 8,
+  "checkpoint_hashes": {
+    "agents/blind/reconciliation-accepted-019/checkpoints/ann_087639d65e37c1ca1cab9fda.json": "ac3f1291521c0263c2dc1ef4e071c5e7524b81ddffe929815d4558d9edf6b329",
+    "agents/blind/reconciliation-accepted-019/checkpoints/ann_095a7eeeaad439d998e7eb22.json": "05e56e894d7c9f27d875516b7d0137b1b20bfc6dcd632e928510f28efebe4c6d",
+    "agents/blind/reconciliation-accepted-019/checkpoints/ann_1fbf14968fabb6490cf00217.json": "f2f8f7734fb75410c31356db835e4e89b5770d389776a878d29cd699097c97fe",
+    "agents/blind/reconciliation-accepted-019/checkpoints/ann_4def834d46860e5e352e1697.json": "45ca611eec08f6526f19a326c7e69db3ff4ecaeac58a622b3e2f233b2ec5edac",
+    "agents/blind/reconciliation-accepted-019/checkpoints/ann_7086a81b8212b077fe178739.json": "33b4ce7f7bc991c21a942994ba7d4a80544945323741b5a8e078720c3cdec198",
+    "agents/blind/reconciliation-accepted-019/checkpoints/ann_963d41894b3fdbe58fea7fb1.json": "892880df9aa77da118709a0598e5c4a219f555ae5eccee137d4f649938ce23a0",
+    "agents/blind/reconciliation-accepted-019/checkpoints/ann_dcb916a4a79eb7c2e415df21.json": "4435098520d56a730e43e4d0ab5cb41777057eb920669d7ba45c4ac4b11476db",
+    "agents/blind/reconciliation-accepted-019/checkpoints/ann_fe4a6b7c9f0809caf4bdff2b.json": "1a64e05a79030cf18a0fc32c21232de0f4b29f0492fb53d7206232855dc86301"
+  },
+  "exact_assigned_coverage_schema_source_hash_quotes_conflict_responses_valid": true,
+  "private_checkpoint_result_equality": true,
+  "previous_seven_transcript_bound_hashes_unchanged": true,
+  "only_missing_id_completed_after_resume": "ann_fe4a6b7c9f0809caf4bdff2b"
+}

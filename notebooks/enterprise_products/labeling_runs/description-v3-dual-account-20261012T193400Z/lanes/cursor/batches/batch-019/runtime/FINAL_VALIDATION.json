@@ -1,0 +1,58 @@
+{
+  "batch_id": "batch-019",
+  "status": "finalized_pending_parent_independent_acceptance",
+  "plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "selected_descriptions": 20,
+  "source_rows": 20,
+  "exact_plan_hash_and_reference_coverage": true,
+  "precomparison_result_registration": "runtime/independent-result-registration.json",
+  "labeler_result_sha256": "9976bb49adbca865c9672d23e5b1edd4e0d926a8ce88c9c51aa68b57e05d6920",
+  "blind_accepted_result_sha256": "fce1f6a6559f3e9af50730c4d8fd6efad9b8651bbab8007f1408ecfec2b03e11",
+  "blind_original_raw_result_sha256": "fe41d76be8ac4fd611d84c6eae297db031b7d892f7bb42a1d421bdb7ee9ccd30",
+  "transport_deviation": "Exact transcript proof in runtime/blind-transport-transcript-validation.json; parent disposition accepted preserved raw/current corrected20. No accepted-result file created.",
+  "all20_pairs_reviewed": "runtime/pair-review.json",
+  "helper_required_reconciliation_ids": [
+    "ann_095a7eeeaad439d998e7eb22",
+    "ann_1fbf14968fabb6490cf00217",
+    "ann_7086a81b8212b077fe178739",
+    "ann_963d41894b3fdbe58fea7fb1",
+    "ann_dcb916a4a79eb7c2e415df21",
+    "ann_fe4a6b7c9f0809caf4bdff2b"
+  ],
+  "additional_support_concern_ids": [
+    "ann_087639d65e37c1ca1cab9fda",
+    "ann_4def834d46860e5e352e1697"
+  ],
+  "reconciliation_ids": [
+    "ann_087639d65e37c1ca1cab9fda",
+    "ann_095a7eeeaad439d998e7eb22",
+    "ann_1fbf14968fabb6490cf00217",
+    "ann_4def834d46860e5e352e1697",
+    "ann_7086a81b8212b077fe178739",
+    "ann_963d41894b3fdbe58fea7fb1",
+    "ann_dcb916a4a79eb7c2e415df21",
+    "ann_fe4a6b7c9f0809caf4bdff2b"
+  ],
+  "reconciliation_result_sha256": "ebb221cf77fdd02e39bf0e85afeaedecfd87b4804585bcaac53f2d93997e6a20",
+  "reconciliation_same_original_luna_uuid": "cdc542c3-887f-4659-a57c-2aac7b53e95a",
+  "same_original_luna_single_pass_validated": true,
+  "reconciliation_all8_reviewed": "runtime/reconciliation-semantic-review.json",
+  "binary_weak_count": 7,
+  "subtype_weak_count": 0,
+  "trusted_negative_records": 13,
+  "exports": {
+    "description_labels.json": "2ac5effab81fab209feb859c5951adb69a571b79e23df79a60e29474588b8224",
+    "record_labels.json": "646bc923d889879de3f7210d2652a0b61a98ca231d269f9b23c32c8f62f9bc8e",
+    "review_ledger.json": "f2e5c61463ad6236aee82c33c0918d464f911f672ece2158224a524a958db901",
+    "review_queue.json": "b8819920d078e9ebadb924b4c5e84fd95a7b7d6af75706dc068b17a6fd8b7515",
+    "non_ai_candidates.csv": "ce98e3514a4f3445e26aea54441362ac108d100c406af52ad7caa3857b9af369",
+    "calibration_report.json": "de3b2f8c773ea3b1c4dbb1468dcf0ff29dae47e1d64f47863ec3e81d2cd07558"
+  },
+  "manifest_sha256": "6e1fbecae4d227c5cd177f909888630243fc46f55c9f32df8721f447fbc1e9f6",
+  "scope": "No earlier accepted labels modified. No model fallback or semantic relabeling by integration owner.",
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s notebooks/enterprise_products -p 'test_*.py' (from repository root)",
+    "result": "36 passed"
+  }
+}
