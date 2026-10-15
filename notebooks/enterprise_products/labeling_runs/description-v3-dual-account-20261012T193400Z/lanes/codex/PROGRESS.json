@@ -1,11 +1,11 @@
 {
   "status": "in_progress",
   "lane": "codex",
-  "updated_at": "2026-10-15T06:48:53.320727+00:00",
-  "new_completed_descriptions": 260,
-  "new_completed_rows": 264,
-  "remaining_lane_descriptions": 351,
-  "remaining_lane_rows": 361,
+  "updated_at": "2026-10-15T07:01:11.430317+00:00",
+  "new_completed_descriptions": 280,
+  "new_completed_rows": 284,
+  "remaining_lane_descriptions": 331,
+  "remaining_lane_rows": 341,
   "finalized_batches": [
     "batch-001",
     "batch-002",
@@ -19,16 +19,14 @@
     "batch-010",
     "batch-011",
     "batch-012",
-    "batch-013"
+    "batch-013",
+    "batch-014"
   ],
-  "current_batch": "batch-014",
-  "next_batch": "batch-015",
-  "current_stage": "batch014_structural_quote_recovery_active",
-  "active_workers": 1,
+  "current_batch": "batch-015",
+  "next_batch": "batch-016",
+  "current_stage": "independent_pair_active",
+  "active_workers": 2,
   "resume_requires_user_request": false,
   "stop_on_usage_limit": true,
-  "independent_workflow_run_id": "14fb4046-7fa8-477d-a815-02b7bbefe34d",
-  "labeler_run_id": "fc4ace2a-f65b-46e2-a8e1-97757d411971",
-  "original_verifier_run_id": "d00a7103-db9c-401f-95cb-dd4f452e43ac",
-  "structural_repair_workflow_run_id": "119892fc-7dde-41bd-9511-a79885de949a"
+  "independent_workflow_run_id": "3928473d-c207-4a41-9aab-cda0e9b47571"
 }

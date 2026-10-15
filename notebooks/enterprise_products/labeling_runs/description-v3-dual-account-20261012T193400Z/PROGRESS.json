@@ -1,32 +1,29 @@
 {
   "status": "both_lanes_continuing",
-  "updated_at": "2026-10-15T06:52:29.366979+00:00",
+  "updated_at": "2026-10-15T07:01:11.430317+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
-  "new_completed_descriptions": 620,
-  "new_completed_rows": 628,
-  "cumulative_finalized_descriptions": 780,
-  "cumulative_finalized_rows": 802,
-  "remaining_descriptions": 611,
-  "remaining_rows": 636,
+  "new_completed_descriptions": 640,
+  "new_completed_rows": 648,
+  "cumulative_finalized_descriptions": 800,
+  "cumulative_finalized_rows": 822,
+  "remaining_descriptions": 591,
+  "remaining_rows": 616,
   "annotation_workers_max": 4,
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
   "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
-  "cursor_status": "001\u2013018 parentverified accepted;019prepared, coordinator supplied newp1J/p1K forfreshworkers.",
-  "codex_status": "001\u2013013 finalized;014one literalquote prefix defect, SAMEoriginalblind transport-only recovery active, no comparison yet.",
-  "codex_active_workers": 1,
-  "cursor_live_worker_state": "Exclusive native coordinator04ce6344 owns assignedp1F(labeler)/p1E(blind), max2annotation workers.",
+  "cursor_status": "001–018 parentverified accepted;019–020 owned by native Cursor coordinator.",
+  "codex_status": "001–014 finalized;015 fresh independent pair active.",
+  "codex_active_workers": 2,
+  "cursor_live_worker_state": "Exclusive native coordinator e266e50a owns019–020 and nativep1Jlabeler/p1Kblind; max2 annotationworkers.",
   "active_runs": {
     "cursor_panes": [
       "wF:p1J",
       "wF:p1K"
     ],
-    "codex_independent_workflow": "14fb4046-7fa8-477d-a815-02b7bbefe34d",
     "cursor_integration_owner": "e266e50a-af07-4bed-819a-d4ba074c19e3",
-    "codex_labeler": "fc4ace2a-f65b-46e2-a8e1-97757d411971",
-    "codex_blind": "d00a7103-db9c-401f-95cb-dd4f452e43ac",
-    "codex_structural_repair_workflow": "119892fc-7dde-41bd-9511-a79885de949a"
+    "codex_independent_workflow": "3928473d-c207-4a41-9aab-cda0e9b47571"
   },
   "native_resume_receipt": "runtime/NATIVE_RESUME_20261015.json"
 }
