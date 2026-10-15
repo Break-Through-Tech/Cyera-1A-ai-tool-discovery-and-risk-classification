@@ -1,5 +1,11 @@
 # Parent revisit — BOTH LANES RESUMED through ACTUAL pi-subagents
 
+## Latest wake — both structural blockers reproduced; bounded original-context recovery
+
+Answered Codex020blind64d2c432 supervisor1fc7e8be: firstcheckpointfirstquote noncontiguousactualsource; parentpreservedraw+createdNEW acceptedquoteoverride changingONLYevidence_spans[0]toexactshortsubstring. Originalcheckpointunchanged; acceptedoverride/schema/sourcequotesproof runtime-quote-repair-receipt.json. Sameworker authorizedremaining19ONLY+native20aggregate usesONEoverride, nooverwrite/revote. Gatecurrentoriginal+acceptedoverride atcompletion, others19equalprivate. Labelerb84afadb COMPLETE actual20native/private/schema/quotes/modelpassed; preservedacceptednativebytecopy+runtime-labeler-validation BEFOREcompare. No comparisonuntilbothaccepted.
+
+Answered Cursor022owner0e8cc295 supervisorf2c2ac83: parentactualraw4f3bdc...+all20rawprivatecopies/prospective20schema/quotes/equality reproduced TWOmechanicaldefects:ONEIDextra8 andONEaggregate-only missing subtypeflag already nullincheckpoint. AuthorizedONEsameoriginalLunarecovery bothmetadataissues, ONLYNEWcorrect-IDcheckpoint andNEWaccepted-structural-result; preserveoriginalresult+ALL20originalcheckpointfilenames/bytes, excludeONEbadIDrawfilefromacceptedallowlist20. No semanticchanges/newvote; actualnativepayload/diffs/hashproof requiredbeforecompare/all20review/ONEoriginalsemanticpass. PARENT_STRUCTURAL_DISPOSITION recorded. Ifadditionalmutation/defectstopreport. Global960/984 unchanged; trainingdatasetuntouched. Nativecompletionwakes/no polling/sleep/bg_wait.
+
 ## Latest wake — Codex019 andCursor021 accepted960/984; Codex020/Cursor022 active
 
 Answered Cursor022shellrequestddc107c5 afteractualcurrentlayout+frozenreceipt20/20: createdp1Slabeler exactprivatecwd splitp1N down andp1Tblind splitp1P down; alloldcontexts/focuspreserved. Childowner0e8cc295 exclusive022; parent021gate COMPLETE/PARENT_VALIDATION accepted. Actual40private/native/helper/schema/quotes, all20originalrawlabeler copies+exactONEdescriptionhashfieldrepair verified, originalLunaUUID98e24180 actual7singlewritefinalpayloads byteequalfiles, all7source/finalresponses reviewed;5weak16trustednegative ROWS,20descriptions21rows. All6exports/exactplan/allrefs/1387baselinefiles passed.
