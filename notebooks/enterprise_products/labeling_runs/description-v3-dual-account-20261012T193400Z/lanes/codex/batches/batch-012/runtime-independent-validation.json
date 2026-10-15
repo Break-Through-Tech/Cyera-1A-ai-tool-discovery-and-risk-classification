@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-10-15T06:36:26.785666+00:00",
+  "coverage_schema_quotes_equality": true,
+  "roles": {
+    "labeler": {
+      "run_id": "9cf63267-fedb-4e53-ba6a-375e942e7731",
+      "native_path": "/tmp/pi-subagents-uid-1000/async-subagent-runs/9cf63267-fedb-4e53-ba6a-375e942e7731/structured-output/pi-subagent-structured-qNPOm9/output.json",
+      "native_sha256": "7e8cf3a26193239548350d2ec7f34299c485b57a5979ad6f5af98dcec49882b9",
+      "model": "openai-codex/gpt-6-luna",
+      "checkpoints": {
+        "agents/labeler/checkpoints/ann_db4b35143f6ad3f55ebe892a.json": "dec3d20ad113a0dc30841bbc2f2a20fbbc288affdd04afc341f5a16c27e1526a",
+        "agents/labeler/checkpoints/ann_acecd300a24f7a823384413f.json": "9c70572f36d3e7c8bff7dea60f5af0479a1e403e9d904850e14ff7070c86c863",
+        "agents/labeler/checkpoints/ann_3049c44d5e3dbdce8b0872a4.json": "44d95f0e4d4d19c83fbae47f067879f8cc82358c2fa81badd9aa2592321b0d97",
+        "agents/labeler/checkpoints/ann_8460263ee424c417c9e25681.json": "3f1f240e592ae9a8175abc699053ff24616c0330335fddb01c97d0e966e926d8",
+        "agents/labeler/checkpoints/ann_eebc9b665ec24980e05fe9b9.json": "28b7d715d7dcf7f46cbef1d4037280247d10aada42ceb9944efd51bb4bc73223",
+        "agents/labeler/checkpoints/ann_5b5e312fa215448459cb3bb9.json": "f4ed091faa1d845aa87ddcd20442d9c87b6d633d0e4bb695d761fd4992e09a37",
+        "agents/labeler/checkpoints/ann_e45b19c6aca67020e1e4c676.json": "61de8d09e7a8e1f66ed41283d6ea42a5151d5817de1953baafa071b4093154da",
+        "agents/labeler/checkpoints/ann_33da26106c77ec9cfd2cab2f.json": "63b7b9406514cf91601d2a1b28b0a7c2fd2034787114ba38e44026d491f4d198",
+        "agents/labeler/checkpoints/ann_452ff9d27d059da3dd312e8d.json": "0ce14d1ced1fce639a575c10a0fa1ee3ac78be86cb0c4d7c77929e7129ce3f0e",
+        "agents/labeler/checkpoints/ann_efb186d8fbff438a8e3edc44.json": "75fa2a375952689fd51350589d842d2b18484f1e39e6c20ed0340a9c3a16d652",
+        "agents/labeler/checkpoints/ann_88c8f470a11d3e9afc1dba25.json": "a3320008dc6d9477b5b636cd353830c29742df0e47459a987f227bf7fdcf165d",
+        "agents/labeler/checkpoints/ann_a4ac35324f618b6337406d6e.json": "610587538957240bc650a71063922839483bc05f14635b8deb4ef60524be7917",
+        "agents/labeler/checkpoints/ann_71604e59fe15f25a34c8a0e2.json": "ccbfd30117c531c0bae5e9c6321cebf7ee4ac74faeb9600f4039cef7494d21c4",
+        "agents/labeler/checkpoints/ann_813865661e624b81de50eb75.json": "97bcd40935a3354c032109811f70905a79c3c18465fbb07a32a16e90df075fdc",
+        "agents/labeler/checkpoints/ann_3bf15991d2fca689d0405047.json": "65d28a839c089c41edc44fcd7f3f20c29071bfd5965e446796e8f2ebbfdf0152",
+        "agents/labeler/checkpoints/ann_3b2e7e2b326f4e57c0f4a397.json": "8c61aeb48fd63cc734d0e8badc799ef3a783f56fac79773dae45bce0457fe9ba",
+        "agents/labeler/checkpoints/ann_b80b3daa2a15a14a11a4ad14.json": "bc24e010c746611534002402c8692fc46a18ffbe1a4156399df22f777317441f",
+        "agents/labeler/checkpoints/ann_3e00f93c90847d09703e41f8.json": "f6fe551e5175f32e9487569dd2167c1be0472f07d38d8c30f3ee7152609a7186",
+        "agents/labeler/checkpoints/ann_1e5fd82007a0f1e1dddbe79b.json": "bdbc4f9d9187baaa2ff1d73c8277a16a1fbc898831ba6f9d6624cec088904fae",
+        "agents/labeler/checkpoints/ann_27c723595e4325e6781466ba.json": "e94ac5629cef27c6f45f6621d2ee498ea3fbbfc18134175c260633bac80e3075"
+      },
+      "accepted_checkpoint_overrides": {}
+    },
+    "blind": {
+      "run_id": "d1a21fbf-c6cd-4c00-a88d-9bccb8d670dd",
+      "native_path": "/tmp/pi-subagents-uid-1000/async-subagent-runs/d1a21fbf-c6cd-4c00-a88d-9bccb8d670dd/structured-output/pi-subagent-structured-QPD4wo/output.json",
+      "native_sha256": "ecbc897724b5a765c9737c126193ac23b3e61beb54e205de4c4f24e51b3bd2b4",
+      "model": "openai-codex/gpt-6-luna",
+      "checkpoints": {
+        "agents/blind/checkpoints/ann_db4b35143f6ad3f55ebe892a.json": "d490105fc397221729e693c0717ce214f4d327014b248e9a2c94e3fba81e59d0",
+        "agents/blind/checkpoints/ann_acecd300a24f7a823384413f.json": "f195c3a386ba3a8dd2416748de89fdc896ee1bd4ac020af43fb245bf109e3a2a",
+        "agents/blind/checkpoints/ann_3049c44d5e3dbdce8b0872a4.json": "9de40760933d4d52d39e95634f721d7fd67098571ebd1f867b352d61f86fe167",
+        "agents/blind/checkpoints/ann_8460263ee424c417c9e25681.json": "64e0056c8da9a78ff4f236fa3963d1cdc1106eb8405a70c76bc60dea0498dd77",
+        "agents/blind/checkpoints/ann_eebc9b665ec24980e05fe9b9.json": "2c1794f3eb187a2a4b99d58d581e5352e2f8316d0c21241621dba857e933e8cf",
+        "agents/blind/checkpoints/ann_5b5e312fa215448459cb3bb9.json": "ad043c58f6ef967365b48d33e2cda3481ed1eac370bdc4427740d4522163d590",
+        "agents/blind/checkpoints/ann_e45b19c6aca67020e1e4c676.json": "f691724549a7ed6dc9f85f952d4da9c1f2e3de905407514220a9477f535d62b7",
+        "agents/blind/checkpoints/ann_33da26106c77ec9cfd2cab2f.json": "a8595f11815a215b7c6056c4b87d37c5ac512566a92f93bc9035823fe6de6cd4",
+        "agents/blind/checkpoints/ann_452ff9d27d059da3dd312e8d.json": "d6c120b1fc207596ec97b39413d6f22aaed94938e4db2b01c9f9c17a9f9888ac",
+        "agents/blind/checkpoints/ann_efb186d8fbff438a8e3edc44.json": "2ecbe9d7aef1fa8d8a1c7b1ec11acf631cf49ea03777505023d6d93e8966b153",
+        "agents/blind/checkpoints/ann_88c8f470a11d3e9afc1dba25.json": "0e847d6fc642aeef16d1dffc8ac664d738c19c3f413a21982b6ed59e05d3eda0",
+        "agents/blind/checkpoints/ann_a4ac35324f618b6337406d6e.json": "54575e78f348bc47f993746a61f895d132385fda833fd3a0b87788107d2d9cf5",
+        "agents/blind/checkpoints/ann_71604e59fe15f25a34c8a0e2.json": "514ed70cf69b78e367b39b90463d5c251afd69eb1450fc59700cc2e0cc2f61be",
+        "agents/blind/checkpoints/ann_813865661e624b81de50eb75.json": "0cb4ec508481174543ad489024ccb5776c0e2d3e3c260fe268b12ee4ca85c27c",
+        "agents/blind/checkpoints/ann_3bf15991d2fca689d0405047.json": "58dd6de60259d9329422565e5a34e7a1c7b3d0560315472a9df73eaf1d4e6a38",
+        "agents/blind/checkpoints/ann_3b2e7e2b326f4e57c0f4a397.json": "d63d40b5a4e405b8d9fece0360d7b3c95266173326dd654a81cdf4736f1788f1",
+        "agents/blind/checkpoints/ann_b80b3daa2a15a14a11a4ad14.json": "ede0f1e732194929f30565e1b3874869c7ca6206e09fd656741008f71c5e8e23",
+        "agents/blind/checkpoints/ann_3e00f93c90847d09703e41f8.json": "9223b0e41092c0f533700735e4c2b4704352750fdb1d6934f3ff77e8007fab01",
+        "agents/blind/checkpoints/ann_1e5fd82007a0f1e1dddbe79b.json": "540cf586dbfdc4d34b25b5957d7d0b04f9349d41ef5d396cae76c7e4f7c0eb1f",
+        "agents/blind/checkpoints/ann_27c723595e4325e6781466ba.json": "369b0f3b22895c2f911db6783f78820619a6a86a1901d6e53d1bd63a04a53cc6"
+      },
+      "accepted_checkpoint_overrides": {}
+    }
+  }
+}

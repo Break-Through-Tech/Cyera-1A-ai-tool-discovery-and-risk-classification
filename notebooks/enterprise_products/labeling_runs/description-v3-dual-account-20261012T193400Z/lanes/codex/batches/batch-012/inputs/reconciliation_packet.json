@@ -1,0 +1,133 @@
+[
+  {
+    "annotation_id": "ann_452ff9d27d059da3dd312e8d",
+    "description_sha256": "8cccf7e3363e6c853e9857f6a9a94e3e1ee5d328c807ff520e3aa6c1b5cf8b8b",
+    "description": "Sevis Systems is a leading provider of mobile backhaul and enhanced signaling solutions to mobile and fixed line network operators. Several of the worlds largest operators rely on the Sevis products to increase operational efficiencies and enable new services. Spoofed calls, robocalls, fraudulent calls and malicious mobile identities all lead to broken trust, increased operational cost, lost revenue and undesirable customer experiences. Sevis' managed call verification services deliver improved customer experiences, improved operational efficiencies and new revenue generating opportunities.",
+    "source_record_references": [
+      "646"
+    ],
+    "labeler": {
+      "annotation_id": "ann_452ff9d27d059da3dd312e8d",
+      "description_sha256": "8cccf7e3363e6c853e9857f6a9a94e3e1ee5d328c807ff520e3aa6c1b5cf8b8b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes mobile backhaul and signaling solutions plus managed call verification addressing spoofed, robocall, fraudulent, and malicious calls; the described function is telecom signaling and call verification, with no stated AI method.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Sevis Systems is a leading provider of mobile backhaul and enhanced signaling solutions to mobile and fixed line network operators.",
+        "Sevis' managed call verification services deliver improved customer experiences, improved operational efficiencies and new revenue generating opportunities."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_452ff9d27d059da3dd312e8d",
+      "description_sha256": "8cccf7e3363e6c853e9857f6a9a94e3e1ee5d328c807ff520e3aa6c1b5cf8b8b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes mobile-network signaling and managed call-verification services addressing spoofed, fraudulent, and robocalls, but does not explain how verification works; this could be conventional network verification or involve an unspecified method, so the non-AI decision is forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Spoofed calls, robocalls, fraudulent calls and malicious mobile identities all lead to broken trust",
+        "Sevis' managed call verification services deliver improved customer experiences"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Resolve supported vs weak conflict: exacttext mentions network/signaling and managedcallverification for spoofing/fraud without method. Is meaningful conventional functionality sufficient vs unresolved potentiallyAI-dependent verification? No inventeddeterministic mechanism or productknowledge."
+    ]
+  },
+  {
+    "annotation_id": "ann_b80b3daa2a15a14a11a4ad14",
+    "description_sha256": "3e4c2430bc73ec8b1ec6eda36db89debc24687def43f33778cb5b221828e9c72",
+    "description": "Airlinq is accelerating the development and deployment of large scale connected applications around smart mobility and ecosystem monetization for automakers, mobile network operators and consumers around the world.",
+    "source_record_references": [
+      "639"
+    ],
+    "labeler": {
+      "annotation_id": "ann_b80b3daa2a15a14a11a4ad14",
+      "description_sha256": "3e4c2430bc73ec8b1ec6eda36db89debc24687def43f33778cb5b221828e9c72",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text broadly describes development and deployment of connected applications for smart mobility and monetization; it does not specify an AI-dependent capability, and application development/deployment is conventional functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "development and deployment of large scale connected applications around smart mobility and ecosystem monetization"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_b80b3daa2a15a14a11a4ad14",
+      "description_sha256": "3e4c2430bc73ec8b1ec6eda36db89debc24687def43f33778cb5b221828e9c72",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description only broadly claims acceleration of development and deployment of connected applications for smart mobility and monetization; it does not explain the product's specific functionality or indicate AI, so the negative is a forced best judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "accelerating the development and deployment of large scale connected applications around smart mobility and ecosystem monetization"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Resolve supported vs weak conflict: broad development/deployment acceleration around smartmobility andmonetization; meaningfulfunction vs category/outcome-only marketing, no unstated productoperations."
+    ]
+  },
+  {
+    "annotation_id": "ann_eebc9b665ec24980e05fe9b9",
+    "description_sha256": "170a9a432e2d26101a1c27c8095f92c14f450c720d14811f018f4cdccb430252",
+    "description": "Guest operating system license used in virtual environments",
+    "source_record_references": [
+      "635"
+    ],
+    "labeler": {
+      "annotation_id": "ann_eebc9b665ec24980e05fe9b9",
+      "description_sha256": "170a9a432e2d26101a1c27c8095f92c14f450c720d14811f018f4cdccb430252",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Specifies a guest operating-system license for use in virtual environments, a conventional licensing and virtualization context.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Guest operating system license used in virtual environments"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_eebc9b665ec24980e05fe9b9",
+      "description_sha256": "170a9a432e2d26101a1c27c8095f92c14f450c720d14811f018f4cdccb430252",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described function is licensing a guest operating system for virtual environments, a conventional software licensing use.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Guest operating system license used in virtual environments"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Both supportednegative proposals cite guestOS license forvirtualenvironments. Textstates licensing/usecontext but no concrete operations: assess conventionalfunction evidence vs sparse license-only evidence without inventing OSfeatures."
+    ]
+  }
+]
