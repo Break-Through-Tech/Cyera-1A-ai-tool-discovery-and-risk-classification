@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-10-15T07:03:00.010628+00:00",
+  "status": "reported_checkpoint_hash_error_not_reproduced",
+  "supervisor_request_id": "1266a8d6-66e8-4175-8318-323434f9443c",
+  "worker_run_id": "594a2648-cbd7-4a7f-a4e8-8b4b67cddfe8",
+  "annotation_id": "ann_6cab0fc4b55fbe1ea21b8f57",
+  "checkpoint": "agents/labeler/checkpoints/ann_6cab0fc4b55fbe1ea21b8f57.json",
+  "checkpoint_sha256": "55e196e1575d0be3984d7b432f54d7157bae5e3c2b8b58ca1cc50f46d8ec5c37",
+  "description_sha256": "5ae71510f72e5bb007c9ab542289787644bfd5aacf893722c375e7b3e2be131d",
+  "source_sha256_independently_recomputed": true,
+  "actual_original_write_payload_equals_checkpoint": true,
+  "exact_checkpoint_write_count": 1,
+  "schema_source_quotes_validated": true,
+  "checkpoint_changed": false,
+  "parent_reply": "Preserve valid checkpoint; correct ONLY native aggregate transcription to exactly equal existing20checkpoints; no semantic redo or filewrites."
+}

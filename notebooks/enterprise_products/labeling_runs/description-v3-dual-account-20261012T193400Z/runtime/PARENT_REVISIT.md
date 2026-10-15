@@ -1,5 +1,11 @@
 # Parent revisit — BOTH LANES RESUMED through ACTUAL pi-subagents
 
+## Latest wake — Codex015 worker hash alert resolved; both lanes active
+
+Answered supervisor1266a8d6 fromlabeler594a2648: actual ann_6cab0fc4b55fbe1ea21b8f57 checkpoint hash DOES equal frozenpacket andindependentlyrecomputedsource5ae71510...be131d. Actualnative originalwritepayload byteequalscurrentcheckpoint, exactlyONEwrite, fullsingle-recordschema/sourcequotespassed. No checkpointrepair/overwrite warranted. Explicitreplypreserveallcheckpoints, correct ONLY nativeaggregate transcription toexisting20records andcontinue; nosemanticredo/newfiles. runtime-labeler-hash-alert-resolution.json storesproof. Codex015 independentworkflow3928473d active(labeler594a2648/blind5ef7e1d4). Oncompletion gate20+20rawnative/private/schema/sourcequotes BEFOREcompare/routing singleoriginalblindsemanticpass. Global800/822 unchanged.
+
+Cursor e266e50a stillactive019–020 at27minlastone-shot; no019acceptance/handoff yet. Priorsteer41098110 delivered durablehandoff-beforedeadline request. Exclusivechildownership/nativep1J+p1K, noparentCursorwrites/panes. Nativecompletion wakes/no polling/bg_wait/pstack; ontimeout report and SAMEretainedcoordinatorresume unfinishedonly, nofallback/repeat. Nootherpendingasks. Trainingdatasetunchanged.
+
 ## Latest wake — Codex014 finalized800/822; fresh015 pair active
 
 No pendingasks. SAMEoriginal finalquotation structuralcontinuation19a9f226 COMPLETE, actualnative6equalsoriginal5+acceptedquoteoverride1, fullschema/sourcequotes/coveragepassed. ALL40independent+6originalfinal/private/nativehashes unchanged; quoteonlydiff verified. Parent inspectedall6source/final/conflictresponses; helperregistered6/finalized20/20,4weakbinary16trustednegativerows. NewPARENT_ACCEPTANCE finalized, runtime-reconciliation-validation records originalsemantic01950f2e andstructuralonly19a9f226 lineage. Exactuniqueglobal800descriptions822rows, remaining591/616; Codex280/284 Cursor360/364 prior160/174. All1387priorbaselinehashesunchanged. Trainingdatasetuntouched.
