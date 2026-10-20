@@ -1,7 +1,7 @@
 {
   "status": "active",
   "lane": "codex",
-  "updated_at": "2026-10-20T19:23:36.821673+00:00",
+  "updated_at": "2026-10-20T19:43:54.215976+00:00",
   "new_completed_descriptions": 440,
   "new_completed_rows": 446,
   "remaining_lane_descriptions": 171,
@@ -30,13 +30,24 @@
     "batch-021",
     "batch-022"
   ],
-  "current_batch": "batch-023",
-  "next_batch": "batch-024",
+  "current_batch": "batch-024",
+  "next_batch": "batch-025",
   "current_stage": "independent_passes",
   "active_workers": 2,
   "resume_requires_user_request": false,
   "stop_on_usage_limit": true,
-  "independent_workflow_run_id": "8654fcf3-0979-40b4-bcb5-f5b4a914c078",
+  "independent_workflow_run_id": "5af301af-9bd5-4080-bf5d-7bbf2427bc7b",
   "blocker": null,
-  "git_sync_note": "Herdr native labeling workers idle; previous pi-subagents /tmp run registry absent. No annotation restarted. Preserve current partial outputs; gate before accepting."
+  "git_sync_note": "Herdr native labeling workers idle; previous pi-subagents /tmp run registry absent. No annotation restarted. Preserve current partial outputs; gate before accepting.",
+  "locally_finalized_pending_acceptance": [
+    {
+      "batch_id": "batch-023",
+      "descriptions": 20,
+      "rows": 20,
+      "status": "semantic_acceptance_hold",
+      "held_ids": [
+        "ann_7b87c87eefc5556a8f829a03"
+      ]
+    }
+  ]
 }

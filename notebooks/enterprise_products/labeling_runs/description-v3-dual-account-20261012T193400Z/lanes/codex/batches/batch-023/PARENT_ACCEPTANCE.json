@@ -1,0 +1,32 @@
+{
+  "status": "semantic_acceptance_hold",
+  "timestamp": "2026-10-20T19:43:21.765300+00:00",
+  "locally_finalized_descriptions": 20,
+  "locally_finalized_rows": 20,
+  "not_counted_in_accepted_global": true,
+  "original_blind_run_id": "7c770f1d-c8a2-4f4e-aae6-0d47ebd7bc87",
+  "reconciliation_verifier": "b4601abf-d5f1-43f0-86b0-0eebf9db249a",
+  "all40_independent_plus10_final_original_hashes_unchanged": true,
+  "parent_all10_source_final_conflict_responses_reviewed": true,
+  "semantic_pass": 1,
+  "held_ids": [
+    "ann_7b87c87eefc5556a8f829a03"
+  ],
+  "reason": "Audiofiles final is supportednegative explicitly as media content withoutsoftwareoperation. Frozen rubric requires meaningful conventional SOFTWARE functionality. Concern was routed but final did not satisfy boundary; parent does not invent replacementflags/relabel or repeat completed finalpass. Hold acceptance for laterdisposition and proceed disjoint024.",
+  "repairs": [
+    "blindindependent missingdescriptionhashonly acceptedoverride",
+    "labelerindependent exactquoteonly acceptedoverride includingterminalperiodtransportdeviation",
+    "Eight finalwrongpath copies byteexact originals preserved",
+    "One finaldescriptionhashonly acceptedoverride; initial nativeaggregate schema-rejected hashtranscription then correctly emitted withoutfilechange"
+  ],
+  "binary_weak": 6,
+  "trusted_negative_rows_local_unaccepted": 14,
+  "exports": {
+    "description_labels.json": "60fb3546de45337ba94500226e7da5fe2473ec695109263067cca1148f9b9299",
+    "record_labels.json": "98ce3a2750009ab65da469f3aba2b8c93027608d883cab5773f0070cebc19162",
+    "review_ledger.json": "89a32337a67d648b4094ecb30464729d10f7c933a1642aa456caccf5ca86e11f",
+    "review_queue.json": "579193b9b4621c3883415eaa4fe29e4d85a47ad1a6a293477792f1c58f71a3de",
+    "non_ai_candidates.csv": "b22ee137ccf45cf5233ab6f207208a8fcb6988e8bd4e65f1fdc49600ccab6a7d",
+    "calibration_report.json": "ec8dce484e4e092c25084c18408dfd611791e11b3fbbeb28d6511aaca2cfd594"
+  }
+}
