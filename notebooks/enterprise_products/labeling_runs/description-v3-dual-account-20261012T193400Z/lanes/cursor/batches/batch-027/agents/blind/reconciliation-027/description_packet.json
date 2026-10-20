@@ -1,0 +1,529 @@
+[
+  {
+    "annotation_id": "ann_026f2ccecab79003fd7ab900",
+    "description_sha256": "fbd20b77f49351a661c004a29bcaea548e29d02861296c16f7b84c5b0c9a5ad7",
+    "source_record_references": [
+      "1309",
+      "1310"
+    ],
+    "description": "ExtremeCloud IQ helps organizations automate end-to-end, edge-to-DC network operations, unlock new analytics, scale faster, and secure and optimize the end user and application experience.",
+    "parent_concerns": [
+      "“Unlock new analytics” is unexplained; do not assume ordinary deterministic analytics or AI."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_026f2ccecab79003fd7ab900",
+      "description_sha256": "fbd20b77f49351a661c004a29bcaea548e29d02861296c16f7b84c5b0c9a5ad7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes network operations automation at a high level with no AI mention, but 'unlock new analytics' is not explained and could be AI-dependent, so the non-AI negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "helps organizations automate end-to-end, edge-to-DC network operations, unlock new analytics"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_026f2ccecab79003fd7ab900",
+      "description_sha256": "fbd20b77f49351a661c004a29bcaea548e29d02861296c16f7b84c5b0c9a5ad7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies network-operations automation, analytics, scaling, security, and optimization, all described as conventional network-management functions without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "ExtremeCloud IQ helps organizations automate end-to-end, edge-to-DC network operations, unlock new analytics, scale faster, and secure and optimize the end user and application experience."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_2567ba70c9fdeeb95ef948ea",
+    "description_sha256": "ab37e2c2702906d030d86a467545d6ec73c36bb21a81d9039f7d8d41d9266ba2",
+    "source_record_references": [
+      "1303"
+    ],
+    "description": "Integrated Computer Forensics Software.  X-Ways Forensics is an advanced work environment for computer forensic examiners and our flagship product. Runs under Windows XP/2003/Vista/2008/7/8/8.1/2012/10/2016/2019/11*, 32 Bit/64 Bit, standard/PE/FE.",
+    "parent_concerns": [
+      "Computer-forensics category/work environment only; no concrete analysis operations stated, so blind supported negative may overclaim functionality."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_2567ba70c9fdeeb95ef948ea",
+      "description_sha256": "ab37e2c2702906d030d86a467545d6ec73c36bb21a81d9039f7d8d41d9266ba2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Identifies computer forensics software and a work environment for examiners with no AI mention, but no concrete analysis function is described, so the non-AI negative is forced, not supported.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Integrated Computer Forensics Software.",
+        "X-Ways Forensics is an advanced work environment for computer forensic examiners and our flagship product."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_2567ba70c9fdeeb95ef948ea",
+      "description_sha256": "ab37e2c2702906d030d86a467545d6ec73c36bb21a81d9039f7d8d41d9266ba2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies an integrated computer-forensics work environment for forensic examiners, a conventional software function with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Integrated Computer Forensics Software.  X-Ways Forensics is an advanced work environment for computer forensic examiners and our flagship product. Runs under Windows XP/2003/Vista/2008/7/8/8.1/2012/10/2016/2019/11*, 32 Bit/64 Bit, standard/PE/FE."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_334bb0c62199b39f4ad560e0",
+    "description_sha256": "fc59fac70996cbe6469a34fa35d8b9cf03a20ab6924f2010521ca1e9cd60ec42",
+    "source_record_references": [
+      "1300"
+    ],
+    "description": "A fully-integrated Billing and Operations software system with a comprehensive suite of tools for your Sales, CSRs, Technicians, and Management teams.",
+    "parent_concerns": [
+      "Category-level Billing/Operations label plus generic team tools: text does not state a specific software function; blind supported negative needs challenge."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_334bb0c62199b39f4ad560e0",
+      "description_sha256": "fc59fac70996cbe6469a34fa35d8b9cf03a20ab6924f2010521ca1e9cd60ec42",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Names a billing and operations software suite with no AI mention, but gives only a category and generic tools for teams; no specific conventional function is described, so the non-AI negative is forced, not supported.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A fully-integrated Billing and Operations software system with a comprehensive suite of tools for your Sales, CSRs, Technicians, and Management teams."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_334bb0c62199b39f4ad560e0",
+      "description_sha256": "fc59fac70996cbe6469a34fa35d8b9cf03a20ab6924f2010521ca1e9cd60ec42",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description explicitly describes a billing and operations software suite with tools for business teams, which is conventional enterprise software functionality and has no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A fully-integrated Billing and Operations software system with a comprehensive suite of tools for your Sales, CSRs, Technicians, and Management teams."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_50e4e193dc52e91252cf3384",
+    "description_sha256": "6a9db3f343cd75ecc54db375698cd2b0795847e8241e244462b28819518b2dc0",
+    "source_record_references": [
+      "1313"
+    ],
+    "description": "IBM CLOUD PAK FOR INTEGRATION VIRTUAL PROCESSOR CORE",
+    "parent_concerns": [
+      "Virtual processor core entitlement only; no software function described. Keep weak binary."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_50e4e193dc52e91252cf3384",
+      "description_sha256": "6a9db3f343cd75ecc54db375698cd2b0795847e8241e244462b28819518b2dc0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text is an entitlement or licensing unit label that names no software functionality and has no AI mention; the non-AI negative is forced and not supported.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "IBM CLOUD PAK FOR INTEGRATION VIRTUAL PROCESSOR CORE"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_50e4e193dc52e91252cf3384",
+      "description_sha256": "6a9db3f343cd75ecc54db375698cd2b0795847e8241e244462b28819518b2dc0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description is only a virtual-processor-core product or entitlement label and does not meaningfully describe software functionality; the non-AI judgment is forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "IBM CLOUD PAK FOR INTEGRATION VIRTUAL PROCESSOR CORE"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_598e09f3d51982c4eb85e006",
+    "description_sha256": "8de06fbcea80e881a3553aa162fbdc429701a918f8ad0e23450442c4bf000d43",
+    "source_record_references": [
+      "1304"
+    ],
+    "description": "Anaconda is a distribution of the Python and R programming languages for scientific computing, that aims to simplify package management and deployment. The distribution includes data-science packages suitable for Windows, Linux, and macOS.",
+    "parent_concerns": [
+      "Scientific-computing distribution/package-management functions are conventional; “data-science packages” alone may be data/tooling, not AI. Probe unsupported AI assumptions while keeping data-only boundary."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_598e09f3d51982c4eb85e006",
+      "description_sha256": "8de06fbcea80e881a3553aa162fbdc429701a918f8ad0e23450442c4bf000d43",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Package management and deployment are conventional, but 'data-science packages' is not defined and could imply analytical or ML functionality the text does not describe, so the non-AI negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Anaconda is a distribution of the Python and R programming languages for scientific computing, that aims to simplify package management and deployment.",
+        "The distribution includes data-science packages suitable for Windows, Linux, and macOS."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_598e09f3d51982c4eb85e006",
+      "description_sha256": "8de06fbcea80e881a3553aa162fbdc429701a918f8ad0e23450442c4bf000d43",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description describes a Python and R distribution focused on package management, deployment, and scientific-computing packages, which is conventional tooling without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Anaconda is a distribution of the Python and R programming languages for scientific computing, that aims to simplify package management and deployment. The distribution includes data-science packages suitable for Windows, Linux, and macOS."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_733779c12a84699b2bfdfa1e",
+    "description_sha256": "90870e2e04cc56df0e9fa971e5b877ee576d0259901283fd69bb6586ae1416e2",
+    "source_record_references": [
+      "1316"
+    ],
+    "description": "TrackMe for Splunk provides visibility and operational excellence to monitor at scale your Splunk data sources availability and quality, and many more.",
+    "parent_concerns": [
+      "Monitoring availability/quality is explicit; “and many more” is vague, but unsupported AI should not be inferred. Assess weak vs supported under description-only rubric."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_733779c12a84699b2bfdfa1e",
+      "description_sha256": "90870e2e04cc56df0e9fa971e5b877ee576d0259901283fd69bb6586ae1416e2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Monitoring data source availability is conventional, but 'quality' monitoring and 'and many more' are unexplained, so the description does not establish a supported non-AI negative.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides visibility and operational excellence to monitor at scale your Splunk data sources availability and quality, and many more."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_733779c12a84699b2bfdfa1e",
+      "description_sha256": "90870e2e04cc56df0e9fa971e5b877ee576d0259901283fd69bb6586ae1416e2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description states that TrackMe monitors data-source availability and quality for operational visibility, which is conventional monitoring functionality without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "TrackMe for Splunk provides visibility and operational excellence to monitor at scale your Splunk data sources availability and quality, and many more."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_893ccea14c9e2e603fceaa15",
+    "description_sha256": "e7db16bf2bbeb1cdec0ec1e0cf041c3157cf57d18d48034a77251267e90974b1",
+    "source_record_references": [
+      "1305",
+      "1306"
+    ],
+    "description": "Cribl Stream is a vendor-agnostic observability pipeline that gives you the flexibility to collect, reduce, enrich, normalize, and route data from any source to any destination within your existing data infrastructure. You’ll finally achieve full control of your data stream, empowering you to choose how to treat your data to best support your business goals.\n\nCribl Edge provides the flexibility and control administrators love from Stream, now running at the edge. Combined with automatic log discovery and metrics production, Cribl Edge empowers developers and operations teams to discover relevant telemetry hidden in unknown and legacy applications that have limited tooling.",
+    "parent_concerns": [
+      "Automatic log discovery and discovering relevant telemetry have unspecified method; possible AI-dependent functionality. Blind supported negative may overstate conventionality."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_893ccea14c9e2e603fceaa15",
+      "description_sha256": "e7db16bf2bbeb1cdec0ec1e0cf041c3157cf57d18d48034a77251267e90974b1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Collection, normalization and routing pipeline functions are conventional, but automatic log discovery that finds 'relevant telemetry' in unknown applications is not explained and could be AI-dependent, so the non-AI negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "collect, reduce, enrich, normalize, and route data from any source to any destination",
+        "Combined with automatic log discovery and metrics production",
+        "discover relevant telemetry hidden in unknown and legacy applications that have limited tooling"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_893ccea14c9e2e603fceaa15",
+      "description_sha256": "e7db16bf2bbeb1cdec0ec1e0cf041c3157cf57d18d48034a77251267e90974b1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description explains that Cribl collects, reduces, enriches, normalizes, and routes data, with automatic log discovery and metrics production; these are conventional observability-pipeline functions without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Cribl Stream is a vendor-agnostic observability pipeline that gives you the flexibility to collect, reduce, enrich, normalize, and route data from any source to any destination within your existing data infrastructure. You’ll finally achieve full control of your data stream, empowering you to choose how to treat your data to best support your business goals.\n\nCribl Edge provides the flexibility and control administrators love from Stream, now running at the edge. Combined with automatic log discovery and metrics production, Cribl Edge empowers developers and operations teams to discover relevant telemetry hidden in unknown and legacy applications that have limited tooling."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_8f68ddd5fc8fbe5362795eae",
+    "description_sha256": "8dc245669135bf44723e29819780b9e5cc963750710b8c3ff21a194f31b8707a",
+    "source_record_references": [
+      "1321"
+    ],
+    "description": "A solution for monitoring, managing, and optimizing Kubernetes spend at scale",
+    "parent_concerns": [
+      "Kubernetes spend monitoring/managing/optimizing describes cost-management software at high level; “optimizing” could be conventional, but test whether functionality is sufficiently described."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_8f68ddd5fc8fbe5362795eae",
+      "description_sha256": "8dc245669135bf44723e29819780b9e5cc963750710b8c3ff21a194f31b8707a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Names monitoring, management and optimization of Kubernetes spend with no AI mention, but 'optimizing' is not explained and this one-line text cannot establish a supported non-AI negative.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A solution for monitoring, managing, and optimizing Kubernetes spend at scale"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_8f68ddd5fc8fbe5362795eae",
+      "description_sha256": "8dc245669135bf44723e29819780b9e5cc963750710b8c3ff21a194f31b8707a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a solution for monitoring, managing, and optimizing Kubernetes spend, which is conventional cost-management functionality without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A solution for monitoring, managing, and optimizing Kubernetes spend at scale"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_9fc4c2fe07f9f214dbc7e0fe",
+    "description_sha256": "c06127052f9ea15221bf2c30a71894698a6d189bc66351252afbc1b5ba3a48b2",
+    "source_record_references": [
+      "1312"
+    ],
+    "description": "IBM CLOUD PAK FOR BUSINESS AUTOMATION VIRTUAL PROCESSOR CORE ANNUAL SW SUBSCRIPTION & SUPPORT RENEWAL 12 MONTHS",
+    "parent_concerns": [
+      "Annual software subscription/support renewal entitlement only; no software function described. Keep weak binary."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_9fc4c2fe07f9f214dbc7e0fe",
+      "description_sha256": "c06127052f9ea15221bf2c30a71894698a6d189bc66351252afbc1b5ba3a48b2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text is a license subscription and support renewal entry with no software functionality described and no AI mention; the non-AI negative is forced and not supported.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "IBM CLOUD PAK FOR BUSINESS AUTOMATION VIRTUAL PROCESSOR CORE ANNUAL SW SUBSCRIPTION & SUPPORT RENEWAL 12 MONTHS"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_9fc4c2fe07f9f214dbc7e0fe",
+      "description_sha256": "c06127052f9ea15221bf2c30a71894698a6d189bc66351252afbc1b5ba3a48b2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description is only a virtual-processor-core annual software-subscription and support-renewal line, so it does not meaningfully describe software functionality; the non-AI judgment is forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "IBM CLOUD PAK FOR BUSINESS AUTOMATION VIRTUAL PROCESSOR CORE ANNUAL SW SUBSCRIPTION & SUPPORT RENEWAL 12 MONTHS"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_a279987f4bd249d168ea2bd4",
+    "description_sha256": "4fcde5eca4877f07ce2b6f1a0a78d57d80696ecb72332277d11d4c5f1c5550f1",
+    "source_record_references": [
+      "1311"
+    ],
+    "description": "IBM Cloud Pak for Security is an open security platform that connects to your existing data sources to generate deeper insights and enables you to act faster with automation. Whether your data resides on IBM or third-party tools, on-premises or multiple cloud environments, the platform helps you to find and respond to threats and risks - all while leaving your data where it is. So you can uncover hidden threats, make more informed risk-based decisions and respond to incidents faster.",
+    "parent_concerns": [
+      "“Deeper insights” and “uncover hidden threats” lack mechanism; possible unexplained AI-dependent functionality."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_a279987f4bd249d168ea2bd4",
+      "description_sha256": "4fcde5eca4877f07ce2b6f1a0a78d57d80696ecb72332277d11d4c5f1c5550f1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Data connection, automation and incident response are described with no AI mention, but 'deeper insights' and 'uncover hidden threats' do not state a mechanism and may be AI-dependent, so the non-AI negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "connects to your existing data sources to generate deeper insights and enables you to act faster with automation",
+        "uncover hidden threats, make more informed risk-based decisions and respond to incidents faster"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_a279987f4bd249d168ea2bd4",
+      "description_sha256": "4fcde5eca4877f07ce2b6f1a0a78d57d80696ecb72332277d11d4c5f1c5550f1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description presents a security platform that connects data sources, generates insights, automates responses, and supports threat and incident handling; these are conventional security-platform functions as described, without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "IBM Cloud Pak for Security is an open security platform that connects to your existing data sources to generate deeper insights and enables you to act faster with automation. Whether your data resides on IBM or third-party tools, on-premises or multiple cloud environments, the platform helps you to find and respond to threats and risks - all while leaving your data where it is. So you can uncover hidden threats, make more informed risk-based decisions and respond to incidents faster."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_ad3e36426d4a9525079ee5de",
+    "description_sha256": "0a1c18e941776c8240858f929178f575f69a671addcdc73e093d600ef50aae54",
+    "source_record_references": [
+      "1301",
+      "1302"
+    ],
+    "description": "The Twilio Programmable Voice API gives developers programmatic control over their calls, with APIs built for a wide variety of uses from basic phone to phone calling, app to phone calling, Interactive Voice Response (IVR), conference calling, SIP interfacing, call recording, transcription, call tracking, and more.",
+    "parent_concerns": [
+      "Transcription may be AI-dependent; both proposals appropriately leave binary weak because implementation is unexplained."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_ad3e36426d4a9525079ee5de",
+      "description_sha256": "0a1c18e941776c8240858f929178f575f69a671addcdc73e093d600ef50aae54",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Call control, IVR, conference calling, SIP and call recording are conventional telephony functions with no AI mention, but transcription is potentially AI-dependent and its implementation is not described, so the non-AI negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The Twilio Programmable Voice API gives developers programmatic control over their calls",
+        "call recording, transcription, call tracking"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_ad3e36426d4a9525079ee5de",
+      "description_sha256": "0a1c18e941776c8240858f929178f575f69a671addcdc73e093d600ef50aae54",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description clearly covers conventional programmable calling functions, but it also includes transcription without explaining whether that function depends on AI; the non-AI judgment is therefore forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The Twilio Programmable Voice API gives developers programmatic control over their calls, with APIs built for a wide variety of uses from basic phone to phone calling, app to phone calling, Interactive Voice Response (IVR), conference calling, SIP interfacing, call recording, transcription, call tracking, and more."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_f4f19f7331701d13d9b52c1e",
+    "description_sha256": "c880484a758276ec174bdf5e2ca045e55b8645fd92b7e8982f9b991de8051008",
+    "source_record_references": [
+      "1317"
+    ],
+    "description": "MCE provides digital-first omnichannel device lifecycle solutions and services to mobile operators, electronics retailers, insurers, 4PLS, and OEMs.\n\nThe customer’s journey from onboarding, through support and repair, to trade-in can be fraught with challenges due to no remote intelligence, disconnection and lack of history awareness. This leads to friction for customers and operators.\n\nMCE’s dDLM platform solves those problems, while delighting your finance colleagues with fast paybacks and your customers with seamless journeys.",
+    "parent_concerns": [
+      "Device lifecycle/onboarding/support/repair/trade-in are broad services; “remote intelligence” and unspecified dDLM mechanism unexplained, possible AI."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_f4f19f7331701d13d9b52c1e",
+      "description_sha256": "c880484a758276ec174bdf5e2ca045e55b8645fd92b7e8982f9b991de8051008",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes device lifecycle onboarding, support, repair and trade-in with no AI mention, but 'remote intelligence' and the unspecified dDLM platform are not explained, so the non-AI negative is weak and marketing-level.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "MCE provides digital-first omnichannel device lifecycle solutions and services to mobile operators, electronics retailers, insurers, 4PLS, and OEMs.",
+        "due to no remote intelligence, disconnection and lack of history awareness",
+        "dDLM platform solves those problems"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_f4f19f7331701d13d9b52c1e",
+      "description_sha256": "c880484a758276ec174bdf5e2ca045e55b8645fd92b7e8982f9b991de8051008",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description presents a digital device-lifecycle platform and mentions solving a lack of remote intelligence, but it does not explain whether that intelligence is AI; the non-AI judgment is therefore forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "MCE provides digital-first omnichannel device lifecycle solutions and services to mobile operators, electronics retailers, insurers, 4PLS, and OEMs.\n\nThe customer’s journey from onboarding, through support and repair, to trade-in can be fraught with challenges due to no remote intelligence, disconnection and lack of history awareness. This leads to friction for customers and operators.\n\nMCE’s dDLM platform solves those problems, while delighting your finance colleagues with fast paybacks and your customers with seamless journeys."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  }
+]

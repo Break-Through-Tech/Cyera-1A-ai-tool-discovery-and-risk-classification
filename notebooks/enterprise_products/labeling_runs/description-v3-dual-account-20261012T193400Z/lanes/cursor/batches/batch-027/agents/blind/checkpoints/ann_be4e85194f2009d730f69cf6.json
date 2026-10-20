@@ -1,0 +1,16 @@
+{
+  "annotation_id": "ann_be4e85194f2009d730f69cf6",
+  "description_sha256": "8b2786d52392d04d3732ea70b11f51b7d36711d757c2cb4a9d0ff6764da1dd4b",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description states that etcd stores data for distributed systems and handles leader elections and machine failure, all conventional distributed-system functionality without an affirmative AI signal.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "etcd is a strongly consistent, distributed key-value store that provides a reliable way to store data that needs to be accessed by a distributed system or cluster of machines. It handles leader elections during network partitions and can tolerate machine failure, even in the leader node."
+  ],
+  "ai_type_evidence_spans": null
+}

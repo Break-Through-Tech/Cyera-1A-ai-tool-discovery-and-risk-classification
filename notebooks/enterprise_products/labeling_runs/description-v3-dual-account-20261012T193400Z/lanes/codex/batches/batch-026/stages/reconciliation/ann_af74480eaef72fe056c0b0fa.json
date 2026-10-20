@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_af74480eaef72fe056c0b0fa",
+  "description_sha256": "f9dc1bd5981ffedc7212147d2ff89a13ae16066e247bd0626779a198ed56b537",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The text primarily describes an enterprise agreement for accessing cloud services and usage-based cloud-credit billing. It mentions application integration and extension but does not specify software functionality of the agreement itself; non_ai is the best binary choice, with software scope uncertain.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "Cloud Platform Enterprise Agreement (CPEA) is to create one rich and simple customer experience for finding, trying, buying, and consuming cloud services",
+    "It allows customers to integrate, extend and innovate own applications with business and technical functionality offered as cloud services",
+    "Charges incur on actual usage and will be charged monthly against the prior purchased Cloud Credit."
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The concern distinguishes the agreement from underlying cloud services, appropriately: the text's concrete focus is finding/consuming services, licensing flexibility, and credit-based usage billing. Integration and extension are mentioned as what customers may do with cloud services, not as specified functions of this agreement. No AI is stated, but because it does not clearly describe a software offering, the non_ai decision is weak/forced rather than a supported software-negative."
+}

@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_2567ba70c9fdeeb95ef948ea",
+  "description_sha256": "ab37e2c2702906d030d86a467545d6ec73c36bb21a81d9039f7d8d41d9266ba2",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The text labels the offering as computer-forensics software and an examiner work environment but states no concrete analysis operation; the non-AI judgment is therefore forced.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "Integrated Computer Forensics Software.",
+    "X-Ways Forensics is an advanced work environment for computer forensic examiners and our flagship product."
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The blind supported-negative proposal treats the category and work-environment label as sufficient conventional functionality, but the parent concern correctly identifies that no concrete operation is stated. The labeler’s weak/forced result is retained because the text supports a software category without establishing enough functionality for a supported negative."
+}

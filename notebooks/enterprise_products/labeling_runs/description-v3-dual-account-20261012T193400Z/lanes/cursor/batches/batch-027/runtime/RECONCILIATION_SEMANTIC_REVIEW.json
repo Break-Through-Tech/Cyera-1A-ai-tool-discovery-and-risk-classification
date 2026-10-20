@@ -1,0 +1,184 @@
+{
+  "batch_id": "batch-027",
+  "reviewed_final_reconciliation_records": 12,
+  "all_original_text_and_final_responses_reviewed": true,
+  "additional_evidence_used": false,
+  "independent_labels_rewritten": false,
+  "records": [
+    {
+      "annotation_id": "ann_334bb0c62199b39f4ad560e0",
+      "description_sha256": "fc59fac70996cbe6469a34fa35d8b9cf03a20ab6924f2010521ca1e9cd60ec42",
+      "source_record_references": [
+        "1300"
+      ],
+      "final_conflict_response_reviewed_against_supplied_description": true,
+      "integrator_review_note": "Category label and generic team tools do not specify a conventional function; remains weak.",
+      "verifier_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true
+    },
+    {
+      "annotation_id": "ann_ad3e36426d4a9525079ee5de",
+      "description_sha256": "0a1c18e941776c8240858f929178f575f69a671addcdc73e093d600ef50aae54",
+      "source_record_references": [
+        "1301",
+        "1302"
+      ],
+      "final_conflict_response_reviewed_against_supplied_description": true,
+      "integrator_review_note": "Telephony functions are conventional; transcription mechanism unknown; remains weak.",
+      "verifier_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true
+    },
+    {
+      "annotation_id": "ann_2567ba70c9fdeeb95ef948ea",
+      "description_sha256": "ab37e2c2702906d030d86a467545d6ec73c36bb21a81d9039f7d8d41d9266ba2",
+      "source_record_references": [
+        "1303"
+      ],
+      "final_conflict_response_reviewed_against_supplied_description": true,
+      "integrator_review_note": "Forensics category/work-environment only, no operation; remains weak.",
+      "verifier_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true
+    },
+    {
+      "annotation_id": "ann_598e09f3d51982c4eb85e006",
+      "description_sha256": "8de06fbcea80e881a3553aa162fbdc429701a918f8ad0e23450442c4bf000d43",
+      "source_record_references": [
+        "1304"
+      ],
+      "final_conflict_response_reviewed_against_supplied_description": true,
+      "integrator_review_note": "Explicit package management/deployment supports conventional tooling; \u201cdata-science packages\u201d alone does not establish AI; supported.",
+      "verifier_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false
+    },
+    {
+      "annotation_id": "ann_893ccea14c9e2e603fceaa15",
+      "description_sha256": "e7db16bf2bbeb1cdec0ec1e0cf041c3157cf57d18d48034a77251267e90974b1",
+      "source_record_references": [
+        "1305",
+        "1306"
+      ],
+      "final_conflict_response_reviewed_against_supplied_description": true,
+      "integrator_review_note": "Unexplained automatic telemetry/log discovery; method unknown; remains weak.",
+      "verifier_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true
+    },
+    {
+      "annotation_id": "ann_026f2ccecab79003fd7ab900",
+      "description_sha256": "fbd20b77f49351a661c004a29bcaea548e29d02861296c16f7b84c5b0c9a5ad7",
+      "source_record_references": [
+        "1309",
+        "1310"
+      ],
+      "final_conflict_response_reviewed_against_supplied_description": true,
+      "integrator_review_note": "\u201cUnlock new analytics\u201d mechanism unspecified; remains weak.",
+      "verifier_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true
+    },
+    {
+      "annotation_id": "ann_a279987f4bd249d168ea2bd4",
+      "description_sha256": "4fcde5eca4877f07ce2b6f1a0a78d57d80696ecb72332277d11d4c5f1c5550f1",
+      "source_record_references": [
+        "1311"
+      ],
+      "final_conflict_response_reviewed_against_supplied_description": true,
+      "integrator_review_note": "\u201cDeeper insights/hidden threats\u201d mechanism unspecified; remains weak.",
+      "verifier_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true
+    },
+    {
+      "annotation_id": "ann_9fc4c2fe07f9f214dbc7e0fe",
+      "description_sha256": "c06127052f9ea15221bf2c30a71894698a6d189bc66351252afbc1b5ba3a48b2",
+      "source_record_references": [
+        "1312"
+      ],
+      "final_conflict_response_reviewed_against_supplied_description": true,
+      "integrator_review_note": "Subscription/support entitlement only, no functionality; remains weak.",
+      "verifier_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true
+    },
+    {
+      "annotation_id": "ann_50e4e193dc52e91252cf3384",
+      "description_sha256": "6a9db3f343cd75ecc54db375698cd2b0795847e8241e244462b28819518b2dc0",
+      "source_record_references": [
+        "1313"
+      ],
+      "final_conflict_response_reviewed_against_supplied_description": true,
+      "integrator_review_note": "Virtual-processor entitlement only, no functionality; remains weak.",
+      "verifier_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true
+    },
+    {
+      "annotation_id": "ann_733779c12a84699b2bfdfa1e",
+      "description_sha256": "90870e2e04cc56df0e9fa971e5b877ee576d0259901283fd69bb6586ae1416e2",
+      "source_record_references": [
+        "1316"
+      ],
+      "final_conflict_response_reviewed_against_supplied_description": true,
+      "integrator_review_note": "Explicit availability/quality monitoring is conventional; vague tail does not create AI ambiguity; supported.",
+      "verifier_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false
+    },
+    {
+      "annotation_id": "ann_f4f19f7331701d13d9b52c1e",
+      "description_sha256": "c880484a758276ec174bdf5e2ca045e55b8645fd92b7e8982f9b991de8051008",
+      "source_record_references": [
+        "1317"
+      ],
+      "final_conflict_response_reviewed_against_supplied_description": true,
+      "integrator_review_note": "Device lifecycle text plus unexplained remote intelligence/dDLM mechanism; remains weak.",
+      "verifier_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true
+    },
+    {
+      "annotation_id": "ann_8f68ddd5fc8fbe5362795eae",
+      "description_sha256": "8dc245669135bf44723e29819780b9e5cc963750710b8c3ff21a194f31b8707a",
+      "source_record_references": [
+        "1321"
+      ],
+      "final_conflict_response_reviewed_against_supplied_description": true,
+      "integrator_review_note": "Monitoring/managing/optimizing Kubernetes spend is meaningfully stated cost-management functionality; supported.",
+      "verifier_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false
+    }
+  ],
+  "reconciliation_count_by_status": {
+    "weak": 9,
+    "supported": 3
+  }
+}

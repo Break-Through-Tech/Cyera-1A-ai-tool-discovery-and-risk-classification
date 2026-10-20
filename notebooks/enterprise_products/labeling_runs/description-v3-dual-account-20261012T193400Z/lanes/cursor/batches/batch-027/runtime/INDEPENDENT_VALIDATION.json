@@ -1,0 +1,57 @@
+{
+  "batch_id": "batch-027",
+  "status": "independent results validated and pair review completed before reconciliation",
+  "plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "frozen_plan_selection_and_all_source_references": "PREPARATION_RECEIPT verified exact 20 descriptions/24 refs",
+  "roles": {
+    "labeler": {
+      "original_native_uuid": "48acb5bc-732e-4756-b185-d1d59434b339",
+      "model": "claude-haiku-5-5-thinking-high",
+      "banner": "Claude Haiku 5.5 300K High",
+      "workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/labeler",
+      "result_sha256": "859ff4b81dd6d6379cf2ec2c461460ba838fc7c23cb2d780aacd1b344f773632",
+      "checkpoint_count": 20,
+      "checkpoint_hashes_registered": true,
+      "native_transcript_sha256": "40ceb604583962a673a2e99ef9ed695a9ff50f35b59b48d7e4da7d26a5c42de7",
+      "checkpoint_result_equality": "helper gate passed",
+      "helper_schema_quote_provenance_coverage": "PASS"
+    },
+    "blind": {
+      "original_native_uuid": "7df5dc2c-d850-4fb0-a19a-f709fa19d531",
+      "model": "gpt-5.6-luna-high",
+      "banner": "GPT-5.6 Luna 272K High",
+      "workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind",
+      "result_sha256": "627a658c663fa8469f99957e5ed3a524aae9d09f96fc4ba1da2abd350596ddc4",
+      "checkpoint_count": 20,
+      "checkpoint_hashes_registered": true,
+      "native_transcript_sha256": "66c7295956a502759d28700aa28dcd74e4f4911077430c654a0f6330e0d6a423",
+      "checkpoint_result_equality": "helper gate passed",
+      "helper_schema_quote_provenance_coverage": "PASS"
+    }
+  },
+  "raw_hash_registration_path": "runtime/INDEPENDENT_RESULT_REGISTRATION.json",
+  "all_raw_hashes_unchanged_at_validation": true,
+  "manual_pair_review_path": "runtime/PAIR_REVIEW.json",
+  "manual_pair_review_count": 20,
+  "helper_comparison_route_count": 12,
+  "reconciliation_workspace": "agents/blind/reconciliation-027",
+  "reconciliation_uuid": "7df5dc2c-d850-4fb0-a19a-f709fa19d531",
+  "reconciliation_model": "gpt-5.6-luna-high",
+  "reconciliation_prompt_submitted_once": true,
+  "structural_events": [
+    {
+      "role": "blind",
+      "original_uuid": "7df5dc2c-d850-4fb0-a19a-f709fa19d531",
+      "transcript_recorded_edits": 2,
+      "details": [
+        "Removed duplicate ai_type_forced_decision key from ann_f4f19f7331701d13d9b52c1e checkpoint via original-session patch.",
+        "Corrected non-verbatim VisualCron evidence span in ann_a9956745c70b00a9a14a29bf checkpoint and aggregate via original-session patch."
+      ],
+      "label_values_changed": false,
+      "final_checkpoints_and_result_validated": true,
+      "raw_transcript_hash_registered": true
+    }
+  ],
+  "semantic_review_done_by_integrator": false
+}

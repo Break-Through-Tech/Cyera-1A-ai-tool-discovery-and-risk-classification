@@ -1,0 +1,36 @@
+{
+  "batch_id": "batch-027",
+  "status": "all reconciliation raw outputs and cumulative native transcript hash registered before validation/finalization",
+  "original_native_uuid": "7df5dc2c-d850-4fb0-a19a-f709fa19d531",
+  "model": "gpt-5.6-luna-high",
+  "observed_banner": "GPT-5.6 Luna 272K High",
+  "workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/reconciliation-027",
+  "pre_reconciliation_transcript_hash": "66c7295956a502759d28700aa28dcd74e4f4911077430c654a0f6330e0d6a423",
+  "cumulative_native_transcript": {
+    "path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/7df5dc2c-d850-4fb0-a19a-f709fa19d531/7df5dc2c-d850-4fb0-a19a-f709fa19d531.jsonl",
+    "sha256": "c69c0f4f71f46a6a7b790f709662bc6cf1acfd86f06b31eb096c889e59ae282e",
+    "bytes": 97519
+  },
+  "result": {
+    "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/reconciliation-027/result.json",
+    "sha256": "f270cd851bcbc9f48d1d727ba0e9d3529c3b7855c6cc35caafca697fabbd51d1",
+    "bytes": 15329
+  },
+  "checkpoints": {
+    "ann_026f2ccecab79003fd7ab900.json": "47db68c0edd74ebccb040aa0306c7e00d2916905b35ae559031003177a7027aa",
+    "ann_2567ba70c9fdeeb95ef948ea.json": "dba15cb0d8a2c7fe8c716e0f3d92fc6baa564958928d5bfeec90a77441f2d2e0",
+    "ann_334bb0c62199b39f4ad560e0.json": "dc85d449d9fe43a509a03b673cea74a9f3ec1632d98e7410e380cc550611c678",
+    "ann_50e4e193dc52e91252cf3384.json": "349aefbd4c77ccf2f9aba8a336905962460ae0ae39c4a00cb394b42b110b7a27",
+    "ann_598e09f3d51982c4eb85e006.json": "948bf0ac4a450047b04705298322a71635ef8113f78467f8ba453ac584fd4add",
+    "ann_733779c12a84699b2bfdfa1e.json": "42462a3e1d57f5f7eb85b74077374808c1adde9ddb4f5d514e4a491bb9b40a27",
+    "ann_893ccea14c9e2e603fceaa15.json": "55bc87a16b2a1b69fd50f379ac3712e0af1bfcdeb6cbccf76592d889420b3b26",
+    "ann_8f68ddd5fc8fbe5362795eae.json": "be8f12e14d6865d602ec7d5ccbb45a9897f9f56b4c3d5ec3594d9ff181a246a4",
+    "ann_9fc4c2fe07f9f214dbc7e0fe.json": "b039d38e05e1fc54b5650af2bfb91ecf92a6be79c256f3586bd8d66461767a99",
+    "ann_a279987f4bd249d168ea2bd4.json": "15d891f5e50e1378737751a4df6fbfa141fc743bcc603348a4e1f21415e6d458",
+    "ann_ad3e36426d4a9525079ee5de.json": "fbfb3aa5059e82cc610617cb26a6bfbb1607cf11bb735fc82359fc8e90f98862",
+    "ann_f4f19f7331701d13d9b52c1e.json": "7649e8eca5ee6ccee44e2fa56cd6b0d861e6985d71fe4d3655dbbd6b27849b36"
+  },
+  "checkpoint_count": 12,
+  "reconciliation_preparation_sha256": "659fc212a9467ebee28a76fa01c2dd30b7a59f82615246a185eeead45c2686f0",
+  "structural_deviation_proof_sha256": "229e6ce82d1abc7ba9fb57400500dd76c20bfecdd76a0d012d1e02fd5576ed79"
+}

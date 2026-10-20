@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-10-20T20:21:03.609368+00:00",
+  "status": "major_runtime_stop",
+  "error": "Codex error: The usage limit has been reached",
+  "failed_cursor_coordinator": "72ed11a1-7548-4a6a-8094-99b20d87ba3f",
+  "accepted_descriptions": 1180,
+  "accepted_rows": 1227,
+  "remaining_descriptions": 211,
+  "remaining_rows": 211,
+  "active_workers": 0,
+  "cursor028": "prepared20/20; zero privatecheckpointsbothroles; noagentslaunched; freshshellsp27/p28remain",
+  "codex027": "40originalnative/private records preserved BEFOREcomparison; no semanticreview/compare/reconciliationstarted",
+  "codex027_structural_diagnostics": [
+    {
+      "role": "labeler",
+      "annotation_id": "ann_9d31560e5638bc1c198f7b42",
+      "checkpoint_native_differing_fields": [
+        "evidence_spans"
+      ]
+    },
+    {
+      "role": "labeler",
+      "annotation_id": "ann_ed62b431edd46db1690df9ee",
+      "checkpoint_native_differing_fields": [
+        "evidence_spans"
+      ]
+    },
+    {
+      "role": "labeler",
+      "annotation_id": "ann_9d31560e5638bc1c198f7b42",
+      "native_nonexact_quote_field": "evidence_spans",
+      "index": 1,
+      "quote": "gives you the ability to access and collect:\\n\\nPhysical Disks\\nLogical Volumes\\nPhysical Memory (RAM)\\nCloud Servers\\nNetwork Shares and Network Attached Storage\\nCloud Storage"
+    },
+    {
+      "role": "labeler",
+      "annotation_id": "ann_ed62b431edd46db1690df9ee",
+      "native_nonexact_quote_field": "evidence_spans",
+      "index": 0,
+      "quote": "3.\\tSolarWinds Network Performance Monitor SLX (unlimited elements-Standard Polling Throughput)"
+    },
+    {
+      "role": "labeler",
+      "annotation_id": "ann_ed62b431edd46db1690df9ee",
+      "native_nonexact_quote_field": "evidence_spans",
+      "index": 1,
+      "quote": "4.\\tSolarWinds Database Performance Analyzer for virtualized environments for SQL Server, MySQL, Oracle SE, or PostgreSQL Instance (1 to 4 licenses)"
+    },
+    {
+      "role": "labeler",
+      "annotation_id": "ann_ed62b431edd46db1690df9ee",
+      "native_nonexact_quote_field": "evidence_spans",
+      "index": 2,
+      "quote": "8.\\tSolarWinds Server & Application Monitor ALX (unlimited monitors-Standard Polling Throughput)"
+    }
+  ],
+  "resume": "Afterruntimeavailabilityconfirmed/userrequest, inspectactualrawfiles/native/proofhashes first. Codex027recoverONLYmetadata/transportdefects; preservealloriginals/avoidcompletedjudgmentsrerun. Parentall20pairreview routesrationale-vs-subtypeflag contradictionann_7224fe731b02152a615c36fe inONEoriginalblindsemanticpassafterallconcerns gathered. Cursor028preparedreuseexactplan; doNOTrepeataccepted027 orheld025. No automaticquota retries/fallback/model/account changes."
+}

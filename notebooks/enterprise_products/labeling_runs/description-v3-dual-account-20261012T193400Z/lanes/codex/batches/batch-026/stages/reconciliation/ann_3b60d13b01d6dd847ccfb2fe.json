@@ -1,0 +1,21 @@
+{
+  "annotation_id": "ann_3b60d13b01d6dd847ccfb2fe",
+  "description_sha256": "4cb39219c3e5b586d6b4396bb0444c5d8d52bc74e1dd3331b2b0104a51c787b8",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "The application expressly includes automated AI-based analysis of software change impacts, satisfying the binary AI criterion.",
+  "ai_type_rationale": "Test prioritization, execution-list creation, integrations, dashboards, and regression testing are separately described conventional functions, suggesting useful functionality beyond the AI analysis. The text does not establish whether those functions form an independently meaningful core, so enabled is tentative.",
+  "evidence_spans": [
+    "Automated, AI-based analysis of software change impacts"
+  ],
+  "ai_type_evidence_spans": [
+    "you can prioritize tests to help ensure coverage, create execution lists automatically",
+    "Automated, AI-based analysis of software change impacts",
+    "dashboard reporting, support for regression testing"
+  ],
+  "conflict_response": "The explicit AI-based impact-analysis claim supports ai. The description also names test prioritization, execution lists, dashboards, integrations, and regression testing, which indicate conventional functionality that may remain meaningful without AI; however it does not say whether these independently constitute the core offering, so subtype remains weak/forced rather than resolving the native-versus-enabled dispute by agreement."
+}

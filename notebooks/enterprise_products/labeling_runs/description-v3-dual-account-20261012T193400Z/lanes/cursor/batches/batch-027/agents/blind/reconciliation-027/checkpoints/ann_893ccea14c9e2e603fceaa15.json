@@ -1,0 +1,17 @@
+{
+  "annotation_id": "ann_893ccea14c9e2e603fceaa15",
+  "description_sha256": "e7db16bf2bbeb1cdec0ec1e0cf041c3157cf57d18d48034a77251267e90974b1",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The collection, reduction, normalization, and routing functions are conventional, but the method behind automatic discovery of relevant telemetry is not stated; the non-AI judgment remains weak and forced.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "Cribl Stream is a vendor-agnostic observability pipeline that gives you the flexibility to collect, reduce, enrich, normalize, and route data from any source to any destination within your existing data infrastructure. You’ll finally achieve full control of your data stream, empowering you to choose how to treat your data to best support your business goals.\n\nCribl Edge provides the flexibility and control administrators love from Stream, now running at the edge. Combined with automatic log discovery and metrics production, Cribl Edge empowers developers and operations teams to discover relevant telemetry hidden in unknown and legacy applications that have limited tooling."
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The blind supported proposal correctly identifies conventional pipeline operations, but the parent concern is material for the separate automatic-discovery behavior: the description does not say whether finding relevant hidden telemetry uses deterministic rules or AI. The labeler’s weak/forced result best preserves that unresolved uncertainty without inferring AI."
+}

@@ -1,0 +1,1283 @@
+[
+  {
+    "annotation_id": "ann_017de17a711cfee96dfd720a",
+    "description_sha256": "3fd84d70be0106cf6fcdc89e233c874730ac1240d609afffb656792c9f41d115",
+    "source_record_references": [
+      "1286",
+      "1287"
+    ],
+    "labeler": {
+      "annotation_id": "ann_017de17a711cfee96dfd720a",
+      "description_sha256": "3fd84d70be0106cf6fcdc89e233c874730ac1240d609afffb656792c9f41d115",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes capturing and forwarding service-mesh HTTP/2 traffic, plaintext conversion, and TLS protection between endpoints—conventional packet inspection and transport security functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "captures the HTTP/2 traffic flowing through the service mesh internally before it is converted from plaintext to mTLS. It generates the plaintext representation of that traffic and forwards it to a packet broker.",
+        "This traffic is encrypted between Pcapper and the packet broker via outer TLS wrapper using keys and certs that identify both ends."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_017de17a711cfee96dfd720a",
+      "description_sha256": "3fd84d70be0106cf6fcdc89e233c874730ac1240d609afffb656792c9f41d115",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes capturing, converting, encrypting, and forwarding service-mesh traffic, which are conventional packet inspection and transport functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "captures the HTTP/2 traffic flowing through the service mesh internally before it is converted from plaintext to mTLS. It generates the plaintext representation of that traffic and forwards it to a packet broker.",
+        "encrypted between Pcapper and the packet broker via outer TLS wrapper"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_017de17a711cfee96dfd720a",
+      "description_sha256": "3fd84d70be0106cf6fcdc89e233c874730ac1240d609afffb656792c9f41d115",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes capturing and forwarding service-mesh HTTP/2 traffic, plaintext conversion, and TLS protection between endpoints—conventional packet inspection and transport security functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "captures the HTTP/2 traffic flowing through the service mesh internally before it is converted from plaintext to mTLS. It generates the plaintext representation of that traffic and forwards it to a packet broker.",
+        "This traffic is encrypted between Pcapper and the packet broker via outer TLS wrapper using keys and certs that identify both ends."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_04eaee1e3c443a55bcbcfdcf",
+    "description_sha256": "15a09088fb5a9efdfcc4c0cf9cf3e7db63b06635230c08e9954166a5141e652d",
+    "source_record_references": [
+      "1288"
+    ],
+    "labeler": {
+      "annotation_id": "ann_04eaee1e3c443a55bcbcfdcf",
+      "description_sha256": "15a09088fb5a9efdfcc4c0cf9cf3e7db63b06635230c08e9954166a5141e652d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes scheduling and managing testing, probe-based tests, and remote scripting for network speed and voice-call tests, conventional testing and orchestration functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "lets you schedule and manage testing, conduct autonomous probe-based testing, and perform remote scripting for Speedtest and voice calls"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_04eaee1e3c443a55bcbcfdcf",
+      "description_sha256": "15a09088fb5a9efdfcc4c0cf9cf3e7db63b06635230c08e9954166a5141e652d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Scheduling and managing tests, probe-based testing, and remote scripting for speed and voice calls are conventional testing and automation functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "lets you schedule and manage testing, conduct autonomous probe-based testing, and perform remote scripting for Speedtest and voice calls"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_04eaee1e3c443a55bcbcfdcf",
+      "description_sha256": "15a09088fb5a9efdfcc4c0cf9cf3e7db63b06635230c08e9954166a5141e652d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes scheduling and managing testing, probe-based tests, and remote scripting for network speed and voice-call tests, conventional testing and orchestration functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "lets you schedule and manage testing, conduct autonomous probe-based testing, and perform remote scripting for Speedtest and voice calls"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_0b915f2868c02aba61658ede",
+    "description_sha256": "74902adeb8077f22094e20f1211fff4bcd9a9cafa340e2b334c76a89c3c8affe",
+    "source_record_references": [
+      "1295"
+    ],
+    "labeler": {
+      "annotation_id": "ann_0b915f2868c02aba61658ede",
+      "description_sha256": "74902adeb8077f22094e20f1211fff4bcd9a9cafa340e2b334c76a89c3c8affe",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It is described as a distributed key-value database providing replication and availability of reads and writes through hardware failures or network partitions, conventional database functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a distributed NoSQL key-value database with advanced local and multi-cluster replication that guarantees reads and writes even in the event of hardware failures or network partitions."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_0b915f2868c02aba61658ede",
+      "description_sha256": "74902adeb8077f22094e20f1211fff4bcd9a9cafa340e2b334c76a89c3c8affe",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a distributed key-value database and conventional replication and read/write availability behavior.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a distributed NoSQL key-value database with advanced local and multi-cluster replication that guarantees reads and writes even in the event of hardware failures or network partitions."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_0b915f2868c02aba61658ede",
+      "description_sha256": "74902adeb8077f22094e20f1211fff4bcd9a9cafa340e2b334c76a89c3c8affe",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It is described as a distributed key-value database providing replication and availability of reads and writes through hardware failures or network partitions, conventional database functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a distributed NoSQL key-value database with advanced local and multi-cluster replication that guarantees reads and writes even in the event of hardware failures or network partitions."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_0f4e30b4a6fa63bf691eae34",
+    "description_sha256": "e5ae51b2e19dc84361ccba7c96b0a5179e877895b0c818922a6b725dc0420ca0",
+    "source_record_references": [
+      "1282"
+    ],
+    "labeler": {
+      "annotation_id": "ann_0f4e30b4a6fa63bf691eae34",
+      "description_sha256": "e5ae51b2e19dc84361ccba7c96b0a5179e877895b0c818922a6b725dc0420ca0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies collection and reporting of operating-system performance metrics and user-defined event data, a conventional telemetry and monitoring function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "collect real-time performance and user-defined event data then delivers it to SightLine EDM.\nSightLine collects and reports performance data for all key components of operating systems: CPU, Memory, Disk, Network and File Systems, and hundreds of other metrics including Process Information."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_0f4e30b4a6fa63bf691eae34",
+      "description_sha256": "e5ae51b2e19dc84361ccba7c96b0a5179e877895b0c818922a6b725dc0420ca0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes collecting real-time performance and user-defined event data and reporting operating-system metrics, conventional monitoring and reporting functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "collect real-time performance and user-defined event data then delivers it to SightLine EDM.\nSightLine collects and reports performance data for all key components of operating systems: CPU, Memory, Disk, Network and File Systems, and hundreds of other metrics including Process Information."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_0f4e30b4a6fa63bf691eae34",
+      "description_sha256": "e5ae51b2e19dc84361ccba7c96b0a5179e877895b0c818922a6b725dc0420ca0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies collection and reporting of operating-system performance metrics and user-defined event data, a conventional telemetry and monitoring function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "collect real-time performance and user-defined event data then delivers it to SightLine EDM.\nSightLine collects and reports performance data for all key components of operating systems: CPU, Memory, Disk, Network and File Systems, and hundreds of other metrics including Process Information."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_3b60d13b01d6dd847ccfb2fe",
+    "description_sha256": "4cb39219c3e5b586d6b4396bb0444c5d8d52bc74e1dd3331b2b0104a51c787b8",
+    "source_record_references": [
+      "1278"
+    ],
+    "labeler": {
+      "annotation_id": "ann_3b60d13b01d6dd847ccfb2fe",
+      "description_sha256": "4cb39219c3e5b586d6b4396bb0444c5d8d52bc74e1dd3331b2b0104a51c787b8",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The product description explicitly identifies its software-change-impact analysis as AI-based, establishing an affirmative AI signal. The application also supports prioritizing tests and execution lists.",
+      "ai_type_rationale": "AI-based analysis is explicit, but the text does not establish whether this is an enhancement to an independently useful conventional test-analysis core or a capability on which the core depends; ai_enabled is the best tentative subtype.",
+      "evidence_spans": [
+        "Automated, AI-based analysis of software change impacts"
+      ],
+      "ai_type_evidence_spans": [
+        "Automated, AI-based analysis of software change impacts"
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_3b60d13b01d6dd847ccfb2fe",
+      "description_sha256": "4cb39219c3e5b586d6b4396bb0444c5d8d52bc74e1dd3331b2b0104a51c787b8",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The description expressly states that the application uses automated AI-based analysis of software change impacts, establishing AI functionality.",
+      "ai_type_rationale": "AI-based impact analysis is described as a central application function, but the text does not establish whether the broader testing and change-management offering depends on AI; native is the best-supported forced subtype.",
+      "evidence_spans": [
+        "Automated, AI-based analysis of software change impacts"
+      ],
+      "ai_type_evidence_spans": [
+        "With the SAP Change Impact Analysis application by Tricentis, you can prioritize tests to help ensure coverage",
+        "Automated, AI-based analysis of software change impacts"
+      ]
+    },
+    "reconciliation": {
+      "annotation_id": "ann_3b60d13b01d6dd847ccfb2fe",
+      "description_sha256": "4cb39219c3e5b586d6b4396bb0444c5d8d52bc74e1dd3331b2b0104a51c787b8",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The application expressly includes automated AI-based analysis of software change impacts, satisfying the binary AI criterion.",
+      "ai_type_rationale": "Test prioritization, execution-list creation, integrations, dashboards, and regression testing are separately described conventional functions, suggesting useful functionality beyond the AI analysis. The text does not establish whether those functions form an independently meaningful core, so enabled is tentative.",
+      "evidence_spans": [
+        "Automated, AI-based analysis of software change impacts"
+      ],
+      "ai_type_evidence_spans": [
+        "you can prioritize tests to help ensure coverage, create execution lists automatically",
+        "Automated, AI-based analysis of software change impacts",
+        "dashboard reporting, support for regression testing"
+      ],
+      "conflict_response": "The explicit AI-based impact-analysis claim supports ai. The description also names test prioritization, execution lists, dashboards, integrations, and regression testing, which indicate conventional functionality that may remain meaningful without AI; however it does not say whether these independently constitute the core offering, so subtype remains weak/forced rather than resolving the native-versus-enabled dispute by agreement."
+    },
+    "final": {
+      "annotation_id": "ann_3b60d13b01d6dd847ccfb2fe",
+      "description_sha256": "4cb39219c3e5b586d6b4396bb0444c5d8d52bc74e1dd3331b2b0104a51c787b8",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The application expressly includes automated AI-based analysis of software change impacts, satisfying the binary AI criterion.",
+      "ai_type_rationale": "Test prioritization, execution-list creation, integrations, dashboards, and regression testing are separately described conventional functions, suggesting useful functionality beyond the AI analysis. The text does not establish whether those functions form an independently meaningful core, so enabled is tentative.",
+      "evidence_spans": [
+        "Automated, AI-based analysis of software change impacts"
+      ],
+      "ai_type_evidence_spans": [
+        "you can prioritize tests to help ensure coverage, create execution lists automatically",
+        "Automated, AI-based analysis of software change impacts",
+        "dashboard reporting, support for regression testing"
+      ],
+      "conflict_response": "The explicit AI-based impact-analysis claim supports ai. The description also names test prioritization, execution lists, dashboards, integrations, and regression testing, which indicate conventional functionality that may remain meaningful without AI; however it does not say whether these independently constitute the core offering, so subtype remains weak/forced rather than resolving the native-versus-enabled dispute by agreement."
+    }
+  },
+  {
+    "annotation_id": "ann_3b68f04acbb1a37a3932e01f",
+    "description_sha256": "d11c3a902b43f8cdb25e1ee893dd5e4de5f976544d9af052e41fdd310bb3388d",
+    "source_record_references": [
+      "1285"
+    ],
+    "labeler": {
+      "annotation_id": "ann_3b68f04acbb1a37a3932e01f",
+      "description_sha256": "d11c3a902b43f8cdb25e1ee893dd5e4de5f976544d9af052e41fdd310bb3388d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This describes design, development, and testing work for specified connectivity and throughput test cases and plans, rather than an AI software capability.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Design/development/testing for GCF, Dekra CATM1 and data throughput TCs for ACP.\nDesign/development/testing for ACP towards BYOD and 3GPP R17 testing plan."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_3b68f04acbb1a37a3932e01f",
+      "description_sha256": "d11c3a902b43f8cdb25e1ee893dd5e4de5f976544d9af052e41fdd310bb3388d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description concerns design, development, and testing work for specified communications standards and testing plans, conventional engineering services.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Design/development/testing for GCF, Dekra CATM1 and data throughput TCs for ACP.\nDesign/development/testing for ACP towards BYOD and 3GPP R17 testing plan."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_3b68f04acbb1a37a3932e01f",
+      "description_sha256": "d11c3a902b43f8cdb25e1ee893dd5e4de5f976544d9af052e41fdd310bb3388d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes design, development, and testing work and a testing plan, not a specifically identified software product or software function. With no AI signal the best binary choice is non_ai, but software scope is uncertain.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Design/development/testing for GCF, Dekra CATM1 and data throughput TCs for ACP.\nDesign/development/testing for ACP towards BYOD and 3GPP R17 testing plan."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The concern is valid: these phrases establish engineering/testing work and plans, but not a software offering or software functionality. The absence of an AI signal makes non_ai the best binary choice, yet the description's scope is too unclear to support a trusted software-negative, so the judgment is weak/forced."
+    },
+    "final": {
+      "annotation_id": "ann_3b68f04acbb1a37a3932e01f",
+      "description_sha256": "d11c3a902b43f8cdb25e1ee893dd5e4de5f976544d9af052e41fdd310bb3388d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes design, development, and testing work and a testing plan, not a specifically identified software product or software function. With no AI signal the best binary choice is non_ai, but software scope is uncertain.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Design/development/testing for GCF, Dekra CATM1 and data throughput TCs for ACP.\nDesign/development/testing for ACP towards BYOD and 3GPP R17 testing plan."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The concern is valid: these phrases establish engineering/testing work and plans, but not a software offering or software functionality. The absence of an AI signal makes non_ai the best binary choice, yet the description's scope is too unclear to support a trusted software-negative, so the judgment is weak/forced."
+    }
+  },
+  {
+    "annotation_id": "ann_4f324ec0b6dc9421cadd8402",
+    "description_sha256": "f324227916f52bbbc2777155b2300359863dbbb2456ad7b1b9bebf6bf2305613",
+    "source_record_references": [
+      "1292"
+    ],
+    "labeler": {
+      "annotation_id": "ann_4f324ec0b6dc9421cadd8402",
+      "description_sha256": "f324227916f52bbbc2777155b2300359863dbbb2456ad7b1b9bebf6bf2305613",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes a graphical PostgreSQL development client for writing SQL, developing databases, connecting to servers, and working with database objects—conventional database tooling.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an easy-to-use graphical tool for PostgreSQL database development. From writing simple SQL queries to developing complex databases",
+        "Connect to local/remote PostgreSQL servers and compatible with cloud databases like Amazon Redshift, Amazon Aurora, Amazon RDS, Google Cloud and Microsoft Azure, and all PostgreSQL database objects."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_4f324ec0b6dc9421cadd8402",
+      "description_sha256": "f324227916f52bbbc2777155b2300359863dbbb2456ad7b1b9bebf6bf2305613",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes a graphical PostgreSQL database development tool for writing SQL, developing databases, and connecting to database servers and cloud databases.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an easy-to-use graphical tool for PostgreSQL database development. From writing simple SQL queries to developing complex databases",
+        "Connect to local/remote PostgreSQL servers and compatible with cloud databases"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_4f324ec0b6dc9421cadd8402",
+      "description_sha256": "f324227916f52bbbc2777155b2300359863dbbb2456ad7b1b9bebf6bf2305613",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes a graphical PostgreSQL development client for writing SQL, developing databases, connecting to servers, and working with database objects—conventional database tooling.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an easy-to-use graphical tool for PostgreSQL database development. From writing simple SQL queries to developing complex databases",
+        "Connect to local/remote PostgreSQL servers and compatible with cloud databases like Amazon Redshift, Amazon Aurora, Amazon RDS, Google Cloud and Microsoft Azure, and all PostgreSQL database objects."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_6eedff3af59b2d23bdb4f8d4",
+    "description_sha256": "0652948dd7795aa209d38017f719aea13ae02e290336bbc34532b64a67094827",
+    "source_record_references": [
+      "1281"
+    ],
+    "labeler": {
+      "annotation_id": "ann_6eedff3af59b2d23bdb4f8d4",
+      "description_sha256": "0652948dd7795aa209d38017f719aea13ae02e290336bbc34532b64a67094827",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The product is described as tracking, analyzing, and supporting action on user behavior across applications, conventional product analytics functions without a stated AI method.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a product analytics platform that helps teams track, analyze and act on their user actions and behaviour on mobile, web and desktop applications."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_6eedff3af59b2d23bdb4f8d4",
+      "description_sha256": "0652948dd7795aa209d38017f719aea13ae02e290336bbc34532b64a67094827",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes tracking user actions and behavior across application platforms and analyzing that product-usage data, conventional product analytics.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a product analytics platform that helps teams track, analyze and act on their user actions and behaviour on mobile, web and desktop applications."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_6eedff3af59b2d23bdb4f8d4",
+      "description_sha256": "0652948dd7795aa209d38017f719aea13ae02e290336bbc34532b64a67094827",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The product is described as tracking, analyzing, and supporting action on user behavior across applications, conventional product analytics functions without a stated AI method.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a product analytics platform that helps teams track, analyze and act on their user actions and behaviour on mobile, web and desktop applications."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_7cd27bdb389a708ebf5dfae3",
+    "description_sha256": "9bc14842dd2f0cbc51fe4fa8ec356be90c9eb39eacf699393bfa14fd89459f20",
+    "source_record_references": [
+      "1283"
+    ],
+    "labeler": {
+      "annotation_id": "ann_7cd27bdb389a708ebf5dfae3",
+      "description_sha256": "9bc14842dd2f0cbc51fe4fa8ec356be90c9eb39eacf699393bfa14fd89459f20",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description gives conventional event analytics: capture interaction data, query it, and visualize it through interactive reports.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "capture data on how users interact with your digital product. Mixpanel then lets you analyze data with simple, interactive reports that let you query and visualize the data with just a few clicks."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_7cd27bdb389a708ebf5dfae3",
+      "description_sha256": "9bc14842dd2f0cbc51fe4fa8ec356be90c9eb39eacf699393bfa14fd89459f20",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies capturing product-interaction data and using interactive reports to query and visualize it, conventional analytics functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "capture data on how users interact with your digital product. Mixpanel then lets you analyze data with simple, interactive reports that let you query and visualize the data with just a few clicks."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_7cd27bdb389a708ebf5dfae3",
+      "description_sha256": "9bc14842dd2f0cbc51fe4fa8ec356be90c9eb39eacf699393bfa14fd89459f20",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description gives conventional event analytics: capture interaction data, query it, and visualize it through interactive reports.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "capture data on how users interact with your digital product. Mixpanel then lets you analyze data with simple, interactive reports that let you query and visualize the data with just a few clicks."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_865238b71a13b1d3f17d1392",
+    "description_sha256": "2ef0ea2d1e9365b58c4ea71cf3264d84be038cb33fd3cded1fae92f93c53a122",
+    "source_record_references": [
+      "1296"
+    ],
+    "labeler": {
+      "annotation_id": "ann_865238b71a13b1d3f17d1392",
+      "description_sha256": "2ef0ea2d1e9365b58c4ea71cf3264d84be038cb33fd3cded1fae92f93c53a122",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes an open-source on-disk key-value store and its platform availability, conventional data-storage functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an open-source on-disk key-value store hosted on GitHub under the New BSD License and has been ported to a variety of Unix-based systems, macOS, Windows, and Android."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_865238b71a13b1d3f17d1392",
+      "description_sha256": "2ef0ea2d1e9365b58c4ea71cf3264d84be038cb33fd3cded1fae92f93c53a122",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes an open-source on-disk key-value store and its platform availability, conventional data storage functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an open-source on-disk key-value store hosted on GitHub under the New BSD License and has been ported to a variety of Unix-based systems, macOS, Windows, and Android."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_865238b71a13b1d3f17d1392",
+      "description_sha256": "2ef0ea2d1e9365b58c4ea71cf3264d84be038cb33fd3cded1fae92f93c53a122",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes an open-source on-disk key-value store and its platform availability, conventional data-storage functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an open-source on-disk key-value store hosted on GitHub under the New BSD License and has been ported to a variety of Unix-based systems, macOS, Windows, and Android."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_9199b2b582c4e612a20996eb",
+    "description_sha256": "70333e268a282bf456a6fa9194dffb0d73b69a8d56929c70f69d688a4cf23331",
+    "source_record_references": [
+      "1279"
+    ],
+    "labeler": {
+      "annotation_id": "ann_9199b2b582c4e612a20996eb",
+      "description_sha256": "70333e268a282bf456a6fa9194dffb0d73b69a8d56929c70f69d688a4cf23331",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It provides interactive board-meeting data access and presentation, source integration, outcome simulation, and business templates—conventional analytics and visualization functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Real-time data access with cloud deployment. Seamless integration of data across all sources. Simulate outcomes with interactive touchscreen. Leverage pre-built line-of-business templates."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_9199b2b582c4e612a20996eb",
+      "description_sha256": "70333e268a282bf456a6fa9194dffb0d73b69a8d56929c70f69d688a4cf23331",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described boardroom tool provides data access, source integration, interactive touchscreen simulations, and business templates—conventional data presentation and meeting functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Real-time data access with cloud deployment. Seamless integration of data across all sources. Simulate outcomes with interactive touchscreen. Leverage pre-built line-of-business templates."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_9199b2b582c4e612a20996eb",
+      "description_sha256": "70333e268a282bf456a6fa9194dffb0d73b69a8d56929c70f69d688a4cf23331",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies data access and integration, interactive touchscreen use, and line-of-business templates as board-meeting functions. The unspecified simulation method does not outweigh these conventional presentation and data-integration functions or establish AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Real-time data access with cloud deployment. Seamless integration of data across all sources.",
+        "Simulate outcomes with interactive touchscreen. Leverage pre-built line-of-business templates."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The concern about outcome simulation's unspecified method is appropriate: the text does not establish whether it is deterministic or predictive. However, the overall description also concretely identifies real-time data access, source integration, touchscreen interaction, and templates as meaningful conventional boardroom functions. Nothing affirmatively establishes AI or makes the conventional functions dependent on it, supporting non_ai."
+    },
+    "final": {
+      "annotation_id": "ann_9199b2b582c4e612a20996eb",
+      "description_sha256": "70333e268a282bf456a6fa9194dffb0d73b69a8d56929c70f69d688a4cf23331",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies data access and integration, interactive touchscreen use, and line-of-business templates as board-meeting functions. The unspecified simulation method does not outweigh these conventional presentation and data-integration functions or establish AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Real-time data access with cloud deployment. Seamless integration of data across all sources.",
+        "Simulate outcomes with interactive touchscreen. Leverage pre-built line-of-business templates."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The concern about outcome simulation's unspecified method is appropriate: the text does not establish whether it is deterministic or predictive. However, the overall description also concretely identifies real-time data access, source integration, touchscreen interaction, and templates as meaningful conventional boardroom functions. Nothing affirmatively establishes AI or makes the conventional functions dependent on it, supporting non_ai."
+    }
+  },
+  {
+    "annotation_id": "ann_94962223fac7ee36b9709c8e",
+    "description_sha256": "f19235df74249c27bc0bbe2c7579df89780c6eb0fab1649c92f8aa9f1b64dc58",
+    "source_record_references": [
+      "1273",
+      "1274"
+    ],
+    "labeler": {
+      "annotation_id": "ann_94962223fac7ee36b9709c8e",
+      "description_sha256": "f19235df74249c27bc0bbe2c7579df89780c6eb0fab1649c92f8aa9f1b64dc58",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies an enterprise data catalog used to find, understand, and govern data, supporting analyst productivity and data-driven work through conventional catalog and governance functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "enterprise data catalog dramatically improves the productivity of analysts and business users, increases the accuracy of analytics, and drives confident data-driven decision making while empowering everyone in your organization to find, understand, and govern data."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_94962223fac7ee36b9709c8e",
+      "description_sha256": "f19235df74249c27bc0bbe2c7579df89780c6eb0fab1649c92f8aa9f1b64dc58",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies an enterprise data catalog for finding, understanding, and governing data and supporting analytics and decision-making, without specifying AI functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "enterprise data catalog",
+        "find, understand, and govern data."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_94962223fac7ee36b9709c8e",
+      "description_sha256": "f19235df74249c27bc0bbe2c7579df89780c6eb0fab1649c92f8aa9f1b64dc58",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies an enterprise data catalog and expressly describes finding, understanding, and governing data as user functions. These are meaningful catalog operations; the marketing claim about analytics accuracy does not itself imply AI or require an assumed mechanism.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "enterprise data catalog",
+        "find, understand, and govern data."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The text does not specify a mechanism for improving analytics accuracy, so that benefit is not treated as evidence of a particular AI or metadata/search capability. Nonetheless, the named catalog and the directly stated find, understand, and govern functions meaningfully describe conventional data-catalog functionality without assuming how it is implemented, supporting non_ai."
+    },
+    "final": {
+      "annotation_id": "ann_94962223fac7ee36b9709c8e",
+      "description_sha256": "f19235df74249c27bc0bbe2c7579df89780c6eb0fab1649c92f8aa9f1b64dc58",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies an enterprise data catalog and expressly describes finding, understanding, and governing data as user functions. These are meaningful catalog operations; the marketing claim about analytics accuracy does not itself imply AI or require an assumed mechanism.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "enterprise data catalog",
+        "find, understand, and govern data."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The text does not specify a mechanism for improving analytics accuracy, so that benefit is not treated as evidence of a particular AI or metadata/search capability. Nonetheless, the named catalog and the directly stated find, understand, and govern functions meaningfully describe conventional data-catalog functionality without assuming how it is implemented, supporting non_ai."
+    }
+  },
+  {
+    "annotation_id": "ann_983cbd2c25e0a288990da0cd",
+    "description_sha256": "ab2ca2250a0bbe55a572a694f4c599f2f3bd13269409a8765d6aa54224a39480",
+    "source_record_references": [
+      "1294"
+    ],
+    "labeler": {
+      "annotation_id": "ann_983cbd2c25e0a288990da0cd",
+      "description_sha256": "ab2ca2250a0bbe55a572a694f4c599f2f3bd13269409a8765d6aa54224a39480",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies a document-oriented database using JSON storage, JavaScript MapReduce queries, and an HTTP API—conventional database storage, processing, and access functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an open-source document-oriented NoSQL database, implemented in Erlang. CouchDB uses multiple formats and protocols to store, transfer, and process its data. It uses JSON to store data, JavaScript as its query language using MapReduce, and HTTP for an API."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_983cbd2c25e0a288990da0cd",
+      "description_sha256": "ab2ca2250a0bbe55a572a694f4c599f2f3bd13269409a8765d6aa54224a39480",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes a document-oriented database and specifies conventional data storage, transfer, processing, query, and API mechanisms.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an open-source document-oriented NoSQL database, implemented in Erlang. CouchDB uses multiple formats and protocols to store, transfer, and process its data. It uses JSON to store data, JavaScript as its query language using MapReduce, and HTTP for an API."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_983cbd2c25e0a288990da0cd",
+      "description_sha256": "ab2ca2250a0bbe55a572a694f4c599f2f3bd13269409a8765d6aa54224a39480",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies a document-oriented database using JSON storage, JavaScript MapReduce queries, and an HTTP API—conventional database storage, processing, and access functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an open-source document-oriented NoSQL database, implemented in Erlang. CouchDB uses multiple formats and protocols to store, transfer, and process its data. It uses JSON to store data, JavaScript as its query language using MapReduce, and HTTP for an API."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_af74480eaef72fe056c0b0fa",
+    "description_sha256": "f9dc1bd5981ffedc7212147d2ff89a13ae16066e247bd0626779a198ed56b537",
+    "source_record_references": [
+      "1275"
+    ],
+    "labeler": {
+      "annotation_id": "ann_af74480eaef72fe056c0b0fa",
+      "description_sha256": "f9dc1bd5981ffedc7212147d2ff89a13ae16066e247bd0626779a198ed56b537",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This describes a cloud-services purchasing and consumption arrangement with integration and extension options and usage-based monthly charges, conventional cloud service access and billing functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "finding, trying, buying, and consuming cloud services from SAP and partners",
+        "It allows customers to integrate, extend and innovate own applications with business and technical functionality offered as cloud services in a flexible way.\n\nThere is no need to license a SAP Cloud Platform service individually anymore. Cloud services can be used when demand arises and be retired if not needed anymore. Charges incur on actual usage and will be charged monthly against the prior purchased Cloud Credit."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_af74480eaef72fe056c0b0fa",
+      "description_sha256": "f9dc1bd5981ffedc7212147d2ff89a13ae16066e247bd0626779a198ed56b537",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes purchasing and consuming cloud services, integrating and extending applications, and usage-based monthly charging—a conventional cloud-service agreement and consumption model.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "finding, trying, buying, and consuming cloud services from SAP and partners",
+        "integrate, extend and innovate own applications with business and technical functionality offered as cloud services",
+        "Charges incur on actual usage and will be charged monthly"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_af74480eaef72fe056c0b0fa",
+      "description_sha256": "f9dc1bd5981ffedc7212147d2ff89a13ae16066e247bd0626779a198ed56b537",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text primarily describes an enterprise agreement for accessing cloud services and usage-based cloud-credit billing. It mentions application integration and extension but does not specify software functionality of the agreement itself; non_ai is the best binary choice, with software scope uncertain.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Cloud Platform Enterprise Agreement (CPEA) is to create one rich and simple customer experience for finding, trying, buying, and consuming cloud services",
+        "It allows customers to integrate, extend and innovate own applications with business and technical functionality offered as cloud services",
+        "Charges incur on actual usage and will be charged monthly against the prior purchased Cloud Credit."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The concern distinguishes the agreement from underlying cloud services, appropriately: the text's concrete focus is finding/consuming services, licensing flexibility, and credit-based usage billing. Integration and extension are mentioned as what customers may do with cloud services, not as specified functions of this agreement. No AI is stated, but because it does not clearly describe a software offering, the non_ai decision is weak/forced rather than a supported software-negative."
+    },
+    "final": {
+      "annotation_id": "ann_af74480eaef72fe056c0b0fa",
+      "description_sha256": "f9dc1bd5981ffedc7212147d2ff89a13ae16066e247bd0626779a198ed56b537",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text primarily describes an enterprise agreement for accessing cloud services and usage-based cloud-credit billing. It mentions application integration and extension but does not specify software functionality of the agreement itself; non_ai is the best binary choice, with software scope uncertain.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Cloud Platform Enterprise Agreement (CPEA) is to create one rich and simple customer experience for finding, trying, buying, and consuming cloud services",
+        "It allows customers to integrate, extend and innovate own applications with business and technical functionality offered as cloud services",
+        "Charges incur on actual usage and will be charged monthly against the prior purchased Cloud Credit."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The concern distinguishes the agreement from underlying cloud services, appropriately: the text's concrete focus is finding/consuming services, licensing flexibility, and credit-based usage billing. Integration and extension are mentioned as what customers may do with cloud services, not as specified functions of this agreement. No AI is stated, but because it does not clearly describe a software offering, the non_ai decision is weak/forced rather than a supported software-negative."
+    }
+  },
+  {
+    "annotation_id": "ann_c042665f0dae44b97eb4f324",
+    "description_sha256": "63a11f5845c3071cd603952d908c7b5315eeea33ab6d657665e9cd953101f8f0",
+    "source_record_references": [
+      "1284"
+    ],
+    "labeler": {
+      "annotation_id": "ann_c042665f0dae44b97eb4f324",
+      "description_sha256": "63a11f5845c3071cd603952d908c7b5315eeea33ab6d657665e9cd953101f8f0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes a bit-error-rate test setup using a pattern generator and matching receiver, including paired or loopback configurations—a conventional communications test function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A bit error rate test (BERT) typically requires a test pattern generator and a receiver set to the same pattern. They can be used in pairs, with one at either end of a link, or singularly at one end with a loopback at the remote end."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_c042665f0dae44b97eb4f324",
+      "description_sha256": "63a11f5845c3071cd603952d908c7b5315eeea33ab6d657665e9cd953101f8f0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text explains conventional bit-error-rate testing using a test pattern generator and receiver set to matching patterns, optionally with loopback.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A bit error rate test (BERT) typically requires a test pattern generator and a receiver set to the same pattern. They can be used in pairs, with one at either end of a link, or singularly at one end with a loopback at the remote end."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_c042665f0dae44b97eb4f324",
+      "description_sha256": "63a11f5845c3071cd603952d908c7b5315eeea33ab6d657665e9cd953101f8f0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text explains a conventional bit-error-rate test setup using a pattern generator, receiver, link, and loopback, but does not identify whether this is a software product, hardware, or a procedure. Non_ai is the best binary choice in the absence of an AI signal, with software scope uncertain.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A bit error rate test (BERT) typically requires a test pattern generator and a receiver set to the same pattern. They can be used in pairs, with one at either end of a link, or singularly at one end with a loopback at the remote end."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The described generator/receiver/link/loopback setup establishes a conventional communications test procedure, but does not establish a software function or even that the described item is software rather than test equipment or a procedure. I therefore retain non_ai as the best binary choice while weakening it and flagging scope, rather than treating a conventional test setup alone as a supported software-negative."
+    },
+    "final": {
+      "annotation_id": "ann_c042665f0dae44b97eb4f324",
+      "description_sha256": "63a11f5845c3071cd603952d908c7b5315eeea33ab6d657665e9cd953101f8f0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text explains a conventional bit-error-rate test setup using a pattern generator, receiver, link, and loopback, but does not identify whether this is a software product, hardware, or a procedure. Non_ai is the best binary choice in the absence of an AI signal, with software scope uncertain.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A bit error rate test (BERT) typically requires a test pattern generator and a receiver set to the same pattern. They can be used in pairs, with one at either end of a link, or singularly at one end with a loopback at the remote end."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The described generator/receiver/link/loopback setup establishes a conventional communications test procedure, but does not establish a software function or even that the described item is software rather than test equipment or a procedure. I therefore retain non_ai as the best binary choice while weakening it and flagging scope, rather than treating a conventional test setup alone as a supported software-negative."
+    }
+  },
+  {
+    "annotation_id": "ann_dcc8d65c9faa2a2f6e7f2252",
+    "description_sha256": "2367fd19350243e63e9132b95048a19dcdf46991e1fc8ecf1a21d5b415fd5777",
+    "source_record_references": [
+      "1276"
+    ],
+    "labeler": {
+      "annotation_id": "ann_dcc8d65c9faa2a2f6e7f2252",
+      "description_sha256": "2367fd19350243e63e9132b95048a19dcdf46991e1fc8ecf1a21d5b415fd5777",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This describes a professional services offering for collaborative innovation, solution design, development, and operation across deployment environments, a conventional consulting and software-development service.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "collaborating with clients in an end-to-end innovation process to discover, design, develop and run tailored solutions in the cloud, on premise or in hybrid scenarios that address their specific mission-critical business needs.\n\nFormerly known as SAP Custom Development, SAP Innovative Business Solutions offers clients direct global access to more than 2,000 development professionals and 38,000 R&D and services experts."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_dcc8d65c9faa2a2f6e7f2252",
+      "description_sha256": "2367fd19350243e63e9132b95048a19dcdf46991e1fc8ecf1a21d5b415fd5777",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This describes consulting and development services: discovering, designing, developing, and running tailored solutions, with access to development and R&D professionals.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "discover, design, develop and run tailored solutions in the cloud, on premise or in hybrid scenarios",
+        "it has delivered more than 4,000 individualized solutions to over 1,500 clients."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_dcc8d65c9faa2a2f6e7f2252",
+      "description_sha256": "2367fd19350243e63e9132b95048a19dcdf46991e1fc8ecf1a21d5b415fd5777",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes professional services for collaboratively designing and developing tailored solutions, but does not give a concrete software function for a specific offering. Non_ai is the best binary choice given no AI signal, with software scope uncertain.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "collaborating with clients in an end-to-end innovation process to discover, design, develop and run tailored solutions in the cloud, on premise or in hybrid scenarios",
+        "offers clients direct global access to more than 2,000 development professionals and 38,000 R&D and services experts."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The concern is that this describes consulting/custom-development professionals and unspecified tailored deliverables, rather than functionality of a particular software offering. The text supports that scope concern, so I do not infer what the delivered solutions do. With no AI mention, non_ai is the best binary choice but is weak/forced because a software product or conventional software function is not established."
+    },
+    "final": {
+      "annotation_id": "ann_dcc8d65c9faa2a2f6e7f2252",
+      "description_sha256": "2367fd19350243e63e9132b95048a19dcdf46991e1fc8ecf1a21d5b415fd5777",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes professional services for collaboratively designing and developing tailored solutions, but does not give a concrete software function for a specific offering. Non_ai is the best binary choice given no AI signal, with software scope uncertain.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "collaborating with clients in an end-to-end innovation process to discover, design, develop and run tailored solutions in the cloud, on premise or in hybrid scenarios",
+        "offers clients direct global access to more than 2,000 development professionals and 38,000 R&D and services experts."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The concern is that this describes consulting/custom-development professionals and unspecified tailored deliverables, rather than functionality of a particular software offering. The text supports that scope concern, so I do not infer what the delivered solutions do. With no AI mention, non_ai is the best binary choice but is weak/forced because a software product or conventional software function is not established."
+    }
+  },
+  {
+    "annotation_id": "ann_ddd07d8e45cdb2853530a063",
+    "description_sha256": "22a2798628ac062a3cd5cd664aa633541d2cdf2f653bbcb55849a4bc8a11d6e4",
+    "source_record_references": [
+      "1277"
+    ],
+    "labeler": {
+      "annotation_id": "ann_ddd07d8e45cdb2853530a063",
+      "description_sha256": "22a2798628ac062a3cd5cd664aa633541d2cdf2f653bbcb55849a4bc8a11d6e4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes a digital content-management platform integrated with business applications for enterprise information management, conventional content and records management functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a comprehensive digital content management platform that seamlessly integrates with any SAP business application and supports information management with SAP for an entire enterprise."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_ddd07d8e45cdb2853530a063",
+      "description_sha256": "22a2798628ac062a3cd5cd664aa633541d2cdf2f653bbcb55849a4bc8a11d6e4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes a digital content management platform integrated with business applications for enterprise information management, conventional content-management functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a comprehensive digital content management platform that seamlessly integrates with any SAP business application and supports information management with SAP for an entire enterprise."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_ddd07d8e45cdb2853530a063",
+      "description_sha256": "22a2798628ac062a3cd5cd664aa633541d2cdf2f653bbcb55849a4bc8a11d6e4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes a digital content-management platform integrated with business applications for enterprise information management, conventional content and records management functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a comprehensive digital content management platform that seamlessly integrates with any SAP business application and supports information management with SAP for an entire enterprise."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_e6ba3c0a9911d1fe8660e655",
+    "description_sha256": "231cdea35d698cec7685f77902ea742241c4624d89d428b96d9449064e60ca53",
+    "source_record_references": [
+      "1280"
+    ],
+    "labeler": {
+      "annotation_id": "ann_e6ba3c0a9911d1fe8660e655",
+      "description_sha256": "231cdea35d698cec7685f77902ea742241c4624d89d428b96d9449064e60ca53",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It enables development and delivery of Python-based analytics data applications to business users, a conventional application-development and analytics-delivery function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "enables the rapid development of production-grade data apps within your business.  Python has taken over the world, and Dash Enterprise is the leading vehicle for delivering Python analytics to business users."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_e6ba3c0a9911d1fe8660e655",
+      "description_sha256": "231cdea35d698cec7685f77902ea742241c4624d89d428b96d9449064e60ca53",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described offering enables development and delivery of Python data apps and analytics to business users, conventional app-development and analytics functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "enables the rapid development of production-grade data apps within your business",
+        "delivering Python analytics to business users."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_e6ba3c0a9911d1fe8660e655",
+      "description_sha256": "231cdea35d698cec7685f77902ea742241c4624d89d428b96d9449064e60ca53",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It enables development and delivery of Python-based analytics data applications to business users, a conventional application-development and analytics-delivery function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "enables the rapid development of production-grade data apps within your business.  Python has taken over the world, and Dash Enterprise is the leading vehicle for delivering Python analytics to business users."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_f00e6f85dbc186fc965ea51d",
+    "description_sha256": "2d33c3e027a96cd502caa2cfbc3142030fd04d3a6d22e775ab4297ae536d5d4f",
+    "source_record_references": [
+      "1293"
+    ],
+    "labeler": {
+      "annotation_id": "ann_f00e6f85dbc186fc965ea51d",
+      "description_sha256": "2d33c3e027a96cd502caa2cfbc3142030fd04d3a6d22e775ab4297ae536d5d4f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The product is described as a relational SQL database with concurrency, performance, stored procedures, and triggers—conventional database capabilities.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a relational database offering many ANSI SQL standard features",
+        "excellent concurrency, high performance, and powerful language support for stored procedures and triggers."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_f00e6f85dbc186fc965ea51d",
+      "description_sha256": "2d33c3e027a96cd502caa2cfbc3142030fd04d3a6d22e775ab4297ae536d5d4f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a relational database with SQL features, concurrency, stored procedures, and triggers, all conventional database functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a relational database offering many ANSI SQL standard features",
+        "powerful language support for stored procedures and triggers."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_f00e6f85dbc186fc965ea51d",
+      "description_sha256": "2d33c3e027a96cd502caa2cfbc3142030fd04d3a6d22e775ab4297ae536d5d4f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The product is described as a relational SQL database with concurrency, performance, stored procedures, and triggers—conventional database capabilities.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a relational database offering many ANSI SQL standard features",
+        "excellent concurrency, high performance, and powerful language support for stored procedures and triggers."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_f8733558b033c28048af0c15",
+    "description_sha256": "ee70e7fe5c07644271a9e555d095c607e92f79deb7f512da250ec8d4e95f2f27",
+    "source_record_references": [
+      "1289",
+      "1290",
+      "1291"
+    ],
+    "labeler": {
+      "annotation_id": "ann_f8733558b033c28048af0c15",
+      "description_sha256": "ee70e7fe5c07644271a9e555d095c607e92f79deb7f512da250ec8d4e95f2f27",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes distributed multi-model NoSQL document database software for interactive applications, including creating, storing, retrieving, aggregating, manipulating, and presenting data—conventional database operations.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an open-source, distributed multi-model NoSQL document-oriented database software package optimized for interactive applications. These applications may serve many concurrent users by creating, storing, retrieving, aggregating, manipulating and presenting data."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_f8733558b033c28048af0c15",
+      "description_sha256": "ee70e7fe5c07644271a9e555d095c607e92f79deb7f512da250ec8d4e95f2f27",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes a distributed multi-model database for storing, retrieving, aggregating, manipulating, and presenting data to concurrent users, conventional database functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an open-source, distributed multi-model NoSQL document-oriented database software package optimized for interactive applications. These applications may serve many concurrent users by creating, storing, retrieving, aggregating, manipulating and presenting data."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_f8733558b033c28048af0c15",
+      "description_sha256": "ee70e7fe5c07644271a9e555d095c607e92f79deb7f512da250ec8d4e95f2f27",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes distributed multi-model NoSQL document database software for interactive applications, including creating, storing, retrieving, aggregating, manipulating, and presenting data—conventional database operations.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an open-source, distributed multi-model NoSQL document-oriented database software package optimized for interactive applications. These applications may serve many concurrent users by creating, storing, retrieving, aggregating, manipulating and presenting data."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  }
+]

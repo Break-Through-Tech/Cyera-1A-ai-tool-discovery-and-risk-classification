@@ -1,0 +1,249 @@
+{
+  "batch_id": "batch-027",
+  "purpose": "Preserve pre-correction native write payloads and exact correction tool payloads. These are new archival snapshots only; original agent files were never restored or overwritten.",
+  "source_native_uuid": "7df5dc2c-d850-4fb0-a19a-f709fa19d531",
+  "native_transcript_path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/7df5dc2c-d850-4fb0-a19a-f709fa19d531/7df5dc2c-d850-4fb0-a19a-f709fa19d531.jsonl",
+  "native_transcript_sha256_current": "c69c0f4f71f46a6a7b790f709662bc6cf1acfd86f06b31eb096c889e59ae282e",
+  "raw_tool_payloads": [
+    {
+      "line": 18,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_f4f19f7331701d13d9b52c1e.json",
+      "operation": "*** Add File: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_f4f19f7331701d13d9b52c1e.json",
+      "payload_file": "tool-payload-line-18.patch",
+      "payload_sha256": "5aabeedeb8b0ea812c171bad6cbe1a30159f641076e923d72a3a199be2e8e4c7"
+    },
+    {
+      "line": 19,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_f4f19f7331701d13d9b52c1e.json",
+      "operation": "*** Update File: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_f4f19f7331701d13d9b52c1e.json",
+      "payload_file": "tool-payload-line-19.patch",
+      "payload_sha256": "6dc754dd23ac4d89219d565bfdee71b7318d0c7d225a2b65d6c2c7c161b10eb8"
+    },
+    {
+      "line": 22,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_a9956745c70b00a9a14a29bf.json",
+      "operation": "*** Add File: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_a9956745c70b00a9a14a29bf.json",
+      "payload_file": "tool-payload-line-22.patch",
+      "payload_sha256": "4d998f6a8d83d32d9fdd46d8022b19d3ce3d355934bea8027b5eff701690d9ca"
+    },
+    {
+      "line": 24,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/result.json",
+      "operation": "*** Add File: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/result.json",
+      "payload_file": "tool-payload-line-24.patch",
+      "payload_sha256": "ae774a247e42660e9b68b30d1fcc0ea3f151bd9b48b3c1523cfa8fc41342f10e"
+    },
+    {
+      "line": 25,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_a9956745c70b00a9a14a29bf.json",
+      "operation": "*** Update File: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_a9956745c70b00a9a14a29bf.json",
+      "payload_file": "tool-payload-line-25.patch",
+      "payload_sha256": "eacce6ee66185870a94583915b09e42e34601420bd3daa1fa5ed758ff8dd5823"
+    },
+    {
+      "line": 26,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/result.json",
+      "operation": "*** Update File: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/result.json",
+      "payload_file": "tool-payload-line-26.patch",
+      "payload_sha256": "03f66d08f927213d3ca1be702c509bcc19308ed0dfb936f009f1d6e78d889d52"
+    },
+    {
+      "line": 41,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/reconciliation-027/checkpoints/ann_f4f19f7331701d13d9b52c1e.json",
+      "operation": "*** Add File: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/reconciliation-027/checkpoints/ann_f4f19f7331701d13d9b52c1e.json",
+      "payload_file": "tool-payload-line-41.patch",
+      "payload_sha256": "89704e0bc569360acba64543f3099287954e3c3201fa58e5f1c720a15d2929c6"
+    }
+  ],
+  "reconstructed_original_snapshots": {
+    "mce_checkpoint": {
+      "path": "original-checkpoint-mce.json",
+      "sha256": "ce63ca881d301fd58b0861ebb94d568b9a754902129540013539a6b72ec17557",
+      "origin_tool_line": 18,
+      "duplicate_key_count_before": 2,
+      "duplicate_key_count_final": 1
+    },
+    "visualcron_checkpoint": {
+      "path": "original-checkpoint-visualcron.json",
+      "sha256": "561a7190577363f11a319e81eed691234b30340831823a428ce151ce05773245",
+      "origin_tool_line": 22,
+      "only_changed_field": "evidence_spans"
+    },
+    "initial_aggregate": {
+      "path": "original-aggregate.json",
+      "sha256": "8958926578ba67d5aacfa6e27257035b24e3ed30f9e708a5bf6cbc87f9c0ca65",
+      "origin_tool_line": 24,
+      "records": 20,
+      "only_changed_record": "ann_a9956745c70b00a9a14a29bf",
+      "only_changed_field": "evidence_spans"
+    }
+  },
+  "correction_events": [
+    {
+      "line": 19,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_f4f19f7331701d13d9b52c1e.json",
+      "patch_path": "tool-payload-line-19.patch",
+      "patch_sha256": "6dc754dd23ac4d89219d565bfdee71b7318d0c7d225a2b65d6c2c7c161b10eb8"
+    },
+    {
+      "line": 25,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_a9956745c70b00a9a14a29bf.json",
+      "patch_path": "tool-payload-line-25.patch",
+      "patch_sha256": "eacce6ee66185870a94583915b09e42e34601420bd3daa1fa5ed758ff8dd5823"
+    },
+    {
+      "line": 26,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/result.json",
+      "patch_path": "tool-payload-line-26.patch",
+      "patch_sha256": "03f66d08f927213d3ca1be702c509bcc19308ed0dfb936f009f1d6e78d889d52"
+    }
+  ],
+  "semantic_delta_check": {
+    "all20_aggregate_semantic_label_and_rationale_fields_unchanged": true,
+    "all_other_evidence_spans_unchanged": true,
+    "visualcron_only_evidence_span_changed": true,
+    "mce_duplicate_key_value_was_null_and_removed_without_value_change": true,
+    "no_label_or_rationale_repair": true
+  },
+  "actual_tool_counts": {
+    "independent_checkpoint_add_payloads": 20,
+    "independent_result_add_payloads": 1,
+    "correction_update_payloads": 3,
+    "correction_events": 2,
+    "reconciliation_checkpoint_add_payloads": 12,
+    "reconciliation_result_add_payloads": 1
+  },
+  "all_independent_original_write_payloads": [
+    {
+      "line": 3,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_6ba21e13fb7eea164736dbc0.json",
+      "payload_file": "independent-original-write-line-3.patch",
+      "payload_sha256": "68ce9470eafcc6bcec9748c1432bd9e551de8b96765ca92f35fc204badbea921"
+    },
+    {
+      "line": 4,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_be4e85194f2009d730f69cf6.json",
+      "payload_file": "independent-original-write-line-4.patch",
+      "payload_sha256": "9801bcba43d7a817268b1db443a68c794e3f30e34e1cdefea41b11e960c6d2e4"
+    },
+    {
+      "line": 5,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_1c230f908db8c2b9d488160a.json",
+      "payload_file": "independent-original-write-line-5.patch",
+      "payload_sha256": "4289eb19221d34e16a30bec214e58e7d85a0c656541f71cc370fe36aff5e446f"
+    },
+    {
+      "line": 6,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_334bb0c62199b39f4ad560e0.json",
+      "payload_file": "independent-original-write-line-6.patch",
+      "payload_sha256": "8fec8804e968890c05a399a81bf50a37663bdc3420afdd3c95ac103a5968f40c"
+    },
+    {
+      "line": 7,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_ad3e36426d4a9525079ee5de.json",
+      "payload_file": "independent-original-write-line-7.patch",
+      "payload_sha256": "50d0677374d6d56d575ea978f72b932563fea3612d1093ce7efea1021b30e6cc"
+    },
+    {
+      "line": 8,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_2567ba70c9fdeeb95ef948ea.json",
+      "payload_file": "independent-original-write-line-8.patch",
+      "payload_sha256": "9ccf288a77579f276dc850756721243555a87ab183e15462d2850b70bc14a1e3"
+    },
+    {
+      "line": 9,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_598e09f3d51982c4eb85e006.json",
+      "payload_file": "independent-original-write-line-9.patch",
+      "payload_sha256": "7178eb814908f65ffaf31a4858c021a8266d8204951918e781a5dde77ef11efb"
+    },
+    {
+      "line": 10,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_893ccea14c9e2e603fceaa15.json",
+      "payload_file": "independent-original-write-line-10.patch",
+      "payload_sha256": "c718035e1b9f174768314204eaf09591e501406d609b3347d8fab0bcc496fe9a"
+    },
+    {
+      "line": 11,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_8064e5d0b085c2a1648f783c.json",
+      "payload_file": "independent-original-write-line-11.patch",
+      "payload_sha256": "71648520f1fc9282ac73e61461fd1cb5c76804c0a04c02523010a8cdb4b3ece9"
+    },
+    {
+      "line": 12,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_026f2ccecab79003fd7ab900.json",
+      "payload_file": "independent-original-write-line-12.patch",
+      "payload_sha256": "602b4c8c720b911a1764a3e462f72a1dbd48bf8fa32de584b296cd15618285d9"
+    },
+    {
+      "line": 13,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_a279987f4bd249d168ea2bd4.json",
+      "payload_file": "independent-original-write-line-13.patch",
+      "payload_sha256": "b94f89ae3e7e613d451bcdfc317c3a30f0043d979aa6b1c787bd19a695ac49fe"
+    },
+    {
+      "line": 14,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_9fc4c2fe07f9f214dbc7e0fe.json",
+      "payload_file": "independent-original-write-line-14.patch",
+      "payload_sha256": "6a1d00f75a0470ff095fc2d343f1b81bea0acc66a9cee8c4faa17a7950e97a53"
+    },
+    {
+      "line": 15,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_50e4e193dc52e91252cf3384.json",
+      "payload_file": "independent-original-write-line-15.patch",
+      "payload_sha256": "1bd25ae20884a77847c8da9698f0280dabfe09a0db6eba72e99ee5e6d3fb3a6c"
+    },
+    {
+      "line": 16,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_ce636c4253665f555ac52bbe.json",
+      "payload_file": "independent-original-write-line-16.patch",
+      "payload_sha256": "26e7cbe1a654db71a3504c75f99bfc0eab27c9e426dafedab1a6c83a604bdffc"
+    },
+    {
+      "line": 17,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_733779c12a84699b2bfdfa1e.json",
+      "payload_file": "independent-original-write-line-17.patch",
+      "payload_sha256": "06fe244544aa854116c0a94f4577c027bc66c206e5baff0a9058ed87c2aaad9a"
+    },
+    {
+      "line": 18,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_f4f19f7331701d13d9b52c1e.json",
+      "payload_file": "independent-original-write-line-18.patch",
+      "payload_sha256": "5aabeedeb8b0ea812c171bad6cbe1a30159f641076e923d72a3a199be2e8e4c7"
+    },
+    {
+      "line": 20,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_2330be3f4d4e1eb9614ec8a1.json",
+      "payload_file": "independent-original-write-line-20.patch",
+      "payload_sha256": "cf0f7bd2a832142ed6b1f17e46259e8c8c325d9dbbfe13eccff3831491ce5fc0"
+    },
+    {
+      "line": 21,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_76850427d34195d5e2471b46.json",
+      "payload_file": "independent-original-write-line-21.patch",
+      "payload_sha256": "b5c36d9897e5a017a5e8e9856bb333e596d8f6bab2d1ce0b033b15a58a825500"
+    },
+    {
+      "line": 22,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_a9956745c70b00a9a14a29bf.json",
+      "payload_file": "independent-original-write-line-22.patch",
+      "payload_sha256": "4d998f6a8d83d32d9fdd46d8022b19d3ce3d355934bea8027b5eff701690d9ca"
+    },
+    {
+      "line": 23,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/checkpoints/ann_8f68ddd5fc8fbe5362795eae.json",
+      "payload_file": "independent-original-write-line-23.patch",
+      "payload_sha256": "38030e2ff60eab8ceb69dac5f0ac55c70e580e67aeb7cb25e09297266604fdf1"
+    },
+    {
+      "line": 24,
+      "target": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/result.json",
+      "payload_file": "independent-original-write-line-24.patch",
+      "payload_sha256": "ae774a247e42660e9b68b30d1fcc0ea3f151bd9b48b3c1523cfa8fc41342f10e"
+    }
+  ],
+  "current_corrected_file_sha256s": {
+    "agents/blind/checkpoints/ann_f4f19f7331701d13d9b52c1e.json": "6f38847a144e9fa6b122ee95447c7e8b2bb85d98957bda4be5fac68448edb910",
+    "agents/blind/checkpoints/ann_a9956745c70b00a9a14a29bf.json": "0e7c180554a080ceea5ccd7ce7234596879b2062812d3795e569a808e8890004",
+    "agents/blind/result.json": "627a658c663fa8469f99957e5ed3a524aae9d09f96fc4ba1da2abd350596ddc4"
+  }
+}

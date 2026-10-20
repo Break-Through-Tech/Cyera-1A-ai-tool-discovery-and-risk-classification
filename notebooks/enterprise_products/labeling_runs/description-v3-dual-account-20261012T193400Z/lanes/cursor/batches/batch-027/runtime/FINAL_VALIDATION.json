@@ -1,0 +1,96 @@
+{
+  "batch_id": "batch-027",
+  "status": "locally finalized; pending parent gate",
+  "frozen_plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "preparation_receipt_path": "runtime/PREPARATION_RECEIPT.json",
+  "description_count": 20,
+  "source_record_reference_count": 24,
+  "exact_frozen_plan_description_hash_and_all_source_references": true,
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind_reconciliation": "gpt-5.6-luna-high"
+  },
+  "native_sessions": {
+    "labeler": {
+      "uuid": "48acb5bc-732e-4756-b185-d1d59434b339",
+      "pane": "p25",
+      "observed_banner": "Claude Haiku 5.5 300K High",
+      "private_cwd": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/labeler"
+    },
+    "blind_original_and_reconciliation": {
+      "uuid": "7df5dc2c-d850-4fb0-a19a-f709fa19d531",
+      "pane": "p26",
+      "observed_banner": "GPT-5.6 Luna 272K High",
+      "private_cwd": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind",
+      "reconciliation_prompt_count": 1
+    }
+  },
+  "independent_result_registration": "runtime/INDEPENDENT_RESULT_REGISTRATION.json",
+  "independent_validation": "runtime/INDEPENDENT_VALIDATION.json",
+  "independent_20_checkpoints_each_and_result_envelopes": true,
+  "all_40_private_hashes_current": true,
+  "all20_pair_reviews_path": "runtime/PAIR_REVIEW.json",
+  "all20_source_proposal_pairs_reviewed": true,
+  "reconciliation_count": 12,
+  "reconciliation_registration": "runtime/RECONCILIATION_RESULT_REGISTRATION.json",
+  "all12_final_source_and_conflict_responses_reviewed": "runtime/RECONCILIATION_SEMANTIC_REVIEW.json",
+  "reconciliation_helper_coverage_schema_quote_provenance_checkpoint_equality": "PASS",
+  "ai_binary_subtype_independence": "all final labels are non_ai; subtype null; no subtype evidence conflated",
+  "structural_deviation_proof": {
+    "path": "runtime/pre-recovery-native-payload-original/STRUCTURAL_DEVIATION_PROOF.json",
+    "sha256": "272bb45160c2befb147c0a5665a48b75c98d2827e401ea5363e5d6554a52bd9b",
+    "actual_initial_writes": "20 independent checkpoints + 1 independent result; 12 reconciliation checkpoints + 1 reconciliation result",
+    "in_place_updates": "3 total across two correction events: duplicate-key removal in MCE checkpoint; VisualCron exact quote correction in checkpoint and result aggregate",
+    "only_structural_fields_changed": true,
+    "all_semantic_labels_and_rationales_unchanged": true,
+    "raw_initial_payloads_archived_as_new_snapshots_only": true
+  },
+  "exports": {
+    "count": 6,
+    "hashes": {
+      "description_labels.json": "a21f7496d3ef0cd7c2eb23d795fd8036952457c38e39efe65dfa09445c2a5a95",
+      "record_labels.json": "1ceb831db4ca02e191db7b712728b4c8695999a1f4abc627a79bdbe40f9dfd82",
+      "review_ledger.json": "55b4908087ff166c73b1ea424acd13857ece2e447f624009fb4372ffdf6f5e71",
+      "review_queue.json": "6b864a2ca7fa43431d20c8ac39931af02f68d2f4c4dafdbcdd81f7898300f35b",
+      "non_ai_candidates.csv": "cccf22505e6db619f574127c465f580e9781bb54db3828e90bb00af32560c40f",
+      "calibration_report.json": "fd479cb4914a913bc414c05a58b72ed5e926b23837a002bd7e9ac222028b67e7"
+    },
+    "metrics": {
+      "source_input_records": 1494,
+      "cleaner_excluded_records": 56,
+      "retained_source_records": 1438,
+      "selected_descriptions": 20,
+      "selected_records": 24,
+      "remaining_distinct_descriptions": 1371,
+      "remaining_source_records": 1414,
+      "coverage_claim": "selected calibration only; not full dataset coverage",
+      "binary_counts": {
+        "non_ai": 20
+      },
+      "subtype_counts": {
+        "null": 20
+      },
+      "binary_weak_count": 9,
+      "binary_forced_count": 9,
+      "subtype_weak_count": 0,
+      "subtype_forced_count": 0,
+      "trusted_negative_records": 12,
+      "reconciliation_count": 12,
+      "required_reconciliation_count": 12,
+      "parent_reconciliation_count": 12,
+      "independent_binary_or_subtype_differences": 0,
+      "duplicate_records_within_selected_descriptions": 4,
+      "within_group_different_descriptions": 0
+    }
+  },
+  "tests": {
+    "command": "cd notebooks/enterprise_products && python3 -m unittest -q test_clean test_label_v3 test_eda",
+    "passed": 36
+  },
+  "parent_acceptance": "pending",
+  "accepted_lane_totals_unchanged": {
+    "descriptions": 500,
+    "rows": 515
+  }
+}

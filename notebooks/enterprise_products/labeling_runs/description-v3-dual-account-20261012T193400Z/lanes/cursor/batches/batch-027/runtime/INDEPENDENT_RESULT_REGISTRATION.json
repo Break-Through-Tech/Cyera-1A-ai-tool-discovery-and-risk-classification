@@ -1,0 +1,106 @@
+{
+  "batch_id": "batch-027",
+  "status": "raw independent result, checkpoint and native transcript hashes registered before comparison",
+  "plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "observed_banners": {
+    "labeler": "Claude Haiku 5.5 300K High",
+    "blind": "GPT-5.6 Luna 272K High"
+  },
+  "roles": {
+    "labeler": {
+      "original_native_uuid": "48acb5bc-732e-4756-b185-d1d59434b339",
+      "workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/labeler",
+      "result": {
+        "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/labeler/result.json",
+        "sha256": "859ff4b81dd6d6379cf2ec2c461460ba838fc7c23cb2d780aacd1b344f773632",
+        "bytes": 16470
+      },
+      "checkpoints": {
+        "ann_026f2ccecab79003fd7ab900.json": "795f1e3c8522d63da54a2b8a88ab7e51f47bf88eae275cb72b9ca81e1fb4539b",
+        "ann_1c230f908db8c2b9d488160a.json": "6baa0bd03d228be72a3b3311844f49ed010c56d40a66eca222564e8551ad8189",
+        "ann_2330be3f4d4e1eb9614ec8a1.json": "a14bb91c9cc685844373b22fcc5322f12bddc5c65e8ba1518f188593259917d4",
+        "ann_2567ba70c9fdeeb95ef948ea.json": "0978a3f9bc636ae5626bf8e73f7ab29b816a1280b25d20ce016a4aeea1d5ba1e",
+        "ann_334bb0c62199b39f4ad560e0.json": "4524cf8c9bfbce454d7b1430a3848dee0926556ee41dbe80c157147777044105",
+        "ann_50e4e193dc52e91252cf3384.json": "b464d266c7c33bf1a030fb088639daec9451ee2764e9817da4f35f060fe4d074",
+        "ann_598e09f3d51982c4eb85e006.json": "ed132368731529385b88bed3292f5e99476b41633c01d79cc2a5d70a297f55a6",
+        "ann_6ba21e13fb7eea164736dbc0.json": "89ce1b3c32104f6923ba56e73363c68bc6f9169dcbe2df662d149e4a2ece07a6",
+        "ann_733779c12a84699b2bfdfa1e.json": "7b06fe16531ce566eb6213832d7ea5f65cb95516fa7f839126029b613c42a3bf",
+        "ann_76850427d34195d5e2471b46.json": "1049137f1777d117e32d2e03691d8a1fb8765ae20f98831530894bdc82c29884",
+        "ann_8064e5d0b085c2a1648f783c.json": "3987328a7a3e8e145a724b6a2d00147f6e235191bf593674ddfe569093e221f6",
+        "ann_893ccea14c9e2e603fceaa15.json": "56da1d9a68b7b3e71e9aabc133005de97e5447fdeefc0a602cb3f587e1e59474",
+        "ann_8f68ddd5fc8fbe5362795eae.json": "9f2f5e164436fb160880d7315fd6199ef6914aaeee138af2721f500e29568cf5",
+        "ann_9fc4c2fe07f9f214dbc7e0fe.json": "7be7fb292de21679c7de14a04fb1c40110b1cbae15aadf277f20e2a8d1531171",
+        "ann_a279987f4bd249d168ea2bd4.json": "d5c9393bd0c6531ac43a7706193bb6c53c7016f9c5956050cc4c4ba67b589e34",
+        "ann_a9956745c70b00a9a14a29bf.json": "e1bf8e9a470101644c81f772ed48841632808efc066793b0e8ebd74e7e6a3fa4",
+        "ann_ad3e36426d4a9525079ee5de.json": "c1a653b6154830b6d96128f99a412af5e3ef32dc3a5ca47e72f5d0bb43352d21",
+        "ann_be4e85194f2009d730f69cf6.json": "15764608e8ae237df89d73d7790830f0899df7572f33dda3069cc21a0e768491",
+        "ann_ce636c4253665f555ac52bbe.json": "e15df81e284e3620dd164e3e412060b8c939f2436107446c5c002bd2ddc30e7f",
+        "ann_f4f19f7331701d13d9b52c1e.json": "747f25105d51df7a64feb2cc46e2a6ddd3ce705941208bf48f0cb379bc916270"
+      },
+      "native_transcript": {
+        "path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/48acb5bc-732e-4756-b185-d1d59434b339/48acb5bc-732e-4756-b185-d1d59434b339.jsonl",
+        "sha256": "40ceb604583962a673a2e99ef9ed695a9ff50f35b59b48d7e4da7d26a5c42de7",
+        "bytes": 59997
+      }
+    },
+    "blind": {
+      "original_native_uuid": "7df5dc2c-d850-4fb0-a19a-f709fa19d531",
+      "workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind",
+      "result": {
+        "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/agents/blind/result.json",
+        "sha256": "627a658c663fa8469f99957e5ed3a524aae9d09f96fc4ba1da2abd350596ddc4",
+        "bytes": 18861
+      },
+      "checkpoints": {
+        "ann_026f2ccecab79003fd7ab900.json": "57f2d2e0acaf0b35df766711ee6045211f9b36b9aa5043d5e11eac568c683a83",
+        "ann_1c230f908db8c2b9d488160a.json": "b8d30cf5006a5647abb9509414fdf307b3f7d0e5f29be021d4ecb569ca46ff4a",
+        "ann_2330be3f4d4e1eb9614ec8a1.json": "7d8ad79f2cf3de1fd47805af21e564183becfb8eab5e7cf09b484298939515ea",
+        "ann_2567ba70c9fdeeb95ef948ea.json": "9eb266bd7b496d241d9c3a487b0ef4083da10f1d67e5320758522d7126b36bc8",
+        "ann_334bb0c62199b39f4ad560e0.json": "4545c8abec4de0f3dd37b88e8d45ea889a5e390df9dc79eac6aad5d1115a2ea7",
+        "ann_50e4e193dc52e91252cf3384.json": "7040e3a43d9c3408f3b9e8c71078ec6af5838f33557ccf69b874b817b71ed2d9",
+        "ann_598e09f3d51982c4eb85e006.json": "20abff873bf4caff8df6518d2f689b3627ac0729ce892c145f426aa0438f4154",
+        "ann_6ba21e13fb7eea164736dbc0.json": "3e7bbc5d7c83ee293da5fe26571e319317936e5661cf7ba0c664de6184cf7afe",
+        "ann_733779c12a84699b2bfdfa1e.json": "380513e5a4f62db0919fa0a1433a467cdbb4da0ea48afad8099f08e76a50250a",
+        "ann_76850427d34195d5e2471b46.json": "facc5b6df6c44c64cef26ddb5c1b9a836c6f965703e2472a4749659fc8c1b557",
+        "ann_8064e5d0b085c2a1648f783c.json": "2815d3b8c946f1ecd8b27a5e37131a01fc2e6de7583f6d954c6c66c8973233bf",
+        "ann_893ccea14c9e2e603fceaa15.json": "8355396de6b9109460c7dcf33364350b8d4b64e0738b66cc188dc770cb9d675c",
+        "ann_8f68ddd5fc8fbe5362795eae.json": "d460d66dfcd882c58e9dc80bec41bb3ecdaaef02ea71e471c3c379f3890ae3b8",
+        "ann_9fc4c2fe07f9f214dbc7e0fe.json": "fb7c2c9c8b943346db4e4f2d98aed9708d0cd1f8dee12fe9ebce771fa18a9abd",
+        "ann_a279987f4bd249d168ea2bd4.json": "dbf2a5874c36637c92d64c3fc12cc4b11afb715f4e1d66af33f4820747c36951",
+        "ann_a9956745c70b00a9a14a29bf.json": "0e7c180554a080ceea5ccd7ce7234596879b2062812d3795e569a808e8890004",
+        "ann_ad3e36426d4a9525079ee5de.json": "94e1a69edfe36c09004e12f96cec86b6530abf1c7ca306290f0c4b805722cf8d",
+        "ann_be4e85194f2009d730f69cf6.json": "fc8eb00f191013143c15ec8e54cf9e5d212d4e719eae5747c86efda631235371",
+        "ann_ce636c4253665f555ac52bbe.json": "dcc3608c74bd558c2bd04b5f69c50d4a2fa725023d00f9e3b146ecdf2e147fb9",
+        "ann_f4f19f7331701d13d9b52c1e.json": "6f38847a144e9fa6b122ee95447c7e8b2bb85d98957bda4be5fac68448edb910"
+      },
+      "native_transcript": {
+        "path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/7df5dc2c-d850-4fb0-a19a-f709fa19d531/7df5dc2c-d850-4fb0-a19a-f709fa19d531.jsonl",
+        "sha256": "66c7295956a502759d28700aa28dcd74e4f4911077430c654a0f6330e0d6a423",
+        "bytes": 56700
+      }
+    }
+  },
+  "observations": {
+    "labeler": "Native pane p25; explicit Haiku model args; exact private cwd verified; terminal reports all20 checkpoints and result saved.",
+    "blind": "Native pane p26; explicit Luna model args; exact private cwd verified; terminal reports all20 checkpoints and result saved; transcript reports corrective edits in assigned workspace for duplicate JSON key and one non-verbatim evidence span; preserve unchanged final files and raw transcript."
+  },
+  "structural_events": [
+    {
+      "role": "blind",
+      "original_uuid": "7df5dc2c-d850-4fb0-a19a-f709fa19d531",
+      "transcript_recorded_edits": 2,
+      "details": [
+        "Removed duplicate ai_type_forced_decision key from ann_f4f19f7331701d13d9b52c1e checkpoint via original-session patch.",
+        "Corrected non-verbatim VisualCron evidence span in ann_a9956745c70b00a9a14a29bf checkpoint and aggregate via original-session patch."
+      ],
+      "label_values_changed": false,
+      "final_checkpoints_and_result_validated": true,
+      "raw_transcript_hash_registered": true
+    }
+  ]
+}
