@@ -1,0 +1,13 @@
+{
+  "status": "prepared_not_launched",
+  "description_count": 20,
+  "source_row_count": 24,
+  "exact_plan_hash_all_source_refs": true,
+  "packet_sha256": "31fccac057c688bfe6550cc47c34df5bba150caf294a5353e9b0e3b7eac05baf",
+  "launch_script_sha256": "6209c675056693fb48d0eedec4261e34a7ae35938e5ef0b8afeefaa5a408f9be",
+  "models": {
+    "labeler": "openai-codex/gpt-6-luna:high",
+    "blind": "openai-codex/gpt-6-luna:high"
+  },
+  "fresh_private_cwd_per_role": true
+}

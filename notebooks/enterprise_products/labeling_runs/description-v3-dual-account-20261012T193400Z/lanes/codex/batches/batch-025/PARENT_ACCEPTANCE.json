@@ -1,0 +1,26 @@
+{
+  "status": "finalized",
+  "timestamp": "2026-10-20T20:01:35.444950+00:00",
+  "selected_descriptions": 20,
+  "selected_rows": 24,
+  "original_blind_run_id": "5fe1575d-f681-439e-b66d-7df105bb338c",
+  "reconciliation_child_run_id": "bda76336-4cd7-4a1c-827a-c6c1c967c765",
+  "all40_original_private_native_helper_hashes_and_four_syntax_overrides_unchanged": true,
+  "parent_all8_source_final_conflict_responses_reviewed": true,
+  "semantic_pass": 1,
+  "repairs": [
+    "FOURprivateJSONsyntax-only overrides removeONEextra finalbrace each; originalnativealreadyvalid/valuesidentical; alloriginals preserved, no repeatedmodelwork"
+  ],
+  "all8_finalcorrectprivatepaths": true,
+  "binary_weak_descriptions": 7,
+  "subtype_weak_descriptions": 1,
+  "trusted_negative_rows": 16,
+  "exports": {
+    "description_labels.json": "1187ee51bd027595947439fb9acefadea85022529d1d74495b32d8908d6ef4e2",
+    "record_labels.json": "2ecfe09a2f5bf3b3a99bf4c36a489f408fa69f7a3cd3f12ed72016cfc5e77ace",
+    "review_ledger.json": "281cc75d7a7b21499cec573caefbde92f2ca96a6c6de45210badef1ee508488f",
+    "review_queue.json": "f15ea6f74652a33a2cb479504dbf728037d3a8688b48e0c76056b273ab1e605f",
+    "non_ai_candidates.csv": "0a8119a65233f78523c66eb1b9fd4138946e64da05b17479fdacc4c961af56dd",
+    "calibration_report.json": "b20499802b9c2fe6358cff711f69f80902e5c54b7f80c28392a2918078a521ec"
+  }
+}

@@ -1,11 +1,11 @@
 {
   "status": "active",
   "lane": "codex",
-  "updated_at": "2026-10-20T20:00:32.042262+00:00",
-  "new_completed_descriptions": 460,
-  "new_completed_rows": 466,
-  "remaining_lane_descriptions": 151,
-  "remaining_lane_rows": 159,
+  "updated_at": "2026-10-20T20:02:11.294462+00:00",
+  "new_completed_descriptions": 480,
+  "new_completed_rows": 490,
+  "remaining_lane_descriptions": 131,
+  "remaining_lane_rows": 135,
   "finalized_batches": [
     "batch-001",
     "batch-002",
@@ -29,15 +29,16 @@
     "batch-020",
     "batch-021",
     "batch-022",
-    "batch-024"
+    "batch-024",
+    "batch-025"
   ],
-  "current_batch": "batch-025",
-  "next_batch": "batch-026",
-  "current_stage": "reconciliation",
-  "active_workers": 1,
+  "current_batch": "batch-026",
+  "next_batch": "batch-027",
+  "current_stage": "independent_passes",
+  "active_workers": 2,
   "resume_requires_user_request": false,
   "stop_on_usage_limit": true,
-  "independent_workflow_run_id": "644ed59b-3a1b-45d9-8348-8486040ead58",
+  "independent_workflow_run_id": "2b2ce8ef-11e1-4460-ba6a-31e996cf2700",
   "blocker": null,
   "git_sync_note": "Herdr native labeling workers idle; previous pi-subagents /tmp run registry absent. No annotation restarted. Preserve current partial outputs; gate before accepting.",
   "locally_finalized_pending_acceptance": [
@@ -50,6 +51,5 @@
         "ann_7b87c87eefc5556a8f829a03"
       ]
     }
-  ],
-  "reconciliation_workflow_run_id": "b26bf44b-e74d-4104-ad8d-3ef3c2c0d6bf"
+  ]
 }

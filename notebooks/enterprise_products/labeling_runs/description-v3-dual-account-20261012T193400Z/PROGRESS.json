@@ -1,21 +1,21 @@
 {
   "status": "active",
-  "updated_at": "2026-10-20T20:00:32.042262+00:00",
+  "updated_at": "2026-10-20T20:02:11.294462+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
-  "new_completed_descriptions": 960,
-  "new_completed_rows": 981,
-  "cumulative_finalized_descriptions": 1120,
-  "cumulative_finalized_rows": 1155,
-  "remaining_descriptions": 271,
-  "remaining_rows": 283,
+  "new_completed_descriptions": 980,
+  "new_completed_rows": 1005,
+  "cumulative_finalized_descriptions": 1140,
+  "cumulative_finalized_rows": 1179,
+  "remaining_descriptions": 251,
+  "remaining_rows": 259,
   "annotation_workers_max": 4,
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
   "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
   "cursor_status": "027existingnativepairinprogress; retainedcoordinatorac37991e continues027then028\u2013029;025hold/026accepted.",
-  "codex_status": "025actualnativepairvalidated; FOURprivateJSONextra-brace-only acceptedoverrides originalrawpreserved; sameoriginalblind8-itemsemanticreconciliationactive.",
-  "codex_active_workers": 1,
+  "codex_status": "001\u2013022+024\u2013025accepted;023semanticHOLD;026fresh20/24pairactive.",
+  "codex_active_workers": 2,
   "cursor_live_worker_state": "Coordinator6935f0b4 recovering025originalHaiku8ae/Luna1daf in p21/p22; no completed votes repeated.",
   "active_runs": {
     "cursor_panes": [
@@ -23,11 +23,10 @@
       "wF:p26"
     ],
     "cursor_integration_owner": "ac37991e-d349-48a0-a7a3-b2c9815362ae",
-    "codex_independent_workflow": "644ed59b-3a1b-45d9-8348-8486040ead58",
-    "codex_reconciliation_workflow": "b26bf44b-e74d-4104-ad8d-3ef3c2c0d6bf"
+    "codex_independent_workflow": "2b2ce8ef-11e1-4460-ba6a-31e996cf2700"
   },
   "native_resume_receipt": "runtime/NATIVE_RESUME_AFTER_RESET_20261015.json",
-  "active_workers": 3,
+  "active_workers": 4,
   "blocker": null,
   "git_sync_note": "Herdr native labeling workers idle; previous pi-subagents /tmp run registry absent. No annotation restarted. Preserve current partial outputs; gate before accepting.",
   "semantic_acceptance_holds": {
