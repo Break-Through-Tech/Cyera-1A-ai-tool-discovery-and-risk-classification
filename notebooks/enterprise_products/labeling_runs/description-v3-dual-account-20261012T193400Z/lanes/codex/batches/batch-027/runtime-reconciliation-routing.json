@@ -1,0 +1,44 @@
+{
+  "required": [
+    "ann_7224fe731b02152a615c36fe"
+  ],
+  "extra": [
+    "ann_0e6e310303cac1e061589287",
+    "ann_4f57d836c8decab1d69c27a0",
+    "ann_99ad579743997beb30580270",
+    "ann_d998680ada62dfe617a09816",
+    "ann_ed62b431edd46db1690df9ee"
+  ],
+  "routed_ids": [
+    "ann_0e6e310303cac1e061589287",
+    "ann_4f57d836c8decab1d69c27a0",
+    "ann_7224fe731b02152a615c36fe",
+    "ann_99ad579743997beb30580270",
+    "ann_d998680ada62dfe617a09816",
+    "ann_ed62b431edd46db1690df9ee"
+  ],
+  "all20_source_proposal_pairs_reviewed": true,
+  "parent_concerns": {
+    "ann_7224fe731b02152a615c36fe": [
+      "Originalblindcheckpoint subtypeflags supported/false CONTRADICT itsownrationale saying enabledwithWEAKsupport andcoreAIdependencenotestablished. Preservedunchangedasindependentproposal; resolvehere inONEsemanticpass notmetadatacorrection. ExplicitAIindependentlyestablishesbinary; subtypecoredependency separately weakifunresolved. Do not treat lackofnativeproofaspositiveenabledproof."
+    ],
+    "ann_0e6e310303cac1e061589287": [
+      "Eligibility/enrollmentvalidation softwareexplicit, but mechanismnotstated (rulesvsAI). Determinewhethermeaningfulconventionalfunctionispositivelyestablished orpotentialAI-dependentverification remainsunexplained; doNOTinventdeterministicrules."
+    ],
+    "ann_4f57d836c8decab1d69c27a0": [
+      "Text connects phones toCAPTIONING SERVICE; captionproduction mayhumanorAI andnotexplained. Distinguish conventionalconnectionfromincludedcaptioning applicability, no rememberedvendorfeatures/implementation. Assesswholebinarysupport/weaknessfromtext."
+    ],
+    "ann_99ad579743997beb30580270": [
+      "Namedstatisticaltestsareconcreteconventionalfunctions; predictBETTEROUTCOMES broaderpromise methodnotgiven. Do not infer allprediction is ttests/deterministicorML; assesswhetherunexplainedpotentialAIfunctionwarrantsweakdespiteknownstatistics."
+    ],
+    "ann_d998680ada62dfe617a09816": [
+      "Sessionreplay/productanalytics/errortrackingconcrete; de-noiseERRORALERTS andseeWHY capabilitiesmethodunstated. No inferredfilterrules/learnedmodel. Assesswholebinarysupport vsunexplainedAI-dependentdenoising/insightclaim."
+    ],
+    "ann_ed62b431edd46db1690df9ee": [
+      "ANNUALMAINTENANCERENEWAL listsnamedsoftwarecomponents/functions, ratherthanoperations ofrenewalitself. Distinguish entitlement vs describedunderlyingsoftwarefunctions; do notborrowcurrentproductknowledge. Assesswhetherexplicitmonitoring/filetransferlabels enoughmeaningfulSOFTWAREfunctionorweakscope."
+    ]
+  },
+  "same_original_blind_run": "32e85b4c-e48f-471b-8d15-b15b4ce018eb",
+  "semantic_pass": 1,
+  "packet_sha256": "2235e245439e5d5f2b4a21a8629ad597f2ac8aac5c9e880d683867a195e8027b"
+}

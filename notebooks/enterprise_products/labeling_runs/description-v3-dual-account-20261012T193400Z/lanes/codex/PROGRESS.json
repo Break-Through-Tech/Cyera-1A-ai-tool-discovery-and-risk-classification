@@ -1,7 +1,7 @@
 {
   "status": "active",
   "lane": "codex",
-  "updated_at": "2026-10-20T20:24:01.040874+00:00",
+  "updated_at": "2026-10-20T20:28:33.820268+00:00",
   "new_completed_descriptions": 500,
   "new_completed_rows": 514,
   "remaining_lane_descriptions": 111,
@@ -35,7 +35,7 @@
   ],
   "current_batch": "batch-027",
   "next_batch": "batch-028",
-  "current_stage": "native_aggregate_transport_recovery",
+  "current_stage": "reconciliation",
   "active_workers": 1,
   "resume_requires_user_request": false,
   "stop_on_usage_limit": true,
@@ -53,7 +53,6 @@
       ]
     }
   ],
-  "reconciliation_workflow_run_id": "4112e645-fe7e-4c8f-8828-086053f0d527",
-  "major_stop_receipt": "runtime/MAJOR_RUNTIME_STOP_20261020.json",
-  "native_transport_workflow_run_id": "4e750f54-663c-4f60-9a36-4fa1c17fc53c"
+  "reconciliation_workflow_run_id": "e0714dba-c163-4d5f-a2eb-369c44855467",
+  "major_stop_receipt": "runtime/MAJOR_RUNTIME_STOP_20261020.json"
 }

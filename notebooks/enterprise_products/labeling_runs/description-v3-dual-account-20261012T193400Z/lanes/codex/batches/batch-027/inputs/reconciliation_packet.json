@@ -1,0 +1,272 @@
+[
+  {
+    "annotation_id": "ann_0e6e310303cac1e061589287",
+    "description_sha256": "5ddf1943eec6c3dbc01ff317d69631fdb7313b0a2e70b67e5609b5996758ef7c",
+    "description": "Software that will validate eligibility and enrollment for the Affordable Connectivity Program",
+    "source_record_references": [
+      "1332"
+    ],
+    "labeler": {
+      "annotation_id": "ann_0e6e310303cac1e061589287",
+      "description_sha256": "5ddf1943eec6c3dbc01ff317d69631fdb7313b0a2e70b67e5609b5996758ef7c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes software validating eligibility and enrollment for a named connectivity program, a conventional qualification and enrollment workflow with no AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Software that will validate eligibility and enrollment for the Affordable Connectivity Program"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_0e6e310303cac1e061589287",
+      "description_sha256": "5ddf1943eec6c3dbc01ff317d69631fdb7313b0a2e70b67e5609b5996758ef7c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies software validating eligibility and enrollment for a public connectivity program, a conventional qualification and enrollment workflow with no AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Software that will validate eligibility and enrollment for the Affordable Connectivity Program"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Eligibility/enrollmentvalidation softwareexplicit, but mechanismnotstated (rulesvsAI). Determinewhethermeaningfulconventionalfunctionispositivelyestablished orpotentialAI-dependentverification remainsunexplained; doNOTinventdeterministicrules."
+    ]
+  },
+  {
+    "annotation_id": "ann_4f57d836c8decab1d69c27a0",
+    "description_sha256": "7e679c3d971fa34d5e9b496935766e9e4aaf9a04be198e022b7879fdec066522",
+    "description": "Hamilton® CapTel® for Business, Interconnected by Tenacity™ is available to individuals working in a Cisco® VoIP environment and who experience hearing loss and have difficulty hearing on the phone.  Once implemented, the system will connect the Cisco phones in network to the captioning service. Each site will be recognized in our system so that employees who need captioning service can gain access while using their Cisco phone.",
+    "source_record_references": [
+      "1337"
+    ],
+    "labeler": {
+      "annotation_id": "ann_4f57d836c8decab1d69c27a0",
+      "description_sha256": "7e679c3d971fa34d5e9b496935766e9e4aaf9a04be198e022b7879fdec066522",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes connecting VoIP phones to a captioning service so employees can access captions, a communications accessibility function without an AI claim.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "the system will connect the Cisco phones in network to the captioning service.",
+        "employees who need captioning service can gain access while using their Cisco phone."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_4f57d836c8decab1d69c27a0",
+      "description_sha256": "7e679c3d971fa34d5e9b496935766e9e4aaf9a04be198e022b7879fdec066522",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This describes connecting Cisco phones to a captioning service so employees with hearing loss can access captions, a conventional communications accessibility function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "the system will connect the Cisco phones in network to the captioning service",
+        "employees who need captioning service can gain access while using their Cisco phone"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Text connects phones toCAPTIONING SERVICE; captionproduction mayhumanorAI andnotexplained. Distinguish conventionalconnectionfromincludedcaptioning applicability, no rememberedvendorfeatures/implementation. Assesswholebinarysupport/weaknessfromtext."
+    ]
+  },
+  {
+    "annotation_id": "ann_7224fe731b02152a615c36fe",
+    "description_sha256": "dfa6422e87e7f62f080f0fbc1aa6e6b294876fc1bb4a083319b4063eccc47e62",
+    "description": "Experience the industry’s only free, AI-powered solution to easily load, transform and integrate data\nBring your data to life with Informatica, the proven leader in data integration software. Now you can make better decisions with Cloud Data Integration-Free.",
+    "source_record_references": [
+      "1328"
+    ],
+    "labeler": {
+      "annotation_id": "ann_7224fe731b02152a615c36fe",
+      "description_sha256": "dfa6422e87e7f62f080f0fbc1aa6e6b294876fc1bb4a083319b4063eccc47e62",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The description explicitly markets the data integration solution as AI-powered, which is sufficient for the binary AI-positive label.",
+      "ai_type_rationale": "The text calls the solution AI-powered but does not explain whether AI is essential to data loading, transformation and integration or an enhancement; ai_enabled is the best fit for the stated conventional functions, with subtype uncertainty.",
+      "evidence_spans": [
+        "AI-powered solution to easily load, transform and integrate data"
+      ],
+      "ai_type_evidence_spans": [
+        "AI-powered solution to easily load, transform and integrate data"
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_7224fe731b02152a615c36fe",
+      "description_sha256": "dfa6422e87e7f62f080f0fbc1aa6e6b294876fc1bb4a083319b4063eccc47e62",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The offering is explicitly described as an AI-powered solution for loading, transforming, and integrating data.",
+      "ai_type_rationale": "The core offering is described as data integration, and AI is presented as powering that solution; the text does not establish that the data integration functionality depends on AI, so the best-supported subtype is enabled with weak support.",
+      "evidence_spans": [
+        "industry’s only free, AI-powered solution to easily load, transform and integrate data"
+      ],
+      "ai_type_evidence_spans": [
+        "AI-powered solution"
+      ]
+    },
+    "parent_concerns": [
+      "Originalblindcheckpoint subtypeflags supported/false CONTRADICT itsownrationale saying enabledwithWEAKsupport andcoreAIdependencenotestablished. Preservedunchangedasindependentproposal; resolvehere inONEsemanticpass notmetadatacorrection. ExplicitAIindependentlyestablishesbinary; subtypecoredependency separately weakifunresolved. Do not treat lackofnativeproofaspositiveenabledproof."
+    ]
+  },
+  {
+    "annotation_id": "ann_99ad579743997beb30580270",
+    "description_sha256": "d5d3f5e1fb17be6972715404173a17c3f32ab9513377340c1dafbcd3cf0aef34",
+    "description": "Regardless of statistical background, Minitab empowers all parts of an organization to predict better outcomes, design better products, and improve processes to generate higher revenues and reduce costs. Only Minitab offers a unique, integrated approach by providing software and services that drive business excellence from anywhere with the cloud.\n\nKey statistical tests include t tests, one and two proportions, normality test, chi-square, and equivalence tests.",
+    "source_record_references": [
+      "1336"
+    ],
+    "labeler": {
+      "annotation_id": "ann_99ad579743997beb30580270",
+      "description_sha256": "d5d3f5e1fb17be6972715404173a17c3f32ab9513377340c1dafbcd3cf0aef34",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Although it mentions predicting outcomes, the description grounds the offering in statistical analysis and names conventional statistical tests; no AI-specific method or claim is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Only Minitab offers a unique, integrated approach by providing software and services that drive business excellence from anywhere with the cloud.",
+        "Key statistical tests include t tests, one and two proportions, normality test, chi-square, and equivalence tests."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_99ad579743997beb30580270",
+      "description_sha256": "d5d3f5e1fb17be6972715404173a17c3f32ab9513377340c1dafbcd3cf0aef34",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies statistical tests including t tests, proportions, normality, chi-square, and equivalence tests, conventional statistical analysis functions; general predictive phrasing does not establish AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Key statistical tests include t tests, one and two proportions, normality test, chi-square, and equivalence tests."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Namedstatisticaltestsareconcreteconventionalfunctions; predictBETTEROUTCOMES broaderpromise methodnotgiven. Do not infer allprediction is ttests/deterministicorML; assesswhetherunexplainedpotentialAIfunctionwarrantsweakdespiteknownstatistics."
+    ]
+  },
+  {
+    "annotation_id": "ann_d998680ada62dfe617a09816",
+    "description_sha256": "dceb13303dc43bf6c3368a02dea5e202bb76f925bafc53f54c1f6710dc3bfa31",
+    "description": "LogRocket combines session replay, product analytics, and error tracking – empowering software teams to create the ideal product experience. Using LogRocket, Software teams can fix user-reported issues faster, de-noise their error alerts, and see the \"why\" behind their product analytics graphs and funnels.",
+    "source_record_references": [
+      "1341"
+    ],
+    "labeler": {
+      "annotation_id": "ann_d998680ada62dfe617a09816",
+      "description_sha256": "dceb13303dc43bf6c3368a02dea5e202bb76f925bafc53f54c1f6710dc3bfa31",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes session replay, product analytics and error tracking that help software teams diagnose issues and review product analytics; these are conventional observability and analytics functions, with no AI claim.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "LogRocket combines session replay, product analytics, and error tracking – empowering software teams to create the ideal product experience.",
+        "Software teams can fix user-reported issues faster, de-noise their error alerts, and see the \"why\" behind their product analytics graphs and funnels."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_d998680ada62dfe617a09816",
+      "description_sha256": "dceb13303dc43bf6c3368a02dea5e202bb76f925bafc53f54c1f6710dc3bfa31",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described product combines session replay, product analytics, and error tracking to help software teams diagnose issues and inspect analytics, conventional observability and analytics functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "combines session replay, product analytics, and error tracking",
+        "fix user-reported issues faster, de-noise their error alerts"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Sessionreplay/productanalytics/errortrackingconcrete; de-noiseERRORALERTS andseeWHY capabilitiesmethodunstated. No inferredfilterrules/learnedmodel. Assesswholebinarysupport vsunexplainedAI-dependentdenoising/insightclaim."
+    ]
+  },
+  {
+    "annotation_id": "ann_ed62b431edd46db1690df9ee",
+    "description_sha256": "532bea72e40f2010764ff9575a5cf1cc7f1b9e7de0c3f2338c8291a8f2804f17",
+    "description": "Annual Maintenance Renewal - 9/28/2023 9/28/2024\n1.\tKiwi Syslog Server - Single Install\n2.\tSolarWinds IP Address Manager IPX(unlimited IPs)-\n3.\tSolarWinds Network Performance Monitor SLX (unlimited elements-Standard Polling Throughput)\n4.\tSolarWinds Database Performance Analyzer for virtualized environments for SQL Server, MySQL, Oracle SE, or PostgreSQL Instance (1 to 4 licenses)\n5.\tSolarWinds Serv-U Managed File Transfer Server Per Seat License (1 server)\n6.\tSolarWinds Network Topology Mapper-SolarWinds Additional Polling Engine for SolarWinds Unlimited Licenses (Standard Polling Throughput)\n7.\tSolarWinds High Availability  -Annual\n8.\tSolarWinds Server & Application Monitor ALX (unlimited monitors-Standard Polling Throughput)",
+    "source_record_references": [
+      "1323"
+    ],
+    "labeler": {
+      "annotation_id": "ann_ed62b431edd46db1690df9ee",
+      "description_sha256": "532bea72e40f2010764ff9575a5cf1cc7f1b9e7de0c3f2338c8291a8f2804f17",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The listed licenses cover syslog, IP address management, network and database performance monitoring, file transfer, topology mapping, high availability and server/application monitoring—conventional IT operations functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "3.\tSolarWinds Network Performance Monitor SLX (unlimited elements-Standard Polling Throughput)",
+        "4.\tSolarWinds Database Performance Analyzer for virtualized environments for SQL Server, MySQL, Oracle SE, or PostgreSQL Instance (1 to 4 licenses)",
+        "8.\tSolarWinds Server & Application Monitor ALX (unlimited monitors-Standard Polling Throughput)"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_ed62b431edd46db1690df9ee",
+      "description_sha256": "532bea72e40f2010764ff9575a5cf1cc7f1b9e7de0c3f2338c8291a8f2804f17",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The renewal lists infrastructure, performance, database, file-transfer, availability, and monitoring/network-management software licenses, conventional IT operations tools.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "SolarWinds Network Performance Monitor SLX (unlimited elements-Standard Polling Throughput)",
+        "SolarWinds Server & Application Monitor ALX (unlimited monitors-Standard Polling Throughput)"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "ANNUALMAINTENANCERENEWAL listsnamedsoftwarecomponents/functions, ratherthanoperations ofrenewalitself. Distinguish entitlement vs describedunderlyingsoftwarefunctions; do notborrowcurrentproductknowledge. Assesswhetherexplicitmonitoring/filetransferlabels enoughmeaningfulSOFTWAREfunctionorweakscope."
+    ]
+  }
+]
