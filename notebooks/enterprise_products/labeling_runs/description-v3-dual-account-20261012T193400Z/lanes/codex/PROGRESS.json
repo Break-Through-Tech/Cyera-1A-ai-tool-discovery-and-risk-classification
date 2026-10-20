@@ -1,7 +1,7 @@
 {
-  "status": "major_runtime_stop",
+  "status": "active",
   "lane": "codex",
-  "updated_at": "2026-10-20T20:21:03.609368+00:00",
+  "updated_at": "2026-10-20T20:24:01.040874+00:00",
   "new_completed_descriptions": 500,
   "new_completed_rows": 514,
   "remaining_lane_descriptions": 111,
@@ -35,12 +35,12 @@
   ],
   "current_batch": "batch-027",
   "next_batch": "batch-028",
-  "current_stage": "independent_complete_preserved_before_comparison",
-  "active_workers": 0,
-  "resume_requires_user_request": true,
+  "current_stage": "native_aggregate_transport_recovery",
+  "active_workers": 1,
+  "resume_requires_user_request": false,
   "stop_on_usage_limit": true,
   "independent_workflow_run_id": "2b2ce8ef-11e1-4460-ba6a-31e996cf2700",
-  "blocker": "Codex error: The usage limit has been reached",
+  "blocker": null,
   "git_sync_note": "Herdr native labeling workers idle; previous pi-subagents /tmp run registry absent. No annotation restarted. Preserve current partial outputs; gate before accepting.",
   "locally_finalized_pending_acceptance": [
     {
@@ -54,5 +54,6 @@
     }
   ],
   "reconciliation_workflow_run_id": "4112e645-fe7e-4c8f-8828-086053f0d527",
-  "major_stop_receipt": "runtime/MAJOR_RUNTIME_STOP_20261020.json"
+  "major_stop_receipt": "runtime/MAJOR_RUNTIME_STOP_20261020.json",
+  "native_transport_workflow_run_id": "4e750f54-663c-4f60-9a36-4fa1c17fc53c"
 }

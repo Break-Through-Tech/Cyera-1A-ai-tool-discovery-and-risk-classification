@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-10-20T20:22:54.138453+00:00",
+  "original_run": "5d9b5fe6-01f9-484b-b7f9-c9c9464d261c",
+  "original_native_path": "/tmp/pi-subagents-uid-1000/async-subagent-runs/5d9b5fe6-01f9-484b-b7f9-c9c9464d261c/structured-output/pi-subagent-structured-hUcRDs/output.json",
+  "original_native_sha256": "1fce4b6722371d6b0a3608ad3a0d6c44d578e54ff0b1a18ce41515a916c93a16",
+  "all20_original_private_hashes": {
+    "agents/labeler/checkpoints/ann_99ad579743997beb30580270.json": "d6e3ef6c6072d594e205807b1a96d6371693845a55f4dc4769e56ef415d643ca",
+    "agents/labeler/checkpoints/ann_9d31560e5638bc1c198f7b42.json": "d2009c3a78f97b1fed639eb84be7a1a1a997810564b8f8decc2e52119835bed5",
+    "agents/labeler/checkpoints/ann_88c2c96fc224ccd350ffacb2.json": "dd2298fd558500331ae96c9b1382ac01f56313b82d30415f1b5baf505cc26cb6",
+    "agents/labeler/checkpoints/ann_95815bb66158d12ea2c8d32e.json": "4613f658107ae9280c623fa893f5e793d86d574c4324b539e04f72a2a167d2e6",
+    "agents/labeler/checkpoints/ann_d998680ada62dfe617a09816.json": "a3eb8c5153be3ef8c2da922463025fcb9341b327b678a71a8d4c07aac6be2388",
+    "agents/labeler/checkpoints/ann_4f57d836c8decab1d69c27a0.json": "bbb75816c8279975b755278aeffa34142fd70cb925bc2d9cbede3f0d15a3a2a4",
+    "agents/labeler/checkpoints/ann_9a8fadd25af31d62f3be357c.json": "0db8da1be08e56bc699813937128cdd9e9031dbfbe5098c248558a3bc3fe37b1",
+    "agents/labeler/checkpoints/ann_aa040b42968593a7b7c27a00.json": "13aea33a4492bf43d268fb23216ec713b3e95de55163df6aebd91ca2046acf05",
+    "agents/labeler/checkpoints/ann_ed62b431edd46db1690df9ee.json": "fdb9707e270dbb0cd39c4da2a999db18e747f5eecf40b5209787a9fb172c262b",
+    "agents/labeler/checkpoints/ann_cf601ecf2ebed344953e8605.json": "8dc6c3292ab7cd0ae0d3634827c0b53906080e6249b5b744e82f61b233c826a5",
+    "agents/labeler/checkpoints/ann_74689493c75eb431f2fac00f.json": "2966e0dcba5901b377a8942f4e6fa568356e3e92ee88beb148f41a15c82ce3d5",
+    "agents/labeler/checkpoints/ann_863d5546cd81f9f15bbd00bd.json": "ead330a81da04d76243b337ccd1ae3ce519e426b8e378c1f8f491bc63268286a",
+    "agents/labeler/checkpoints/ann_0e6e310303cac1e061589287.json": "36c2531c0b6592d66d638ddb71e13071176761c5e286483c9721de3e0d1e22a0",
+    "agents/labeler/checkpoints/ann_ed7f9d22f10db733c0b08378.json": "b003ca794c39636094a74cb8f2dc5380c758cd9ebd51549d3705ffb5fd07d5da",
+    "agents/labeler/checkpoints/ann_c690caf8361f5a3318772ea2.json": "538d1052b48663fa5c1c339d436c805ce15a900147ac7c79e6b44c9297ee991f",
+    "agents/labeler/checkpoints/ann_5eb565a5af584de927e647e8.json": "2e50bf135eeda0690836a0ce892a0d1895bdb736dfa6c2ee72171c58fe63af5d",
+    "agents/labeler/checkpoints/ann_7224fe731b02152a615c36fe.json": "19f9fc4abfa775517949b97e237a98aa508ece1d46528524e43d367301247df7",
+    "agents/labeler/checkpoints/ann_8bd9ac9235aa416fd61df890.json": "d978bc52e3385b4b290a80e2e85ed963f3fd3374dc532bde49ee365a2fdc63d2",
+    "agents/labeler/checkpoints/ann_dd0c9774a3adc2161a7d4eae.json": "097967940296d6a489fbd5076719a7d4776271224e3869d08740b8088b0ea858",
+    "agents/labeler/checkpoints/ann_3828d29c1b272d71d6666ac9.json": "1c55b270c34cd08cfb66925e324269b9d7548bf79aae0fc9b2d49a6400cbeca0"
+  },
+  "private20_fullschema_exactquotes_pass": true,
+  "issue": "Nativeaggregate twoevidence_spans arrays doubleescaped LF/TAB; all20privatecheckpointsALREADYcorrect/unmodified. No checkpointrepairneeded. SameoriginalagentnativeaggregatecopyONLY.",
+  "native_private_different_ids": [
+    "ann_9d31560e5638bc1c198f7b42",
+    "ann_ed62b431edd46db1690df9ee"
+  ],
+  "change_allowed": "ONLYnativeaggregate serialization/transcription matchesexistingprivate20 exactobjects; nofileswrites/semanticchanges"
+}

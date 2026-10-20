@@ -1,6 +1,6 @@
 {
-  "status": "major_runtime_stop",
-  "updated_at": "2026-10-20T20:21:03.609368+00:00",
+  "status": "active",
+  "updated_at": "2026-10-20T20:24:01.040874+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
   "new_completed_descriptions": 1020,
@@ -11,16 +11,23 @@
   "remaining_rows": 211,
   "annotation_workers_max": 4,
   "stop_on_usage_limit": true,
-  "resume_requires_user_request": true,
+  "resume_requires_user_request": false,
   "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
-  "cursor_status": "001\u2013024+026\u2013027accepted;028preparednotlaunched;025semanticHOLD;coordinator72edquotaFAILED.",
-  "codex_status": "001\u2013022+024\u2013026accepted;02740rawpreservedpendingstructuralrecovery/compare;023semanticHOLD.",
-  "codex_active_workers": 0,
+  "cursor_status": "028freshHaiku/LunapairpromptsONCE p27/p28 underSAMEretainedcoordinatorb4b89661; accepted027/026immutable,025hold.",
+  "codex_status": "027all40raw/privatevalid; SAMEoriginal labeler native-onlynewline/tabtransportactive beforecompare;023hold.",
+  "codex_active_workers": 1,
   "cursor_live_worker_state": "Coordinator6935f0b4 recovering025originalHaiku8ae/Luna1daf in p21/p22; no completed votes repeated.",
-  "active_runs": {},
+  "active_runs": {
+    "cursor_panes": [
+      "wF:p27",
+      "wF:p28"
+    ],
+    "cursor_integration_owner": "b4b89661-d498-422a-b69c-b79422a80b61",
+    "codex_native_transport_workflow": "4e750f54-663c-4f60-9a36-4fa1c17fc53c"
+  },
   "native_resume_receipt": "runtime/NATIVE_RESUME_AFTER_RESET_20261015.json",
-  "active_workers": 0,
-  "blocker": "Codex error: The usage limit has been reached",
+  "active_workers": 3,
+  "blocker": null,
   "git_sync_note": "Herdr native labeling workers idle; previous pi-subagents /tmp run registry absent. No annotation restarted. Preserve current partial outputs; gate before accepting.",
   "semantic_acceptance_holds": {
     "cursor-batch-025": {
