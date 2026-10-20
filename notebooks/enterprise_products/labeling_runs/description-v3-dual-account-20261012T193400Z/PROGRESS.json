@@ -1,6 +1,6 @@
 {
-  "status": "paused_for_git_sync",
-  "updated_at": "2026-10-20T19:15:20.536854+00:00",
+  "status": "active_recovery",
+  "updated_at": "2026-10-20T19:21:41.672792+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
   "new_completed_descriptions": 900,
@@ -13,21 +13,20 @@
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
   "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
-  "cursor_status": "001\u2013024 parent accepted;025 fresh pair p1Z/p10 under retained coordinator4f4c2546.",
-  "codex_status": "001\u2013021 finalized;022 originalblind7-item reconciliation active.",
-  "codex_active_workers": 0,
-  "cursor_live_worker_state": "All labeling Herdr agents idle; paused for synchronization.",
+  "cursor_status": "025 original model/provenance recovery under coordinator6935f0b4; fresh ordinaryp21/p22 provisioned; no completed votes repeated.",
+  "codex_status": "022 original7complete; fresh copy-only aggregate transport afterlosttemporaryregistry, thenparentgate/fresh023.",
+  "codex_active_workers": 1,
+  "cursor_live_worker_state": "Newactualpi-subagents coordinator active; two fresh ordinaryHerdr shells p21/p22.",
   "active_runs": {
     "cursor_panes": [
-      "wF:p1Z",
-      "wF:p10"
+      "wF:p21",
+      "wF:p22"
     ],
-    "cursor_integration_owner": "4f4c2546-d3e3-47af-ba9d-b5f0a0aad48b",
-    "codex_independent_workflow": "ff3c601b-aec0-453e-88dc-7a29b6a8c4aa",
-    "codex_reconciliation_workflow": "8be35b12-a929-4a40-af1e-5a4581eb2c6a"
+    "cursor_integration_owner": "6935f0b4-f67d-41d6-a307-d839e0925956",
+    "codex_transport_workflow": "e5951618-88d3-44fa-a8a8-a75268a6fa65"
   },
   "native_resume_receipt": "runtime/NATIVE_RESUME_AFTER_RESET_20261015.json",
-  "active_workers": 0,
+  "active_workers": 1,
   "blocker": null,
   "git_sync_note": "Herdr native labeling workers idle; previous pi-subagents /tmp run registry absent. No annotation restarted. Preserve current partial outputs; gate before accepting."
 }
