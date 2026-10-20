@@ -65,3 +65,37 @@ No model bundle is exported and no model is promoted. The test split has now bee
 evaluated; its outcomes must not select future settings/rules/thresholds while
 claiming independent final performance. Exact replay reproduces this settled result,
 not new independent evidence.
+
+## 14-category classification — description-only baseline
+
+**Status: frozen held-out test evaluated; not promoted.** The separate
+`aitoolbuzz-category-v1` dataset uses the cleaned AIToolBuzz catalog only.
+The input is `Short Description`; the target is the original 14-value
+`Category`. The preparation script keeps normalized-name, website-host, exact
+description, and strongly similar-description groups within one partition.
+It excludes the 10 rows in five identical-description pairs with conflicting
+Category labels pending review, while retaining 24 same-label duplicate-text
+rows in shared split groups. The dataset has 8,214 train, 2,739 validation,
+and 2,738 test examples. See
+[method and review files](notebooks/category_classification/README.md).
+
+Fixed first-pass model: train-only fitted word unigram/bigram TF-IDF
+(`min_df=2`) plus logistic regression (`max_iter=1000`, seed `20261014`).
+No feature selection, hyperparameter search, threshold tuning, or refit took
+place after validation. The most-frequent-category dummy is the comparison.
+
+| Split | Model | Accuracy | Macro F1 | Weighted F1 |
+| --- | --- | ---: | ---: | ---: |
+| Validation | Most frequent | 0.2574 | 0.0292 | 0.1054 |
+| Validation | TF-IDF + logistic regression | 0.5152 | 0.3469 | 0.4744 |
+| Test | Most frequent | 0.2575 | 0.0293 | 0.1055 |
+| Test | TF-IDF + logistic regression | 0.5139 | 0.3321 | 0.4698 |
+
+The model beats the trivial baseline, but test recall is only 0.022 for
+`Personal And Lifestyle` and 0.030 for `Security And Privacy`.
+[The full report](data/category_classification/v1/baseline_evaluation.json)
+has per-class metrics and confusion matrices. Catalog description results do
+not establish performance on runtime website-enriched text or unseen
+out-of-catalog Tools; no model bundle is exported. The test set has been
+evaluated and cannot guide settings while retaining an independent final-test
+claim.

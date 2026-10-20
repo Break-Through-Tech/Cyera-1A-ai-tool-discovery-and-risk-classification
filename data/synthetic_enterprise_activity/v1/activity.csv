@@ -1,0 +1,266 @@
+event_id,timestamp,employee_id,department,job_role,application_name,domain,event_type,usage_purpose,data_sensitivity_tier
+evt_000001,2026-09-15T07:39:00Z,emp_022,Engineering,Software Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000002,2026-09-15T08:22:00Z,emp_054,Support,Support Specialist,Slack,slack.com,app_open,team_messaging,internal
+evt_000003,2026-09-15T08:33:00Z,emp_049,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000004,2026-09-15T08:51:00Z,emp_051,Engineering,Software Engineer,Magic Inspector,magicinspector.com,browser_visit,visual_testing,internal
+evt_000005,2026-09-15T10:04:00Z,emp_061,Finance,Financial Analyst,ChatGPT,chatgpt.com,app_open,draft_summary,confidential
+evt_000006,2026-09-15T10:30:00Z,emp_061,Finance,Financial Analyst,ChatGPT,chatgpt.com,browser_visit,draft_summary,confidential
+evt_000007,2026-09-15T11:29:00Z,emp_049,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000008,2026-09-15T13:00:00Z,emp_067,Engineering,Data Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000009,2026-09-15T13:02:00Z,emp_049,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000010,2026-09-15T15:06:00Z,emp_061,Finance,Financial Analyst,ChatGPT,chatgpt.com,browser_visit,draft_summary,confidential
+evt_000011,2026-09-15T16:38:00Z,emp_012,IT,IT Administrator,Mattermost,mattermost.com,app_open,team_messaging,internal
+evt_000012,2026-09-15T20:51:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000013,2026-09-16T09:10:00Z,emp_052,Marketing,Marketing Specialist,MeetOscar,meetoscar.com,app_open,email_campaigns,internal
+evt_000014,2026-09-16T09:14:00Z,emp_032,Support,Support Specialist,Slack,slack.com,app_open,team_messaging,internal
+evt_000015,2026-09-16T09:24:00Z,emp_064,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000016,2026-09-16T09:35:00Z,emp_030,Support,Customer Success Representative,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000017,2026-09-16T10:27:00Z,emp_063,Engineering,Engineering Manager,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000018,2026-09-16T10:42:00Z,emp_053,Marketing,Campaign Analyst,MeetOscar,meetoscar.com,browser_visit,email_campaigns,internal
+evt_000019,2026-09-16T10:43:00Z,emp_058,Engineering,Data Engineer,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000020,2026-09-16T10:51:00Z,emp_030,Support,Customer Success Representative,Slack,slack.com,app_open,team_messaging,internal
+evt_000021,2026-09-16T13:51:00Z,emp_038,Engineering,Software Engineer,Cursor,cursor.so,browser_visit,software_development,internal
+evt_000022,2026-09-16T14:32:00Z,emp_031,Sales,Account Executive,Playbooks,insidesales.com,app_open,sales_outreach,internal
+evt_000023,2026-09-16T15:35:00Z,emp_026,Operations,Operations Manager,Workbench,workbench.example,browser_visit,unknown,unknown
+evt_000024,2026-09-16T16:12:00Z,emp_004,Sales,Sales Operations Analyst,Playbooks,insidesales.com,browser_visit,sales_outreach,internal
+evt_000025,2026-09-16T16:37:00Z,emp_004,Sales,Sales Operations Analyst,Slack,slack.com,app_open,team_messaging,internal
+evt_000026,2026-09-16T16:50:00Z,emp_051,Engineering,Software Engineer,Magic Inspector,magicinspector.com,browser_visit,visual_testing,internal
+evt_000027,2026-09-16T17:12:00Z,emp_052,Marketing,Marketing Specialist,MeetOscar,meetoscar.com,browser_visit,email_campaigns,internal
+evt_000028,2026-09-16T17:42:00Z,emp_053,Marketing,Campaign Analyst,MeetOscar,meetoscar.com,browser_visit,email_campaigns,internal
+evt_000029,2026-09-16T21:27:00Z,emp_030,Support,Customer Success Representative,Slack,slack.com,app_open,team_messaging,internal
+evt_000030,2026-09-17T08:59:00Z,emp_067,Engineering,Data Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000031,2026-09-17T09:31:00Z,emp_005,Finance,Accountant,ChatGPT,chatgpt.com,app_open,draft_summary,confidential
+evt_000032,2026-09-17T10:11:00Z,emp_024,Engineering,Engineering Manager,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000033,2026-09-17T10:47:00Z,emp_067,Engineering,Data Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000034,2026-09-17T11:52:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000035,2026-09-17T12:28:00Z,emp_063,Engineering,Engineering Manager,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000036,2026-09-17T12:59:00Z,emp_067,Engineering,Data Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000037,2026-09-17T15:04:00Z,emp_033,Engineering,Engineering Manager,Cursor,cursor.so,app_open,software_development,internal
+evt_000038,2026-09-17T15:06:00Z,emp_022,Engineering,Software Engineer,Cursor,cursor.so,browser_visit,software_development,internal
+evt_000039,2026-09-17T15:09:00Z,emp_053,Marketing,Campaign Analyst,MeetOscar,meetoscar.com,browser_visit,email_campaigns,internal
+evt_000040,2026-09-17T18:54:00Z,emp_049,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000041,2026-09-17T19:34:00Z,emp_023,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000042,2026-09-17T21:39:00Z,emp_022,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000043,2026-09-18T09:32:00Z,emp_023,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000044,2026-09-18T11:07:00Z,emp_005,Finance,Accountant,ChatGPT,chatgpt.com,browser_visit,draft_summary,confidential
+evt_000045,2026-09-18T11:55:00Z,emp_012,IT,IT Administrator,Mattermost,mattermost.com,app_open,team_messaging,internal
+evt_000046,2026-09-18T13:34:00Z,emp_030,Support,Customer Success Representative,Slack,slack.com,app_open,team_messaging,internal
+evt_000047,2026-09-18T17:20:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000048,2026-09-18T17:31:00Z,emp_064,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000049,2026-09-18T19:36:00Z,emp_040,Marketing,Marketing Manager,MeetOscar,meetoscar.com,browser_visit,email_campaigns,internal
+evt_000050,2026-09-19T15:35:00Z,emp_030,Support,Customer Success Representative,Slack,slack.com,app_open,team_messaging,internal
+evt_000051,2026-09-19T16:07:00Z,emp_005,Finance,Accountant,ChatGPT,chatgpt.com,app_open,draft_summary,confidential
+evt_000052,2026-09-20T11:30:00Z,emp_001,Engineering,Data Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000053,2026-09-20T18:21:00Z,emp_022,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000054,2026-09-20T19:14:00Z,emp_058,Engineering,Data Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000055,2026-09-21T07:22:00Z,emp_058,Engineering,Data Engineer,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000056,2026-09-21T09:30:00Z,emp_045,Engineering,Software Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000057,2026-09-21T12:19:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000058,2026-09-21T13:37:00Z,emp_048,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000059,2026-09-21T14:28:00Z,emp_022,Engineering,Software Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000060,2026-09-21T14:44:00Z,emp_003,Sales,Sales Operations Analyst,Slack,slack.com,app_open,team_messaging,internal
+evt_000061,2026-09-21T14:53:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000062,2026-09-21T15:26:00Z,emp_052,Marketing,Marketing Specialist,MeetOscar,meetoscar.com,browser_visit,email_campaigns,internal
+evt_000063,2026-09-21T15:55:00Z,emp_034,Marketing,Marketing Specialist,MeetOscar,meetoscar.com,browser_visit,email_campaigns,internal
+evt_000064,2026-09-21T16:26:00Z,emp_063,Engineering,Engineering Manager,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000065,2026-09-21T18:16:00Z,emp_058,Engineering,Data Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000066,2026-09-21T18:32:00Z,emp_055,Research,Research Manager,Amazon Comprehend,aws.amazon.com,browser_visit,text_analysis,confidential
+evt_000067,2026-09-21T19:57:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000068,2026-09-21T22:45:00Z,emp_004,Sales,Sales Operations Analyst,Slack,slack.com,app_open,team_messaging,internal
+evt_000069,2026-09-22T08:45:00Z,emp_038,Engineering,Software Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000070,2026-09-22T10:53:00Z,emp_062,Finance,Financial Analyst,ChatGPT,chatgpt.com,browser_visit,draft_summary,confidential
+evt_000071,2026-09-22T13:14:00Z,emp_003,Sales,Sales Operations Analyst,Slack,slack.com,app_open,team_messaging,internal
+evt_000072,2026-09-22T15:07:00Z,emp_030,Support,Customer Success Representative,Slack,slack.com,app_open,team_messaging,internal
+evt_000073,2026-09-22T15:07:00Z,emp_064,Sales,Account Executive,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000074,2026-09-22T18:20:00Z,emp_045,Engineering,Software Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000075,2026-09-22T19:15:00Z,emp_005,Finance,Accountant,ChatGPT,chatgpt.com,app_open,draft_summary,confidential
+evt_000076,2026-09-22T22:32:00Z,emp_068,Sales,Sales Manager,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000077,2026-09-22T22:53:00Z,emp_067,Engineering,Data Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000078,2026-09-22T23:21:00Z,emp_023,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000079,2026-09-23T10:51:00Z,emp_030,Support,Customer Success Representative,Slack,slack.com,app_open,team_messaging,internal
+evt_000080,2026-09-23T12:19:00Z,emp_012,IT,IT Administrator,Mattermost,mattermost.com,browser_visit,team_messaging,internal
+evt_000081,2026-09-23T12:41:00Z,emp_062,Finance,Financial Analyst,ChatGPT,chatgpt.com,browser_visit,draft_summary,confidential
+evt_000082,2026-09-23T13:07:00Z,emp_038,Engineering,Software Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000083,2026-09-23T13:15:00Z,emp_049,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000084,2026-09-23T13:38:00Z,emp_032,Support,Support Specialist,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000085,2026-09-23T16:03:00Z,emp_022,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000086,2026-09-23T17:16:00Z,emp_061,Finance,Financial Analyst,ChatGPT,chatgpt.com,browser_visit,draft_summary,confidential
+evt_000087,2026-09-23T18:24:00Z,emp_055,Research,Research Manager,Amazon Comprehend,aws.amazon.com,app_open,text_analysis,confidential
+evt_000088,2026-09-23T20:12:00Z,emp_026,Operations,Operations Manager,Workbench,workbench.example,browser_visit,unknown,unknown
+evt_000089,2026-09-23T20:24:00Z,emp_063,Engineering,Engineering Manager,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000090,2026-09-24T08:18:00Z,emp_023,Sales,Account Executive,Playbooks,insidesales.com,browser_visit,sales_outreach,internal
+evt_000091,2026-09-24T09:00:00Z,emp_036,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000092,2026-09-24T09:09:00Z,emp_001,Engineering,Data Engineer,Cursor,cursor.so,browser_visit,software_development,internal
+evt_000093,2026-09-24T09:51:00Z,emp_060,Marketing,Marketing Manager,MeetOscar,meetoscar.com,browser_visit,email_campaigns,internal
+evt_000094,2026-09-24T11:24:00Z,emp_023,Sales,Account Executive,Playbooks,insidesales.com,browser_visit,sales_outreach,internal
+evt_000095,2026-09-24T12:22:00Z,emp_064,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000096,2026-09-24T13:31:00Z,emp_022,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000097,2026-09-24T15:22:00Z,emp_033,Engineering,Engineering Manager,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000098,2026-09-24T18:25:00Z,emp_023,Sales,Account Executive,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000099,2026-09-24T18:41:00Z,emp_040,Marketing,Marketing Manager,MeetOscar,meetoscar.com,browser_visit,email_campaigns,internal
+evt_000100,2026-09-24T18:58:00Z,emp_003,Sales,Sales Operations Analyst,Slack,slack.com,app_open,team_messaging,internal
+evt_000101,2026-09-24T20:39:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000102,2026-09-25T08:19:00Z,emp_054,Support,Support Specialist,Slack,slack.com,app_open,team_messaging,internal
+evt_000103,2026-09-25T09:06:00Z,emp_071,Finance,Financial Analyst,ChatGPT,chatgpt.com,browser_visit,draft_summary,confidential
+evt_000104,2026-09-25T11:46:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000105,2026-09-25T14:33:00Z,emp_030,Support,Customer Success Representative,Slack,slack.com,app_open,team_messaging,internal
+evt_000106,2026-09-25T16:43:00Z,emp_064,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000107,2026-09-26T07:23:00Z,emp_023,Sales,Account Executive,Playbooks,insidesales.com,app_open,sales_outreach,internal
+evt_000108,2026-09-26T10:36:00Z,emp_015,Operations,Operations Analyst,Workbench,workbench.example,browser_visit,unknown,unknown
+evt_000109,2026-09-26T11:19:00Z,emp_032,Support,Support Specialist,Slack,slack.com,app_open,team_messaging,internal
+evt_000110,2026-09-26T11:49:00Z,emp_030,Support,Customer Success Representative,Slack,slack.com,app_open,team_messaging,internal
+evt_000111,2026-09-26T15:14:00Z,emp_022,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000112,2026-09-26T18:32:00Z,emp_061,Finance,Financial Analyst,ChatGPT,chatgpt.com,app_open,draft_summary,confidential
+evt_000113,2026-09-27T09:41:00Z,emp_030,Support,Customer Success Representative,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000114,2026-09-27T10:37:00Z,emp_038,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000115,2026-09-27T13:30:00Z,emp_046,Support,Support Specialist,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000116,2026-09-28T11:55:00Z,emp_064,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000117,2026-09-28T14:41:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000118,2026-09-28T14:47:00Z,emp_024,Engineering,Engineering Manager,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000119,2026-09-28T14:54:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000120,2026-09-28T16:23:00Z,emp_022,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000121,2026-09-28T16:39:00Z,emp_030,Support,Customer Success Representative,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000122,2026-09-28T16:50:00Z,emp_068,Sales,Sales Manager,Playbooks,insidesales.com,browser_visit,sales_outreach,internal
+evt_000123,2026-09-28T17:01:00Z,emp_038,Engineering,Software Engineer,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000124,2026-09-28T17:17:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000125,2026-09-28T18:48:00Z,emp_067,Engineering,Data Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000126,2026-09-28T19:44:00Z,emp_003,Sales,Sales Operations Analyst,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000127,2026-09-29T08:06:00Z,emp_003,Sales,Sales Operations Analyst,Slack,slack.com,app_open,team_messaging,internal
+evt_000128,2026-09-29T08:48:00Z,emp_058,Engineering,Data Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000129,2026-09-29T09:14:00Z,emp_040,Marketing,Marketing Manager,MeetOscar,meetoscar.com,app_open,email_campaigns,internal
+evt_000130,2026-09-29T09:58:00Z,emp_040,Marketing,Marketing Manager,MeetOscar,meetoscar.com,browser_visit,email_campaigns,internal
+evt_000131,2026-09-29T12:29:00Z,emp_022,Engineering,Software Engineer,Cursor,cursor.so,browser_visit,software_development,internal
+evt_000132,2026-09-29T12:39:00Z,emp_012,IT,IT Administrator,Mattermost,mattermost.com,app_open,team_messaging,internal
+evt_000133,2026-09-29T12:41:00Z,emp_001,Engineering,Data Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000134,2026-09-29T14:47:00Z,emp_061,Finance,Financial Analyst,ChatGPT,chatgpt.com,browser_visit,draft_summary,confidential
+evt_000135,2026-09-29T16:32:00Z,emp_003,Sales,Sales Operations Analyst,Slack,slack.com,app_open,team_messaging,internal
+evt_000136,2026-09-29T18:48:00Z,emp_003,Sales,Sales Operations Analyst,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000137,2026-09-29T19:08:00Z,emp_040,Marketing,Marketing Manager,MeetOscar,meetoscar.com,browser_visit,email_campaigns,internal
+evt_000138,2026-09-29T21:06:00Z,emp_030,Support,Customer Success Representative,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000139,2026-09-29T21:40:00Z,emp_001,Engineering,Data Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000140,2026-09-29T22:16:00Z,emp_001,Engineering,Data Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000141,2026-09-29T22:59:00Z,emp_068,Sales,Sales Manager,Playbooks,insidesales.com,browser_visit,sales_outreach,internal
+evt_000142,2026-09-30T07:25:00Z,emp_022,Engineering,Software Engineer,Cursor,cursor.so,browser_visit,software_development,internal
+evt_000143,2026-09-30T07:40:00Z,emp_006,Finance,Financial Analyst,ChatGPT,chatgpt.com,browser_visit,draft_summary,confidential
+evt_000144,2026-09-30T07:53:00Z,emp_068,Sales,Sales Manager,Playbooks,insidesales.com,app_open,sales_outreach,internal
+evt_000145,2026-09-30T08:57:00Z,emp_004,Sales,Sales Operations Analyst,Slack,slack.com,app_open,team_messaging,internal
+evt_000146,2026-09-30T13:12:00Z,emp_049,Sales,Account Executive,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000147,2026-09-30T15:44:00Z,emp_003,Sales,Sales Operations Analyst,Slack,slack.com,app_open,team_messaging,internal
+evt_000148,2026-09-30T15:46:00Z,emp_031,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000149,2026-09-30T16:00:00Z,emp_054,Support,Support Specialist,Slack,slack.com,app_open,team_messaging,internal
+evt_000150,2026-09-30T18:14:00Z,emp_067,Engineering,Data Engineer,Cursor,cursor.so,browser_visit,software_development,internal
+evt_000151,2026-09-30T19:46:00Z,emp_062,Finance,Financial Analyst,ChatGPT,chatgpt.com,app_open,draft_summary,confidential
+evt_000152,2026-09-30T20:26:00Z,emp_059,Finance,Financial Analyst,ChatGPT,chatgpt.com,browser_visit,draft_summary,confidential
+evt_000153,2026-09-30T20:59:00Z,emp_071,Finance,Financial Analyst,ChatGPT,chatgpt.com,app_open,draft_summary,confidential
+evt_000154,2026-09-30T22:02:00Z,emp_067,Engineering,Data Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000155,2026-10-01T08:23:00Z,emp_030,Support,Customer Success Representative,Slack,slack.com,app_open,team_messaging,internal
+evt_000156,2026-10-01T09:30:00Z,emp_051,Engineering,Software Engineer,Magic Inspector,magicinspector.com,browser_visit,visual_testing,internal
+evt_000157,2026-10-01T09:42:00Z,emp_005,Finance,Accountant,ChatGPT,chatgpt.com,browser_visit,draft_summary,confidential
+evt_000158,2026-10-01T09:53:00Z,emp_049,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000159,2026-10-01T13:33:00Z,emp_058,Engineering,Data Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000160,2026-10-01T14:07:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000161,2026-10-01T17:52:00Z,emp_024,Engineering,Engineering Manager,Magic Inspector,magicinspector.com,browser_visit,visual_testing,internal
+evt_000162,2026-10-01T21:37:00Z,emp_049,Sales,Account Executive,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000163,2026-10-01T22:28:00Z,emp_033,Engineering,Engineering Manager,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000164,2026-10-02T07:23:00Z,emp_064,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000165,2026-10-02T08:55:00Z,emp_026,Operations,Operations Manager,Workbench,workbench.example,browser_visit,unknown,unknown
+evt_000166,2026-10-02T09:54:00Z,emp_061,Finance,Financial Analyst,ChatGPT,chatgpt.com,app_open,draft_summary,confidential
+evt_000167,2026-10-02T11:04:00Z,emp_030,Support,Customer Success Representative,Slack,slack.com,app_open,team_messaging,internal
+evt_000168,2026-10-02T16:26:00Z,emp_043,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000169,2026-10-02T16:41:00Z,emp_004,Sales,Sales Operations Analyst,Playbooks,insidesales.com,app_open,sales_outreach,internal
+evt_000170,2026-10-02T19:31:00Z,emp_058,Engineering,Data Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000171,2026-10-02T19:43:00Z,emp_001,Engineering,Data Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000172,2026-10-03T10:18:00Z,emp_038,Engineering,Software Engineer,Cursor,cursor.so,browser_visit,software_development,internal
+evt_000173,2026-10-03T18:15:00Z,emp_068,Sales,Sales Manager,Playbooks,insidesales.com,app_open,sales_outreach,internal
+evt_000174,2026-10-04T20:20:00Z,emp_023,Sales,Account Executive,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000175,2026-10-04T20:28:00Z,emp_054,Support,Support Specialist,Slack,slack.com,app_open,team_messaging,internal
+evt_000176,2026-10-05T07:05:00Z,emp_031,Sales,Account Executive,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000177,2026-10-05T07:11:00Z,emp_005,Finance,Accountant,ChatGPT,chatgpt.com,app_open,draft_summary,confidential
+evt_000178,2026-10-05T08:12:00Z,emp_026,Operations,Operations Manager,Workbench,workbench.example,browser_visit,unknown,unknown
+evt_000179,2026-10-05T09:32:00Z,emp_062,Finance,Financial Analyst,ChatGPT,chatgpt.com,browser_visit,draft_summary,confidential
+evt_000180,2026-10-05T11:12:00Z,emp_003,Sales,Sales Operations Analyst,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000181,2026-10-05T11:14:00Z,emp_022,Engineering,Software Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000182,2026-10-05T13:24:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000183,2026-10-05T15:09:00Z,emp_060,Marketing,Marketing Manager,MeetOscar,meetoscar.com,browser_visit,email_campaigns,internal
+evt_000184,2026-10-05T15:36:00Z,emp_039,Sales,Account Executive,Playbooks,insidesales.com,browser_visit,sales_outreach,internal
+evt_000185,2026-10-05T16:44:00Z,emp_049,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000186,2026-10-05T17:12:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000187,2026-10-05T18:06:00Z,emp_054,Support,Support Specialist,Slack,slack.com,app_open,team_messaging,internal
+evt_000188,2026-10-05T18:51:00Z,emp_035,Product,Product Manager,Open Canvas AI,open-canvas-ai.example,browser_visit,product_ideation,internal
+evt_000189,2026-10-05T18:55:00Z,emp_054,Support,Support Specialist,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000190,2026-10-05T20:52:00Z,emp_022,Engineering,Software Engineer,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000191,2026-10-05T22:25:00Z,emp_030,Support,Customer Success Representative,Slack,slack.com,app_open,team_messaging,internal
+evt_000192,2026-10-05T23:33:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000193,2026-10-06T10:14:00Z,emp_023,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000194,2026-10-06T10:40:00Z,emp_030,Support,Customer Success Representative,Slack,slack.com,app_open,team_messaging,internal
+evt_000195,2026-10-06T12:01:00Z,emp_038,Engineering,Software Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000196,2026-10-06T12:09:00Z,emp_061,Finance,Financial Analyst,ChatGPT,chatgpt.com,app_open,draft_summary,confidential
+evt_000197,2026-10-06T13:03:00Z,emp_051,Engineering,Software Engineer,Magic Inspector,magicinspector.com,browser_visit,visual_testing,internal
+evt_000198,2026-10-06T14:27:00Z,emp_064,Sales,Account Executive,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000199,2026-10-06T14:47:00Z,emp_030,Support,Customer Success Representative,Slack,slack.com,app_open,team_messaging,internal
+evt_000200,2026-10-06T14:48:00Z,emp_001,Engineering,Data Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000201,2026-10-06T16:53:00Z,emp_038,Engineering,Software Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000202,2026-10-06T17:33:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000203,2026-10-06T18:21:00Z,emp_001,Engineering,Data Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000204,2026-10-06T18:55:00Z,emp_052,Marketing,Marketing Specialist,MeetOscar,meetoscar.com,browser_visit,email_campaigns,internal
+evt_000205,2026-10-07T07:01:00Z,emp_044,Product,Product Manager,Open Canvas AI,open-canvas-ai.example,app_open,product_ideation,internal
+evt_000206,2026-10-07T07:22:00Z,emp_001,Engineering,Data Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000207,2026-10-07T08:49:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000208,2026-10-07T09:29:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000209,2026-10-07T10:28:00Z,emp_061,Finance,Financial Analyst,ChatGPT,chatgpt.com,app_open,draft_summary,confidential
+evt_000210,2026-10-07T12:46:00Z,emp_001,Engineering,Data Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000211,2026-10-07T13:04:00Z,emp_035,Product,Product Manager,Open Canvas AI,open-canvas-ai.example,browser_visit,product_ideation,internal
+evt_000212,2026-10-07T13:06:00Z,emp_006,Finance,Financial Analyst,ChatGPT,chatgpt.com,browser_visit,draft_summary,confidential
+evt_000213,2026-10-07T13:15:00Z,emp_031,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000214,2026-10-07T15:15:00Z,emp_063,Engineering,Engineering Manager,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000215,2026-10-08T08:30:00Z,emp_039,Sales,Account Executive,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000216,2026-10-08T09:10:00Z,emp_023,Sales,Account Executive,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000217,2026-10-08T09:20:00Z,emp_038,Engineering,Software Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000218,2026-10-08T13:20:00Z,emp_058,Engineering,Data Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000219,2026-10-08T14:00:00Z,emp_004,Sales,Sales Operations Analyst,Slack,slack.com,app_open,team_messaging,internal
+evt_000220,2026-10-08T16:40:00Z,emp_039,Sales,Account Executive,Playbooks,insidesales.com,browser_visit,sales_outreach,internal
+evt_000221,2026-10-08T16:59:00Z,emp_061,Finance,Financial Analyst,ChatGPT,chatgpt.com,app_open,draft_summary,confidential
+evt_000222,2026-10-08T20:19:00Z,emp_024,Engineering,Engineering Manager,Magic Inspector,magicinspector.com,browser_visit,visual_testing,internal
+evt_000223,2026-10-09T08:10:00Z,emp_001,Engineering,Data Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000224,2026-10-09T08:23:00Z,emp_006,Finance,Financial Analyst,ChatGPT,chatgpt.com,browser_visit,draft_summary,confidential
+evt_000225,2026-10-09T10:04:00Z,emp_024,Engineering,Engineering Manager,Magic Inspector,magicinspector.com,browser_visit,visual_testing,internal
+evt_000226,2026-10-09T10:39:00Z,emp_006,Finance,Financial Analyst,ChatGPT,chatgpt.com,app_open,draft_summary,confidential
+evt_000227,2026-10-09T10:40:00Z,emp_004,Sales,Sales Operations Analyst,Playbooks,insidesales.com,browser_visit,sales_outreach,internal
+evt_000228,2026-10-09T11:14:00Z,emp_064,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000229,2026-10-09T11:18:00Z,emp_067,Engineering,Data Engineer,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000230,2026-10-09T11:28:00Z,emp_061,Finance,Financial Analyst,ChatGPT,chatgpt.com,app_open,draft_summary,confidential
+evt_000231,2026-10-09T12:05:00Z,emp_030,Support,Customer Success Representative,Slack,slack.com,app_open,team_messaging,internal
+evt_000232,2026-10-09T14:25:00Z,emp_068,Sales,Sales Manager,Slack,slack.com,app_open,team_messaging,internal
+evt_000233,2026-10-09T19:23:00Z,emp_055,Research,Research Manager,Amazon Comprehend,aws.amazon.com,browser_visit,text_analysis,confidential
+evt_000234,2026-10-09T23:04:00Z,emp_067,Engineering,Data Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000235,2026-10-10T07:16:00Z,emp_049,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000236,2026-10-10T11:37:00Z,emp_058,Engineering,Data Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000237,2026-10-10T13:18:00Z,emp_062,Finance,Financial Analyst,ChatGPT,chatgpt.com,app_open,draft_summary,confidential
+evt_000238,2026-10-11T13:52:00Z,emp_029,IT,Security Analyst,Mattermost,mattermost.com,browser_visit,team_messaging,internal
+evt_000239,2026-10-11T20:58:00Z,emp_001,Engineering,Data Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000240,2026-10-12T07:19:00Z,emp_045,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000241,2026-10-12T09:05:00Z,emp_051,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000242,2026-10-12T12:22:00Z,emp_023,Sales,Account Executive,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000243,2026-10-12T12:25:00Z,emp_038,Engineering,Software Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000244,2026-10-12T12:48:00Z,emp_014,Research,Research Analyst,Amazon Comprehend,aws.amazon.com,app_open,text_analysis,confidential
+evt_000245,2026-10-12T14:04:00Z,emp_038,Engineering,Software Engineer,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000246,2026-10-12T16:05:00Z,emp_022,Engineering,Software Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000247,2026-10-12T16:08:00Z,emp_061,Finance,Financial Analyst,ChatGPT,chatgpt.com,app_open,draft_summary,confidential
+evt_000248,2026-10-12T16:16:00Z,emp_012,IT,IT Administrator,Mattermost,mattermost.com,app_open,team_messaging,internal
+evt_000249,2026-10-12T17:52:00Z,emp_006,Finance,Financial Analyst,ChatGPT,chatgpt.com,app_open,draft_summary,confidential
+evt_000250,2026-10-12T18:15:00Z,emp_006,Finance,Financial Analyst,ChatGPT,chatgpt.com,browser_visit,draft_summary,confidential
+evt_000251,2026-10-12T18:28:00Z,emp_048,Sales,Account Executive,Slack,slack.com,app_open,team_messaging,internal
+evt_000252,2026-10-12T18:49:00Z,emp_060,Marketing,Marketing Manager,MeetOscar,meetoscar.com,browser_visit,email_campaigns,internal
+evt_000253,2026-10-12T21:55:00Z,emp_026,Operations,Operations Manager,Workbench,workbench.example,app_open,unknown,unknown
+evt_000254,2026-10-13T09:35:00Z,emp_052,Marketing,Marketing Specialist,MeetOscar,meetoscar.com,browser_visit,email_campaigns,internal
+evt_000255,2026-10-13T11:40:00Z,emp_055,Research,Research Manager,Amazon Comprehend,aws.amazon.com,browser_visit,text_analysis,confidential
+evt_000256,2026-10-13T16:49:00Z,emp_001,Engineering,Data Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000257,2026-10-13T18:03:00Z,emp_001,Engineering,Data Engineer,ChatGPT,chatgpt.com,app_open,code_assistance,internal
+evt_000258,2026-10-13T18:30:00Z,emp_067,Engineering,Data Engineer,Cursor,cursor.so,app_open,software_development,internal
+evt_000259,2026-10-13T20:24:00Z,emp_022,Engineering,Software Engineer,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000260,2026-10-14T10:07:00Z,emp_061,Finance,Financial Analyst,ChatGPT,chatgpt.com,browser_visit,draft_summary,confidential
+evt_000261,2026-10-14T13:27:00Z,emp_032,Support,Support Specialist,Slack,slack.com,app_open,team_messaging,internal
+evt_000262,2026-10-14T14:58:00Z,emp_051,Engineering,Software Engineer,Magic Inspector,magicinspector.com,app_open,visual_testing,internal
+evt_000263,2026-10-14T15:07:00Z,emp_051,Engineering,Software Engineer,ChatGPT,chatgpt.com,browser_visit,code_assistance,internal
+evt_000264,2026-10-14T20:14:00Z,emp_032,Support,Support Specialist,Slack,slack.com,browser_visit,team_messaging,internal
+evt_000265,2026-10-14T22:52:00Z,emp_012,IT,IT Administrator,Mattermost,mattermost.com,app_open,team_messaging,internal

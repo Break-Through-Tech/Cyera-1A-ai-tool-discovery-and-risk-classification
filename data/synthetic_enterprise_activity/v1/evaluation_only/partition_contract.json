@@ -1,0 +1,64 @@
+{
+  "fixture_id": "synthetic-enterprise-activity-v1",
+  "evaluation_cutoff": "2026-10-14",
+  "input_files": {
+    "activity.csv": "fe99ab1b1076c94a22c9a187119d4af274770d6ba4e1ebbb2bc5691e2d43df75",
+    "scenario_tool_metadata.csv": "10eb699f7c1d4350d777dcb1b4e23c879f22d45ef70f193c03b3c32c9d713423"
+  },
+  "hidden_expected_answers_sha256": "eb5c8f036680a2c025e6a3681cd8cdd2e2f36b963a01eb455765fd3757c9776e",
+  "model_development_partitions": {
+    "binary_ai_dataset_v4_manifest_sha256": "46b05a1e3c7fbcb8913f85c66a1af14cf9a77e473db0be2ab98a13f2d74bbf40",
+    "category_classification_v1_manifest_sha256": "96a13cbbc9a34d6b69520fe3944914d9ab136997f16aeb7163431784aa8d7929"
+  },
+  "catalog_held_out": [
+    {
+      "name": "MeetOscar",
+      "catalog_tool_id": "227949d3a6ca2fc955ca573c724b1f93a59a41832a1778524d85b2a0d4b98cf9",
+      "binary_test_source_record_id": "aitoolbuzz-row:00063",
+      "category_partition": "test"
+    },
+    {
+      "name": "Magic Inspector",
+      "catalog_tool_id": "eae7b946239074e028ddaec2c04a8fcab433fabbab5d951046213b91de76b8d8",
+      "binary_test_source_record_id": "aitoolbuzz-row:00547",
+      "category_partition": "test"
+    }
+  ],
+  "reviewed_out_of_catalog_ai": [
+    {
+      "name": "Amazon Comprehend",
+      "reviewed_source_record_id": "enterprise-row:46",
+      "binary_partition": "test",
+      "catalog_name_domain_check": "no matching product listing in cleaned AIToolBuzz snapshot",
+      "category_mapping_basis": "fixture review of NLP text-analysis functionality"
+    },
+    {
+      "name": "Playbooks",
+      "reviewed_source_record_id": "enterprise-row:112",
+      "binary_partition": "test",
+      "catalog_name_domain_check": "no matching product listing in cleaned AIToolBuzz snapshot",
+      "category_mapping_basis": "fixture review of AI-assisted sales-engagement functionality"
+    }
+  ],
+  "reviewed_non_ai_controls": [
+    {
+      "name": "Slack",
+      "reviewed_source_record_id": "enterprise-row:96",
+      "binary_partition": "test"
+    },
+    {
+      "name": "Mattermost",
+      "reviewed_source_record_id": "enterprise-row:79",
+      "binary_partition": "validation"
+    }
+  ],
+  "lookup_and_retrieval_exclusions_required_for_unseen_cohorts": [
+    "227949d3a6ca2fc955ca573c724b1f93a59a41832a1778524d85b2a0d4b98cf9",
+    "eae7b946239074e028ddaec2c04a8fcab433fabbab5d951046213b91de76b8d8",
+    "enterprise-row:46",
+    "enterprise-row:112"
+  ],
+  "lookup_retrieval_enforcement_status": "fixture contract only; application registry and retrieval corpus are not configured by these CSVs",
+  "risk_rule_version": "synthetic-demo-risk-v1",
+  "risk_fact_scope": "approved_status and vendor attributes are fictional demonstration assumptions, not claims about the named vendors"
+}
