@@ -1,0 +1,610 @@
+[
+  {
+    "annotation_id": "ann_0181fb15ff70609bb6f3b00a",
+    "description_sha256": "81a613f313698cdba1151f163a06399e6dbbc64843d474a1ceb88af82540a678",
+    "description": "Streamline product feed optimization, and product listing, for paid search.  Feedonomics is the connective tissue for your ecommerce business.  Optimizes product listings for each shopping destination, Sends optimized feeds to hundreds of global channels,  Syncs orders, inventory, and product data across systems\n\nOur full-service feed management solutions for advertising channels and marketplaces help you:  Drive better ad performance and sell more products, Save time and development resources, Maintain business continuity with a dedicated feed team",
+    "source_record_references": [
+      "1367"
+    ],
+    "labeler": {
+      "annotation_id": "ann_0181fb15ff70609bb6f3b00a",
+      "description_sha256": "81a613f313698cdba1151f163a06399e6dbbc64843d474a1ceb88af82540a678",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers product-feed optimization, channel distribution, and synchronization of orders, inventory, and product data for commerce workflows.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Optimizes product listings for each shopping destination, Sends optimized feeds to hundreds of global channels,  Syncs orders, inventory, and product data across systems"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_0181fb15ff70609bb6f3b00a",
+      "description_sha256": "81a613f313698cdba1151f163a06399e6dbbc64843d474a1ceb88af82540a678",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional product-feed optimization, channel distribution, and syncing of orders, inventory, and product data; no affirmative AI signal appears.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Optimizes product listings for each shopping destination, Sends optimized feeds to hundreds of global channels,  Syncs orders, inventory, and product data across systems"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Concretefeedsync/distribution but OPTIMIZESlistings foreachshoppingdestination methodunspecified, notprovablyrulebased. AssesspotentialAIdependence ratherthanassumingallfeedmanagementdeterministic."
+    ]
+  },
+  {
+    "annotation_id": "ann_1d1050e5343fffd36296e00d",
+    "description_sha256": "a31b5595bc1ec94b2b25f5018dcad7726a31a6fcf2f4ce0fa9bc52d6614cdac5",
+    "description": "Zenarate's cloud-based call simulation training platform creates a live caller experience without the risk and stress of an actual customer call. Simulated calls can run alongside a clickable systems interface, creating a true side-by-side training experience.",
+    "source_record_references": [
+      "1378"
+    ],
+    "labeler": {
+      "annotation_id": "ann_1d1050e5343fffd36296e00d",
+      "description_sha256": "a31b5595bc1ec94b2b25f5018dcad7726a31a6fcf2f4ce0fa9bc52d6614cdac5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes simulated customer calls paired with an interactive systems interface as a training experience, without an AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Simulated calls can run alongside a clickable systems interface, creating a true side-by-side training experience."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_1d1050e5343fffd36296e00d",
+      "description_sha256": "a31b5595bc1ec94b2b25f5018dcad7726a31a6fcf2f4ce0fa9bc52d6614cdac5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The platform is described as a call simulation and training environment with a clickable systems interface, conventional training functionality without an AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "cloud-based call simulation training platform creates a live caller experience without the risk and stress of an actual customer call. Simulated calls can run alongside a clickable systems interface"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "LivecallerEXPERIENCE simulatedcalls alongsideclickableinterface; couldscriptedsimulation orAI-drivenconversation, methodnotstated. No rememberedZenaratefeatures. Assesssupportednegative vs unresolvedspeech/callsimulation."
+    ]
+  },
+  {
+    "annotation_id": "ann_205941f806bbcbc047fe2237",
+    "description_sha256": "4ad5562ef6f8f9b7d1a29973db58da6f93267bb7c54854f5a22679030b6463f6",
+    "description": "Acquired by  Mobileum.  Mobileum (WEDO) provides support and development for a tool called RAID. We use different modules within RAID for functions such as Usage Control, Fraud Detection, Anomalies detection and Enterprise Revenue and Business Assurance.",
+    "source_record_references": [
+      "1363"
+    ],
+    "labeler": {
+      "annotation_id": "ann_205941f806bbcbc047fe2237",
+      "description_sha256": "4ad5562ef6f8f9b7d1a29973db58da6f93267bb7c54854f5a22679030b6463f6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text identifies modules for usage control, fraud detection, anomaly detection, and revenue assurance, but does not explain how detection works; retain a forced negative because no AI method or claim is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "We use different modules within RAID for functions such as Usage Control, Fraud Detection, Anomalies detection and Enterprise Revenue and Business Assurance."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_205941f806bbcbc047fe2237",
+      "description_sha256": "4ad5562ef6f8f9b7d1a29973db58da6f93267bb7c54854f5a22679030b6463f6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text identifies software modules for usage control, fraud detection, and anomaly detection, but does not explain their implementation; anomaly detection can be AI-dependent, leaving some ambiguity.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "We use different modules within RAID for functions such as Usage Control, Fraud Detection, Anomalies detection and Enterprise Revenue and Business Assurance."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": []
+  },
+  {
+    "annotation_id": "ann_2f1e1f27cdeb7a015832acb2",
+    "description_sha256": "4371b2b49f156c1c143ecfb799afab1f9ad02753c5ae055ecb5f1b23ff652beb",
+    "description": "Bango provides the technology and partnerships that online merchants need to acquire more paying users.  Bango brings together digital payments and marketing technology so that you can more effectively market, merchandize and monetize your products to online customers everywhere.",
+    "source_record_references": [
+      "1364"
+    ],
+    "labeler": {
+      "annotation_id": "ann_2f1e1f27cdeb7a015832acb2",
+      "description_sha256": "4371b2b49f156c1c143ecfb799afab1f9ad02753c5ae055ecb5f1b23ff652beb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described offering brings together digital payments and marketing technology to help merchants acquire users and market products.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Bango brings together digital payments and marketing technology so that you can more effectively market, merchandize and monetize your products to online customers everywhere."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_2f1e1f27cdeb7a015832acb2",
+      "description_sha256": "4371b2b49f156c1c143ecfb799afab1f9ad02753c5ae055ecb5f1b23ff652beb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes digital payments, partnerships, and marketing technology for merchant customer acquisition and monetization, with no AI functionality stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Bango brings together digital payments and marketing technology so that you can more effectively market, merchandize and monetize your products to online customers everywhere."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Payments+marketingtechnology/partnerships customeracquisition/monetization outcomes, butfewconcreteoperations andunclearofferingsoftwarevsservices. Judge literalfunctionality notassumedpaymentprocessor oradtargetingimplementation."
+    ]
+  },
+  {
+    "annotation_id": "ann_357b80ff223af266d8162ef0",
+    "description_sha256": "c2683075c6b4a8970211dfdf08d32c4c010fb84f58b4c2c924c470191d5c4692",
+    "description": "Bardess empowers clients to access, view, analyze and use their data to make smarter, more accurate, cost efficient, and faster business decisions. Our customized advanced capabilities reduce costs and time-to-market deployment.",
+    "source_record_references": [
+      "1379"
+    ],
+    "labeler": {
+      "annotation_id": "ann_357b80ff223af266d8162ef0",
+      "description_sha256": "c2683075c6b4a8970211dfdf08d32c4c010fb84f58b4c2c924c470191d5c4692",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description presents data access, viewing, analysis, and use to support business decisions, plus customized capabilities for deployment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Bardess empowers clients to access, view, analyze and use their data to make smarter, more accurate, cost efficient, and faster business decisions."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_357b80ff223af266d8162ef0",
+      "description_sha256": "c2683075c6b4a8970211dfdf08d32c4c010fb84f58b4c2c924c470191d5c4692",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description broadly refers to data access, analysis, and customized advanced capabilities, but gives too little detail to establish what those capabilities entail; no explicit AI functionality is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "access, view, analyze and use their data to make smarter, more accurate, cost efficient, and faster business decisions. Our customized advanced capabilities reduce costs and time-to-market deployment."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": []
+  },
+  {
+    "annotation_id": "ann_3a9a67384d050714fb6e6219",
+    "description_sha256": "03c7000fcbb1559c5a59cb96252618f393fbc1728647ac9e8f01bb375e0de092",
+    "description": "Category Mgt Software used for Wal-Mart Space Planning.\n\nSpace and floor planning support retailers in making smarter, more accurate merchandise space allocation decisions that drive revenue growth by leveraging customer insights, maximizing the selling-space available and measure KPI’s using robust analytics. Blue Yonder enables a true enterprise-wide space management solution with seamless integration to planograms to streamline the design and implementation of each store’s floor plan to maximize category space allocation and sales opportunities.",
+    "source_record_references": [
+      "1366"
+    ],
+    "labeler": {
+      "annotation_id": "ann_3a9a67384d050714fb6e6219",
+      "description_sha256": "03c7000fcbb1559c5a59cb96252618f393fbc1728647ac9e8f01bb375e0de092",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The software supports retail space and floor planning, planogram integration, space allocation, and KPI measurement through analytics.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Space and floor planning support retailers in making smarter, more accurate merchandise space allocation decisions that drive revenue growth by leveraging customer insights, maximizing the selling-space available and measure KPI’s using robust analytics."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_3a9a67384d050714fb6e6219",
+      "description_sha256": "03c7000fcbb1559c5a59cb96252618f393fbc1728647ac9e8f01bb375e0de092",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes retail space and floor planning, planogram integration, store layouts, KPI measurement, and merchandise allocation—conventional planning and analytics functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Space and floor planning support retailers in making smarter, more accurate merchandise space allocation decisions",
+        "seamless integration to planograms to streamline the design and implementation of each store’s floor plan"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Planogram/floorplanning/KPIsconcrete; customerINSIGHTS andSMARTERallocationdecision-making methodnotgiven. Do notinferAIorconventionaloptimizeralgorithm; assesswholebinarysupport."
+    ]
+  },
+  {
+    "annotation_id": "ann_4373ec032eeaf430c1e04cd3",
+    "description_sha256": "5f61bde83675d73f66028a6fef482fac99a9ea1434a2f25986c92aa5e9a826bb",
+    "description": "Datasys compiles one of the largest consumer and business data sets in the world. We use our expansive data and technology platforms to help companies more accurately target their ideal customers and provide intelligent marketing solutions.",
+    "source_record_references": [
+      "1370"
+    ],
+    "labeler": {
+      "annotation_id": "ann_4373ec032eeaf430c1e04cd3",
+      "description_sha256": "5f61bde83675d73f66028a6fef482fac99a9ea1434a2f25986c92aa5e9a826bb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes consumer/business data sets and technology platforms used for customer targeting and marketing solutions, but the 'intelligent' solutions are not explained; no explicit AI signal appears.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "We use our expansive data and technology platforms to help companies more accurately target their ideal customers and provide intelligent marketing solutions."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_4373ec032eeaf430c1e04cd3",
+      "description_sha256": "5f61bde83675d73f66028a6fef482fac99a9ea1434a2f25986c92aa5e9a826bb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes compiling consumer/business datasets and using technology for customer targeting and marketing, but the vague phrase ‘intelligent marketing solutions’ leaves the method underspecified.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "We use our expansive data and technology platforms to help companies more accurately target their ideal customers and provide intelligent marketing solutions."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": []
+  },
+  {
+    "annotation_id": "ann_69b297b6ba227b15eddc39ea",
+    "description_sha256": "b124e3dffcac58ae35d28403ed9db0f6af56b92d87867a8d7dffa2916b75c933",
+    "description": "Indoor mapping of complicated settings. Speeds up your time to market by levering specialized mapping expertise to get interactive, engaging digital maps while freeing up your own resources.\n\nWell-designed digital indoor maps capture attention and facilitate a more enjoyable exploration of indoor spaces within your product. This visual appeal not only enhances the user experience and encourages interaction with your product, but also makes your product stand out.\n\nPurchased from Point Inside.",
+    "source_record_references": [
+      "1380"
+    ],
+    "labeler": {
+      "annotation_id": "ann_69b297b6ba227b15eddc39ea",
+      "description_sha256": "b124e3dffcac58ae35d28403ed9db0f6af56b92d87867a8d7dffa2916b75c933",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The offering creates interactive digital indoor maps and describes mapping expertise and visual/user-experience benefits.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Indoor mapping of complicated settings. Speeds up your time to market by levering specialized mapping expertise to get interactive, engaging digital maps"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_69b297b6ba227b15eddc39ea",
+      "description_sha256": "b124e3dffcac58ae35d28403ed9db0f6af56b92d87867a8d7dffa2916b75c933",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes specialist indoor mapping and interactive digital maps for products, a conventional mapping and visualization service; no AI capability is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "get interactive, engaging digital maps",
+        "Well-designed digital indoor maps capture attention and facilitate a more enjoyable exploration of indoor spaces within your product."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Specializedmappingexpertise/digitalmapdeliverables purchasedfromPointInside couldbeservice/contentnotsoftware. InteractiveMAPSalone notnecessarilysoftwareoffering. Rubricrequiresmeaningfulsoftwarefunction, no importedmappingSDK."
+    ]
+  },
+  {
+    "annotation_id": "ann_6eae06bf7029c47da1713b2e",
+    "description_sha256": "5e5efe98465c3012b5e4894b70f49aded169170e24a0d46465bdc0492a4fb9e1",
+    "description": "B2B to B2C (B2B2C) linking business contacts to home addresses, personal emails, and social handles, expanding the channels available for your campaigns. MTN file that is paid for quarterly",
+    "source_record_references": [
+      "1376"
+    ],
+    "labeler": {
+      "annotation_id": "ann_6eae06bf7029c47da1713b2e",
+      "description_sha256": "5e5efe98465c3012b5e4894b70f49aded169170e24a0d46465bdc0492a4fb9e1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes linking business contacts with home addresses, personal emails, and social handles to expand marketing channels.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "B2B to B2C (B2B2C) linking business contacts to home addresses, personal emails, and social handles, expanding the channels available for your campaigns."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_6eae06bf7029c47da1713b2e",
+      "description_sha256": "5e5efe98465c3012b5e4894b70f49aded169170e24a0d46465bdc0492a4fb9e1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes linking business contact records to home addresses, personal emails, and social handles for campaign reach, a conventional data-enrichment use.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "B2B to B2C (B2B2C) linking business contacts to home addresses, personal emails, and social handles, expanding the channels available for your campaigns."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "QuarterlypaidMTNFILE linkingcontactdata; datafeed/enrichmentnotclearly SOFTWAREfunction. Conventionaldataalone doesnotmeetsoftware-negativecriterion; scopeuncertaintyweak/forced."
+    ]
+  },
+  {
+    "annotation_id": "ann_7e203e593fe044424d4c2a92",
+    "description_sha256": "190b407e3648cd36ae85ed58e4f0899d11e1b5b8739a7788b8e436a546fd2b0c",
+    "description": "SafeGraph curates the most accurate and precise database of global points of interest each month to power applications, platforms, and services with a location component. As a source of truth for the physical world, SafeGraph data provides an up-to-date record of where places are located and detailed attribution about each of those places, such as when it opened or closed, what type of place it is, what other places it is affiliated with, and how people interact with that location.",
+    "source_record_references": [
+      "1375"
+    ],
+    "labeler": {
+      "annotation_id": "ann_7e203e593fe044424d4c2a92",
+      "description_sha256": "190b407e3648cd36ae85ed58e4f0899d11e1b5b8739a7788b8e436a546fd2b0c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The offering is a curated database of points of interest and factual place attributes, such as location, opening/closing, category, affiliations, and interactions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "data provides an up-to-date record of where places are located and detailed attribution about each of those places, such as when it opened or closed, what type of place it is, what other places it is affiliated with, and how people interact with that location."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_7e203e593fe044424d4c2a92",
+      "description_sha256": "190b407e3648cd36ae85ed58e4f0899d11e1b5b8739a7788b8e436a546fd2b0c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a curated points-of-interest database with location, place attributes, affiliations, and interaction information for location-enabled applications.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "database of global points of interest each month to power applications, platforms, and services with a location component.",
+        "an up-to-date record of where places are located and detailed attribution about each of those places"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Curatedpoints-of-interestDATABASE/datasetmonthlytoPOWERapplications, notdatabaseSOFTWARE. Needdistinguishdatacontentfromsoftwarefunction andavoidmarkingplainreferencedataset trustedsoftwarenegative."
+    ]
+  },
+  {
+    "annotation_id": "ann_99abd7e9ed257a04d322569a",
+    "description_sha256": "bc02d9bb9798cc532c677d0db110490bf7b8e214208eb0e36e5dd6a25fa07ee0",
+    "description": "HumanFirst is a natural language data productivity suite to design, test, and launch high-quality prompts and AI models that power business insights, automation, and CX.",
+    "source_record_references": [
+      "1377"
+    ],
+    "labeler": {
+      "annotation_id": "ann_99abd7e9ed257a04d322569a",
+      "description_sha256": "bc02d9bb9798cc532c677d0db110490bf7b8e214208eb0e36e5dd6a25fa07ee0",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "It explicitly describes a suite for designing, testing, and launching prompts and AI models, an affirmative product-specific AI signal.",
+      "ai_type_rationale": "The suite's stated focus is prompts and AI models, which suggests an AI-oriented core, but the text does not establish whether meaningful core functionality depends on AI; best-supported subtype is native with uncertainty.",
+      "evidence_spans": [
+        "design, test, and launch high-quality prompts and AI models"
+      ],
+      "ai_type_evidence_spans": [
+        "design, test, and launch high-quality prompts and AI models"
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_99abd7e9ed257a04d322569a",
+      "description_sha256": "bc02d9bb9798cc532c677d0db110490bf7b8e214208eb0e36e5dd6a25fa07ee0",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly identifies AI models and describes designing, testing, and launching prompts and models, making this an affirmative product-specific AI capability.",
+      "ai_type_rationale": "Prompt and AI-model design, testing, and launch are the described suite’s central offering, so the text supports an AI-native classification.",
+      "evidence_spans": [
+        "design, test, and launch high-quality prompts and AI models"
+      ],
+      "ai_type_evidence_spans": [
+        "design, test, and launch high-quality prompts and AI models"
+      ]
+    },
+    "parent_concerns": [
+      "ExplicitproductAI-model/promptsfunctionsupportspositivebinary underoperationalrubric. Design/test/launchAI tools doesnotautomaticallyestablishproductcoredependsONAIversusconventionaltoolingFORAI. Readstatedcoreonly; subtypeuncertainstayweak."
+    ]
+  },
+  {
+    "annotation_id": "ann_ccfbf828b42aad4127fe98e0",
+    "description_sha256": "39b70a822a182aa59715aba59bc3effbe3b47a9cdbaed52f656a7df52fb5e7de",
+    "description": "Aileen is an all-in-one retail solution that creates situational geofences, consumer preferences, personalization, and has the ability to guide customers from bedside to aisle or table at a restaurant. It also provides for a touchless approach for consuming goods that enable shoppers to complete transactions without taking out their wallets or standing in line.",
+    "source_record_references": [
+      "1382"
+    ],
+    "labeler": {
+      "annotation_id": "ann_ccfbf828b42aad4127fe98e0",
+      "description_sha256": "39b70a822a182aa59715aba59bc3effbe3b47a9cdbaed52f656a7df52fb5e7de",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The retail solution describes geofences, consumer preferences, customer guidance, and touchless transactions, all conventional location/personalization/commerce features as stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "creates situational geofences, consumer preferences, personalization, and has the ability to guide customers from bedside to aisle or table at a restaurant."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_ccfbf828b42aad4127fe98e0",
+      "description_sha256": "39b70a822a182aa59715aba59bc3effbe3b47a9cdbaed52f656a7df52fb5e7de",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes retail geofencing, consumer preferences and personalization, customer wayfinding, and touchless transactions; these are conventional location, personalization, and transaction functions without an AI claim.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "creates situational geofences, consumer preferences, personalization, and has the ability to guide customers from bedside to aisle or table at a restaurant.",
+        "complete transactions without taking out their wallets or standing in line."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Geofences/navigation/paymentfunctionsconcrete, personalization/consumerpreferencesmethodnotgiven, potentiallyAIdependent. Do notassumerulesorlearnedrecommendations."
+    ]
+  },
+  {
+    "annotation_id": "ann_d5c64030dcb89b5a98abcc2e",
+    "description_sha256": "37e6ad70b929e563be5c7c180c4c93170f28813deae92f87daedd463fc9d53c4",
+    "description": "Integrate cost and schedule, establish cost controls, measure performance and forecast outcomes to help projects succeed. With accurate and compliant EVM reporting across all program phases, your team can spend more time proactively managing project costs and resources.\nProvide oversight by tightly controlling project costs and resources to improve project success and profitability\nUnlimited rate scenarios and top-down planning allow what-if analysis and modeling cost impacts\nEasily produce detailed and summary reports and support project audits",
+    "source_record_references": [
+      "1371"
+    ],
+    "labeler": {
+      "annotation_id": "ann_d5c64030dcb89b5a98abcc2e",
+      "description_sha256": "37e6ad70b929e563be5c7c180c4c93170f28813deae92f87daedd463fc9d53c4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described project controls support cost/schedule integration, EVM reporting, forecast and scenario modeling, reporting, and audits.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Integrate cost and schedule, establish cost controls, measure performance and forecast outcomes to help projects succeed.",
+        "Unlimited rate scenarios and top-down planning allow what-if analysis and modeling cost impacts"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_d5c64030dcb89b5a98abcc2e",
+      "description_sha256": "37e6ad70b929e563be5c7c180c4c93170f28813deae92f87daedd463fc9d53c4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes earned-value project cost and schedule control, performance measurement, rate scenarios, what-if modeling, and reporting/audits—conventional project controls and planning.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Integrate cost and schedule, establish cost controls, measure performance and forecast outcomes",
+        "Unlimited rate scenarios and top-down planning allow what-if analysis and modeling cost impacts",
+        "Easily produce detailed and summary reports and support project audits"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "EVMreports/ratescenarios/what-ifcostmodelingconcrete; FORECASToutcomes claimmaybroaderthanwhat-ifmechanism. Assesswholefunctionsupport withoutassumingallforecastdeterministicorAI."
+    ]
+  },
+  {
+    "annotation_id": "ann_d6eeb8450f78d6d7e045eaad",
+    "description_sha256": "9acfba24dbc7d6a9c399dc1150a7e813f58e984e5473921543ff2d8adc242228",
+    "description": "Empower is the first and only browser-based analytical tool that integrates earned value, schedule, work authorization, and other key performance data to enable proactive management of complex projects.\nEmpower™ features an attractive and powerful user interface that provides immediate productivity gains for control account managers, program managers, support staff, and oversight organizations. Empower is specifically designed to quickly locate problem areas, identify trends, display element-of-cost information, graphically display schedule Gantt information, provide immediate insight into data quality issues, support data-driven audit initiatives, and streamline the creation of narrative analyses with integrated workflow. The browser-based architecture provides a lower total cost of ownership than desktop tools, since no application is installed on individual computers. Updates are performed on a single server and user maintenance is centralized. Empower leverages your current software investment by seamlessly integrating with existing databases, migrating many of your customizations, and providing a familiar interface that will reduce implementation and training costs.",
+    "source_record_references": [
+      "1372"
+    ],
+    "labeler": {
+      "annotation_id": "ann_d6eeb8450f78d6d7e045eaad",
+      "description_sha256": "9acfba24dbc7d6a9c399dc1150a7e813f58e984e5473921543ff2d8adc242228",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The browser-based project analytics tool locates problem areas and trends, displays schedule/cost data, supports audits, and manages workflow and data quality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Empower is the first and only browser-based analytical tool that integrates earned value, schedule, work authorization, and other key performance data to enable proactive management of complex projects.",
+        "quickly locate problem areas, identify trends, display element-of-cost information, graphically display schedule Gantt information"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_d6eeb8450f78d6d7e045eaad",
+      "description_sha256": "9acfba24dbc7d6a9c399dc1150a7e813f58e984e5473921543ff2d8adc242228",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described tool integrates project performance data and offers trend, data-quality, audit, and workflow features; ‘streamline the creation of narrative analyses’ is underspecified and could involve generated text, though no AI is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "identify trends, display element-of-cost information, graphically display schedule Gantt information, provide immediate insight into data quality issues, support data-driven audit initiatives, and streamline the creation of narrative analyses with integrated workflow."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Integratedworkflow streamlinescreationNARRATIVEANALYSES, butcouldtemplate/userworkfloworgenerativeAI. Specificdata/Gantt/reportingconcrete, mustnotinventgenerationmechanism; assesswholebinaryweakness."
+    ]
+  }
+]
