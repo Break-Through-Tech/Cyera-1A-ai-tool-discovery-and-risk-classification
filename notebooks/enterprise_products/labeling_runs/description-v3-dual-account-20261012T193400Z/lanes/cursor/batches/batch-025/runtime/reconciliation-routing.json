@@ -1,0 +1,33 @@
+{
+  "batch_id": "batch-025",
+  "stage": "reconciliation",
+  "assigned_annotation_ids": [
+    "ann_4feff4f66e798b3283882047",
+    "ann_57c83901e99e320c1493fdf8",
+    "ann_601eb25e8f27c0c1a70c24bb",
+    "ann_7e3c570ed5886e202eaf8dd0",
+    "ann_dd617f27c695e32823117405",
+    "ann_e32703f3bc32ac493ed6a9d7",
+    "ann_e4ba00d7b25eb3ebd82b6724"
+  ],
+  "helper_required_ids": [
+    "ann_4feff4f66e798b3283882047",
+    "ann_57c83901e99e320c1493fdf8",
+    "ann_601eb25e8f27c0c1a70c24bb",
+    "ann_7e3c570ed5886e202eaf8dd0",
+    "ann_dd617f27c695e32823117405",
+    "ann_e32703f3bc32ac493ed6a9d7",
+    "ann_e4ba00d7b25eb3ebd82b6724"
+  ],
+  "additional_integration_support_concern_ids": [
+    "ann_dd617f27c695e32823117405",
+    "ann_e32703f3bc32ac493ed6a9d7",
+    "ann_e4ba00d7b25eb3ebd82b6724"
+  ],
+  "route_count": 7,
+  "model_id": "gpt-5.6-luna-high",
+  "original_blind_uuid": "1daf7099-25a4-4b23-8602-5f120353268f",
+  "workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-025/agents/blind/reconciliation-025",
+  "frozen_prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+  "note": "The three support concerns overlap helper-required disagreement/weak IDs; no extra IDs. Original result/checkpoints unchanged; same original Luna receives only the exact seven original descriptions, both immutable proposals, explicit concerns, frozen reconciliation role prompt/schema."
+}

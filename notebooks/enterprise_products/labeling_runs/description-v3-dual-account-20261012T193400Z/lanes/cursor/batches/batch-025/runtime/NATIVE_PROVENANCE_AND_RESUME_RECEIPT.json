@@ -1,0 +1,32 @@
+{
+  "batch_id": "batch-025",
+  "parent_wrong_mapping_disposition": "Parent confirmed prior mapping was wrong; use actual native conversation identities below.",
+  "authoritative_original_model_evidence": {
+    "coordinator_transcript": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/subagent-artifacts/4f4c2546-d3e3-47af-ba9d-b5f0a0aad48b_enterprise-cursor-coordinator_transcript.jsonl",
+    "sha256": "4466d131e1031aa8df4a02162008215108ea060443e26a0ab845db76ef9d6fce",
+    "evidence": "Original coordinator persisted exact herdr_agent start calls with --model and --workspace for both exact 025 private cwd; persisted pane reads show p1Z banner Claude Haiku 5.5 300K High at labeler cwd and p10 banner GPT-5.6 Luna 272K High at blind cwd.",
+    "blind_pane_observation": "4f4c... coordinator transcript tool result around line 163 (wF:p10), actual GPT-5.6 Luna 272K High banner and batch-025/agents/blind cwd.",
+    "labeler_pane_observation": "4f4c... coordinator transcript tool result around line 163 (wF:p1Z), actual Claude Haiku 5.5 300K High banner and batch-025/agents/labeler cwd."
+  },
+  "correct_original_native_conversations": {
+    "labeler": {
+      "uuid": "8ae07e4b-8756-420e-b773-b4846d72f762",
+      "evidence": "Cursor transcript/meta has batch-025 labeler workspace and exact Batch 025 independent labeling prompt; coordinator original explicit launch target cursor025-label and exact model/workspace."
+    },
+    "blind": {
+      "uuid": "1daf7099-25a4-4b23-8602-5f120353268f",
+      "evidence": "Cursor transcript/meta has batch-025 blind workspace and exact Batch 025 BLIND prompt; coordinator original explicit launch target cursor025-blind and exact model/workspace."
+    }
+  },
+  "incorrect_ids_quarantined_from_this_recovery": {
+    "b116dfa4-3b04-46ff-8d72-650206453d5a": "different earlier batch020 labeler transcript/workspace",
+    "8ae07e4b-8756-420e-b773-b4846d72f762": "025 labeler, not blind"
+  },
+  "pre_recovery_raw_receipt": "runtime/PRE_RECOVERY_RAW_HASH_RECEIPT.json",
+  "workspace_mutation_before_this_receipt": "No recovery or comparison. Original checkpoint set remains 20/20 each and result.json absent for both.",
+  "authorized_action": "Parent approved native start --resume exact UUID then --model exact frozen role model then --workspace exact private cwd. Verify prior model/banner/cwd before prompting. Request only one missing aggregate completion per worker, exact 20 existing own checkpoints unchanged; no checkpoint writes or semantic review/revote.",
+  "resumed_shells": {
+    "labeler": "wF:p21",
+    "blind": "wF:p22"
+  }
+}

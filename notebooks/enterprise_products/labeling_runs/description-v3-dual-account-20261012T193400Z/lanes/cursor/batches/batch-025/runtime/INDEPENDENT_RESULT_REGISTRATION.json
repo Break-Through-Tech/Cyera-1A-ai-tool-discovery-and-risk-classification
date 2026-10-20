@@ -1,0 +1,35 @@
+{
+  "batch_id": "batch-025",
+  "stage": "raw independent results committed and hash-registered before any comparison",
+  "pre_recovery_hash_receipt": "runtime/PRE_RECOVERY_RAW_HASH_RECEIPT.json",
+  "provenance_resume_receipt": "runtime/NATIVE_PROVENANCE_AND_RESUME_RECEIPT.json",
+  "results": {
+    "labeler": {
+      "result_path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-025/agents/labeler/result.json",
+      "result_sha256": "0ee03e81a06633fa4e1a7a6cf667db655e04b9a58faa40abd72d1a1e3ab5f59f",
+      "result_bytes": 16008,
+      "original_native_uuid": "8ae07e4b-8756-420e-b773-b4846d72f762",
+      "original_transcript_path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/8ae07e4b-8756-420e-b773-b4846d72f762/8ae07e4b-8756-420e-b773-b4846d72f762.jsonl",
+      "original_transcript_sha256_after_resume": "1fa180ae3ac6b784bccfe7fa270910a6fbf4381dd114fbd37a37420e83822ff4",
+      "original_transcript_bytes": 63984,
+      "native_resume_shell": "wF:p21",
+      "recovery_scope": "one missing aggregate only; no checkpoint writes"
+    },
+    "blind": {
+      "result_path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-025/agents/blind/result.json",
+      "result_sha256": "0f2e71c33b15bb97e6756036d5863b46763ed318ed46f73cfa0affa9ce7cac60",
+      "result_bytes": 15584,
+      "original_native_uuid": "1daf7099-25a4-4b23-8602-5f120353268f",
+      "original_transcript_path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/1daf7099-25a4-4b23-8602-5f120353268f/1daf7099-25a4-4b23-8602-5f120353268f.jsonl",
+      "original_transcript_sha256_after_resume": "7cd74076038c82dde35d7b46ebb252cf33bcd280581005e311126ff4eab5542b",
+      "original_transcript_bytes": 72110,
+      "native_resume_shell": "wF:p22",
+      "recovery_scope": "one missing aggregate only; no checkpoint writes"
+    }
+  },
+  "exact_model_observations": {
+    "labeler": "explicit --model claude-haiku-5-5-thinking-high; Claude Haiku 5.5 300K High banner; batch-025 labeler cwd",
+    "blind": "explicit --model gpt-5.6-luna-high; GPT-5.6 Luna 272K High banner; batch-025 blind cwd"
+  },
+  "validated_before_comparison": false
+}

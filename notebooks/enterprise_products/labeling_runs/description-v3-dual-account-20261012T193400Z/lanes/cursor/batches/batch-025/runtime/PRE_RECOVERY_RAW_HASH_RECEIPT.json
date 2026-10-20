@@ -1,0 +1,79 @@
+{
+  "batch_id": "batch-025",
+  "purpose": "pre-recovery immutable raw hash registration",
+  "created_utc_note": "Created before any recovery/comparison; no private file modified.",
+  "plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "raw_checkpoint_counts": {
+    "labeler": 20,
+    "blind": 20
+  },
+  "raw_checkpoint_sha256": {
+    "labeler": {
+      "ann_0f0ba28eb5083bb5c3101e03.json": "ee20d31d3eb28eb07a140cf3a08640a7e22f5ce7a6f235b16a1afc6a81d10534",
+      "ann_1bebefad5f5507b7ed6dc4cb.json": "3e61056c94fd42ba540429fb89f1e76d13f4c7b183225ac8a7d1480dcc4ecd61",
+      "ann_4a70897969f33e5a74acfe20.json": "4c8ca4cccf98056a555480f609d14840dc408e5b8f47219745c0a38ad54bb328",
+      "ann_4eda59bc74b3cd279e17e7b0.json": "77b15a218c4986eef494a935b704c1f3f98f2b7500280aeca46f91bc49c0f80f",
+      "ann_4feff4f66e798b3283882047.json": "0314b5b9bc5fa672f33d8e12248453971989a299d34c11ba96a9504dad01db0a",
+      "ann_52bb57884c1a1142d129f86c.json": "8025c774f74bcf5a3e1bb8e2f8b3f8db067319d26ba9da401be7eb3db81005c6",
+      "ann_57c83901e99e320c1493fdf8.json": "6f855454d2ef998d2ce00c34f80ae2977f7b0d50d54c8a7bc19eae0fdfeea6ce",
+      "ann_601eb25e8f27c0c1a70c24bb.json": "e179f7b0a7936c6a78ea0e06f53a2042253c7ba8b32a285526301bcacf0c86b7",
+      "ann_6fee72c7a3aa2529320eaaeb.json": "63bd28b24f3eac956b02a2046be23fe29cc701b2016ecd7885f1869b420426bf",
+      "ann_7601dbec16b484af0bd571e6.json": "89c4185bc88891a85595151645a5ba90e0ce3b31885b859af99080308f90707a",
+      "ann_7e3c570ed5886e202eaf8dd0.json": "8f6e62ff3699f5b6fa7191d68cdaa35642ffa270c3c59d34ffcbe7f2693da036",
+      "ann_998d0f88231208a3e93a4f51.json": "bf93ccfb6003c0d5361567eb56d56c7dfb23b57a7fdae48536dc330f1bbc06db",
+      "ann_9cc3e33ea5284988c0c4b993.json": "74a53d6031731ce056a195ea2012023ad09bb419ea80a2d24a2de913cc626d6e",
+      "ann_dd617f27c695e32823117405.json": "c689795cf1cde4a5339944cf68bc45070817ad15d601eb61cf9406f7684b9c28",
+      "ann_e32703f3bc32ac493ed6a9d7.json": "925d3f98bfa9ba54d2bf42287e7aa38902ca73b126f1377ee2b4dfde395dfa12",
+      "ann_e4ba00d7b25eb3ebd82b6724.json": "66a9e85c4ae42b5e3485b277510f818665eb33412b4b63dc4ee574dfd392b865",
+      "ann_f4b127eefe532f75aa0f1d56.json": "4fb8e0f8d536aeab26a0a53d198df6647e38a6d58cb96d65f64e85719520c16e",
+      "ann_f4e5012d4d27f489bd2e3775.json": "a0647f9b629f89c80403ab5d92370a53a54a25eed538fc70558089de84674d7b",
+      "ann_f970a88cbd295508225e5d9f.json": "b5b72f0944472d32037245fd2344771cddc89c7c2f5ad3eafe7e093e062b08ae",
+      "ann_fd9dbe91c31b6109db363f9f.json": "5066fc2f7b55d17993fad8d444a9b86dfb8488d6b002bf7ddcf918466e1c1500"
+    },
+    "blind": {
+      "ann_0f0ba28eb5083bb5c3101e03.json": "1d60b0fb246c136a19b98dda6d5fbe2ab5df439477b5dc0e740111ac1e962ecd",
+      "ann_1bebefad5f5507b7ed6dc4cb.json": "4638297ef19f73657312c02c97fe5566cc06c5b12e049582da5d5d4f1f16a8b8",
+      "ann_4a70897969f33e5a74acfe20.json": "ddae124520611b18332d022fa6a0f6b67735993c8e627047ac111bbe517c5291",
+      "ann_4eda59bc74b3cd279e17e7b0.json": "4b2bfe48d77d2ec8a004daa00c77b54e26d97a369ca9b9a8bb26651f139c82c8",
+      "ann_4feff4f66e798b3283882047.json": "ac3396cf3d6b8abbd8b87003bfb186e40ae72f9961578bab3433d4fc04de8ff4",
+      "ann_52bb57884c1a1142d129f86c.json": "ba69c988f4343713598198f2bce93915552b40cf5cbcc6c1be486e95d66867ad",
+      "ann_57c83901e99e320c1493fdf8.json": "76ebc02cbecf202ffd95c86207c59bb1ab010d2f93efc9f059bf6b709da5b0bb",
+      "ann_601eb25e8f27c0c1a70c24bb.json": "c13b16f321ae5b56f79d45c54f2e056f5abe79b3680b582702c098b73a47f51d",
+      "ann_6fee72c7a3aa2529320eaaeb.json": "455948b617b5e0ffae5952aa521ebeba4e74f10a83809d206cb323dcb2ed9225",
+      "ann_7601dbec16b484af0bd571e6.json": "e5773cf26cdf2a68976826eb00acd04ed2daa7575495332e49d54023d8dd2961",
+      "ann_7e3c570ed5886e202eaf8dd0.json": "0c9493ef3481804c81aa13ef9de5d9b72ce2640a612b21d715cfc1ed862f99e7",
+      "ann_998d0f88231208a3e93a4f51.json": "b742458d15c0690ffc831c1026ddcbb2b50c8a4291e2f8cf2bbdc4a777447dba",
+      "ann_9cc3e33ea5284988c0c4b993.json": "2aca0429a619c7e56bb8d6621df0940136a8a52e3705190b915832114092e11e",
+      "ann_dd617f27c695e32823117405.json": "d13bfc5e1044e29a08644bdb7cc767fb794f7b02d12f1f9de3231e938e9c87c7",
+      "ann_e32703f3bc32ac493ed6a9d7.json": "120600cd028b62dae9717900f803f2438c13ce46f5bf21721c4ac32880a1132d",
+      "ann_e4ba00d7b25eb3ebd82b6724.json": "57d04bab7c8a259e2d4d5e02749405312469cb1f2c7802b726d98c7839016ee5",
+      "ann_f4b127eefe532f75aa0f1d56.json": "0f7353d9b36b90c28e502d3858490ed4c1846372963c69d2ca330f7e723b1a35",
+      "ann_f4e5012d4d27f489bd2e3775.json": "aa2b8fbd4fe5c9f9c162d90a1540979ba80948dae7ff570c58b5a9df6ded493c",
+      "ann_f970a88cbd295508225e5d9f.json": "f993378d4152d8062cd6583637c60b12ad68d9b5a8234a32c7e70e908f729b67",
+      "ann_fd9dbe91c31b6109db363f9f.json": "d9950ca984456e3505b9552dc5f1ae66dcf805c64a05f02dc515e67b708bac97"
+    }
+  },
+  "aggregate_files_present": {
+    "labeler": false,
+    "blind": false
+  },
+  "native_transcript_sha256": {
+    "b116dfa4-3b04-46ff-8d72-650206453d5a": {
+      "path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/b116dfa4-3b04-46ff-8d72-650206453d5a/b116dfa4-3b04-46ff-8d72-650206453d5a.jsonl",
+      "sha256": "243982217b468608b211cb89cbc64022fc7b48e37f080a2712522caae029db86",
+      "bytes": 59874
+    },
+    "8ae07e4b-8756-420e-b773-b4846d72f762": {
+      "path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/8ae07e4b-8756-420e-b773-b4846d72f762/8ae07e4b-8756-420e-b773-b4846d72f762.jsonl",
+      "sha256": "bed2c1386afe612ec0025775c4fb946766a2f78fd429fac7d37bceb3c493fc49",
+      "bytes": 12175
+    },
+    "1daf7099-25a4-4b23-8602-5f120353268f": {
+      "path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/1daf7099-25a4-4b23-8602-5f120353268f/1daf7099-25a4-4b23-8602-5f120353268f.jsonl",
+      "sha256": "aa0e488265dda185459e71d3a2a2c169730b481d50008c4a4402dbffd8943b37",
+      "bytes": 28413
+    }
+  },
+  "provenance_note": "Session UUIDs cited by inherited PROGRESS do not reliably identify batch025 conversations: cited b116 transcript is an earlier labeler batch020 workspace; cited 8ae transcript began batch025 labeler but is truncated/incomplete; exact batch025 blind transcript found under UUID 1daf7099. Its Cursor transcript/meta do not contain an observed model banner. No original Luna model provenance proven; no result recovery/aggregate synthesis done."
+}

@@ -1,0 +1,70 @@
+{
+  "status": "semantic_acceptance_hold",
+  "timestamp": "2026-10-20T19:31:41.975353+00:00",
+  "structural_gate": "PASS 40originalhashes/nativeprivate/helper/schema/exactquotes/exactplanallrefs/7actualnativepayloads/6exporthashes",
+  "all20_pairs_and_all7_final_source_responses_parent_reviewed": true,
+  "native_final_single_write_proofs": [
+    {
+      "line": 32,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-025/agents/blind/reconciliation-025/checkpoints/ann_4feff4f66e798b3283882047.json",
+      "sha256": "7929b8ea95e1436af5473c7e0a38f60ca3eb18d2dcab9fdc7daae3454613d1ae"
+    },
+    {
+      "line": 33,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-025/agents/blind/reconciliation-025/checkpoints/ann_57c83901e99e320c1493fdf8.json",
+      "sha256": "ef3b320ceb944d1aca84bdb95866e409092d3fd66b9045936b1f60aa6a16b7cd"
+    },
+    {
+      "line": 34,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-025/agents/blind/reconciliation-025/checkpoints/ann_601eb25e8f27c0c1a70c24bb.json",
+      "sha256": "9c9230b7fd8381db2d2bc66fef9acc6119566cbbd7df528a9a2e06415476772b"
+    },
+    {
+      "line": 35,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-025/agents/blind/reconciliation-025/checkpoints/ann_7e3c570ed5886e202eaf8dd0.json",
+      "sha256": "9d3f77d6e8fe659be9d38ce2f81f7ff32f1848a08fb6056fabb25bf3431e15ad"
+    },
+    {
+      "line": 36,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-025/agents/blind/reconciliation-025/checkpoints/ann_dd617f27c695e32823117405.json",
+      "sha256": "151eeff04e96667145d767a5592cc6a646e176583cf52eb0193dc83aa3669bf3"
+    },
+    {
+      "line": 37,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-025/agents/blind/reconciliation-025/checkpoints/ann_e32703f3bc32ac493ed6a9d7.json",
+      "sha256": "db0e2b087bbe4db9555205e010098e936094eeae7df9471d35444ba4603ce89e"
+    },
+    {
+      "line": 38,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-025/agents/blind/reconciliation-025/checkpoints/ann_e4ba00d7b25eb3ebd82b6724.json",
+      "sha256": "410dc56e35d2c4e7ae10d1e9c16d9fd21fe602ac8a90faadc06708524b5c3ac0"
+    }
+  ],
+  "held_records": [
+    {
+      "annotation_id": "ann_6fee72c7a3aa2529320eaaeb",
+      "source_record_references": [
+        "1215"
+      ],
+      "description": "Precisely's Master Location Data (MLD) is an address point geocoding dataset. It is a near-complete address list for the United States paired with the best available and accurate location coordinates for every address."
+    },
+    {
+      "annotation_id": "ann_998d0f88231208a3e93a4f51",
+      "source_record_references": [
+        "1213"
+      ],
+      "description": "United States Address Fabric is a high-quality current inventory of all known nationwide address\nlocations, provided in a flat file format. It contains both postal and non-postal addresses, where each\nrecord is pre-geocoded to provide the highest precision coordinate location. All addresses are verified,\nvalidated and standardized through an extensive address hygiene process and contain only primary\nstreet and city names. Each record is then assigned a PreciselyID which is a unique and persistent\nidentifier represented in the product as PBKEY.\nAddress Fabric can be used for location (spatial) analytics, mapping and display, address database\nmanagement, service area or asset management delineation, prospect analysis, and direct mailing.\nThe PreciselyID can be used for data management and maintenance of address records in association\nwith the packaged Change Log. It can also be used to associate Precisely's prebuilt GeoEnrichment\ndatasets, preprocessed with the PreciselyID, such as property attributes, demographics, or insurance\nrisk attribution."
+    },
+    {
+      "annotation_id": "ann_9cc3e33ea5284988c0c4b993",
+      "source_record_references": [
+        "1220"
+      ],
+      "description": "The Hotlist From D&B tracks U.S. business change in eight dynamic business contact information categories. Mailers learn about the recent changes which have proven key to direct marketing success."
+    }
+  ],
+  "reason": "These supported negatives describe datasets/data content rather than clearly software functionality. Frozen rubric requires meaningful conventional software functionality; data-only scope was not included in completed7-IDreconciliation. Parent does not invent semantic labels or reopen sole completed modelpass.",
+  "original_annotations_and_exports_unchanged": true,
+  "action": "Do not count batch025 accepted or include it in accepted negative pool until disposition. Proceed disjoint fresh026/027; preserve completed025 work.",
+  "accepted_global_unchanged": "1080 descriptions/1107rows"
+}

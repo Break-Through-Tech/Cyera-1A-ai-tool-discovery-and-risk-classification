@@ -1,0 +1,45 @@
+{
+  "batch_id": "batch-025",
+  "status": "locally_finalized_pending_parent_gate",
+  "preparation_receipt": "runtime/PREPARATION_RECEIPT.json",
+  "pre_recovery_raw_hash_receipt": "runtime/PRE_RECOVERY_RAW_HASH_RECEIPT.json",
+  "native_provenance_resume_receipt": "runtime/NATIVE_PROVENANCE_AND_RESUME_RECEIPT.json",
+  "independent_result_registration": "runtime/INDEPENDENT_RESULT_REGISTRATION.json",
+  "independent_validation": "runtime/INDEPENDENT_VALIDATION.json",
+  "pair_review": "runtime/pair-review.json",
+  "reconciliation_routing": "runtime/reconciliation-routing.json",
+  "reconciliation_result_registration": "runtime/reconciliation-result-registration.json",
+  "reconciliation_validation": "runtime/reconciliation-validation.json",
+  "reconciliation_semantic_review": "runtime/reconciliation-semantic-review.json",
+  "exact_model_provenance": {
+    "labeler": "Claude Haiku 5.5 300K High, explicit claude-haiku-5-5-thinking-high, private batch025 labeler",
+    "blind": "GPT-5.6 Luna 272K High, explicit gpt-5.6-luna-high, private batch025 blind; actual UUID 1daf7099-25a4-4b23-8602-5f120353268f"
+  },
+  "coverage": {
+    "descriptions": 20,
+    "source_rows": 20,
+    "reconciliations": 7
+  },
+  "final_counts": {
+    "ai": 0,
+    "non_ai": 20,
+    "weak_binary": 6,
+    "weak_subtype": 0,
+    "trusted_negative_rows": 14
+  },
+  "all_20_pairs_reviewed": true,
+  "all_7_final_responses_reviewed_against_original_text": true,
+  "all_40_independent_raw_checkpoints_and_results_preserved": true,
+  "export_hashes": {
+    "description_labels.json": "fa6d848786ab7352f341734b0fa913b8a2017840c9004c225a8b258b37cb08a1",
+    "record_labels.json": "225c745bab3a9a1555612bc7e225df6c1bf7cf31ddd6b99f86a140cd31fc9412",
+    "review_ledger.json": "9865ff4917b48ad935010545a32229a0e34d74807ef26c913929f31f187f69ed",
+    "review_queue.json": "98e8abba6b95ee292e0cf6a5a46730ba97dc49f8f24043dd6d1273c4b92b9893",
+    "non_ai_candidates.csv": "b544f8fc722b4f88649b902785aaf317604375504c6d938ab9732eb579c7d4ff",
+    "calibration_report.json": "0924454f30ee9c7f743c39c85ea68579c18276d3d1e5c4672f7f64f6902bc30d"
+  },
+  "export_hashes_verified": true,
+  "parent_gate_pending": true,
+  "git_or_root_global_changes": false,
+  "tests": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s notebooks/enterprise_products -p test_*.py \u2014 36 passed"
+}
