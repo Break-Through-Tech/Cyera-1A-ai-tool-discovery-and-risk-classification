@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_6f2847e48f244d486f7d50b4",
+  "description_sha256": "c5ca13ad1074c597ba34cfd7c95de78fe53e9843614e48f16a4250ca4077ed15",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The core is conventional centralized customer messaging across channels, but the additional claim of an intelligent network monitoring over 900 million data points does not explain how it works. It could be routine reliability monitoring, yet the description leaves possible AI dependence unresolved.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "Messaging is a centralized messaging platform to engage customers across their preferred channels.",
+    "Our enterprise-ready APIs and scalable software are powered by an intelligent network that monitors over 900 million data points daily, enabling unrivaled reliability at any scale."
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The text directly establishes conventional messaging and APIs, so non_ai is the best-supported binary choice; however, the product-specific 'intelligent network' and large-scale monitoring claim has no implementation detail. I cannot infer AI from 'intelligent,' or infer a deterministic system; that unresolved possibility requires weak/forced status despite the conventional core."
+}

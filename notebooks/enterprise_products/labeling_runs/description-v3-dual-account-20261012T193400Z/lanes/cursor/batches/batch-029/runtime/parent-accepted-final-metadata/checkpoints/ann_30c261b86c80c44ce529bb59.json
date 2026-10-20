@@ -1,0 +1,20 @@
+{
+  "annotation_id": "ann_30c261b86c80c44ce529bb59",
+  "description_sha256": "12459faa6ddfba76f748f866a55b70c5817fc784e654cf4147408364880f19e7",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "The description explicitly states that the product has a generative AI infrastructure anchored in Azure AI.",
+  "ai_type_rationale": "The description separately states conventional editorial assistance, repository governance, and analytics, while it does not establish that those functions depend on generative AI; ai_enabled is the best-supported subtype, but the dependency distinction remains weak and forced.",
+  "evidence_spans": [
+    "With a generative AI infrastructure anchored in Azure AI, Acrolinx guarantees scale, future-readiness, and uncompromising security."
+  ],
+  "ai_type_evidence_spans": [
+    "Acrolinx offers live editorial assistance, automation to govern your content across many different repositories, and detailed analytics about your content's quality and performance.",
+    "With a generative AI infrastructure anchored in Azure AI, Acrolinx guarantees scale, future-readiness, and uncompromising security."
+  ],
+  "conflict_response": "The generative AI infrastructure independently supports the binary ai judgment. The conventional editorial, governance, and analytics functions support an enabled reading, but the text does not say whether the meaningful core depends on that infrastructure; subtype support is therefore weak and forced rather than supported or native."
+}

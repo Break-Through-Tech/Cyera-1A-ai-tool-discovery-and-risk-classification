@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-10-20T20:58:21.529166+00:00",
+  "status": "deterministic_metadata_only_accepted",
+  "original_native_uuid": "612ddb87-a06d-4216-a0dd-724bfb1b50af",
+  "original_result_sha256": "67f055803b17a450b8ec773c30ab960cfbc62ffbd4206fa3f535c3dccfc080b2",
+  "original_checkpoint_hashes": {
+    "ann_30c261b86c80c44ce529bb59.json": "4a085334e9c0696ee7abe4d4ca43aecde35e07ed5d81659615c5942847c34dc2",
+    "ann_4c63ef57b2b32697416f51e1.json": "775831495b6da7337ba9a3cdae8ab023887e41ce396c4a082ec7951ba1b774a8",
+    "ann_6beb929a5cd245cea32e18a3.json": "07228beaf385556df061d50a3496c3c2a79a7f332c7efae610eb44339d0ea434",
+    "ann_71b5edc0800affb50a6212ab.json": "ed6cf591eaeaf2cf150e955b79d3661b2e7307ed309af2026ae85db0d08cc84f",
+    "ann_7414551322a88b0c3c561e66.json": "93e75c6fc3719720c7a64fed54e11c6bd05dbe7b23435fa2157e0a58faaf9dcd"
+  },
+  "all6_actual_native_payloads_byte_equal_preserved_files": true,
+  "accepted_result": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/runtime/parent-accepted-final-metadata/accepted-result.json",
+  "accepted_result_sha256": "ecacc62d588bfbd7ddec6262a5928b7d55f7481313c07f5716d3893929e23c35",
+  "accepted_checkpoint": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/runtime/parent-accepted-final-metadata/checkpoints/ann_30c261b86c80c44ce529bb59.json",
+  "accepted_checkpoint_sha256": "e49b3af9fe2317ddabe6426186b28399dd1a48dc478432aa0e04c37f1160609c",
+  "only_change": {
+    "annotation_id": "ann_30c261b86c80c44ce529bb59",
+    "field": "description_sha256",
+    "old": "12459faa6ddba76f748f866a55b70c5817fc784e654cf4147408364880f19e7",
+    "new": "12459faa6ddfba76f748f866a55b70c5817fc784e654cf4147408364880f19e7"
+  },
+  "full5_schema_quotes_coverage_pass": true,
+  "all_semantic_fields_unchanged": true,
+  "native_aggregate_exception": "NEW parent aggregate corrects only recomputed sourcehash; original native/checkpoints/payloads untouched. No further model recovery or semantic pass."
+}
