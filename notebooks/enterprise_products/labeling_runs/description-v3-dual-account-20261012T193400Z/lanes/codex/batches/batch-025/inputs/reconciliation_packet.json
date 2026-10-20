@@ -1,0 +1,355 @@
+[
+  {
+    "annotation_id": "ann_339b71c3022001c37a3f1f3a",
+    "description_sha256": "f43fee6f66a3b6b4b6c5d4263732979763a06e33a90948892270bb8a5ff690ab",
+    "description": "NetScout MasterCare includes technical assistance, access to NETSCOUT software and firmware updates, and priority repair of NETSCOUT hardware.\n\nWith MasterCare, you’ll minimize your downtime with total coverage of equipment, global, 24x7 technical assistance and complete access to our valuable knowledge base and online training modules. In addition, you’ll receive software and firmware updates at no charge for as long as your MasterCare contract is in force.",
+    "source_record_references": [
+      "1239"
+    ],
+    "labeler": {
+      "annotation_id": "ann_339b71c3022001c37a3f1f3a",
+      "description_sha256": "f43fee6f66a3b6b4b6c5d4263732979763a06e33a90948892270bb8a5ff690ab",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This describes a support and maintenance service: technical assistance, software and firmware updates, hardware repair, equipment coverage, knowledge-base access, and training.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "includes technical assistance, access to NETSCOUT software and firmware updates, and priority repair of NETSCOUT hardware.",
+        "complete access to our valuable knowledge base and online training modules."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_339b71c3022001c37a3f1f3a",
+      "description_sha256": "f43fee6f66a3b6b4b6c5d4263732979763a06e33a90948892270bb8a5ff690ab",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The offering is support and maintenance: technical assistance, hardware repair, software/firmware updates, a knowledge base and training.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "technical assistance, access to NETSCOUT software and firmware updates, and priority repair of NETSCOUT hardware."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "MasterCare is technical assistance, hardware repair/update entitlement/knowledge/training. Frozenrubricsupportednegative requires meaningful conventional SOFTWARE functionality. Conventional support SERVICE alone is not proof of softwarefunction; retain weak/forced if not established. Do not infer underlyingproductsfunctions."
+    ]
+  },
+  {
+    "annotation_id": "ann_6293a8a81c2222bdfe4fa146",
+    "description_sha256": "00f082d130a3eebb7aeae847e8b6830fe218c34249fa6bc11ce870a202c25383",
+    "description": "Microsoft Software Assurance is a Microsoft maintenance program aimed at business users who use Microsoft Windows, Microsoft Office, and other server and desktop applications.",
+    "source_record_references": [
+      "1232"
+    ],
+    "labeler": {
+      "annotation_id": "ann_6293a8a81c2222bdfe4fa146",
+      "description_sha256": "00f082d130a3eebb7aeae847e8b6830fe218c34249fa6bc11ce870a202c25383",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes a maintenance program for business users of operating-system, office, server, and desktop applications.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a Microsoft maintenance program aimed at business users who use Microsoft Windows, Microsoft Office, and other server and desktop applications."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_6293a8a81c2222bdfe4fa146",
+      "description_sha256": "00f082d130a3eebb7aeae847e8b6830fe218c34249fa6bc11ce870a202c25383",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a maintenance program for business users of operating-system, office and server/desktop applications.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a Microsoft maintenance program aimed at business users who use Microsoft Windows, Microsoft Office, and other server and desktop applications."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "SoftwareAssurance described as MAINTENANCE PROGRAM for users of namedapplications, no described softwarefunction. NamedOS/Office does not establish this program is software; weak/forced if entitlement only."
+    ]
+  },
+  {
+    "annotation_id": "ann_7c74a2adab60a57b3ca5bb6b",
+    "description_sha256": "b2da6de809e4bca697010ce467d5c190b4ad474b1888799365b218e0555c21f1",
+    "description": "Network Performance Management TAM\nSevOne was acquired by Turbonomic in 2019. Then as part of Turbonomic, the SevOne product line was acquired in 2021 by IBM, and made available by IBM as IBM SevOne Network Performance Management (NPM)",
+    "source_record_references": [
+      "1238"
+    ],
+    "labeler": {
+      "annotation_id": "ann_7c74a2adab60a57b3ca5bb6b",
+      "description_sha256": "b2da6de809e4bca697010ce467d5c190b4ad474b1888799365b218e0555c21f1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Only a product-line name and corporate acquisition history are supplied; its function is not meaningfully described, so the best binary judgment is weak/forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Network Performance Management TAM",
+        "the SevOne product line was acquired in 2021 by IBM, and made available by IBM as IBM SevOne Network Performance Management (NPM)"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_7c74a2adab60a57b3ca5bb6b",
+      "description_sha256": "b2da6de809e4bca697010ce467d5c190b4ad474b1888799365b218e0555c21f1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text names a network performance-management product line and provides acquisition/history information; its stated function is network performance management.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Network Performance Management TAM"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Names/TAM/acquisitionhistory do not themselves identify actual operations; assess vaguecategory vs meaningful conventionalfunction without productknowledge."
+    ]
+  },
+  {
+    "annotation_id": "ann_89923bd97fe8a46d72b12163",
+    "description_sha256": "7aaee467ebbb62964df55980902413c151ee1f13df84a2ce51f4d3bc3efa1929",
+    "description": "Precisely 2H21-1H22 Network Support. Network operations process and support implementation.",
+    "source_record_references": [
+      "1223"
+    ],
+    "labeler": {
+      "annotation_id": "ann_89923bd97fe8a46d72b12163",
+      "description_sha256": "7aaee467ebbb62964df55980902413c151ee1f13df84a2ce51f4d3bc3efa1929",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes network operations process and support implementation, a conventional operational support service.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Network operations process and support implementation."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_89923bd97fe8a46d72b12163",
+      "description_sha256": "7aaee467ebbb62964df55980902413c151ee1f13df84a2ce51f4d3bc3efa1929",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description concerns network support, operations processes and implementation support, conventional IT services rather than an AI-described function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Network operations process and support implementation."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Dated network support/operationsprocess/support implementation appears servicecontract/fragment, not meaningful SOFTWAREfunction. Do not treat ordinary IT service as supportedsoftwarenegative without evidence."
+    ]
+  },
+  {
+    "annotation_id": "ann_ca46195e8e1c07d72e72a09f",
+    "description_sha256": "077b744ca108c116d3bbeb411109c83bd4e7482ed1d311bb49b424e305640c94",
+    "description": "BMC Compuware ThruPut Manager automatically and intelligently optimizes batch processing. By balancing workload and improving batch throughput, BMC Compuware ThruPut Manager delivers significant savings in software license fees and monthly licensing costs (MLC), and may allow you to defer expensive hardware upgrades.",
+    "source_record_references": [
+      "1244",
+      "1245"
+    ],
+    "labeler": {
+      "annotation_id": "ann_ca46195e8e1c07d72e72a09f",
+      "description_sha256": "077b744ca108c116d3bbeb411109c83bd4e7482ed1d311bb49b424e305640c94",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This describes workload balancing and batch throughput optimization to reduce licensing costs; automatic optimization alone is routine scheduling behavior, not an established AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "automatically and intelligently optimizes batch processing. By balancing workload and improving batch throughput"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_ca46195e8e1c07d72e72a09f",
+      "description_sha256": "077b744ca108c116d3bbeb411109c83bd4e7482ed1d311bb49b424e305640c94",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The product-specific description says batch processing is optimized automatically and intelligently, an affirmative intelligent-optimization signal under the rubric.",
+      "ai_type_rationale": "The text establishes automatic intelligent optimization but does not explain whether AI is essential to the batch-management core or an enhancement; ai_enabled is the best tentative subtype.",
+      "evidence_spans": [
+        "automatically and intelligently optimizes batch processing"
+      ],
+      "ai_type_evidence_spans": [
+        "automatically and intelligently optimizes batch processing"
+      ]
+    },
+    "parent_concerns": [
+      "Word intelligently is NOT automatically affirmativeAI. Text says optimization/balancing but no learned or neuralmethod. Readcontext; do not inferAIfrommarketing or inventdeterministic scheduler. Keepweak/forced if potentiallyAIdependent methodunresolved."
+    ]
+  },
+  {
+    "annotation_id": "ann_e98a86dc5e3696bbcc9fed8f",
+    "description_sha256": "eb2653ab6f658db08d1fc29c4d54d8d59ab6d6e10842544503c1d30a061115e1",
+    "description": "Speech Recognition Licenses (Nuance) and Avaya Aura Platform.",
+    "source_record_references": [
+      "1225"
+    ],
+    "labeler": {
+      "annotation_id": "ann_e98a86dc5e3696bbcc9fed8f",
+      "description_sha256": "eb2653ab6f658db08d1fc29c4d54d8d59ab6d6e10842544503c1d30a061115e1",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "Speech recognition is explicitly part of the described offering, establishing an AI-related functionality under the rubric; the short text does not explain its implementation or relationship to the platform.",
+      "ai_type_rationale": "The recognition capability may be an enhancement alongside the named communications platform, but the text does not establish whether it is core or optional, so enabled is a weak best fit.",
+      "evidence_spans": [
+        "Speech Recognition Licenses (Nuance) and Avaya Aura Platform."
+      ],
+      "ai_type_evidence_spans": [
+        "Speech Recognition Licenses (Nuance) and Avaya Aura Platform."
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_e98a86dc5e3696bbcc9fed8f",
+      "description_sha256": "eb2653ab6f658db08d1fc29c4d54d8d59ab6d6e10842544503c1d30a061115e1",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The sparse description explicitly identifies speech-recognition licenses, a function suggestive of AI, but gives no implementation detail; the positive is therefore a forced, weak judgment.",
+      "ai_type_rationale": "The text identifies speech recognition as the licensed functionality but does not establish how it is implemented or whether it is the whole offering; ai_native is a tentative best fit.",
+      "evidence_spans": [
+        "Speech Recognition Licenses (Nuance)"
+      ],
+      "ai_type_evidence_spans": [
+        "Speech Recognition Licenses (Nuance)"
+      ]
+    },
+    "parent_concerns": [
+      "SpeechRecognition licenses plus namedplatform sparse: speechprocessing not explicitlearned/neural/AI mechanism. Also licensing/inclusion relation/platformcore unspecified. Assess binary andsubtype separately; doNOT silently infer learnedmodel or includedfeature/core relationship from memorizedNuance/Avaya."
+    ]
+  },
+  {
+    "annotation_id": "ann_fa5d630afb5156b8c333c48b",
+    "description_sha256": "f85ae547a051f39d331a7e53ddfff11efc57b68fc90f4793faae5c391248521e",
+    "description": "Microsoft 365 is a product family of productivity software, collaboration and cloud-based services owned by Microsoft.",
+    "source_record_references": [
+      "1228"
+    ],
+    "labeler": {
+      "annotation_id": "ann_fa5d630afb5156b8c333c48b",
+      "description_sha256": "f85ae547a051f39d331a7e53ddfff11efc57b68fc90f4793faae5c391248521e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a family of productivity software, collaboration tools, and cloud-based services, all conventional categories of functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a product family of productivity software, collaboration and cloud-based services"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_fa5d630afb5156b8c333c48b",
+      "description_sha256": "f85ae547a051f39d331a7e53ddfff11efc57b68fc90f4793faae5c391248521e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description characterizes a family of productivity software, collaboration tools and cloud-based services, conventional office and collaboration functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a product family of productivity software, collaboration and cloud-based services"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Broad productfamily productivity/collaboration/cloudCATEGORIES, no concrete operations. Judge whether enough meaningfulsoftwarefunction vs broad label, no importing Microsoftfeatures/currentproductknowledge."
+    ]
+  },
+  {
+    "annotation_id": "ann_fb992055dc69f5402b0f90e9",
+    "description_sha256": "ee8678cba3f37ea3e6529f3235263ecff2395465ae293787e8badf3705bab535",
+    "description": "Avaya managed voice services manages operations for your communications infrastructure and apps keeping your solution at peak performance and availability.",
+    "source_record_references": [
+      "1240"
+    ],
+    "labeler": {
+      "annotation_id": "ann_fb992055dc69f5402b0f90e9",
+      "description_sha256": "ee8678cba3f37ea3e6529f3235263ecff2395465ae293787e8badf3705bab535",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This describes managed voice services that operate communications infrastructure and apps to maintain performance and availability, a conventional managed service.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "manages operations for your communications infrastructure and apps keeping your solution at peak performance and availability."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_fb992055dc69f5402b0f90e9",
+      "description_sha256": "ee8678cba3f37ea3e6529f3235263ecff2395465ae293787e8badf3705bab535",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The service manages communications infrastructure and applications to maintain performance and availability, a conventional managed voice/IT operations service.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "manages operations for your communications infrastructure and apps keeping your solution at peak performance and availability."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Managed voice SERVICES operating apps/infrastructure may be human operationalservice, source does not identify software doing work. Rubricrequiresmeaningfulsoftwarefunction; conventionalserviceclaim alone insufficient, keepweak/forced if scope unclear."
+    ]
+  }
+]
