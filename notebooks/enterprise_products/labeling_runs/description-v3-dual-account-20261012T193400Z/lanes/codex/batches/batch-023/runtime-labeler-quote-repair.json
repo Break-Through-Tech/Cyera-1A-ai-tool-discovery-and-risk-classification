@@ -4,8 +4,8 @@
   "original_native_path": "/tmp/pi-subagents-uid-1000/async-subagent-runs/0830aab5-bbcc-421f-8be6-eef609311ede/structured-output/pi-subagent-structured-4KCly0/output.json",
   "original_native_sha256": "4eaaa8c1f530c52683e2b75f7bb52143847a8b8e9de627e7ee4e70e4a2f67e48",
   "original_checkpoint_sha256": "cd3d6ca76f0d745b5faea67a3b373094e6be36d0f4a6516fdfc7480c4f7d9f46",
-  "accepted_override": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-023/runtime/accepted-quote-repair/checkpoints/ann_bab48f1e4c13ed43491c6d3e.json",
-  "accepted_sha256": "6a80c399537719ab75ffdcf5381d2fdfdef4de6bc0c6235bf955677cb7e41e56",
+  "accepted_override": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-023/runtime/accepted-quote-transport/checkpoints/ann_bab48f1e4c13ed43491c6d3e.json",
+  "accepted_sha256": "29cc6080ccf4332dddbb39c712150a6b069df36fd4f9b278b4bb07f23a2cec09",
   "change": "Remove ONLY leading an-space from first exactquote; source says a freeware Apache, otherfieldsunchanged",
   "all20_original_private_hashes": {
     "agents/labeler/checkpoints/ann_8dd4476f42a0f2ef4951b5ac.json": "961149c3667c3c09f4c93cf396d76315d478ef29d9092bbaf7fc45462ee03355",
@@ -29,5 +29,9 @@
     "agents/labeler/checkpoints/ann_bab48f1e4c13ed43491c6d3e.json": "cd3d6ca76f0d745b5faea67a3b373094e6be36d0f4a6516fdfc7480c4f7d9f46",
     "agents/labeler/checkpoints/ann_bd3ec4b2a04a5dfc0dda8f19.json": "686cabf77a5ef57c11d9802e4b807057b7d1e9a4a7340dded28e248983843e58"
   },
-  "prospective20_fullschema_quotes_pass": true
+  "prospective20_fullschema_quotes_pass": true,
+  "parent_first_override_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-023/runtime/accepted-quote-repair/checkpoints/ann_bab48f1e4c13ed43491c6d3e.json",
+  "parent_first_override_sha256": "6a80c399537719ab75ffdcf5381d2fdfdef4de6bc0c6235bf955677cb7e41e56",
+  "transport_deviation": "Original retained agent omitted terminal period from first shortened quote only; exact shorter source substring, all other fields unchanged. Both originalraw andfirstoverridepreserved; parentacceptednewtransportcheckpoint no semanticwork.",
+  "transport_run": "67da9879-b4d3-40a6-96ec-460b62f2e88d"
 }

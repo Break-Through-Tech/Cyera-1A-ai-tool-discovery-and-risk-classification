@@ -1,0 +1,441 @@
+[
+  {
+    "annotation_id": "ann_38acfd687ad7201c1c0e6018",
+    "description_sha256": "a32d650401fff6cbeb88175e2c874594eea02b706ed77c8027c73cdd56427574",
+    "description": "Polly is an engagement app purpose-built for Slack, Microsoft Teams and Zoom Apps. Polly helps internal teams of all sizes make smarter, data-driven decisions, instantly.",
+    "source_record_references": [
+      "1151"
+    ],
+    "labeler": {
+      "annotation_id": "ann_38acfd687ad7201c1c0e6018",
+      "description_sha256": "a32d650401fff6cbeb88175e2c874594eea02b706ed77c8027c73cdd56427574",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description presents an engagement app for workplace platforms that helps teams make decisions, a conventional collaboration and feedback function without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Polly is an engagement app purpose-built for Slack, Microsoft Teams and Zoom Apps.",
+        "helps internal teams of all sizes make smarter, data-driven decisions"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_38acfd687ad7201c1c0e6018",
+      "description_sha256": "a32d650401fff6cbeb88175e2c874594eea02b706ed77c8027c73cdd56427574",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes an engagement app for workplace collaboration that helps teams make data-driven decisions; these are conventional team-engagement and decision-support functions, with no AI functionality stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Polly is an engagement app purpose-built for Slack, Microsoft Teams and Zoom Apps.",
+        "helps internal teams of all sizes make smarter, data-driven decisions, instantly."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Text says engagement app and smarter data-driven decisions, but no concrete engagement operation (polling/feedback not stated). Both rationales may import feedback/collaboration function. Judge literal functionality vs vague category/outcome, keep weak if insufficient."
+    ]
+  },
+  {
+    "annotation_id": "ann_630e04bcde3cefe9e8eca994",
+    "description_sha256": "9fb27922c772ffbe3d7e0c363dcbb4d1ef9fbd9b5c31679731cb57ff07b378d5",
+    "description": "Network IT IMPACT (Integrated Management Platform for Advanced Communication) application",
+    "source_record_references": [
+      "1136"
+    ],
+    "labeler": {
+      "annotation_id": "ann_630e04bcde3cefe9e8eca994",
+      "description_sha256": "9fb27922c772ffbe3d7e0c363dcbb4d1ef9fbd9b5c31679731cb57ff07b378d5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text only identifies an application and expands its management-platform name, without specifying what the application does; the best-supported label is non-AI but functionality evidence is limited.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "(Integrated Management Platform for Advanced Communication) application"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_630e04bcde3cefe9e8eca994",
+      "description_sha256": "9fb27922c772ffbe3d7e0c363dcbb4d1ef9fbd9b5c31679731cb57ff07b378d5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text calls it an integrated management platform application, but supplies no functional detail; the best-supported binary choice is non-AI, with weak evidence because the description is too vague to characterize its capabilities.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Network IT IMPACT (Integrated Management Platform for Advanced Communication) application"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": []
+  },
+  {
+    "annotation_id": "ann_7b87c87eefc5556a8f829a03",
+    "description_sha256": "9be5a0e5e50ad5b8a6e004820b709458d380c5645ae74c078564d151699a9ba0",
+    "description": "Custom audio files containing messages with licensed music that will not only keep your callers engaged, but also provide information to them while they stay on the line.",
+    "source_record_references": [
+      "1134"
+    ],
+    "labeler": {
+      "annotation_id": "ann_7b87c87eefc5556a8f829a03",
+      "description_sha256": "9be5a0e5e50ad5b8a6e004820b709458d380c5645ae74c078564d151699a9ba0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes prerecorded/custom caller audio and licensed music used to entertain callers and provide information during hold time, a conventional media function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Custom audio files containing messages with licensed music",
+        "provide information to them while they stay on the line."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_7b87c87eefc5556a8f829a03",
+      "description_sha256": "9be5a0e5e50ad5b8a6e004820b709458d380c5645ae74c078564d151699a9ba0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This describes custom caller-hold audio containing licensed music and messages to engage and inform callers, a conventional media-content function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Custom audio files containing messages with licensed music",
+        "provide information to them while they stay on the line."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Text describes custom audio FILES/licensed music, not a software operation or generation method. Labeler says prerecorded without explicit evidence. Distinguish media content from software, no imported recording/generation mechanism; weak/forced if scope unclear."
+    ]
+  },
+  {
+    "annotation_id": "ann_7fa1bb0f38521cf6488438c9",
+    "description_sha256": "fc0366334f5b98774f126d4ed5ac656189fbc662ff169a80c641b9fa2b7cb255",
+    "description": "Value Stream Management is a management technique or practice that focuses on increasing the flow of business value from customer request to customer delivery. Its systematic approach to measuring and improving flow helps organizations shorten time-to-market, increase throughput, improve product quality and optimize for business outcomes.\n\nTasktop aquired by Planview in 2022",
+    "source_record_references": [
+      "1130"
+    ],
+    "labeler": {
+      "annotation_id": "ann_7fa1bb0f38521cf6488438c9",
+      "description_sha256": "fc0366334f5b98774f126d4ed5ac656189fbc662ff169a80c641b9fa2b7cb255",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description explains a management practice for measuring and improving the flow of business value from request to delivery, with operational performance outcomes; it describes process improvement rather than AI functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a management technique or practice that focuses on increasing the flow of business value from customer request to customer delivery.",
+        "Its systematic approach to measuring and improving flow helps organizations shorten time-to-market, increase throughput, improve product quality and optimize for business outcomes."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_7fa1bb0f38521cf6488438c9",
+      "description_sha256": "fc0366334f5b98774f126d4ed5ac656189fbc662ff169a80c641b9fa2b7cb255",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Value Stream Management is described as a management practice for measuring and improving business-value flow, throughput, quality, and delivery outcomes; these are conventional process-management functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a management technique or practice that focuses on increasing the flow of business value from customer request to customer delivery.",
+        "Its systematic approach to measuring and improving flow helps organizations shorten time-to-market, increase throughput, improve product quality and optimize for business outcomes."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Description defines a management TECHNIQUE/PRACTICE and mentions acquisition; it does not clearly establish software. Conventional business practice is not itself evidence of software function. Assess weak/forced scope."
+    ]
+  },
+  {
+    "annotation_id": "ann_8ccd8387a192c95aa1988e68",
+    "description_sha256": "3af87f8a00ef834a042069900acc8135840b0fe0c054702854edf961c8a08edb",
+    "description": "The ZIP Code Population Weighted Centroids allows researchers and analysts to estimate the center of population in a given geography rather than the geometric center. Data to estimate ZIP code centroids is extracted from administrative USPS address data.",
+    "source_record_references": [
+      "1150"
+    ],
+    "labeler": {
+      "annotation_id": "ann_8ccd8387a192c95aa1988e68",
+      "description_sha256": "3af87f8a00ef834a042069900acc8135840b0fe0c054702854edf961c8a08edb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described dataset estimates population-weighted geographic centroids from administrative address data, a conventional data calculation and research resource.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "estimate the center of population in a given geography rather than the geometric center.",
+        "Data to estimate ZIP code centroids is extracted from administrative USPS address data."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_8ccd8387a192c95aa1988e68",
+      "description_sha256": "3af87f8a00ef834a042069900acc8135840b0fe0c054702854edf961c8a08edb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This is a geographic data resource used to estimate population-weighted ZIP-code centers from administrative address data, a conventional data and geospatial-analysis function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "allows researchers and analysts to estimate the center of population in a given geography rather than the geometric center.",
+        "Data to estimate ZIP code centroids is extracted from administrative USPS address data."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Geographic resource/data extracted from addresses, not clearly software. Estimation has clear data purpose but software applicability unresolved. Do not assert product computes centroids if only data provided."
+    ]
+  },
+  {
+    "annotation_id": "ann_8dd4476f42a0f2ef4951b5ac",
+    "description_sha256": "edc26c0a84d955d08f183d3b906f6ad55905f22bb3c847d8f6df5bb1074b7688",
+    "description": "Search, analysis and visualization for actionable insights from all of your data",
+    "source_record_references": [
+      "1145"
+    ],
+    "labeler": {
+      "annotation_id": "ann_8dd4476f42a0f2ef4951b5ac",
+      "description_sha256": "edc26c0a84d955d08f183d3b906f6ad55905f22bb3c847d8f6df5bb1074b7688",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This very brief description names search, analysis, and visualization over data, conventional information-retrieval and analytics functions; its brevity leaves implementation unspecified, but provides no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Search, analysis and visualization for actionable insights from all of your data"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_8dd4476f42a0f2ef4951b5ac",
+      "description_sha256": "edc26c0a84d955d08f183d3b906f6ad55905f22bb3c847d8f6df5bb1074b7688",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described functions are searching, analyzing, and visualizing data to surface insights, conventional data exploration and business-intelligence functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Search, analysis and visualization for actionable insights from all of your data"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": []
+  },
+  {
+    "annotation_id": "ann_909784de2c1c5c4b2d3e7c42",
+    "description_sha256": "10fd8e2c03ff518e4ad0eba5af97237ac9b30cc6638d26f97dc37c683b2f5fbb",
+    "description": "Identify and manage privacy risk as part of a holistic risk program across the enterprise. Stay compliant with evolving global privacy regulations.",
+    "source_record_references": [
+      "1143"
+    ],
+    "labeler": {
+      "annotation_id": "ann_909784de2c1c5c4b2d3e7c42",
+      "description_sha256": "10fd8e2c03ff518e4ad0eba5af97237ac9b30cc6638d26f97dc37c683b2f5fbb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers enterprise privacy-risk management and compliance with changing regulations, conventional governance and compliance functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Identify and manage privacy risk as part of a holistic risk program across the enterprise.",
+        "Stay compliant with evolving global privacy regulations."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_909784de2c1c5c4b2d3e7c42",
+      "description_sha256": "10fd8e2c03ff518e4ad0eba5af97237ac9b30cc6638d26f97dc37c683b2f5fbb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes enterprise privacy-risk management and compliance with privacy regulations, conventional governance and compliance functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Identify and manage privacy risk as part of a holistic risk program across the enterprise. Stay compliant with evolving global privacy regulations."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Privacy risk identification/management and regulatory compliance are goals/category, no concrete operations or mechanisms. Decide whether sufficient conventional software functionality is positively established vs marketing/vague weak."
+    ]
+  },
+  {
+    "annotation_id": "ann_a980351be72d2d2a5167d3aa",
+    "description_sha256": "2f5f0c23ac97463f9f572d805f762d5c78c5c72587573d72d3f02e30e89cab18",
+    "description": "Ekahau Pro is used for designing, analyzing, optimizing and troubleshooting Wi-Fi networks.\n\nProfessional-grade features combined with unprecedented ease of use. Ultra-fast user interface works on macOS and Windows and supports all Wi-Fi access points, thousands of antennas and the latest Wi-Fi standards including 802.11ax (Wi-Fi 6 & 6E)",
+    "source_record_references": [
+      "1131"
+    ],
+    "labeler": {
+      "annotation_id": "ann_a980351be72d2d2a5167d3aa",
+      "description_sha256": "2f5f0c23ac97463f9f572d805f762d5c78c5c72587573d72d3f02e30e89cab18",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes Wi-Fi network design, analysis, optimization, and troubleshooting with support for access points, antennas, and standards—a conventional network-planning function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "used for designing, analyzing, optimizing and troubleshooting Wi-Fi networks.",
+        "supports all Wi-Fi access points, thousands of antennas and the latest Wi-Fi standards including 802.11ax (Wi-Fi 6 & 6E)"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_a980351be72d2d2a5167d3aa",
+      "description_sha256": "2f5f0c23ac97463f9f572d805f762d5c78c5c72587573d72d3f02e30e89cab18",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The product is described for designing, analyzing, optimizing, and troubleshooting Wi-Fi networks, conventional network planning and diagnostics.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Ekahau Pro is used for designing, analyzing, optimizing and troubleshooting Wi-Fi networks.",
+        "supports all Wi-Fi access points, thousands of antennas and the latest Wi-Fi standards including 802.11ax (Wi-Fi 6 & 6E)"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Wi-Fi design/analysis/optimization/troubleshooting and device support are stated, but optimization method unspecified. Assess supported negative without assuming deterministic algorithm or remembered features."
+    ]
+  },
+  {
+    "annotation_id": "ann_bae79495a51eff5a23116697",
+    "description_sha256": "b4fc93542abb2a140822664f8a5a65cb70c152426efc211eb343c79c0c277d49",
+    "description": "ServiceNow App engine is a development tool for creators of varying skill levels to build applications. ServiceNow App Engine empowers businesses around enterprise-class low code application delivery with intuitive and intelligent experiences, at speed and scale.",
+    "source_record_references": [
+      "1142"
+    ],
+    "labeler": {
+      "annotation_id": "ann_bae79495a51eff5a23116697",
+      "description_sha256": "b4fc93542abb2a140822664f8a5a65cb70c152426efc211eb343c79c0c277d49",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes low-code application creation, but its phrase “intelligent experiences” is underspecified and could refer to an AI enhancement or merely a product quality; the best-supported binary decision is non-AI absent an affirmative AI claim.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a development tool for creators of varying skill levels to build applications.",
+        "intuitive and intelligent experiences"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_bae79495a51eff5a23116697",
+      "description_sha256": "b4fc93542abb2a140822664f8a5a65cb70c152426efc211eb343c79c0c277d49",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description clearly gives low-code application development as the core function, but the phrase 'intelligent experiences' is unexplained and leaves a possible AI enhancement ambiguous; the best-supported binary decision is non-AI with weak evidence.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a development tool for creators of varying skill levels to build applications.",
+        "intuitive and intelligent experiences, at speed and scale."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": []
+  },
+  {
+    "annotation_id": "ann_bd3ec4b2a04a5dfc0dda8f19",
+    "description_sha256": "1fc3df3b88703f53722eab18e5acc1d0514b2dfa451eb6e02c1c0b07200ecd0c",
+    "description": "Splunk Enterprise Security provides simplified threat management that facilitates quick threat detection and response and minimizes risk. Splunk ES can help you achieve continuous monitoring, support your security operations center (SOC), implement incident response, or inform stakeholders about business risks",
+    "source_record_references": [
+      "1144"
+    ],
+    "labeler": {
+      "annotation_id": "ann_bd3ec4b2a04a5dfc0dda8f19",
+      "description_sha256": "1fc3df3b88703f53722eab18e5acc1d0514b2dfa451eb6e02c1c0b07200ecd0c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described security offering supports threat management, detection and response, continuous monitoring, and SOC operations—conventional security monitoring workflows without a stated AI mechanism.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "simplified threat management that facilitates quick threat detection and response and minimizes risk.",
+        "achieve continuous monitoring, support your security operations center (SOC), implement incident response"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_bd3ec4b2a04a5dfc0dda8f19",
+      "description_sha256": "1fc3df3b88703f53722eab18e5acc1d0514b2dfa451eb6e02c1c0b07200ecd0c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described security operations functions are threat detection and response, continuous monitoring, incident response, and stakeholder risk reporting—conventional security management capabilities.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "facilitates quick threat detection and response and minimizes risk.",
+        "achieve continuous monitoring, support your security operations center (SOC), implement incident response, or inform stakeholders about business risks"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Monitoring/incident-response functions concrete, threat detection method unspecified. Assess whole negative support without inferring rule-based detection/productknowledge."
+    ]
+  }
+]

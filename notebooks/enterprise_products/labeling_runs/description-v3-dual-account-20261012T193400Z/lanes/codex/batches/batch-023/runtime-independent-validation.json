@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-10-20T19:27:30.140523+00:00",
+  "roles": {
+    "labeler": {
+      "run_id": "67da9879-b4d3-40a6-96ec-460b62f2e88d",
+      "native_path": "/tmp/pi-subagents-uid-1000/async-subagent-runs/67da9879-b4d3-40a6-96ec-460b62f2e88d/structured-output/pi-subagent-structured-yIXOEL/output.json",
+      "native_sha256": "b00b3e92a07b0b22b33d520a0ee3b21978c47c67316b7f1432ade5558e5f9e09",
+      "model": "openai-codex/gpt-6-luna",
+      "checkpoints": {
+        "agents/labeler/checkpoints/ann_38acfd687ad7201c1c0e6018.json": "489bef953169929710354caf8eccff6a10cfe62b90a9f7c78d60eaa670819f54",
+        "agents/labeler/checkpoints/ann_4791f0393613f1d9bcf02e7d.json": "e7c1efb632553d09dcb52bdc3ad2ce2538ff8b0eb9d3b920f3cf38053441c3d5",
+        "agents/labeler/checkpoints/ann_5558f4c2c488a9424dd03966.json": "5ec72f0d507fbe6e473d6c5e6a5bece5dffe054c02e35cf78fee3b92776633eb",
+        "agents/labeler/checkpoints/ann_630e04bcde3cefe9e8eca994.json": "2769c0a30d62fedd5770c338298909a263f0fc5ec4a562bdcf7c0bc1aa147f01",
+        "agents/labeler/checkpoints/ann_6f9f53c3a7ce867b719f450f.json": "958bbcd432cfe7d4f5ff438291364d6174822aa319fb5adcb389f41377f8bb1c",
+        "agents/labeler/checkpoints/ann_7b87c87eefc5556a8f829a03.json": "9067302c757f857f7fb9be9a12f5a8e0f441dfa4efdc15fbdc7a9c3cf9ca050b",
+        "agents/labeler/checkpoints/ann_7fa1bb0f38521cf6488438c9.json": "39da5b598eb9cac3379c014c282513a6f04588493c14e8c6f2c4f9dcaa389b57",
+        "agents/labeler/checkpoints/ann_87e428a4c33a26cdd234595e.json": "3d816d1dea51e128d64d53222d99125ecccdeb7f7f145d547bd05b06d85756e1",
+        "agents/labeler/checkpoints/ann_88186b10edead43809f052aa.json": "a3576e5b04659d4da6d6196e26ab42917d5eac3d29815e01af4278d2b909b962",
+        "agents/labeler/checkpoints/ann_8ccd8387a192c95aa1988e68.json": "299d00382b34b97123343ef8a89b785d56f83ebc7558b820ebdf5f2a54946d8f",
+        "agents/labeler/checkpoints/ann_8dd4476f42a0f2ef4951b5ac.json": "961149c3667c3c09f4c93cf396d76315d478ef29d9092bbaf7fc45462ee03355",
+        "agents/labeler/checkpoints/ann_8e2cae3faeabe526df7b1d48.json": "818e8f8f8066e468d717ae72454d6b46c280466efc1492615edc2a87f7c45f9e",
+        "agents/labeler/checkpoints/ann_909784de2c1c5c4b2d3e7c42.json": "e9483bfd3976969d439684b098847a5384191b58b0a438b7820b04da33dad2ee",
+        "agents/labeler/checkpoints/ann_a980351be72d2d2a5167d3aa.json": "967ab17e405d8729db35e9530ac36b2835ac1f3aa86c1eca6ad8afdf53d0bf60",
+        "agents/labeler/checkpoints/ann_bab48f1e4c13ed43491c6d3e.json": "cd3d6ca76f0d745b5faea67a3b373094e6be36d0f4a6516fdfc7480c4f7d9f46",
+        "agents/labeler/checkpoints/ann_bae79495a51eff5a23116697.json": "3e6fa06d23624f5cccf20704298a5110343e51341604ae7c6fcd6e9cf6ae7b4c",
+        "agents/labeler/checkpoints/ann_bd3ec4b2a04a5dfc0dda8f19.json": "686cabf77a5ef57c11d9802e4b807057b7d1e9a4a7340dded28e248983843e58",
+        "agents/labeler/checkpoints/ann_caf4d158864f9b82b2653d36.json": "ff3a3c01d6dc523aa23f0059bec81a61b4db00737b8dfcde99cde92234f4f4b9",
+        "agents/labeler/checkpoints/ann_cc1e4a4f1404dc66f99aad0b.json": "629dba15d7f65e4bad933f5a2354e33e55ea44198678228aa10d0fa4953eaa3c",
+        "agents/labeler/checkpoints/ann_fe554ee2ad9e224245f0fccc.json": "d88399f9bd6aaba93011a953bb187a855058365ec1cfb5284b5b4befb53d4b4a"
+      },
+      "accepted_override": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-023/runtime/accepted-quote-transport/checkpoints/ann_bab48f1e4c13ed43491c6d3e.json",
+      "accepted_override_sha256": "29cc6080ccf4332dddbb39c712150a6b069df36fd4f9b278b4bb07f23a2cec09"
+    },
+    "blind": {
+      "run_id": "7c770f1d-c8a2-4f4e-aae6-0d47ebd7bc87",
+      "native_path": "/tmp/pi-subagents-uid-1000/async-subagent-runs/7c770f1d-c8a2-4f4e-aae6-0d47ebd7bc87/structured-output/pi-subagent-structured-jP0rxj/output.json",
+      "native_sha256": "155f92d6c69f9cb29e00941196236f86dec356bae4074286778b361d10187d59",
+      "model": "openai-codex/gpt-6-luna",
+      "checkpoints": {
+        "agents/blind/checkpoints/ann_38acfd687ad7201c1c0e6018.json": "0e3374de086934b66a7e9ae1d7605009867cb27ae02ee7905077a1aaab9e961a",
+        "agents/blind/checkpoints/ann_4791f0393613f1d9bcf02e7d.json": "66176b75ed1882440ec0eba2ff2504d6f8806c07e086a889ca53c977aff6ccee",
+        "agents/blind/checkpoints/ann_5558f4c2c488a9424dd03966.json": "507f2b115095c0c74005885cac388cbb71614735c73003df4fafdb6aeef61a6e",
+        "agents/blind/checkpoints/ann_630e04bcde3cefe9e8eca994.json": "4106365b22e527e68d36c396bb2c214a31fea493fd469d63fa51045c1fb2a6ba",
+        "agents/blind/checkpoints/ann_6f9f53c3a7ce867b719f450f.json": "c75ae7aaf38a1627e70b09f584b9fb6cdf4f47044b4bcf496e175a65bc2d8214",
+        "agents/blind/checkpoints/ann_7b87c87eefc5556a8f829a03.json": "30fbbcd9d3876dfc50fbdd322195147830543707da70e26ee44169f549e1b4bf",
+        "agents/blind/checkpoints/ann_7fa1bb0f38521cf6488438c9.json": "309cd1e3fc7f5729d226594f89fb20d2758355d904744895d0da8508125f5c94",
+        "agents/blind/checkpoints/ann_87e428a4c33a26cdd234595e.json": "6ae2b6567738fab6dd28bccb4dc7b74ffecd12c34d11108bfbe5bf8d8507e81e",
+        "agents/blind/checkpoints/ann_88186b10edead43809f052aa.json": "93aefb735a6330db9bcd5e4e8f98e02b04df0eed11e8a171e06360384dbebc50",
+        "agents/blind/checkpoints/ann_8ccd8387a192c95aa1988e68.json": "39ae92c6c53c1cbc3439f98432d70b520746784df287bde09e15e71d6adafc80",
+        "agents/blind/checkpoints/ann_8dd4476f42a0f2ef4951b5ac.json": "01458d08693325679e37f0f3554eec740879b55e55000a719bc2acf69cb1aa24",
+        "agents/blind/checkpoints/ann_8e2cae3faeabe526df7b1d48.json": "c6af5d1a9ba211a8403dd12ffe6d8299f4728ebc06df1c0a05b051c34f8250f6",
+        "agents/blind/checkpoints/ann_909784de2c1c5c4b2d3e7c42.json": "b893b8dc01dcae3416548b85c3ee7528b64f5c59cd255296f2882172db1bd48f",
+        "agents/blind/checkpoints/ann_a980351be72d2d2a5167d3aa.json": "2bbcac5d8cc4baa316718eb9aefb8f5afee12ba80753364eab9f25a4ab3507dc",
+        "agents/blind/checkpoints/ann_bab48f1e4c13ed43491c6d3e.json": "ce0ffaf3709e8cc2d835f9e98b826569207618f462b65beeb7a65f428dc90307",
+        "agents/blind/checkpoints/ann_bae79495a51eff5a23116697.json": "72a19bac5fd3d6a289a74a11610aac89f744bbe0ead83fcc8e874c082c95f6f9",
+        "agents/blind/checkpoints/ann_bd3ec4b2a04a5dfc0dda8f19.json": "f3441ed69e72b2f45997c1ebc75ba75aa09691cab29ef551914ed1ccbf7c7e1b",
+        "agents/blind/checkpoints/ann_caf4d158864f9b82b2653d36.json": "32e708ad58db6323cd06e9f65c14a774aff914402501c7d4ba150341c530aee2",
+        "agents/blind/checkpoints/ann_cc1e4a4f1404dc66f99aad0b.json": "b554a53e05a69c5b1876984e724ca3177f58bd7787ba2f27611db9a675296f58",
+        "agents/blind/checkpoints/ann_fe554ee2ad9e224245f0fccc.json": "dedeb3a42840faf775cc45f3e66ea57d907bbb02ce0b1dcd44f9c36552a71bb4"
+      },
+      "accepted_override": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-023/runtime/accepted-provenance-repair/checkpoints/ann_a980351be72d2d2a5167d3aa.json",
+      "accepted_override_sha256": "a7e79c13a15c8d53685b4c9473d15a5aa88f9b25c30f79b0235070f7c305f791"
+    }
+  },
+  "comparison_started": false,
+  "status": "independent_raw_validated",
+  "coverage_schema_quotes_equality": true
+}

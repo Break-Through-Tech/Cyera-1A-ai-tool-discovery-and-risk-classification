@@ -106,6 +106,27 @@
         "ann_cc1e4a4f1404dc66f99aad0b",
         "ann_fe554ee2ad9e224245f0fccc"
       ]
+    },
+    "reconciliation": {
+      "stage": "reconciliation",
+      "run_id": "batch-023",
+      "batch_id": "codex-batch-023",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "c2b7913f26722139d4bac8b918bac639d108d55bef866c418024ffc84347267b",
+      "model_id": "openai-codex/gpt-6-luna:high",
+      "assigned_annotation_ids": [
+        "ann_38acfd687ad7201c1c0e6018",
+        "ann_630e04bcde3cefe9e8eca994",
+        "ann_7b87c87eefc5556a8f829a03",
+        "ann_7fa1bb0f38521cf6488438c9",
+        "ann_8ccd8387a192c95aa1988e68",
+        "ann_8dd4476f42a0f2ef4951b5ac",
+        "ann_909784de2c1c5c4b2d3e7c42",
+        "ann_a980351be72d2d2a5167d3aa",
+        "ann_bae79495a51eff5a23116697",
+        "ann_bd3ec4b2a04a5dfc0dda8f19"
+      ]
     }
   },
   "prepared_artifacts": {
@@ -114,5 +135,47 @@
   },
   "selection_artifact": {
     "selection.json": "e398217508bae426692d4820d51e1c5c303d21ea57a9b3eb46bd0a63ff2f3fa6"
+  },
+  "checkpoints": {
+    "stages/labeler/ann_38acfd687ad7201c1c0e6018.json": "442f166af0822f598ee4368d90a1b17811accae9270cb390ed2151bcc6bcb240",
+    "stages/labeler/ann_4791f0393613f1d9bcf02e7d.json": "d624846167057f807f70c1da933a11b29c06498ac4863eb31943c20aeecef19f",
+    "stages/labeler/ann_5558f4c2c488a9424dd03966.json": "c0c520b0de8b1c9f6b571ae79d911ce074e1f939bf7bb7bead919bdf9dc2a7b2",
+    "stages/labeler/ann_630e04bcde3cefe9e8eca994.json": "471708d80c5cbd434521d1bc2b3d18174b32e8f5aca6b0d3f8d93510e6cb4dac",
+    "stages/labeler/ann_6f9f53c3a7ce867b719f450f.json": "79b9191a96264ed7d9cf58cb2777022888545f0aafbe997fd826749eed292004",
+    "stages/labeler/ann_7b87c87eefc5556a8f829a03.json": "05eb9efa4b27a9cc75714835757af424e497d4e9a7b8213afe6eb826508b1fe2",
+    "stages/labeler/ann_7fa1bb0f38521cf6488438c9.json": "fa5bd9063da2409c2681efed0b511df044903fab102de8cbafce3eae94cd69d7",
+    "stages/labeler/ann_87e428a4c33a26cdd234595e.json": "650693b9d7635f9a46b19aa9cfd292566af556543abc6dae32c4f4e292a4fcfc",
+    "stages/labeler/ann_88186b10edead43809f052aa.json": "16af542266246a20de567bb1ddbc2756ec789ce341687c60fe08b86eada8d306",
+    "stages/labeler/ann_8ccd8387a192c95aa1988e68.json": "99b65501903b3dede80002d2d9a1a5c79e5a095e5bfde62889fe663deb428f86",
+    "stages/labeler/ann_8dd4476f42a0f2ef4951b5ac.json": "12dee56c05744137699087452e6f181e31991b7c5b394921f0edebfdb8622837",
+    "stages/labeler/ann_8e2cae3faeabe526df7b1d48.json": "78e2ddf88ff14ab1784aaf970283f4f4213a076fcc31375622ae96e78f7e9359",
+    "stages/labeler/ann_909784de2c1c5c4b2d3e7c42.json": "4b95ae08b8916389492a5391386e49f1ebfebf76da26b8fc4c4b04c4803c2770",
+    "stages/labeler/ann_a980351be72d2d2a5167d3aa.json": "89edf8c67f0101325ae56d93a6833d450752f4879d4b53622ab00d72e10b7c6d",
+    "stages/labeler/ann_bab48f1e4c13ed43491c6d3e.json": "29cc6080ccf4332dddbb39c712150a6b069df36fd4f9b278b4bb07f23a2cec09",
+    "stages/labeler/ann_bae79495a51eff5a23116697.json": "68692f12cf27623dc3fcad6847b52f4c40e51c158047904aba4eec6273798c7d",
+    "stages/labeler/ann_bd3ec4b2a04a5dfc0dda8f19.json": "fc080635c02b4dc868567feb90b83bee266159ec62d9b20f424d96a71aa7ed4a",
+    "stages/labeler/ann_caf4d158864f9b82b2653d36.json": "a26c98f5c6fb97bb482bcdd2a1ef218ef42a5897b33a20c7e874f62fd42b411c",
+    "stages/labeler/ann_cc1e4a4f1404dc66f99aad0b.json": "0d265781dd330227df0b4b55bb48c6f21c16713ad250944a3bd5dd7049874d7b",
+    "stages/labeler/ann_fe554ee2ad9e224245f0fccc.json": "2787222886edf2ee1c2af12ba656e79e67ba6591edeac96d92dfce608a7320bc",
+    "stages/blind/ann_38acfd687ad7201c1c0e6018.json": "65460eb646e439f1e8794740b12b4911b5c8ffb0c1d060f3e26ae167ee434120",
+    "stages/blind/ann_4791f0393613f1d9bcf02e7d.json": "fc0bd91cd03c830fd9e79176de3336619471be472d80bacd96d1824910405945",
+    "stages/blind/ann_5558f4c2c488a9424dd03966.json": "439d598216b7b56fa9e67532547572c36f8b8db547e4911ae63fe97473763a2a",
+    "stages/blind/ann_630e04bcde3cefe9e8eca994.json": "cc6967c1a2b813674a3bf2010c6b624b81206d1a81a7b3da6b12f51a4f87d45f",
+    "stages/blind/ann_6f9f53c3a7ce867b719f450f.json": "c2f0f26188d8fa179f70edf335297f0bfca37f176a8e130553082f18101dd178",
+    "stages/blind/ann_7b87c87eefc5556a8f829a03.json": "2c5352e40f31747b9c8fc57a14aa13f7859c5bf93766407fc6f86718470a279c",
+    "stages/blind/ann_7fa1bb0f38521cf6488438c9.json": "ec765080a5271aa7b72b916c3ec3e3372b1efaa3c1bcadb78315e5810ad74a3f",
+    "stages/blind/ann_87e428a4c33a26cdd234595e.json": "fd087ab3736513c65a2a60d8835e3538f54b94c10d622316b51c5811c52a5854",
+    "stages/blind/ann_88186b10edead43809f052aa.json": "1a253b495367b6a498d8ca93145bd0ace94f1a372b7230b5bdff7b0ac73db3cd",
+    "stages/blind/ann_8ccd8387a192c95aa1988e68.json": "1a7ddd508ecb339c3e0357c9034ece0a2d0d4e2f6dad01a3bec7a5047eb1b599",
+    "stages/blind/ann_8dd4476f42a0f2ef4951b5ac.json": "5c1fa91274f56f1a624b0bb426c8951b4071b8037527935b5cefe93bbbd62c9b",
+    "stages/blind/ann_8e2cae3faeabe526df7b1d48.json": "6cbdaec62e893ecedd0a24e0e23e073325de9d5d48b0657aeafaa767182e03c1",
+    "stages/blind/ann_909784de2c1c5c4b2d3e7c42.json": "e46e307455b103ab5ce18182ab31a087a97946813b52e7a9e7fecdae094fbd0b",
+    "stages/blind/ann_a980351be72d2d2a5167d3aa.json": "d414a3514311c310c3afdb132ee7ed796474754bc4eb1aa31a41431fd67911e0",
+    "stages/blind/ann_bab48f1e4c13ed43491c6d3e.json": "f0dba7173a466d26404ac4cea4511fe484a062053f7c290d91fa545ed05946cf",
+    "stages/blind/ann_bae79495a51eff5a23116697.json": "5ccc3e94376cdbb5427c1708fe9ea486ea6e449a09ab68192688e09dd6d42171",
+    "stages/blind/ann_bd3ec4b2a04a5dfc0dda8f19.json": "cebb15f3603a6005454c22fbc5ecad0dc01650e65f6fc671ab25e87d564fb541",
+    "stages/blind/ann_caf4d158864f9b82b2653d36.json": "3bb90e5a76c6288f7f16390e68f40f7aa78c50beb7b9ff46e563a31068c5a93d",
+    "stages/blind/ann_cc1e4a4f1404dc66f99aad0b.json": "a01ca16619a972d5ecacebbf382976390b650b903dbc0bebf53a789957ee9615",
+    "stages/blind/ann_fe554ee2ad9e224245f0fccc.json": "f12b1909235edf8509cf4dc7150a8dafe49925ae7029b3dc9813d7b9e23d85d5"
   }
 }

@@ -1,0 +1,55 @@
+{
+  "required": [
+    "ann_630e04bcde3cefe9e8eca994",
+    "ann_8dd4476f42a0f2ef4951b5ac",
+    "ann_bae79495a51eff5a23116697"
+  ],
+  "extra": [
+    "ann_38acfd687ad7201c1c0e6018",
+    "ann_7b87c87eefc5556a8f829a03",
+    "ann_7fa1bb0f38521cf6488438c9",
+    "ann_8ccd8387a192c95aa1988e68",
+    "ann_909784de2c1c5c4b2d3e7c42",
+    "ann_a980351be72d2d2a5167d3aa",
+    "ann_bd3ec4b2a04a5dfc0dda8f19"
+  ],
+  "routed_ids": [
+    "ann_38acfd687ad7201c1c0e6018",
+    "ann_630e04bcde3cefe9e8eca994",
+    "ann_7b87c87eefc5556a8f829a03",
+    "ann_7fa1bb0f38521cf6488438c9",
+    "ann_8ccd8387a192c95aa1988e68",
+    "ann_8dd4476f42a0f2ef4951b5ac",
+    "ann_909784de2c1c5c4b2d3e7c42",
+    "ann_a980351be72d2d2a5167d3aa",
+    "ann_bae79495a51eff5a23116697",
+    "ann_bd3ec4b2a04a5dfc0dda8f19"
+  ],
+  "all20_source_proposal_pairs_reviewed": true,
+  "parent_concerns": {
+    "ann_38acfd687ad7201c1c0e6018": [
+      "Text says engagement app and smarter data-driven decisions, but no concrete engagement operation (polling/feedback not stated). Both rationales may import feedback/collaboration function. Judge literal functionality vs vague category/outcome, keep weak if insufficient."
+    ],
+    "ann_7b87c87eefc5556a8f829a03": [
+      "Text describes custom audio FILES/licensed music, not a software operation or generation method. Labeler says prerecorded without explicit evidence. Distinguish media content from software, no imported recording/generation mechanism; weak/forced if scope unclear."
+    ],
+    "ann_7fa1bb0f38521cf6488438c9": [
+      "Description defines a management TECHNIQUE/PRACTICE and mentions acquisition; it does not clearly establish software. Conventional business practice is not itself evidence of software function. Assess weak/forced scope."
+    ],
+    "ann_8ccd8387a192c95aa1988e68": [
+      "Geographic resource/data extracted from addresses, not clearly software. Estimation has clear data purpose but software applicability unresolved. Do not assert product computes centroids if only data provided."
+    ],
+    "ann_909784de2c1c5c4b2d3e7c42": [
+      "Privacy risk identification/management and regulatory compliance are goals/category, no concrete operations or mechanisms. Decide whether sufficient conventional software functionality is positively established vs marketing/vague weak."
+    ],
+    "ann_a980351be72d2d2a5167d3aa": [
+      "Wi-Fi design/analysis/optimization/troubleshooting and device support are stated, but optimization method unspecified. Assess supported negative without assuming deterministic algorithm or remembered features."
+    ],
+    "ann_bd3ec4b2a04a5dfc0dda8f19": [
+      "Monitoring/incident-response functions concrete, threat detection method unspecified. Assess whole negative support without inferring rule-based detection/productknowledge."
+    ]
+  },
+  "same_original_blind_run": "7c770f1d-c8a2-4f4e-aae6-0d47ebd7bc87",
+  "semantic_pass": 1,
+  "packet_sha256": "422f596bf06d9d879867286af7506d74b1e2f50a296ba109a009b04aae85d5af"
+}
