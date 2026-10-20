@@ -1,0 +1,1405 @@
+[
+  {
+    "annotation_id": "ann_0181fb15ff70609bb6f3b00a",
+    "description_sha256": "81a613f313698cdba1151f163a06399e6dbbc64843d474a1ceb88af82540a678",
+    "source_record_references": [
+      "1367"
+    ],
+    "labeler": {
+      "annotation_id": "ann_0181fb15ff70609bb6f3b00a",
+      "description_sha256": "81a613f313698cdba1151f163a06399e6dbbc64843d474a1ceb88af82540a678",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers product-feed optimization, channel distribution, and synchronization of orders, inventory, and product data for commerce workflows.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Optimizes product listings for each shopping destination, Sends optimized feeds to hundreds of global channels,  Syncs orders, inventory, and product data across systems"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_0181fb15ff70609bb6f3b00a",
+      "description_sha256": "81a613f313698cdba1151f163a06399e6dbbc64843d474a1ceb88af82540a678",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional product-feed optimization, channel distribution, and syncing of orders, inventory, and product data; no affirmative AI signal appears.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Optimizes product listings for each shopping destination, Sends optimized feeds to hundreds of global channels,  Syncs orders, inventory, and product data across systems"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_0181fb15ff70609bb6f3b00a",
+      "description_sha256": "81a613f313698cdba1151f163a06399e6dbbc64843d474a1ceb88af82540a678",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description clearly covers feed distribution and synchronization but leaves the method behind listing optimization unspecified, so whether this described function relies on AI cannot be resolved from the text.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Optimizes product listings for each shopping destination, Sends optimized feeds to hundreds of global channels,  Syncs orders, inventory, and product data across systems"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The specific feed syncing and distribution are concrete conventional functions, but the text does not explain how per-destination optimization is done. I therefore do not assume it is deterministic or AI-based and retain a forced weak negative rather than certifying the entire offer as conventional."
+    },
+    "final": {
+      "annotation_id": "ann_0181fb15ff70609bb6f3b00a",
+      "description_sha256": "81a613f313698cdba1151f163a06399e6dbbc64843d474a1ceb88af82540a678",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description clearly covers feed distribution and synchronization but leaves the method behind listing optimization unspecified, so whether this described function relies on AI cannot be resolved from the text.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Optimizes product listings for each shopping destination, Sends optimized feeds to hundreds of global channels,  Syncs orders, inventory, and product data across systems"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The specific feed syncing and distribution are concrete conventional functions, but the text does not explain how per-destination optimization is done. I therefore do not assume it is deterministic or AI-based and retain a forced weak negative rather than certifying the entire offer as conventional."
+    }
+  },
+  {
+    "annotation_id": "ann_1d1050e5343fffd36296e00d",
+    "description_sha256": "a31b5595bc1ec94b2b25f5018dcad7726a31a6fcf2f4ce0fa9bc52d6614cdac5",
+    "source_record_references": [
+      "1378"
+    ],
+    "labeler": {
+      "annotation_id": "ann_1d1050e5343fffd36296e00d",
+      "description_sha256": "a31b5595bc1ec94b2b25f5018dcad7726a31a6fcf2f4ce0fa9bc52d6614cdac5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes simulated customer calls paired with an interactive systems interface as a training experience, without an AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Simulated calls can run alongside a clickable systems interface, creating a true side-by-side training experience."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_1d1050e5343fffd36296e00d",
+      "description_sha256": "a31b5595bc1ec94b2b25f5018dcad7726a31a6fcf2f4ce0fa9bc52d6614cdac5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The platform is described as a call simulation and training environment with a clickable systems interface, conventional training functionality without an AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "cloud-based call simulation training platform creates a live caller experience without the risk and stress of an actual customer call. Simulated calls can run alongside a clickable systems interface"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_1d1050e5343fffd36296e00d",
+      "description_sha256": "a31b5595bc1ec94b2b25f5018dcad7726a31a6fcf2f4ce0fa9bc52d6614cdac5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes simulated caller experiences for training and a clickable interface, but does not say whether the calls are scripted or AI-driven, leaving the simulation method unresolved.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "cloud-based call simulation training platform creates a live caller experience without the risk and stress of an actual customer call. Simulated calls can run alongside a clickable systems interface"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "A simulated call can be scripted, but the description does not establish that; nor does it assert AI-driven conversation. Since the call experience's method is unclear, the negative remains weak/forced rather than treating the plausible conventional interpretation as established."
+    },
+    "final": {
+      "annotation_id": "ann_1d1050e5343fffd36296e00d",
+      "description_sha256": "a31b5595bc1ec94b2b25f5018dcad7726a31a6fcf2f4ce0fa9bc52d6614cdac5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes simulated caller experiences for training and a clickable interface, but does not say whether the calls are scripted or AI-driven, leaving the simulation method unresolved.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "cloud-based call simulation training platform creates a live caller experience without the risk and stress of an actual customer call. Simulated calls can run alongside a clickable systems interface"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "A simulated call can be scripted, but the description does not establish that; nor does it assert AI-driven conversation. Since the call experience's method is unclear, the negative remains weak/forced rather than treating the plausible conventional interpretation as established."
+    }
+  },
+  {
+    "annotation_id": "ann_205941f806bbcbc047fe2237",
+    "description_sha256": "4ad5562ef6f8f9b7d1a29973db58da6f93267bb7c54854f5a22679030b6463f6",
+    "source_record_references": [
+      "1363"
+    ],
+    "labeler": {
+      "annotation_id": "ann_205941f806bbcbc047fe2237",
+      "description_sha256": "4ad5562ef6f8f9b7d1a29973db58da6f93267bb7c54854f5a22679030b6463f6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text identifies modules for usage control, fraud detection, anomaly detection, and revenue assurance, but does not explain how detection works; retain a forced negative because no AI method or claim is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "We use different modules within RAID for functions such as Usage Control, Fraud Detection, Anomalies detection and Enterprise Revenue and Business Assurance."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_205941f806bbcbc047fe2237",
+      "description_sha256": "4ad5562ef6f8f9b7d1a29973db58da6f93267bb7c54854f5a22679030b6463f6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text identifies software modules for usage control, fraud detection, and anomaly detection, but does not explain their implementation; anomaly detection can be AI-dependent, leaving some ambiguity.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "We use different modules within RAID for functions such as Usage Control, Fraud Detection, Anomalies detection and Enterprise Revenue and Business Assurance."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_205941f806bbcbc047fe2237",
+      "description_sha256": "4ad5562ef6f8f9b7d1a29973db58da6f93267bb7c54854f5a22679030b6463f6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies usage control, fraud detection, anomaly detection, and revenue assurance modules but gives no implementation detail; detection could be conventional or AI-dependent.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "We use different modules within RAID for functions such as Usage Control, Fraud Detection, Anomalies detection and Enterprise Revenue and Business Assurance."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Both proposals recognize that the module names do not reveal how detection is performed. With no AI claim and no basis to assign an implementation, retain the best-supported negative as weak/forced rather than infer either AI or a conventional detector."
+    },
+    "final": {
+      "annotation_id": "ann_205941f806bbcbc047fe2237",
+      "description_sha256": "4ad5562ef6f8f9b7d1a29973db58da6f93267bb7c54854f5a22679030b6463f6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies usage control, fraud detection, anomaly detection, and revenue assurance modules but gives no implementation detail; detection could be conventional or AI-dependent.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "We use different modules within RAID for functions such as Usage Control, Fraud Detection, Anomalies detection and Enterprise Revenue and Business Assurance."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Both proposals recognize that the module names do not reveal how detection is performed. With no AI claim and no basis to assign an implementation, retain the best-supported negative as weak/forced rather than infer either AI or a conventional detector."
+    }
+  },
+  {
+    "annotation_id": "ann_2f1e1f27cdeb7a015832acb2",
+    "description_sha256": "4371b2b49f156c1c143ecfb799afab1f9ad02753c5ae055ecb5f1b23ff652beb",
+    "source_record_references": [
+      "1364"
+    ],
+    "labeler": {
+      "annotation_id": "ann_2f1e1f27cdeb7a015832acb2",
+      "description_sha256": "4371b2b49f156c1c143ecfb799afab1f9ad02753c5ae055ecb5f1b23ff652beb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described offering brings together digital payments and marketing technology to help merchants acquire users and market products.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Bango brings together digital payments and marketing technology so that you can more effectively market, merchandize and monetize your products to online customers everywhere."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_2f1e1f27cdeb7a015832acb2",
+      "description_sha256": "4371b2b49f156c1c143ecfb799afab1f9ad02753c5ae055ecb5f1b23ff652beb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes digital payments, partnerships, and marketing technology for merchant customer acquisition and monetization, with no AI functionality stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Bango brings together digital payments and marketing technology so that you can more effectively market, merchandize and monetize your products to online customers everywhere."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_2f1e1f27cdeb7a015832acb2",
+      "description_sha256": "4371b2b49f156c1c143ecfb799afab1f9ad02753c5ae055ecb5f1b23ff652beb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description states digital payments, marketing technology, and merchant acquisition/monetization outcomes, but does not specify the software operations or how these outcomes are delivered.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Bango brings together digital payments and marketing technology so that you can more effectively market, merchandize and monetize your products to online customers everywhere."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "This supports a conventional payments/marketing-technology description but does not identify a specific processor, targeting mechanism, or even clearly distinguish software from services. I avoid importing those assumptions and mark the negative weak/forced."
+    },
+    "final": {
+      "annotation_id": "ann_2f1e1f27cdeb7a015832acb2",
+      "description_sha256": "4371b2b49f156c1c143ecfb799afab1f9ad02753c5ae055ecb5f1b23ff652beb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description states digital payments, marketing technology, and merchant acquisition/monetization outcomes, but does not specify the software operations or how these outcomes are delivered.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Bango brings together digital payments and marketing technology so that you can more effectively market, merchandize and monetize your products to online customers everywhere."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "This supports a conventional payments/marketing-technology description but does not identify a specific processor, targeting mechanism, or even clearly distinguish software from services. I avoid importing those assumptions and mark the negative weak/forced."
+    }
+  },
+  {
+    "annotation_id": "ann_311462f54967550a79b37b65",
+    "description_sha256": "7b9c3efc40652dc63a4b8d9de403934cfcca142ed9c85ea5891e851453774e27",
+    "source_record_references": [
+      "1369"
+    ],
+    "labeler": {
+      "annotation_id": "ann_311462f54967550a79b37b65",
+      "description_sha256": "7b9c3efc40652dc63a4b8d9de403934cfcca142ed9c85ea5891e851453774e27",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The software is a Java/.NET PDF engine and SDK for integrating PDF capabilities into workflows and applications, including invoicing and archiving.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The software toolkit offers you one of the best-documented and most versatile PDF engines in the world (written in Java and .NET), which allows you to not only integrate PDF functionalities into your workflow, but also in your applications, processes or products."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_311462f54967550a79b37b65",
+      "description_sha256": "7b9c3efc40652dc63a4b8d9de403934cfcca142ed9c85ea5891e851453774e27",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described offering is a PDF software development toolkit/engine for integrating PDF functions, invoicing, archiving, and compliance workflows.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The software toolkit offers you one of the best-documented and most versatile PDF engines in the world (written in Java and .NET), which allows you to not only integrate PDF functionalities into your workflow, but also in your applications, processes or products."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_311462f54967550a79b37b65",
+      "description_sha256": "7b9c3efc40652dc63a4b8d9de403934cfcca142ed9c85ea5891e851453774e27",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The software is a Java/.NET PDF engine and SDK for integrating PDF capabilities into workflows and applications, including invoicing and archiving.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The software toolkit offers you one of the best-documented and most versatile PDF engines in the world (written in Java and .NET), which allows you to not only integrate PDF functionalities into your workflow, but also in your applications, processes or products."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_3233dcb3b268c22a0786b30e",
+    "description_sha256": "eddf661c9ad9c62f966f67df2a9efe00828ac8e78c4bfe975e0d818434a1a639",
+    "source_record_references": [
+      "1368"
+    ],
+    "labeler": {
+      "annotation_id": "ann_3233dcb3b268c22a0786b30e",
+      "description_sha256": "eddf661c9ad9c62f966f67df2a9efe00828ac8e78c4bfe975e0d818434a1a639",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described platform connects and activates data across channels and devices, including data onboarding and transfer of offline data online for marketing.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "services include data onboarding, the transfer of offline data online for marketing purposes.",
+        "connect, unify, control, and activate data across different channels and devices"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_3233dcb3b268c22a0786b30e",
+      "description_sha256": "eddf661c9ad9c62f966f67df2a9efe00828ac8e78c4bfe975e0d818434a1a639",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes data onboarding and connectivity: transferring offline data online and connecting, unifying, controlling, and activating data across channels and devices.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "services include data onboarding, the transfer of offline data online for marketing purposes.",
+        "connect, unify, control, and activate data across different channels and devices"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_3233dcb3b268c22a0786b30e",
+      "description_sha256": "eddf661c9ad9c62f966f67df2a9efe00828ac8e78c4bfe975e0d818434a1a639",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described platform connects and activates data across channels and devices, including data onboarding and transfer of offline data online for marketing.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "services include data onboarding, the transfer of offline data online for marketing purposes.",
+        "connect, unify, control, and activate data across different channels and devices"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_357b80ff223af266d8162ef0",
+    "description_sha256": "c2683075c6b4a8970211dfdf08d32c4c010fb84f58b4c2c924c470191d5c4692",
+    "source_record_references": [
+      "1379"
+    ],
+    "labeler": {
+      "annotation_id": "ann_357b80ff223af266d8162ef0",
+      "description_sha256": "c2683075c6b4a8970211dfdf08d32c4c010fb84f58b4c2c924c470191d5c4692",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description presents data access, viewing, analysis, and use to support business decisions, plus customized capabilities for deployment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Bardess empowers clients to access, view, analyze and use their data to make smarter, more accurate, cost efficient, and faster business decisions."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_357b80ff223af266d8162ef0",
+      "description_sha256": "c2683075c6b4a8970211dfdf08d32c4c010fb84f58b4c2c924c470191d5c4692",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description broadly refers to data access, analysis, and customized advanced capabilities, but gives too little detail to establish what those capabilities entail; no explicit AI functionality is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "access, view, analyze and use their data to make smarter, more accurate, cost efficient, and faster business decisions. Our customized advanced capabilities reduce costs and time-to-market deployment."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_357b80ff223af266d8162ef0",
+      "description_sha256": "c2683075c6b4a8970211dfdf08d32c4c010fb84f58b4c2c924c470191d5c4692",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Data access, viewing, and analysis are stated, but the description's ‘customized advanced capabilities’ are not characterized enough to resolve whether any are AI-dependent.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "access, view, analyze and use their data to make smarter, more accurate, cost efficient, and faster business decisions. Our customized advanced capabilities reduce costs and time-to-market deployment."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The text provides some conventional data analysis functions, but the unspecified advanced capabilities do not support a confident whole-offering negative. I retain weak/forced rather than adopting the other supported-negative proposal or assuming those capabilities are AI."
+    },
+    "final": {
+      "annotation_id": "ann_357b80ff223af266d8162ef0",
+      "description_sha256": "c2683075c6b4a8970211dfdf08d32c4c010fb84f58b4c2c924c470191d5c4692",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Data access, viewing, and analysis are stated, but the description's ‘customized advanced capabilities’ are not characterized enough to resolve whether any are AI-dependent.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "access, view, analyze and use their data to make smarter, more accurate, cost efficient, and faster business decisions. Our customized advanced capabilities reduce costs and time-to-market deployment."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The text provides some conventional data analysis functions, but the unspecified advanced capabilities do not support a confident whole-offering negative. I retain weak/forced rather than adopting the other supported-negative proposal or assuming those capabilities are AI."
+    }
+  },
+  {
+    "annotation_id": "ann_3a9a67384d050714fb6e6219",
+    "description_sha256": "03c7000fcbb1559c5a59cb96252618f393fbc1728647ac9e8f01bb375e0de092",
+    "source_record_references": [
+      "1366"
+    ],
+    "labeler": {
+      "annotation_id": "ann_3a9a67384d050714fb6e6219",
+      "description_sha256": "03c7000fcbb1559c5a59cb96252618f393fbc1728647ac9e8f01bb375e0de092",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The software supports retail space and floor planning, planogram integration, space allocation, and KPI measurement through analytics.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Space and floor planning support retailers in making smarter, more accurate merchandise space allocation decisions that drive revenue growth by leveraging customer insights, maximizing the selling-space available and measure KPI’s using robust analytics."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_3a9a67384d050714fb6e6219",
+      "description_sha256": "03c7000fcbb1559c5a59cb96252618f393fbc1728647ac9e8f01bb375e0de092",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes retail space and floor planning, planogram integration, store layouts, KPI measurement, and merchandise allocation—conventional planning and analytics functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Space and floor planning support retailers in making smarter, more accurate merchandise space allocation decisions",
+        "seamless integration to planograms to streamline the design and implementation of each store’s floor plan"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_3a9a67384d050714fb6e6219",
+      "description_sha256": "03c7000fcbb1559c5a59cb96252618f393fbc1728647ac9e8f01bb375e0de092",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text meaningfully describes retail floor/space planning, planograms, merchandise-space allocation, and KPI analytics as conventional planning functions; it does not claim an AI method.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Space and floor planning support retailers in making smarter, more accurate merchandise space allocation decisions that drive revenue growth by leveraging customer insights, maximizing the selling-space available and measure KPI’s using robust analytics.",
+        "seamless integration to planograms to streamline the design and implementation of each store’s floor plan"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Customer insights and improved allocation do not specify an AI optimizer, so I do not infer one. The core functions explicitly described—space/floor planning, planogram integration, and KPI measurement—meaningfully support a conventional planning-tool negative without requiring a claim about its underlying algorithm."
+    },
+    "final": {
+      "annotation_id": "ann_3a9a67384d050714fb6e6219",
+      "description_sha256": "03c7000fcbb1559c5a59cb96252618f393fbc1728647ac9e8f01bb375e0de092",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text meaningfully describes retail floor/space planning, planograms, merchandise-space allocation, and KPI analytics as conventional planning functions; it does not claim an AI method.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Space and floor planning support retailers in making smarter, more accurate merchandise space allocation decisions that drive revenue growth by leveraging customer insights, maximizing the selling-space available and measure KPI’s using robust analytics.",
+        "seamless integration to planograms to streamline the design and implementation of each store’s floor plan"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Customer insights and improved allocation do not specify an AI optimizer, so I do not infer one. The core functions explicitly described—space/floor planning, planogram integration, and KPI measurement—meaningfully support a conventional planning-tool negative without requiring a claim about its underlying algorithm."
+    }
+  },
+  {
+    "annotation_id": "ann_4373ec032eeaf430c1e04cd3",
+    "description_sha256": "5f61bde83675d73f66028a6fef482fac99a9ea1434a2f25986c92aa5e9a826bb",
+    "source_record_references": [
+      "1370"
+    ],
+    "labeler": {
+      "annotation_id": "ann_4373ec032eeaf430c1e04cd3",
+      "description_sha256": "5f61bde83675d73f66028a6fef482fac99a9ea1434a2f25986c92aa5e9a826bb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes consumer/business data sets and technology platforms used for customer targeting and marketing solutions, but the 'intelligent' solutions are not explained; no explicit AI signal appears.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "We use our expansive data and technology platforms to help companies more accurately target their ideal customers and provide intelligent marketing solutions."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_4373ec032eeaf430c1e04cd3",
+      "description_sha256": "5f61bde83675d73f66028a6fef482fac99a9ea1434a2f25986c92aa5e9a826bb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes compiling consumer/business datasets and using technology for customer targeting and marketing, but the vague phrase ‘intelligent marketing solutions’ leaves the method underspecified.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "We use our expansive data and technology platforms to help companies more accurately target their ideal customers and provide intelligent marketing solutions."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_4373ec032eeaf430c1e04cd3",
+      "description_sha256": "5f61bde83675d73f66028a6fef482fac99a9ea1434a2f25986c92aa5e9a826bb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes consumer/business datasets and targeting, but the method behind ‘intelligent marketing solutions’ is unexplained, leaving the nature of those solutions uncertain.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "We use our expansive data and technology platforms to help companies more accurately target their ideal customers and provide intelligent marketing solutions."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "No concern requires changing the provisional negative, but ‘intelligent’ and more accurate targeting do not establish AI or a particular conventional implementation. The ambiguous marketing-solution method warrants the retained weak/forced judgment."
+    },
+    "final": {
+      "annotation_id": "ann_4373ec032eeaf430c1e04cd3",
+      "description_sha256": "5f61bde83675d73f66028a6fef482fac99a9ea1434a2f25986c92aa5e9a826bb",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes consumer/business datasets and targeting, but the method behind ‘intelligent marketing solutions’ is unexplained, leaving the nature of those solutions uncertain.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "We use our expansive data and technology platforms to help companies more accurately target their ideal customers and provide intelligent marketing solutions."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "No concern requires changing the provisional negative, but ‘intelligent’ and more accurate targeting do not establish AI or a particular conventional implementation. The ambiguous marketing-solution method warrants the retained weak/forced judgment."
+    }
+  },
+  {
+    "annotation_id": "ann_69b297b6ba227b15eddc39ea",
+    "description_sha256": "b124e3dffcac58ae35d28403ed9db0f6af56b92d87867a8d7dffa2916b75c933",
+    "source_record_references": [
+      "1380"
+    ],
+    "labeler": {
+      "annotation_id": "ann_69b297b6ba227b15eddc39ea",
+      "description_sha256": "b124e3dffcac58ae35d28403ed9db0f6af56b92d87867a8d7dffa2916b75c933",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The offering creates interactive digital indoor maps and describes mapping expertise and visual/user-experience benefits.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Indoor mapping of complicated settings. Speeds up your time to market by levering specialized mapping expertise to get interactive, engaging digital maps"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_69b297b6ba227b15eddc39ea",
+      "description_sha256": "b124e3dffcac58ae35d28403ed9db0f6af56b92d87867a8d7dffa2916b75c933",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes specialist indoor mapping and interactive digital maps for products, a conventional mapping and visualization service; no AI capability is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "get interactive, engaging digital maps",
+        "Well-designed digital indoor maps capture attention and facilitate a more enjoyable exploration of indoor spaces within your product."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_69b297b6ba227b15eddc39ea",
+      "description_sha256": "b124e3dffcac58ae35d28403ed9db0f6af56b92d87867a8d7dffa2916b75c933",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes indoor mapping expertise and digital-map deliverables but does not establish that the offering is software rather than a mapping/content service; no AI signal is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Indoor mapping of complicated settings.",
+        "get interactive, engaging digital maps",
+        "Purchased from Point Inside."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The wording supports mapping deliverables and expertise, not an identified mapping application or SDK. Since it does not settle the software-versus-service scope, a confident software-negative is unwarranted; retain non-AI as the best binary judgment with weak/forced evidence."
+    },
+    "final": {
+      "annotation_id": "ann_69b297b6ba227b15eddc39ea",
+      "description_sha256": "b124e3dffcac58ae35d28403ed9db0f6af56b92d87867a8d7dffa2916b75c933",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes indoor mapping expertise and digital-map deliverables but does not establish that the offering is software rather than a mapping/content service; no AI signal is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Indoor mapping of complicated settings.",
+        "get interactive, engaging digital maps",
+        "Purchased from Point Inside."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The wording supports mapping deliverables and expertise, not an identified mapping application or SDK. Since it does not settle the software-versus-service scope, a confident software-negative is unwarranted; retain non-AI as the best binary judgment with weak/forced evidence."
+    }
+  },
+  {
+    "annotation_id": "ann_6eae06bf7029c47da1713b2e",
+    "description_sha256": "5e5efe98465c3012b5e4894b70f49aded169170e24a0d46465bdc0492a4fb9e1",
+    "source_record_references": [
+      "1376"
+    ],
+    "labeler": {
+      "annotation_id": "ann_6eae06bf7029c47da1713b2e",
+      "description_sha256": "5e5efe98465c3012b5e4894b70f49aded169170e24a0d46465bdc0492a4fb9e1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes linking business contacts with home addresses, personal emails, and social handles to expand marketing channels.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "B2B to B2C (B2B2C) linking business contacts to home addresses, personal emails, and social handles, expanding the channels available for your campaigns."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_6eae06bf7029c47da1713b2e",
+      "description_sha256": "5e5efe98465c3012b5e4894b70f49aded169170e24a0d46465bdc0492a4fb9e1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes linking business contact records to home addresses, personal emails, and social handles for campaign reach, a conventional data-enrichment use.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "B2B to B2C (B2B2C) linking business contacts to home addresses, personal emails, and social handles, expanding the channels available for your campaigns."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_6eae06bf7029c47da1713b2e",
+      "description_sha256": "5e5efe98465c3012b5e4894b70f49aded169170e24a0d46465bdc0492a4fb9e1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description characterizes a paid quarterly data file linking business contacts to personal contact details, but does not establish a software function or implementation.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "B2B to B2C (B2B2C) linking business contacts to home addresses, personal emails, and social handles, expanding the channels available for your campaigns. MTN file that is paid for quarterly"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The literal offering is a quarterly file/data feed, not clearly software. Its contact-linking function is conventional data enrichment, but that alone does not establish software functionality; retain a weak/forced negative rather than treating it as a supported software negative."
+    },
+    "final": {
+      "annotation_id": "ann_6eae06bf7029c47da1713b2e",
+      "description_sha256": "5e5efe98465c3012b5e4894b70f49aded169170e24a0d46465bdc0492a4fb9e1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description characterizes a paid quarterly data file linking business contacts to personal contact details, but does not establish a software function or implementation.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "B2B to B2C (B2B2C) linking business contacts to home addresses, personal emails, and social handles, expanding the channels available for your campaigns. MTN file that is paid for quarterly"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The literal offering is a quarterly file/data feed, not clearly software. Its contact-linking function is conventional data enrichment, but that alone does not establish software functionality; retain a weak/forced negative rather than treating it as a supported software negative."
+    }
+  },
+  {
+    "annotation_id": "ann_7e203e593fe044424d4c2a92",
+    "description_sha256": "190b407e3648cd36ae85ed58e4f0899d11e1b5b8739a7788b8e436a546fd2b0c",
+    "source_record_references": [
+      "1375"
+    ],
+    "labeler": {
+      "annotation_id": "ann_7e203e593fe044424d4c2a92",
+      "description_sha256": "190b407e3648cd36ae85ed58e4f0899d11e1b5b8739a7788b8e436a546fd2b0c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The offering is a curated database of points of interest and factual place attributes, such as location, opening/closing, category, affiliations, and interactions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "data provides an up-to-date record of where places are located and detailed attribution about each of those places, such as when it opened or closed, what type of place it is, what other places it is affiliated with, and how people interact with that location."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_7e203e593fe044424d4c2a92",
+      "description_sha256": "190b407e3648cd36ae85ed58e4f0899d11e1b5b8739a7788b8e436a546fd2b0c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a curated points-of-interest database with location, place attributes, affiliations, and interaction information for location-enabled applications.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "database of global points of interest each month to power applications, platforms, and services with a location component.",
+        "an up-to-date record of where places are located and detailed attribution about each of those places"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_7e203e593fe044424d4c2a92",
+      "description_sha256": "190b407e3648cd36ae85ed58e4f0899d11e1b5b8739a7788b8e436a546fd2b0c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description primarily characterizes curated POI data and records that power other applications, not a software function itself; it gives no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "database of global points of interest each month to power applications, platforms, and services with a location component.",
+        "data provides an up-to-date record of where places are located and detailed attribution about each of those places"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The cited functions describe location data content and its attributes, not software that creates or manages that data. With no separate software functionality established, I cannot support a trusted software-negative; the best binary result is weak/forced non-AI."
+    },
+    "final": {
+      "annotation_id": "ann_7e203e593fe044424d4c2a92",
+      "description_sha256": "190b407e3648cd36ae85ed58e4f0899d11e1b5b8739a7788b8e436a546fd2b0c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description primarily characterizes curated POI data and records that power other applications, not a software function itself; it gives no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "database of global points of interest each month to power applications, platforms, and services with a location component.",
+        "data provides an up-to-date record of where places are located and detailed attribution about each of those places"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The cited functions describe location data content and its attributes, not software that creates or manages that data. With no separate software functionality established, I cannot support a trusted software-negative; the best binary result is weak/forced non-AI."
+    }
+  },
+  {
+    "annotation_id": "ann_963697ad4a1f38993da8ab7a",
+    "description_sha256": "49f4cc4dd9c567a83f63e50374344783eac74b63489858a7658cd42a45164d55",
+    "source_record_references": [
+      "1381"
+    ],
+    "labeler": {
+      "annotation_id": "ann_963697ad4a1f38993da8ab7a",
+      "description_sha256": "49f4cc4dd9c567a83f63e50374344783eac74b63489858a7658cd42a45164d55",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies network virtualization and security through a software-defined networking platform spanning data centers, clouds, and application frameworks.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "VMware NSX is a network virtualization and security platform that enables the virtual cloud network, a software-defined approach to networking that extends across data centers, clouds, and application frameworks."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_963697ad4a1f38993da8ab7a",
+      "description_sha256": "49f4cc4dd9c567a83f63e50374344783eac74b63489858a7658cd42a45164d55",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Explicitly describes network virtualization and security using a software-defined networking approach across data centers, clouds, and application frameworks.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a network virtualization and security platform that enables the virtual cloud network, a software-defined approach to networking that extends across data centers, clouds, and application frameworks."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_963697ad4a1f38993da8ab7a",
+      "description_sha256": "49f4cc4dd9c567a83f63e50374344783eac74b63489858a7658cd42a45164d55",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies network virtualization and security through a software-defined networking platform spanning data centers, clouds, and application frameworks.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "VMware NSX is a network virtualization and security platform that enables the virtual cloud network, a software-defined approach to networking that extends across data centers, clouds, and application frameworks."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_99abd7e9ed257a04d322569a",
+    "description_sha256": "bc02d9bb9798cc532c677d0db110490bf7b8e214208eb0e36e5dd6a25fa07ee0",
+    "source_record_references": [
+      "1377"
+    ],
+    "labeler": {
+      "annotation_id": "ann_99abd7e9ed257a04d322569a",
+      "description_sha256": "bc02d9bb9798cc532c677d0db110490bf7b8e214208eb0e36e5dd6a25fa07ee0",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "It explicitly describes a suite for designing, testing, and launching prompts and AI models, an affirmative product-specific AI signal.",
+      "ai_type_rationale": "The suite's stated focus is prompts and AI models, which suggests an AI-oriented core, but the text does not establish whether meaningful core functionality depends on AI; best-supported subtype is native with uncertainty.",
+      "evidence_spans": [
+        "design, test, and launch high-quality prompts and AI models"
+      ],
+      "ai_type_evidence_spans": [
+        "design, test, and launch high-quality prompts and AI models"
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_99abd7e9ed257a04d322569a",
+      "description_sha256": "bc02d9bb9798cc532c677d0db110490bf7b8e214208eb0e36e5dd6a25fa07ee0",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly identifies AI models and describes designing, testing, and launching prompts and models, making this an affirmative product-specific AI capability.",
+      "ai_type_rationale": "Prompt and AI-model design, testing, and launch are the described suite’s central offering, so the text supports an AI-native classification.",
+      "evidence_spans": [
+        "design, test, and launch high-quality prompts and AI models"
+      ],
+      "ai_type_evidence_spans": [
+        "design, test, and launch high-quality prompts and AI models"
+      ]
+    },
+    "reconciliation": {
+      "annotation_id": "ann_99abd7e9ed257a04d322569a",
+      "description_sha256": "bc02d9bb9798cc532c677d0db110490bf7b8e214208eb0e36e5dd6a25fa07ee0",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The suite explicitly designs, tests, and launches prompts and AI models, establishing product-specific AI functionality and a supported positive binary label.",
+      "ai_type_rationale": "The text centers on tooling for prompts and AI models, but does not establish whether the suite's meaningful core depends on AI or instead conventionally supports building AI systems; ai_native is the best-supported subtype, with that distinction unresolved.",
+      "evidence_spans": [
+        "design, test, and launch high-quality prompts and AI models"
+      ],
+      "ai_type_evidence_spans": [
+        "design, test, and launch high-quality prompts and AI models"
+      ],
+      "conflict_response": "The explicit AI-model and prompt functions settle the positive binary. They do not by themselves show that the tool's own core depends on AI rather than serving as conventional tooling for AI development, so I weaken/force the ai_native subtype rather than infer dependency."
+    },
+    "final": {
+      "annotation_id": "ann_99abd7e9ed257a04d322569a",
+      "description_sha256": "bc02d9bb9798cc532c677d0db110490bf7b8e214208eb0e36e5dd6a25fa07ee0",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The suite explicitly designs, tests, and launches prompts and AI models, establishing product-specific AI functionality and a supported positive binary label.",
+      "ai_type_rationale": "The text centers on tooling for prompts and AI models, but does not establish whether the suite's meaningful core depends on AI or instead conventionally supports building AI systems; ai_native is the best-supported subtype, with that distinction unresolved.",
+      "evidence_spans": [
+        "design, test, and launch high-quality prompts and AI models"
+      ],
+      "ai_type_evidence_spans": [
+        "design, test, and launch high-quality prompts and AI models"
+      ],
+      "conflict_response": "The explicit AI-model and prompt functions settle the positive binary. They do not by themselves show that the tool's own core depends on AI rather than serving as conventional tooling for AI development, so I weaken/force the ai_native subtype rather than infer dependency."
+    }
+  },
+  {
+    "annotation_id": "ann_9dd2ec6fef7a589d89b17fbe",
+    "description_sha256": "f48493f877677b57f7e8c2d4e5e6bcf2160a628cff948dea0c5fa08d99599312",
+    "source_record_references": [
+      "1373"
+    ],
+    "labeler": {
+      "annotation_id": "ann_9dd2ec6fef7a589d89b17fbe",
+      "description_sha256": "f48493f877677b57f7e8c2d4e5e6bcf2160a628cff948dea0c5fa08d99599312",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly calls this generative AI and says it brings generative AI capabilities to Workspace, with writing assistance among the features.",
+      "ai_type_rationale": "The described AI capabilities are enhancements to a productivity and collaboration offering, rather than a claim that its core depends on AI.",
+      "evidence_spans": [
+        "Duet AI brings essential generative AI capabilities to Google Workspace",
+        "It enables features like Help Me Write"
+      ],
+      "ai_type_evidence_spans": [
+        "Duet AI brings essential generative AI capabilities to Google Workspace",
+        "It enables features like Help Me Write"
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_9dd2ec6fef7a589d89b17fbe",
+      "description_sha256": "f48493f877677b57f7e8c2d4e5e6bcf2160a628cff948dea0c5fa08d99599312",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The text explicitly calls Duet AI a generative AI offering and describes AI capabilities for writing, design, organization, and meetings.",
+      "ai_type_rationale": "It describes generative AI as capabilities brought to Workspace productivity and collaboration workflows, indicating AI enhancement to conventional workspace functions.",
+      "evidence_spans": [
+        "Duet AI brings essential generative AI capabilities to Google Workspace",
+        "It enables features like Help Me Write"
+      ],
+      "ai_type_evidence_spans": [
+        "Duet AI brings essential generative AI capabilities to Google Workspace"
+      ]
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_9dd2ec6fef7a589d89b17fbe",
+      "description_sha256": "f48493f877677b57f7e8c2d4e5e6bcf2160a628cff948dea0c5fa08d99599312",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly calls this generative AI and says it brings generative AI capabilities to Workspace, with writing assistance among the features.",
+      "ai_type_rationale": "The described AI capabilities are enhancements to a productivity and collaboration offering, rather than a claim that its core depends on AI.",
+      "evidence_spans": [
+        "Duet AI brings essential generative AI capabilities to Google Workspace",
+        "It enables features like Help Me Write"
+      ],
+      "ai_type_evidence_spans": [
+        "Duet AI brings essential generative AI capabilities to Google Workspace",
+        "It enables features like Help Me Write"
+      ]
+    }
+  },
+  {
+    "annotation_id": "ann_aa1190db9dd42f5057e6a8c5",
+    "description_sha256": "04fa4573839be82e0645fe61665b2b9b58ebb89538210223444a89be20766184",
+    "source_record_references": [
+      "1374"
+    ],
+    "labeler": {
+      "annotation_id": "ann_aa1190db9dd42f5057e6a8c5",
+      "description_sha256": "04fa4573839be82e0645fe61665b2b9b58ebb89538210223444a89be20766184",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes a connected construction project-management platform that unites stakeholders and provides access to support.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Our connected global construction platform unites all stakeholders on a project with unlimited access to support and a business model designed for the construction industry."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_aa1190db9dd42f5057e6a8c5",
+      "description_sha256": "04fa4573839be82e0645fe61665b2b9b58ebb89538210223444a89be20766184",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a connected construction platform for project/construction management and collaboration among project stakeholders; no AI function is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "improving project and construction management",
+        "Our connected global construction platform unites all stakeholders on a project"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_aa1190db9dd42f5057e6a8c5",
+      "description_sha256": "04fa4573839be82e0645fe61665b2b9b58ebb89538210223444a89be20766184",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes a connected construction project-management platform that unites stakeholders and provides access to support.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Our connected global construction platform unites all stakeholders on a project with unlimited access to support and a business model designed for the construction industry."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_c9a59a47c64923cda02ec96a",
+    "description_sha256": "a8d70764c8acf4d87f027dd3d8e00dded377f8d56dd8e8b9549b70abde9aa7a5",
+    "source_record_references": [
+      "1365"
+    ],
+    "labeler": {
+      "annotation_id": "ann_c9a59a47c64923cda02ec96a",
+      "description_sha256": "a8d70764c8acf4d87f027dd3d8e00dded377f8d56dd8e8b9549b70abde9aa7a5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes standardized electronic exchange of business information between trading partners, a conventional data interchange function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Electronic Data Interchange (EDI) is the electronic interchange of business information using a standardized format; a process that allows one company to send information to another company electronically rather than with paper."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_c9a59a47c64923cda02ec96a",
+      "description_sha256": "a8d70764c8acf4d87f027dd3d8e00dded377f8d56dd8e8b9549b70abde9aa7a5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes electronic interchange of business information in standardized formats between trading partners, a conventional data exchange process.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Electronic Data Interchange (EDI) is the electronic interchange of business information using a standardized format; a process that allows one company to send information to another company electronically rather than with paper."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_c9a59a47c64923cda02ec96a",
+      "description_sha256": "a8d70764c8acf4d87f027dd3d8e00dded377f8d56dd8e8b9549b70abde9aa7a5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes standardized electronic exchange of business information between trading partners, a conventional data interchange function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Electronic Data Interchange (EDI) is the electronic interchange of business information using a standardized format; a process that allows one company to send information to another company electronically rather than with paper."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_ccfbf828b42aad4127fe98e0",
+    "description_sha256": "39b70a822a182aa59715aba59bc3effbe3b47a9cdbaed52f656a7df52fb5e7de",
+    "source_record_references": [
+      "1382"
+    ],
+    "labeler": {
+      "annotation_id": "ann_ccfbf828b42aad4127fe98e0",
+      "description_sha256": "39b70a822a182aa59715aba59bc3effbe3b47a9cdbaed52f656a7df52fb5e7de",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The retail solution describes geofences, consumer preferences, customer guidance, and touchless transactions, all conventional location/personalization/commerce features as stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "creates situational geofences, consumer preferences, personalization, and has the ability to guide customers from bedside to aisle or table at a restaurant."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_ccfbf828b42aad4127fe98e0",
+      "description_sha256": "39b70a822a182aa59715aba59bc3effbe3b47a9cdbaed52f656a7df52fb5e7de",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes retail geofencing, consumer preferences and personalization, customer wayfinding, and touchless transactions; these are conventional location, personalization, and transaction functions without an AI claim.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "creates situational geofences, consumer preferences, personalization, and has the ability to guide customers from bedside to aisle or table at a restaurant.",
+        "complete transactions without taking out their wallets or standing in line."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_ccfbf828b42aad4127fe98e0",
+      "description_sha256": "39b70a822a182aa59715aba59bc3effbe3b47a9cdbaed52f656a7df52fb5e7de",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Geofences, wayfinding, and touchless transactions are stated, but the method for the described consumer-preference and personalization functions is unspecified and could be AI-dependent.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "creates situational geofences, consumer preferences, personalization, and has the ability to guide customers from bedside to aisle or table at a restaurant.",
+        "complete transactions without taking out their wallets or standing in line."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The description supports conventional location and transaction functions but gives no basis to assume the personalization uses rules or learned recommendations. With this material function unexplained, retain a weak/forced negative rather than treating the whole solution as established conventional software."
+    },
+    "final": {
+      "annotation_id": "ann_ccfbf828b42aad4127fe98e0",
+      "description_sha256": "39b70a822a182aa59715aba59bc3effbe3b47a9cdbaed52f656a7df52fb5e7de",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Geofences, wayfinding, and touchless transactions are stated, but the method for the described consumer-preference and personalization functions is unspecified and could be AI-dependent.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "creates situational geofences, consumer preferences, personalization, and has the ability to guide customers from bedside to aisle or table at a restaurant.",
+        "complete transactions without taking out their wallets or standing in line."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The description supports conventional location and transaction functions but gives no basis to assume the personalization uses rules or learned recommendations. With this material function unexplained, retain a weak/forced negative rather than treating the whole solution as established conventional software."
+    }
+  },
+  {
+    "annotation_id": "ann_d5c64030dcb89b5a98abcc2e",
+    "description_sha256": "37e6ad70b929e563be5c7c180c4c93170f28813deae92f87daedd463fc9d53c4",
+    "source_record_references": [
+      "1371"
+    ],
+    "labeler": {
+      "annotation_id": "ann_d5c64030dcb89b5a98abcc2e",
+      "description_sha256": "37e6ad70b929e563be5c7c180c4c93170f28813deae92f87daedd463fc9d53c4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described project controls support cost/schedule integration, EVM reporting, forecast and scenario modeling, reporting, and audits.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Integrate cost and schedule, establish cost controls, measure performance and forecast outcomes to help projects succeed.",
+        "Unlimited rate scenarios and top-down planning allow what-if analysis and modeling cost impacts"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_d5c64030dcb89b5a98abcc2e",
+      "description_sha256": "37e6ad70b929e563be5c7c180c4c93170f28813deae92f87daedd463fc9d53c4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes earned-value project cost and schedule control, performance measurement, rate scenarios, what-if modeling, and reporting/audits—conventional project controls and planning.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Integrate cost and schedule, establish cost controls, measure performance and forecast outcomes",
+        "Unlimited rate scenarios and top-down planning allow what-if analysis and modeling cost impacts",
+        "Easily produce detailed and summary reports and support project audits"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_d5c64030dcb89b5a98abcc2e",
+      "description_sha256": "37e6ad70b929e563be5c7c180c4c93170f28813deae92f87daedd463fc9d53c4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description details EVM reporting, cost controls, performance measurement, rate scenarios, what-if cost modeling, and project audits—meaningful conventional project-control functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Integrate cost and schedule, establish cost controls, measure performance and forecast outcomes to help projects succeed.",
+        "Unlimited rate scenarios and top-down planning allow what-if analysis and modeling cost impacts",
+        "Easily produce detailed and summary reports and support project audits"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Although ‘forecast outcomes’ alone does not identify a method, the description explains rate scenarios and what-if modeling of cost impacts alongside conventional EVM controls/reporting. It does not claim learned prediction or AI, and the concrete project-planning functions support a conventional negative without assuming every forecast mechanism."
+    },
+    "final": {
+      "annotation_id": "ann_d5c64030dcb89b5a98abcc2e",
+      "description_sha256": "37e6ad70b929e563be5c7c180c4c93170f28813deae92f87daedd463fc9d53c4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description details EVM reporting, cost controls, performance measurement, rate scenarios, what-if cost modeling, and project audits—meaningful conventional project-control functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Integrate cost and schedule, establish cost controls, measure performance and forecast outcomes to help projects succeed.",
+        "Unlimited rate scenarios and top-down planning allow what-if analysis and modeling cost impacts",
+        "Easily produce detailed and summary reports and support project audits"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Although ‘forecast outcomes’ alone does not identify a method, the description explains rate scenarios and what-if modeling of cost impacts alongside conventional EVM controls/reporting. It does not claim learned prediction or AI, and the concrete project-planning functions support a conventional negative without assuming every forecast mechanism."
+    }
+  },
+  {
+    "annotation_id": "ann_d6eeb8450f78d6d7e045eaad",
+    "description_sha256": "9acfba24dbc7d6a9c399dc1150a7e813f58e984e5473921543ff2d8adc242228",
+    "source_record_references": [
+      "1372"
+    ],
+    "labeler": {
+      "annotation_id": "ann_d6eeb8450f78d6d7e045eaad",
+      "description_sha256": "9acfba24dbc7d6a9c399dc1150a7e813f58e984e5473921543ff2d8adc242228",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The browser-based project analytics tool locates problem areas and trends, displays schedule/cost data, supports audits, and manages workflow and data quality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Empower is the first and only browser-based analytical tool that integrates earned value, schedule, work authorization, and other key performance data to enable proactive management of complex projects.",
+        "quickly locate problem areas, identify trends, display element-of-cost information, graphically display schedule Gantt information"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_d6eeb8450f78d6d7e045eaad",
+      "description_sha256": "9acfba24dbc7d6a9c399dc1150a7e813f58e984e5473921543ff2d8adc242228",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described tool integrates project performance data and offers trend, data-quality, audit, and workflow features; ‘streamline the creation of narrative analyses’ is underspecified and could involve generated text, though no AI is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "identify trends, display element-of-cost information, graphically display schedule Gantt information, provide immediate insight into data quality issues, support data-driven audit initiatives, and streamline the creation of narrative analyses with integrated workflow."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_d6eeb8450f78d6d7e045eaad",
+      "description_sha256": "9acfba24dbc7d6a9c399dc1150a7e813f58e984e5473921543ff2d8adc242228",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description centers on browser-based project data integration, trend/problem display, Gantt and cost information, data-quality insights, audits, and workflow; narrative-analysis creation is mentioned without a generative method.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "quickly locate problem areas, identify trends, display element-of-cost information, graphically display schedule Gantt information, provide immediate insight into data quality issues, support data-driven audit initiatives, and streamline the creation of narrative analyses with integrated workflow."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "‘Streamline the creation of narrative analyses’ could refer to templates or user workflow, but the description does not claim generated text or AI. Given the many explicit conventional project analytics, display, audit, and workflow functions, I do not infer AI from that phrase and support the negative."
+    },
+    "final": {
+      "annotation_id": "ann_d6eeb8450f78d6d7e045eaad",
+      "description_sha256": "9acfba24dbc7d6a9c399dc1150a7e813f58e984e5473921543ff2d8adc242228",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description centers on browser-based project data integration, trend/problem display, Gantt and cost information, data-quality insights, audits, and workflow; narrative-analysis creation is mentioned without a generative method.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "quickly locate problem areas, identify trends, display element-of-cost information, graphically display schedule Gantt information, provide immediate insight into data quality issues, support data-driven audit initiatives, and streamline the creation of narrative analyses with integrated workflow."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "‘Streamline the creation of narrative analyses’ could refer to templates or user workflow, but the description does not claim generated text or AI. Given the many explicit conventional project analytics, display, audit, and workflow functions, I do not infer AI from that phrase and support the negative."
+    }
+  }
+]

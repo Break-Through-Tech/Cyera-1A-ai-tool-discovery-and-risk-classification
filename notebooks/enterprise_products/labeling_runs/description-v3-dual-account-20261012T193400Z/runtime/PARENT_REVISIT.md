@@ -1,5 +1,13 @@
 # Parent revisit — BOTH LANES RESUMED through ACTUAL pi-subagents
 
+## Latest wake — Codex028accepted1240/1287; fresh029parallel; Cursor029metadata resolved
+
+Codex028actual14native/private/schema/sourcequotes/model andALL40originalhashes PASS; parentreadALL20pairs+ALL14finalsource/conflictresponses. Soleoriginalblindsemanticpass accepted/finalized20/20;10weakbinary1weaksubtype8trustednegativerows,6exports verified/PARENT_ACCEPTANCE. Fresh029exact20/20 frozenplanrefs/privatecwds/ID-hash-bound schema prepared; nativeworkflow ca9254f0-743b-49be-b1a2-f7abd2c412d9 ACTIVE independent pair exactLunaHigh.
+
+Cursorf322request374040ff resolved: originalUUID recovery changed ONLY intended case-LF-management quote but leftsourcehash bad. Parentverifiedalloriginal20+aggregate hashes, actual3nativeAddFile payloads byteequalattempt. NEW runtime/parent-accepted-structural accepted20 differs original ONLY frozenrecomputed sourcehash ann30c andcaseLFquote ann741; FULL20schema/quotesPASS, no semanticfieldchanged. Explicitparentaggregate/nativeexception recorded PARENT_DETERMINISTIC_METADATA_RECOVERY, allraw preserved. Coordinatorreplied resume gates/ALL20pairreview/ALLconcerns beforeONEsameoriginalLunasemanticpass; no additionalmetadata recovery/revote. It remains active nativef322, parentno competingCursorwrites.
+
+Exactnoncontiguousacceptedglobal1240descriptions1287rows;remaining151/151 includes40heldrows. Cursor540/559, Codex540/554, prior160/174. HoldsCursor025/Codex023NOTcounted. Trainingdatasetuntouched. Frequentlocalcheckpoint; nativecompletionwakes/no polling/sleep/bg_wait.
+
 ## Latest wake — Cursor029TWOmechanical-onlyrecovery; Codex028originalblind14-itemactive
 
 AnsweredCursorf322supervisor9875dd54: parentactualblindaggregate/private20equalityandfrozenrecomputedsourcehash reproducedann_30c261b86c80c44ce529bb59onehashmissingf. FULLprospective20gatefoundSECONDquotecontrolcharactererrorann_7414551322a88b0c3c561e66: source case-newline-management vsquotecase-space-management. ParentPARENT_STRUCTURAL_DISPOSITION savedEXACTtwochanges, raw20cp+aggregateshas, prospective20FULLschema/exactquotesPASS. AuthorizedONEsameoriginalblindUUIDstructural-onlycompletion BOTHissues usingONLYTWO NEWagents/blind/accepted-structural-recovery/checkpoints andNEWaccepted-structural-result.json 20records; ALL20originalprivatecp+result bytesunchanged. Label/rationale/flagsunchanged/no comparisonuntilnativeactualpayload/diff/hashproof. Stopreportothermutations/defects, doNOTfixinplace/revote. ChildownsCursor029/laneprogress;parentno competingwritesbeyonddisposition.

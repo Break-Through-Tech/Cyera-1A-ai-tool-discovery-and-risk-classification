@@ -1,0 +1,330 @@
+{
+  "runDirectory": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-029",
+  "ids": [
+    "ann_0ae8440c6e66017005b6beb8",
+    "ann_179477b81f7ca2865b14814e",
+    "ann_216e2a14b3e07bd3484cbd6a",
+    "ann_2298b66a556755f4dd21f1dd",
+    "ann_39089621d3d1e765213873f2",
+    "ann_4b1dea82fb0c3c37d2e78e2b",
+    "ann_50add5243a1c59aa51406489",
+    "ann_547eb486fa2a0bfc0518d9c6",
+    "ann_5ac3594417dd24c3f7c111fa",
+    "ann_5d5c0c8db8f379f64e2080b9",
+    "ann_64c485286531fdc65a4af96b",
+    "ann_6f2847e48f244d486f7d50b4",
+    "ann_92e4f92a91e4570e92068064",
+    "ann_959be6985af7254b0ea3831f",
+    "ann_a6c8c05e8c0927e5748b9d49",
+    "ann_aa73d90a22bc51b38ea5ce58",
+    "ann_c562c2bed3573df8d91ef330",
+    "ann_d0eb9f39badf25e2ae8772d2",
+    "ann_dd4d848820b0961e190da11f",
+    "ann_e4ef9c2bcb216bb0a1f60d5c"
+  ],
+  "batchId": "codex-batch-029",
+  "recordSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "annotation_id",
+      "description_sha256",
+      "ai_status",
+      "ai_type",
+      "evidence_strength",
+      "forced_decision",
+      "ai_type_evidence_strength",
+      "ai_type_forced_decision",
+      "rationale",
+      "ai_type_rationale",
+      "evidence_spans",
+      "ai_type_evidence_spans"
+    ],
+    "properties": {
+      "annotation_id": {
+        "type": "string"
+      },
+      "description_sha256": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+      },
+      "ai_status": {
+        "enum": [
+          "ai",
+          "non_ai"
+        ]
+      },
+      "ai_type": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "enum": [
+          "ai_native",
+          "ai_enabled",
+          null
+        ]
+      },
+      "evidence_strength": {
+        "enum": [
+          "supported",
+          "weak"
+        ]
+      },
+      "forced_decision": {
+        "type": "boolean"
+      },
+      "ai_type_evidence_strength": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "enum": [
+          "supported",
+          "weak",
+          null
+        ]
+      },
+      "ai_type_forced_decision": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "rationale": {
+        "type": "string",
+        "minLength": 1
+      },
+      "ai_type_rationale": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "evidence_spans": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1
+      },
+      "ai_type_evidence_spans": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "allOf": [
+      {
+        "oneOf": [
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_0ae8440c6e66017005b6beb8"
+              },
+              "description_sha256": {
+                "const": "3172b552eeb275af10085b5e7e21b03e7a1628a698ab2e3fa0c66959f72e8825"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_179477b81f7ca2865b14814e"
+              },
+              "description_sha256": {
+                "const": "f43a797ef31be9ed9dc944e92a63a161eb2fabe8ecf3a359b4ba3089df42b3e8"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_216e2a14b3e07bd3484cbd6a"
+              },
+              "description_sha256": {
+                "const": "f0573c0bb3d2e8d416d664d8c1470e0450a58e1338ef58a398364d65fd78463a"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_2298b66a556755f4dd21f1dd"
+              },
+              "description_sha256": {
+                "const": "54eb8e83b8c7ff78a9124c969fe83f0f00d54425d862a2b0cb3c75da0dbeddb6"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_39089621d3d1e765213873f2"
+              },
+              "description_sha256": {
+                "const": "75421457361042091b60bf5aeae9fa6a2a29ab97c913628a8acd285212a3baeb"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_4b1dea82fb0c3c37d2e78e2b"
+              },
+              "description_sha256": {
+                "const": "444e76284c5184ae8cab38fc8e88f27526117524838efca119799d5f5a3b68f8"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_50add5243a1c59aa51406489"
+              },
+              "description_sha256": {
+                "const": "11b59cf40cb18d22f98975400f3f44bff63ff5865d6e342b49838249bf55794c"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_547eb486fa2a0bfc0518d9c6"
+              },
+              "description_sha256": {
+                "const": "1cff832f3908759684fc2d3dfb2a83c66ff9f2188515851588ee3469c48f724b"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_5ac3594417dd24c3f7c111fa"
+              },
+              "description_sha256": {
+                "const": "5027e24d276b3b97ec2ef336eb57fbce85e880a3198d336c4f31d4ee74604011"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_5d5c0c8db8f379f64e2080b9"
+              },
+              "description_sha256": {
+                "const": "17b4ce91c83f1eee697e106f286a8f77799ced13b5831cbe62f1ce2a160f2707"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_64c485286531fdc65a4af96b"
+              },
+              "description_sha256": {
+                "const": "159533a204a68ad339e875037e25f0c50e49fcb81a27f26dcfe9a9a5b3d08108"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_6f2847e48f244d486f7d50b4"
+              },
+              "description_sha256": {
+                "const": "c5ca13ad1074c597ba34cfd7c95de78fe53e9843614e48f16a4250ca4077ed15"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_92e4f92a91e4570e92068064"
+              },
+              "description_sha256": {
+                "const": "1a1bab9da0ba96579f03ce8f0805aba675748710c20a5c6bbf744ede0c5d6428"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_959be6985af7254b0ea3831f"
+              },
+              "description_sha256": {
+                "const": "ba85873668729212934ffd9e3c801f7374dd3d2e6ef25a7a02b44b8e7dd41401"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_a6c8c05e8c0927e5748b9d49"
+              },
+              "description_sha256": {
+                "const": "e3dfe81e50f818279ced50c9b1c1c445aa60ca6c01a888f730f0d07639096a1a"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_aa73d90a22bc51b38ea5ce58"
+              },
+              "description_sha256": {
+                "const": "bc3d63b65d10fddb35db87fe4b84bb3e68c621da5676e9483782b70fe716e59e"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_c562c2bed3573df8d91ef330"
+              },
+              "description_sha256": {
+                "const": "35c459e9305cd93a8e304b6bb892867846577a7c9406fb0df4d4722b4d709976"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_d0eb9f39badf25e2ae8772d2"
+              },
+              "description_sha256": {
+                "const": "90afc85f9f8dcaf81e7d9ae5cfac25d8b5c0258d26e048fa5a5fb313ddb50212"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_dd4d848820b0961e190da11f"
+              },
+              "description_sha256": {
+                "const": "90dcc32e76492552ee3c1d604bde6d6562643d25ac6bf23daf98650ad6e77ffe"
+              }
+            }
+          },
+          {
+            "properties": {
+              "annotation_id": {
+                "const": "ann_e4ef9c2bcb216bb0a1f60d5c"
+              },
+              "description_sha256": {
+                "const": "5792890dd3ddea670e0964eb58cd49cddfe4059b499c9281056ac940e1d24d36"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

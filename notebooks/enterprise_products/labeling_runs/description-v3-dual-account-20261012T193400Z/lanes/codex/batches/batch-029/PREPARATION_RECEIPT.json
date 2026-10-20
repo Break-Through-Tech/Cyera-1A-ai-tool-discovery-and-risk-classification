@@ -1,0 +1,16 @@
+{
+  "exact_plan": "batch-029",
+  "descriptions": 20,
+  "source_rows": 20,
+  "id_hash_pair_binding": true,
+  "plan_sha256": "38157000886aa31166077552d741bd1a597cd76de1bcb599c30fb83e7e8d0dbe",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "models": [
+    "openai-codex/gpt-6-luna:high",
+    "openai-codex/gpt-6-luna:high"
+  ],
+  "private_cwds": [
+    "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-029/agents/labeler",
+    "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-029/agents/blind"
+  ]
+}

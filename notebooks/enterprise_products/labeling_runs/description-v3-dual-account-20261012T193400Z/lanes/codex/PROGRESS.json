@@ -1,11 +1,11 @@
 {
   "status": "active",
   "lane": "codex",
-  "updated_at": "2026-10-20T20:50:08.688368+00:00",
-  "new_completed_descriptions": 520,
-  "new_completed_rows": 534,
-  "remaining_lane_descriptions": 91,
-  "remaining_lane_rows": 91,
+  "updated_at": "2026-10-20T20:55:26.664515+00:00",
+  "new_completed_descriptions": 540,
+  "new_completed_rows": 554,
+  "remaining_lane_descriptions": 71,
+  "remaining_lane_rows": 71,
   "finalized_batches": [
     "batch-001",
     "batch-002",
@@ -32,15 +32,16 @@
     "batch-024",
     "batch-025",
     "batch-026",
-    "batch-027"
+    "batch-027",
+    "batch-028"
   ],
-  "current_batch": "batch-028",
-  "next_batch": "batch-029",
-  "current_stage": "reconciliation",
-  "active_workers": 1,
+  "current_batch": "batch-029",
+  "next_batch": "batch-030",
+  "current_stage": "independent",
+  "active_workers": 2,
   "resume_requires_user_request": false,
   "stop_on_usage_limit": true,
-  "independent_workflow_run_id": "39d9ec26-b5cd-4289-b7f8-d393dc21afcc",
+  "independent_workflow_run_id": "ca9254f0-743b-49be-b1a2-f7abd2c412d9",
   "blocker": null,
   "git_sync_note": "Herdr native labeling workers idle; previous pi-subagents /tmp run registry absent. No annotation restarted. Preserve current partial outputs; gate before accepting.",
   "locally_finalized_pending_acceptance": [
@@ -55,5 +56,5 @@
     }
   ],
   "major_stop_receipt": "runtime/MAJOR_RUNTIME_STOP_20261020.json",
-  "reconciliation_workflow_run_id": "01c6aa68-a38b-45b2-8f53-86750ddecb70"
+  "reconciliation_workflow_run_id": null
 }
