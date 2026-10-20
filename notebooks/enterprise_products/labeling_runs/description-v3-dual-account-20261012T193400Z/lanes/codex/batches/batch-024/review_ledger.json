@@ -1,0 +1,1251 @@
+[
+  {
+    "annotation_id": "ann_05df8a4a36b92e7d268a6f4e",
+    "description_sha256": "09f5a06c7ed60e3e5680ba5d69db8bca165b9d29f55f523fdf8fa5d8f319a85a",
+    "source_record_references": [
+      "1193"
+    ],
+    "labeler": {
+      "annotation_id": "ann_05df8a4a36b92e7d268a6f4e",
+      "description_sha256": "09f5a06c7ed60e3e5680ba5d69db8bca165b9d29f55f523fdf8fa5d8f319a85a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes conventional telecommunications network surveillance and outage monitoring, including receiving network-element messages and diagnosing service outages; it gives no product-specific AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provide real-time around the clock network surveillance and perform end-to-end monitoring of the telecommunications network.",
+        "The system receives messages from network elements (switches trunks repeaters remote terminals etc.) and analyzes them to determine the causes of network service outages"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_05df8a4a36b92e7d268a6f4e",
+      "description_sha256": "09f5a06c7ed60e3e5680ba5d69db8bca165b9d29f55f523fdf8fa5d8f319a85a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional telecom network surveillance, monitoring, and outage-cause analysis from network-element messages.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provide real-time around the clock network surveillance and perform end-to-end monitoring of the telecommunications network.",
+        "analyzes them to determine the causes of network service outages"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_05df8a4a36b92e7d268a6f4e",
+      "description_sha256": "09f5a06c7ed60e3e5680ba5d69db8bca165b9d29f55f523fdf8fa5d8f319a85a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Network surveillance and receiving element messages are conventional monitoring, but the text's claim that analysis determines outage causes gives no method, leaving an unexplained potentially AI-dependent function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provide real-time around the clock network surveillance and perform end-to-end monitoring of the telecommunications network.",
+        "analyzes them to determine the causes of network service outages"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The concrete surveillance and monitoring support a non-AI interpretation, but assigning a conventional diagnostic method would go beyond the text. Because cause-determining analysis is unexplained, I retain non_ai as the best binary judgment with weak/forced evidence rather than certify a supported negative."
+    },
+    "final": {
+      "annotation_id": "ann_05df8a4a36b92e7d268a6f4e",
+      "description_sha256": "09f5a06c7ed60e3e5680ba5d69db8bca165b9d29f55f523fdf8fa5d8f319a85a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Network surveillance and receiving element messages are conventional monitoring, but the text's claim that analysis determines outage causes gives no method, leaving an unexplained potentially AI-dependent function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provide real-time around the clock network surveillance and perform end-to-end monitoring of the telecommunications network.",
+        "analyzes them to determine the causes of network service outages"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The concrete surveillance and monitoring support a non-AI interpretation, but assigning a conventional diagnostic method would go beyond the text. Because cause-determining analysis is unexplained, I retain non_ai as the best binary judgment with weak/forced evidence rather than certify a supported negative."
+    }
+  },
+  {
+    "annotation_id": "ann_0e680833478001f574586c7e",
+    "description_sha256": "cf68038aed4d646e15f14fdf00fdd55dfff79ca1374c7a699bd59db2bdb15c05",
+    "source_record_references": [
+      "1189"
+    ],
+    "labeler": {
+      "annotation_id": "ann_0e680833478001f574586c7e",
+      "description_sha256": "cf68038aed4d646e15f14fdf00fdd55dfff79ca1374c7a699bd59db2bdb15c05",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies SQL sampling statistics, performance metrics, and configurable data collection/logging controls—conventional database monitoring functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "real-time SQL sampling statistics as well as performance metrics on the contents of the dynamic statement cache.",
+        "define optional SQL Analyzer data collection control options to be used to manage your TMON for DB2 SQL Analyzer recent-past logging environment."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_0e680833478001f574586c7e",
+      "description_sha256": "cf68038aed4d646e15f14fdf00fdd55dfff79ca1374c7a699bd59db2bdb15c05",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Provides conventional SQL sampling statistics, performance metrics, and configurable data-collection controls for logging.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "real-time SQL sampling statistics as well as performance metrics on the contents of the dynamic statement cache.",
+        "define optional SQL Analyzer data collection control options"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_0e680833478001f574586c7e",
+      "description_sha256": "cf68038aed4d646e15f14fdf00fdd55dfff79ca1374c7a699bd59db2bdb15c05",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies SQL sampling statistics, performance metrics, and configurable data collection/logging controls—conventional database monitoring functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "real-time SQL sampling statistics as well as performance metrics on the contents of the dynamic statement cache.",
+        "define optional SQL Analyzer data collection control options to be used to manage your TMON for DB2 SQL Analyzer recent-past logging environment."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_31eca4e19def7e9013a67ecb",
+    "description_sha256": "d667b6f2933955a2fc6f1c69ce3c72b2958de6c9be2561f087ee214c5cf6d6e6",
+    "source_record_references": [
+      "1190"
+    ],
+    "labeler": {
+      "annotation_id": "ann_31eca4e19def7e9013a67ecb",
+      "description_sha256": "d667b6f2933955a2fc6f1c69ce3c72b2958de6c9be2561f087ee214c5cf6d6e6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This is described as desktop software providing jurisdictional sales, use, and rental tax rates at component and combined-rate levels, a conventional reference lookup function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "desktop software that provides all U.S. and Canadian sales, use and rental tax rates at the component part level, and it also includes a combined rate."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_31eca4e19def7e9013a67ecb",
+      "description_sha256": "d667b6f2933955a2fc6f1c69ce3c72b2958de6c9be2561f087ee214c5cf6d6e6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The software supplies detailed sales, use, and rental tax rates and combined rates, a conventional lookup function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides all U.S. and Canadian sales, use and rental tax rates at the component part level, and it also includes a combined rate."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_31eca4e19def7e9013a67ecb",
+      "description_sha256": "d667b6f2933955a2fc6f1c69ce3c72b2958de6c9be2561f087ee214c5cf6d6e6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This is described as desktop software providing jurisdictional sales, use, and rental tax rates at component and combined-rate levels, a conventional reference lookup function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "desktop software that provides all U.S. and Canadian sales, use and rental tax rates at the component part level, and it also includes a combined rate."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_3f6bf76ed95bec36b8947db4",
+    "description_sha256": "05826f7abdf53ed7dc005b2c9998e2baaf10e129be9d9700c19cf6cbacf0d2f6",
+    "source_record_references": [
+      "1201"
+    ],
+    "labeler": {
+      "annotation_id": "ann_3f6bf76ed95bec36b8947db4",
+      "description_sha256": "05826f7abdf53ed7dc005b2c9998e2baaf10e129be9d9700c19cf6cbacf0d2f6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The software automates conventional work-request loading, prioritization, scheduling, status tracking, and productivity tracking for technician dispatch.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "automates such tasks as loading and prioritizing work requests, estimating the time required to do jobs, and scheduling the work.",
+        "It provides on-line status tracking of work requests and helps track productivity of a work center for management use."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_3f6bf76ed95bec36b8947db4",
+      "description_sha256": "05826f7abdf53ed7dc005b2c9998e2baaf10e129be9d9700c19cf6cbacf0d2f6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Automates technician work-request loading, prioritization, scheduling, status tracking, and productivity tracking using ordinary dispatch workflows.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "loading and prioritizing work requests, estimating the time required to do jobs, and scheduling the work.",
+        "provides on-line status tracking of work requests and helps track productivity"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_3f6bf76ed95bec36b8947db4",
+      "description_sha256": "05826f7abdf53ed7dc005b2c9998e2baaf10e129be9d9700c19cf6cbacf0d2f6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Work-request loading, scheduling, status, and productivity tracking are conventional dispatch functions, but estimating job duration and prioritizing requests have no described method and leave an uncertain prediction/decision function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "loading and prioritizing work requests, estimating the time required to do jobs, and scheduling the work.",
+        "provides on-line status tracking of work requests and helps track productivity of a work center for management use."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The conventional dispatch context does not establish that prioritization or duration estimates are rule-based, so I do not infer a deterministic implementation. Since estimation is potentially predictive and its method is unstated, I preserve non_ai as best-supported but weaken and force the binary decision."
+    },
+    "final": {
+      "annotation_id": "ann_3f6bf76ed95bec36b8947db4",
+      "description_sha256": "05826f7abdf53ed7dc005b2c9998e2baaf10e129be9d9700c19cf6cbacf0d2f6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Work-request loading, scheduling, status, and productivity tracking are conventional dispatch functions, but estimating job duration and prioritizing requests have no described method and leave an uncertain prediction/decision function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "loading and prioritizing work requests, estimating the time required to do jobs, and scheduling the work.",
+        "provides on-line status tracking of work requests and helps track productivity of a work center for management use."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The conventional dispatch context does not establish that prioritization or duration estimates are rule-based, so I do not infer a deterministic implementation. Since estimation is potentially predictive and its method is unstated, I preserve non_ai as best-supported but weaken and force the binary decision."
+    }
+  },
+  {
+    "annotation_id": "ann_4be258b14d1532441258c32f",
+    "description_sha256": "e994eab2b9ca9df2162682c4489b37e2a523013d8be984ecb445a359384f4256",
+    "source_record_references": [
+      "1185"
+    ],
+    "labeler": {
+      "annotation_id": "ann_4be258b14d1532441258c32f",
+      "description_sha256": "e994eab2b9ca9df2162682c4489b37e2a523013d8be984ecb445a359384f4256",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described tool correlates information from monitoring products into a PC-based graphical interface, a conventional integration and presentation function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Tool to correlate information from all ASG-TMON products (such as ASG-TMON for z/OS and ASG-TMON for CICS) into one PC based GUI."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_4be258b14d1532441258c32f",
+      "description_sha256": "e994eab2b9ca9df2162682c4489b37e2a523013d8be984ecb445a359384f4256",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The tool consolidates information from monitoring products into a PC-based graphical interface, a conventional integration and presentation function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "correlate information from all ASG-TMON products (such as ASG-TMON for z/OS and ASG-TMON for CICS) into one PC based GUI."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_4be258b14d1532441258c32f",
+      "description_sha256": "e994eab2b9ca9df2162682c4489b37e2a523013d8be984ecb445a359384f4256",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described tool correlates information from monitoring products into a PC-based graphical interface, a conventional integration and presentation function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Tool to correlate information from all ASG-TMON products (such as ASG-TMON for z/OS and ASG-TMON for CICS) into one PC based GUI."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_57655e40c661671722f89760",
+    "description_sha256": "6d4809608c94745ffe0d2eed16b7610e1260e1e4e51a200bae324845738c13e7",
+    "source_record_references": [
+      "1188"
+    ],
+    "labeler": {
+      "annotation_id": "ann_57655e40c661671722f89760",
+      "description_sha256": "6d4809608c94745ffe0d2eed16b7610e1260e1e4e51a200bae324845738c13e7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text identifies conventional distributed-network and application-performance monitoring and troubleshooting functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Computer software for for monitoring and troubleshooting distributed network performance and for measuring application performance across the network"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_57655e40c661671722f89760",
+      "description_sha256": "6d4809608c94745ffe0d2eed16b7610e1260e1e4e51a200bae324845738c13e7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional distributed-network troubleshooting and application-performance measurement; the maintenance line adds no AI function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Computer software for for monitoring and troubleshooting distributed network performance and for measuring application performance across the network"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_57655e40c661671722f89760",
+      "description_sha256": "6d4809608c94745ffe0d2eed16b7610e1260e1e4e51a200bae324845738c13e7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text identifies conventional distributed-network and application-performance monitoring and troubleshooting functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Computer software for for monitoring and troubleshooting distributed network performance and for measuring application performance across the network"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_576ea95d5121fd0a088080b2",
+    "description_sha256": "ecaf0599cf843fb1faf18997ec6b07d0f65a8c1f61a527c7bcbafe660e8f2e74",
+    "source_record_references": [
+      "1195"
+    ],
+    "labeler": {
+      "annotation_id": "ann_576ea95d5121fd0a088080b2",
+      "description_sha256": "ecaf0599cf843fb1faf18997ec6b07d0f65a8c1f61a527c7bcbafe660e8f2e74",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The system is described as managing inventory assignment and administration of switching systems and central-office equipment, a conventional operations function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an operations system for the inventory assignment and administration of switching systems and related central office equipment"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_576ea95d5121fd0a088080b2",
+      "description_sha256": "ecaf0599cf843fb1faf18997ec6b07d0f65a8c1f61a527c7bcbafe660e8f2e74",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes operational inventory assignment and administration for switching systems and central-office equipment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "operations system for the inventory assignment and administration of switching systems and related central office equipment"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_576ea95d5121fd0a088080b2",
+      "description_sha256": "ecaf0599cf843fb1faf18997ec6b07d0f65a8c1f61a527c7bcbafe660e8f2e74",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The system is described as managing inventory assignment and administration of switching systems and central-office equipment, a conventional operations function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "an operations system for the inventory assignment and administration of switching systems and related central office equipment"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_595d8feb66922816aa6a2f91",
+    "description_sha256": "37c2bcd1e5a0849f9515bf556f2d2cc17b492cc32ce05ce55a79dc4b791425b0",
+    "source_record_references": [
+      "1200"
+    ],
+    "labeler": {
+      "annotation_id": "ann_595d8feb66922816aa6a2f91",
+      "description_sha256": "37c2bcd1e5a0849f9515bf556f2d2cc17b492cc32ce05ce55a79dc4b791425b0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description outlines conventional service provisioning and assurance workflows, supporting circuit provisioning and equipment/service maintenance for technicians and centers.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "automates the service provisioning and service assurance work functions for those centers and associated central office locations which control the activities of inside technicians.",
+        "by supporting the provisioning process for Special, message, carrier, and non-designed services circuits; 2) Service assurance - by supporting the maintenance process for all equipment and services"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_595d8feb66922816aa6a2f91",
+      "description_sha256": "37c2bcd1e5a0849f9515bf556f2d2cc17b492cc32ce05ce55a79dc4b791425b0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Automates conventional service-provisioning and assurance workflows, including maintenance processes for equipment, circuits, and services.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "automates the service provisioning and service assurance work functions",
+        "by supporting the provisioning process for Special, message, carrier, and non-designed services circuits; 2) Service assurance - by supporting the maintenance process for all equipment and services"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_595d8feb66922816aa6a2f91",
+      "description_sha256": "37c2bcd1e5a0849f9515bf556f2d2cc17b492cc32ce05ce55a79dc4b791425b0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description outlines conventional service provisioning and assurance workflows, supporting circuit provisioning and equipment/service maintenance for technicians and centers.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "automates the service provisioning and service assurance work functions for those centers and associated central office locations which control the activities of inside technicians.",
+        "by supporting the provisioning process for Special, message, carrier, and non-designed services circuits; 2) Service assurance - by supporting the maintenance process for all equipment and services"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_5e83f1a0b595ed16ba1672bc",
+    "description_sha256": "636fc984471e5e04053a5391c2a8e5111b1c98fb5a9d33e4b1ab40f185b04e57",
+    "source_record_references": [
+      "1192"
+    ],
+    "labeler": {
+      "annotation_id": "ann_5e83f1a0b595ed16ba1672bc",
+      "description_sha256": "636fc984471e5e04053a5391c2a8e5111b1c98fb5a9d33e4b1ab40f185b04e57",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Best-supported as non-AI because it only identifies a planning/work-status subsystem relationship, but the description is too terse to establish its functions in detail.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Planning Work Status (PWS) subsystem that works with TIRKS"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_5e83f1a0b595ed16ba1672bc",
+      "description_sha256": "636fc984471e5e04053a5391c2a8e5111b1c98fb5a9d33e4b1ab40f185b04e57",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text only identifies a planning-work-status subsystem and an association with another system; its function is too underspecified for a supported classification.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Planning Work Status (PWS) subsystem that works with TIRKS"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_5e83f1a0b595ed16ba1672bc",
+      "description_sha256": "636fc984471e5e04053a5391c2a8e5111b1c98fb5a9d33e4b1ab40f185b04e57",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Only identifies a planning-work-status subsystem and its association with another system; its functions are too underspecified for a supported classification.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Planning Work Status (PWS) subsystem that works with TIRKS"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Both proposals choose a weak non-AI judgment, and that is independently the best forced binary decision: the phrase suggests a status/planning subsystem but does not describe enough functionality to support a confident negative."
+    },
+    "final": {
+      "annotation_id": "ann_5e83f1a0b595ed16ba1672bc",
+      "description_sha256": "636fc984471e5e04053a5391c2a8e5111b1c98fb5a9d33e4b1ab40f185b04e57",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Only identifies a planning-work-status subsystem and its association with another system; its functions are too underspecified for a supported classification.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Planning Work Status (PWS) subsystem that works with TIRKS"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Both proposals choose a weak non-AI judgment, and that is independently the best forced binary decision: the phrase suggests a status/planning subsystem but does not describe enough functionality to support a confident negative."
+    }
+  },
+  {
+    "annotation_id": "ann_699bd928fb9b1951d0fe2e99",
+    "description_sha256": "9ce7a34d70b2ab81f39c49f962eb5533c99e79e7a441fb6f00a8b0ed1338bcf2",
+    "source_record_references": [
+      "1197"
+    ],
+    "labeler": {
+      "annotation_id": "ann_699bd928fb9b1951d0fe2e99",
+      "description_sha256": "9ce7a34d70b2ab81f39c49f962eb5533c99e79e7a441fb6f00a8b0ed1338bcf2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a conventional service-order administration and control function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Service Order Administration and Control"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_699bd928fb9b1951d0fe2e99",
+      "description_sha256": "9ce7a34d70b2ab81f39c49f962eb5533c99e79e7a441fb6f00a8b0ed1338bcf2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Only a service-order administration/control name is provided, without a meaningful functional description; the negative is therefore forced and weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Service Order Administration and Control"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_699bd928fb9b1951d0fe2e99",
+      "description_sha256": "9ce7a34d70b2ab81f39c49f962eb5533c99e79e7a441fb6f00a8b0ed1338bcf2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The phrase names a service-order administration and control function but gives no meaningful account of how it works; the non-AI decision is therefore weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Service Order Administration and Control"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler treats the title as sufficient functional description, while the blind proposal recognizes it does not explain actual operations. The words suggest a conventional administrative domain, but a title alone does not meaningfully establish software functionality, so I retain a weak/forced non_ai decision."
+    },
+    "final": {
+      "annotation_id": "ann_699bd928fb9b1951d0fe2e99",
+      "description_sha256": "9ce7a34d70b2ab81f39c49f962eb5533c99e79e7a441fb6f00a8b0ed1338bcf2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The phrase names a service-order administration and control function but gives no meaningful account of how it works; the non-AI decision is therefore weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Service Order Administration and Control"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler treats the title as sufficient functional description, while the blind proposal recognizes it does not explain actual operations. The words suggest a conventional administrative domain, but a title alone does not meaningfully establish software functionality, so I retain a weak/forced non_ai decision."
+    }
+  },
+  {
+    "annotation_id": "ann_7fced39cc1545de66fcacc2e",
+    "description_sha256": "254e2612298e644d28e3e40688af77e9eb5eb5082c4865312aaa6123ba964706",
+    "source_record_references": [
+      "1183"
+    ],
+    "labeler": {
+      "annotation_id": "ann_7fced39cc1545de66fcacc2e",
+      "description_sha256": "254e2612298e644d28e3e40688af77e9eb5eb5082c4865312aaa6123ba964706",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The CMDB description covers mapping systems/devices to business services and presenting their relationships through dashboards, conventional configuration and visualization functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "ties together the monitoring of disparate underlying systems, applications and devices, maps them to the business services they support, visualizing their inter-relationships through dynamic dashboards."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_7fced39cc1545de66fcacc2e",
+      "description_sha256": "254e2612298e644d28e3e40688af77e9eb5eb5082c4865312aaa6123ba964706",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The CMDB maps monitored systems, applications, and devices to business services and visualizes their relationships in dashboards, conventional configuration/service mapping.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "ties together the monitoring of disparate underlying systems, applications and devices, maps them to the business services they support, visualizing their inter-relationships through dynamic dashboards."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_7fced39cc1545de66fcacc2e",
+      "description_sha256": "254e2612298e644d28e3e40688af77e9eb5eb5082c4865312aaa6123ba964706",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The CMDB description covers mapping systems/devices to business services and presenting their relationships through dashboards, conventional configuration and visualization functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "ties together the monitoring of disparate underlying systems, applications and devices, maps them to the business services they support, visualizing their inter-relationships through dynamic dashboards."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_962ef2c0f5a4013cbec253be",
+    "description_sha256": "387dee211d319372505c05b39cd941035b7bfa54656ad5cb5658135dce4c4723",
+    "source_record_references": [
+      "1194"
+    ],
+    "labeler": {
+      "annotation_id": "ann_962ef2c0f5a4013cbec253be",
+      "description_sha256": "387dee211d319372505c05b39cd941035b7bfa54656ad5cb5658135dce4c4723",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described system provides network-element activation and provisioning, conventional telecommunications operations functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides activation and provisioning of Central Office network elements."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_962ef2c0f5a4013cbec253be",
+      "description_sha256": "387dee211d319372505c05b39cd941035b7bfa54656ad5cb5658135dce4c4723",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Provides network-element activation and provisioning, conventional telecom operations functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides activation and provisioning of Central Office network elements."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_962ef2c0f5a4013cbec253be",
+      "description_sha256": "387dee211d319372505c05b39cd941035b7bfa54656ad5cb5658135dce4c4723",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described system provides network-element activation and provisioning, conventional telecommunications operations functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides activation and provisioning of Central Office network elements."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_a092784f587fd30ec04117bb",
+    "description_sha256": "a6374fe852963cb83e37ce1516c90f143b136ee46b95b4d437a84313edaf558c",
+    "source_record_references": [
+      "1191"
+    ],
+    "labeler": {
+      "annotation_id": "ann_a092784f587fd30ec04117bb",
+      "description_sha256": "a6374fe852963cb83e37ce1516c90f143b136ee46b95b4d437a84313edaf558c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Best-supported as non-AI, but the description is only a product/category fragment and provides too little detail to establish meaningful functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "STO Platform, Retail Lite, Telecom."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_a092784f587fd30ec04117bb",
+      "description_sha256": "a6374fe852963cb83e37ce1516c90f143b136ee46b95b4d437a84313edaf558c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text supplies only platform/retail/telecom labels and no meaningful function, so the best binary decision is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "STO Platform, Retail Lite, Telecom."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_a092784f587fd30ec04117bb",
+      "description_sha256": "a6374fe852963cb83e37ce1516c90f143b136ee46b95b4d437a84313edaf558c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text is only a platform/retail/telecom fragment and provides no meaningful functionality to support a confident classification.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "STO Platform, Retail Lite, Telecom."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The packet proposals agree on a weak/forced non-AI label, but agreement is not evidence. The fragment provides no described functionality; non_ai is the best forced binary choice while support remains weak."
+    },
+    "final": {
+      "annotation_id": "ann_a092784f587fd30ec04117bb",
+      "description_sha256": "a6374fe852963cb83e37ce1516c90f143b136ee46b95b4d437a84313edaf558c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text is only a platform/retail/telecom fragment and provides no meaningful functionality to support a confident classification.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "STO Platform, Retail Lite, Telecom."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The packet proposals agree on a weak/forced non-AI label, but agreement is not evidence. The fragment provides no described functionality; non_ai is the best forced binary choice while support remains weak."
+    }
+  },
+  {
+    "annotation_id": "ann_ac41f57fffe4eb5056b6c6e8",
+    "description_sha256": "9e8963f97a8341a20660c6afaa8b895b97ee2135fbc3ed20826ee72f9cc5c082",
+    "source_record_references": [
+      "1182"
+    ],
+    "labeler": {
+      "annotation_id": "ann_ac41f57fffe4eb5056b6c6e8",
+      "description_sha256": "9e8963f97a8341a20660c6afaa8b895b97ee2135fbc3ed20826ee72f9cc5c082",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes IT-infrastructure monitoring software for helping users meet performance goals, a conventional monitoring function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "ASG-TMON is an IT infrastructure monitoring software solution that helps users set and meet their IT performance goals."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_ac41f57fffe4eb5056b6c6e8",
+      "description_sha256": "9e8963f97a8341a20660c6afaa8b895b97ee2135fbc3ed20826ee72f9cc5c082",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes IT infrastructure monitoring software aimed at users' performance goals; this is conventional infrastructure monitoring.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "ASG-TMON is an IT infrastructure monitoring software solution that helps users set and meet their IT performance goals."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_ac41f57fffe4eb5056b6c6e8",
+      "description_sha256": "9e8963f97a8341a20660c6afaa8b895b97ee2135fbc3ed20826ee72f9cc5c082",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes IT-infrastructure monitoring software for helping users meet performance goals, a conventional monitoring function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "ASG-TMON is an IT infrastructure monitoring software solution that helps users set and meet their IT performance goals."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_aecfeea16773fb89fec56172",
+    "description_sha256": "9df0f629a27c1e26e236ef7bab7f2f5016dd2881e863cc34a371036808c7bb86",
+    "source_record_references": [
+      "1186"
+    ],
+    "labeler": {
+      "annotation_id": "ann_aecfeea16773fb89fec56172",
+      "description_sha256": "9df0f629a27c1e26e236ef7bab7f2f5016dd2881e863cc34a371036808c7bb86",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The tool combines monitoring-product information across a system environment into one GUI, a conventional aggregation and presentation function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Windows based tool to combine information for all ASG-TMON products (including ASG-TMON for z/OS and ASG-TMON for CICS across a Parallel Sysplex into one GUI application."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_aecfeea16773fb89fec56172",
+      "description_sha256": "9df0f629a27c1e26e236ef7bab7f2f5016dd2881e863cc34a371036808c7bb86",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The tool combines monitoring-product information into one graphical application, a conventional aggregation and display function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "tool to combine information for all ASG-TMON products (including ASG-TMON for z/OS and ASG-TMON for CICS across a Parallel Sysplex into one GUI application."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_aecfeea16773fb89fec56172",
+      "description_sha256": "9df0f629a27c1e26e236ef7bab7f2f5016dd2881e863cc34a371036808c7bb86",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The tool combines monitoring-product information across a system environment into one GUI, a conventional aggregation and presentation function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Windows based tool to combine information for all ASG-TMON products (including ASG-TMON for z/OS and ASG-TMON for CICS across a Parallel Sysplex into one GUI application."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_b28c6e41417177518563b549",
+    "description_sha256": "9e4aa83180d4cfb6f8db92cfda3531724845f9ca9c069222bb85a8b03ab2d956",
+    "source_record_references": [
+      "1199"
+    ],
+    "labeler": {
+      "annotation_id": "ann_b28c6e41417177518563b549",
+      "description_sha256": "9e4aa83180d4cfb6f8db92cfda3531724845f9ca9c069222bb85a8b03ab2d956",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description details conventional circuit work-request coordination, task processing, records access, and work-item flow-through for installation and repair.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "coordinates and tracks the installation activities for an entire circuit from the receipt of a work request to the completion of the request.",
+        "provides ready access to detailed circuit records, pending work items and a history of circuit activity."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_b28c6e41417177518563b549",
+      "description_sha256": "9e4aa83180d4cfb6f8db92cfda3531724845f9ca9c069222bb85a8b03ab2d956",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Coordinates circuit installation and repair workflows, tracks work requests and records, and automates flow-through of work items through conventional operational processing.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "coordinates and tracks the installation activities for an entire circuit from the receipt of a work request to the completion of the request.",
+        "provides mechanized and automatic processing of the human and machine tasks required to install and repair Special Services, message, carrier, and non-design (POTS) circuits and services.",
+        "Features in WFA/C facilitate automatic flow-through of work items"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_b28c6e41417177518563b549",
+      "description_sha256": "9e4aa83180d4cfb6f8db92cfda3531724845f9ca9c069222bb85a8b03ab2d956",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description details conventional circuit work-request coordination, task processing, records access, and work-item flow-through for installation and repair.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "coordinates and tracks the installation activities for an entire circuit from the receipt of a work request to the completion of the request.",
+        "provides ready access to detailed circuit records, pending work items and a history of circuit activity."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_b5ee574d4e2c41f16ab8b828",
+    "description_sha256": "39e1602f943d44d25213bd9cae08b162a343026368c9eb14a84d683a341fc6b0",
+    "source_record_references": [
+      "1187"
+    ],
+    "labeler": {
+      "annotation_id": "ann_b5ee574d4e2c41f16ab8b828",
+      "description_sha256": "39e1602f943d44d25213bd9cae08b162a343026368c9eb14a84d683a341fc6b0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The visible text describes reporting, fault notifications, data views, and ODBC reporting, all conventional functions; however, the description ends mid-phrase, so its feature scope is incomplete.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "It enables users to receive notifications from Microsoft of application faults, kernel faults, unresponsive applications, and other application problems; build secure real-time data views; use desktop tools via ODBC reporting from live data; create co"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_b5ee574d4e2c41f16ab8b828",
+      "description_sha256": "39e1602f943d44d25213bd9cae08b162a343026368c9eb14a84d683a341fc6b0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes notifications of application and kernel faults, secure data views, and ODBC reporting from live data—conventional reporting and fault-notification capabilities.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "enables users to receive notifications from Microsoft of application faults, kernel faults, unresponsive applications, and other application problems; build secure real-time data views; use desktop tools via ODBC reporting from live data;"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_b5ee574d4e2c41f16ab8b828",
+      "description_sha256": "39e1602f943d44d25213bd9cae08b162a343026368c9eb14a84d683a341fc6b0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The supplied text meaningfully describes conventional application-fault notifications, secure data views, and ODBC reporting from live data. Its cutoff does not erase these described functions or create an AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "It enables users to receive notifications from Microsoft of application faults, kernel faults, unresponsive applications, and other application problems; build secure real-time data views; use desktop tools via ODBC reporting from live data;"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler reasonably flags the description's abrupt cutoff, but the visible text already provides meaningful conventional reporting and notification functions. Completeness of the full feature inventory is not required for a description-based negative, and the incomplete trailing phrase does not itself indicate AI; I retain supported non_ai."
+    },
+    "final": {
+      "annotation_id": "ann_b5ee574d4e2c41f16ab8b828",
+      "description_sha256": "39e1602f943d44d25213bd9cae08b162a343026368c9eb14a84d683a341fc6b0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The supplied text meaningfully describes conventional application-fault notifications, secure data views, and ODBC reporting from live data. Its cutoff does not erase these described functions or create an AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "It enables users to receive notifications from Microsoft of application faults, kernel faults, unresponsive applications, and other application problems; build secure real-time data views; use desktop tools via ODBC reporting from live data;"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler reasonably flags the description's abrupt cutoff, but the visible text already provides meaningful conventional reporting and notification functions. Completeness of the full feature inventory is not required for a description-based negative, and the incomplete trailing phrase does not itself indicate AI; I retain supported non_ai."
+    }
+  },
+  {
+    "annotation_id": "ann_ca48d62cfa3fd8738bfa2070",
+    "description_sha256": "54004dc6050882833790967f6ee745fe1ab8b3594253079bdbe9f8b30d660fa9",
+    "source_record_references": [
+      "1198"
+    ],
+    "labeler": {
+      "annotation_id": "ann_ca48d62cfa3fd8738bfa2070",
+      "description_sha256": "54004dc6050882833790967f6ee745fe1ab8b3594253079bdbe9f8b30d660fa9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies a corporate circuit database with authorized data access, circuit/customer records, redundancy management, relational integrity, and system interfaces.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "NSDB serves as the corporate circuit database. It provides access to corporate data by authorized systems or administrators.",
+        "NSDB is also responsible for redundancy management and the relational integrity of the data that it stewards or owns."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_ca48d62cfa3fd8738bfa2070",
+      "description_sha256": "54004dc6050882833790967f6ee745fe1ab8b3594253079bdbe9f8b30d660fa9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies a corporate circuit database with controlled access, circuit/customer-data storage, redundancy management, and relational integrity.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "NSDB serves as the corporate circuit database. It provides access to corporate data by authorized systems or administrators.",
+        "NSDB is capable of storing Special Services message carrier and non-designed circuit data along with circuit customer data. NSDB is also responsible for redundancy management and the relational integrity of the data"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_ca48d62cfa3fd8738bfa2070",
+      "description_sha256": "54004dc6050882833790967f6ee745fe1ab8b3594253079bdbe9f8b30d660fa9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies a corporate circuit database with authorized data access, circuit/customer records, redundancy management, relational integrity, and system interfaces.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "NSDB serves as the corporate circuit database. It provides access to corporate data by authorized systems or administrators.",
+        "NSDB is also responsible for redundancy management and the relational integrity of the data that it stewards or owns."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_e6cd5bdb6c006fef769082c9",
+    "description_sha256": "e6f86dae14ad3fd5b67c55b01a4c6ffb50248ecd1ff16d1e25729d9e3bd80221",
+    "source_record_references": [
+      "1184"
+    ],
+    "labeler": {
+      "annotation_id": "ann_e6cd5bdb6c006fef769082c9",
+      "description_sha256": "e6f86dae14ad3fd5b67c55b01a4c6ffb50248ecd1ff16d1e25729d9e3bd80221",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This describes configuring an adapter to gather and maintain data in a data store and provide access to that data and user-created dashboards/definitions, conventional data collection and reporting functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "configure to gather and maintain TMON for MQ Enterprise Edition data in the data store.",
+        "Stores and provides access to TMON for MQ Enterprise Edition data as well as to user-created dashboards and other definitions."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_e6cd5bdb6c006fef769082c9",
+      "description_sha256": "e6f86dae14ad3fd5b67c55b01a4c6ffb50248ecd1ff16d1e25729d9e3bd80221",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The adapter gathers and maintains monitoring data in a data store, which also provides access to that data and user-created dashboards/definitions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "configure to gather and maintain TMON for MQ Enterprise Edition data in the data store. Stores and provides access to TMON for MQ Enterprise Edition data as well as to user-created dashboards and other definitions."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_e6cd5bdb6c006fef769082c9",
+      "description_sha256": "e6f86dae14ad3fd5b67c55b01a4c6ffb50248ecd1ff16d1e25729d9e3bd80221",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This describes configuring an adapter to gather and maintain data in a data store and provide access to that data and user-created dashboards/definitions, conventional data collection and reporting functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "configure to gather and maintain TMON for MQ Enterprise Edition data in the data store.",
+        "Stores and provides access to TMON for MQ Enterprise Edition data as well as to user-created dashboards and other definitions."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_eb12605582e0bff5b07952aa",
+    "description_sha256": "237e766213d2ee7ddc437034fe49f57bde548e6d916e93ca6c69ded8c06d40ca",
+    "source_record_references": [
+      "1196"
+    ],
+    "labeler": {
+      "annotation_id": "ann_eb12605582e0bff5b07952aa",
+      "description_sha256": "237e766213d2ee7ddc437034fe49f57bde548e6d916e93ca6c69ded8c06d40ca",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The mainframe application provisions service orders through outside-plant and central-office inventory and service-order-flow components, conventional assignment and inventory management.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Facilities Administration Control System (FACS) is a mainframe application used to provision service orders.",
+        "LFACS - contains the outside plant inventory (includes cable and pair) SOAC - monitors and controls the service order flow SWITCH - contains the central office inventory (includes office equipment)."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_eb12605582e0bff5b07952aa",
+      "description_sha256": "237e766213d2ee7ddc437034fe49f57bde548e6d916e93ca6c69ded8c06d40ca",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a mainframe service-order provisioning system that assigns outside and central-office facilities and maintains related inventories.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is a mainframe application used to provision service orders.",
+        "LFACS - contains the outside plant inventory (includes cable and pair) SOAC - monitors and controls the service order flow SWITCH - contains the central office inventory (includes office equipment).",
+        "assigns outside facilities (cable pair) as well as inside facilities (central office equipment)."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_eb12605582e0bff5b07952aa",
+      "description_sha256": "237e766213d2ee7ddc437034fe49f57bde548e6d916e93ca6c69ded8c06d40ca",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The mainframe application provisions service orders through outside-plant and central-office inventory and service-order-flow components, conventional assignment and inventory management.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Facilities Administration Control System (FACS) is a mainframe application used to provision service orders.",
+        "LFACS - contains the outside plant inventory (includes cable and pair) SOAC - monitors and controls the service order flow SWITCH - contains the central office inventory (includes office equipment)."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  }
+]
