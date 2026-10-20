@@ -1,0 +1,314 @@
+[
+  {
+    "annotation_id": "ann_3b60d13b01d6dd847ccfb2fe",
+    "description_sha256": "4cb39219c3e5b586d6b4396bb0444c5d8d52bc74e1dd3331b2b0104a51c787b8",
+    "description": "Know which high-risk software changes should be addressed first. With the SAP Change Impact Analysis application by Tricentis, you can prioritize tests to help ensure coverage, create execution lists automatically, and power innovation.\nCloud deployment Automated, AI-based analysis of software change impacts Integration with SAP Fiori apps and ABAP language-based solutions Web-based interface, dashboard reporting, support for regression testing",
+    "source_record_references": [
+      "1278"
+    ],
+    "labeler": {
+      "annotation_id": "ann_3b60d13b01d6dd847ccfb2fe",
+      "description_sha256": "4cb39219c3e5b586d6b4396bb0444c5d8d52bc74e1dd3331b2b0104a51c787b8",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The product description explicitly identifies its software-change-impact analysis as AI-based, establishing an affirmative AI signal. The application also supports prioritizing tests and execution lists.",
+      "ai_type_rationale": "AI-based analysis is explicit, but the text does not establish whether this is an enhancement to an independently useful conventional test-analysis core or a capability on which the core depends; ai_enabled is the best tentative subtype.",
+      "evidence_spans": [
+        "Automated, AI-based analysis of software change impacts"
+      ],
+      "ai_type_evidence_spans": [
+        "Automated, AI-based analysis of software change impacts"
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_3b60d13b01d6dd847ccfb2fe",
+      "description_sha256": "4cb39219c3e5b586d6b4396bb0444c5d8d52bc74e1dd3331b2b0104a51c787b8",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The description expressly states that the application uses automated AI-based analysis of software change impacts, establishing AI functionality.",
+      "ai_type_rationale": "AI-based impact analysis is described as a central application function, but the text does not establish whether the broader testing and change-management offering depends on AI; native is the best-supported forced subtype.",
+      "evidence_spans": [
+        "Automated, AI-based analysis of software change impacts"
+      ],
+      "ai_type_evidence_spans": [
+        "With the SAP Change Impact Analysis application by Tricentis, you can prioritize tests to help ensure coverage",
+        "Automated, AI-based analysis of software change impacts"
+      ]
+    },
+    "parent_concerns": [
+      "ExplicitAI establishesbinary, NOTsubtype. CoreAIimpactanalysis vs conventionalprioritization/regressiontesting features; judge whether meaningfulcorepersistswithoutAI usingONLYsource, keepseparatesubtypeweakifunresolved."
+    ]
+  },
+  {
+    "annotation_id": "ann_3b68f04acbb1a37a3932e01f",
+    "description_sha256": "d11c3a902b43f8cdb25e1ee893dd5e4de5f976544d9af052e41fdd310bb3388d",
+    "description": "Design/development/testing for GCF, Dekra CATM1 and data throughput TCs for ACP.\nDesign/development/testing for ACP towards BYOD and 3GPP R17 testing plan.",
+    "source_record_references": [
+      "1285"
+    ],
+    "labeler": {
+      "annotation_id": "ann_3b68f04acbb1a37a3932e01f",
+      "description_sha256": "d11c3a902b43f8cdb25e1ee893dd5e4de5f976544d9af052e41fdd310bb3388d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This describes design, development, and testing work for specified connectivity and throughput test cases and plans, rather than an AI software capability.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Design/development/testing for GCF, Dekra CATM1 and data throughput TCs for ACP.\nDesign/development/testing for ACP towards BYOD and 3GPP R17 testing plan."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_3b68f04acbb1a37a3932e01f",
+      "description_sha256": "d11c3a902b43f8cdb25e1ee893dd5e4de5f976544d9af052e41fdd310bb3388d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description concerns design, development, and testing work for specified communications standards and testing plans, conventional engineering services.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Design/development/testing for GCF, Dekra CATM1 and data throughput TCs for ACP.\nDesign/development/testing for ACP towards BYOD and 3GPP R17 testing plan."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Design/development/testing WORK/testplan fragment, notidentifiedsoftwareoffering. Conventionalengineering services alone insufficientsupportedSOFTWAREnegative; assessweak/forcedscope."
+    ]
+  },
+  {
+    "annotation_id": "ann_9199b2b582c4e612a20996eb",
+    "description_sha256": "70333e268a282bf456a6fa9194dffb0d73b69a8d56929c70f69d688a4cf23331",
+    "description": "SAP Digital Boardroom tells the story behind data while transforming board meetings into immersive and customized experiences. Real-time data access with cloud deployment. Seamless integration of data across all sources. Simulate outcomes with interactive touchscreen. Leverage pre-built line-of-business templates. Used in conjunction with Analytics Cloud",
+    "source_record_references": [
+      "1279"
+    ],
+    "labeler": {
+      "annotation_id": "ann_9199b2b582c4e612a20996eb",
+      "description_sha256": "70333e268a282bf456a6fa9194dffb0d73b69a8d56929c70f69d688a4cf23331",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It provides interactive board-meeting data access and presentation, source integration, outcome simulation, and business templates—conventional analytics and visualization functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Real-time data access with cloud deployment. Seamless integration of data across all sources. Simulate outcomes with interactive touchscreen. Leverage pre-built line-of-business templates."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_9199b2b582c4e612a20996eb",
+      "description_sha256": "70333e268a282bf456a6fa9194dffb0d73b69a8d56929c70f69d688a4cf23331",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described boardroom tool provides data access, source integration, interactive touchscreen simulations, and business templates—conventional data presentation and meeting functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Real-time data access with cloud deployment. Seamless integration of data across all sources. Simulate outcomes with interactive touchscreen. Leverage pre-built line-of-business templates."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Dataaccess/integration/templatesconcrete; simulateOUTCOMES methodnotstated. Do not assume deterministicwhat-if or predictiveAI; assesswholebinarysupport vs unresolvedpotentialAIdependence."
+    ]
+  },
+  {
+    "annotation_id": "ann_94962223fac7ee36b9709c8e",
+    "description_sha256": "f19235df74249c27bc0bbe2c7579df89780c6eb0fab1649c92f8aa9f1b64dc58",
+    "description": "Alation’s enterprise data catalog dramatically improves the productivity of analysts and business users, increases the accuracy of analytics, and drives confident data-driven decision making while empowering everyone in your organization to find, understand, and govern data.",
+    "source_record_references": [
+      "1273",
+      "1274"
+    ],
+    "labeler": {
+      "annotation_id": "ann_94962223fac7ee36b9709c8e",
+      "description_sha256": "f19235df74249c27bc0bbe2c7579df89780c6eb0fab1649c92f8aa9f1b64dc58",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies an enterprise data catalog used to find, understand, and govern data, supporting analyst productivity and data-driven work through conventional catalog and governance functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "enterprise data catalog dramatically improves the productivity of analysts and business users, increases the accuracy of analytics, and drives confident data-driven decision making while empowering everyone in your organization to find, understand, and govern data."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_94962223fac7ee36b9709c8e",
+      "description_sha256": "f19235df74249c27bc0bbe2c7579df89780c6eb0fab1649c92f8aa9f1b64dc58",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies an enterprise data catalog for finding, understanding, and governing data and supporting analytics and decision-making, without specifying AI functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "enterprise data catalog",
+        "find, understand, and govern data."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "DataCATALOGfind/understand/govern functionsnamed but largelymarketingbenefits, improvesanalyticsaccuracy unexplained. Assesswhetheradequatemeaningfulconventionaloperationswithoutinventingmetadata/search/recommendationmechanisms."
+    ]
+  },
+  {
+    "annotation_id": "ann_af74480eaef72fe056c0b0fa",
+    "description_sha256": "f9dc1bd5981ffedc7212147d2ff89a13ae16066e247bd0626779a198ed56b537",
+    "description": "Cloud Platform Enterprise Agreement (CPEA) is to create one rich and simple customer experience for finding, trying, buying, and consuming cloud services from SAP and partners for net-new and installed base customers.It allows customers to integrate, extend and innovate own applications with business and technical functionality offered as cloud services in a flexible way.\n\nThere is no need to license a SAP Cloud Platform service individually anymore. Cloud services can be used when demand arises and be retired if not needed anymore. Charges incur on actual usage and will be charged monthly against the prior purchased Cloud Credit.",
+    "source_record_references": [
+      "1275"
+    ],
+    "labeler": {
+      "annotation_id": "ann_af74480eaef72fe056c0b0fa",
+      "description_sha256": "f9dc1bd5981ffedc7212147d2ff89a13ae16066e247bd0626779a198ed56b537",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This describes a cloud-services purchasing and consumption arrangement with integration and extension options and usage-based monthly charges, conventional cloud service access and billing functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "finding, trying, buying, and consuming cloud services from SAP and partners",
+        "It allows customers to integrate, extend and innovate own applications with business and technical functionality offered as cloud services in a flexible way.\n\nThere is no need to license a SAP Cloud Platform service individually anymore. Cloud services can be used when demand arises and be retired if not needed anymore. Charges incur on actual usage and will be charged monthly against the prior purchased Cloud Credit."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_af74480eaef72fe056c0b0fa",
+      "description_sha256": "f9dc1bd5981ffedc7212147d2ff89a13ae16066e247bd0626779a198ed56b537",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes purchasing and consuming cloud services, integrating and extending applications, and usage-based monthly charging—a conventional cloud-service agreement and consumption model.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "finding, trying, buying, and consuming cloud services from SAP and partners",
+        "integrate, extend and innovate own applications with business and technical functionality offered as cloud services",
+        "Charges incur on actual usage and will be charged monthly"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "EnterpriseAGREEMENT/cloudcredits/consumptionbilling vs underlyingcloudservicesfunctions. Do not import softwarefunction into contract itself; textdoesmentionapplicationintegration/extension, assesswhethermeaningfulsoftwareofferingactuallyestablished vsentitlementonlyscope."
+    ]
+  },
+  {
+    "annotation_id": "ann_c042665f0dae44b97eb4f324",
+    "description_sha256": "63a11f5845c3071cd603952d908c7b5315eeea33ab6d657665e9cd953101f8f0",
+    "description": "A bit error rate test (BERT) typically requires a test pattern generator and a receiver set to the same pattern. They can be used in pairs, with one at either end of a link, or singularly at one end with a loopback at the remote end.",
+    "source_record_references": [
+      "1284"
+    ],
+    "labeler": {
+      "annotation_id": "ann_c042665f0dae44b97eb4f324",
+      "description_sha256": "63a11f5845c3071cd603952d908c7b5315eeea33ab6d657665e9cd953101f8f0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "It describes a bit-error-rate test setup using a pattern generator and matching receiver, including paired or loopback configurations—a conventional communications test function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A bit error rate test (BERT) typically requires a test pattern generator and a receiver set to the same pattern. They can be used in pairs, with one at either end of a link, or singularly at one end with a loopback at the remote end."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_c042665f0dae44b97eb4f324",
+      "description_sha256": "63a11f5845c3071cd603952d908c7b5315eeea33ab6d657665e9cd953101f8f0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text explains conventional bit-error-rate testing using a test pattern generator and receiver set to matching patterns, optionally with loopback.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A bit error rate test (BERT) typically requires a test pattern generator and a receiver set to the same pattern. They can be used in pairs, with one at either end of a link, or singularly at one end with a loopback at the remote end."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "BERT explains testsetup withgenerator/receiver/link/loopback, potentiallyphysicalhardware/testprocedure ratherthan SOFTWAREproduct. Explicitconventionaltesting doesnotbyitselfestablishsoftwarefunction; assessscopeweak/forced."
+    ]
+  },
+  {
+    "annotation_id": "ann_dcc8d65c9faa2a2f6e7f2252",
+    "description_sha256": "2367fd19350243e63e9132b95048a19dcdf46991e1fc8ecf1a21d5b415fd5777",
+    "description": "It is now collaborating with clients in an end-to-end innovation process to discover, design, develop and run tailored solutions in the cloud, on premise or in hybrid scenarios that address their specific mission-critical business needs.\n\nFormerly known as SAP Custom Development, SAP Innovative Business Solutions offers clients direct global access to more than 2,000 development professionals and 38,000 R&D and services experts. To date, it has delivered more than 4,000 individualized solutions to over 1,500 clients.",
+    "source_record_references": [
+      "1276"
+    ],
+    "labeler": {
+      "annotation_id": "ann_dcc8d65c9faa2a2f6e7f2252",
+      "description_sha256": "2367fd19350243e63e9132b95048a19dcdf46991e1fc8ecf1a21d5b415fd5777",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This describes a professional services offering for collaborative innovation, solution design, development, and operation across deployment environments, a conventional consulting and software-development service.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "collaborating with clients in an end-to-end innovation process to discover, design, develop and run tailored solutions in the cloud, on premise or in hybrid scenarios that address their specific mission-critical business needs.\n\nFormerly known as SAP Custom Development, SAP Innovative Business Solutions offers clients direct global access to more than 2,000 development professionals and 38,000 R&D and services experts."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_dcc8d65c9faa2a2f6e7f2252",
+      "description_sha256": "2367fd19350243e63e9132b95048a19dcdf46991e1fc8ecf1a21d5b415fd5777",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This describes consulting and development services: discovering, designing, developing, and running tailored solutions, with access to development and R&D professionals.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "discover, design, develop and run tailored solutions in the cloud, on premise or in hybrid scenarios",
+        "it has delivered more than 4,000 individualized solutions to over 1,500 clients."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Consulting/customdevelopment PROFESSIONALS deliveringtailoredsolutions; no concrete softwarefunctionofaspecificoffering. Genericprofessionalservicealoneinsufficientfor supportedsoftwarenegative; nospeculationaboutdeliveredsolutions."
+    ]
+  }
+]

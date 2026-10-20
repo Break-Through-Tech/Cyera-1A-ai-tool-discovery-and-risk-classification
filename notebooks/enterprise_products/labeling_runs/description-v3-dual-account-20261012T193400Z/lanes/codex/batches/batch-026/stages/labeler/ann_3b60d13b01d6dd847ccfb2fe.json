@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_3b60d13b01d6dd847ccfb2fe",
+  "description_sha256": "4cb39219c3e5b586d6b4396bb0444c5d8d52bc74e1dd3331b2b0104a51c787b8",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "The product description explicitly identifies its software-change-impact analysis as AI-based, establishing an affirmative AI signal. The application also supports prioritizing tests and execution lists.",
+  "ai_type_rationale": "AI-based analysis is explicit, but the text does not establish whether this is an enhancement to an independently useful conventional test-analysis core or a capability on which the core depends; ai_enabled is the best tentative subtype.",
+  "evidence_spans": [
+    "Automated, AI-based analysis of software change impacts"
+  ],
+  "ai_type_evidence_spans": [
+    "Automated, AI-based analysis of software change impacts"
+  ]
+}

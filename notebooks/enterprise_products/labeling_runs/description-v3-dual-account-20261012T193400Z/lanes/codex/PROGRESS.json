@@ -1,7 +1,7 @@
 {
   "status": "active",
   "lane": "codex",
-  "updated_at": "2026-10-20T20:02:11.294462+00:00",
+  "updated_at": "2026-10-20T20:07:30.701224+00:00",
   "new_completed_descriptions": 480,
   "new_completed_rows": 490,
   "remaining_lane_descriptions": 131,
@@ -34,8 +34,8 @@
   ],
   "current_batch": "batch-026",
   "next_batch": "batch-027",
-  "current_stage": "independent_passes",
-  "active_workers": 2,
+  "current_stage": "reconciliation",
+  "active_workers": 1,
   "resume_requires_user_request": false,
   "stop_on_usage_limit": true,
   "independent_workflow_run_id": "2b2ce8ef-11e1-4460-ba6a-31e996cf2700",
@@ -51,5 +51,6 @@
         "ann_7b87c87eefc5556a8f829a03"
       ]
     }
-  ]
+  ],
+  "reconciliation_workflow_run_id": "4112e645-fe7e-4c8f-8828-086053f0d527"
 }
