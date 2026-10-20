@@ -1,0 +1,15 @@
+{
+  "batch_id": "batch-001",
+  "status": "accepted",
+  "assigned_ids": [
+    "ann_2bf78e027589823addd434fc",
+    "ann_837eaba2307d53a189dded02"
+  ],
+  "result_sha256": "44f06e642b4eea5fcc696368a2db91bc052a755f75fe0cae42f3249efb789298",
+  "checkpoint_hashes": {
+    "agents/blind/reconciliation/checkpoints/ann_2bf78e027589823addd434fc.json": "32cb361662399e4c5686477b2360512595aacd7f7bf8899efdbb4cb7c4a1c77b",
+    "agents/blind/reconciliation/checkpoints/ann_837eaba2307d53a189dded02.json": "bb1d80b874ca1a66260fa52482ed53d21e17d43688d3827bbfccfeae936b5e0b"
+  },
+  "conflict_responses_present": true,
+  "unresolved_support_integrity_concerns": []
+}

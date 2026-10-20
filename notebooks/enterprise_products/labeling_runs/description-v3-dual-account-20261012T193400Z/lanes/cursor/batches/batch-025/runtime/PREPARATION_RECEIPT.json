@@ -1,0 +1,88 @@
+{
+  "batch_id": "batch-025",
+  "frozen_plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "manifest_sha256": "1d14f23beaf75b174f4ac0e1079dcc00c3f4d126e51208c001f7bf5bdd7b100a",
+  "selection_sha256": "daf45b54af8e70298628e6e9df5a504f8754594486b30dd1deb4fbd3a9f038b2",
+  "selected_descriptions": 20,
+  "selected_source_references": 20,
+  "exact_plan_description_hash_and_all_source_references": true,
+  "overlap_checked_against_all_prior_batch_selection_refs": true,
+  "role_workspaces": {
+    "labeler": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-025/agents/labeler",
+    "blind": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-025/agents/blind"
+  },
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "description_packet_hashes": {
+    "labeler": "f98171afdf9193cc20d1ce983e68f6fd14b8dbe39147175196d98a474cab6377",
+    "blind": "f98171afdf9193cc20d1ce983e68f6fd14b8dbe39147175196d98a474cab6377"
+  },
+  "stage_receipts": {
+    "labeler": {
+      "stage": "labeler",
+      "run_id": "batch-025",
+      "batch_id": "batch-025",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "4e0befda2866fd895e1bc2ea26297e5f2b5f451d3af0a780cb49356539dfbf33",
+      "model_id": "claude-haiku-5-5-thinking-high",
+      "assigned_annotation_ids": [
+        "ann_7601dbec16b484af0bd571e6",
+        "ann_4feff4f66e798b3283882047",
+        "ann_0f0ba28eb5083bb5c3101e03",
+        "ann_f4e5012d4d27f489bd2e3775",
+        "ann_f4b127eefe532f75aa0f1d56",
+        "ann_57c83901e99e320c1493fdf8",
+        "ann_dd617f27c695e32823117405",
+        "ann_f970a88cbd295508225e5d9f",
+        "ann_4eda59bc74b3cd279e17e7b0",
+        "ann_1bebefad5f5507b7ed6dc4cb",
+        "ann_e32703f3bc32ac493ed6a9d7",
+        "ann_998d0f88231208a3e93a4f51",
+        "ann_fd9dbe91c31b6109db363f9f",
+        "ann_6fee72c7a3aa2529320eaaeb",
+        "ann_52bb57884c1a1142d129f86c",
+        "ann_e4ba00d7b25eb3ebd82b6724",
+        "ann_601eb25e8f27c0c1a70c24bb",
+        "ann_7e3c570ed5886e202eaf8dd0",
+        "ann_9cc3e33ea5284988c0c4b993",
+        "ann_4a70897969f33e5a74acfe20"
+      ]
+    },
+    "blind": {
+      "stage": "blind",
+      "run_id": "batch-025",
+      "batch_id": "batch-025",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "66f1d0f9ab28589969c3274df80a5499002ec98777d9ba7517bfeb4ff535cab1",
+      "model_id": "gpt-5.6-luna-high",
+      "assigned_annotation_ids": [
+        "ann_7601dbec16b484af0bd571e6",
+        "ann_4feff4f66e798b3283882047",
+        "ann_0f0ba28eb5083bb5c3101e03",
+        "ann_f4e5012d4d27f489bd2e3775",
+        "ann_f4b127eefe532f75aa0f1d56",
+        "ann_57c83901e99e320c1493fdf8",
+        "ann_dd617f27c695e32823117405",
+        "ann_f970a88cbd295508225e5d9f",
+        "ann_4eda59bc74b3cd279e17e7b0",
+        "ann_1bebefad5f5507b7ed6dc4cb",
+        "ann_e32703f3bc32ac493ed6a9d7",
+        "ann_998d0f88231208a3e93a4f51",
+        "ann_fd9dbe91c31b6109db363f9f",
+        "ann_6fee72c7a3aa2529320eaaeb",
+        "ann_52bb57884c1a1142d129f86c",
+        "ann_e4ba00d7b25eb3ebd82b6724",
+        "ann_601eb25e8f27c0c1a70c24bb",
+        "ann_7e3c570ed5886e202eaf8dd0",
+        "ann_9cc3e33ea5284988c0c4b993",
+        "ann_4a70897969f33e5a74acfe20"
+      ]
+    }
+  },
+  "fresh_worker_panes_requested_after_preparation": false
+}

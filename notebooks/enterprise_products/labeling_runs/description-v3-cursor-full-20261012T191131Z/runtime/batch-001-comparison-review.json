@@ -1,0 +1,14 @@
+{
+  "batch_id": "batch-001",
+  "required_ids": [
+    "ann_2bf78e027589823addd434fc",
+    "ann_837eaba2307d53a189dded02"
+  ],
+  "parent_support_concerns": {
+    "ann_2bf78e027589823addd434fc": "The exact text describes data warehouse and campaign management, results attribution, email deployment, analytics, and data-driven marketing. One proposal flags weak because broad analytics/optimization language could entail algorithmic or predictive functionality; the other treats it as conventional marketing-services functionality. Reassess whether any specific functionality in this text is unexplained AI-dependent; do not infer hidden capability.",
+    "ann_837eaba2307d53a189dded02": "The exact text specifies TV measurement, attribution, advertising analytics, and says \u201cmeasure, optimize, and plan\u201d against business outcomes. One proposal flags weak because optimization/planning mechanism is unstated; the other supports conventional TV measurement/analytics/planning. Decide only from the supplied description whether those named functions create unexplained potentially AI-dependent functionality or are conventional analytics/services."
+  },
+  "reviewed_pair_count": 20,
+  "pairwise_rationales_inspected": true,
+  "unrouted_support_concerns": []
+}

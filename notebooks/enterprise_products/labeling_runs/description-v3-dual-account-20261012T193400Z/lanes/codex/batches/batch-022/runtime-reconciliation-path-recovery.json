@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-10-15T15:40:33.169742+00:00",
+  "child_run": "e602285f-1898-41ad-84e0-6d209663efa0",
+  "session": "/home/newton/.pi/agent/sessions/--home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification--/2026-10-13T01-49-45-417Z_01a132f3-9049-7319-a5b8-81b6b3ad5d0a/18018416-670e-48cb-aaea-f2840e2eb954/run-0/session.jsonl",
+  "violation": "final3 writes omitted batch lane path",
+  "recovery": "parent copied only3 byteexact to intended private path; originals preserved; same agent aggregate transport only",
+  "all7_schema_quotes_coverage_pass": true,
+  "all40_original_native_private_hashes_unchanged": true,
+  "copied_ids": [
+    "ann_40dfee122bdefbbdff006310",
+    "ann_a74e628756e4e6ab975f0227",
+    "ann_fb0f899923137812d30efb49"
+  ],
+  "actual_native_single_write_proofs": [
+    {
+      "annotation_id": "ann_08816a0f7837f2d4fd6cced4",
+      "line": 42,
+      "original_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-022/agents/reconciliation/checkpoints/ann_08816a0f7837f2d4fd6cced4.json",
+      "sha256": "d8d83f3a3e16d2c7e974fc9659ea8de3c356a4c6ab3c370f1ff6a10154d03938",
+      "accepted_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-022/agents/reconciliation/checkpoints/ann_08816a0f7837f2d4fd6cced4.json"
+    },
+    {
+      "annotation_id": "ann_0aa5f5abcb43dd3ee362da3b",
+      "line": 42,
+      "original_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-022/agents/reconciliation/checkpoints/ann_0aa5f5abcb43dd3ee362da3b.json",
+      "sha256": "0dc8091ff1748b6afe5ca4439d54d069303fa13eea77434fe543c739c9431c44",
+      "accepted_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-022/agents/reconciliation/checkpoints/ann_0aa5f5abcb43dd3ee362da3b.json"
+    },
+    {
+      "annotation_id": "ann_0c7f876b83336eacd9f27ea9",
+      "line": 42,
+      "original_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-022/agents/reconciliation/checkpoints/ann_0c7f876b83336eacd9f27ea9.json",
+      "sha256": "7a30f3c4e99c52b98e950e5dbb5852ba9e703d15102c0e40c7981daa2269ba41",
+      "accepted_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-022/agents/reconciliation/checkpoints/ann_0c7f876b83336eacd9f27ea9.json"
+    },
+    {
+      "annotation_id": "ann_1aa37c650acab05fb845ce71",
+      "line": 42,
+      "original_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-022/agents/reconciliation/checkpoints/ann_1aa37c650acab05fb845ce71.json",
+      "sha256": "81bf7eedcaaebc76cba1b5741c2aba5345383be2663c1bc1cd08b9f67b718a1c",
+      "accepted_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-022/agents/reconciliation/checkpoints/ann_1aa37c650acab05fb845ce71.json"
+    },
+    {
+      "annotation_id": "ann_40dfee122bdefbbdff006310",
+      "line": 42,
+      "original_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/agents/reconciliation/checkpoints/ann_40dfee122bdefbbdff006310.json",
+      "sha256": "3c776d8a0eb4d74d0999320d1c640a266c7c740d045ded666545ddd2dd214e28",
+      "accepted_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-022/agents/reconciliation/checkpoints/ann_40dfee122bdefbbdff006310.json"
+    },
+    {
+      "annotation_id": "ann_a74e628756e4e6ab975f0227",
+      "line": 42,
+      "original_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/agents/reconciliation/checkpoints/ann_a74e628756e4e6ab975f0227.json",
+      "sha256": "6477e53ad73d9ffc72c82ae855456e270ede3a9c54268957fc3d8dbdb21310fc",
+      "accepted_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-022/agents/reconciliation/checkpoints/ann_a74e628756e4e6ab975f0227.json"
+    },
+    {
+      "annotation_id": "ann_fb0f899923137812d30efb49",
+      "line": 42,
+      "original_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/agents/reconciliation/checkpoints/ann_fb0f899923137812d30efb49.json",
+      "sha256": "d4d4c8217c2ad3f9d812cdecab0a809150ea76c4f02f01133db70be2605e8678",
+      "accepted_path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-022/agents/reconciliation/checkpoints/ann_fb0f899923137812d30efb49.json"
+    }
+  ]
+}

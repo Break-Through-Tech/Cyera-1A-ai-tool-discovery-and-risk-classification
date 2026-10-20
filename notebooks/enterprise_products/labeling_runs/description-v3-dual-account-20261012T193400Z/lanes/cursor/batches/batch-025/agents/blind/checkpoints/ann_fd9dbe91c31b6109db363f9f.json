@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_fd9dbe91c31b6109db363f9f",
+  "description_sha256": "b7af167c2b8f53c6a3b16837a1c584e857ddbcf8de3529e7dde0e7013e863c44",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description states conventional geocoding and reverse-geocoding APIs that return standardized addresses, coordinates, and attribution, with no affirmative AI/ML signal.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "The Global Geocoding SDK provides APIs for Spark integration as well as Hive user-defined functions for the following geocoding operations:",
+    "Geocode: Accepts an address as input and returns the standardized US or international address and additional attribution, including the location coordinates, for the address.",
+    "Reverse Geocode: Accepts a location (coordinates and coordinate system) as input and returns the standardized address and additional attribution for that location.",
+    "Geocode By Key: Accepts a key (such as PreciselyID) as input and returns the standardized address and additional attribution associated with that key."
+  ],
+  "ai_type_evidence_spans": null
+}

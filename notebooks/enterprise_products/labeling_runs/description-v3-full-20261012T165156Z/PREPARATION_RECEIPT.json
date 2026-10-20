@@ -1,0 +1,19 @@
+{
+  "mission_id": "f4a79c33-6baf-4b67-bb0d-c4e6f553aa03",
+  "plan_sha256": "df6421a1b14b22d02747e2413d47d3d20ab5e82c48e2e04b50777c7c7fff1e76",
+  "packet_sha256": "36fcc80a95e9a7a8657940bfd0ca8e2b6c9473ad61437fac60524b8286bf1c4c",
+  "script_sha256": "ff70a556074037f9c5580ac46000c408d34cd9f8f2b8b5b6e1db3d6d21fd9df1",
+  "launch_args_sha256": "da8456b1ec556f38f2fdc215001340d9d3595dc9c3a8f1297c5c92e21135cf9a",
+  "prior_baselines_sha256": "ff0caf8759461097c76e45f8c57803e2fa993ceef36a9de6c52e11ac1e9ab22c",
+  "prepared_counts": {
+    "prior_descriptions": 40,
+    "remaining_descriptions": 1351,
+    "remaining_rows": 1387,
+    "batches": 68,
+    "first_batch": 20,
+    "last_batch": 11
+  },
+  "model": "openai-codex/gpt-6-luna:high",
+  "max_active_workers": 2,
+  "parent_continuation": "After completion notice accept current batch, reconcile same verifier once, finalize, advance progress, and start next planned batch; no further user approval needed for ordinary flags."
+}

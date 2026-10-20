@@ -1,6 +1,6 @@
 {
-  "status": "active",
-  "updated_at": "2026-10-15T15:39:03.456740+00:00",
+  "status": "paused_for_git_sync",
+  "updated_at": "2026-10-20T19:15:20.536854+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
   "new_completed_descriptions": 900,
@@ -15,8 +15,8 @@
   "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
   "cursor_status": "001\u2013024 parent accepted;025 fresh pair p1Z/p10 under retained coordinator4f4c2546.",
   "codex_status": "001\u2013021 finalized;022 originalblind7-item reconciliation active.",
-  "codex_active_workers": 1,
-  "cursor_live_worker_state": "025 freshly provisioned p1Z/p10;024 accepted.",
+  "codex_active_workers": 0,
+  "cursor_live_worker_state": "All labeling Herdr agents idle; paused for synchronization.",
   "active_runs": {
     "cursor_panes": [
       "wF:p1Z",
@@ -27,6 +27,7 @@
     "codex_reconciliation_workflow": "8be35b12-a929-4a40-af1e-5a4581eb2c6a"
   },
   "native_resume_receipt": "runtime/NATIVE_RESUME_AFTER_RESET_20261015.json",
-  "active_workers": 3,
-  "blocker": null
+  "active_workers": 0,
+  "blocker": null,
+  "git_sync_note": "Herdr native labeling workers idle; previous pi-subagents /tmp run registry absent. No annotation restarted. Preserve current partial outputs; gate before accepting."
 }

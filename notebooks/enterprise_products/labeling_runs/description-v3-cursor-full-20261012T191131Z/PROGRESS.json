@@ -1,0 +1,31 @@
+{
+  "status": "completed_reserved_batches_awaiting_dual_continuation",
+  "prior_completed_descriptions": 120,
+  "prior_completed_rows": 133,
+  "new_completed_descriptions": 40,
+  "new_completed_rows": 41,
+  "remaining_descriptions": 1231,
+  "remaining_rows": 1264,
+  "finalized_batches": [
+    "batch-001",
+    "batch-002"
+  ],
+  "current_batch": null,
+  "active_workers": 0,
+  "stop_on_usage_limit": true,
+  "resume_requires_user_request": false,
+  "active_stage_state": "Both reserved Cursor batches finalized; no work in flight. Remaining hashes will be assigned to approved dual-account continuation.",
+  "worker_states": {
+    "cursor-haiku-b002": "idle; labeler aggregate + 20 checkpoints complete",
+    "cursor-luna-b002": "idle; blind aggregate + 20 checkpoints complete"
+  },
+  "batch_states": {
+    "batch-001": "finalized; 20 descriptions / 21 rows",
+    "batch-002": "unfinalized; independent outputs saved, blind exact-quote issue; no compare/reconcile",
+    "batch-003": "not started",
+    "batch-004": "not started",
+    "batch-005": "not started"
+  },
+  "prior_baseline_files_reverified": 1101,
+  "blocker": null
+}

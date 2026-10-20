@@ -1,0 +1,55 @@
+{
+  "rubric_id": "enterprise-description-only-v3",
+  "run_id": "description-v3-full-20261012T165156Z",
+  "counts": {
+    "source_input_records": 1494,
+    "cleaner_excluded_records": 56,
+    "records": 1438,
+    "product_groups": 1406,
+    "distinct_descriptions": 1391
+  },
+  "inputs": {
+    "raw": {
+      "path": "inputs/raw.csv",
+      "sha256": "afe7cdbcbf82d9b11f579eb6dce000815a04a301410636e2942036f072fc7aa1"
+    },
+    "cleaned": {
+      "path": "inputs/cleaned.csv",
+      "sha256": "c9f0d234d3b66327250d7eb372e9fc962e06f16c2bc0181cc34654fdb897eb2b"
+    },
+    "cleaning_report": {
+      "path": "inputs/cleaning_report.json",
+      "sha256": "5ee112cdb293fbe0640b61e4790d389331b35b729a907263237a2ecade0c0e7b"
+    },
+    "rubric": {
+      "path": "inputs/rubric.md",
+      "sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61"
+    },
+    "prompt_labeler": {
+      "path": "inputs/prompt_labeler.md",
+      "sha256": "ddfee3fc731340c9ee04c4fece164b10288bfa2598781216f98a929d380e316f"
+    },
+    "prompt_blind": {
+      "path": "inputs/prompt_blind.md",
+      "sha256": "ccaa445bbd2055b795bd40f6a6435d24504b79c4eb7ae3ed07cbc22b526d7ea4"
+    },
+    "prompt_reconciliation": {
+      "path": "inputs/prompt_reconciliation.md",
+      "sha256": "285aa23fa1cd3ad92a4123623484764419dc6b11d24cb435135596f4b2026d30"
+    }
+  },
+  "code_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "prompt_hashes": {
+    "labeler": "ddfee3fc731340c9ee04c4fece164b10288bfa2598781216f98a929d380e316f",
+    "blind": "ccaa445bbd2055b795bd40f6a6435d24504b79c4eb7ae3ed07cbc22b526d7ea4",
+    "reconciliation": "285aa23fa1cd3ad92a4123623484764419dc6b11d24cb435135596f4b2026d30"
+  },
+  "stages": {},
+  "prepared_artifacts": {
+    "description_packets.json": "d7206bb99ff29cfe6071213ab4db71242f7d87816a3a03a10f22e9977bce80ef",
+    "parent_join_map.json": "811b3c3f97e2ef54688e45e1a4ebeda8154cb1e6089121724eb8e30699e5717b"
+  },
+  "selection_artifact": {
+    "selection.json": "3a64aade4c2a8cb1089ad7450bbd9c6bbf14394ee59cc6f379a74bac6b8b45fb"
+  }
+}

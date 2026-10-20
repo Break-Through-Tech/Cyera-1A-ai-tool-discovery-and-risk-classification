@@ -1,10 +1,10 @@
 {
-  "status": "paused_major_runtime_error",
+  "status": "paused_for_git_sync",
   "lane": "cursor",
-  "new_completed_descriptions": 360,
-  "new_completed_rows": 364,
-  "remaining_lane_descriptions": 260,
-  "remaining_lane_rows": 275,
+  "new_completed_descriptions": 480,
+  "new_completed_rows": 487,
+  "remaining_lane_descriptions": 140,
+  "remaining_lane_rows": 152,
   "finalized_batches": [
     "batch-001",
     "batch-002",
@@ -23,35 +23,49 @@
     "batch-015 (accepted integration copy: batches/batch-015-parent-integration; original immutable; parent accepted in runtime/PARENT_ACCEPTANCE_WAVE015_017.json; commit 831976a)",
     "batch-016",
     "batch-017",
-    "batch-018 (parent accepted; batches/batch-018/PARENT_VALIDATION.json)"
+    "batch-018 (parent accepted; batches/batch-018/PARENT_VALIDATION.json)",
+    "batch-019 (parent accepted; batches/batch-019/PARENT_VALIDATION.json)",
+    "batch-020 (parent accepted; batches/batch-020/PARENT_VALIDATION.json; parent commit 805da09)",
+    "batch-021 (parent accepted; batches/batch-021/PARENT_VALIDATION.json)",
+    "batch-022 (parent accepted; batches/batch-022/PARENT_VALIDATION.json)",
+    "batch-023 (parent accepted; batches/batch-023/PARENT_VALIDATION.json; commit c5e4f14)",
+    "batch-024 (parent accepted; PARENT_VALIDATION.json)"
   ],
-  "current_batch": "batch-019",
+  "current_batch": "batch-025",
   "active_workers": 0,
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
   "cost_usd": null,
   "billed_tokens": null,
   "latest_authorization": "2026-10-13 user authorized both workflows and routine repair; no routine pauses",
-  "current_stage": "paused_before_further_work_due_major_runtime_error",
+  "current_stage": "batch-025 independent annotation active; exact frozen selection/stages/private workspaces; two fresh Cursor contexts launched",
   "native_targets": {
-    "labeler": "cursor019-label idle on wF:p1J; 20/20 result/checkpoints validated and hash-registered",
-    "blind": "cursor019-blind on wF:p1K; same original GPT-5.6 Luna UUID cdc542c3-887f-4659-a57c-2aac7b53e95a performing one assigned 8-ID semantic reconciliation",
-    "preserved_old_targets": "018 completed p1G/p1H unchanged; prior p1F/p1E untouched"
+    "024_labeler": "cursor024-label wF:p1X completed; UUID 638efdc8-9879-44f9-9cac-9a399150c119; claude-haiku-5-5-thinking-high",
+    "024_blind": "cursor024-blind wF:p1Y completed independent plus one reconciliation; UUID cca7d0c2-b359-4a3e-854b-f308a71f24db; gpt-5.6-luna-high",
+    "023_labeler": "cursor023-label wF:p1V completed; UUID ab4e74d2-1179-48b1-bd72-9237fd584d6b",
+    "023_blind": "cursor023-blind wF:p1W completed; UUID 409686f6-4817-408d-873d-4da3f8ef877a",
+    "022_blind": "cursor022-blind wF:p1T parent accepted",
+    "021_blind": "cursor021-blind wF:p1R parent accepted",
+    "019_verifier": "cursor019-luna-resumed wF:p1M preserved",
+    "020_blind": "cursor020-blind wF:p1P preserved",
+    "025_labeler": "cursor025-label wF:p1Z; Claude Haiku 5.5 300K High banner; fresh; exact claude-haiku-5-5-thinking-high arg/private cwd; independent annotation active",
+    "025_blind": "cursor025-blind wF:p10; GPT-5.6 Luna 272K High banner; fresh; exact gpt-5.6-luna-high arg/private cwd; independent annotation active"
   },
   "integration_owner": "enterprise-cursor-coordinator",
   "reconciliation_count": 89,
   "local_reconciliation_count_pending_parent": 0,
   "last_finalized_batch": {
-    "batch_id": "batch-018",
-    "accepted_path": "batches/batch-018",
+    "batch_id": "batch-024",
+    "path": "batches/batch-024",
     "descriptions": 20,
-    "rows": 20,
-    "reconciliation_count": 9,
+    "rows": 22,
+    "reconciliation_count": 8,
     "exports_verified": true,
-    "weak_binary_count": 6,
-    "weak_subtype_count": 1,
+    "weak_binary_count": 7,
+    "weak_subtype_count": 0,
+    "trusted_negative_rows": 11,
     "structural_repairs": 0,
-    "parent_accepted": true
+    "pending_parent_gate": true
   },
   "last_parent_integration": {
     "logical_batch_id": "batch-015",
@@ -69,33 +83,48 @@
   },
   "last_wave": {
     "batches": [
-      "batch-018 parent accepted; batch019 stopped before comparison/finalization"
+      "batch-021 parent accepted",
+      "batch-022 locally finalized pending parent"
     ],
-    "descriptions": 20,
-    "rows": 20,
-    "reconciliation_count": 9,
-    "accepted_lane_descriptions": 360,
-    "accepted_lane_rows": 364,
-    "remaining_lane_descriptions": 260,
-    "remaining_lane_rows": 275,
-    "batch019_selected_descriptions": 20,
-    "batch019_selected_rows": 20,
-    "batch019_structural_blocker": "parent authorized a non-mutating accepted-result.json transport using same original Luna context; 21 raw checkpoints retained, selecting only exact20 assigned good filenames",
-    "batch019_stage": "one original-Luna reconciliation pass in progress; all20 raw result/checkpoint gates and pair-review routing complete"
+    "descriptions": 40,
+    "rows": 41,
+    "reconciliation_count": 13,
+    "accepted_lane_descriptions_before021_acceptance": 400,
+    "accepted_lane_rows_before021_acceptance": 404,
+    "accepted_lane_descriptions_after021_acceptance": 420,
+    "accepted_lane_rows_after021_acceptance": 425,
+    "pending_parent_descriptions": 20,
+    "pending_parent_rows": 20,
+    "batch021_weak_binary_count": 5,
+    "batch021_weak_subtype_count": 0,
+    "batch022_weak_binary_count": 6,
+    "batch022_weak_subtype_count": 0,
+    "batch022_structural_repairs": 1
   },
-  "next_safe_action": "Complete one reconciliation pass for all8 routed IDs; validate/hash receipts and finalize batch019 via helper. Then test and parent gate before fresh020.",
-  "blocker": "Codex account usage limit reached; nativeCursor019 originalblind connection interrupted repeatedly andstopped. Preservedpartialresults; nofallback.",
-  "parent_gate_status": "batches015-018 accepted; batch018 accepted path unchanged. Parent global reports 800 descriptions / 822 rows after Codex014; parent owns global/Git.",
+  "next_safe_action": "Complete batch025 independent annotations, hash-register all raw results before comparison, manually review all20 source/proposal pairs and support concerns, reconcile once via same original blind Luna, helper finalize/tests/progress; then prepare and execute batch026.",
+  "blocker": null,
+  "batch024_independent_registration": "runtime/independent-result-registration.json; labeler result dada81ec338aa1c3288200a81e15aa31c1166a8da203e0008f24cc49eddca672; blind result 2a1a774c165343bcb52445394a6ae497f7fd9a4ee2811b77d27ad39c318e8484; 20 checkpoint hashes per role registered and verified; helper stage loading, schema, quotes, coverage, hashes and private stage equality passed before comparison.",
+  "batch024_reconciliation_routing": "runtime/reconciliation-routing.json; 7 helper-required plus 1 additional NLG/AI-native support concern; exactly 8 assigned to same original Luna once; all20 pair reviews saved in runtime/pair-review.json.",
+  "parent_gate_status": "Batch023 accepted commit c5e4f14; batch024 parent accepted per latest parent PARENT_VALIDATION; lane accepted through024 = 480/487; parent global count expected1060/1087 pending parent recomputation.",
   "last_parent_acceptance": {
-    "batches": "015-018",
+    "batches": "024",
     "accepted": true,
-    "source": "batches/batch-018/PARENT_VALIDATION.json",
-    "global_coverage_reported": "800 descriptions / 822 rows after Codex014; parent-owned, not re-counted here"
+    "source": "batches/batch-024/PARENT_VALIDATION.json",
+    "selected_descriptions": 20,
+    "selected_rows": 22,
+    "reconciliation_count": 8,
+    "parent_reported_counts": "Cursor480 descriptions /487 rows; global expected1060/1087, parent recomputing"
   },
   "local_finalized_pending_parent": {
-    "descriptions": 0,
-    "rows": 0,
-    "batch": null
+    "batches": [
+      "batch-023",
+      "batch-024"
+    ],
+    "descriptions": 40,
+    "rows": 42,
+    "batch023_reconciliation_count": 6,
+    "batch024_reconciliation_count": 8
   },
-  "updated_at": "2026-10-15T13:48:51.713688+00:00"
+  "updated_at": "2026-10-20T19:15:20.536854+00:00",
+  "git_sync_note": "Herdr native labeling workers idle; previous pi-subagents /tmp run registry absent. No annotation restarted. Preserve current partial outputs; gate before accepting."
 }

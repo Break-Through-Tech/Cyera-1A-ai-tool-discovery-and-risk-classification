@@ -1,0 +1,55 @@
+{
+  "rubric_id": "enterprise-description-only-v3",
+  "run_id": "description-v3-cursor-full-20261012T191131Z",
+  "counts": {
+    "source_input_records": 1494,
+    "cleaner_excluded_records": 56,
+    "records": 1438,
+    "product_groups": 1406,
+    "distinct_descriptions": 1391
+  },
+  "inputs": {
+    "raw": {
+      "path": "inputs/raw.csv",
+      "sha256": "afe7cdbcbf82d9b11f579eb6dce000815a04a301410636e2942036f072fc7aa1"
+    },
+    "cleaned": {
+      "path": "inputs/cleaned.csv",
+      "sha256": "c9f0d234d3b66327250d7eb372e9fc962e06f16c2bc0181cc34654fdb897eb2b"
+    },
+    "cleaning_report": {
+      "path": "inputs/cleaning_report.json",
+      "sha256": "5ee112cdb293fbe0640b61e4790d389331b35b729a907263237a2ecade0c0e7b"
+    },
+    "rubric": {
+      "path": "inputs/rubric.md",
+      "sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61"
+    },
+    "prompt_labeler": {
+      "path": "inputs/prompt_labeler.md",
+      "sha256": "2b9aba81781362bc857e5c775d41923435e8eeea19a39f2b9e6fb6a3f26e3721"
+    },
+    "prompt_blind": {
+      "path": "inputs/prompt_blind.md",
+      "sha256": "80a3f1b5f2aef60b92ea3eb2456a3862f1f987e353fbe1c29b0b9d1f4a3de29a"
+    },
+    "prompt_reconciliation": {
+      "path": "inputs/prompt_reconciliation.md",
+      "sha256": "00d2d38cb348237e955018958e05ea16bb1c6b1f2005ab3f3c9b53a4cce51154"
+    }
+  },
+  "code_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "prompt_hashes": {
+    "labeler": "2b9aba81781362bc857e5c775d41923435e8eeea19a39f2b9e6fb6a3f26e3721",
+    "blind": "80a3f1b5f2aef60b92ea3eb2456a3862f1f987e353fbe1c29b0b9d1f4a3de29a",
+    "reconciliation": "00d2d38cb348237e955018958e05ea16bb1c6b1f2005ab3f3c9b53a4cce51154"
+  },
+  "stages": {},
+  "prepared_artifacts": {
+    "description_packets.json": "c01f0ca53c9365948a9cd4d55d64562fc27c3d276e7ac5a60f0135f02d75da87",
+    "parent_join_map.json": "eab261d437b8370a574dd8a04fe7abc3951fedf5bcd3ece1f7bc995b69f3be4e"
+  },
+  "selection_artifact": {
+    "selection.json": "d028032ab7093da00dc4a092930dea547c1d4476193ee934388523f4dd716a71"
+  }
+}

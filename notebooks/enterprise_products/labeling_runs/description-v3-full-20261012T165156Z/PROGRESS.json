@@ -1,0 +1,36 @@
+{
+  "status": "paused_by_user",
+  "pause_reason": "User requested a safe stopping point; batch005 finalized, batch006 prepared but not launched.",
+  "resume_requires_user_request": true,
+  "active_workers": 0,
+  "prior_completed_descriptions": 40,
+  "new_completed_descriptions": 60,
+  "remaining_descriptions": 1291,
+  "finalized_batches": [
+    {
+      "batch_id": "batch-003",
+      "descriptions": 20,
+      "rows": 20,
+      "weak_binary": 1,
+      "review_cases": 2
+    },
+    {
+      "batch_id": "batch-004",
+      "descriptions": 20,
+      "rows": 20,
+      "weak_binary": 4,
+      "weak_subtype": 1,
+      "review_cases": 5
+    },
+    {
+      "batch_id": "batch-005",
+      "descriptions": 20,
+      "rows": 22,
+      "weak_binary": 5,
+      "review_cases": 5
+    }
+  ],
+  "current_batch": "batch-006",
+  "new_completed_source_rows": 62,
+  "remaining_source_rows": 1325
+}
