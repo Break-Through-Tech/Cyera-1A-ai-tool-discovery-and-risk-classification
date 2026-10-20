@@ -1,0 +1,1258 @@
+[
+  {
+    "annotation_id": "ann_06648e29622f174c6f946c66",
+    "description_sha256": "1bbc9c3f7374394e2f34f0acd8ef7989dc4877c2898fb2a43177f3191919b2ca",
+    "source_record_references": [
+      "1096"
+    ],
+    "labeler": {
+      "annotation_id": "ann_06648e29622f174c6f946c66",
+      "description_sha256": "1bbc9c3f7374394e2f34f0acd8ef7989dc4877c2898fb2a43177f3191919b2ca",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a UI component library for web, mobile, and desktop development, conventional software components without an AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The comprehensive UI components library for web, mobile and desktop developers"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_06648e29622f174c6f946c66",
+      "description_sha256": "1bbc9c3f7374394e2f34f0acd8ef7989dc4877c2898fb2a43177f3191919b2ca",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a reusable UI component library for developers building web, mobile, and desktop applications, conventional software-development functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The comprehensive UI components library for web, mobile and desktop developers"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_06648e29622f174c6f946c66",
+      "description_sha256": "1bbc9c3f7374394e2f34f0acd8ef7989dc4877c2898fb2a43177f3191919b2ca",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a UI component library for web, mobile, and desktop development, conventional software components without an AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The comprehensive UI components library for web, mobile and desktop developers"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_08816a0f7837f2d4fd6cced4",
+    "description_sha256": "b437a40a36d8dd0e7b13fbb1fe59446ecb32fed440c8b827fafd6f69d6a76041",
+    "source_record_references": [
+      "1098"
+    ],
+    "labeler": {
+      "annotation_id": "ann_08816a0f7837f2d4fd6cced4",
+      "description_sha256": "b437a40a36d8dd0e7b13fbb1fe59446ecb32fed440c8b827fafd6f69d6a76041",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes deployment options for a virtualized load-balancing offering across public and private infrastructure, a conventional infrastructure function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a virtualized edition of LoadMaster that can be deployed in the Cloud from Azure or AWS marketplaces (including the Government specific regions); in a virtual machine in any Cloud providers VMs; on private virtual infrastructures such as that from VMware, Hyper-V, VirtualBox, and Xen."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_08816a0f7837f2d4fd6cced4",
+      "description_sha256": "b437a40a36d8dd0e7b13fbb1fe59446ecb32fed440c8b827fafd6f69d6a76041",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes virtualized load-balancer deployment across public and private cloud/virtual-machine environments, a conventional infrastructure deployment function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "KEMP Virtual LoadMaster (VLM) is a virtualized edition of LoadMaster that can be deployed in the Cloud from Azure or AWS marketplaces (including the Government specific regions); in a virtual machine in any Cloud providers VMs; on private virtual infrastructures such as that from VMware, Hyper-V, VirtualBox, and Xen. VLM is ideal for use with IoT Platforms and infrastructure."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_08816a0f7837f2d4fd6cced4",
+      "description_sha256": "b437a40a36d8dd0e7b13fbb1fe59446ecb32fed440c8b827fafd6f69d6a76041",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text identifies a virtualized edition and deployment environments, but describes no operation performed by the offering. With no AI signal, non_ai is the best-supported forced choice, not a supported negative.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is a virtualized edition of LoadMaster that can be deployed in the Cloud from Azure or AWS marketplaces (including the Government specific regions); in a virtual machine in any Cloud providers VMs; on private virtual infrastructures such as that from VMware, Hyper-V, VirtualBox, and Xen."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The proposals infer load balancing from the product name, which cannot substantiate functionality here. Deployment packaging is explicit, but no operational function is; therefore I retain non_ai only as a weak forced binary decision."
+    },
+    "final": {
+      "annotation_id": "ann_08816a0f7837f2d4fd6cced4",
+      "description_sha256": "b437a40a36d8dd0e7b13fbb1fe59446ecb32fed440c8b827fafd6f69d6a76041",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text identifies a virtualized edition and deployment environments, but describes no operation performed by the offering. With no AI signal, non_ai is the best-supported forced choice, not a supported negative.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is a virtualized edition of LoadMaster that can be deployed in the Cloud from Azure or AWS marketplaces (including the Government specific regions); in a virtual machine in any Cloud providers VMs; on private virtual infrastructures such as that from VMware, Hyper-V, VirtualBox, and Xen."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The proposals infer load balancing from the product name, which cannot substantiate functionality here. Deployment packaging is explicit, but no operational function is; therefore I retain non_ai only as a weak forced binary decision."
+    }
+  },
+  {
+    "annotation_id": "ann_0aa5f5abcb43dd3ee362da3b",
+    "description_sha256": "16b86e3355f671488599ed9da0517d914d476e79fe7ef28444003a03fd82a2dd",
+    "source_record_references": [
+      "1106"
+    ],
+    "labeler": {
+      "annotation_id": "ann_0aa5f5abcb43dd3ee362da3b",
+      "description_sha256": "16b86e3355f671488599ed9da0517d914d476e79fe7ef28444003a03fd82a2dd",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Identifies conventional server operating-system licensing and server-management software suites for protected IT infrastructure.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "These suites offers a cost-efficient way to license the Windows Server. operating system, Microsoft System Center server management, and Microsoft ForefrontTM Client."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_0aa5f5abcb43dd3ee362da3b",
+      "description_sha256": "16b86e3355f671488599ed9da0517d914d476e79fe7ef28444003a03fd82a2dd",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes licensing of operating-system, server-management, and client-software components in infrastructure suites, conventional IT software functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "These suites offers a cost-efficient way to license the Windows Server. operating system, Microsoft System Center server management, and Microsoft ForefrontTM Client."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_0aa5f5abcb43dd3ee362da3b",
+      "description_sha256": "16b86e3355f671488599ed9da0517d914d476e79fe7ef28444003a03fd82a2dd",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Although the suite is licensed as a bundle, the description itself identifies an operating system and server-management and client software components, establishing conventional IT software functions without relying on product-specific knowledge.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "license the Windows Server. operating system, Microsoft System Center server management, and Microsoft ForefrontTM Client."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The text is indeed about licensing a suite rather than enumerating operations. However, its own descriptors explicitly identify operating-system software and server-management software (plus client software), which are meaningful conventional functions; the negative does not depend on importing named-product capabilities."
+    },
+    "final": {
+      "annotation_id": "ann_0aa5f5abcb43dd3ee362da3b",
+      "description_sha256": "16b86e3355f671488599ed9da0517d914d476e79fe7ef28444003a03fd82a2dd",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Although the suite is licensed as a bundle, the description itself identifies an operating system and server-management and client software components, establishing conventional IT software functions without relying on product-specific knowledge.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "license the Windows Server. operating system, Microsoft System Center server management, and Microsoft ForefrontTM Client."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The text is indeed about licensing a suite rather than enumerating operations. However, its own descriptors explicitly identify operating-system software and server-management software (plus client software), which are meaningful conventional functions; the negative does not depend on importing named-product capabilities."
+    }
+  },
+  {
+    "annotation_id": "ann_0c7f876b83336eacd9f27ea9",
+    "description_sha256": "d70d41dbcc6870e14a822eb921898ea5abe27217a0e86e11f898b6fe473b3d68",
+    "source_record_references": [
+      "1088"
+    ],
+    "labeler": {
+      "annotation_id": "ann_0c7f876b83336eacd9f27ea9",
+      "description_sha256": "d70d41dbcc6870e14a822eb921898ea5abe27217a0e86e11f898b6fe473b3d68",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes real-time outage diagnosis and automated troubleshooting but provides little about how this outage intelligence works; no affirmative AI signal appears, so non-AI is the best-supported forced judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provides outage intelligence for telecoms and service providers, used to diagnose commercial power outages in real-time to automate troubleshooting (utilities)."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_0c7f876b83336eacd9f27ea9",
+      "description_sha256": "d70d41dbcc6870e14a822eb921898ea5abe27217a0e86e11f898b6fe473b3d68",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes real-time outage monitoring/diagnosis and automated troubleshooting for utility power outages, a conventional operational monitoring use case without a stated AI method.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Gisual provides outage intelligence for telecoms and service providers, used to diagnose commercial power outages in real-time to automate troubleshooting (utilities)."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_0c7f876b83336eacd9f27ea9",
+      "description_sha256": "d70d41dbcc6870e14a822eb921898ea5abe27217a0e86e11f898b6fe473b3d68",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies real-time power-outage diagnosis and automated troubleshooting, but gives no method; this could describe conventional operations or an AI-dependent diagnostic function. No affirmative AI signal appears, so non_ai is the best-supported forced choice.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "used to diagnose commercial power outages in real-time to automate troubleshooting (utilities)."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The blind proposal treated diagnosis and automation as conventionally established; the labeler noted that the method is unspecified. Since neither ordinary automation nor AI is established by this brief diagnostic claim, I preserve the non_ai judgment as weak/forced rather than treat absence of an AI mention as proof."
+    },
+    "final": {
+      "annotation_id": "ann_0c7f876b83336eacd9f27ea9",
+      "description_sha256": "d70d41dbcc6870e14a822eb921898ea5abe27217a0e86e11f898b6fe473b3d68",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies real-time power-outage diagnosis and automated troubleshooting, but gives no method; this could describe conventional operations or an AI-dependent diagnostic function. No affirmative AI signal appears, so non_ai is the best-supported forced choice.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "used to diagnose commercial power outages in real-time to automate troubleshooting (utilities)."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The blind proposal treated diagnosis and automation as conventionally established; the labeler noted that the method is unspecified. Since neither ordinary automation nor AI is established by this brief diagnostic claim, I preserve the non_ai judgment as weak/forced rather than treat absence of an AI mention as proof."
+    }
+  },
+  {
+    "annotation_id": "ann_1aa37c650acab05fb845ce71",
+    "description_sha256": "def783b481096c1ce0a204a69ad99a61b4f6149ccbdd5aa397c2a79f9862c4f0",
+    "source_record_references": [
+      "1090"
+    ],
+    "labeler": {
+      "annotation_id": "ann_1aa37c650acab05fb845ce71",
+      "description_sha256": "def783b481096c1ce0a204a69ad99a61b4f6149ccbdd5aa397c2a79f9862c4f0",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly states that the application testing and monitoring product provides AI-based insights.",
+      "ai_type_rationale": "Testing and monitoring remain meaningful conventional core functions; AI is described as providing insights alongside them.",
+      "evidence_spans": [
+        "HeadSpin enables testing and monitoring of mobile, web, audio/video applications in real-time with AI based insights."
+      ],
+      "ai_type_evidence_spans": [
+        "with AI based insights"
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_1aa37c650acab05fb845ce71",
+      "description_sha256": "def783b481096c1ce0a204a69ad99a61b4f6149ccbdd5aa397c2a79f9862c4f0",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The description expressly identifies AI-based insights as a feature of application testing and monitoring, establishing an AI-positive offering.",
+      "ai_type_rationale": "AI-based insights are described as an enhancement alongside conventional testing and monitoring, but the text does not establish whether those remain the meaningful core without AI; enabled is the best-supported subtype with uncertainty.",
+      "evidence_spans": [
+        "HeadSpin enables testing and monitoring of mobile, web, audio/video applications in real-time with AI based insights."
+      ],
+      "ai_type_evidence_spans": [
+        "AI based insights"
+      ]
+    },
+    "reconciliation": {
+      "annotation_id": "ann_1aa37c650acab05fb845ce71",
+      "description_sha256": "def783b481096c1ce0a204a69ad99a61b4f6149ccbdd5aa397c2a79f9862c4f0",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description expressly says application testing and monitoring is provided with AI-based insights, sufficient for the binary positive.",
+      "ai_type_rationale": "Testing and monitoring are explicitly meaningful functions apart from the added AI-based insights; the text supports AI as an enhancement to conventional functionality rather than a core dependent on AI.",
+      "evidence_spans": [
+        "enables testing and monitoring of mobile, web, audio/video applications in real-time with AI based insights."
+      ],
+      "ai_type_evidence_spans": [
+        "with AI based insights"
+      ],
+      "conflict_response": "Both proposals agree on the binary AI signal. The description directly states testing and monitoring as product functions and presents AI-based insights alongside them, supporting enabled rather than requiring the prior blind subtype uncertainty."
+    },
+    "final": {
+      "annotation_id": "ann_1aa37c650acab05fb845ce71",
+      "description_sha256": "def783b481096c1ce0a204a69ad99a61b4f6149ccbdd5aa397c2a79f9862c4f0",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description expressly says application testing and monitoring is provided with AI-based insights, sufficient for the binary positive.",
+      "ai_type_rationale": "Testing and monitoring are explicitly meaningful functions apart from the added AI-based insights; the text supports AI as an enhancement to conventional functionality rather than a core dependent on AI.",
+      "evidence_spans": [
+        "enables testing and monitoring of mobile, web, audio/video applications in real-time with AI based insights."
+      ],
+      "ai_type_evidence_spans": [
+        "with AI based insights"
+      ],
+      "conflict_response": "Both proposals agree on the binary AI signal. The description directly states testing and monitoring as product functions and presents AI-based insights alongside them, supporting enabled rather than requiring the prior blind subtype uncertainty."
+    }
+  },
+  {
+    "annotation_id": "ann_2b6e051b9aa422427ca3bc62",
+    "description_sha256": "8e242da5bb192fc83e87c2a6b8b51bbb5b7ef11235b79475b441d59ac689c3b8",
+    "source_record_references": [
+      "1087"
+    ],
+    "labeler": {
+      "annotation_id": "ann_2b6e051b9aa422427ca3bc62",
+      "description_sha256": "8e242da5bb192fc83e87c2a6b8b51bbb5b7ef11235b79475b441d59ac689c3b8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes geocoding data for mapping, visualization and filtering of location data, and a Salesforce integration: conventional data-handling functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Tool to help geocode data using Googles geocoding technology to make it available for mapping, offers advanced visualization and filtering capabilities to identify trends and patterns with location data, can integreate with SalesForce"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_2b6e051b9aa422427ca3bc62",
+      "description_sha256": "8e242da5bb192fc83e87c2a6b8b51bbb5b7ef11235b79475b441d59ac689c3b8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes geocoding, mapping, visualization, filtering, and CRM integration for location data, conventional data handling functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Tool to help geocode data using Googles geocoding technology to make it available for mapping, offers advanced visualization and filtering capabilities to identify trends and patterns with location data, can integreate with SalesForce"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_2b6e051b9aa422427ca3bc62",
+      "description_sha256": "8e242da5bb192fc83e87c2a6b8b51bbb5b7ef11235b79475b441d59ac689c3b8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes geocoding data for mapping, visualization and filtering of location data, and a Salesforce integration: conventional data-handling functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Tool to help geocode data using Googles geocoding technology to make it available for mapping, offers advanced visualization and filtering capabilities to identify trends and patterns with location data, can integreate with SalesForce"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_308ca458ebee97ceb4b5025d",
+    "description_sha256": "83a060d19563dfab27e4679d87d089033fef52011f28ceee6971d95505b88e7b",
+    "source_record_references": [
+      "1091"
+    ],
+    "labeler": {
+      "annotation_id": "ann_308ca458ebee97ceb4b5025d",
+      "description_sha256": "83a060d19563dfab27e4679d87d089033fef52011f28ceee6971d95505b88e7b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a message-based operating system that maintains availability and data integrity through redundant process pairs and CPU failover.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "It works with process pairs and ensures that backup processes on redundant CPUs take over in case of a process or CPU failure."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_308ca458ebee97ceb4b5025d",
+      "description_sha256": "83a060d19563dfab27e4679d87d089033fef52011f28ceee6971d95505b88e7b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a fault-tolerant operating system using paired processes and redundant CPUs for failover and transaction/data integrity, conventional reliability mechanisms.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "It works with process pairs and ensures that backup processes on redundant CPUs take over in case of a process or CPU failure. Data integrity is maintained during those takeovers; no transactions or data are lost or corrupted."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_308ca458ebee97ceb4b5025d",
+      "description_sha256": "83a060d19563dfab27e4679d87d089033fef52011f28ceee6971d95505b88e7b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a message-based operating system that maintains availability and data integrity through redundant process pairs and CPU failover.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "It works with process pairs and ensures that backup processes on redundant CPUs take over in case of a process or CPU failure."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_31c1521d89f59f7609c4a607",
+    "description_sha256": "d01c9257847921495b4bcd87a66efae3b97ab1b16378086489348aa9e0ecb221",
+    "source_record_references": [
+      "1102"
+    ],
+    "labeler": {
+      "annotation_id": "ann_31c1521d89f59f7609c4a607",
+      "description_sha256": "d01c9257847921495b4bcd87a66efae3b97ab1b16378086489348aa9e0ecb221",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes infrastructure monitoring with configurable alert thresholds, escalation chains and workflows, which are conventional monitoring and automation functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Customize and automate alert thresholds, escalation chains, workflows, and more."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_31c1521d89f59f7609c4a607",
+      "description_sha256": "d01c9257847921495b4bcd87a66efae3b97ab1b16378086489348aa9e0ecb221",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes infrastructure monitoring and configurable alert thresholds, escalation chains, and workflows, which are conventional monitoring and rule-based automation functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Infrastructure monitoring platform that is cloud-based and fully automated. Customize and automate alert thresholds, escalation chains, workflows, and more."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_31c1521d89f59f7609c4a607",
+      "description_sha256": "d01c9257847921495b4bcd87a66efae3b97ab1b16378086489348aa9e0ecb221",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes infrastructure monitoring with configurable alert thresholds, escalation chains and workflows, which are conventional monitoring and automation functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Customize and automate alert thresholds, escalation chains, workflows, and more."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_40dfee122bdefbbdff006310",
+    "description_sha256": "223820fa41847b96c13a9ec4e0c2b289b4000d707ea00aed80e0b5efca6674ac",
+    "source_record_references": [
+      "1094"
+    ],
+    "labeler": {
+      "annotation_id": "ann_40dfee122bdefbbdff006310",
+      "description_sha256": "223820fa41847b96c13a9ec4e0c2b289b4000d707ea00aed80e0b5efca6674ac",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a Salesforce development tool hosted in an IDE and intended to provide modern Java IDE feature sets, conventional developer tooling.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Illuminated Cloud is a Salesforce development tool hosted within JetBrains IntelliJ IDEA.",
+        "bringing feature sets of modern Java IDEs to Salesforce developers."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_40dfee122bdefbbdff006310",
+      "description_sha256": "223820fa41847b96c13a9ec4e0c2b289b4000d707ea00aed80e0b5efca6674ac",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a Salesforce development tool hosted in an IDE that brings Java IDE feature sets to developers, conventional software-development tooling.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Illuminated Cloud is a Salesforce development tool hosted within JetBrains IntelliJ IDEA. Illuminated Cloud was designed and implemented with the express intent of bringing feature sets of modern Java IDEs to Salesforce developers."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_40dfee122bdefbbdff006310",
+      "description_sha256": "223820fa41847b96c13a9ec4e0c2b289b4000d707ea00aed80e0b5efca6674ac",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description expressly identifies a Salesforce development tool and says it brings modern Java IDE feature sets to developers, establishing conventional developer-tool functionality without assuming any particular feature.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is a Salesforce development tool hosted within JetBrains IntelliJ IDEA.",
+        "bringing feature sets of modern Java IDEs to Salesforce developers."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The source does not enumerate individual IDE operations, so no completion or generation capability is inferred. Nevertheless, calling it a development tool and describing its purpose as bringing IDE feature sets to developers explicitly establishes the conventional category and intended function."
+    },
+    "final": {
+      "annotation_id": "ann_40dfee122bdefbbdff006310",
+      "description_sha256": "223820fa41847b96c13a9ec4e0c2b289b4000d707ea00aed80e0b5efca6674ac",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description expressly identifies a Salesforce development tool and says it brings modern Java IDE feature sets to developers, establishing conventional developer-tool functionality without assuming any particular feature.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is a Salesforce development tool hosted within JetBrains IntelliJ IDEA.",
+        "bringing feature sets of modern Java IDEs to Salesforce developers."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The source does not enumerate individual IDE operations, so no completion or generation capability is inferred. Nevertheless, calling it a development tool and describing its purpose as bringing IDE feature sets to developers explicitly establishes the conventional category and intended function."
+    }
+  },
+  {
+    "annotation_id": "ann_5428e91a9e39667e58f07edb",
+    "description_sha256": "b0c32ce59fc4edde808da0849d4eea8498c71dad2bc1127a07862f5df3fbdfa2",
+    "source_record_references": [
+      "1092"
+    ],
+    "labeler": {
+      "annotation_id": "ann_5428e91a9e39667e58f07edb",
+      "description_sha256": "b0c32ce59fc4edde808da0849d4eea8498c71dad2bc1127a07862f5df3fbdfa2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a virtualized telecom management platform for consolidating management systems and automating operations data sheets.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Virtualized Telecommunication Management Information Platform to consolidate your Management Systems and automate your Operations data sheet"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_5428e91a9e39667e58f07edb",
+      "description_sha256": "b0c32ce59fc4edde808da0849d4eea8498c71dad2bc1127a07862f5df3fbdfa2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes consolidating telecommunications management systems and automating operations data sheets, conventional management and workflow automation.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Virtualized Telecommunication Management Information Platform to consolidate your Management Systems and automate your Operations data sheet"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_5428e91a9e39667e58f07edb",
+      "description_sha256": "b0c32ce59fc4edde808da0849d4eea8498c71dad2bc1127a07862f5df3fbdfa2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a virtualized telecom management platform for consolidating management systems and automating operations data sheets.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Virtualized Telecommunication Management Information Platform to consolidate your Management Systems and automate your Operations data sheet"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_6693831f81bf63170c0e656c",
+    "description_sha256": "0ca7fa78ca518d37acc0eae33c5159a7316c93e9e48745bf1232580a0ca00388",
+    "source_record_references": [
+      "1101"
+    ],
+    "labeler": {
+      "annotation_id": "ann_6693831f81bf63170c0e656c",
+      "description_sha256": "0ca7fa78ca518d37acc0eae33c5159a7316c93e9e48745bf1232580a0ca00388",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes building and running scalable distributed applications using reactive microservices with resilience and efficiency properties, without an AI functionality claim.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Accelerate time-to-value and reduce infrastructure and cloud costs with reactive microservices that take full advantage of the distributed nature of the cloud and are resilient to failure, highly efficient, and operative at any scale."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_6693831f81bf63170c0e656c",
+      "description_sha256": "0ca7fa78ca518d37acc0eae33c5159a7316c93e9e48745bf1232580a0ca00388",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes software building blocks for developing, deploying, and running distributed microservices with resilience and scalability, conventional application infrastructure functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Akka provides the building blocks that make it easy for businesses to build, deploy, and run large-scale applications that support digitally transformative initiatives. \n\nAccelerate time-to-value and reduce infrastructure and cloud costs with reactive microservices that take full advantage of the distributed nature of the cloud and are resilient to failure, highly efficient, and operative at any scale."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_6693831f81bf63170c0e656c",
+      "description_sha256": "0ca7fa78ca518d37acc0eae33c5159a7316c93e9e48745bf1232580a0ca00388",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes building and running scalable distributed applications using reactive microservices with resilience and efficiency properties, without an AI functionality claim.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Accelerate time-to-value and reduce infrastructure and cloud costs with reactive microservices that take full advantage of the distributed nature of the cloud and are resilient to failure, highly efficient, and operative at any scale."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_6de4dcb8f7e3530e60c5e511",
+    "description_sha256": "2d5f42f87a84364ac54b8b8b1e852eb3fb7acdcf82ed1281c2927dd89762d915",
+    "source_record_references": [
+      "1093"
+    ],
+    "labeler": {
+      "annotation_id": "ann_6de4dcb8f7e3530e60c5e511",
+      "description_sha256": "2d5f42f87a84364ac54b8b8b1e852eb3fb7acdcf82ed1281c2927dd89762d915",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "A graphical administration tool for managing IBM MQ across platforms and versions is a conventional administrative software function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "MO71 is a graphical tool which can administer IBM MQ on any platform and for any MQ version"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_6de4dcb8f7e3530e60c5e511",
+      "description_sha256": "2d5f42f87a84364ac54b8b8b1e852eb3fb7acdcf82ed1281c2927dd89762d915",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a graphical administration tool for managing a message-queue product across platforms and versions, conventional system administration.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "MO71 is a graphical tool which can administer IBM MQ on any platform and for any MQ version"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_6de4dcb8f7e3530e60c5e511",
+      "description_sha256": "2d5f42f87a84364ac54b8b8b1e852eb3fb7acdcf82ed1281c2927dd89762d915",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "A graphical administration tool for managing IBM MQ across platforms and versions is a conventional administrative software function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "MO71 is a graphical tool which can administer IBM MQ on any platform and for any MQ version"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_9694473858aeaf3fe7a6d428",
+    "description_sha256": "8597af973945daafbcd5f73ffde787d69a76c761098a379070c71cc081f5d9f0",
+    "source_record_references": [
+      "1089"
+    ],
+    "labeler": {
+      "annotation_id": "ann_9694473858aeaf3fe7a6d428",
+      "description_sha256": "8597af973945daafbcd5f73ffde787d69a76c761098a379070c71cc081f5d9f0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Explicitly identifies conventional load-balancing and application-delivery software functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Software Load Balancer & Application Delivery Controller"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_9694473858aeaf3fe7a6d428",
+      "description_sha256": "8597af973945daafbcd5f73ffde787d69a76c761098a379070c71cc081f5d9f0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Identifies a software load balancer and application delivery controller, conventional networking and traffic-delivery functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "HAProxy Enterprise - Software Load Balancer & Application Delivery Controller"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_9694473858aeaf3fe7a6d428",
+      "description_sha256": "8597af973945daafbcd5f73ffde787d69a76c761098a379070c71cc081f5d9f0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Explicitly identifies conventional load-balancing and application-delivery software functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Software Load Balancer & Application Delivery Controller"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_9accae3d1ea6254c6f4a3c90",
+    "description_sha256": "32b0ed6bb64ed1d5c6e4c88ce6fb70b9a75512974d44ebb529b34f75732e4b19",
+    "source_record_references": [
+      "1104"
+    ],
+    "labeler": {
+      "annotation_id": "ann_9accae3d1ea6254c6f4a3c90",
+      "description_sha256": "32b0ed6bb64ed1d5c6e4c88ce6fb70b9a75512974d44ebb529b34f75732e4b19",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes cloud-migration automation, release orchestration, and integration with CI/CD tools to move applications through deployment stages, conventional DevOps workflow automation.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The software solution supports DevOps initiatives using release automation and orchestration features that allow integration with existing CI/CD tools and accelerate the movement from dev to test, to staging, and then production."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_9accae3d1ea6254c6f4a3c90",
+      "description_sha256": "32b0ed6bb64ed1d5c6e4c88ce6fb70b9a75512974d44ebb529b34f75732e4b19",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes cloud migration and DevOps release automation/orchestration integrated with CI/CD tools, conventional deployment workflow functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The software solution supports DevOps initiatives using release automation and orchestration features that allow integration with existing CI/CD tools and accelerate the movement from dev to test, to staging, and then production."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_9accae3d1ea6254c6f4a3c90",
+      "description_sha256": "32b0ed6bb64ed1d5c6e4c88ce6fb70b9a75512974d44ebb529b34f75732e4b19",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes cloud-migration automation, release orchestration, and integration with CI/CD tools to move applications through deployment stages, conventional DevOps workflow automation.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The software solution supports DevOps initiatives using release automation and orchestration features that allow integration with existing CI/CD tools and accelerate the movement from dev to test, to staging, and then production."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_a74e628756e4e6ab975f0227",
+    "description_sha256": "7968ac1c0204dc812b0c2cec144c8ee35ccfb90b0d93dc0e5b115d486192ba28",
+    "source_record_references": [
+      "1097"
+    ],
+    "labeler": {
+      "annotation_id": "ann_a74e628756e4e6ab975f0227",
+      "description_sha256": "7968ac1c0204dc812b0c2cec144c8ee35ccfb90b0d93dc0e5b115d486192ba28",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes discovering and deploying third-party application updates and prioritizing and remediating vulnerabilities, conventional patch and security-management functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Automate the process of discovering and deploying 3rd party application updates and prioritize and remediate the vulnerabilities that pose the most risk to organization."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_a74e628756e4e6ab975f0227",
+      "description_sha256": "7968ac1c0204dc812b0c2cec144c8ee35ccfb90b0d93dc0e5b115d486192ba28",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes discovering and deploying third-party application updates and prioritizing/remediating vulnerabilities, conventional patch and vulnerability-management operations.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Automate the process of discovering and deploying 3rd party application updates and prioritize and remediate the vulnerabilities that pose the most risk to organization."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_a74e628756e4e6ab975f0227",
+      "description_sha256": "7968ac1c0204dc812b0c2cec144c8ee35ccfb90b0d93dc0e5b115d486192ba28",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Update discovery/deployment and vulnerability remediation are conventional patch-management functions, but the method for ranking vulnerabilities by risk is unspecified and may be AI-dependent. No affirmative AI signal is given, so non_ai is the best-supported forced choice.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "discovering and deploying 3rd party application updates and prioritize and remediate the vulnerabilities that pose the most risk to organization."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The concrete update-management functions support conventional software, but the risk-prioritization method is not stated. I do not invent deterministic rules or treat prioritization as proof of AI; because its applicability is ambiguous, the binary negative remains weak/forced."
+    },
+    "final": {
+      "annotation_id": "ann_a74e628756e4e6ab975f0227",
+      "description_sha256": "7968ac1c0204dc812b0c2cec144c8ee35ccfb90b0d93dc0e5b115d486192ba28",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Update discovery/deployment and vulnerability remediation are conventional patch-management functions, but the method for ranking vulnerabilities by risk is unspecified and may be AI-dependent. No affirmative AI signal is given, so non_ai is the best-supported forced choice.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "discovering and deploying 3rd party application updates and prioritize and remediate the vulnerabilities that pose the most risk to organization."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The concrete update-management functions support conventional software, but the risk-prioritization method is not stated. I do not invent deterministic rules or treat prioritization as proof of AI; because its applicability is ambiguous, the binary negative remains weak/forced."
+    }
+  },
+  {
+    "annotation_id": "ann_c30055627141f42c97e9b03d",
+    "description_sha256": "a9e24e824ac941d76ca84b1b5d97e01e85c5e104e329094576f4353df96f8755",
+    "source_record_references": [
+      "1103"
+    ],
+    "labeler": {
+      "annotation_id": "ann_c30055627141f42c97e9b03d",
+      "description_sha256": "a9e24e824ac941d76ca84b1b5d97e01e85c5e104e329094576f4353df96f8755",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes agentless application, configuration and dependency discovery, plus release automation and orchestration integrated with CI/CD workflows.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Matilda discovery automatically discovers all enterprise applications, the configurations and dependencies on an agentless basis.",
+        "Our software solution supports DevOps initiatives using release automation and orchestration features that allow integration with existing CI/CD tools and accelerate the movement from dev to test, to staging, and then production."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_c30055627141f42c97e9b03d",
+      "description_sha256": "a9e24e824ac941d76ca84b1b5d97e01e85c5e104e329094576f4353df96f8755",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes agentless discovery of enterprise applications, configurations, and dependencies plus release automation and orchestration integrated with CI/CD, conventional IT inventory and deployment workflows.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Matilda discovery automatically discovers all enterprise applications, the configurations and dependencies on an agentless basis. \n\nOur software solution supports DevOps initiatives using release automation and orchestration features that allow integration with existing CI/CD tools and accelerate the movement from dev to test, to staging, and then production."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_c30055627141f42c97e9b03d",
+      "description_sha256": "a9e24e824ac941d76ca84b1b5d97e01e85c5e104e329094576f4353df96f8755",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes agentless application, configuration and dependency discovery, plus release automation and orchestration integrated with CI/CD workflows.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Matilda discovery automatically discovers all enterprise applications, the configurations and dependencies on an agentless basis.",
+        "Our software solution supports DevOps initiatives using release automation and orchestration features that allow integration with existing CI/CD tools and accelerate the movement from dev to test, to staging, and then production."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_d162e3e43e80e79d8c321b3a",
+    "description_sha256": "66a0298cf64b7b373d3ef014191c029a1d31ca97d333c033ed22b5e6801ee6de",
+    "source_record_references": [
+      "1105"
+    ],
+    "labeler": {
+      "annotation_id": "ann_d162e3e43e80e79d8c321b3a",
+      "description_sha256": "66a0298cf64b7b373d3ef014191c029a1d31ca97d333c033ed22b5e6801ee6de",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes secure file transfer over SSH with command-line capabilities for UNIX and Windows, a conventional file-transfer utility.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is a Secure Shell (SSH) file transfer solution with command line capabilities for UNIX and Windows."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_d162e3e43e80e79d8c321b3a",
+      "description_sha256": "66a0298cf64b7b373d3ef014191c029a1d31ca97d333c033ed22b5e6801ee6de",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes secure shell file-transfer software with command-line use on UNIX and Windows, a conventional connectivity and file-transfer utility.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Reflection for Secure Information Technology (IT) is a Secure Shell (SSH) file transfer solution with command line capabilities for UNIX and Windows."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_d162e3e43e80e79d8c321b3a",
+      "description_sha256": "66a0298cf64b7b373d3ef014191c029a1d31ca97d333c033ed22b5e6801ee6de",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes secure file transfer over SSH with command-line capabilities for UNIX and Windows, a conventional file-transfer utility.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is a Secure Shell (SSH) file transfer solution with command line capabilities for UNIX and Windows."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_f5c614f06e93f1b6b5b5c22a",
+    "description_sha256": "c78705dd806085857088ea17de24bf62d61ec91fd039729ccf99c0698d2435f1",
+    "source_record_references": [
+      "1099"
+    ],
+    "labeler": {
+      "annotation_id": "ann_f5c614f06e93f1b6b5b5c22a",
+      "description_sha256": "c78705dd806085857088ea17de24bf62d61ec91fd039729ccf99c0698d2435f1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes an extension for managing and monitoring virtualization environments and backup software, conventional systems-management functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is a comprehensive System Center extension for managing and monitoring VMware vSphere, Microsoft Hyper-V and Veeam Backup & Replication"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_f5c614f06e93f1b6b5b5c22a",
+      "description_sha256": "c78705dd806085857088ea17de24bf62d61ec91fd039729ccf99c0698d2435f1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a systems-management extension for managing and monitoring virtualization platforms and backup software, conventional administration and monitoring functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Veeam Management Pack for Microsoft System Center is a comprehensive System Center extension for managing and monitoring VMware vSphere, Microsoft Hyper-V and Veeam Backup & Replication"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_f5c614f06e93f1b6b5b5c22a",
+      "description_sha256": "c78705dd806085857088ea17de24bf62d61ec91fd039729ccf99c0698d2435f1",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes an extension for managing and monitoring virtualization environments and backup software, conventional systems-management functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is a comprehensive System Center extension for managing and monitoring VMware vSphere, Microsoft Hyper-V and Veeam Backup & Replication"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_fb0f899923137812d30efb49",
+    "description_sha256": "566d91c1f038ba0e2b0fee9d98782992746c66e0e7dc39b20ddf59452df0e9f4",
+    "source_record_references": [
+      "1100"
+    ],
+    "labeler": {
+      "annotation_id": "ann_fb0f899923137812d30efb49",
+      "description_sha256": "566d91c1f038ba0e2b0fee9d98782992746c66e0e7dc39b20ddf59452df0e9f4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes content management, controlling what users see, and organizational collaboration and knowledge sharing: conventional digital-experience and content-management functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A complete set of tools that help you manage content, control what content and functions your users see, and enables everyone in your organization to collaborate and share knowledge more effectively."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_fb0f899923137812d30efb49",
+      "description_sha256": "566d91c1f038ba0e2b0fee9d98782992746c66e0e7dc39b20ddf59452df0e9f4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes tools for creating and managing digital experiences, controlling content and user access, and enabling organizational collaboration and knowledge sharing.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A complete set of tools that help you manage content, control what content and functions your users see, and enables everyone in your organization to collaborate and share knowledge more effectively."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": {
+      "annotation_id": "ann_fb0f899923137812d30efb49",
+      "description_sha256": "566d91c1f038ba0e2b0fee9d98782992746c66e0e7dc39b20ddf59452df0e9f4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text establishes content management, user-facing content/function controls, collaboration, and knowledge sharing, but does not explain whether personalized/tailored experiences rely on conventional controls or potentially AI-dependent selection. No affirmative AI signal appears; non_ai is the best-supported forced judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Create personalized digital experiences at scale with a core set of technologies that allow you to define, standardize, and tailor unique online experiences that connect with your audience.",
+        "A complete set of tools that help you manage content, control what content and functions your users see, and enables everyone in your organization to collaborate and share knowledge more effectively."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The content-management and collaboration functions are explicit, and I do not infer recommendations or segmentation from personalization language. However, the description leaves how tailoring/personalization works unresolved, so the whole negative cannot be treated as supported; retain non_ai weak/forced."
+    },
+    "final": {
+      "annotation_id": "ann_fb0f899923137812d30efb49",
+      "description_sha256": "566d91c1f038ba0e2b0fee9d98782992746c66e0e7dc39b20ddf59452df0e9f4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text establishes content management, user-facing content/function controls, collaboration, and knowledge sharing, but does not explain whether personalized/tailored experiences rely on conventional controls or potentially AI-dependent selection. No affirmative AI signal appears; non_ai is the best-supported forced judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Create personalized digital experiences at scale with a core set of technologies that allow you to define, standardize, and tailor unique online experiences that connect with your audience.",
+        "A complete set of tools that help you manage content, control what content and functions your users see, and enables everyone in your organization to collaborate and share knowledge more effectively."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The content-management and collaboration functions are explicit, and I do not infer recommendations or segmentation from personalization language. However, the description leaves how tailoring/personalization works unresolved, so the whole negative cannot be treated as supported; retain non_ai weak/forced."
+    }
+  },
+  {
+    "annotation_id": "ann_fd3de1d906b21ad9c126c8bf",
+    "description_sha256": "bfedba670041ba83b500ebaf3246d6b7947de5bab6ae277019d3bbf236fc8fcd",
+    "source_record_references": [
+      "1095"
+    ],
+    "labeler": {
+      "annotation_id": "ann_fd3de1d906b21ad9c126c8bf",
+      "description_sha256": "bfedba670041ba83b500ebaf3246d6b7947de5bab6ae277019d3bbf236fc8fcd",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes network performance testing, measurement, active service testing and remote monitoring to provide end-to-end visibility, conventional telecom monitoring functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "With our powerful network testing and measurement software, TEMS Sense, you can implement automated, remote monitoring of service performance from a variety of locations.",
+        "Using comprehensive active service testing capabilities, TEMS Sense provides complete end-to-end service performance visibility so you can avoid potential issues."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_fd3de1d906b21ad9c126c8bf",
+      "description_sha256": "bfedba670041ba83b500ebaf3246d6b7947de5bab6ae277019d3bbf236fc8fcd",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes end-to-end wireless/fixed-line service testing, measurement, and performance monitoring with automated remote monitoring, conventional network operations functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "With our powerful network testing and measurement software, TEMS Sense, you can implement automated, remote monitoring of service performance from a variety of locations. Using comprehensive active service testing capabilities, TEMS Sense provides complete end-to-end service performance visibility so you can avoid potential issues.\n\nTEMS™ Monitor Master 8.4 is a carrier-grade software and hardware solution designed to test and monitor the end-to-end quality and user-experience of wireless and fixed line services."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "reconciliation": null,
+    "final": {
+      "annotation_id": "ann_fd3de1d906b21ad9c126c8bf",
+      "description_sha256": "bfedba670041ba83b500ebaf3246d6b7947de5bab6ae277019d3bbf236fc8fcd",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes network performance testing, measurement, active service testing and remote monitoring to provide end-to-end visibility, conventional telecom monitoring functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "With our powerful network testing and measurement software, TEMS Sense, you can implement automated, remote monitoring of service performance from a variety of locations.",
+        "Using comprehensive active service testing capabilities, TEMS Sense provides complete end-to-end service performance visibility so you can avoid potential issues."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "status": "finalized",
+  "timestamp": "2026-10-20T19:23:03.532662+00:00",
+  "selected_descriptions": 20,
+  "selected_rows": 20,
+  "original_blind_run_id": "35633262-4234-4497-8ff6-514f04cae166",
+  "original_reconciliation_verifier": "e602285f-1898-41ad-84e0-6d209663efa0",
+  "copy_only_aggregate_transport": "c7601641-8beb-45ae-9309-50c12055a45a",
+  "original47_private_hashes_unchanged": true,
+  "parent_all7_source_final_conflict_responses_reviewed": true,
+  "semantic_pass": 1,
+  "repairs": [
+    "Three final checkpoints copied byteexact from wrong paths; originals preserved and actualnativepayloads verified",
+    "Temporary pi-subagents registry lost afterrestart; new copy-only nativeaggregate transport reads completed7 only, no source/semanticwork/writes. Exact all7objectequality proven."
+  ],
+  "binary_weak": 4,
+  "subtype_weak": 0,
+  "trusted_negative_rows": 15,
+  "exports": {
+    "description_labels.json": "5696eee60aaa69c2641736e57a5a1dc6af3f1451f3ee9e13fa25445fe1b7001e",
+    "record_labels.json": "d27cdb06dc611526e508bd37e5437a35e34cd5fc7d67a62cbaddd15d00d3844c",
+    "review_ledger.json": "49246da919207461e69035e02a90082b885be714a86a9e52f287d5140420b47b",
+    "review_queue.json": "d3723ebdc777873418b9b7b350719a5911a68a6d336664e8542d345a7c3c715c",
+    "non_ai_candidates.csv": "0c1a230110cd60937d1409e6b5c9e36a32f1341fa92a2c3529c6ccef1327a992",
+    "calibration_report.json": "3a7b436adc3f152a0d6f3909aa1eceb438480a25ed1a281542398b634a5ef4dc"
+  }
+}

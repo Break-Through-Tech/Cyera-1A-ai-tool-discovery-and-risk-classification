@@ -1,6 +1,6 @@
 {
   "timestamp": "2026-10-20T19:20:50.664401+00:00",
-  "status": "transport_only_pending",
+  "status": "transport_validated",
   "reason": "Original temporary pi-subagents run registry absent after restart; durable native session/writepayloads persist. No completed judgment repeated.",
   "original_verifier": "e602285f-1898-41ad-84e0-6d209663efa0",
   "all7_original_native_payloads_single_write_byte_equal": true,
@@ -14,5 +14,10 @@
     "agents/reconciliation/checkpoints/ann_40dfee122bdefbbdff006310.json": "3c776d8a0eb4d74d0999320d1c640a266c7c740d045ded666545ddd2dd214e28",
     "agents/reconciliation/checkpoints/ann_a74e628756e4e6ab975f0227.json": "6477e53ad73d9ffc72c82ae855456e270ede3a9c54268957fc3d8dbdb21310fc",
     "agents/reconciliation/checkpoints/ann_fb0f899923137812d30efb49.json": "d4d4c8217c2ad3f9d812cdecab0a809150ea76c4f02f01133db70be2605e8678"
-  }
+  },
+  "copy_only_run": "c7601641-8beb-45ae-9309-50c12055a45a",
+  "native_path": "/tmp/pi-subagents-uid-1000/async-subagent-runs/c7601641-8beb-45ae-9309-50c12055a45a/structured-output/pi-subagent-structured-pNqcON/output.json",
+  "native_sha256": "e54d72a8dc5a37af581e301c4d021daa0032128007f202ce058fc27a5fb94589",
+  "all7_exact_native_private_object_equality": true,
+  "all47_original_hashes_unchanged": true
 }

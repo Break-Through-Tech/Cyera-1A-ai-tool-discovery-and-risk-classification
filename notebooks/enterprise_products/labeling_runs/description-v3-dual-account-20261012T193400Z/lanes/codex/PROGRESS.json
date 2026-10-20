@@ -1,11 +1,11 @@
 {
-  "status": "active_recovery",
+  "status": "active",
   "lane": "codex",
-  "updated_at": "2026-10-20T19:21:41.672792+00:00",
-  "new_completed_descriptions": 420,
-  "new_completed_rows": 426,
-  "remaining_lane_descriptions": 191,
-  "remaining_lane_rows": 199,
+  "updated_at": "2026-10-20T19:23:36.821673+00:00",
+  "new_completed_descriptions": 440,
+  "new_completed_rows": 446,
+  "remaining_lane_descriptions": 171,
+  "remaining_lane_rows": 179,
   "finalized_batches": [
     "batch-001",
     "batch-002",
@@ -27,17 +27,16 @@
     "batch-018",
     "batch-019",
     "batch-020",
-    "batch-021"
+    "batch-021",
+    "batch-022"
   ],
-  "current_batch": "batch-022",
-  "next_batch": "batch-023",
-  "current_stage": "completed_record_aggregate_transport",
-  "active_workers": 1,
+  "current_batch": "batch-023",
+  "next_batch": "batch-024",
+  "current_stage": "independent_passes",
+  "active_workers": 2,
   "resume_requires_user_request": false,
   "stop_on_usage_limit": true,
-  "independent_workflow_run_id": "ff3c601b-aec0-453e-88dc-7a29b6a8c4aa",
+  "independent_workflow_run_id": "8654fcf3-0979-40b4-bcb5-f5b4a914c078",
   "blocker": null,
-  "reconciliation_workflow_run_id": "8be35b12-a929-4a40-af1e-5a4581eb2c6a",
-  "git_sync_note": "Herdr native labeling workers idle; previous pi-subagents /tmp run registry absent. No annotation restarted. Preserve current partial outputs; gate before accepting.",
-  "transport_workflow": "e5951618-88d3-44fa-a8a8-a75268a6fa65"
+  "git_sync_note": "Herdr native labeling workers idle; previous pi-subagents /tmp run registry absent. No annotation restarted. Preserve current partial outputs; gate before accepting."
 }
