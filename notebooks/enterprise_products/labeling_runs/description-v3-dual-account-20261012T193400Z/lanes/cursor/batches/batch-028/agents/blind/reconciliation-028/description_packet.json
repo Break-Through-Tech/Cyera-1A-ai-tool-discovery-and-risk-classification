@@ -1,0 +1,443 @@
+[
+  {
+    "annotation_id": "ann_1716d881aba16018f9238551",
+    "description_sha256": "0c8b7551fd3d379ca807f02fc624f8a3a780d0dfe1d2e07c97a092b224cf3c10",
+    "source_record_references": [
+      "1361"
+    ],
+    "description": "Enables conversational chatbot.",
+    "parent_concerns": [
+      "Both independent proposals weak: “conversational chatbot” does not identify AI vs rules; retain uncertainty if unresolved."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_1716d881aba16018f9238551",
+      "description_sha256": "0c8b7551fd3d379ca807f02fc624f8a3a780d0dfe1d2e07c97a092b224cf3c10",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The only statement is that the product enables a conversational chatbot. The text does not establish whether the chatbot is AI-driven or rule-based and makes no AI claim, so this is a forced weak non-AI call, not a supported negative, and it is flagged for review.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Enables conversational chatbot."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_1716d881aba16018f9238551",
+      "description_sha256": "0c8b7551fd3d379ca807f02fc624f8a3a780d0dfe1d2e07c97a092b224cf3c10",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description states only that a conversational chatbot is enabled; chatbot implementation is ambiguous and the text does not establish AI/ML.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Enables conversational chatbot."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_26e0f20c79e86454840e262a",
+    "description_sha256": "5da7ce6a2b1ff059a5fd43eb90b87a949531d22ba31ab1e3187ca41105929f16",
+    "source_record_references": [
+      "1357"
+    ],
+    "description": "Klearcom is a SaaS offering that generates synthetic tests against external facing 1-800 numbers as well as analyzes the IVR call paths, validating performance against a known baseline.  Klearcom tests not only transcribes all calls , comparing all test results against the baseline transcription  but also  performs call quality scoring.    We evaluated and compared Klearcom against 2 additional competitors Voicewatch and Spearline and klearcom came out as the obvious leader.",
+    "parent_concerns": [
+      "Both independent proposals weak: transcription and call-quality scoring mechanism is not specified and may be AI-dependent."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_26e0f20c79e86454840e262a",
+      "description_sha256": "5da7ce6a2b1ff059a5fd43eb90b87a949531d22ba31ab1e3187ca41105929f16",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Synthetic tests against 1-800 numbers, IVR path analysis, and baseline comparison are conventional. However, call transcription and call quality scoring are unexplained and may depend on ML, and the text never states whether AI is used, so a supported negative is not established. The competitor comparison is not functional evidence. Forced weak non-AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "generates synthetic tests against external facing 1-800 numbers",
+        "transcribes all calls",
+        "performs call quality scoring"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_26e0f20c79e86454840e262a",
+      "description_sha256": "5da7ce6a2b1ff059a5fd43eb90b87a949531d22ba31ab1e3187ca41105929f16",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description states synthetic call testing, baseline comparison, transcription, and call-quality scoring, but does not establish whether the potentially AI-dependent transcription or scoring uses AI/ML.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "generates synthetic tests against external facing 1-800 numbers as well as analyzes the IVR call paths, validating performance against a known baseline.",
+        "transcribes all calls , comparing all test results against the baseline transcription  but also  performs call quality scoring."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_4ce677467ded0d91f79a96a4",
+    "description_sha256": "6107a632ba3c7c1307cd9dcf7c2f3f1bab8fa660409711cdcb7ca48637758a66",
+    "source_record_references": [
+      "1352"
+    ],
+    "description": "Downdetector is powered by unbiased, transparent user reports and problem indicators from around the web. Downdetector helps people all over the world understand disruptions to vital services such as the internet, social media, web hosting platforms, banks, games, entertainment, and more. With insight into all the services and platforms that power connectivity, Downdetector empowers consumers and informs enterprises when customers are experiencing issues.\n\nDowndetector is a part of Ookla®, a trusted global leader in connectivity intelligence and network insights. From measuring network performance with Speedtest® to identifying problems with Downdetector®, Ookla empowers consumers across the globe to understand and optimize their internet experience.",
+    "parent_concerns": [
+      "Information/status service relies on user reports and problem indicators; confirm those described activities sufficiently establish conventional software functionality rather than treating an information category alone as support."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_4ce677467ded0d91f79a96a4",
+      "description_sha256": "6107a632ba3c7c1307cd9dcf7c2f3f1bab8fa660409711cdcb7ca48637758a66",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a service that aggregates user reports and problem indicators to show disruptions to online services. This is conventional report aggregation and status display, with no AI or ML mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Downdetector is powered by unbiased, transparent user reports and problem indicators from around the web"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_4ce677467ded0d91f79a96a4",
+      "description_sha256": "6107a632ba3c7c1307cd9dcf7c2f3f1bab8fa660409711cdcb7ca48637758a66",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description explains conventional service-disruption monitoring from user reports and problem indicators, informing consumers and enterprises, without an affirmative AI/ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "powered by unbiased, transparent user reports and problem indicators from around the web.",
+        "helps people all over the world understand disruptions to vital services"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_51c5890e29e243e431edaa73",
+    "description_sha256": "c9fc6367250b9d128c44ddf77b79ac686ecb8a8fe5b0ede099e229e437e5cb7a",
+    "source_record_references": [
+      "1359"
+    ],
+    "description": "An Amdoc Company.  \nReal-time usage control for customers on ATT and T-Mobile networks, used by Tracfone that provides the following:\n1.. Enforces fair usage by throttling network speed when customers reach their data caps\n2. Creates multiple add-ons with varying durations and quota allowances\n3. Enforces real-time fair usage restrictions with notifications\n4. Launches shared data plans\n5. Generates Event Detail Records to provide reporting capabilities\n6. Provides data roaming service passes\n7. Provides data volume / speed tiers",
+    "parent_concerns": [
+      "Weak route: blind questions whether detailed real-time usage control, throttling, quota plans, notifications, and reporting establish a conventional software function; assess text only."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_51c5890e29e243e431edaa73",
+      "description_sha256": "c9fc6367250b9d128c44ddf77b79ac686ecb8a8fe5b0ede099e229e437e5cb7a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes real-time usage control: throttling speed at data caps, add-on quotas, fair-usage notifications, shared plans, Event Detail Record generation, and speed tiers. These are conventional policy and billing enforcement functions with no AI or ML mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Real-time usage control for customers on ATT and T-Mobile networks",
+        "Enforces fair usage by throttling network speed when customers reach their data caps",
+        "Generates Event Detail Records to provide reporting capabilities"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_51c5890e29e243e431edaa73",
+      "description_sha256": "c9fc6367250b9d128c44ddf77b79ac686ecb8a8fe5b0ede099e229e437e5cb7a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text lists real-time network usage controls, throttling, plans, passes, tiers, notifications, and reporting, but does not clearly establish a software offering or an AI/ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Real-time usage control for customers on ATT and T-Mobile networks, used by Tracfone that provides the following:",
+        "Enforces fair usage by throttling network speed when customers reach their data caps"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_636788a7b4aa8c37ec960a1e",
+    "description_sha256": "c20f17ddb48110bb21db0cd6b4d2ec5ea79fa3f33397be414911ff41bd110e9b",
+    "source_record_references": [
+      "1349"
+    ],
+    "description": "ISRs provide a robust set of features that enable cloud computing, mobile connectivity, multimedia performance and secure networking.  They also provide powerful multimedia networking, making above-average secure teleconferences possible and facilitate device virtualization and failover, making them attractive platforms for disaster recovery and business continuity planning.",
+    "parent_concerns": [
+      "Potential nonsoftware hardware product: ISRs are described through networking/teleconference/virtualization/failover capabilities; confirm the text supports treating this network hardware as a conventional software offering under the negative rubric."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_636788a7b4aa8c37ec960a1e",
+      "description_sha256": "c20f17ddb48110bb21db0cd6b4d2ec5ea79fa3f33397be414911ff41bd110e9b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes router features for cloud connectivity, multimedia networking, secure teleconferencing, device virtualization, and failover for disaster recovery. These are conventional networking functions with no AI or ML mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a robust set of features that enable cloud computing, mobile connectivity, multimedia performance and secure networking",
+        "facilitate device virtualization and failover"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_636788a7b4aa8c37ec960a1e",
+      "description_sha256": "c20f17ddb48110bb21db0cd6b4d2ec5ea79fa3f33397be414911ff41bd110e9b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description lists conventional networking, teleconference, virtualization, failover, and disaster-recovery capabilities, without an affirmative AI/ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provide powerful multimedia networking, making above-average secure teleconferences possible and facilitate device virtualization and failover"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_88d17e17b07687ef118e808b",
+    "description_sha256": "4774f42d2e434c4de24484d466ef1f6717487f7d0e7d356dac36eaa5ff44a7ed",
+    "source_record_references": [
+      "1350"
+    ],
+    "description": "Workato Workspace Annually - A collaboration space that allows multiple users to build, share, test and run recipes. \nWorkato recipes are sets of instructions that automate complex workflows. Every recipe can be a REST endpoint that can be called from other recipes or apps.\n\n• Unlimited applications to connect to\n• Unlimited connections to applications \n• Unlimited users in the standard roles (Admin, Analyst, Operator) \n• Workbot for Slack, Teams, FB Workplace \n• Robust security, compliance \n• Includes SAML based SSO \n• Encryption at rest and in motion \n• SOC 2 Type 2 and GDPR compliant",
+    "parent_concerns": [
+      "Weak route: Workato recipe workflow functions are described, but Workbot chatbot purpose/implementation is unexplained; entitlement/assurance bullets are not functional evidence."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_88d17e17b07687ef118e808b",
+      "description_sha256": "4774f42d2e434c4de24484d466ef1f6717487f7d0e7d356dac36eaa5ff44a7ed",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Conventional workflow automation is described: recipes are deterministic instruction sets that can be REST endpoints. However, 'Workbot for Slack, Teams, FB Workplace' is a chatbot-style feature whose function and AI basis are unexplained, so a supported negative is not established. Entitlement items (unlimited users, SSO, SOC 2) are not functional evidence. Forced weak non-AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Workato recipes are sets of instructions that automate complex workflows",
+        "Workbot for Slack, Teams, FB Workplace"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_88d17e17b07687ef118e808b",
+      "description_sha256": "4774f42d2e434c4de24484d466ef1f6717487f7d0e7d356dac36eaa5ff44a7ed",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description states conventional collaboration and workflow automation: users build, share, test, and run recipes that automate workflows, with integrations and administration features, but no affirmative AI/ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "A collaboration space that allows multiple users to build, share, test and run recipes.",
+        "Workato recipes are sets of instructions that automate complex workflows."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_a6a654a81269a1693e6e95de",
+    "description_sha256": "945514fc4b14b860722bca19b21bdb5aa7363114743f1a537a17adda145982f0",
+    "source_record_references": [
+      "1347"
+    ],
+    "description": "Cisco UCS Fabric Interconnects and Fabric Extenders are part of the Unified Fabric solution for data center networks.  This is a next-generation data center platform that unites computing, networking, storage access, and virtualization resources into a cohesive system designed to reduce Total Cost of Ownership (TCO) and increase business agility. The system integrates a low-latency, lossless 10/25/40/100 Gigabit Ethernet unified network fabric with enterprise-class, x86-architecture servers. The system is an integrated, scalable, multichassis platform in which all resources participate in a unified management domain.",
+    "parent_concerns": [
+      "Potential nonsoftware hardware product: UCS fabric interconnects/extenders and data-center platform are described as equipment/infrastructure; ensure conventional functionality is meaningfully described rather than relying only on category/hardware marketing."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_a6a654a81269a1693e6e95de",
+      "description_sha256": "945514fc4b14b860722bca19b21bdb5aa7363114743f1a537a17adda145982f0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes data-center networking and compute hardware: a unified 10/25/40/100 Gigabit Ethernet fabric, x86 servers, and a single management domain. These are conventional networking and infrastructure functions with no AI or ML mention.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "integrates a low-latency, lossless 10/25/40/100 Gigabit Ethernet unified network fabric with enterprise-class, x86-architecture servers"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_a6a654a81269a1693e6e95de",
+      "description_sha256": "945514fc4b14b860722bca19b21bdb5aa7363114743f1a537a17adda145982f0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes a data-center networking and infrastructure platform, including computing, networking, storage access, virtualization, and unified management, but does not meaningfully establish software functionality or an AI/ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a next-generation data center platform that unites computing, networking, storage access, and virtualization resources into a cohesive system"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_d494627d1815b4028f804ea6",
+    "description_sha256": "ed67c18c0b88a1189cc84fb8f8ad82f34ecdde9c85880b522edb4353bdce8d68",
+    "source_record_references": [
+      "1360"
+    ],
+    "description": "Cell coverage data collection from handset and its analytics.",
+    "parent_concerns": [
+      "Both independent proposals weak: only handset cell-coverage data collection and analytics are named; no specific software behavior or method is stated."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_d494627d1815b4028f804ea6",
+      "description_sha256": "ed67c18c0b88a1189cc84fb8f8ad82f34ecdde9c85880b522edb4353bdce8d68",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text only names cell coverage data collection from handsets and 'its analytics'. It describes no software function, method, or AI claim, so this data and category-only text yields a forced weak non-AI call, not a supported negative.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Cell coverage data collection from handset and its analytics."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_d494627d1815b4028f804ea6",
+      "description_sha256": "ed67c18c0b88a1189cc84fb8f8ad82f34ecdde9c85880b522edb4353bdce8d68",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description only states handset cell-coverage data collection and analytics; it does not meaningfully establish a software offering or an AI/ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Cell coverage data collection from handset and its analytics."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_dd8f441298088d1a19fb4660",
+    "description_sha256": "9d0b77c04884b7f19b26c9e28a9ba88f30e81cade566c0412593794aabec0270",
+    "source_record_references": [
+      "1343"
+    ],
+    "description": "Delivered as SaaS, TruExperience securely gathers intelligence about data, application, and voice performance from multiple perspectives across your IT service delivery infrastructure. This intelligence is used to continuously assesses the availability, health, and precise experience of your end users and to generate automations that remediate issues.\n\nGulf Coast DevOps, Inc. (GCDO) Announces Name Change to Truiem™ Inc",
+    "parent_concerns": [
+      "Labeler weak vs blind supported: monitoring/availability and remediation automations are described, but “intelligence” and automated remediation mechanism are underspecified; test if weak is warranted."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_dd8f441298088d1a19fb4660",
+      "description_sha256": "9d0b77c04884b7f19b26c9e28a9ba88f30e81cade566c0412593794aabec0270",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes SaaS monitoring of data, application, and voice performance plus automations that remediate issues, which reads as conventional IT monitoring. However, 'intelligence' gathering and 'automations' are vague and the text never states whether AI or ML is involved, so this is a forced weak non-AI call. The trailing company name-change sentence carries no functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "securely gathers intelligence about data, application, and voice performance",
+        "generate automations that remediate issues"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_dd8f441298088d1a19fb4660",
+      "description_sha256": "9d0b77c04884b7f19b26c9e28a9ba88f30e81cade566c0412593794aabec0270",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description presents conventional IT performance monitoring and automated remediation: it assesses availability, health, and end-user experience and generates automations to remediate issues, without an affirmative AI/ML claim.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "continuously assesses the availability, health, and precise experience of your end users and to generate automations that remediate issues."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_efdcd54ff914abda013c73e0",
+    "description_sha256": "bc0fa7843e6052a91ed71b83cefd26a16ba4a162e3c987831c8a9b0b478b0bac",
+    "source_record_references": [
+      "1345"
+    ],
+    "description": "With Smartsheet Control Center, you can manage the entire lifecycle of your portfolio and all of the projects and processes that are part of it.",
+    "parent_concerns": [
+      "Labeler weak vs blind supported: portfolio/project lifecycle label only, no concrete operation; do not treat product category alone as supported conventional function."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_efdcd54ff914abda013c73e0",
+      "description_sha256": "bc0fa7843e6052a91ed71b83cefd26a16ba4a162e3c987831c8a9b0b478b0bac",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The only statement is that the product manages the lifecycle of a portfolio, projects, and processes. It names no concrete software function and makes no AI claim, so this is a forced weak non-AI call, not a supported negative.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "manage the entire lifecycle of your portfolio and all of the projects and processes that are part of it"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_efdcd54ff914abda013c73e0",
+      "description_sha256": "bc0fa7843e6052a91ed71b83cefd26a16ba4a162e3c987831c8a9b0b478b0bac",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description is conventional portfolio and project lifecycle management for projects and processes, with no affirmative AI/ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "manage the entire lifecycle of your portfolio and all of the projects and processes that are part of it."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  }
+]

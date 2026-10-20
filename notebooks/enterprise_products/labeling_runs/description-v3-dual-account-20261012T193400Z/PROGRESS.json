@@ -1,33 +1,32 @@
 {
   "status": "active",
-  "updated_at": "2026-10-20T20:32:11.891362+00:00",
+  "updated_at": "2026-10-20T20:43:15.246876+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
-  "new_completed_descriptions": 1020,
-  "new_completed_rows": 1053,
-  "cumulative_finalized_descriptions": 1180,
-  "cumulative_finalized_rows": 1227,
-  "remaining_descriptions": 211,
-  "remaining_rows": 211,
+  "new_completed_descriptions": 1060,
+  "new_completed_rows": 1093,
+  "cumulative_finalized_descriptions": 1220,
+  "cumulative_finalized_rows": 1267,
+  "remaining_descriptions": 171,
+  "remaining_rows": 171,
   "annotation_workers_max": 4,
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
   "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
-  "cursor_status": "028existing20cpperroleawaitaggregate/fullgate underSAMEretainedcoordinator6e4186ac, no repeatedprompts.",
-  "codex_status": "027sole6semanticpasscomplete; ONEfinalsourcehash-onlyoverride/nativecopytransportactive.",
-  "codex_active_workers": 1,
+  "cursor_status": "001\u2013024+026\u2013028accepted;025HOLD;029freshp29/p2Aunderf322b85e.",
+  "codex_status": "001\u2013022+024\u2013027accepted;023HOLD;028freshpairactive39d9ec26 ID/hashpairsconstbound.",
+  "codex_active_workers": 2,
   "cursor_live_worker_state": "Coordinator6935f0b4 recovering025originalHaiku8ae/Luna1daf in p21/p22; no completed votes repeated.",
   "active_runs": {
     "cursor_panes": [
-      "wF:p27",
-      "wF:p28"
+      "wF:p29",
+      "wF:p2A"
     ],
-    "cursor_integration_owner": "6e4186ac-589b-40d2-8ee6-838a103cbcc1",
-    "codex_reconciliation_workflow": "e0714dba-c163-4d5f-a2eb-369c44855467",
-    "codex_final_hash_transport_workflow": "52d8e067-4358-4326-bed0-3f5cc38ac51d"
+    "cursor_integration_owner": "f322b85e-3269-46cf-a81d-60de0a234069",
+    "codex_independent_workflow": "39d9ec26-b5cd-4289-b7f8-d393dc21afcc"
   },
   "native_resume_receipt": "runtime/NATIVE_RESUME_AFTER_RESET_20261015.json",
-  "active_workers": 3,
+  "active_workers": 4,
   "blocker": null,
   "git_sync_note": "Herdr native labeling workers idle; previous pi-subagents /tmp run registry absent. No annotation restarted. Preserve current partial outputs; gate before accepting.",
   "semantic_acceptance_holds": {

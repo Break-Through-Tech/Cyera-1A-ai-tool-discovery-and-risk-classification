@@ -1,0 +1,155 @@
+{
+  "batch_id": "batch-028",
+  "status": "both independent results and cumulative native transcript/checkpoint hashes registered before comparison",
+  "plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "observed_banners": {
+    "labeler": "Claude Haiku 5.5 300K High",
+    "blind": "GPT-5.6 Luna 272K High"
+  },
+  "roles": {
+    "labeler": {
+      "original_native_uuid": "fad5a64a-3f41-491c-8153-0085b83d31f3",
+      "model_id": "claude-haiku-5-5-thinking-high",
+      "observed_banner": "Claude Haiku 5.5 300K High",
+      "workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-028/agents/labeler",
+      "result": {
+        "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-028/agents/labeler/result.json",
+        "sha256": "6f994c81378c5acc38aae3841abf8b2a92467957b6ddc2a221538c4439d93e98",
+        "bytes": 17838
+      },
+      "result_shape": {
+        "type": "list",
+        "keys": null,
+        "record_count": 20
+      },
+      "checkpoints": {
+        "ann_1716d881aba16018f9238551.json": "d5ac6e7c76287c6c02827db3176de9cf02c72082bb00f32548d7e1503ed0aa4f",
+        "ann_26e0f20c79e86454840e262a.json": "f09ef308a3ebe3208c3f6892141b492436556889596a180529a23839bc784ad7",
+        "ann_2aca0fcc91fbe2cd83816692.json": "ffface9d9086858ebd1ef7a216530ba79f1ef463811b44d299108200e934013d",
+        "ann_2d2de5c846d463852ab04dee.json": "be13fc533c553ee222d43624adcb9253f416bdc9691a2c74488a53cdb2a7a5cb",
+        "ann_39dc138c395ff6ff945c9202.json": "5f8ce4b6cf10ad354e1b3194a27a7243ecfa8c48a576c9f350db07d47958f18f",
+        "ann_3feedc12400ad80cb07c6862.json": "1655b8b4051340fbe763ab97115ce94f0e0106bebc9808777ac54da47e8edca9",
+        "ann_40165b25d5d044eec242fd32.json": "232e687e75e57d97b7d46576bb7670440a1c12b25716776b3b815fd57eec6865",
+        "ann_4b4917c5a07dfbc910159ef1.json": "e26bd5dddbb27119f7a9c20b25226c31a86d5d2e1e3544385092c762f6f30027",
+        "ann_4ce677467ded0d91f79a96a4.json": "4c5c7e973df7be2fc2c80e066d3aea1d8ee85c884db4d407bc9bc8e9ec838689",
+        "ann_51c5890e29e243e431edaa73.json": "ad91c39c35d4befb1319d8947b3b0a76b7aa3bda46aaaf2cb68690d684d7ff41",
+        "ann_58e0fabac6d38b620df917c8.json": "dee5e772f254dc992efddb8292fc4af6c0d6554810032d389ed969213ba29b31",
+        "ann_636788a7b4aa8c37ec960a1e.json": "4e701b3bf10b23b87e7a9a28fbaa55130410aa93b2c59b61caffeb73e9394637",
+        "ann_74f213ae98a0b7f2bf2387e4.json": "1a33d0dfb9bcdf35560ae967b80b86d0ea02ba2b5f37c3ddf59eb5e2518d02d6",
+        "ann_754bc320e0e152e90a58690a.json": "895069e34510f7707c0c6ed8d16253767a92e8d0b6f136e4a741657a1295f60d",
+        "ann_88d17e17b07687ef118e808b.json": "b1e69e33397f0bea61c428ca7cf62b122fded20f47460db16a8dbf7732361736",
+        "ann_a6a654a81269a1693e6e95de.json": "17b2ed15c2551982b219b6a6e8d2729082d5694f26c7f9287ff40bf0f0fae6c8",
+        "ann_cb8e90aded523de524ade00d.json": "18e95e09b6837d61f950202dace70f27b5c84ed0b2e494a56f08c80e3310a204",
+        "ann_d494627d1815b4028f804ea6.json": "dc2f1d25643eac355c00acf5e117f14ac30ae27e1324e292e02329e928fe4674",
+        "ann_dd8f441298088d1a19fb4660.json": "217dfd68885b5d4ac9c426bfb441c3016ab97857158d4d9a08c8a0252f86ec9e",
+        "ann_efdcd54ff914abda013c73e0.json": "1f4565284932903069a060f076b12c89f63600909c73b239169b4e1779994753"
+      },
+      "checkpoint_count": 20,
+      "cumulative_native_transcript": {
+        "path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/fad5a64a-3f41-491c-8153-0085b83d31f3/fad5a64a-3f41-491c-8153-0085b83d31f3.jsonl",
+        "sha256": "083b116e9db9c8866ff8cfca572f045a673eb8fd8337a6cb13a204d41bc91bda",
+        "bytes": 64796
+      },
+      "cumulative_transcript_copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-028/runtime/cumulative-native-transcripts/labeler-fad5a64a-3f41-491c-8153-0085b83d31f3.jsonl",
+      "preaggregate_transcript_hash": "083b116e9db9c8866ff8cfca572f045a673eb8fd8337a6cb13a204d41bc91bda",
+      "preaggregate_snapshot_checkpoint_hashes": {
+        "ann_1716d881aba16018f9238551.json": "d5ac6e7c76287c6c02827db3176de9cf02c72082bb00f32548d7e1503ed0aa4f",
+        "ann_26e0f20c79e86454840e262a.json": "f09ef308a3ebe3208c3f6892141b492436556889596a180529a23839bc784ad7",
+        "ann_2aca0fcc91fbe2cd83816692.json": "ffface9d9086858ebd1ef7a216530ba79f1ef463811b44d299108200e934013d",
+        "ann_2d2de5c846d463852ab04dee.json": "be13fc533c553ee222d43624adcb9253f416bdc9691a2c74488a53cdb2a7a5cb",
+        "ann_39dc138c395ff6ff945c9202.json": "5f8ce4b6cf10ad354e1b3194a27a7243ecfa8c48a576c9f350db07d47958f18f",
+        "ann_3feedc12400ad80cb07c6862.json": "1655b8b4051340fbe763ab97115ce94f0e0106bebc9808777ac54da47e8edca9",
+        "ann_40165b25d5d044eec242fd32.json": "232e687e75e57d97b7d46576bb7670440a1c12b25716776b3b815fd57eec6865",
+        "ann_4b4917c5a07dfbc910159ef1.json": "e26bd5dddbb27119f7a9c20b25226c31a86d5d2e1e3544385092c762f6f30027",
+        "ann_4ce677467ded0d91f79a96a4.json": "4c5c7e973df7be2fc2c80e066d3aea1d8ee85c884db4d407bc9bc8e9ec838689",
+        "ann_51c5890e29e243e431edaa73.json": "ad91c39c35d4befb1319d8947b3b0a76b7aa3bda46aaaf2cb68690d684d7ff41",
+        "ann_58e0fabac6d38b620df917c8.json": "dee5e772f254dc992efddb8292fc4af6c0d6554810032d389ed969213ba29b31",
+        "ann_636788a7b4aa8c37ec960a1e.json": "4e701b3bf10b23b87e7a9a28fbaa55130410aa93b2c59b61caffeb73e9394637",
+        "ann_74f213ae98a0b7f2bf2387e4.json": "1a33d0dfb9bcdf35560ae967b80b86d0ea02ba2b5f37c3ddf59eb5e2518d02d6",
+        "ann_754bc320e0e152e90a58690a.json": "895069e34510f7707c0c6ed8d16253767a92e8d0b6f136e4a741657a1295f60d",
+        "ann_88d17e17b07687ef118e808b.json": "b1e69e33397f0bea61c428ca7cf62b122fded20f47460db16a8dbf7732361736",
+        "ann_a6a654a81269a1693e6e95de.json": "17b2ed15c2551982b219b6a6e8d2729082d5694f26c7f9287ff40bf0f0fae6c8",
+        "ann_cb8e90aded523de524ade00d.json": "18e95e09b6837d61f950202dace70f27b5c84ed0b2e494a56f08c80e3310a204",
+        "ann_d494627d1815b4028f804ea6.json": "dc2f1d25643eac355c00acf5e117f14ac30ae27e1324e292e02329e928fe4674",
+        "ann_dd8f441298088d1a19fb4660.json": "217dfd68885b5d4ac9c426bfb441c3016ab97857158d4d9a08c8a0252f86ec9e",
+        "ann_efdcd54ff914abda013c73e0.json": "1f4565284932903069a060f076b12c89f63600909c73b239169b4e1779994753"
+      }
+    },
+    "blind": {
+      "original_native_uuid": "dbebfedb-7ef4-470c-8958-f0b0d159bf87",
+      "model_id": "gpt-5.6-luna-high",
+      "observed_banner": "GPT-5.6 Luna 272K High",
+      "workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-028/agents/blind",
+      "result": {
+        "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-028/agents/blind/result.json",
+        "sha256": "6636c829efcf4604640a0f03cc96c00b81613ccc1c06b6b1a42152306b8d2fd1",
+        "bytes": 17519
+      },
+      "result_shape": {
+        "type": "dict",
+        "keys": [
+          "records",
+          "stage"
+        ],
+        "record_count": 20
+      },
+      "checkpoints": {
+        "ann_1716d881aba16018f9238551.json": "7dd033ec55c2f423c3aa9c39330008fc23ac01f64866496f1442f079c7cbab22",
+        "ann_26e0f20c79e86454840e262a.json": "38281c0877abbfb66ebdc54320d2ed95943df0de1ae46ed161abfcafb88c12f4",
+        "ann_2aca0fcc91fbe2cd83816692.json": "c7cfa06797efd578025ee0170bef859522ff481ede1cab0b74d89a0ef418947f",
+        "ann_2d2de5c846d463852ab04dee.json": "cf599d59143d2ef2a6db6e2f7d87f097dd4e98a02eae4146d5928a8952857a67",
+        "ann_39dc138c395ff6ff945c9202.json": "be8eef3b396aa23acca1799e9a5b3a95842a1982fdd0cd0890194d56c564b5c9",
+        "ann_3feedc12400ad80cb07c6862.json": "107e604a3be5a525dd2eb696f71cb11fd2192daa10c52b84233ba294e93414a9",
+        "ann_40165b25d5d044eec242fd32.json": "c3921bb0ccb06d21b098e4ea24caa02c724f1e894bf6b4a2d0070fa667cde694",
+        "ann_4b4917c5a07dfbc910159ef1.json": "770d70d6502d1e7831bbe3329a675adaf119a323ae309e76bcab66398d10c2d0",
+        "ann_4ce677467ded0d91f79a96a4.json": "1b9875729149a3e3c408705fc4c3ac09d02beb8e3d5300f83ba5e3c5d3011b81",
+        "ann_51c5890e29e243e431edaa73.json": "ec4e65c013788ea1d13375dcc6f95fb35769b569c76284c017e182379f077a7e",
+        "ann_58e0fabac6d38b620df917c8.json": "b2c2698d74b7b66fbc696c490165269b2b0b2928f1a43c1866388e8a379ebb6a",
+        "ann_636788a7b4aa8c37ec960a1e.json": "3727c0814dec9bf45a62a6842a2f47e591fb4f51b91cea781cac1617a45d2ee3",
+        "ann_74f213ae98a0b7f2bf2387e4.json": "4e5572faf050c46be6abf3bdc515774687d40288b076262119f96a024a2c5a27",
+        "ann_754bc320e0e152e90a58690a.json": "efd65babd62847b97c5d0ac9b15f0c162a59c120c718051c5a46cf81e36f5372",
+        "ann_88d17e17b07687ef118e808b.json": "85b5211c4bb5217606f5e4e3f81f3d8d9508013d26757057e3247b038e5cb00d",
+        "ann_a6a654a81269a1693e6e95de.json": "854f3d0480be4cc1a8555e07eb5e7eec0b5831e2196862fcd0df50583ee72a3c",
+        "ann_cb8e90aded523de524ade00d.json": "abb33bbc0a39b9e7f500168c555f974b6974683bdbc262d30c03ad8df352bbd9",
+        "ann_d494627d1815b4028f804ea6.json": "4989ec7df4b4fa2d90164d5bf168d9e3fc64e5878ee747df8ca10ae1bd33310d",
+        "ann_dd8f441298088d1a19fb4660.json": "925e835f065878fd09f39b88613c55c8e81fa950356ed20c2ff35a5bc260578b",
+        "ann_efdcd54ff914abda013c73e0.json": "f08c225641bdc84851293d379bf39dc8290f6ca9939271feab526ec471fbc1be"
+      },
+      "checkpoint_count": 20,
+      "cumulative_native_transcript": {
+        "path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/dbebfedb-7ef4-470c-8958-f0b0d159bf87/dbebfedb-7ef4-470c-8958-f0b0d159bf87.jsonl",
+        "sha256": "36360598d9fe633841c1c4432c8955982c83e08a6464527b10324f5da8c5989f",
+        "bytes": 49424
+      },
+      "cumulative_transcript_copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-028/runtime/cumulative-native-transcripts/blind-dbebfedb-7ef4-470c-8958-f0b0d159bf87.jsonl",
+      "preaggregate_transcript_hash": "36360598d9fe633841c1c4432c8955982c83e08a6464527b10324f5da8c5989f",
+      "preaggregate_snapshot_checkpoint_hashes": {
+        "ann_1716d881aba16018f9238551.json": "7dd033ec55c2f423c3aa9c39330008fc23ac01f64866496f1442f079c7cbab22",
+        "ann_26e0f20c79e86454840e262a.json": "38281c0877abbfb66ebdc54320d2ed95943df0de1ae46ed161abfcafb88c12f4",
+        "ann_2aca0fcc91fbe2cd83816692.json": "c7cfa06797efd578025ee0170bef859522ff481ede1cab0b74d89a0ef418947f",
+        "ann_2d2de5c846d463852ab04dee.json": "cf599d59143d2ef2a6db6e2f7d87f097dd4e98a02eae4146d5928a8952857a67",
+        "ann_39dc138c395ff6ff945c9202.json": "be8eef3b396aa23acca1799e9a5b3a95842a1982fdd0cd0890194d56c564b5c9",
+        "ann_3feedc12400ad80cb07c6862.json": "107e604a3be5a525dd2eb696f71cb11fd2192daa10c52b84233ba294e93414a9",
+        "ann_40165b25d5d044eec242fd32.json": "c3921bb0ccb06d21b098e4ea24caa02c724f1e894bf6b4a2d0070fa667cde694",
+        "ann_4b4917c5a07dfbc910159ef1.json": "770d70d6502d1e7831bbe3329a675adaf119a323ae309e76bcab66398d10c2d0",
+        "ann_4ce677467ded0d91f79a96a4.json": "1b9875729149a3e3c408705fc4c3ac09d02beb8e3d5300f83ba5e3c5d3011b81",
+        "ann_51c5890e29e243e431edaa73.json": "ec4e65c013788ea1d13375dcc6f95fb35769b569c76284c017e182379f077a7e",
+        "ann_58e0fabac6d38b620df917c8.json": "b2c2698d74b7b66fbc696c490165269b2b0b2928f1a43c1866388e8a379ebb6a",
+        "ann_636788a7b4aa8c37ec960a1e.json": "3727c0814dec9bf45a62a6842a2f47e591fb4f51b91cea781cac1617a45d2ee3",
+        "ann_74f213ae98a0b7f2bf2387e4.json": "4e5572faf050c46be6abf3bdc515774687d40288b076262119f96a024a2c5a27",
+        "ann_754bc320e0e152e90a58690a.json": "efd65babd62847b97c5d0ac9b15f0c162a59c120c718051c5a46cf81e36f5372",
+        "ann_88d17e17b07687ef118e808b.json": "85b5211c4bb5217606f5e4e3f81f3d8d9508013d26757057e3247b038e5cb00d",
+        "ann_a6a654a81269a1693e6e95de.json": "854f3d0480be4cc1a8555e07eb5e7eec0b5831e2196862fcd0df50583ee72a3c",
+        "ann_cb8e90aded523de524ade00d.json": "abb33bbc0a39b9e7f500168c555f974b6974683bdbc262d30c03ad8df352bbd9",
+        "ann_d494627d1815b4028f804ea6.json": "4989ec7df4b4fa2d90164d5bf168d9e3fc64e5878ee747df8ca10ae1bd33310d",
+        "ann_dd8f441298088d1a19fb4660.json": "925e835f065878fd09f39b88613c55c8e81fa950356ed20c2ff35a5bc260578b",
+        "ann_efdcd54ff914abda013c73e0.json": "f08c225641bdc84851293d379bf39dc8290f6ca9939271feab526ec471fbc1be"
+      }
+    }
+  }
+}

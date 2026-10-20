@@ -1,0 +1,396 @@
+[
+  {
+    "source_record_number": "1332",
+    "product_group_id": "enterprise-2bfdaa90ab33ac0720113ef8a6b1041a193c6bf2cacacc559393318c4fea0ed5",
+    "product_description": "Software that will validate eligibility and enrollment for the Affordable Connectivity Program",
+    "annotation_id": "ann_0e6e310303cac1e061589287",
+    "description_sha256": "5ddf1943eec6c3dbc01ff317d69631fdb7313b0a2e70b67e5609b5996758ef7c",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text names eligibility validation and enrollment, conventional administrative functions, but gives no mechanism; without inferring rules or an AI method, whether validation involves potentially AI-dependent verification is unresolved.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Software that will validate eligibility and enrollment for the Affordable Connectivity Program"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1326",
+    "product_group_id": "enterprise-230aba92fd6700acf61ef74560cbcb1bcd2fe6dff10fcedbaac2bc937f8992c8",
+    "product_description": "These InsightSoftware licenses are for Noetix. Noetix is a program used by both staff and faculty for reporting through Oracle.",
+    "annotation_id": "ann_3828d29c1b272d71d6666ac9",
+    "description_sha256": "8a049864d0d97e3a15991d1e9c9fab97373a54add03a9c044738a9ca3c6f0c53",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description identifies a reporting program used by staff and faculty through Oracle; reporting is conventional business software functionality.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Noetix is a program used by both staff and faculty for reporting through Oracle."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1337",
+    "product_group_id": "enterprise-e9113c071c4601a8352372f2a64cfb1d478d52971f08c46d9f133de9c1a8ce6d",
+    "product_description": "Hamilton® CapTel® for Business, Interconnected by Tenacity™ is available to individuals working in a Cisco® VoIP environment and who experience hearing loss and have difficulty hearing on the phone.  Once implemented, the system will connect the Cisco phones in network to the captioning service. Each site will be recognized in our system so that employees who need captioning service can gain access while using their Cisco phone.",
+    "annotation_id": "ann_4f57d836c8decab1d69c27a0",
+    "description_sha256": "7e679c3d971fa34d5e9b496935766e9e4aaf9a04be198e022b7879fdec066522",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description establishes phone connectivity and access to captioning, a communications accessibility function. It does not say how captions are produced, leaving the captioning mechanism unresolved.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "the system will connect the Cisco phones in network to the captioning service.",
+      "employees who need captioning service can gain access while using their Cisco phone."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1325",
+    "product_group_id": "enterprise-5461ad761aef23d83c99f4d9fa469098cb04950285e5b0da980264a442bc0a28",
+    "product_description": "As part of the shift to an Edge-to-Cloud Platform-as-a-Service organization, Aruba has introduced the Aruba Central Foundation and Advanced Licenses (Aruba Central Licenses). This is a uniform software subscription licensing model that will be extended to all products under the Aruba Central-managed portfolio.\nAccess Points (APs):\nFoundation—This license provides all the features included in the legacy Device Management tokens and some additional features that were available as value-added services for APs and switches in the earlier licensing model.\nAdvanced—This license provides all the features included in the Foundation License, with additional features related to AI Insights and WLAN services.\nReseller: KLR TECHNOLOGY LLC",
+    "annotation_id": "ann_5eb565a5af584de927e647e8",
+    "description_sha256": "d06beb53659efe94cc48cbdae28de252d542613ef39754eeefa8a5ad4cb25e90",
+    "ai_status": "ai",
+    "ai_type": "ai_enabled",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "supported",
+    "ai_type_forced_decision": false,
+    "rationale": "The described license offering explicitly includes Advanced features related to AI Insights, establishing an AI feature in the offering.",
+    "ai_type_rationale": "The text distinguishes Foundation device-management features from additional AI Insights in Advanced, indicating AI is an enhancement to a conventional network-management license offering.",
+    "evidence_spans": [
+      "Advanced—This license provides all the features included in the Foundation License, with additional features related to AI Insights and WLAN services."
+    ],
+    "ai_type_evidence_spans": [
+      "Advanced—This license provides all the features included in the Foundation License, with additional features related to AI Insights and WLAN services."
+    ]
+  },
+  {
+    "source_record_number": "1328",
+    "product_group_id": "enterprise-bc68067ba41983e9a6be6f65e331872705fd2912c92fe2afe947967575d09a2e",
+    "product_description": "Experience the industry’s only free, AI-powered solution to easily load, transform and integrate data\nBring your data to life with Informatica, the proven leader in data integration software. Now you can make better decisions with Cloud Data Integration-Free.",
+    "annotation_id": "ann_7224fe731b02152a615c36fe",
+    "description_sha256": "dfa6422e87e7f62f080f0fbc1aa6e6b294876fc1bb4a083319b4063eccc47e62",
+    "ai_status": "ai",
+    "ai_type": "ai_enabled",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "weak",
+    "ai_type_forced_decision": true,
+    "rationale": "The text explicitly calls the data loading, transformation, and integration offering AI-powered, establishing the binary AI-positive label under the rubric.",
+    "ai_type_rationale": "Data integration is named as the offering, but the text does not establish whether its meaningful core depends on AI or whether conventional integration remains independently functional. AI-enabled is the best tentative subtype, not established by the description.",
+    "evidence_spans": [
+      "AI-powered solution to easily load, transform and integrate data"
+    ],
+    "ai_type_evidence_spans": [
+      "AI-powered solution to easily load, transform and integrate data"
+    ]
+  },
+  {
+    "source_record_number": "1324",
+    "product_group_id": "enterprise-17725eaaf9c7544643e2b9d204a0c2baae80841ebce6348a542e69dbffa3b620",
+    "product_description": "With industry and domain-specific large language models (LLMs), Aisera’s AI Copilot understands and correlates human- and machine-generated data to predict and auto-remediate major incidents, performance issues, and outages across applications, services, and infrastructure before they occur. In doing so, Aisera helps organizations minimize revenue leakage, increase uptime, lower operational overhead, while improving brand reputation.",
+    "annotation_id": "ann_74689493c75eb431f2fac00f",
+    "description_sha256": "4f4ca0787364d9c8fd4a149d144bec927b34e80edd997876f9ec651edc178e5d",
+    "ai_status": "ai",
+    "ai_type": "ai_native",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "supported",
+    "ai_type_forced_decision": false,
+    "rationale": "The description explicitly identifies large language models and says the Copilot uses them to correlate data, predict incidents and auto-remediate them.",
+    "ai_type_rationale": "The offered Copilot's described purpose—LLM-based correlation, prediction and auto-remediation—is centered on AI functionality, supporting AI-native classification.",
+    "evidence_spans": [
+      "With industry and domain-specific large language models (LLMs), Aisera’s AI Copilot understands and correlates human- and machine-generated data to predict and auto-remediate major incidents, performance issues, and outages across applications, services, and infrastructure before they occur."
+    ],
+    "ai_type_evidence_spans": [
+      "With industry and domain-specific large language models (LLMs), Aisera’s AI Copilot understands and correlates human- and machine-generated data to predict and auto-remediate major incidents, performance issues, and outages across applications, services, and infrastructure before they occur."
+    ]
+  },
+  {
+    "source_record_number": "1335",
+    "product_group_id": "enterprise-6da14e03f6050d46dd259bd43bd46fc0a98b0b9f826a062dbe0c9c5d173ef60a",
+    "product_description": "Create, collaborate, publish and print. \nDesign anything with thousands of free templates, photos, fonts, and more. Bring your ideas to life with Canva's drag-and-drop editor. Share designs easily, with a simple click.",
+    "annotation_id": "ann_863d5546cd81f9f15bbd00bd",
+    "description_sha256": "1a5aa97ecb099f2f22a8586aa77601c316c396713bbd6e24ab30fc89700b02ea",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes graphic-design workflows using templates, media, a drag-and-drop editor and sharing; these are conventional design and collaboration functions.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Design anything with thousands of free templates, photos, fonts, and more. Bring your ideas to life with Canva's drag-and-drop editor. Share designs easily, with a simple click."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1331",
+    "product_group_id": "enterprise-39db10b6a960b878cfe43629b4f1712963bcd8b793a4197f1e35d0381a130ccc",
+    "product_description": "Fusion Pro is the simply powerful desktop hypervisor for the modern technology professional looking to use local or remote virtual machines, containers or Kubernetes clusters.   Designed for power users, developers and IT admins.\n\nKey Features:\nWorld-Class Desktop Hypervisor: Run Virtual Machines, Containers and Kubernetes Clusters on both Intel and Apple Silicon Macs\nReady for macOS 13 Ventura for Intel and Apple Silicon Macs\nSupports Windows 11 on both Intel and Apple Silicon\nConnect to vSphere or ESXi and hosts for remote workloads",
+    "annotation_id": "ann_88c2c96fc224ccd350ffacb2",
+    "description_sha256": "1dfa7485a9a00496199d2bac8ac27dc7960f0531e4c06bc9c70a4e5e66062505",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a desktop hypervisor for running virtual machines, containers and Kubernetes clusters and connecting to remote workloads, conventional virtualization and development infrastructure functionality.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Run Virtual Machines, Containers and Kubernetes Clusters on both Intel and Apple Silicon Macs",
+      "Connect to vSphere or ESXi and hosts for remote workloads"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1340",
+    "product_group_id": "enterprise-b110778e87a86c8cebc20819e203b12a283f0c3c3fb3dc49dabdf4f730caf714",
+    "product_description": "Ensure your sensitive data, regardless of underlying technology, has been permanently sanitized from servers, laptops, Chromebooks, desktops and drives with the most certified data erasure software solution on the market.",
+    "annotation_id": "ann_8bd9ac9235aa416fd61df890",
+    "description_sha256": "2a5585ff9c62c910ed1a7da02c1182dd95e23202b8229c97310534d856e5723a",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The software's stated function is permanent sanitization/erasure of data from computers and storage devices, a conventional data-disposal utility.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "permanently sanitized from servers, laptops, Chromebooks, desktops and drives"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1334",
+    "product_group_id": "enterprise-c1ad46a66b60ec4434f995c43993c930e3c6ab61908cee77770b26547c47f0e9",
+    "product_description": "Oracle Communications Converged Application Server is a carrier-class Java EE application server that supports SIP and a number of operational enhancements that allow it to meet the demanding requirements of next-generation Internet Protocol-based communications networks. The Converged Application Server implementation is based on Oracle's widely deployed and time-tested Java EE-compliant WebLogic Server product.",
+    "annotation_id": "ann_95815bb66158d12ea2c8d32e",
+    "description_sha256": "3b5a2adf9f872aa451b6f7d32c683dff4348e3c7ba5c391ec21e77a897693583",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a Java EE application server supporting SIP and operational features for communications networks, conventional application hosting and network communications functionality.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "a carrier-class Java EE application server that supports SIP and a number of operational enhancements that allow it to meet the demanding requirements of next-generation Internet Protocol-based communications networks."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1336",
+    "product_group_id": "enterprise-9062b9a688569818069b18928ae9b1479d075254ff9fb4d3663fa0dc60e3672d",
+    "product_description": "Regardless of statistical background, Minitab empowers all parts of an organization to predict better outcomes, design better products, and improve processes to generate higher revenues and reduce costs. Only Minitab offers a unique, integrated approach by providing software and services that drive business excellence from anywhere with the cloud.\n\nKey statistical tests include t tests, one and two proportions, normality test, chi-square, and equivalence tests.",
+    "annotation_id": "ann_99ad579743997beb30580270",
+    "description_sha256": "d5d3f5e1fb17be6972715404173a17c3f32ab9513377340c1dafbcd3cf0aef34",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description names conventional statistical tests, but also promises better prediction without specifying its method. No AI is asserted; the relationship of that predictive promise to the named statistical functions is unclear.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "predict better outcomes",
+      "Key statistical tests include t tests, one and two proportions, normality test, chi-square, and equivalence tests."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1342",
+    "product_group_id": "enterprise-c9bb751d62429a431e8b8f176af1cb0d19c0d4b112aa15f757c3d3ac92258e58",
+    "product_description": "A content management system is a software application that allows you to create and deliver digital content. A CMS lets you easily edit your digital experiences and then publish those experiences out to the web and other digital channels",
+    "annotation_id": "ann_9a8fadd25af31d62f3be357c",
+    "description_sha256": "61eb92a416d90683d00e3250d0d1dc4b9d7c9b9c55f7e956214a2020f346f72a",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description defines a CMS for creating, editing and publishing digital content across web and other channels, conventional content management functionality.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "A CMS lets you easily edit your digital experiences and then publish those experiences out to the web and other digital channels"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1333",
+    "product_group_id": "enterprise-5c2e0dc364ba471a350f5400edcb186046e801794256b0052060f17e76a27e8f",
+    "product_description": "F-Response is a software platform that allows incident response analysts to perform remote acquisition of evidence over a network. One advantage to utilizing F-Response is that it does not require direct access via SSH or RDS to the remote system.\n\nF-Response is an easy to use, vendor neutral, patented software utility that gives you the ability to access and collect:\n\nPhysical Disks\nLogical Volumes\nPhysical Memory (RAM)\nCloud Servers\nNetwork Shares and Network Attached Storage\nCloud Storage\nAnd more...\nIf your analysis software reads a harddrive or network share, it will work with F-Response.",
+    "annotation_id": "ann_9d31560e5638bc1c198f7b42",
+    "description_sha256": "b0de9080c22a25605517166527f32021e229d7d75e47ae1efb4a307c1b67cffc",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes remote acquisition and collection of digital evidence from disks, memory, servers, shares and storage over a network, conventional forensic access functionality.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "allows incident response analysts to perform remote acquisition of evidence over a network.",
+      "gives you the ability to access and collect:\n\nPhysical Disks\nLogical Volumes\nPhysical Memory (RAM)\nCloud Servers\nNetwork Shares and Network Attached Storage\nCloud Storage"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1327",
+    "product_group_id": "enterprise-9b07087b5e42f1ef0292c55e5e0d578d6bd98e39295cbbfba63e1c234fc57db5",
+    "product_description": "DevExtreme is a component suite for creating highly responsive web applications for touch devices and traditional desktops. The suite includes 50+ UI components ready to use with jQuery, Angular, AngularJS, Knockout, ASP.NET MVC or ASP.NET Core: data grid, interactive charts, data editors, navigation and multi-purpose widgets designed to look and behave harmoniously in any browser.",
+    "annotation_id": "ann_aa040b42968593a7b7c27a00",
+    "description_sha256": "3a56bd622d1dd38f0c205a1a4da992728c1420f010cedbc5beb27bc2553f0d9b",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a suite of UI components such as grids, charts, editors and navigation widgets for building web applications, conventional software development components.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "The suite includes 50+ UI components ready to use with jQuery, Angular, AngularJS, Knockout, ASP.NET MVC or ASP.NET Core: data grid, interactive charts, data editors, navigation and multi-purpose widgets"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1339",
+    "product_group_id": "enterprise-bef0e8dca6d11b36133ce6a38bf1d9a2cc80fe80b36ec17bd3a324363473102c",
+    "product_description": "The TIBCO Cloud™ Integration enterprise integration platform-as-a-service (iPaaS) accelerates the integration process. Using any integration style, it provides self-service integration capabilities that empowers anyone to quickly and easily connect information assets no matter where they are.",
+    "annotation_id": "ann_c690caf8361f5a3318772ea2",
+    "description_sha256": "7690f64f371616b4054f81e7451eb5f9a2509b9624534db796d17f230e7028ca",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes an integration platform providing self-service ways to connect information assets across integration styles, conventional system integration functionality.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Using any integration style, it provides self-service integration capabilities that empowers anyone to quickly and easily connect information assets no matter where they are."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1329",
+    "product_group_id": "enterprise-0f1bdf3fb4c6b3740158234ad8680cb30afff05d88a853b1cfd4cb479f0bd7a2",
+    "product_description": "Citrix ADC VPX, formerly Citrix NetScaler ADC VPX, provides a complete web and application load balancing, secure and remote access, acceleration, security, and offload feature set in a simple, easy-to-install virtual appliance.",
+    "annotation_id": "ann_cf601ecf2ebed344953e8605",
+    "description_sha256": "a709e775ea17f67eb9bf4236e3e9ae46ab66d8e280c40df9138497e0092e562b",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The product is described as a virtual appliance for load balancing, remote access, acceleration, security and offload, conventional network/application delivery functions.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "provides a complete web and application load balancing, secure and remote access, acceleration, security, and offload feature set in a simple, easy-to-install virtual appliance."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1341",
+    "product_group_id": "enterprise-67035e0020848d64d462f44f14cc82d31fe2292e0f08c609d7c440a6a67a1826",
+    "product_description": "LogRocket combines session replay, product analytics, and error tracking – empowering software teams to create the ideal product experience. Using LogRocket, Software teams can fix user-reported issues faster, de-noise their error alerts, and see the \"why\" behind their product analytics graphs and funnels.",
+    "annotation_id": "ann_d998680ada62dfe617a09816",
+    "description_sha256": "dceb13303dc43bf6c3368a02dea5e202bb76f925bafc53f54c1f6710dc3bfa31",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Session replay, product analytics, and error tracking are explicitly described conventional functions. The text also claims alert de-noising and insight into analytics without explaining those methods, leaving potential AI dependence unresolved.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "combines session replay, product analytics, and error tracking",
+      "de-noise their error alerts, and see the \"why\" behind their product analytics graphs and funnels"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1322",
+    "product_group_id": "enterprise-52d16bd54ec0a85cde715bfad0a57404c44cd8a4134742f9ce17f4f2f1052934",
+    "product_description": "Copado provides a complete DevOps process, from planning and development to testing and deployment, all within a single platform. This feature streamlines the entire development process, enabling you to deliver high-quality applications faster.\n\nDevOps Platform for SalesForce.",
+    "annotation_id": "ann_dd0c9774a3adc2161a7d4eae",
+    "description_sha256": "87c0acca7ecddf7408fc6d2b8ec4ae374ced9aba639f90d449f51c6c38547559",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a DevOps process covering planning, development, testing and deployment in one platform, conventional application lifecycle management and delivery functions.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Copado provides a complete DevOps process, from planning and development to testing and deployment, all within a single platform."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1323",
+    "product_group_id": "enterprise-5cc27eb5c5f8a32e4ad14af0f66e0d695d4da468157d408f607e716e50a02cee",
+    "product_description": "Annual Maintenance Renewal - 9/28/2023 9/28/2024\n1.\tKiwi Syslog Server - Single Install\n2.\tSolarWinds IP Address Manager IPX(unlimited IPs)-\n3.\tSolarWinds Network Performance Monitor SLX (unlimited elements-Standard Polling Throughput)\n4.\tSolarWinds Database Performance Analyzer for virtualized environments for SQL Server, MySQL, Oracle SE, or PostgreSQL Instance (1 to 4 licenses)\n5.\tSolarWinds Serv-U Managed File Transfer Server Per Seat License (1 server)\n6.\tSolarWinds Network Topology Mapper-SolarWinds Additional Polling Engine for SolarWinds Unlimited Licenses (Standard Polling Throughput)\n7.\tSolarWinds High Availability  -Annual\n8.\tSolarWinds Server & Application Monitor ALX (unlimited monitors-Standard Polling Throughput)",
+    "annotation_id": "ann_ed62b431edd46db1690df9ee",
+    "description_sha256": "532bea72e40f2010764ff9575a5cf1cc7f1b9e7de0c3f2338c8291a8f2804f17",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Although framed as an annual maintenance renewal, the text explicitly lists software components and their conventional functions, including network/database performance monitoring, file transfer, topology mapping, and server/application monitoring.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "SolarWinds Network Performance Monitor SLX (unlimited elements-Standard Polling Throughput)",
+      "SolarWinds Serv-U Managed File Transfer Server Per Seat License (1 server)",
+      "SolarWinds Server & Application Monitor ALX (unlimited monitors-Standard Polling Throughput)"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1338",
+    "product_group_id": "enterprise-1d200f252c23747b49cf0ee397f13f05c842e2db2d92dc00f9b2abc9d21acb40",
+    "product_description": "This commercial app gives your team greatly increased visibility, monitoring, and reporting functionality around Cisco Unified Communications (aka CUCM / CallManager), whether you're a small organization with a hundred phones or one of the largest companies in the world. Builded by Sideview LLC. CDR (Call Detail Records)",
+    "annotation_id": "ann_ed7f9d22f10db733c0b08378",
+    "description_sha256": "fab4b5c67c25bc1b19698731e8a15a7941be17fcbd18fa9093cee5f58af5e974",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes monitoring and reporting functionality around a unified communications system, specifically call detail records; these are conventional communications administration and reporting tasks.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "visibility, monitoring, and reporting functionality around Cisco Unified Communications (aka CUCM / CallManager)",
+      "CDR (Call Detail Records)"
+    ],
+    "ai_type_evidence_spans": null
+  }
+]

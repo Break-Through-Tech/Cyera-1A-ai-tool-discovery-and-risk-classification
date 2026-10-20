@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_51c5890e29e243e431edaa73",
+  "description_sha256": "c9fc6367250b9d128c44ddf77b79ac686ecb8a8fe5b0ede099e229e437e5cb7a",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description specifies deterministic usage-control and reporting operations: throttling at data caps, creating quota add-ons, enforcing restrictions with notifications, launching plans, generating event records, and providing tiers. These are conventional functions with no affirmative AI/ML signal.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "Real-time usage control for customers on ATT and T-Mobile networks, used by Tracfone that provides the following:",
+    "Enforces fair usage by throttling network speed when customers reach their data caps",
+    "Generates Event Detail Records to provide reporting capabilities"
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The service framing does not leave this at a category or entitlement label: the description gives concrete control and reporting behavior, including throttling, quota management, notifications, and event-record generation. That sufficiently establishes conventional functionality, so the final negative is supported despite the blind proposal's weaker route."
+}

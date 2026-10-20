@@ -1,0 +1,68 @@
+{
+  "batch_id": "batch-028",
+  "status": "preaggregate reconciliation snapshot only; same original Luna actively editing, no result aggregate at snapshot time",
+  "original_native_uuid": "dbebfedb-7ef4-470c-8958-f0b0d159bf87",
+  "model_id": "gpt-5.6-luna-high",
+  "banner": "GPT-5.6 Luna 272K High",
+  "workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-028/agents/blind/reconciliation-028",
+  "checkpoint_count": 10,
+  "checkpoint_hashes": {
+    "ann_1716d881aba16018f9238551.json": {
+      "sha256": "2587aa56c8401d40f0beb8b298b3cb5f8f6774a0275a6b0605d664ee13f18e82",
+      "bytes": 954,
+      "snapshot": "runtime/preaggregate-reconciliation-snapshot/checkpoints/ann_1716d881aba16018f9238551.json"
+    },
+    "ann_26e0f20c79e86454840e262a.json": {
+      "sha256": "1f8de6f93d81a029010519b6c6209672863bdabca41dc65d4b222631b59f7e6f",
+      "bytes": 1292,
+      "snapshot": "runtime/preaggregate-reconciliation-snapshot/checkpoints/ann_26e0f20c79e86454840e262a.json"
+    },
+    "ann_4ce677467ded0d91f79a96a4.json": {
+      "sha256": "5f59bf92c43bcbd91fcc38621194b74422d72d0f21c85c2765351a7ec40764f4",
+      "bytes": 1078,
+      "snapshot": "runtime/preaggregate-reconciliation-snapshot/checkpoints/ann_4ce677467ded0d91f79a96a4.json"
+    },
+    "ann_51c5890e29e243e431edaa73.json": {
+      "sha256": "d6187125a29591b24f4005846683b2da21edf1e8ade3822f96037bcf05625a86",
+      "bytes": 1406,
+      "snapshot": "runtime/preaggregate-reconciliation-snapshot/checkpoints/ann_51c5890e29e243e431edaa73.json"
+    },
+    "ann_636788a7b4aa8c37ec960a1e.json": {
+      "sha256": "1246f1bc780f210b7d111b54dd33df575726a9f4964ec4e34ca014e63a24aaec",
+      "bytes": 1189,
+      "snapshot": "runtime/preaggregate-reconciliation-snapshot/checkpoints/ann_636788a7b4aa8c37ec960a1e.json"
+    },
+    "ann_88d17e17b07687ef118e808b.json": {
+      "sha256": "e83c3129b734a2cc3d7162493b99cd1766ea303b1becd8696568ca2f38665f8b",
+      "bytes": 1157,
+      "snapshot": "runtime/preaggregate-reconciliation-snapshot/checkpoints/ann_88d17e17b07687ef118e808b.json"
+    },
+    "ann_a6a654a81269a1693e6e95de.json": {
+      "sha256": "8bf51b73de0f98a444013254f14b7758589007b333b9d9656b8aa0ed65ca870e",
+      "bytes": 1147,
+      "snapshot": "runtime/preaggregate-reconciliation-snapshot/checkpoints/ann_a6a654a81269a1693e6e95de.json"
+    },
+    "ann_d494627d1815b4028f804ea6.json": {
+      "sha256": "1cb0a35870d9d388532b02a6330852001bb2c44f3ad3b71afae2b09cdade0b7c",
+      "bytes": 931,
+      "snapshot": "runtime/preaggregate-reconciliation-snapshot/checkpoints/ann_d494627d1815b4028f804ea6.json"
+    },
+    "ann_dd8f441298088d1a19fb4660.json": {
+      "sha256": "63da8b4660378c574e22d44bc3c2bd43af527f9eb8bfda041bb2643a8a66f358",
+      "bytes": 1248,
+      "snapshot": "runtime/preaggregate-reconciliation-snapshot/checkpoints/ann_dd8f441298088d1a19fb4660.json"
+    },
+    "ann_efdcd54ff914abda013c73e0.json": {
+      "sha256": "540b4fa0d239df3dc07e5ebf80d893e4957c739bfcace70b01353b219ca89021",
+      "bytes": 1028,
+      "snapshot": "runtime/preaggregate-reconciliation-snapshot/checkpoints/ann_efdcd54ff914abda013c73e0.json"
+    }
+  },
+  "cumulative_transcript": {
+    "source": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/dbebfedb-7ef4-470c-8958-f0b0d159bf87/dbebfedb-7ef4-470c-8958-f0b0d159bf87.jsonl",
+    "snapshot": "runtime/preaggregate-reconciliation-snapshot/blind-cumulative-dbebfedb-7ef4-470c-8958-f0b0d159bf87.jsonl",
+    "sha256": "9720452cf0b24b674c554c4cbdbbfdd5a3e925909d65c54771218da8f3724450",
+    "bytes": 72922
+  },
+  "aggregate_absent": true
+}

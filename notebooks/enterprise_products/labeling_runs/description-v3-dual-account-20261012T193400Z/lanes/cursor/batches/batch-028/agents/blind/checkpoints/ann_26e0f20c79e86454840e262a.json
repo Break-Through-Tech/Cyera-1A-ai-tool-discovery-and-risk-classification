@@ -1,0 +1,17 @@
+{
+  "annotation_id": "ann_26e0f20c79e86454840e262a",
+  "description_sha256": "5da7ce6a2b1ff059a5fd43eb90b87a949531d22ba31ab1e3187ca41105929f16",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description states synthetic call testing, baseline comparison, transcription, and call-quality scoring, but does not establish whether the potentially AI-dependent transcription or scoring uses AI/ML.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "generates synthetic tests against external facing 1-800 numbers as well as analyzes the IVR call paths, validating performance against a known baseline.",
+    "transcribes all calls , comparing all test results against the baseline transcription  but also  performs call quality scoring."
+  ],
+  "ai_type_evidence_spans": null
+}

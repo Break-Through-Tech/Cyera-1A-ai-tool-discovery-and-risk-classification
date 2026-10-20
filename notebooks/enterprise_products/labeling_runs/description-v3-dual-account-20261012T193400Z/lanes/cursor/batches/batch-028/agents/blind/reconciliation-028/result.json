@@ -1,0 +1,182 @@
+{
+  "stage": "reconciliation-028",
+  "records": [
+    {
+      "annotation_id": "ann_1716d881aba16018f9238551",
+      "description_sha256": "0c8b7551fd3d379ca807f02fc624f8a3a780d0dfe1d2e07c97a092b224cf3c10",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description only states that a conversational chatbot is enabled. It does not establish whether the chatbot is AI-driven or rule-based, so the non-AI judgment remains forced and weak rather than supported.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Enables conversational chatbot."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Both proposals preserve the same unresolved ambiguity, and the parent concern is material: “conversational chatbot” alone does not establish AI or conventional rule-based implementation. The final judgment therefore remains weak and forced non-AI."
+    },
+    {
+      "annotation_id": "ann_26e0f20c79e86454840e262a",
+      "description_sha256": "5da7ce6a2b1ff059a5fd43eb90b87a949531d22ba31ab1e3187ca41105929f16",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description clearly states synthetic IVR testing and baseline comparison, but its transcription and call-quality scoring mechanisms are unspecified and could be AI-dependent. The text does not establish AI, so the non-AI judgment remains forced and weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "generates synthetic tests against external facing 1-800 numbers as well as analyzes the IVR call paths, validating performance against a known baseline.",
+        "transcribes all calls , comparing all test results against the baseline transcription  but also  performs call quality scoring."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Both proposals and the parent concern identify the same unresolved issue: the description names transcription and scoring but gives no implementation method. Those functions cannot be treated as either AI or definitively conventional, so the final non-AI call remains weak and forced."
+    },
+    {
+      "annotation_id": "ann_4ce677467ded0d91f79a96a4",
+      "description_sha256": "6107a632ba3c7c1307cd9dcf7c2f3f1bab8fa660409711cdcb7ca48637758a66",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description states conventional report-and-indicator aggregation and disruption identification that informs consumers and enterprises, without an affirmative AI/ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "powered by unbiased, transparent user reports and problem indicators from around the web.",
+        "identifying problems with Downdetector®"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The text describes more than an information category: it identifies the inputs (user reports and problem indicators) and the activity (identifying disruptions/problems and informing users). Those are sufficiently concrete conventional information-service functions for a supported non-AI judgment."
+    },
+    {
+      "annotation_id": "ann_51c5890e29e243e431edaa73",
+      "description_sha256": "c9fc6367250b9d128c44ddf77b79ac686ecb8a8fe5b0ede099e229e437e5cb7a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies deterministic usage-control and reporting operations: throttling at data caps, creating quota add-ons, enforcing restrictions with notifications, launching plans, generating event records, and providing tiers. These are conventional functions with no affirmative AI/ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Real-time usage control for customers on ATT and T-Mobile networks, used by Tracfone that provides the following:",
+        "Enforces fair usage by throttling network speed when customers reach their data caps",
+        "Generates Event Detail Records to provide reporting capabilities"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The service framing does not leave this at a category or entitlement label: the description gives concrete control and reporting behavior, including throttling, quota management, notifications, and event-record generation. That sufficiently establishes conventional functionality, so the final negative is supported despite the blind proposal's weaker route."
+    },
+    {
+      "annotation_id": "ann_636788a7b4aa8c37ec960a1e",
+      "description_sha256": "c20f17ddb48110bb21db0cd6b4d2ec5ea79fa3f33397be414911ff41bd110e9b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text lists networking, teleconference, virtualization, and failover capabilities, but describes an infrastructure/platform product without clearly establishing conventional software functionality or an AI/ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "ISRs provide a robust set of features that enable cloud computing, mobile connectivity, multimedia performance and secure networking.",
+        "facilitate device virtualization and failover"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The parent concern is material because the description presents infrastructure capabilities rather than clearly identified software behavior. Unlike a supported software negative, this text does not resolve whether the described functionality is software or hardware, so the final non-AI judgment remains weak and forced."
+    },
+    {
+      "annotation_id": "ann_88d17e17b07687ef118e808b",
+      "description_sha256": "4774f42d2e434c4de24484d466ef1f6717487f7d0e7d356dac36eaa5ff44a7ed",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The recipes are explicitly described as instruction-based workflow automation, but the included Workbot feature is unexplained and could involve an ambiguous chatbot-style function. The text does not establish AI, so the non-AI judgment remains weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Workato recipes are sets of instructions that automate complex workflows.",
+        "Workbot for Slack, Teams, FB Workplace"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The recipe description supports conventional workflow automation, but it does not explain what Workbot does or whether it is AI-based. Because that unresolved included feature is potentially AI-dependent and the entitlement/assurance bullets are not functional evidence, the final negative remains weak and forced."
+    },
+    {
+      "annotation_id": "ann_a6a654a81269a1693e6e95de",
+      "description_sha256": "945514fc4b14b860722bca19b21bdb5aa7363114743f1a537a17adda145982f0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes data-center networking equipment and infrastructure resources, including a unified Ethernet fabric, servers, virtualization, and management, but does not meaningfully establish conventional software functionality or an AI/ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a next-generation data center platform that unites computing, networking, storage access, and virtualization resources into a cohesive system"
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler treated the infrastructure capabilities as sufficient conventional functionality, but the parent concern correctly identifies that the description is equipment/platform-oriented and does not establish software behavior. The final non-AI judgment therefore remains weak and forced."
+    },
+    {
+      "annotation_id": "ann_d494627d1815b4028f804ea6",
+      "description_sha256": "ed67c18c0b88a1189cc84fb8f8ad82f34ecdde9c85880b522edb4353bdce8d68",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description only names handset cell-coverage data collection and analytics. It does not state a specific software function, method, or AI/ML signal, so the negative remains forced and weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Cell coverage data collection from handset and its analytics."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "Both proposals and the parent concern agree that this is data- and category-level text rather than a described software behavior. Agreement does not strengthen it; the final non-AI judgment remains weak and forced."
+    },
+    {
+      "annotation_id": "ann_dd8f441298088d1a19fb4660",
+      "description_sha256": "9d0b77c04884b7f19b26c9e28a9ba88f30e81cade566c0412593794aabec0270",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description meaningfully states SaaS performance monitoring and automated remediation: it assesses availability, health, and end-user experience and generates automations to remediate issues. These are conventional functions, with no affirmative AI/ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "securely gathers intelligence about data, application, and voice performance",
+        "continuously assesses the availability, health, and precise experience of your end users and to generate automations that remediate issues."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The labeler's concern about vague “intelligence” and automation wording does not outweigh the explicit monitoring targets and remediation behavior. The description identifies concrete SaaS functions, and routine automation is not AI by itself, so the supported non-AI judgment is retained."
+    },
+    {
+      "annotation_id": "ann_efdcd54ff914abda013c73e0",
+      "description_sha256": "bc0fa7843e6052a91ed71b83cefd26a16ba4a162e3c987831c8a9b0b478b0bac",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description only says the product manages the lifecycle of a portfolio, projects, and processes. It gives no concrete software operation or AI/ML signal, so the negative remains forced and weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "manage the entire lifecycle of your portfolio and all of the projects and processes that are part of it."
+      ],
+      "ai_type_evidence_spans": null,
+      "conflict_response": "The parent concern is material: “manage the entire lifecycle” is a broad category-level statement and does not identify a concrete operation such as planning, tracking, or reporting. The labeler's supported negative is therefore downgraded to weak and forced."
+    }
+  ]
+}

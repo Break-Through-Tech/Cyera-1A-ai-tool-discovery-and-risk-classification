@@ -1,0 +1,154 @@
+{
+  "batch_id": "batch-028",
+  "records_reviewed": 10,
+  "all_actual_original_source_finalresponses_reviewed": true,
+  "all_parent_concerns_resolved_from_supplied_text_only": true,
+  "outside_evidence_used": false,
+  "independent_pass_records_modified": false,
+  "records": [
+    {
+      "annotation_id": "ann_1716d881aba16018f9238551",
+      "description_sha256": "0c8b7551fd3d379ca807f02fc624f8a3a780d0dfe1d2e07c97a092b224cf3c10",
+      "source_record_references": [
+        "1361"
+      ],
+      "original_description_and_conflict_response_reviewed": true,
+      "integrator_review_note": "Only \u201cconversational chatbot\u201d is stated; AI vs rule-based remains unresolved, so weak/forced is appropriate.",
+      "verifier_final_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true
+    },
+    {
+      "annotation_id": "ann_26e0f20c79e86454840e262a",
+      "description_sha256": "5da7ce6a2b1ff059a5fd43eb90b87a949531d22ba31ab1e3187ca41105929f16",
+      "source_record_references": [
+        "1357"
+      ],
+      "original_description_and_conflict_response_reviewed": true,
+      "integrator_review_note": "Synthetic IVR tests and baseline comparison are conventional, but transcription/scoring methods remain unexplained and potentially AI-dependent; weak retained.",
+      "verifier_final_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true
+    },
+    {
+      "annotation_id": "ann_4ce677467ded0d91f79a96a4",
+      "description_sha256": "6107a632ba3c7c1307cd9dcf7c2f3f1bab8fa660409711cdcb7ca48637758a66",
+      "source_record_references": [
+        "1352"
+      ],
+      "original_description_and_conflict_response_reviewed": true,
+      "integrator_review_note": "User-report/problem-indicator inputs and disruption identification/informing users are explicit conventional information-service functions; supported negative rationale is grounded in text.",
+      "verifier_final_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false
+    },
+    {
+      "annotation_id": "ann_51c5890e29e243e431edaa73",
+      "description_sha256": "c9fc6367250b9d128c44ddf77b79ac686ecb8a8fe5b0ede099e229e437e5cb7a",
+      "source_record_references": [
+        "1359"
+      ],
+      "original_description_and_conflict_response_reviewed": true,
+      "integrator_review_note": "Detailed real-time control behavior (throttling, quotas, notifications, event records, tiers) establishes conventional functionality; supported negative retained.",
+      "verifier_final_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false
+    },
+    {
+      "annotation_id": "ann_636788a7b4aa8c37ec960a1e",
+      "description_sha256": "c20f17ddb48110bb21db0cd6b4d2ec5ea79fa3f33397be414911ff41bd110e9b",
+      "source_record_references": [
+        "1349"
+      ],
+      "original_description_and_conflict_response_reviewed": true,
+      "integrator_review_note": "Infrastructure/router capability description does not establish software behavior; non-AI stays weak/forced.",
+      "verifier_final_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true
+    },
+    {
+      "annotation_id": "ann_88d17e17b07687ef118e808b",
+      "description_sha256": "4774f42d2e434c4de24484d466ef1f6717487f7d0e7d356dac36eaa5ff44a7ed",
+      "source_record_references": [
+        "1350"
+      ],
+      "original_description_and_conflict_response_reviewed": true,
+      "integrator_review_note": "Instruction-based recipes are conventional, but included Workbot function/AI basis is unexplained; weak retained.",
+      "verifier_final_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true
+    },
+    {
+      "annotation_id": "ann_a6a654a81269a1693e6e95de",
+      "description_sha256": "945514fc4b14b860722bca19b21bdb5aa7363114743f1a537a17adda145982f0",
+      "source_record_references": [
+        "1347"
+      ],
+      "original_description_and_conflict_response_reviewed": true,
+      "integrator_review_note": "Cisco UCS text is equipment/platform-oriented with no sufficiently described software operation; weak retained.",
+      "verifier_final_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true
+    },
+    {
+      "annotation_id": "ann_d494627d1815b4028f804ea6",
+      "description_sha256": "ed67c18c0b88a1189cc84fb8f8ad82f34ecdde9c85880b522edb4353bdce8d68",
+      "source_record_references": [
+        "1360"
+      ],
+      "original_description_and_conflict_response_reviewed": true,
+      "integrator_review_note": "Only handset coverage-data collection/analytics category is given; no specific software behavior; weak retained.",
+      "verifier_final_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true
+    },
+    {
+      "annotation_id": "ann_dd8f441298088d1a19fb4660",
+      "description_sha256": "9d0b77c04884b7f19b26c9e28a9ba88f30e81cade566c0412593794aabec0270",
+      "source_record_references": [
+        "1343"
+      ],
+      "original_description_and_conflict_response_reviewed": true,
+      "integrator_review_note": "Text states performance monitoring, specific health/availability/experience assessment, and automated remediation; routine automation is not AI alone; supported negative retained.",
+      "verifier_final_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false
+    },
+    {
+      "annotation_id": "ann_efdcd54ff914abda013c73e0",
+      "description_sha256": "bc0fa7843e6052a91ed71b83cefd26a16ba4a162e3c987831c8a9b0b478b0bac",
+      "source_record_references": [
+        "1345"
+      ],
+      "original_description_and_conflict_response_reviewed": true,
+      "integrator_review_note": "Portfolio/project/process lifecycle category does not say what concrete operations the software performs; weak retained.",
+      "verifier_final_output_unchanged": true,
+      "final_ai_status": "non_ai",
+      "final_ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true
+    }
+  ],
+  "evidence_strength_counts": {
+    "weak": 7,
+    "supported": 3
+  }
+}

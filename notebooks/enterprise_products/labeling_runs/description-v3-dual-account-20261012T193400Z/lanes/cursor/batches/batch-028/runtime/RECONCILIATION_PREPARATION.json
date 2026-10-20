@@ -1,0 +1,47 @@
+{
+  "batch_id": "batch-028",
+  "selected_ids": [
+    "ann_1716d881aba16018f9238551",
+    "ann_26e0f20c79e86454840e262a",
+    "ann_4ce677467ded0d91f79a96a4",
+    "ann_51c5890e29e243e431edaa73",
+    "ann_636788a7b4aa8c37ec960a1e",
+    "ann_88d17e17b07687ef118e808b",
+    "ann_a6a654a81269a1693e6e95de",
+    "ann_d494627d1815b4028f804ea6",
+    "ann_dd8f441298088d1a19fb4660",
+    "ann_efdcd54ff914abda013c73e0"
+  ],
+  "original_blind_uuid": "dbebfedb-7ef4-470c-8958-f0b0d159bf87",
+  "exact_model": "gpt-5.6-luna-high",
+  "workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-028/agents/blind/reconciliation-028",
+  "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+  "schema_sha256": "40653718d1338cda456d4a1e2ec551c37f1a0718eeb9513b29acbe104b29b128",
+  "description_packet_sha256": "395303d2d01916929fb1016d1354f8641b603e26311b2ca7a0012081c5afef99",
+  "description_count": 10,
+  "helper_required_route_count": 8,
+  "additional_concrete_support_concern_count": 3,
+  "checkpoints_empty": true,
+  "result_absent": true,
+  "helper_stage_receipt": {
+    "stage": "reconciliation",
+    "run_id": "batch-028",
+    "batch_id": "batch-028",
+    "rubric_id": "enterprise-description-only-v3",
+    "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+    "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+    "model_id": "gpt-5.6-luna-high",
+    "assigned_annotation_ids": [
+      "ann_1716d881aba16018f9238551",
+      "ann_26e0f20c79e86454840e262a",
+      "ann_4ce677467ded0d91f79a96a4",
+      "ann_51c5890e29e243e431edaa73",
+      "ann_636788a7b4aa8c37ec960a1e",
+      "ann_88d17e17b07687ef118e808b",
+      "ann_a6a654a81269a1693e6e95de",
+      "ann_d494627d1815b4028f804ea6",
+      "ann_dd8f441298088d1a19fb4660",
+      "ann_efdcd54ff914abda013c73e0"
+    ]
+  }
+}

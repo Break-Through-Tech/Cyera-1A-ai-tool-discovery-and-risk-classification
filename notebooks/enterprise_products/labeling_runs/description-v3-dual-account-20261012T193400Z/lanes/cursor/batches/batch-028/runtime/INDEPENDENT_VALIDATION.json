@@ -1,0 +1,53 @@
+{
+  "batch_id": "batch-028",
+  "status": "independent gate passed before comparison",
+  "exact_plan_preparation_receipt": "PREPARATION_RECEIPT.json",
+  "selected_descriptions": 20,
+  "selected_source_references": 20,
+  "plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "roles": {
+    "labeler": {
+      "original_native_uuid": "fad5a64a-3f41-491c-8153-0085b83d31f3",
+      "explicit_model_id": "claude-haiku-5-5-thinking-high",
+      "banner": "Claude Haiku 5.5 300K High",
+      "private_workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-028/agents/labeler",
+      "result_sha256": "6f994c81378c5acc38aae3841abf8b2a92467957b6ddc2a221538c4439d93e98",
+      "checkpoint_count": 20,
+      "cumulative_native_transcript_snapshot_sha256": "083b116e9db9c8866ff8cfca572f045a673eb8fd8337a6cb13a204d41bc91bda",
+      "preaggregate_checkpoint_snapshot_exact_match": true,
+      "helper_coverage_schema_hash_quotes_provenance": "PASS",
+      "private_checkpoint_equals_aggregate": "PASS",
+      "native_write_payloads_equals_current_files": "PASS",
+      "single_write_count": 21
+    },
+    "blind": {
+      "original_native_uuid": "dbebfedb-7ef4-470c-8958-f0b0d159bf87",
+      "explicit_model_id": "gpt-5.6-luna-high",
+      "banner": "GPT-5.6 Luna 272K High",
+      "private_workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-028/agents/blind",
+      "result_sha256": "6636c829efcf4604640a0f03cc96c00b81613ccc1c06b6b1a42152306b8d2fd1",
+      "checkpoint_count": 20,
+      "cumulative_native_transcript_snapshot_sha256": "36360598d9fe633841c1c4432c8955982c83e08a6464527b10324f5da8c5989f",
+      "preaggregate_checkpoint_snapshot_exact_match": true,
+      "helper_coverage_schema_hash_quotes_provenance": "PASS",
+      "private_checkpoint_equals_aggregate": "PASS",
+      "native_write_payloads_equals_current_files": "PASS",
+      "single_write_count": 21
+    }
+  },
+  "preaggregate_raw_snapshot": "runtime/pre-aggregate-independent-snapshot/RECEIPT.json",
+  "native_write_payload_registration": "runtime/NATIVE_WRITE_PAYLOAD_REGISTRATION.json",
+  "independent_hash_registration": "runtime/INDEPENDENT_RESULT_REGISTRATION.json",
+  "both_results_complete_nonempty": true,
+  "all40_checkpoint_hashes_registered_and_unchanged_from_preaggregate_snapshot": true,
+  "pair_review_file": "runtime/PAIR_REVIEW.json",
+  "all20_original_text_and_both_proposals_reviewed": true,
+  "helper_required_routes": 8,
+  "additional_material_support_concerns": 3,
+  "total_routes": 10,
+  "reconciliation_preparation_file": "runtime/RECONCILIATION_PREPARATION.json",
+  "same_original_luna_uuid": "dbebfedb-7ef4-470c-8958-f0b0d159bf87",
+  "one_reconciliation_prompt_submitted": true,
+  "semantic_comparison_done_after_independent_gate": true
+}

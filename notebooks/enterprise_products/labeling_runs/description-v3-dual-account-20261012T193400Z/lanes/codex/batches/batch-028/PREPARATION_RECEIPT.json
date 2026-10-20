@@ -1,0 +1,15 @@
+{
+  "status": "prepared_not_launched",
+  "description_count": 20,
+  "source_row_count": 20,
+  "exact_plan_hash_all_source_refs": true,
+  "packet_sha256": "91a3fdbf74040ded1e10b0806730adca34415e0a386f7db46e2610d542cb4e32",
+  "launch_script_sha256": "ed9ad5c7a32aef608ba5933e1e223cf1aaa983f9cb25c258c2aa68c9bd5bc9e9",
+  "models": {
+    "labeler": "openai-codex/gpt-6-luna:high",
+    "blind": "openai-codex/gpt-6-luna:high"
+  },
+  "fresh_private_cwd_per_role": true,
+  "output_schema_exact_id_hash_pairs_bound": true,
+  "binding_reason": "Repeatedhashtranscriptionerrors: sourceprovenancevaluesconst-boundinnativehandoffschema. Basefrozenrubric/helper/inputsunmodified; no semanticconstraintsadded."
+}

@@ -1,0 +1,91 @@
+{
+  "batch_id": "batch-028",
+  "status": "locally finalized; pending parent gate",
+  "plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "preparation_receipt": "runtime/PREPARATION_RECEIPT.json",
+  "selected_descriptions": 20,
+  "selected_source_references": 20,
+  "exact_plan_hashes_and_all_refs": true,
+  "independent_native_sessions": {
+    "labeler": {
+      "uuid": "fad5a64a-3f41-491c-8153-0085b83d31f3",
+      "model": "claude-haiku-5-5-thinking-high",
+      "banner": "Claude Haiku 5.5 300K High",
+      "workspace": "agents/labeler"
+    },
+    "blind_and_reconciliation": {
+      "uuid": "dbebfedb-7ef4-470c-8958-f0b0d159bf87",
+      "model": "gpt-5.6-luna-high",
+      "banner": "GPT-5.6 Luna 272K High",
+      "workspace": "agents/blind",
+      "reconciliation_prompts": 1
+    }
+  },
+  "independent_result_registration": "runtime/INDEPENDENT_RESULT_REGISTRATION.json",
+  "native_write_payload_registration": "runtime/NATIVE_WRITE_PAYLOAD_REGISTRATION.json",
+  "independent_validation": "runtime/INDEPENDENT_VALIDATION.json",
+  "pair_review": "runtime/PAIR_REVIEW.json",
+  "all20_pairs_and_rationales_inspected": true,
+  "helper_required_routes": 8,
+  "additional_material_support_routes": 2,
+  "parent_route_count": 10,
+  "reconciliation_registration": "runtime/RECONCILIATION_RESULT_REGISTRATION.json",
+  "reconciliation_semantic_review": "runtime/RECONCILIATION_SEMANTIC_REVIEW.json",
+  "all10_actual_source_final_responses_reviewed": true,
+  "helper_gates": "exact coverage/schema/hash/source quotes/provenance/private checkpoint-result equality passed for each stage",
+  "all40_independent_hashes_unchanged": true,
+  "preaggregate_snapshot_hashes_match_all40_independent_files": true,
+  "preaggregate_reconciliation_snapshot_matches_10_checkpoints": true,
+  "actual_native_write_payloads_byte_equal_private_files": true,
+  "semantic_labels_changed_by_integrator": false,
+  "exports": {
+    "count": 6,
+    "sha256": {
+      "description_labels.json": "00c4e100857c4f5d9fa630b10dde47ae92d203fb86d31c3ec5bd106b856f6ba8",
+      "record_labels.json": "d28e4d999d092e031de6691cdd3f534d39478015de96dcac1ec75811a746fc9a",
+      "review_ledger.json": "7b49193bc97f22b301856d7eaa1636ed3fa58f53051379a48c138cd44311945e",
+      "review_queue.json": "3385ae0c995366f6d3f653551d66708e361f721d73cb154db70d82ff72961b7a",
+      "non_ai_candidates.csv": "c321cef7537108d079b53cdf58ccb9d2ae42fff19c8ab1c4223f2e12f77d74fb",
+      "calibration_report.json": "4b01c6a011099d71b7eff4575be3c30f7c36f34b405e9cdd3b7e4253907c41f3"
+    }
+  },
+  "metrics": {
+    "source_input_records": 1494,
+    "cleaner_excluded_records": 56,
+    "retained_source_records": 1438,
+    "selected_descriptions": 20,
+    "selected_records": 20,
+    "remaining_distinct_descriptions": 1371,
+    "remaining_source_records": 1418,
+    "coverage_claim": "selected calibration only; not full dataset coverage",
+    "binary_counts": {
+      "non_ai": 18,
+      "ai": 2
+    },
+    "subtype_counts": {
+      "null": 18,
+      "ai_native": 2
+    },
+    "binary_weak_count": 7,
+    "binary_forced_count": 7,
+    "subtype_weak_count": 0,
+    "subtype_forced_count": 0,
+    "trusted_negative_records": 11,
+    "reconciliation_count": 10,
+    "required_reconciliation_count": 8,
+    "parent_reconciliation_count": 10,
+    "independent_binary_or_subtype_differences": 0,
+    "duplicate_records_within_selected_descriptions": 0,
+    "within_group_different_descriptions": 0
+  },
+  "tests": {
+    "command": "cd notebooks/enterprise_products && python3 -m unittest -q test_clean test_label_v3 test_eda",
+    "passed": 36
+  },
+  "parent_gate": "pending",
+  "accepted_cursor_counts_unchanged": {
+    "descriptions": 520,
+    "rows": 539
+  }
+}

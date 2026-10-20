@@ -1,0 +1,27 @@
+{
+  "status": "finalized",
+  "timestamp": "2026-10-20T20:40:05.317878+00:00",
+  "selected_descriptions": 20,
+  "selected_rows": 20,
+  "original_blind_run_id": "32e85b4c-e48f-471b-8d15-b15b4ce018eb",
+  "original_semantic_verifier": "cdc6c8bf-e68a-4abd-9a08-27ae23fe6a2d",
+  "structural_only_transport": "25686d26-7b0b-49db-9e45-714c0944c013",
+  "all40_independent_and_all6_final_original_hashes_unchanged": true,
+  "parent_all6_source_final_conflict_responses_reviewed": true,
+  "semantic_pass": 1,
+  "repairs": [
+    "Independentlabeler native-onlyLF/TABtranscription corrected toexistingvalidprivate20; originalsunchanged",
+    "ONEfinalsourcehash-onlynewacceptedoverride; all6originals+nativebadaggregatepreserved, sameverifiercopy-onlynativecompletion"
+  ],
+  "binary_weak_descriptions": 4,
+  "subtype_weak_descriptions": 1,
+  "trusted_negative_rows": 13,
+  "exports": {
+    "description_labels.json": "99ef2effaece7ac52eff0b66386c77ef87e6989151b2e5f86770a1209c34b019",
+    "record_labels.json": "83fc584e3156165e35fb39d8143e11e6801b06b1eaf1033f6558dd3b7470e95f",
+    "review_ledger.json": "552e932efe235dfbe456456443d4bccf75608099f7e57954307e2bd2b14e292e",
+    "review_queue.json": "0bf59c13cdc48d0129610aa066b9c31660432ca09e39b12ef1a28ae2085b8a1b",
+    "non_ai_candidates.csv": "75e8c8d184b74aa17c96dfb65d8ba3912fff0b1f790c0ef0a218ef296a0c7b40",
+    "calibration_report.json": "edd67d642abd37718e8ba6828abd9adde5d1893c0b520424876dd472a90432a9"
+  }
+}
