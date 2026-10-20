@@ -1,0 +1,17 @@
+{
+  "annotation_id": "ann_ccd9712059768bef40cb304d",
+  "description_sha256": "cfe979058e8e536812d76146f757748b1e1af2497fcb4f869506a126e3e3244b",
+  "ai_status": "non_ai",
+  "ai_type": null,
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": null,
+  "ai_type_forced_decision": null,
+  "rationale": "The description names a hosted SMS-texting solution, which suggests conventional messaging, but gives only a category-level phrase and no concrete functionality or AI signal; the forced non-AI decision is weak.",
+  "ai_type_rationale": null,
+  "evidence_spans": [
+    "HOSTED SOLUTION FOR SMS TEXTING"
+  ],
+  "ai_type_evidence_spans": null,
+  "conflict_response": "The labeler treated the named SMS solution as enough for a weak conventional negative, while the blind proposal treated it as supported conventional functionality. Because the phrase supplies no functional detail beyond the category, the parent concern is material; the final non-AI judgment remains weak and forced."
+}

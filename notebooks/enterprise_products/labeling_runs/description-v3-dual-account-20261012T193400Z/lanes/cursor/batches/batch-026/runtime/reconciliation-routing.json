@@ -1,0 +1,36 @@
+{
+  "batch_id": "batch-026",
+  "stage": "reconciliation",
+  "assigned_annotation_ids": [
+    "ann_00aeab29d76e1ff80565ea8f",
+    "ann_00beb09703270fdee73e7350",
+    "ann_09920777c31dd62ea144c629",
+    "ann_84595b40839258a83bb552a8",
+    "ann_85a0f89caa19a0ddbad0bbfc",
+    "ann_92444a6a0e69ddcb5958ae31",
+    "ann_b3f00b050e5baa3e7ccd175b",
+    "ann_ccd9712059768bef40cb304d",
+    "ann_f53ea46a1ffde80ae98d4e37",
+    "ann_f54445bc56c90edea53e4e77"
+  ],
+  "helper_required_ids": [
+    "ann_00aeab29d76e1ff80565ea8f",
+    "ann_00beb09703270fdee73e7350",
+    "ann_09920777c31dd62ea144c629",
+    "ann_84595b40839258a83bb552a8",
+    "ann_92444a6a0e69ddcb5958ae31",
+    "ann_b3f00b050e5baa3e7ccd175b",
+    "ann_ccd9712059768bef40cb304d",
+    "ann_f53ea46a1ffde80ae98d4e37",
+    "ann_f54445bc56c90edea53e4e77"
+  ],
+  "additional_integration_support_concern_ids": [
+    "ann_85a0f89caa19a0ddbad0bbfc"
+  ],
+  "route_count": 10,
+  "model_id": "gpt-5.6-luna-high",
+  "original_blind_uuid": "135f9977-493b-46a3-90cb-8b073dfe62ea",
+  "workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/agents/blind/reconciliation-026",
+  "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+  "note": "All helper-required weak/disagreement IDs plus one additional support concern; one original blind Luna semantic pass only."
+}

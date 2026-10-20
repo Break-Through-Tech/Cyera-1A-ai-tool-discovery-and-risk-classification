@@ -1,0 +1,386 @@
+[
+  {
+    "annotation_id": "ann_00aeab29d76e1ff80565ea8f",
+    "description_sha256": "4c7bec0b6355f4bca09570fe61b04cc69871758c820be59c6feaad4ea308077f",
+    "description": "Nuance Conversational IVR resolves inbound telephone queries through natural, human‑like interactions that encourage self‑service and increase customer satisfaction.",
+    "labeler_proposal": {
+      "annotation_id": "ann_00aeab29d76e1ff80565ea8f",
+      "description_sha256": "4c7bec0b6355f4bca09570fe61b04cc69871758c820be59c6feaad4ea308077f",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "No explicit AI or learned-model wording; the only AI-adjacent signal is the conversational framing of resolving queries through natural, human-like interactions. Forced toward AI because a conversational IVR with unexplained natural-interaction capability cannot support a non-AI negative, but the text does not establish the implementation.",
+      "ai_type_rationale": "The conversational interaction is the described core of the IVR offering, so the subtype is forced to AI-native; the text does not state whether that conversational capability depends on AI.",
+      "evidence_spans": [
+        "Nuance Conversational IVR resolves inbound telephone queries through natural, human‑like interactions"
+      ],
+      "ai_type_evidence_spans": [
+        "Nuance Conversational IVR resolves inbound telephone queries through natural, human‑like interactions"
+      ]
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_00aeab29d76e1ff80565ea8f",
+      "description_sha256": "4c7bec0b6355f4bca09570fe61b04cc69871758c820be59c6feaad4ea308077f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes a conversational IVR resolving inbound telephone queries, but its human-like interaction wording could be AI-dependent without establishing AI; the forced non-AI decision is therefore weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Conversational IVR resolves inbound telephone queries"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Disagreement: conversational IVR and natural/human-like query resolution may depend on AI, but no AI or implementation is explicit. Keep best label weak/forced; subtype separately unresolved."
+  },
+  {
+    "annotation_id": "ann_00beb09703270fdee73e7350",
+    "description_sha256": "e559bbbaf5f4b401b317c66c234050ae4f54c7f4d61d2756607e2cc48c068743",
+    "description": "Informatica Data Privacy Management helps you discover, classify, analyze, protect and monitor personal and sensitive data across your organization.",
+    "labeler_proposal": {
+      "annotation_id": "ann_00beb09703270fdee73e7350",
+      "description_sha256": "e559bbbaf5f4b401b317c66c234050ae4f54c7f4d61d2756607e2cc48c068743",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes discovering, classifying, analyzing, protecting and monitoring personal and sensitive data. No AI is mentioned, but classify and analyze do not establish whether they are rule-based or learned, so the non-AI negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "helps you discover, classify, analyze, protect and monitor personal and sensitive data across your organization"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_00beb09703270fdee73e7350",
+      "description_sha256": "e559bbbaf5f4b401b317c66c234050ae4f54c7f4d61d2756607e2cc48c068743",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies conventional data privacy functions to discover, classify, analyze, protect, and monitor personal and sensitive data, without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "discover, classify, analyze, protect and monitor personal and sensitive data"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Disagreement/support concern: discover/classify/analyze/protect/monitor privacy functions are described, but classification/analysis method is absent. Resolve possible AI ambiguity without assuming implementation; preserve uncertainty if unresolved."
+  },
+  {
+    "annotation_id": "ann_09920777c31dd62ea144c629",
+    "description_sha256": "7da2f435d2e4e45b99b53d774c452385bfd4bb4c04282df17406563efbf454b8",
+    "description": "Contentsquare Find & Fix optimizes operational efficiency while averting dramatic revenue loss, providing an unprecedented end-to end solution to deliver seamless digital experiences. Let it enable your business and technical teams to spot issues and speed problems impacting customer experience",
+    "labeler_proposal": {
+      "annotation_id": "ann_09920777c31dd62ea144c629",
+      "description_sha256": "7da2f435d2e4e45b99b53d774c452385bfd4bb4c04282df17406563efbf454b8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Marketing-level text says the product helps teams spot issues and speed problems affecting customer experience, but does not describe the mechanism or any AI signal. The conventional-software negative is forced; the text is too vague to support it.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Contentsquare Find & Fix optimizes operational efficiency while averting dramatic revenue loss",
+        "spot issues and speed problems impacting customer experience"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_09920777c31dd62ea144c629",
+      "description_sha256": "7da2f435d2e4e45b99b53d774c452385bfd4bb4c04282df17406563efbf454b8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description says the solution enables teams to spot issues and speed problems affecting customer experience, but it gives no specific implementation or AI signal; this forced non-AI decision is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "enable your business and technical teams to spot issues and speed problems impacting customer experience"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Weak agreement: marketing outcomes and issue-spotting claim lack a described mechanism or enough functionality; retain weak forced non_ai."
+  },
+  {
+    "annotation_id": "ann_84595b40839258a83bb552a8",
+    "description_sha256": "c1f43d46b66efee362bb4528468159fbaab75b2126b2aa9bc27a681ef7691206",
+    "description": "Google Premium Support which includes a dedicated Technical Account Manager.",
+    "labeler_proposal": {
+      "annotation_id": "ann_84595b40839258a83bb552a8",
+      "description_sha256": "c1f43d46b66efee362bb4528468159fbaab75b2126b2aa9bc27a681ef7691206",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a support service with a dedicated Technical Account Manager, not software functionality. No AI signal is present, so the non-AI label is forced and weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Google Premium Support which includes a dedicated Technical Account Manager."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_84595b40839258a83bb552a8",
+      "description_sha256": "c1f43d46b66efee362bb4528468159fbaab75b2126b2aa9bc27a681ef7691206",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies premium support and a dedicated technical account manager, a support entitlement rather than substantive software functionality, with no AI signal; the forced non-AI decision is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Google Premium Support which includes a dedicated Technical Account Manager."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Weak agreement: premium support and technical account manager are support entitlements, not product software functionality."
+  },
+  {
+    "annotation_id": "ann_85a0f89caa19a0ddbad0bbfc",
+    "description_sha256": "4c1e9c53c40dd32385a792d9a98255b03725698f539b67be7cf91e619aa531b5",
+    "description": "Transcend is a cloud-based data privacy and compliance management solution, which helps organizations streamline access or erasure requests and consent changes across every data system. The platform automates identity verification, stores personal data and creates downloadable links for end-users.",
+    "labeler_proposal": {
+      "annotation_id": "ann_85a0f89caa19a0ddbad0bbfc",
+      "description_sha256": "4c1e9c53c40dd32385a792d9a98255b03725698f539b67be7cf91e619aa531b5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a cloud privacy-compliance platform that handles access or erasure requests, consent changes, identity verification, personal data storage and download links. These are conventional workflow and routine automation functions with no AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "helps organizations streamline access or erasure requests and consent changes across every data system",
+        "The platform automates identity verification, stores personal data and creates downloadable links for end-users."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_85a0f89caa19a0ddbad0bbfc",
+      "description_sha256": "4c1e9c53c40dd32385a792d9a98255b03725698f539b67be7cf91e619aa531b5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies conventional privacy-compliance functions: access or erasure requests, consent changes, identity verification, data storage, and downloadable links, without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "automates identity verification, stores personal data and creates downloadable links for end-users."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "The text says the platform automates identity verification but does not describe the method. This may be conventional workflow/rules or AI-dependent; no implementation should be assumed. Route as a concrete unexplained-possible-AI/functionality concern."
+  },
+  {
+    "annotation_id": "ann_92444a6a0e69ddcb5958ae31",
+    "description_sha256": "ce4e0d0ecdd9dab6122ebd8ab1989ae5b6e9b4188cf3cf8a6fcfb5d608cd2187",
+    "description": "This CAS for the SOW for The Centers for Medicare and Medicaid Services (CMS) is being routed for approval simultaneously with approvals for the associated funding.",
+    "labeler_proposal": {
+      "annotation_id": "ann_92444a6a0e69ddcb5958ae31",
+      "description_sha256": "ce4e0d0ecdd9dab6122ebd8ab1989ae5b6e9b4188cf3cf8a6fcfb5d608cd2187",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a contract approval routing status for a statement of work, not the functionality of a software product. No AI signal is present, so the non-AI label is forced and weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "This CAS for the SOW for The Centers for Medicare and Medicaid Services (CMS) is being routed for approval simultaneously with approvals for the associated funding."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_92444a6a0e69ddcb5958ae31",
+      "description_sha256": "ce4e0d0ecdd9dab6122ebd8ab1989ae5b6e9b4188cf3cf8a6fcfb5d608cd2187",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes routing a statement of work for approval with associated funding, an administrative process rather than substantive software functionality, and gives no AI signal; the forced non-AI decision is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is being routed for approval simultaneously with approvals for the associated funding."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Weak agreement: describes an administrative approval process/status, not software functionality; preserve weak forced non_ai."
+  },
+  {
+    "annotation_id": "ann_b3f00b050e5baa3e7ccd175b",
+    "description_sha256": "253a007178b435f9b26fbc73ce3ca6d851a42215bce55a293050c92dc783945f",
+    "description": "ELA Premium Maintenace, Premium Success for Subscription, and Professional Services - Fixed Fee Consulting",
+    "labeler_proposal": {
+      "annotation_id": "ann_b3f00b050e5baa3e7ccd175b",
+      "description_sha256": "253a007178b435f9b26fbc73ce3ca6d851a42215bce55a293050c92dc783945f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Lists entitlement and service categories (maintenance, subscription success, professional services, fixed-fee consulting) rather than software functionality. No AI signal is present, so the non-AI label is forced and weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "ELA Premium Maintenace, Premium Success for Subscription, and Professional Services - Fixed Fee Consulting"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_b3f00b050e5baa3e7ccd175b",
+      "description_sha256": "253a007178b435f9b26fbc73ce3ca6d851a42215bce55a293050c92dc783945f",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text lists premium maintenance, subscription success, and fixed-fee consulting services rather than substantive software functionality, and gives no AI signal; the forced non-AI decision is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "ELA Premium Maintenace, Premium Success for Subscription, and Professional Services - Fixed Fee Consulting"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Weak agreement: maintenance, subscription-success, and fixed-fee consulting are service/entitlement categories, not software functionality."
+  },
+  {
+    "annotation_id": "ann_ccd9712059768bef40cb304d",
+    "description_sha256": "cfe979058e8e536812d76146f757748b1e1af2497fcb4f869506a126e3e3244b",
+    "description": "HOSTED SOLUTION FOR SMS TEXTING",
+    "labeler_proposal": {
+      "annotation_id": "ann_ccd9712059768bef40cb304d",
+      "description_sha256": "cfe979058e8e536812d76146f757748b1e1af2497fcb4f869506a126e3e3244b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "A category-level label for a hosted SMS texting solution implies a conventional messaging function but gives no concrete functional detail. No AI signal is present, so the non-AI label is forced and weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "HOSTED SOLUTION FOR SMS TEXTING"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_ccd9712059768bef40cb304d",
+      "description_sha256": "cfe979058e8e536812d76146f757748b1e1af2497fcb4f869506a126e3e3244b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description states a hosted SMS-texting solution, which is conventional messaging functionality and contains no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "HOSTED SOLUTION FOR SMS TEXTING"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Disagreement: hosted SMS texting is named as a conventional communications solution but has no functional detail. Keep insufficient detail weak if support cannot be grounded."
+  },
+  {
+    "annotation_id": "ann_f53ea46a1ffde80ae98d4e37",
+    "description_sha256": "c500ad88cdeec61b3b8c86849a094234dacbbad476882cf16701298b06776136",
+    "description": "SeaLights Test Impact Analytics empowers Dev & QA teams to significantly reduce End-to-End testing cycle time and costs while maintaining the highest level of quality.",
+    "labeler_proposal": {
+      "annotation_id": "ann_f53ea46a1ffde80ae98d4e37",
+      "description_sha256": "c500ad88cdeec61b3b8c86849a094234dacbbad476882cf16701298b06776136",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Names Test Impact Analytics and claims shorter end-to-end test cycles and lower cost, but does not explain the mechanism. Analytics can be rule-based or learned, so the non-AI negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "SeaLights Test Impact Analytics empowers Dev & QA teams to significantly reduce End-to-End testing cycle time and costs"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_f53ea46a1ffde80ae98d4e37",
+      "description_sha256": "c500ad88cdeec61b3b8c86849a094234dacbbad476882cf16701298b06776136",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description only claims reduced end-to-end testing time and costs for development and QA teams, without substantive functionality or an affirmative AI signal; the forced non-AI decision is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "significantly reduce End-to-End testing cycle time and costs while maintaining the highest level of quality."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Weak agreement: “Test Impact Analytics” and claimed cycle-time/cost outcomes have no explained method or substantive mechanism; retain weak forced non_ai."
+  },
+  {
+    "annotation_id": "ann_f54445bc56c90edea53e4e77",
+    "description_sha256": "d05dd7572184d6814f5a14b85d57d6405efa3883e3ac8abf694f89a39ced6e30",
+    "description": "Up to Additional 20TB for Archive Per Base Transaction",
+    "labeler_proposal": {
+      "annotation_id": "ann_f54445bc56c90edea53e4e77",
+      "description_sha256": "d05dd7572184d6814f5a14b85d57d6405efa3883e3ac8abf694f89a39ced6e30",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Only a storage capacity entitlement is given. It does not describe software functionality, and no AI signal is present, so the non-AI label is forced and weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Up to Additional 20TB for Archive Per Base Transaction"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_f54445bc56c90edea53e4e77",
+      "description_sha256": "d05dd7572184d6814f5a14b85d57d6405efa3883e3ac8abf694f89a39ced6e30",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text is an archive-capacity entitlement stated as additional terabytes per transaction, not substantive software functionality, and contains no AI signal; the forced non-AI decision is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Up to Additional 20TB for Archive Per Base Transaction"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concern": "Weak agreement: additional storage capacity is an entitlement only, with no software functionality."
+  }
+]

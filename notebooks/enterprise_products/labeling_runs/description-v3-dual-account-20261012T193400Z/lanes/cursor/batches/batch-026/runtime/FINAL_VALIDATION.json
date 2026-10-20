@@ -1,0 +1,44 @@
+{
+  "batch_id": "batch-026",
+  "status": "locally_finalized_pending_parent_gate",
+  "preparation_receipt": "runtime/PREPARATION_RECEIPT.json",
+  "independent_result_registration": "runtime/INDEPENDENT_RESULT_REGISTRATION.json",
+  "independent_validation": "runtime/INDEPENDENT_VALIDATION.json",
+  "pair_review": "runtime/pair-review.json",
+  "reconciliation_routing": "runtime/reconciliation-routing.json",
+  "reconciliation_result_registration": "runtime/reconciliation-result-registration.json",
+  "reconciliation_validation": "runtime/reconciliation-validation.json",
+  "reconciliation_semantic_review": "runtime/reconciliation-semantic-review.json",
+  "exact_model_provenance": {
+    "labeler": "Claude Haiku 5.5 300K High, explicit claude-haiku-5-5-thinking-high, UUID 014c322b-77b3-4f82-bfaf-556aac87dde9, private batch026 labeler",
+    "blind": "GPT-5.6 Luna 272K High, explicit gpt-5.6-luna-high, UUID 135f9977-493b-46a3-90cb-8b073dfe62ea, private batch026 blind"
+  },
+  "coverage": {
+    "descriptions": 20,
+    "source_rows": 28,
+    "reconciliations": 10
+  },
+  "final_counts": {
+    "ai": 2,
+    "non_ai": 18,
+    "weak_binary": 9,
+    "weak_subtype": 1,
+    "trusted_negative_rows": 15
+  },
+  "all_20_independent_pairs_reviewed": true,
+  "all_10_final_responses_reviewed_against_text": true,
+  "all_40_independent_raw_checkpoint_hashes_unchanged": true,
+  "export_hashes": {
+    "description_labels.json": "bd202f6c12b6dc3a373b2ba20da04a4a184a20c908f229e6d180af7f51d6fe38",
+    "record_labels.json": "2a3a4364ae2eddadec39e29ffe485625299e381886264f3e50e9b889b94330f2",
+    "review_ledger.json": "d9d766cc9372e8e783c21aaf84c852ec56917090045b138d1093c839c5480fba",
+    "review_queue.json": "e82d25a6e36d9299f2f759699ded7fb1e4bc40ab3629d30b21a6ad3b5aa13b4b",
+    "non_ai_candidates.csv": "42bb392120f7c1dbe90f674e306057a842e8647a703614ba944df2a0f34daee4",
+    "calibration_report.json": "313a873fc3ac12db7dd9992b72228fcebdef71be9a956f08dbaf7130949916b2"
+  },
+  "export_hashes_verified": true,
+  "parent_gate_pending": true,
+  "parent_global_coverage_not_modified": true,
+  "git_or_root_global_codex_changes": false,
+  "tests": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s notebooks/enterprise_products -p test_*.py \u2014 36 passed"
+}

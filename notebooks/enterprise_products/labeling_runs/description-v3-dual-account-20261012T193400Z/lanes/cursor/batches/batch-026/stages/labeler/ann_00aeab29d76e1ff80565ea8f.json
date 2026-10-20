@@ -1,0 +1,18 @@
+{
+  "annotation_id": "ann_00aeab29d76e1ff80565ea8f",
+  "description_sha256": "4c7bec0b6355f4bca09570fe61b04cc69871758c820be59c6feaad4ea308077f",
+  "ai_status": "ai",
+  "ai_type": "ai_native",
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "No explicit AI or learned-model wording; the only AI-adjacent signal is the conversational framing of resolving queries through natural, human-like interactions. Forced toward AI because a conversational IVR with unexplained natural-interaction capability cannot support a non-AI negative, but the text does not establish the implementation.",
+  "ai_type_rationale": "The conversational interaction is the described core of the IVR offering, so the subtype is forced to AI-native; the text does not state whether that conversational capability depends on AI.",
+  "evidence_spans": [
+    "Nuance Conversational IVR resolves inbound telephone queries through natural, human‑like interactions"
+  ],
+  "ai_type_evidence_spans": [
+    "Nuance Conversational IVR resolves inbound telephone queries through natural, human‑like interactions"
+  ]
+}

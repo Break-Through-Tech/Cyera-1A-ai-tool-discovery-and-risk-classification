@@ -1,0 +1,78 @@
+{
+  "status": "accepted",
+  "timestamp": "2026-10-20T19:56:02.413618+00:00",
+  "descriptions": 20,
+  "source_rows": 28,
+  "all20_pairs_and_all10_final_source_responses_parent_reviewed": true,
+  "exact_plan_hash_all_refs": true,
+  "all40_native_private_helper_schema_quotes_pass": true,
+  "no_repairs": true,
+  "native_reconciliation_single_write_payloads": [
+    {
+      "line": 27,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/agents/blind/reconciliation-026/checkpoints/ann_00aeab29d76e1ff80565ea8f.json",
+      "sha256": "353cbc14f3b6f586fcdec2d230e1b75526c63bb5caeb6f134bcf71cf0aa8ba3e"
+    },
+    {
+      "line": 28,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/agents/blind/reconciliation-026/checkpoints/ann_00beb09703270fdee73e7350.json",
+      "sha256": "b3869cdd0ece419bb3346a2cedba6947e9427378eabfcbbe9b0082a9d46a1b80"
+    },
+    {
+      "line": 29,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/agents/blind/reconciliation-026/checkpoints/ann_09920777c31dd62ea144c629.json",
+      "sha256": "1f54c8c3efc29ef0d7475c6f52f1b3ee6fb970b49ec122f42477efcb70f02ce6"
+    },
+    {
+      "line": 30,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/agents/blind/reconciliation-026/checkpoints/ann_84595b40839258a83bb552a8.json",
+      "sha256": "e599cf0cde068c02d47ad7939c7e75c33da6275f66123713ac821ef8f26a2fb4"
+    },
+    {
+      "line": 31,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/agents/blind/reconciliation-026/checkpoints/ann_85a0f89caa19a0ddbad0bbfc.json",
+      "sha256": "2ea6df1fe6813d3a8d05f9beb8b8fa8e8ff51475b634ea9905bd5032a59bfebb"
+    },
+    {
+      "line": 32,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/agents/blind/reconciliation-026/checkpoints/ann_92444a6a0e69ddcb5958ae31.json",
+      "sha256": "bf9fdc0da84ca68843c453ba4c56c42ed6aca40cdc6e71bc09c9d68ac53d09b4"
+    },
+    {
+      "line": 33,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/agents/blind/reconciliation-026/checkpoints/ann_b3f00b050e5baa3e7ccd175b.json",
+      "sha256": "1dad322dd23ed43435241c8ca9f2e74e42bc79bb4bdb48693319d0d8c909098b"
+    },
+    {
+      "line": 34,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/agents/blind/reconciliation-026/checkpoints/ann_ccd9712059768bef40cb304d.json",
+      "sha256": "6e7570291eef8f0133512903318e10e72c18680f492ddcf55291dfa33431229c"
+    },
+    {
+      "line": 35,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/agents/blind/reconciliation-026/checkpoints/ann_f53ea46a1ffde80ae98d4e37.json",
+      "sha256": "84322bf00e82221236f67e037e65b1e330d4c3fa4f0fcabdbbe31ddc9d51863e"
+    },
+    {
+      "line": 36,
+      "path": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/agents/blind/reconciliation-026/checkpoints/ann_f54445bc56c90edea53e4e77.json",
+      "sha256": "6cde1083f6ffcc618fd54039bfe7452eae81a2c7ea18c66f7a909f7b86a0da47"
+    }
+  ],
+  "prior_baseline_files_unchanged": 1387,
+  "exports": {
+    "description_labels.json": "bd202f6c12b6dc3a373b2ba20da04a4a184a20c908f229e6d180af7f51d6fe38",
+    "record_labels.json": "2a3a4364ae2eddadec39e29ffe485625299e381886264f3e50e9b889b94330f2",
+    "review_ledger.json": "d9d766cc9372e8e783c21aaf84c852ec56917090045b138d1093c839c5480fba",
+    "review_queue.json": "e82d25a6e36d9299f2f759699ded7fb1e4bc40ab3629d30b21a6ad3b5aa13b4b",
+    "non_ai_candidates.csv": "42bb392120f7c1dbe90f674e306057a842e8647a703614ba944df2a0f34daee4",
+    "calibration_report.json": "313a873fc3ac12db7dd9992b72228fcebdef71be9a956f08dbaf7130949916b2"
+  },
+  "counts": {
+    "weak_binary_descriptions": 9,
+    "weak_subtype_descriptions": 1,
+    "trusted_negative_rows": 15,
+    "ai_descriptions": 2
+  },
+  "semantic_review": "Support-only/entitlement/admin/vague/identity-verification ambiguityweakretained; NuanceIVRbothbinary/subtypeweak independent; LiveEarthexplicitAIcore supportsnative; concreteconventionalfunctions reviewedwithoutproductknowledge.025holdunaffected."
+}

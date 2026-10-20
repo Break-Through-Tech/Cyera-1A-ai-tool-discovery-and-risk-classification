@@ -1,0 +1,18 @@
+{
+  "batch_id": "batch-026",
+  "frozen_plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "selected_descriptions": 20,
+  "selected_source_references": 28,
+  "exact_plan_description_hash_and_all_source_references": true,
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "selection_sha256": "1bac61e6ef219ca9302b12405d6c7edb95c4b69037786f3f3c58e6f73100ac71",
+  "role_workspaces": {
+    "labeler": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/agents/labeler",
+    "blind": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/agents/blind"
+  },
+  "stage_assignments_persisted_before_launch": true
+}

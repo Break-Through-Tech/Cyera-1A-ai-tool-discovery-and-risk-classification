@@ -1,0 +1,256 @@
+[
+  {
+    "annotation_id": "ann_05df8a4a36b92e7d268a6f4e",
+    "description_sha256": "09f5a06c7ed60e3e5680ba5d69db8bca165b9d29f55f523fdf8fa5d8f319a85a",
+    "description": "The NMA system is a Telcordia product designed to: provide real-time around the clock network surveillance and perform end-to-end monitoring of the telecommunications network.   The system receives messages from network elements (switches trunks repeaters remote terminals etc.) and analyzes them to determine the causes of network service outages and provide uninterrupted customer service to ensure customer satisfaction.",
+    "source_record_references": [
+      "1193"
+    ],
+    "labeler": {
+      "annotation_id": "ann_05df8a4a36b92e7d268a6f4e",
+      "description_sha256": "09f5a06c7ed60e3e5680ba5d69db8bca165b9d29f55f523fdf8fa5d8f319a85a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes conventional telecommunications network surveillance and outage monitoring, including receiving network-element messages and diagnosing service outages; it gives no product-specific AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provide real-time around the clock network surveillance and perform end-to-end monitoring of the telecommunications network.",
+        "The system receives messages from network elements (switches trunks repeaters remote terminals etc.) and analyzes them to determine the causes of network service outages"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_05df8a4a36b92e7d268a6f4e",
+      "description_sha256": "09f5a06c7ed60e3e5680ba5d69db8bca165b9d29f55f523fdf8fa5d8f319a85a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional telecom network surveillance, monitoring, and outage-cause analysis from network-element messages.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "provide real-time around the clock network surveillance and perform end-to-end monitoring of the telecommunications network.",
+        "analyzes them to determine the causes of network service outages"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Conventional receiving/network-surveillance/monitoring is concrete, but analysis to DETERMINE CAUSES of outages has no method. Assess whether whole supported negative is warranted without inventing deterministic diagnosis/rules or remembered features."
+    ]
+  },
+  {
+    "annotation_id": "ann_3f6bf76ed95bec36b8947db4",
+    "description_sha256": "05826f7abdf53ed7dc005b2c9998e2baaf10e129be9d9700c19cf6cbacf0d2f6",
+    "description": "Work Force Administration / Dispatch Out automates the work assignments of technicians who work outside of the Central Offices to install and maintain telephone services. It automates such tasks as loading and prioritizing work requests, estimating the time required to do jobs, and scheduling the work. It provides on-line status tracking of work requests and helps track productivity of a work center for management use.",
+    "source_record_references": [
+      "1201"
+    ],
+    "labeler": {
+      "annotation_id": "ann_3f6bf76ed95bec36b8947db4",
+      "description_sha256": "05826f7abdf53ed7dc005b2c9998e2baaf10e129be9d9700c19cf6cbacf0d2f6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The software automates conventional work-request loading, prioritization, scheduling, status tracking, and productivity tracking for technician dispatch.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "automates such tasks as loading and prioritizing work requests, estimating the time required to do jobs, and scheduling the work.",
+        "It provides on-line status tracking of work requests and helps track productivity of a work center for management use."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_3f6bf76ed95bec36b8947db4",
+      "description_sha256": "05826f7abdf53ed7dc005b2c9998e2baaf10e129be9d9700c19cf6cbacf0d2f6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Automates technician work-request loading, prioritization, scheduling, status tracking, and productivity tracking using ordinary dispatch workflows.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "loading and prioritizing work requests, estimating the time required to do jobs, and scheduling the work.",
+        "provides on-line status tracking of work requests and helps track productivity"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Dispatch loading/status/productivity/scheduling concrete; estimating duration and prioritizing assignments have no method. Do not silently infer rules/deterministic estimation. Assess whether unclear potentiallyAIdependent estimation requires weak/forced despite conventional workflow."
+    ]
+  },
+  {
+    "annotation_id": "ann_5e83f1a0b595ed16ba1672bc",
+    "description_sha256": "636fc984471e5e04053a5391c2a8e5111b1c98fb5a9d33e4b1ab40f185b04e57",
+    "description": "Planning Work Status (PWS) subsystem that works with TIRKS",
+    "source_record_references": [
+      "1192"
+    ],
+    "labeler": {
+      "annotation_id": "ann_5e83f1a0b595ed16ba1672bc",
+      "description_sha256": "636fc984471e5e04053a5391c2a8e5111b1c98fb5a9d33e4b1ab40f185b04e57",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Best-supported as non-AI because it only identifies a planning/work-status subsystem relationship, but the description is too terse to establish its functions in detail.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Planning Work Status (PWS) subsystem that works with TIRKS"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_5e83f1a0b595ed16ba1672bc",
+      "description_sha256": "636fc984471e5e04053a5391c2a8e5111b1c98fb5a9d33e4b1ab40f185b04e57",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text only identifies a planning-work-status subsystem and an association with another system; its function is too underspecified for a supported classification.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Planning Work Status (PWS) subsystem that works with TIRKS"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": []
+  },
+  {
+    "annotation_id": "ann_699bd928fb9b1951d0fe2e99",
+    "description_sha256": "9ce7a34d70b2ab81f39c49f962eb5533c99e79e7a441fb6f00a8b0ed1338bcf2",
+    "description": "Service Order Administration and Control",
+    "source_record_references": [
+      "1197"
+    ],
+    "labeler": {
+      "annotation_id": "ann_699bd928fb9b1951d0fe2e99",
+      "description_sha256": "9ce7a34d70b2ab81f39c49f962eb5533c99e79e7a441fb6f00a8b0ed1338bcf2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies a conventional service-order administration and control function.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Service Order Administration and Control"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_699bd928fb9b1951d0fe2e99",
+      "description_sha256": "9ce7a34d70b2ab81f39c49f962eb5533c99e79e7a441fb6f00a8b0ed1338bcf2",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Only a service-order administration/control name is provided, without a meaningful functional description; the negative is therefore forced and weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Service Order Administration and Control"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": []
+  },
+  {
+    "annotation_id": "ann_a092784f587fd30ec04117bb",
+    "description_sha256": "a6374fe852963cb83e37ce1516c90f143b136ee46b95b4d437a84313edaf558c",
+    "description": "STO Platform, Retail Lite, Telecom.",
+    "source_record_references": [
+      "1191"
+    ],
+    "labeler": {
+      "annotation_id": "ann_a092784f587fd30ec04117bb",
+      "description_sha256": "a6374fe852963cb83e37ce1516c90f143b136ee46b95b4d437a84313edaf558c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Best-supported as non-AI, but the description is only a product/category fragment and provides too little detail to establish meaningful functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "STO Platform, Retail Lite, Telecom."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_a092784f587fd30ec04117bb",
+      "description_sha256": "a6374fe852963cb83e37ce1516c90f143b136ee46b95b4d437a84313edaf558c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text supplies only platform/retail/telecom labels and no meaningful function, so the best binary decision is weak and forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "STO Platform, Retail Lite, Telecom."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": []
+  },
+  {
+    "annotation_id": "ann_b5ee574d4e2c41f16ab8b828",
+    "description_sha256": "39e1602f943d44d25213bd9cae08b162a343026368c9eb14a84d683a341fc6b0",
+    "description": "ASG Safari is a SaaS-based Windows reporting application designed for data analysts and data administrators. It enables users to receive notifications from Microsoft of application faults, kernel faults, unresponsive applications, and other application problems; build secure real-time data views; use desktop tools via ODBC reporting from live data; create co",
+    "source_record_references": [
+      "1187"
+    ],
+    "labeler": {
+      "annotation_id": "ann_b5ee574d4e2c41f16ab8b828",
+      "description_sha256": "39e1602f943d44d25213bd9cae08b162a343026368c9eb14a84d683a341fc6b0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The visible text describes reporting, fault notifications, data views, and ODBC reporting, all conventional functions; however, the description ends mid-phrase, so its feature scope is incomplete.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "It enables users to receive notifications from Microsoft of application faults, kernel faults, unresponsive applications, and other application problems; build secure real-time data views; use desktop tools via ODBC reporting from live data; create co"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_b5ee574d4e2c41f16ab8b828",
+      "description_sha256": "39e1602f943d44d25213bd9cae08b162a343026368c9eb14a84d683a341fc6b0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes notifications of application and kernel faults, secure data views, and ODBC reporting from live data—conventional reporting and fault-notification capabilities.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "enables users to receive notifications from Microsoft of application faults, kernel faults, unresponsive applications, and other application problems; build secure real-time data views; use desktop tools via ODBC reporting from live data;"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": []
+  }
+]

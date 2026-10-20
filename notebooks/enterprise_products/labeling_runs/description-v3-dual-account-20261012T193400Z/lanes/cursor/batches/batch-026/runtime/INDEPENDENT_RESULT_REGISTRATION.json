@@ -1,0 +1,88 @@
+{
+  "batch_id": "batch-026",
+  "status": "raw independent result and checkpoint hashes registered before comparison",
+  "plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "observed_banners": {
+    "labeler": "Claude Haiku 5.5 300K High",
+    "blind": "GPT-5.6 Luna 272K High"
+  },
+  "roles": {
+    "labeler": {
+      "original_native_uuid": "014c322b-77b3-4f82-bfaf-556aac87dde9",
+      "result": {
+        "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/agents/labeler/result.json",
+        "sha256": "440e522137f81c0533acecfd96f3aa560b3bc90bf94e60a425e59e018acca371",
+        "bytes": 17197
+      },
+      "checkpoints": {
+        "ann_00aeab29d76e1ff80565ea8f.json": "a070fb6ac3d1d22a6b107103dc9b2980f4fd5513b57f397f945f89aa8bf81239",
+        "ann_00beb09703270fdee73e7350.json": "1079f41d3769d6096eee4bb2433b0c3d2073e5ff1a76b5697833e32531daf9d8",
+        "ann_09920777c31dd62ea144c629.json": "bd2e9a7c9b429bd3577dd1862f2f8eb2d3881bf8939b87c9472028bcda129d95",
+        "ann_23414828031e3043e691f1b3.json": "cf6558d751792a6959e556d873b378e5f0dcb948c3f7983a1271aab835d6b0eb",
+        "ann_27ae976f8b30d5df3ac2c52f.json": "07a0bddf3cd683cf0185b9afb1ee7483ce3d8a1372f3eecda5bae70dcce768cc",
+        "ann_451ec933260252b182c5be02.json": "8f4f7d1b846d50c44752c8ce7484684c66dd3c11123677dd8d7f69e1bb649852",
+        "ann_4b250f9ed72326948db4c6f3.json": "41994eee8dc894078d200403792aab752bd0a1404d19180febb82224b4168878",
+        "ann_59f3f1989f56c1be038eeec1.json": "98a2e6ed6383e009cfcee25936c7789ee4fe7cf004eb6da8109d76c8ebbac001",
+        "ann_7fb6fd87520df268e4630fa3.json": "a2d05374f3dce88b7c78086993ee67874ecdba5c8fc937ca61427b644139b853",
+        "ann_84595b40839258a83bb552a8.json": "9a11d7ea1daedaf9a65635ae5e44631eeb283921dd8009c8ad4a9acb05745e11",
+        "ann_85a0f89caa19a0ddbad0bbfc.json": "94b1fe211ad96d4999dc418638d3f0dfabe0343d00e31ee8d34bcd29bb3a436b",
+        "ann_92444a6a0e69ddcb5958ae31.json": "6a9329ca287e4b783422ee7ea44eea03b8a44f327525ca21075260f6e6f3f02f",
+        "ann_9b3cc025560ac0353af1c6ec.json": "dbcda50b09091ef591d8ccfefe438a97d4e8b30be4a3073a6a914473d378e138",
+        "ann_b3f00b050e5baa3e7ccd175b.json": "e11aee16b2ba0e3b66899d0eec55daf3beb0c2106f383961f499ac0115ad1090",
+        "ann_b8b370e3f6d68aefad4a8351.json": "91a7fec4d69a304cfabc363b8e7816603973ae3f5a70c342406bddefc6b50cf6",
+        "ann_ccd9712059768bef40cb304d.json": "b8e8fecaebe59e0c3c564f20c7a68742fb8cc7fdf065bb69cd1a6d791158ea24",
+        "ann_e484583e064a3fd9dec9288e.json": "dd787d80af9f533e2b3e32285897e5d4fe6ba874965b60fd4c38d33062c0237b",
+        "ann_e62e607cbc23841be1195ca8.json": "9e707ece0674d759c971cb5dc8b3ea075a39c8b0c1deff22537f5c6ee7160bce",
+        "ann_f53ea46a1ffde80ae98d4e37.json": "f931526761a6ed4885f14a76a353e9de41f7ec2d95565a6d81db9c1fbf1e03b3",
+        "ann_f54445bc56c90edea53e4e77.json": "652cc4709834c971e0f59f4cc5753b7206bbf4b60450dc5b9d1ce5a2c66dea1c"
+      },
+      "native_transcript": {
+        "path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/014c322b-77b3-4f82-bfaf-556aac87dde9/014c322b-77b3-4f82-bfaf-556aac87dde9.jsonl",
+        "sha256": "aa9d4e3aac20a183eaf44482825f87de6ea2abe5e5876f4199f0c41a0c09c9cb",
+        "bytes": 58864
+      },
+      "workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/agents/labeler"
+    },
+    "blind": {
+      "original_native_uuid": "135f9977-493b-46a3-90cb-8b073dfe62ea",
+      "result": {
+        "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/agents/blind/result.json",
+        "sha256": "1e6ffb2a17344bd0204bf0e493cf355533c351aa89dc7ea07a3b1c99aecb878e",
+        "bytes": 15275
+      },
+      "checkpoints": {
+        "ann_00aeab29d76e1ff80565ea8f.json": "7d64da1fbe4abacdb5483efe97bb8d9feb5ae19a8a079d0ea031a15dcb7dd191",
+        "ann_00beb09703270fdee73e7350.json": "ade4934ffae44f99ca800e80bf1cfa3b538ca66d57cbc5ab624e0598cca4f5f1",
+        "ann_09920777c31dd62ea144c629.json": "254eb35ade3942f40241833bb67efc992f50f33941b37dad54ee9d6712e170b9",
+        "ann_23414828031e3043e691f1b3.json": "4b95b76594ce50aa7ae55c0cd707988c57fa7d45f0ae499c86173e62526df738",
+        "ann_27ae976f8b30d5df3ac2c52f.json": "e8e1502c353438778c5cf4b70bf90c5636405927f14563a8604895e483d77498",
+        "ann_451ec933260252b182c5be02.json": "9d94812543c3a39dd3c10ee57dfbcaade9d54b7063bc629c6cc2b40b9d64493e",
+        "ann_4b250f9ed72326948db4c6f3.json": "6404814af74ea937accfc00ea3c01b509db553884b065c25889fd31c04ed4b86",
+        "ann_59f3f1989f56c1be038eeec1.json": "9224c3c246f2905b40401cdb9c72240d16d421893c04636c76b71dc9b25da36e",
+        "ann_7fb6fd87520df268e4630fa3.json": "dd7b269261f09c3758f69e6d980c25f80f3f53485f890fc3e1936ea46e67e22d",
+        "ann_84595b40839258a83bb552a8.json": "d6e4a0547592f2d102fc564c82cf1ce3b1cfbf371f0d534c44a6223be723b6bb",
+        "ann_85a0f89caa19a0ddbad0bbfc.json": "69403e70ba5bd6953a1a552a63da207b2c6658d7105ff3b9ebedca015b338c80",
+        "ann_92444a6a0e69ddcb5958ae31.json": "61addc6662c8fd2dfe3092397993b80ab6b5c6562962ba2223088d8b2806458a",
+        "ann_9b3cc025560ac0353af1c6ec.json": "ea07b7da5d5b1d0981d2271796e07b0e9035dcac882e16bdae17e41cbca6dee1",
+        "ann_b3f00b050e5baa3e7ccd175b.json": "34c2504779954157981faeabc3723de54dd410f660e3553fab8f2b6b3e7bd85d",
+        "ann_b8b370e3f6d68aefad4a8351.json": "463f79372bc17af22ff399628a6238a66c1ed6e7154bd375af9ada6f31f7f8f3",
+        "ann_ccd9712059768bef40cb304d.json": "c8cb84c34118d23c85bd2cfc0b92c97148a551c3de645c8895a68e6b267b55d5",
+        "ann_e484583e064a3fd9dec9288e.json": "17ff8b6849271c96e9091312116a5e19153c7e712e923282e6277206fd466408",
+        "ann_e62e607cbc23841be1195ca8.json": "0edb7b5aeb5591ad47c925ed325f89574a3b8dc17b19467db70c898f460ceeff",
+        "ann_f53ea46a1ffde80ae98d4e37.json": "9cbeb54202fdb63ea5f0ec1545ef5e51ce760cf76356d9209dfde09e81eb075d",
+        "ann_f54445bc56c90edea53e4e77.json": "57ea0cb66ec85a22c272e77a44d7b78e17c6d432733541979af1c9159d16485a"
+      },
+      "native_transcript": {
+        "path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/135f9977-493b-46a3-90cb-8b073dfe62ea/135f9977-493b-46a3-90cb-8b073dfe62ea.jsonl",
+        "sha256": "de42afb34c00b27beddb3b0e4d74fad7f240bb53978c540123859f2228e3f7f6",
+        "bytes": 46066
+      },
+      "workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/agents/blind"
+    }
+  }
+}

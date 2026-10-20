@@ -1,0 +1,353 @@
+[
+  {
+    "product_description": "Nuance Conversational IVR resolves inbound telephone queries through natural, human‑like interactions that encourage self‑service and increase customer satisfaction.",
+    "annotation_id": "ann_00aeab29d76e1ff80565ea8f",
+    "description_sha256": "4c7bec0b6355f4bca09570fe61b04cc69871758c820be59c6feaad4ea308077f",
+    "ai_status": "ai",
+    "ai_type": "ai_enabled",
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": "weak",
+    "ai_type_forced_decision": true,
+    "rationale": "The description gives a conversational IVR resolving telephone queries through natural, human-like interactions. That wording is potentially AI-dependent but does not establish an AI implementation, so the forced AI-positive decision remains weak.",
+    "ai_type_rationale": "The described IVR has a conventional telephone-query function that could remain without the unexplained conversational enhancement, making ai_enabled the best forced subtype; the text does not establish whether the interaction depends on AI.",
+    "evidence_spans": [
+      "Conversational IVR resolves inbound telephone queries through natural, human‑like interactions"
+    ],
+    "ai_type_evidence_spans": [
+      "Conversational IVR resolves inbound telephone queries through natural, human‑like interactions"
+    ]
+  },
+  {
+    "product_description": "Informatica Data Privacy Management helps you discover, classify, analyze, protect and monitor personal and sensitive data across your organization.",
+    "annotation_id": "ann_00beb09703270fdee73e7350",
+    "description_sha256": "e559bbbaf5f4b401b317c66c234050ae4f54c7f4d61d2756607e2cc48c068743",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description meaningfully specifies conventional privacy-management functions to discover, classify, analyze, protect, and monitor data. The absence of a stated classification or analysis method does not itself establish AI or make these ordinary functions unexplained AI-dependent.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "discover, classify, analyze, protect and monitor personal and sensitive data"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Contentsquare Find & Fix optimizes operational efficiency while averting dramatic revenue loss, providing an unprecedented end-to end solution to deliver seamless digital experiences. Let it enable your business and technical teams to spot issues and speed problems impacting customer experience",
+    "annotation_id": "ann_09920777c31dd62ea144c629",
+    "description_sha256": "7da2f435d2e4e45b99b53d774c452385bfd4bb4c04282df17406563efbf454b8",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description makes marketing-level claims about operational efficiency and spotting issues affecting customer experience but gives no mechanism or AI signal; the forced non-AI decision remains weak.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Contentsquare Find & Fix optimizes operational efficiency while averting dramatic revenue loss",
+      "spot issues and speed problems impacting customer experience"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Informatica Enterprise Data Catalog Advanced Scanners allow you to extract metadata and derive detailed data lineage from many data sources, including the most complex systems—such as legacy and mainframe systems, SQL dialects, and various enterprise applications—across multi-cloud environments.",
+    "annotation_id": "ann_23414828031e3043e691f1b3",
+    "description_sha256": "c6b7553e0662e4414f66a58e08dfa972054e88d7e83247c2bc235ac88a423722",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes scanners that extract metadata and derive data lineage from many data sources across multi-cloud environments. This is conventional metadata-extraction functionality with no AI mention.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Informatica Enterprise Data Catalog Advanced Scanners allow you to extract metadata and derive detailed data lineage from many data sources"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Integration Base provides bi-directional data integration capabilities across on-premise and Cloud Systems with the Informatica Cloud Data Synchronization Service.",
+    "annotation_id": "ann_27ae976f8b30d5df3ac2c52f",
+    "description_sha256": "483e49b75231298dcebec37bc346cc5ebd4f687dabf1c82cbbdbe72500f60406",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes bi-directional data integration and data synchronization between on-premise and cloud systems, a conventional integration function with no AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Integration Base provides bi-directional data integration capabilities across on-premise and Cloud Systems"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Live Earth leverages AI technology and the industry’s most diversified, real-world dataset to give you real-time data insights and unprecedented control of your organization.  Powering enterprises with insights captured from live data streams, predictive analytics, and real-time alerts.\n\nForecast more accurately \nPinpoint root cause faster\nReduce exposure to risk",
+    "annotation_id": "ann_451ec933260252b182c5be02",
+    "description_sha256": "38d0d1051bb50aaea182faac9657acadb007ffbc21032f1eb3ea887b899a6ffc",
+    "ai_status": "ai",
+    "ai_type": "ai_native",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "supported",
+    "ai_type_forced_decision": false,
+    "rationale": "Explicitly states the product leverages AI technology to deliver real-time data insights, predictive analytics and real-time alerts. This is a product-specific affirmative AI claim, preserved as marketing language and not independently verified.",
+    "ai_type_rationale": "The described core offering (real-time data insights from live data streams, predictive analytics and real-time alerts) is presented as delivered through the AI technology; no separate conventional core offering is described.",
+    "evidence_spans": [
+      "Live Earth leverages AI technology and the industry’s most diversified, real-world dataset to give you real-time data insights"
+    ],
+    "ai_type_evidence_spans": [
+      "Live Earth leverages AI technology",
+      "Powering enterprises with insights captured from live data streams, predictive analytics, and real-time alerts."
+    ]
+  },
+  {
+    "product_description": "Google Cloud Dataflow is a cloud-based data processing service for both batch and real-time data streaming applications. It enables developers to set up processing pipelines for integrating, preparing and analyzing large data sets, such as those found in Web analytics or big data analytics applications.",
+    "annotation_id": "ann_4b250f9ed72326948db4c6f3",
+    "description_sha256": "7d77da21fbd9113184a4faf3187946c8b9d6e633a240b0f72a57fe2f47081644",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a cloud data-processing service where developers build batch and streaming pipelines to integrate, prepare and analyze data. This is conventional data-pipeline functionality with no AI mention.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Google Cloud Dataflow is a cloud-based data processing service for both batch and real-time data streaming applications",
+      "It enables developers to set up processing pipelines for integrating, preparing and analyzing large data sets"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Ekahau Connect enables you and your team to design, optimize and troubleshoot any Wi-Fi network faster and easier than ever before.",
+    "annotation_id": "ann_59f3f1989f56c1be038eeec1",
+    "description_sha256": "208958d973cbb9b1ba7b3711c73744722d1b4eee43a0181b4d79d85c9c87d15e",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes tools to design, optimize and troubleshoot Wi-Fi networks. This is conventional network-planning and troubleshooting functionality with no AI mention.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Ekahau Connect enables you and your team to design, optimize and troubleshoot any Wi-Fi network faster and easier than ever before."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Intro.js is a lightweight JavaScript library for creating step-by-step and powerful customer onboarding tours",
+    "annotation_id": "ann_7fb6fd87520df268e4630fa3",
+    "description_sha256": "e3525398a5f3264d82244f1a6f5c369c569893a46ac3c1023ae3d67641de6529",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a lightweight JavaScript library for creating step-by-step customer onboarding tours. This is conventional UI-guidance functionality with no AI mention.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Intro.js is a lightweight JavaScript library for creating step-by-step and powerful customer onboarding tours"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Google Premium Support which includes a dedicated Technical Account Manager.",
+    "annotation_id": "ann_84595b40839258a83bb552a8",
+    "description_sha256": "c1f43d46b66efee362bb4528468159fbaab75b2126b2aa9bc27a681ef7691206",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description identifies premium support and a dedicated technical account manager, a support entitlement rather than substantive software functionality, with no AI signal; the forced non-AI decision is weak.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Google Premium Support which includes a dedicated Technical Account Manager."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Transcend is a cloud-based data privacy and compliance management solution, which helps organizations streamline access or erasure requests and consent changes across every data system. The platform automates identity verification, stores personal data and creates downloadable links for end-users.",
+    "annotation_id": "ann_85a0f89caa19a0ddbad0bbfc",
+    "description_sha256": "4c1e9c53c40dd32385a792d9a98255b03725698f539b67be7cf91e619aa531b5",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description states conventional privacy-compliance workflows, including access or erasure requests, consent changes, storage, and download links. It also says the platform automates identity verification without explaining whether that is rules-based or AI-dependent, so the non-AI decision is weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "helps organizations streamline access or erasure requests and consent changes across every data system",
+      "The platform automates identity verification, stores personal data and creates downloadable links for end-users."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "This CAS for the SOW for The Centers for Medicare and Medicaid Services (CMS) is being routed for approval simultaneously with approvals for the associated funding.",
+    "annotation_id": "ann_92444a6a0e69ddcb5958ae31",
+    "description_sha256": "ce4e0d0ecdd9dab6122ebd8ab1989ae5b6e9b4188cf3cf8a6fcfb5d608cd2187",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text describes routing a statement of work for approval with associated funding, an administrative process rather than substantive software functionality, and gives no AI signal; the forced non-AI decision is weak.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "This CAS for the SOW for The Centers for Medicare and Medicaid Services (CMS) is being routed for approval simultaneously with approvals for the associated funding."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "MarkLogic Server Enterprise Edition is an enterprise-class database or “contentbase” that provides a set of services used to build both content and search applications which query, manipulate and render XML content.",
+    "annotation_id": "ann_9b3cc025560ac0353af1c6ec",
+    "description_sha256": "e06c9da55e4f6e4d3fe548d6234c914c9b6567cd0562a203deba923af4a94efc",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes an enterprise XML database with services for building content and search applications that query, manipulate and render XML content. This is conventional database and search functionality with no AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "that provides a set of services used to build both content and search applications which query, manipulate and render XML content"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "ELA Premium Maintenace, Premium Success for Subscription, and Professional Services - Fixed Fee Consulting",
+    "annotation_id": "ann_b3f00b050e5baa3e7ccd175b",
+    "description_sha256": "253a007178b435f9b26fbc73ce3ca6d851a42215bce55a293050c92dc783945f",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text lists premium maintenance, subscription success, and fixed-fee consulting services rather than substantive software functionality, and gives no AI signal; the forced non-AI decision is weak.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "ELA Premium Maintenace, Premium Success for Subscription, and Professional Services - Fixed Fee Consulting"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "vRAN for 5G networks gives mobile network operators (MNOs) a cost-effective solution for network build-out with performance scalability to support both small cell and macro cell deployments.\n\nvRAN disaggregates the functionality of the RAN and connects these software elements using open interfaces. The disaggregation of vRAN provides a wealth of data for network optimization that will help MNOs maintain service levels for 5G networks.",
+    "annotation_id": "ann_b8b370e3f6d68aefad4a8351",
+    "description_sha256": "7377a409fc0ec27a462fdcf4fb2a3720e5ce9f5b65212505190531492a476952",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes virtualized RAN software that disaggregates RAN functions into software elements connected over open interfaces, for cost-effective, scalable build-out. No AI or learned-model function is described; the data remark is a stated benefit for network optimization, not an AI function.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "vRAN for 5G networks gives mobile network operators (MNOs) a cost-effective solution for network build-out with performance scalability",
+      "vRAN disaggregates the functionality of the RAN and connects these software elements using open interfaces"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "HOSTED SOLUTION FOR SMS TEXTING",
+    "annotation_id": "ann_ccd9712059768bef40cb304d",
+    "description_sha256": "cfe979058e8e536812d76146f757748b1e1af2497fcb4f869506a126e3e3244b",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description names a hosted SMS-texting solution, which suggests conventional messaging, but gives only a category-level phrase and no concrete functionality or AI signal; the forced non-AI decision is weak.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "HOSTED SOLUTION FOR SMS TEXTING"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "OpenText HostExplorer is a Windows terminal emulator for IBM 3270, IBM 5250 and VT terminal sessions that offers cost effective and secure access to mainframe applications. Users can launch terminal sessions from an easy to use web interface or use the Windows application. HostExplorer easily migrates capabilities from other terminal emulation software.",
+    "annotation_id": "ann_e484583e064a3fd9dec9288e",
+    "description_sha256": "9fba733799b1609222842cddb123a82a27e7acc1412da0f5edb7c2f68a3dc633",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a Windows terminal emulator for IBM 3270, IBM 5250 and VT terminal sessions, launchable from a web interface; conventional terminal-emulation functionality with no AI mention.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Windows terminal emulator for IBM 3270, IBM 5250 and VT terminal sessions",
+      "Users can launch terminal sessions from an easy to use web interface"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Collaboration tools including IP telephony for voice calling, web and video conferencing (Webex), voice mail, mobility, desktop sharing, instant messaging (Jabber) and presence, and more.  Unified communications (UC) solutions deliver integration of these tools, with seamless user experiences that help people work together more effectively. Anywhere, on any device. They bring real-time communication from your phone system and conferencing solutions together with messaging and chat, and integrate with everyday business applications using APIs.",
+    "annotation_id": "ann_e62e607cbc23841be1195ca8",
+    "description_sha256": "87ddad2a5aca414d041e699a4708af947165d2596b54d2b2b150291ab8d1d5e5",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes unified communications functions (IP telephony, web and video conferencing, voicemail, instant messaging, presence) and API integration with business applications. These are conventional communication functions with no AI mention.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Collaboration tools including IP telephony for voice calling, web and video conferencing (Webex), voice mail, mobility, desktop sharing, instant messaging (Jabber) and presence, and more.",
+      "integrate with everyday business applications using APIs"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "SeaLights Test Impact Analytics empowers Dev & QA teams to significantly reduce End-to-End testing cycle time and costs while maintaining the highest level of quality.",
+    "annotation_id": "ann_f53ea46a1ffde80ae98d4e37",
+    "description_sha256": "c500ad88cdeec61b3b8c86849a094234dacbbad476882cf16701298b06776136",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description claims reduced end-to-end testing time and costs for development and QA teams but does not explain the test-impact mechanism or provide an AI signal; the forced non-AI decision is weak.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "SeaLights Test Impact Analytics empowers Dev & QA teams to significantly reduce End-to-End testing cycle time and costs"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Up to Additional 20TB for Archive Per Base Transaction",
+    "annotation_id": "ann_f54445bc56c90edea53e4e77",
+    "description_sha256": "d05dd7572184d6814f5a14b85d57d6405efa3883e3ac8abf694f89a39ced6e30",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text is an archive-capacity entitlement stated as additional terabytes per transaction, not substantive software functionality, and contains no AI signal; the forced non-AI decision is weak.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Up to Additional 20TB for Archive Per Base Transaction"
+    ],
+    "ai_type_evidence_spans": null
+  }
+]

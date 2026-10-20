@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_00aeab29d76e1ff80565ea8f",
+  "description_sha256": "4c7bec0b6355f4bca09570fe61b04cc69871758c820be59c6feaad4ea308077f",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "weak",
+  "forced_decision": true,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "The description gives a conversational IVR resolving telephone queries through natural, human-like interactions. That wording is potentially AI-dependent but does not establish an AI implementation, so the forced AI-positive decision remains weak.",
+  "ai_type_rationale": "The described IVR has a conventional telephone-query function that could remain without the unexplained conversational enhancement, making ai_enabled the best forced subtype; the text does not establish whether the interaction depends on AI.",
+  "evidence_spans": [
+    "Conversational IVR resolves inbound telephone queries through natural, human‑like interactions"
+  ],
+  "ai_type_evidence_spans": [
+    "Conversational IVR resolves inbound telephone queries through natural, human‑like interactions"
+  ],
+  "conflict_response": "The proposals disagree on binary direction: the labeler treated the natural, human-like conversational behavior as AI-adjacent, while the blind proposal noted no explicit AI wording. Because the described interaction may be AI-dependent but its implementation is unexplained, a supported non-AI negative is not justified; the final AI label and ai_enabled subtype are both weak and forced."
+}
