@@ -1,11 +1,11 @@
 {
-  "status": "active",
+  "status": "planned_labeling_complete_with_semantic_acceptance_holds",
   "lane": "codex",
-  "updated_at": "2026-10-21T01:27:11.715637+00:00",
-  "new_completed_descriptions": 560,
-  "new_completed_rows": 574,
-  "remaining_lane_descriptions": 51,
-  "remaining_lane_rows": 51,
+  "updated_at": "2026-10-21T01:28:19.144411+00:00",
+  "new_completed_descriptions": 571,
+  "new_completed_rows": 585,
+  "remaining_lane_descriptions": 40,
+  "remaining_lane_rows": 40,
   "finalized_batches": [
     "batch-001",
     "batch-002",
@@ -34,12 +34,13 @@
     "batch-026",
     "batch-027",
     "batch-028",
-    "batch-029"
+    "batch-029",
+    "batch-031"
   ],
-  "current_batch": "batch-031",
+  "current_batch": null,
   "next_batch": null,
-  "current_stage": "reconciliation",
-  "active_workers": 1,
+  "current_stage": "all_planned_annotations_finished_pending_hold_disposition",
+  "active_workers": 0,
   "resume_requires_user_request": false,
   "stop_on_usage_limit": true,
   "independent_workflow_run_id": "ef0dd92e-adaa-4163-9a34-3d9dec0972b2",
@@ -66,5 +67,5 @@
     }
   ],
   "major_stop_receipt": "runtime/MAJOR_RUNTIME_STOP_20261020.json",
-  "reconciliation_workflow_run_id": "f5f58013-c6dd-4aed-8501-1ad1e21057be"
+  "reconciliation_workflow_run_id": null
 }

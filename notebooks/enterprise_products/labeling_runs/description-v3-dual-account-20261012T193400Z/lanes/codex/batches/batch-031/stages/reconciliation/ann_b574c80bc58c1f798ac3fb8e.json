@@ -1,0 +1,21 @@
+{
+  "annotation_id": "ann_b574c80bc58c1f798ac3fb8e",
+  "description_sha256": "10a6a98ab3a6aadd22735672369b57caf3b986ae453fd747f6387a757d039929",
+  "ai_status": "ai",
+  "ai_type": "ai_native",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "The description explicitly says this text analytics application uses machine learning and artificial intelligence for customer interaction insights, satisfying the binary positive rule. It also describes automated theme/topic, relation, trend, and sentiment analysis.",
+  "ai_type_rationale": "The AI is associated directly with the described application's analytics and discovery functions, making ai_native the best tentative subtype. However, the text does not establish whether meaningful conventional text-analysis functionality remains without AI or that the core depends on AI; subtype is therefore weak/forced.",
+  "evidence_spans": [
+    "Verint Text Analytics uses machine learning and artificial intelligence to provide deep insights about your text-based customer interactions.",
+    "The application can automatically identify topics, relations, and significant trends, as well as the customer sentiment throughout the interactions."
+  ],
+  "ai_type_evidence_spans": [
+    "Verint Text Analytics uses machine learning and artificial intelligence to provide deep insights about your text-based customer interactions.",
+    "The application can automatically identify topics, relations, and significant trends, as well as the customer sentiment throughout the interactions."
+  ],
+  "conflict_response": "The explicit product-specific AI/ML statement resolves the binary positive independently of subtype. The text places AI in the application's central insight and identification functionality, but it does not say whether that is indispensable or whether conventional analysis remains without it. Thus ai_native is the best tentative subtype, but subtype certainty is weak/forced; neither core dependence nor an AI-free conventional core is established."
+}
