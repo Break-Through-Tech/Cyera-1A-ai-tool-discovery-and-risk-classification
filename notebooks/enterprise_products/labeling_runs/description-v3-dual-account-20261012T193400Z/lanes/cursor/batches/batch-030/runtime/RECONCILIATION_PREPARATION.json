@@ -1,0 +1,47 @@
+{
+  "status": "exact 11-ID reconciliation packet prepared; one original-Luna semantic pass only",
+  "ids": [
+    "ann_0a3c62999d2174bd98a63e46",
+    "ann_5a89bd919f85895eceb84977",
+    "ann_75575b770a427c686f4a51ef",
+    "ann_865177823374b329149363b2",
+    "ann_92d9e1d4347153b8a1e2e047",
+    "ann_be358582d6232ed0fe502f15",
+    "ann_bf63f0fd1ad3f1f700d4c110",
+    "ann_bff271789bbc034b78314ce0",
+    "ann_e5e88b5a5a3791d36f71f495",
+    "ann_f0b466b35258a37f41827933",
+    "ann_fd0e3a419f2074d135e20422"
+  ],
+  "workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/reconciliation-030",
+  "files": {
+    "description_packet.json": "3d4a28db7f348f363e35b577db279dc61d439fe4c27fd4ed7eb83b92496110e9",
+    "role_prompt.md": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+    "schema.json": "f7d2dfe7c2fcc151d49518568b209bc212a9a9c1f93246829de230d536377a3a"
+  },
+  "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+  "model_id": "gpt-5.6-luna-high",
+  "native_uuid": "46a35e15-7625-4c72-ad71-91612d7ce721",
+  "stage_assignment": {
+    "stage": "reconciliation",
+    "run_id": "batch-030",
+    "batch_id": "batch-030",
+    "rubric_id": "enterprise-description-only-v3",
+    "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+    "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+    "model_id": "gpt-5.6-luna-high",
+    "assigned_annotation_ids": [
+      "ann_0a3c62999d2174bd98a63e46",
+      "ann_5a89bd919f85895eceb84977",
+      "ann_75575b770a427c686f4a51ef",
+      "ann_865177823374b329149363b2",
+      "ann_92d9e1d4347153b8a1e2e047",
+      "ann_be358582d6232ed0fe502f15",
+      "ann_bf63f0fd1ad3f1f700d4c110",
+      "ann_bff271789bbc034b78314ce0",
+      "ann_e5e88b5a5a3791d36f71f495",
+      "ann_f0b466b35258a37f41827933",
+      "ann_fd0e3a419f2074d135e20422"
+    ]
+  }
+}

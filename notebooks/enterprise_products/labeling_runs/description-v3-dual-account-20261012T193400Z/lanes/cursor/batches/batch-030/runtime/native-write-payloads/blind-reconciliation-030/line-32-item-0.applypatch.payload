@@ -1,0 +1,21 @@
+*** Begin Patch
+*** Add File: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/reconciliation-030/checkpoints/ann_75575b770a427c686f4a51ef.json
++{
++  "annotation_id": "ann_75575b770a427c686f4a51ef",
++  "description_sha256": "48324ed5d4f769ca09c53c2571c890d8be31c2f0c400bdd1fe1d80273bd2bb91",
++  "ai_status": "non_ai",
++  "ai_type": null,
++  "evidence_strength": "weak",
++  "forced_decision": true,
++  "ai_type_evidence_strength": null,
++  "ai_type_forced_decision": null,
++  "rationale": "The description refers to cloud financial management practices and optimizing cloud resources, but is high-level and does not concretely describe software functionality; the non-AI judgment is therefore weak and forced.",
++  "ai_type_rationale": null,
++  "evidence_spans": [
++    "cloud financial management best practices",
++    "optimize cloud resources for speed, cost, and quality"
++  ],
++  "ai_type_evidence_spans": null,
++  "conflict_response": "The labeler and blind proposal agree on a non-AI binary, but differ on strength. The parent concern that this is a support/marketing statement without concrete functions is valid: the text supplies conventional resource-optimization aims but not enough operational detail for a firm negative. I retain non-AI as the best judgment while marking it weak and forced."
++}
+*** End Patch

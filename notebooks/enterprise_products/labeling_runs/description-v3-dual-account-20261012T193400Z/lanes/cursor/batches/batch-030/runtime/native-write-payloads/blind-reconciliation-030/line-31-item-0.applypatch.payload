@@ -1,0 +1,22 @@
+*** Begin Patch
+*** Add File: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/reconciliation-030/checkpoints/ann_5a89bd919f85895eceb84977.json
++{
++  "annotation_id": "ann_5a89bd919f85895eceb84977",
++  "description_sha256": "7bb6a6d4af5baa31e5e0b9e3a754aae9e4ae57613db492e08297edf98d32254a",
++  "ai_status": "ai",
++  "ai_type": "ai_enabled",
++  "evidence_strength": "supported",
++  "forced_decision": false,
++  "ai_type_evidence_strength": "weak",
++  "ai_type_forced_decision": true,
++  "rationale": "The description explicitly describes the product's data management capabilities as AI-powered.",
++  "ai_type_rationale": "The description lists substantial conventional data-management functions alongside the AI-powered capability, which supports an AI-enabled reading, but it does not explicitly state that those functions remain without AI or that AI is an added layer; the subtype is therefore weak and forced.",
++  "evidence_spans": [
++    "cloud-native and AI-powered data management capabilities"
++  ],
++  "ai_type_evidence_spans": [
++    "including data catalog, data integration, API and application integration, data preparation, data quality, and a data marketplace"
++  ],
++  "conflict_response": "Both proposals correctly retain a supported AI binary because the description itself says the data management capabilities are AI-powered. The concern is material for subtype only: classifying the AI as an added layer is an inference not expressly made by the source, even though the listed catalog, integration, preparation, quality, and marketplace functions support the best-supported AI-enabled reading. I therefore preserve AI-enabled with weak evidence and a forced subtype decision."
++}
+*** End Patch

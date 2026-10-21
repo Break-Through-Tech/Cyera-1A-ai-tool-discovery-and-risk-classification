@@ -1,0 +1,21 @@
+*** Begin Patch
+*** Add File: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/reconciliation-030/checkpoints/ann_f0b466b35258a37f41827933.json
++{
++  "annotation_id": "ann_f0b466b35258a37f41827933",
++  "description_sha256": "094b168e1393b90ae636cbba8b6be0386603e98d1c56e8475ddf06668dfe67b7",
++  "ai_status": "non_ai",
++  "ai_type": null,
++  "evidence_strength": "weak",
++  "forced_decision": true,
++  "ai_type_evidence_strength": null,
++  "ai_type_forced_decision": null,
++  "rationale": "The description concerns dedicated government environments, compliance, and cloud infrastructure, but does not state a concrete software operation; the non-AI judgment is therefore weak and forced.",
++  "ai_type_rationale": null,
++  "evidence_spans": [
++    "Dedicated environments for U.S. government agencies and contractors",
++    "Built on AWS GovCloud, the market leading FedRAMP-authorized cloud"
++  ],
++  "ai_type_evidence_spans": null,
++  "conflict_response": "The labeler and blind proposal agree on non-AI, but the parent concern correctly identifies that the text describes a hosting/compliance environment rather than a concrete software function. Because the rubric requires meaningful conventional functionality for a supported negative, I retain non-AI as the best judgment but mark the evidence weak and the decision forced."
++}
+*** End Patch

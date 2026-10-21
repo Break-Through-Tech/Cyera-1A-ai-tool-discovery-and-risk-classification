@@ -1,0 +1,75 @@
+{
+  "batch_id": "batch-030",
+  "status": "one structural-only quote correction in the original labeler agent; original independent write payloads and pre-recovery files retained",
+  "native_uuid": "4c4db253-661b-4a72-8224-f6bb0ced9207",
+  "model_id": "claude-haiku-5-5-thinking-high",
+  "banner": "Claude Haiku 5.5 300K High",
+  "recovery_prompt_count": 1,
+  "changed_annotation_id": "ann_0a3c62999d2174bd98a63e46",
+  "changed_json_paths": [
+    "/evidence_spans[0]",
+    "result[matching annotation_id].evidence_spans[0]"
+  ],
+  "before_quote": "consolidates all IT infrastructure monitoring in a central event console",
+  "after_quote": "it consolidates all IT infrastructure monitoring in a central event console, and relates the events to the IT services that depend on that infrastructure.",
+  "source_hash_verified_by_helper": true,
+  "pre_recovery_copy_receipt": "runtime/STRUCTURAL_QUOTE_RECOVERY_PREPROOF.json",
+  "transcript": {
+    "source": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/4c4db253-661b-4a72-8224-f6bb0ced9207/4c4db253-661b-4a72-8224-f6bb0ced9207.jsonl",
+    "copy": "/home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/structural-quote-recovery-native/labeler-4c4db253-recovery-transcript.jsonl",
+    "sha256": "c2ed4d1e0582ad12437089342995fcc6415307320a22828da77d5011fd1e17c0",
+    "bytes": 80648
+  },
+  "tool_payloads": [
+    {
+      "transcript_line": 14,
+      "content_index": 1,
+      "tool": "StrReplace",
+      "archive": "runtime/structural-quote-recovery-native/line-14-item-1.strreplace.json",
+      "sha256": "d299ccd5bdadcfde511213926e2bd46901c39f6b148c400fd46a1e9a84bf46f8",
+      "bytes": 583
+    },
+    {
+      "transcript_line": 14,
+      "content_index": 2,
+      "tool": "StrReplace",
+      "archive": "runtime/structural-quote-recovery-native/line-14-item-2.strreplace.json",
+      "sha256": "d1aef67ac6bb7ca81a3bd6928a8c4140b81b76460ab7125bafbb20bea03803da",
+      "bytes": 553
+    },
+    {
+      "transcript_line": 16,
+      "content_index": 1,
+      "tool": "StrReplace",
+      "archive": "runtime/structural-quote-recovery-native/line-16-item-1.strreplace.json",
+      "sha256": "e40ebdf4494e7b4b33db60ee1f363a1af84d427b60346b6e867944e036f2e091",
+      "bytes": 665
+    },
+    {
+      "transcript_line": 17,
+      "content_index": 1,
+      "tool": "StrReplace",
+      "archive": "runtime/structural-quote-recovery-native/line-17-item-1.strreplace.json",
+      "sha256": "e40ebdf4494e7b4b33db60ee1f363a1af84d427b60346b6e867944e036f2e091",
+      "bytes": 665
+    },
+    {
+      "transcript_line": 18,
+      "content_index": 1,
+      "tool": "StrReplace",
+      "archive": "runtime/structural-quote-recovery-native/line-18-item-1.strreplace.json",
+      "sha256": "e29112729ecd305ed22e25aea0a9faf1fb46f836bddd1c8680e9ae7ce95c5076",
+      "bytes": 677
+    },
+    {
+      "transcript_line": 18,
+      "content_index": 2,
+      "tool": "StrReplace",
+      "archive": "runtime/structural-quote-recovery-native/line-18-item-2.strreplace.json",
+      "sha256": "531b4e75d2b73f994c32b6bb20b979966aadd37d976f020a1951d070b90d48bb",
+      "bytes": 647
+    }
+  ],
+  "tool_call_count": 6,
+  "final_helper_validation": "INDEPENDENT_RESULT_VALIDATION.json and helper.load_stage(labeler) both passed 20/20 exact IDs/hash/schema/source quotes after correction"
+}

@@ -1,0 +1,95 @@
+{
+  "batch_id": "batch-030",
+  "frozen_plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "selected_descriptions": 20,
+  "selected_source_references": 20,
+  "exact_plan_description_hash_and_all_source_references": true,
+  "selection_sha256": "f1e51168a95b1cfdbde570db988a419ca3030848c4bfd5389d68ce331c1e1946",
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "role_workspaces": {
+    "labeler": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler",
+    "blind": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind"
+  },
+  "stage_assignments_persisted_before_launch": true,
+  "private_artifacts": {
+    "labeler": {
+      "description_packet.json": "e9458360406ca8c2be2359607b51016d599b65aadc6d33c3d0b048ee420be8fd",
+      "role_prompt.md": "4e0befda2866fd895e1bc2ea26297e5f2b5f451d3af0a780cb49356539dfbf33",
+      "schema.json": "40653718d1338cda456d4a1e2ec551c37f1a0718eeb9513b29acbe104b29b128"
+    },
+    "blind": {
+      "description_packet.json": "e9458360406ca8c2be2359607b51016d599b65aadc6d33c3d0b048ee420be8fd",
+      "role_prompt.md": "66f1d0f9ab28589969c3274df80a5499002ec98777d9ba7517bfeb4ff535cab1",
+      "schema.json": "40653718d1338cda456d4a1e2ec551c37f1a0718eeb9513b29acbe104b29b128"
+    }
+  },
+  "stages": {
+    "labeler": {
+      "stage": "labeler",
+      "run_id": "batch-030",
+      "batch_id": "batch-030",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "4e0befda2866fd895e1bc2ea26297e5f2b5f451d3af0a780cb49356539dfbf33",
+      "model_id": "claude-haiku-5-5-thinking-high",
+      "assigned_annotation_ids": [
+        "ann_e5e88b5a5a3791d36f71f495",
+        "ann_bff271789bbc034b78314ce0",
+        "ann_be358582d6232ed0fe502f15",
+        "ann_3d219f570d079376752f2753",
+        "ann_f0b466b35258a37f41827933",
+        "ann_5a89bd919f85895eceb84977",
+        "ann_865177823374b329149363b2",
+        "ann_92d9e1d4347153b8a1e2e047",
+        "ann_bcdd58c48c34d44629403a5d",
+        "ann_49f95d96fc56297ae0967c41",
+        "ann_bf63f0fd1ad3f1f700d4c110",
+        "ann_8dbf3d8911a1c4d98e2f71b6",
+        "ann_ee95225a60f47e03ae47ee91",
+        "ann_7b4dfb94ed3c09a6853a4236",
+        "ann_a6f9ebbe996d87dd42ef23fe",
+        "ann_75575b770a427c686f4a51ef",
+        "ann_57e4625d4b098fc31212cad3",
+        "ann_fd0e3a419f2074d135e20422",
+        "ann_0a3c62999d2174bd98a63e46",
+        "ann_f45e08be6374c8eb01d07f51"
+      ]
+    },
+    "blind": {
+      "stage": "blind",
+      "run_id": "batch-030",
+      "batch_id": "batch-030",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "66f1d0f9ab28589969c3274df80a5499002ec98777d9ba7517bfeb4ff535cab1",
+      "model_id": "gpt-5.6-luna-high",
+      "assigned_annotation_ids": [
+        "ann_e5e88b5a5a3791d36f71f495",
+        "ann_bff271789bbc034b78314ce0",
+        "ann_be358582d6232ed0fe502f15",
+        "ann_3d219f570d079376752f2753",
+        "ann_f0b466b35258a37f41827933",
+        "ann_5a89bd919f85895eceb84977",
+        "ann_865177823374b329149363b2",
+        "ann_92d9e1d4347153b8a1e2e047",
+        "ann_bcdd58c48c34d44629403a5d",
+        "ann_49f95d96fc56297ae0967c41",
+        "ann_bf63f0fd1ad3f1f700d4c110",
+        "ann_8dbf3d8911a1c4d98e2f71b6",
+        "ann_ee95225a60f47e03ae47ee91",
+        "ann_7b4dfb94ed3c09a6853a4236",
+        "ann_a6f9ebbe996d87dd42ef23fe",
+        "ann_75575b770a427c686f4a51ef",
+        "ann_57e4625d4b098fc31212cad3",
+        "ann_fd0e3a419f2074d135e20422",
+        "ann_0a3c62999d2174bd98a63e46",
+        "ann_f45e08be6374c8eb01d07f51"
+      ]
+    }
+  },
+  "workers_started": false
+}

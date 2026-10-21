@@ -1,0 +1,554 @@
+{
+  "batch_id": "batch-030",
+  "status": "all original native payloads/transcripts registered before comparison",
+  "plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "roles": {
+    "labeler": {
+      "native_uuid": "4c4db253-661b-4a72-8224-f6bb0ced9207",
+      "model_id": "claude-haiku-5-5-thinking-high",
+      "banner": "Claude Haiku 5.5 300K High",
+      "workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler",
+      "transcript": {
+        "source_path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/4c4db253-661b-4a72-8224-f6bb0ced9207/4c4db253-661b-4a72-8224-f6bb0ced9207.jsonl",
+        "sha256": "fa44bfba662168d5ddb897eea5aee705d230a4ab1012bbcb6ce8a906f632da3d",
+        "bytes": 58411,
+        "preserved_copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/cumulative-native-transcripts/labeler-4c4db253-661b-4a72-8224-f6bb0ced9207.jsonl"
+      },
+      "initial_single_write_payload_count": 21,
+      "initial_single_write_payloads": [
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_0a3c62999d2174bd98a63e46.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_0a3c62999d2174bd98a63e46.json.line-4.write.payload",
+          "raw_payload_sha256": "6db7604b600114c0a61f143c0a83c257aaa602e7321d8c90670213c6eea35af8",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_0a3c62999d2174bd98a63e46.json",
+          "initial_snapshot_sha256": "6db7604b600114c0a61f143c0a83c257aaa602e7321d8c90670213c6eea35af8",
+          "initial_snapshot_bytes": 889
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_3d219f570d079376752f2753.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_3d219f570d079376752f2753.json.line-4.write.payload",
+          "raw_payload_sha256": "bf909ff3255054287388891a2e98b034ce273b1da3c5253817965187a0e0823a",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_3d219f570d079376752f2753.json",
+          "initial_snapshot_sha256": "bf909ff3255054287388891a2e98b034ce273b1da3c5253817965187a0e0823a",
+          "initial_snapshot_bytes": 738
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_49f95d96fc56297ae0967c41.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_49f95d96fc56297ae0967c41.json.line-4.write.payload",
+          "raw_payload_sha256": "0b4e88903b38de08702c8613ef9d5befb8cafbd814d3567a01441de04652589f",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_49f95d96fc56297ae0967c41.json",
+          "initial_snapshot_sha256": "0b4e88903b38de08702c8613ef9d5befb8cafbd814d3567a01441de04652589f",
+          "initial_snapshot_bytes": 733
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_57e4625d4b098fc31212cad3.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_57e4625d4b098fc31212cad3.json.line-4.write.payload",
+          "raw_payload_sha256": "4ab21b92d11759bff5c766e9307acf445808b51f2d7913e76efa0744f18eaceb",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_57e4625d4b098fc31212cad3.json",
+          "initial_snapshot_sha256": "4ab21b92d11759bff5c766e9307acf445808b51f2d7913e76efa0744f18eaceb",
+          "initial_snapshot_bytes": 758
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_5a89bd919f85895eceb84977.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_5a89bd919f85895eceb84977.json.line-4.write.payload",
+          "raw_payload_sha256": "15952d6c763268550ecbe6cf1fcbeb7dcc5fb8c2c02bd50e76354671ce7d8d56",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_5a89bd919f85895eceb84977.json",
+          "initial_snapshot_sha256": "15952d6c763268550ecbe6cf1fcbeb7dcc5fb8c2c02bd50e76354671ce7d8d56",
+          "initial_snapshot_bytes": 1047
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_75575b770a427c686f4a51ef.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_75575b770a427c686f4a51ef.json.line-4.write.payload",
+          "raw_payload_sha256": "0af6a5e46bce682fdb72ee13062f71ae9752bc97844a5b1ebbead5ae1e1aad8e",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_75575b770a427c686f4a51ef.json",
+          "initial_snapshot_sha256": "0af6a5e46bce682fdb72ee13062f71ae9752bc97844a5b1ebbead5ae1e1aad8e",
+          "initial_snapshot_bytes": 836
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_7b4dfb94ed3c09a6853a4236.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_7b4dfb94ed3c09a6853a4236.json.line-4.write.payload",
+          "raw_payload_sha256": "b80c13ae96cd92e2dce7e52eee018c0796a4bae6051cab82441865308c7ba305",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_7b4dfb94ed3c09a6853a4236.json",
+          "initial_snapshot_sha256": "b80c13ae96cd92e2dce7e52eee018c0796a4bae6051cab82441865308c7ba305",
+          "initial_snapshot_bytes": 673
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_865177823374b329149363b2.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_865177823374b329149363b2.json.line-4.write.payload",
+          "raw_payload_sha256": "d22a39978587b1f1fd0b947d7e54ff0e2dd40b83e5426f859e3238c0b9591450",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_865177823374b329149363b2.json",
+          "initial_snapshot_sha256": "d22a39978587b1f1fd0b947d7e54ff0e2dd40b83e5426f859e3238c0b9591450",
+          "initial_snapshot_bytes": 1098
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_8dbf3d8911a1c4d98e2f71b6.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_8dbf3d8911a1c4d98e2f71b6.json.line-4.write.payload",
+          "raw_payload_sha256": "74cd838334115bfee430762924f1a733bcb9cf559e0a89f53e4221fd35913caf",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_8dbf3d8911a1c4d98e2f71b6.json",
+          "initial_snapshot_sha256": "74cd838334115bfee430762924f1a733bcb9cf559e0a89f53e4221fd35913caf",
+          "initial_snapshot_bytes": 791
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_92d9e1d4347153b8a1e2e047.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_92d9e1d4347153b8a1e2e047.json.line-4.write.payload",
+          "raw_payload_sha256": "aa8e11dbc55f9e6c2d5c6d91201704d89e81d1c4d6663d5c6008a5cc45e0171b",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_92d9e1d4347153b8a1e2e047.json",
+          "initial_snapshot_sha256": "aa8e11dbc55f9e6c2d5c6d91201704d89e81d1c4d6663d5c6008a5cc45e0171b",
+          "initial_snapshot_bytes": 1144
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_a6f9ebbe996d87dd42ef23fe.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_a6f9ebbe996d87dd42ef23fe.json.line-4.write.payload",
+          "raw_payload_sha256": "45aeb40d5d15bbcd0baf08e9c20a76ae6dc9069d901b7feaeb068db5e3cb93a9",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_a6f9ebbe996d87dd42ef23fe.json",
+          "initial_snapshot_sha256": "45aeb40d5d15bbcd0baf08e9c20a76ae6dc9069d901b7feaeb068db5e3cb93a9",
+          "initial_snapshot_bytes": 1068
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_bcdd58c48c34d44629403a5d.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_bcdd58c48c34d44629403a5d.json.line-4.write.payload",
+          "raw_payload_sha256": "314a0fcec8d6e7c54a7d0f45eec3a03998a28e5616a1e35d05243594fd5f3ddc",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_bcdd58c48c34d44629403a5d.json",
+          "initial_snapshot_sha256": "314a0fcec8d6e7c54a7d0f45eec3a03998a28e5616a1e35d05243594fd5f3ddc",
+          "initial_snapshot_bytes": 760
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_be358582d6232ed0fe502f15.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_be358582d6232ed0fe502f15.json.line-4.write.payload",
+          "raw_payload_sha256": "2a0f8dac6acb0cc5e94b5d3232545c25ff82a92b9ad2cbb8e4613fcff6678f86",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_be358582d6232ed0fe502f15.json",
+          "initial_snapshot_sha256": "2a0f8dac6acb0cc5e94b5d3232545c25ff82a92b9ad2cbb8e4613fcff6678f86",
+          "initial_snapshot_bytes": 673
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_bf63f0fd1ad3f1f700d4c110.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_bf63f0fd1ad3f1f700d4c110.json.line-4.write.payload",
+          "raw_payload_sha256": "fa2c56688e3f6d38a6a79c51785aa22f542470f91d8c79c36d92027c02e4930e",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_bf63f0fd1ad3f1f700d4c110.json",
+          "initial_snapshot_sha256": "fa2c56688e3f6d38a6a79c51785aa22f542470f91d8c79c36d92027c02e4930e",
+          "initial_snapshot_bytes": 787
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_bff271789bbc034b78314ce0.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_bff271789bbc034b78314ce0.json.line-4.write.payload",
+          "raw_payload_sha256": "c93771980a4328c426d96092aec0bb3fa1d5b8c53217cb363172a7d4e7b75d16",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_bff271789bbc034b78314ce0.json",
+          "initial_snapshot_sha256": "c93771980a4328c426d96092aec0bb3fa1d5b8c53217cb363172a7d4e7b75d16",
+          "initial_snapshot_bytes": 786
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_e5e88b5a5a3791d36f71f495.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_e5e88b5a5a3791d36f71f495.json.line-4.write.payload",
+          "raw_payload_sha256": "83a29befd007b54211e1d004f8e3eaaecd42a92b28eda59899ef52202ea0592e",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_e5e88b5a5a3791d36f71f495.json",
+          "initial_snapshot_sha256": "83a29befd007b54211e1d004f8e3eaaecd42a92b28eda59899ef52202ea0592e",
+          "initial_snapshot_bytes": 826
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_ee95225a60f47e03ae47ee91.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_ee95225a60f47e03ae47ee91.json.line-4.write.payload",
+          "raw_payload_sha256": "4f7e7e2c9fb7229b5321a60441a37a2b626a9202672786d4e0ddff30a99e231c",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_ee95225a60f47e03ae47ee91.json",
+          "initial_snapshot_sha256": "4f7e7e2c9fb7229b5321a60441a37a2b626a9202672786d4e0ddff30a99e231c",
+          "initial_snapshot_bytes": 851
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_f0b466b35258a37f41827933.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_f0b466b35258a37f41827933.json.line-4.write.payload",
+          "raw_payload_sha256": "dd9e954f781e89186c601e466d9a01f4d10dc8876f540b9ab97850edbbf60e74",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_f0b466b35258a37f41827933.json",
+          "initial_snapshot_sha256": "dd9e954f781e89186c601e466d9a01f4d10dc8876f540b9ab97850edbbf60e74",
+          "initial_snapshot_bytes": 777
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_f45e08be6374c8eb01d07f51.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_f45e08be6374c8eb01d07f51.json.line-4.write.payload",
+          "raw_payload_sha256": "e3f19aac4a1c3bbed54c97c66835b94aa8d0b1d7374ef20c3ae2f003a02ea05e",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_f45e08be6374c8eb01d07f51.json",
+          "initial_snapshot_sha256": "e3f19aac4a1c3bbed54c97c66835b94aa8d0b1d7374ef20c3ae2f003a02ea05e",
+          "initial_snapshot_bytes": 800
+        },
+        {
+          "transcript_line": 4,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_fd0e3a419f2074d135e20422.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/ann_fd0e3a419f2074d135e20422.json.line-4.write.payload",
+          "raw_payload_sha256": "e1cd7ac4e3a5385427dca9767b0c9a8ec0644b8da16979ee78b17b31a0492164",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/checkpoints/ann_fd0e3a419f2074d135e20422.json",
+          "initial_snapshot_sha256": "e1cd7ac4e3a5385427dca9767b0c9a8ec0644b8da16979ee78b17b31a0492164",
+          "initial_snapshot_bytes": 743
+        },
+        {
+          "transcript_line": 5,
+          "tool": "Write",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/result.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/labeler-verified-from-transcript/result.json.line-5.write.payload",
+          "raw_payload_sha256": "b8c8529e2993e66343e8aed07efaae5fb6971373f42eac776034543cabda9f1c",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/labeler/result.json",
+          "initial_snapshot_sha256": "b8c8529e2993e66343e8aed07efaae5fb6971373f42eac776034543cabda9f1c",
+          "initial_snapshot_bytes": 17481
+        }
+      ],
+      "update_count": 0,
+      "updates": [],
+      "current_checkpoint_hashes": {
+        "ann_0a3c62999d2174bd98a63e46.json": "6db7604b600114c0a61f143c0a83c257aaa602e7321d8c90670213c6eea35af8",
+        "ann_3d219f570d079376752f2753.json": "bf909ff3255054287388891a2e98b034ce273b1da3c5253817965187a0e0823a",
+        "ann_49f95d96fc56297ae0967c41.json": "0b4e88903b38de08702c8613ef9d5befb8cafbd814d3567a01441de04652589f",
+        "ann_57e4625d4b098fc31212cad3.json": "4ab21b92d11759bff5c766e9307acf445808b51f2d7913e76efa0744f18eaceb",
+        "ann_5a89bd919f85895eceb84977.json": "15952d6c763268550ecbe6cf1fcbeb7dcc5fb8c2c02bd50e76354671ce7d8d56",
+        "ann_75575b770a427c686f4a51ef.json": "0af6a5e46bce682fdb72ee13062f71ae9752bc97844a5b1ebbead5ae1e1aad8e",
+        "ann_7b4dfb94ed3c09a6853a4236.json": "b80c13ae96cd92e2dce7e52eee018c0796a4bae6051cab82441865308c7ba305",
+        "ann_865177823374b329149363b2.json": "d22a39978587b1f1fd0b947d7e54ff0e2dd40b83e5426f859e3238c0b9591450",
+        "ann_8dbf3d8911a1c4d98e2f71b6.json": "74cd838334115bfee430762924f1a733bcb9cf559e0a89f53e4221fd35913caf",
+        "ann_92d9e1d4347153b8a1e2e047.json": "aa8e11dbc55f9e6c2d5c6d91201704d89e81d1c4d6663d5c6008a5cc45e0171b",
+        "ann_a6f9ebbe996d87dd42ef23fe.json": "45aeb40d5d15bbcd0baf08e9c20a76ae6dc9069d901b7feaeb068db5e3cb93a9",
+        "ann_bcdd58c48c34d44629403a5d.json": "314a0fcec8d6e7c54a7d0f45eec3a03998a28e5616a1e35d05243594fd5f3ddc",
+        "ann_be358582d6232ed0fe502f15.json": "2a0f8dac6acb0cc5e94b5d3232545c25ff82a92b9ad2cbb8e4613fcff6678f86",
+        "ann_bf63f0fd1ad3f1f700d4c110.json": "fa2c56688e3f6d38a6a79c51785aa22f542470f91d8c79c36d92027c02e4930e",
+        "ann_bff271789bbc034b78314ce0.json": "c93771980a4328c426d96092aec0bb3fa1d5b8c53217cb363172a7d4e7b75d16",
+        "ann_e5e88b5a5a3791d36f71f495.json": "83a29befd007b54211e1d004f8e3eaaecd42a92b28eda59899ef52202ea0592e",
+        "ann_ee95225a60f47e03ae47ee91.json": "4f7e7e2c9fb7229b5321a60441a37a2b626a9202672786d4e0ddff30a99e231c",
+        "ann_f0b466b35258a37f41827933.json": "dd9e954f781e89186c601e466d9a01f4d10dc8876f540b9ab97850edbbf60e74",
+        "ann_f45e08be6374c8eb01d07f51.json": "e3f19aac4a1c3bbed54c97c66835b94aa8d0b1d7374ef20c3ae2f003a02ea05e",
+        "ann_fd0e3a419f2074d135e20422.json": "e1cd7ac4e3a5385427dca9767b0c9a8ec0644b8da16979ee78b17b31a0492164"
+      },
+      "current_result_sha256": "b8c8529e2993e66343e8aed07efaae5fb6971373f42eac776034543cabda9f1c",
+      "checkpoint_count": 20,
+      "result_record_count": 20,
+      "all_initial_payloads_plus_updates_equal_current_files": true
+    },
+    "blind": {
+      "native_uuid": "46a35e15-7625-4c72-ad71-91612d7ce721",
+      "model_id": "gpt-5.6-luna-high",
+      "banner": "GPT-5.6 Luna 272K High",
+      "workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind",
+      "transcript": {
+        "source_path": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/46a35e15-7625-4c72-ad71-91612d7ce721/46a35e15-7625-4c72-ad71-91612d7ce721.jsonl",
+        "sha256": "2d731cff3f586e647b63d4770080c600b0b57e94628487d1aa82cd69c8ebf735",
+        "bytes": 49575,
+        "preserved_copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/cumulative-native-transcripts/blind-46a35e15-7625-4c72-ad71-91612d7ce721.jsonl"
+      },
+      "initial_single_write_payload_count": 21,
+      "initial_single_write_payloads": [
+        {
+          "transcript_line": 3,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_0a3c62999d2174bd98a63e46.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_0a3c62999d2174bd98a63e46.json.line-3.applypatch.payload",
+          "raw_payload_sha256": "c6b1c901cf989b764a726e53b77ae09dce6e1052ce0b41372da9e4a4375ee354",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_0a3c62999d2174bd98a63e46.json",
+          "initial_snapshot_sha256": "324618fb7ad1052b664f8ff9359ee754cb6e68c3fb00e048f781fe7941533277",
+          "initial_snapshot_bytes": 744
+        },
+        {
+          "transcript_line": 5,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_3d219f570d079376752f2753.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_3d219f570d079376752f2753.json.line-5.applypatch.payload",
+          "raw_payload_sha256": "765e66acdb49d1aa7f099f35a0e93d9c97b7b92b45e683aa1e7d42ef74e0037c",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_3d219f570d079376752f2753.json",
+          "initial_snapshot_sha256": "bd1d0f941b9b7bd1b7d6365da333b8822a9174cb9ac6c63edbed999d101b275c",
+          "initial_snapshot_bytes": 655
+        },
+        {
+          "transcript_line": 6,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_49f95d96fc56297ae0967c41.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_49f95d96fc56297ae0967c41.json.line-6.applypatch.payload",
+          "raw_payload_sha256": "13442a6f4518cc2a23f7b3545ec86502800e38617a1449e5137deddc7a017a7f",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_49f95d96fc56297ae0967c41.json",
+          "initial_snapshot_sha256": "a093ae3bfe6887d72d4b458bb76b5ae1d64828ba47ec85e541b14033132aaf45",
+          "initial_snapshot_bytes": 676
+        },
+        {
+          "transcript_line": 7,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_57e4625d4b098fc31212cad3.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_57e4625d4b098fc31212cad3.json.line-7.applypatch.payload",
+          "raw_payload_sha256": "298914f3678cf92cb2879e687d533b75f503369e7e3c30ec6077cdab058cb3b9",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_57e4625d4b098fc31212cad3.json",
+          "initial_snapshot_sha256": "f0bf2e18665724ae063aa9ad103a86b4a358d8416eac4bfe1cb6d85c78601859",
+          "initial_snapshot_bytes": 675
+        },
+        {
+          "transcript_line": 8,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_5a89bd919f85895eceb84977.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_5a89bd919f85895eceb84977.json.line-8.applypatch.payload",
+          "raw_payload_sha256": "caca338ba3cbd6e903fc379437169eb21e0cf7ad94595f41ca8fd65f1ea99681",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_5a89bd919f85895eceb84977.json",
+          "initial_snapshot_sha256": "edffb6557149a9784709acf69aa3c89324402a5ed1f959c6e42a5fb29a553098",
+          "initial_snapshot_bytes": 927
+        },
+        {
+          "transcript_line": 9,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_75575b770a427c686f4a51ef.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_75575b770a427c686f4a51ef.json.line-9.applypatch.payload",
+          "raw_payload_sha256": "2014895dad070ba65b0a2753f7ba332a919cfa574957c06a515fb37a4a3d30ce",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_75575b770a427c686f4a51ef.json",
+          "initial_snapshot_sha256": "5d5be2d5f4436a6c1952564cfc42b88433b16a4f284448936d0ff32b628d7fda",
+          "initial_snapshot_bytes": 648
+        },
+        {
+          "transcript_line": 10,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_7b4dfb94ed3c09a6853a4236.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_7b4dfb94ed3c09a6853a4236.json.line-10.applypatch.payload",
+          "raw_payload_sha256": "80ed9231467d42bb1c306f73af999a37c9dd050fb81b9e95cfe9b7e753db3b14",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_7b4dfb94ed3c09a6853a4236.json",
+          "initial_snapshot_sha256": "019411dbb2781d29d73598034c2cb9fbdeb2ca42cf30f451fdabe31dd96a49a2",
+          "initial_snapshot_bytes": 674
+        },
+        {
+          "transcript_line": 11,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_865177823374b329149363b2.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_865177823374b329149363b2.json.line-11.applypatch.payload",
+          "raw_payload_sha256": "d814db5884f9a4d44e8548145a8d788c7ccfb5f8837de50c6cc23ade6e3a3acf",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_865177823374b329149363b2.json",
+          "initial_snapshot_sha256": "03997112de8a96b82895da264dc0b817af118c92a735a32223d05b65bf681267",
+          "initial_snapshot_bytes": 702
+        },
+        {
+          "transcript_line": 12,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_8dbf3d8911a1c4d98e2f71b6.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_8dbf3d8911a1c4d98e2f71b6.json.line-12.applypatch.payload",
+          "raw_payload_sha256": "8e2886c578987a88740262264f74128b9cc0b676b4487708ab23d1f010820fd6",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_8dbf3d8911a1c4d98e2f71b6.json",
+          "initial_snapshot_sha256": "7539591305383d4333bca75d8c501885a89fc036c2c96f22298c245bf8243f57",
+          "initial_snapshot_bytes": 663
+        },
+        {
+          "transcript_line": 13,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_92d9e1d4347153b8a1e2e047.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_92d9e1d4347153b8a1e2e047.json.line-13.applypatch.payload",
+          "raw_payload_sha256": "ae55268e25898c5e093ad41e8009c7a35bf45bec97603ca6b84e07d747fd1802",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_92d9e1d4347153b8a1e2e047.json",
+          "initial_snapshot_sha256": "de753b5e698da27394f2f95a81a843cf02590211accc0eb7688e5d900942438c",
+          "initial_snapshot_bytes": 717
+        },
+        {
+          "transcript_line": 14,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_a6f9ebbe996d87dd42ef23fe.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_a6f9ebbe996d87dd42ef23fe.json.line-14.applypatch.payload",
+          "raw_payload_sha256": "3db221d5967b6af76eb51acbcd0d8abf427eb57b4772e452ca003da69bd2b414",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_a6f9ebbe996d87dd42ef23fe.json",
+          "initial_snapshot_sha256": "10651586ec1c3b60dc6349c47751c1b00e08f356d43e19a5968cda6ad3428020",
+          "initial_snapshot_bytes": 1268
+        },
+        {
+          "transcript_line": 15,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_bcdd58c48c34d44629403a5d.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_bcdd58c48c34d44629403a5d.json.line-15.applypatch.payload",
+          "raw_payload_sha256": "3ee7d8d5d7e180362c1375a9cd9f248e7c9b80ec1f49a74f078423c171b0afef",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_bcdd58c48c34d44629403a5d.json",
+          "initial_snapshot_sha256": "c3ae92d09656cccf1a641533c2d9abeefef044fb1e0277f00b0ac888cde21e91",
+          "initial_snapshot_bytes": 649
+        },
+        {
+          "transcript_line": 16,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_be358582d6232ed0fe502f15.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_be358582d6232ed0fe502f15.json.line-16.applypatch.payload",
+          "raw_payload_sha256": "de8f6e02a0558f3c98226226adf35459b5f797bbc836abbcc601d2de3ce6c850",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_be358582d6232ed0fe502f15.json",
+          "initial_snapshot_sha256": "ff426de1af3b830a9622ae1e43f12aa452983bf14bf0b8043582b56b51d3b71f",
+          "initial_snapshot_bytes": 610
+        },
+        {
+          "transcript_line": 17,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_bf63f0fd1ad3f1f700d4c110.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_bf63f0fd1ad3f1f700d4c110.json.line-17.applypatch.payload",
+          "raw_payload_sha256": "a3a4959b9b626d09340779a75fe90796c10ab68656a8dc3e1410000fb44437b6",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_bf63f0fd1ad3f1f700d4c110.json",
+          "initial_snapshot_sha256": "1d14b2cb476a9420c71515d33c21b153238257db1c7de05bed5fb968f99f9dea",
+          "initial_snapshot_bytes": 602
+        },
+        {
+          "transcript_line": 18,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_bff271789bbc034b78314ce0.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_bff271789bbc034b78314ce0.json.line-18.applypatch.payload",
+          "raw_payload_sha256": "2729794ed9c349f62d2415c6cb6549f4843679fb8762a57c5ce3fb8d192fa183",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_bff271789bbc034b78314ce0.json",
+          "initial_snapshot_sha256": "418e1193bc5f25144dbaca1d3992b37b5c58c3608322ae413012078bccab4d70",
+          "initial_snapshot_bytes": 618
+        },
+        {
+          "transcript_line": 19,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_e5e88b5a5a3791d36f71f495.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_e5e88b5a5a3791d36f71f495.json.line-19.applypatch.payload",
+          "raw_payload_sha256": "980a1c9b99630dc5f31225798af7aeefad9cddf9d0ae098b28e1530a0bfd7fae",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_e5e88b5a5a3791d36f71f495.json",
+          "initial_snapshot_sha256": "ef6d1659bb6933c8a63d7dda6e4a3713348f75820557b55fe02cf203003bc30f",
+          "initial_snapshot_bytes": 693
+        },
+        {
+          "transcript_line": 20,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_ee95225a60f47e03ae47ee91.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_ee95225a60f47e03ae47ee91.json.line-20.applypatch.payload",
+          "raw_payload_sha256": "19568c3f88e09a236b19b0935bc0fedae0c4df658fae671b65acc2a0451196e3",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_ee95225a60f47e03ae47ee91.json",
+          "initial_snapshot_sha256": "8a5c29df8511abaf9499f257c6ecb99002f97eb95450b2815486dce815a65faa",
+          "initial_snapshot_bytes": 653
+        },
+        {
+          "transcript_line": 21,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_f0b466b35258a37f41827933.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_f0b466b35258a37f41827933.json.line-21.applypatch.payload",
+          "raw_payload_sha256": "2c3867678d354e4c5a7672a1cac0a7629d151e07f153aeed7bb8ec849da14fb3",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_f0b466b35258a37f41827933.json",
+          "initial_snapshot_sha256": "2851c6c98f1394660069ba5b84d91f0b57e082853c4a6e31f41a8f03b7dac35e",
+          "initial_snapshot_bytes": 653
+        },
+        {
+          "transcript_line": 22,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_f45e08be6374c8eb01d07f51.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_f45e08be6374c8eb01d07f51.json.line-22.applypatch.payload",
+          "raw_payload_sha256": "c0e1a6cebfec531c40cab5df0f086939e5b9549500d878a4d889c8a078a9afe0",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_f45e08be6374c8eb01d07f51.json",
+          "initial_snapshot_sha256": "4a868245c3434ebc764522de673f72855e5d23a0a625ca71691ee93dd27af6f2",
+          "initial_snapshot_bytes": 694
+        },
+        {
+          "transcript_line": 23,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_fd0e3a419f2074d135e20422.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_fd0e3a419f2074d135e20422.json.line-23.applypatch.payload",
+          "raw_payload_sha256": "74c2eae1ac7d7cce2cc99ab6e6d3b76a436c5c94fa6331aa8ab2c91208faf8f2",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/checkpoints/ann_fd0e3a419f2074d135e20422.json",
+          "initial_snapshot_sha256": "c014cf7ad51e90814c13f29d448b0decd3cb0e2773c31ee54f1eff9ad16a5da4",
+          "initial_snapshot_bytes": 688
+        },
+        {
+          "transcript_line": 24,
+          "tool": "ApplyPatch",
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/result.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/result.json.line-24.applypatch.payload",
+          "raw_payload_sha256": "b8faffb083e866dc26e39de5896a40ab395bc6f4daca7bd2c800bce1792e61df",
+          "reconstructed_initial_snapshot": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-recovery-native-payload-original/blind/result.json",
+          "initial_snapshot_sha256": "448b5b19d7b639a7dc2768fba89bb504ed01a7ab9e68f4a0d641b2332c4f8565",
+          "initial_snapshot_bytes": 14833
+        }
+      ],
+      "update_count": 3,
+      "updates": [
+        {
+          "transcript_line": 4,
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_0a3c62999d2174bd98a63e46.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_0a3c62999d2174bd98a63e46.json.line-4.applypatch-update.payload",
+          "raw_payload_sha256": "9c50956194df0300bd3b641342ec09592142802318843f3a1f15ee19901bf4a4",
+          "before_sha256": "324618fb7ad1052b664f8ff9359ee754cb6e68c3fb00e048f781fe7941533277",
+          "after_sha256": "fcf25283c70a411f9063d7aa49d37f65935e61c501d98045fd58b2233f25da5a",
+          "final_current_file_sha256": "aea7e50eadc6794ba54b52661d67d2c4bce63fa60a4c31fce5024b9fa7d4fce0",
+          "is_last_update_to_this_file": false,
+          "changed_leaf_path": "/evidence_spans[0]",
+          "old_quote": "it consolidates all IT infrastructure monitoring in a central event console, and relates the events to the IT services that depend on that infrastructure.",
+          "new_quote": "in a central event console, and relates the events to the IT services that depend on that infrastructure."
+        },
+        {
+          "transcript_line": 25,
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_0a3c62999d2174bd98a63e46.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_0a3c62999d2174bd98a63e46.json.line-25.applypatch-update.payload",
+          "raw_payload_sha256": "2ef18e2ff2c889be2a37bcee2a99daa4a421bc0d56d0fa0ef4ce2a5b7161a13d",
+          "before_sha256": "fcf25283c70a411f9063d7aa49d37f65935e61c501d98045fd58b2233f25da5a",
+          "after_sha256": "aea7e50eadc6794ba54b52661d67d2c4bce63fa60a4c31fce5024b9fa7d4fce0",
+          "final_current_file_sha256": "aea7e50eadc6794ba54b52661d67d2c4bce63fa60a4c31fce5024b9fa7d4fce0",
+          "is_last_update_to_this_file": false,
+          "changed_leaf_path": "/evidence_spans[0]",
+          "old_quote": "in a central event console, and relates the events to the IT services that depend on that infrastructure.",
+          "new_quote": "in a central event console, and relates the events"
+        },
+        {
+          "transcript_line": 26,
+          "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/result.json",
+          "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/result.json.line-26.applypatch-update.payload",
+          "raw_payload_sha256": "a5ec3b2063110fba30412cb579df29c428c2e8976ac881a6cbcd33dfbdb64893",
+          "before_sha256": "448b5b19d7b639a7dc2768fba89bb504ed01a7ab9e68f4a0d641b2332c4f8565",
+          "after_sha256": "1be47612c38d3ca644de67beb49d15482e24e13547158202fde493e6c6b6f5a0",
+          "final_current_file_sha256": "1be47612c38d3ca644de67beb49d15482e24e13547158202fde493e6c6b6f5a0",
+          "is_last_update_to_this_file": true,
+          "changed_leaf_path": "[0]/evidence_spans[0]",
+          "old_quote": "in a central event console, and relates the events to the IT services that depend on that infrastructure.",
+          "new_quote": "in a central event console, and relates the events"
+        }
+      ],
+      "current_checkpoint_hashes": {
+        "ann_0a3c62999d2174bd98a63e46.json": "aea7e50eadc6794ba54b52661d67d2c4bce63fa60a4c31fce5024b9fa7d4fce0",
+        "ann_3d219f570d079376752f2753.json": "bd1d0f941b9b7bd1b7d6365da333b8822a9174cb9ac6c63edbed999d101b275c",
+        "ann_49f95d96fc56297ae0967c41.json": "a093ae3bfe6887d72d4b458bb76b5ae1d64828ba47ec85e541b14033132aaf45",
+        "ann_57e4625d4b098fc31212cad3.json": "f0bf2e18665724ae063aa9ad103a86b4a358d8416eac4bfe1cb6d85c78601859",
+        "ann_5a89bd919f85895eceb84977.json": "edffb6557149a9784709acf69aa3c89324402a5ed1f959c6e42a5fb29a553098",
+        "ann_75575b770a427c686f4a51ef.json": "5d5be2d5f4436a6c1952564cfc42b88433b16a4f284448936d0ff32b628d7fda",
+        "ann_7b4dfb94ed3c09a6853a4236.json": "019411dbb2781d29d73598034c2cb9fbdeb2ca42cf30f451fdabe31dd96a49a2",
+        "ann_865177823374b329149363b2.json": "03997112de8a96b82895da264dc0b817af118c92a735a32223d05b65bf681267",
+        "ann_8dbf3d8911a1c4d98e2f71b6.json": "7539591305383d4333bca75d8c501885a89fc036c2c96f22298c245bf8243f57",
+        "ann_92d9e1d4347153b8a1e2e047.json": "de753b5e698da27394f2f95a81a843cf02590211accc0eb7688e5d900942438c",
+        "ann_a6f9ebbe996d87dd42ef23fe.json": "10651586ec1c3b60dc6349c47751c1b00e08f356d43e19a5968cda6ad3428020",
+        "ann_bcdd58c48c34d44629403a5d.json": "c3ae92d09656cccf1a641533c2d9abeefef044fb1e0277f00b0ac888cde21e91",
+        "ann_be358582d6232ed0fe502f15.json": "ff426de1af3b830a9622ae1e43f12aa452983bf14bf0b8043582b56b51d3b71f",
+        "ann_bf63f0fd1ad3f1f700d4c110.json": "1d14b2cb476a9420c71515d33c21b153238257db1c7de05bed5fb968f99f9dea",
+        "ann_bff271789bbc034b78314ce0.json": "418e1193bc5f25144dbaca1d3992b37b5c58c3608322ae413012078bccab4d70",
+        "ann_e5e88b5a5a3791d36f71f495.json": "ef6d1659bb6933c8a63d7dda6e4a3713348f75820557b55fe02cf203003bc30f",
+        "ann_ee95225a60f47e03ae47ee91.json": "8a5c29df8511abaf9499f257c6ecb99002f97eb95450b2815486dce815a65faa",
+        "ann_f0b466b35258a37f41827933.json": "2851c6c98f1394660069ba5b84d91f0b57e082853c4a6e31f41a8f03b7dac35e",
+        "ann_f45e08be6374c8eb01d07f51.json": "4a868245c3434ebc764522de673f72855e5d23a0a625ca71691ee93dd27af6f2",
+        "ann_fd0e3a419f2074d135e20422.json": "c014cf7ad51e90814c13f29d448b0decd3cb0e2773c31ee54f1eff9ad16a5da4"
+      },
+      "current_result_sha256": "1be47612c38d3ca644de67beb49d15482e24e13547158202fde493e6c6b6f5a0",
+      "checkpoint_count": 20,
+      "result_record_count": 20,
+      "all_initial_payloads_plus_updates_equal_current_files": true
+    }
+  }
+}

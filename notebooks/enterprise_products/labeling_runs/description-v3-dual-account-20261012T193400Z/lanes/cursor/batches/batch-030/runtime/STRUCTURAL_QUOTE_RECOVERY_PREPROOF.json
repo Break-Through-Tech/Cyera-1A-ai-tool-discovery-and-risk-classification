@@ -1,0 +1,22 @@
+{
+  "status": "pre-recovery immutable copy; one invalid exact quote identified by helper before comparison",
+  "annotation_id": "ann_0a3c62999d2174bd98a63e46",
+  "field": "evidence_spans[0]",
+  "old_quote": "consolidates all IT infrastructure monitoring in a central event console",
+  "files": [
+    {
+      "original": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/checkpoints/ann_0a3c62999d2174bd98a63e46.json",
+      "original_sha256": "6db7604b600114c0a61f143c0a83c257aaa602e7321d8c90670213c6eea35af8",
+      "copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-structural-quote-recovery-original/labeler/checkpoints/ann_0a3c62999d2174bd98a63e46.json",
+      "copy_sha256": "6db7604b600114c0a61f143c0a83c257aaa602e7321d8c90670213c6eea35af8",
+      "bytes": 889
+    },
+    {
+      "original": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler/result.json",
+      "original_sha256": "b8c8529e2993e66343e8aed07efaae5fb6971373f42eac776034543cabda9f1c",
+      "copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/pre-structural-quote-recovery-original/labeler/result.json",
+      "copy_sha256": "b8c8529e2993e66343e8aed07efaae5fb6971373f42eac776034543cabda9f1c",
+      "bytes": 17481
+    }
+  ]
+}

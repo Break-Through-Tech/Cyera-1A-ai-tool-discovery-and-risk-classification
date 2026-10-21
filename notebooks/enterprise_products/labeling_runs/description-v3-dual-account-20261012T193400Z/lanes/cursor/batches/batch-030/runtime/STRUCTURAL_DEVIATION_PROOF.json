@@ -1,0 +1,57 @@
+{
+  "batch_id": "batch-030",
+  "status": "original native payloads/transcripts preserved; blind quote updates mechanically reconstruct current state and change only evidence_spans[0]",
+  "blind_native_uuid": "46a35e15-7625-4c72-ad71-91612d7ce721",
+  "labeler_native_uuid": "4c4db253-661b-4a72-8224-f6bb0ced9207",
+  "initial_single_write_payload_count": 42,
+  "blind_update_count": 3,
+  "blind_updates": [
+    {
+      "transcript_line": 4,
+      "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_0a3c62999d2174bd98a63e46.json",
+      "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_0a3c62999d2174bd98a63e46.json.line-4.applypatch-update.payload",
+      "raw_payload_sha256": "9c50956194df0300bd3b641342ec09592142802318843f3a1f15ee19901bf4a4",
+      "before_sha256": "324618fb7ad1052b664f8ff9359ee754cb6e68c3fb00e048f781fe7941533277",
+      "after_sha256": "fcf25283c70a411f9063d7aa49d37f65935e61c501d98045fd58b2233f25da5a",
+      "final_current_file_sha256": "aea7e50eadc6794ba54b52661d67d2c4bce63fa60a4c31fce5024b9fa7d4fce0",
+      "is_last_update_to_this_file": false,
+      "changed_leaf_path": "/evidence_spans[0]",
+      "old_quote": "it consolidates all IT infrastructure monitoring in a central event console, and relates the events to the IT services that depend on that infrastructure.",
+      "new_quote": "in a central event console, and relates the events to the IT services that depend on that infrastructure."
+    },
+    {
+      "transcript_line": 25,
+      "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/checkpoints/ann_0a3c62999d2174bd98a63e46.json",
+      "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/ann_0a3c62999d2174bd98a63e46.json.line-25.applypatch-update.payload",
+      "raw_payload_sha256": "2ef18e2ff2c889be2a37bcee2a99daa4a421bc0d56d0fa0ef4ce2a5b7161a13d",
+      "before_sha256": "fcf25283c70a411f9063d7aa49d37f65935e61c501d98045fd58b2233f25da5a",
+      "after_sha256": "aea7e50eadc6794ba54b52661d67d2c4bce63fa60a4c31fce5024b9fa7d4fce0",
+      "final_current_file_sha256": "aea7e50eadc6794ba54b52661d67d2c4bce63fa60a4c31fce5024b9fa7d4fce0",
+      "is_last_update_to_this_file": false,
+      "changed_leaf_path": "/evidence_spans[0]",
+      "old_quote": "in a central event console, and relates the events to the IT services that depend on that infrastructure.",
+      "new_quote": "in a central event console, and relates the events"
+    },
+    {
+      "transcript_line": 26,
+      "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/result.json",
+      "raw_payload_archive": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/runtime/native-write-payloads/blind-verified-from-transcript/result.json.line-26.applypatch-update.payload",
+      "raw_payload_sha256": "a5ec3b2063110fba30412cb579df29c428c2e8976ac881a6cbcd33dfbdb64893",
+      "before_sha256": "448b5b19d7b639a7dc2768fba89bb504ed01a7ab9e68f4a0d641b2332c4f8565",
+      "after_sha256": "1be47612c38d3ca644de67beb49d15482e24e13547158202fde493e6c6b6f5a0",
+      "final_current_file_sha256": "1be47612c38d3ca644de67beb49d15482e24e13547158202fde493e6c6b6f5a0",
+      "is_last_update_to_this_file": true,
+      "changed_leaf_path": "[0]/evidence_spans[0]",
+      "old_quote": "in a central event console, and relates the events to the IT services that depend on that infrastructure.",
+      "new_quote": "in a central event console, and relates the events"
+    }
+  ],
+  "preupdate_original_snapshots": "runtime/pre-recovery-native-payload-original/{labeler,blind}/ reconstructed only from original Write/AddFile payloads; original private files untouched",
+  "semantic_field_deltas": 0,
+  "only_changed_field": "evidence_spans[0] for ann_0a3c62999d2174bd98a63e46; checkpoint edited twice, aggregate once",
+  "all42payloads_transcripts_registered_and_verified": true,
+  "all3updatepayloads_registered_and_verified": true,
+  "all_reconstructed_final_bytes_match_current_files": true,
+  "comparison_started": false,
+  "excluded_partial_archive_note": "A prior coordinator extraction attempt produced a nonmatching blind line3 alias from a stale payload variable. It is preserved but excluded; authoritative transcript payload is archived separately as verified-from-transcript."
+}

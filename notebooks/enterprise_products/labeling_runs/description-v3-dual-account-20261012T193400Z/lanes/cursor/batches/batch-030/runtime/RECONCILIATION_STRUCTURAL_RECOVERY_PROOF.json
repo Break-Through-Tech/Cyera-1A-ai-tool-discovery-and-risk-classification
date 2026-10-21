@@ -1,0 +1,38 @@
+{
+  "batch_id": "batch-030",
+  "status": "one permitted structural-only aggregate correction completed in original Luna; no semantic field changed",
+  "native_uuid": "46a35e15-7625-4c72-ad71-91612d7ce721",
+  "model_id": "gpt-5.6-luna-high",
+  "prompt_count": 1,
+  "annotation_id": "ann_bf63f0fd1ad3f1f700d4c110",
+  "changed_path": "result[matching annotation_id].conflict_response",
+  "before": "The blind proposal treated territory planning as conventional, while the labeler and parent concern flagged the unexplained mechanism behind preventing imbalance. The text supports a conventional planning purpose but does not establish whether that particular prevention capability is deterministic, AI-based, or something else. I retain non-AI as the best binary judgment but keep it weak and forced rather than converting the unresolved method into supported negative evidence.",
+  "after": "The blind proposal treated territory planning as conventional, while the labeler and parent concern flagged the unexplained mechanism behind preventing imbalance. The text supports a conventional planning purpose but does not establish whether that particular prevention capability is deterministic, AI-based, or something else. I retain non-AI as the best binary judgment but keep it weak and forced rather than converting the unresolved method into supported evidence.",
+  "after_equals_valid_checkpoint": true,
+  "checkpoint_unchanged": true,
+  "old_aggregate_snapshot_sha256": "f93749233d063f8c931d184c4d9be1d575cdefd459c8b1388441d2b170879517",
+  "new_aggregate_sha256": "b9c180864201a0da52117c118aa37d683b38a1db9bdc7886317c68cc31331f94",
+  "recovery_transcript": {
+    "copy": "runtime/cumulative-native-transcripts/blind-46a35e15-reconciliation-structural-recovery.jsonl",
+    "sha256": "3cc523fe76227c46a0a955ebe6b130acbe98d825f445a162b03558894f815e07",
+    "bytes": 93898
+  },
+  "no_other_labels_rationales_or_quotes_changed": true,
+  "initial_aggregate_single_write_payload": {
+    "archive": "runtime/native-write-payloads/blind-reconciliation-030-structural-recovery/line-41-item-1.applypatch.payload",
+    "sha256": "eabc96a020bb77c71038a2f4056ab8f791b514018e6f876aa3244650540da3d8",
+    "bytes": 14724,
+    "already_registered_in": "runtime/RECONCILIATION_RESULT_REGISTRATION.json"
+  },
+  "recovery_update_payloads": [
+    {
+      "line": 44,
+      "index": 1,
+      "tool": "ApplyPatch",
+      "archive": "runtime/native-write-payloads/blind-reconciliation-030-structural-recovery/line-44-item-1.applypatch.payload",
+      "sha256": "347ffcd40cddf3b2e6f9450773dca5e15c5388fa27e7a3e0f66dd56acd10cafd",
+      "bytes": 1289
+    }
+  ],
+  "recovery_update_count": 1
+}

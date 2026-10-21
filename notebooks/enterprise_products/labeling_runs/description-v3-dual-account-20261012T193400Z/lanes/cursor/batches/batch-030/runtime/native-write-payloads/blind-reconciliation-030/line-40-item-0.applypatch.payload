@@ -1,0 +1,21 @@
+*** Begin Patch
+*** Add File: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind/reconciliation-030/checkpoints/ann_fd0e3a419f2074d135e20422.json
++{
++  "annotation_id": "ann_fd0e3a419f2074d135e20422",
++  "description_sha256": "c02ea49767bc3051c10a9bbae1d31af02731015b5c3c10159635939e1463fa56",
++  "ai_status": "non_ai",
++  "ai_type": null,
++  "evidence_strength": "weak",
++  "forced_decision": true,
++  "ai_type_evidence_strength": null,
++  "ai_type_forced_decision": null,
++  "rationale": "The description identifies conventional network operations management and plug-ins intended to reduce issue-resolution time, but does not explain the plug-in functionality; the non-AI judgment is weak and forced.",
++  "ai_type_rationale": null,
++  "evidence_spans": [
++    "NNMi Smart Plug-ins expand NNMi into specialized environments, helping your team reduce time to resolve issues",
++    "NNMi is a core component of Network Operations Management"
++  ],
++  "ai_type_evidence_spans": null,
++  "conflict_response": "The blind proposal treated network management and plug-ins as conventional, while the labeler and parent concern noted that the plug-in mechanism is unexplained. The text supports a conventional network-operations purpose and provides no AI signal, but it does not establish what the specialized plug-ins do or whether their behavior is conventional. I therefore retain non-AI with weak evidence and a forced decision rather than treating the generic plug-in claim as supported negative evidence."
++}
+*** End Patch

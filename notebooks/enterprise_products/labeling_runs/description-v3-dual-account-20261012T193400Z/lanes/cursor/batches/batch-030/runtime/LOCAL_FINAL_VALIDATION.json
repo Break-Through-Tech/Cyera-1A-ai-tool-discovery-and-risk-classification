@@ -1,0 +1,132 @@
+{
+  "batch_id": "batch-030",
+  "status": "locally finalized by pinned helper; pending parent validation/acceptance",
+  "frozen_plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "selection_sha256": "f1e51168a95b1cfdbde570db988a419ca3030848c4bfd5389d68ce331c1e1946",
+  "source_description_count": 20,
+  "source_reference_count": 20,
+  "independent_models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "native_uuids": {
+    "labeler": "4c4db253-661b-4a72-8224-f6bb0ced9207",
+    "blind_reconciliation": "46a35e15-7625-4c72-ad71-91612d7ce721"
+  },
+  "raw_integrity": {
+    "labeler_independent_native_singlewrites": 21,
+    "blind_independent_native_singlewrites": 21,
+    "blind_quote_update_payloads": 3,
+    "original_independent_raw_payloads_and_transcripts_registered": true,
+    "all40_current_independent_private_checkpoints_hash_registered": true,
+    "all20_pair_reviews_saved": true,
+    "exact_quotes_fullschema_coverage_private_equality_passed": true,
+    "originals_not_overwritten_by_integration": true
+  },
+  "structural_deviations": {
+    "blind_independent_in_place_quote_updates": 3,
+    "blind_update_semantic_field_delta_count": 0,
+    "labeler_one_quote_only_recovery": {
+      "prompt_count": 1,
+      "tool_calls": 6,
+      "id": "ann_0a3c62999d2174bd98a63e46",
+      "field": "evidence_spans[0]",
+      "all_other_fields_unchanged": true,
+      "initial_invalid_checkpoint_and_result_copies_hash_preserved": true,
+      "raw_tool_payloads_and_recovery_transcript_registered": true,
+      "helper_full_validation_after_fix": true
+    },
+    "blind_reconciliation_one_structural_aggregate_recovery": {
+      "prompt_count": 1,
+      "id": "ann_bf63f0fd1ad3f1f700d4c110",
+      "field": "result[matching annotation_id].conflict_response",
+      "checkpoint_unchanged": true,
+      "only_mismatch_corrected": true,
+      "raw_original_aggregate_and_recovery_payloads_registered": true
+    },
+    "excluded_stale_payload_alias_documented": true
+  },
+  "pair_review": {
+    "all20_reviewed": 20,
+    "helper_required_ids": [
+      "ann_0a3c62999d2174bd98a63e46",
+      "ann_75575b770a427c686f4a51ef",
+      "ann_865177823374b329149363b2",
+      "ann_92d9e1d4347153b8a1e2e047",
+      "ann_bf63f0fd1ad3f1f700d4c110",
+      "ann_e5e88b5a5a3791d36f71f495",
+      "ann_fd0e3a419f2074d135e20422"
+    ],
+    "additional_material_concerns": {
+      "ann_5a89bd919f85895eceb84977": "material_subtype_concern: AI-enabled subtype rationale assumes an added AI layer not stated in source",
+      "ann_be358582d6232ed0fe502f15": "material_scope_concern: data-storage definition only, no meaningful software function stated",
+      "ann_bff271789bbc034b78314ce0": "material_scope_concern: category/purpose-level customer service CRM description only",
+      "ann_f0b466b35258a37f41827933": "material_scope_concern: dedicated hosting/compliance service, no software operation stated"
+    },
+    "reconciled_ids": [
+      "ann_0a3c62999d2174bd98a63e46",
+      "ann_5a89bd919f85895eceb84977",
+      "ann_75575b770a427c686f4a51ef",
+      "ann_865177823374b329149363b2",
+      "ann_92d9e1d4347153b8a1e2e047",
+      "ann_be358582d6232ed0fe502f15",
+      "ann_bf63f0fd1ad3f1f700d4c110",
+      "ann_bff271789bbc034b78314ce0",
+      "ann_e5e88b5a5a3791d36f71f495",
+      "ann_f0b466b35258a37f41827933",
+      "ann_fd0e3a419f2074d135e20422"
+    ]
+  },
+  "reconciliation": {
+    "count": 11,
+    "final_evidence_weak_binary": 6,
+    "final_evidence_weak_subtype": 1,
+    "trusted_negative_source_rows": 12,
+    "all11_same_original_luna_records_fullschema_exactquote_conflictresponse_helperpass": true,
+    "AI_binary_subtype_independently_assessed": true
+  },
+  "exports": {
+    "description_labels.json": "42a58f1eafb54a134f3173582b52e2d0d07ebbbf0076ab36130cc4bab86eb467",
+    "record_labels.json": "a9522d10c49d77bfad49806cf1ad2b7d11d23cd853c6de02a90d74b63abec39f",
+    "review_ledger.json": "1f1cad1575de17baa0f6fe9ba3b95bc6c273b98329cbf9099307353566a78c7c",
+    "review_queue.json": "2781435ffa0c7075a3545c6c4aa0a23b389539030b749c9f6db0e697a29dab7a",
+    "non_ai_candidates.csv": "7d0c24b75073d4b7357e823574dc23311b5da9c9ce1858b1f13705e954d0e8b4",
+    "calibration_report.json": "0417178564847b690ed4bac84e9442413d4e977cf7fd5690f35918461f81d6f3"
+  },
+  "helper_report": {
+    "source_input_records": 1494,
+    "cleaner_excluded_records": 56,
+    "retained_source_records": 1438,
+    "selected_descriptions": 20,
+    "selected_records": 20,
+    "remaining_distinct_descriptions": 1371,
+    "remaining_source_records": 1418,
+    "coverage_claim": "selected calibration only; not full dataset coverage",
+    "binary_counts": {
+      "non_ai": 18,
+      "ai": 2
+    },
+    "subtype_counts": {
+      "null": 18,
+      "ai_enabled": 1,
+      "ai_native": 1
+    },
+    "binary_weak_count": 6,
+    "binary_forced_count": 6,
+    "subtype_weak_count": 1,
+    "subtype_forced_count": 1,
+    "trusted_negative_records": 12,
+    "reconciliation_count": 11,
+    "required_reconciliation_count": 7,
+    "parent_reconciliation_count": 11,
+    "independent_binary_or_subtype_differences": 2,
+    "duplicate_records_within_selected_descriptions": 0,
+    "within_group_different_descriptions": 0
+  },
+  "tests": {
+    "command": "cd notebooks/enterprise_products && python3 -m unittest -q test_clean test_label_v3 test_eda",
+    "result": "PASS, 36 tests"
+  },
+  "parent_acceptance": "pending; parent owns acceptance/global counts/Git"
+}

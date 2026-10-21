@@ -1,0 +1,26 @@
+{
+  "status": "accepted",
+  "timestamp": "2026-10-21T01:34:12.320787+00:00",
+  "selected_descriptions": 20,
+  "selected_rows": 20,
+  "reconciliation_count": 11,
+  "all42_native_original_payloads_match_preserved_snapshots": true,
+  "independent_original_to_current_deltas_only_4_exactquote_fields": true,
+  "all11_native_final_checkpoint_payloads_byte_equal": true,
+  "aggregate_only_one_conflict_response_copy_corrected_to_unchanged_checkpoint": true,
+  "parent_all20_source_pairs_all11_source_final_conflict_responses_reviewed": true,
+  "exact_plan_and_allrefs": true,
+  "baseline_files_verified": 1387,
+  "explicit_process_deviation": "Original-agent mechanical quote updates occurred in place; original native payloads/snapshots and all correction payloads archived. No label/rationale change. Final aggregate response transport corrected to unchanged native checkpoint, no extra semantic pass.",
+  "binary_weak_descriptions": 6,
+  "subtype_weak_descriptions": 1,
+  "trusted_negative_rows": 12,
+  "exports": {
+    "description_labels.json": "42a58f1eafb54a134f3173582b52e2d0d07ebbbf0076ab36130cc4bab86eb467",
+    "record_labels.json": "a9522d10c49d77bfad49806cf1ad2b7d11d23cd853c6de02a90d74b63abec39f",
+    "review_ledger.json": "1f1cad1575de17baa0f6fe9ba3b95bc6c273b98329cbf9099307353566a78c7c",
+    "review_queue.json": "2781435ffa0c7075a3545c6c4aa0a23b389539030b749c9f6db0e697a29dab7a",
+    "non_ai_candidates.csv": "7d0c24b75073d4b7357e823574dc23311b5da9c9ce1858b1f13705e954d0e8b4",
+    "calibration_report.json": "0417178564847b690ed4bac84e9442413d4e977cf7fd5690f35918461f81d6f3"
+  }
+}

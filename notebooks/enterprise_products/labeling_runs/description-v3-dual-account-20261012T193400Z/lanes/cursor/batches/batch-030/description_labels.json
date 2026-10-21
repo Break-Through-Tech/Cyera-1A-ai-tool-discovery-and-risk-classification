@@ -1,0 +1,361 @@
+[
+  {
+    "product_description": "HPE Operations Manager i (OMi) is the core component of the Operations Bridge Suite and the only product that dynamically and automatically discovers and correlates data, event topology, and metrics. As part of the operations bridge, it consolidates all IT infrastructure monitoring in a central event console, and relates the events to the IT services that depend on that infrastructure.",
+    "annotation_id": "ann_0a3c62999d2174bd98a63e46",
+    "description_sha256": "f16d0b03510b17184439cba56f0d8e4ef88f17c08141579f586db43c428d63c5",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description meaningfully presents infrastructure monitoring, event-console correlation, and topology and metric discovery as conventional operations functions; it contains no affirmative AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "dynamically and automatically discovers and correlates data, event topology, and metrics.",
+      "in a central event console, and relates the events"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Salesforce Lightning aims to simplify the Salesforce app development processes for business users, who typically do not have programming experience.\n\nIt is an extreme framework that helps developing apps through Salesforce.com. The lightning activities ensure easy access so that even business users who do not have programming experience can also go through it well for successful applications. It's engaged to provide customized solutions quickly anywhere",
+    "annotation_id": "ann_3d219f570d079376752f2753",
+    "description_sha256": "1d1143e01845caf54db351ba9f64886dc069d20f2ee32d81e8d467adb3d296d3",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a low-code framework for developing apps through Salesforce.com for business users without programming experience. This is conventional software functionality with no AI signal in the text.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "helps developing apps through Salesforce.com",
+      "provide customized solutions quickly anywhere"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "A Salesforce Sandbox environment enables you to test new configuration, code, and automation outside of your production (live) instance – it’s like a replica of your production instance with some or all of your metadata and data depending on your sandbox type",
+    "annotation_id": "ann_49f95d96fc56297ae0967c41",
+    "description_sha256": "ab92c82ef219f7122921e8af199b72ea83ac90ad454b1e03b9de80e3bb3301fe",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional sandbox environment, a replica of production used to test configuration, code, and automation. No AI signal is present in the text.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "A Salesforce Sandbox environment enables you to test new configuration, code, and automation outside of your production (live) instance"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Micro Focus® Asset Manager, a software solution for asset management, can help to explain your IT organization’s value to the business. The offering reduces costs of IT operations and drives business decisions by managing the physical, virtual, financial, and contractual aspects of IT assets.\n\nIncludes both Prod and Non Prod instances.",
+    "annotation_id": "ann_57e4625d4b098fc31212cad3",
+    "description_sha256": "0bef9847368a2bce7c00753befa09fe475d93b8d5b3f0cd99741e88685c4b20e",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional asset management that tracks the physical, virtual, financial, and contractual aspects of IT assets. No AI signal is present in the text.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Micro Focus® Asset Manager, a software solution for asset management",
+      "managing the physical, virtual, financial, and contractual aspects of IT assets"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "The Informatica Intelligent Data Management Cloud (IDMC) provides complete, comprehensive cloud-native and AI-powered data management capabilities, including data catalog, data integration, API and application integration, data preparation, data quality, and a data marketplace, on a foundation of governance and privacy.  \nThis product is all of the Subscription products included in the ELA.  It includes the following items.\nDescription\nAPI & App Integration per consecutive month\nAsset Import/Export\nBasic User and asset Management\nData Integration per consecutive month\nData Privacy Management (Up to 50 Data Stores) (S) Production Annual  Subscription\nData Replication for Salesforce per consecutive month\nInformatica Cloud Data Masking per consecutive month\nInformatica Cloud REST API\nInformatica Cloud Salesforce Outbound Messaging\nInformatica Cloud Secure Agent per consecutive month\nInformatica Cloud Secure Agent per consecutive month Included in Cloud Base\nIntegration Base per consecutive month\nIntegration Base Sandbox per consecutive month\nIntegration Base Sandbox per consecutive month included in Cloud Base\nLinear Taskflow\nManagement Console\nPremium Success for Subscription\nShared Services per consecutive month\nSource Control with GitHUB\nTier A Connectors Unlimited per consecutive month\nTier B Connectors Unlimited per consecutive month\nTier C Connectors Unlimited per consecutive month\nTier D Connectors Unlimited per consecutive month",
+    "annotation_id": "ann_5a89bd919f85895eceb84977",
+    "description_sha256": "7bb6a6d4af5baa31e5e0b9e3a754aae9e4ae57613db492e08297edf98d32254a",
+    "ai_status": "ai",
+    "ai_type": "ai_enabled",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "weak",
+    "ai_type_forced_decision": true,
+    "rationale": "The description explicitly describes the product's data management capabilities as AI-powered.",
+    "ai_type_rationale": "The description lists substantial conventional data-management functions alongside the AI-powered capability, which supports an AI-enabled reading, but it does not explicitly state that those functions remain without AI or that AI is an added layer; the subtype is therefore weak and forced.",
+    "evidence_spans": [
+      "cloud-native and AI-powered data management capabilities"
+    ],
+    "ai_type_evidence_spans": [
+      "including data catalog, data integration, API and application integration, data preparation, data quality, and a data marketplace"
+    ]
+  },
+  {
+    "product_description": "Connect your multi-cloud, hybrid, and SaaS infrastructure with cloud financial management best practices to maximize the value of your cloud strategy.  Enable IT, finance, and DevOps teams to work together to optimize cloud resources for speed, cost, and quality.",
+    "annotation_id": "ann_75575b770a427c686f4a51ef",
+    "description_sha256": "48324ed5d4f769ca09c53c2571c890d8be31c2f0c400bdd1fe1d80273bd2bb91",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description refers to cloud financial management practices and optimizing cloud resources, but is high-level and does not concretely describe software functionality; the non-AI judgment is therefore weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "cloud financial management best practices",
+      "optimize cloud resources for speed, cost, and quality"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Skyllful provides training software for field workforces. Their main service involves offering on-device, on-demand simulations for up-front training and ongoing learning, specifically designed for frontline workers and the mobile apps and devices they use.",
+    "annotation_id": "ann_7b4dfb94ed3c09a6853a4236",
+    "description_sha256": "09f73ee3e6be9da6882ec43045d8558526c9d67c67ec2741219aaee9b6d8557d",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional on-device training simulations for frontline workers for up-front and ongoing learning. No AI signal is present in the text.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "offering on-device, on-demand simulations for up-front training and ongoing learning"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Salesforce CRM Analytics is a tool that provides data-driven insights to businesses that store data in a CRM system, and empowers customer-facing teams with intelligent analytics and predictions within Salesforce workflows.",
+    "annotation_id": "ann_865177823374b329149363b2",
+    "description_sha256": "2d7b2bceeeaca0b3b8c4374201d27a151b1ba59968b8c559fb0bfca183d991db",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description names CRM analytics, data-driven insights, and predictions, but does not establish AI or learned-model functionality; the non-AI judgment is consequently weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "data-driven insights to businesses that store data in a CRM system",
+      "intelligent analytics and predictions within Salesforce workflows"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Platform Events means you can exchange event data, in real-time, within the Salesforce platform, and also between Salesforce and external platforms. This is the way that Salesforce can broadcast when there have been changes.\n\n\nWhat is high-volume platform events?\nHigh-Volume Platform Events are customized platform events, which you can use to process and publish a large number of events in an effective manner. You will be able to create event-based apps through these Platform Events and scale them along with time",
+    "annotation_id": "ann_8dbf3d8911a1c4d98e2f71b6",
+    "description_sha256": "43eff115d89087680fe6ff3c8c0c9400a60f0be44e8c08deaa45f99c49691987",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional event messaging that exchanges event data in real time within and between platforms, plus high-volume event publishing. No AI signal is present in the text.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Platform Events means you can exchange event data, in real-time, within the Salesforce platform",
+      "process and publish a large number of events in an effective manner"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "CRM Analytics Plus includes everything in Einstein Predictions, CRM Analytics Growth, and Einstein Discovery for Reports\n\nIncludes the Salesforce Einstein Analytics is the cloud-based analytical tool that allows Salesforce users to understand, aggregate, and visualize data coming from different locations, such as Salesforce, ERPs, data warehouses, and log",
+    "annotation_id": "ann_92d9e1d4347153b8a1e2e047",
+    "description_sha256": "0ba7ad3706d49b9bd4af78d7fb12b3a92757ffe99d997775b3bfe60e8fb35f56",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description names prediction and discovery features but does not establish AI or learned-model functionality, while its stated analytical operation is to understand, aggregate, and visualize data; the non-AI judgment remains weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Einstein Predictions, CRM Analytics Growth, and Einstein Discovery for Reports",
+      "the cloud-based analytical tool that allows Salesforce users to understand, aggregate, and visualize data"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "The Persado Motivation AI Platform leverages a vast, proprietary marketing communications knowledge base, advanced AI, deep learning models, and a decision engine to deliver the precise language that motivates every individual to engage and act. The result is unprecedented conversion rates and revenue growth. Experience the power of a specialized class of generative AI that drives business outcomes.",
+    "annotation_id": "ann_a6f9ebbe996d87dd42ef23fe",
+    "description_sha256": "7e8b2ca2c83db31545f504a5fea1fe936f04f78ea544289ee154f2b40267b50f",
+    "ai_status": "ai",
+    "ai_type": "ai_native",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "supported",
+    "ai_type_forced_decision": false,
+    "rationale": "Explicit AI claim: the platform is described as using advanced AI, deep learning models, and a decision engine, and as offering a specialized class of generative AI.",
+    "ai_type_rationale": "The described core platform itself is built on AI, deep learning models, and generative AI to deliver the language that drives business outcomes, so the core offering depends on AI.",
+    "evidence_spans": [
+      "advanced AI, deep learning models, and a decision engine",
+      "a specialized class of generative AI that drives business outcomes"
+    ],
+    "ai_type_evidence_spans": [
+      "The Persado Motivation AI Platform leverages",
+      "to deliver the precise language that motivates every individual to engage and act"
+    ]
+  },
+  {
+    "product_description": "Salesforce Connect is a powerful App Cloud integration service, which enables users of Salesforce applications to seamlessly access and handle data stored in external sources, without leaving the Salesforce native environment",
+    "annotation_id": "ann_bcdd58c48c34d44629403a5d",
+    "description_sha256": "7d0cefb382423c594042ad3bf88a74717bfe75299cf3ed2420f1b9aef97b6b4a",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional integration service that lets Salesforce applications access and handle data stored in external sources. No AI signal is present in the text.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "a powerful App Cloud integration service, which enables users of Salesforce applications to seamlessly access and handle data stored in external sources"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Salesforce Data storage refers to the space required to store the data associated with Salesforce objects, such as accounts, contacts, opportunities, and events",
+    "annotation_id": "ann_be358582d6232ed0fe502f15",
+    "description_sha256": "440a11364a3e610e77b24ac59df5933fe11c3e4683434e084cc3ee6d2ad37336",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description defines conventional data storage for Salesforce objects, including accounts, contacts, opportunities, and events, without an affirmative AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "space required to store the data associated with Salesforce objects",
+      "accounts, contacts, opportunities, and events"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Salesforce Maps Territory Planning is a Salesforce product which not only helps to prevent potentially unbalanced territories, but also allows the sales operations manager to focus their efforts wisely, by making all mechanisms available in one place: your Salesforce CRM.",
+    "annotation_id": "ann_bf63f0fd1ad3f1f700d4c110",
+    "description_sha256": "bafe73b684fe9421db74f176bdb380ed557ee09e8804bc0924a1049f182e8ec8",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description identifies conventional territory-planning goals and CRM organization, but does not explain how territory imbalance is prevented; the non-AI judgment is therefore weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "helps to prevent potentially unbalanced territories",
+      "making all mechanisms available in one place: your Salesforce CRM"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Salesforce Service Cloud is a customer relationship management (CRM) platform for Salesforce clients to provide service and support to their business customers. Salesforce based Service Cloud on its Sales Cloud product, a popular CRM software for sales professionals",
+    "annotation_id": "ann_bff271789bbc034b78314ce0",
+    "description_sha256": "64055700edf62f2234ed02451bf3828c1bbc2fd9d9317c895fa01cabc01d54dc",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description presents a conventional CRM platform for providing service and support to business customers, without an affirmative AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Salesforce Service Cloud is a customer relationship management (CRM) platform for Salesforce clients to provide service and support to their business customers"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Personalized Community Experience: Salesforce Community Cloud enables companies to create a fully branded and personalized online community for their customers, partners, and employees\n\n\nWith Customer Community you can build communities based on the entities you interact with for different purposes. The popular Salesforce community portal examples are Hulu Help, Trailblazer community, CEAT support, AirAsia customer support, and BigCommerce support.",
+    "annotation_id": "ann_e5e88b5a5a3791d36f71f495",
+    "description_sha256": "f804c24837bde1c69311e785e7b9f7dfb13be306bfb6d32dcd515a27c82cd286",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description meaningfully describes conventional creation and organization of branded online communities, without an affirmative AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "enables companies to create a fully branded and personalized online community for their customers, partners, and employees",
+      "you can build communities based on the entities you interact with for different purposes"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Message Crawler is your ultimate solution for working with chat data such as text messages, Slack, or Teams. With Message Crawler, you can easily load data from multiple sources and seamlessly analyze, deduplicate, name normalize, time zone convert, and much more. Message Crawler offers multiple export formats, including RSMF, EML, HTML, and industry-standard DAT files, making it easy to share your data with others or load to document review platform such as Relativity.",
+    "annotation_id": "ann_ee95225a60f47e03ae47ee91",
+    "description_sha256": "ba1b27c17c3a6063259b6d393c7dabec12cabd92ed9b5d4d4f4d69803e712ca2",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional chat-data loading, deduplication, name normalization, time zone conversion, and export to standard formats. These are deterministic data-handling functions with no AI signal in the text.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "load data from multiple sources and seamlessly analyze, deduplicate, name normalize, time zone convert",
+      "offers multiple export formats, including RSMF, EML, HTML, and industry-standard DAT files"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Dedicated environments for U.S. government agencies and contractors, including federal state, local, defense and intelligence organizations. Meet compliance requirements such as Fed RAMP High, IRS 1075, and DoD Impact Level4 and 5. Built on AWS GovCloud, the market leading FedRAMP-authorized cloud to adhere to stringent data security demands of government.",
+    "annotation_id": "ann_f0b466b35258a37f41827933",
+    "description_sha256": "094b168e1393b90ae636cbba8b6be0386603e98d1c56e8475ddf06668dfe67b7",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description concerns dedicated government environments, compliance, and cloud infrastructure, but does not state a concrete software operation; the non-AI judgment is therefore weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Dedicated environments for U.S. government agencies and contractors",
+      "Built on AWS GovCloud, the market leading FedRAMP-authorized cloud"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Operations Agent helps you to monitor a system by collecting metrics that indicate the health, performance, resource utilization and availability of essential elements of the system. With its embedded data collector, Operations Agent continuously collects performance and health data across your system and stores the collected data in the Metrics Datastore.",
+    "annotation_id": "ann_f45e08be6374c8eb01d07f51",
+    "description_sha256": "e4475a05b3e9e35dcd372e732d2dd9416c3522ab3856bd6e7eadd8a844a31828",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional system monitoring that collects health, performance, resource utilization, and availability metrics into a datastore. No AI signal is present in the text.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Operations Agent helps you to monitor a system by collecting metrics that indicate the health, performance, resource utilization and availability of essential elements of the system"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "product_description": "Network Node Manager i (NNMi) delivers powerful capabilities enabling NOCs to manage modern networks. NNMi Smart Plug-ins expand NNMi into specialized environments, helping your team reduce time to resolve issues. NNMi is a core component of Network Operations Management.",
+    "annotation_id": "ann_fd0e3a419f2074d135e20422",
+    "description_sha256": "c02ea49767bc3051c10a9bbae1d31af02731015b5c3c10159635939e1463fa56",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description identifies conventional network operations management and plug-ins intended to reduce issue-resolution time, but does not explain the plug-in functionality; the non-AI judgment is weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "NNMi Smart Plug-ins expand NNMi into specialized environments, helping your team reduce time to resolve issues",
+      "NNMi is a core component of Network Operations Management"
+    ],
+    "ai_type_evidence_spans": null
+  }
+]

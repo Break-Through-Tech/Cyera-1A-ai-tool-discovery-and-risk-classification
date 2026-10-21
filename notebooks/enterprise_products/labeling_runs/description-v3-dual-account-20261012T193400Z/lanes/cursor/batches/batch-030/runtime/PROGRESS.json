@@ -1,0 +1,17 @@
+{
+  "status": "batch-029 locally finalized pending parent gate; batch-030 prepared; awaiting two fresh parent-created ordinary shell panes",
+  "batch_id": "batch-030",
+  "selected_descriptions": 20,
+  "selected_source_references": 20,
+  "active_workers": 0,
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "workspaces": {
+    "labeler": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/labeler",
+    "blind": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/agents/blind"
+  },
+  "prompt_submitted": false,
+  "blocker": "Await parent-created labeler and blind shell panes for prepared batch-030 private workspaces."
+}

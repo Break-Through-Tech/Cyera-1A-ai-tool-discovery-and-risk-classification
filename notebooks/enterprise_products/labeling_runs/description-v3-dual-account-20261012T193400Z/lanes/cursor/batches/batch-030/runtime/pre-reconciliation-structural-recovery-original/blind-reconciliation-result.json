@@ -1,0 +1,200 @@
+[
+  {
+    "annotation_id": "ann_0a3c62999d2174bd98a63e46",
+    "description_sha256": "f16d0b03510b17184439cba56f0d8e4ef88f17c08141579f586db43c428d63c5",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description meaningfully presents infrastructure monitoring, event-console correlation, and topology and metric discovery as conventional operations functions; it contains no affirmative AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "dynamically and automatically discovers and correlates data, event topology, and metrics.",
+      "in a central event console, and relates the events"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler's weak negative treated automatic discovery and correlation as potentially AI-dependent, while the blind proposal treated them as conventional monitoring functions. The description names the operations performed but does not mention AI, learned models, or generative functionality; routine automation and correlation do not establish AI under the rubric, so the binary negative is supported rather than forced."
+  },
+  {
+    "annotation_id": "ann_5a89bd919f85895eceb84977",
+    "description_sha256": "7bb6a6d4af5baa31e5e0b9e3a754aae9e4ae57613db492e08297edf98d32254a",
+    "ai_status": "ai",
+    "ai_type": "ai_enabled",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "weak",
+    "ai_type_forced_decision": true,
+    "rationale": "The description explicitly describes the product's data management capabilities as AI-powered.",
+    "ai_type_rationale": "The description lists substantial conventional data-management functions alongside the AI-powered capability, which supports an AI-enabled reading, but it does not explicitly state that those functions remain without AI or that AI is an added layer; the subtype is therefore weak and forced.",
+    "evidence_spans": [
+      "cloud-native and AI-powered data management capabilities"
+    ],
+    "ai_type_evidence_spans": [
+      "including data catalog, data integration, API and application integration, data preparation, data quality, and a data marketplace"
+    ],
+    "conflict_response": "Both proposals correctly retain a supported AI binary because the description itself says the data management capabilities are AI-powered. The concern is material for subtype only: classifying the AI as an added layer is an inference not expressly made by the source, even though the listed catalog, integration, preparation, quality, and marketplace functions support the best-supported AI-enabled reading. I therefore preserve AI-enabled with weak evidence and a forced subtype decision."
+  },
+  {
+    "annotation_id": "ann_75575b770a427c686f4a51ef",
+    "description_sha256": "48324ed5d4f769ca09c53c2571c890d8be31c2f0c400bdd1fe1d80273bd2bb91",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description refers to cloud financial management practices and optimizing cloud resources, but is high-level and does not concretely describe software functionality; the non-AI judgment is therefore weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "cloud financial management best practices",
+      "optimize cloud resources for speed, cost, and quality"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler and blind proposal agree on a non-AI binary, but differ on strength. The parent concern that this is a support/marketing statement without concrete functions is valid: the text supplies conventional resource-optimization aims but not enough operational detail for a firm negative. I retain non-AI as the best judgment while marking it weak and forced."
+  },
+  {
+    "annotation_id": "ann_865177823374b329149363b2",
+    "description_sha256": "2d7b2bceeeaca0b3b8c4374201d27a151b1ba59968b8c559fb0bfca183d991db",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description names CRM analytics, data-driven insights, and predictions, but does not establish AI or learned-model functionality; the non-AI judgment is consequently weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "data-driven insights to businesses that store data in a CRM system",
+      "intelligent analytics and predictions within Salesforce workflows"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler's AI-positive proposal treats 'intelligent analytics and predictions' as an AI signal, while the blind proposal treats that wording as ambiguous. The rubric specifically does not assume an implementation from analytics or prediction language alone; the text does describe a conventional analytics function but leaves the method unspecified. I resolve the binary as non-AI while retaining weak evidence and a forced decision, with no subtype because the final binary is non-AI."
+  },
+  {
+    "annotation_id": "ann_92d9e1d4347153b8a1e2e047",
+    "description_sha256": "0ba7ad3706d49b9bd4af78d7fb12b3a92757ffe99d997775b3bfe60e8fb35f56",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description names prediction and discovery features but does not establish AI or learned-model functionality, while its stated analytical operation is to understand, aggregate, and visualize data; the non-AI judgment remains weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Einstein Predictions, CRM Analytics Growth, and Einstein Discovery for Reports",
+      "the cloud-based analytical tool that allows Salesforce users to understand, aggregate, and visualize data"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler's AI-positive reading relies on the feature names 'Einstein Predictions' and 'Einstein Discovery,' while the blind proposal correctly treats those names as text rather than outside product evidence. The description establishes an analytical tool and lists prediction/discovery features without explaining their method; that unresolved ambiguity does not support an AI binary. I retain non-AI with weak evidence and a forced decision, and no subtype."
+  },
+  {
+    "annotation_id": "ann_be358582d6232ed0fe502f15",
+    "description_sha256": "440a11364a3e610e77b24ac59df5933fe11c3e4683434e084cc3ee6d2ad37336",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description defines conventional data storage for Salesforce objects, including accounts, contacts, opportunities, and events, without an affirmative AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "space required to store the data associated with Salesforce objects",
+      "accounts, contacts, opportunities, and events"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The parent concern notes that this is a narrow data-storage definition rather than a detailed product description. That limits scope but does not make the evidence insufficient: storing data associated with named CRM objects is itself a conventional software function, and the text has no AI signal or unexplained AI-dependent behavior. I therefore retain the supported non-AI judgment."
+  },
+  {
+    "annotation_id": "ann_bf63f0fd1ad3f1f700d4c110",
+    "description_sha256": "bafe73b684fe9421db74f176bdb380ed557ee09e8804bc0924a1049f182e8ec8",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description identifies conventional territory-planning goals and CRM organization, but does not explain how territory imbalance is prevented; the non-AI judgment is therefore weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "helps to prevent potentially unbalanced territories",
+      "making all mechanisms available in one place: your Salesforce CRM"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The blind proposal treated territory planning as conventional, while the labeler and parent concern flagged the unexplained mechanism behind preventing imbalance. The text supports a conventional planning purpose but does not establish whether that particular prevention capability is deterministic, AI-based, or something else. I retain non-AI as the best binary judgment but keep it weak and forced rather than converting the unresolved method into supported negative evidence."
+  },
+  {
+    "annotation_id": "ann_bff271789bbc034b78314ce0",
+    "description_sha256": "64055700edf62f2234ed02451bf3828c1bbc2fd9d9317c895fa01cabc01d54dc",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description presents a conventional CRM platform for providing service and support to business customers, without an affirmative AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Salesforce Service Cloud is a customer relationship management (CRM) platform for Salesforce clients to provide service and support to their business customers"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The parent concern is that the description is category- and purpose-level rather than a detailed feature inventory. That limited scope still meaningfully describes conventional CRM service and support functionality, and it contains no affirmative AI signal or unexplained AI-dependent behavior. I retain the supported non-AI judgment."
+  },
+  {
+    "annotation_id": "ann_e5e88b5a5a3791d36f71f495",
+    "description_sha256": "f804c24837bde1c69311e785e7b9f7dfb13be306bfb6d32dcd515a27c82cd286",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description meaningfully describes conventional creation and organization of branded online communities, without an affirmative AI signal.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "enables companies to create a fully branded and personalized online community for their customers, partners, and employees",
+      "you can build communities based on the entities you interact with for different purposes"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler raised a weak concern that 'personalized' could conceal AI, while the blind proposal treated community creation as conventional. In this description, personalization is paired with branding and entity-based community construction; no AI, learned model, or generative mechanism is stated. The wording is sufficient for a supported conventional-function negative, so the concern does not require a forced decision."
+  },
+  {
+    "annotation_id": "ann_f0b466b35258a37f41827933",
+    "description_sha256": "094b168e1393b90ae636cbba8b6be0386603e98d1c56e8475ddf06668dfe67b7",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description concerns dedicated government environments, compliance, and cloud infrastructure, but does not state a concrete software operation; the non-AI judgment is therefore weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Dedicated environments for U.S. government agencies and contractors",
+      "Built on AWS GovCloud, the market leading FedRAMP-authorized cloud"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The labeler and blind proposal agree on non-AI, but the parent concern correctly identifies that the text describes a hosting/compliance environment rather than a concrete software function. Because the rubric requires meaningful conventional functionality for a supported negative, I retain non-AI as the best judgment but mark the evidence weak and the decision forced."
+  },
+  {
+    "annotation_id": "ann_fd0e3a419f2074d135e20422",
+    "description_sha256": "c02ea49767bc3051c10a9bbae1d31af02731015b5c3c10159635939e1463fa56",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description identifies conventional network operations management and plug-ins intended to reduce issue-resolution time, but does not explain the plug-in functionality; the non-AI judgment is weak and forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "NNMi Smart Plug-ins expand NNMi into specialized environments, helping your team reduce time to resolve issues",
+      "NNMi is a core component of Network Operations Management"
+    ],
+    "ai_type_evidence_spans": null,
+    "conflict_response": "The blind proposal treated network management and plug-ins as conventional, while the labeler and parent concern noted that the plug-in mechanism is unexplained. The text supports a conventional network-operations purpose and provides no AI signal, but it does not establish what the specialized plug-ins do or whether their behavior is conventional. I therefore retain non-AI with weak evidence and a forced decision rather than treating the generic plug-in claim as supported negative evidence."
+  }
+]
