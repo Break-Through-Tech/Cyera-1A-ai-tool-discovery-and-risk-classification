@@ -1,0 +1,100 @@
+{
+  "rubric_id": "enterprise-description-only-v3",
+  "run_id": "batch-031",
+  "counts": {
+    "source_input_records": 1494,
+    "cleaner_excluded_records": 56,
+    "records": 1438,
+    "product_groups": 1406,
+    "distinct_descriptions": 1391
+  },
+  "inputs": {
+    "raw": {
+      "path": "inputs/raw.csv",
+      "sha256": "afe7cdbcbf82d9b11f579eb6dce000815a04a301410636e2942036f072fc7aa1"
+    },
+    "cleaned": {
+      "path": "inputs/cleaned.csv",
+      "sha256": "c9f0d234d3b66327250d7eb372e9fc962e06f16c2bc0181cc34654fdb897eb2b"
+    },
+    "cleaning_report": {
+      "path": "inputs/cleaning_report.json",
+      "sha256": "5ee112cdb293fbe0640b61e4790d389331b35b729a907263237a2ecade0c0e7b"
+    },
+    "rubric": {
+      "path": "inputs/rubric.md",
+      "sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61"
+    },
+    "prompt_labeler": {
+      "path": "inputs/prompt_labeler.md",
+      "sha256": "b398a1cead49292a8dcec586037d257a671d08278ddb42507354bc77f544ab22"
+    },
+    "prompt_blind": {
+      "path": "inputs/prompt_blind.md",
+      "sha256": "afcf536ca4cfc906bf622cdb2df1a7af6b82494e8bad4a8b3aed58d8d9e49cbe"
+    },
+    "prompt_reconciliation": {
+      "path": "inputs/prompt_reconciliation.md",
+      "sha256": "c2b7913f26722139d4bac8b918bac639d108d55bef866c418024ffc84347267b"
+    }
+  },
+  "code_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "prompt_hashes": {
+    "labeler": "b398a1cead49292a8dcec586037d257a671d08278ddb42507354bc77f544ab22",
+    "blind": "afcf536ca4cfc906bf622cdb2df1a7af6b82494e8bad4a8b3aed58d8d9e49cbe",
+    "reconciliation": "c2b7913f26722139d4bac8b918bac639d108d55bef866c418024ffc84347267b"
+  },
+  "stages": {
+    "labeler": {
+      "stage": "labeler",
+      "run_id": "batch-031",
+      "batch_id": "codex-batch-031",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "b398a1cead49292a8dcec586037d257a671d08278ddb42507354bc77f544ab22",
+      "model_id": "openai-codex/gpt-6-luna:high",
+      "assigned_annotation_ids": [
+        "ann_17cf95d4b6dcad77a29cf8a2",
+        "ann_4dd3669e9738c427261ab3fb",
+        "ann_5aea1cdc350f3f310c52d6b7",
+        "ann_5c047589b43215b7c46bb24b",
+        "ann_6bdf6088819ebe155009cb59",
+        "ann_98346aa8b285b5f0c8226f19",
+        "ann_9cec1ae006ffad1218ce463a",
+        "ann_b574c80bc58c1f798ac3fb8e",
+        "ann_dc96de82c152aef132b4c2d5",
+        "ann_f6baf0b8298e5c17099bc11e",
+        "ann_f78dc6457895c6055767eb25"
+      ]
+    },
+    "blind": {
+      "stage": "blind",
+      "run_id": "batch-031",
+      "batch_id": "codex-batch-031",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "afcf536ca4cfc906bf622cdb2df1a7af6b82494e8bad4a8b3aed58d8d9e49cbe",
+      "model_id": "openai-codex/gpt-6-luna:high",
+      "assigned_annotation_ids": [
+        "ann_17cf95d4b6dcad77a29cf8a2",
+        "ann_4dd3669e9738c427261ab3fb",
+        "ann_5aea1cdc350f3f310c52d6b7",
+        "ann_5c047589b43215b7c46bb24b",
+        "ann_6bdf6088819ebe155009cb59",
+        "ann_98346aa8b285b5f0c8226f19",
+        "ann_9cec1ae006ffad1218ce463a",
+        "ann_b574c80bc58c1f798ac3fb8e",
+        "ann_dc96de82c152aef132b4c2d5",
+        "ann_f6baf0b8298e5c17099bc11e",
+        "ann_f78dc6457895c6055767eb25"
+      ]
+    }
+  },
+  "prepared_artifacts": {
+    "description_packets.json": "c4290403eac3f10ce82d8e8012d8baacd5786032deba08587b565e31ac3269b1",
+    "parent_join_map.json": "fa79640b386cb9789661452e96b0bd9167cb893f530a47419b6a7542606801bc"
+  },
+  "selection_artifact": {
+    "selection.json": "53414392138794b6f120cd2ba477226f296c8a8ca15942e60fd699d4bcbb4ff4"
+  }
+}

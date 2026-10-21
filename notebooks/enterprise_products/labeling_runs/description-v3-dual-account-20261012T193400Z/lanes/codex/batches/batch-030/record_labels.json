@@ -1,0 +1,397 @@
+[
+  {
+    "source_record_number": "1454",
+    "product_group_id": "enterprise-62017ff9f017f4b095bffaf14589c68be8f4ed0c8246a2c7ce1c5790d1be05f9",
+    "product_description": "COBOL Server is a companion to Visual COBOL. It provides the execution environment for applications created with any IDE variant of Visual COBOL. Product Documentation.",
+    "annotation_id": "ann_0a9debce4ecb55b6c00ab819",
+    "description_sha256": "5e56fe138e2a5163fdfa09337ef40cb1a205b3d170b17d1bb7a6ca2a54a0a2f4",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes an execution environment for applications developed with Visual COBOL, a conventional runtime function.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "It provides the execution environment for applications created with any IDE variant of Visual COBOL."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1463",
+    "product_group_id": "enterprise-89c9dc1a15f598fe270e774bc8df8062961ded6d6126fe80b0facd897b64ac7c",
+    "product_description": "JAWS, Job Access With Speech, is the world’s most popular screen reader, developed for computer users whose vision loss prevents them from seeing screen content or navigating with a mouse. JAWS provides speech and Braille output for the most popular computer applications on your PC. You will be able to navigate the Internet, write a document, read an email and create presentations from your office, remote desktop, or from home.",
+    "annotation_id": "ann_0bd1b0d136cd5f1b8bdaeb5c",
+    "description_sha256": "2cdf8da8ba0b64c4662ea06c7be2ac6b4069cc303098a24a3d1bcdf93a4155fe",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description concretely specifies accessibility functions—speech and Braille output and navigation/access to applications. It does not describe learned or AI-based speech generation; these stated screen-reader functions support a conventional description-based negative.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "JAWS provides speech and Braille output for the most popular computer applications on your PC.",
+      "You will be able to navigate the Internet, write a document, read an email and create presentations"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1448",
+    "product_group_id": "enterprise-a69378572e47ac64ec18779db987f108d4241cda9ea004eaed67805f12d15c06",
+    "product_description": "Our Windows-based emulator connects users to IBM, UNIX, and Linux host applications. Easy to use, manage, and highly secure, OpenText™ Extra! saves time by eliminating repetitive actions through keystroke and macro automation. \nIncludes: \nExtra! Bundle for TCP/IP\nExtra! Enterprise 2000\nExtra! Personal Client\nExtra! X-treme\nmyEXTRA! Enterprise",
+    "annotation_id": "ann_12558eabca005347ad513b3c",
+    "description_sha256": "d5fac981e47a734c2a36d75782ca39735de799309c9815af81176de403677fc5",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description identifies a host-application emulator and keystroke/macro automation, conventional terminal-access and task-automation functions.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Our Windows-based emulator connects users to IBM, UNIX, and Linux host applications.",
+      "eliminating repetitive actions through keystroke and macro automation."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1459",
+    "product_group_id": "enterprise-d324a93755506de2ddec5e999a6e9d0d8c70ff8e7cb93a7175311a22cb23f293",
+    "product_description": "Opsgenie is a modern incident management platform that ensures critical incidents are never missed, and actions are taken by the right people in the shortest possible time. Opsgenie receives alerts from your monitoring systems and custom applications and categorizes each alert based on importance and timing",
+    "annotation_id": "ann_1325f979859dcab355f94536",
+    "description_sha256": "26c90cb745a23e287615d7e5c60884b6f4c65c7a137f85625e5cbcb9f4457273",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes receiving monitoring alerts, categorizing them by importance and timing, and routing incident actions to people—a conventional incident-management workflow.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Opsgenie receives alerts from your monitoring systems and custom applications and categorizes each alert based on importance and timing"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1462",
+    "product_group_id": "enterprise-686d275cf4eae6a81f3964b8dd9391a8a443124addf779ec8b929a07739d1ae5",
+    "product_description": "Teradata Analytics for Enterprise Applications eliminates the complexity of accessing and integrating enterprise application including SAP ERP and SAP CRM, Oracle E-Business Suite (EBS), and Oracle PeopleSoft, enabling agile analytics that produce tangible business outcomes.\n\n\nConText Module (EAS-S4-BX-FA) Annual Price",
+    "annotation_id": "ann_14db83c1c0bcd683bd9bfa57",
+    "description_sha256": "40f49c90faaf7181e6255ec17305a85db5010e2027fc92e3911b7651b8d25605",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Enterprise-application access and integration are concrete, but the claimed analytics are not explained and could use differing methods. The text supports non-AI only weakly; the appended annual-price module label does not clarify functionality.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "eliminates the complexity of accessing and integrating enterprise application including SAP ERP and SAP CRM, Oracle E-Business Suite (EBS), and Oracle PeopleSoft, enabling agile analytics that produce tangible business outcomes.",
+      "ConText Module (EAS-S4-BX-FA) Annual Price"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1455",
+    "product_group_id": "enterprise-89dcd65c1570d0e9b68e6834d50716045e6e3a2f3e839b698c1a6082297efdf5",
+    "product_description": "Micro Focus Server Express enables you to develop and deploy COBOL applications on a variety of UNIX and Linux platforms. Server Express provides tools for developing applications, for enabling applications to interface with mechanisms such as Java, Web Services and XML, and for utilizing support for CICS and JCL.  You can also migrate COBOL applications from many other systems and dialects, including IBM mainframe COBOL.",
+    "annotation_id": "ann_1c5639493d480c78c676feb7",
+    "description_sha256": "aee5c26a67bd18ea7c9f29f45a08eb6c063de8a6df1df46a98a5d6487785f369",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Provides COBOL development/deployment tools, interfaces to Java, web services and XML, and migration across platforms and dialects.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "enables you to develop and deploy COBOL applications on a variety of UNIX and Linux platforms.",
+      "provides tools for developing applications, for enabling applications to interface with mechanisms such as Java, Web Services and XML"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1458",
+    "product_group_id": "enterprise-b3a6feccaf8d89ff635474a60ad061c3969a86ee4a16c4a5ff14740345f40cf9",
+    "product_description": "Tellius provides a modern approach to decision intelligence that serves both the needs for ad hoc data exploration and visualization, combined with automated discovery of insights from machine learning, with cloud scale and elasticity.",
+    "annotation_id": "ann_26a6753a913bdba2e53b06b1",
+    "description_sha256": "12b139eedb3096867f0387b21253c2cb43c1850dc2144e286b340f7fa5be3848",
+    "ai_status": "ai",
+    "ai_type": "ai_enabled",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "supported",
+    "ai_type_forced_decision": false,
+    "rationale": "The description explicitly identifies automated insight discovery from machine learning, an affirmative AI/ML signal.",
+    "ai_type_rationale": "Ad hoc data exploration and visualization are described alongside ML-powered discovery, so the conventional analytics functions remain meaningful without the enhancement.",
+    "evidence_spans": [
+      "automated discovery of insights from machine learning"
+    ],
+    "ai_type_evidence_spans": [
+      "automated discovery of insights from machine learning"
+    ]
+  },
+  {
+    "source_record_number": "1449",
+    "product_group_id": "enterprise-7a4753cc0cc6fe6251aaf81f7f8b748087860f92ba7e3f6275da1931e0579591",
+    "product_description": "Boost the user adoption of your applications with ART Content Packs for your Learning Management System LMS and Webserver. Our ART Content Packs contain Show-Me demonstrations, Hands-On Try-Me simulations, step-by-step job aids and assessments. Use the ART Developer Kit to customize the Content Pack or create your own content for your Learning Management System (LMS) and Webserver.",
+    "annotation_id": "ann_3f05507c132a1730f64e4d5a",
+    "description_sha256": "ec14fb223cdff852cb69eeb4dc488a75f2834958198ffda84bc973fd533f6609",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The offering is described as training content packs containing demonstrations, simulations, job aids and assessments, plus a kit to customize or create content. These are conventional instructional-content functions; no AI operation is described.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Our ART Content Packs contain Show-Me demonstrations, Hands-On Try-Me simulations, step-by-step job aids and assessments.",
+      "Use the ART Developer Kit to customize the Content Pack or create your own content for your Learning Management System (LMS) and Webserver."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1461",
+    "product_group_id": "enterprise-f6f4599d7cb84e3266c107d2016f8275488014901c605d43435117a930c3107b",
+    "product_description": "Order Management is a supply chain management application that improves order fulfillment for your business processes. It includes predefined integrations, centrally managed orchestration policies, global availability, and fulfillment monitoring that can help increase customer satisfaction and profitability\n\nLooks like its tied to OSM product id 10419",
+    "annotation_id": "ann_53cf82f9512f63d65e7441b6",
+    "description_sha256": "fefc9f8b26151712e258a336fd265add871ede2cba9bcd61383839eaa1857407",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes order fulfillment, predefined integrations, centrally managed orchestration policies, and fulfillment monitoring—conventional supply-chain operations.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "It includes predefined integrations, centrally managed orchestration policies, global availability, and fulfillment monitoring"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1456",
+    "product_group_id": "enterprise-42e77fedf9f45f57cffaa746d55327ccf575ecaa191013ef9ee91d119c601892",
+    "product_description": "Silk Performer is the enterprise-class solution for software-application performance, load, and stress testing. Silk Performer is used to assess the performance of Internet servers, database servers, distributed applications, and middleware, both before and after they are fully developed. Silk Performer helps you to quickly and cost-effectively produce reliable, high-quality application solutions.",
+    "annotation_id": "ann_618e9e271be32474529250cb",
+    "description_sha256": "9c12f2f86fb8bafe63b0da3c6b60b0590657924f6ed8d39d5e028f1209ff6251",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes software-application performance, load and stress testing across servers and applications, conventional testing functionality.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Silk Performer is the enterprise-class solution for software-application performance, load, and stress testing.",
+      "used to assess the performance of Internet servers, database servers, distributed applications, and middleware"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1452",
+    "product_group_id": "enterprise-9163d3e7bf43f62f621e26e93242e945280dda8ea4e8832af0f778a9df70407e",
+    "product_description": "Rumba+ Desktop is a terminal emulation solution that brings modern security, manageability, and user productivity to your host-access environment—without code changes or business dis- ruptions. It provides a fast, low-risk, cost-effective way to modernize your most critical business applications.",
+    "annotation_id": "ann_71619997c6b26d4ffe3aa6f8",
+    "description_sha256": "c1bfe5df942778387b0305a82b26bb122989952fd8fb755f606c1412781cfc6c",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Identifies terminal emulation for host access and modernization of existing business applications, conventional access software.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Rumba+ Desktop is a terminal emulation solution that brings modern security, manageability, and user productivity to your host-access environment"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1450",
+    "product_group_id": "enterprise-36b181b3f56e851c7472a2b5861e51019a52c3fe3068662f2f62153d1ca5ffba",
+    "product_description": "Develop and deploy OpenText COBOL applications to a wide range of platforms including Windows, UNIX or Linux. Maintain and modernize existing OpenText™ Net Express and Server Express applications.",
+    "annotation_id": "ann_77241297977f92b91936b6ed",
+    "description_sha256": "60b0553c1fa5b3495dc22958a2387749715664b21c5a96fc70a7b8d5597aff53",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes developing and deploying COBOL applications across operating systems and maintaining or modernizing existing applications.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Develop and deploy OpenText COBOL applications to a wide range of platforms including Windows, UNIX or Linux.",
+      "Maintain and modernize existing OpenText™ Net Express and Server Express applications."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1451",
+    "product_group_id": "enterprise-88556b7109b1b1f87022600065715c089305122055857345ab2d217a6646dc40",
+    "product_description": "Micro Focus™ Enterprise Suite by OpenText improves application modernization for IBM mainframe PL/I and COBOL development and operations teams for re-deployment to a variety of production servers including Cloud. Our enterprise application knowledge, development, test, and workload deployment tools improve efficiency and time to market.",
+    "annotation_id": "ann_8921a7f5ed173b0fd9a4e367",
+    "description_sha256": "3a9f392e93e32dbbe509beed5a38bda604fd62cf2acd79043de7060be952a732",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes mainframe application development, testing, operations and workload deployment for modernization and redeployment.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "application modernization for IBM mainframe PL/I and COBOL development and operations teams for re-deployment to a variety of production servers including Cloud.",
+      "development, test, and workload deployment tools"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1444",
+    "product_group_id": "enterprise-a24b0efd1113184c716169a74882831b6c9fc79b1bc7214d72ee411fbc898cd0",
+    "product_description": "Operations Bridge monitors your IT environment and consolidates data from existing tools. It applies automated discovery, monitoring, analytics, and remediation to data across traditional, private, public, multi-cloud and container-based infrastructure.",
+    "annotation_id": "ann_8924009aa043b31a83c2f252",
+    "description_sha256": "32d8ffc6b171cedc37bbdea9f8e7676971f58546e2421fd1eb93f4badd18a0b8",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Monitoring and consolidating infrastructure data are concrete conventional functions, but the method for automated discovery, analytics, and remediation is unspecified. Non-AI is the best-supported forced decision, with unresolved analytics/automation uncertainty.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "monitors your IT environment and consolidates data from existing tools.",
+      "It applies automated discovery, monitoring, analytics, and remediation to data across traditional, private, public, multi-cloud and container-based infrastructure."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1447",
+    "product_group_id": "enterprise-8c6437201abd51babb6bf033bfacefaac3ab99d2136486068e4494e40e751b6f",
+    "product_description": "Micro Focus™ Enterprise Server by OpenText is a secure & reliable multi-platform production server to replatform IBM z/OS applications. It supports continued application modernization and integration with the selected platform including Cloud based service offerings.",
+    "annotation_id": "ann_8a00511b6bdae6b5c908aca5",
+    "description_sha256": "7557d809bd3146845a84270f1984864e63b12a861ba73b1f2d727c8217c042ff",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "A production server for replatforming IBM z/OS applications, with application modernization and integration support.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "is a secure & reliable multi-platform production server to replatform IBM z/OS applications.",
+      "It supports continued application modernization and integration with the selected platform"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1453",
+    "product_group_id": "enterprise-e9e9438117f0b20648fd0df47be49161d18edd6bea417cd79657b6987410d695",
+    "product_description": "OpenText™ VisiBroker is a comprehensive CORBA environment for developing distributed applications. Built on open standards and a high-performance architecture, VisiBroker is especially suited to low-latency, complex, mission-critical environments.\nIncludes:\nVisiBroker Development Server (Production) for Vericheck\nVisiBroker Development Server (Production) for vRepair\nVisiBroker Development Server (Test/Dev) for Vericheck\nVisiBroker Development Server (Test/Dev) for vRepair\nVisiBroker Development Server License for Vericheck\nVisiBroker Development Server License for vRepair",
+    "annotation_id": "ann_b28b2998b7d6e1368c52b8a5",
+    "description_sha256": "13d768874ab94bec48fcc93d363d5bcdd681dc42af39671827937e729c8adc85",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a CORBA environment for developing distributed applications and lists development-server licenses, conventional application-development infrastructure.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "OpenText™ VisiBroker is a comprehensive CORBA environment for developing distributed applications.",
+      "VisiBroker Development Server License for Vericheck"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1460",
+    "product_group_id": "enterprise-195acd9d290a3ff6c07b44b2954f5101944a7e3ba5ce1cbfecc00a20cae1a6a8",
+    "product_description": "Verint fixed fee software managed services.",
+    "annotation_id": "ann_b5ac8951136053b139b84228",
+    "description_sha256": "32eac5afe9e0fe888a8f7126c80ea5f1dd23f76b3cb9be7529d88b8f5e363a6e",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The text identifies fixed-fee software managed services but states no software function, so it cannot substantiate a supported negative. Non-AI is retained only as the forced best-supported binary decision.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Verint fixed fee software managed services."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1445",
+    "product_group_id": "enterprise-d562ff18c76c4d7f9dcd4e47792373cbfd05b7e56b4421587f6eeb165a255c42",
+    "product_description": "Connect securely, seamlessly, and from anywhere to critical IT systems, cloud applications, and OT systems—no VPN required.",
+    "annotation_id": "ann_c77c84c0b523b711c0072c8b",
+    "description_sha256": "f9d56253c1eedb5ebe75501749716d3f1021b06e331f0d353e2c838115f2f410",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes secure remote connectivity to IT, cloud and OT systems without a VPN, a conventional access/connectivity function.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Connect securely, seamlessly, and from anywhere to critical IT systems, cloud applications, and OT systems—no VPN required."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1457",
+    "product_group_id": "enterprise-200495235c4665c5de42da598043bf4cd77d357edafc579e479cb040a3eea792",
+    "product_description": "Operations Bridge Reporter (OBR) collects data from cross domain data sources, processes it, and generates reports. OBR uses Vertica database for storing performance data, SAP BusinessObjects for generating reports and PostgreSQL database for storing management data.",
+    "annotation_id": "ann_ee78cf0c5ddbfc0c4cc64e2c",
+    "description_sha256": "881a92e9c8bbf88faae15f1eb9f1f464ff02a881748b214ca5497bcd2c860fa6",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Collects and processes cross-domain data to generate reports and specifies databases used for performance and management data, conventional reporting and data storage.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "collects data from cross domain data sources, processes it, and generates reports.",
+      "uses Vertica database for storing performance data, SAP BusinessObjects for generating reports and PostgreSQL database for storing management data."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1446",
+    "product_group_id": "enterprise-ef27592e49040b296d474f50dbb5748a9b14630b7b09c4ce5b52e36bc0e861e4",
+    "product_description": "StreamNative Supported Apache Pulsar is an all-in-one messaging and streaming platform. Messages can be consumed and acknowledged individually or consumed as streams with less than 10ms of latency. Its layered architecture allows rapid scaling across hundreds of nodes, without data reshuffling.\n\nIts features include multi-tenancy with resource separation and access control, geo-replication across regions, tiered storage and support for six official client languages. It supports up to one million unique topics and is designed to simplify your application architecture.",
+    "annotation_id": "ann_fd247e3aac3ff5ea51de5070",
+    "description_sha256": "dd94ff63b816aaf448a51c743e6e5ae711a54cec65d91977d50591eeaa33984f",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a messaging and streaming platform with consumption, acknowledgment, scaling, access control, replication and storage capabilities—conventional data infrastructure.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "StreamNative Supported Apache Pulsar is an all-in-one messaging and streaming platform.",
+      "Its features include multi-tenancy with resource separation and access control, geo-replication across regions, tiered storage and support for six official client languages."
+    ],
+    "ai_type_evidence_spans": null
+  }
+]

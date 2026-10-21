@@ -1,7 +1,7 @@
 {
   "status": "active",
   "lane": "codex",
-  "updated_at": "2026-10-21T01:20:02.070057+00:00",
+  "updated_at": "2026-10-21T01:22:29.538243+00:00",
   "new_completed_descriptions": 560,
   "new_completed_rows": 574,
   "remaining_lane_descriptions": 51,
@@ -36,13 +36,13 @@
     "batch-028",
     "batch-029"
   ],
-  "current_batch": "batch-030",
-  "next_batch": "batch-031",
-  "current_stage": "reconciliation",
-  "active_workers": 1,
+  "current_batch": "batch-031",
+  "next_batch": null,
+  "current_stage": "independent",
+  "active_workers": 2,
   "resume_requires_user_request": false,
   "stop_on_usage_limit": true,
-  "independent_workflow_run_id": "27284f5b-f7cd-464b-b516-5c9e254cb693",
+  "independent_workflow_run_id": "ef0dd92e-adaa-4163-9a34-3d9dec0972b2",
   "blocker": null,
   "git_sync_note": "Herdr native labeling workers idle; previous pi-subagents /tmp run registry absent. No annotation restarted. Preserve current partial outputs; gate before accepting.",
   "locally_finalized_pending_acceptance": [
@@ -54,8 +54,17 @@
       "held_ids": [
         "ann_7b87c87eefc5556a8f829a03"
       ]
+    },
+    {
+      "batch_id": "batch-030",
+      "descriptions": 20,
+      "rows": 20,
+      "status": "semantic_acceptance_hold",
+      "held_ids": [
+        "ann_3f05507c132a1730f64e4d5a"
+      ]
     }
   ],
   "major_stop_receipt": "runtime/MAJOR_RUNTIME_STOP_20261020.json",
-  "reconciliation_workflow_run_id": "3cd64131-0e64-4401-afdf-d0d8f85bc7b0"
+  "reconciliation_workflow_run_id": null
 }
