@@ -1,11 +1,11 @@
 {
-  "status": "planned_labeling_complete_with_semantic_acceptance_holds",
+  "status": "complete_with_quarantine",
   "lane": "codex",
-  "updated_at": "2026-10-21T01:28:19.144411+00:00",
-  "new_completed_descriptions": 571,
-  "new_completed_rows": 585,
-  "remaining_lane_descriptions": 40,
-  "remaining_lane_rows": 40,
+  "updated_at": "2026-10-21T01:51:14.956615+00:00",
+  "new_completed_descriptions": 609,
+  "new_completed_rows": 623,
+  "remaining_lane_descriptions": 0,
+  "remaining_lane_rows": 0,
   "finalized_batches": [
     "batch-001",
     "batch-002",
@@ -39,7 +39,7 @@
   ],
   "current_batch": null,
   "next_batch": null,
-  "current_stage": "all_planned_annotations_finished_pending_hold_disposition",
+  "current_stage": "complete_no_further_annotation",
   "active_workers": 0,
   "resume_requires_user_request": false,
   "stop_on_usage_limit": true,
@@ -67,5 +67,9 @@
     }
   ],
   "major_stop_receipt": "runtime/MAJOR_RUNTIME_STOP_20261020.json",
-  "reconciliation_workflow_run_id": null
+  "reconciliation_workflow_run_id": null,
+  "quarantined_descriptions": 2,
+  "quarantined_rows": 2,
+  "next_safe_action": "No further labeling required; seven globally quarantined records remain excluded. Original batch holds superseded only for explicitly released records by record-level release receipt.",
+  "record_level_release_receipt": "../../runtime/record-level-release-20261021/RELEASE_RECEIPT.json"
 }

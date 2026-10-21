@@ -1,10 +1,10 @@
 {
-  "status": "planned_annotations_complete_with_semantic_acceptance_holds",
+  "status": "complete_with_quarantine",
   "lane": "cursor",
-  "new_completed_descriptions": 580,
-  "new_completed_rows": 599,
-  "remaining_lane_descriptions": 40,
-  "remaining_lane_rows": 40,
+  "new_completed_descriptions": 615,
+  "new_completed_rows": 634,
+  "remaining_lane_descriptions": 0,
+  "remaining_lane_rows": 0,
   "finalized_batches": [
     "batch-001",
     "batch-002",
@@ -44,7 +44,7 @@
   "cost_usd": null,
   "billed_tokens": null,
   "latest_authorization": "2026-10-20 user explicitly confirmed quota reset and authorized continuation of both labeling lanes; no model/account fallback or changes",
-  "current_stage": "all_planned_annotations_finished_pending_hold_disposition",
+  "current_stage": "complete_no_further_annotation",
   "native_targets": {
     "028_labeler": "cursor028-labeler wF:p27; UUID fad5a64a-3f41-491c-8153-0085b83d31f3; explicit claude-haiku-5-5-thinking-high; exact prepared labeler cwd; prompt submitted once",
     "028_blind": "cursor028-blind wF:p28; UUID dbebfedb-7ef4-470c-8958-f0b0d159bf87; explicit gpt-5.6-luna-high; exact prepared blind cwd; prompt submitted once",
@@ -121,7 +121,7 @@
     "batch022_weak_subtype_count": 0,
     "batch022_structural_repairs": 1
   },
-  "next_safe_action": "Parenthold disposition; no newworkers or repeatedjudgments.",
+  "next_safe_action": "No further labeling required; seven globally quarantined records remain excluded. Original batch holds superseded only for explicitly released records by record-level release receipt.",
   "blocker": null,
   "batch024_independent_registration": "runtime/independent-result-registration.json; labeler result dada81ec338aa1c3288200a81e15aa31c1166a8da203e0008f24cc49eddca672; blind result 2a1a774c165343bcb52445394a6ae497f7fd9a4ee2811b77d27ad39c318e8484; 20 checkpoint hashes per role registered and verified; helper stage loading, schema, quotes, coverage, hashes and private stage equality passed before comparison.",
   "batch024_reconciliation_routing": "runtime/reconciliation-routing.json; 7 helper-required plus 1 additional NLG/AI-native support concern; exactly 8 assigned to same original Luna once; all20 pair reviews saved in runtime/pair-review.json.",
@@ -144,7 +144,7 @@
     "rows": 40,
     "accepted_lane_totals_exclude_pending_batches": true
   },
-  "updated_at": "2026-10-21T01:47:29.590595+00:00",
+  "updated_at": "2026-10-21T01:51:14.956615+00:00",
   "git_sync_note": "Batch029 parent accepted; do not edit its exports. Batch030 new contexts have correct actual Haiku/Luna banners and exact private cwds; one prompt each not yet submitted.",
   "major_stop_receipt": "runtime/MAJOR_RUNTIME_STOP_20261020.json",
   "parent_accepted_batch027": "batches/batch-027/PARENT_VALIDATION.json",
@@ -196,5 +196,8 @@
       "ann_a358d7697a2a50b6c8993e3a"
     ],
     "entire20rowbatch_uncounted": true
-  }
+  },
+  "quarantined_descriptions": 5,
+  "quarantined_rows": 5,
+  "record_level_release_receipt": "../../runtime/record-level-release-20261021/RELEASE_RECEIPT.json"
 }

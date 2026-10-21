@@ -1,15 +1,21 @@
 {
-  "timestamp": "2026-10-21T01:47:29.590595+00:00",
-  "status": "annotation_plans_exhausted_pending_hold_disposition",
+  "timestamp": "2026-10-21T01:51:14.956615+00:00",
+  "status": "complete_with_seven_quarantined_records",
   "locally_annotated_descriptions": 1391,
   "locally_annotated_rows": 1438,
-  "parent_accepted_descriptions": 1311,
-  "parent_accepted_rows": 1358,
-  "held_descriptions": 80,
-  "held_rows": 80,
-  "disputed_judgments": 6,
+  "parent_accepted_descriptions": 1384,
+  "parent_accepted_rows": 1431,
+  "held_descriptions": 0,
+  "held_rows": 0,
+  "disputed_judgments": 7,
   "active_annotation_workers": 0,
-  "holds": {
+  "no_training_dataset_merge": true,
+  "no_further_model_votes_or_parent_relabels": true,
+  "recommended_next_decision": "No further labeling action needed. Preserve seven quarantined records excluded; optional future human review separately. Weak/forced accepted labels retain flags and are not automatically training-ready.",
+  "quarantined_descriptions": 7,
+  "quarantined_rows": 7,
+  "record_level_release_receipt": "runtime/record-level-release-20261021/RELEASE_RECEIPT.json",
+  "historical_holds": {
     "cursor-batch-025": {
       "descriptions": 20,
       "rows": 20,
@@ -34,8 +40,5 @@
       "held_issue_count": 1,
       "receipt": "lanes/cursor/batches/batch-031/PARENT_VALIDATION.json"
     }
-  },
-  "no_training_dataset_merge": true,
-  "no_further_model_votes_or_parent_relabels": true,
-  "recommended_next_decision": "Quarantine six disputed records and evaluate release of the other74 held rows separately without changing original labels/exports; requires an explicit record-level acceptance disposition. Alternative is explicitly authorized further review."
+  }
 }

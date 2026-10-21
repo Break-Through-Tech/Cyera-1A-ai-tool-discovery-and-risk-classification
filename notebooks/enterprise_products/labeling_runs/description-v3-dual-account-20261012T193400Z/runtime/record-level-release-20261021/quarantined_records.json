@@ -1,0 +1,620 @@
+[
+  {
+    "source_batch": "lanes/cursor/batches/batch-025",
+    "quarantine_reason": "Additional issue found while rechecking74: AFPDS is described as a printer-independent data stream/format; no executable software offering established.",
+    "original_record": {
+      "source_record_number": "1211",
+      "product_group_id": "enterprise-158d7af56e93d8ad2430cebd46f221a55098d47025c6e02effff0527b470d701",
+      "product_description": "Advanced Function Presentation data stream (AFPDS) is a printer-independent data stream that composes full pages within a document.",
+      "annotation_id": "ann_1bebefad5f5507b7ed6dc4cb",
+      "description_sha256": "89716d5ba3d7ac6eb3fe07011451a2261e947a89b913c7c6269ec47da794e19b",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a printer-independent data stream format that composes full pages within a document. This is a conventional document-formatting function; no AI, ML, or learned-model signal appears.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Advanced Function Presentation data stream (AFPDS) is a printer-independent data stream that composes full pages within a document."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "original_review": {
+      "annotation_id": "ann_1bebefad5f5507b7ed6dc4cb",
+      "description_sha256": "89716d5ba3d7ac6eb3fe07011451a2261e947a89b913c7c6269ec47da794e19b",
+      "source_record_references": [
+        "1211"
+      ],
+      "labeler": {
+        "annotation_id": "ann_1bebefad5f5507b7ed6dc4cb",
+        "description_sha256": "89716d5ba3d7ac6eb3fe07011451a2261e947a89b913c7c6269ec47da794e19b",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes a printer-independent data stream format that composes full pages within a document. This is a conventional document-formatting function; no AI, ML, or learned-model signal appears.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Advanced Function Presentation data stream (AFPDS) is a printer-independent data stream that composes full pages within a document."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind": {
+        "annotation_id": "ann_1bebefad5f5507b7ed6dc4cb",
+        "description_sha256": "89716d5ba3d7ac6eb3fe07011451a2261e947a89b913c7c6269ec47da794e19b",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description defines a conventional printer-independent data stream that composes full document pages, with no affirmative AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Advanced Function Presentation data stream (AFPDS) is a printer-independent data stream that composes full pages within a document."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "reconciliation": null,
+      "final": {
+        "annotation_id": "ann_1bebefad5f5507b7ed6dc4cb",
+        "description_sha256": "89716d5ba3d7ac6eb3fe07011451a2261e947a89b913c7c6269ec47da794e19b",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes a printer-independent data stream format that composes full pages within a document. This is a conventional document-formatting function; no AI, ML, or learned-model signal appears.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Advanced Function Presentation data stream (AFPDS) is a printer-independent data stream that composes full pages within a document."
+        ],
+        "ai_type_evidence_spans": null
+      }
+    }
+  },
+  {
+    "source_batch": "lanes/cursor/batches/batch-025",
+    "quarantine_reason": "Address-point dataset, no supplied software functionality established.",
+    "original_record": {
+      "source_record_number": "1215",
+      "product_group_id": "enterprise-32a81172089e69d82fcf70a85aa2b4b8e97c27a533ea98d1e40a410673d58503",
+      "product_description": "Precisely's Master Location Data (MLD) is an address point geocoding dataset. It is a near-complete address list for the United States paired with the best available and accurate location coordinates for every address.",
+      "annotation_id": "ann_6fee72c7a3aa2529320eaaeb",
+      "description_sha256": "ab22c17e0333a27f2c67d44f8132b8235af5d306848448c263778857ae98afb4",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes an address-point geocoding dataset that pairs a near-complete US address list with location coordinates. This is a conventional reference dataset; no AI, ML, or learned-model signal appears.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "It is a near-complete address list for the United States paired with the best available and accurate location coordinates for every address."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "original_review": {
+      "annotation_id": "ann_6fee72c7a3aa2529320eaaeb",
+      "description_sha256": "ab22c17e0333a27f2c67d44f8132b8235af5d306848448c263778857ae98afb4",
+      "source_record_references": [
+        "1215"
+      ],
+      "labeler": {
+        "annotation_id": "ann_6fee72c7a3aa2529320eaaeb",
+        "description_sha256": "ab22c17e0333a27f2c67d44f8132b8235af5d306848448c263778857ae98afb4",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes an address-point geocoding dataset that pairs a near-complete US address list with location coordinates. This is a conventional reference dataset; no AI, ML, or learned-model signal appears.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "It is a near-complete address list for the United States paired with the best available and accurate location coordinates for every address."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind": {
+        "annotation_id": "ann_6fee72c7a3aa2529320eaaeb",
+        "description_sha256": "ab22c17e0333a27f2c67d44f8132b8235af5d306848448c263778857ae98afb4",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description identifies a conventional address-point geocoding dataset pairing U.S. addresses with location coordinates, with no affirmative AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Precisely's Master Location Data (MLD) is an address point geocoding dataset. It is a near-complete address list for the United States paired with the best available and accurate location coordinates for every address."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "reconciliation": null,
+      "final": {
+        "annotation_id": "ann_6fee72c7a3aa2529320eaaeb",
+        "description_sha256": "ab22c17e0333a27f2c67d44f8132b8235af5d306848448c263778857ae98afb4",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes an address-point geocoding dataset that pairs a near-complete US address list with location coordinates. This is a conventional reference dataset; no AI, ML, or learned-model signal appears.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "It is a near-complete address list for the United States paired with the best available and accurate location coordinates for every address."
+        ],
+        "ai_type_evidence_spans": null
+      }
+    }
+  },
+  {
+    "source_batch": "lanes/cursor/batches/batch-025",
+    "quarantine_reason": "Address inventory delivered as flat files; downstream uses do not establish software supplied.",
+    "original_record": {
+      "source_record_number": "1213",
+      "product_group_id": "enterprise-7d1c5f4cce02966b86c80e5d41d239c4bf8e1ad90125ec41e62a363ecc6cbb12",
+      "product_description": "United States Address Fabric is a high-quality current inventory of all known nationwide address\nlocations, provided in a flat file format. It contains both postal and non-postal addresses, where each\nrecord is pre-geocoded to provide the highest precision coordinate location. All addresses are verified,\nvalidated and standardized through an extensive address hygiene process and contain only primary\nstreet and city names. Each record is then assigned a PreciselyID which is a unique and persistent\nidentifier represented in the product as PBKEY.\nAddress Fabric can be used for location (spatial) analytics, mapping and display, address database\nmanagement, service area or asset management delineation, prospect analysis, and direct mailing.\nThe PreciselyID can be used for data management and maintenance of address records in association\nwith the packaged Change Log. It can also be used to associate Precisely's prebuilt GeoEnrichment\ndatasets, preprocessed with the PreciselyID, such as property attributes, demographics, or insurance\nrisk attribution.",
+      "annotation_id": "ann_998d0f88231208a3e93a4f51",
+      "description_sha256": "5210ba865e498151aa28c3c6ba0385c635ef200ab87e658adcad2a98ffefd89e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a flat-file inventory of verified, standardized, pre-geocoded addresses with a persistent identifier and change log. The named uses are mapping, address-database management, and spatial analysis. No AI, ML, prediction, or learned-model language appears.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is a high-quality current inventory of all known nationwide address",
+        "Address Fabric can be used for location (spatial) analytics, mapping and display"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "original_review": {
+      "annotation_id": "ann_998d0f88231208a3e93a4f51",
+      "description_sha256": "5210ba865e498151aa28c3c6ba0385c635ef200ab87e658adcad2a98ffefd89e",
+      "source_record_references": [
+        "1213"
+      ],
+      "labeler": {
+        "annotation_id": "ann_998d0f88231208a3e93a4f51",
+        "description_sha256": "5210ba865e498151aa28c3c6ba0385c635ef200ab87e658adcad2a98ffefd89e",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes a flat-file inventory of verified, standardized, pre-geocoded addresses with a persistent identifier and change log. The named uses are mapping, address-database management, and spatial analysis. No AI, ML, prediction, or learned-model language appears.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "is a high-quality current inventory of all known nationwide address",
+          "Address Fabric can be used for location (spatial) analytics, mapping and display"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind": {
+        "annotation_id": "ann_998d0f88231208a3e93a4f51",
+        "description_sha256": "5210ba865e498151aa28c3c6ba0385c635ef200ab87e658adcad2a98ffefd89e",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description states conventional address inventory, geocoding, verification, standardization, mapping, database management, and record association functions, with no affirmative AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "United States Address Fabric is a high-quality current inventory of all known nationwide address\nlocations, provided in a flat file format. It contains both postal and non-postal addresses, where each\nrecord is pre-geocoded to provide the highest precision coordinate location. All addresses are verified,\nvalidated and standardized through an extensive address hygiene process and contain only primary\nstreet and city names.",
+          "Address Fabric can be used for location (spatial) analytics, mapping and display, address database\nmanagement, service area or asset management delineation, prospect analysis, and direct mailing."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "reconciliation": null,
+      "final": {
+        "annotation_id": "ann_998d0f88231208a3e93a4f51",
+        "description_sha256": "5210ba865e498151aa28c3c6ba0385c635ef200ab87e658adcad2a98ffefd89e",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes a flat-file inventory of verified, standardized, pre-geocoded addresses with a persistent identifier and change log. The named uses are mapping, address-database management, and spatial analysis. No AI, ML, prediction, or learned-model language appears.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "is a high-quality current inventory of all known nationwide address",
+          "Address Fabric can be used for location (spatial) analytics, mapping and display"
+        ],
+        "ai_type_evidence_spans": null
+      }
+    }
+  },
+  {
+    "source_batch": "lanes/cursor/batches/batch-025",
+    "quarantine_reason": "Business-change contact information/data feed, software functionality not established.",
+    "original_record": {
+      "source_record_number": "1220",
+      "product_group_id": "enterprise-68cb791688d7062d4909f7f0461079e9957a32b8660434de88cb172d3c57542e",
+      "product_description": "The Hotlist From D&B tracks U.S. business change in eight dynamic business contact information categories. Mailers learn about the recent changes which have proven key to direct marketing success.",
+      "annotation_id": "ann_9cc3e33ea5284988c0c4b993",
+      "description_sha256": "d0d0285b432e3656704fd1e80083b052921bf25bd458650933e93cf1844d4174",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional data feed that tracks US business changes across eight contact-information categories for mailers. Tracking recorded changes is deterministic data maintenance; no AI, ML, or prediction signal appears.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The Hotlist From D&B tracks U.S. business change in eight dynamic business contact information categories"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "original_review": {
+      "annotation_id": "ann_9cc3e33ea5284988c0c4b993",
+      "description_sha256": "d0d0285b432e3656704fd1e80083b052921bf25bd458650933e93cf1844d4174",
+      "source_record_references": [
+        "1220"
+      ],
+      "labeler": {
+        "annotation_id": "ann_9cc3e33ea5284988c0c4b993",
+        "description_sha256": "d0d0285b432e3656704fd1e80083b052921bf25bd458650933e93cf1844d4174",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes a conventional data feed that tracks US business changes across eight contact-information categories for mailers. Tracking recorded changes is deterministic data maintenance; no AI, ML, or prediction signal appears.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "The Hotlist From D&B tracks U.S. business change in eight dynamic business contact information categories"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind": {
+        "annotation_id": "ann_9cc3e33ea5284988c0c4b993",
+        "description_sha256": "d0d0285b432e3656704fd1e80083b052921bf25bd458650933e93cf1844d4174",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description states conventional tracking of business contact-information changes for direct marketing, with no affirmative AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "The Hotlist From D&B tracks U.S. business change in eight dynamic business contact information categories. Mailers learn about the recent changes which have proven key to direct marketing success."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "reconciliation": null,
+      "final": {
+        "annotation_id": "ann_9cc3e33ea5284988c0c4b993",
+        "description_sha256": "d0d0285b432e3656704fd1e80083b052921bf25bd458650933e93cf1844d4174",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes a conventional data feed that tracks US business changes across eight contact-information categories for mailers. Tracking recorded changes is deterministic data maintenance; no AI, ML, or prediction signal appears.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "The Hotlist From D&B tracks U.S. business change in eight dynamic business contact information categories"
+        ],
+        "ai_type_evidence_spans": null
+      }
+    }
+  },
+  {
+    "source_batch": "lanes/cursor/batches/batch-031",
+    "quarantine_reason": "Purchased map-layer datasets; downstream thematic-map use does not establish supplied software.",
+    "original_record": {
+      "source_record_number": "1483",
+      "product_group_id": "enterprise-14b27cbb5e745d16a94e3a47be93659f1f2e994cea0ace1e7358f5cb55e8d4c5",
+      "product_description": "US provides a visual backdrop for demographic and other business analysis in the United States. It can be purchased as a complete bundle that includes all seven layers, or as individual layer datasets.  Combine census boundaries with business data and demographics to create thematic maps for analyzing trends such as sales or population growth:",
+      "annotation_id": "ann_a358d7697a2a50b6c8993e3a",
+      "description_sha256": "299ac4226659d85ebf9b2ce5ce7c5c446322cec635c1215825a697d065a7306e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers demographic and business data layers combined with census boundaries to create thematic maps for trend analysis, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Combine census boundaries with business data and demographics to create thematic maps for analyzing trends such as sales or population growth"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "original_review": {
+      "annotation_id": "ann_a358d7697a2a50b6c8993e3a",
+      "description_sha256": "299ac4226659d85ebf9b2ce5ce7c5c446322cec635c1215825a697d065a7306e",
+      "source_record_references": [
+        "1483"
+      ],
+      "labeler": {
+        "annotation_id": "ann_a358d7697a2a50b6c8993e3a",
+        "description_sha256": "299ac4226659d85ebf9b2ce5ce7c5c446322cec635c1215825a697d065a7306e",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes census boundary and business-data layers combined into thematic maps for analyzing trends, a conventional GIS mapping function; no AI is mentioned.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Combine census boundaries with business data and demographics to create thematic maps for analyzing trends such as sales or population growth"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind": {
+        "annotation_id": "ann_a358d7697a2a50b6c8993e3a",
+        "description_sha256": "299ac4226659d85ebf9b2ce5ce7c5c446322cec635c1215825a697d065a7306e",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description covers conventional demographic and business datasets, census boundaries, thematic maps, and business analysis, with no affirmative AI signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "US provides a visual backdrop for demographic and other business analysis in the United States. It can be purchased as a complete bundle that includes all seven layers, or as individual layer datasets.  Combine census boundaries with business data and demographics to create thematic maps for analyzing trends such as sales or population growth:"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "reconciliation": {
+        "annotation_id": "ann_a358d7697a2a50b6c8993e3a",
+        "description_sha256": "299ac4226659d85ebf9b2ce5ce7c5c446322cec635c1215825a697d065a7306e",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description covers demographic and business data layers combined with census boundaries to create thematic maps for trend analysis, with no affirmative AI signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Combine census boundaries with business data and demographics to create thematic maps for analyzing trends such as sales or population growth"
+        ],
+        "ai_type_evidence_spans": null,
+        "conflict_response": "Although the offering includes datasets and layers, the description also explicitly describes combining them to create thematic maps for analysis. That is a conventional GIS operation and meaningful described functionality, so the data-only scope concern does not make the binary evidence weak."
+      },
+      "final": {
+        "annotation_id": "ann_a358d7697a2a50b6c8993e3a",
+        "description_sha256": "299ac4226659d85ebf9b2ce5ce7c5c446322cec635c1215825a697d065a7306e",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description covers demographic and business data layers combined with census boundaries to create thematic maps for trend analysis, with no affirmative AI signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Combine census boundaries with business data and demographics to create thematic maps for analyzing trends such as sales or population growth"
+        ],
+        "ai_type_evidence_spans": null,
+        "conflict_response": "Although the offering includes datasets and layers, the description also explicitly describes combining them to create thematic maps for analysis. That is a conventional GIS operation and meaningful described functionality, so the data-only scope concern does not make the binary evidence weak."
+      }
+    }
+  },
+  {
+    "source_batch": "lanes/codex/batches/batch-023",
+    "quarantine_reason": "Audio/media files rather than described software functionality.",
+    "original_record": {
+      "source_record_number": "1134",
+      "product_group_id": "enterprise-6362078633eb9c7933d31449e9a5e6e6eb6a47c51f01676d3d44405795463506",
+      "product_description": "Custom audio files containing messages with licensed music that will not only keep your callers engaged, but also provide information to them while they stay on the line.",
+      "annotation_id": "ann_7b87c87eefc5556a8f829a03",
+      "description_sha256": "9be5a0e5e50ad5b8a6e004820b709458d380c5645ae74c078564d151699a9ba0",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described offering is custom audio content with licensed music and messages intended to engage and inform callers. This is conventional media content; the description does not specify how it is produced or delivered.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Custom audio files containing messages with licensed music",
+        "provide information to them while they stay on the line."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "original_review": {
+      "annotation_id": "ann_7b87c87eefc5556a8f829a03",
+      "description_sha256": "9be5a0e5e50ad5b8a6e004820b709458d380c5645ae74c078564d151699a9ba0",
+      "source_record_references": [
+        "1134"
+      ],
+      "labeler": {
+        "annotation_id": "ann_7b87c87eefc5556a8f829a03",
+        "description_sha256": "9be5a0e5e50ad5b8a6e004820b709458d380c5645ae74c078564d151699a9ba0",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The text describes prerecorded/custom caller audio and licensed music used to entertain callers and provide information during hold time, a conventional media function.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Custom audio files containing messages with licensed music",
+          "provide information to them while they stay on the line."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind": {
+        "annotation_id": "ann_7b87c87eefc5556a8f829a03",
+        "description_sha256": "9be5a0e5e50ad5b8a6e004820b709458d380c5645ae74c078564d151699a9ba0",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "This describes custom caller-hold audio containing licensed music and messages to engage and inform callers, a conventional media-content function.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Custom audio files containing messages with licensed music",
+          "provide information to them while they stay on the line."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "reconciliation": {
+        "annotation_id": "ann_7b87c87eefc5556a8f829a03",
+        "description_sha256": "9be5a0e5e50ad5b8a6e004820b709458d380c5645ae74c078564d151699a9ba0",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The described offering is custom audio content with licensed music and messages intended to engage and inform callers. This is conventional media content; the description does not specify how it is produced or delivered.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Custom audio files containing messages with licensed music",
+          "provide information to them while they stay on the line."
+        ],
+        "ai_type_evidence_spans": null,
+        "conflict_response": "The concern correctly rejects an inferred recording, playback, or generation mechanism. The text directly identifies the offering as audio files and states their contents and intended use; that supports a conventional media-content classification without asserting a software operation."
+      },
+      "final": {
+        "annotation_id": "ann_7b87c87eefc5556a8f829a03",
+        "description_sha256": "9be5a0e5e50ad5b8a6e004820b709458d380c5645ae74c078564d151699a9ba0",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The described offering is custom audio content with licensed music and messages intended to engage and inform callers. This is conventional media content; the description does not specify how it is produced or delivered.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Custom audio files containing messages with licensed music",
+          "provide information to them while they stay on the line."
+        ],
+        "ai_type_evidence_spans": null,
+        "conflict_response": "The concern correctly rejects an inferred recording, playback, or generation mechanism. The text directly identifies the offering as audio files and states their contents and intended use; that supports a conventional media-content classification without asserting a software operation."
+      }
+    }
+  },
+  {
+    "source_batch": "lanes/codex/batches/batch-030",
+    "quarantine_reason": "Instructional content packs; executable simulation and inclusion of customization software not established.",
+    "original_record": {
+      "source_record_number": "1449",
+      "product_group_id": "enterprise-7a4753cc0cc6fe6251aaf81f7f8b748087860f92ba7e3f6275da1931e0579591",
+      "product_description": "Boost the user adoption of your applications with ART Content Packs for your Learning Management System LMS and Webserver. Our ART Content Packs contain Show-Me demonstrations, Hands-On Try-Me simulations, step-by-step job aids and assessments. Use the ART Developer Kit to customize the Content Pack or create your own content for your Learning Management System (LMS) and Webserver.",
+      "annotation_id": "ann_3f05507c132a1730f64e4d5a",
+      "description_sha256": "ec14fb223cdff852cb69eeb4dc488a75f2834958198ffda84bc973fd533f6609",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The offering is described as training content packs containing demonstrations, simulations, job aids and assessments, plus a kit to customize or create content. These are conventional instructional-content functions; no AI operation is described.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Our ART Content Packs contain Show-Me demonstrations, Hands-On Try-Me simulations, step-by-step job aids and assessments.",
+        "Use the ART Developer Kit to customize the Content Pack or create your own content for your Learning Management System (LMS) and Webserver."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "original_review": {
+      "annotation_id": "ann_3f05507c132a1730f64e4d5a",
+      "description_sha256": "ec14fb223cdff852cb69eeb4dc488a75f2834958198ffda84bc973fd533f6609",
+      "source_record_references": [
+        "1449"
+      ],
+      "labeler": {
+        "annotation_id": "ann_3f05507c132a1730f64e4d5a",
+        "description_sha256": "ec14fb223cdff852cb69eeb4dc488a75f2834958198ffda84bc973fd533f6609",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Offers training content such as demonstrations, simulations, job aids and assessments, with a kit to customize that content.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Our ART Content Packs contain Show-Me demonstrations, Hands-On Try-Me simulations, step-by-step job aids and assessments.",
+          "Use the ART Developer Kit to customize the Content Pack or create your own content"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind": {
+        "annotation_id": "ann_3f05507c132a1730f64e4d5a",
+        "description_sha256": "ec14fb223cdff852cb69eeb4dc488a75f2834958198ffda84bc973fd533f6609",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes training content packs with demonstrations, simulations, job aids, assessments, and customization tools.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Our ART Content Packs contain Show-Me demonstrations, Hands-On Try-Me simulations, step-by-step job aids and assessments.",
+          "Use the ART Developer Kit to customize the Content Pack or create your own content"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "reconciliation": {
+        "annotation_id": "ann_3f05507c132a1730f64e4d5a",
+        "description_sha256": "ec14fb223cdff852cb69eeb4dc488a75f2834958198ffda84bc973fd533f6609",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The offering is described as training content packs containing demonstrations, simulations, job aids and assessments, plus a kit to customize or create content. These are conventional instructional-content functions; no AI operation is described.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Our ART Content Packs contain Show-Me demonstrations, Hands-On Try-Me simulations, step-by-step job aids and assessments.",
+          "Use the ART Developer Kit to customize the Content Pack or create your own content for your Learning Management System (LMS) and Webserver."
+        ],
+        "ai_type_evidence_spans": null,
+        "conflict_response": "The description explicitly frames the offering as content packs and content customization, with examples of the material supplied. It does not establish how the simulations run or that the developer kit is included, and I do not infer either point; the stated instructional-content function is nevertheless meaningful conventional functionality."
+      },
+      "final": {
+        "annotation_id": "ann_3f05507c132a1730f64e4d5a",
+        "description_sha256": "ec14fb223cdff852cb69eeb4dc488a75f2834958198ffda84bc973fd533f6609",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The offering is described as training content packs containing demonstrations, simulations, job aids and assessments, plus a kit to customize or create content. These are conventional instructional-content functions; no AI operation is described.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Our ART Content Packs contain Show-Me demonstrations, Hands-On Try-Me simulations, step-by-step job aids and assessments.",
+          "Use the ART Developer Kit to customize the Content Pack or create your own content for your Learning Management System (LMS) and Webserver."
+        ],
+        "ai_type_evidence_spans": null,
+        "conflict_response": "The description explicitly frames the offering as content packs and content customization, with examples of the material supplied. It does not establish how the simulations run or that the developer kit is included, and I do not infer either point; the stated instructional-content function is nevertheless meaningful conventional functionality."
+      }
+    }
+  }
+]
