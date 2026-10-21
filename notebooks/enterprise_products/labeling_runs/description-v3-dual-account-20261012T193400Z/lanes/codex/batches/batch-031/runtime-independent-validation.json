@@ -1,0 +1,42 @@
+{
+  "roles": {
+    "labeler": {
+      "run_id": "85e451a0-9deb-4b1c-a286-637a799fa44e",
+      "native_path": "/tmp/pi-subagents-uid-1000/async-subagent-runs/85e451a0-9deb-4b1c-a286-637a799fa44e/structured-output/pi-subagent-structured-fro0dr/output.json",
+      "native_sha256": "629b256b3aafc36fd1f315d8e07cd3a3c0fb34ef1d0174e52a04abe83a706435",
+      "checkpoints": {
+        "agents/labeler/checkpoints/ann_17cf95d4b6dcad77a29cf8a2.json": "f6d3545c0ed43d2ae481448b46a7495b740feaca774446723409202d2a3fbb57",
+        "agents/labeler/checkpoints/ann_4dd3669e9738c427261ab3fb.json": "f9147a68cda3db60b8b28358e9172301bc802f285a672e2ac143771227e3a712",
+        "agents/labeler/checkpoints/ann_5aea1cdc350f3f310c52d6b7.json": "70bc2e7f038bd36f1df056d08aa0849ad9fe9327dbeb20fc74b1c3f90ae16a9e",
+        "agents/labeler/checkpoints/ann_5c047589b43215b7c46bb24b.json": "4d3e478935bcdcd02059c6e397f82981a3045010cd6e525f74165e2f700d4688",
+        "agents/labeler/checkpoints/ann_6bdf6088819ebe155009cb59.json": "049341cd5daad0888a9ee89d1c395000e2bf54aa96baea12d0770fb718f66d80",
+        "agents/labeler/checkpoints/ann_98346aa8b285b5f0c8226f19.json": "9c02ae49fdedc50102f439ebd164360c60461ba1705557457710c48066d88fef",
+        "agents/labeler/checkpoints/ann_9cec1ae006ffad1218ce463a.json": "e9cf1b9843d11055e0fef48570df89380092ae4487f6652aeef3e64af0a6a024",
+        "agents/labeler/checkpoints/ann_b574c80bc58c1f798ac3fb8e.json": "f4a19e70a1a5a3bbf0e87d35aa98994c8550242c9b6311ca98868989e52a8f47",
+        "agents/labeler/checkpoints/ann_dc96de82c152aef132b4c2d5.json": "1182bdcff08dd1bcbf09da4474db4616a1caf5a7ddac2d2be542cf5a174a88e3",
+        "agents/labeler/checkpoints/ann_f6baf0b8298e5c17099bc11e.json": "5d7d627a10f0c1736b2d757492a58dd3583a940215eb2ae6d5f15a30acf80464",
+        "agents/labeler/checkpoints/ann_f78dc6457895c6055767eb25.json": "0948494209a0bef2a93094c0cb38a8d6af759e375a4491366aac12996edbfffd"
+      },
+      "model": "openai-codex/gpt-6-luna"
+    },
+    "blind": {
+      "run_id": "0fe5e2da-2fd5-478b-94ec-59c843a9317f",
+      "native_path": "/tmp/pi-subagents-uid-1000/async-subagent-runs/0fe5e2da-2fd5-478b-94ec-59c843a9317f/structured-output/pi-subagent-structured-TxaaZL/output.json",
+      "native_sha256": "39d69bcfa4c8e0e9075c98c01d78c8bc00ba9d013b83f2a4f688d5e148dce16d",
+      "checkpoints": {
+        "agents/blind/checkpoints/ann_17cf95d4b6dcad77a29cf8a2.json": "0c475e46b5ecfecc2a760735ff32ba5c04483d1492a9bdab2dc9da3e019f90bb",
+        "agents/blind/checkpoints/ann_4dd3669e9738c427261ab3fb.json": "167af3942db0a9ef82708289e9edfc07a9f6c5ef231fd326f1e864fea81daf09",
+        "agents/blind/checkpoints/ann_5aea1cdc350f3f310c52d6b7.json": "47ca4eb21e363a2394365f1a38b49e43407ab91a4ee0c0e44ec602bda21bea40",
+        "agents/blind/checkpoints/ann_5c047589b43215b7c46bb24b.json": "72a305e3f49cfbbe59f83f9c95002f120b286483a910c902f011bc427a95161d",
+        "agents/blind/checkpoints/ann_6bdf6088819ebe155009cb59.json": "2a1b595092bb1fdf1c9fc0209d3bd5c882adbbab21f1b3b26ec0f9c8f376dec0",
+        "agents/blind/checkpoints/ann_98346aa8b285b5f0c8226f19.json": "c26e8f46ab49f7bb07c6e3b633d14efead8c70375a1af369b98ed716e0effa7f",
+        "agents/blind/checkpoints/ann_9cec1ae006ffad1218ce463a.json": "944a48611333bb06e17f7cfc5d5936e2689085c30777388837b907dc92776568",
+        "agents/blind/checkpoints/ann_b574c80bc58c1f798ac3fb8e.json": "c59ba367bcfd81687a283bd5d9df992824c99fff31cf7294aeec58e7bc60fc15",
+        "agents/blind/checkpoints/ann_dc96de82c152aef132b4c2d5.json": "8c8afdd179ada26316c932c908a792708a2ab0287615231092602056ec141646",
+        "agents/blind/checkpoints/ann_f6baf0b8298e5c17099bc11e.json": "7ba5a6f30a84a2af3ea8fa73bcb26956982498b7b0cda5cacb785dc9e86de6d2",
+        "agents/blind/checkpoints/ann_f78dc6457895c6055767eb25.json": "00fb094d7abe7404a0e439a4e7c57f8b2badbb0a62c8d26194ec25169acbd8a4"
+      },
+      "model": "openai-codex/gpt-6-luna"
+    }
+  }
+}

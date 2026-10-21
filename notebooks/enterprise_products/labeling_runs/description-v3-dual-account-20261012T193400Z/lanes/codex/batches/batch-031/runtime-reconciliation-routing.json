@@ -1,0 +1,34 @@
+{
+  "required": [
+    "ann_b574c80bc58c1f798ac3fb8e"
+  ],
+  "extra": [
+    "ann_5aea1cdc350f3f310c52d6b7",
+    "ann_5c047589b43215b7c46bb24b",
+    "ann_f78dc6457895c6055767eb25"
+  ],
+  "routed_ids": [
+    "ann_5aea1cdc350f3f310c52d6b7",
+    "ann_5c047589b43215b7c46bb24b",
+    "ann_b574c80bc58c1f798ac3fb8e",
+    "ann_f78dc6457895c6055767eb25"
+  ],
+  "all11_source_proposal_pairs_reviewed": true,
+  "parent_concerns": {
+    "ann_b574c80bc58c1f798ac3fb8e": [
+      "AI/ML explicit binary positive independent of subtype. Resolve native vs enabled and subtype support separately: does literal text establish core dependence or a meaningful conventional core remaining without AI? Do not infer from generic analytics name."
+    ],
+    "ann_5aea1cdc350f3f310c52d6b7": [
+      "Text describes population estimates and methodology, possibly only demographic DATA rather than an executable software offering. Statistical methods alone do not establish meaningful software function. Also assess whether demographic estimation/projection models are conventional explicitly enough without assuming implementation."
+    ],
+    "ann_5c047589b43215b7c46bb24b": [
+      "Text explicitly describes warranty/technical-support PLAN for devices, not software functionality. Meaningful conventional SERVICE is not itself meaningful software. Assess supported-vs-weak binary flags under frozen software-scope requirement; no outside Apple features."
+    ],
+    "ann_f78dc6457895c6055767eb25": [
+      "CallerID reputation monitoring/mitigation described as MANAGED SERVICES; does exact text establish conventional software functionality or merely service scope? Mitigation/reputation methods unspecified, do not infer AI or deterministic classification implementation."
+    ]
+  },
+  "original_blind_run_id": "0fe5e2da-2fd5-478b-94ec-59c843a9317f",
+  "semantic_pass": 1,
+  "packet_sha256": "2113c7791f59cabfa9ecc13de54dd3af3b18097d1a22810ce9efd59c1ad2c2c0"
+}

@@ -1,0 +1,181 @@
+[
+  {
+    "annotation_id": "ann_5aea1cdc350f3f310c52d6b7",
+    "description_sha256": "c1e6eb89efa22fae0ef89ed5c6bc6a217590f93c04ab9f9b7f5e16736fa9bd6c",
+    "description": "Estimates of population characteristics such as the population distributions by age, sex, marital status, race, and Hispanic origin follow a similar top-down bottom-up process. At the block group unit of analysis, the latest and best information from the Census Bureau’s American Community Survey (ACS) – the largest household survey in the US – is integrated with Census 2010 data to produce timely, accurate small-area estimates. Population characteristics are estimated using demographic estimation and projection models to achieve a preliminary set of estimates which are then reconciled to top-down estimates using iterative proportion fitting.",
+    "source_record_references": [
+      "1484"
+    ],
+    "labeler": {
+      "annotation_id": "ann_5aea1cdc350f3f310c52d6b7",
+      "description_sha256": "c1e6eb89efa22fae0ef89ed5c6bc6a217590f93c04ab9f9b7f5e16736fa9bd6c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description explains demographic population estimation from survey and census data using estimation, projection, and iterative proportion fitting; it does not establish AI functionality.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "the latest and best information from the Census Bureau’s American Community Survey (ACS) – the largest household survey in the US – is integrated with Census 2010 data to produce timely, accurate small-area estimates.",
+        "Population characteristics are estimated using demographic estimation and projection models to achieve a preliminary set of estimates which are then reconciled to top-down estimates using iterative proportion fitting."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_5aea1cdc350f3f310c52d6b7",
+      "description_sha256": "c1e6eb89efa22fae0ef89ed5c6bc6a217590f93c04ab9f9b7f5e16736fa9bd6c",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "This describes statistical population estimation and projection using census survey data, demographic models, and iterative proportion fitting. These are expressly stated estimation methods, without a product-specific AI/ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Population characteristics are estimated using demographic estimation and projection models to achieve a preliminary set of estimates which are then reconciled to top-down estimates using iterative proportion fitting."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Text describes population estimates and methodology, possibly only demographic DATA rather than an executable software offering. Statistical methods alone do not establish meaningful software function. Also assess whether demographic estimation/projection models are conventional explicitly enough without assuming implementation."
+    ]
+  },
+  {
+    "annotation_id": "ann_5c047589b43215b7c46bb24b",
+    "description_sha256": "8201d9a2dfc0619fed8b1c2660f80ee7d7d3a59c93ea3f684aa50540b3a92b0a",
+    "description": "AppleCare+ is Apple's brand name for extended warranty and technical support plans for their devices. AppleCare+ extends the devices' one-year limited warranty and the ninety days of technical support (which is known as basic AppleCare).",
+    "source_record_references": [
+      "1485"
+    ],
+    "labeler": {
+      "annotation_id": "ann_5c047589b43215b7c46bb24b",
+      "description_sha256": "8201d9a2dfc0619fed8b1c2660f80ee7d7d3a59c93ea3f684aa50540b3a92b0a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description defines a warranty extension and technical-support plan, which are conventional service and coverage offerings.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "extends the devices' one-year limited warranty and the ninety days of technical support (which is known as basic AppleCare)."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_5c047589b43215b7c46bb24b",
+      "description_sha256": "8201d9a2dfc0619fed8b1c2660f80ee7d7d3a59c93ea3f684aa50540b3a92b0a",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text describes extended warranty coverage and technical support plans for devices, a conventional service and support offering.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "AppleCare+ is Apple's brand name for extended warranty and technical support plans for their devices."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Text explicitly describes warranty/technical-support PLAN for devices, not software functionality. Meaningful conventional SERVICE is not itself meaningful software. Assess supported-vs-weak binary flags under frozen software-scope requirement; no outside Apple features."
+    ]
+  },
+  {
+    "annotation_id": "ann_b574c80bc58c1f798ac3fb8e",
+    "description_sha256": "10a6a98ab3a6aadd22735672369b57caf3b986ae453fd747f6387a757d039929",
+    "description": "Use Verint Text Analytics to analyze your large volumes of text-based data from channels such as chat, email, and social media. Gain crucial insights into the topics that are top-of-mind for your customers.\n\nAutomated theme discovery can identify new discussion topics. Identify, track, and explain both positive and negative customer sentiment about text-based interactions so you can take appropriate actions quickly.\n\nCombine insights from text and voice-based channels for a unified view of interactions across your contact center.\n\nVerint Text Analytics uses machine learning and artificial intelligence to provide deep insights about your text-based customer interactions. The application can automatically identify topics, relations, and significant trends, as well as the customer sentiment throughout the interactions.",
+    "source_record_references": [
+      "1489"
+    ],
+    "labeler": {
+      "annotation_id": "ann_b574c80bc58c1f798ac3fb8e",
+      "description_sha256": "10a6a98ab3a6aadd22735672369b57caf3b986ae453fd747f6387a757d039929",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "The description explicitly states that Verint Text Analytics uses machine learning and artificial intelligence and identifies automated topic, relation, trend, and sentiment analysis.",
+      "ai_type_rationale": "AI is explicitly part of the described text-analytics functionality, but the description does not establish whether meaningful conventional text-analysis functionality remains without it; ai_enabled is the best tentative subtype.",
+      "evidence_spans": [
+        "Verint Text Analytics uses machine learning and artificial intelligence to provide deep insights about your text-based customer interactions.",
+        "The application can automatically identify topics, relations, and significant trends, as well as the customer sentiment throughout the interactions."
+      ],
+      "ai_type_evidence_spans": [
+        "Verint Text Analytics uses machine learning and artificial intelligence to provide deep insights about your text-based customer interactions."
+      ]
+    },
+    "blind": {
+      "annotation_id": "ann_b574c80bc58c1f798ac3fb8e",
+      "description_sha256": "10a6a98ab3a6aadd22735672369b57caf3b986ae453fd747f6387a757d039929",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly states that the product uses machine learning and artificial intelligence for customer-interaction insights, including automatic identification of topics, relations, trends, and sentiment.",
+      "ai_type_rationale": "The offering is described as text analytics whose central functions include automated discovery and analysis of themes, topics, and sentiment, with AI/ML providing its deep insights; the text supports AI as core to this offering.",
+      "evidence_spans": [
+        "Verint Text Analytics uses machine learning and artificial intelligence to provide deep insights about your text-based customer interactions."
+      ],
+      "ai_type_evidence_spans": [
+        "Verint Text Analytics uses machine learning and artificial intelligence to provide deep insights about your text-based customer interactions.",
+        "The application can automatically identify topics, relations, and significant trends, as well as the customer sentiment throughout the interactions."
+      ]
+    },
+    "parent_concerns": [
+      "AI/ML explicit binary positive independent of subtype. Resolve native vs enabled and subtype support separately: does literal text establish core dependence or a meaningful conventional core remaining without AI? Do not infer from generic analytics name."
+    ]
+  },
+  {
+    "annotation_id": "ann_f78dc6457895c6055767eb25",
+    "description_sha256": "a82004c1979d9b07639fe0dbaa37aa27b5dad6a0c0f7ddfc96c1eaec34223ae5",
+    "description": "Caller ID Reputation Number Monitoring and Managed Services Solution for 50 Toll Free Phone Numbers to allow NUC to efficiently monitor and mitigate outbound calling numbers in the Unified Communications environment.",
+    "source_record_references": [
+      "1487"
+    ],
+    "labeler": {
+      "annotation_id": "ann_f78dc6457895c6055767eb25",
+      "description_sha256": "a82004c1979d9b07639fe0dbaa37aa27b5dad6a0c0f7ddfc96c1eaec34223ae5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies monitoring and mitigation of outbound caller ID numbers in a unified communications environment, a conventional telecom management service.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "efficiently monitor and mitigate outbound calling numbers in the Unified Communications environment."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_f78dc6457895c6055767eb25",
+      "description_sha256": "a82004c1979d9b07639fe0dbaa37aa27b5dad6a0c0f7ddfc96c1eaec34223ae5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies monitoring and mitigation of outbound caller ID numbers in a unified communications environment, a conventional managed telecommunications service.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Caller ID Reputation Number Monitoring and Managed Services Solution for 50 Toll Free Phone Numbers to allow NUC to efficiently monitor and mitigate outbound calling numbers in the Unified Communications environment."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "CallerID reputation monitoring/mitigation described as MANAGED SERVICES; does exact text establish conventional software functionality or merely service scope? Mitigation/reputation methods unspecified, do not infer AI or deterministic classification implementation."
+    ]
+  }
+]

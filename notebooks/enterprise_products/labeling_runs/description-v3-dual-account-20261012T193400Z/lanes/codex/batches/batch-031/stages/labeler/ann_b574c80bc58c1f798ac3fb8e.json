@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_b574c80bc58c1f798ac3fb8e",
+  "description_sha256": "10a6a98ab3a6aadd22735672369b57caf3b986ae453fd747f6387a757d039929",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "weak",
+  "ai_type_forced_decision": true,
+  "rationale": "The description explicitly states that Verint Text Analytics uses machine learning and artificial intelligence and identifies automated topic, relation, trend, and sentiment analysis.",
+  "ai_type_rationale": "AI is explicitly part of the described text-analytics functionality, but the description does not establish whether meaningful conventional text-analysis functionality remains without it; ai_enabled is the best tentative subtype.",
+  "evidence_spans": [
+    "Verint Text Analytics uses machine learning and artificial intelligence to provide deep insights about your text-based customer interactions.",
+    "The application can automatically identify topics, relations, and significant trends, as well as the customer sentiment throughout the interactions."
+  ],
+  "ai_type_evidence_spans": [
+    "Verint Text Analytics uses machine learning and artificial intelligence to provide deep insights about your text-based customer interactions."
+  ]
+}
