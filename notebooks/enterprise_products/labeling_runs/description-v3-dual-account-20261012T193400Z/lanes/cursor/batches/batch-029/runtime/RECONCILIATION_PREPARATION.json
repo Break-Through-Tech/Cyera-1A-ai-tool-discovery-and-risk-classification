@@ -1,0 +1,39 @@
+{
+  "batch_id": "batch-029",
+  "selected_ids": [
+    "ann_6beb929a5cd245cea32e18a3",
+    "ann_4c63ef57b2b32697416f51e1",
+    "ann_30c261b86c80c44ce529bb59",
+    "ann_71b5edc0800affb50a6212ab",
+    "ann_7414551322a88b0c3c561e66"
+  ],
+  "original_blind_uuid": "612ddb87-a06d-4216-a0dd-724bfb1b50af",
+  "exact_model": "gpt-5.6-luna-high",
+  "workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/agents/blind/reconciliation-029",
+  "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+  "schema_sha256": "40653718d1338cda456d4a1e2ec551c37f1a0718eeb9513b29acbe104b29b128",
+  "description_packet_sha256": "929b828fa5303cdff61f5c4f65d16e8b21f110eb4068eaf14ee122cc9baecc35",
+  "description_count": 5,
+  "helper_required_route_count": 4,
+  "additional_material_support_concern_count": 1,
+  "checkpoints_empty": true,
+  "result_absent": true,
+  "helper_stage_receipt": {
+    "stage": "reconciliation",
+    "run_id": "batch-029",
+    "batch_id": "batch-029",
+    "rubric_id": "enterprise-description-only-v3",
+    "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+    "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+    "model_id": "gpt-5.6-luna-high",
+    "assigned_annotation_ids": [
+      "ann_6beb929a5cd245cea32e18a3",
+      "ann_4c63ef57b2b32697416f51e1",
+      "ann_30c261b86c80c44ce529bb59",
+      "ann_71b5edc0800affb50a6212ab",
+      "ann_7414551322a88b0c3c561e66"
+    ]
+  },
+  "blind_source_proposals": "authoritative parent-accepted structural proposal and unchanged labeler proposal; both exact proposals supplied without coordinator edits",
+  "one_original_verifier_pass": true
+}

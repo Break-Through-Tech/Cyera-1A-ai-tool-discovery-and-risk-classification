@@ -1,0 +1,28 @@
+{
+  "status": "accepted",
+  "timestamp": "2026-10-20T21:02:13.867816+00:00",
+  "selected_descriptions": 20,
+  "selected_rows": 20,
+  "reconciliation_count": 5,
+  "parent_all20_source_pairs_all5_final_responses_reviewed": true,
+  "all42_actual_original_native_write_payloads_byte_equal": true,
+  "all40_original_independent_hashes_unchanged": true,
+  "exact_plan_hashes_allrefs": true,
+  "prior_baseline_files_verified": 1387,
+  "explicit_parent_metadata_exceptions": [
+    "runtime/PARENT_DETERMINISTIC_METADATA_RECOVERY.json",
+    "runtime/PARENT_FINAL_METADATA_DISPOSITION.json"
+  ],
+  "no_additional_model_or_semantic_pass": true,
+  "binary_weak_descriptions": 3,
+  "subtype_weak_descriptions": 2,
+  "trusted_negative_rows": 13,
+  "exports": {
+    "description_labels.json": "f395568989de1d4c41e55bb680475d1dc57093e48184e23f43ead936263342dc",
+    "record_labels.json": "3c7b133638b9c47441646985d21e39eccfb65f3d887cb294d3c19e80a4da8df8",
+    "review_ledger.json": "8d3f559df6d35345248d1c6490275aceb9e3254b608bc5be5bc6b0097974368b",
+    "review_queue.json": "f8f9dd1bc71e9f885815a6d220dc9a2aeaa0598a2ff76f78bb68119524ce4855",
+    "non_ai_candidates.csv": "e790acf062d595ee80786f09c015554adb2c92f1e699883d0056edacab731429",
+    "calibration_report.json": "1355b7accd5ab01a7a3ea91bda8ed00a84de18d19f892e7d197e9a9d90250e68"
+  }
+}

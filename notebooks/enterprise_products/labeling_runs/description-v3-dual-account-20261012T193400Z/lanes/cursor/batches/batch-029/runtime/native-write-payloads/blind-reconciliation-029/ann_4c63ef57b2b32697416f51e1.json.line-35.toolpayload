@@ -1,0 +1,20 @@
+*** Begin Patch
+*** Add File: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/agents/blind/reconciliation-029/checkpoints/ann_4c63ef57b2b32697416f51e1.json
++{
++  "annotation_id": "ann_4c63ef57b2b32697416f51e1",
++  "description_sha256": "15ce7bdd28b1bb258d42364bf5a9f23c31baf99dcb01216cc9afbaf3c78eb70d",
++  "ai_status": "non_ai",
++  "ai_type": null,
++  "evidence_strength": "weak",
++  "forced_decision": true,
++  "ai_type_evidence_strength": null,
++  "ai_type_forced_decision": null,
++  "rationale": "The description is an annual maintenance/site-ID listing followed by product names; it states no software functionality and contains no affirmative AI/ML text, so the non_ai judgment is forced.",
++  "ai_type_rationale": null,
++  "evidence_spans": [
++    "Annual maintenance for Site ID 122000508"
++  ],
++  "ai_type_evidence_spans": null,
++  "conflict_response": "Agreement between the proposals does not create support. The supplied text is an entitlement/maintenance listing rather than a functional description, so it cannot support a conventional software negative; weak evidence and a forced decision are retained."
++}
+*** End Patch

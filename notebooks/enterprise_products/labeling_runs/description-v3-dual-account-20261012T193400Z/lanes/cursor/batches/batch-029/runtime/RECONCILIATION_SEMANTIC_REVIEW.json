@@ -1,0 +1,81 @@
+{
+  "batch_id": "batch-029",
+  "status": "all five actual original-Luna final source/conflict responses reviewed after deterministic metadata gate",
+  "original_luna_uuid": "612ddb87-a06d-4216-a0dd-724bfb1b50af",
+  "accepted_result_sha256": "ecacc62d588bfbd7ddec6262a5928b7d55f7481313c07f5716d3893929e23c35",
+  "all5_final_responses_read_and_reviewed": true,
+  "no_coordinator_relabels_or_semantic_edits": true,
+  "final_weak_judgments_remain_weak_and_excluded": true,
+  "records": [
+    {
+      "annotation_id": "ann_6beb929a5cd245cea32e18a3",
+      "description_sha256": "5a5692d62c1dca81fc7652d05c64d7b442f653f34946337787841cea8d3ccd82",
+      "source_record_references": [
+        "1385"
+      ],
+      "exact_original_description_reviewed": true,
+      "both_independent_proposals_reviewed": true,
+      "actual_final_conflict_response": "The explicit generative AI mention independently supports the binary ai judgment. For subtype, the database/data-accelerator wording supports ai_enabled because conventional database functionality is stated, while the text does not prove whether the core depends on AI; the subtype remains weak and forced rather than supported.",
+      "final_source_based_review": "Final response preserves directly supported AI-positive binary evidence from the exact generative-AI mention and keeps subtype separate/weak because the description presents a real-time database enabling generative AI alongside analytics without establishing whether the meaningful core depends on AI. Exact cited text matches source.",
+      "ai_binary_and_subtype_independent": true,
+      "weak_final_flagged": true,
+      "excluded_from_trusted_negative_if_weak": false
+    },
+    {
+      "annotation_id": "ann_4c63ef57b2b32697416f51e1",
+      "description_sha256": "15ce7bdd28b1bb258d42364bf5a9f23c31baf99dcb01216cc9afbaf3c78eb70d",
+      "source_record_references": [
+        "1388"
+      ],
+      "exact_original_description_reviewed": true,
+      "both_independent_proposals_reviewed": true,
+      "actual_final_conflict_response": "Agreement between the proposals does not create support. The supplied text is an entitlement/maintenance listing rather than a functional description, so it cannot support a conventional software negative; weak evidence and a forced decision are retained.",
+      "final_source_based_review": "Final response correctly refuses to treat agreement or a maintenance/site listing as proof of conventional software function. Weak/forced non-AI remains flagged and excluded from trusted negatives; cited maintenance phrase is exact.",
+      "ai_binary_and_subtype_independent": true,
+      "weak_final_flagged": true,
+      "excluded_from_trusted_negative_if_weak": true
+    },
+    {
+      "annotation_id": "ann_30c261b86c80c44ce529bb59",
+      "description_sha256": "12459faa6ddfba76f748f866a55b70c5817fc784e654cf4147408364880f19e7",
+      "source_record_references": [
+        "1393"
+      ],
+      "exact_original_description_reviewed": true,
+      "both_independent_proposals_reviewed": true,
+      "actual_final_conflict_response": "The generative AI infrastructure independently supports the binary ai judgment. The conventional editorial, governance, and analytics functions support an enabled reading, but the text does not say whether the meaningful core depends on that infrastructure; subtype support is therefore weak and forced rather than supported or native.",
+      "final_source_based_review": "Final response retains independently supported AI-positive binary from explicit generative AI infrastructure and weak/forced subtype due to unresolved dependency of editorial/governance/analytics core. This avoids inferring native or enabled certainty; source spans are exact.",
+      "ai_binary_and_subtype_independent": true,
+      "weak_final_flagged": true,
+      "excluded_from_trusted_negative_if_weak": false
+    },
+    {
+      "annotation_id": "ann_71b5edc0800affb50a6212ab",
+      "description_sha256": "516c97bbe8de0031cbe53d3bc10c6f0ee5c9368b752325342cfae15390082a60",
+      "source_record_references": [
+        "1398"
+      ],
+      "exact_original_description_reviewed": true,
+      "both_independent_proposals_reviewed": true,
+      "actual_final_conflict_response": "The explicit Interactive Voice label is not enough to infer AI, but it also does not describe a concrete conventional voice operation that would support a negative. Because possible voice-interaction functionality is unexplained in the text, the non_ai decision remains weak and forced.",
+      "final_source_based_review": "Final response does not infer AI from “Interactive Voice” but notes absence of concrete voice operation and keeps negative weak/forced. This addresses the possible unexplained AI-dependent functionality concern; evidence quote is exact.",
+      "ai_binary_and_subtype_independent": true,
+      "weak_final_flagged": true,
+      "excluded_from_trusted_negative_if_weak": true
+    },
+    {
+      "annotation_id": "ann_7414551322a88b0c3c561e66",
+      "description_sha256": "0e102aab92ebf525c03342b91a4f330de713c811c69dc9e60db07284a9aba429",
+      "source_record_references": [
+        "1399"
+      ],
+      "exact_original_description_reviewed": true,
+      "both_independent_proposals_reviewed": true,
+      "actual_final_conflict_response": "The BPMN2 modeling and automation, case management, and decision support language supports conventional functionality, and the word intelligent does not itself establish AI. However, the same description uses intelligent process automation without explaining its implementation, so a supported negative would overstate the evidence; weak and forced are retained.",
+      "final_source_based_review": "Final response distinguishes explicit BPMN/process-management functions from “intelligent process automation”; does not treat the word as an AI fact and retains weak/forced negative because possible AI dependency is not resolved by the text. Evidence spans preserve exact newline and quote.",
+      "ai_binary_and_subtype_independent": true,
+      "weak_final_flagged": true,
+      "excluded_from_trusted_negative_if_weak": true
+    }
+  ]
+}

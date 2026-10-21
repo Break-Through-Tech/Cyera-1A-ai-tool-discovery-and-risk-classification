@@ -1,0 +1,399 @@
+[
+  {
+    "source_record_number": "1387",
+    "product_group_id": "enterprise-274a60ec1e9a817a50db406ac69ebbc28866d02c8dba979be41e238db63ca93d",
+    "product_description": "Generative AI with Guardrails for Enterprise Analytics.  ChatAible leverages a well-proven explainable AI to automatically ask millions of questions of the data, finds the key insights, and uses Generative AI to summarize and double-check the key insights in a way a business executive could easily consume.",
+    "annotation_id": "ann_07eb9aa6f1802d3f5851e739",
+    "description_sha256": "f11c95613c90c8bcb4c0719ef1eead240159d834e1f36f74560f9112bb9910ef",
+    "ai_status": "ai",
+    "ai_type": "ai_native",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "supported",
+    "ai_type_forced_decision": false,
+    "rationale": "Affirmatively states generative AI with guardrails for enterprise analytics; the product uses explainable AI to ask questions of data and generative AI to summarize insights.",
+    "ai_type_rationale": "The core analytics function is itself AI-driven: automated question asking, insight finding and generative summarization are the offering's described function.",
+    "evidence_spans": [
+      "Generative AI with Guardrails for Enterprise Analytics.",
+      "ChatAible leverages a well-proven explainable AI to automatically ask millions of questions of the data, finds the key insights, and uses Generative AI to summarize and double-check the key insights"
+    ],
+    "ai_type_evidence_spans": [
+      "ChatAible leverages a well-proven explainable AI to automatically ask millions of questions of the data, finds the key insights, and uses Generative AI to summarize and double-check the key insights"
+    ]
+  },
+  {
+    "source_record_number": "1391",
+    "product_group_id": "enterprise-f5ec14efb080230e4b753d6893aafb9b28d61dd9a03e63583fff99c4e6481f37",
+    "product_description": "Oracle Analytics Server Administrator (formerly Oracle Business Server Administrator) Oracle Analytics Server Administrator provides a data modeling tool for administrators and developers to manage the Oracle Analytics Server Enterprise Edition.",
+    "annotation_id": "ann_1ae270381bfb9dcb134f2406",
+    "description_sha256": "09b0c8cf5d5e262d81fb9aacbf0492a0adcf6faefaac8fab31e06a7c8ba9e7df",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional data modeling tool for administrators and developers to manage Oracle Analytics Server Enterprise Edition. No AI or ML functionality is stated.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "provides a data modeling tool for administrators and developers to manage the Oracle Analytics Server Enterprise Edition"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1394",
+    "product_group_id": "enterprise-0940651e97fa5c4114263420d1cc9c6aa6bf2bcde1ee7cb050cbba5b681800e0",
+    "product_description": "Riverbed AppResponse delivers continuous packet capture with real-time and historical application monitoring — letting you observe all network and application interactions as they cross the wire, whether they are encrypted or not",
+    "annotation_id": "ann_1e6680054f8b481f7b344479",
+    "description_sha256": "57e4dc99f86047f2accdd4de73dbe1aa2a3cc4f6d95a1cb49ff6ca1d660910b8",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional continuous packet capture with real-time and historical application monitoring of network and application interactions. No AI or ML functionality is stated.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Riverbed AppResponse delivers continuous packet capture with real-time and historical application monitoring"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1402",
+    "product_group_id": "enterprise-450f3afb08c882bf70d6a4c438ec691f970c8d0ffdb79291d6ba4669c70b0f28",
+    "product_description": "BM® DataPower® Gateway is a single gateway platform that helps provide security, control, integration, and optimized access to workloads across multiple business channels. These channels include mobile, web, application programming interface (API), service-oriented architecture (SOA), B2B, and cloud.",
+    "annotation_id": "ann_1eac1358cc3242cc4b2e202d",
+    "description_sha256": "3db3c08aeb367c8fa98f9425bc35f72ab63d660d198de73c4de0cfc8e754c776",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional gateway platform providing security, control, integration and optimized access to workloads across business channels. No AI or ML functionality is stated.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "is a single gateway platform that helps provide security, control, integration, and optimized access to workloads across multiple business channels"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1393",
+    "product_group_id": "enterprise-71ba552bd901469bcec00a94c2fe8b591c924fd8b2b3dd4663f9979964e03696",
+    "product_description": "Acrolinx offers live editorial assistance, automation to govern your content across many different repositories, and detailed analytics about your content's quality and performance. With a generative AI infrastructure anchored in Azure AI, Acrolinx guarantees scale, future-readiness, and uncompromising security.",
+    "annotation_id": "ann_30c261b86c80c44ce529bb59",
+    "description_sha256": "12459faa6ddfba76f748f866a55b70c5817fc784e654cf4147408364880f19e7",
+    "ai_status": "ai",
+    "ai_type": "ai_enabled",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "weak",
+    "ai_type_forced_decision": true,
+    "rationale": "The description explicitly states that the product has a generative AI infrastructure anchored in Azure AI.",
+    "ai_type_rationale": "The description separately states conventional editorial assistance, repository governance, and analytics, while it does not establish that those functions depend on generative AI; ai_enabled is the best-supported subtype, but the dependency distinction remains weak and forced.",
+    "evidence_spans": [
+      "With a generative AI infrastructure anchored in Azure AI, Acrolinx guarantees scale, future-readiness, and uncompromising security."
+    ],
+    "ai_type_evidence_spans": [
+      "Acrolinx offers live editorial assistance, automation to govern your content across many different repositories, and detailed analytics about your content's quality and performance.",
+      "With a generative AI infrastructure anchored in Azure AI, Acrolinx guarantees scale, future-readiness, and uncompromising security."
+    ]
+  },
+  {
+    "source_record_number": "1386",
+    "product_group_id": "enterprise-1c0b7f1fecce2027b394777ce3ac9bdbed2bf7d0d627fad0a9384f64a4b3eb6f",
+    "product_description": "HCL Commerce provides a powerful customer interaction platform for omni-channel commerce. It can be used by companies of all sizes, from small businesses, to large enterprises, and for many different industries. It provides easy-to-use tools for business users to centrally manage a cross-channel strategy. Business users can create and manage precision marketing campaigns, promotions, catalog, and merchandising across all sales channels. HCL Commerce is a single, unified platform that offers the ability to do business directly with consumers (B2C), directly with businesses (B2B).",
+    "annotation_id": "ann_343df3f0759b26be298bbeee",
+    "description_sha256": "6b2bb5d0f498fb4de94ab426444c1ac90869b38c41ea411a80d696497aa69eec",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional commerce platform tools for omni-channel customer interaction, campaign and promotion management, and catalog and merchandising across B2C and B2B channels. No AI or ML functionality is stated; precision marketing is not an AI claim.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "HCL Commerce provides a powerful customer interaction platform for omni-channel commerce",
+      "Business users can create and manage precision marketing campaigns, promotions, catalog, and merchandising across all sales channels"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1401",
+    "product_group_id": "enterprise-6232146465877fcf8bca85a4ad2e3754ea717533d049b5cbe9d80cf7657962d5",
+    "product_description": "BM Cloud Object Storage is a service offered by IBM for storing and accessing unstructured data. The object storage service can be deployed on-premises, as part of IBM Cloud Platform offerings, or in hybrid form",
+    "annotation_id": "ann_40e7d83c3b3da0ec2e827cf4",
+    "description_sha256": "1c6394d17e52b53d2eb21aad1367d1e5ccb404e535ff9c7c0f8b7528ebb2d06c",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional object storage for storing and accessing unstructured data, deployable on-premises, in IBM Cloud or in hybrid form. No AI or ML functionality is stated.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "BM Cloud Object Storage is a service offered by IBM for storing and accessing unstructured data"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1383",
+    "product_group_id": "enterprise-5012d76712cf43926600a220b12379a3835f218705f76e616972295ea004bb61",
+    "product_description": "MUI X is a collection of advanced React UI components for complex use cases. Use the native integration with Material UI or extend your design system.\n\nCommunity plan\nThe community version of MUI X is published under an MIT license and is free forever. This version contains features that we believe are maintainable by contributions from the open-source community.\n\nPro plan\nThe Pro version of MUI X expands on the features of the community version with more advanced capabilities such as multi-filtering, multi-sorting, column resizing and column pinning for the data grid; as well as the date range picker component.",
+    "annotation_id": "ann_4bf0c1c6581251f5d51e3541",
+    "description_sha256": "c41a5991fb516f612e5ee2b297fec710f827104b4bd31554e46d2ddf46132a42",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional React UI components integrated with Material UI; the Pro plan lists data-grid multi-filtering, multi-sorting, column resizing and column pinning, and a date range picker. No AI or ML functionality is stated.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "MUI X is a collection of advanced React UI components for complex use cases",
+      "multi-filtering, multi-sorting, column resizing and column pinning for the data grid"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1388",
+    "product_group_id": "enterprise-8db25b7946c5ac9acaf5de618211912ad5d436029bbee84c246f49fd204dc0c4",
+    "product_description": "Annual maintenance for Site ID 122000508\n\nASG-metaCMDB\nASG-metamanager\nASG-Navi-Graph\nASG-NaviPlex\nASG-Safari\nASG-TeVISTA\nASG-TMON\nSQL-Analyzer",
+    "annotation_id": "ann_4c63ef57b2b32697416f51e1",
+    "description_sha256": "15ce7bdd28b1bb258d42364bf5a9f23c31baf99dcb01216cc9afbaf3c78eb70d",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description is an annual maintenance/site-ID listing followed by product names; it states no software functionality and contains no affirmative AI/ML text, so the non_ai judgment is forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Annual maintenance for Site ID 122000508"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1389",
+    "product_group_id": "enterprise-33036292bd38416dc67fa0f8091f9ca2c6c3baba472638524ee65f2cd153fe54",
+    "product_description": "Computer software for for monitoring and troubleshooting distributed network performance and for measuring application performance across the network",
+    "annotation_id": "ann_65cfc945188113766f505cab",
+    "description_sha256": "b1a315010d5e934bc52bb8278a3b4a2d6847d7404e61212067ae2c3522c7f04c",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional software for monitoring and troubleshooting distributed network performance and measuring application performance across the network. No AI or ML functionality is stated.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Computer software for for monitoring and troubleshooting distributed network performance and for measuring application performance across the network"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1385",
+    "product_group_id": "enterprise-5bbeccdd3179148fef34f85788bd26b7f10371734665cdc08c5619f114365d89",
+    "product_description": "Kinetica is a real-time database (Data Accelerator) purpose built for enabling analytics and generative AI on time-series & spatial data.",
+    "annotation_id": "ann_6beb929a5cd245cea32e18a3",
+    "description_sha256": "5a5692d62c1dca81fc7652d05c64d7b442f653f34946337787841cea8d3ccd82",
+    "ai_status": "ai",
+    "ai_type": "ai_enabled",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "weak",
+    "ai_type_forced_decision": true,
+    "rationale": "The description explicitly names generative AI as a purpose of the product-specific real-time database and analytics offering.",
+    "ai_type_rationale": "The text identifies the core as a real-time database/data accelerator and says it enables generative AI alongside analytics, but does not establish that the meaningful core depends on AI; ai_enabled is therefore the best-supported subtype with weak, forced evidence.",
+    "evidence_spans": [
+      "Kinetica is a real-time database (Data Accelerator) purpose built for enabling analytics and generative AI on time-series & spatial data."
+    ],
+    "ai_type_evidence_spans": [
+      "Kinetica is a real-time database (Data Accelerator)",
+      "purpose built for enabling analytics and generative AI on time-series & spatial data"
+    ]
+  },
+  {
+    "source_record_number": "1398",
+    "product_group_id": "enterprise-b6232015e0c32102337ec5b67b84a25ad6764a14a96868e87a76bc77a300e5db",
+    "product_description": "Blueworx is an Interactive Voice platform designed to deliver the highest level of performance, security, reliability and scalability. The enterprise-grade platform is optimized to run on Linux or IBM AIX and is compatible with all key IBM Power Systems servers",
+    "annotation_id": "ann_71b5edc0800affb50a6212ab",
+    "description_sha256": "516c97bbe8de0031cbe53d3bc10c6f0ee5c9368b752325342cfae15390082a60",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description identifies an Interactive Voice platform and platform characteristics but does not state a concrete voice operation or an affirmative AI/ML function; the negative is therefore forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Blueworx is an Interactive Voice platform designed to deliver the highest level of performance, security, reliability and scalability"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1399",
+    "product_group_id": "enterprise-7430ff6dfe631df16f2672c04af7f8c51248a01af9a22a7136f5c7b967c33516",
+    "product_description": "End-to-end intelligent process automation helps organizations improve efficiency, increase accuracy and reduce errors. IBM Business Automation Manager Open Edition supports dynamic human-driven to fully automated, business processes that can be combined with digital workforces to offer endless opportunities to transform your organization.\n\nProcess Automation Manager Open Edition, previously known as Red Hat Process Automation Manager, is a platform for modeling and automating business processes (BMPN2), including case\nmanagement and decision support.",
+    "annotation_id": "ann_7414551322a88b0c3c561e66",
+    "description_sha256": "0e102aab92ebf525c03342b91a4f330de713c811c69dc9e60db07284a9aba429",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "weak",
+    "forced_decision": true,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "The description gives conventional business-process modeling and automation, case management, and decision support, but its phrase intelligent process automation leaves possible AI dependency unexplained; the non_ai judgment is therefore forced.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "End-to-end intelligent process automation helps organizations improve efficiency, increase accuracy and reduce errors.",
+      "Process Automation Manager Open Edition, previously known as Red Hat Process Automation Manager, is a platform for modeling and automating business processes (BMPN2), including case\nmanagement and decision support."
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1384",
+    "product_group_id": "enterprise-8ed72fdefcfdcb12074b063a3f0407271a4c833cf0a4d4de8581fdec08d24054",
+    "product_description": "CartoDB is the easiest way to create amazing maps with your data. The interface is creating a new standard for user experience in the mapping and data analytics community. This allows us to work with users from diverse backgrounds to create maps. From hobbyists to educators researchers and general business we are enabling a new generation of mappers to work with their data.",
+    "annotation_id": "ann_83c7080fbda5e73f47c8a662",
+    "description_sha256": "ab06d9fa492ce0efba83425d94fadf1b016e14bc031070ded9014f09cb8bef36",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "States conventional map-creation functionality from user data for mapping and analytics users. No AI or ML capability is stated.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "CartoDB is the easiest way to create amazing maps with your data"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1390",
+    "product_group_id": "enterprise-fd17da6679b38c4d35d211ada598db4b73e1eb13eea7747c53c08efa643c260e",
+    "product_description": "Seldon base license and Machine Learning Models.\n\nSeldon is an open-source platform that facilitates the deployment and management of Machine Learning models at scale. It provides a comprehensive framework that allows data scientists and engineers to seamlessly transition their models from development to production.",
+    "annotation_id": "ann_8b16819300c37a6d80a1845f",
+    "description_sha256": "2e6a803078b6ceb47b4415ff057387b62d93ebe305103007232b2676ba4ee485",
+    "ai_status": "ai",
+    "ai_type": "ai_native",
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": "supported",
+    "ai_type_forced_decision": false,
+    "rationale": "States the product is a platform that facilitates deployment and management of Machine Learning models at scale, an affirmative product-specific ML/AI claim.",
+    "ai_type_rationale": "The described core offering is deploying and managing Machine Learning models, so the core offering depends on learned models.",
+    "evidence_spans": [
+      "Seldon base license and Machine Learning Models",
+      "facilitates the deployment and management of Machine Learning models at scale"
+    ],
+    "ai_type_evidence_spans": [
+      "Seldon is an open-source platform that facilitates the deployment and management of Machine Learning models at scale"
+    ]
+  },
+  {
+    "source_record_number": "1395",
+    "product_group_id": "enterprise-9b61b292154c754644e5540fe148faa07263988fcabd0308fa42457bfdcc946d",
+    "product_description": "From version control to continuous delivery, Flyway helps individuals, teams, and enterprises build on application delivery processes to automate database development.",
+    "annotation_id": "ann_a117069146a7fdeba0de18c3",
+    "description_sha256": "7aa48e148b8ffb34299be9be78370e86d9a5e63c31e74b0858783543fef87694",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional database development automation across version control and continuous delivery workflows. This is routine automation; no AI or ML functionality is stated.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Flyway helps individuals, teams, and enterprises build on application delivery processes to automate database development"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1396",
+    "product_group_id": "enterprise-fc4c61db1bd6395decd0aa99adabf41963db56caeb5fe86de01f0a902d8cc602",
+    "product_description": "In addition to recovering lost or damaged Cognos Framework models, Motio PI Professional gives you the ability to ensure correct security roles, batch validate Cognos reports and objects, enjoy rich search and replace to eliminate tedious time sinks, and perform a world of automations to more efficiently manage your Cognos assets.\n\nHere’s just a sampling of how MotioPI helps you work more efficiently, including automating tasks that could otherwise be tedious time sinks:\n\n* Recover lost, damaged, or deleted Framework Models\n* Recover content from deleted Cognos users\n* Query and find all Cognos content that matches specific criteria (such as all reports based off a particular package)\n* Monitor and document all of your users’ security settings\n* Document property settings for dispatchers, data sources, report services, and installed components\n* Validate reports after changes have been made to a model\n* Document schedule recipients",
+    "annotation_id": "ann_aa517806c2aa48f056cb055f",
+    "description_sha256": "e5b7f72f6683de03c62a57a1e22b963f9d2fb4d90676398cdb328f2a5fdf32c9",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional Cognos administration features: recovering models and content, searching and replacing, batch validating reports, monitoring security settings and documenting properties. The automations described are routine task automation; no AI or ML functionality is stated.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "Recover lost, damaged, or deleted Framework Models",
+      "Query and find all Cognos content that matches specific criteria"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1397",
+    "product_group_id": "enterprise-f08884981472fa0160765efc3fdc12ce1d99fb47ab4f561bf2f3f5f4c27ae474",
+    "product_description": "IBM API Connect is a full lifecycle API management solution that uses an intuitive experience to help consistently create, manage, secure, socialize and monetize APIs, helping power digital transformation on premises and across clouds.",
+    "annotation_id": "ann_b9fa258416eea2b3ac0499d9",
+    "description_sha256": "2e283f32ca15cc52de4549ca7dbee1101c53fc08aa72a1591e36c6776cc75ea8",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional API management for creating, managing, securing, socializing and monetizing APIs. No AI or ML functionality is stated.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "IBM API Connect is a full lifecycle API management solution"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1392",
+    "product_group_id": "enterprise-12c824d230c25bc681cfbff546b9a176ba87b5cb68c767349d520ebf6e8544e9",
+    "product_description": "HiQPdf software is a complete PDF Library for . NET that helps you to create PDF documents from scratch and add text and images to PDF pages, open and edit external PDF documents, create and fill interactive PDF forms, merge and split PDF documents.",
+    "annotation_id": "ann_c9429fb2c60b7489202655c2",
+    "description_sha256": "a13c348f140cd1d4b0351e5f2a674ecf83c638b8b9cf5b78ea4989815a38c6b4",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes a conventional .NET PDF library for creating, editing, form-filling, merging and splitting PDF documents. No AI or ML functionality is stated.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "create PDF documents from scratch and add text and images to PDF pages",
+      "merge and split PDF documents"
+    ],
+    "ai_type_evidence_spans": null
+  },
+  {
+    "source_record_number": "1400",
+    "product_group_id": "enterprise-55ff316d7806640698cc5bb0b7a86dd7550dfa04433b8a0a5e4b7f5b86d92fec",
+    "product_description": "IBM Content Manager OnDemand automatically captures and stores documents and offers powerful search and retrieval options.\nThe solution can be deployed on premises or in a secure, single-tenant IBM Cloud® infrastructure.",
+    "annotation_id": "ann_ce79cdfd61261fd94739f99e",
+    "description_sha256": "3479c12c3c833e2cec120385bee4db4ace54002c0a243ea808682861ede2d05d",
+    "ai_status": "non_ai",
+    "ai_type": null,
+    "evidence_strength": "supported",
+    "forced_decision": false,
+    "ai_type_evidence_strength": null,
+    "ai_type_forced_decision": null,
+    "rationale": "Describes conventional document capture, storage, search and retrieval. The word automatically describes routine capture; no AI or ML functionality is stated.",
+    "ai_type_rationale": null,
+    "evidence_spans": [
+      "automatically captures and stores documents and offers powerful search and retrieval options"
+    ],
+    "ai_type_evidence_spans": null
+  }
+]

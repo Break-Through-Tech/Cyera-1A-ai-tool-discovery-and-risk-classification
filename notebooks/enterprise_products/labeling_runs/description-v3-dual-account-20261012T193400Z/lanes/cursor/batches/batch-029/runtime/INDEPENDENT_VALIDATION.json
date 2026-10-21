@@ -1,0 +1,18 @@
+{
+  "batch_id": "batch-029",
+  "status": "both independent gates passed before comparison; blind integration uses parent-authorized deterministic hash metadata aggregate plus same-original native quote-only recovery",
+  "plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "selected_descriptions": 20,
+  "selected_source_references": 20,
+  "exact_frozen_plan_hashes_and_allrefs": "PASS via helper preparation receipt",
+  "labeler_gate": "PASS: 20 native/private records, exact schema/hash/quotes, aggregate/checkpoint equality; 21 single Write payloads match files",
+  "blind_gate": "PASS: parent accepted aggregate + deterministic hash-only override + same-original native exact-LF quote-only override; full 20 helper schema/hash/quotes/coverage; 18 other records equal original",
+  "original_blind_result_and20checkpoint_hashes_unchanged": true,
+  "all40original_independent_checkpoints_hash_registered_before_comparison": true,
+  "all42original_native_tool_payloads_and_transcripts_preserved_hash_verified": true,
+  "all3failed_structural_attempt_payloads_preserved_verified": true,
+  "parent_deterministic_recovery_receipt": "PARENT_DETERMINISTIC_METADATA_RECOVERY.json",
+  "accepted_blind_aggregate_not_misrepresented_as_native": "true; parent-produced aggregate exception and immutable originals explicitly recorded",
+  "comparison_started": false
+}

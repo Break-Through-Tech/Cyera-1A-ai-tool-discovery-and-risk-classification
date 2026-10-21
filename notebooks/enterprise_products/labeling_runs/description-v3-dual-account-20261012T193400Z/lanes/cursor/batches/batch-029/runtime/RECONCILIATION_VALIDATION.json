@@ -1,0 +1,15 @@
+{
+  "batch_id": "batch-029",
+  "status": "reconciliation structural/provenance gate passed; final-response semantic review next",
+  "original_verifier_uuid": "612ddb87-a06d-4216-a0dd-724bfb1b50af",
+  "exact_model": "gpt-5.6-luna-high",
+  "original_native_result_and5checkpoints_hashes": "PASS unchanged",
+  "all6original_native_payloads_byte_verified": "PASS",
+  "parent_final_metadata_override": "PASS: exactly one recomputed description_sha256; semantic fields unchanged; original artifacts unchanged",
+  "accepted_reconciliation_result_sha256": "ecacc62d588bfbd7ddec6262a5928b7d55f7481313c07f5716d3893929e23c35",
+  "accepted_checkpoint_sha256": "e49b3af9fe2317ddabe6426186b28399dd1a48dc478432aa0e04c37f1160609c",
+  "helper_coverage_schema_hash_exact_quote_conflict_response": "PASS",
+  "record_order_and_count": "PASS 5/5 in assigned order",
+  "all5original_native_reconciliation_checkpoints_equal_original_result": "PASS",
+  "semantic_comparison_started_after_gates": true
+}

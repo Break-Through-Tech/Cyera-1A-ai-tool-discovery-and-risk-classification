@@ -1,0 +1,89 @@
+{
+  "batch_id": "batch-029",
+  "status": "STOP: original-Luna reconciliation output has provenance hash mismatch; no semantic comparison or finalization",
+  "native_uuid": "612ddb87-a06d-4216-a0dd-724bfb1b50af",
+  "model_id": "gpt-5.6-luna-high",
+  "banner_observed": "GPT-5.6 Luna 272K High",
+  "workspace": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/agents/blind/reconciliation-029",
+  "result_sha256": "67f055803b17a450b8ec773c30ab960cfbc62ffbd4206fa3f535c3dccfc080b2",
+  "result_bytes": 7003,
+  "checkpoint_hashes": {
+    "ann_30c261b86c80c44ce529bb59.json": "4a085334e9c0696ee7abe4d4ca43aecde35e07ed5d81659615c5942847c34dc2",
+    "ann_4c63ef57b2b32697416f51e1.json": "775831495b6da7337ba9a3cdae8ab023887e41ce396c4a082ec7951ba1b774a8",
+    "ann_6beb929a5cd245cea32e18a3.json": "07228beaf385556df061d50a3496c3c2a79a7f332c7efae610eb44339d0ea434",
+    "ann_71b5edc0800affb50a6212ab.json": "ed6cf591eaeaf2cf150e955b79d3661b2e7307ed309af2026ae85db0d08cc84f",
+    "ann_7414551322a88b0c3c561e66.json": "93e75c6fc3719720c7a64fed54e11c6bd05dbe7b23435fa2157e0a58faaf9dcd"
+  },
+  "checkpoint_count": 5,
+  "result_record_count": 5,
+  "transcript_source": "/home/newton/.cursor/projects/home-newton-dev-Cyera-1A-ai-tool-discovery-and-risk-classification/agent-transcripts/612ddb87-a06d-4216-a0dd-724bfb1b50af/612ddb87-a06d-4216-a0dd-724bfb1b50af.jsonl",
+  "transcript_sha256": "df6f22b241c56d8cbdbd7b9ac4ffcfc10e05df85cb3a0ed5b9da56a3e21c3de5",
+  "transcript_copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/runtime/cumulative-native-transcripts/blind-612ddb87-a06d-4216-a0dd-724bfb1b50af-reconciliation-integrity-stop.jsonl",
+  "native_write_count": 6,
+  "native_write_payloads": [
+    {
+      "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/agents/blind/reconciliation-029/checkpoints/ann_6beb929a5cd245cea32e18a3.json",
+      "transcript_line": 34,
+      "raw_tool_payload_copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/runtime/native-write-payloads/blind-reconciliation-integrity-stop/ann_6beb929a5cd245cea32e18a3.json.line-34.toolpayload",
+      "raw_payload_sha256": "ebd3c7ec6cc30162cd7f7344fa6257e840b21dd15c9e63d71c9aebad43de094b",
+      "reconstructed_sha256": "07228beaf385556df061d50a3496c3c2a79a7f332c7efae610eb44339d0ea434",
+      "current_file_sha256": "07228beaf385556df061d50a3496c3c2a79a7f332c7efae610eb44339d0ea434",
+      "payload_equals_current_file": true
+    },
+    {
+      "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/agents/blind/reconciliation-029/checkpoints/ann_4c63ef57b2b32697416f51e1.json",
+      "transcript_line": 35,
+      "raw_tool_payload_copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/runtime/native-write-payloads/blind-reconciliation-integrity-stop/ann_4c63ef57b2b32697416f51e1.json.line-35.toolpayload",
+      "raw_payload_sha256": "84388fd555ccaa5ad92c304d98a40ede45b822a3fbb66edd9b6512510a660272",
+      "reconstructed_sha256": "775831495b6da7337ba9a3cdae8ab023887e41ce396c4a082ec7951ba1b774a8",
+      "current_file_sha256": "775831495b6da7337ba9a3cdae8ab023887e41ce396c4a082ec7951ba1b774a8",
+      "payload_equals_current_file": true
+    },
+    {
+      "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/agents/blind/reconciliation-029/checkpoints/ann_30c261b86c80c44ce529bb59.json",
+      "transcript_line": 36,
+      "raw_tool_payload_copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/runtime/native-write-payloads/blind-reconciliation-integrity-stop/ann_30c261b86c80c44ce529bb59.json.line-36.toolpayload",
+      "raw_payload_sha256": "df919ebe1c41331ff41252cd65a7c9d5a511bc6b01a99d816e47554b66665346",
+      "reconstructed_sha256": "4a085334e9c0696ee7abe4d4ca43aecde35e07ed5d81659615c5942847c34dc2",
+      "current_file_sha256": "4a085334e9c0696ee7abe4d4ca43aecde35e07ed5d81659615c5942847c34dc2",
+      "payload_equals_current_file": true
+    },
+    {
+      "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/agents/blind/reconciliation-029/checkpoints/ann_71b5edc0800affb50a6212ab.json",
+      "transcript_line": 37,
+      "raw_tool_payload_copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/runtime/native-write-payloads/blind-reconciliation-integrity-stop/ann_71b5edc0800affb50a6212ab.json.line-37.toolpayload",
+      "raw_payload_sha256": "ef0395986b1e7f1cf52d9e296eba0967578c7c8d1fb12d373c976996580f44ad",
+      "reconstructed_sha256": "ed6cf591eaeaf2cf150e955b79d3661b2e7307ed309af2026ae85db0d08cc84f",
+      "current_file_sha256": "ed6cf591eaeaf2cf150e955b79d3661b2e7307ed309af2026ae85db0d08cc84f",
+      "payload_equals_current_file": true
+    },
+    {
+      "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/agents/blind/reconciliation-029/checkpoints/ann_7414551322a88b0c3c561e66.json",
+      "transcript_line": 38,
+      "raw_tool_payload_copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/runtime/native-write-payloads/blind-reconciliation-integrity-stop/ann_7414551322a88b0c3c561e66.json.line-38.toolpayload",
+      "raw_payload_sha256": "e04587150fc132a35e1f7cb6366b94a2422be917a340ea94d883b4b93f67cb8a",
+      "reconstructed_sha256": "93e75c6fc3719720c7a64fed54e11c6bd05dbe7b23435fa2157e0a58faaf9dcd",
+      "current_file_sha256": "93e75c6fc3719720c7a64fed54e11c6bd05dbe7b23435fa2157e0a58faaf9dcd",
+      "payload_equals_current_file": true
+    },
+    {
+      "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/agents/blind/reconciliation-029/result.json",
+      "transcript_line": 39,
+      "raw_tool_payload_copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/runtime/native-write-payloads/blind-reconciliation-integrity-stop/result.json.line-39.toolpayload",
+      "raw_payload_sha256": "702e8923721e47c25c3b8d4c57ee7bcf985d6654482d9bb564034e10674ddc8f",
+      "reconstructed_sha256": "67f055803b17a450b8ec773c30ab960cfbc62ffbd4206fa3f535c3dccfc080b2",
+      "current_file_sha256": "67f055803b17a450b8ec773c30ab960cfbc62ffbd4206fa3f535c3dccfc080b2",
+      "payload_equals_current_file": true
+    }
+  ],
+  "all6payloads_byte_equal_files": true,
+  "provenance_mismatches": [
+    {
+      "annotation_id": "ann_30c261b86c80c44ce529bb59",
+      "actual": "12459faa6ddba76f748f866a55b70c5817fc784e654cf4147408364880f19e7",
+      "expected": "12459faa6ddfba76f748f866a55b70c5817fc784e654cf4147408364880f19e7"
+    }
+  ],
+  "allotherrecords_preserved": "raw result/checkpoint bytes preserved; no repair attempted",
+  "comparison_started": false
+}

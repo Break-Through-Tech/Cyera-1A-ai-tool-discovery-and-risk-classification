@@ -1,0 +1,1008 @@
+{
+  "batch_id": "batch-029",
+  "status": "all20 independent source/proposal pairs manually reviewed before the one verifier pass",
+  "all20_reviewed": true,
+  "reviewer_note": "Every rationale and exact evidence span was checked against only its supplied description. No replacement labels made; binary and subtype decisions assessed independently.",
+  "helper_required_routes": [
+    "ann_30c261b86c80c44ce529bb59",
+    "ann_4c63ef57b2b32697416f51e1",
+    "ann_6beb929a5cd245cea32e18a3",
+    "ann_71b5edc0800affb50a6212ab"
+  ],
+  "additional_material_concern_ids": [
+    "ann_7414551322a88b0c3c561e66"
+  ],
+  "total_routes": 5,
+  "routes_in_frozen_selection_order": [
+    "ann_6beb929a5cd245cea32e18a3",
+    "ann_4c63ef57b2b32697416f51e1",
+    "ann_30c261b86c80c44ce529bb59",
+    "ann_71b5edc0800affb50a6212ab",
+    "ann_7414551322a88b0c3c561e66"
+  ],
+  "same_original_verifier_uuid": "612ddb87-a06d-4216-a0dd-724bfb1b50af",
+  "per_id_review": [
+    {
+      "annotation_id": "ann_4bf0c1c6581251f5d51e3541",
+      "description_sha256": "c41a5991fb516f612e5ee2b297fec710f827104b4bd31554e46d2ddf46132a42",
+      "source_record_references": [
+        "1383"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_4bf0c1c6581251f5d51e3541",
+        "description_sha256": "c41a5991fb516f612e5ee2b297fec710f827104b4bd31554e46d2ddf46132a42",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes conventional React UI components integrated with Material UI; the Pro plan lists data-grid multi-filtering, multi-sorting, column resizing and column pinning, and a date range picker. No AI or ML functionality is stated.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "MUI X is a collection of advanced React UI components for complex use cases",
+          "multi-filtering, multi-sorting, column resizing and column pinning for the data grid"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_4bf0c1c6581251f5d51e3541",
+        "description_sha256": "c41a5991fb516f612e5ee2b297fec710f827104b4bd31554e46d2ddf46132a42",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description states conventional UI component and data-grid/date-picker functionality, with no product-specific AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "MUI X is a collection of advanced React UI components for complex use cases.",
+          "more advanced capabilities such as multi-filtering, multi-sorting, column resizing and column pinning for the data grid; as well as the date range picker component."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": false,
+      "subtype_weak_or_forced": false,
+      "rationale_and_exact_quotes_review": "Both proposals ground non-AI in concrete React UI/data-grid/date-picker functions; exact claims match description. Supported negative is text-grounded.",
+      "material_concerns": [],
+      "route_to_original_verifier": false
+    },
+    {
+      "annotation_id": "ann_83c7080fbda5e73f47c8a662",
+      "description_sha256": "ab06d9fa492ce0efba83425d94fadf1b016e14bc031070ded9014f09cb8bef36",
+      "source_record_references": [
+        "1384"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_83c7080fbda5e73f47c8a662",
+        "description_sha256": "ab06d9fa492ce0efba83425d94fadf1b016e14bc031070ded9014f09cb8bef36",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "States conventional map-creation functionality from user data for mapping and analytics users. No AI or ML capability is stated.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "CartoDB is the easiest way to create amazing maps with your data"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_83c7080fbda5e73f47c8a662",
+        "description_sha256": "ab06d9fa492ce0efba83425d94fadf1b016e14bc031070ded9014f09cb8bef36",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description states conventional map creation and data analytics functionality, with no product-specific AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "CartoDB is the easiest way to create amazing maps with your data.",
+          "create maps."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": false,
+      "subtype_weak_or_forced": false,
+      "rationale_and_exact_quotes_review": "Both ground non-AI in map creation from user data; no AI signal. Text supports conventional map function.",
+      "material_concerns": [],
+      "route_to_original_verifier": false
+    },
+    {
+      "annotation_id": "ann_6beb929a5cd245cea32e18a3",
+      "description_sha256": "5a5692d62c1dca81fc7652d05c64d7b442f653f34946337787841cea8d3ccd82",
+      "source_record_references": [
+        "1385"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_6beb929a5cd245cea32e18a3",
+        "description_sha256": "5a5692d62c1dca81fc7652d05c64d7b442f653f34946337787841cea8d3ccd82",
+        "ai_status": "ai",
+        "ai_type": "ai_enabled",
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": "weak",
+        "ai_type_forced_decision": true,
+        "rationale": "Affirmatively states the product is purpose built for enabling generative AI on time-series and spatial data, a product-specific AI claim.",
+        "ai_type_rationale": "The described core offering is a real-time database, which remains conventional without the generative AI purpose; the text does not establish that the core depends on AI, so the subtype is forced.",
+        "evidence_spans": [
+          "purpose built for enabling analytics and generative AI on time-series & spatial data"
+        ],
+        "ai_type_evidence_spans": [
+          "Kinetica is a real-time database (Data Accelerator)",
+          "purpose built for enabling analytics and generative AI on time-series & spatial data"
+        ]
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_6beb929a5cd245cea32e18a3",
+        "description_sha256": "5a5692d62c1dca81fc7652d05c64d7b442f653f34946337787841cea8d3ccd82",
+        "ai_status": "ai",
+        "ai_type": "ai_enabled",
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": "supported",
+        "ai_type_forced_decision": false,
+        "rationale": "The description explicitly states that the real-time database enables generative AI on time-series and spatial data.",
+        "ai_type_rationale": "The described core offering is a real-time database/data accelerator, while generative AI is presented as an enabled use alongside analytics.",
+        "evidence_spans": [
+          "Kinetica is a real-time database (Data Accelerator) purpose built for enabling analytics and generative AI on time-series & spatial data."
+        ],
+        "ai_type_evidence_spans": [
+          "Kinetica is a real-time database (Data Accelerator) purpose built for enabling analytics and generative AI on time-series & spatial data."
+        ]
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": false,
+      "subtype_weak_or_forced": true,
+      "rationale_and_exact_quotes_review": "AI binary is directly supported by explicit generative-AI use. Subtype uncertainty concerns dependence of real-time DB core versus AI-enabled use; route for subtype-only resolution.",
+      "material_concerns": [
+        "Subtype only: generative AI is explicitly named, so retain the supported binary AI judgment independently; the text calls the core a real-time database/data accelerator and says generative AI is enabled alongside analytics, but does not clearly establish whether the meaningful core depends on AI. One proposal marks subtype weak/forced; the other marks supported. Resolve subtype based only on description; uncertainty stays weak."
+      ],
+      "route_to_original_verifier": true
+    },
+    {
+      "annotation_id": "ann_343df3f0759b26be298bbeee",
+      "description_sha256": "6b2bb5d0f498fb4de94ab426444c1ac90869b38c41ea411a80d696497aa69eec",
+      "source_record_references": [
+        "1386"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_343df3f0759b26be298bbeee",
+        "description_sha256": "6b2bb5d0f498fb4de94ab426444c1ac90869b38c41ea411a80d696497aa69eec",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes conventional commerce platform tools for omni-channel customer interaction, campaign and promotion management, and catalog and merchandising across B2C and B2B channels. No AI or ML functionality is stated; precision marketing is not an AI claim.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "HCL Commerce provides a powerful customer interaction platform for omni-channel commerce",
+          "Business users can create and manage precision marketing campaigns, promotions, catalog, and merchandising across all sales channels"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_343df3f0759b26be298bbeee",
+        "description_sha256": "6b2bb5d0f498fb4de94ab426444c1ac90869b38c41ea411a80d696497aa69eec",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description states conventional commerce administration, marketing, promotion, catalog, and merchandising functionality, with no product-specific AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Business users can create and manage precision marketing campaigns, promotions, catalog, and merchandising across all sales channels.",
+          "HCL Commerce is a single, unified platform that offers the ability to do business directly with consumers (B2C), directly with businesses (B2B)."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": false,
+      "subtype_weak_or_forced": false,
+      "rationale_and_exact_quotes_review": "Concrete commerce/campaign/catalog/merchandising functions support non-AI; precision marketing is not an explicit AI feature and neither proposal assumes a method.",
+      "material_concerns": [],
+      "route_to_original_verifier": false
+    },
+    {
+      "annotation_id": "ann_07eb9aa6f1802d3f5851e739",
+      "description_sha256": "f11c95613c90c8bcb4c0719ef1eead240159d834e1f36f74560f9112bb9910ef",
+      "source_record_references": [
+        "1387"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_07eb9aa6f1802d3f5851e739",
+        "description_sha256": "f11c95613c90c8bcb4c0719ef1eead240159d834e1f36f74560f9112bb9910ef",
+        "ai_status": "ai",
+        "ai_type": "ai_native",
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": "supported",
+        "ai_type_forced_decision": false,
+        "rationale": "Affirmatively states generative AI with guardrails for enterprise analytics; the product uses explainable AI to ask questions of data and generative AI to summarize insights.",
+        "ai_type_rationale": "The core analytics function is itself AI-driven: automated question asking, insight finding and generative summarization are the offering's described function.",
+        "evidence_spans": [
+          "Generative AI with Guardrails for Enterprise Analytics.",
+          "ChatAible leverages a well-proven explainable AI to automatically ask millions of questions of the data, finds the key insights, and uses Generative AI to summarize and double-check the key insights"
+        ],
+        "ai_type_evidence_spans": [
+          "ChatAible leverages a well-proven explainable AI to automatically ask millions of questions of the data, finds the key insights, and uses Generative AI to summarize and double-check the key insights"
+        ]
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_07eb9aa6f1802d3f5851e739",
+        "description_sha256": "f11c95613c90c8bcb4c0719ef1eead240159d834e1f36f74560f9112bb9910ef",
+        "ai_status": "ai",
+        "ai_type": "ai_native",
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": "supported",
+        "ai_type_forced_decision": false,
+        "rationale": "The description explicitly states explainable AI and Generative AI functionality that asks questions of data, finds insights, summarizes them, and double-checks them.",
+        "ai_type_rationale": "The described enterprise analytics offering centers its insight discovery and summarization workflow on explainable AI and Generative AI.",
+        "evidence_spans": [
+          "ChatAible leverages a well-proven explainable AI to automatically ask millions of questions of the data, finds the key insights, and uses Generative AI to summarize and double-check the key insights"
+        ],
+        "ai_type_evidence_spans": [
+          "ChatAible leverages a well-proven explainable AI to automatically ask millions of questions of the data, finds the key insights, and uses Generative AI to summarize and double-check the key insights"
+        ]
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": false,
+      "subtype_weak_or_forced": false,
+      "rationale_and_exact_quotes_review": "Explicit explainable AI and generative AI perform analytics, insight discovery, and summarization; both AI-native proposals are grounded.",
+      "material_concerns": [],
+      "route_to_original_verifier": false
+    },
+    {
+      "annotation_id": "ann_4c63ef57b2b32697416f51e1",
+      "description_sha256": "15ce7bdd28b1bb258d42364bf5a9f23c31baf99dcb01216cc9afbaf3c78eb70d",
+      "source_record_references": [
+        "1388"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_4c63ef57b2b32697416f51e1",
+        "description_sha256": "15ce7bdd28b1bb258d42364bf5a9f23c31baf99dcb01216cc9afbaf3c78eb70d",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Text is a maintenance/entitlement listing for a site ID followed by product names only. No software functionality is described and no affirmative AI text is present, so this negative is forced and not supported.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Annual maintenance for Site ID 122000508"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_4c63ef57b2b32697416f51e1",
+        "description_sha256": "15ce7bdd28b1bb258d42364bf5a9f23c31baf99dcb01216cc9afbaf3c78eb70d",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description identifies annual maintenance for a site and lists product names, but does not state software functionality or provide an affirmative AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Annual maintenance for Site ID 122000508"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": true,
+      "subtype_weak_or_forced": false,
+      "rationale_and_exact_quotes_review": "Maintenance entitlement and product-name list only; both correctly mark uncertainty, but supported conventional software function is absent. Route helper-required weak case.",
+      "material_concerns": [
+        "The description is only an annual maintenance/site-ID entitlement followed by product names. It supplies no software function to ground a supported negative; retain weak/forced if unresolved rather than treating the category/listing as evidence."
+      ],
+      "route_to_original_verifier": true
+    },
+    {
+      "annotation_id": "ann_65cfc945188113766f505cab",
+      "description_sha256": "b1a315010d5e934bc52bb8278a3b4a2d6847d7404e61212067ae2c3522c7f04c",
+      "source_record_references": [
+        "1389"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_65cfc945188113766f505cab",
+        "description_sha256": "b1a315010d5e934bc52bb8278a3b4a2d6847d7404e61212067ae2c3522c7f04c",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes conventional software for monitoring and troubleshooting distributed network performance and measuring application performance across the network. No AI or ML functionality is stated.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Computer software for for monitoring and troubleshooting distributed network performance and for measuring application performance across the network"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_65cfc945188113766f505cab",
+        "description_sha256": "b1a315010d5e934bc52bb8278a3b4a2d6847d7404e61212067ae2c3522c7f04c",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description states conventional monitoring, troubleshooting, and measurement of network and application performance, with no product-specific AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Computer software for for monitoring and troubleshooting distributed network performance and for measuring application performance across the network"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": false,
+      "subtype_weak_or_forced": false,
+      "rationale_and_exact_quotes_review": "Text explicitly describes software for network/application performance monitoring, troubleshooting, and measurement; supported non-AI rationales grounded.",
+      "material_concerns": [],
+      "route_to_original_verifier": false
+    },
+    {
+      "annotation_id": "ann_8b16819300c37a6d80a1845f",
+      "description_sha256": "2e6a803078b6ceb47b4415ff057387b62d93ebe305103007232b2676ba4ee485",
+      "source_record_references": [
+        "1390"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_8b16819300c37a6d80a1845f",
+        "description_sha256": "2e6a803078b6ceb47b4415ff057387b62d93ebe305103007232b2676ba4ee485",
+        "ai_status": "ai",
+        "ai_type": "ai_native",
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": "supported",
+        "ai_type_forced_decision": false,
+        "rationale": "States the product is a platform that facilitates deployment and management of Machine Learning models at scale, an affirmative product-specific ML/AI claim.",
+        "ai_type_rationale": "The described core offering is deploying and managing Machine Learning models, so the core offering depends on learned models.",
+        "evidence_spans": [
+          "Seldon base license and Machine Learning Models",
+          "facilitates the deployment and management of Machine Learning models at scale"
+        ],
+        "ai_type_evidence_spans": [
+          "Seldon is an open-source platform that facilitates the deployment and management of Machine Learning models at scale"
+        ]
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_8b16819300c37a6d80a1845f",
+        "description_sha256": "2e6a803078b6ceb47b4415ff057387b62d93ebe305103007232b2676ba4ee485",
+        "ai_status": "ai",
+        "ai_type": "ai_native",
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": "supported",
+        "ai_type_forced_decision": false,
+        "rationale": "The description explicitly states deployment and management of Machine Learning models at scale.",
+        "ai_type_rationale": "The described core offering is a platform for moving Machine Learning models from development to production, so its meaningful offering depends on AI/ML models.",
+        "evidence_spans": [
+          "Seldon is an open-source platform that facilitates the deployment and management of Machine Learning models at scale."
+        ],
+        "ai_type_evidence_spans": [
+          "Seldon is an open-source platform that facilitates the deployment and management of Machine Learning models at scale.",
+          "data scientists and engineers to seamlessly transition their models from development to production."
+        ]
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": false,
+      "subtype_weak_or_forced": false,
+      "rationale_and_exact_quotes_review": "ML model deployment/management at scale is the stated core; AI-native classification grounded.",
+      "material_concerns": [],
+      "route_to_original_verifier": false
+    },
+    {
+      "annotation_id": "ann_1ae270381bfb9dcb134f2406",
+      "description_sha256": "09b0c8cf5d5e262d81fb9aacbf0492a0adcf6faefaac8fab31e06a7c8ba9e7df",
+      "source_record_references": [
+        "1391"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_1ae270381bfb9dcb134f2406",
+        "description_sha256": "09b0c8cf5d5e262d81fb9aacbf0492a0adcf6faefaac8fab31e06a7c8ba9e7df",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes a conventional data modeling tool for administrators and developers to manage Oracle Analytics Server Enterprise Edition. No AI or ML functionality is stated.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "provides a data modeling tool for administrators and developers to manage the Oracle Analytics Server Enterprise Edition"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_1ae270381bfb9dcb134f2406",
+        "description_sha256": "09b0c8cf5d5e262d81fb9aacbf0492a0adcf6faefaac8fab31e06a7c8ba9e7df",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description states a conventional data-modeling and server-administration tool for administrators and developers, with no product-specific AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Oracle Analytics Server Administrator provides a data modeling tool for administrators and developers to manage the Oracle Analytics Server Enterprise Edition."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": false,
+      "subtype_weak_or_forced": false,
+      "rationale_and_exact_quotes_review": "Data modeling and Oracle server administration are explicit conventional functions; supported negative grounded.",
+      "material_concerns": [],
+      "route_to_original_verifier": false
+    },
+    {
+      "annotation_id": "ann_c9429fb2c60b7489202655c2",
+      "description_sha256": "a13c348f140cd1d4b0351e5f2a674ecf83c638b8b9cf5b78ea4989815a38c6b4",
+      "source_record_references": [
+        "1392"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_c9429fb2c60b7489202655c2",
+        "description_sha256": "a13c348f140cd1d4b0351e5f2a674ecf83c638b8b9cf5b78ea4989815a38c6b4",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes a conventional .NET PDF library for creating, editing, form-filling, merging and splitting PDF documents. No AI or ML functionality is stated.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "create PDF documents from scratch and add text and images to PDF pages",
+          "merge and split PDF documents"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_c9429fb2c60b7489202655c2",
+        "description_sha256": "a13c348f140cd1d4b0351e5f2a674ecf83c638b8b9cf5b78ea4989815a38c6b4",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description states conventional PDF creation, editing, form, merge, and split functionality, with no product-specific AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "helps you to create PDF documents from scratch and add text and images to PDF pages, open and edit external PDF documents, create and fill interactive PDF forms, merge and split PDF documents."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": false,
+      "subtype_weak_or_forced": false,
+      "rationale_and_exact_quotes_review": "PDF create/edit/forms/merge/split functions are concrete; supported non-AI grounded.",
+      "material_concerns": [],
+      "route_to_original_verifier": false
+    },
+    {
+      "annotation_id": "ann_30c261b86c80c44ce529bb59",
+      "description_sha256": "12459faa6ddfba76f748f866a55b70c5817fc784e654cf4147408364880f19e7",
+      "source_record_references": [
+        "1393"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_30c261b86c80c44ce529bb59",
+        "description_sha256": "12459faa6ddfba76f748f866a55b70c5817fc784e654cf4147408364880f19e7",
+        "ai_status": "ai",
+        "ai_type": "ai_native",
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": "weak",
+        "ai_type_forced_decision": true,
+        "rationale": "Affirmatively states a generative AI infrastructure anchored in Azure AI for the product, a product-specific generative AI claim.",
+        "ai_type_rationale": "The text says the generative AI infrastructure anchors the offering but does not state whether editorial assistance and content governance depend on it; ai_native is the best-supported subtype with weak evidence.",
+        "evidence_spans": [
+          "With a generative AI infrastructure anchored in Azure AI"
+        ],
+        "ai_type_evidence_spans": [
+          "With a generative AI infrastructure anchored in Azure AI",
+          "live editorial assistance, automation to govern your content across many different repositories"
+        ]
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_30c261b86c80c44ce529bb59",
+        "description_sha256": "12459faa6ddfba76f748f866a55b70c5817fc784e654cf4147408364880f19e7",
+        "ai_status": "ai",
+        "ai_type": "ai_enabled",
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": "supported",
+        "ai_type_forced_decision": false,
+        "rationale": "The description explicitly states a generative AI infrastructure anchored in Azure AI.",
+        "ai_type_rationale": "The described conventional core includes editorial assistance, content governance, and analytics, while generative AI is described as infrastructure supporting that offering.",
+        "evidence_spans": [
+          "With a generative AI infrastructure anchored in Azure AI, Acrolinx guarantees scale, future-readiness, and uncompromising security."
+        ],
+        "ai_type_evidence_spans": [
+          "Acrolinx offers live editorial assistance, automation to govern your content across many different repositories, and detailed analytics about your content's quality and performance.",
+          "With a generative AI infrastructure anchored in Azure AI, Acrolinx guarantees scale, future-readiness, and uncompromising security."
+        ]
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": true,
+      "binary_weak_or_forced": false,
+      "subtype_weak_or_forced": true,
+      "rationale_and_exact_quotes_review": "AI-positive binary is directly supported by explicit generative AI infrastructure. Core/subtype dependence unclear; one proposal weak forced, one supported. Route subtype only.",
+      "material_concerns": [
+        "Subtype only: the description affirmatively mentions generative AI infrastructure, so the binary AI-positive label is independent and supported. The described editorial assistance, repository governance, and analytics are stated alongside AI infrastructure, but whether the core depends on AI is unclear; one proposal marks subtype weak/forced and the other supported. Resolve subtype from text only; uncertainty stays weak."
+      ],
+      "route_to_original_verifier": true
+    },
+    {
+      "annotation_id": "ann_1e6680054f8b481f7b344479",
+      "description_sha256": "57e4dc99f86047f2accdd4de73dbe1aa2a3cc4f6d95a1cb49ff6ca1d660910b8",
+      "source_record_references": [
+        "1394"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_1e6680054f8b481f7b344479",
+        "description_sha256": "57e4dc99f86047f2accdd4de73dbe1aa2a3cc4f6d95a1cb49ff6ca1d660910b8",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes conventional continuous packet capture with real-time and historical application monitoring of network and application interactions. No AI or ML functionality is stated.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Riverbed AppResponse delivers continuous packet capture with real-time and historical application monitoring"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_1e6680054f8b481f7b344479",
+        "description_sha256": "57e4dc99f86047f2accdd4de73dbe1aa2a3cc4f6d95a1cb49ff6ca1d660910b8",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description states conventional packet capture and application monitoring functionality, with no product-specific AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Riverbed AppResponse delivers continuous packet capture with real-time and historical application monitoring"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": false,
+      "subtype_weak_or_forced": false,
+      "rationale_and_exact_quotes_review": "Continuous packet capture and application monitoring are concrete conventional functions; supported negative grounded.",
+      "material_concerns": [],
+      "route_to_original_verifier": false
+    },
+    {
+      "annotation_id": "ann_a117069146a7fdeba0de18c3",
+      "description_sha256": "7aa48e148b8ffb34299be9be78370e86d9a5e63c31e74b0858783543fef87694",
+      "source_record_references": [
+        "1395"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_a117069146a7fdeba0de18c3",
+        "description_sha256": "7aa48e148b8ffb34299be9be78370e86d9a5e63c31e74b0858783543fef87694",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes conventional database development automation across version control and continuous delivery workflows. This is routine automation; no AI or ML functionality is stated.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Flyway helps individuals, teams, and enterprises build on application delivery processes to automate database development"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_a117069146a7fdeba0de18c3",
+        "description_sha256": "7aa48e148b8ffb34299be9be78370e86d9a5e63c31e74b0858783543fef87694",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description states conventional version control, continuous delivery, and database-development automation, with no product-specific AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "From version control to continuous delivery, Flyway helps individuals, teams, and enterprises build on application delivery processes to automate database development."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": false,
+      "subtype_weak_or_forced": false,
+      "rationale_and_exact_quotes_review": "Version control, continuous delivery, and database development automation are concrete; ordinary automation is not evidence of AI.",
+      "material_concerns": [],
+      "route_to_original_verifier": false
+    },
+    {
+      "annotation_id": "ann_aa517806c2aa48f056cb055f",
+      "description_sha256": "e5b7f72f6683de03c62a57a1e22b963f9d2fb4d90676398cdb328f2a5fdf32c9",
+      "source_record_references": [
+        "1396"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_aa517806c2aa48f056cb055f",
+        "description_sha256": "e5b7f72f6683de03c62a57a1e22b963f9d2fb4d90676398cdb328f2a5fdf32c9",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes conventional Cognos administration features: recovering models and content, searching and replacing, batch validating reports, monitoring security settings and documenting properties. The automations described are routine task automation; no AI or ML functionality is stated.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Recover lost, damaged, or deleted Framework Models",
+          "Query and find all Cognos content that matches specific criteria"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_aa517806c2aa48f056cb055f",
+        "description_sha256": "e5b7f72f6683de03c62a57a1e22b963f9d2fb4d90676398cdb328f2a5fdf32c9",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description states conventional recovery, search, security-role management, validation, documentation, and task-automation functions for Cognos assets, with no product-specific AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "gives you the ability to ensure correct security roles, batch validate Cognos reports and objects, enjoy rich search and replace",
+          "Recover lost, damaged, or deleted Framework Models",
+          "Monitor and document all of your users’ security settings"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": false,
+      "subtype_weak_or_forced": false,
+      "rationale_and_exact_quotes_review": "Recovery, search, security-role checks, validation, documentation, and task automation are concrete conventional administration functions; no unexplained AI claim.",
+      "material_concerns": [],
+      "route_to_original_verifier": false
+    },
+    {
+      "annotation_id": "ann_b9fa258416eea2b3ac0499d9",
+      "description_sha256": "2e283f32ca15cc52de4549ca7dbee1101c53fc08aa72a1591e36c6776cc75ea8",
+      "source_record_references": [
+        "1397"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_b9fa258416eea2b3ac0499d9",
+        "description_sha256": "2e283f32ca15cc52de4549ca7dbee1101c53fc08aa72a1591e36c6776cc75ea8",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes conventional API management for creating, managing, securing, socializing and monetizing APIs. No AI or ML functionality is stated.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "IBM API Connect is a full lifecycle API management solution"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_b9fa258416eea2b3ac0499d9",
+        "description_sha256": "2e283f32ca15cc52de4549ca7dbee1101c53fc08aa72a1591e36c6776cc75ea8",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description states conventional full-lifecycle API creation, management, security, socialization, and monetization functionality, with no product-specific AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "IBM API Connect is a full lifecycle API management solution that uses an intuitive experience to help consistently create, manage, secure, socialize and monetize APIs"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": false,
+      "subtype_weak_or_forced": false,
+      "rationale_and_exact_quotes_review": "API create/manage/secure/socialize/monetize operations are explicit conventional API management; supported negative grounded.",
+      "material_concerns": [],
+      "route_to_original_verifier": false
+    },
+    {
+      "annotation_id": "ann_71b5edc0800affb50a6212ab",
+      "description_sha256": "516c97bbe8de0031cbe53d3bc10c6f0ee5c9368b752325342cfae15390082a60",
+      "source_record_references": [
+        "1398"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_71b5edc0800affb50a6212ab",
+        "description_sha256": "516c97bbe8de0031cbe53d3bc10c6f0ee5c9368b752325342cfae15390082a60",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "weak",
+        "forced_decision": true,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Identifies an Interactive Voice platform, but the described content is mainly performance, security, reliability, scalability and platform compatibility. No concrete voice function is stated, and voice interaction could imply unexplained speech AI, so the negative is forced and not supported.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Blueworx is an Interactive Voice platform designed to deliver the highest level of performance, security, reliability and scalability"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_71b5edc0800affb50a6212ab",
+        "description_sha256": "516c97bbe8de0031cbe53d3bc10c6f0ee5c9368b752325342cfae15390082a60",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description states a conventional interactive voice platform with enterprise performance, security, reliability, and scalability characteristics, with no product-specific AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Blueworx is an Interactive Voice platform designed to deliver the highest level of performance, security, reliability and scalability."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": true,
+      "subtype_weak_or_forced": false,
+      "rationale_and_exact_quotes_review": "Text lists platform quality/compatibility but no specific voice-processing operation. Labeler flags uncertainty; blind calls supported negative; possible AI-dependent voice functionality unresolved. Route.",
+      "material_concerns": [
+        "The text only identifies an Interactive Voice platform and performance/security/reliability/scalability/compatibility; no actual voice or software operations are described. Voice-interaction functionality could be AI-dependent, but the description does not say. Do not assume AI or a concrete software function; weak/forced if unresolved."
+      ],
+      "route_to_original_verifier": true
+    },
+    {
+      "annotation_id": "ann_7414551322a88b0c3c561e66",
+      "description_sha256": "0e102aab92ebf525c03342b91a4f330de713c811c69dc9e60db07284a9aba429",
+      "source_record_references": [
+        "1399"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_7414551322a88b0c3c561e66",
+        "description_sha256": "0e102aab92ebf525c03342b91a4f330de713c811c69dc9e60db07284a9aba429",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes a conventional BPMN platform for modeling and automating business processes, with case management and decision support. The phrases intelligent process automation and digital workforces are wording only; no AI or ML functionality is stated.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "is a platform for modeling and automating business processes (BMPN2)",
+          "management and decision support."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_7414551322a88b0c3c561e66",
+        "description_sha256": "0e102aab92ebf525c03342b91a4f330de713c811c69dc9e60db07284a9aba429",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description states conventional business-process modeling and automation, including case management and decision support; the vague word intelligent does not establish AI.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "Process Automation Manager Open Edition, previously known as Red Hat Process Automation Manager, is a platform for modeling and automating business processes (BMPN2), including case\nmanagement and decision support."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": false,
+      "subtype_weak_or_forced": false,
+      "rationale_and_exact_quotes_review": "BPMN modeling, automation, case management and decision support are explicit; “intelligent”/“digital workforces” do not by themselves prove AI but leave a possible unexplained dependency. Add support concern and ask verifier to retain uncertainty if text cannot resolve it.",
+      "material_concerns": [
+        "The text uses “intelligent process automation” and “digital workforces,” but also gives conventional BPMN process modeling/automation, case management and decision support. No AI/ML implementation or explicit AI claim is stated. Evaluate whether “intelligent” leaves potential AI dependency unexplained; do not infer AI from buzzwords or assume absence if unresolved; weak/forced if necessary."
+      ],
+      "route_to_original_verifier": true
+    },
+    {
+      "annotation_id": "ann_ce79cdfd61261fd94739f99e",
+      "description_sha256": "3479c12c3c833e2cec120385bee4db4ace54002c0a243ea808682861ede2d05d",
+      "source_record_references": [
+        "1400"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_ce79cdfd61261fd94739f99e",
+        "description_sha256": "3479c12c3c833e2cec120385bee4db4ace54002c0a243ea808682861ede2d05d",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes conventional document capture, storage, search and retrieval. The word automatically describes routine capture; no AI or ML functionality is stated.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "automatically captures and stores documents and offers powerful search and retrieval options"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_ce79cdfd61261fd94739f99e",
+        "description_sha256": "3479c12c3c833e2cec120385bee4db4ace54002c0a243ea808682861ede2d05d",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description states conventional document capture, storage, search, and retrieval functionality, with no product-specific AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "IBM Content Manager OnDemand automatically captures and stores documents and offers powerful search and retrieval options."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": false,
+      "subtype_weak_or_forced": false,
+      "rationale_and_exact_quotes_review": "Automatic document capture/storage/search/retrieval are concrete; automatic is not itself an AI claim.",
+      "material_concerns": [],
+      "route_to_original_verifier": false
+    },
+    {
+      "annotation_id": "ann_40e7d83c3b3da0ec2e827cf4",
+      "description_sha256": "1c6394d17e52b53d2eb21aad1367d1e5ccb404e535ff9c7c0f8b7528ebb2d06c",
+      "source_record_references": [
+        "1401"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_40e7d83c3b3da0ec2e827cf4",
+        "description_sha256": "1c6394d17e52b53d2eb21aad1367d1e5ccb404e535ff9c7c0f8b7528ebb2d06c",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes conventional object storage for storing and accessing unstructured data, deployable on-premises, in IBM Cloud or in hybrid form. No AI or ML functionality is stated.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "BM Cloud Object Storage is a service offered by IBM for storing and accessing unstructured data"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_40e7d83c3b3da0ec2e827cf4",
+        "description_sha256": "1c6394d17e52b53d2eb21aad1367d1e5ccb404e535ff9c7c0f8b7528ebb2d06c",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description states conventional object storage for storing and accessing unstructured data, with no product-specific AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "BM Cloud Object Storage is a service offered by IBM for storing and accessing unstructured data."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": false,
+      "subtype_weak_or_forced": false,
+      "rationale_and_exact_quotes_review": "Object storage explicitly stores/accesses unstructured data with deployment modes; description grounds the storage function, no AI signal.",
+      "material_concerns": [],
+      "route_to_original_verifier": false
+    },
+    {
+      "annotation_id": "ann_1eac1358cc3242cc4b2e202d",
+      "description_sha256": "3db3c08aeb367c8fa98f9425bc35f72ab63d660d198de73c4de0cfc8e754c776",
+      "source_record_references": [
+        "1402"
+      ],
+      "source_text_reviewed": true,
+      "labeler_proposal": {
+        "annotation_id": "ann_1eac1358cc3242cc4b2e202d",
+        "description_sha256": "3db3c08aeb367c8fa98f9425bc35f72ab63d660d198de73c4de0cfc8e754c776",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "Describes a conventional gateway platform providing security, control, integration and optimized access to workloads across business channels. No AI or ML functionality is stated.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "is a single gateway platform that helps provide security, control, integration, and optimized access to workloads across multiple business channels"
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "blind_proposal": {
+        "annotation_id": "ann_1eac1358cc3242cc4b2e202d",
+        "description_sha256": "3db3c08aeb367c8fa98f9425bc35f72ab63d660d198de73c4de0cfc8e754c776",
+        "ai_status": "non_ai",
+        "ai_type": null,
+        "evidence_strength": "supported",
+        "forced_decision": false,
+        "ai_type_evidence_strength": null,
+        "ai_type_forced_decision": null,
+        "rationale": "The description states conventional gateway security, control, integration, and access-management functionality across business channels, with no product-specific AI/ML signal.",
+        "ai_type_rationale": null,
+        "evidence_spans": [
+          "BM® DataPower® Gateway is a single gateway platform that helps provide security, control, integration, and optimized access to workloads across multiple business channels."
+        ],
+        "ai_type_evidence_spans": null
+      },
+      "binary_disagreement": false,
+      "subtype_disagreement": false,
+      "binary_weak_or_forced": false,
+      "subtype_weak_or_forced": false,
+      "rationale_and_exact_quotes_review": "Gateway security, control, integration and optimized access across channels are concrete conventional functions; supported negative grounded.",
+      "material_concerns": [],
+      "route_to_original_verifier": false
+    }
+  ]
+}

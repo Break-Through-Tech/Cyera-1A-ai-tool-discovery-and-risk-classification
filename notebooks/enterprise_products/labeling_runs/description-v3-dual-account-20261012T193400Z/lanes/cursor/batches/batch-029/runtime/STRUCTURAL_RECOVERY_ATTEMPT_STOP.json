@@ -1,0 +1,49 @@
+{
+  "batch_id": "batch-029",
+  "status": "STOP: authorized original-agent structural recovery introduced an unresolved hash defect; no independent comparison or reconciliation started",
+  "parent_authorized_disposition": "PARENT_STRUCTURAL_DISPOSITION.json",
+  "original_blind_native_uuid": "612ddb87-a06d-4216-a0dd-724bfb1b50af",
+  "model_id": "gpt-5.6-luna-high",
+  "pre_recovery_original_blind_result_sha256": "d22ab7481a695ab3d98d45d2dea68277d1eb02f42768f28cfd0c99b3315090b5",
+  "pre_recovery_original_checkpoint_hashes_reverified_unchanged": true,
+  "original_result_still_unchanged": true,
+  "recovery_native_transcript_copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/runtime/cumulative-native-transcripts/blind-612ddb87-a06d-4216-a0dd-724bfb1b50af-structural-recovery-attempt.jsonl",
+  "recovery_native_transcript_sha256": "e5048fbf0cf58e106462b82f927fc56cfa3f3c606bb1801650463c98de418e46",
+  "recovery_tool_payloads": [
+    {
+      "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/agents/blind/accepted-structural-recovery/checkpoints/ann_30c261b86c80c44ce529bb59.json",
+      "transcript_line": 27,
+      "raw_payload_copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/runtime/native-write-payloads/blind-structural-recovery-attempt/ann_30c261b86c80c44ce529bb59.json.line-27.toolpayload",
+      "raw_payload_sha256": "b039d572c8b51730b2ca43200801e2b321e6ff2fb2390d42ac6cbf82689e072e",
+      "reconstructed_sha256": "714f378f1c7c959312d2ed8c17d7831b8655d74316620d149d114b8b1ae8842a",
+      "actual_file_sha256": "714f378f1c7c959312d2ed8c17d7831b8655d74316620d149d114b8b1ae8842a",
+      "payload_equals_file": true,
+      "actual_file_bytes": 1170
+    },
+    {
+      "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/agents/blind/accepted-structural-recovery/checkpoints/ann_7414551322a88b0c3c561e66.json",
+      "transcript_line": 28,
+      "raw_payload_copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/runtime/native-write-payloads/blind-structural-recovery-attempt/ann_7414551322a88b0c3c561e66.json.line-28.toolpayload",
+      "raw_payload_sha256": "f638ffeda7f4a446f5c93eb5d0ab7ee7fbe6bccc9c843dc21b2fbe028081a291",
+      "reconstructed_sha256": "6fdf610ffd50b68f955ddf41266ad92499fc0824bd85fafe7b759d018934361a",
+      "actual_file_sha256": "6fdf610ffd50b68f955ddf41266ad92499fc0824bd85fafe7b759d018934361a",
+      "payload_equals_file": true,
+      "actual_file_bytes": 832
+    },
+    {
+      "path": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/agents/blind/accepted-structural-result.json",
+      "transcript_line": 29,
+      "raw_payload_copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/runtime/native-write-payloads/blind-structural-recovery-attempt/accepted-structural-result.json.line-29.toolpayload",
+      "raw_payload_sha256": "301db427ae08794b314d519757fcc81eb295ef202cc120f9599b59a0ef52a87d",
+      "reconstructed_sha256": "be57ed91a19ef204df35bedd3987604eac73826d3b1a579ce6f470bd46c5387c",
+      "actual_file_sha256": "be57ed91a19ef204df35bedd3987604eac73826d3b1a579ce6f470bd46c5387c",
+      "payload_equals_file": true,
+      "actual_file_bytes": 17208
+    }
+  ],
+  "actual_recovery_write_count": 3,
+  "recovery_paths_expected": 2,
+  "second_mechanical_correction": "evidence_spans[0] exact newline correction applied as directed",
+  "first_mechanical_correction": "description_sha256 remained the original incorrect value rather than parent-authorized exact hash",
+  "remaining_gate": "STOP; parent disposition required, do not retry or compare"
+}

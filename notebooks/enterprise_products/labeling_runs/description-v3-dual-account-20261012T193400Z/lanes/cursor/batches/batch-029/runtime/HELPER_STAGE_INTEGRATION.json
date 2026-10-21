@@ -1,0 +1,68 @@
+{
+  "batch_id": "batch-029",
+  "status": "helper stage integration and immutable local exports verified; awaiting parent gate",
+  "stages": {
+    "labeler": 20,
+    "blind": 20,
+    "reconciliation": 5
+  },
+  "helper_required_routes": [
+    "ann_30c261b86c80c44ce529bb59",
+    "ann_4c63ef57b2b32697416f51e1",
+    "ann_6beb929a5cd245cea32e18a3",
+    "ann_71b5edc0800affb50a6212ab"
+  ],
+  "material_additional_routes": [
+    "ann_7414551322a88b0c3c561e66"
+  ],
+  "route_ids": [
+    "ann_6beb929a5cd245cea32e18a3",
+    "ann_4c63ef57b2b32697416f51e1",
+    "ann_30c261b86c80c44ce529bb59",
+    "ann_71b5edc0800affb50a6212ab",
+    "ann_7414551322a88b0c3c561e66"
+  ],
+  "helper_full_stage_load": "PASS",
+  "helper_compare_required_ids": "PASS",
+  "helper_finalize_run": "PASS",
+  "export_count": 6,
+  "exports_sha256": {
+    "description_labels.json": "f395568989de1d4c41e55bb680475d1dc57093e48184e23f43ead936263342dc",
+    "record_labels.json": "3c7b133638b9c47441646985d21e39eccfb65f3d887cb294d3c19e80a4da8df8",
+    "review_ledger.json": "8d3f559df6d35345248d1c6490275aceb9e3254b608bc5be5bc6b0097974368b",
+    "review_queue.json": "f8f9dd1bc71e9f885815a6d220dc9a2aeaa0598a2ff76f78bb68119524ce4855",
+    "non_ai_candidates.csv": "e790acf062d595ee80786f09c015554adb2c92f1e699883d0056edacab731429",
+    "calibration_report.json": "1355b7accd5ab01a7a3ea91bda8ed00a84de18d19f892e7d197e9a9d90250e68"
+  },
+  "calibration_report": {
+    "source_input_records": 1494,
+    "cleaner_excluded_records": 56,
+    "retained_source_records": 1438,
+    "selected_descriptions": 20,
+    "selected_records": 20,
+    "remaining_distinct_descriptions": 1371,
+    "remaining_source_records": 1418,
+    "coverage_claim": "selected calibration only; not full dataset coverage",
+    "binary_counts": {
+      "ai": 4,
+      "non_ai": 16
+    },
+    "subtype_counts": {
+      "ai_native": 2,
+      "null": 16,
+      "ai_enabled": 2
+    },
+    "binary_weak_count": 3,
+    "binary_forced_count": 3,
+    "subtype_weak_count": 2,
+    "subtype_forced_count": 2,
+    "trusted_negative_records": 13,
+    "reconciliation_count": 5,
+    "required_reconciliation_count": 4,
+    "parent_reconciliation_count": 5,
+    "independent_binary_or_subtype_differences": 1,
+    "duplicate_records_within_selected_descriptions": 0,
+    "within_group_different_descriptions": 0
+  },
+  "parent_gate": "pending"
+}

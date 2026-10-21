@@ -1,0 +1,222 @@
+[
+  {
+    "annotation_id": "ann_0bd1b0d136cd5f1b8bdaeb5c",
+    "description_sha256": "2cdf8da8ba0b64c4662ea06c7be2ac6b4069cc303098a24a3d1bcdf93a4155fe",
+    "description": "JAWS, Job Access With Speech, is the world’s most popular screen reader, developed for computer users whose vision loss prevents them from seeing screen content or navigating with a mouse. JAWS provides speech and Braille output for the most popular computer applications on your PC. You will be able to navigate the Internet, write a document, read an email and create presentations from your office, remote desktop, or from home.",
+    "source_record_references": [
+      "1463"
+    ],
+    "labeler": {
+      "annotation_id": "ann_0bd1b0d136cd5f1b8bdaeb5c",
+      "description_sha256": "2cdf8da8ba0b64c4662ea06c7be2ac6b4069cc303098a24a3d1bcdf93a4155fe",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Provides screen-reader speech and Braille output and assists users with navigation, documents, email, and presentations.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "JAWS provides speech and Braille output for the most popular computer applications on your PC.",
+        "You will be able to navigate the Internet, write a document, read an email and create presentations"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_0bd1b0d136cd5f1b8bdaeb5c",
+      "description_sha256": "2cdf8da8ba0b64c4662ea06c7be2ac6b4069cc303098a24a3d1bcdf93a4155fe",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The described screen reader provides speech and Braille output and navigation/access to common computer applications, conventional accessibility functions.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "JAWS provides speech and Braille output for the most popular computer applications on your PC.",
+        "You will be able to navigate the Internet, write a document, read an email and create presentations"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Screen reading has concrete accessibility scope, but speech output generation method unspecified. Does described speech synthesis establish plausible AI dependence or supported conventional functionality under rubric? No outside JAWS knowledge or assumption speech always means AI."
+    ]
+  },
+  {
+    "annotation_id": "ann_14db83c1c0bcd683bd9bfa57",
+    "description_sha256": "40f49c90faaf7181e6255ec17305a85db5010e2027fc92e3911b7651b8d25605",
+    "description": "Teradata Analytics for Enterprise Applications eliminates the complexity of accessing and integrating enterprise application including SAP ERP and SAP CRM, Oracle E-Business Suite (EBS), and Oracle PeopleSoft, enabling agile analytics that produce tangible business outcomes.\n\n\nConText Module (EAS-S4-BX-FA) Annual Price",
+    "source_record_references": [
+      "1462"
+    ],
+    "labeler": {
+      "annotation_id": "ann_14db83c1c0bcd683bd9bfa57",
+      "description_sha256": "40f49c90faaf7181e6255ec17305a85db5010e2027fc92e3911b7651b8d25605",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes connecting and integrating enterprise application data for analytics; no learned or AI functionality is claimed.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "eliminates the complexity of accessing and integrating enterprise application including SAP ERP and SAP CRM, Oracle E-Business Suite (EBS), and Oracle PeopleSoft, enabling agile analytics that produce tangible business outcomes."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_14db83c1c0bcd683bd9bfa57",
+      "description_sha256": "40f49c90faaf7181e6255ec17305a85db5010e2027fc92e3911b7651b8d25605",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description establishes enterprise-application data access and integration for analytics, but does not explain the analytics method; retaining non-AI is a weak best-supported decision.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "eliminates the complexity of accessing and integrating enterprise application including SAP ERP and SAP CRM, Oracle E-Business Suite (EBS), and Oracle PeopleSoft, enabling agile analytics that produce tangible business outcomes."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Data access/integration is concrete; analytics method unspecified and annual-price ConText module may be entitlement rather than described functionality. Resolve support difference using exact text, no remembered Teradata features."
+    ]
+  },
+  {
+    "annotation_id": "ann_3f05507c132a1730f64e4d5a",
+    "description_sha256": "ec14fb223cdff852cb69eeb4dc488a75f2834958198ffda84bc973fd533f6609",
+    "description": "Boost the user adoption of your applications with ART Content Packs for your Learning Management System LMS and Webserver. Our ART Content Packs contain Show-Me demonstrations, Hands-On Try-Me simulations, step-by-step job aids and assessments. Use the ART Developer Kit to customize the Content Pack or create your own content for your Learning Management System (LMS) and Webserver.",
+    "source_record_references": [
+      "1449"
+    ],
+    "labeler": {
+      "annotation_id": "ann_3f05507c132a1730f64e4d5a",
+      "description_sha256": "ec14fb223cdff852cb69eeb4dc488a75f2834958198ffda84bc973fd533f6609",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Offers training content such as demonstrations, simulations, job aids and assessments, with a kit to customize that content.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Our ART Content Packs contain Show-Me demonstrations, Hands-On Try-Me simulations, step-by-step job aids and assessments.",
+        "Use the ART Developer Kit to customize the Content Pack or create your own content"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_3f05507c132a1730f64e4d5a",
+      "description_sha256": "ec14fb223cdff852cb69eeb4dc488a75f2834958198ffda84bc973fd533f6609",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes training content packs with demonstrations, simulations, job aids, assessments, and customization tools.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Our ART Content Packs contain Show-Me demonstrations, Hands-On Try-Me simulations, step-by-step job aids and assessments.",
+        "Use the ART Developer Kit to customize the Content Pack or create your own content"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Offering is training CONTENT PACKS with demos/simulations/aids; developer kit mentioned for content customization. Determine whether literal described offering establishes meaningful conventional executable software or merely content/service, no assumed simulation methods or developer-kit inclusion."
+    ]
+  },
+  {
+    "annotation_id": "ann_8924009aa043b31a83c2f252",
+    "description_sha256": "32d8ffc6b171cedc37bbdea9f8e7676971f58546e2421fd1eb93f4badd18a0b8",
+    "description": "Operations Bridge monitors your IT environment and consolidates data from existing tools. It applies automated discovery, monitoring, analytics, and remediation to data across traditional, private, public, multi-cloud and container-based infrastructure.",
+    "source_record_references": [
+      "1444"
+    ],
+    "labeler": {
+      "annotation_id": "ann_8924009aa043b31a83c2f252",
+      "description_sha256": "32d8ffc6b171cedc37bbdea9f8e7676971f58546e2421fd1eb93f4badd18a0b8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes infrastructure monitoring, data consolidation, discovery and remediation across deployment environments; these are stated operational management functions without an AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "monitors your IT environment and consolidates data from existing tools.",
+        "It applies automated discovery, monitoring, analytics, and remediation to data across traditional, private, public, multi-cloud and container-based infrastructure."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_8924009aa043b31a83c2f252",
+      "description_sha256": "32d8ffc6b171cedc37bbdea9f8e7676971f58546e2421fd1eb93f4badd18a0b8",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description specifies infrastructure monitoring, data consolidation, automated discovery, and remediation, but leaves the analytics method unspecified; non-AI is the weak best-supported decision.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "It applies automated discovery, monitoring, analytics, and remediation to data across traditional, private, public, multi-cloud and container-based infrastructure."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Monitoring/consolidation concrete but automated discovery/analytics/remediation method unspecified. Resolve supported-vs-weak disagreement without treating automation as AI or absence of AI word as proof."
+    ]
+  },
+  {
+    "annotation_id": "ann_b5ac8951136053b139b84228",
+    "description_sha256": "32eac5afe9e0fe888a8f7126c80ea5f1dd23f76b3cb9be7529d88b8f5e363a6e",
+    "description": "Verint fixed fee software managed services.",
+    "source_record_references": [
+      "1460"
+    ],
+    "labeler": {
+      "annotation_id": "ann_b5ac8951136053b139b84228",
+      "description_sha256": "32eac5afe9e0fe888a8f7126c80ea5f1dd23f76b3cb9be7529d88b8f5e363a6e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text only states that this is fixed-fee software managed services and gives no specific software functionality; best forced negative from this underspecified description.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Verint fixed fee software managed services."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind": {
+      "annotation_id": "ann_b5ac8951136053b139b84228",
+      "description_sha256": "32eac5afe9e0fe888a8f7126c80ea5f1dd23f76b3cb9be7529d88b8f5e363a6e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text only identifies fixed-fee software managed services and gives no functional detail. Non-AI is the best-supported forced decision, but evidence is weak because the offering is underspecified.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Verint fixed fee software managed services."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": [
+      "Only fixed-fee managed services stated, no software function. Agreement alone not support; preserve uncertainty if unresolved."
+    ]
+  }
+]

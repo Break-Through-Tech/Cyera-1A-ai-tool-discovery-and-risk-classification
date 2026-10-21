@@ -1,0 +1,229 @@
+[
+  {
+    "annotation_id": "ann_6beb929a5cd245cea32e18a3",
+    "description_sha256": "5a5692d62c1dca81fc7652d05c64d7b442f653f34946337787841cea8d3ccd82",
+    "source_record_references": [
+      "1385"
+    ],
+    "description": "Kinetica is a real-time database (Data Accelerator) purpose built for enabling analytics and generative AI on time-series & spatial data.",
+    "parent_concerns": [
+      "Subtype only: generative AI is explicitly named, so retain the supported binary AI judgment independently; the text calls the core a real-time database/data accelerator and says generative AI is enabled alongside analytics, but does not clearly establish whether the meaningful core depends on AI. One proposal marks subtype weak/forced; the other marks supported. Resolve subtype based only on description; uncertainty stays weak."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_6beb929a5cd245cea32e18a3",
+      "description_sha256": "5a5692d62c1dca81fc7652d05c64d7b442f653f34946337787841cea8d3ccd82",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "Affirmatively states the product is purpose built for enabling generative AI on time-series and spatial data, a product-specific AI claim.",
+      "ai_type_rationale": "The described core offering is a real-time database, which remains conventional without the generative AI purpose; the text does not establish that the core depends on AI, so the subtype is forced.",
+      "evidence_spans": [
+        "purpose built for enabling analytics and generative AI on time-series & spatial data"
+      ],
+      "ai_type_evidence_spans": [
+        "Kinetica is a real-time database (Data Accelerator)",
+        "purpose built for enabling analytics and generative AI on time-series & spatial data"
+      ]
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_6beb929a5cd245cea32e18a3",
+      "description_sha256": "5a5692d62c1dca81fc7652d05c64d7b442f653f34946337787841cea8d3ccd82",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly states that the real-time database enables generative AI on time-series and spatial data.",
+      "ai_type_rationale": "The described core offering is a real-time database/data accelerator, while generative AI is presented as an enabled use alongside analytics.",
+      "evidence_spans": [
+        "Kinetica is a real-time database (Data Accelerator) purpose built for enabling analytics and generative AI on time-series & spatial data."
+      ],
+      "ai_type_evidence_spans": [
+        "Kinetica is a real-time database (Data Accelerator) purpose built for enabling analytics and generative AI on time-series & spatial data."
+      ]
+    }
+  },
+  {
+    "annotation_id": "ann_4c63ef57b2b32697416f51e1",
+    "description_sha256": "15ce7bdd28b1bb258d42364bf5a9f23c31baf99dcb01216cc9afbaf3c78eb70d",
+    "source_record_references": [
+      "1388"
+    ],
+    "description": "Annual maintenance for Site ID 122000508\n\nASG-metaCMDB\nASG-metamanager\nASG-Navi-Graph\nASG-NaviPlex\nASG-Safari\nASG-TeVISTA\nASG-TMON\nSQL-Analyzer",
+    "parent_concerns": [
+      "The description is only an annual maintenance/site-ID entitlement followed by product names. It supplies no software function to ground a supported negative; retain weak/forced if unresolved rather than treating the category/listing as evidence."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_4c63ef57b2b32697416f51e1",
+      "description_sha256": "15ce7bdd28b1bb258d42364bf5a9f23c31baf99dcb01216cc9afbaf3c78eb70d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Text is a maintenance/entitlement listing for a site ID followed by product names only. No software functionality is described and no affirmative AI text is present, so this negative is forced and not supported.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Annual maintenance for Site ID 122000508"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_4c63ef57b2b32697416f51e1",
+      "description_sha256": "15ce7bdd28b1bb258d42364bf5a9f23c31baf99dcb01216cc9afbaf3c78eb70d",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies annual maintenance for a site and lists product names, but does not state software functionality or provide an affirmative AI/ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Annual maintenance for Site ID 122000508"
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_30c261b86c80c44ce529bb59",
+    "description_sha256": "12459faa6ddfba76f748f866a55b70c5817fc784e654cf4147408364880f19e7",
+    "source_record_references": [
+      "1393"
+    ],
+    "description": "Acrolinx offers live editorial assistance, automation to govern your content across many different repositories, and detailed analytics about your content's quality and performance. With a generative AI infrastructure anchored in Azure AI, Acrolinx guarantees scale, future-readiness, and uncompromising security.",
+    "parent_concerns": [
+      "Subtype only: the description affirmatively mentions generative AI infrastructure, so the binary AI-positive label is independent and supported. The described editorial assistance, repository governance, and analytics are stated alongside AI infrastructure, but whether the core depends on AI is unclear; one proposal marks subtype weak/forced and the other supported. Resolve subtype from text only; uncertainty stays weak."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_30c261b86c80c44ce529bb59",
+      "description_sha256": "12459faa6ddfba76f748f866a55b70c5817fc784e654cf4147408364880f19e7",
+      "ai_status": "ai",
+      "ai_type": "ai_native",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "Affirmatively states a generative AI infrastructure anchored in Azure AI for the product, a product-specific generative AI claim.",
+      "ai_type_rationale": "The text says the generative AI infrastructure anchors the offering but does not state whether editorial assistance and content governance depend on it; ai_native is the best-supported subtype with weak evidence.",
+      "evidence_spans": [
+        "With a generative AI infrastructure anchored in Azure AI"
+      ],
+      "ai_type_evidence_spans": [
+        "With a generative AI infrastructure anchored in Azure AI",
+        "live editorial assistance, automation to govern your content across many different repositories"
+      ]
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_30c261b86c80c44ce529bb59",
+      "description_sha256": "12459faa6ddfba76f748f866a55b70c5817fc784e654cf4147408364880f19e7",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly states a generative AI infrastructure anchored in Azure AI.",
+      "ai_type_rationale": "The described conventional core includes editorial assistance, content governance, and analytics, while generative AI is described as infrastructure supporting that offering.",
+      "evidence_spans": [
+        "With a generative AI infrastructure anchored in Azure AI, Acrolinx guarantees scale, future-readiness, and uncompromising security."
+      ],
+      "ai_type_evidence_spans": [
+        "Acrolinx offers live editorial assistance, automation to govern your content across many different repositories, and detailed analytics about your content's quality and performance.",
+        "With a generative AI infrastructure anchored in Azure AI, Acrolinx guarantees scale, future-readiness, and uncompromising security."
+      ]
+    }
+  },
+  {
+    "annotation_id": "ann_71b5edc0800affb50a6212ab",
+    "description_sha256": "516c97bbe8de0031cbe53d3bc10c6f0ee5c9368b752325342cfae15390082a60",
+    "source_record_references": [
+      "1398"
+    ],
+    "description": "Blueworx is an Interactive Voice platform designed to deliver the highest level of performance, security, reliability and scalability. The enterprise-grade platform is optimized to run on Linux or IBM AIX and is compatible with all key IBM Power Systems servers",
+    "parent_concerns": [
+      "The text only identifies an Interactive Voice platform and performance/security/reliability/scalability/compatibility; no actual voice or software operations are described. Voice-interaction functionality could be AI-dependent, but the description does not say. Do not assume AI or a concrete software function; weak/forced if unresolved."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_71b5edc0800affb50a6212ab",
+      "description_sha256": "516c97bbe8de0031cbe53d3bc10c6f0ee5c9368b752325342cfae15390082a60",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Identifies an Interactive Voice platform, but the described content is mainly performance, security, reliability, scalability and platform compatibility. No concrete voice function is stated, and voice interaction could imply unexplained speech AI, so the negative is forced and not supported.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Blueworx is an Interactive Voice platform designed to deliver the highest level of performance, security, reliability and scalability"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_71b5edc0800affb50a6212ab",
+      "description_sha256": "516c97bbe8de0031cbe53d3bc10c6f0ee5c9368b752325342cfae15390082a60",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description states a conventional interactive voice platform with enterprise performance, security, reliability, and scalability characteristics, with no product-specific AI/ML signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Blueworx is an Interactive Voice platform designed to deliver the highest level of performance, security, reliability and scalability."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  },
+  {
+    "annotation_id": "ann_7414551322a88b0c3c561e66",
+    "description_sha256": "0e102aab92ebf525c03342b91a4f330de713c811c69dc9e60db07284a9aba429",
+    "source_record_references": [
+      "1399"
+    ],
+    "description": "End-to-end intelligent process automation helps organizations improve efficiency, increase accuracy and reduce errors. IBM Business Automation Manager Open Edition supports dynamic human-driven to fully automated, business processes that can be combined with digital workforces to offer endless opportunities to transform your organization.\n\nProcess Automation Manager Open Edition, previously known as Red Hat Process Automation Manager, is a platform for modeling and automating business processes (BMPN2), including case\nmanagement and decision support.",
+    "parent_concerns": [
+      "The text uses “intelligent process automation” and “digital workforces,” but also gives conventional BPMN process modeling/automation, case management and decision support. No AI/ML implementation or explicit AI claim is stated. Evaluate whether “intelligent” leaves potential AI dependency unexplained; do not infer AI from buzzwords or assume absence if unresolved; weak/forced if necessary."
+    ],
+    "labeler_proposal": {
+      "annotation_id": "ann_7414551322a88b0c3c561e66",
+      "description_sha256": "0e102aab92ebf525c03342b91a4f330de713c811c69dc9e60db07284a9aba429",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a conventional BPMN platform for modeling and automating business processes, with case management and decision support. The phrases intelligent process automation and digital workforces are wording only; no AI or ML functionality is stated.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "is a platform for modeling and automating business processes (BMPN2)",
+        "management and decision support."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_7414551322a88b0c3c561e66",
+      "description_sha256": "0e102aab92ebf525c03342b91a4f330de713c811c69dc9e60db07284a9aba429",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description states conventional business-process modeling and automation, including case management and decision support; the vague word intelligent does not establish AI.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Process Automation Manager Open Edition, previously known as Red Hat Process Automation Manager, is a platform for modeling and automating business processes (BMPN2), including case\nmanagement and decision support."
+      ],
+      "ai_type_evidence_spans": null
+    }
+  }
+]

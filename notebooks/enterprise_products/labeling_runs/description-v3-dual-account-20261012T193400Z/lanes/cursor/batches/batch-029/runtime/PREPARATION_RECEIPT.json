@@ -1,0 +1,30 @@
+{
+  "batch_id": "batch-029",
+  "frozen_plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "selected_descriptions": 20,
+  "selected_source_references": 20,
+  "exact_plan_description_hash_and_all_source_references": true,
+  "selection_sha256": "673ac843dc9d98c60229ea2b65faec5e99b099c88dc1c78d482fa1fa0d111517",
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "role_workspaces": {
+    "labeler": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/agents/labeler",
+    "blind": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/agents/blind"
+  },
+  "stage_assignments_persisted_before_launch": true,
+  "role_private_artifact_hashes": {
+    "labeler": {
+      "description_packet.json": "00a91074b8c42c5dad2ea265c9cb76e77f918e0501706a47b2c50e37a06a8b3a",
+      "role_prompt.md": "4e0befda2866fd895e1bc2ea26297e5f2b5f451d3af0a780cb49356539dfbf33",
+      "schema.json": "40653718d1338cda456d4a1e2ec551c37f1a0718eeb9513b29acbe104b29b128"
+    },
+    "blind": {
+      "description_packet.json": "00a91074b8c42c5dad2ea265c9cb76e77f918e0501706a47b2c50e37a06a8b3a",
+      "role_prompt.md": "66f1d0f9ab28589969c3274df80a5499002ec98777d9ba7517bfeb4ff535cab1",
+      "schema.json": "40653718d1338cda456d4a1e2ec551c37f1a0718eeb9513b29acbe104b29b128"
+    }
+  }
+}
