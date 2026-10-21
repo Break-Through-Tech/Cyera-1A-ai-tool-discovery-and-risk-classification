@@ -1,0 +1,236 @@
+{
+  "batch_id": "batch-031",
+  "frozen_plan_sha256": "1e8a6faa3df676da8b4b8c58e75b694cdf65784ab7003f6eb7cdc3ab747dfa1c",
+  "helper_sha256": "c7d6d12e39beb4e2ccd54b16f4bb8b489688684f95f046baef0894419af04f63",
+  "selected_descriptions": 20,
+  "selected_source_references": 20,
+  "exact_plan_description_hash_and_all_source_references": true,
+  "selection_sha256": "d235971b986700abae7a87e1222efb1d6e0871eac1977d952718ac33d02f5f72",
+  "role_workspaces": {
+    "labeler": "lanes/cursor/batches/batch-031/agents/labeler",
+    "blind": "lanes/cursor/batches/batch-031/agents/blind"
+  },
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "stages": {
+    "labeler": {
+      "stage": "labeler",
+      "run_id": "batch-031",
+      "batch_id": "batch-031",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "4e0befda2866fd895e1bc2ea26297e5f2b5f451d3af0a780cb49356539dfbf33",
+      "model_id": "claude-haiku-5-5-thinking-high",
+      "assigned_annotation_ids": [
+        "ann_ec8875d0a103a0bbbc8a852e",
+        "ann_1490f950b237ed28d27ad9c1",
+        "ann_8dca3d5c118c819ad656c550",
+        "ann_0cf607824fc045a5d80307e1",
+        "ann_1fa65cd19dc905f92f07f055",
+        "ann_db78198f0ae7bb7364d22213",
+        "ann_15d3c3e20b1936e055eebd44",
+        "ann_e829fcbea8e8c70e5ce8a82e",
+        "ann_64329b9b0a550073a1e77f2f",
+        "ann_7ffdaa6f5acaf703f8977e83",
+        "ann_e99fa1df4acd5237faa212a8",
+        "ann_535803be566dfbbc9968e4f0",
+        "ann_a360c23e4d66df6b4e22f084",
+        "ann_61f06c9162e12125f9a3dc15",
+        "ann_bb97dc88145a6b58338d4f65",
+        "ann_b0dd71663ad32e13578fa6e3",
+        "ann_72f94a569541e76558a8e9a1",
+        "ann_bb1e0511724182476891eb81",
+        "ann_517a3b5788bd7c6af6dfde85",
+        "ann_a358d7697a2a50b6c8993e3a"
+      ]
+    },
+    "blind": {
+      "stage": "blind",
+      "run_id": "batch-031",
+      "batch_id": "batch-031",
+      "rubric_id": "enterprise-description-only-v3",
+      "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+      "prompt_sha256": "66f1d0f9ab28589969c3274df80a5499002ec98777d9ba7517bfeb4ff535cab1",
+      "model_id": "gpt-5.6-luna-high",
+      "assigned_annotation_ids": [
+        "ann_ec8875d0a103a0bbbc8a852e",
+        "ann_1490f950b237ed28d27ad9c1",
+        "ann_8dca3d5c118c819ad656c550",
+        "ann_0cf607824fc045a5d80307e1",
+        "ann_1fa65cd19dc905f92f07f055",
+        "ann_db78198f0ae7bb7364d22213",
+        "ann_15d3c3e20b1936e055eebd44",
+        "ann_e829fcbea8e8c70e5ce8a82e",
+        "ann_64329b9b0a550073a1e77f2f",
+        "ann_7ffdaa6f5acaf703f8977e83",
+        "ann_e99fa1df4acd5237faa212a8",
+        "ann_535803be566dfbbc9968e4f0",
+        "ann_a360c23e4d66df6b4e22f084",
+        "ann_61f06c9162e12125f9a3dc15",
+        "ann_bb97dc88145a6b58338d4f65",
+        "ann_b0dd71663ad32e13578fa6e3",
+        "ann_72f94a569541e76558a8e9a1",
+        "ann_bb1e0511724182476891eb81",
+        "ann_517a3b5788bd7c6af6dfde85",
+        "ann_a358d7697a2a50b6c8993e3a"
+      ]
+    }
+  },
+  "workers_started": false,
+  "private_artifacts": {
+    "labeler": {
+      "description_packet.json": "0175ad575931529ba12872738254c75151e7cee3b85d88e777fec4c9204f3a98",
+      "role_prompt.md": "4e0befda2866fd895e1bc2ea26297e5f2b5f451d3af0a780cb49356539dfbf33",
+      "schema.json": "40653718d1338cda456d4a1e2ec551c37f1a0718eeb9513b29acbe104b29b128"
+    },
+    "blind": {
+      "description_packet.json": "0175ad575931529ba12872738254c75151e7cee3b85d88e777fec4c9204f3a98",
+      "role_prompt.md": "66f1d0f9ab28589969c3274df80a5499002ec98777d9ba7517bfeb4ff535cab1",
+      "schema.json": "40653718d1338cda456d4a1e2ec551c37f1a0718eeb9513b29acbe104b29b128"
+    }
+  },
+  "selection": [
+    {
+      "annotation_id": "ann_ec8875d0a103a0bbbc8a852e",
+      "description_sha256": "c7b9f1b766c33eddd2467b726d273bd7a0e7688062ba85ea30f0dbd226446323",
+      "source_record_references": [
+        "1464"
+      ]
+    },
+    {
+      "annotation_id": "ann_1490f950b237ed28d27ad9c1",
+      "description_sha256": "3bc981e125e2ddbcdf44f8f7deb0f50eb9fb6305269bb3f72184f1b246a90b9c",
+      "source_record_references": [
+        "1465"
+      ]
+    },
+    {
+      "annotation_id": "ann_8dca3d5c118c819ad656c550",
+      "description_sha256": "e598d5b576a65c91ea1a560e78db3235f08aaab03dd247b26bbd106dc3ae9044",
+      "source_record_references": [
+        "1466"
+      ]
+    },
+    {
+      "annotation_id": "ann_0cf607824fc045a5d80307e1",
+      "description_sha256": "34cfdd1745c4ab9c7709fdeb18a773057bcc94a2b7bbddc9f255205ae77d8d05",
+      "source_record_references": [
+        "1467"
+      ]
+    },
+    {
+      "annotation_id": "ann_1fa65cd19dc905f92f07f055",
+      "description_sha256": "9473e549011205b6ca7c475ef42e9815a534dc2024df944f767d6648b321bad9",
+      "source_record_references": [
+        "1468"
+      ]
+    },
+    {
+      "annotation_id": "ann_db78198f0ae7bb7364d22213",
+      "description_sha256": "2db3d516b4771e581d03bfc2a0101f1bb6f44cffd28e6d02a96658fb406c4904",
+      "source_record_references": [
+        "1469"
+      ]
+    },
+    {
+      "annotation_id": "ann_15d3c3e20b1936e055eebd44",
+      "description_sha256": "fdffcbf40d70a96f5c45bae783a30922989117641d452050a8ac9ef270854f31",
+      "source_record_references": [
+        "1470"
+      ]
+    },
+    {
+      "annotation_id": "ann_e829fcbea8e8c70e5ce8a82e",
+      "description_sha256": "0bb7d523bd7069bc166f0390b3accc155d5a0901ee18041942c41683dd8cfae7",
+      "source_record_references": [
+        "1471"
+      ]
+    },
+    {
+      "annotation_id": "ann_64329b9b0a550073a1e77f2f",
+      "description_sha256": "7ff4d668009de5453203e542a3644b37ff7e052d2a928b8b6633eab9c8914621",
+      "source_record_references": [
+        "1472"
+      ]
+    },
+    {
+      "annotation_id": "ann_7ffdaa6f5acaf703f8977e83",
+      "description_sha256": "bb15141ee56122c955fe489b94fe89764e42bc81fca5dd593ae90ac821833b4b",
+      "source_record_references": [
+        "1473"
+      ]
+    },
+    {
+      "annotation_id": "ann_e99fa1df4acd5237faa212a8",
+      "description_sha256": "9d117a17f55441843d9dbf16cd38ede7fbb6d917e69fd4e1e3c03b0630e5a829",
+      "source_record_references": [
+        "1474"
+      ]
+    },
+    {
+      "annotation_id": "ann_535803be566dfbbc9968e4f0",
+      "description_sha256": "cb0ec8907501aa087f4648a20672e46e5ede00786b107e087bfcbe546add10f5",
+      "source_record_references": [
+        "1475"
+      ]
+    },
+    {
+      "annotation_id": "ann_a360c23e4d66df6b4e22f084",
+      "description_sha256": "88e1bd3c3b5d891ffdd4bb7c061be32020cd15edfae28f01975d48f13310779c",
+      "source_record_references": [
+        "1476"
+      ]
+    },
+    {
+      "annotation_id": "ann_61f06c9162e12125f9a3dc15",
+      "description_sha256": "e8195d930efb681cda91aa5666b235d5ecfb7ac625db107c566f60325e224d90",
+      "source_record_references": [
+        "1477"
+      ]
+    },
+    {
+      "annotation_id": "ann_bb97dc88145a6b58338d4f65",
+      "description_sha256": "6eb4a04a7933d3cc6b7ad144029fdab3f5be6da8c0f19759e72f6c92601a55b6",
+      "source_record_references": [
+        "1478"
+      ]
+    },
+    {
+      "annotation_id": "ann_b0dd71663ad32e13578fa6e3",
+      "description_sha256": "146845ebdc0be91e83063984b63858bd941a3f60be49edeedcfad5dd7191b1b9",
+      "source_record_references": [
+        "1479"
+      ]
+    },
+    {
+      "annotation_id": "ann_72f94a569541e76558a8e9a1",
+      "description_sha256": "3c178b9441c7d6a9fe5bdd519e89299412f22504241a9703b711944caadd1bc4",
+      "source_record_references": [
+        "1480"
+      ]
+    },
+    {
+      "annotation_id": "ann_bb1e0511724182476891eb81",
+      "description_sha256": "2fc5a7857e53036e9f5525d4b3da75d7382594b759bbe119d09389ed69a08ad9",
+      "source_record_references": [
+        "1481"
+      ]
+    },
+    {
+      "annotation_id": "ann_517a3b5788bd7c6af6dfde85",
+      "description_sha256": "6fb2ecb208090076918df2fd43afdebe75303043c03ba586653db43843334a1b",
+      "source_record_references": [
+        "1482"
+      ]
+    },
+    {
+      "annotation_id": "ann_a358d7697a2a50b6c8993e3a",
+      "description_sha256": "299ac4226659d85ebf9b2ce5ce7c5c446322cec635c1215825a697d065a7306e",
+      "source_record_references": [
+        "1483"
+      ]
+    }
+  ]
+}

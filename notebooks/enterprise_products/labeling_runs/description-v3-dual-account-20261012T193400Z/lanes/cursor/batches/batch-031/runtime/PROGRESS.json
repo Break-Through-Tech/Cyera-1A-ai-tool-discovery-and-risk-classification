@@ -1,0 +1,29 @@
+{
+  "batch_id": "batch-031",
+  "status": "fresh exact-model independent worker sessions active; no checkpoints/results observed yet",
+  "selected_descriptions": 20,
+  "selected_source_references": 20,
+  "workers_started": false,
+  "models": {
+    "labeler": "claude-haiku-5-5-thinking-high",
+    "blind": "gpt-5.6-luna-high"
+  },
+  "workspaces": {
+    "labeler": "lanes/cursor/batches/batch-031/agents/labeler",
+    "blind": "lanes/cursor/batches/batch-031/agents/blind"
+  },
+  "active_workers": 2,
+  "prompt_submitted": {
+    "labeler": true,
+    "blind": true
+  },
+  "native_uuids": {
+    "labeler": "88c3aa39-44db-4085-bfbf-6c935c598300",
+    "blind": "d94ee7c7-d17a-40c0-89e6-b82e034b295c"
+  },
+  "banners": {
+    "labeler": "Claude Haiku 5.5 300K High",
+    "blind": "GPT-5.6 Luna 272K High"
+  },
+  "current_stage": "Both original 031 sessions read assigned private packet/prompt/schema and are working; continue bounded native readiness, no resends."
+}

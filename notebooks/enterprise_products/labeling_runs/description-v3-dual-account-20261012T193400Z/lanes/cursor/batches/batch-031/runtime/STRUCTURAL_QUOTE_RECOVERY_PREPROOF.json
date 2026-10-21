@@ -1,0 +1,23 @@
+{
+  "status": "pre-recovery exact-quote snapshots; helper identified one double-space mismatch; before any recovery",
+  "annotation_id": "ann_61f06c9162e12125f9a3dc15",
+  "field": "evidence_spans[0]",
+  "old_quote": "Journey Orchestration is a service built on Adobe Experience Platform that allows you tailor individual journeys for every customer based on their previous behavior and preferences.  Anticipate individual needs through real-time insight. Configure and use any event to trigger an individual journey.",
+  "expected_exact_source_quote": "Journey Orchestration is a service built on Adobe Experience Platform that allows you tailor individual journeys for every customer based on their previous behavior and preferences. Anticipate individual needs through real-time insight. Configure and use any event to trigger an individual journey.",
+  "files": [
+    {
+      "original": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-031/agents/blind/checkpoints/ann_61f06c9162e12125f9a3dc15.json",
+      "original_sha256": "d2e315ff85a349ed5325f6168637711279cf35a7250b95db153e9ca42f2d78ee",
+      "copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-031/runtime/pre-structural-quote-recovery-original/blind/checkpoints/ann_61f06c9162e12125f9a3dc15.json",
+      "copy_sha256": "d2e315ff85a349ed5325f6168637711279cf35a7250b95db153e9ca42f2d78ee",
+      "bytes": 917
+    },
+    {
+      "original": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-031/agents/blind/result.json",
+      "original_sha256": "ecb4d1e8213a755f90e9bc8f2dcb3abc534355169ed0195d6b738efb61eb5488",
+      "copy": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-031/runtime/pre-structural-quote-recovery-original/blind/result.json",
+      "copy_sha256": "ecb4d1e8213a755f90e9bc8f2dcb3abc534355169ed0195d6b738efb61eb5488",
+      "bytes": 17508
+    }
+  ]
+}

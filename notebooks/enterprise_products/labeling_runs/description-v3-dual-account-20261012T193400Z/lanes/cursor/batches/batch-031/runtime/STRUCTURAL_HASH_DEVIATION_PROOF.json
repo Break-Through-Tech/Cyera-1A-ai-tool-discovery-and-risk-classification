@@ -1,0 +1,17 @@
+{
+  "status": "original Luna result hash typo corrected in-session before coordinator preservation; reconstructed only a new immutable raw snapshot from actual native initial aggregate AddFile payload",
+  "native_uuid": "d94ee7c7-d17a-40c0-89e6-b82e034b295c",
+  "annotation_id": "ann_1490f950b237ed28d27ad9c1",
+  "only_changed_path": "result[1].description_sha256",
+  "old_hash": "3bc981e125e2ddbcdf44f8f7deb0f50eb9fb3f72184f1b246a90b9c",
+  "correct_hash": "3bc981e125e2ddbcdf44f8f7deb0f50eb9fb6305269bb3f72184f1b246a90b9c",
+  "initial_native_addfile_payload": "runtime/native-write-payloads/blind/line-23-item-0.applypatch.payload",
+  "hash_update_payload": "runtime/native-write-payloads/blind/line-24-item-1.applypatch.payload",
+  "reconstructed_initial_result": "runtime/pre-recovery-native-payload-original/blind/result.json",
+  "initial_result_sha256": "bb65a0d0d6bc5ea28a7555b3bc6e2d382629bd3504b495f1800920d64cd10c32",
+  "current_result_sha256": "ecb4d1e8213a755f90e9bc8f2dcb3abc534355169ed0195d6b738efb61eb5488",
+  "json_delta_count": 1,
+  "all_label_rationale_and_evidence_fields_unchanged": true,
+  "valid_checkpoint_unchanged": true,
+  "in_session_patch_transcript_preserved": true
+}

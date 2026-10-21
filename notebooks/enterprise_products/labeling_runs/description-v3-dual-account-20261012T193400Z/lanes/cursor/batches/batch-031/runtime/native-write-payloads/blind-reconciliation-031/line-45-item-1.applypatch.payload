@@ -1,0 +1,234 @@
+*** Begin Patch
+*** Add File: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-031/agents/blind/reconciliation-031/result.json
++[
++  {
++    "annotation_id": "ann_15d3c3e20b1936e055eebd44",
++    "description_sha256": "fdffcbf40d70a96f5c45bae783a30922989117641d452050a8ac9ef270854f31",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "weak",
++    "forced_decision": true,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description is only a product-family label, product names, and a maintenance identifier; it supplies no functionality or affirmative AI signal, so non_ai is a forced judgment.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "Family of products formerly Allen Systems Group.\n\nASG-TMON Annual Maintenance Site ID 133024956\nASG-TMON PA for CICS\nASG-TMON PA for DB2\nASG-TMON PA for z/OS\nASG-TMON PA Server"
++    ],
++    "ai_type_evidence_spans": null,
++    "conflict_response": "The parent concern is decisive: this is maintenance context and a list of names without a functional description. The absence of an AI mention cannot support a firm conventional-software negative, so the binary remains non_ai only as a weak, forced judgment."
++  },
++  {
++    "annotation_id": "ann_1fa65cd19dc905f92f07f055",
++    "description_sha256": "9473e549011205b6ca7c475ef42e9815a534dc2024df944f767d6648b321bad9",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "weak",
++    "forced_decision": true,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description only lists a product family and product names, without functionality or an affirmative AI signal, so non_ai is a forced judgment.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "Family of products formerly Allen Systems Group.\n\nASG-meta CMDB\nASG-metaManager\nASG-NaviGraph\nASG-NaviPlex\nASG-Safari\nASG-TeVISTA\nASG-TMON\nSQL Analyzer"
++    ],
++    "ai_type_evidence_spans": null,
++    "conflict_response": "The parent concern is unresolved because the description contains no functionality beyond product-family and module names. Since no AI is affirmed but conventional software is not meaningfully described, the binary remains non_ai with weak evidence and a forced decision."
++  },
++  {
++    "annotation_id": "ann_535803be566dfbbc9968e4f0",
++    "description_sha256": "cb0ec8907501aa087f4648a20672e46e5ede00786b107e087bfcbe546add10f5",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description directly establishes conventional content creation, management, delivery, application integration, and branding functions, with no affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "HCL Digital Experience (formerly IBM WebSphere Portal and IBM Web Content Manager) empowers you to create, manage, and deliver engaging omnichannel digital experiences to virtually all audiences with responsive content, targeted offers, seamlessly integrated applications, and consistent branding across channels"
++    ],
++    "ai_type_evidence_spans": null,
++    "conflict_response": "The mechanism behind the phrase targeted offers is unspecified, but the same description explicitly supplies a conventional core of creating, managing, and delivering content with integrated applications and branding. It does not affirm AI, and the unspecified targeting mechanism does not make that described conventional core weak."
++  },
++  {
++    "annotation_id": "ann_61f06c9162e12125f9a3dc15",
++    "description_sha256": "e8195d930efb681cda91aa5666b235d5ecfb7ac625db107c566f60325e224d90",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "weak",
++    "forced_decision": true,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description explicitly describes behavior- and preference-based journey tailoring and event triggers, but its real-time insight claim does not explain whether the mechanism is conventional or AI-based, so the negative is weak.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "allows you tailor individual journeys for every customer based on their previous behavior and preferences.",
++      "Anticipate individual needs through real-time insight."
++    ],
++    "ai_type_evidence_spans": null,
++    "conflict_response": "The behavior, preference, and event portions support conventional orchestration, but the phrase real-time insight is an unexplained potentially AI-dependent capability. Because the description does not affirm AI or establish the implementation, the binary stays non_ai while the unresolved mechanism requires weak evidence and a forced decision."
++  },
++  {
++    "annotation_id": "ann_64329b9b0a550073a1e77f2f",
++    "description_sha256": "7ff4d668009de5453203e542a3644b37ff7e052d2a928b8b6633eab9c8914621",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "weak",
++    "forced_decision": true,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description says the analytics solution automates finding insights but does not identify the mechanism; this could be conventional automation or AI, so non_ai is weak and forced.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "Alteryx Auto Insights is a cloud native analytics solution that automates the process of finding insights, so business users can make data-led decisions."
++    ],
++    "ai_type_evidence_spans": null,
++    "conflict_response": "The concern about automated insight discovery is material because the description does not state how insights are found. Analytics automation alone does not establish AI, but the missing mechanism prevents a supported conventional negative; therefore non_ai remains the best binary judgment with weak evidence and a forced decision."
++  },
++  {
++    "annotation_id": "ann_7ffdaa6f5acaf703f8977e83",
++    "description_sha256": "bb15141ee56122c955fe489b94fe89764e42bc81fca5dd593ae90ac821833b4b",
++    "ai_status": "ai",
++    "ai_type": "ai_enabled",
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": "supported",
++    "ai_type_forced_decision": false,
++    "rationale": "The description explicitly names machine learning, text mining, and computer vision capabilities, establishing an AI-positive offering.",
++    "ai_type_rationale": "The AI capabilities are described as being added on top of features already available with the Designer license, which supports an AI-enabled rather than AI-native subtype.",
++    "evidence_spans": [
++      "Alteryx Intelligence Suite offers machine learning, text mining, and computer vision capabilities"
++    ],
++    "ai_type_evidence_spans": [
++      "on top of the great features that are already available with your Designer license"
++    ],
++    "conflict_response": "The binary is independently supported by the explicit machine-learning, text-mining, and computer-vision claim. For subtype, the phrase on top of features already available with the Designer license directly indicates that conventional functionality remains without the described AI enhancement, so ai_enabled is supported rather than weak or forced."
++  },
++  {
++    "annotation_id": "ann_a358d7697a2a50b6c8993e3a",
++    "description_sha256": "299ac4226659d85ebf9b2ce5ce7c5c446322cec635c1215825a697d065a7306e",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description covers demographic and business data layers combined with census boundaries to create thematic maps for trend analysis, with no affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "Combine census boundaries with business data and demographics to create thematic maps for analyzing trends such as sales or population growth"
++    ],
++    "ai_type_evidence_spans": null,
++    "conflict_response": "Although the offering includes datasets and layers, the description also explicitly describes combining them to create thematic maps for analysis. That is a conventional GIS operation and meaningful described functionality, so the data-only scope concern does not make the binary evidence weak."
++  },
++  {
++    "annotation_id": "ann_b0dd71663ad32e13578fa6e3",
++    "description_sha256": "146845ebdc0be91e83063984b63858bd941a3f60be49edeedcfad5dd7191b1b9",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "weak",
++    "forced_decision": true,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description establishes customer-data unification but leaves the personalization mechanism unexplained; without an affirmative AI signal, non_ai is the best-supported forced judgment.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "unifies all our customer data (profiles) from across systems",
++      "to create personalised customer experiences"
++    ],
++    "ai_type_evidence_spans": null,
++    "conflict_response": "The data-unification function is conventional, but the stated personalization outcome does not identify whether it uses rules, analytics, or AI. That unresolved mechanism means the description cannot support a firm negative under the concern, so non_ai remains weak and forced."
++  },
++  {
++    "annotation_id": "ann_bb1e0511724182476891eb81",
++    "description_sha256": "2fc5a7857e53036e9f5525d4b3da75d7382594b759bbe119d09389ed69a08ad9",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description specifies conventional business-directory records, real-time updates, APIs, UI tools, enrichment, and integrations, with no affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "offers data validated in real time that includes street address, phone number, hours of operations",
++      "APIs and UI tools including data enrichment with Data Axle’s cloud-based platform."
++    ],
++    "ai_type_evidence_spans": null,
++    "conflict_response": "The description is not limited to entitlement language: it expressly describes record access plus real-time subscriptions, APIs, UI tools, data enrichment, and integrations. Those are conventional data-access and delivery functions as stated, so the scope concern does not require a weak binary judgment."
++  },
++  {
++    "annotation_id": "ann_bb97dc88145a6b58338d4f65",
++    "description_sha256": "6eb4a04a7933d3cc6b7ad144029fdab3f5be6da8c0f19759e72f6c92601a55b6",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "weak",
++    "forced_decision": true,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description establishes conventional media publishing, advertising, analytics, measurement, and ad insertion, but leaves the personalization mechanism unexplained, so non_ai is weak and forced.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "a modular platform for media publishing, advertising, personalization, and analytics",
++      "Support for measuring ad breaks with (or without) dynamic ad insertion."
++    ],
++    "ai_type_evidence_spans": null,
++    "conflict_response": "The description provides substantial conventional media functionality, but personalization is explicitly named without explaining its mechanism. Because that could be conventional or AI-based and no AI is affirmed, the concern prevents a supported negative; non_ai remains weak and forced."
++  },
++  {
++    "annotation_id": "ann_db78198f0ae7bb7364d22213",
++    "description_sha256": "2db3d516b4771e581d03bfc2a0101f1bb6f44cffd28e6d02a96658fb406c4904",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "weak",
++    "forced_decision": true,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description only supplies a product-family label and product names, without functionality or an affirmative AI signal, so non_ai is a forced judgment.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "Family of products formerly Allen Systems Group.\n\nASG-meta-CMDB\nASG-metaManager\nASG-NaviGraph\nASG-NaviPlex\nASG-Safari\nASG-TeVISTA\nASG-TMON\nSQL Analyzer"
++    ],
++    "ai_type_evidence_spans": null,
++    "conflict_response": "The parent concern is confirmed by the source: it contains product names only and no functional description. Agreement between the proposals cannot create evidence, so non_ai remains weak and forced rather than supported."
++  },
++  {
++    "annotation_id": "ann_e829fcbea8e8c70e5ce8a82e",
++    "description_sha256": "0bb7d523bd7069bc166f0390b3accc155d5a0901ee18041942c41683dd8cfae7",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "weak",
++    "forced_decision": true,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description clearly describes process-mining transformation, dashboards, analysis, business logic, and monitoring, but the method for identifying root causes and risks is unspecified, so non_ai is weak and forced.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "transforms operation business process data from IT systems into visual interactive dashboards",
++      "understanding the root-causes and possible risks"
++    ],
++    "ai_type_evidence_spans": null,
++    "conflict_response": "The dashboard and process-mining functions are conventional as described, but the root-cause and risk analytics method is not identified. Analytics can be conventional or AI-based under the rubric, so the concern prevents a supported negative; non_ai remains weak and forced."
++  },
++  {
++    "annotation_id": "ann_e99fa1df4acd5237faa212a8",
++    "description_sha256": "9d117a17f55441843d9dbf16cd38ede7fbb6d917e69fd4e1e3c03b0630e5a829",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description explicitly describes tools for spatial data manipulation, processing, object editing, geocoding, spatial combination, and demographic enrichment, with no affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "The Spatial category includes tools that offer spatial data manipulation, processing, and object editing.",
++      "geocode them, combine them spatially with sources like TomTom and the U.S. Census"
++    ],
++    "ai_type_evidence_spans": null,
++    "conflict_response": "The source does mention layers and demographic datasets, but it also explicitly describes software tools and workflow operations for manipulating, processing, editing, geocoding, combining, and enriching spatial data. That is meaningful conventional functionality, so the data-only concern does not weaken the non_ai judgment."
++  }
++]
+*** End Patch

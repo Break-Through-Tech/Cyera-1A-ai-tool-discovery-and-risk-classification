@@ -1,0 +1,53 @@
+{
+  "status": "exact reconciliation packet and helper stage bound; one pass to same original Luna only",
+  "batch_id": "batch-031",
+  "ids": [
+    "ann_15d3c3e20b1936e055eebd44",
+    "ann_1fa65cd19dc905f92f07f055",
+    "ann_535803be566dfbbc9968e4f0",
+    "ann_61f06c9162e12125f9a3dc15",
+    "ann_64329b9b0a550073a1e77f2f",
+    "ann_7ffdaa6f5acaf703f8977e83",
+    "ann_a358d7697a2a50b6c8993e3a",
+    "ann_b0dd71663ad32e13578fa6e3",
+    "ann_bb1e0511724182476891eb81",
+    "ann_bb97dc88145a6b58338d4f65",
+    "ann_db78198f0ae7bb7364d22213",
+    "ann_e829fcbea8e8c70e5ce8a82e",
+    "ann_e99fa1df4acd5237faa212a8"
+  ],
+  "workspace": "agents/blind/reconciliation-031",
+  "model_id": "gpt-5.6-luna-high",
+  "native_uuid": "d94ee7c7-d17a-40c0-89e6-b82e034b295c",
+  "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+  "stage_assignment": {
+    "stage": "reconciliation",
+    "run_id": "batch-031",
+    "batch_id": "batch-031",
+    "rubric_id": "enterprise-description-only-v3",
+    "rubric_sha256": "8916f085016027e46cbde3a6303f5e43b571aff86df233b126f08656c3b04b61",
+    "prompt_sha256": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+    "model_id": "gpt-5.6-luna-high",
+    "assigned_annotation_ids": [
+      "ann_15d3c3e20b1936e055eebd44",
+      "ann_1fa65cd19dc905f92f07f055",
+      "ann_535803be566dfbbc9968e4f0",
+      "ann_61f06c9162e12125f9a3dc15",
+      "ann_64329b9b0a550073a1e77f2f",
+      "ann_7ffdaa6f5acaf703f8977e83",
+      "ann_a358d7697a2a50b6c8993e3a",
+      "ann_b0dd71663ad32e13578fa6e3",
+      "ann_bb1e0511724182476891eb81",
+      "ann_bb97dc88145a6b58338d4f65",
+      "ann_db78198f0ae7bb7364d22213",
+      "ann_e829fcbea8e8c70e5ce8a82e",
+      "ann_e99fa1df4acd5237faa212a8"
+    ]
+  },
+  "files": {
+    "description_packet.json": "62e4fb084ee4408ab16e0e96b62adba0d755b7e2257e10e117c191f4cea1f427",
+    "role_prompt.md": "9014009094d4a73c6cbc61bc39e1d44fbbd02e5eae94281a57c2e7bc197babf1",
+    "schema.json": "f7d2dfe7c2fcc151d49518568b209bc212a9a9c1f93246829de230d536377a3a"
+  },
+  "concern_count": 13
+}

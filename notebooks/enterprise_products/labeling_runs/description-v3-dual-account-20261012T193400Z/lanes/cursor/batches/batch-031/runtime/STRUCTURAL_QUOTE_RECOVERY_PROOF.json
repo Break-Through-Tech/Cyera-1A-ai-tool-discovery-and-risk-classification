@@ -1,0 +1,58 @@
+{
+  "batch_id": "batch-031",
+  "status": "one structural-only exact-quote correction in original Luna independent context; original independent judgments preserved",
+  "native_uuid": "d94ee7c7-d17a-40c0-89e6-b82e034b295c",
+  "model_id": "gpt-5.6-luna-high",
+  "recovery_prompt_count": 1,
+  "annotation_id": "ann_61f06c9162e12125f9a3dc15",
+  "before_quote": "Journey Orchestration is a service built on Adobe Experience Platform that allows you tailor individual journeys for every customer based on their previous behavior and preferences.  Anticipate individual needs through real-time insight. Configure and use any event to trigger an individual journey.",
+  "after_quote": "Journey Orchestration is a service built on Adobe Experience Platform that allows you tailor individual journeys for every customer based on their previous behavior and preferences. Anticipate individual needs through real-time insight. Configure and use any event to trigger an individual journey.",
+  "changed_json_paths": [
+    "checkpoint.evidence_spans[0]",
+    "result record matching annotation_id.evidence_spans[0]"
+  ],
+  "only_field_changed": "evidence_spans[0]",
+  "per_file_semantic_deltas": {
+    "checkpoint": [
+      [
+        "/evidence_spans[0]",
+        "Journey Orchestration is a service built on Adobe Experience Platform that allows you tailor individual journeys for every customer based on their previous behavior and preferences.  Anticipate individual needs through real-time insight. Configure and use any event to trigger an individual journey.",
+        "Journey Orchestration is a service built on Adobe Experience Platform that allows you tailor individual journeys for every customer based on their previous behavior and preferences. Anticipate individual needs through real-time insight. Configure and use any event to trigger an individual journey."
+      ]
+    ],
+    "aggregate_record": [
+      [
+        "/evidence_spans[0]",
+        "Journey Orchestration is a service built on Adobe Experience Platform that allows you tailor individual journeys for every customer based on their previous behavior and preferences.  Anticipate individual needs through real-time insight. Configure and use any event to trigger an individual journey.",
+        "Journey Orchestration is a service built on Adobe Experience Platform that allows you tailor individual journeys for every customer based on their previous behavior and preferences. Anticipate individual needs through real-time insight. Configure and use any event to trigger an individual journey."
+      ]
+    ]
+  },
+  "pre_recovery_hash_receipt": "runtime/STRUCTURAL_QUOTE_RECOVERY_PREPROOF.json",
+  "recovery_transcript": {
+    "copy": "runtime/cumulative-native-transcripts/blind-d94ee7c7-structural-quote-recovery.jsonl",
+    "sha256": "46792656f3385612d3a149564eddfa010a5461bf153bad8c0d9c3c42510f7cbf",
+    "bytes": 57327
+  },
+  "actual_tool_payloads": [
+    {
+      "line": 27,
+      "index": 1,
+      "archive": "runtime/native-write-payloads/blind-structural-quote-recovery/line-27-item-1.applypatch.payload",
+      "sha256": "6b684ee471cc8ed4f08fe47b588a2a60319fa38a761cb10ac74e06c97943a8a2",
+      "bytes": 910,
+      "target": "*** Update File: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-031/agents/blind/checkpoints/ann_61f06c9162e12125f9a3dc15.json"
+    },
+    {
+      "line": 28,
+      "index": 0,
+      "archive": "runtime/native-write-payloads/blind-structural-quote-recovery/line-28-item-0.applypatch.payload",
+      "sha256": "93350a76fb07ceb064c93c38291cc32571d3d5da29c9ebbcb58d6a1294978cad",
+      "bytes": 880,
+      "target": "*** Update File: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-031/agents/blind/result.json"
+    }
+  ],
+  "tool_payload_count": 2,
+  "exact_quote_matches_source": true,
+  "semantic_delta_count": 0
+}

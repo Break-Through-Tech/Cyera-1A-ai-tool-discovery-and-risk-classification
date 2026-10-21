@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-10-21T01:47:29.590595+00:00",
+  "status": "annotation_plans_exhausted_pending_hold_disposition",
+  "locally_annotated_descriptions": 1391,
+  "locally_annotated_rows": 1438,
+  "parent_accepted_descriptions": 1311,
+  "parent_accepted_rows": 1358,
+  "held_descriptions": 80,
+  "held_rows": 80,
+  "disputed_judgments": 6,
+  "active_annotation_workers": 0,
+  "holds": {
+    "cursor-batch-025": {
+      "descriptions": 20,
+      "rows": 20,
+      "held_issue_count": 3,
+      "receipt": "lanes/cursor/batches/batch-025/PARENT_VALIDATION.json"
+    },
+    "codex-batch-023": {
+      "descriptions": 20,
+      "rows": 20,
+      "held_issue_count": 1,
+      "receipt": "lanes/codex/batches/batch-023/PARENT_ACCEPTANCE.json"
+    },
+    "codex-batch-030": {
+      "descriptions": 20,
+      "rows": 20,
+      "held_issue_count": 1,
+      "receipt": "lanes/codex/batches/batch-030/PARENT_ACCEPTANCE.json"
+    },
+    "cursor-batch-031": {
+      "descriptions": 20,
+      "rows": 20,
+      "held_issue_count": 1,
+      "receipt": "lanes/cursor/batches/batch-031/PARENT_VALIDATION.json"
+    }
+  },
+  "no_training_dataset_merge": true,
+  "no_further_model_votes_or_parent_relabels": true,
+  "recommended_next_decision": "Quarantine six disputed records and evaluate release of the other74 held rows separately without changing original labels/exports; requires an explicit record-level acceptance disposition. Alternative is explicitly authorized further review."
+}

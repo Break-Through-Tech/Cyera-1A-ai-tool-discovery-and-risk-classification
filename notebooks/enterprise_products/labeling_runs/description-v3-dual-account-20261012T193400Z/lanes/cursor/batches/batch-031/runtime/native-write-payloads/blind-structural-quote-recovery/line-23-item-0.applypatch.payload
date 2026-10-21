@@ -1,0 +1,329 @@
+*** Begin Patch
+*** Add File: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-031/agents/blind/result.json
++[
++  {
++    "annotation_id": "ann_ec8875d0a103a0bbbc8a852e",
++    "description_sha256": "c7b9f1b766c33eddd2467b726d273bd7a0e7688062ba85ea30f0dbd226446323",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description presents conventional screen magnification, reading, typing echo, and activity echo functionality, with no affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "Magnifier/Reader enlarges and enhances everything on your computer screen, echoes your typing and essential program activity, and automatically reads documents, web pages, email."
++    ],
++    "ai_type_evidence_spans": null
++  },
++  {
++    "annotation_id": "ann_1490f950b237ed28d27ad9c1",
++    "description_sha256": "3bc981e125e2ddbcdf44f8f7deb0f50eb9fb3f72184f1b246a90b9c",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description covers conventional screen magnification, visual enhancement, and screen reading combined in one accessibility solution, with no affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "Fusion provides the best of both worlds – ZoomText® , with its screen magnification and visual enhancements for screen viewing ease, coupled with the power and speed of JAWS®  for screen reading functionality."
++    ],
++    "ai_type_evidence_spans": null
++  },
++  {
++    "annotation_id": "ann_8dca3d5c118c819ad656c550",
++    "description_sha256": "e598d5b576a65c91ea1a560e78db3235f08aaab03dd247b26bbd106dc3ae9044",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description specifies conventional ODBC data connectivity with read, write, and update operations for online spreadsheets, with no affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "Read, write, and update online sheets through a standard ODBC interface."
++    ],
++    "ai_type_evidence_spans": null
++  },
++  {
++    "annotation_id": "ann_0cf607824fc045a5d80307e1",
++    "description_sha256": "34cfdd1745c4ab9c7709fdeb18a773057bcc94a2b7bbddc9f255205ae77d8d05",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description is for conventional Visio-file viewing and opening on macOS, with no affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "VSD Viewer is used for viewing Visio files. VSD Viewer – Visio® Viewer for Mac.  Open Visio® Drawings on macOS."
++    ],
++    "ai_type_evidence_spans": null
++  },
++  {
++    "annotation_id": "ann_1fa65cd19dc905f92f07f055",
++    "description_sha256": "9473e549011205b6ca7c475ef42e9815a534dc2024df944f767d6648b321bad9",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "weak",
++    "forced_decision": true,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The text only lists a family of product names and does not describe functionality or provide an affirmative AI signal, so the binary decision is forced.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "Family of products formerly Allen Systems Group.\n\nASG-meta CMDB\nASG-metaManager\nASG-NaviGraph\nASG-NaviPlex\nASG-Safari\nASG-TeVISTA\nASG-TMON\nSQL Analyzer"
++    ],
++    "ai_type_evidence_spans": null
++  },
++  {
++    "annotation_id": "ann_db78198f0ae7bb7364d22213",
++    "description_sha256": "2db3d516b4771e581d03bfc2a0101f1bb6f44cffd28e6d02a96658fb406c4904",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "weak",
++    "forced_decision": true,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The text only lists a family of product names and does not describe functionality or provide an affirmative AI signal, so the binary decision is forced.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "Family of products formerly Allen Systems Group.\n\nASG-meta-CMDB\nASG-metaManager\nASG-NaviGraph\nASG-NaviPlex\nASG-Safari\nASG-TeVISTA\nASG-TMON\nSQL Analyzer"
++    ],
++    "ai_type_evidence_spans": null
++  },
++  {
++    "annotation_id": "ann_15d3c3e20b1936e055eebd44",
++    "description_sha256": "fdffcbf40d70a96f5c45bae783a30922989117641d452050a8ac9ef270854f31",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "weak",
++    "forced_decision": true,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The text lists maintenance and product modules but does not describe functionality or provide an affirmative AI signal, so the binary decision is forced.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "Family of products formerly Allen Systems Group.\n\nASG-TMON Annual Maintenance Site ID 133024956\nASG-TMON PA for CICS\nASG-TMON PA for DB2\nASG-TMON PA for z/OS\nASG-TMON PA Server"
++    ],
++    "ai_type_evidence_spans": null
++  },
++  {
++    "annotation_id": "ann_e829fcbea8e8c70e5ce8a82e",
++    "description_sha256": "0bb7d523bd7069bc166f0390b3accc155d5a0901ee18041942c41683dd8cfae7",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description covers conventional process mining through transformed data, interactive dashboards, analysis, business logic, and continuous monitoring, with no affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "UiPath Process Mining is a Process Mining solution that transforms operation business process data from IT systems into visual interactive dashboards, allowing user to see existing value decreases, bottlenecks, and discrepancies, as well as understanding the root-causes and possible risks."
++    ],
++    "ai_type_evidence_spans": null
++  },
++  {
++    "annotation_id": "ann_64329b9b0a550073a1e77f2f",
++    "description_sha256": "7ff4d668009de5453203e542a3644b37ff7e052d2a928b8b6633eab9c8914621",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description identifies cloud analytics and automated insight finding, which are conventional analytics and automation as described, without an affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "Alteryx Auto Insights is a cloud native analytics solution that automates the process of finding insights, so business users can make data-led decisions."
++    ],
++    "ai_type_evidence_spans": null
++  },
++  {
++    "annotation_id": "ann_7ffdaa6f5acaf703f8977e83",
++    "description_sha256": "bb15141ee56122c955fe489b94fe89764e42bc81fca5dd593ae90ac821833b4b",
++    "ai_status": "ai",
++    "ai_type": "ai_enabled",
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": "supported",
++    "ai_type_forced_decision": false,
++    "rationale": "The description explicitly identifies machine learning and computer vision capabilities, establishing an AI-positive offering.",
++    "ai_type_rationale": "The description says these AI capabilities are offered on top of features already available with the Designer license, supporting an AI-enabled subtype.",
++    "evidence_spans": [
++      "Alteryx Intelligence Suite offers machine learning, text mining, and computer vision capabilities on top of the great features that are already available with your Designer license."
++    ],
++    "ai_type_evidence_spans": [
++      "Alteryx Intelligence Suite offers machine learning, text mining, and computer vision capabilities on top of the great features that are already available with your Designer license."
++    ]
++  },
++  {
++    "annotation_id": "ann_e99fa1df4acd5237faa212a8",
++    "description_sha256": "9d117a17f55441843d9dbf16cd38ede7fbb6d917e69fd4e1e3c03b0630e5a829",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description covers conventional geospatial data analysis, manipulation, processing, geocoding, dataset combination, and map enrichment, with no affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "Spatial analysis allows companies to analyze the locations, relationships, attributes, and proximities in geospatial data to extract insights using geographical data."
++    ],
++    "ai_type_evidence_spans": null
++  },
++  {
++    "annotation_id": "ann_535803be566dfbbc9968e4f0",
++    "description_sha256": "cb0ec8907501aa087f4648a20672e46e5ede00786b107e087bfcbe546add10f5",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description covers conventional digital experience content management, offers, application integration, and branding across channels, with no affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "HCL Digital Experience (formerly IBM WebSphere Portal and IBM Web Content Manager) empowers you to create, manage, and deliver engaging omnichannel digital experiences to virtually all audiences with responsive content, targeted offers, seamlessly integrated applications, and consistent branding across channels"
++    ],
++    "ai_type_evidence_spans": null
++  },
++  {
++    "annotation_id": "ann_a360c23e4d66df6b4e22f084",
++    "description_sha256": "88e1bd3c3b5d891ffdd4bb7c061be32020cd15edfae28f01975d48f13310779c",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description covers conventional web-based process documentation, analysis, streamlining, and collaboration, with no affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "With an intuitive, web-based interface, IBM Blueworks Live empowers teams to document, analyze and streamline processes with unprecedented ease and efficiency, with no downloads necessary."
++    ],
++    "ai_type_evidence_spans": null
++  },
++  {
++    "annotation_id": "ann_61f06c9162e12125f9a3dc15",
++    "description_sha256": "e8195d930efb681cda91aa5666b235d5ecfb7ac625db107c566f60325e224d90",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description covers conventional customer journey personalization, behavior- and preference-based orchestration, and event-triggered journeys, with no affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "Journey Orchestration is a service built on Adobe Experience Platform that allows you tailor individual journeys for every customer based on their previous behavior and preferences.  Anticipate individual needs through real-time insight. Configure and use any event to trigger an individual journey."
++    ],
++    "ai_type_evidence_spans": null
++  },
++  {
++    "annotation_id": "ann_bb97dc88145a6b58338d4f65",
++    "description_sha256": "6eb4a04a7933d3cc6b7ad144029fdab3f5be6da8c0f19759e72f6c92601a55b6",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description covers conventional media publishing, advertising, personalization, analytics, measurement, ad insertion, and event metadata, with no affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "Primetime eliminates the complexity of reaching, monetizing, and activating global audiences across devices by providing a modular platform for media publishing, advertising, personalization, and analytics."
++    ],
++    "ai_type_evidence_spans": null
++  },
++  {
++    "annotation_id": "ann_b0dd71663ad32e13578fa6e3",
++    "description_sha256": "146845ebdc0be91e83063984b63858bd941a3f60be49edeedcfad5dd7191b1b9",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description covers conventional customer-profile data unification across systems for personalization, with no affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "Real Time Customer Data Platform which in a very short explanation  is a platform with real time information that unifies all our customer data (profiles) from across systems to create personalised customer experiences."
++    ],
++    "ai_type_evidence_spans": null
++  },
++  {
++    "annotation_id": "ann_72f94a569541e76558a8e9a1",
++    "description_sha256": "3c178b9441c7d6a9fe5bdd519e89299412f22504241a9703b711944caadd1bc4",
++    "ai_status": "ai",
++    "ai_type": "ai_native",
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": "supported",
++    "ai_type_forced_decision": false,
++    "rationale": "The description explicitly says the product offers creative generative AI models and features powered by Firefly.",
++    "ai_type_rationale": "The standalone application is described as using generative AI to support ideation, creation, and communication, making AI central to the described offering.",
++    "evidence_spans": [
++      "It offers new ways to ideate, create, and communicate while significantly improving creative workflows using generative AI."
++    ],
++    "ai_type_evidence_spans": [
++      "It offers new ways to ideate, create, and communicate while significantly improving creative workflows using generative AI."
++    ]
++  },
++  {
++    "annotation_id": "ann_bb1e0511724182476891eb81",
++    "description_sha256": "2fc5a7857e53036e9f5525d4b3da75d7382594b759bbe119d09389ed69a08ad9",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description covers conventional business-directory data, validation, records, APIs, user interfaces, enrichment, and integrations, with no affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "Technology: \n•\tAccess to real-time updates and custom daily/weekly subscriptions.\n•\tAPIs and UI tools including data enrichment with Data Axle’s cloud-based platform.\n•\tSFTP, S3, CRM and Cloud Integrations."
++    ],
++    "ai_type_evidence_spans": null
++  },
++  {
++    "annotation_id": "ann_517a3b5788bd7c6af6dfde85",
++    "description_sha256": "6fb2ecb208090076918df2fd43afdebe75303043c03ba586653db43843334a1b",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description covers conventional drag-and-drop connectors and tasks for connecting cloud and on-premises data sources, with no affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "SSIS PowerPack is a collection of 70+ high performance, drag and drop connectors/tasks for SSIS (i.e. Microsoft SQL Server Integration Services). SSIS PowerPack is designed to boost your productivity using easy to use, coding-free components to connect many cloud as well as on-premises data sources such as REST API Services, Azure Cloud, Amazon AWS Cloud, MongoDB, JSON, XML, CSV, Excel, Salesforce, Redshift, DynamoDB, Google API (i.e. Analytics, AdWords), SOAP/Web API, Facebook, Twitter, Zendesk, eBay and many more."
++    ],
++    "ai_type_evidence_spans": null
++  },
++  {
++    "annotation_id": "ann_a358d7697a2a50b6c8993e3a",
++    "description_sha256": "299ac4226659d85ebf9b2ce5ce7c5c446322cec635c1215825a697d065a7306e",
++    "ai_status": "non_ai",
++    "ai_type": null,
++    "evidence_strength": "supported",
++    "forced_decision": false,
++    "ai_type_evidence_strength": null,
++    "ai_type_forced_decision": null,
++    "rationale": "The description covers conventional demographic and business datasets, census boundaries, thematic maps, and business analysis, with no affirmative AI signal.",
++    "ai_type_rationale": null,
++    "evidence_spans": [
++      "US provides a visual backdrop for demographic and other business analysis in the United States. It can be purchased as a complete bundle that includes all seven layers, or as individual layer datasets.  Combine census boundaries with business data and demographics to create thematic maps for analyzing trends such as sales or population growth:"
++    ],
++    "ai_type_evidence_spans": null
++  }
++]
+*** End Patch

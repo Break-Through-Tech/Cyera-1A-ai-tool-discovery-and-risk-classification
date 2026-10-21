@@ -1,0 +1,21 @@
+*** Begin Patch
+*** Add File: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-031/agents/blind/reconciliation-031/checkpoints/ann_61f06c9162e12125f9a3dc15.json
++{
++  "annotation_id": "ann_61f06c9162e12125f9a3dc15",
++  "description_sha256": "e8195d930efb681cda91aa5666b235d5ecfb7ac625db107c566f60325e224d90",
++  "ai_status": "non_ai",
++  "ai_type": null,
++  "evidence_strength": "weak",
++  "forced_decision": true,
++  "ai_type_evidence_strength": null,
++  "ai_type_forced_decision": null,
++  "rationale": "The description explicitly describes behavior- and preference-based journey tailoring and event triggers, but its real-time insight claim does not explain whether the mechanism is conventional or AI-based, so the negative is weak.",
++  "ai_type_rationale": null,
++  "evidence_spans": [
++    "allows you tailor individual journeys for every customer based on their previous behavior and preferences.",
++    "Anticipate individual needs through real-time insight."
++  ],
++  "ai_type_evidence_spans": null,
++  "conflict_response": "The behavior, preference, and event portions support conventional orchestration, but the phrase real-time insight is an unexplained potentially AI-dependent capability. Because the description does not affirm AI or establish the implementation, the binary stays non_ai while the unresolved mechanism requires weak evidence and a forced decision."
++}
+*** End Patch

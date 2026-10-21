@@ -1,6 +1,6 @@
 {
-  "status": "active",
-  "updated_at": "2026-10-21T01:34:42.152025+00:00",
+  "status": "planned_annotations_complete_with_semantic_acceptance_holds",
+  "updated_at": "2026-10-21T01:47:29.590595+00:00",
   "prior_completed_descriptions": 160,
   "prior_completed_rows": 174,
   "new_completed_descriptions": 1151,
@@ -13,21 +13,21 @@
   "stop_on_usage_limit": true,
   "resume_requires_user_request": false,
   "latest_authorization": "User GO AHEAD both lanes, actual pi-subagents only, routine fixes and frequent concise local Git checkpoints; no training dataset changes.",
-  "cursor_status": "030parentaccepted20/20 withpreservedmechanicalrepairproof;031freshfinalpairlaunching.",
+  "cursor_status": "All31plannedCursorbatches locallyfinished;accepted580/599;040rowsheld025/031uncounted.",
   "codex_status": "All31plannedbatches locallyfinished; accepted571/585;040rowsheldin023/030, no activeCodexworkers.",
   "codex_active_workers": 0,
-  "cursor_live_worker_state": "Prepared031p2Dlabeler/p2Eblind; exclusivecoordinatord9f9verifiesbanners/cwd and launchesonce.",
+  "cursor_live_worker_state": "Allplannednativeannotationoutputscomplete;031labeleroptionalread-onlycommandapprovalnotneeded/notapproved.",
   "active_runs": {
     "cursor_panes": [
       "wF:p2D",
       "wF:p2E"
     ],
-    "cursor_integration_owner": "d9f9d44c-acb6-41a9-be07-39ef7b6feb29",
+    "cursor_integration_owner": null,
     "codex_independent_workflow": "ef0dd92e-adaa-4163-9a34-3d9dec0972b2",
     "codex_reconciliation_workflow": null
   },
   "native_resume_receipt": "runtime/NATIVE_RESUME_AFTER_RESET_20261015.json",
-  "active_workers": 2,
+  "active_workers": 0,
   "blocker": null,
   "git_sync_note": "Herdr native labeling workers idle; previous pi-subagents /tmp run registry absent. No annotation restarted. Preserve current partial outputs; gate before accepting.",
   "semantic_acceptance_holds": {
@@ -48,7 +48,18 @@
       "rows": 20,
       "held_issue_count": 1,
       "receipt": "lanes/codex/batches/batch-030/PARENT_ACCEPTANCE.json"
+    },
+    "cursor-batch-031": {
+      "descriptions": 20,
+      "rows": 20,
+      "held_issue_count": 1,
+      "receipt": "lanes/cursor/batches/batch-031/PARENT_VALIDATION.json"
     }
   },
-  "major_stop_receipt": "runtime/MAJOR_RUNTIME_STOP_20261020.json"
+  "major_stop_receipt": "runtime/MAJOR_RUNTIME_STOP_20261020.json",
+  "annotations_locally_completed_descriptions": 1391,
+  "annotations_locally_completed_rows": 1438,
+  "acceptance_held_descriptions": 80,
+  "acceptance_held_rows": 80,
+  "disputed_judgments": 6
 }

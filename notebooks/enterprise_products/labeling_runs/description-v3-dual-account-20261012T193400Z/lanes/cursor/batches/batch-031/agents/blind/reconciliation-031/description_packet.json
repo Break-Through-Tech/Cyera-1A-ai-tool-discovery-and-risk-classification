@@ -1,0 +1,545 @@
+[
+  {
+    "annotation_id": "ann_15d3c3e20b1936e055eebd44",
+    "description_sha256": "fdffcbf40d70a96f5c45bae783a30922989117641d452050a8ac9ef270854f31",
+    "source_record_references": [
+      "1470"
+    ],
+    "description": "Family of products formerly Allen Systems Group.\n\nASG-TMON Annual Maintenance Site ID 133024956\nASG-TMON PA for CICS\nASG-TMON PA for DB2\nASG-TMON PA for z/OS\nASG-TMON PA Server",
+    "labeler_proposal": {
+      "annotation_id": "ann_15d3c3e20b1936e055eebd44",
+      "description_sha256": "fdffcbf40d70a96f5c45bae783a30922989117641d452050a8ac9ef270854f31",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Text is only a product-family name followed by a list of product names and a maintenance identifier, with no functional description. It is too thin to support a conventional-software negative. No AI is mentioned, so non_ai is the best-supported forced judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Family of products formerly Allen Systems Group."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_15d3c3e20b1936e055eebd44",
+      "description_sha256": "fdffcbf40d70a96f5c45bae783a30922989117641d452050a8ac9ef270854f31",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text lists maintenance and product modules but does not describe functionality or provide an affirmative AI signal, so the binary decision is forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Family of products formerly Allen Systems Group.\n\nASG-TMON Annual Maintenance Site ID 133024956\nASG-TMON PA for CICS\nASG-TMON PA for DB2\nASG-TMON PA for z/OS\nASG-TMON PA Server"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": "helper_required: no functional description/product names and maintenance-only context; remain weak"
+  },
+  {
+    "annotation_id": "ann_1fa65cd19dc905f92f07f055",
+    "description_sha256": "9473e549011205b6ca7c475ef42e9815a534dc2024df944f767d6648b321bad9",
+    "source_record_references": [
+      "1468"
+    ],
+    "description": "Family of products formerly Allen Systems Group.\n\nASG-meta CMDB\nASG-metaManager\nASG-NaviGraph\nASG-NaviPlex\nASG-Safari\nASG-TeVISTA\nASG-TMON\nSQL Analyzer",
+    "labeler_proposal": {
+      "annotation_id": "ann_1fa65cd19dc905f92f07f055",
+      "description_sha256": "9473e549011205b6ca7c475ef42e9815a534dc2024df944f767d6648b321bad9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Text is only a product-family name followed by a list of product names, with no functional description. It is too thin to support a conventional-software negative. No AI is mentioned, so non_ai is the best-supported forced judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Family of products formerly Allen Systems Group."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_1fa65cd19dc905f92f07f055",
+      "description_sha256": "9473e549011205b6ca7c475ef42e9815a534dc2024df944f767d6648b321bad9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text only lists a family of product names and does not describe functionality or provide an affirmative AI signal, so the binary decision is forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Family of products formerly Allen Systems Group.\n\nASG-meta CMDB\nASG-metaManager\nASG-NaviGraph\nASG-NaviPlex\nASG-Safari\nASG-TeVISTA\nASG-TMON\nSQL Analyzer"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": "helper_required: no functionality beyond product-family/module names; remain weak"
+  },
+  {
+    "annotation_id": "ann_535803be566dfbbc9968e4f0",
+    "description_sha256": "cb0ec8907501aa087f4648a20672e46e5ede00786b107e087bfcbe546add10f5",
+    "source_record_references": [
+      "1475"
+    ],
+    "description": "HCL Digital Experience (formerly IBM WebSphere Portal and IBM Web Content Manager) empowers you to create, manage, and deliver engaging omnichannel digital experiences to virtually all audiences with responsive content, targeted offers, seamlessly integrated applications, and consistent branding across channels",
+    "labeler_proposal": {
+      "annotation_id": "ann_535803be566dfbbc9968e4f0",
+      "description_sha256": "cb0ec8907501aa087f4648a20672e46e5ede00786b107e087bfcbe546add10f5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a content and experience management platform for creating, managing and delivering digital experiences with responsive content, targeted offers, integrated applications and consistent branding. These are conventional functions; no AI is mentioned.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "empowers you to create, manage, and deliver engaging omnichannel digital experiences"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_535803be566dfbbc9968e4f0",
+      "description_sha256": "cb0ec8907501aa087f4648a20672e46e5ede00786b107e087bfcbe546add10f5",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers conventional digital experience content management, offers, application integration, and branding across channels, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "HCL Digital Experience (formerly IBM WebSphere Portal and IBM Web Content Manager) empowers you to create, manage, and deliver engaging omnichannel digital experiences to virtually all audiences with responsive content, targeted offers, seamlessly integrated applications, and consistent branding across channels"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": "material concern: targeted-offer mechanism unspecified; verify only from text whether conventional description supports firm negative"
+  },
+  {
+    "annotation_id": "ann_61f06c9162e12125f9a3dc15",
+    "description_sha256": "e8195d930efb681cda91aa5666b235d5ecfb7ac625db107c566f60325e224d90",
+    "source_record_references": [
+      "1477"
+    ],
+    "description": "Includes Journey Optizer and Journey Orchestration.  Adobe Journey Optimizer helps companies deliver connected, contextual, and personalized experiences to their customers. The customer journey is the entire process of a customer's interactions with the brand, from the first moment of contact until the customer leaves.  Journey Orchestration is a service built on Adobe Experience Platform that allows you tailor individual journeys for every customer based on their previous behavior and preferences. Anticipate individual needs through real-time insight. Configure and use any event to trigger an individual journey.\n\nPreviously part of th Experience Platform Application Services (AEP App Svc) product",
+    "labeler_proposal": {
+      "annotation_id": "ann_61f06c9162e12125f9a3dc15",
+      "description_sha256": "e8195d930efb681cda91aa5666b235d5ecfb7ac625db107c566f60325e224d90",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes journey orchestration that tailors journeys by behavior and triggers them from events, which is conventional. However, 'Anticipate individual needs through real-time insight' is an unexplained, potentially AI-dependent capability, and no AI is affirmed, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "allows you tailor individual journeys for every customer based on their previous behavior and preferences",
+        "Anticipate individual needs through real-time insight."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_61f06c9162e12125f9a3dc15",
+      "description_sha256": "e8195d930efb681cda91aa5666b235d5ecfb7ac625db107c566f60325e224d90",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers conventional customer journey personalization, behavior- and preference-based orchestration, and event-triggered journeys, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Journey Orchestration is a service built on Adobe Experience Platform that allows you tailor individual journeys for every customer based on their previous behavior and preferences. Anticipate individual needs through real-time insight. Configure and use any event to trigger an individual journey."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": "helper_required: possible AI-dependent real-time insight/personalization mechanism unexplained"
+  },
+  {
+    "annotation_id": "ann_64329b9b0a550073a1e77f2f",
+    "description_sha256": "7ff4d668009de5453203e542a3644b37ff7e052d2a928b8b6633eab9c8914621",
+    "source_record_references": [
+      "1472"
+    ],
+    "description": "Alteryx Auto Insights is a cloud native analytics solution that automates the process of finding insights, so business users can make data-led decisions.",
+    "labeler_proposal": {
+      "annotation_id": "ann_64329b9b0a550073a1e77f2f",
+      "description_sha256": "7ff4d668009de5453203e542a3644b37ff7e052d2a928b8b6633eab9c8914621",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a cloud analytics product that automates finding insights for business users, but does not state the mechanism. Automated insight discovery is ambiguous and cannot be confirmed as either conventional or AI-based, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Alteryx Auto Insights is a cloud native analytics solution that automates the process of finding insights"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_64329b9b0a550073a1e77f2f",
+      "description_sha256": "7ff4d668009de5453203e542a3644b37ff7e052d2a928b8b6633eab9c8914621",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description identifies cloud analytics and automated insight finding, which are conventional analytics and automation as described, without an affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Alteryx Auto Insights is a cloud native analytics solution that automates the process of finding insights, so business users can make data-led decisions."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": "helper_required: automated insight discovery mechanism unspecified"
+  },
+  {
+    "annotation_id": "ann_7ffdaa6f5acaf703f8977e83",
+    "description_sha256": "bb15141ee56122c955fe489b94fe89764e42bc81fca5dd593ae90ac821833b4b",
+    "source_record_references": [
+      "1473"
+    ],
+    "description": "Alteryx Intelligence Suite offers machine learning, text mining, and computer vision capabilities on top of the great features that are already available with your Designer license.",
+    "labeler_proposal": {
+      "annotation_id": "ann_7ffdaa6f5acaf703f8977e83",
+      "description_sha256": "bb15141ee56122c955fe489b94fe89764e42bc81fca5dd593ae90ac821833b4b",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "weak",
+      "ai_type_forced_decision": true,
+      "rationale": "Explicitly describes machine learning, text mining and computer vision capabilities, an affirmative product-specific AI signal.",
+      "ai_type_rationale": "The text frames the AI capabilities as an addition on top of features already available with the Designer license, so conventional functionality appears to remain. The dependency of the described core offering on AI is not clear, so ai_enabled is a weak forced subtype.",
+      "evidence_spans": [
+        "Alteryx Intelligence Suite offers machine learning, text mining, and computer vision capabilities"
+      ],
+      "ai_type_evidence_spans": [
+        "on top of the great features that are already available with your Designer license"
+      ]
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_7ffdaa6f5acaf703f8977e83",
+      "description_sha256": "bb15141ee56122c955fe489b94fe89764e42bc81fca5dd593ae90ac821833b4b",
+      "ai_status": "ai",
+      "ai_type": "ai_enabled",
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": "supported",
+      "ai_type_forced_decision": false,
+      "rationale": "The description explicitly identifies machine learning and computer vision capabilities, establishing an AI-positive offering.",
+      "ai_type_rationale": "The description says these AI capabilities are offered on top of features already available with the Designer license, supporting an AI-enabled subtype.",
+      "evidence_spans": [
+        "Alteryx Intelligence Suite offers machine learning, text mining, and computer vision capabilities on top of the great features that are already available with your Designer license."
+      ],
+      "ai_type_evidence_spans": [
+        "Alteryx Intelligence Suite offers machine learning, text mining, and computer vision capabilities on top of the great features that are already available with your Designer license."
+      ]
+    },
+    "parent_concerns": "helper_required subtype: ai_enabled vs weak subtype; conventional core said to remain via Designer license; assess subtype independently"
+  },
+  {
+    "annotation_id": "ann_a358d7697a2a50b6c8993e3a",
+    "description_sha256": "299ac4226659d85ebf9b2ce5ce7c5c446322cec635c1215825a697d065a7306e",
+    "source_record_references": [
+      "1483"
+    ],
+    "description": "US provides a visual backdrop for demographic and other business analysis in the United States. It can be purchased as a complete bundle that includes all seven layers, or as individual layer datasets.  Combine census boundaries with business data and demographics to create thematic maps for analyzing trends such as sales or population growth:",
+    "labeler_proposal": {
+      "annotation_id": "ann_a358d7697a2a50b6c8993e3a",
+      "description_sha256": "299ac4226659d85ebf9b2ce5ce7c5c446322cec635c1215825a697d065a7306e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes census boundary and business-data layers combined into thematic maps for analyzing trends, a conventional GIS mapping function; no AI is mentioned.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Combine census boundaries with business data and demographics to create thematic maps for analyzing trends such as sales or population growth"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_a358d7697a2a50b6c8993e3a",
+      "description_sha256": "299ac4226659d85ebf9b2ce5ce7c5c446322cec635c1215825a697d065a7306e",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers conventional demographic and business datasets, census boundaries, thematic maps, and business analysis, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "US provides a visual backdrop for demographic and other business analysis in the United States. It can be purchased as a complete bundle that includes all seven layers, or as individual layer datasets.  Combine census boundaries with business data and demographics to create thematic maps for analyzing trends such as sales or population growth:"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": "material scope concern: maps/data-layer datasets may be data-only rather than meaningful software functionality"
+  },
+  {
+    "annotation_id": "ann_b0dd71663ad32e13578fa6e3",
+    "description_sha256": "146845ebdc0be91e83063984b63858bd941a3f60be49edeedcfad5dd7191b1b9",
+    "source_record_references": [
+      "1479"
+    ],
+    "description": "Real Time Customer Data Platform which in a very short explanation  is a platform with real time information that unifies all our customer data (profiles) from across systems to create personalised customer experiences.\n\nPreviously part of the Experience Platform Application Services (AEP App Svc) product",
+    "labeler_proposal": {
+      "annotation_id": "ann_b0dd71663ad32e13578fa6e3",
+      "description_sha256": "146845ebdc0be91e83063984b63858bd941a3f60be49edeedcfad5dd7191b1b9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes unifying customer profiles from across systems, a conventional data function. The stated goal of personalised customer experiences is not tied to any described mechanism and is potentially AI-dependent, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "unifies all our customer data (profiles) from across systems",
+        "to create personalised customer experiences"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_b0dd71663ad32e13578fa6e3",
+      "description_sha256": "146845ebdc0be91e83063984b63858bd941a3f60be49edeedcfad5dd7191b1b9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers conventional customer-profile data unification across systems for personalization, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Real Time Customer Data Platform which in a very short explanation  is a platform with real time information that unifies all our customer data (profiles) from across systems to create personalised customer experiences."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": "helper_required: customer-profile personalization method unexplained"
+  },
+  {
+    "annotation_id": "ann_bb1e0511724182476891eb81",
+    "description_sha256": "2fc5a7857e53036e9f5525d4b3da75d7382594b759bbe119d09389ed69a08ad9",
+    "source_record_references": [
+      "1481"
+    ],
+    "description": "The US Business Database, also known as the PLACES database, offers data validated in real time that includes street address, phone number, hours of operations, number of employees, online presence, SIC code, business contacts, and much more, for almost every business from the Fortune 500 down to mom and pop shops and work from home freelancers. Database: US Business\nRecord Access: US Verified, Pre-verified, Suspect and Out of Business\nGeography: Total US \nData Axle template: Marketing / Analytics\nTechnology: \n•\tAccess to real-time updates and custom daily/weekly subscriptions.\n•\tAPIs and UI tools including data enrichment with Data Axle’s cloud-based platform.\n•\tSFTP, S3, CRM and Cloud Integrations.",
+    "labeler_proposal": {
+      "annotation_id": "ann_bb1e0511724182476891eb81",
+      "description_sha256": "2fc5a7857e53036e9f5525d4b3da75d7382594b759bbe119d09389ed69a08ad9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes a business contact database with records validated in real time, subscriptions, APIs and file or CRM integrations. These are conventional data-access and delivery functions; no AI is mentioned.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "offers data validated in real time that includes street address, phone number, hours of operations",
+        "Access to real-time updates and custom daily/weekly subscriptions."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_bb1e0511724182476891eb81",
+      "description_sha256": "2fc5a7857e53036e9f5525d4b3da75d7382594b759bbe119d09389ed69a08ad9",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers conventional business-directory data, validation, records, APIs, user interfaces, enrichment, and integrations, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Technology: \n•\tAccess to real-time updates and custom daily/weekly subscriptions.\n•\tAPIs and UI tools including data enrichment with Data Axle’s cloud-based platform.\n•\tSFTP, S3, CRM and Cloud Integrations."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": "material scope/entitlement concern: business-database subscription and data-enrichment offering; determine from description whether software functions or data entitlement only"
+  },
+  {
+    "annotation_id": "ann_bb97dc88145a6b58338d4f65",
+    "description_sha256": "6eb4a04a7933d3cc6b7ad144029fdab3f5be6da8c0f19759e72f6c92601a55b6",
+    "source_record_references": [
+      "1478"
+    ],
+    "description": "Adobe Primetime is an Adobe Experience Cloud solution that helps content programmers and distributors monetize media on every connected screen.\n\nPrimetime eliminates the complexity of reaching, monetizing, and activating global audiences across devices by providing a modular platform for media publishing, advertising, personalization, and analytics. Additionally, Primetime offers solutions and value around the following:\n\nSupport for accurately measuring Linear and VOD content types.\nSupport for measuring ad breaks with (or without) dynamic ad insertion.\nTVSDK’s seamless ad insertion model allows for analytics that directly measures the ad playback, which increases accuracy.\nRobust set of events and metadata to ensure accuracy across QoS buffering or mobile connectivity interruptions issues and end-user interactions such as seeking, pausing, and backgrounding on mobile.",
+    "labeler_proposal": {
+      "annotation_id": "ann_bb97dc88145a6b58338d4f65",
+      "description_sha256": "6eb4a04a7933d3cc6b7ad144029fdab3f5be6da8c0f19759e72f6c92601a55b6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Mostly describes conventional media monetization, ad insertion, measurement and event metadata. However, 'personalization' is a named component with no implementation stated and is potentially AI-dependent, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "a modular platform for media publishing, advertising, personalization, and analytics",
+        "Support for measuring ad breaks with (or without) dynamic ad insertion."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_bb97dc88145a6b58338d4f65",
+      "description_sha256": "6eb4a04a7933d3cc6b7ad144029fdab3f5be6da8c0f19759e72f6c92601a55b6",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers conventional media publishing, advertising, personalization, analytics, measurement, ad insertion, and event metadata, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Primetime eliminates the complexity of reaching, monetizing, and activating global audiences across devices by providing a modular platform for media publishing, advertising, personalization, and analytics."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": "helper_required: media personalization mechanism unexplained"
+  },
+  {
+    "annotation_id": "ann_db78198f0ae7bb7364d22213",
+    "description_sha256": "2db3d516b4771e581d03bfc2a0101f1bb6f44cffd28e6d02a96658fb406c4904",
+    "source_record_references": [
+      "1469"
+    ],
+    "description": "Family of products formerly Allen Systems Group.\n\nASG-meta-CMDB\nASG-metaManager\nASG-NaviGraph\nASG-NaviPlex\nASG-Safari\nASG-TeVISTA\nASG-TMON\nSQL Analyzer",
+    "labeler_proposal": {
+      "annotation_id": "ann_db78198f0ae7bb7364d22213",
+      "description_sha256": "2db3d516b4771e581d03bfc2a0101f1bb6f44cffd28e6d02a96658fb406c4904",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Text is only a product-family name followed by a list of product names, with no functional description. It is too thin to support a conventional-software negative. No AI is mentioned, so non_ai is the best-supported forced judgment.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Family of products formerly Allen Systems Group."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_db78198f0ae7bb7364d22213",
+      "description_sha256": "2db3d516b4771e581d03bfc2a0101f1bb6f44cffd28e6d02a96658fb406c4904",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The text only lists a family of product names and does not describe functionality or provide an affirmative AI signal, so the binary decision is forced.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Family of products formerly Allen Systems Group.\n\nASG-meta-CMDB\nASG-metaManager\nASG-NaviGraph\nASG-NaviPlex\nASG-Safari\nASG-TeVISTA\nASG-TMON\nSQL Analyzer"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": "helper_required: no functional description/product names only; remain weak"
+  },
+  {
+    "annotation_id": "ann_e829fcbea8e8c70e5ce8a82e",
+    "description_sha256": "0bb7d523bd7069bc166f0390b3accc155d5a0901ee18041942c41683dd8cfae7",
+    "source_record_references": [
+      "1471"
+    ],
+    "description": "UiPath Process Mining offers real-time, valuable insights to improve business processes over time on the operational and procedural challenges faced by organizations. UiPath Process Mining is a Process Mining solution that transforms operation business process data from IT systems into visual interactive dashboards, allowing user to see existing value decreases, bottlenecks, and discrepancies, as well as understanding the root-causes and possible risks. Process Mining cycle involves • Data transformation Visualize your data by extracting it to deliver real-time multidimensional process models. The data can be transformed and cleaned up, so it fits the expected input of the app. You can add business logic and enrich the data to enhance the possibilities for analysis. • Data analysis Use AppOne to do initial analysis and configure the app to make it ready for business roll-out. Incorporate business procedures and rules to develop detailed reference for every business transaction across teams. • Continuous monitoring Deploy the app to business users for continuous monitoring of your process. Discover key business risks and enable opportunities for optimization and transformation.",
+    "labeler_proposal": {
+      "annotation_id": "ann_e829fcbea8e8c70e5ce8a82e",
+      "description_sha256": "0bb7d523bd7069bc166f0390b3accc155d5a0901ee18041942c41683dd8cfae7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "weak",
+      "forced_decision": true,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes process-mining data transformation, dashboards and continuous monitoring, which are conventional functions. No AI is mentioned, but identifying root causes and risks through analytics is ambiguous and does not establish the implementation, so the negative is weak.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "transforms operation business process data from IT systems into visual interactive dashboards",
+        "understanding the root-causes and possible risks"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_e829fcbea8e8c70e5ce8a82e",
+      "description_sha256": "0bb7d523bd7069bc166f0390b3accc155d5a0901ee18041942c41683dd8cfae7",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers conventional process mining through transformed data, interactive dashboards, analysis, business logic, and continuous monitoring, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "UiPath Process Mining is a Process Mining solution that transforms operation business process data from IT systems into visual interactive dashboards, allowing user to see existing value decreases, bottlenecks, and discrepancies, as well as understanding the root-causes and possible risks."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": "helper_required: root-cause/risk analytics method unspecified"
+  },
+  {
+    "annotation_id": "ann_e99fa1df4acd5237faa212a8",
+    "description_sha256": "9d117a17f55441843d9dbf16cd38ede7fbb6d917e69fd4e1e3c03b0630e5a829",
+    "source_record_references": [
+      "1474"
+    ],
+    "description": "Spatial analysis allows companies to analyze the locations, relationships, attributes, and proximities in geospatial data to extract insights using geographical data.\nThe Spatial category includes tools that offer spatial data manipulation, processing, and object editing. With an intuitive workflow that allows you to visually bring in several data sets, geocode them, combine them spatially with sources like TomTom and the U.S. Census, and even enrich them with demographic data, Alteryx makes turning traditional data into geospatial data easy — no data scientists required.",
+    "labeler_proposal": {
+      "annotation_id": "ann_e99fa1df4acd5237faa212a8",
+      "description_sha256": "9d117a17f55441843d9dbf16cd38ede7fbb6d917e69fd4e1e3c03b0630e5a829",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "Describes conventional geospatial tools for spatial data manipulation, processing and object editing, plus geocoding, spatial combination and demographic enrichment. No AI is mentioned.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "The Spatial category includes tools that offer spatial data manipulation, processing, and object editing.",
+        "geocode them, combine them spatially with sources like TomTom and the U.S. Census"
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "blind_proposal": {
+      "annotation_id": "ann_e99fa1df4acd5237faa212a8",
+      "description_sha256": "9d117a17f55441843d9dbf16cd38ede7fbb6d917e69fd4e1e3c03b0630e5a829",
+      "ai_status": "non_ai",
+      "ai_type": null,
+      "evidence_strength": "supported",
+      "forced_decision": false,
+      "ai_type_evidence_strength": null,
+      "ai_type_forced_decision": null,
+      "rationale": "The description covers conventional geospatial data analysis, manipulation, processing, geocoding, dataset combination, and map enrichment, with no affirmative AI signal.",
+      "ai_type_rationale": null,
+      "evidence_spans": [
+        "Spatial analysis allows companies to analyze the locations, relationships, attributes, and proximities in geospatial data to extract insights using geographical data."
+      ],
+      "ai_type_evidence_spans": null
+    },
+    "parent_concerns": "material scope concern: spatial category/layers/demographic datasets; distinguish data-only from described software operations"
+  }
+]

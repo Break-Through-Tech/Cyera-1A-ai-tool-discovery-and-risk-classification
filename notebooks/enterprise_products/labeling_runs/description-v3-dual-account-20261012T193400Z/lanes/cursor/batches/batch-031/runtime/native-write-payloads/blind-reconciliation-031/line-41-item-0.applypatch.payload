@@ -1,0 +1,21 @@
+*** Begin Patch
+*** Add File: /home/newton/dev/Cyera-1A-ai-tool-discovery-and-risk-classification/notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-031/agents/blind/reconciliation-031/checkpoints/ann_bb97dc88145a6b58338d4f65.json
++{
++  "annotation_id": "ann_bb97dc88145a6b58338d4f65",
++  "description_sha256": "6eb4a04a7933d3cc6b7ad144029fdab3f5be6da8c0f19759e72f6c92601a55b6",
++  "ai_status": "non_ai",
++  "ai_type": null,
++  "evidence_strength": "weak",
++  "forced_decision": true,
++  "ai_type_evidence_strength": null,
++  "ai_type_forced_decision": null,
++  "rationale": "The description establishes conventional media publishing, advertising, analytics, measurement, and ad insertion, but leaves the personalization mechanism unexplained, so non_ai is weak and forced.",
++  "ai_type_rationale": null,
++  "evidence_spans": [
++    "a modular platform for media publishing, advertising, personalization, and analytics",
++    "Support for measuring ad breaks with (or without) dynamic ad insertion."
++  ],
++  "ai_type_evidence_spans": null,
++  "conflict_response": "The description provides substantial conventional media functionality, but personalization is explicitly named without explaining its mechanism. Because that could be conventional or AI-based and no AI is affirmed, the concern prevents a supported negative; non_ai remains weak and forced."
++}
+*** End Patch

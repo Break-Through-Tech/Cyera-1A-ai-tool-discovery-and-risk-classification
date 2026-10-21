@@ -1,0 +1,19 @@
+{
+  "annotation_id": "ann_7ffdaa6f5acaf703f8977e83",
+  "description_sha256": "bb15141ee56122c955fe489b94fe89764e42bc81fca5dd593ae90ac821833b4b",
+  "ai_status": "ai",
+  "ai_type": "ai_enabled",
+  "evidence_strength": "supported",
+  "forced_decision": false,
+  "ai_type_evidence_strength": "supported",
+  "ai_type_forced_decision": false,
+  "rationale": "The description explicitly names machine learning, text mining, and computer vision capabilities, establishing an AI-positive offering.",
+  "ai_type_rationale": "The AI capabilities are described as being added on top of features already available with the Designer license, which supports an AI-enabled rather than AI-native subtype.",
+  "evidence_spans": [
+    "Alteryx Intelligence Suite offers machine learning, text mining, and computer vision capabilities"
+  ],
+  "ai_type_evidence_spans": [
+    "on top of the great features that are already available with your Designer license"
+  ],
+  "conflict_response": "The binary is independently supported by the explicit machine-learning, text-mining, and computer-vision claim. For subtype, the phrase on top of features already available with the Designer license directly indicates that conventional functionality remains without the described AI enhancement, so ai_enabled is supported rather than weak or forced."
+}

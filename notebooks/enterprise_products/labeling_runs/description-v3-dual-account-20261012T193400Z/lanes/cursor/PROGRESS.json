@@ -1,10 +1,10 @@
 {
-  "status": "major_runtime_stop",
+  "status": "planned_annotations_complete_with_semantic_acceptance_holds",
   "lane": "cursor",
-  "new_completed_descriptions": 520,
-  "new_completed_rows": 539,
-  "remaining_lane_descriptions": 100,
-  "remaining_lane_rows": 100,
+  "new_completed_descriptions": 580,
+  "new_completed_rows": 599,
+  "remaining_lane_descriptions": 40,
+  "remaining_lane_rows": 40,
   "finalized_batches": [
     "batch-001",
     "batch-002",
@@ -30,17 +30,24 @@
     "batch-022 (parent accepted; batches/batch-022/PARENT_VALIDATION.json)",
     "batch-023 (parent accepted; batches/batch-023/PARENT_VALIDATION.json; commit c5e4f14)",
     "batch-024 (parent accepted; PARENT_VALIDATION.json)",
-    "batch-025 (locally finalized pending parent gate; FINAL_VALIDATION.json)"
+    "batch-025 (semantic acceptance hold; uncounted)",
+    "batch-026 (parent accepted; PARENT_VALIDATION.json)",
+    "batch-027 (parent accepted; PARENT_VALIDATION.json)",
+    "batch-028 (parent accepted; batches/batch-028/PARENT_VALIDATION.json)",
+    "batch-029 (parent accepted; batches/batch-029/PARENT_VALIDATION.json)",
+    "batch-030 (parent accepted; batches/batch-030/PARENT_VALIDATION.json)"
   ],
-  "current_batch": "batch-028",
+  "current_batch": null,
   "active_workers": 0,
   "stop_on_usage_limit": true,
-  "resume_requires_user_request": true,
+  "resume_requires_user_request": false,
   "cost_usd": null,
   "billed_tokens": null,
-  "latest_authorization": "2026-10-13 user authorized both workflows and routine repair; no routine pauses",
-  "current_stage": "prepared_not_launched",
+  "latest_authorization": "2026-10-20 user explicitly confirmed quota reset and authorized continuation of both labeling lanes; no model/account fallback or changes",
+  "current_stage": "all_planned_annotations_finished_pending_hold_disposition",
   "native_targets": {
+    "028_labeler": "cursor028-labeler wF:p27; UUID fad5a64a-3f41-491c-8153-0085b83d31f3; explicit claude-haiku-5-5-thinking-high; exact prepared labeler cwd; prompt submitted once",
+    "028_blind": "cursor028-blind wF:p28; UUID dbebfedb-7ef4-470c-8958-f0b0d159bf87; explicit gpt-5.6-luna-high; exact prepared blind cwd; prompt submitted once",
     "024_labeler": "cursor024-label wF:p1X completed; UUID 638efdc8-9879-44f9-9cac-9a399150c119; claude-haiku-5-5-thinking-high",
     "024_blind": "cursor024-blind wF:p1Y completed independent plus one reconciliation; UUID cca7d0c2-b359-4a3e-854b-f308a71f24db; gpt-5.6-luna-high",
     "023_labeler": "cursor023-label wF:p1V completed; UUID ab4e74d2-1179-48b1-bd72-9237fd584d6b",
@@ -54,22 +61,30 @@
     "026_prepared": "exact Haiku/Luna models and private workspaces frozen; native shell request pending",
     "027_prepared": "exact frozen selection/stages/private workspaces; labeler cursor027-label wF:p25 UUID 48acb5bc-732e-4756-b185-d1d59434b339 Haiku; blind cursor027-blind wF:p26 UUID 7df5dc2c-d850-4fb0-a19a-f709fa19d531 Luna; both independent result/checkpoint/transcript hashes registered before comparison",
     "026_labeler": "cursor026-label wF:p23; UUID 014c322b-77b3-4f82-bfaf-556aac87dde9; exact Haiku model; 20 private checkpoints+aggregate validated; done",
-    "026_blind": "cursor026-blind wF:p24; UUID 135f9977-493b-46a3-90cb-8b073dfe62ea; exact Luna model; 20 private checkpoints+aggregate and 10-ID reconciliation; done"
+    "026_blind": "cursor026-blind wF:p24; UUID 135f9977-493b-46a3-90cb-8b073dfe62ea; exact Luna model; 20 private checkpoints+aggregate and 10-ID reconciliation; done",
+    "029_labeler": "ea974138-fee2-41a3-844d-01d7b9e7d6fd; explicit claude-haiku-5-5-thinking-high; Claude Haiku 5.5 300K High; batch029 labeler private cwd; 20 checkpoints/result, 21 single native Write payloads registered; locally finalized.",
+    "029_blind": "612ddb87-a06d-4216-a0dd-724bfb1b50af; explicit gpt-5.6-luna-high; GPT-5.6 Luna 272K High; original blind batch029 private cwd; original 20 independent cps/result, 21 ApplyPatch; structural recovery 3 ApplyPatch; one semantic pass 6 ApplyPatch; all raw transcripts/payloads registered; deterministic parent hash exceptions recorded.",
+    "030_prepared": "Exact batch030 plan20/20 selection; selection sha256 f1e51168a95b1cfdbde570db988a419ca3030848c4bfd5389d68ce331c1e1946; stage assignments persisted; labeler Haiku/blind Luna; no workers launched.",
+    "029_parent_accepted": "Parent acceptance batches/batch-029/PARENT_VALIDATION.json; 20 descriptions/20 rows; 5 reconciliations; Cursor accepted560/579; parent commits.",
+    "030_labeler": "cursor030-labeler wF:p2B; native UUID 4c4db253-661b-4a72-8224-f6bb0ced9207; explicit claude-haiku-5-5-thinking-high; actual banner Claude Haiku 5.5 300K High; exact batch030 labeler cwd; prompt submitted once.; completed 20 cps/result; one quote-only structural recovery, original and recovery payloads registered.",
+    "030_blind": "cursor030-blind wF:p2C; native UUID 46a35e15-7625-4c72-ad71-91612d7ce721; explicit gpt-5.6-luna-high; actual banner GPT-5.6 Luna 272K High; exact batch030 blind cwd; prompt submitted once.; completed 20 cps/result; three independent quote-only Update patches registered; 11-ID reconciliation complete, one structural-only aggregate correction registered.",
+    "031_labeler": "cursor031-labeler wF:p2D; UUID 88c3aa39-44db-4085-bfbf-6c935c598300; explicit claude-haiku-5-5-thinking-high; actual Claude Haiku 5.5 300K High; exact cwd;20 checkpoints+result helper validated. Cursor session blocked only on per-command approval for optional read-only self-check; no command approved/permissions changed.",
+    "031_blind": "cursor031-blind wF:p2E; UUID d94ee7c7-d17a-40c0-89e6-b82e034b295c; explicit gpt-5.6-luna-high; actual GPT-5.6 Luna 272K High; exact cwd; independent20+aggregate and13-item same-original reconciliation complete; quote-only repair and hash provenance documented."
   },
   "integration_owner": "enterprise-cursor-coordinator",
-  "reconciliation_count": 89,
-  "local_reconciliation_count_pending_parent": 0,
+  "reconciliation_count": 101,
+  "local_reconciliation_count_pending_parent": 17,
   "last_finalized_batch": {
-    "batch_id": "batch-027",
-    "path": "batches/batch-027",
+    "batch_id": "batch-031",
+    "path": "batches/batch-031",
     "descriptions": 20,
-    "rows": 24,
-    "reconciliation_count": 12,
+    "rows": 20,
+    "reconciliation_count": 13,
     "exports_verified": true,
-    "weak_binary_count": 9,
+    "weak_binary_count": 8,
     "weak_subtype_count": 0,
-    "trusted_negative_rows": 12,
-    "structural_repairs": 2,
+    "trusted_negative_rows": 10,
+    "structural_repairs": 1,
     "pending_parent_gate": true
   },
   "last_parent_integration": {
@@ -106,33 +121,80 @@
     "batch022_weak_subtype_count": 0,
     "batch022_structural_repairs": 1
   },
-  "next_safe_action": "Batch027 locally finalized pending parent gate; full native structural-deviation proof/payload snapshots and tests saved. Batch028 exact frozen 20 descriptions/20 refs and helper stage assignments/private workspaces prepared; request two fresh ordinary shells, verify exact Haiku/Luna banners and cwds before prompting.",
-  "blocker": "Codex error: The usage limit has been reached",
+  "next_safe_action": "Parenthold disposition; no newworkers or repeatedjudgments.",
+  "blocker": null,
   "batch024_independent_registration": "runtime/independent-result-registration.json; labeler result dada81ec338aa1c3288200a81e15aa31c1166a8da203e0008f24cc49eddca672; blind result 2a1a774c165343bcb52445394a6ae497f7fd9a4ee2811b77d27ad39c318e8484; 20 checkpoint hashes per role registered and verified; helper stage loading, schema, quotes, coverage, hashes and private stage equality passed before comparison.",
   "batch024_reconciliation_routing": "runtime/reconciliation-routing.json; 7 helper-required plus 1 additional NLG/AI-native support concern; exactly 8 assigned to same original Luna once; all20 pair reviews saved in runtime/pair-review.json.",
-  "parent_gate_status": "Batch025 structural PASS, semantic acceptance HOLD, uncounted; batch026 parent accepted. Batch027 locally finalized with exports verified; parent gate pending and structural corrections fully evidenced. Parent owns authoritative counts/global.",
+  "parent_gate_status": "031software-scope HOLD plus025HOLD; allotherbatchesaccepted; planexhausted.",
   "last_parent_acceptance": {
-    "batches": "026",
+    "batches": "029",
     "accepted": true,
-    "source": "batches/batch-026/PARENT_VALIDATION.json",
+    "source": "batches/batch-029/PARENT_VALIDATION.json",
     "selected_descriptions": 20,
-    "selected_rows": 28,
-    "reconciliation_count": 10,
-    "parent_reported_counts": "Cursor500 descriptions /515 rows; latest global expected1120/1155 after Codex024 acceptance, parent recomputing"
+    "selected_rows": 20,
+    "reconciliation_count": 5,
+    "parent_reported_counts": "Cursor560 descriptions /579 rows; global1280/1327, remaining111/111 (parent recomputing)"
   },
   "local_finalized_pending_parent": {
     "batches": [
-      "batch-025 (semantic acceptance hold; not counted)",
-      "batch-027"
+      "batch-025 (semantic acceptance hold; uncounted)",
+      "batch-031 (helper-local finalized; pending parent gate)"
     ],
     "descriptions": 40,
-    "rows": 44,
-    "batch025_reconciliation_count": 7,
-    "batch027_reconciliation_count": 12,
+    "rows": 40,
     "accepted_lane_totals_exclude_pending_batches": true
   },
-  "updated_at": "2026-10-20T20:21:03.609368+00:00",
-  "git_sync_note": "Herdr native labeling workers idle; previous pi-subagents /tmp run registry absent. No annotation restarted. Preserve current partial outputs; gate before accepting.",
+  "updated_at": "2026-10-21T01:47:29.590595+00:00",
+  "git_sync_note": "Batch029 parent accepted; do not edit its exports. Batch030 new contexts have correct actual Haiku/Luna banners and exact private cwds; one prompt each not yet submitted.",
   "major_stop_receipt": "runtime/MAJOR_RUNTIME_STOP_20261020.json",
-  "parent_accepted_batch027": "batches/batch-027/PARENT_VALIDATION.json"
+  "parent_accepted_batch027": "batches/batch-027/PARENT_VALIDATION.json",
+  "batch030_integrity": "runtime/LOCAL_FINAL_VALIDATION.json; runtime/INDEPENDENT_RESULT_REGISTRATION.json; runtime/INDEPENDENT_RESULT_VALIDATION.json; runtime/STRUCTURAL_DEVIATION_PROOF.json; runtime/STRUCTURAL_QUOTE_RECOVERY_PROOF.json; runtime/RECONCILIATION_RESULT_REGISTRATION.json; runtime/RECONCILIATION_STRUCTURAL_RECOVERY_PROOF.json; runtime/PAIR_REVIEW.json",
+  "parent_acceptance": {
+    "batches": "030",
+    "accepted": true,
+    "source": "batches/batch-030/PARENT_VALIDATION.json",
+    "selected_descriptions": 20,
+    "selected_rows": 20,
+    "parent_reported_counts": "Cursor580 descriptions /599 rows; remaining40/40 includes025 hold and fresh031"
+  },
+  "batch030_parent_status": "Parent acceptance complete. Do not edit batch030 records/exports; parent owns commit/root.",
+  "batch031_active": {
+    "labeler": {
+      "native_uuid": "88c3aa39-44db-4085-bfbf-6c935c598300",
+      "model_id": "claude-haiku-5-5-thinking-high",
+      "banner": "Claude Haiku 5.5 300K High",
+      "workspace": "lanes/cursor/batches/batch-031/agents/labeler",
+      "pane": "wF:p2D",
+      "prompt_submitted_once": true
+    },
+    "blind": {
+      "native_uuid": "d94ee7c7-d17a-40c0-89e6-b82e034b295c",
+      "model_id": "gpt-5.6-luna-high",
+      "banner": "GPT-5.6 Luna 272K High",
+      "workspace": "lanes/cursor/batches/batch-031/agents/blind",
+      "pane": "wF:p2E",
+      "prompt_submitted_once": true
+    },
+    "selection_sha256": "d235971b986700abae7a87e1222efb1d6e0871eac1977d952718ac33d02f5f72",
+    "selected_descriptions": 20,
+    "selected_source_references": 20,
+    "latest_private_checkpoint_counts": {
+      "labeler": 0,
+      "blind": 0
+    },
+    "latest_result_files": {
+      "labeler": false,
+      "blind": false
+    }
+  },
+  "next_batch_policy": "Batch031 is final planned batch; no batch032 or further worker launches. Parent handles final acceptance and unresolved holds; no automatic relabel.",
+  "batch031_parent_status": "Parent acceptance pending; do not claim accepted until PARENT_VALIDATION.json.",
+  "batch031_parent_gate": {
+    "status": "semantic_acceptance_hold",
+    "receipt": "batches/batch-031/PARENT_VALIDATION.json",
+    "held_ids": [
+      "ann_a358d7697a2a50b6c8993e3a"
+    ],
+    "entire20rowbatch_uncounted": true
+  }
 }
