@@ -37,7 +37,7 @@ The vision sets the outcomes; detailed methods and metrics below are our chosen 
 | Team choice | RAG conversational assistant | Database-wide, cross-Batch grounded chat; selected-Batch chat is a stretch goal | Response quality, groundedness, and citations defined during the RAG phase |
 | Vision | Investigation interface | Read-only batch ingestion, inventory, trends, risk views, and details | Demonstrated filters, risk visualization, trend reporting, and usability tasks |
 | Vision | Governance insights | Explain classifications and risk factors from stored evidence | Traceable evidence, confidence, rule reasons, and limitations |
-| Team choice | Trained ML classification pipeline | Offline training and versioned inference artifacts | Reproducible experiments and comparisons in `approaches.md` |
+| Team choice | Trained ML classification pipeline | Offline training and versioned inference artifacts; binary AI detection instead uses a versioned gated Jev judge ([ADR 0002](docs/adr/0002-binary-ai-detection-uses-gated-jev-judge.md)) | Reproducible experiments and comparisons in `approaches.md` |
 | Optional | Timed manual-effort comparison | If useful, compare fixed governance tasks manually and with the prototype | Compare time and records inspected alongside correctness or completeness; label results as a limited project simulation |
 | Team choice | Technical documentation and presentation | Reproducible setup, methodology, results, limitations, and demo workflow | Final README and presentation artifacts |
 
@@ -67,14 +67,13 @@ The final product is a batch governance application, not a notebook-only demonst
 
 ## Data boundaries
 
-### AIToolBuzz definition of an AI Tool — Confirmed
+### Operational definition of an AI Tool — Confirmed ([ADR 0001](docs/adr/0001-ai-tool-requires-own-ai-functionality.md))
 
-AIToolBuzz is sufficient ground truth for the project's operational definition of an AI Tool:
+> An AI Tool is a product, service, model, API, extension, or identifiable feature whose own functionality is shown by its evidence to perform AI work, either as its core offering or as an included feature.
 
-> An AI Tool is any cleaned AIToolBuzz catalog entry, plus a previously unseen product, service, model, API, extension, or identifiable feature that satisfies the same AI-functionality definition after review.
-
-- AIToolBuzz records are project-positive AI examples.
-- Absence from AIToolBuzz does not imply non-AI.
+- An AI Mention alone is insufficient: vague marketing claims, AI as the product's subject or content, and denials do not establish AI status. A Tool whose only evidence is a vague product AI claim is unresolved.
+- AIToolBuzz entries are strong AI candidates and remain Category examples, but catalog membership alone does not establish AI status. Absence from AIToolBuzz does not imply non-AI.
+- Datasets frozen before this decision, through `binary-ai-v5`, keep their recorded definition and are not relabeled.
 - Claims must be scoped to this operational definition rather than presented as universal truth.
 
 ### Observed AI-tool activity — Confirmed
@@ -243,6 +242,8 @@ The Challenge Advisor supplied no organization policy or example. Use a clearly 
 - **Every** tier and flag retains the Usage Context, policy/rule version, triggered factor and reason codes, typed references to supporting activity, synthetic policy and vendor evidence, and material unknowns. An unresolved assessment explains missing evidence. Jev may interpret supplied text with its source and model version retained, but neither its output nor a framework citation proves a vendor claim or substitutes for the rule explanation. These tiers are project-policy assessments, not safety, incident, or compliance determinations.
 
 ### Jev exploration — Provisional
+
+Jev is already the confirmed judge for binary AI detection ([ADR 0002](docs/adr/0002-binary-ai-detection-uses-gated-jev-judge.md)). That decision does not extend to risk assessment, where the following remains an experiment.
 
 Explore TypeSafe AI's Jev for bounded judgments about ambiguous, source-dated vendor or governance text supplied with the synthetic data (for example, whether a training-use claim is yes, no, conditional, or not stated). Compare its outputs with reviewed examples; retain the source reference and treat uncertain or unsupported judgments as unknown. This is an experiment, not a committed dependency or a source of verified vendor facts. Jev does not assign the final risk tier or generate its explanation: versioned deterministic rules produce the tier, reasons, and evidence references, which the assistant may explain. Exact fields, prompts, thresholds, and whether Jev adds value remain deferred.
 
@@ -438,6 +439,8 @@ Models train offline. The application acquires inference evidence when needed, l
 Evaluate the actual runtime functionality-text representation, not only curated catalog descriptions. Compare metadata-only, relevant page-text-only, and combined inputs on the same held-out Tools, and measure catalog-trained-to-website transfer before model promotion. Fit preprocessing only on training data and reuse the fitted artifact at inference; any reviewed fetched training examples must come from training partitions. Fetch/evidence coverage, AI-detection quality, Category quality, and abstention coverage are separate outcomes. Exact feature sets and algorithms remain deferred; existing website/topic model labels are not substitutes for the confirmed AIToolBuzz target.
 
 Separate artifacts own binary AI detection and 14-category classification.
+
+Binary AI detection is the exception to offline training ([ADR 0002](docs/adr/0002-binary-ai-detection-uses-gated-jev-judge.md)): a deterministic gate plus a TypeSafe Jev judge on fetched homepage text. Its versioned artifact is the gate patterns, Jev question set, pinned model ID, decision and review cutoffs, and recorded evaluation metrics. Every decision stores its top evidence sentences with their probabilities and a `needs_review` flag. Reference implementation and porting notes: [`notebooks/ai_cascade/README.md`](notebooks/ai_cascade/README.md#production-reference).
 
 A minimal model bundle contains:
 

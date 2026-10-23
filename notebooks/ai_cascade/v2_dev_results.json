@@ -1,0 +1,573 @@
+{
+  "pages": 440,
+  "gold_determinations": {
+    "unresolved": 59,
+    "non_ai": 138,
+    "ai": 243
+  },
+  "keyword_rule": {
+    "method": "keyword_rule",
+    "resolved_pages": 381,
+    "resolved_macro_f1": 0.8859430290841821,
+    "resolved_accuracy": 0.8976377952755905,
+    "false_alarms": 28,
+    "missed_ai": 11,
+    "resolved_abstained": 0,
+    "gold_unresolved_pages": 59,
+    "gold_unresolved_predictions": {
+      "non_ai": 25,
+      "ai": 34
+    },
+    "confusion": {
+      "ai->ai": 232,
+      "ai->non_ai": 11,
+      "non_ai->ai": 28,
+      "non_ai->non_ai": 110,
+      "unresolved->ai": 34,
+      "unresolved->non_ai": 25
+    }
+  },
+  "cascade_v1": {
+    "method": "cascade_v1",
+    "resolved_pages": 381,
+    "resolved_macro_f1": 0.9361280651033301,
+    "resolved_accuracy": 0.916010498687664,
+    "false_alarms": 2,
+    "missed_ai": 26,
+    "resolved_abstained": 17,
+    "gold_unresolved_pages": 59,
+    "gold_unresolved_predictions": {
+      "unresolved": 36,
+      "non_ai": 11,
+      "ai": 12
+    },
+    "confusion": {
+      "ai->ai": 217,
+      "ai->non_ai": 13,
+      "ai->unresolved": 13,
+      "non_ai->ai": 2,
+      "non_ai->non_ai": 132,
+      "non_ai->unresolved": 4,
+      "unresolved->ai": 12,
+      "unresolved->non_ai": 11,
+      "unresolved->unresolved": 36
+    }
+  },
+  "cascade_v2": {
+    "method": "cascade_v2",
+    "resolved_pages": 381,
+    "resolved_macro_f1": 0.9607174552758186,
+    "resolved_accuracy": 0.9396325459317585,
+    "false_alarms": 3,
+    "missed_ai": 15,
+    "resolved_abstained": 17,
+    "gold_unresolved_pages": 59,
+    "gold_unresolved_predictions": {
+      "unresolved": 36,
+      "non_ai": 11,
+      "ai": 12
+    },
+    "confusion": {
+      "ai->ai": 228,
+      "ai->non_ai": 3,
+      "ai->unresolved": 12,
+      "non_ai->ai": 3,
+      "non_ai->non_ai": 130,
+      "non_ai->unresolved": 5,
+      "unresolved->ai": 12,
+      "unresolved->non_ai": 11,
+      "unresolved->unresolved": 36
+    }
+  },
+  "stages_v2": {
+    "insufficient_text": 23,
+    "keyword_gate": 108,
+    "context_judge": 309
+  },
+  "v2_errors": [
+    {
+      "sample_id": "site_002425fbbfba",
+      "source": "companyenrich",
+      "title": "Make content more engaging and easier to share | Embedly",
+      "gold": "non_ai",
+      "v1": "non_ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "“Ask AI about Embedly” does not clearly describe a product capability.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_0072b3429e17",
+      "source": "aitoolbuzz",
+      "title": "WITH MBA",
+      "gold": "ai",
+      "v1": "unresolved",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "Only a vague “AI Strategist” label appears, without a described capability.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_0235a7865f52",
+      "source": "companyenrich",
+      "title": "Trusted Website Hosting Platform | WP Engine®",
+      "gold": "unresolved",
+      "v1": "non_ai",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "AI is discussed as the web environment, case-study topic, and content subject, not as WP Engine functionality.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_06667f526ba5",
+      "source": "companyenrich",
+      "title": "Pearltrees",
+      "gold": "unresolved",
+      "v1": "ai",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Pearltrees AI adds and transforms user content.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_149da181f5b8",
+      "source": "aitoolbuzz",
+      "title": "Frigo - Smart Food Waste Reducer & Meal Planner",
+      "gold": "ai",
+      "v1": "non_ai",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_1bbee8b93b19",
+      "source": "aitoolbuzz",
+      "title": "Domain is Registered",
+      "gold": "unresolved",
+      "v1": "non_ai",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_24b5449f062c",
+      "source": "companyenrich",
+      "title": "Quizlet: Study Tools & Learning Resources for Students and Teachers | Quizlet",
+      "gold": "ai",
+      "v1": "non_ai",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_279a68eeeef4",
+      "source": "companyenrich",
+      "title": "ShareThis | Share Buttons | Website Tools | Behavioral Intelligence",
+      "gold": "unresolved",
+      "v1": "non_ai",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "ShareThis provides an AI-native interface for managing properties and asking questions in ChatGPT.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_27d3ccdebca7",
+      "source": "aitoolbuzz",
+      "title": "SalesBop has been acquired by FliteHouse",
+      "gold": "unresolved",
+      "v1": "non_ai",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_2f739b34e600",
+      "source": "aitoolbuzz",
+      "title": "Temporary Unavailable",
+      "gold": "unresolved",
+      "v1": "non_ai",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_2f8b7fc27caa",
+      "source": "companyenrich",
+      "title": "Yotpo: Loyalty, Reviews & AI Visibility For Ecommerce",
+      "gold": "unresolved",
+      "v1": "non_ai",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "AI visibility means helping ecommerce brands appear in AI-driven discovery.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_30f4dec683e9",
+      "source": "companyenrich",
+      "title": "Most Reliable App & Cross Browser Testing Platform | BrowserStack",
+      "gold": "ai",
+      "v1": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "Claims AI agents and AI-native testing but gives no specific agent-performed testing action.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_362f6f737d2a",
+      "source": "companyenrich",
+      "title": "Brevo: Email & SMS Marketing, CRM & Automation Platform",
+      "gold": "ai",
+      "v1": "unresolved",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "AI agents and an AI-powered platform are mentioned without a described capability.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_392e12472a22",
+      "source": "companyenrich",
+      "title": "API engineering for your agents",
+      "gold": "unresolved",
+      "v1": "ai",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "AI is discussed as agent context and integrations; no described AI task performed by the product.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_3d3e10029672",
+      "source": "aitoolbuzz",
+      "title": "Hebbia | AI built for the rigor of finance",
+      "gold": "ai",
+      "v1": "unresolved",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "Only describes Hebbia as an AI platform for finance without a specific capability.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_4662c4ae3aa8",
+      "source": "companyenrich",
+      "title": "ACDSee Photo Studio Software | Photo Editing, Photo Management, Photo Editor, Digital Photography, Digital Asset Management, DAM",
+      "gold": "ai",
+      "v1": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "ACDSee mentions AI and AI usage without describing a concrete action.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_468e5ed488d6",
+      "source": "aitoolbuzz",
+      "title": "Home • Ceacle Pipeline",
+      "gold": "ai",
+      "v1": "unresolved",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "AI is claimed generally, while the described pipeline performs conventional image transformations.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_489ff43b6924",
+      "source": "companyenrich",
+      "title": "McAfee AI-Powered Antivirus, Scam, Identity, and Privacy Protection",
+      "gold": "unresolved",
+      "v1": "unresolved",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Scam Detector identifies suspicious texts, websites, and deepfakes.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_498b3b393e28",
+      "source": "aitoolbuzz",
+      "title": "AI Email API & Infrastructure for AI Agents | Mails.ai",
+      "gold": "unresolved",
+      "v1": "non_ai",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "It provides email infrastructure for customer AI agents; snippets do not show its own AI work.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_50bf74cea242",
+      "source": "companyenrich",
+      "title": "37signals",
+      "gold": "unresolved",
+      "v1": "non_ai",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_532257433ad7",
+      "source": "companyenrich",
+      "title": "Conversational AI and APIs for SMS, Email, Voice | Twilio",
+      "gold": "unresolved",
+      "v1": "ai",
+      "determination": "ai",
+      "ai_type": "ai_core",
+      "reason": "Twilio offers conversational AI building blocks and APIs for context-rich conversations.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_6a71e3a2dfeb",
+      "source": "companyenrich",
+      "title": "Best-in-class Digital Experience Monitoring | Uptrends",
+      "gold": "non_ai",
+      "v1": "non_ai",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Agentic monitor setup indicates AI agents configure monitoring within the product.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_6f414a96e56b",
+      "source": "aitoolbuzz",
+      "title": "supermemory — Memory and continual learning for agents",
+      "gold": "ai",
+      "v1": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "Describes memory and continual learning for agents but no specific product-performed AI task.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_6fea039ef937",
+      "source": "companyenrich",
+      "title": "Ezoic — Grow on the open web",
+      "gold": "non_ai",
+      "v1": "unresolved",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "The only evidence is the vague product name “bidsystem.ai,” without a described capability.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_729a5129cadd",
+      "source": "companyenrich",
+      "title": "Payscale: Compensation Intelligence & Salary Data Software",
+      "gold": "unresolved",
+      "v1": "ai",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Payscale provides AI-assisted matching for complex skill variations.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_73a7a3e6fd63",
+      "source": "companyenrich",
+      "title": "find the deal that will transform your company",
+      "gold": "non_ai",
+      "v1": "ai",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "ChatCBI is an AI agent that helps users explore trends, build lists, and analyze prospects.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_7a53d6284d2e",
+      "source": "companyenrich",
+      "title": "VMware by Broadcom - Cloud Computing for the Enterprise",
+      "gold": "non_ai",
+      "v1": "unresolved",
+      "determination": "unresolved",
+      "stage": "insufficient_text"
+    },
+    {
+      "sample_id": "site_7bacc6ca8632",
+      "source": "companyenrich",
+      "title": "Leader in Cybersecurity Protection & Software for the Modern Enterprises - Palo Alto Networks",
+      "gold": "unresolved",
+      "v1": "unresolved",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "AI-powered security products proactively monitor, analyze, and prevent sophisticated threats in real time.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_813a845c3603",
+      "source": "companyenrich",
+      "title": "GeoGebra - the world’s favorite, free math tools used by over 100 million students and teachers",
+      "gold": "ai",
+      "v1": "non_ai",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_9185ff084610",
+      "source": "aitoolbuzz",
+      "title": "SportBoost AI",
+      "gold": "ai",
+      "v1": "unresolved",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "AI is mentioned broadly for athlete data and performance improvement without describing a specific capability.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_9823539068e1",
+      "source": "aitoolbuzz",
+      "title": "Market simulation for business decisions",
+      "gold": "unresolved",
+      "v1": "non_ai",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "AI appears only in a quoted customer reference to survey insights, not as demonstrated product functionality.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_990b1fa41495",
+      "source": "companyenrich",
+      "title": "AI Innovation Workspace | Miro",
+      "gold": "ai",
+      "v1": "unresolved",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "Miro describes collaboration with AI and external tools, not a specific native AI task.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_9a63b8452064",
+      "source": "companyenrich",
+      "title": "PortSwigger — Web security tools, training and research",
+      "gold": "unresolved",
+      "v1": "unresolved",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "AI only frames the era for PortSwigger's web security products.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_9d850241aeb2",
+      "source": "companyenrich",
+      "title": "Home - OpenSearch",
+      "gold": "unresolved",
+      "v1": "ai",
+      "determination": "ai",
+      "ai_type": "ai_core",
+      "reason": "OpenSearch presents AI-powered search as part of its core search and analytics engine.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_a0a2eae97694",
+      "source": "aitoolbuzz",
+      "title": "Oda Moodboard • Oda Studio",
+      "gold": "unresolved",
+      "v1": "ai",
+      "determination": "ai",
+      "ai_type": "ai_core",
+      "reason": "AI customizes home design based on selected style and color.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_a0c3ea1e2742",
+      "source": "aitoolbuzz",
+      "title": "Gather | Research Video & Audio Content",
+      "gold": "non_ai",
+      "v1": "unresolved",
+      "determination": "unresolved",
+      "stage": "insufficient_text"
+    },
+    {
+      "sample_id": "site_a738ba4b2ed7",
+      "source": "aitoolbuzz",
+      "title": "Stempad: Fast Online Scientific Notes",
+      "gold": "unresolved",
+      "v1": "ai",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Stempad's AI answers questions and assists users alongside scientific note-taking.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_ac3a896f7e39",
+      "source": "companyenrich",
+      "title": "Donorbox: #1 Donation Software & Nonprofit Fundraising Suite",
+      "gold": "ai",
+      "v1": "unresolved",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "AI-powered CRM and smarter fundraising are claimed without describing a concrete AI action.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_b18186d0324b",
+      "source": "companyenrich",
+      "title": "Instapaper",
+      "gold": "non_ai",
+      "v1": "unresolved",
+      "determination": "unresolved",
+      "stage": "insufficient_text"
+    },
+    {
+      "sample_id": "site_ba9cd2ef6d11",
+      "source": "aitoolbuzz",
+      "title": "Omni-channel Campaign Reporting for the Modern Podcast Industry | Listener",
+      "gold": "non_ai",
+      "v1": "ai",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "AI-powered episode reports, audience insights, sponsor finding, predictive insights, and an analytics intelligence assistant are included.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_bdf542268a47",
+      "source": "companyenrich",
+      "title": "MongoDB | The Intelligent Data Platform for the AI Era | MongoDB",
+      "gold": "unresolved",
+      "v1": "ai",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "MongoDB supports semantic search, recommendations, Q&A systems, anomaly detection, and generative AI context.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_cfed9fa39eaa",
+      "source": "companyenrich",
+      "title": "HackMD: Your Collaborative Markdown Workspace for Knowledge Sharing",
+      "gold": "unresolved",
+      "v1": "ai",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "The workspace supports agents handling drafts, code generation, research, and documentation.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_dfb71793ddd5",
+      "source": "companyenrich",
+      "title": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+      "gold": "ai",
+      "v1": "unresolved",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "Shopify mentions commerce AI and agentic storefronts without describing a concrete AI-performed task.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_e1e92d91b8d1",
+      "source": "companyenrich",
+      "title": "Later: Influencer Marketing and Social Media Management",
+      "gold": "ai",
+      "v1": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "“AI-powered insights” is a vague claim without describing what the AI does.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_f3073697c015",
+      "source": "companyenrich",
+      "title": "Dynatrace | Observability built for the age of AI",
+      "gold": "unresolved",
+      "v1": "ai",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Dynatrace uses AI and agents to prevent problems and coordinate automated actions across platforms.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_f5c493de4e7a",
+      "source": "companyenrich",
+      "title": "Glitch Blog",
+      "gold": "unresolved",
+      "v1": "non_ai",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    }
+  ]
+}

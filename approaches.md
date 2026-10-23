@@ -66,6 +66,20 @@ evaluated; its outcomes must not select future settings/rules/thresholds while
 claiming independent final performance. Exact replay reproduces this settled result,
 not new independent evidence.
 
+## Binary AI detection — website text under ADR 0001 (selected)
+
+[ADR 0001](docs/adr/0001-ai-tool-requires-own-ai-functionality.md) redefined an AI Tool as one whose own functionality performs AI work, and moved the runtime input to fetched homepage text. On 94 new `binary-ai-v5` enterprise test examples, the frozen model above scored 0.658 macro-F1, against 0.942 for the keyword rule, confirming the source/style confound. Details: [`notebooks/binary_dataset/README.md`](notebooks/binary_dataset/README.md) and [`notebooks/ai_cascade/README.md`](notebooks/ai_cascade/README.md).
+
+On 409 fresh, blindly labeled homepages (test2), macro-F1 is computed over ai/non_ai pages whose gold determination is resolved; abstentions count as errors. "Unsupported AI" counts AI calls on pages whose gold is non-AI or unresolved.
+
+| Method | Macro-F1 | False alarms | Missed AI | Abstained | Unsupported AI |
+|---|---:|---:|---:|---:|---:|
+| Keyword rule | 0.889 | 27 | 5 | 0 | 61 |
+| Luna cascade v2 (`codex exec`) | 0.929 | 6 | 17 | 19 | 14 |
+| **Jev cascade (selected)** | **0.931** | 7 | 14 | 15 | 19 |
+
+Distilled students (embeddings or TF-IDF + logistic regression on judge labels) peaked at 0.859 and were dropped. The Jev cascade's evidence-based `needs_review` flag marks 8% of AI calls; 32% of flagged calls are wrong, against an 8% base rate. test2 has now been used twice (Luna v2, then Jev), and each configuration was chosen on the 440 development pages first. Selected per [ADR 0002](docs/adr/0002-binary-ai-detection-uses-gated-jev-judge.md).
+
 ## 14-category classification — description-only baseline
 
 **Status: frozen held-out test evaluated; not promoted.** The separate

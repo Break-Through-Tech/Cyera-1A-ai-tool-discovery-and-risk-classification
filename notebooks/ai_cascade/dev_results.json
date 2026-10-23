@@ -1,0 +1,365 @@
+{
+  "keyword_rule": {
+    "method": "keyword_rule",
+    "resolved_pages": 215,
+    "resolved_macro_f1": 0.879281302638967,
+    "resolved_accuracy": 0.8883720930232558,
+    "false_alarms": 19,
+    "missed_ai": 5,
+    "resolved_abstained": 0,
+    "gold_unresolved_pages": 35,
+    "gold_unresolved_predictions": {
+      "non_ai": 14,
+      "ai": 21
+    },
+    "confusion": {
+      "ai->ai": 125,
+      "ai->non_ai": 5,
+      "non_ai->ai": 19,
+      "non_ai->non_ai": 66,
+      "unresolved->ai": 21,
+      "unresolved->non_ai": 14
+    }
+  },
+  "cascade": {
+    "method": "cascade",
+    "resolved_pages": 215,
+    "resolved_macro_f1": 0.945146974613476,
+    "resolved_accuracy": 0.9162790697674419,
+    "false_alarms": 1,
+    "missed_ai": 13,
+    "resolved_abstained": 13,
+    "gold_unresolved_pages": 35,
+    "gold_unresolved_predictions": {
+      "unresolved": 20,
+      "non_ai": 7,
+      "ai": 8
+    },
+    "confusion": {
+      "ai->ai": 117,
+      "ai->non_ai": 4,
+      "ai->unresolved": 9,
+      "non_ai->ai": 1,
+      "non_ai->non_ai": 80,
+      "non_ai->unresolved": 4,
+      "unresolved->ai": 8,
+      "unresolved->non_ai": 7,
+      "unresolved->unresolved": 20
+    }
+  },
+  "stages": {
+    "insufficient_text": 15,
+    "keyword_gate": 70,
+    "context_judge": 165
+  },
+  "cascade_errors": [
+    {
+      "sample_id": "site_498b3b393e28",
+      "source": "aitoolbuzz",
+      "title": "AI Email API & Infrastructure for AI Agents | Mails.ai",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "AI agents are the product's customers; Mails.ai provides their email infrastructure.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_0072b3429e17",
+      "source": "aitoolbuzz",
+      "title": "WITH MBA",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "Only “AI Strategist” appears, without a described capability.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_5fc7470beaaf",
+      "source": "aitoolbuzz",
+      "title": "Resoomer : studio cognitif gratuit pour traiter vos documents",
+      "gold": "ai",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_9185ff084610",
+      "source": "aitoolbuzz",
+      "title": "SportBoost AI",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "AI is mentioned for athlete data, but no specific AI-performed capability is described.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_b40d78934fa7",
+      "source": "aitoolbuzz",
+      "title": "MAGE - GPT Web App Generator ✨",
+      "gold": "ai",
+      "determination": "unresolved",
+      "stage": "insufficient_text"
+    },
+    {
+      "sample_id": "site_a0c3ea1e2742",
+      "source": "aitoolbuzz",
+      "title": "Gather | Research Video & Audio Content",
+      "gold": "non_ai",
+      "determination": "unresolved",
+      "stage": "insufficient_text"
+    },
+    {
+      "sample_id": "site_1bbee8b93b19",
+      "source": "aitoolbuzz",
+      "title": "Domain is Registered",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_392e12472a22",
+      "source": "companyenrich",
+      "title": "API engineering for your agents",
+      "gold": "unresolved",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Provides pre-built skills for coding agents to run API workflows, collections, and tests.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_b18186d0324b",
+      "source": "companyenrich",
+      "title": "Instapaper",
+      "gold": "non_ai",
+      "determination": "unresolved",
+      "stage": "insufficient_text"
+    },
+    {
+      "sample_id": "site_279a68eeeef4",
+      "source": "companyenrich",
+      "title": "ShareThis | Share Buttons | Website Tools | Behavioral Intelligence",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "Offers integration with AI agents and ChatGPT rather than describing its own AI work.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_73a7a3e6fd63",
+      "source": "companyenrich",
+      "title": "find the deal that will transform your company",
+      "gold": "non_ai",
+      "determination": "ai",
+      "ai_type": "ai_core",
+      "reason": "ChatCBI is an AI agent that analyzes prospects and supports corporate strategy and deal teams.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_cfed9fa39eaa",
+      "source": "companyenrich",
+      "title": "HackMD: Your Collaborative Markdown Workspace for Knowledge Sharing",
+      "gold": "unresolved",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "The workspace supports AI agents handling drafts, code generation, research, and documentation.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_6fea039ef937",
+      "source": "companyenrich",
+      "title": "Ezoic — Grow on the open web",
+      "gold": "non_ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "The product name bidsystem.ai appears, but no AI capability or action is described.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_0235a7865f52",
+      "source": "companyenrich",
+      "title": "Trusted Website Hosting Platform | WP Engine®",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "AI describes the web, customer agencies, and developer guidance context, not a specific WP Engine AI function.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_7a53d6284d2e",
+      "source": "companyenrich",
+      "title": "VMware by Broadcom - Cloud Computing for the Enterprise",
+      "gold": "non_ai",
+      "determination": "unresolved",
+      "stage": "insufficient_text"
+    },
+    {
+      "sample_id": "site_bdf542268a47",
+      "source": "companyenrich",
+      "title": "MongoDB | The Intelligent Data Platform for the AI Era | MongoDB",
+      "gold": "unresolved",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "MongoDB supports semantic search, recommendations, Q&A, anomaly detection, and generative AI context using vector data.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_2f8b7fc27caa",
+      "source": "companyenrich",
+      "title": "Yotpo: Loyalty, Reviews & AI Visibility For Ecommerce",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "AI visibility means helping ecommerce brands appear in AI-driven discovery, not Yotpo performing AI work.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_9d850241aeb2",
+      "source": "companyenrich",
+      "title": "Home - OpenSearch",
+      "gold": "unresolved",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "OpenSearch explicitly supports AI-powered search and AI/ML application development.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_f3073697c015",
+      "source": "companyenrich",
+      "title": "Dynatrace | Observability built for the age of AI",
+      "gold": "unresolved",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Dynatrace describes AI agents coordinating actions across cloud, developer, and IT service platforms.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_e23974cce94c",
+      "source": "companyenrich",
+      "title": "Splunk | Data Platform for Security, Observability & AI",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "AI is referenced broadly, but no specific AI capability performed by Splunk is described.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_f5c493de4e7a",
+      "source": "companyenrich",
+      "title": "Glitch Blog",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_7a3d6a09879e",
+      "source": "companyenrich",
+      "title": "Veeqo: Free Shipping Software for Ecommerce",
+      "gold": "unresolved",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Veeqo includes AI agents working alongside the fulfillment team.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_06667f526ba5",
+      "source": "companyenrich",
+      "title": "Pearltrees",
+      "gold": "unresolved",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Pearltrees AI adds and transforms user content.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_24b5449f062c",
+      "source": "companyenrich",
+      "title": "Quizlet: Study Tools & Learning Resources for Students and Teachers | Quizlet",
+      "gold": "ai",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_50bf74cea242",
+      "source": "companyenrich",
+      "title": "37signals",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_2100afb2c39f",
+      "source": "companyenrich",
+      "title": "The Enterprise AI Platform for HR, Finance, and IT | Workday",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "Workday mentions AI agents and work automation but gives no specific product-performed capability.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_990b1fa41495",
+      "source": "companyenrich",
+      "title": "AI Innovation Workspace | Miro",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "Miro repeatedly claims AI collaboration and platform functionality without describing a concrete AI action.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_ac3a896f7e39",
+      "source": "companyenrich",
+      "title": "Donorbox: #1 Donation Software & Nonprofit Fundraising Suite",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "AI is mentioned, but no specific AI capability is described.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_28ac445161fc",
+      "source": "companyenrich",
+      "title": "Todoist | A To-Do List to Organize Your Work & Life",
+      "gold": "ai",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_dfb71793ddd5",
+      "source": "companyenrich",
+      "title": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "The snippets make generic AI claims without describing a specific product capability.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_729a5129cadd",
+      "source": "companyenrich",
+      "title": "Payscale: Compensation Intelligence & Salary Data Software",
+      "gold": "unresolved",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Payscale provides AI-assisted matching for complex skill variations.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_362f6f737d2a",
+      "source": "companyenrich",
+      "title": "Brevo: Email & SMS Marketing, CRM & Automation Platform",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "AI agents are mentioned, but their specific product actions are not described.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_813a845c3603",
+      "source": "companyenrich",
+      "title": "GeoGebra - the world’s favorite, free math tools used by over 100 million students and teachers",
+      "gold": "ai",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    }
+  ]
+}

@@ -1,0 +1,4107 @@
+{
+  "freeze": {
+    "frozen_at": "2026-10-23T01:40:23.181356+00:00",
+    "cascade_file": "cascade_v2.py",
+    "cascade_py_sha256": "e8ee2133c359b71a5e7b17e59c43ac0514b1e75b0a553211b4ed02cd10f1cff9",
+    "rubric_sha256": "f9e7db163895b2c37acde31e32453f8efa9b84f6a4586fb9ddd7b4934afd2e74",
+    "judge_effort": "low",
+    "note": "Cascade v2 frozen after development on the 440 pages scored before it existed, and before any test2 label was read; no changes permitted for this evaluation."
+  },
+  "pages": 409,
+  "pages_by_source": {
+    "aitoolbuzz": 248,
+    "companyenrich": 161
+  },
+  "label_agreement": {
+    "exact": 390,
+    "same_determination": 399
+  },
+  "gold_determinations": {
+    "ai": 226,
+    "unresolved": 68,
+    "non_ai": 115
+  },
+  "keyword_rule": {
+    "method": "keyword_rule",
+    "resolved_pages": 341,
+    "resolved_macro_f1": 0.8893216488153197,
+    "resolved_accuracy": 0.906158357771261,
+    "false_alarms": 27,
+    "missed_ai": 5,
+    "resolved_abstained": 0,
+    "gold_unresolved_pages": 68,
+    "gold_unresolved_predictions": {
+      "ai": 34,
+      "non_ai": 34
+    },
+    "confusion": {
+      "ai->ai": 221,
+      "ai->non_ai": 5,
+      "non_ai->ai": 27,
+      "non_ai->non_ai": 88,
+      "unresolved->ai": 34,
+      "unresolved->non_ai": 34
+    }
+  },
+  "cascade_v2": {
+    "method": "cascade_v2",
+    "resolved_pages": 341,
+    "resolved_macro_f1": 0.928877857449286,
+    "resolved_accuracy": 0.9090909090909091,
+    "false_alarms": 6,
+    "missed_ai": 17,
+    "resolved_abstained": 19,
+    "gold_unresolved_pages": 68,
+    "gold_unresolved_predictions": {
+      "unresolved": 42,
+      "non_ai": 18,
+      "ai": 8
+    },
+    "confusion": {
+      "ai->ai": 209,
+      "ai->non_ai": 6,
+      "ai->unresolved": 11,
+      "non_ai->ai": 6,
+      "non_ai->non_ai": 101,
+      "non_ai->unresolved": 8,
+      "unresolved->ai": 8,
+      "unresolved->non_ai": 18,
+      "unresolved->unresolved": 42
+    }
+  },
+  "cascade": {
+    "method": "cascade",
+    "resolved_pages": 341,
+    "resolved_macro_f1": 0.9233693436608235,
+    "resolved_accuracy": 0.9032258064516129,
+    "false_alarms": 7,
+    "missed_ai": 19,
+    "resolved_abstained": 19,
+    "gold_unresolved_pages": 68,
+    "gold_unresolved_predictions": {
+      "unresolved": 39,
+      "non_ai": 19,
+      "ai": 10
+    },
+    "confusion": {
+      "ai->ai": 207,
+      "ai->non_ai": 7,
+      "ai->unresolved": 12,
+      "non_ai->ai": 7,
+      "non_ai->non_ai": 101,
+      "non_ai->unresolved": 7,
+      "unresolved->ai": 10,
+      "unresolved->non_ai": 19,
+      "unresolved->unresolved": 39
+    }
+  },
+  "by_source": {
+    "aitoolbuzz": {
+      "keyword_rule": {
+        "method": "keyword_rule",
+        "resolved_pages": 213,
+        "resolved_macro_f1": 0.9025171624713959,
+        "resolved_accuracy": 0.9624413145539906,
+        "false_alarms": 4,
+        "missed_ai": 4,
+        "resolved_abstained": 0,
+        "gold_unresolved_pages": 35,
+        "gold_unresolved_predictions": {
+          "ai": 13,
+          "non_ai": 22
+        },
+        "confusion": {
+          "ai->ai": 186,
+          "ai->non_ai": 4,
+          "non_ai->ai": 4,
+          "non_ai->non_ai": 19,
+          "unresolved->ai": 13,
+          "unresolved->non_ai": 22
+        }
+      },
+      "cascade_v2": {
+        "method": "cascade_v2",
+        "resolved_pages": 213,
+        "resolved_macro_f1": 0.923695652173913,
+        "resolved_accuracy": 0.9389671361502347,
+        "false_alarms": 0,
+        "missed_ai": 12,
+        "resolved_abstained": 8,
+        "gold_unresolved_pages": 35,
+        "gold_unresolved_predictions": {
+          "unresolved": 22,
+          "non_ai": 12,
+          "ai": 1
+        },
+        "confusion": {
+          "ai->ai": 178,
+          "ai->non_ai": 5,
+          "ai->unresolved": 7,
+          "non_ai->non_ai": 22,
+          "non_ai->unresolved": 1,
+          "unresolved->ai": 1,
+          "unresolved->non_ai": 12,
+          "unresolved->unresolved": 22
+        }
+      },
+      "cascade": {
+        "method": "cascade",
+        "resolved_pages": 213,
+        "resolved_macro_f1": 0.9122468659594984,
+        "resolved_accuracy": 0.9295774647887324,
+        "false_alarms": 0,
+        "missed_ai": 14,
+        "resolved_abstained": 9,
+        "gold_unresolved_pages": 35,
+        "gold_unresolved_predictions": {
+          "unresolved": 22,
+          "non_ai": 11,
+          "ai": 2
+        },
+        "confusion": {
+          "ai->ai": 176,
+          "ai->non_ai": 6,
+          "ai->unresolved": 8,
+          "non_ai->non_ai": 22,
+          "non_ai->unresolved": 1,
+          "unresolved->ai": 2,
+          "unresolved->non_ai": 11,
+          "unresolved->unresolved": 22
+        }
+      }
+    },
+    "companyenrich": {
+      "keyword_rule": {
+        "method": "keyword_rule",
+        "resolved_pages": 128,
+        "resolved_macro_f1": 0.7982663514578408,
+        "resolved_accuracy": 0.8125,
+        "false_alarms": 23,
+        "missed_ai": 1,
+        "resolved_abstained": 0,
+        "gold_unresolved_pages": 33,
+        "gold_unresolved_predictions": {
+          "non_ai": 12,
+          "ai": 21
+        },
+        "confusion": {
+          "ai->ai": 35,
+          "ai->non_ai": 1,
+          "non_ai->ai": 23,
+          "non_ai->non_ai": 69,
+          "unresolved->ai": 21,
+          "unresolved->non_ai": 12
+        }
+      },
+      "cascade_v2": {
+        "method": "cascade_v2",
+        "resolved_pages": 128,
+        "resolved_macro_f1": 0.8839598598279708,
+        "resolved_accuracy": 0.859375,
+        "false_alarms": 6,
+        "missed_ai": 5,
+        "resolved_abstained": 11,
+        "gold_unresolved_pages": 33,
+        "gold_unresolved_predictions": {
+          "unresolved": 20,
+          "non_ai": 6,
+          "ai": 7
+        },
+        "confusion": {
+          "ai->ai": 31,
+          "ai->non_ai": 1,
+          "ai->unresolved": 4,
+          "non_ai->ai": 6,
+          "non_ai->non_ai": 79,
+          "non_ai->unresolved": 7,
+          "unresolved->ai": 7,
+          "unresolved->non_ai": 6,
+          "unresolved->unresolved": 20
+        }
+      },
+      "cascade": {
+        "method": "cascade",
+        "resolved_pages": 128,
+        "resolved_macro_f1": 0.8782212445003142,
+        "resolved_accuracy": 0.859375,
+        "false_alarms": 7,
+        "missed_ai": 5,
+        "resolved_abstained": 10,
+        "gold_unresolved_pages": 33,
+        "gold_unresolved_predictions": {
+          "unresolved": 17,
+          "non_ai": 8,
+          "ai": 8
+        },
+        "confusion": {
+          "ai->ai": 31,
+          "ai->non_ai": 1,
+          "ai->unresolved": 4,
+          "non_ai->ai": 7,
+          "non_ai->non_ai": 79,
+          "non_ai->unresolved": 6,
+          "unresolved->ai": 8,
+          "unresolved->non_ai": 8,
+          "unresolved->unresolved": 17
+        }
+      }
+    }
+  },
+  "stages": {
+    "keyword_gate": 93,
+    "insufficient_text": 26,
+    "context_judge": 290
+  },
+  "cascade_errors": [
+    {
+      "sample_id": "site_069b89ea9779",
+      "source": "aitoolbuzz",
+      "title": "YouTube Timestamps—With Only One Click - InstantChapters",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_0eb5b6febf67",
+      "source": "aitoolbuzz",
+      "title": "SolaraIMPACT — Deep Thinking Platform for PR, Marketing & Creative Agencies",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "Only vague references to an AI platform and AI tools; no concrete product capability is described.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_1048a39b3ed7",
+      "source": "aitoolbuzz",
+      "title": "Welcome To LexiGym | LexiGym",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_13953fe93333",
+      "source": "aitoolbuzz",
+      "title": null,
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_14de67472a68",
+      "source": "aitoolbuzz",
+      "title": "AI Online Course Creation and Community Software - Heights Platform",
+      "gold": "unresolved",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Built-in AI creates course drafts, reviews content, and provides personalized coaching.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_18df62ee8c5e",
+      "source": "companyenrich",
+      "title": "Discourse | One platform. Any community.",
+      "gold": "non_ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "AI-assisted community management is asserted without a described capability.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_202b1f3ff21c",
+      "source": "companyenrich",
+      "title": "Best Fitness & Wellness Management Software | Mindbody",
+      "gold": "non_ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "Only a vague claim about AI-powered tools; no specific AI capability is described.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_2183d9073831",
+      "source": "aitoolbuzz",
+      "title": "TeacherDashboard. Report card comments and rubrics in your voice.",
+      "gold": "ai",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_23b8bbe8d2d6",
+      "source": "companyenrich",
+      "title": "BIO-Key | Biometric Authentication & Identity Access Management",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "AI refers to agents the security product serves; listed functionality is biometric authentication.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_2ee42d2d3512",
+      "source": "aitoolbuzz",
+      "title": "Best Blogging Platform for SEO & Speed | Superblog",
+      "gold": "non_ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "AI appears mainly as search-engine content context; “AI Helper” lacks a described capability.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_2ff4ad200586",
+      "source": "companyenrich",
+      "title": "Amazon Sign-In",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_39062c6a89dd",
+      "source": "aitoolbuzz",
+      "title": "BoloSign: Electronic Signatures for Small Businesses | Unlimited Signatures",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "AI is only mentioned as backing from NVIDIA, with no described product AI capability.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_3b621be27615",
+      "source": "companyenrich",
+      "title": "Free Podcast Hosting - Buzzsprout",
+      "gold": "ai",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_411ab82a81e0",
+      "source": "companyenrich",
+      "title": "Bitly | Short URLs, QR Codes, and More",
+      "gold": "unresolved",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Bitly offers AI-powered link creation and analytics insights.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_4274ca1476f3",
+      "source": "companyenrich",
+      "title": null,
+      "gold": "non_ai",
+      "determination": "unresolved",
+      "stage": "insufficient_text"
+    },
+    {
+      "sample_id": "site_492fbde42e8f",
+      "source": "aitoolbuzz",
+      "title": "Lunchbreak AI | Check Your Writing for AI Flags",
+      "gold": "ai",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "AI refers to external writing detectors and AI-authored text, not clearly the product's own AI functionality.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_4fd0b6884f67",
+      "source": "companyenrich",
+      "title": "MariaDB Enterprise Open Source Database | MariaDB",
+      "gold": "unresolved",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "MariaDB includes built-in AI copilots and RAG capabilities.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_55147303c379",
+      "source": "companyenrich",
+      "title": "Font Awesome",
+      "gold": "non_ai",
+      "determination": "unresolved",
+      "stage": "insufficient_text"
+    },
+    {
+      "sample_id": "site_5992f9c97b42",
+      "source": "aitoolbuzz",
+      "title": "Generasitogel: Panduan Lengkap Login Akses Platform QRIS Digital Pilihan Masyarakat",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_5dba2dd6447d",
+      "source": "aitoolbuzz",
+      "title": "AutoBiz AI | Practical AI for Australian SMEs",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "The snippets describe an AI operating system but no specific AI-performed capability.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_619a47225e70",
+      "source": "companyenrich",
+      "title": "Optimizely - AI to create and optimize digital experiences",
+      "gold": "unresolved",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Optimizely describes AI creating and optimizing digital experiences.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_638ab5ca1bf6",
+      "source": "aitoolbuzz",
+      "title": "AI agent for agencies | Client work in a flash",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "AI agents for agencies are mentioned, but no specific performed capability is described.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_66cabf48f589",
+      "source": "companyenrich",
+      "title": "Protect your digital moments | F‑Secure",
+      "gold": "non_ai",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Provides a tool that detects deepfakes and AI-generated images and videos.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_698a41c3e3f8",
+      "source": "companyenrich",
+      "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+      "gold": "non_ai",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Stripe provides AI-powered support that answers questions and helps troubleshoot.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_6ad25c0c5a47",
+      "source": "companyenrich",
+      "title": "Digital and Email Marketing Platform | Constant Contact",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_6bbb9d407d2b",
+      "source": "companyenrich",
+      "title": "Online Flipbook Maker - Create Interactive Flipbooks | Flipsnack",
+      "gold": "unresolved",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Flipsnack provides AI-powered audience insights and analytics.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_6ea74eb0276c",
+      "source": "companyenrich",
+      "title": "Credly by Pearson",
+      "gold": "non_ai",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Credly offers AI workforce forecasting and candidate sourcing capabilities.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_7083e229bde9",
+      "source": "aitoolbuzz",
+      "title": "Refabric Pro",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "Only a vague claim about end-to-end AI fashion solutions is provided.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_70bae575ef67",
+      "source": "companyenrich",
+      "title": "Email Marketing Software - Benchmark Email",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "A built-in AI Assistant is mentioned, but its specific task is not described.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_7605a7bc8160",
+      "source": "companyenrich",
+      "title": "SendGrid Email API and Email Marketing Campaigns | Twilio",
+      "gold": "non_ai",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "SendGrid offers an AI assistant that answers questions and troubleshoots.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_7656d3f73e8c",
+      "source": "companyenrich",
+      "title": "Material Design",
+      "gold": "non_ai",
+      "determination": "unresolved",
+      "stage": "insufficient_text"
+    },
+    {
+      "sample_id": "site_7cab5242a841",
+      "source": "aitoolbuzz",
+      "title": "Neighborbrite - Free AI Landscape Design",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "Claims AI-powered landscape inspiration but does not clearly describe what AI performs.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_7cc6dc1bc476",
+      "source": "companyenrich",
+      "title": "Redis - Real-time data for agents & apps",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "AI appears only as the subject of projects needing Redis context.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_82bef70786fc",
+      "source": "aitoolbuzz",
+      "title": "ExoCoding.com for sale | Spaceship.com",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_88ba1ae6561e",
+      "source": "aitoolbuzz",
+      "title": "GETitOUT - Essential Marketing Tools",
+      "gold": "ai",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_96430ea28bfc",
+      "source": "aitoolbuzz",
+      "title": "WIB.ai for sale | Spaceship.com",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "The snippets describe a domain sale and transfer service, not AI functionality.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_97468e93de75",
+      "source": "companyenrich",
+      "title": "Wolters Kluwer - Combining Domain Expertise With Advanced Technology | Wolters Kluwer",
+      "gold": "unresolved",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Offers AI-powered research solutions that provide faster answers to tax and audit questions.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_9b5fc2905579",
+      "source": "aitoolbuzz",
+      "title": "Tagify - Automated alt tags",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_9d4f5ff19f5c",
+      "source": "companyenrich",
+      "title": "Mouseflow | Behavior analytics for optimal website UX",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "AI-powered analytics and asking AI are mentioned without describing a specific AI capability.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_9ea2f821cd13",
+      "source": "companyenrich",
+      "title": "The Top Home & Commercial Service Software in 2026 | Jobber",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "Jobber's AI claims do not describe a specific capability or action.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_9ed9aa7c90fe",
+      "source": "companyenrich",
+      "title": "hCaptcha: Real-Time Bot Detection & Fraud Prevention",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "AI agents are the objects being detected or verified; no own AI capability is shown.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_a3b4f1c6b3aa",
+      "source": "aitoolbuzz",
+      "title": "Selectric",
+      "gold": "ai",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "AI appears only in security and data-training statements, not as a described product capability.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_b2397626312f",
+      "source": "companyenrich",
+      "title": "Bitdefender - Global Leader in Cybersecurity Software",
+      "gold": "non_ai",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Bitdefender says its AI routes users to the appropriate product.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_b6926895b51a",
+      "source": "companyenrich",
+      "title": "Cookiebot™ CMP by Usercentrics - GDPR Compliance for SMBs",
+      "gold": "non_ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "AI control and data access is too vague to establish the product performs AI work.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_ba91d85eb132",
+      "source": "companyenrich",
+      "title": "Crazy Egg Website — Optimization | Heatmaps, Recordings, Surveys & A/B Testing",
+      "gold": "unresolved",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Crazy Egg provides AI-automated website analysis.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_bf4eb2130d77",
+      "source": "aitoolbuzz",
+      "title": "kiwi",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "Only vaguely claims users can learn more from videos with AI; no specific product capability is described.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_ccdfa5b03364",
+      "source": "aitoolbuzz",
+      "title": "Merge - The universal context engine for AI",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "Connects customers' AI agents to data, tools, and models; no own AI task is described.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_ce328c3f99a1",
+      "source": "aitoolbuzz",
+      "title": "Composio",
+      "gold": "ai",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "Provides integrations and access for users’ existing AI assistants; explicitly is not another chatbot.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_d03f7a31dd23",
+      "source": "aitoolbuzz",
+      "title": "pizi.ai - For Sale",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "ai_type": null,
+      "reason": "The page only offers an AI-named domain for sale.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_d3a36fcce155",
+      "source": "companyenrich",
+      "title": "Cybersecurity That Delivers Real Business Outcomes | SonicWall",
+      "gold": "unresolved",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "SonicWall includes an AI-powered next-generation antivirus feature.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_d6d330467b7a",
+      "source": "companyenrich",
+      "title": "Free online meeting scheduling tool | Doodle",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_da74e93f9ccb",
+      "source": "aitoolbuzz",
+      "title": "Build Easy AI Inc",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "Offers AI adoption and development services, but snippets describe no specific AI-performed product capability.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_e2e6a5988124",
+      "source": "aitoolbuzz",
+      "title": "For Sale Domain: ninjavid.com",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    },
+    {
+      "sample_id": "site_e37ed65899b0",
+      "source": "companyenrich",
+      "title": "Chartbeat",
+      "gold": "non_ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "AI-powered platform is claimed, but no specific AI capability is described.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_e9b84d1d0a83",
+      "source": "companyenrich",
+      "title": "Telegram Messenger",
+      "gold": "non_ai",
+      "determination": "ai",
+      "ai_type": "ai_feature",
+      "reason": "Telegram advertises AI Guardians for Groups as an included product feature.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_f10b311d8e3f",
+      "source": "companyenrich",
+      "title": "HoneyBook | AI-powered client relationship platform",
+      "gold": "ai",
+      "determination": "unresolved",
+      "ai_type": null,
+      "reason": "AI is claimed to provide outputs and insights, but no specific capability is described.",
+      "stage": "context_judge"
+    },
+    {
+      "sample_id": "site_fb7c4404f7ad",
+      "source": "aitoolbuzz",
+      "title": "aceit.works is no longer available — browse similar domains | ExpiredDomains.com",
+      "gold": "unresolved",
+      "determination": "non_ai",
+      "stage": "keyword_gate"
+    }
+  ],
+  "spot_check": [
+    {
+      "sample_id": "site_01647caa40fb",
+      "source": "aitoolbuzz",
+      "url": "https://www.themindreader.ai/",
+      "title": "Lead Intelligence for Sales Conversion | Mindreader",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Mindreader enriches records with lead scoring, conversion angles & buying signals",
+        "Mindreader enriches records with lead scoring, conversion angles & buying signals"
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_0403b8598b16",
+      "source": "aitoolbuzz",
+      "url": "https://giftideasai.com/",
+      "title": "AI Gift Finder: Free Personalized Gift Ideas | Gift Ideas AI",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "high",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "tell it who you're shopping for and get personalized gift ideas in seconds",
+        "Tell the AI who you're shopping for"
+      ],
+      "cascade_reason": "AI generates personalized gift ideas from recipient, occasion, interests, and budget information."
+    },
+    {
+      "sample_id": "site_0598c024066b",
+      "source": "aitoolbuzz",
+      "url": "https://www.truefit.com/",
+      "title": "True Fit | Fit & Sizing Intelligence for Retailers, Enhanced by AI",
+      "labels": [
+        "ai_feature",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Agentic AI Shopping Agent",
+        "Agentic AI Shopping Agent"
+      ],
+      "cascade_reason": "Its AI shopping agent answers detailed shopper questions about size, fit, and product attributes."
+    },
+    {
+      "sample_id": "site_069b89ea9779",
+      "source": "aitoolbuzz",
+      "url": "https://www.instantchapters.com/",
+      "title": "YouTube Timestamps—With Only One Click - InstantChapters",
+      "labels": [
+        "no_ai",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Our app takes your video link and generates high-quality YouTube chapters for you instantly.",
+        "Our app takes your video link and generates high-quality YouTube chapters for you instantly."
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_0a0913fcf55b",
+      "source": "aitoolbuzz",
+      "url": "https://looria.com/",
+      "title": "Product Reviews | Explore and compare the most popular products",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "filter out the fake ones, and summarize the findings",
+        "We gather reviews from the most trusted sources, filter out the fake ones, and summarize the findings"
+      ],
+      "cascade_reason": "Summarizes product reviews using filtering and weighted averages; no AI functionality is shown."
+    },
+    {
+      "sample_id": "site_0ceaa59636c6",
+      "source": "aitoolbuzz",
+      "url": "https://akeeva.co/",
+      "title": "Akeeva - End of Life Planning Made Easy",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "free obituaries, unlimited tributes, anniversary reminders, and crowdfunding campaigns",
+        "free obituaries, unlimited tributes, anniversary reminders, and crowdfunding campaigns"
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_0ea14c270bf2",
+      "source": "aitoolbuzz",
+      "url": "https://instasnippet.com/",
+      "title": "InstaSnippet",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Enhance your AI chats with interactive elements",
+        "Enhance your AI chats with interactive elements"
+      ],
+      "cascade_reason": "Turns AI chats into interactive apps with buttons and data visualizations."
+    },
+    {
+      "sample_id": "site_0eb5b6febf67",
+      "source": "aitoolbuzz",
+      "url": "https://solaracloud.ai/",
+      "title": "SolaraIMPACT — Deep Thinking Platform for PR, Marketing & Creative Agencies",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "high"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "The AI platform for agencies that already get AI.",
+        "The AI platform for agencies that already get AI."
+      ],
+      "cascade_reason": "Only vague references to an AI platform and AI tools; no concrete product capability is described."
+    },
+    {
+      "sample_id": "site_100584b8f407",
+      "source": "aitoolbuzz",
+      "url": "https://www.aicarousels.com/",
+      "title": "Free Carousel Maker & Generator | aiCarousels.com",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "let the AI write a captivating carousel for you",
+        "Choose a topic or enter existing content and let the AI write a captivating carousel for you."
+      ],
+      "cascade_reason": "AI writes social-media carousels and transforms content into quote cards."
+    },
+    {
+      "sample_id": "site_1048a39b3ed7",
+      "source": "aitoolbuzz",
+      "url": "https://lexigym.app/",
+      "title": "Welcome To LexiGym | LexiGym",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Benefit from intelligent algorithms that adapt to your learning pace",
+        "Benefit from intelligent algorithms that adapt to your learning pace"
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_10b9ca20e03a",
+      "source": "companyenrich",
+      "url": "https://okta.com/",
+      "title": "Secure Identity for Employees, Customers, and AI | Okta",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Our platforms secure all types of identity from AI agents to your customers, employees, and partners.",
+        "Our platforms secure all types of identity from AI agents to your customers, employees, and partners."
+      ],
+      "cascade_reason": "Okta secures AI agents; snippets do not show Okta performing AI work."
+    },
+    {
+      "sample_id": "site_14de67472a68",
+      "source": "aitoolbuzz",
+      "url": "https://www.heightsplatform.com/",
+      "title": "AI Online Course Creation and Community Software - Heights Platform",
+      "labels": [
+        "ai_feature",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "high",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "The only creator platform with your own AI assistant and AI coach.",
+        "The only creator platform with your own AI assistant and AI coach."
+      ],
+      "cascade_reason": "Built-in AI creates course drafts, reviews content, and provides personalized coaching."
+    },
+    {
+      "sample_id": "site_16a8520b4de1",
+      "source": "aitoolbuzz",
+      "url": "https://aiatschecker.com/",
+      "title": "Free AI ATS Resume Checker — Score in 30 Seconds",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Detects and matches skills instantly with advanced AI analysis",
+        "Detects and matches skills instantly with advanced AI analysis"
+      ],
+      "cascade_reason": "AI analyzes resumes, matches keywords, flags gaps, and provides recommendations."
+    },
+    {
+      "sample_id": "site_175a8be0bb61",
+      "source": "aitoolbuzz",
+      "url": "https://shapenship.com/",
+      "title": "Shape N Ship",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Community of Makers shaping and shipping amazing products for the world",
+        "Community of Makers shaping and shipping amazing products for the world"
+      ],
+      "cascade_reason": "AI appears only in a community description and a product-news item."
+    },
+    {
+      "sample_id": "site_1fa557630e41",
+      "source": "companyenrich",
+      "url": "https://proquest.com/",
+      "title": "ProQuest | Better research, better learning, better insights.",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "high"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "You can save searches, save documents, create alerts and more.",
+        "You can save searches, save documents, create alerts and more."
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_205342c2fcc8",
+      "source": "companyenrich",
+      "url": "https://proofpoint.com/",
+      "title": "Enterprise Cybersecurity Solutions, Services & Training | Proofpoint US",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Control AI in your enterprise with Proofpoint",
+        "Control AI in your enterprise with Proofpoint"
+      ],
+      "cascade_reason": "Proofpoint governs and monitors AI usage and interactions rather than performing AI work."
+    },
+    {
+      "sample_id": "site_2183d9073831",
+      "source": "aitoolbuzz",
+      "url": "https://teacherdashboard.ai/",
+      "title": "TeacherDashboard. Report card comments and rubrics in your voice.",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "TeacherDashboard writes report card comments and rubrics in your voice.",
+        "TeacherDashboard writes report card comments and rubrics in your voice."
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_22cbe18363b1",
+      "source": "companyenrich",
+      "url": "https://skype.com/",
+      "title": "Free Online Meetings & Video Calls | Microsoft Teams",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "unresolved",
+      "evidence": [
+        "Unlock AI features with Microsoft Copilot",
+        "Unlock AI features with Microsoft Copilot"
+      ],
+      "cascade_reason": "Microsoft Copilot is presented as an available AI feature for meetings and calls."
+    },
+    {
+      "sample_id": "site_23b8bbe8d2d6",
+      "source": "companyenrich",
+      "url": "https://bio-key.com/",
+      "title": "BIO-Key | Biometric Authentication & Identity Access Management",
+      "labels": [
+        "ai_feature",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Log in quickly with a fingerprint or facial recognition",
+        "Fingerprint recognition, SSO, MFA and passwordless access from BIO-Key."
+      ],
+      "cascade_reason": "AI refers to agents the security product serves; listed functionality is biometric authentication."
+    },
+    {
+      "sample_id": "site_244be5bb64c8",
+      "source": "companyenrich",
+      "url": "https://automattic.com/",
+      "title": "Automattic – Making the web a better place",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "non_ai",
+      "evidence": [
+        "Ready for AI agents.",
+        "Ready for AI agents."
+      ],
+      "cascade_reason": "Being ready for AI agents is a vague claim without described functionality."
+    },
+    {
+      "sample_id": "site_24be76b64ab7",
+      "source": "aitoolbuzz",
+      "url": "https://peaku.co/",
+      "title": "Where the right match happens - PeakU",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "PeakU automates sourcing, evaluation, and hiring with its AI agent that connects to LinkedIn.",
+        "PeakU automates sourcing, evaluation, and hiring with its AI agent that connects to LinkedIn."
+      ],
+      "cascade_reason": "Its AI agent automates recruiting sourcing, evaluation, and hiring through LinkedIn."
+    },
+    {
+      "sample_id": "site_24da66497a01",
+      "source": "companyenrich",
+      "url": "https://cvent.com/",
+      "title": "Cvent | Event Platform for In-person, Virtual, and Hybrid Events & Webinars",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "ai",
+      "evidence": [
+        "CventIQ™ puts AI to work across your entire event program, from first venue search to final ROI report.",
+        "CventIQ™ puts AI to work across your entire event program, from first venue search to final ROI report."
+      ],
+      "cascade_reason": "Cvent says AI works across events but does not describe a concrete AI action."
+    },
+    {
+      "sample_id": "site_26c54ceb3677",
+      "source": "aitoolbuzz",
+      "url": "https://revmore.io/",
+      "title": "Home - Marketing Automation",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Our AI-driven Platform suggests the best packages for your audience based on machine learning and historical data.",
+        "Our AI-driven Platform suggests the best packages for your audience based on machine learning and historical data."
+      ],
+      "cascade_reason": "Machine learning suggests audience-specific packages and offers."
+    },
+    {
+      "sample_id": "site_29a266d8efbd",
+      "source": "aitoolbuzz",
+      "url": "https://www.pin.com/",
+      "title": "Pin: Hire Faster with AI Sourcing, Matching & Outreach | Free Trial",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Paste a job description and get a ranked candidate list in seconds.",
+        "Paste a job description and get a ranked candidate list in seconds."
+      ],
+      "cascade_reason": "AI sources and ranks candidates, drafts outreach, summarizes matches, and schedules interviews."
+    },
+    {
+      "sample_id": "site_29d059a42abf",
+      "source": "companyenrich",
+      "url": "https://checkpoint.com/",
+      "title": "Check Point Software: Leader in Cyber Security Solutions",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "It’s time AI had a Check Point.",
+        "Helping You Secure AI Where You Use It. Everywhere."
+      ],
+      "cascade_reason": "Check Point secures AI where it is used; no own AI task is described."
+    },
+    {
+      "sample_id": "site_2c34ba55a87c",
+      "source": "aitoolbuzz",
+      "url": "https://learningstudioai.com/",
+      "title": "AI Course Creator & eLearning Authoring Tool | LearningStudioAI",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "our AI transforms your material into a structured course",
+        "Upload a PowerPoint, Word, PDF, or text file — and our AI transforms your material into a structured course"
+      ],
+      "cascade_reason": "Transforms topics and documents into courses, lessons, quizzes, visuals, summaries, and rewritten text."
+    },
+    {
+      "sample_id": "site_2ee42d2d3512",
+      "source": "aitoolbuzz",
+      "url": "https://superblog.ai/",
+      "title": "Best Blogging Platform for SEO & Speed | Superblog",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "non_ai",
+      "evidence": [
+        "Superblog is the complete blogging platform: UI, CMS, hosting, and a full SEO engine",
+        "Superblog is the complete blogging platform: UI, CMS, hosting, and a full SEO engine working out of the box."
+      ],
+      "cascade_reason": "AI appears mainly as search-engine content context; “AI Helper” lacks a described capability."
+    },
+    {
+      "sample_id": "site_2f21fa2b4cca",
+      "source": "companyenrich",
+      "url": "https://prestashop.com/",
+      "title": "Create an online shop easily - Ecommerce | PrestaShop",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Launch your ecommerce website, customize your online store",
+        "Launch your ecommerce website, customize your online store and start selling your products"
+      ],
+      "cascade_reason": "AI appears only in educational content about using AI with PrestaShop."
+    },
+    {
+      "sample_id": "site_33609ff6b424",
+      "source": "aitoolbuzz",
+      "url": "https://www.autoblocks.ai/",
+      "title": "AI Ready - AI Consulting and Implementation for Growing Businesses",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "We plan and build AI projects, from a single agent to a company rollout",
+        "Give a recurring job to an AI agent built around your tools and processes."
+      ],
+      "cascade_reason": "Builds AI agents that perform recurring jobs using business tools and processes."
+    },
+    {
+      "sample_id": "site_366a0da2490e",
+      "source": "aitoolbuzz",
+      "url": "https://unifab.ai/",
+      "title": "UniFab AI | Enhance Your Video & Audio Quality with AI",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Use AI-powered tools to revive old videos by removing noise, correcting interlacing, and improving color accuracy.",
+        "UniFab is an amazing AI-powered video enhancer."
+      ],
+      "cascade_reason": "AI enhances, restores, upmixes, and improves video and audio."
+    },
+    {
+      "sample_id": "site_384571270f8e",
+      "source": "aitoolbuzz",
+      "url": "https://openjourneybot.com/",
+      "title": "Openjourney",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "high"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Openjourney is a free AI image generation platform",
+        "Openjourney is a free AI image generation platform"
+      ],
+      "cascade_reason": "Explicitly provides AI image generation as its core platform capability."
+    },
+    {
+      "sample_id": "site_39062c6a89dd",
+      "source": "aitoolbuzz",
+      "url": "https://www.boloforms.com/",
+      "title": "BoloSign: Electronic Signatures for Small Businesses | Unlimited Signatures",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "high"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "AI backed by NVIDIA.",
+        "AI backed by NVIDIA."
+      ],
+      "cascade_reason": "AI is only mentioned as backing from NVIDIA, with no described product AI capability."
+    },
+    {
+      "sample_id": "site_39b661d94255",
+      "source": "aitoolbuzz",
+      "url": "https://www.getdevkit.com/",
+      "title": "DevKit | The AI assistant for Developers",
+      "labels": [
+        "ai_feature",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Build software 10x faster with access to world-class LLMs and 30+ mini-tools",
+        "Build software 10x faster with access to world-class LLMs and 30+ mini-tools"
+      ],
+      "cascade_reason": "The assistant queries databases in plain English and generates and executes code."
+    },
+    {
+      "sample_id": "site_3a962e5d3d9f",
+      "source": "companyenrich",
+      "url": "https://liveramp.com/",
+      "title": "AI-Powered Marketing | LiveRamp",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "The trusted network for AI-powered marketing",
+        "The trusted network for AI-powered marketing"
+      ],
+      "cascade_reason": "AI-powered marketing and intelligent AI claims lack a specific product capability."
+    },
+    {
+      "sample_id": "site_40c9edec3716",
+      "source": "companyenrich",
+      "url": "https://f5.com/",
+      "title": "Hybrid Multicloud App Security & Delivery for the AI Era | F5",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "on a single platform leveraging AI, ML, and other advanced technologies",
+        "on a single platform leveraging AI, ML, and other advanced technologies"
+      ],
+      "cascade_reason": "F5 says its platform leverages AI but does not describe an AI-performed task."
+    },
+    {
+      "sample_id": "site_411ab82a81e0",
+      "source": "companyenrich",
+      "url": "https://bitly.com/",
+      "title": "Bitly | Short URLs, QR Codes, and More",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "AI-powered link creation",
+        "AI-powered link creation"
+      ],
+      "cascade_reason": "Bitly offers AI-powered link creation and analytics insights."
+    },
+    {
+      "sample_id": "site_4274ca1476f3",
+      "source": "companyenrich",
+      "url": "https://streamlabs.com/",
+      "title": null,
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "Grow with Streamlabs Desktop, alerts, overlays, tipping & merch.",
+        "Grow with Streamlabs Desktop, alerts, overlays, tipping & merch."
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_435feb24f6d5",
+      "source": "aitoolbuzz",
+      "url": "https://namemybaby.io/",
+      "title": "Name My Baby | Every Baby Deserves a Legendary Name",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "our powerful AI will give you some tailored name ideas",
+        "our powerful AI will give you some tailored name ideas"
+      ],
+      "cascade_reason": "AI generates tailored baby-name ideas from user-provided information."
+    },
+    {
+      "sample_id": "site_4440bed7726f",
+      "source": "aitoolbuzz",
+      "url": "https://www.legaliser.com/",
+      "title": "AI Contract Analysis & Management | Agreements.AI",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Understand contracts instantly with plain English AI summaries.",
+        "Understand contracts instantly with plain English AI summaries."
+      ],
+      "cascade_reason": "AI analyzes contracts, summarizes them, spots risks, explains terms, and suggests wording improvements."
+    },
+    {
+      "sample_id": "site_461165c10cae",
+      "source": "companyenrich",
+      "url": "https://trendmicro.com/",
+      "title": "Trend Micro (US) | Global Enterprise AI Cybersecurity Platform",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "non_ai",
+      "evidence": [
+        "Enterprise AI cybersecurity platform with layered protection, cyber risk exposure management and SecOps",
+        "Enterprise AI cybersecurity platform with layered protection"
+      ],
+      "cascade_reason": "AI security and intelligence claims lack a specific product-performed AI task."
+    },
+    {
+      "sample_id": "site_4869c518839e",
+      "source": "companyenrich",
+      "url": "https://cyberlink.com/",
+      "title": "CyberLink: AI Video, Photo & Marketing Content Creation",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "The new AI in CyberLink PhotoDirector 365 helps achieve results faster, with tools and wizards supporting design drafts.",
+        "The new AI in CyberLink PhotoDirector 365 helps achieve results faster, with tools and wizards supporting design drafts."
+      ],
+      "cascade_reason": "CyberLink includes AI tools and wizards supporting photo design and content creation."
+    },
+    {
+      "sample_id": "site_492fbde42e8f",
+      "source": "aitoolbuzz",
+      "url": "https://lunchbreak.ai/",
+      "title": "Lunchbreak AI | Check Your Writing for AI Flags",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "ai",
+      "evidence": [
+        "It rewrites the phrasing detectors react to",
+        "It rewrites the phrasing detectors react to"
+      ],
+      "cascade_reason": "AI refers to external writing detectors and AI-authored text, not clearly the product's own AI functionality."
+    },
+    {
+      "sample_id": "site_49f8a0c3508b",
+      "source": "companyenrich",
+      "url": "https://fullcontact.com/",
+      "title": "FullContact | Identity Resolution",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Transform individual fragments of data into dynamic, unified customer records.",
+        "Append 900+ unique data attributes to new and existing customer records."
+      ],
+      "cascade_reason": "The product supplies identity data for AI agents rather than showing its own AI functionality."
+    },
+    {
+      "sample_id": "site_4dad0967d2f4",
+      "source": "aitoolbuzz",
+      "url": "https://www.owox.com/",
+      "title": "OWOX Data Marts — Where Data Makes Sense",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "get KPI definitions generated by an expert AI in a minute",
+        "get KPI definitions generated by an expert AI in a minute"
+      ],
+      "cascade_reason": "AI generates KPI definitions and supports natural-language data queries."
+    },
+    {
+      "sample_id": "site_4fd0b6884f67",
+      "source": "companyenrich",
+      "url": "https://mariadb.com/",
+      "title": "MariaDB Enterprise Open Source Database | MariaDB",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Welcome to the Agentic Enterprise",
+        "including transactional, analytical, semi-structured and AI data"
+      ],
+      "cascade_reason": "MariaDB includes built-in AI copilots and RAG capabilities."
+    },
+    {
+      "sample_id": "site_565de734a516",
+      "source": "aitoolbuzz",
+      "url": "https://www.faqwidget.ai/",
+      "title": "FAQWidget: AI-powered FAQ Widget generator for boosting engagement and sales",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "high",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Just provide your website URL and we will generate an FAQ section for you.",
+        "Our AI is fine-tuned to address common objections and highlight unique selling points of your product."
+      ],
+      "cascade_reason": "AI generates FAQ widgets tailored to objections and product selling points."
+    },
+    {
+      "sample_id": "site_5924871c990e",
+      "source": "aitoolbuzz",
+      "url": "https://thinkany.ai/",
+      "title": "ThinkAny - AI Search Engine",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "high",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "ThinkAny is a free AI search engine using advanced RAG vector search",
+        "ThinkAny is a free AI search engine using advanced RAG vector search for precise, trusted answers"
+      ],
+      "cascade_reason": "Provides AI-powered RAG search, precise answers, and interactive assistant chat."
+    },
+    {
+      "sample_id": "site_5992f9c97b42",
+      "source": "aitoolbuzz",
+      "url": "https://headcanon-generator.com/",
+      "title": "Generasitogel: Panduan Lengkap Login Akses Platform QRIS Digital Pilihan Masyarakat",
+      "labels": [
+        "insufficient",
+        "insufficient"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Generasitogel: Panduan Lengkap Login Akses Platform QRIS Digital Pilihan Masyarakat",
+        "Link Generasitogel"
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_59ab0d92ad85",
+      "source": "companyenrich",
+      "url": "https://muckrack.com/",
+      "title": "Muck Rack | The Earned Media Platform for PR & Comms Teams",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "AI-powered recommendations help you customize outreach, track engagement, and manage follow-ups.",
+        "AI-powered recommendations help you customize outreach, track engagement, and manage follow-ups."
+      ],
+      "cascade_reason": "Muck Rack uses AI recommendations to customize outreach, track engagement, and manage follow-ups."
+    },
+    {
+      "sample_id": "site_5a41d03d16c8",
+      "source": "companyenrich",
+      "url": "https://consultant.ru/",
+      "title": "\"КонсультантПлюс\" - законодательство РФ: кодексы, законы, указы, постановления Правительства Российской Федерации, нормативные акты",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "high",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Удобный поиск законов кодексов приказов и других документов.",
+        "Новые законы РФ, указы Президента, постановления Правительства и другие нормативные акты."
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_5b6538b2a68c",
+      "source": "companyenrich",
+      "url": "https://nuance.com/",
+      "title": "Nuance - Achieve even more. Nuance is now Microsoft. | Nuance",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "unresolved",
+      "evidence": [
+        "Boost productivity with speech recognition solutions that help you do what you do even better.",
+        "Boost productivity with speech recognition solutions"
+      ],
+      "cascade_reason": "Nuance provides speech recognition and AI-powered solutions for physicians and radiologists."
+    },
+    {
+      "sample_id": "site_5b9195affae4",
+      "source": "companyenrich",
+      "url": "https://perfectcorp.com/",
+      "title": "Beauty AR Company and Makeup AR Technology Platform",
+      "labels": [
+        "insufficient",
+        "insufficient"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "Beauty AR Company and Makeup AR Technology Platform",
+        "You need to enable JavaScript to run this app."
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_5d06441e1247",
+      "source": "aitoolbuzz",
+      "url": "https://videco.io/",
+      "title": "Videco - Turn Every Video Into a Content Campaign",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Get short clips, blog drafts, and social posts generated automatically",
+        "Get short clips, blog drafts, and social posts generated automatically"
+      ],
+      "cascade_reason": "AI identifies promising moments and creates clips from recordings."
+    },
+    {
+      "sample_id": "site_5dba2dd6447d",
+      "source": "aitoolbuzz",
+      "url": "https://www.autobiz.ai/",
+      "title": "AutoBiz AI | Practical AI for Australian SMEs",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "ai",
+      "evidence": [
+        "Status updates, reports and everyday emails draft themselves.",
+        "Status updates, reports and everyday emails draft themselves."
+      ],
+      "cascade_reason": "The snippets describe an AI operating system but no specific AI-performed capability."
+    },
+    {
+      "sample_id": "site_5e30ceb76fc9",
+      "source": "companyenrich",
+      "url": "https://ivanti.com/",
+      "title": "Ivanti | Data Authority. Governed Autonomy. Proactive IT.",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "Operate optimally with AI-driven automation.",
+        "Operate optimally with AI-driven automation."
+      ],
+      "cascade_reason": "AI-driven automation is asserted without describing a specific AI capability."
+    },
+    {
+      "sample_id": "site_600f398e5cb8",
+      "source": "aitoolbuzz",
+      "url": "https://www.venturefy.com/",
+      "title": "Venturefy",
+      "labels": [
+        "insufficient",
+        "insufficient"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "Mapping how the business world connects in real time.",
+        "Mapping how the business world connects in real time."
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_619a47225e70",
+      "source": "companyenrich",
+      "url": "https://optimizely.com/",
+      "title": "Optimizely - AI to create and optimize digital experiences",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "unresolved",
+      "evidence": [
+        "The AI platform to create and optimize every digital experience.",
+        "The AI platform to create and optimize every digital experience."
+      ],
+      "cascade_reason": "Optimizely describes AI creating and optimizing digital experiences."
+    },
+    {
+      "sample_id": "site_66cabf48f589",
+      "source": "companyenrich",
+      "url": "https://f-secure.com/",
+      "title": "Protect your digital moments | F‑Secure",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "antivirus, VPN, identity protection and scam protection, all in one app",
+        "Check for deepfakes or AI-generated images and videos with our free detection tool."
+      ],
+      "cascade_reason": "Provides a tool that detects deepfakes and AI-generated images and videos."
+    },
+    {
+      "sample_id": "site_6a431f1d3b0b",
+      "source": "aitoolbuzz",
+      "url": "https://www.onecliq.io/",
+      "title": "OneCliq.io: Qualitative insights at the speed of a search",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Automated Qualitative Analysis, At Scale",
+        "OneCliq.io is the fastest platform for real-time qualitative insights around sentiment analysis, narrative analysis, and actionable asset creation."
+      ],
+      "cascade_reason": "Its AI provides campaign ideas, positioning it as an AI strategic copilot."
+    },
+    {
+      "sample_id": "site_6a7eb3777049",
+      "source": "companyenrich",
+      "url": "https://home-assistant.io/",
+      "title": "Home Assistant",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "high"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Customize your voice assistant and experiment with AI conversations.",
+        "Assist allows you to control Home Assistant using natural language."
+      ],
+      "cascade_reason": "Home Assistant enables natural-language control and AI conversations."
+    },
+    {
+      "sample_id": "site_6ac2dcae1a0d",
+      "source": "companyenrich",
+      "url": "https://bsky.app/",
+      "title": "Bluesky",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Social media as it should be. Find your community among millions of users",
+        "Social media as it should be. Find your community among millions of users"
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_6ad25c0c5a47",
+      "source": "companyenrich",
+      "url": "https://constantcontact.com/",
+      "title": "Digital and Email Marketing Platform | Constant Contact",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Go from prompt to progress",
+        "Go from prompt to progress"
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_6bbb9d407d2b",
+      "source": "companyenrich",
+      "url": "https://flipsnack.com/",
+      "title": "Online Flipbook Maker - Create Interactive Flipbooks | Flipsnack",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Access AI-powered insights, heatmaps, and Google Analytics integration",
+        "Access AI-powered insights, heatmaps, and Google Analytics integration"
+      ],
+      "cascade_reason": "Flipsnack provides AI-powered audience insights and analytics."
+    },
+    {
+      "sample_id": "site_6df15fb145fc",
+      "source": "companyenrich",
+      "url": "https://mailchimp.com/",
+      "title": "Email & SMS Marketing Platform | Mailchimp",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Mailchimp with Intuit Intelligence can help surface your next opportunity, like winning back customers who’ve gone quiet.",
+        "Mailchimp with Intuit Intelligence can help surface your next opportunity, like winning back customers who’ve gone quiet."
+      ],
+      "cascade_reason": "Mailchimp includes generative AI features and AI-generated content."
+    },
+    {
+      "sample_id": "site_7083e229bde9",
+      "source": "aitoolbuzz",
+      "url": "https://fashionai.refabric.com/",
+      "title": "Refabric Pro",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "AI Tool for Fashion Professionals.",
+        "AI Tool for Fashion Professionals"
+      ],
+      "cascade_reason": "Only a vague claim about end-to-end AI fashion solutions is provided."
+    },
+    {
+      "sample_id": "site_729c4d143d85",
+      "source": "companyenrich",
+      "url": "https://mailerlite.com/",
+      "title": "Create Email Marketing Your Audience Will Love - MailerLite",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Send perfectly-timed and targeted emails automatically.",
+        "Send perfectly-timed and targeted emails automatically."
+      ],
+      "cascade_reason": "ChatGPT and Claude appear only as named external tools."
+    },
+    {
+      "sample_id": "site_7605a7bc8160",
+      "source": "companyenrich",
+      "url": "https://sendgrid.com/",
+      "title": "SendGrid Email API and Email Marketing Campaigns | Twilio",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Chat with our AI assistant to get answers to your questions, troubleshoot, or find helpful information.",
+        "The trusted SendGrid Email API for delivery at scale."
+      ],
+      "cascade_reason": "SendGrid offers an AI assistant that answers questions and troubleshoots."
+    },
+    {
+      "sample_id": "site_7646d5ab81e7",
+      "source": "aitoolbuzz",
+      "url": "https://www.berrycast.com/",
+      "title": "Berrycast - Best video screen recorder for Windows and Mac",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Packed with AI note taking, meeting recorder and transcript summarization.",
+        "Packed with AI note taking, meeting recorder and transcript summarization."
+      ],
+      "cascade_reason": "Includes AI note-taking, meeting recording, and transcript summarization."
+    },
+    {
+      "sample_id": "site_7656d3f73e8c",
+      "source": "companyenrich",
+      "url": "https://material.io/",
+      "title": "Material Design",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "Google's open-source design system, provides comprehensive guidelines, styles, &  components",
+        "Google's open-source design system, provides comprehensive guidelines, styles, &  components"
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_7cc6dc1bc476",
+      "source": "companyenrich",
+      "url": "https://redis.io/",
+      "title": "Redis - Real-time data for agents & apps",
+      "labels": [
+        "ai_mention_only",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Real-time data for agents & apps",
+        "Retrieve the most relevant data from your structured and unstructured data instantly with Redis-powered vector search"
+      ],
+      "cascade_reason": "AI appears only as the subject of projects needing Redis context."
+    },
+    {
+      "sample_id": "site_7f079ab7123f",
+      "source": "companyenrich",
+      "url": "https://ccleaner.com/",
+      "title": "CCleaner Makes Your Computer Faster & More Secure | Official Website",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "CCleaner is the number-one tool for cleaning your PC.",
+        "CCleaner is the number-one tool for cleaning your PC."
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_80f0ababbe75",
+      "source": "aitoolbuzz",
+      "url": "https://www.pressroom.ai/",
+      "title": "AI SEO & Google Ads Agency | SEO, SEM, GEO & AEO — PressRoom",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "unresolved",
+      "evidence": [
+        "One search, three places to win: the ads, the AI answer, and the organic results. We work all three.",
+        "We build the site, earn the rankings, and run the ads"
+      ],
+      "cascade_reason": "AI refers to search visibility and generative-engine optimization, not a product AI capability."
+    },
+    {
+      "sample_id": "site_81e641d4ab50",
+      "source": "aitoolbuzz",
+      "url": "https://picoapps.xyz/",
+      "title": "Pico",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "An AI-powered text-to-app platform",
+        "An AI-powered text-to-app platform"
+      ],
+      "cascade_reason": "Text-to-app platform explicitly describes AI as its core function."
+    },
+    {
+      "sample_id": "site_82d162f74551",
+      "source": "aitoolbuzz",
+      "url": "https://smartprep.ai/",
+      "title": "SmartPrep - The Best AI Lesson Plan Generator",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "SmartPrep - The Best AI Lesson Plan Generator",
+        "SmartPrep - The Best AI Lesson Plan Generator"
+      ],
+      "cascade_reason": "The product is specifically identified as an AI lesson plan generator."
+    },
+    {
+      "sample_id": "site_83ff9c2ca6c6",
+      "source": "aitoolbuzz",
+      "url": "https://theforgeai.com/",
+      "title": "The Forge - Create, Share, and Monetize AI Applications",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "high"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Build AI powered Applications without writing a single line of code",
+        "Build AI powered Applications without writing a single line of code"
+      ],
+      "cascade_reason": "Enables users to create and monetize AI applications without coding."
+    },
+    {
+      "sample_id": "site_85ede1362304",
+      "source": "companyenrich",
+      "url": "https://lastpass.com/",
+      "title": "#1 Password Manager with Shadow IT & AI Governance - LastPass",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Know which AI tools your employees are using and how they're logging in",
+        "Know which AI tools your employees are using and how they're logging in"
+      ],
+      "cascade_reason": "LastPass discovers, governs, and monitors employees' AI tool usage."
+    },
+    {
+      "sample_id": "site_88ba1ae6561e",
+      "source": "aitoolbuzz",
+      "url": "https://getitout.io/",
+      "title": "GETitOUT - Essential Marketing Tools",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Let GETitOUT generate ready-to-use landing pages, emails, and more",
+        "Let GETitOUT generate ready-to-use landing pages, emails, and more"
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_8cbf0ab0646f",
+      "source": "companyenrich",
+      "url": "https://roku.com/",
+      "title": "Roku",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Roku provides the simplest way to stream entertainment to your TV.",
+        "Roku provides the simplest way to stream entertainment to your TV."
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_8fa71a2aa86b",
+      "source": "aitoolbuzz",
+      "url": "https://www.voclipai.com/",
+      "title": "Voclip - Clip and Memorize Vocabulary in any language",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Generate detailed explanations and examples for any vocabulary word using advanced AI.",
+        "Generate detailed explanations and examples for any vocabulary word using advanced AI."
+      ],
+      "cascade_reason": "AI generates detailed vocabulary explanations and examples."
+    },
+    {
+      "sample_id": "site_8fc964024d4d",
+      "source": "aitoolbuzz",
+      "url": "https://www.bloon.ai/",
+      "title": "bloon — An AI venture studio shipping products people love.",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "A small team shipping AI products millions of people already use.",
+        "A small team shipping AI products millions of people already use."
+      ],
+      "cascade_reason": "Calls itself an AI venture studio shipping AI products, but describes no specific product capability."
+    },
+    {
+      "sample_id": "site_947fc6a35e12",
+      "source": "aitoolbuzz",
+      "url": "https://readshark.com/",
+      "title": "Readshark",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Speed read your own books and documents, from PDF and EPUB to Kindle and Word, or a six-minute book summary.",
+        "Speed read your own books and documents"
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_94fd7ef523ea",
+      "source": "aitoolbuzz",
+      "url": "https://www.wootechy.com/",
+      "title": "WooTechy® Official Website | Simplify Your Digital Life!",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Convert text to speech with 3000+ AI voices in 100+ languages",
+        "Convert text to speech with 3000+ AI voices in 100+ languages"
+      ],
+      "cascade_reason": "Its product portfolio includes AI voice generation and text-to-speech."
+    },
+    {
+      "sample_id": "site_97468e93de75",
+      "source": "companyenrich",
+      "url": "https://wolterskluwer.com/",
+      "title": "Wolters Kluwer - Combining Domain Expertise With Advanced Technology | Wolters Kluwer",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "unresolved",
+      "evidence": [
+        "With AI-enabled tools and integrated cloud solutions, we enable our customers to adapt with confidence",
+        "With AI-enabled tools and integrated cloud solutions, we enable our customers to adapt with confidence"
+      ],
+      "cascade_reason": "Offers AI-powered research solutions that provide faster answers to tax and audit questions."
+    },
+    {
+      "sample_id": "site_98244b9809fb",
+      "source": "companyenrich",
+      "url": "https://dropbox.com/",
+      "title": "Dropbox: Secure cloud storage, file sharing, and more",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "built-in AI summaries (coming soon)",
+        "built-in AI summaries (coming soon)"
+      ],
+      "cascade_reason": "Dropbox advertises built-in AI summaries, though availability is listed as coming soon."
+    },
+    {
+      "sample_id": "site_9838cb721fb2",
+      "source": "companyenrich",
+      "url": "https://blackbaud.com/",
+      "title": "Leading Software for Nonprofits and Education | Blackbaud",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Raise more with AI that finds your best prospects",
+        "Raise more with AI that finds your best prospects"
+      ],
+      "cascade_reason": "AI predicts outcomes and finds prospects for fundraising."
+    },
+    {
+      "sample_id": "site_9863f08cf338",
+      "source": "companyenrich",
+      "url": "https://webex.com/",
+      "title": "Webex by Cisco | AI-Powered Collaboration, Customer Experience & Devices",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "Agentic AI and human potential, united on a single platform.",
+        "One platform. Every experience. Powered by AI."
+      ],
+      "cascade_reason": "Webex is repeatedly called AI-powered, but no concrete AI task is described."
+    },
+    {
+      "sample_id": "site_9b5fc2905579",
+      "source": "aitoolbuzz",
+      "url": "https://www.tagify.ai/",
+      "title": "Tagify - Automated alt tags",
+      "labels": [
+        "no_ai",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Tagify instantly generates HTML tags, saving you hours of manual work.",
+        "Generate automated alt tags in Webflow and framer."
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_9c15c337e97e",
+      "source": "aitoolbuzz",
+      "url": "https://tablepad.io/",
+      "title": null,
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "Build AI-powered data tables",
+        "Build AI-powered data tables"
+      ],
+      "cascade_reason": "Only a vague claim about building AI-powered data tables is provided."
+    },
+    {
+      "sample_id": "site_9d4f5ff19f5c",
+      "source": "companyenrich",
+      "url": "https://mouseflow.com/",
+      "title": "Mouseflow | Behavior analytics for optimal website UX",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "Work in Mouseflow or ask AI",
+        "Work in Mouseflow or ask AI"
+      ],
+      "cascade_reason": "AI-powered analytics and asking AI are mentioned without describing a specific AI capability."
+    },
+    {
+      "sample_id": "site_9e74f94399fe",
+      "source": "companyenrich",
+      "url": "https://smartsheet.com/",
+      "title": "Work Management Platform | Smartsheet",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "ai",
+      "evidence": [
+        "AI that connects systems, runs projects, and helps teams act faster",
+        "AI that connects systems, runs projects, and helps teams act faster"
+      ],
+      "cascade_reason": "AI is described generically and mainly as connected external tools, without a specific product action."
+    },
+    {
+      "sample_id": "site_9ed9aa7c90fe",
+      "source": "companyenrich",
+      "url": "https://hcaptcha.com/",
+      "title": "hCaptcha: Real-Time Bot Detection & Fraud Prevention",
+      "labels": [
+        "no_ai",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "using continuous behavioral and intent-based analysis rather than invasive tracking",
+        "Private Learning"
+      ],
+      "cascade_reason": "AI agents are the objects being detected or verified; no own AI capability is shown."
+    },
+    {
+      "sample_id": "site_9f448d812425",
+      "source": "aitoolbuzz",
+      "url": "https://www.centerya.com/",
+      "title": "Spring | Real Estate Intelligence",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Turn real estate data into closed deals.",
+        "Unlock hidden insights from listings, leads, and personal behavior to match clients with the right property"
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_a3546bfa2afb",
+      "source": "aitoolbuzz",
+      "url": "https://holytextai.com/",
+      "title": "AI-Powered Bible and Spiritual Guide",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "high"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Explore the Bible with AI-powered spiritual guidance.",
+        "Explore the Bible with AI-powered spiritual guidance. Get personalized insights, verse interpretations, and deep theological discussions."
+      ],
+      "cascade_reason": "AI provides personalized Bible insights, verse interpretations, and theological discussions."
+    },
+    {
+      "sample_id": "site_a3b4f1c6b3aa",
+      "source": "aitoolbuzz",
+      "url": "https://selectric.io/",
+      "title": "Selectric",
+      "labels": [
+        "ai_core",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Email replies, grounded in your context",
+        "Email replies, grounded in your context"
+      ],
+      "cascade_reason": "AI appears only in security and data-training statements, not as a described product capability."
+    },
+    {
+      "sample_id": "site_a4e4dcade3ce",
+      "source": "aitoolbuzz",
+      "url": "https://airesume.com/",
+      "title": "AiResume - The Best AI Resume & Cover Letter Builder",
+      "labels": [
+        "ai_core",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Let our AI resume builder do the heavy lifting for you!",
+        "Let our AI resume builder do the heavy lifting for you!"
+      ],
+      "cascade_reason": "Generates professional resume text using GPT-4o and AI-powered resume-building functionality."
+    },
+    {
+      "sample_id": "site_a54979e9d6b3",
+      "source": "aitoolbuzz",
+      "url": "https://www.inro.social/",
+      "title": "Inrō | Instagram DM automation with an AI agent that replies",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "The agent reads what someone actually wants, replies in seconds, and pulls you in when it matters.",
+        "The agent reads what someone actually wants, replies in seconds, and pulls you in when it matters."
+      ],
+      "cascade_reason": "Uses AI-driven responses in Instagram comment and DM automation."
+    },
+    {
+      "sample_id": "site_a58b4b5335b1",
+      "source": "aitoolbuzz",
+      "url": "https://projectnext.ai/",
+      "title": "ProjectNext | AI-powered project management",
+      "labels": [
+        "ai_core",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "ProjectNext.ai creates accurate, insightful documents tailored to your project's real needs.",
+        "manage every project detail with AI-structured milestones, tasks, and dependencies"
+      ],
+      "cascade_reason": "AI creates project documents and structures milestones, tasks, dependencies, resource allocation, and risk predictions."
+    },
+    {
+      "sample_id": "site_a6bdcb0f98e7",
+      "source": "aitoolbuzz",
+      "url": "https://leadfwd.ai/",
+      "title": "Signal. Sequence. Conversation. | Leadfwd",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "AI agents use that context to personalize outreach, handle replies, and book meetings.",
+        "AI agents use that context to personalize outreach, handle replies, and book meetings."
+      ],
+      "cascade_reason": "AI agents personalize outreach, classify intent, answer messages, and book sales meetings."
+    },
+    {
+      "sample_id": "site_a6e1b4a534c2",
+      "source": "aitoolbuzz",
+      "url": "https://www.recallmemory.io/",
+      "title": "Remind AI",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "The local Artificial memory for your device.",
+        "The local Artificial memory for your device."
+      ],
+      "cascade_reason": "The snippets provide only a vague AI-memory description and unrelated article/comment content."
+    },
+    {
+      "sample_id": "site_a8248eca3948",
+      "source": "aitoolbuzz",
+      "url": "https://bugasura.io/",
+      "title": "Bugasura — Trust building within your AIDLC",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Bug tracker, test management, AI agents — free forever, unlimited users.",
+        "Bug tracker, test management, AI agents"
+      ],
+      "cascade_reason": "Offers agentic testing with context ingestion and agent-powered execution."
+    },
+    {
+      "sample_id": "site_a879ff3eca31",
+      "source": "companyenrich",
+      "url": "https://documentcloud.org/",
+      "title": "Home | DocumentCloud",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Automatic OCR and search indexing make it easy to explore documents.",
+        "Automatic OCR and search indexing make it easy to explore documents."
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_a91b1fe733b4",
+      "source": "companyenrich",
+      "url": "https://midjourney.com/",
+      "title": "Midjourney",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "We're a lab of 60 people known for building the most beautiful AI models in the world.",
+        "We're a lab of 60 people known for building the most beautiful AI models in the world."
+      ],
+      "cascade_reason": "Midjourney's core work is building AI models as an independent research lab."
+    },
+    {
+      "sample_id": "site_afeb6a7d4d1d",
+      "source": "companyenrich",
+      "url": "https://crowdcast.io/",
+      "title": "Crowdcast » Where the world gathers",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Make your live events easier to follow with English captions.",
+        "Reach, engage, and grow your community with online events."
+      ],
+      "cascade_reason": "AI is only a discussion topic in the community's programming."
+    },
+    {
+      "sample_id": "site_b08ac64d08bc",
+      "source": "aitoolbuzz",
+      "url": "https://imageapp.xyz/",
+      "title": "Image App | AI Generation & Model Training",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Create art, chat with AI, or train your own models.",
+        "Create art, chat with AI, or train your own models."
+      ],
+      "cascade_reason": "The product creates art, chats with AI, and trains image models."
+    },
+    {
+      "sample_id": "site_b2397626312f",
+      "source": "companyenrich",
+      "url": "https://bitdefender.com/",
+      "title": "Bitdefender - Global Leader in Cybersecurity Software",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "best-in-class threat prevention, detection, and response solutions worldwide",
+        "delivering best-in-class threat prevention, detection, and response solutions worldwide"
+      ],
+      "cascade_reason": "Bitdefender says its AI routes users to the appropriate product."
+    },
+    {
+      "sample_id": "site_b2b0dd56455e",
+      "source": "companyenrich",
+      "url": "https://ilovepdf.com/",
+      "title": "iLovePDF | Online PDF tools for PDF lovers",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Compress, resize, and enhance your images with AI.",
+        "Compress, resize, and enhance your images with AI."
+      ],
+      "cascade_reason": "AI enhances images within the PDF tools service."
+    },
+    {
+      "sample_id": "site_b403cb8bbe14",
+      "source": "aitoolbuzz",
+      "url": "https://chatness.app/",
+      "title": "Stewan Silva",
+      "labels": [
+        "ai_feature",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "A platform to easily embed chatbots into any website.",
+        "AI focused Google Analytics alternative."
+      ],
+      "cascade_reason": "AI-focused platform is mentioned, but no specific AI capability is described."
+    },
+    {
+      "sample_id": "site_b5854dfccbf7",
+      "source": "aitoolbuzz",
+      "url": "https://storykit.io/",
+      "title": "Make 200% more video –  with 95% less budget | Storykit",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "An AI-native service that combines technology (our platform) and editorial expertise (our team)",
+        "An AI-native service that combines technology (our platform) and editorial expertise (our team)"
+      ],
+      "cascade_reason": "Calls itself AI-native but does not describe a specific AI-performed capability."
+    },
+    {
+      "sample_id": "site_b6926895b51a",
+      "source": "companyenrich",
+      "url": "https://cookiebot.com/",
+      "title": "Cookiebot™ CMP by Usercentrics - GDPR Compliance for SMBs",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "Cookiebot CMP by Usercentrics is your CMP for effortless GDPR compliance.",
+        "manage cookies and consent preferences on your website"
+      ],
+      "cascade_reason": "AI control and data access is too vague to establish the product performs AI work."
+    },
+    {
+      "sample_id": "site_b82ea27bb676",
+      "source": "companyenrich",
+      "url": "https://onlyoffice.com/",
+      "title": "Private AI-powered office infrastructure | ONLYOFFICE",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "ai",
+      "evidence": [
+        "Build your private AI-powered office infrastructure",
+        "Build your private AI-powered office infrastructure"
+      ],
+      "cascade_reason": "AI-powered infrastructure and assistants are mentioned without a specific described capability."
+    },
+    {
+      "sample_id": "site_ba91d85eb132",
+      "source": "companyenrich",
+      "url": "https://crazyegg.com/",
+      "title": "Crazy Egg Website — Optimization | Heatmaps, Recordings, Surveys & A/B Testing",
+      "labels": [
+        "ai_feature",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "See all your metrics in one simple dashboard, with AI-automated analysis and exportable data tables.",
+        "with AI-automated analysis and exportable data tables"
+      ],
+      "cascade_reason": "Crazy Egg provides AI-automated website analysis."
+    },
+    {
+      "sample_id": "site_bb3b392a7f4b",
+      "source": "companyenrich",
+      "url": "https://techsmith.com/",
+      "title": "Camtasia | Screen Recording, Video Editing & Training Content Creation",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "enterprise ready workflows and AI-powered features",
+        "enterprise ready workflows and AI-powered features"
+      ],
+      "cascade_reason": "Camtasia mentions AI-powered features without describing what they do."
+    },
+    {
+      "sample_id": "site_bb6756cad05e",
+      "source": "aitoolbuzz",
+      "url": "https://letsfoodie.com/",
+      "title": "Let's Foodie | The Ultimate Resource for Foodies Across the Globe",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "FREE AI Recipe Generator",
+        "FREE AI Recipe Generator"
+      ],
+      "cascade_reason": "Homepage identifies an AI recipe generator as a product capability."
+    },
+    {
+      "sample_id": "site_bf4eb2130d77",
+      "source": "aitoolbuzz",
+      "url": "https://kiwi.video/",
+      "title": "kiwi",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "Learn more from videos with AI",
+        "Learn more from videos with AI"
+      ],
+      "cascade_reason": "Only vaguely claims users can learn more from videos with AI; no specific product capability is described."
+    },
+    {
+      "sample_id": "site_c47539245023",
+      "source": "aitoolbuzz",
+      "url": "https://thedream.ai/",
+      "title": "TheDream.ai - Create your perfect profile picture with AI.",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Create your perfect profile picture with AI.",
+        "Utilizing artificial intelligence, we can create amazing photos"
+      ],
+      "cascade_reason": "AI creates personalized profile-picture photos."
+    },
+    {
+      "sample_id": "site_c95ec20d502c",
+      "source": "companyenrich",
+      "url": "https://orcd.co/",
+      "title": null,
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Smart links to all major services",
+        "automate and optimize campaigns"
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_cbdd6a259116",
+      "source": "companyenrich",
+      "url": "https://evernote.com/",
+      "title": "Best Note Taking App - Organize Your Notes with Evernote",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "Evernote v11 introduces powerful new AI features to level up your second brain.",
+        "Evernote v11 introduces powerful new AI features to level up your second brain."
+      ],
+      "cascade_reason": "AI features are mentioned, but no specific AI-performed task is identified."
+    },
+    {
+      "sample_id": "site_cbeefa897b06",
+      "source": "aitoolbuzz",
+      "url": "https://www.swatle.ai/",
+      "title": "Swatle — AI-Powered Business Platform",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "The AI-powered platform for modern teams.",
+        "The AI-powered platform for modern teams."
+      ],
+      "cascade_reason": "AI-powered platform is claimed without describing a specific AI capability."
+    },
+    {
+      "sample_id": "site_ccdfa5b03364",
+      "source": "aitoolbuzz",
+      "url": "https://www.merge.dev/",
+      "title": "Merge - The universal context engine for AI",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "ai",
+      "evidence": [
+        "Merge is the universal context engine for AI.",
+        "Merge is the universal context engine for AI."
+      ],
+      "cascade_reason": "Connects customers' AI agents to data, tools, and models; no own AI task is described."
+    },
+    {
+      "sample_id": "site_ce328c3f99a1",
+      "source": "aitoolbuzz",
+      "url": "https://composio.dev/",
+      "title": "Composio",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Put the AI you already use to work across 1,500+ apps.",
+        "Give your AI secure access to 1,500+ apps in minutes"
+      ],
+      "cascade_reason": "Provides integrations and access for users’ existing AI assistants; explicitly is not another chatbot."
+    },
+    {
+      "sample_id": "site_d0d41e5614ae",
+      "source": "aitoolbuzz",
+      "url": "https://www.morpher.com/",
+      "title": "Morpher — Close your positions",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Close your open positions at a locked final price.",
+        "Close your open positions at a locked final price."
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_d3a36fcce155",
+      "source": "companyenrich",
+      "url": "https://sonicwall.com/",
+      "title": "Cybersecurity That Delivers Real Business Outcomes | SonicWall",
+      "labels": [
+        "ai_feature",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "One lightweight agent pairs AI-powered NGAV with Real-Time Deep Memory Inspection (RTDMI)-driven EDR",
+        "One lightweight agent pairs AI-powered NGAV with Real-Time Deep Memory Inspection (RTDMI)-driven EDR"
+      ],
+      "cascade_reason": "SonicWall includes an AI-powered next-generation antivirus feature."
+    },
+    {
+      "sample_id": "site_d51d34b50e64",
+      "source": "companyenrich",
+      "url": "https://substack.com/",
+      "title": "Substack",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "high"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "You always own your intellectual property, mailing list, and subscriber payments.",
+        "You always own your intellectual property, mailing list, and subscriber payments."
+      ],
+      "cascade_reason": "AI appears in discussion of writing and detection, not as a demonstrated Substack capability."
+    },
+    {
+      "sample_id": "site_d675888115a3",
+      "source": "aitoolbuzz",
+      "url": "https://strut.so/",
+      "title": "STRUT — AI Workspace & Notebook for Long-Form Writing",
+      "labels": [
+        "ai_feature",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Build and revise the full draft with context-aware AI that follows your direction.",
+        "Strut is an AI-powered workspace and notebook that helps you create, expand, and organize essays"
+      ],
+      "cascade_reason": "AI develops, expands, organizes, and revises long-form writing from notes."
+    },
+    {
+      "sample_id": "site_d6d330467b7a",
+      "source": "companyenrich",
+      "url": "https://doodle.com/",
+      "title": "Free online meeting scheduling tool | Doodle",
+      "labels": [
+        "ai_mention_only",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "ambient intelligence requires absolute data trust",
+        "ambient intelligence requires absolute data trust"
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_da74e93f9ccb",
+      "source": "aitoolbuzz",
+      "url": "https://www.buildeasy.ai/",
+      "title": "Build Easy AI Inc",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "We empower business leaders with intelligent AI Agent solutions",
+        "We empower business leaders with intelligent AI Agent solutions"
+      ],
+      "cascade_reason": "Offers AI adoption and development services, but snippets describe no specific AI-performed product capability."
+    },
+    {
+      "sample_id": "site_da95851a56da",
+      "source": "aitoolbuzz",
+      "url": "https://speak4me.io/",
+      "title": "Speak4Me - Text to Speech",
+      "labels": [
+        "ai_core",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Scan any physical or digital text and convert it into natural sounding audio.",
+        "Ask any questions to your file and get detailed answers or concise summaries instantly."
+      ],
+      "cascade_reason": "The product converts text files, PDFs, and websites into speech."
+    },
+    {
+      "sample_id": "site_dd978c38bdfd",
+      "source": "aitoolbuzz",
+      "url": "https://draw-a-ui-umber.vercel.app/",
+      "title": "make real • tldraw",
+      "labels": [
+        "insufficient",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "Draw a ui and make it real with tldraw.",
+        "Draw a ui and make it real with tldraw."
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_de57949a76ac",
+      "source": "companyenrich",
+      "url": "https://google.com/",
+      "title": "Google",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Search the world's information, including webpages, images, videos and more.",
+        "Search the world's information, including webpages, images, videos and more."
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_e208210384c0",
+      "source": "companyenrich",
+      "url": "https://matrix.to/",
+      "title": "You're invited to talk on Matrix",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Matrix.to is a preview service from chat rooms, people and communities on Matrix.",
+        "Matrix.to is a preview service from chat rooms, people and communities on Matrix."
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_e37ed65899b0",
+      "source": "companyenrich",
+      "url": "https://chartbeat.com/",
+      "title": "Chartbeat",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "Real-Time Dashboard: Track every page on all your sites",
+        "real-time analytics tools that help editorial teams understand audience behavior"
+      ],
+      "cascade_reason": "AI-powered platform is claimed, but no specific AI capability is described."
+    },
+    {
+      "sample_id": "site_e9b84d1d0a83",
+      "source": "companyenrich",
+      "url": "https://telegram.org/",
+      "title": "Telegram Messenger",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "messages are heavily encrypted and can self-destruct.",
+        "messages are heavily encrypted and can self-destruct."
+      ],
+      "cascade_reason": "Telegram advertises AI Guardians for Groups as an included product feature."
+    },
+    {
+      "sample_id": "site_eb43de217c6d",
+      "source": "aitoolbuzz",
+      "url": "https://draup.com/",
+      "title": "AI Workforce Transformation & AI Sales Agents | Draup",
+      "labels": [
+        "ai_core",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "equip sales teams with autonomous AI sales agents",
+        "equip sales teams with autonomous AI sales agents"
+      ],
+      "cascade_reason": "Etter models AI's impact on roles and tasks, scores automation potential, and builds transformation roadmaps."
+    },
+    {
+      "sample_id": "site_ee74854c23fb",
+      "source": "companyenrich",
+      "url": "https://qualtrics.com/",
+      "title": "Qualtrics XM AI: The Future of Experience Management - Qualtrics",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Simulate customer and employee experiences before they happen, predict what comes next",
+        "Simulate customer and employee experiences before they happen, predict what comes next"
+      ],
+      "cascade_reason": "Uses AI for simulation, prediction, and generating predictive experience-management insights."
+    },
+    {
+      "sample_id": "site_eec8d5c6b594",
+      "source": "aitoolbuzz",
+      "url": "https://betterdeal.ai/",
+      "title": "BetterDeal AI - Smart Real Estate Investment Analysis Platform",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "high",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "Our AI analyzes property values, rental income potential, repair costs, and market trends in seconds",
+        "Our AI analyzes property values, rental income potential, repair costs, and market trends in seconds"
+      ],
+      "cascade_reason": "AI analyzes property values, rental potential, repair costs, and market trends."
+    },
+    {
+      "sample_id": "site_f10b311d8e3f",
+      "source": "companyenrich",
+      "url": "https://honeybook.com/",
+      "title": "HoneyBook | AI-powered client relationship platform",
+      "labels": [
+        "ai_feature",
+        "ai_feature"
+      ],
+      "confidence": [
+        "high",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "ai",
+      "evidence": [
+        "HoneyBook now works inside ChatGPT.",
+        "Ask who's overdue, what you quoted a client, what's booked Saturday. The answers come from your account"
+      ],
+      "cascade_reason": "AI is claimed to provide outputs and insights, but no specific capability is described."
+    },
+    {
+      "sample_id": "site_f1576e9088ed",
+      "source": "aitoolbuzz",
+      "url": "https://www.mysocialpulse.com/",
+      "title": "Home | mysocialpulse",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "access the social pulse of your customers, consumers, employees, partners, wider population and more",
+        "access the social pulse of your customers, consumers, employees, partners, wider population and more"
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_f43684666555",
+      "source": "aitoolbuzz",
+      "url": "https://vgbd.carrd.co/",
+      "title": "Vagabond",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "non_ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Vagabond, is here to orchestrate an unforgettable itinerary with highlights that match your preferences.",
+        "Vagabond, is here to orchestrate an unforgettable itinerary with highlights that match your preferences."
+      ],
+      "cascade_reason": ""
+    },
+    {
+      "sample_id": "site_f55345a466b1",
+      "source": "companyenrich",
+      "url": "https://duo.com/",
+      "title": "IAM & MFA Identity Security for Business, Humans, AI | Cisco Duo",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Duo’s Agentic IAM extends formidable zero trust tenets to agentic workforce.",
+        "Duo’s Agentic IAM extends formidable zero trust tenets to agentic workforce."
+      ],
+      "cascade_reason": "AI appears as the protected agentic workforce, not as Duo's own functionality."
+    },
+    {
+      "sample_id": "site_f5df17254d4c",
+      "source": "aitoolbuzz",
+      "url": "https://chaibar.ai/",
+      "title": "chaibar.ai",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "chaibar is an AI assistant for your mac, combining ChatGPT and Dall-E",
+        "chaibar is an AI assistant for your mac, combining ChatGPT and Dall-E"
+      ],
+      "cascade_reason": "AI assistant combines ChatGPT and Dall-E."
+    },
+    {
+      "sample_id": "site_fa44c9b46314",
+      "source": "aitoolbuzz",
+      "url": "https://www.bitskout.com/",
+      "title": "Document Extraction for monday.com, Make, Zapier, Power Automate | Bitskout",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "provide a few examples for your own document to Bitskout AI, create custom plugins",
+        "just provide a few examples for your own document to Bitskout AI, create custom plugins"
+      ],
+      "cascade_reason": "AI extracts information from documents, images, and emails into connected tools."
+    },
+    {
+      "sample_id": "site_fc0234571dd3",
+      "source": "aitoolbuzz",
+      "url": "https://eleo.ai/",
+      "title": null,
+      "labels": [
+        "insufficient",
+        "ai_mention_only"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "unresolved",
+      "keyword_rule": "ai",
+      "cascade_v2": "unresolved",
+      "cascade": "unresolved",
+      "evidence": [
+        "One Simple AI Application for Business",
+        "One Simple AI Application for Business"
+      ],
+      "cascade_reason": "Only a vague AI application claim appears, without described capability."
+    },
+    {
+      "sample_id": "site_fd06bfd1e71c",
+      "source": "companyenrich",
+      "url": "https://github.blog/",
+      "title": "Home - The GitHub Blog",
+      "labels": [
+        "no_ai",
+        "no_ai"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "non_ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "non_ai",
+      "cascade": "non_ai",
+      "evidence": [
+        "Updates, ideas, and inspiration from GitHub to help developers build and design software.",
+        "Updates, ideas, and inspiration from GitHub to help developers build and design software."
+      ],
+      "cascade_reason": "AI appears in GitHub Blog articles and topics, not as blog functionality."
+    },
+    {
+      "sample_id": "site_feef0520e1fe",
+      "source": "aitoolbuzz",
+      "url": "https://byrdhouseapp.com/",
+      "title": "Langfinity",
+      "labels": [
+        "ai_core",
+        "ai_core"
+      ],
+      "confidence": [
+        "low",
+        "low"
+      ],
+      "gold": "ai",
+      "keyword_rule": "ai",
+      "cascade_v2": "ai",
+      "cascade": "ai",
+      "evidence": [
+        "AI-powered, industry-specific voice translation in 50+ languages",
+        "AI-powered, industry-specific voice translation in 50+ languages"
+      ],
+      "cascade_reason": "It performs real-time, industry-specific voice translation for meetings and events."
+    }
+  ]
+}

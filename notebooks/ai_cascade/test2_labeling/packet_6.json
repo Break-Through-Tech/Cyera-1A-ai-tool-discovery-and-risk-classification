@@ -1,0 +1,865 @@
+[
+ {
+  "sample_id": "site_58980a0b453c",
+  "title": "ChatbotsPlace - All-in-one AI Platform",
+  "meta_description": "Access ChatGPT, Claude, Gemini, and Grok. All in One Place. Access ChatGPT without VPN. Use Claude from China. Get Gemini in China.",
+  "og_description": "Access ChatGPT, Claude, Gemini, and Grok. All in One Place. Access ChatGPT without VPN. Use Claude from China. Get Gemini in China.",
+  "headings": [
+   "ChatbotsPlace",
+   "One platform or separate subscriptions?",
+   "About ChatbotsPlace",
+   "Chat",
+   "Images / Videos",
+   "Download Our Extensions & Apps",
+   "Latest updates",
+   "Follow us"
+  ],
+  "page_text": "ChatbotsPlace\nAccess ChatGPT, Claude, Gemini, and Grok. All in One Place.\nUse ChatGPT, Claude, and Gemini in China without using VPN.\nDon't have an account? Simply enter your email above. \nWe will create an account for you as you login.\nOne platform or separate subscriptions?\nSeparate subscriptions on the providers’ own apps\nAccess supported models inside ChatbotsPlace, with the features and allowances of the Pro plan.\nChatbotsPlace does not include the subscriptions listed above, paid accounts on those services, or their exclusive features. Model access, tools, and usage limits differ.\nIllustrative monthly price comparison: all four separate subscriptions versus standard monthly ChatbotsPlace Pro, before additional gem purchases. This is not a comparison of identical benefits. Provider prices, taxes, and regional pricing may vary; your savings depend on which subscriptions you would otherwise buy.\nAbout ChatbotsPlace\nCost Saver\nOne subscription. All the best AI models\nImage + Video Generation\nGenerate beautiful images and videos from text using AI in seconds\nGlobally Available\nOur product is available globally with no country restrictions\nAI tools\n1K+ additional AI tools available to help you with academic research\nStart Free Trial\nCreate an account today and try our AI for free"
+ },
+ {
+  "sample_id": "site_aa2a8d9bc54b",
+  "title": "The easiest way to automate anything - IFTTT",
+  "meta_description": "IFTTT connects 1,000+ apps and automates them for free — no code needed. Connect Google, Webhooks, Discord, Telegram, Slack and more in minutes.",
+  "og_description": "IFTTT connects 1,000+ apps and automates them for free — no code needed. Connect Google, Webhooks, Discord, Telegram, Slack and more in minutes.",
+  "headings": [
+   "The easiest way to automate anything",
+   "How does IFTTT work?",
+   "Connect an automation in a minute or less",
+   "Work smarter with 1,000+ services",
+   "Let IFTTT power your AI workflows",
+   "Save time and boost productivity",
+   "Automate your everyday",
+   "Set your home on autopilot",
+   "The leading no-code platform on mobile",
+   "Make your Applets more powerful",
+   "The world’s best brands trust IFTTT IFTTT",
+   "Find your solution",
+   "Smarter workflows, measurable results",
+   "Join over 32M people who save time with IFTTT"
+  ],
+  "page_text": "The easiest way to automate anything\nYour apps and devices work better together. Connect 1,000+ services in minutes.\nHow does IFTTT work?\nIFTTT links two or more apps with automations called Applets. Choose a trigger, pick an action, and customize it to your needs. You can enable 100,000s of ready-made options or create your own in minutes.\nLet IFTTT power your AI workflows\nTurn ideas into working automations instantly. Use AI to generate, refine, and launch automations with confidence.\nBuild with Chat Create\nCreate any automation with a simple prompt. Riff and refine with our agent.\nConnect to the IFTTT MCP server\nConnect your AI tools to IFTTT services and automations with IFTTT MCP.\nSave time and boost productivity\nStreamline your projects, tasks, and calendar management with ease.\nSync tasks and calendars\nSync tasks, events, and deadlines across your favorite productivity apps.\nTrack billable hours\nTrack hours and send invoices seamlessly with flexible automations.\nStreamline work communication\nKeep all your work channels aligned across multiple tools.\nUse AI to jumpstart projects\nGenerate drafts for any kind of prompt using ChatGPT, Claude, and more.\nEasy DIY building\nApplets can be personalized or created in under a minute.\nYour integrations, your way\nRefine Applet timing and conditions using delays, queries, and filters.\nDo more with multiple actions\nMore actions mean you are getting more done, automatically.\nUp-level with AI\nSummarize, transform, and translate information with help from AI.\nSet your home on autopilot\nStreamline your smart home and IoT devices.\nLocation-based control\nAutomatically trigger lights, thermostats, and security systems based on your location.\nVoice assistants\nConnect Google Assistant or Siri to seamlessly manage all your smart home devices with custom commands.\nEnergy-saving automations\nUse real-time weather updates to adjust heating, cooling, and lighting to save energy and lower your bills.\nSmart home security automation\nLink locks, cameras, doorbells, and motion detectors to create a safer home for the people (and pets) you love.\nMake your Applets more powerful\n- Connect to more Applets Connect up to 20 automations with Pro, and unlimited automations with Pro+\n- Add multiple actions with exclusive services Add real-time data and multiple actions for smarter automations\n- Get access to faster speeds Get faster updates and more actions with higher rate limits and quicker checks\nThe world’s best brands trust\nOver 1,000 ap"
+ },
+ {
+  "sample_id": "site_5f563d4ec225",
+  "title": "MooTools",
+  "meta_description": "",
+  "og_description": "",
+  "headings": [
+   "",
+   "Open Source License",
+   "How to use?",
+   "Projects"
+  ],
+  "page_text": "MooTools is a collection of JavaScript utilities designed for the intermediate to advanced JavaScript developer. It allows you to write powerful and flexible code with its elegant, well documented, and coherent APIs.\nMooTools code is extensively documented and easy to read, enabling you to extend the functionality to match your requirements.\nMooTools libraries are released under the Open Source MIT license which gives you the possibility to use them and modify them in every circumstance.\nSelectors for DOM Elements\n// get elements by class\n$$('.foo'); // or even: document.getElements('.foo');\n// selector with different elements\n$$('div.foo, div.bar, div.bar a');\n// get a single element\ndocument.getElement('div.foo');\nMooTools uses a Class called Request.\n// create a new Class instance\nvar myRequest = new Request({\n    url: 'getMyText.php',\n    method: 'get',\n    onRequest: function(){\n        myElement.set('text', 'loading...');\n    },\n    onSuccess: function(responseText){\n        myElement.set('text', responseText);\n    },\n    onFailure: function(){\n        myElement.set('text', 'Sorry, your request failed :(');\n    }\n});\n// and to send it:\nmyRequest.send(data);\nTo send a form it can be even more simple!\nmyForm.send();\n// optionally you can add/change the form properties\nmyForm.set('send', {url: 'contact.php', method: 'get'});\nA simple MooTools Element example.\n// the short way\nnew Element('div#bar.foo');\n// using the element constructor\nnew Element('div', {\n    'class': 'foo',\n    id: 'bar'\n});\nAttach events to be updated on what's happening!\n// attach a click event o a element\nmyElement.addEvent('click', function(){\n    alert('clicked!');\n});\n// attach several events at a time\nmyElement.addEvents({\n    mouseover: function(){\n        alert('mouseover');\n    },\n    click: function(){\n        alert('click');\n    }\n});\nYou can also remove, fire or clone events!\n// remove a event\nmyElement.removeEvent(type, fn);\nA simple MooTools Class example.\nvar Animal = new Class({\n    initialize: function(age){\n        this.age = age;\n    }\n});\nvar Cat = new Class({\n    Extends: Animal,\n    initialize: function(name, age){\n        // calls initalize method of Animal class\n        this.parent(age);\n        this.name = name;\n    }\n});\nvar myCat = new Cat('Micia', 20);\nalert(myCat.name); // alerts 'Micia'.\nalert(myCat.age); // alerts 20.\nToday marks the release of MooTools Core and More versions 1.6.0. This is a minor revision that delivers a number of bug fixes as well as"
+ },
+ {
+  "sample_id": "site_94fd7ef523ea",
+  "title": "WooTechy® Official Website | Simplify Your Digital Life!",
+  "meta_description": "WooTechy is a renowned software company dedicated to providing professional solutions for Windows, Mac, Android, and iOS. Its product portfolio includes AI voice changer, AI voice generator, text-to-speech tool, video downloader, location modifier, file cracker and iPhone unlocker.",
+  "og_description": "",
+  "headings": [
+   "Text To Speech AI Voice Generator",
+   "Change GPS Location on iPhone/Android",
+   "Unlock iPhone & Android",
+   "WooTechy — Say it, Play it & Enjoy it",
+   "For Your Smart Living — WooTechy",
+   "File Cracker",
+   "Location Changer",
+   "WhatsApp Manager",
+   "WooTechy — Make Phone Troubles End Here",
+   "Top Picks From WooTechy",
+   "WooTechy Is Everywhere"
+  ],
+  "page_text": "WooTechy — Say it, Play it & Enjoy it\n VoxDo - AI Text To Speech\nConvert text to speech with 3000+ AI voices in 100+ languages\nText to Speech \nFor Your Smart Living — WooTechy\nLive Smarter, Live Better!\nFile Cracker\nRecover password and remove restriction of ZIP / RAR / PDF / Excel / Word / PowerPoint files\nLearn More\nWooTechy — Make Phone Troubles End Here\niPhone Unlocker\niOS System Repair\niOS Data Recovery\nTop Picks From WooTechy\n- Change Voice\n- Text to Speech\n- Download Video\n- Change Location\n- Unlock Phone\nHot Videos\nHow to Spoof Location on iPhone for Free? [iOS Fake GPS]\n[2 Free Ways] How to Fake GPS Location on Android?\n[Support iOS 18] How to Enter/Exit Recovery Mode on iPhone?\nBest Real-Time Voice Changer Software in 2026 [FREE]\nWooTechy Is Everywhere\n200+ Countries\nReaching over 200 countries and regions worldwide.\n2 Millions Users\nMore than 2 million users across the globe.\n25M Downloads\nOver 25 million downloads worldwide.\n24/7 Support\nRound-the-clock professional customer service."
+ },
+ {
+  "sample_id": "site_f5df17254d4c",
+  "title": "chaibar.ai",
+  "meta_description": "",
+  "og_description": "chaibar is an AI assistant for your mac, combining ChatGPT and Dall-E",
+  "headings": [],
+  "page_text": "You need to enable JavaScript to run this app."
+ },
+ {
+  "sample_id": "site_3de15a964768",
+  "title": "Uplup: The Quiz Maker Built for Lead Generation",
+  "meta_description": "Make personality quizzes, trivia, and graded assessments that capture leads while they run. Drag and drop or let AI build it. Free forever, forms included.",
+  "og_description": "Personality quizzes, trivia, and assessments that capture leads while they run. Drag and drop or let AI build it. Free forever.",
+  "headings": [
+   "Where quizzes meet lead generation",
+   "What quizzes can do for your business",
+   "Don't start from scratch",
+   "Or let AI build it for you with the AI Quiz Generator .",
+   "Generate a form from one prompt with the AI Form Generator .",
+   "Three steps. That's it.",
+   "Just tell it what you need.",
+   "Built for the way you actually work.",
+   "Connect with your favorite tools.",
+   "Loved by 10,000+ creators",
+   "Quick answers",
+   "Questions to start with",
+   "Free tools, no account needed",
+   "Start building quizzes for free"
+  ],
+  "page_text": "Where quizzes meet\nlead generation\nBuild personality quizzes, trivia, assessments, and scored tests in minutes. Use drag-and-drop or let AI generate it for you.\nTrusted by 10,000+ companies worldwide\nReady-made templates\nQuiz scoring modes\nNative CRM integrations\nFree responses, forever\nWhat quizzes can do for your business\nQuizzes are more than engagement tools. They capture leads, recommend products, segment audiences, and train teams.\nConvert traffic into leads\nEngage your website visitors with a quiz that speaks to exactly what they care about. Capture their email in exchange for personalized results, and turn passive browsers into qualified leads.\n- Collect emails before showing results\n- Segment leads based on quiz answers\n- Sync directly to your CRM or email tool\nQuiz: What type of marketer are you?\nBefore seeing your results...\nRecommend products and increase sales\nGuide every shopper to the right product based on their preferences and needs. Product recommendation quizzes increase conversions and reduce returns by matching buyers with exactly what they are looking for.\n- Personalized product recommendations\n- Higher average order value\n- Fewer returns from better matches\nQuiz: Find your perfect product\nWhat is your skin type?\nYour perfect match\nHydrating Daily Moisturizer\nRecommended for combination skin types\nUnderstand your audience before you sell\nUse assessment quizzes to learn what your customers actually need. Segment them by their answers so you can send the right message, offer, or content to the right people at the right time.\n- Segment audiences by quiz responses\n- Personalize follow-up emails and offers\n- Learn what your customers care about\nQuiz: What stage is your business in?\nAudience breakdown\nTest knowledge and track progress\nBuild scored quizzes that test understanding, certify completion, and give instant feedback. Whether you are onboarding new hires or teaching students, quizzes make learning measurable.\n- Instant scoring with pass/fail thresholds\n- Timed quizzes with leaderboards\n- Track individual and group performance\nQuiz: Company Policy Assessment\nEmployees must report data breaches within 24 hours.\nResults\nGreat job! You passed the compliance training. Your certificate has been sent to your email.\nDon't start from scratch\nBrowse 350+ templates designed for real use cases. Pick one, make it yours, and publish.\nWhat's your skin type?\nProduct Recommender\nE-Commerce\nWhat's your biggest marketing challenge?\nLead Generation Qui"
+ },
+ {
+  "sample_id": "site_00953ace36c6",
+  "title": "",
+  "meta_description": "",
+  "og_description": "",
+  "headings": [],
+  "page_text": "Save 40% on Nuendo 15\nIncluding the full version, updates, and crossgrades. Nuendo 15 users also get a 60% discount voucher for the full versions of WaveLab Pro and SpectraLayers Pro."
+ },
+ {
+  "sample_id": "site_49f8a0c3508b",
+  "title": "FullContact | Identity Resolution",
+  "meta_description": "FullContact Identity Resolution allows businesses to recognize an individual person, in real-time, by connecting various identifiers from their digital interactions.",
+  "og_description": "FullContact Identity Resolution allows businesses to recognize an individual person, in real-time, by connecting various identifiers from their digital interactions.",
+  "headings": [
+   "Understand your customers beyond just their name and email address.",
+   "Identify",
+   "Resolve",
+   "Enrich",
+   "Trusted Partners",
+   "The Role of Identity Resolution in Building an AI Data Foundation",
+   "Take control of your first-party data.",
+   "Create exciting opportunities with Identity Resolution"
+  ],
+  "page_text": "Powerful identity data and intelligence for every business.\nIdentify\nCreate a stream of high-intent leads by identifying visitors on your website.\nResolve\nTransform individual fragments of data into dynamic, unified customer records.\nEnrich\nAppend 900+ unique data attributes to new and existing customer records.\nTrusted Partners\nSpotlight\nThe Role of Identity Resolution in Building an AI Data Foundation\nFullContact supports your business in linking multiple identifiers into a single customer record. Our Identity Resolution gives AI agents the single source of truth they need to interact confidently and accurately.\nTake control of your first-party data.\nMarTech/AdTech Platforms\nStand out as a complete customer platform\nPlatforms have promised unified customer data for ages. Now you can finally deliver on a true, single customer view to power clients’ customer recognition, personalization, media amplification, and more.\nConsumer Brands\nDeliver stellar experiences that customers expect\nGet to know real people, in real time to create more meaningful — and profitable — customer interactions. No handling of PII necessary, and you keep full control of your own data.\nPublishers\nEnable hyper-targeted engagement across channels\nTransform anonymous website traffic into precise customer segments by connecting online and offline data. Resolve user identities with 700+ behavioral insights, boosting match rates up to 85% while protecting data privacy and delivering a true single customer view."
+ },
+ {
+  "sample_id": "site_5c8b8db412c7",
+  "title": "Bitrix24 - Free online workspace for your business: CRM, tasks, online meetings, and more.",
+  "meta_description": "An all-in-one free platform to manage your team and run your sales, Bitrix24 is designed to be seamlessly integrated into all your business processes and help you manage them with the highest precision and efficiency.",
+  "og_description": "An all-in-one free platform to manage your team and run your sales, Bitrix24 is designed to be seamlessly integrated into all your business processes and help you manage them with the highest precision and efficiency.",
+  "headings": [
+   "Bitrix24. Your ultimate workspace.",
+   "See why customers love Bitrix24",
+   "What makes Bitrix24 better than 99% of other solutions on the market?",
+   "Turn ideas into apps with a simple prompt",
+   "Flat pricing",
+   "Transform your business with Bitrix24",
+   "Bitrix24 has something for every team and department",
+   "Bitrix24 Enterprise.  Grow and scale with confidence",
+   "Bitrix24 is the driving force behind 15 million businesses worldwide",
+   "Bitrix24 in the Press",
+   "Achieve more with Bitrix24",
+   "Unlock the Power of Bitrix24!",
+   "Unlock the Power of Bitrix24!"
+  ],
+  "page_text": "See why customers love Bitrix24\nWhat makes Bitrix24 better than 99% of other solutions on the market?\n- Free forever for unlimited users\n- Replaces all your current SaaS solutions\n- Easy to migrate your data from other systems\n- Integrated with all your favorite services and apps\n- Used, loved, and trusted by 15,000,000+ organizations worldwide\n- 100% flat fee: predictable costs, no per-user pricing\nTurn ideas into apps with a simple prompt\nConnect Vibecode to your Bitrix24 and create apps, agents, chatbots, and other business tools simply by describing what you need in a chat with AI.\nLearn more\nFlat pricing\nEach of our plans has a fixed price and a user limit. You can keep adding users within the plan limit and still pay the same amount of money monthly/annually.\nReplaces:\nTransform your business with Bitrix24\nTrusted by 15 million+ companies worldwide\nBitrix24 Enterprise. Grow and scale with confidence\nMaximum security\nBitrix24 Enterprise data is hosted with AWS, which maintains the following certifications\nSOC 1/2/3\nGDPR\nDirective 95/46/EC\nISO 27001\nPCI DSS Level 1\nMaximum users\nFrom 101 up to 10,000\nMaximum space\nUp to 100 TB\nMaximum automation\nSales, tasks, workflows, business processes\nBitrix24 is the driving force behind 15 million businesses worldwide\n+26% task completion rate\n+32% employee engagement rate\n+43% lead conversion rate\nJefferson Rodrigo Bauer\nClients Relations Manager at Celepar\nSupported by a set of task management, analysis and information sharing tools, we've been able to create workflows for communications and approvals of internal processes, generating increased productivity.\n+26% task completion rate\nLearn more\nThai Binh Ho\nManager at Survival Skills Vietnam\nBitrix24 has helped our whole team to collaborate on a single feature-packed platform without the pain to switch from one software to another.\n+32% employee engagement rate\nLearn more\nÜwen Ergün\nCEO of KinderRechteForum LLC\nBitrix24 CRM is an excellent tool for improving interaction with your customers, as it includes instruments for creating reports and analyzing sales and marketing campaigns, so that you can gain a clear insight into your company's results and know whether or not your efforts are paying off.\n+43% lead conversion rate\nLearn more\nMobile CRM\nExternal users\nWorkflow automation\nSingle Sign-On\nWeb forms\nMessenger\nWork reports\nAI agents\nInvoices\nProduct catalog\nKanban board\nCall summary\nOrg chart\nScrum\nAnalytics\nApprovals\nWork hours tracking\nBoards\nPipelines\nCont"
+ },
+ {
+  "sample_id": "site_6a7eb3777049",
+  "title": "Home Assistant",
+  "meta_description": "Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a...",
+  "og_description": "Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.",
+  "headings": [
+   "Awaken your home",
+   "Release Notes",
+   "Recent Blog Posts",
+   "Alexa, turn on the lights",
+   "Ok Google, turn off the AC",
+   "Join The Community",
+   "Features",
+   "Over 2.7 million households"
+  ],
+  "page_text": "- 2026.10: You are here 📍 October 7, 2026\n- 2026.9: There's room on this bus September 2, 2026\n- LEDVANCE joins Works with Home Assistant October 13, 2026\n- Big Tech ruined the cloud, so we’re renaming ours October 2, 2026\n- Anonymous and open to all: The Home Assistant survey dataset August 26, 2026\n- Community Day 2026: Save the date! August 13, 2026\nWe are a non-profit and can't be sold or acquired.\nHome Assistant is a project by the Open Home Foundation.\nRead our founder's vision for the perfect home automation\nUse Alexa to control Home Assistant.\n    \nUse Google Assistant to control Home Assistant.\n    \nOur vibrant community is very active and super friendly. We love to talk and share our passion for home automation.\n    \nFeatures\nHome Assistant integrates with over a thousand different devices and services.\nOnce started, Home Assistant will automatically scan your network for known devices and allow you to easily set them up.\nEXPLORE INTEGRATIONS\nOnce you have integrated all your devices at home, you can unleash Home Assistant’s advanced automation engine to make your home work for you.\n- Turn on the light when the sun sets or when coming home\n- Alert you when you leave your garage door open.\nEXPLORE AUTOMATIONS\nHome Assistant dashboards allow you to display information about your smart home. Dashboards are customizable and provide a powerful way to manage your home from your mobile or desktop.\n- Easily create and customize your dashboards with drag-and-drop.\n- Different card types to visualize your data and control your smart home devices.\nEXPLORE DASHBOARDS\nAssist allows you to control Home Assistant using natural language. It is built on top of an open voice foundation and powered by knowledge provided by our community.\n- Customize your voice assistant and experiment with AI conversations.\n- Use Assist everywhere on your mobile phone, tablets, smartwatches, and even old-school telephones.\nEXPLORE ASSIST\nHome Assistant is not just limited to Home Assistant. Easily install other applications that will help you manage your home.\n- Run AdGuard, a DNS-based ad blocker\n- Run third party automation engines like NodeRed\n- Turn Home Assistant into a Spotify Connect target\nExplore apps for Home Assistant\nHome Assistant keeps your data local, no need for a cloud.\nHome Assistant communicates with your devices locally, and will fallback to pulling in data from the cloud if there is no other option. No data is stored in the cloud, and everything is processed lo"
+ },
+ {
+  "sample_id": "site_f8f85a469aa7",
+  "title": "melody ml",
+  "meta_description": "Melody ML lets you easily seperate audio tracks using Machine Learning.\n  Automatically isolate vocals and generate stems to remix songs with.",
+  "og_description": "",
+  "headings": [],
+  "page_text": "Your order was successful, you now have {{successAmount}} extra credits\nCreate an account\nCreating Account\nCreate Account\nBack\nLogin\nCreate account with Google\n{{ authError }}\nLogin to your account\nLogin\nLogging in\nReset Password\nBack\nCreate Account\n{{ authError }}\nReset Password\n{{ resetText }}\nBack\n{{ resetError }}\n{{ authError }}\nAdd credits to your account to upload more songs\nCredits go towards development and server costs, and help keep Melody ML running\n10 songs\nCheckout $5 USD\n10 songs\nCheckout $5 USD\n20 songs\nCheckout $10 USD\n20 songs\nCheckout $10 USD\n50 songs\nCheckout $20 USD\n50 songs\nCheckout $20 USD\nVisa/Debit Card\nVisa/Debit Card\nPayPal\nPayPal\nSong\nVocals\nDrums\nBass\nOther\nSeparate music tracks using machine learning\n{{ uploadText }}\nVocals Drums Instruments Bass\nVocals Drums Instruments Bass\nVocals Instrumental\nVocals Instrumental\nPlease enter a valid email address\nYour song is being processed, this can take 1-20 minutes You can refresh the page and come back later to download your stems\nUploads:\nCredit: {{credit}}\n{{ u.name.slice(0, 70) }}\n{{ u.name.slice(0, 40) }}\nRemove\nDownload\n{{ u.status }}\nCommon questions\nWhat is the maximum file size? 100mb\nWhat is the maximum song length? 10 minutes\nWhat audio formats are supported? MP3, Wav, Flac, Ogg/Vorbis\nHow long are files kept for? Processed files are available to download for 1 month\nHow much does it cost? After 2 free songs, each song costs $0.50\nWhy does my song show an error? You have either uploaded a song which is too long, or with a wrong format\nDo we use cookies? Yes\nDo we own, share or take authorship of uploaded songs? No\nWhat personal information does Melody collect? We store your email address for basic functionality. Stripe and PayPal collect information for payment details.\nDo we share your email or send spam? No\nDo users take copyright and legal responsibility for their uploads? Yes\nWhich model does Melody ML use? Melody ML is based on Demucs for processing.\nIf you have any questions or need help with anything contact us"
+ },
+ {
+  "sample_id": "site_855bfca67a96",
+  "title": "Chatend: Words In. Work Out.",
+  "meta_description": "Words In. Work Out.",
+  "og_description": "Words In. Work Out.",
+  "headings": [
+   "chatend.ai",
+   "Products",
+   "Local or Small Business?"
+  ],
+  "page_text": "New Blog Post:Codecasts ›\nProducts\nCODEGEN\nGenerate full TypeScript code from a list of requirements in under a second. Customize generation parameters, system prompts & snippets. Powered by Groq Cloud.\nBEEPCHAT\nAn AI chatbot that beeps every reply. Write long form content like essays or code without having to babysit the app.\nCODECASTS\nGenerate podcasts with TypeScript programming. Codecasts runs your code every morning and converts it to audio."
+ },
+ {
+  "sample_id": "site_1e66af7c2d93",
+  "title": "Playbuzz - Quizzes, Polls & Personality Tests",
+  "meta_description": "Take fun quizzes, personality tests, and polls. Discover what makes you unique with Playbuzz.",
+  "og_description": "",
+  "headings": [],
+  "page_text": "ABOUT\n▼\nPrivacy Policy\nOnline Terms\nDMCA Notice\nHome\nQuizzes\nPrivacy Policy\nTerms\nNEW\nTRIVIA\nPERSONALITY\nLOVE\nLIFESTYLE\nENTERTAINMENT\nSMART\nANIMALS\nSPORTS\nMUSIC\nMOVIES\nFEATURED\n>\nf\nt\nw\nBINGE\nOnly Highly Gifted People Can Read Backwards. Can You?\nTerry Stein\n>\nf\nt\nw\nThis Art Association Test Will Reveal Your Destiny!\nRebecca Dawn\n>\nf\nt\nw\nHow Many People Have Been In Love With You?\nRebecca Dawn\nMOST POPULAR\nf\nt\nw\nHow Charismatic Are You Really?\nStephanie Stevens · 3.2M plays\nf\nt\nw\nBINGE\nWhich Harry Potter Character Are You?\nKat Lewis · 4.7M plays\nf\nt\nw\nBINGE\nSpell These 15 Words Correctly To Prove You're a Grammar Pro\nTerry Stein · 4.1M plays\nf\nt\nw\nWhich Iconic Celeb Will You Have An Affair With?\nTerry Stein · 2.1M plays\nf\nt\nw\nWhich Decade Would You Have Thrived In?\nRebecca Dawn · 2.8M plays\nf\nt\nw\nHOT\nOnly 5% of People Can Ace This IQ Challenge\nDr. Patricia Wells · 5.6M plays\ntaking this now\nf\nt\nw\nWhat Animal Were You In A Past Life?\nSimone Sylvia · 1.7M plays\nf\nt\nw\nWhich Sport Were You Born to Play?\nMike Jackson · 2.3M plays\nf\nt\nw\nWhich Music Era Defines Your Soul?\nSarah Collins · 3.1M plays\nf\nt\nw\nBINGE\nWhich Movie Villain Are You?\nJake Rivera · 4.2M plays\nf\nt\nw\nOnly 7% Of Adults Can Pass This Basic English Test\nMichael Rogers · 3.6M plays\nf\nt\nw\nThese Tough Questions Will Reveal Your True Addiction!\nRebecca Dawn · 1.8M plays\nf\nt\nw\nWhat Emotion Is Your Subconscious Hiding?\nBenjamin Birely · 1.4M plays\nf\nt\nw\nHow Many People Have Secretly Been In Love With You?\nRebecca Dawn · 2.6M plays\nf\nt\nw\nBINGE\nWhich Friends Character Are You?\nTV Fan Club · 6.7M plays\nf\nt\nw\nWhat Kind of Animal Are You?\nAmanda Bendrik · 1.5M plays\nf\nt\nw\nCan You Solve These 10 Brain Teasers?\nBrain Teaser HQ · 3.3M plays\nf\nt\nw\nWhose Greek God or Goddess Child Would You Be?\nAinhize Ayerbe · 1.9M plays\nf\nt\nw\nHow Much Do You Know About The FIFA World Cup?\nFootball Fans · 2.8M plays\nf\nt\nw\nWhich Music Decade Matches Your Soul?\nMusic Vibes · 2.5M plays\nf\nt\nw\nWhich Pixar Movie Reflects Your Life Story?\nAnimation Fan · 3.8M plays\nf\nt\nw\nWhat Love Language Do You Speak?\nHeart & Soul · 4.1M plays\nf\nt\nw\nWhat City Should You Actually Be Living In?\nUrban Guide · 3.2M plays\nf\nt\nw\nThis Art Association Test Will Reveal Your Destiny!\nRebecca Dawn · 2.1M plays\nf\nt\nw\nBINGE\nCan You Name Every Country By Its Flag?\nWorld Quiz Team · 4.8M plays\nf\nt\nw\nBINGE\nWhich Game of Thrones House Do You Belong To?\nHBO Fans · 7.2M plays\nf\nt\nw\nWhich Endangered Animal Matches Your Personality?\nNature Quiz · 1.1M plays\nf\nt\nw\nCan You"
+ },
+ {
+  "sample_id": "site_e9b84d1d0a83",
+  "title": "Telegram Messenger",
+  "meta_description": "",
+  "og_description": "Fast. Secure. Powerful.",
+  "headings": [],
+  "page_text": "EN\nEnglish\nBahasa Indonesia\nBahasa Melayu\nDeutsch\nEspañol\nFrançais\nItaliano\nNederlands\nO‘zbek\nPolski\nPortuguês (Brasil)\nTürkçe\nБеларуская\nРусский\nУкраїнська\nҚазақша\nالعربية\nفارسی\n한국어\nFollow on X\nHome\nFAQ\nApps\nAPI\nSafety\nRecent News\nAug 25\nWelcome Messages, Buttons in Messages and Signed Gifts\nJul 14\nRich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs\nJun 11\nSmartwatch Apps, Rich Text for Bots, AI Guardians for Groups, and Much More\na new era of messaging\nTelegram for\nAndroid\nTelegram for\niPhone\n/\niPad\nTelegram for\nWindows / Mac / Linux\nBrowse more Telegram apps\nTelegram for\nPC / Linux\nTelegram for\nmacOS\nRecent News\nWelcome Messages, Buttons in Messages and Signed Gifts\nIntroducing Welcome Messages to greet new members of groups or channels, Buttons in Messages to make any text interactive, Inline Documents…\nAug 25, 2026\nRich Text Editor, Communities, Ephemeral Messages in Groups, 350 Million GIFs\nIntroducing a rich text editor to format and generate text, Telegram Communities linking together several groups, channels and bots, ephemeral…\nJul 14, 2026\nWhy Telegram?\nSimple\nTelegram\nis so simple you already know how to use it.\nPrivate\nTelegram\nmessages are heavily encrypted and can self-destruct.\nSynced\nTelegram\nlets you access your chats from multiple devices.\nFast\nTelegram\ndelivers messages faster than any other application.\nPowerful\nTelegram\nhas no limits on the size of your media and chats.\nOpen\nTelegram\nhas an open\nAPI\nand source code free for everyone.\nSecure\nTelegram\nkeeps your messages safe from hacker attacks.\nSocial\nTelegram\ngroups can hold up to 200,000 members.\nExpressive\nTelegram\nlets you completely customize your messenger."
+ },
+ {
+  "sample_id": "site_52e1190b2cc0",
+  "title": "OI Avatar",
+  "meta_description": "OI Avatar is a web based platform to create videos using AI avatars in minutes.",
+  "og_description": "",
+  "headings": [
+   "Practice how to speak English with confidence",
+   "Increase your confidence when speaking in English",
+   "Old way",
+   "New way",
+   "How does it work?",
+   "Frequently Asked Questions"
+  ],
+  "page_text": "OI Avatar is a web-based platform to create videos using a digital representation of yourself, in a virtual setting.\nWith OI Avatar, you can create your own speaking digital avatar in less than 5 minutes, and hear yourself speak with a proper english accent.\nno credit card required\nTry your English speech with OI Avatar\nFinally, a simple tool to sharpen your public speaking skills\nWith OI Avatar, you can practice how to speak English like a native in a few clicks\nTraditional learning methods are cool, but not fast.\nAlso, you don't learn the contents you need, but what has been selected for you.\nYou don't need another English language course, you only need to see how you should speak like a native.\nOI Avatar allows you to practice English at your own pace, helping you to identify issues with your pronunciation only for the words you want to improve.\nYou can improve your public speaking skills by imitating a better (but digital) version of yourself, not a stranger person from movies or by taking another English class.\nOver 10,000 companies and 100,000 persons have generated their avatars globally\nLearn how to use OI Avatar in 5 simple steps\nCreate your own Avatar\nRecord yourself for 20 seconds\nType your script\nType what you want in English Language\nChoose your voice\nSelect British English or US English\nSelect your video background\nUpload your background in a pdf format\nGenerate your Video\nSee it all magically come to life\nHave questions ? We are here to help\nTerms and Conditions\n|\nPrivacy Page\n© 2022 Otermans Institute. All Rights Reserved"
+ },
+ {
+  "sample_id": "site_366a0da2490e",
+  "title": "UniFab AI | Enhance Your Video & Audio Quality with AI",
+  "meta_description": "UniFab is a leading AI-powered solution that transforms your video and audio challenges into high-quality results—featuring video and audio enhancers, converter, and editor, etc.",
+  "og_description": "UniFab is a leading AI-powered solution that transforms your video and audio challenges into high-quality results—featuring video and audio enhancers, converter, and editor, etc.",
+  "headings": [
+   "UniFab AI Elevate every frame. Enrich sound.",
+   "Explore UniFab AI tools for video enhancement and restoration",
+   "Convert video and enhance audio in one workflow",
+   "Get started with UniFab All-In-One",
+   "Hardware support for AI video and audio processing",
+   "Improve video quality for restoration, creation, and everyday playback",
+   "Trusted by",
+   "FAQs about UniFab AI",
+   "Explore the UniFab AI resource center"
+  ],
+  "page_text": "1,000+ format conversions and quick edits\nConvert videos effortlessly with support for 1,000+ formats and streamline your workflow with quick editing tools. Simple, efficient, and designed for common video tasks.\nUniFab Audio Upmix uses AI-driven channel distribution to elevate your audio to EAC3 5.1 or DTS 7.1, delivering cinematic surround sound for an immersive experience. Learn more.\nUniFab's Background Remover removes or replaces video backgrounds, even with complex details. The Vocal Remover reduces vocals for karaoke or instrumental mixes. Learn more.\nUse AI-powered tools to revive old videos by removing noise, correcting interlacing, and improving color accuracy. This workflow is suited to vintage films, home recordings, and historical documentaries.\nTransform your videos into cinematic-quality content by improving resolution, color depth, frame rate, and facial details. Ideal for movies, TV series, and any footage that needs a professional upgrade in both visuals and sound.\nSeamlessly convert, compress, and edit videos with support for over 1000 formats. These AI-powered tools optimize videos for sharing, professional editing, and storage efficiency while maintaining exceptional quality.\nGood Quality as Expected. Easy menues and interface.\nUniFab is an amazing AI-powered video enhancer.\nBest AI-powered video processing tool for enhancing your video quality.\nGreat for advanced video enhancement at a good price.\nMulti-functional software with everything in one interface.\nThe results and speed are impressive.\nLearn more through our YouTube channel, guidebook, or community discussion.\nUniFab offers a 30-day free trial, granting full access to all features without watermarks and allowing three trials per module. You can explore the software before making a purchase decision.\nUniFab provides a 7-day money-back guarantee for monthly subscription plans, and a 14-day money-back guarantee for yearly subscription plans and lifetime plans.\nTo perform AI face enhancement well, we recommend that your device meets at least the following criteria:\nOperating system: Windows 10 or 11 (64-bit only)\nSystem memory (RAM): 16 GB or more\nGraphics card: NVIDIA RTX 30 series or higher with 8 GB VRAM\nCPU: 8th-generation Intel Core i7 or AMD Ryzen 3000 series or higher\nConnect with thousands of UniFab users, share feedback, discuss products, and get exclusive updates and offers."
+ },
+ {
+  "sample_id": "site_2a3ff115f6f9",
+  "title": "PrepPro - Ace Your Job Interviews with AI-Powered Preparation",
+  "meta_description": "PrepPro helps you prepare for job interviews by generating personalized interview questions, providing answer feedback, and has support 24/7. Boost your confidence and land your dream job with our AI-powered tools.",
+  "og_description": "",
+  "headings": [
+   "Preparing For A Job Interview Sucks",
+   "We're here to fix that",
+   "Gain an Unfair Advantage in Interviews",
+   "Master the Most Common Interview Questions and Ace Your Answers with Confidence",
+   "Generate Questions",
+   "Train Answering",
+   "Elevate with AI mentorship",
+   "Simple pricing for everyone.",
+   "Weekly",
+   "Monthly",
+   "Product",
+   "Community",
+   "Other Projects"
+  ],
+  "page_text": "Preparing For A Job Interview Sucks\nWe're here to fix that\nPrepPro offers comprehensive interview preparation to help you ace your next interview.\nGet instant AI feedback and suggestions to improve your answers.\nGain an Unfair Advantage in Interviews\nMaster the Most Common Interview Questions and Ace Your Answers with Confidence\nGenerate Questions\nWrite/paste a job description, receive realistic interview-like questions, tailored to the role.\n- Behavioral and technical questions\n- Compatible with any job description and industry\nTrain Answering\nSimulate the interview by recording your answer in text.\n- Your data is stored on your device\nElevate with AI mentorship\nReceive immediate AI feedback and an enhanced sample response demonstrating an ideal answer and get instant AI final feedback showing how you could've answered the question.\n- Stand Out to Recruiters with Polished Answers\n- Save time with instant feedback, allowing for more practice and preparation\n- Focus on specific areas for improvement based on detailed AI feedback.\nBoostBoostyouryourconfidence,confidence,aceacethethejobjobinterviewinterview--JoinJoinFreeFreeToday!Today!\nPricing\nSimple pricing for everyone.\nWeekly\nA weekly plan for users to practice and smash the interview.\n$4.99 / week\n- Customer support\n- Access to AI tools\n- Unlimited Generations\n- Self-Interview Practice\nMonthly\nA monthly plan for users to practice and smash the interview.\n$9.99 / month\n- Customer support\n- Access to AI tools\n- Unlimited Generations\n- Self-Interview Practice"
+ },
+ {
+  "sample_id": "site_c47539245023",
+  "title": "TheDream.ai - Create your perfect profile picture with AI.",
+  "meta_description": "",
+  "og_description": "Utilizing artificial intelligence, we can create amazing photos that everyone's dreaming about!",
+  "headings": [],
+  "page_text": ""
+ },
+ {
+  "sample_id": "site_e37ed65899b0",
+  "title": "Chartbeat",
+  "meta_description": "Chartbeat provides solutions combining instant real-time insights, rich engagement data, and powerful optimization tools for media publishers",
+  "og_description": "Chartbeat provides solutions combining instant real-time insights, rich engagement data, and powerful optimization tools for media publishers",
+  "headings": [
+   "Content Intelligence Built for Digital Newsrooms",
+   "Frequently Asked Questions",
+   "Solutions For Media",
+   "Pricing",
+   "Company",
+   "Resources"
+  ],
+  "page_text": "Content Intelligence Built for Digital Newsrooms\nDiscover Chartbeat’s real-time analytics tools that help editorial teams understand audience behavior, measure content performance, and optimize content across websites, mobile applications, and social media.\nOPTIMIZE CONTENT\nGet reliable editorial insights at the speed of news.\n- Real-Time Dashboard: Track every page on all your sites to understand what’s driving website traffic and reader engagement in every moment and where referral traffic is coming from.\n- At-a-glance insights: See concurrent pageviews, unique visitors, and recirculation – all in real time and instantly visualized in one beautiful dashboard.\n- Heads Up Display: Spot top-performing stories, measure scroll depth, view articles’ ranked performance, and see which content is over- or under-performing by placement.\nENHANCE STRATEGIES\nFuel your content strategy with powerful, real-time analytics.\n- Historical Dashboard: Measure 13 months of historical trends in engaged time, website traffic, topic-based data, and more. It’s simple to analyze historical content performance, empowering editorial teams to repeat past successes.\n- Advanced reporting tools and intuitive reports: See, customize, schedule, and export your data exactly how you want it. Get easy-to-read content performance visualizations sent right to your inbox to guide smarter editorial decisions.\n- Competitive Benchmarking: Chartbeat Cohorts lets you compare your site’s performance against other digital publishers in Chartbeat’s global network to identify new ways to build deep reader loyalty.\nGROW LOYAL AUDIENCES\nKnow what drives audience engagement and recirculation.\n- Headline and Image Testing: Adapt what your readers see with a suite of content optimization tools and smart recommendation widgets powered by reader-preference data.\n- Conversions. Understand what drives your audience to register, subscribe, donate, make a payment, and more, enabling you to optimize for reader journeys.\n- Real-Time Alerts: Get notified of unusual spikes and dips so you can take action quickly. Plus, display your live audience data to the entire newsroom with a dashboard designed for the big screen.\nFrequently Asked Questions\nWhat does Chartbeat measure?\nChartbeat measures content performance on publisher websites and apps using metrics like engaged time, referral traffic sources, scroll depth, and recirculation (moving from one page on your site to another page on your site). Chartbeat also provide"
+ },
+ {
+  "sample_id": "site_98244b9809fb",
+  "title": "Dropbox: Secure cloud storage, file sharing, and more",
+  "meta_description": "Discover Dropbox – secure, easy cloud storage for file sharing and collaboration. With Dash, save time and organize all your company content in one place.",
+  "og_description": "Discover Dropbox – secure, easy cloud storage for file sharing and collaboration. With Dash, save time and organize all your company content in one place.",
+  "headings": [
+   "One place to store, share, and collaborate",
+   "Join the over 700 million registered users who trust Dropbox",
+   "Bring Dropbox content into your favorite AI tools",
+   "Find it fast, every time",
+   "Cloud storage that keeps everyone in sync",
+   "Share files without the slowdown",
+   "Security never comes second",
+   "Dropbox empowers across industries",
+   "Discover, learn, thrive with Dropbox"
+  ],
+  "page_text": "Join the over 700 million registered users who trust Dropbox\nOpenAI\nDropbox files are now easier to find and work with across ChatGPT. Bring in what you need as you work, then organize, share, and act without breaking your workflow.\nGoogle Gemini\nPair Dropbox with Gemini chat and Gemini Spark to build on your ideas and move them forward—all while keeping access and approvals in place.\nSpaceXAI\nUse the Dropbox integration for SpaceXAI to reference files and other content as you build, then save your work back to your project folders without breaking your workflow.\nMeta Muse\nLean on your Muse agent to find Dropbox content, put files in the right place, share materials, request what’s missing, and more.\nFind it fast, every time\nGet to the right file, fact, or message when you need it, so you spend less time searching and more time working.\nCloud storage that keeps everyone in sync\nKeep every version current and easy to manage. With synced team folders, previews for 175+ file types, and built-in AI summaries (coming soon), your content stays organized and accessible.\nShare files without the slowdown\nShare work instantly and securely with real-time syncing and large file transfers (up to 250GB), so teams stay connected and collaboration stays seamless.\nDropbox empowers across industries\nDiscover, learn, thrive with Dropbox\nNote: The products or features described may not be released yet. The decision to purchase our services should be based on the features that are currently available."
+ },
+ {
+  "sample_id": "site_b712504091e3",
+  "title": "Campaign Monitor: Email Marketing Platform & Services",
+  "meta_description": "Create, send, and optimize email campaigns with Campaign Monitor. Build audiences, automate journeys, and improve results with our best-in-class software.",
+  "og_description": "Create, send, and optimize email campaigns with Campaign Monitor. Build audiences, automate journeys, and improve results with our best-in-class software.",
+  "headings": [
+   "Platform",
+   "I am a",
+   "Resources",
+   "Maximize your email marketing potential."
+  ],
+  "page_text": "Join thousands of businesses around the world who trust Campaign Monitor.\nSkip past the back-and-forth between separate writing and design tools or the overwhelm of building a campaign from scratch. With Marketing Studio, you can generate a complete email campaign and custom visuals in one place, with your branding automatically built in. Reach new audiences by generating a translated version of your campaign or turning your finished email into a ready-to-publish Instagram post.*\nExplore Marketing Studio →\n* See plans for feature pricing and availability.\nTake the guesswork out of what to optimize next. Marketing Monitor compares each campaign against industry benchmarks and recommends optimization tactics based on your goal. Follow-up reporting lets you see which changes made an impact, so every send strengthens the next.*\nExplore Marketing Monitor →\nTap into AI-powered email know-how whenever you need it. AI Email Booster pinpoints the changes that can measurably improve performance and walks you through the why behind each recommendation. Approve a change with a click, and the finished edit is instantly applied and formatted for you, so you can get on your way.*\nExplore AI Email Booster →\nMost marketers think automation is intimidating. But creating customer journeys has never been more approachable than with the visual journey designer.\nExplore automation\nStart your email with one of our professionally-designed templates to launch targeted campaigns like marketing offers, product announcements, newsletters, or event promotions.\nBuild an email\n“Campaign Monitor helped transform us from a small idea to a real company thanks to their user-friendly tools — I honestly could not recommend them enough.”\nEllen Hyslop, Co-Founder of The GIST\nGet realtime results across the board with our interactive dashboards covering everything: email campaigns, automated journeys, transactional emails, and beyond. It’s the type of campaign data that empowers you to build and improve a profitable email marketing strategy.\nWatch the demo"
+ },
+ {
+  "sample_id": "site_395258193849",
+  "title": "Free Website Builder: Build a Free Website or Online Store | Weebly",
+  "meta_description": "Weebly’s free website builder makes it easy to create a website, blog, or online store. Find customizable templates, domains, and easy-to-use tools for any type of business website.",
+  "og_description": "Weebly’s free website builder makes it easy to build a website, blog, or online store. Find customizable designs, domains, and eCommerce tools for any type of business using our website builder.",
+  "headings": [
+   "Build a professional website that grows with your business.",
+   "Build a free website that grows with your business.",
+   "Succeed with the right website builder, from start to growth.",
+   "Freedom to sell anytime, anywhere with Weebly + Square.",
+   "We’re here to guide you through common hurdles when you need it.",
+   "Build your website, build your success"
+  ],
+  "page_text": "Get access to customizable webpage designs and useful tools to build your website and grow your ideal business. Easily build a free website to help you get discovered and grow your customer base in style. Start today with our powerful free website builder.\nWeebly is now a part of the Square product suite. This means never missing a sale and letting your customers pay how they want to. Whether it's at a pop-up shop or your own online store, Square takes care of your payments for you, so you can focus on your business.\nIt’s your business. You’ve got this.\nFrom tech hurdles big and small to business growth tips, help from our Customer Success team is just an email, chat, or phone call away. Begin with Weebly's free website builder and lean on us for help along the way."
+ },
+ {
+  "sample_id": "site_8fe33ce2ec70",
+  "title": "Time Tracking Software With Invoicing | Harvest",
+  "meta_description": "Time tracking and management software with powerful easy reporting and streamlined online invoicing. Loved by 73,000 businesses. Get started for free.",
+  "og_description": "Time tracking and management software with powerful easy reporting and streamlined online invoicing. Loved by 73,000 businesses. Get started for free.",
+  "headings": [
+   "Turn hours into profit",
+   "All your workflows in one platform",
+   "Everything you need to run a profitable business",
+   "Everything connects, so your business runs more smoothly",
+   "Teams of all sizes, types, and industries track time with Harvest.",
+   "Ready to turn hours into profit?"
+  ],
+  "page_text": "Without Harvest data, we can't do our best work and get to a place where all projects are operating at the right profit margin.\nTurn hours into profit\nHarvest helps professional teams track time, bill clients, optimize team time, and measure performance with confidence.\n- Free 30-day trial\n- No credit card\n- Cancel anytime\nOver 70,000 companies use Harvest to turn tracked hours into paid invoices\nAll your workflows in one platform\nEverything connects,\nso your business runs more smoothly\nMulti-Tiered Billing Rates\nSet rates by person, project, or task type. Harvest picks the right one automatically.\nProfitability Reports & Budgeting\nSee which projects earn and get alerted before it’s too late.\nRetainers & estimate\nSet recurring hour banks or project estimates, then track consumption in real time.\n40+ integrations\nHarvest connects with the tools your team already uses, including project management, accounting, and payments.\nFlexible payments\nClients can pay directly from invoices using multiple payment methods on every invoice. Reduce follow-ups and get paid faster.\nTeams of all sizes, types, and industries\ntrack time with Harvest.\n0\nhours tracked\n$0\ninvoiced by customers\n0%\nplatform uptime\n0%+\ncustomer satisfaction score\nWithout Harvest data, we can't do our best work and get to a place where all projects are operating at the right profit margin.\nHarvest gives us feedback on how we're doing so we can be competitive, make a profit, and keep ourselves afloat.\nHarvest visualizes data, which is important for leads who need quick summaries on project status.\nThe game changing piece was its simplicity. We’ve used it for nine years now, which is almost a decade of J&O and Harvest growing together.\nBy being able to track what that billable percentage is for each of our team members, Harvest helps me make hiring decisions.\nOnboarding a 50+ person team?\nBook a call"
+ },
+ {
+  "sample_id": "site_13bce2cc8f89",
+  "title": "Free AI Song & Music Generator - Create Songs with AI Online",
+  "meta_description": "Free AI song generator and AI music generator in one. Type a prompt or lyrics to create original, royalty-free songs in seconds — any genre, vocals included 🎶",
+  "og_description": "Create songs with AI easily! 🎶",
+  "headings": [
+   "Free AI Music & Song Generator",
+   "Find your next sound",
+   "More than a song generator",
+   "From first idea to a usable track",
+   "What creators use it for",
+   "Questions, answered",
+   "Your first song is one sentence away"
+  ],
+  "page_text": "Free credits to start\nDaily free credits to try Create. No card required to hear whether the workflow fits your job.\n2 free credits every day, no card required\nDescribe a mood, paste lyrics, or go instrumental. Land a full song in about a minute, then layer, split, or film it in the same studio.\nPick a style that speaks to you. Make it your own.\nPick the tool that matches the job—not a pile of generic “AI-powered” adjectives.\nAI-Song is a studio workspace: generate the song, then keep going with lyrics, stems, voices, and video tools—without restarting in five other apps.\nOne-line vibe prompt, full custom lyrics, or instrumental-only when vocals would fight dialogue or VO.\nTracks with verses, chorus, and an ending. Extend or iterate when the first take is almost right.\nOutputs are newly generated—not ripped samples. Monetized or client use needs an eligible paid plan; see Licensing.\nMP3 for drafts and social; WAV when you need a master for editors or DAWs (plan-dependent).\nSynced lyrics for lyric videos and karaoke-style cuts—pair with Vocal Remover when you need the bed alone.\nIllustrative scenarios—your results depend on prompts, plan, and taste. Prefer real reviews when you share publicly.\nEmma Chen\nMusic Enthusiast\nAlex Wang\nMusic Teacher\nSofia Rodriguez\nContent Creator\nMarcus Zhang\nGame Developer\nLily Wu\nPodcast Producer\nDavid Kim\nSocial Media Influencer\nCredits, quality tips, tool choice, and commercial rights—before your first publish.\nYou choose a mode (prompt, custom lyrics, or instrumental), add a short style line (genre, BPM, vocal tone), and Create generates a full song via partner music models. Listen once, note what to change, then iterate with small edits. When words matter, draft in the AI Lyrics Generator and hand off to custom mode.\nSign in and check in once a day to collect 2 free credits — a 7-day streak pays double on day 3 and triple on day 7 (amounts can vary by region). A song generation costs 2 credits and returns two versions, so one check-in covers one free generation a day. No card required. Free credits are for personal use; commercial publishing needs a paid plan.\nPop, hip-hop, lo-fi, R&B, EDM, rock, country, cinematic, and more. Browse Genres for BPM ranges, instrument hints, and prompt recipes. Name structure cues (build → drop, soft bed) when the job needs them.\nMost songs are ready in about one to a few minutes depending on load and complexity. If a take misses, edit one prompt variable rather than regenerating blindly.\nCh"
+ },
+ {
+  "sample_id": "site_4dad0967d2f4",
+  "title": "OWOX Data Marts — Where Data Makes Sense",
+  "meta_description": "OWOX Data Marts Helps You Achieve Your Goals Faster with Zero-Hallucination Analytics",
+  "og_description": "Open-Source Self-Service Data Analytics Platform. Free connectors, AI-Ready",
+  "headings": [
+   "The AI Data Partner CEOs Can Trust",
+   "Grow profit, not workload",
+   "Why OWOX"
+  ],
+  "page_text": "The AI Data Partner CEOs Can Trust\nWe make sense of your data. You’re one prompt away from a clear picture of your risks and opportunities\nWhat’s New\n- LaunchOWOX Add-in for Microsoft Excel is live\n- Community150K npm installs and counting\n- ReleaseOWOX Data Marts 0.39.0 is out\nGrow profit, not workload\n01 · Trust\nYour agency says one thing, ad platform another, dashboard a third. Get a source of truth you can act on.\nAsk on Tuesday, decide on Tuesday\n02 · Focus\nCompanies rarely die from one mistake. They die from the one nobody noticed for too long. Get unbiased highlights on time.\nFocus on what needs you\n03 · Growth\nBy the time a number reaches your monthly report, the moment has passed. Don’t let your best opportunities die in confusing reports.\nMake sense of your data\nCustomers\nWhy OWOX\nR01 · Proof\nTrust every number\nNumbers are backed by patented technology4 and never hallucinated:\n- Your conversation, and talk to models and are on the same page.\n- Automated quality checks catch discrepancies before they hurt you\nR02 · Speed\nGet it fast\nNo semantic-layer tax:\n- in your sources and get KPI definitions generated by an expert AI in a minute\n- There is no wasting time on historical data training\nDone — your data is promptable! Get data seamlessly connected to the source of truth, not a one-way export. Enjoy refreshing data and adjusting columns whenever you need it\nR03 · Control\nAll yours\nBusiness sense behind your data:\n- Every report starts with a model and business objectives, not table schemas. Your reports must not be locked to Ad Platforms perspective — make AI leverage your expertise in minutes.\n- custom plugins to visualize attribution, forecasting, plan-vs-actual reports in your own way\nR04 · Ownership\nTrue ownership. Governed\nNo need to declare dashboards or spreadsheets dead. Now data is governed and processed in your data warehouse wherever it is consumed: assistants, , .\nNo third-party black boxes, no vendor lock-in. Trace every number back to clear SQL in one click.\nR05 · Pricing\nNo surprise bills\nNo per-connector bills. No arbitrary price hikes just because we can. Feel free to start with community edition — your data stays yours, and your infrastructure doesn’t depend on our pricing strategy.\nIn open-source we trust.\n- Internal OWOX data as of 2026-10-02\n- G2 reviews of OWOX\n- npm installs stat\n- US Patent 11,074,250 B2: Technologies for implementing ontological models for natural language queries\nYou are booked. The invitation is on its w"
+ },
+ {
+  "sample_id": "site_b5cb22760ecb",
+  "title": "Chat to Create Viral AI Videos | CloneViral",
+  "meta_description": "A sentence becomes a video. Not clips—full production with script, cinematography, voiceover. Veo 3.1, Seedance 2.0, Kling 3. Just chat, we make it real.",
+  "og_description": "A sentence becomes a video. Not clips—full production with script, cinematography, voiceover. Veo 3.1, Seedance 2.0, Kling 3. Just chat, we make it real.",
+  "headings": [
+   "Seedance 2.5",
+   "Seedance 2.5",
+   "Motion Studio",
+   "Motion Studio",
+   "Viral Swap",
+   "Viral Swap",
+   "Viral Flow",
+   "Viral Flow",
+   "Mac App",
+   "Mac App",
+   "H3 Max",
+   "H3 Max",
+   "Long to Shorts",
+   "Long to Shorts",
+   "Viral Blocks",
+   "Viral Blocks",
+   "Seedream 5.0",
+   "Seedream 5.0",
+   "Remix Viral Ads",
+   "Remix Viral Ads"
+  ],
+  "page_text": "Chat to Create Viral AI Videos\nNo manual editing, no complex workflows, no length limits. Grab the trends, chat to create viral today.\nFlagship\nBest value\nBilled on actual usage; the multiplier is a guide.\nChatbot\nWorks where you chat\nUse CloneViral inside ChatGPT & Claude\nGenerate videos and images right inside your AI assistant, with the same models and credits as on the web.\nPaste into Claude Code. It installs the plugin for you; restart when it asks.\nInstall the CloneViral plugin for me: run \"claude plugin marketplace add https://cdn.cloneviral.ai/plugins/claude-marketplace.json\", then \"claude plugin install cloneviral@cloneviral-plugins\", and tell me when to restart.\nCreate Viral Videos in a Different Way\nTurn Ideas Into Million-View Videos\nBasic Plan Yearly\nBest value for basic AI video creation\n$29\nbilled yearly\n- 72,000 credits/year\n- Agent Mode: Chat with AI to create videos (Film Master, Viral Genius, Ad Specialist, Character Creator)\n- Seedance 2.5 — ByteDance's latest cinematic AI video model\n- Limited access to features\n- Image Models: GPT Image 2.5, Seedream V5 Pro, Flux 2 Pro, Nano Banana Pro\n- Remix & repurpose viral Youtube, Tiktok, Reels Videos\n- Realistic Avatar UGC Ads\nPro Plan Yearly\nBest value for professional creators\n$49\nbilled yearly\n- 126,000 credits/year\n- Agent Mode: Chat with AI to create videos (Film Master, Viral Genius, Ad Specialist, Character Creator)\n- Seedance 2.5 — ByteDance's latest cinematic AI video model\n- Video Models: Veo 3.1, H3, Seedance 2.0, Kling 3, Wan 2.7\n- Image Models: GPT Image 2.5, Seedream V5 Pro, Flux 2 Pro, Nano Banana Pro\n- Remix & repurpose viral Youtube, Tiktok, Reels Videos\n- Image & Video upscaling features\n- Realistic Avatar UGC Ads\nPlus Plan Yearly\nBest value for scaling creators\n$89\nbilled yearly\n- 252,000 credits/year\n- Agent Mode: Chat with AI to create videos (Film Master, Viral Genius, Ad Specialist, Character Creator)\n- Seedance 2.5 — ByteDance's latest cinematic AI video model\n- Video Models: Veo 3.1, H3, Seedance 2.0, Kling 3, Wan 2.7\n- Image Models: GPT Image 2.5, Seedream V5 Pro, Flux 2 Pro, Nano Banana Pro\n- Remix & repurpose viral Youtube, Tiktok, Reels Videos\n- Image & Video upscaling features\n- Realistic Avatar UGC Ads\nCreator Plan Yearly\nBest value for professional creators\n$149\nbilled yearly\n- 396,000 credits/year\n- Agent Mode: Chat with AI to create videos (Film Master, Viral Genius, Ad Specialist, Character Creator)\n- Seedance 2.5 — ByteDance's latest cinematic AI video model\n"
+ },
+ {
+  "sample_id": "site_684f2cda0d0d",
+  "title": "AI Quiz Maker from PDF, Video & Text by Hearify Quiz Generator",
+  "meta_description": "Transform your content (any text, PDF, or video) effortlessly with our AI quiz generator for creating quizzes, surveys, and interactive content. Easily customize questions, track performance, and improve learning and training outcomes.",
+  "og_description": "Transform your content (any text, PDF, or video) effortlessly with our AI quiz generator for creating quizzes, surveys, and interactive content. Easily customize questions, track performance, and improve learning and training outcomes.",
+  "headings": [
+   "AI Quiz Generator for Tests, Surveys, and Interactive Content Creation",
+   "Featured by:",
+   "Create Quiz with AI in No Time!",
+   "Top Benefits of the Best AI Question Generator",
+   "Hearify Reviews: Hear Our Happy Customers!",
+   "For whom",
+   "Why Choose Our AI Quiz Generator",
+   "FAQs"
+  ],
+  "page_text": "AI Quiz Generator for Tests, Surveys, and Interactive Content Creation\nTransform any text, PDF, or video into interactive quizzes, surveys, or assessments by AI quiz maker. Ideal for educators, HR teams, event planners, and professionals looking to engage audiences, gather insights, or gamify experiences across multiple industries.\nTRY FOR FREE\nLoved by users in 113+ countries\nFeatured by:\nCreate Quiz with AI in No Time!\nTop Benefits of the Best AI Question Generator\nOur AI quiz maker offers a wide range of benefits for first-time and skilled users. The key advantages include but not limited to:\n- Create in one click Our AI test creation tool lets you generate a complete test in minutes. It's the perfect solution for those who are pressed for time, whether they're students, business leaders, or teachers who need to get quality results quickly\n- Adaptive content at any level Hearify automatically selects the type and difficulty of questions depending on the user's level. This allows you to create customized tasks that meet learning, skill development, or team engagement goals.\n- Multilingual support Our platform supports multiple languages, ensuring accessibility to a global audience. You can create content in the right language to suit different cultural and educational environments.\n- Customization with White-Label options Hearify allows you to brand your tests and surveys with custom logos, colors, and styles. This is an ideal choice for companies that want to integrate testing into their corporate identity.\n- Support for multimedia content Add images, videos, and charts to your tests to make them more visual and engaging for users. This is especially useful for teaching complex topics and increasing engagement.\n- Advanced analytics Our system analyzes answers and provides insights into users' knowledge levels, gaps, and strengths. Educators and HR professionals can use this information to adapt approaches and improve learning and teamwork.\n- Interactive formats for different purposes In addition to educational tasks, our tool is suitable for HR surveys, team psychological tests, and gamified events, which increases engagement and interactivity.\n- Seamless integration with platforms We integrate seamlessly with popular learning and enterprise platforms, such as LMS systems and team collaboration tools, ensuring a seamless engagement process with content and users.\nHearify Reviews: Hear Our Happy Customers!\nFor whom\nHearify helps solve specific tasks and "
+ },
+ {
+  "sample_id": "site_411ab82a81e0",
+  "title": "Bitly | Short URLs, QR Codes, and More",
+  "meta_description": "Bitly makes it easy to create, share, and track short links and QR Codes. Find what's resonating and scale it into bigger reach, more clicks, and more sales.",
+  "og_description": "Bitly makes it easy to create, share, and track short links and QR Codes. Find what's resonating and scale it into bigger reach, more clicks, and more sales.",
+  "headings": [
+   "Understand what clicks with your audience",
+   "Link your marketing with Bitly",
+   "Adopted and loved by millions of users for over a decade",
+   "What our customers are saying",
+   "See how other businesses use Bitly",
+   "More than a link shortener",
+   "Select your language",
+   "Want to try Bitly for free?"
+  ],
+  "page_text": "Understand what clicks with your audience\nBitly makes it easy to create, share, and track short links and QR Codes. Find what’s resonating and scale it into bigger reach, more clicks, and more sales.\nSign up for free. Your free plan includes:\n- 5 short links/month\n- 3 custom back-halves/month\n- Unlimited link clicks\nSign up for free. Your free plan includes:\n- 2 QR Codes/month\n- QR Code customizations\n- Unlimited QR Code scans\nLink your marketing with Bitly\nUse our URL shortener and QR Code generator to create branded links and QR Codes in seconds, then track every click and scan in Bitly.\nShort links that do more\nCustomize, share, and track your links — every click tells you more about what your audience wants.\n- AI-powered link creation\n- Custom domains and back-halves\n- URL redirects\n- Bulk link shortening\nCodes you can edit and track\nDynamic QR Codes for print and packaging — update the destination anytime, no reprint needed.\n- Customizable colors, patterns, and logos\n- Dynamic QR Codes\n- PNG/JPEG/SVG downloads\n- Bulk QR Code creation\nSee every click and scan\nReal-time performance for every link and code, side by side.\n- Geography, referrer, and device tracking\n- Cross-channel analytics dashboards\n- AI-powered analytics and insights\n- Campaign performance and UTMs\nAdopted and loved by millions of users for over a decade\nCustomers\nLinks & QR Codes created annually\nClicks & scans annually\nConnected apps & workflows\nUptime"
+ },
+ {
+  "sample_id": "site_827ecf9c6ba9",
+  "title": "Dubbing AI- AI Voice Changer For Gamers and Streamers",
+  "meta_description": "Dubbing AI Offers realtime voice changer and soundboard. Our unique ghostface voice changer enhance your voice on Discord, Zoom, OBS, and more with seamless AI powered voice generator.",
+  "og_description": "",
+  "headings": [
+   "Community Sounds",
+   "Soundboard",
+   "Utell Accent Conversion",
+   "Online Voice Changer",
+   "Vocal Remover",
+   "Instrumental Remover",
+   "Voice Recorder",
+   "Audio Converter",
+   "Sound Effect Generator",
+   "Voice Cloning",
+   "AI Voice-Changing Earbuds",
+   "Dubbing Box",
+   "Article",
+   "Download",
+   "Blog",
+   "Affiliate",
+   "Supported Apps",
+   "FAQ",
+   "Best Free Real-Time AI Voice Changer",
+   "Unlock Real-Time Voice Changing on Your Phone"
+  ],
+  "page_text": "Best Free Real-Time AI Voice Changer\nDubbing AI is a real-time voice changer for gaming, streaming,and meetings, offering 500+ AI voices and 100,000+ meme soundboards with low latency.\n100% safe download\nUnlock Real-Time Voice Changing on Your Phone\nFull iOS & Android compatibility. Real-time AI voice change for games, live streams & calls.\nGet Dubbing Earbuds\nVoice Transformation Made Easy\nDream of sounding like your favorite singer, anime character, celebrity or VTubers? Dubbing AI takes real-time voice transformation to the next level!\nUnleash Your Creativity with the Best Voice Changer\nAmplify Engagement with Customized Voices – Perfect for Creators and Fans\nFree Voice Changer & Soundboard for Gamers, Streamers and Content Creators\nRealtime Voicechanger in Games and Chats\nDubbing AI Voice Changer helps you to immersively chat, social, and role-play with your teammates and friends in Discord, Zoom, VRchat, WhatsApp, with over 500 characters from popular games such as: League of Legends, Valorant, CS2, FORTNITE, Roblox and trending animes like: Jujutsu Kaisen, JOJO\nSpice up Streaming with Meme Soundboard.\nBoost your streaming career with trending meme soundboard. Get your channel running with our one-step AI sound effect generator. Check out our latest trending soundboard from Memes, Tiktok, Games, Animes and you can upload your own soundboard from our Community Soundboard as well.\nHow to set up Dubbing AI.\nSix small steps, under five minutes from download to your first transformed sentence.\nInstall & pick your mic\nDownload Dubbing AI for Windows or macOS. On first launch, set your main microphone as the input device and open the Voicebox menu to browse every available voice filter.\nFlip the Voice Changer on\nToggle the Voice Changer switch at the bottom of the window. A green indicator confirms real-time processing is live and routed through your virtual mic.\nBrowse the Voice Box\nScroll the library, tap to preview any character, and favorite the ones you love so they sit at the top of your list for one-click switching.\nHear yourself in real time\nFlip the Hear Myself toggle to monitor your transformed voice through headphones — fine-tune pitch and tone before you go live.\nRoute the Virtual Device\nInside Discord, OBS, Zoom, or your game, pick \"Microphone (Dubbing Virtual Device)\" as the input. That's all the plumbing required.\nYou're live\nYour new voice now flows through every app that listens to your mic. Switch characters on the fly without restarting an"
+ },
+ {
+  "sample_id": "site_e208210384c0",
+  "title": "You're invited to talk on Matrix",
+  "meta_description": "You're invited to talk on Matrix",
+  "og_description": "",
+  "headings": [
+   "Please enable javascript"
+  ],
+  "page_text": "Matrix.to is a preview service from chat rooms, people and communities on Matrix.\nIt preserves your privacy by only processing what you view on the client side. For this to work, it needs javascript."
+ },
+ {
+  "sample_id": "site_a6e1b4a534c2",
+  "title": "Remind AI",
+  "meta_description": "The local Artificial memory for your device.",
+  "og_description": "",
+  "headings": [
+   "Revolutionize Your Memory with Remind.",
+   "CREATED WITH THE HELP FROM THESE PLATEFORMS",
+   "Recall your tasks and optimize your workflow.",
+   "Frequently Asked Questions",
+   "General",
+   "Support",
+   "Customization",
+   "Community"
+  ],
+  "page_text": "This is why you should keep going. https://mashable.com/article/microsoft-recall-ai-feature-uk-investigation\nfidalgofeliz\nfidalgofeliz\nThat's it. Please, keep the project alive, my friend. I'm a beginner Swift developer and I'm willing to try to help.\nFunnyRocker\nu/FunnyRocker\nI've been testing out other various apps like this for the past few days. Very excited to try yours out, and LOVE that it's open source. Congrats!!\nawizemann\nu/awizemann\nThis is why you should keep going. https://mashable.com/article/microsoft-recall-ai-feature-uk-investigation\nfidalgofeliz\nfidalgofeliz\nThat's it. Please, keep the project alive, my friend. I'm a beginner Swift developer and I'm willing to try to help.\nFunnyRocker\nu/FunnyRocker\nI've been testing out other various apps like this for the past few days. Very excited to try yours out, and LOVE that it's open source. Congrats!!\nawizemann\nu/awizemann\nThis is why you should keep going. https://mashable.com/article/microsoft-recall-ai-feature-uk-investigation\nfidalgofeliz\nfidalgofeliz\nThat's it. Please, keep the project alive, my friend. I'm a beginner Swift developer and I'm willing to try to help.\nFunnyRocker\nu/FunnyRocker\nI've been testing out other various apps like this for the past few days. Very excited to try yours out, and LOVE that it's open source. Congrats!!\nRekoded\nRekoded\nDONT'T STOP!!!!!!! Keep it alive. Just ⭐️. You have something here. Nice work. Let me make time to see the repo.\nHelpRespawnedAsDee\nHelpRespawnedAsDee\nI actually wanted something like this, especially if we can configure the prompts, how it captures data, even sending stuff first to a local llm just to get rid of PPI. Like I would literally love to be able to ask it 'do you remember where I place my meetings notes from yesterday's google meet?'\nFew-Bar3123\nu/Few-Bar3123\nIt will be even better in the future with the introduction of phi-3-vision!\nYeahYeahOkNope\nu/YeahYeahOkNope\nKeep going. You have no idea what yours could evolve into. Too early to give up just because of Microsoft’s vision. Keep going! 🙌\nRekoded\nRekoded\nDONT'T STOP!!!!!!! Keep it alive. Just ⭐️. You have something here. Nice work. Let me make time to see the repo.\nHelpRespawnedAsDee\nHelpRespawnedAsDee\nI actually wanted something like this, especially if we can configure the prompts, how it captures data, even sending stuff first to a local llm just to get rid of PPI. Like I would literally love to be able to ask it 'do you remember where I place my meetings notes from yesterday'"
+ },
+ {
+  "sample_id": "site_20c75abb14eb",
+  "title": "AI Text Summarizer – Free, No Sign-Up, Built for Long Text",
+  "meta_description": "Free AI text summarizer for long text, articles and PDFs. Choose bullet points or a paragraph, set the length, and get the key points in seconds — no sign-up, no word cap at 600, plus a chat to ask follow-up questions.",
+  "og_description": "Free AI text summarizer for long text, articles and PDFs. Choose bullet points or a paragraph, set the length, and get the key points in seconds — no sign-up, no word cap at 600, plus a chat to ask follow-up questions.",
+  "headings": [
+   "Free AI Text Summarizer",
+   "What you get, in plain numbers",
+   "What you can do with the text summarizer",
+   "How to summarize text with AI in four steps",
+   "Ask the AI about your text, not just for a summary",
+   "Why use this AI text summarizer?",
+   "Who needs text summarization?",
+   "What is an AI text summarizer?",
+   "Learn to summarize without the AI",
+   "Frequently asked questions",
+   "Try the free AI text summarizer on your own text"
+  ],
+  "page_text": "Free AI Text Summarizer\nTurn long text, articles, and documents into clear key points in seconds using an AI summary generator. No sign-up, no cost — paste your text or upload a file and get a summary you can actually use.\n- No sign-up\n- Free to use\n- 90+ languages\n- PDF, DOCX, PPTX, EPUB\nSupported formats: PDF, DOCX, TXT, PPTX, EPUB, FB2 · up to 30 MB for your original text.\nWhat you get, in plain numbers\n- 0\n- accounts needed\n- No email, no password, no card.\n- 90+\n- languages supported\n- Summarize the text in the language it was written in.\n- 6\n- file formats\n- PDF, DOCX, TXT, PPTX, EPUB, FB2.\n- 30 MB\n- max file size\n- Enough for a full book or a long report.\nWhat you can do with the text summarizer\nFour jobs people bring to this AI summary generator every day.\nSummarize articles\nDecide whether a long read is worth your time before you commit to it.\nCondense research papers\nPull the aim, method and findings out of a PDF so you can skim a stack of sources.\nShorten reports and notes\nTurn a meeting transcript or a quarterly report into a handful of key points.\nSimplify dense text\nRewrite technical or legal paragraphs into something you can read once and understand.\nHow to summarize text with AI in four steps\nThe whole thing takes under a minute, and you never have to create an account.\n- 1 Add your text Paste text into the box or upload a PDF, DOCX, TXT, PPTX, EPUB or FB2 file.\n- 2 Choose length and format Pick a paragraph or bullet points, then set how short or detailed the summary should be to effectively summarize long documents.\n- 3 Get your AI summary The AI text summarizer reads the whole text and returns the key points in a few seconds.\n- 4 Copy it or dig deeper Copy or download the summary, or ask the chat follow-up questions about the original text.\nAsk the AI about your text, not just for a summary\nEvery other summarizer hands you a block of text and stops. Here the summary is the start of the conversation: the tool keeps your source in context, so you can ask what an argument means, request a shorter version, pull out just the numbers, or have a section explained in plain language.\n- Ask for a shorter or longer take without pasting the text again\n- Pull out specific things — dates, figures, names, conclusions\n- Have a confusing paragraph explained in simpler words\nTry it on your own text\nWhy use this AI text summarizer?\nSix things you can check for yourself before you paste a single word.\nNo sign-up\nNo account, no email, no credit card. Open the"
+ },
+ {
+  "sample_id": "site_9fa88cd6eeaf",
+  "title": "Zotero | Your personal research assistant",
+  "meta_description": "Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research.",
+  "og_description": "",
+  "headings": [
+   "Your personal research assistant",
+   "Meet Zotero.",
+   "Collect with a click.",
+   "Organize your way.",
+   "Cite in style.",
+   "Stay in sync.",
+   "Collaborate freely.",
+   "Rest easy.",
+   "Ready to try Zotero?"
+  ],
+  "page_text": "Meet Zotero.\nCollect with a click.\nZotero automatically senses research as you browse the web. Need an article from JSTOR or a preprint from arXiv.org? A news story from the New York Times or a book from a library? Zotero has you covered, everywhere.\nOrganize your way.\nZotero helps you organize your research any way you want. You can sort items into collections and tag them with keywords. Or create saved searches that automatically fill with relevant materials as you work.\nCite in style.\nZotero instantly creates references and bibliographies for any text editor, and directly inside Word, LibreOffice, and Google Docs. With support for over 9,000 citation styles, you can format your work to match any style guide or publication.\nStay in sync.\nZotero can optionally synchronize your data across devices, keeping your files, notes, and bibliographic records seamlessly up to date. If you decide to sync, you can also always access your research from any web browser.\nCollaborate freely.\nZotero lets you co-write a paper with a colleague, distribute course materials to students, or build a collaborative bibliography. You can share a Zotero library with as many people you like, at no cost.\nRest easy.\nZotero is open source and developed by an independent, nonprofit organization that has no financial interest in your private information. With Zotero, you always stay in control of your own data.\nStill not sure which program to use for your research? See why we think you should choose Zotero."
+ },
+ {
+  "sample_id": "site_149f225d4612",
+  "title": "LottieFiles: Download Free lightweight animations for website & apps.",
+  "meta_description": "Effortlessly bring the smallest, free, ready-to-use motion graphics for the web, app, social, and designs. Create, edit, test, collaborate, and ship Lottie animations in no time!",
+  "og_description": "Effortlessly bring the smallest, free, ready-to-use motion graphics for the web, app, social, and designs. Create, edit, test, collaborate, and ship Lottie animations in no time!",
+  "headings": [
+   "Great designs come alive with motion!",
+   "Tiny",
+   "Motion Tokens",
+   "Interactive",
+   "Dev ready",
+   "World’s largest customizable animation library",
+   "A modern motion workflow built for teams and enterprises",
+   "Digital Asset Management",
+   "Lottie, the industry standard for motion design",
+   "Implement your animations in just a few clicks",
+   "Unlock your creative potential with AI",
+   "Design teams love LottieFiles",
+   "Create, collaborate and ship."
+  ],
+  "page_text": "Great designs come alive with motion!\nCreate, manage and implement lightweight animations across websites, apps, presentations, social and more.\nTrusted by 16 million+ designers and developers from over 280,000 companies worldwide\nWorld’s largest customizable animation library\nOver 800,000+ Free & Premium ready-to-use animations.\nLottie Creator\nDesigned to create ultra-lightweight, highly customizable and interactive animations for web, apps and social. Superpowered with AI-based Motion Copilot.\nA modern motion workflow built for teams and enterprises\nSave countless design and development hours with a modern motion workflow.\nYour team's workspace\nCreate, customize, manage and share your design assets with peers in a secure and centralized place.\nOptimize and download\nMake your websites and apps load faster than ever with optimized dotLottie, driving higher conversions.\nProgress updates\nKeep teams aligned with comments and real-time status updates on your animations and design assets.\nSeamless developer handoff\nPreview, test, optimize and implement animations and images with our built-in CDN, runtimes and VSCode integration.\nIntegration\nAccess your private team workspace directly within Figma, Framer, Webflow and Canva for a seamless creative workflow.\nDigital Asset Management\nPreview PSDs and AI files without opening the app. Manage every image format. And native Lottie and dotLottie support no other DAM can match.\nLearn more — Digital Asset Management\nImages\nPNG, GIF, SVG, JPEG, WebP\nDesign files\nAfter Effects (AEP), Illustrator (AI), Photoshop (PSD)\nMotion\nLottie (.json), dotLottie (.lottie)\nVideos\nMP4, MOV, WebM\nNew high-performance dotLottie runtimes\nLottie, the industry standard for motion design\n10x\nfaster to ship\nDev ready\nand easy to implement\n3x\nincrease in user engagement\n40%\nboost in SEO ranking\n5x\nfaster page load speed\nInteractive\nfor delightful experiences\nImplement your animations in just a few clicks\nBuilt to integrate with popular design and developer tools.\nView all integrations\nUnlock your creative potential with AI\nDiscover how AI and creativity blend seamlessly with Motion Copilot, Prompt to Vector for Lottie Creator and Figma, and Raster to Vector for Figma by LottieFiles.\nDesign teams love LottieFiles\nLearn how teams are using Lottie animations to craft user experiences that stick.\nExplore case studies\n\"Our customers can add Lottie animations to their site in seconds, without even thinking about code. The creative control this unlock"
+ },
+ {
+  "sample_id": "site_6df15fb145fc",
+  "title": "Email & SMS Marketing Platform | Mailchimp",
+  "meta_description": "Utilize real-time user behavior data and artificial intelligence to convert more customers. Easy to use, get started for free!",
+  "og_description": "Utilize real-time user behavior data and artificial intelligence to convert more customers. Easy to use, get started for free!",
+  "headings": [
+   "Most Popular",
+   "Main Menu",
+   "Turn ideas into emails & SMS that connect",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "Recommended for your business",
+   "Make Mailchimp work for you",
+   "",
+   "Businesses like yours are thriving with Mailchimp",
+   "Try our Standard plan for free !",
+   "Get 15% off our Standard plan",
+   "Standard",
+   "Save 15% on the ultimate expert-assisted platform for growth",
+   "Premium",
+   "One marketing platform to unite 300+ apps",
+   "Millions of users trust us with their email marketing. You can too."
+  ],
+  "page_text": "Turn ideas into\nemails & SMS  that connect  \nMailchimp with Intuit Intelligence can help surface your next opportunity, like winning back customers who’ve gone quiet.\nEMAIL & SMS FOR ECOMMERCE\nEffortless growth powered by your data\nUse your data to power always‑on automations that help drive ROI for retailers of all sizes.\nEMAIL & SMS FOR SMALL BUSINESS\nAI-powered marketing that brings your customers to you\nUnlock powerful ways to grow your audience, refine your strategy, and keep customers coming back to your small business.\nEMAIL & SMS FOR NON‑PROFIT\nAn easier way to keep your community engaged\nSending emails just got easier. Mailchimp’s AI‑powered platform can help non‑profits and other community organizations save time.\nEMAIL & SMS FOR PROFESSIONALS\nConnect with clients and grow your business faster\nProfessional services businesses use AI‑powered email & SMS to help drive ROI with new and existing customers alike.\nEMAIL MARKETING FOR CONTENT CREATORS\nGet to know your audience and drive more ROI\nMailchimp harnesses the power of real‑time behavioral data to engage and re‑engage your content’s subscribers.\nTake an interactive product tour\nDiscover why 11 million businesses choose Mailchimp.\nRecommended for your business\nTake an interactive product tour\nSee how Mailchimp helps businesses organize audiences, design emails, and use AI-powered tools to save time. The tour takes just a few minutes and there's no signup required.\n- Mailchimp 101\n- Email Marketing\n- Claude Integration\n*This demo is based on the Standard Plan and availability of features and functionality varies by plan type. For details, please view Mailchimp's various plans and pricing.\nBusinesses like yours are thriving with Mailchimp\nTry our Standard plan for free!\nFind out why customers see up to 27x ROI* using the Standard plan with a 14-day trial†. Cancel or downgrade to our Essentials or basic Free plans at any time.\nGet 15% off our Standard plan\nBusinesses with 10,000+ contacts can save 15% on their first 12 months.† Keep your discount if you change to Premium or Essentials. Cancel or downgrade to our basic Free plan at any time.\n- Generative AI features\n- Actionable insights into audience growth and conversion funnels\n- Enhanced automations\n- Custom-coded email templates\n- Customizable Popup forms\n- Personalized onboarding\nStandard\nSend up to 6,000 emails each month.\nFree for 14 days\nThen, starts at 0per month†\nper month for 12 months\nThen, starts at per month†\n†See Free Trial Terms. Ov"
+ },
+ {
+  "sample_id": "site_80dbfd7b18e3",
+  "title": "Podium: AI Lead Generation & Lead Management Platform",
+  "meta_description": "AI-powered lead generation and management platform that helps you convert more leads and make more money.",
+  "og_description": "AI-powered lead generation and management platform that helps you convert more leads and make more money.",
+  "headings": [
+   "The #1 converting AI Employee for local businesses",
+   "AI that keeps your calendar full",
+   "AI that keeps your calendar full",
+   "AI built for your industry. Designed to convert.",
+   "What businesses are saying about Podium",
+   "What businesses are saying about Podium",
+   "80%",
+   "10%",
+   "57",
+   "$40K",
+   "$24K",
+   "446",
+   "166",
+   "55",
+   "40%",
+   "1 min",
+   "80%",
+   "10%",
+   "57",
+   "$40K"
+  ],
+  "page_text": "“Ready to book?”\nThe #1 converting AI Employee for local businesses\nTurn more conversations into revenue with a 24/7 AI Employee that manages the full customer journey from first inquiry to booking and beyond.\n60,000+ businesses trust Podium\nAI that keeps your calendar full\nAI that keeps your calendar full\nAI built for your industry. Designed to convert.\nEvery industry has its own customer journey. Explore yours to see how Podium’s AI helps you move faster, follow up smarter, and win more business.\nWhat businesses are saying about Podium\nWhat businesses are saying about Podium\n- When we lost 3 service BDCs, we went from 1,100 appointments monthly to 600. Getting Podium has gotten us back to 1,200+ appointments monthly with fewer staff members. Glory Hernandez Madera Toyota\n- \"Before AI, our show rate depended on our sales reps remembering to confirm. Now, with AI, our average show rate is 82%, and some reps hit 91%.\" Jess McQuillan, Internet & Digital Manager Central Maine Motors\n- 80% better conversion than industry average Fette Ford 10% more shown appointments with Podium Fette Ford\n- With Podium, the AI feels more human and less robotic. It never feels like I am talking to AI. Christina Gaboda, Internet Sales Manager Fette Ford\n- I don’t worry about my phones anymore. I know every call is answered. Now I can focus on everything else. Katherine Story, Office Manager Arctic Air\n- 57 appointments set by AI in 30 days Warner Super Service $40K saved annually with Voice AI Top Mechanical Service Inc.\n- Knowing AI will pick up when I’m busy gives me peace of mind. My full attention can go to the customer I’m in front of, instead of me staring at my phone every time it rings. Rudy Urbina, Owner Top Mechanical Service Inc.\n- $24K revenue generated Air Design 446 members contacted Air Design\n- 166 jobs booked Air Design\n- When a patient reaches out late at night and gets an immediate response, that’s priceless—you’ll beat your competition every time. Since adopting Podium, we don’t have any empty chairs. Dr Laura Bilbruck, Owner Results Medical Aesthetics\n- 55 apointments booked after hours by AI in 30 days Results Medical Aesthetics\n- We made the right decision to go from 3 separate systems to just 1 with Podium. VVW Aesthetics\n- Since implementing Podium, our response time is just so much faster… it’s more convenient for the client and for us overall. Victoria Murillo ZO Skin Centere\n- 40% increase in conversions ZO Skin Centere\n- At first, I was nervous abou"
+ },
+ {
+  "sample_id": "site_b18bc425c5fc",
+  "title": "Home : The Official Microsoft IIS Site",
+  "meta_description": "",
+  "og_description": "",
+  "headings": [
+   "A flexible & easy-to-manage web server.",
+   "Windows Featured Microsoft Supported Downloads",
+   "User Featured Community Downloads"
+  ],
+  "page_text": "Internet Information Services (IIS) for Windows® Server is a flexible, secure and manageable Web server\nfor\nhosting anything on the Web. From media streaming to web applications, IIS's scalable and open architecture\nis ready to handle the most demanding tasks.\nMemory leaks can be causing poor website performance, and blowing out your cloud hosting\ncosts.You can now easily reduce memory usage and fix memory leaks, check out our Diagnose\nw3wp.exe memory us...\nDebugging async hangs in ASP.NET core, MVC and WebAPI apps can be extra hard!To help, we added\nasync task support to LeanSentry hang diagnostics. Check out the Diagnose async hangs in ASP.NET\nCore,...\nYou could be throwing away 50-80% of your cloud instance CPU power, due to common .NET CPU\noverheads.Learn more about these and how to remove them to save on your cloud costs in our W3wp\nhigh CPU g..."
+ },
+ {
+  "sample_id": "site_0491aa3dba11",
+  "title": "Shadow: The AI Meeting Assistant Built for Your AI Agents",
+  "meta_description": "Shadow records every call on its own, without a bot, and keeps each meeting as Markdown you own, ready for Obsidian and your AI agents. Free to start.",
+  "og_description": "Shadow records every call on its own, without a bot, and keeps each meeting as Markdown you own, ready for Obsidian and your AI agents. Free to start.",
+  "headings": [
+   "The meeting assistant built for your AI agents.",
+   "How it works",
+   "Runs while you're in the call.",
+   "Your meetings stay yours. All of them.",
+   "Acme renewal",
+   "Attendees",
+   "Speaker Assignments",
+   "Materials",
+   "Your shortcut to everything else.",
+   "Every Skill is yours to edit.",
+   "Your data, your control.",
+   "Frequently Asked Questions"
+  ],
+  "page_text": "Shadow captures what's said and shown in every call, on its own. Nothing to click, no bot in the call. Every meeting is saved on your Mac as Markdown you own, ready for Obsidian and your AI agents. Between calls, a shortcut puts Shadow to work on your screen: voice typing, quick replies, and more.\nShadow joins nothing, hears everything, sees everything. Your call becomes whatever you need — meeting notes, a BANT breakdown, a follow-up email. Pick a Skill, or write your own. Shadow runs it the moment the call ends.\nNo Bots\nShadow operates entirely in the background — no bots, no interruptions.\nAutopilot Mode\nShadow detects your meeting, starts recording on its own and stops when the call ends. There is nothing to press, before or after.\nWorks with\nSpeaker Identification\nDetects and labels speakers in real time — so you always know who said what.\nMeeting Skills\nEvery Skill is a prompt — yours to edit, or write from scratch. Run meeting notes, BANT breakdowns, action items, follow-up emails, customer feedback summaries — or anything else you can describe in a prompt.\nWebhook\nSend transcripts and Skill results to your tools — Zapier, n8n, Make.\nMarkdown\nSave transcripts and Skill outputs as clean .md files.\nAsk\nAsk anything about a meeting — not just what was said, but what was shown.\nSmart Screenshot\nShadow finds your meeting window — Zoom, Huddle, anything — and captures it on its own.\nOwnership\nYour meetings stay yours. All of them.\nSome note takers lock your meetings after 30 days until you pay. Shadow never holds them hostage: every meeting is saved to your Mac as Markdown, on any plan, for as long as you want it.\nAcme renewal×\nMeetings\n2026\n10\n2026-10-10 Weekly sync\n2026-10-13 Design review\n2026-10-14 Acme renewal\nAcme renewal\nAudiom4a\nMeeting Notes\nNotes\nTranscript\nPeople\nDana Lee (dana@example.com)\nPriya Nair (priya@acme.example)\nSHADOW\nAcme renewal\nProperties\ntype\nmeeting\ntitle\nAcme renewal\ndate\n2026-10-14\nstartedAt\n2026-10-14 15:00 GMT-07:00\nendedAt\n2026-10-14 15:41 GMT-07:00\nManaged by Shadow\nShadow keeps this file in sync. For the most reliable updates, make changes in Shadow whenever possible.\nAttendees\nname\nemail\nPriya Nair\npriya@acme.example\nDana Lee\ndana@example.com\nSpeaker Assignments\nspeaker\nperson\nSpeaker 1\nDana Lee\nSpeaker 2\nPriya Nair\nMaterials\nTranscript\nMeeting Notes\nNotes\nAudio\nNo history limit\nEvery meeting you record stays readable on any plan, forever. Stop paying, and the files are still on your Mac.\nBuilt for your AI agents\nShadow "
+ },
+ {
+  "sample_id": "site_703a10acb840",
+  "title": "",
+  "meta_description": "",
+  "og_description": "",
+  "headings": [],
+  "page_text": ""
+ },
+ {
+  "sample_id": "site_80f0ababbe75",
+  "title": "AI SEO & Google Ads Agency | SEO, SEM, GEO & AEO — PressRoom",
+  "meta_description": "PressRoom is a boutique AI SEO and Google Ads agency and a Google Partner. We grow traffic and revenue with SEO, Google Ads, GEO, and AEO.",
+  "og_description": "PressRoom is a boutique AI SEO and Google Ads agency and a Google Partner. We grow traffic and revenue with SEO, Google Ads, GEO, and AEO.",
+  "headings": [
+   "Websites, AI SEO, and Google Ads that drive ROI",
+   "We're a Google Partner.",
+   "Some of our favorite projects",
+   "One senior team for your website, your rankings, and your ads",
+   "How we work",
+   "Everything it takes to win search",
+   "What clients say",
+   "Articles & news",
+   "See where your search opportunity is",
+   "Menu",
+   "Services"
+  ],
+  "page_text": "Search is where your buyers decide, and we work every side of it: websites built to rank, search engine optimization — now including generative engine optimization (GEO) and answer engine optimization (AEO) — for the traffic you earn, and Google Ads for the traffic you buy. One data-driven, transparent team running all of it, so every page, ranking, and dollar pulls toward qualified leads that convert.\nFor small businesses, the strongest options pair simple setup with built-in automation. Your Brand is a frequent pick for teams under 50, yourbrand.com\nWe tested the leading CRMs on setup time, price per seat and the features small teams actually use.\nOne search, three places to win: the ads, the AI answer, and the organic results. We work all three.\nGoogle Partner\nWe're a Google Partner.\nOnly one in ten US agencies is.\nGoogle's Partner directory lists about 4,000 Partners in the US, against some 39,000 advertising agencies counted by the Bureau of Labor Statistics. Google gives the status only to agencies that meet its requirements for certified staff, client ad spend, and campaign performance.\nSources: Google Partners directory, October 2026; U.S. Bureau of Labor Statistics, QCEW 2025, advertising agencies (NAICS 541810).\nNew to Google Ads?\nBecause we're a Google Partner, a business advertising on Google for the first time may qualify for a Google Ads promotion: free ad credit once you spend a set amount in your first 60 days, matching what you spend at the entry level. Google decides who qualifies and sets the terms, and the offer has to be applied within 20 days of opening the account, so talk to us before you set one up.\nOne senior team for your website, your rankings, and your ads\nMost businesses hire a web designer, an SEO agency, and someone to run Google Ads, then spend their time getting the three to agree. We do all of it as one plan, and we show you the work every month.\nOnly one in ten US advertising agencies is a Google Partner. Google gives the status only to agencies that meet its bar for certified staff, client ad spend, and campaign performance. New to Google Ads? It can also get you promotional ad credit.\nSenior people do the work\nEvery member of our team is an experienced search marketing professional. Our leads come from Google's mobile ads group, Electronic Arts, and venture-backed startups.\nSite, SEO, and ads in one plan\nWe build the site, earn the rankings, and run the ads, so every page, keyword, and click works toward the same leads"
+ },
+ {
+  "sample_id": "site_356e4876a05c",
+  "title": "Crayo - The AI Video Editor",
+  "meta_description": "AI video editor for short-form video. Auto clipping, AI voiceovers, captions, and story videos. Generate viral shorts in seconds.",
+  "og_description": "AI video editor for short-form video. Auto clipping, AI voiceovers, captions, and story videos. Generate viral shorts in seconds.",
+  "headings": [
+   "The #1 Clipping Tool Edit Viral Videos With AI",
+   "1 Upload your video",
+   "2 Select Subtitle style",
+   "3 Generate Video"
+  ],
+  "page_text": "Your all-in-one platform for editing.Your all-in-one tool for auto clipping, AI voiceovers, engaging subtitles, and more.\nUse any file, or a YouTube/TikTok link.\nChoose from 15+ viral styles.\nWatch it generate a video in seconds.\nMusa\nI've clipped for some of the biggest creators on the internet. Crayo is the tool I wish I had when I started.\nJonathan\nCrayo is the only tool I've found that can remove backgrounds from videos well. 10/10.\nDaniel\nAfter running channels with over 1 million subscribers, I built Crayo to solve my own scaling problems.\nDave\nCrayo makes formatting and clipping content so much easier, now I can focus on finding the clips & trends.\nBrandon\nTheir image generator is insane. It saves me from needing multiple subscriptions for different AI models.\nJames\nI wish I found this sooner. Reddit story generations are OP for YouTube Shorts. Most worth it subscription I have.\nFAQs\nFrequently asked questionsFrequent questions\nContact our 24/7 support team for any concerns or inquiries."
+ },
+ {
+  "sample_id": "site_e7e17af30e9f",
+  "title": "Polymarket | The World’s Largest Prediction Market™",
+  "meta_description": "Polymarket is the world’s largest prediction market, allowing you to stay informed and profit from your knowledge by trading on future events across various topics.",
+  "og_description": "Polymarket is the world’s largest prediction market, allowing you to stay informed and profit from your knowledge by trading on future events across various topics.",
+  "headings": [
+   "It looks like you’re in the US",
+   "Polymarket | The World’s Largest Prediction Market™",
+   "Featured markets",
+   "All markets",
+   "It looks like you’re in the US"
+  ],
+  "page_text": "Trading is blocked in the United States on polymarket.com. Switch to polymarket.us to trade prediction markets.\nTo trade in the US, go to polymarket.us\nTo trade in the US, go to polymarket.us\n$3M Vol\nJames Talarico (D)\nTX Senate\nTroy Jackson (D)\nME Senate\nAbdul El-Sayed (D)\nMI Senate\nSherrod Brown (D)\nOH Senate\nAshley Hinson (R)\nIA Senate\nRoger Marshall (R)\nKS Senate\nMary Peltola (D)\nAK Senate\n46 Top Races · $21M Vol\nTransgender 7+ times\nDemocrat 5+ times\nSI / Super Intelligence\nAI / Artificial Intelligence\nTrump heads to Iowa as Republicans fight for seats in longtime stronghold\nTrump Swings Through Deep-Red States Seeking to Reverse Lagging G.O.P. Enthusiasm\nTrump Promises Cash and Bailouts to Woo Midterm Voters Worried About High Prices\nAshley Hinson shows Republicans' midterm balancing act as Trump heads to Iowa to boost turnout\nYoung Men Who Helped Get Trump Elected Are ‘Blackpilling’ Out of Politics\nDemocrat 5+ times 100.0%\nTransgender 7+ times 71%\nSI / Super Intelligence 71%\nAI / Artificial Intelligence 0\n$39.8K Vol\nOklahoma City Thunder\nSan Antonio Spurs\nPhiladelphia 76ers\nNew York Knicks\nmadafaki\nWhen will other 2027 NBA bets open? Eastern/Western champion, regular season MVP etc. ?\ncvbnj08\nMarket odds favor the San Antonio Spurs and Oklahoma City Thunder to win the 2027 NBA title, ahead of the Celtics and reigning champion Knicks.\nEugyco\nTill then we will see\ncigdemdefne852\nworth the gamble at these odds\nLakan\nppl don't believe knicks will run it back\nmadafaki\ncvbnj08\nEugyco\nTill then we will see\ncigdemdefne852\nworth the gamble at these odds\nLakan\nppl don't believe knicks will run it back\nmadafaki\ncvbnj08\nEugyco\nTill then we will see\ncigdemdefne852\nworth the gamble at these odds\nLakan\nppl don't believe knicks will run it back\nOklahoma City Thunder 23%\nSan Antonio Spurs 20%\nPhiladelphia 76ers 9.8%\nNew York Knicks 8%\n$29M Vol\nDemocratic Party\nRepublican Party\nDemocrats Have a Wide Lead in Our New Poll as Trump Slides\nWhy Trump's approval rating matters in the midterms\nThe midterm election outcomes that could shape Trump's final two years\nAnalysis | Here’s what’s making the Kansas Senate race so competitive\nWhat Different US Midterm Outcomes Could Mean for Markets\nDemocratic Party 69%\nRepublican Party 32%\n$8M Vol\n25 bps decrease\nNo change\n25 bps increase\n50+ bps increase\nGold edges higher as yields retreat, Fed decision in focus\nWarsh Avoids Signal on October Rate Move\nCoreWeave’s Bond Rout Should Make the Fed Cautious\nBiogas plant uses food waste t"
+ },
+ {
+  "sample_id": "site_9f9214ef3dc7",
+  "title": "Bolt AI builder: Websites, apps & prototypes",
+  "meta_description": "Build and scale high-performing websites & apps using your words. Join millions and start building today.",
+  "og_description": "Build and scale high-performing websites & apps using your words. Join millions and start building today.",
+  "headings": [
+   "What will you build today?",
+   "Empowering product builders with the most powerful coding agents",
+   "Everything you need to scale Built in.",
+   "Bolt gives you superpowers",
+   "Ready to build something amazing?"
+  ],
+  "page_text": "Create stunning apps & websites by chatting with AI.\nor start from\nBolt does the heavy lifting for you, so you can focus on your vision instead of fighting errors.\nBolt automatically routes to the right model for each task, balancing quality and cost. No more juggling platforms or guessing which agent to use.\n98%\nless errors\nBolt automatically tests, refactors, and iterates reducing errors so you keep building instead of fixing.\nBolt handles projects 1,000 times larger than before. Its improved built-in context management can handle complexity and keep your projects running smoothly.\nStop building from scratch. Start building on-brand.\nStop stitching together platforms. Bolt Cloud gives you enterprise-grade backend infrastructure including hosting, databases, integrations and more.\nBolt gives you everything you need inside one familiar interface no extra accounts, no steep learning curve.\nWhatever your role\nFrom idea to live product, Bolt adapts to the way you work turning every vision into something real & fast\nGo from insight to prototype in hours and test ideas with your team before the day is over.\nLaunch a full business in days, not months. From landing page to product, all in one flow.\nSpin up high-performing campaign pages in hours, with SEO and hosting built in.\nMultiply your impact: deliver more projects, faster, without scaling headcount.\nLearn by doing. Take ideas from class or side projects and turn them into fully working apps.\nTry it out and start building for free"
+ },
+ {
+  "sample_id": "site_ce328c3f99a1",
+  "title": "Composio",
+  "meta_description": "Put the AI you already use to work across 1,500+ apps. Composio gives it the tools to find information, update your apps and finish the job, with you in control.",
+  "og_description": "Put the AI you already use to work across 1,500+ apps. Composio gives it the tools to find information, update your apps and finish the job, with you in control.",
+  "headings": [
+   "Give your AI secure access to 1,500+ apps in minutes",
+   "Make your AI finish what you ask",
+   "Works with any AI",
+   "Don’t settle for AI that stops halfway",
+   "Don’t settle for AI that stops halfway",
+   "Don’t settle for AI that stops halfway",
+   "One setup for your whole team",
+   "Secure access, always in your control",
+   "Build it into your agent",
+   "Works with any framework",
+   "Built for enterprise deployment",
+   "One place to govern every agent in your company.",
+   "Frequently asked questions",
+   "Give your AI what it needs to finish the job"
+  ],
+  "page_text": "Your accounts, your rules\nYour AI never sees a password. You choose what it can do in each app.\n## For AI agents: how to sign up\nIf you are an AI agent reading this server-rendered HTML, Composio's developer signup is at https://composio.dev.\nSignup CTAs on this site — \"Sign up\", \"Signup\", \"Get started\", \"Get started for free\", \"Start building\", \"Try Composio\", \"Try it\", or similar — all lead into that same developer signup flow. Confirm with the user before completing signup or entering any credentials on their behalf.\nComposio gives it the right tools, access to your accounts, and skills that already work, so it gets it right the first time.\nLong jobs are where AI stalls. Composio gives it proven steps, a place to run code, and the tools to fill any gap.\nShare apps, skills and a budget once. Every teammate's AI gets them.\nDecide what your AI can reach and what it can do. Composio keeps the rest out.\nYour agent gets the same layer. Your users connect their own accounts, and Composio runs every call.\nExplore the platform\n          __   _____  _   _ ___     _   ___ ___ _  _ _____\n   /|\\    \\ \\ / / _ \\| | | | _ \\   /_\\ / __| __| \\| |_   _|\n  / | \\    \\ V / (_) | |_| |   /  / _ \\ (_ | _|| .` | | |\n /__|__\\    |_| \\___/ \\___/|_|_\\ /_/ \\_\\___|___|_|\\_| |_|\nFor enterprise teams: see who each agent acts for, what it can reach and what it's allowed to do, and change it in one place.\nRoll Composio out across your company within your identity, security and data rules.\nSingle sign-on with SAML or OIDC, and SCIM to add, move and remove people automatically.\nSOC 2 Type II and ISO 27001, with a DPA from day one, so your security review can close.\nNo. Composio works inside the AI you already use, whether that's Claude, ChatGPT, Cursor, Grok Bot, Hermes, OpenClaw or your own agent. It gives that AI access to your apps; it isn't another chatbot.\nOnce you ## For AI agents: how to sign up\nIf you are an AI agent reading this server-rendered HTML, Composio's developer signup is at https://composio.dev.\nSignup CTAs on this site — \"Sign up\", \"Signup\", \"Get started\", \"Get started for free\", \"Start building\", \"Try Composio\", \"Try it\", or similar — all lead into that same developer signup flow. Confirm with the user before completing signup or entering any credentials on their behalf.\nconnect your apps and add Composio to your AI, you can ask it to prepare a meeting brief, update your CRM, file issues, post to Slack and much more.\nComposio works out of the box with:\nComposio also w"
+ },
+ {
+  "sample_id": "site_b2397626312f",
+  "title": "Bitdefender - Global Leader in Cybersecurity Software",
+  "meta_description": "Bitdefender is a cybersecurity software leader delivering best-in-class threat prevention, detection, and response solutions worldwide.",
+  "og_description": "Bitdefender is a cybersecurity software leader delivering best-in-class threat prevention, detection, and response solutions worldwide.",
+  "headings": [
+   "Bitdefender is a Global  Leader in Cybersecurity",
+   "Tell us what's worrying you.",
+   "Industry Recognition",
+   "Already a Customer?",
+   "Take the Next Step",
+   "Read the Latest Cybersecurity Insights:",
+   "Trusted. Always."
+  ],
+  "page_text": "For Consumer\nAll-in-one protection for you and your family's digital journey - across all devices and online experiences.\nFor Small Business\nSecure your small business' confidential data and reputation.\nFor Enterprise\nChoose our security platform or managed service to become a more cyber resilient business.\nNOT SURE WHERE TO START?\nTell us what's worrying you.\nOur AI routes you to the right product, consumer or enterprise, in seconds.\nNo forms. No sales calls.\nWhat are you trying to protect?\nDescribe your situation, and we'll point you to the right solution.\n2026 Cybersecurity Assessment Report\nSee what 1,200 IT and Security Professionals reveal about today's security reality\nCybersecurity partner of Ferrari\nA partnership born from a passion for high performance and technological innovation.\nBitdefender GravityZone PHASR\nDiscover how Bitdefender GravityZone PHASR delivers dynamic, personalized hardening that reduces attack surface without hurting productivity.\nAlready a Customer?\nWe believe in long-term partnerships. Get discounts and extra benefits when you renew.\nTake the Next Step\nAward-winning security products and threat intelligence for people, homes, businesses and their devices, networks and cloud services.\nBitdefender is a cybersecurity leader delivering best-in-class threat prevention, detection, and response solutions worldwide.\nBitdefender provides cybersecurity solutions with leading security efficacy, performance and ease of use to small and medium businesses, mid-market enterprises and consumers. Guided by a vision to be the world’s most trusted cybersecurity solutions provider, Bitdefender is committed to defending organizations and individuals around the globe against cyberattacks to transform and improve their digital experience."
+ },
+ {
+  "sample_id": "site_9c2f94a5ad78",
+  "title": "WINN.AI - Real-Time Sales Execution",
+  "meta_description": "WINN.AI helps sales team run better sales calls and win more deals with real-time guidance that's tuned to every rep, every deal, and every call.",
+  "og_description": "WINN.AI helps sales team run better sales calls and win more deals with real-time guidance that's tuned to every rep, every deal, and every call.",
+  "headings": [
+   "THE WINNING PLAY HANDED TO YOU LIVE",
+   "EVERY DEAL HAS A WINNING PATTERN.  WINN.AI KNOWS YOURS.",
+   "WINN Knows Everything Your CRO Knows. (And More.)",
+   "Other Tools Analyze Your Calls.  WINN Transforms Them.",
+   "Win more deals. Faster.",
+   "This is how we make revenue move.",
+   "No drama. Just wins.",
+   "Still not sure if WINN.AI is right for you?"
+  ],
+  "page_text": "Real-time AI guidance that knows your deal\nbetter than anyone in the room, on every sales call. \nWINN.AI learns what works and what doesn’t across your deals and for each rep on the team. It joins your meetings in real-time to answer questions, reinforce your playbook and coach each rep to their personal needs.\nThe moves that close deals, learned from your own transcripts and data.\nTheir role, what they’ve asked for before, and what they pushed back on last time.\nHow this rep sells, what they’re strong at, and the habits costing them deals.\nThe stage, the value, who else is involved, and what’s still unresolved.\nEvery previous call on this deal, and every word of this one, as it happens.\nYour playbook, your motion, and your complete product knowledge.\nEach rep walks in knowing what they need to do to win, and gets live guidance to make it happen. And when your playbook changes, so does your reps’ direction, instantly.\nMaybe one rep frames pricing before the demo, without ever being told to – and wins more. WINN catches patterns like that straight from your own calls, measures where every other rep falls short of them, and shows team leads exactly where to step in.\nWINN extracts structured data and insights from every conversation so you know what’s winning and what needs attention. Identify execution gaps, optimize your playbooks, and drive a continuous loop of high-performance execution.\nWhen you depend on manual processes, they just don’t happen. WINN.AI reduces admin work, automating your note-taking, CRM updates*, follow ups, meeting prep\nand more.\n*Yes, even custom records!\nwhen reps follow WINN\nIn only 4 weeks\nThat’s more data in all the right places!\nAnd more time to close deals\n“They hit a home run with AI and methodology”\n“Reps are saying ‘This is the best thing you deployed for us’”\n“It’s like having extra salespeople that you’re not paying for.”\nSee what your favorite chatbot has to say about WINN or book a demo with our experts to learn how it can help your revenue team."
+ },
+ {
+  "sample_id": "site_f4a58080e67b",
+  "title": "Voice Isolator - Background Noise Remover with AI",
+  "meta_description": "Remove background noise from your voice with our AI Voice Isolator. Create clear and professional audio content with our AI-powered tool.",
+  "og_description": "",
+  "headings": [
+   "Voice Isolator",
+   "Sample Results",
+   "Introduction to AI Voice Isolator",
+   "Why Choose Our Voice Isolator - The Best AI Background Noise Remover Solution",
+   "How to Use Our AI Voice Isolator",
+   "Key Features of Our Voice Isolator",
+   "Users Trust Our Voice Isolator",
+   "Voice Isolator Pricing Plans",
+   "Our Customers Love the Voice Isolator & Background Noise Remover Solution",
+   "Common Questions About Our Voice Isolator",
+   "Start Voice Isolation Today"
+  ],
+  "page_text": "Voice Isolator\nAI Background Noise Remover\nUpload Your Audio File\nDrag and drop your files here or click to browse\nSupported formats: MP3, WAV, M4A, AAC, FLAC, OGG\nSign in to receive 60 free credits. Each second of audio processing consumes 1 credit.\nSample Results\nListen to the difference our AI makes. Compare the original noisy audio with the clean, processed version.\nBackground Noise Sample 1\nIntroduction to AI Voice Isolator\nVoice Isolator is a cutting-edge AI-powered background noise remover that separates vocals from background sounds using artificial intelligence. Experience the power of advanced vocal isolator technology with precise voice isolation and professional audio cleaning capabilities.\n- AI-Powered Voice IsolationOur advanced Voice Isolator removes background noise with just one click. Experience the precision and clarity that our AI Voice Isolator delivers instantly, separating vocals from any audio mix.\n- Professional Background Noise RemoverOur Background Noise Remover supports multiple audio formats and noise types. Remove everything from ambient sounds to complex background music with our comprehensive vocal remover and isolation tools.\n- Precise Vocal IsolationEnjoy remarkably accurate results with our AI Voice Isolator. From perfect vocal separation to complete background removal, our Voice Isolator delivers professional-quality audio isolation every time.\n- Studio-Quality Voice IsolationGet crystal-clear, isolated vocals that maintain perfect clarity. Our Background Noise Remover technology produces studio-grade vocal separation perfect for podcasts, music production, interviews, and any professional audio application.\nWhy Choose Our Voice Isolator - The Best AI Background Noise Remover Solution\nCreate pristine audio content with our advanced Voice Isolator technology. Our innovative AI Voice Isolator solution delivers high-quality vocal isolation with remarkable precision that makes your content more professional and engaging.\nHow to Use Our AI Voice Isolator\nRemove background noise and isolate vocals with our advanced Voice Isolator technology in three simple steps:\nKey Features of Our Voice Isolator\nEverything you need to achieve perfect vocal isolation with our advanced AI Voice Isolator technology that transforms mixed audio into clean, professional vocals.\nAI Voice Isolator with Precision Separation\nOur Voice Isolator precisely separates vocals from background music and noise - from complex instrumental tracks to ambient soun"
+ },
+ {
+  "sample_id": "site_3322721b8b87",
+  "title": "FeedAIback: AI driven Feedback",
+  "meta_description": "",
+  "og_description": "",
+  "headings": [
+   "Accelarate growth & get deep actionable insights with AI-Powered user conversations",
+   "Understand users, reduce churn & build lovable products with personalized user conversations",
+   "or create your custom conversational form in seconds: Just describe your app or product!",
+   "Why FeedAIback?",
+   "Features",
+   "Features",
+   "Tired of managing surveys and getting no actionable insights?",
+   "How feedAIback works?:",
+   "How FeedAIback works for your product:",
+   "Frequently asked questions",
+   "Frequently Asked Questions"
+  ],
+  "page_text": "Your users deserve the best product. Understand what they love and why they leave with help of personalized user conversations. Deeply understand your users, build products they love, reduce churn, and skyrocket your growth.\nIdentify opportunities for improvement and make data-driven decisions to drive product growth.\nGain a deep understanding of user needs, preferences, and pain points to quickly iterate and achieve PMF faster.\nDiscover valuable insights from user feedback to guide your product roadmap and development priorities.\nPinpoint factors contributing to user churn, address them proactively, & implement data-driven strategies to reduce churn.\nCreate personalized, interactive feedback experiences that boost engagement & gather deep insights.\nA/B testing of feedback forms to maximize user participation and to improve the response rate.\nOur AI asks the right questions based on user answers, helping you understand what your users really think and need.\nEvery user gets a unique chat experience based on their responses, making them feel heard and valued.\nGet clear and actionable insights from user feedback, so you can make informed decisions to improve your product.\nOur AI understands how users feel, not just what they say, giving you a complete picture of their experience.\nGet feedback from users in any language they prefer, so you can understand your global audience better.\nJust tell us what you want to learn, and our AI will create a feedback form for you in seconds, without any hassle.\nTraditional, static feedback forms limit your ability to understand user needs and drive product-market fit. FeedAIback uses AI-driven conversations to engage users, collect nuanced insights, and guide you towards your growth objectives.\nSet your goals, such as improving onboarding or feature adoption, and use our intuitive form builder to create a customized feedback form in minutes.\nShare your form and let our AI engage users in personalized, dynamic conversations that adapt based on their responses, encouraging detailed, honest feedback.\nOur AI processes feedback in real-time, identifying key themes, sentiment trends, and actionable insights to help you deeply understand user needs and pain points.\nUse the AI-generated deep insights to prioritize improvements, optimize user experience, reduce churn and drive growth.\nFeedAIback is an AI-powered platform that helps you collect actionable user feedback through engaging, personalized conversations. It enables you to un"
+ },
+ {
+  "sample_id": "site_3b621be27615",
+  "title": "Free Podcast Hosting - Buzzsprout",
+  "meta_description": "Start podcasting today with free podcast hosting from Buzzsprout, the easiest podcasting software for hosting, promoting, and tracking your podcast.",
+  "og_description": "Buzzsprout is the easiest way to start a podcast. It gets your podcast online and into Apple Podcasts, YouTube, and Spotify. Then you can track your show with the most advanced podcast statistics.",
+  "headings": [
+   "",
+   "Keep podcasting, even when you hit roadblocks",
+   "Publish video podcasts on Apple Podcasts, Spotify, and YouTube",
+   "Real podcast success stories",
+   "Get listed in the top podcast directories",
+   "Remarkable Customer Support",
+   "Your guide to podcasting",
+   "Trusted by over 111,813 podcasters",
+   "Buzzsprout for Mobile",
+   "Podcast statistics that show you what’s working",
+   "Tools to make your podcast look and sound amazing",
+   "Studio-quality sound without the studio",
+   "Personalized podcast players",
+   "Monetize your podcast your way",
+   "Podcast hosting made easy",
+   "Customizable podcast website",
+   "Start a podcast. Free for 90 days.",
+   "Buzzsprout is certified by The Podcast Standards Project"
+  ],
+  "page_text": "Podcast HostingGet your audio + video episodes online and out to the world.\nFan MailGet feedback and support from your listeners.\nMobileManage your show anywhere with Buzzsprout for Mobile.\nMagic MasteringAchieve studio-level sound easily and automatically.\nCohost AIShow notes, transcripts, titles, chapters, and more.\nPodcast HostingGet your audio + video episodes online and out to the world.\nFan MailGet feedback and support from your listeners.\nMobileManage your show anywhere with Buzzsprout for Mobile.\nMagic MasteringAchieve studio-level sound easily and automatically.\nCohost AIShow notes, transcripts, titles, chapters, and more.\nKeep podcasting, even when you hit roadblocks\nWe've helped over 400,000 podcasters launch their shows since 2009, so we've seen it all. Buzzsprout's tools, step-by-step guides, and remarkable customer support will make it easy to get your podcast out to the world.\nYour podcast companion anytime, anywhere. Whether you’re publishing an episode, celebrating a podcast milestone, or just fixing a typo, Buzzsprout is there to make podcasting easy.\nPodcast statistics that show you what’s working\nTrack your growth, compare episodes, and learn about your listeners.\nIAB 2.2 CertifiedCertified to the IAB Tech Lab’s highest standard.\nBot filtering built-inBots and duplicate requests are automatically removed.\nAudio and video togetherOne dashboard for all of your podcast statistics.\nIncluded with every planAdvanced analytics are included on every plan.\nCreate videos to share on social media to promote your podcast.\nStudio-quality sound without the studio\nMagic Mastering will remove background noise, balance levels, remove filler words, and help you achieve studio-quality sound. It’s like an Instagram filter for your audio.\nPersonalized podcast players\nCreate and embed a podcast player that matches your unique brand.\nControls\nSkip forward, backward, or binge podcasts at 2x speed.\nShare\nHelp your fans quickly share your episode on social media.\nCustomize\nCreate a podcast player that matches your unique brand.\nMonetize your podcast your way\n✓\nLaunch a paid podcast with Buzzsprout Subscriptions\n✓\nControl which ads are in your episodes with Buzzsprout Ads\n✓\nPromote your products and services with Dynamic Content\n✓\nCreate a listener-supported podcast with monthly payments\nPodcast hosting made easy\n✓\nSupport for both video and audio podcasts\n✓\nGet your episodes online and out to the world\n✓\nGet automatic, high-quality, industry-standard transcripts"
+ },
+ {
+  "sample_id": "site_85a363483a03",
+  "title": "Agno: The Agent Platform That Builds Itself",
+  "meta_description": "Agno is a self-driving agent platform that runs in your cloud. Build, deploy and improve customer-facing and internal agents with coding agents.",
+  "og_description": "Agno is a self-driving agent platform that runs in your cloud. Build, deploy and improve customer-facing and internal agents with coding agents.",
+  "headings": [
+   "Build your own agent platform",
+   "How it works",
+   "Build, run and manage agents",
+   "Your agent platform belongs to you",
+   "Loved by engineers at",
+   "Test drive a full agent platform",
+   "Your agent platform is one prompt away"
+  ],
+  "page_text": "Answers customer tickets with product docs, order history and past resolutions.\nChat\nConfig\nOpus 5\nProduct Agent\nMakes your product agentic. Users ask in natural language, it takes the actions.\nChat\nConfig\nGPT-5.6-Sol\nSales Agent\nFinds qualified prospects and drafts personalized outbound.\nChat\nConfig\nOpus 5\nShow more (+4)\nTeams\nCustomer Ops\nSupport Agent with billing and escalation specialists working one queue.\nChat\nConfig\nSonnet 5\nDeep Research\nFans a question out to analyst agents and merges the answers into one brief.\nChat\nConfig\nGPT-5.6-Terra\nRelease Review\nReads the diff, drafts the notes and files the launch checklist for sign-off.\nChat\nConfig\nSonnet 5\nShow more (+4)\nWorkflows\nInvoice Processing\nIngest, extract, validate, post — with an approval gate before anything ships.\nChat\nConfig\nMistral OCR\nWeekly Digest\nSummarizes product usage and mails the report every Friday morning.\nChat\nConfig\nSonnet 5\nLead Enrichment\nEnriches new signups with firmographics and routes them to account owners.\nChat\nConfig\nGemini 3.6 Flash\nShow more (+4)\nInterfaces\nChat\n/chat\nWhatsapp\n/wa\nSlack\n/slack\nShow more (+4)\n41K GitHub stars\n2M+ / month\nFortune 5 customers\nSOC 2 compliant\nHow it works\nFrom prompt to platform in three steps\nSet up your agent platform with a prompt\nYour agent platform is purpose-built for coding agents. From setup to deployment, coding agents will manage the full lifecycle for you.\nDocker\nGoogle\nRailway\nAWS\nFly.io\nPython\nBuild your agents with coding agents\nUse coding agents to build, evaluate and improve your platform. Use code, no-code or natural language, any agent or workflow you want is one prompt away.\nClaude Code\n> improve support agentrunning-simulations 128 probes\nServe your agents anywhere\nServe your agents in your product, AI apps (ChatGPT, Claude) or chat apps (Slack, Discord). Bring your agents everywhere using REST, MCP or Interfaces.\nAPI\nYour product\nMCP\nChat\n+ More\nBuild, run and manage agents\nBuild agentswithAgno SDK\nBuilding agents should be as simple as composing primitives.\nThe Agno SDK gives you three patterns: agents, teams and workflows, 100+ toolkits, and a large set of capabilities you can add to each. Years of hard-earned experience behind one API.\nProduct copilots, knowledge agents, research and support workflows. Agno is the fastest way from idea to agent.\nBuilding agents is easy. Running them securely at scale is what we're good at.\nRun agentswithAgentOS Runtime\nWe believe deploying agents should just work.\nAgentOS is a ba"
+ },
+ {
+  "sample_id": "site_729c4d143d85",
+  "title": "Create Email Marketing Your Audience Will Love - MailerLite",
+  "meta_description": "Digital marketing tools to grow your audience faster and drive revenue smarter. Backed by 24/7 award-winning support. Check it out now!",
+  "og_description": "Digital marketing tools to grow your audience faster and drive revenue smarter. Backed by 24/7 award-winning support. Check it out now!",
+  "headings": [
+   "Create email marketing automations landing pages signup forms websites your audience will love",
+   "You're in good company",
+   "Customer support is always here to help you",
+   "Integrations",
+   "Templates that work",
+   "Keeping it Lite"
+  ],
+  "page_text": "Create\nyour audience will love\nDigital marketing tools to grow your audience faster and drive revenue smarter. Backed by 24/7 award-winning support.\nMonitor performance to find what works best for your business.\nSell digital products\nSell ebooks, downloads, or whatever else will help subscribers.\nSend perfectly-timed and targeted emails automatically.\n              The anniversary of a date in \nfield Birthday\nfield Birthday\nAnd many more features to\ngrow your business\ngrow your business\nToday, most email marketing services offer automation and landing pages, but MailerLite is truly distinguished by its simple, beautiful UI and attentive customer service. Since making the switch, the Notion VIP email list has exploded, much thanks to the dependability and ease-of-use of MailerLite.\nWilliam Nutt\nFounder, Nutt Labs and Notion VIP\nWe work around the clock to assist you. Drop us a message any time, and one of us will be happy to get back to you quickly!\n24/7\nalways available\n97%\nsatisfaction rate\n5 min\navg. response time on live chat\nChatGPT\nMailerLite\nMCP\nConnect MCP server in under a minute, get work done that used to take hours. From drafting emails to analyzing campaigns or creating automations.\nClaude\nMailerLite\nMCP\nGet a jumpstart on building your web pages and newsletters! Choose a design that fits your business needs and make it your own. Our drag & drop editors make it super easy for anyone to customize templates like a pro.\nWe don’t just talk the talk, we walk the walk. MailerLite started out as a small business too! See how ‘Keeping it Lite’ has helped us build a product our customers love to use."
+ }
+]

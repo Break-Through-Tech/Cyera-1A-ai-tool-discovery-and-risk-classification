@@ -1,0 +1,251 @@
+{
+  "teacher_label_counts": {
+    "ai": 224,
+    "unresolved": 32,
+    "non_ai": 26
+  },
+  "dev": {
+    "keyword_rule": {
+      "method": "keyword_rule",
+      "resolved_pages": 215,
+      "resolved_macro_f1": 0.879281302638967,
+      "resolved_accuracy": 0.8883720930232558,
+      "false_alarms": 19,
+      "missed_ai": 5,
+      "resolved_abstained": 0,
+      "gold_unresolved_pages": 35,
+      "gold_unresolved_predictions": {
+        "non_ai": 14,
+        "ai": 21
+      },
+      "confusion": {
+        "ai->ai": 125,
+        "ai->non_ai": 5,
+        "non_ai->ai": 19,
+        "non_ai->non_ai": 66,
+        "unresolved->ai": 21,
+        "unresolved->non_ai": 14
+      }
+    },
+    "cascade_luna": {
+      "method": "cascade_luna",
+      "resolved_pages": 215,
+      "resolved_macro_f1": 0.945146974613476,
+      "resolved_accuracy": 0.9162790697674419,
+      "false_alarms": 1,
+      "missed_ai": 13,
+      "resolved_abstained": 13,
+      "gold_unresolved_pages": 35,
+      "gold_unresolved_predictions": {
+        "unresolved": 20,
+        "non_ai": 7,
+        "ai": 8
+      },
+      "confusion": {
+        "ai->ai": 117,
+        "ai->non_ai": 4,
+        "ai->unresolved": 9,
+        "non_ai->ai": 1,
+        "non_ai->non_ai": 80,
+        "non_ai->unresolved": 4,
+        "unresolved->ai": 8,
+        "unresolved->non_ai": 7,
+        "unresolved->unresolved": 20
+      }
+    }
+  },
+  "students": {
+    "tfidf_lr[context]": {
+      "C": 0.1,
+      "class_weight": "balanced",
+      "train_cv_macro_f1_vs_teacher": 0.5272213662044171,
+      "dev_stage3_agreement_with_luna": 0.696969696969697,
+      "dev": {
+        "method": "cascade_tfidf_lr[context]",
+        "resolved_pages": 215,
+        "resolved_macro_f1": 0.8594089898076407,
+        "resolved_accuracy": 0.8325581395348837,
+        "false_alarms": 10,
+        "missed_ai": 19,
+        "resolved_abstained": 16,
+        "gold_unresolved_pages": 35,
+        "gold_unresolved_predictions": {
+          "unresolved": 16,
+          "ai": 13,
+          "non_ai": 6
+        },
+        "confusion": {
+          "ai->ai": 111,
+          "ai->non_ai": 10,
+          "ai->unresolved": 9,
+          "non_ai->ai": 10,
+          "non_ai->non_ai": 68,
+          "non_ai->unresolved": 7,
+          "unresolved->ai": 13,
+          "unresolved->non_ai": 6,
+          "unresolved->unresolved": 16
+        }
+      }
+    },
+    "embed_lr[all-MiniLM-L6-v2,context]": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "train_cv_macro_f1_vs_teacher": 0.5504874134208133,
+      "dev_stage3_agreement_with_luna": 0.6303030303030303,
+      "dev": {
+        "method": "cascade_embed_lr[all-MiniLM-L6-v2,context]",
+        "resolved_pages": 215,
+        "resolved_macro_f1": 0.8046142754145638,
+        "resolved_accuracy": 0.7255813953488373,
+        "false_alarms": 5,
+        "missed_ai": 46,
+        "resolved_abstained": 40,
+        "gold_unresolved_pages": 35,
+        "gold_unresolved_predictions": {
+          "unresolved": 20,
+          "ai": 3,
+          "non_ai": 12
+        },
+        "confusion": {
+          "ai->ai": 84,
+          "ai->non_ai": 14,
+          "ai->unresolved": 32,
+          "non_ai->ai": 5,
+          "non_ai->non_ai": 72,
+          "non_ai->unresolved": 8,
+          "unresolved->ai": 3,
+          "unresolved->non_ai": 12,
+          "unresolved->unresolved": 20
+        }
+      }
+    },
+    "embed_lr[bge-small-en-v1.5,context]": {
+      "C": 0.1,
+      "class_weight": "balanced",
+      "train_cv_macro_f1_vs_teacher": 0.5874373237659501,
+      "dev_stage3_agreement_with_luna": 0.6363636363636364,
+      "dev": {
+        "method": "cascade_embed_lr[bge-small-en-v1.5,context]",
+        "resolved_pages": 215,
+        "resolved_macro_f1": 0.8005675753078705,
+        "resolved_accuracy": 0.7302325581395349,
+        "false_alarms": 4,
+        "missed_ai": 47,
+        "resolved_abstained": 36,
+        "gold_unresolved_pages": 35,
+        "gold_unresolved_predictions": {
+          "unresolved": 18,
+          "ai": 6,
+          "non_ai": 11
+        },
+        "confusion": {
+          "ai->ai": 83,
+          "ai->non_ai": 18,
+          "ai->unresolved": 29,
+          "non_ai->ai": 4,
+          "non_ai->non_ai": 74,
+          "non_ai->unresolved": 7,
+          "unresolved->ai": 6,
+          "unresolved->non_ai": 11,
+          "unresolved->unresolved": 18
+        }
+      }
+    },
+    "tfidf_lr[mentions]": {
+      "C": 0.1,
+      "class_weight": "balanced",
+      "train_cv_macro_f1_vs_teacher": 0.49406972955360057,
+      "dev_stage3_agreement_with_luna": 0.6787878787878788,
+      "dev": {
+        "method": "cascade_tfidf_lr[mentions]",
+        "resolved_pages": 215,
+        "resolved_macro_f1": 0.8133816240945483,
+        "resolved_accuracy": 0.7906976744186046,
+        "false_alarms": 12,
+        "missed_ai": 28,
+        "resolved_abstained": 14,
+        "gold_unresolved_pages": 35,
+        "gold_unresolved_predictions": {
+          "unresolved": 14,
+          "ai": 14,
+          "non_ai": 7
+        },
+        "confusion": {
+          "ai->ai": 102,
+          "ai->non_ai": 19,
+          "ai->unresolved": 9,
+          "non_ai->ai": 12,
+          "non_ai->non_ai": 68,
+          "non_ai->unresolved": 5,
+          "unresolved->ai": 14,
+          "unresolved->non_ai": 7,
+          "unresolved->unresolved": 14
+        }
+      }
+    },
+    "embed_lr[all-MiniLM-L6-v2,mentions]": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "train_cv_macro_f1_vs_teacher": 0.6072645440998646,
+      "dev_stage3_agreement_with_luna": 0.6606060606060606,
+      "dev": {
+        "method": "cascade_embed_lr[all-MiniLM-L6-v2,mentions]",
+        "resolved_pages": 215,
+        "resolved_macro_f1": 0.8129851799576571,
+        "resolved_accuracy": 0.7534883720930232,
+        "false_alarms": 3,
+        "missed_ai": 45,
+        "resolved_abstained": 30,
+        "gold_unresolved_pages": 35,
+        "gold_unresolved_predictions": {
+          "unresolved": 23,
+          "ai": 4,
+          "non_ai": 8
+        },
+        "confusion": {
+          "ai->ai": 85,
+          "ai->non_ai": 20,
+          "ai->unresolved": 25,
+          "non_ai->ai": 3,
+          "non_ai->non_ai": 77,
+          "non_ai->unresolved": 5,
+          "unresolved->ai": 4,
+          "unresolved->non_ai": 8,
+          "unresolved->unresolved": 23
+        }
+      }
+    },
+    "embed_lr[bge-small-en-v1.5,mentions]": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "train_cv_macro_f1_vs_teacher": 0.5805888887755194,
+      "dev_stage3_agreement_with_luna": 0.5878787878787879,
+      "dev": {
+        "method": "cascade_embed_lr[bge-small-en-v1.5,mentions]",
+        "resolved_pages": 215,
+        "resolved_macro_f1": 0.7994499792444998,
+        "resolved_accuracy": 0.7302325581395349,
+        "false_alarms": 6,
+        "missed_ai": 47,
+        "resolved_abstained": 35,
+        "gold_unresolved_pages": 35,
+        "gold_unresolved_predictions": {
+          "unresolved": 22,
+          "ai": 5,
+          "non_ai": 8
+        },
+        "confusion": {
+          "ai->ai": 83,
+          "ai->non_ai": 17,
+          "ai->unresolved": 30,
+          "non_ai->ai": 6,
+          "non_ai->non_ai": 74,
+          "non_ai->unresolved": 5,
+          "unresolved->ai": 5,
+          "unresolved->non_ai": 8,
+          "unresolved->unresolved": 22
+        }
+      }
+    }
+  }
+}

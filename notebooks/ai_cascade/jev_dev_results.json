@@ -1,0 +1,488 @@
+{
+  "candidates": {
+    "luna_v2_cascade": {
+      "method": "luna_v2_cascade",
+      "resolved_pages": 381,
+      "resolved_macro_f1": 0.9607174552758186,
+      "resolved_accuracy": 0.9396325459317585,
+      "false_alarms": 3,
+      "missed_ai": 15,
+      "resolved_abstained": 17,
+      "gold_unresolved_pages": 59,
+      "gold_unresolved_predictions": {
+        "unresolved": 36,
+        "non_ai": 11,
+        "ai": 12
+      },
+      "confusion": {
+        "ai->ai": 228,
+        "ai->non_ai": 3,
+        "ai->unresolved": 12,
+        "non_ai->ai": 3,
+        "non_ai->non_ai": 130,
+        "non_ai->unresolved": 5,
+        "unresolved->ai": 12,
+        "unresolved->non_ai": 11,
+        "unresolved->unresolved": 36
+      },
+      "unsupported_ai_calls": 15
+    },
+    "jev_snippets_choice": {
+      "method": "jev_snippets_choice",
+      "resolved_pages": 381,
+      "resolved_macro_f1": 0.9376847290640393,
+      "resolved_accuracy": 0.916010498687664,
+      "false_alarms": 3,
+      "missed_ai": 25,
+      "resolved_abstained": 18,
+      "gold_unresolved_pages": 59,
+      "gold_unresolved_predictions": {
+        "unresolved": 36,
+        "non_ai": 9,
+        "ai": 14
+      },
+      "confusion": {
+        "ai->ai": 218,
+        "ai->non_ai": 11,
+        "ai->unresolved": 14,
+        "non_ai->ai": 3,
+        "non_ai->non_ai": 131,
+        "non_ai->unresolved": 4,
+        "unresolved->ai": 14,
+        "unresolved->non_ai": 9,
+        "unresolved->unresolved": 36
+      },
+      "unsupported_ai_calls": 17
+    },
+    "jev_full_choice": {
+      "method": "jev_full_choice",
+      "resolved_pages": 381,
+      "resolved_macro_f1": 0.9434109774885604,
+      "resolved_accuracy": 0.9291338582677166,
+      "false_alarms": 3,
+      "missed_ai": 18,
+      "resolved_abstained": 14,
+      "gold_unresolved_pages": 59,
+      "gold_unresolved_predictions": {
+        "unresolved": 38,
+        "non_ai": 11,
+        "ai": 10
+      },
+      "confusion": {
+        "ai->ai": 225,
+        "ai->non_ai": 10,
+        "ai->unresolved": 8,
+        "non_ai->ai": 3,
+        "non_ai->non_ai": 129,
+        "non_ai->unresolved": 6,
+        "unresolved->ai": 10,
+        "unresolved->non_ai": 11,
+        "unresolved->unresolved": 38
+      },
+      "unsupported_ai_calls": 13
+    },
+    "jev_full_choice_no_gate": {
+      "method": "jev_full_choice_no_gate",
+      "resolved_pages": 381,
+      "resolved_macro_f1": 0.9423172089570705,
+      "resolved_accuracy": 0.926509186351706,
+      "false_alarms": 3,
+      "missed_ai": 17,
+      "resolved_abstained": 16,
+      "gold_unresolved_pages": 59,
+      "gold_unresolved_predictions": {
+        "unresolved": 40,
+        "non_ai": 9,
+        "ai": 10
+      },
+      "confusion": {
+        "ai->ai": 226,
+        "ai->non_ai": 9,
+        "ai->unresolved": 8,
+        "non_ai->ai": 3,
+        "non_ai->non_ai": 127,
+        "non_ai->unresolved": 8,
+        "unresolved->ai": 10,
+        "unresolved->non_ai": 9,
+        "unresolved->unresolved": 40
+      },
+      "unsupported_ai_calls": 13
+    },
+    "jev_full_threshold_0.5": {
+      "method": "jev_full_threshold_0.5",
+      "resolved_pages": 381,
+      "resolved_macro_f1": 0.940541586073501,
+      "resolved_accuracy": 0.9238845144356955,
+      "false_alarms": 2,
+      "missed_ai": 18,
+      "resolved_abstained": 17,
+      "gold_unresolved_pages": 59,
+      "gold_unresolved_predictions": {
+        "unresolved": 38,
+        "non_ai": 11,
+        "ai": 10
+      },
+      "confusion": {
+        "ai->ai": 225,
+        "ai->non_ai": 10,
+        "ai->unresolved": 8,
+        "non_ai->ai": 2,
+        "non_ai->non_ai": 127,
+        "non_ai->unresolved": 9,
+        "unresolved->ai": 10,
+        "unresolved->non_ai": 11,
+        "unresolved->unresolved": 38
+      },
+      "unsupported_ai_calls": 12
+    },
+    "jev_full_questions_0.5": {
+      "method": "jev_full_questions_0.5",
+      "resolved_pages": 381,
+      "resolved_macro_f1": 0.8112554112554111,
+      "resolved_accuracy": 0.800524934383202,
+      "false_alarms": 3,
+      "missed_ai": 69,
+      "resolved_abstained": 12,
+      "gold_unresolved_pages": 59,
+      "gold_unresolved_predictions": {
+        "unresolved": 35,
+        "non_ai": 20,
+        "ai": 4
+      },
+      "confusion": {
+        "ai->ai": 174,
+        "ai->non_ai": 61,
+        "ai->unresolved": 8,
+        "non_ai->ai": 3,
+        "non_ai->non_ai": 131,
+        "non_ai->unresolved": 4,
+        "unresolved->ai": 4,
+        "unresolved->non_ai": 20,
+        "unresolved->unresolved": 35
+      },
+      "unsupported_ai_calls": 7
+    },
+    "jev_full_threshold_0.6": {
+      "method": "jev_full_threshold_0.6",
+      "resolved_pages": 381,
+      "resolved_macro_f1": 0.938894523326572,
+      "resolved_accuracy": 0.9081364829396326,
+      "false_alarms": 2,
+      "missed_ai": 24,
+      "resolved_abstained": 26,
+      "gold_unresolved_pages": 59,
+      "gold_unresolved_predictions": {
+        "unresolved": 41,
+        "non_ai": 10,
+        "ai": 8
+      },
+      "confusion": {
+        "ai->ai": 219,
+        "ai->non_ai": 7,
+        "ai->unresolved": 17,
+        "non_ai->ai": 2,
+        "non_ai->non_ai": 127,
+        "non_ai->unresolved": 9,
+        "unresolved->ai": 8,
+        "unresolved->non_ai": 10,
+        "unresolved->unresolved": 41
+      },
+      "unsupported_ai_calls": 10
+    },
+    "jev_full_questions_0.6": {
+      "method": "jev_full_questions_0.6",
+      "resolved_pages": 381,
+      "resolved_macro_f1": 0.7262271689497717,
+      "resolved_accuracy": 0.7139107611548556,
+      "false_alarms": 1,
+      "missed_ai": 103,
+      "resolved_abstained": 13,
+      "gold_unresolved_pages": 59,
+      "gold_unresolved_predictions": {
+        "unresolved": 34,
+        "non_ai": 23,
+        "ai": 2
+      },
+      "confusion": {
+        "ai->ai": 140,
+        "ai->non_ai": 95,
+        "ai->unresolved": 8,
+        "non_ai->ai": 1,
+        "non_ai->non_ai": 132,
+        "non_ai->unresolved": 5,
+        "unresolved->ai": 2,
+        "unresolved->non_ai": 23,
+        "unresolved->unresolved": 34
+      },
+      "unsupported_ai_calls": 3
+    },
+    "jev_full_threshold_0.7": {
+      "method": "jev_full_threshold_0.7",
+      "resolved_pages": 381,
+      "resolved_macro_f1": 0.9363636363636363,
+      "resolved_accuracy": 0.9002624671916011,
+      "false_alarms": 2,
+      "missed_ai": 26,
+      "resolved_abstained": 30,
+      "gold_unresolved_pages": 59,
+      "gold_unresolved_predictions": {
+        "unresolved": 44,
+        "non_ai": 9,
+        "ai": 6
+      },
+      "confusion": {
+        "ai->ai": 217,
+        "ai->non_ai": 6,
+        "ai->unresolved": 20,
+        "non_ai->ai": 2,
+        "non_ai->non_ai": 126,
+        "non_ai->unresolved": 10,
+        "unresolved->ai": 6,
+        "unresolved->non_ai": 9,
+        "unresolved->unresolved": 44
+      },
+      "unsupported_ai_calls": 8
+    },
+    "jev_full_questions_0.7": {
+      "method": "jev_full_questions_0.7",
+      "resolved_pages": 381,
+      "resolved_macro_f1": 0.6320028715003589,
+      "resolved_accuracy": 0.6220472440944882,
+      "false_alarms": 1,
+      "missed_ai": 137,
+      "resolved_abstained": 14,
+      "gold_unresolved_pages": 59,
+      "gold_unresolved_predictions": {
+        "unresolved": 33,
+        "non_ai": 25,
+        "ai": 1
+      },
+      "confusion": {
+        "ai->ai": 106,
+        "ai->non_ai": 129,
+        "ai->unresolved": 8,
+        "non_ai->ai": 1,
+        "non_ai->non_ai": 131,
+        "non_ai->unresolved": 6,
+        "unresolved->ai": 1,
+        "unresolved->non_ai": 25,
+        "unresolved->unresolved": 33
+      },
+      "unsupported_ai_calls": 2
+    },
+    "jev_full_threshold_0.8": {
+      "method": "jev_full_threshold_0.8",
+      "resolved_pages": 381,
+      "resolved_macro_f1": 0.9279563719862227,
+      "resolved_accuracy": 0.8792650918635171,
+      "false_alarms": 2,
+      "missed_ai": 33,
+      "resolved_abstained": 39,
+      "gold_unresolved_pages": 59,
+      "gold_unresolved_predictions": {
+        "unresolved": 47,
+        "non_ai": 7,
+        "ai": 5
+      },
+      "confusion": {
+        "ai->ai": 210,
+        "ai->non_ai": 5,
+        "ai->unresolved": 28,
+        "non_ai->ai": 2,
+        "non_ai->non_ai": 125,
+        "non_ai->unresolved": 11,
+        "unresolved->ai": 5,
+        "unresolved->non_ai": 7,
+        "unresolved->unresolved": 47
+      },
+      "unsupported_ai_calls": 7
+    },
+    "jev_full_questions_0.8": {
+      "method": "jev_full_questions_0.8",
+      "resolved_pages": 381,
+      "resolved_macro_f1": 0.5234265734265734,
+      "resolved_accuracy": 0.5301837270341208,
+      "false_alarms": 0,
+      "missed_ai": 174,
+      "resolved_abstained": 10,
+      "gold_unresolved_pages": 59,
+      "gold_unresolved_predictions": {
+        "unresolved": 27,
+        "non_ai": 32
+      },
+      "confusion": {
+        "ai->ai": 69,
+        "ai->non_ai": 169,
+        "ai->unresolved": 5,
+        "non_ai->non_ai": 133,
+        "non_ai->unresolved": 5,
+        "unresolved->non_ai": 32,
+        "unresolved->unresolved": 27
+      },
+      "unsupported_ai_calls": 0
+    },
+    "jev_full_threshold_0.9": {
+      "method": "jev_full_threshold_0.9",
+      "resolved_pages": 381,
+      "resolved_macro_f1": 0.9011970853573907,
+      "resolved_accuracy": 0.8267716535433071,
+      "false_alarms": 2,
+      "missed_ai": 48,
+      "resolved_abstained": 60,
+      "gold_unresolved_pages": 59,
+      "gold_unresolved_predictions": {
+        "unresolved": 52,
+        "non_ai": 6,
+        "ai": 1
+      },
+      "confusion": {
+        "ai->ai": 195,
+        "ai->non_ai": 4,
+        "ai->unresolved": 44,
+        "non_ai->ai": 2,
+        "non_ai->non_ai": 120,
+        "non_ai->unresolved": 16,
+        "unresolved->ai": 1,
+        "unresolved->non_ai": 6,
+        "unresolved->unresolved": 52
+      },
+      "unsupported_ai_calls": 3
+    },
+    "jev_full_questions_0.9": {
+      "method": "jev_full_questions_0.9",
+      "resolved_pages": 381,
+      "resolved_macro_f1": 0.3544945380485095,
+      "resolved_accuracy": 0.4094488188976378,
+      "false_alarms": 0,
+      "missed_ai": 222,
+      "resolved_abstained": 7,
+      "gold_unresolved_pages": 59,
+      "gold_unresolved_predictions": {
+        "unresolved": 25,
+        "non_ai": 34
+      },
+      "confusion": {
+        "ai->ai": 21,
+        "ai->non_ai": 218,
+        "ai->unresolved": 4,
+        "non_ai->non_ai": 135,
+        "non_ai->unresolved": 3,
+        "unresolved->non_ai": 34,
+        "unresolved->unresolved": 25
+      },
+      "unsupported_ai_calls": 0
+    },
+    "jev_escalate_0.6": {
+      "method": "jev_escalate_0.6",
+      "resolved_pages": 381,
+      "resolved_macro_f1": 0.9370345034318962,
+      "resolved_accuracy": 0.916010498687664,
+      "false_alarms": 2,
+      "missed_ai": 25,
+      "resolved_abstained": 18,
+      "gold_unresolved_pages": 59,
+      "gold_unresolved_predictions": {
+        "unresolved": 38,
+        "non_ai": 10,
+        "ai": 11
+      },
+      "confusion": {
+        "ai->ai": 218,
+        "ai->non_ai": 12,
+        "ai->unresolved": 13,
+        "non_ai->ai": 2,
+        "non_ai->non_ai": 131,
+        "non_ai->unresolved": 5,
+        "unresolved->ai": 11,
+        "unresolved->non_ai": 10,
+        "unresolved->unresolved": 38
+      },
+      "unsupported_ai_calls": 13
+    },
+    "jev_escalate_0.8": {
+      "method": "jev_escalate_0.8",
+      "resolved_pages": 381,
+      "resolved_macro_f1": 0.9395085211148778,
+      "resolved_accuracy": 0.9238845144356955,
+      "false_alarms": 3,
+      "missed_ai": 20,
+      "resolved_abstained": 15,
+      "gold_unresolved_pages": 59,
+      "gold_unresolved_predictions": {
+        "unresolved": 39,
+        "non_ai": 11,
+        "ai": 9
+      },
+      "confusion": {
+        "ai->ai": 223,
+        "ai->non_ai": 11,
+        "ai->unresolved": 9,
+        "non_ai->ai": 3,
+        "non_ai->non_ai": 129,
+        "non_ai->unresolved": 6,
+        "unresolved->ai": 9,
+        "unresolved->non_ai": 11,
+        "unresolved->unresolved": 39
+      },
+      "unsupported_ai_calls": 12
+    },
+    "jev_escalate_0.9": {
+      "method": "jev_escalate_0.9",
+      "resolved_pages": 381,
+      "resolved_macro_f1": 0.9434109774885604,
+      "resolved_accuracy": 0.9291338582677166,
+      "false_alarms": 3,
+      "missed_ai": 18,
+      "resolved_abstained": 14,
+      "gold_unresolved_pages": 59,
+      "gold_unresolved_predictions": {
+        "unresolved": 38,
+        "non_ai": 11,
+        "ai": 10
+      },
+      "confusion": {
+        "ai->ai": 225,
+        "ai->non_ai": 10,
+        "ai->unresolved": 8,
+        "non_ai->ai": 3,
+        "non_ai->non_ai": 129,
+        "non_ai->unresolved": 6,
+        "unresolved->ai": 10,
+        "unresolved->non_ai": 11,
+        "unresolved->unresolved": 38
+      },
+      "unsupported_ai_calls": 13
+    }
+  },
+  "calibration_full_p_ai": {
+    "0.0-0.1": {
+      "pages": 130,
+      "gold_ai_rate": 0.015384615384615385
+    },
+    "0.1-0.3": {
+      "pages": 14,
+      "gold_ai_rate": 0.6428571428571429
+    },
+    "0.3-0.5": {
+      "pages": 9,
+      "gold_ai_rate": 0.6666666666666666
+    },
+    "0.5-0.7": {
+      "pages": 8,
+      "gold_ai_rate": 1.0
+    },
+    "0.7-0.9": {
+      "pages": 22,
+      "gold_ai_rate": 1.0
+    },
+    "0.9-0.99": {
+      "pages": 42,
+      "gold_ai_rate": 0.9761904761904762
+    },
+    "0.99-1.0": {
+      "pages": 156,
+      "gold_ai_rate": 0.9935897435897436
+    }
+  },
+  "input_tokens": 998601
+}

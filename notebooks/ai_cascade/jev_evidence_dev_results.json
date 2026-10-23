@@ -1,0 +1,50 @@
+{
+  "evidence_vs_labelers": {
+    "pages": 228,
+    "top1": 100,
+    "top3": 154,
+    "quote_in_candidates": 225
+  },
+  "review_flag": {
+    "0.3": {
+      "ai_calls": 243,
+      "flagged": 2,
+      "flagged_wrong": 0,
+      "kept_wrong": 15,
+      "non_ai_calls_with_strong_evidence": 38,
+      "of_which_gold_ai": 8
+    },
+    "0.4": {
+      "ai_calls": 243,
+      "flagged": 5,
+      "flagged_wrong": 2,
+      "kept_wrong": 13,
+      "non_ai_calls_with_strong_evidence": 27,
+      "of_which_gold_ai": 7
+    },
+    "0.5": {
+      "ai_calls": 243,
+      "flagged": 13,
+      "flagged_wrong": 3,
+      "kept_wrong": 12,
+      "non_ai_calls_with_strong_evidence": 15,
+      "of_which_gold_ai": 3
+    },
+    "0.6": {
+      "ai_calls": 243,
+      "flagged": 24,
+      "flagged_wrong": 6,
+      "kept_wrong": 9,
+      "non_ai_calls_with_strong_evidence": 11,
+      "of_which_gold_ai": 3
+    },
+    "0.7": {
+      "ai_calls": 243,
+      "flagged": 37,
+      "flagged_wrong": 7,
+      "kept_wrong": 8,
+      "non_ai_calls_with_strong_evidence": 4,
+      "of_which_gold_ai": 1
+    }
+  }
+}

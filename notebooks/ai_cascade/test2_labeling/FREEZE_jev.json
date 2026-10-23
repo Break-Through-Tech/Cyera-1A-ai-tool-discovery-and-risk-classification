@@ -1,0 +1,13 @@
+{
+ "frozen_at": "2026-10-23T02:01:18.142107+00:00",
+ "file_sha256": {
+  "jev_cascade.py": "9fbb0f9d276381ce53b0004869456cac4e73889bbfc7f3f1b8da827c23c8a6cc",
+  "jev_judge.py": "69356a65542d3c4eee460349d45af6059bb7306bee1464808ff5b273947290e6",
+  "cascade_v2.py": "e8ee2133c359b71a5e7b17e59c43ac0514b1e75b0a553211b4ed02cd10f1cff9"
+ },
+ "cascade_py_sha256": "9fbb0f9d276381ce53b0004869456cac4e73889bbfc7f3f1b8da827c23c8a6cc",
+ "rubric_sha256": "f9e7db163895b2c37acde31e32453f8efa9b84f6a4586fb9ddd7b4934afd2e74",
+ "jev_model_alias": "jev-latest",
+ "resolved_model_on_dev": "jev-1.14.0",
+ "note": "Jev cascade configuration (full-text state, P(ai) >= 0.4 cutoff, v2 gate) chosen on the 440 development pages only. test2 labels were already used once to score cascade v2, so this is a second look at the same held-out sample."
+}
