@@ -9,8 +9,12 @@ An identifiable software product, service, model, API, extension, or feature tha
 _Avoid_: Using Tool to mean only an AI-related tool; catalog listing
 
 **AI Tool**:
-A Tool whose AI-related status has been established under the project's operational definition.
-_Avoid_: Any Tool under evaluation; any AIToolBuzz-like name
+A Tool whose own functionality is shown by its evidence to perform AI work, either as its core offering or as an included feature.
+_Avoid_: Any Tool under evaluation; any AIToolBuzz-like name; any Tool that mentions AI
+
+**AI Mention**:
+A reference to AI that does not establish the Tool's own AI functionality, such as vague marketing, AI as the product's subject or content, or a denial.
+_Avoid_: AI evidence; AI feature
 
 **Previously Unseen Tool**:
 A Tool absent from both the known-Tool reference set and the evidence used to develop the relevant models at a recorded evaluation cutoff. Being previously unseen is evaluation-relative and cites its registry, training-data, and retrieval-corpus basis; an observed identity remains stable across Analysis Runs for its Batch without implying identity across Batches.
@@ -29,7 +33,7 @@ The determination that yields an existing known Tool, a Batch-stable observed To
 _Avoid_: Classification; Tool detection
 
 **AI Determination**:
-The determination that a Tool or Tool Candidate is AI-related, non-AI, or unresolved under the project's operational definition, with its decision method and versioned provenance. It is separate from Tool identity.
+The determination that a Tool or Tool Candidate is an AI Tool, non-AI, or unresolved, with its decision method and versioned provenance. It is separate from Tool identity. AI Mentions never establish an AI Tool; a vague product AI claim or catalog membership alone leaves the determination unresolved.
 _Avoid_: Identity Resolution; Category Classification
 
 **Category**:

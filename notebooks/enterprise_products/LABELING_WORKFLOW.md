@@ -2,6 +2,8 @@
 
 ## Status, scope and version
 
+> **Superseded definition (2026-10-22).** [ADR 0001](../../docs/adr/0001-ai-tool-requires-own-ai-functionality.md) replaces the "any mention" rule below: an AI Tool must show its own AI functionality, and a vague product AI claim alone is unresolved. Existing `non_ai` labels remain valid. The 78 accepted `ai` labels need review against ADR 0001 before reuse as positives. Frozen datasets through `binary-ai-v5` keep the v3 definition.
+
 **Rubric: `enterprise-description-only-v3`.** The user requested labeling only from `product_description` and a simpler Luna labeler/verifier workflow. This document replaces the live v2 current-web workflow. The parent selects two Luna roles and the execution plan below; this request authorizes the documentation update, not launching a new calibration or full run.
 
 Goal: select supported non-AI description examples from the dated enterprise snapshot for eventual combination with AIToolBuzz AI-positive examples. Label every retained enterprise description `ai` or `non_ai`; do not assume the enterprise source is entirely non-AI. AI-positive descriptions also receive `ai_native` or `ai_enabled` metadata. No third binary class is introduced.

@@ -1,0 +1,2797 @@
+{
+  "fetch_outcomes": {
+    "aitoolbuzz": {
+      "not_usable_response": 1,
+      "extracted": 112,
+      "fetch_failed": 27,
+      "skipped": 8,
+      "robots_disallowed": 2
+    },
+    "companyenrich": {
+      "extracted": 138,
+      "not_usable_response": 3,
+      "skipped": 4,
+      "fetch_failed": 2,
+      "robots_disallowed": 3
+    }
+  },
+  "pass_agreement": {
+    "pages": 250,
+    "agreed": 245
+  },
+  "disputes": [
+    {
+      "sample_id": "site_498b3b393e28",
+      "source": "aitoolbuzz",
+      "title": "AI Email API & Infrastructure for AI Agents | Mails.ai",
+      "labels": [
+        "ai_mention_only",
+        "no_ai"
+      ],
+      "evidence": [
+        "Self-serve AI email API for agents.",
+        "Give your agent its own inbox."
+      ]
+    },
+    {
+      "sample_id": "site_a4292d1c96e0",
+      "source": "aitoolbuzz",
+      "title": "PamPam | Make your own custom maps.",
+      "labels": [
+        "ai_core",
+        "ai_feature"
+      ],
+      "evidence": [
+        "PamPam’s AI adds places automatically",
+        "PamPam’s AI adds places automatically, or you can bring your own data with CSV"
+      ]
+    },
+    {
+      "sample_id": "site_392e12472a22",
+      "source": "companyenrich",
+      "title": "API engineering for your agents",
+      "labels": [
+        "ai_mention_only",
+        "ai_feature"
+      ],
+      "evidence": [
+        "Postman Agent Stack: Accelerate with AI and stay in control",
+        "postman init loads Postman's agent skills so it can run collections, tests, and API workflows without leaving your editor."
+      ]
+    },
+    {
+      "sample_id": "site_2f8b7fc27caa",
+      "source": "companyenrich",
+      "title": "Yotpo: Loyalty, Reviews & AI Visibility For Ecommerce",
+      "labels": [
+        "ai_mention_only",
+        "no_ai"
+      ],
+      "evidence": [
+        "boost AI visibility to get found, earn trust, and turn shoppers into advocates.",
+        "Build loyalty programs, collect reviews, and boost AI visibility"
+      ]
+    },
+    {
+      "sample_id": "site_6e1c0df46970",
+      "source": "companyenrich",
+      "title": "Learn Data Science and AI Online | DataCamp",
+      "labels": [
+        "ai_mention_only",
+        "no_ai"
+      ],
+      "evidence": [
+        "AI-powered interactive learning that works for you",
+        "Learn Data Science & AI from the comfort of your browser"
+      ]
+    }
+  ],
+  "labels_by_source": {
+    "aitoolbuzz": {
+      "insufficient": 11,
+      "no_ai": 9,
+      "ai_core": 76,
+      "ai_feature": 13,
+      "disputed": 2,
+      "ai_mention_only": 1
+    },
+    "companyenrich": {
+      "no_ai": 76,
+      "disputed": 3,
+      "ai_feature": 38,
+      "ai_mention_only": 16,
+      "ai_core": 2,
+      "insufficient": 3
+    }
+  },
+  "determinations_by_source": {
+    "aitoolbuzz": {
+      "unresolved": 13,
+      "non_ai": 9,
+      "ai": 90
+    },
+    "companyenrich": {
+      "non_ai": 76,
+      "unresolved": 22,
+      "ai": 40
+    }
+  },
+  "adr_0001_scores": {
+    "keyword_metadata_only": {
+      "pages": 215,
+      "ai_pages": 130,
+      "accuracy": 0.8325581395348837,
+      "macro_f1": 0.8285182559376107,
+      "ai_precision": 0.8983050847457628,
+      "ai_recall": 0.8153846153846154,
+      "false_alarms": 12,
+      "misses": 24
+    },
+    "keyword_full_page": {
+      "pages": 215,
+      "ai_pages": 130,
+      "accuracy": 0.8883720930232558,
+      "macro_f1": 0.879281302638967,
+      "ai_precision": 0.8680555555555556,
+      "ai_recall": 0.9615384615384616,
+      "false_alarms": 19,
+      "misses": 5
+    },
+    "catalog_source_as_label": {
+      "pages": 215,
+      "ai_pages": 130,
+      "accuracy": 0.772093023255814,
+      "macro_f1": 0.7711225531729997,
+      "ai_precision": 0.9090909090909091,
+      "ai_recall": 0.6923076923076923,
+      "false_alarms": 9,
+      "misses": 40
+    },
+    "keyword_full_page_aitoolbuzz": {
+      "pages": 99,
+      "ai_pages": 90,
+      "accuracy": 0.9494949494949495,
+      "macro_f1": 0.8391290217744556,
+      "ai_precision": 0.967032967032967,
+      "ai_recall": 0.9777777777777777,
+      "false_alarms": 3,
+      "misses": 2
+    },
+    "keyword_full_page_companyenrich": {
+      "pages": 116,
+      "ai_pages": 40,
+      "accuracy": 0.8362068965517241,
+      "macro_f1": 0.8295041386245843,
+      "ai_precision": 0.6981132075471698,
+      "ai_recall": 0.925,
+      "false_alarms": 16,
+      "misses": 3
+    }
+  },
+  "scores": {
+    "any_product_ai_claim": {
+      "keyword_metadata_only": {
+        "pages": 231,
+        "ai_pages": 146,
+        "accuracy": 0.8268398268398268,
+        "macro_f1": 0.8200093501636279,
+        "ai_precision": 0.9076923076923077,
+        "ai_recall": 0.8082191780821918,
+        "false_alarms": 12,
+        "misses": 28
+      },
+      "keyword_full_page": {
+        "pages": 231,
+        "ai_pages": 146,
+        "accuracy": 0.8961038961038961,
+        "macro_f1": 0.8838612368024132,
+        "ai_precision": 0.88125,
+        "ai_recall": 0.9657534246575342,
+        "false_alarms": 19,
+        "misses": 5
+      },
+      "catalog_source_as_label": {
+        "pages": 231,
+        "ai_pages": 146,
+        "accuracy": 0.7186147186147186,
+        "macro_f1": 0.717577353522054,
+        "ai_precision": 0.9090909090909091,
+        "ai_recall": 0.6164383561643836,
+        "false_alarms": 9,
+        "misses": 56
+      },
+      "keyword_full_page_aitoolbuzz": {
+        "pages": 99,
+        "ai_pages": 90,
+        "accuracy": 0.9494949494949495,
+        "macro_f1": 0.8391290217744556,
+        "ai_precision": 0.967032967032967,
+        "ai_recall": 0.9777777777777777,
+        "false_alarms": 3,
+        "misses": 2
+      },
+      "keyword_full_page_companyenrich": {
+        "pages": 132,
+        "ai_pages": 56,
+        "accuracy": 0.8560606060606061,
+        "macro_f1": 0.8556546762589927,
+        "ai_precision": 0.7681159420289855,
+        "ai_recall": 0.9464285714285714,
+        "false_alarms": 16,
+        "misses": 3
+      }
+    },
+    "real_ai_capability": {
+      "keyword_metadata_only": {
+        "pages": 231,
+        "ai_pages": 129,
+        "accuracy": 0.7878787878787878,
+        "macro_f1": 0.7847157502329916,
+        "ai_precision": 0.8076923076923077,
+        "ai_recall": 0.813953488372093,
+        "false_alarms": 25,
+        "misses": 24
+      },
+      "keyword_full_page": {
+        "pages": 231,
+        "ai_pages": 129,
+        "accuracy": 0.8225108225108225,
+        "macro_f1": 0.8105686341180471,
+        "ai_precision": 0.775,
+        "ai_recall": 0.9612403100775194,
+        "false_alarms": 36,
+        "misses": 5
+      },
+      "catalog_source_as_label": {
+        "pages": 231,
+        "ai_pages": 129,
+        "accuracy": 0.7835497835497836,
+        "macro_f1": 0.7835132703553755,
+        "ai_precision": 0.898989898989899,
+        "ai_recall": 0.689922480620155,
+        "false_alarms": 10,
+        "misses": 40
+      },
+      "keyword_full_page_aitoolbuzz": {
+        "pages": 99,
+        "ai_pages": 89,
+        "accuracy": 0.9393939393939394,
+        "macro_f1": 0.8166666666666667,
+        "ai_precision": 0.9560439560439561,
+        "ai_recall": 0.9775280898876404,
+        "false_alarms": 4,
+        "misses": 2
+      },
+      "keyword_full_page_companyenrich": {
+        "pages": 132,
+        "ai_pages": 40,
+        "accuracy": 0.7348484848484849,
+        "macro_f1": 0.7265463154779521,
+        "ai_precision": 0.5362318840579711,
+        "ai_recall": 0.925,
+        "false_alarms": 32,
+        "misses": 3
+      }
+    }
+  },
+  "keyword_full_page_hits_by_label": {
+    "ai_core": [
+      76,
+      78
+    ],
+    "ai_feature": [
+      48,
+      51
+    ],
+    "ai_mention_only": [
+      17,
+      17
+    ],
+    "no_ai": [
+      19,
+      85
+    ]
+  },
+  "rows": [
+    {
+      "sample_id": "site_c269ab05cc44",
+      "source": "aitoolbuzz",
+      "title": null,
+      "label": "insufficient",
+      "determination": "unresolved",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_f1a9b21af1d1",
+      "source": "aitoolbuzz",
+      "title": "Free Online Gantt Chart Software",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_5321f364da8e",
+      "source": "aitoolbuzz",
+      "title": "Vmake Labs | Ultimate Viral AI Social Video Studio",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_99e4caadfe27",
+      "source": "aitoolbuzz",
+      "title": "Memory Lane",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_eb31216d1287",
+      "source": "aitoolbuzz",
+      "title": "50+ Free AI Writing, Image, Design & Conversion Tools | Quicktools by Picsart",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_7617ae816523",
+      "source": "aitoolbuzz",
+      "title": "Progr.io",
+      "label": "insufficient",
+      "determination": "unresolved",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_b8363060feb4",
+      "source": "aitoolbuzz",
+      "title": "Cascadeur - the easiest way to animate AI-assisted keyframe animation software",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_a359705b77cc",
+      "source": "aitoolbuzz",
+      "title": "LandingAI - Agentic APIs for Intelligent Document Processing",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_839d7c59e30c",
+      "source": "aitoolbuzz",
+      "title": "Free AI English Speaking Practice — CEFR Level Test, IELTS & Mock Interview | SmallTalk2Me",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_1648d27a1f05",
+      "source": "aitoolbuzz",
+      "title": "Imentiv AI: Multimodal Emotion Recognition Platform",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_1566f4a6983a",
+      "source": "aitoolbuzz",
+      "title": "AI marketing platform for brands and agencies",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_3453f8f4de78",
+      "source": "aitoolbuzz",
+      "title": "toolmark.ai - No-code AI Tool Builder",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_b7aa4e6920e4",
+      "source": "aitoolbuzz",
+      "title": "All your cards, credits, and points in one place",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_696d4f6ec3bc",
+      "source": "aitoolbuzz",
+      "title": "AI Sales Infrastructure for B2B Pipeline on Demand | SalesMind AI",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_354c04678c3f",
+      "source": "aitoolbuzz",
+      "title": "Behavioral AI for Email, Identity, and AI Security | Abnormal AI",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_bb66c65e0218",
+      "source": "aitoolbuzz",
+      "title": "Buildable - AI-Powered Build Planning",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_d1fc0c0f9191",
+      "source": "aitoolbuzz",
+      "title": "AI-Native Autonomous Contact Center Powered by AI Agents",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_51de3e4c86eb",
+      "source": "aitoolbuzz",
+      "title": "Octopus AI — The AI Backbone of Enterprise Finance",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_498b3b393e28",
+      "source": "aitoolbuzz",
+      "title": "AI Email API & Infrastructure for AI Agents | Mails.ai",
+      "label": "disputed",
+      "determination": "unresolved",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_1faec70d6ed6",
+      "source": "aitoolbuzz",
+      "title": "HookGen – Music Hook Generator",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_e2b4623c152f",
+      "source": "aitoolbuzz",
+      "title": "Voice to text - Online Speech Recognition",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_f735a5ae8f46",
+      "source": "aitoolbuzz",
+      "title": "Vocol AI | Home",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_b76948c613eb",
+      "source": "aitoolbuzz",
+      "title": "Leading Platform for Agentic Automation & AI Agents | Beam AI",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_385507d04a09",
+      "source": "aitoolbuzz",
+      "title": "Storyboarder.ai — AI Storyboard Generator | From Script to Storyboard in Minutes",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_a0ca77f020d7",
+      "source": "aitoolbuzz",
+      "title": "ki-bild-erstellen.com",
+      "label": "insufficient",
+      "determination": "unresolved",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_a4292d1c96e0",
+      "source": "aitoolbuzz",
+      "title": "PamPam | Make your own custom maps.",
+      "label": "disputed",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_a571f38c2d42",
+      "source": "aitoolbuzz",
+      "title": "AI Social Bio",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_59c3cf42893f",
+      "source": "aitoolbuzz",
+      "title": "Kombai - Your AI design engineer",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_5d4851812955",
+      "source": "aitoolbuzz",
+      "title": "Editeur – your AI writing partner",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_8b0c180f3034",
+      "source": "aitoolbuzz",
+      "title": "IDM VTON Online - Free Online Access for Virtual Try-Ons",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_b6af49e9b6cd",
+      "source": "aitoolbuzz",
+      "title": "Home Page - main",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_fe19c1542397",
+      "source": "aitoolbuzz",
+      "title": "ABA Rocks – ABA Rocks, RBT Practice Exam",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_e820ab9251b2",
+      "source": "aitoolbuzz",
+      "title": "Redirecting...",
+      "label": "insufficient",
+      "determination": "unresolved",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_3b6114803ec7",
+      "source": "aitoolbuzz",
+      "title": "AI Website Builder. Create a Simple Website in 3 Minutes |WebWave",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_992da1c6c863",
+      "source": "aitoolbuzz",
+      "title": "TheraPulse - AI Therapy Notes Software For Mental Health",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_1c59f79ccb05",
+      "source": "aitoolbuzz",
+      "title": "AI Accounting Apps · 319 tools across 13 categories (2026)",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_e83988a0a036",
+      "source": "aitoolbuzz",
+      "title": "Humai.in : The Human Ai |  Best AI Content & Image Generator",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_59d4421ea742",
+      "source": "aitoolbuzz",
+      "title": "Professional Headshots in Minutes | AI Headshot Generator",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_47c9623e4858",
+      "source": "aitoolbuzz",
+      "title": "AI Icon Generator | IconKit",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_02686e09dfc8",
+      "source": "aitoolbuzz",
+      "title": "Enterprise AI Agents: Cut Costs & Boost ROI | GPTBots.ai",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_a6ed16584065",
+      "source": "aitoolbuzz",
+      "title": "ScreenApp - AI Notetaker, Transcription, Summarizer and Recorder for Audio and Video",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_0072b3429e17",
+      "source": "aitoolbuzz",
+      "title": "WITH MBA",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_44b72c5afd21",
+      "source": "aitoolbuzz",
+      "title": "Build AI agents for anything, sell them to anyone | Pickaxe",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_cfb6f2573de0",
+      "source": "aitoolbuzz",
+      "title": null,
+      "label": "ai_mention_only",
+      "determination": "unresolved",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_30cc2ba082ff",
+      "source": "aitoolbuzz",
+      "title": "Brewit - AI-Powered Analytics",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_4c8cbbb6ed5d",
+      "source": "aitoolbuzz",
+      "title": "Mockmaster | Master Your Next Tech Interview",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_e40d9223e6ea",
+      "source": "aitoolbuzz",
+      "title": null,
+      "label": "insufficient",
+      "determination": "unresolved",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_9bae5ad95d84",
+      "source": "aitoolbuzz",
+      "title": "zenAI-AI-user-interview",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_3a2bf04b9716",
+      "source": "aitoolbuzz",
+      "title": "FreeAIChatbot.org",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_cce14f6a7639",
+      "source": "aitoolbuzz",
+      "title": "Keycon",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_528dc4693fb1",
+      "source": "aitoolbuzz",
+      "title": "PitchPal - Your shortcut to startup funding, powered by AI.",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_e7fd6aaaebfd",
+      "source": "aitoolbuzz",
+      "title": "domsy.io - your prototyping AI companion.",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_7a2f19498047",
+      "source": "aitoolbuzz",
+      "title": "MemeClip - AI Meme Maker for Turning Text into Trending Memes",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_5fc7470beaaf",
+      "source": "aitoolbuzz",
+      "title": "Resoomer : studio cognitif gratuit pour traiter vos documents",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_a53fd386094b",
+      "source": "aitoolbuzz",
+      "title": "Free AI Image Prompts for GPT Image 2 & Nano Banana | Vogue AI",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_5f25a8f9e23c",
+      "source": "aitoolbuzz",
+      "title": "Tangle | AI-native ERP for Manufacturers",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_d94e21162c03",
+      "source": "aitoolbuzz",
+      "title": "KELLS | AI-Powered Dental Health",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_b0d2e0e8b3fc",
+      "source": "aitoolbuzz",
+      "title": "Pod | Agentic AI for Complex B2B Sales",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_1026eed1a298",
+      "source": "aitoolbuzz",
+      "title": "DEWAJP x Crypto Genesys — Jelajahi Dunia AI dalam Permainan Slot Modern",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_b4ee902706f2",
+      "source": "aitoolbuzz",
+      "title": "Failed Payment Recovery Software for SaaS & eCommerce | FlyCode",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_2176785f215e",
+      "source": "aitoolbuzz",
+      "title": "Braze Customer Engagement Platform",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_c3e8486b2a9a",
+      "source": "aitoolbuzz",
+      "title": "Rank Higher on Google with AI Blogs | Wosily",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_0a7ec87ca084",
+      "source": "aitoolbuzz",
+      "title": null,
+      "label": "insufficient",
+      "determination": "unresolved",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_088786b4a442",
+      "source": "aitoolbuzz",
+      "title": "Devi | AI Social Media Leads Monitoring and Outreach Tool",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_8a407069e620",
+      "source": "aitoolbuzz",
+      "title": "FiveSheep",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_17209e1b7a58",
+      "source": "aitoolbuzz",
+      "title": "ExamFul.ai: Free Online AP, IB, and A-level Past Papers & AI Tutoring",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_1c43dab557d7",
+      "source": "aitoolbuzz",
+      "title": "QuickAds | Data-Backed Paid Social Ads and Influencer Videos",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_533c1a1e234d",
+      "source": "aitoolbuzz",
+      "title": "go_pilot_x_web",
+      "label": "insufficient",
+      "determination": "unresolved",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_6d726d226cf4",
+      "source": "aitoolbuzz",
+      "title": "AI Interviews - ChattyHiring AI",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_9185ff084610",
+      "source": "aitoolbuzz",
+      "title": "SportBoost AI",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_6155f31e7c7b",
+      "source": "aitoolbuzz",
+      "title": "Tallyrus - AI Document Analysis Platform | Bulk Document Processing & Evaluation",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_add0ec54b169",
+      "source": "aitoolbuzz",
+      "title": "Beemer - The AI-Powered Pitch Deck Generator",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_4812c09cf46d",
+      "source": "aitoolbuzz",
+      "title": "Midday — The business stack for modern founders",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_87030835da2a",
+      "source": "aitoolbuzz",
+      "title": "AI LinkedIn Content Automation in Arabic & English | HumanEcho",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_88c40d383879",
+      "source": "aitoolbuzz",
+      "title": "Learntime - science backed learning",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_f24e5eeeb940",
+      "source": "aitoolbuzz",
+      "title": "Watermark Remover - Remove Watermark from Images with AI",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_9dfd6fc567bc",
+      "source": "aitoolbuzz",
+      "title": "Plugger - AI Design Generator",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_57597808e411",
+      "source": "aitoolbuzz",
+      "title": "Lemonaide AI — The #1 AI Melody Generator Powered By Industry Producers",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_878eb40dbbe4",
+      "source": "aitoolbuzz",
+      "title": "Gemini Notebook | AI Research Tool & Thinking Partner",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_16e347e07790",
+      "source": "aitoolbuzz",
+      "title": "Paraspeech - Speech-to-Text for Mac",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_d55fbf972093",
+      "source": "aitoolbuzz",
+      "title": "Learn, Assess & Get Hired — AI-Powered Career Platform | Flipped.ai",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_aad6324fb4e6",
+      "source": "aitoolbuzz",
+      "title": "Brainbase - Notion AI for your website",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_eb28bd7e693d",
+      "source": "aitoolbuzz",
+      "title": "GenPark AI - Personalized AI Shopping Agent",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_b40d78934fa7",
+      "source": "aitoolbuzz",
+      "title": "MAGE - GPT Web App Generator ✨",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_fe4b17f138c5",
+      "source": "aitoolbuzz",
+      "title": "#1 Financial Modeling Tool for Startups – Ditch Excel!",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_28d6aabbc1f2",
+      "source": "aitoolbuzz",
+      "title": "MAILE - The AI-Powered Email Writing Application for iPhone",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_7000a3e7bedb",
+      "source": "aitoolbuzz",
+      "title": "Confidential AI Cloud · Private Inference on GPU TEE | Phala",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_d0d8d4486cb5",
+      "source": "aitoolbuzz",
+      "title": "artitattoos.com",
+      "label": "insufficient",
+      "determination": "unresolved",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_1964067bfaf8",
+      "source": "aitoolbuzz",
+      "title": "AI Email Assistant for Gmail | HeyHelp",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_035a3509aa7e",
+      "source": "aitoolbuzz",
+      "title": "AI Agents for CX and EX Automation - Yellow.ai",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_d86f9e88e2b5",
+      "source": "aitoolbuzz",
+      "title": "EmbedAI",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_74ab4818c08d",
+      "source": "aitoolbuzz",
+      "title": "ChatJourney: Visualize Your AI Chats",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_eeaee39ae84d",
+      "source": "aitoolbuzz",
+      "title": "coursegenerator.pro",
+      "label": "insufficient",
+      "determination": "unresolved",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_f980189a8bcc",
+      "source": "aitoolbuzz",
+      "title": "JavaScript to TypeScript Converter — Free AI Tool",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_b3f96205b89f",
+      "source": "aitoolbuzz",
+      "title": "Home - AutoBlogging.Pro",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_a0c3ea1e2742",
+      "source": "aitoolbuzz",
+      "title": "Gather | Research Video & Audio Content",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_a9104b5d7c2a",
+      "source": "aitoolbuzz",
+      "title": "Sendblue — iMessage for Business | More Replies, More Sales",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_afc210211ea7",
+      "source": "aitoolbuzz",
+      "title": "Brice",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_41419d92c3be",
+      "source": "aitoolbuzz",
+      "title": "Fliki - Turn Any Idea Into Video With 2,000+ AI Voices",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_dc07bb18c55a",
+      "source": "aitoolbuzz",
+      "title": "Seomaker - Simple SEO, through AI.",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_84e8cec98706",
+      "source": "aitoolbuzz",
+      "title": "Almeta ML: Personalized Recommendations and Customer Intent Prediction",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_1bbee8b93b19",
+      "source": "aitoolbuzz",
+      "title": "Domain is Registered",
+      "label": "insufficient",
+      "determination": "unresolved",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_104e70bd2043",
+      "source": "aitoolbuzz",
+      "title": "KAYYO — The IRL Competition Layer of the Internet",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_778ea872132d",
+      "source": "aitoolbuzz",
+      "title": "Free AI Voice Cloning — Clone Your Voice | Voiceslab",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_1cc4d0e275a6",
+      "source": "aitoolbuzz",
+      "title": "AI Role-Play and Story Generator | DreamGen",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_ae1620c43cd7",
+      "source": "aitoolbuzz",
+      "title": "Google Flow Music",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_71f2dce4ef0b",
+      "source": "aitoolbuzz",
+      "title": "Choppity: AI-Powered Video Editor to Get 30+ Short Clips Instantly",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_0cddc2bf6127",
+      "source": "aitoolbuzz",
+      "title": "Tracksy - Worlds Leading AI Music Assistant.",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_f1d8b851192f",
+      "source": "aitoolbuzz",
+      "title": null,
+      "label": "insufficient",
+      "determination": "unresolved",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_fd32d317c531",
+      "source": "aitoolbuzz",
+      "title": "Eloquens AI - Your Smart AI Email Assistant",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_bcf9eb8ce541",
+      "source": "aitoolbuzz",
+      "title": "Twee – Tweak your lessons with the power of AI",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_684c68072e78",
+      "source": "aitoolbuzz",
+      "title": "On model photography with AI. Without photoshoots. | OnModel.ai",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": true
+    },
+    {
+      "sample_id": "site_9fd69deb668e",
+      "source": "companyenrich",
+      "title": "SketchUp: 3D Design Software - Bring Your Vision to Life | Trimble",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_c2e364e9f68a",
+      "source": "companyenrich",
+      "title": "Buy Me a Coffee",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_e1d1c44fd50d",
+      "source": "companyenrich",
+      "title": "TradingView — Track All Markets",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_392e12472a22",
+      "source": "companyenrich",
+      "title": "API engineering for your agents",
+      "label": "disputed",
+      "determination": "unresolved",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_b18186d0324b",
+      "source": "companyenrich",
+      "title": "Instapaper",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_e5fac3b95c87",
+      "source": "companyenrich",
+      "title": "Parallels | Run Windows on Mac, VDI, and Enterprise Virtualization Solutions",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_3a0b31ceccb6",
+      "source": "companyenrich",
+      "title": "Box | AI-Powered Content Management, Workflow & Collaboration",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_1cab6f140985",
+      "source": "companyenrich",
+      "title": "Brightcove | Leading Video Hosting & Streaming Platform",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_e8731a2df441",
+      "source": "companyenrich",
+      "title": "Privacy-first analytics you can trust - Analytics Platform - Matomo",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_653222c6589f",
+      "source": "companyenrich",
+      "title": "File upload & sharing. Send large photos and videos. Online cloud storage.",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_35aa57c7f279",
+      "source": "companyenrich",
+      "title": "SQLite Home Page",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_3b0bdc7f5960",
+      "source": "companyenrich",
+      "title": "Wolfram: Delivering the Computational Future",
+      "label": "ai_mention_only",
+      "determination": "unresolved",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_7c74c5b21784",
+      "source": "companyenrich",
+      "title": "OpenLayers - Welcome",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_279a68eeeef4",
+      "source": "companyenrich",
+      "title": "ShareThis | Share Buttons | Website Tools | Behavioral Intelligence",
+      "label": "ai_mention_only",
+      "determination": "unresolved",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_73a7a3e6fd63",
+      "source": "companyenrich",
+      "title": "find the deal that will transform your company",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_c1887459c324",
+      "source": "companyenrich",
+      "title": "Next.js by Vercel - The React Framework",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_489ff43b6924",
+      "source": "companyenrich",
+      "title": "McAfee AI-Powered Antivirus, Scam, Identity, and Privacy Protection",
+      "label": "ai_mention_only",
+      "determination": "unresolved",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_802b50fb0aa1",
+      "source": "companyenrich",
+      "title": "Underscore.js",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_c512566e9fb8",
+      "source": "companyenrich",
+      "title": "Customizable shared calendar for business",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_7f16346fa1a7",
+      "source": "companyenrich",
+      "title": "Push your ideas to the web | Netlify",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_556777dc4ecc",
+      "source": "companyenrich",
+      "title": "progeCAD Professional, the Low Cost ACAD alternative. Professional quality for a fraction of the AutoCAD price. No annual fees",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_ed82c3a8d680",
+      "source": "companyenrich",
+      "title": "Launchpad",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_9dc111ca8f6a",
+      "source": "companyenrich",
+      "title": "GTmetrix - Test, Monitor, and Optimize Web Performance - GTmetrix",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_0ea5023c8cf4",
+      "source": "companyenrich",
+      "title": "Hopin is now RingCentral Events",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_46f66f4df182",
+      "source": "companyenrich",
+      "title": "Spreaker",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_002425fbbfba",
+      "source": "companyenrich",
+      "title": "Make content more engaging and easier to share | Embedly",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_5c0f93c47054",
+      "source": "companyenrich",
+      "title": "WPML - The Most Popular WordPress Multilingual Plugin",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_66b5200363db",
+      "source": "companyenrich",
+      "title": "PostgreSQL: The world's most advanced open source database",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_9423ea8f252f",
+      "source": "companyenrich",
+      "title": "Sell Tickets Online | Ticket Tailor",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_cfed9fa39eaa",
+      "source": "companyenrich",
+      "title": "HackMD: Your Collaborative Markdown Workspace for Knowledge Sharing",
+      "label": "ai_mention_only",
+      "determination": "unresolved",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_d7abcde0e3aa",
+      "source": "companyenrich",
+      "title": "Architizer: Inspiration and Tools for Architects",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_8de7da7b075a",
+      "source": "companyenrich",
+      "title": "Digital Inspiration - Tech how-to guides, software tips, and tutorials",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_c2a987b4e2bb",
+      "source": "companyenrich",
+      "title": "ClickFunnels™ - Marketing Funnels Made Easy",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_a1505e48ae0b",
+      "source": "companyenrich",
+      "title": "Docker | Secure Sandboxes for AI Agents",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_6fea039ef937",
+      "source": "companyenrich",
+      "title": "Ezoic — Grow on the open web",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_10c49f6ab728",
+      "source": "companyenrich",
+      "title": "URL Shortener - Free Short Links With T.LY",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_0235a7865f52",
+      "source": "companyenrich",
+      "title": "Trusted Website Hosting Platform | WP Engine®",
+      "label": "ai_mention_only",
+      "determination": "unresolved",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_62e7cbde1eee",
+      "source": "companyenrich",
+      "title": "Gyazo · Screen Recorder: Share Screenshots and Videos Easily",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_7bfa7f81483e",
+      "source": "companyenrich",
+      "title": "The best VPN for speed and security",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_e53ce3b04334",
+      "source": "companyenrich",
+      "title": "Payhip - Create a free website and sell online",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_435baa340a49",
+      "source": "companyenrich",
+      "title": "PyPI · The Python Package Index",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_1961b30287b0",
+      "source": "companyenrich",
+      "title": "Digital Regulatory Reporting & XBRL Software | CoreFiling",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_7a53d6284d2e",
+      "source": "companyenrich",
+      "title": "VMware by Broadcom - Cloud Computing for the Enterprise",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_bdf542268a47",
+      "source": "companyenrich",
+      "title": "MongoDB | The Intelligent Data Platform for the AI Era | MongoDB",
+      "label": "ai_mention_only",
+      "determination": "unresolved",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_792c78c26ab3",
+      "source": "companyenrich",
+      "title": "All-in-One Data Privacy Compliance Solution for Websites & Apps - Termly",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_fc0e171b4c89",
+      "source": "companyenrich",
+      "title": "AdGuard Ad Blocker — block ads, popups, and trackers",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_3b0b7d237961",
+      "source": "companyenrich",
+      "title": "Free Video Conferencing Software for Web & Mobile | Jitsi",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_ddddc9edc88b",
+      "source": "companyenrich",
+      "title": "Where Creator Communities Thrive — Patreon",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_85b1822316fc",
+      "source": "companyenrich",
+      "title": "TeamViewer—The Digital Workplace Platform",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_2f8b7fc27caa",
+      "source": "companyenrich",
+      "title": "Yotpo: Loyalty, Reviews & AI Visibility For Ecommerce",
+      "label": "disputed",
+      "determination": "unresolved",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_fd70f9d22d32",
+      "source": "companyenrich",
+      "title": "Computer Telephony Integration (CTI) with the intelli-CTi family, CTI integration solutions",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_6e1c0df46970",
+      "source": "companyenrich",
+      "title": "Learn Data Science and AI Online | DataCamp",
+      "label": "disputed",
+      "determination": "unresolved",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_b67abbfed302",
+      "source": "companyenrich",
+      "title": "Android app intelligence, rankings, and growth | AppBrain.com",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_deb05157712b",
+      "source": "companyenrich",
+      "title": "Blog Tool, Publishing Platform, and CMS – WordPress.org",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_c4e565bdc30f",
+      "source": "companyenrich",
+      "title": "Codeberg.org",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_9d850241aeb2",
+      "source": "companyenrich",
+      "title": "Home - OpenSearch",
+      "label": "ai_mention_only",
+      "determination": "unresolved",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_fdd82cd1a924",
+      "source": "companyenrich",
+      "title": "Basecamp",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_9af211ebe473",
+      "source": "companyenrich",
+      "title": "FIDO Alliance: Reducing Reliance on Passwords",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_dac221eeb3d6",
+      "source": "companyenrich",
+      "title": "Free SVG Icon Libraries, SVG Editor, Multicolor Icon Font Generator\n\n      ❍ IcoMoon",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_f3073697c015",
+      "source": "companyenrich",
+      "title": "Dynatrace | Observability built for the age of AI",
+      "label": "ai_mention_only",
+      "determination": "unresolved",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_b61aaed4cade",
+      "source": "companyenrich",
+      "title": "Toggl: Time Tracking Software & Capacity Planning Tool",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_f4011778537f",
+      "source": "companyenrich",
+      "title": "DZone: Programming & DevOps news, tutorials & tools",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_7bacc6ca8632",
+      "source": "companyenrich",
+      "title": "Leader in Cybersecurity Protection & Software for the Modern Enterprises - Palo Alto Networks",
+      "label": "ai_mention_only",
+      "determination": "unresolved",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_f10252ef0772",
+      "source": "companyenrich",
+      "title": "OpenID - OpenID Foundation",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_bbbbb05262a2",
+      "source": "companyenrich",
+      "title": "Video Workflow, QC & Monitoring Solutions | Telestream",
+      "label": "ai_mention_only",
+      "determination": "unresolved",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_29cd315b36c8",
+      "source": "companyenrich",
+      "title": "AI-Powered Customer Service Platform | Zendesk",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_d59f652083e3",
+      "source": "companyenrich",
+      "title": "Moment.js | Home",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_1f1c8ce1927a",
+      "source": "companyenrich",
+      "title": "Web Hosting & Server Management Platform | Plesk",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_98d0452facc0",
+      "source": "companyenrich",
+      "title": "The most powerful real-time 3D creation tool - Unreal Engine",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_e23974cce94c",
+      "source": "companyenrich",
+      "title": "Splunk | Data Platform for Security, Observability & AI",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_f4613bceec9d",
+      "source": "companyenrich",
+      "title": "Docusign | #1 in Electronic Signature and Intelligent Agreement Management",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_976fea399e0a",
+      "source": "companyenrich",
+      "title": "ManageEngine: ITOps, cybersecurity & service management software",
+      "label": "ai_mention_only",
+      "determination": "unresolved",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_3159c90e5959",
+      "source": "companyenrich",
+      "title": "D3 by Observable | The JavaScript library for bespoke data visualization",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_db0583a15296",
+      "source": "companyenrich",
+      "title": "Ghostery Ad Blocker | Best Free Ad Blocker & Privacy Tool | Ghostery",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_6c7d385938ef",
+      "source": "companyenrich",
+      "title": "MAMP & MAMP PRO - your local web development solution for PHP and WordPress development",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_cffddeefebe6",
+      "source": "companyenrich",
+      "title": "Full-stack observability for the agentic era | Grafana Labs",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_f5c493de4e7a",
+      "source": "companyenrich",
+      "title": "Glitch Blog",
+      "label": "insufficient",
+      "determination": "unresolved",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_cf922920593a",
+      "source": "companyenrich",
+      "title": "Plausible Analytics | Simple, privacy-friendly Google Analytics alternative",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_bdf0ff83dc97",
+      "source": "companyenrich",
+      "title": "TunnelBear: Secure VPN Service",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_7a3d6a09879e",
+      "source": "companyenrich",
+      "title": "Veeqo: Free Shipping Software for Ecommerce",
+      "label": "ai_mention_only",
+      "determination": "unresolved",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_c5ad10038812",
+      "source": "companyenrich",
+      "title": "VSCO: Photo Editor + Filters, Community, and Business Tools",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_06667f526ba5",
+      "source": "companyenrich",
+      "title": "Pearltrees",
+      "label": "ai_mention_only",
+      "determination": "unresolved",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_5c0c08be83e1",
+      "source": "companyenrich",
+      "title": "Home \\ Anthropic",
+      "label": "ai_core",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_5df9638c1383",
+      "source": "companyenrich",
+      "title": "Moz - SEO Software for Smarter Marketing",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_d1b5c0cfc2b3",
+      "source": "companyenrich",
+      "title": "Packagist.org",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_24b5449f062c",
+      "source": "companyenrich",
+      "title": "Quizlet: Study Tools & Learning Resources for Students and Teachers | Quizlet",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_9a63b8452064",
+      "source": "companyenrich",
+      "title": "PortSwigger — Web security tools, training and research",
+      "label": "ai_mention_only",
+      "determination": "unresolved",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_50bf74cea242",
+      "source": "companyenrich",
+      "title": "37signals",
+      "label": "insufficient",
+      "determination": "unresolved",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_4662c4ae3aa8",
+      "source": "companyenrich",
+      "title": "ACDSee Photo Studio Software | Photo Editing, Photo Management, Photo Editor, Digital Photography, Digital Asset Management, DAM",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_b259901b084a",
+      "source": "companyenrich",
+      "title": "Website Builder – Easily Create Your Own Website — Squarespace",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_d0f8a6f552a7",
+      "source": "companyenrich",
+      "title": "Work & Project Management for Human-Agent Teams • Asana",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_f1d6084c90e6",
+      "source": "companyenrich",
+      "title": "Password Manager, Secrets, and Access Management | 1Password",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_8b650d09c245",
+      "source": "companyenrich",
+      "title": "PressReader.com - Digital Newspaper & Magazine Subscriptions",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_357dca3fb226",
+      "source": "companyenrich",
+      "title": "Backbone.js",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_64f274cff584",
+      "source": "companyenrich",
+      "title": "Gitee - 基于 Git 的代码托管和研发协作平台",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_2100afb2c39f",
+      "source": "companyenrich",
+      "title": "The Enterprise AI Platform for HR, Finance, and IT | Workday",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_89fb78ca5d28",
+      "source": "companyenrich",
+      "title": "SpeedCurve by Embrace | Website Performance Monitoring",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_795e5bec267c",
+      "source": "companyenrich",
+      "title": "SEO for everyone • Yoast",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_990b1fa41495",
+      "source": "companyenrich",
+      "title": "AI Innovation Workspace | Miro",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_7be72c009a88",
+      "source": "companyenrich",
+      "title": "Point of Sale Solutions | POS Provider | ECRS",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_d3d832e64715",
+      "source": "companyenrich",
+      "title": "Sage Business Management Software and Solutions",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_d6fd780f4333",
+      "source": "companyenrich",
+      "title": "WinZip for Windows: Zip, unzip, and protect your files",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_865c6e68a3c1",
+      "source": "companyenrich",
+      "title": "ImageMagick | Mastering Digital Image Alchemy",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_3d7711e5814e",
+      "source": "companyenrich",
+      "title": "WebPageTest | Open-Source Web Performance Optimization",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_6eff767f1307",
+      "source": "companyenrich",
+      "title": "Inkscape - Draw Freely. | Inkscape",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_cd4cd108dde9",
+      "source": "companyenrich",
+      "title": "Claris | Build custom apps, automate work, and integrate systems",
+      "label": "ai_mention_only",
+      "determination": "unresolved",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_05ddc012b261",
+      "source": "companyenrich",
+      "title": "Element | Secure collaboration and messaging",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_59ede316150a",
+      "source": "companyenrich",
+      "title": "Coolors - The super fast color palettes generator!",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_7360a1930921",
+      "source": "companyenrich",
+      "title": "Canva: Visual Suite for Everyone",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_314ad915584b",
+      "source": "companyenrich",
+      "title": "phpMyAdmin",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_8ffcdd250c25",
+      "source": "companyenrich",
+      "title": "Adblock Plus | The world's #1 free ad blocker",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_ac3a896f7e39",
+      "source": "companyenrich",
+      "title": "Donorbox: #1 Donation Software & Nonprofit Fundraising Suite",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_28ac445161fc",
+      "source": "companyenrich",
+      "title": "Todoist | A To-Do List to Organize Your Work & Life",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_861d7328beeb",
+      "source": "companyenrich",
+      "title": "Mapbox | Maps, Navigation, Search, and Data",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_f17eff8ca5a2",
+      "source": "companyenrich",
+      "title": "Crowdin: Localization Platform to Manage Your Translation",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_748b5bf7697d",
+      "source": "companyenrich",
+      "title": "Compliance Solutions for Websites, Apps and Organizations | iubenda",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_5da49f738839",
+      "source": "companyenrich",
+      "title": "Microsoft 365 - Sign into Copilot",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_52f22307087d",
+      "source": "companyenrich",
+      "title": "WPForms - World's Leading WordPress AI Form Builder Plugin",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_8b8ef07f0ceb",
+      "source": "companyenrich",
+      "title": "Agrimetsoft | Climate- and Agro-Data Software & Add-ins",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_f2a960cc302a",
+      "source": "companyenrich",
+      "title": "Example Domain",
+      "label": "insufficient",
+      "determination": "unresolved",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_065c814e446a",
+      "source": "companyenrich",
+      "title": "Composer",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_e053c76a33b2",
+      "source": "companyenrich",
+      "title": "WordStream | Online Advertising Made Easy",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_dfb71793ddd5",
+      "source": "companyenrich",
+      "title": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_729a5129cadd",
+      "source": "companyenrich",
+      "title": "Payscale: Compensation Intelligence & Salary Data Software",
+      "label": "ai_mention_only",
+      "determination": "unresolved",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_362f6f737d2a",
+      "source": "companyenrich",
+      "title": "Brevo: Email & SMS Marketing, CRM & Automation Platform",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_8611f7783419",
+      "source": "companyenrich",
+      "title": "AfterShip: Make every post-purchase moment count",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_a1d4271f7e62",
+      "source": "companyenrich",
+      "title": "Red Hat - We make open source technologies for the enterprise",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_61027a61b39c",
+      "source": "companyenrich",
+      "title": "GIS Software for Mapping and Spatial Analytics | Esri",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_222eb70ad9fa",
+      "source": "companyenrich",
+      "title": "The best VPN service online for free, open internet | NordVPN",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_b17e510636cb",
+      "source": "companyenrich",
+      "title": "Digital marketing strategy advice - Smart Insights Digital Marketing",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_305a0a9995d2",
+      "source": "companyenrich",
+      "title": "Clockify™ - Time Tracking Software",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_813a845c3603",
+      "source": "companyenrich",
+      "title": "GeoGebra - the world’s favorite, free math tools used by over 100 million students and teachers",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_4adacf8363ba",
+      "source": "companyenrich",
+      "title": "Perma.cc",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_52bb1fd682aa",
+      "source": "companyenrich",
+      "title": "Best Password Manager for Business, Enterprise & Personal | Bitwarden | Bitwarden",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_1617f9063823",
+      "source": "companyenrich",
+      "title": "ESET Cybersecurity | Enterprise, Business and Home Solutions | ESET",
+      "label": "ai_feature",
+      "determination": "ai",
+      "keyword_metadata": true,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_3e1e5fb69090",
+      "source": "companyenrich",
+      "title": "TermsFeed All-In-One: Privacy Policy, T&Cs, Cookie Consent",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_7d4f8f60fd79",
+      "source": "companyenrich",
+      "title": "UptimeRobot: Free Website Monitoring Service",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": false,
+      "catalog_says_ai": false
+    },
+    {
+      "sample_id": "site_e4490ae44d95",
+      "source": "companyenrich",
+      "title": "Learn to Code - for Free | Codecademy",
+      "label": "no_ai",
+      "determination": "non_ai",
+      "keyword_metadata": false,
+      "keyword_full_page": true,
+      "catalog_says_ai": false
+    }
+  ]
+}
