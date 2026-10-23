@@ -52,6 +52,21 @@ refuses a selected configuration other than the approved C=10/balanced/0.5 polic
 - [v3 duplicate, identity, and conflict review](../../data/binary_ai_dataset/v3/) — 16,669 eligible examples in 16,444 leakage groups; 19 normalized duplicate removals, 44 near-text pairs, 170 name-review candidates, zero quarantines.
 - [v4 frozen splits](../../data/binary_ai_dataset/v4/) — leakage-group-safe partitions and text-only exports. `manifest.json` records measured counts/support, hashes, seed/policy and test-slice limitations; `assignments.json` maps each example to a group and partition; CSV metadata is in separate JSON files.
 
+## v5 — complete enterprise labels
+
+v1–v5 use the earlier operational definition (every AIToolBuzz entry is AI; any enterprise product AI mention is AI). [ADR 0001](../../docs/adr/0001-ai-tool-requires-own-ai-functionality.md) supersedes it for future datasets; these frozen versions are not relabeled.
+
+[v5](../../data/binary_ai_dataset/v5/) is built by `build_v5.py` from source cutoff `7f72140a7205525b01758f6b1e462c11893c9387`, after all 1,391 enterprise descriptions were labeled or quarantined. It uses every accepted v3 export, where a `-parent-integration` copy supersedes its original. The four semantically held batches are replaced by the record-level release in `runtime/record-level-release-20261021/`, and the seven quarantined descriptions are excluded. Weak/forced labels stay excluded, which leaves 1,081 supported enterprise descriptions (1,007 non-AI, 74 AI).
+
+Every v4 member keeps its v4 partition. Only the 624 wholly new leakage groups are placed, using the same greedy group-safe scoring with seed `20261022`. A group that would join v4 groups from different partitions fails the build. Metadata and `assignments.json` flag `new_in_v5` examples. The v4 test members were already scored once, so only the 94 `new_in_v5` test examples are previously unscored.
+
+```sh
+python3 notebooks/binary_dataset/build_v5.py build
+.venv/bin/python notebooks/binary_dataset/evaluate_v5.py
+```
+
+`evaluate_v5.py` refits the frozen v4 model (C=10, balanced, 0.5 cutoff) from v4 train and fails unless it reproduces the v4 test macro-F1. It scores that model on v5 test, re-selects C/weighting on v5 validation with the same six-setting grid, scores the selected model once on test, and writes `v5_evaluation.json` with results by slice.
+
 ## Reproduce and test
 
 Run from repository root with Python 3 (standard library only). Reproduce into a fresh temporary directory through the existing `build(out)` API, then compare the complete manifest and every recorded output hash with the frozen v4 artifacts; this leaves `data/binary_ai_dataset/v4/` untouched:

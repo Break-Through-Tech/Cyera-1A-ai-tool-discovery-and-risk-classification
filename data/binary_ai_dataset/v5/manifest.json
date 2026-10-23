@@ -1,0 +1,937 @@
+{
+  "dataset_version": "binary-ai-v5",
+  "source_cutoff": "7f72140a7205525b01758f6b1e462c11893c9387",
+  "seed": 20261022,
+  "policy_version": "v4-carry-forward-then-whole-leakage-group-greedy-stratified-v1",
+  "selection_policy_version": "unified-v5: supported enterprise binary labels from all accepted v3 exports plus all nonblank AIToolBuzz Short Description rows labeled ai",
+  "ratios": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "feature_allowlist": [
+    "description_text"
+  ],
+  "rubric_id": "enterprise-description-only-v3",
+  "script_sha256": "9e89c2f46013ea003d4cf4a612019fd40b44b8a28b8ef63087aaac2fbf604329",
+  "input_sha256": {
+    "cleaned_enterprise_csv": "c9f0d234d3b66327250d7eb372e9fc962e06f16c2bc0181cc34654fdb897eb2b",
+    "aitoolbuzz_csv": "a7d86e4cb4e569cc230d80e96622013e638eebe424fd20d029350e765eb8c32f",
+    "v4_manifest.json": "797a7aa0df6c305a6d839671e158aff8eea1f6741d61ab9a42dcee7da81d9952"
+  },
+  "enterprise_labels": {
+    "source_records": 1438,
+    "source_distinct_descriptions": 1391,
+    "accepted_distinct_descriptions": 1384,
+    "accepted_rows": 1431,
+    "quarantined_descriptions": 7,
+    "binary_counts_including_weak": {
+      "non_ai": 1306,
+      "ai": 78
+    },
+    "supported_binary_counts": {
+      "non_ai": 1007,
+      "ai": 74
+    },
+    "weak_or_forced_binary_counts": {
+      "non_ai": 299,
+      "ai": 4
+    },
+    "subtype_counts_including_weak": {
+      "null": 1306,
+      "ai_native": 38,
+      "ai_enabled": 40
+    },
+    "label_exports": [
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/FINAL_VALIDATION.json",
+          "notebooks/enterprise_products/labeling_runs/description-v3-calibration-20261012T153139Z/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "ab91416c46d5303683f7655c723063297c5ce071326fc2949fda251251952f18",
+        "record_sha256": "c808efbe2014e2fbe9e7c1320598c04e5627e380fe6046326a0884218c95d1fc"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-001/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-001/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-001/FINAL_VALIDATION.json",
+          "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-001/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 21,
+        "label_sha256": "28fdcc90a07ec70535a50fade66e94e8b53d943fe3b95eadc39f03f4c6f60225",
+        "record_sha256": "40359f997e81236d9eb14082555cd025ef96fd1b2256b299ca068f973096a398"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-002/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-002/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-002/FINAL_VALIDATION.json",
+          "notebooks/enterprise_products/labeling_runs/description-v3-cursor-full-20261012T191131Z/batches/batch-002/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "0c99b6067181750ead8aa2a802bfe739d0990df4de5e2d0dee35964b3dd73a3a",
+        "record_sha256": "d77a5dcfeac15bce2d0b9aac8a856eab64c6376a355b3de20b916f2db29ea81f"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-test-20261012T183810Z-r1/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-cursor-test-20261012T183810Z-r1/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-cursor-test-20261012T183810Z-r1/FINAL_VALIDATION.json",
+          "notebooks/enterprise_products/labeling_runs/description-v3-cursor-test-20261012T183810Z-r1/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "8885e702e031db044c04cae341af1289a0a0cf89696491400d8d07092fbb9174",
+        "record_sha256": "27b1f703df2ba9cf3655d07dc24be18e77b37a9cf963badb08e1f0a86c83b1a4"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-001/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-001/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-001/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "2db448f505879f0662ba7eb4eeba45676c71bf8c5b8f1d6091819d3ec775ed42",
+        "record_sha256": "8be7dfb71f463b4b176584403c479f396c9feb99eb43389c82b2b4872555ec69"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-002/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-002/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-002/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "d82e773837ef015d6a090cf1a5b43b0bcec36df5d131f926514d7b778b8803d9",
+        "record_sha256": "b9f2bb9f9233195364d76e7645af506cd44096190fa769920480d1405c1a1268"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-003/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-003/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-003/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "d66c565b3859a12a9fb44aeefbc67a21e59b8284b3c4d5a82756b4300bf45e8a",
+        "record_sha256": "699af9b30c417be85bf04237b11339423dbe82aa0165dec2b8e71ff3918d6fef"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-004/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-004/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-004/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "3194561f130fda7f83c6812b37080ba988ed2a8fdd8d3757f6a493810de940e6",
+        "record_sha256": "cd26c43f1e966a49a75dae40ae6381ad4ca3daba626fac57251828b9eca13b2f"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-005/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-005/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-005/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "2370142c09c2d1edb58a13efa9fba6d23360f8408e2bd9ae17a2f3797f512925",
+        "record_sha256": "9cf4e48e9a4d2eecc0e0f62197ac45fdc4c32d8f1a656265815369f3f8dfb37e"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-006/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-006/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-006/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 21,
+        "label_sha256": "9b2a7b5a5dbfb57499ac8c467087639845ec9f5bc83feabcd1fe969add46f763",
+        "record_sha256": "0ae2fa745fe60b85f2c74ecf7074b7a9b45af12c3c75f68acb021266edbedeea"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-007/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-007/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-007/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "e54840bdc187fc4516d2fa89d8209e4b7d0547fc6f2b195666d5d6da6be15a8b",
+        "record_sha256": "dd426d79ea285973912b20bce2cb7c8cbec796e7564c39f53960020855801898"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-008/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-008/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-008/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "438652b7d1e3262301c57c72471aef1e08605ddf3fc5175ec51b4753f456965e",
+        "record_sha256": "4a422a0320b462024c0d0d6bb831bda83d99485dc5c9a8b193e8eff61d39341e"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-009/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-009/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-009/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "55a7edacbb9a21432bae03ebd3c52c46287f1f0274a34d6464a694aefb38272d",
+        "record_sha256": "b3303d7584825c074fd7beefc3a7f36eea1f36a77219f872cedc485c3dc1c808"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-010/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-010/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-010/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 22,
+        "label_sha256": "1ad89329aa261d8b341b89eb0ae6b518b9aeb765f3e6c2e75789a07d88369e54",
+        "record_sha256": "7149902035eb1b507be95e71164abc942083126c2f060c2db8edab95a65f2d9c"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-011/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-011/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-011/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 21,
+        "label_sha256": "0f5538fbef0ce277205c3796fcc08fa725507c3f811021ee18cfb7f2046a2264",
+        "record_sha256": "9ca0a70891c641377401dfb00f36b019343069304214b456b29146f6f59bf857"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-012/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-012/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-012/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "5a8660ad7d8bae02ba35880472d9d24b9fc5986da6ce9866b968e795a95edc8f",
+        "record_sha256": "beae55a0f929f8aa1579ba6ff7b7e77c8096d90fcade7c428607277fa788e3d4"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-013/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-013/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-013/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "ebea41d49f541e6dfbced1bbe2b7940efd92e854713087b5ed0aea2345771320",
+        "record_sha256": "51360c1c547463a389f1a157b47d7d3f4b3701b3ea142e73142a28645ae22d7c"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-014/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-014/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-014/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "aa80bb07328196094b908310a5a4615876784d858a7235a6b7f82be4228251b0",
+        "record_sha256": "6a0e2d36902d1d083a029561cbc8bd41ac1f724c7e189187ef21a42fbbb249a8"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-015/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-015/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-015/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "b5e09249997222187aea4c976528021b679a94591c47b2245e09c6d007cbf318",
+        "record_sha256": "584d85f7b04924fde9be3e78b105919c7c32a9f604f63533c5edbb81bf4ee1ce"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-016/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-016/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-016/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 21,
+        "label_sha256": "49067043fff6213615191e9a251e0cd02cc583b822cd066a6473e582b8059362",
+        "record_sha256": "5a81d8931640385ed9a7d5a215d1585371ed3860eaf3de57a0d2577f20ef42d2"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-017/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-017/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-017/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "d3042496749583d882e1351b55861cfec13e05bc97c901b734ccb4508781c7fd",
+        "record_sha256": "192888e1ebe35b0b3850ff37b0d951ea9fcea22cc34dca10b43a12a48f510326"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-018/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-018/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-018/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "3ad950558902cf5e03515e78681b7b594867a292069515064deb99b47c280886",
+        "record_sha256": "7e013c8d9ca6a41b28bc1b51ecc560632892ec21f70dd9908fe585237c893241"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-019/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-019/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-019/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "1a705ab95b2793cebbe9aaaf9aa09245712fa6b356ac69187db7d7fd552d4b51",
+        "record_sha256": "4169cef114c4e82aaee9e6c96e1907383df209ebc23eacc4dfd4749e6e95142f"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-020/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-020/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-020/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 21,
+        "label_sha256": "165366d4c2fa2ab74325ad013dea7d5da338e5d21e3d483fdc70975b1d38ee48",
+        "record_sha256": "7c8a4b8dad0e284417e74eaec14ea5a7dce487a8f923996df89c25e653222711"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-021/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-021/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-021/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "f97c09f68345422dc6f3b3f5e25be6ec4cf80db4c6f3e69145d801536db60947",
+        "record_sha256": "18d93a864dcf1925745ccc2477b68434833bb79f51c939958677a0011d675b0f"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-022/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-022/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-022/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "5696eee60aaa69c2641736e57a5a1dc6af3f1451f3ee9e13fa25445fe1b7001e",
+        "record_sha256": "d27cdb06dc611526e508bd37e5437a35e34cd5fc7d67a62cbaddd15d00d3844c"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-024/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-024/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-024/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "08c5141935346640e737d44129d1a1a27d4194d534726e0455a24f67ec0fca88",
+        "record_sha256": "54e80309cfc8368aa6dab459ebfbfa6a8f936325669e119e3fb2a6ae3e33878a"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-025/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-025/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-025/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 24,
+        "label_sha256": "1187ee51bd027595947439fb9acefadea85022529d1d74495b32d8908d6ef4e2",
+        "record_sha256": "2ecfe09a2f5bf3b3a99bf4c36a489f408fa69f7a3cd3f12ed72016cfc5e77ace"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-026/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-026/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-026/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 24,
+        "label_sha256": "c59f44a2c63018a7a845528926f545f5ba1ad64c9a6fbd8b68d196a98f5aa856",
+        "record_sha256": "69944c1dc9c68714785d2bef5dde1f7359c6f4353c5676e21933fab772256893"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-027/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-027/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-027/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "99ef2effaece7ac52eff0b66386c77ef87e6989151b2e5f86770a1209c34b019",
+        "record_sha256": "83fc584e3156165e35fb39d8143e11e6801b06b1eaf1033f6558dd3b7470e95f"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-028/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-028/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-028/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "154d1780f572e84d19869ed8d8b582f8a10306e3f425b09713cb131363db3448",
+        "record_sha256": "9d6889b34b07b8bfa6b4fe3ecb6ac0e8fe5a13fa5d0d027b5f9a9cca113a04ec"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-029/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-029/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-029/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "f6fcd1ff4952d6ca01c2df3f7e241c525c30c2386849b2c26a2dc26363778b1e",
+        "record_sha256": "01be4cb6fe6e80664fe6449e4803447a89bb87195f2320915ba395f1438caaf4"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-031/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-031/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-031/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 11,
+        "row_count": 11,
+        "label_sha256": "fcb907e5fa892c8215fe9c57d7068b683e9abdb9b6919527dfe02718823d8198",
+        "record_sha256": "d4804cb29c3249d5744b4424f1145420447c4ee77eda3a461e5f7c251168afbc"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-001/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-001/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-001/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "ea14ae457c1080571ad9e0ad066b8ade188bc4282e926682de5e3ad3368fe264",
+        "record_sha256": "7cb2279b183fd4c89041aff624a45c351a12e57389f171757d23f063ef314c9c"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-002/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-002/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-002/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "059779dca1e28a9422ddb8fdde7614acab264cf6086543e3cc1b365622f02346",
+        "record_sha256": "e7f38f360ad06682a946678a25c6c76359327e132859eadc7c0cc70474b20602"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-003/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-003/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-003/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "2f07641ecd82360e4e726b684949116ebdf3a4c4a12995b21110341be4d0b547",
+        "record_sha256": "19eeb27faf0768566d7faf31ed3203a26821127b9c30b5444e5c6592be8222dc"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-004/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-004/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-004/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "e9a7179fbf4b7dabf58c389650b0fb88aa638689596b9b67c91d2ca0f95a893b",
+        "record_sha256": "7a92fe2193aaf34b0f28efb21decd056a73807429c951790df3c46db78f2327a"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-005/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-005/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-005/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 22,
+        "label_sha256": "3ac081901e6a2acfd32e67bc7cc2c6736ff75bbad801af13050de148a755a1bb",
+        "record_sha256": "ef549a22bdf922b4baacb672b1cefcafe7617b7720775b9aa680e45eda982d49"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-006/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-006/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-006/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "9003d4c57b77eb8f7856ee1c97ca433955d0b5d39bda7b575f8d6f8fa46995f0",
+        "record_sha256": "533037e4a288811b85d31f428922abf73d43842e25d1cae96c7b482cc4f5ef85"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-007/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-007/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-007/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "7b98634e342bd931bfeee8b51cf68bb3826c05953581a65163b7499d77d72bde",
+        "record_sha256": "cfdcfef53090612b166d9d2c5dfbfd2449ecec37a6fbf01f331d89e1e9e5dcc7"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-008/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-008/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-008/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "1cb32540b1a6acea7a1e2889a5f1bfc61937060ab8a2e73e674f0088f6a55763",
+        "record_sha256": "e04cec8cb8120b3bd38c3b28368975ea7630a6930f05a94ed3417f75829538c9"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-009/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-009/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-009/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "bde65258c926dcc46c89b049f338d4d497584faa07ae056ab388c03f34352021",
+        "record_sha256": "e65165b4ceb66878c1d7dde76ec84cd9e3102c2c40e38e4e5a93b65f90e50156"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-010/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-010/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-010/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "0579d63d47af3511cb494ee81eef72b555210f64699d7021ae348492cdd82738",
+        "record_sha256": "77fee67b34360ef9871d8a72c13f949352f2bd3f8cb5c336f9a6f6e63564c7cb"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-011/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-011/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-011/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "c6e81130658affc061df8325502d62f2fe8540ad1353f1d47091eaa4f9a07d82",
+        "record_sha256": "9458753670636270436dab8a2e9a166c3047e7d55867adea458862b28b513890"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-012/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-012/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-012/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "e346096ca662334e97752155b7787e0f676935ea4c5582c7e11f40d64e092a16",
+        "record_sha256": "e48985e7fc49ebf4794d94d1eef7f636a2c6a11121e4c97e6c8153864e9c588c"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-013/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-013/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-013/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "934b87a4572d01f5cb54bea638e9fc31260243c14ec5b8b82f94044fa9416a36",
+        "record_sha256": "1697ee6c1b1ac280d3a2e2b597162cf9c3168537a566fbcf13cf482930c13f15"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-014-parent-integration/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-014-parent-integration/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-014-parent-integration/PARENT_ACCEPTANCE.json",
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-014-parent-integration/PARENT_VALIDATION.json"
+        ],
+        "description_count": 20,
+        "row_count": 21,
+        "label_sha256": "961162249d4911e4a60ff7a80f8740986926de17daa07b2345e37f88d60b8532",
+        "record_sha256": "a01574817be3df432101a5d2a07d90c7109c16ff56cf5780f3ebfa88cd48e1fe"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-015-parent-integration/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-015-parent-integration/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-015-parent-integration/PARENT_VALIDATION.json"
+        ],
+        "description_count": 20,
+        "row_count": 21,
+        "label_sha256": "c052e979a809acee44ec6bd1baf297368c30027206384c3c38b28441ade5aeae",
+        "record_sha256": "133296f52ef5ea208f1595f250b1088c7d22bff76199129278f3a6bca82bafc5"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-016/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-016/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-016/PARENT_ACCEPTANCE.json",
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-016/PARENT_VALIDATION.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "6e3b29eb366dfad3000bf49a335093c25e367171b6313cb1ec255fc25043f2a3",
+        "record_sha256": "b4175bf4ed82193321b601fe968d903d5d305f8adc40d1233969c052ce4e67bc"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-017/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-017/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-017/PARENT_ACCEPTANCE.json",
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-017/PARENT_VALIDATION.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "e2e8d8b8fe3b0858698c41047f3835d6bd54c0018b915b4f5be8f25f8ac4ef93",
+        "record_sha256": "98e12c4536d7f985c498f9b0e133df34834b8660dff971819a7935dcc1357f34"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-018/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-018/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-018/PARENT_VALIDATION.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "473f7611b15286692ce5293cfd41512cde519f76e569eb1175267e85c0ecfc6c",
+        "record_sha256": "f10d5ef881ed23ae7668cc5435a907c340d878fe56a117a2aa0be1417fdee83c"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-019/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-019/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-019/PARENT_VALIDATION.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "2ac5effab81fab209feb859c5951adb69a571b79e23df79a60e29474588b8224",
+        "record_sha256": "646bc923d889879de3f7210d2652a0b61a98ca231d269f9b23c32c8f62f9bc8e"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-020/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-020/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-020/PARENT_VALIDATION.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "a42fd0d19877a7c2e6e1eecc6981976e672b4346e94b4018f438eb103954d9b4",
+        "record_sha256": "e368de2e166882329f09389c2d72c48377cc73709074310040ed48f54d1b3166"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-021/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-021/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-021/PARENT_VALIDATION.json"
+        ],
+        "description_count": 20,
+        "row_count": 21,
+        "label_sha256": "1ca6ec5d4caf0c690fbbb3bb3c14dee2ede8a1d591d1057a791edb79ab0f2027",
+        "record_sha256": "d1db8361a7f31382134bf14c574a7ee87aea6474a985ba595826a216bd043b45"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-022/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-022/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-022/PARENT_VALIDATION.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "f5ece0b6c29cc5eb3f50f82839b9d0756fde251f1aa0c3d1d664fdc464101d57",
+        "record_sha256": "679d9f007cad5d41d7a0fc66d984677b7f434884fb6f3b05dafe4d0edb0a5ad5"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-023/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-023/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-023/PARENT_VALIDATION.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "1c7b6d33ee7d6b8634682d05364708968f01f532b3d89b53aba0767cb107024f",
+        "record_sha256": "54c91705a228dcbdf24903d6e8104243ee62dcecaabdd2c043021b1fa5c3de74"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-024/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-024/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-024/PARENT_VALIDATION.json"
+        ],
+        "description_count": 20,
+        "row_count": 22,
+        "label_sha256": "4efac558f490c1e7da75e8a2a20a1990771c5a4f9bcf41bb120e7153aa4d0780",
+        "record_sha256": "98a4bdcbb24190c433fc6d3999049f338bc9b14555338fee95943f9681445231"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-026/PARENT_VALIDATION.json"
+        ],
+        "description_count": 20,
+        "row_count": 28,
+        "label_sha256": "bd202f6c12b6dc3a373b2ba20da04a4a184a20c908f229e6d180af7f51d6fe38",
+        "record_sha256": "2a3a4364ae2eddadec39e29ffe485625299e381886264f3e50e9b889b94330f2"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-027/PARENT_VALIDATION.json"
+        ],
+        "description_count": 20,
+        "row_count": 24,
+        "label_sha256": "a21f7496d3ef0cd7c2eb23d795fd8036952457c38e39efe65dfa09445c2a5a95",
+        "record_sha256": "1ceb831db4ca02e191db7b712728b4c8695999a1f4abc627a79bdbe40f9dfd82"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-028/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-028/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-028/PARENT_VALIDATION.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "00c4e100857c4f5d9fa630b10dde47ae92d203fb86d31c3ec5bd106b856f6ba8",
+        "record_sha256": "d28e4d999d092e031de6691cdd3f534d39478015de96dcac1ec75811a746fc9a"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-029/PARENT_VALIDATION.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "f395568989de1d4c41e55bb680475d1dc57093e48184e23f43ead936263342dc",
+        "record_sha256": "3c7b133638b9c47441646985d21e39eccfb65f3d887cb294d3c19e80a4da8df8"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-030/PARENT_VALIDATION.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "42a58f1eafb54a134f3173582b52e2d0d07ebbbf0076ab36130cc4bab86eb467",
+        "record_sha256": "a9522d10c49d77bfad49806cf1ad2b7d11d23cd853c6de02a90d74b63abec39f"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-003/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-003/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-003/FINAL_VALIDATION.json",
+          "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-003/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "6fcdb66c37483aec2efd494831d4fc354ca925e6849c3ec2622e7c7de6c99123",
+        "record_sha256": "b11c5477d24ca2530735259a737d3fb8ce4d5f06118e26286101e33d44d0cb66"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-004/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-004/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-004/FINAL_VALIDATION.json",
+          "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-004/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 20,
+        "label_sha256": "59e061a8b216ee8d8fda44231a50dd2bade985b9cc905739eb2b9d2fa0af7944",
+        "record_sha256": "6c07338831517dcb882a54eab11d778790942a78b52b2b9782bc61297e5626f2"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-005/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-005/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-005/FINAL_VALIDATION.json",
+          "notebooks/enterprise_products/labeling_runs/description-v3-full-20261012T165156Z/batches/batch-005/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 22,
+        "label_sha256": "c8b5961b9711553084585386b5273b14094ebe241eef26253aaefcbdd516b21a",
+        "record_sha256": "a2cf805c621748cf683ae30d488d92783a076569b49fac025af312c3b6c0330a"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/description_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/FINAL_VALIDATION.json",
+          "notebooks/enterprise_products/labeling_runs/description-v3-test-batch-02-20261012T155915Z/PARENT_ACCEPTANCE.json"
+        ],
+        "description_count": 20,
+        "row_count": 31,
+        "label_sha256": "b8f8c4d14aa00f69a109c383157c59fb0c7f90ed4903cbcf0fc67d0e78061709",
+        "record_sha256": "ac02cfe449aadc7de598e1425f69ba76451e19643328ac528d24c1d501859d9c"
+      },
+      {
+        "label_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/record-level-release-20261021/released_record_labels.json",
+        "record_export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/record-level-release-20261021/released_record_labels.json",
+        "acceptance_receipts": [
+          "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/runtime/record-level-release-20261021/RELEASE_RECEIPT.json"
+        ],
+        "description_count": 73,
+        "row_count": 73
+      }
+    ],
+    "skipped_exports": [
+      {
+        "export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-023",
+        "reason": "semantic_hold_resolved_by_record_level_release"
+      },
+      {
+        "export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/codex/batches/batch-030",
+        "reason": "semantic_hold_resolved_by_record_level_release"
+      },
+      {
+        "export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-015",
+        "reason": "superseded_by_notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-015-parent-integration"
+      },
+      {
+        "export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-025",
+        "reason": "semantic_hold_resolved_by_record_level_release"
+      },
+      {
+        "export": "notebooks/enterprise_products/labeling_runs/description-v3-dual-account-20261012T193400Z/lanes/cursor/batches/batch-031",
+        "reason": "semantic_hold_resolved_by_record_level_release"
+      }
+    ]
+  },
+  "aitoolbuzz_examples": 16232,
+  "aitoolbuzz_excluded_empty_description": 530,
+  "leakage_review": {
+    "input_examples": 17313,
+    "normalized_duplicate_groups": 20,
+    "duplicate_examples_removed": 20,
+    "merged_examples": 17293,
+    "eligible_examples": 17293,
+    "quarantined_examples": 0,
+    "quarantined_by_class": {},
+    "quarantined_source_class_memberships": {},
+    "duplicate_merges_by_source": {
+      "aitoolbuzz": 19,
+      "enterprise": 1
+    },
+    "leakage_groups": 17054,
+    "identity_review_candidates": 182,
+    "near_text_candidate_pairs": 47,
+    "high_confidence_conflict_groups": 0,
+    "feature_allowlist": [
+      "description_text"
+    ],
+    "normalization_policy_version": "matching-v1: Unicode casefold; trim and collapse whitespace; punctuation retained",
+    "grouping_policy_version": "leakage-groups-v1: exact/normalized text, near-text candidates, enterprise product groups, and every same-normalized-name candidate set connect groups; same-name identity/conflict links require a shared non-generic vendor; domains are ambiguous evidence only",
+    "near_duplicate_policy_version": "near-text-v1: token Jaccard >= 0.82; >= 8 distinct tokens, >= 60 chars, and >= 6 shared tokens; rare-token inverted index capped at 100 postings per token",
+    "partition_assignment": "not assigned in this phase"
+  },
+  "examples": 17293,
+  "quarantined_examples_excluded": 0,
+  "v4_carry_forward": {
+    "v4_members": 16688,
+    "v4_members_retained_in_same_partition": 16688,
+    "new_in_v5_examples": 624
+  },
+  "partitions": {
+    "train": {
+      "examples": 12104,
+      "groups": 11871,
+      "achieved_ratio": 0.6999363904470016,
+      "support": {
+        "examples:ai": 11400,
+        "examples:non_ai": 704,
+        "source_members:aitoolbuzz:ai": 11362,
+        "source_members:enterprise:ai": 53,
+        "source_members:enterprise:non_ai": 728
+      },
+      "new_in_v5": {
+        "examples": 437,
+        "support": {
+          "examples:ai": 23,
+          "examples:non_ai": 414,
+          "source_members:enterprise:ai": 25,
+          "source_members:enterprise:non_ai": 425
+        }
+      }
+    },
+    "validation": {
+      "examples": 2594,
+      "groups": 2593,
+      "achieved_ratio": 0.1500028913433181,
+      "support": {
+        "examples:ai": 2444,
+        "examples:non_ai": 150,
+        "source_members:aitoolbuzz:ai": 2435,
+        "source_members:enterprise:ai": 12,
+        "source_members:enterprise:non_ai": 157
+      },
+      "new_in_v5": {
+        "examples": 93,
+        "support": {
+          "examples:ai": 6,
+          "examples:non_ai": 87,
+          "source_members:enterprise:ai": 6,
+          "source_members:enterprise:non_ai": 93
+        }
+      }
+    },
+    "test": {
+      "examples": 2595,
+      "groups": 2590,
+      "achieved_ratio": 0.15006071820968023,
+      "support": {
+        "examples:ai": 2443,
+        "examples:non_ai": 152,
+        "source_members:aitoolbuzz:ai": 2435,
+        "source_members:enterprise:ai": 11,
+        "source_members:enterprise:non_ai": 155
+      },
+      "new_in_v5": {
+        "examples": 94,
+        "support": {
+          "examples:ai": 5,
+          "examples:non_ai": 89,
+          "source_members:enterprise:ai": 5,
+          "source_members:enterprise:non_ai": 90
+        }
+      }
+    }
+  },
+  "test_reuse_note": "v4 test members were used once to score the frozen v4 model; only new_in_v5 test examples are previously unscored.",
+  "evaluation_limit": "No registry/retrieval implementation; no universal or runtime previously-unseen Tool generalization claim.",
+  "reuse_permission": "Private reuse scope recorded in notebooks/enterprise_products/LABELING_WORKFLOW.md; no public license claim.",
+  "source_confounding_risk": "AIToolBuzz supplies AI-only rows; enterprise supplies both classes, so source/style confounding remains.",
+  "training_or_model_fitting": false,
+  "threshold_selection": false,
+  "output_sha256": {
+    "enterprise_descriptions.json": "0e361b257347d334b55b767403a44aa5607a5aa524dd7ceabef6acd3e38ffd0c",
+    "enterprise_records.csv": "e2880d6b325e282d1d59757389b1e051334b15e008efff2ec99c6a64b81ee479",
+    "enterprise_quarantined_records.json": "e3382844b67cc412b5807334c4a1dcd49aa89384a8e9daa0eb1638d0aefff087",
+    "quarantined.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "duplicate_audit.json": "0632f4ae02ac70d63db92e803694b12878fc52c47966885a5105675e7d29ec8e",
+    "identity_review.json": "c1ac74424b71c5faa612b04df4e82ee15166a144c04cc1a4da9a0f081a544cb9",
+    "conflicts.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "train.csv": "cd6421dbb91f52a099975e787c0f2c96dcb8ddb91b19bb2168c4b41776ce4fb5",
+    "train.metadata.json": "3e1cc64c45894d33f57881702224e3b48bb5bb20d5eae82de76c1cfe023f0a01",
+    "validation.csv": "6102533456399c75cae5171cbba0d9153452b2488bc27935d7bbc2fab3130e84",
+    "validation.metadata.json": "cca1557637048a269f79817de5f46033dbac799b658d0d72c9fc50d85be371c4",
+    "test.csv": "d69f19d29641aff7c9a80a451c3c6a8080e3807a206836b457d0c8618463f6eb",
+    "test.metadata.json": "73b438e629f0c94f3901c4e94648fd219ffc794a449897abc549220a28f4b5cf",
+    "assignments.json": "5dec21f221f7bcebe703a57e563aca793678cbbfbda081802dbbc212f5f6da6c"
+  }
+}
