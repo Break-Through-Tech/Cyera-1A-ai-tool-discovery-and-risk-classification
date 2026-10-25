@@ -10,6 +10,19 @@ _HTTP_ERROR_CODES = {
 }
 
 
+class AppError(Exception):
+    """An application error rendered as the shared ``{code, message, details}`` body."""
+
+    def __init__(
+        self, status_code: int, code: str, message: str, details: Any = None
+    ) -> None:
+        super().__init__(message)
+        self.status_code = status_code
+        self.code = code
+        self.message = message
+        self.details = details
+
+
 def error_body(code: str, message: str, details: Any = None) -> dict[str, Any]:
     body: dict[str, Any] = {"code": code, "message": message}
     if details is not None:
@@ -18,6 +31,13 @@ def error_body(code: str, message: str, details: Any = None) -> dict[str, Any]:
 
 
 def register_error_handlers(app: FastAPI) -> None:
+    @app.exception_handler(AppError)
+    async def handle_app_error(_: Request, exc: AppError) -> JSONResponse:
+        return JSONResponse(
+            status_code=exc.status_code,
+            content=error_body(exc.code, exc.message, exc.details),
+        )
+
     @app.exception_handler(StarletteHTTPException)
     async def handle_http_error(
         _: Request, exc: StarletteHTTPException

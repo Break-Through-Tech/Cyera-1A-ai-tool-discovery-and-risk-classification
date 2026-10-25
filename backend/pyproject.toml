@@ -4,7 +4,10 @@ version = "0.1.0"
 description = "FastAPI backend for AI tool discovery and contextual governance-risk analysis"
 requires-python = ">=3.12"
 dependencies = [
+    "alembic>=1.20.1",
     "fastapi>=0.115",
+    "python-multipart>=0.0.32",
+    "sqlalchemy>=2.1.6",
     "uvicorn>=0.32",
 ]
 
