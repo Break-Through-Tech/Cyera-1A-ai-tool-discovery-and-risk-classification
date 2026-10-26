@@ -5,7 +5,8 @@ from app.api.query import reject_unknown_query_parameters
 from app.config import Settings
 from app.db.engine import migrate, open_database
 from app.errors import register_error_handlers
-from app.pipeline import Pipeline, default_pipeline
+from app.pipeline import Pipeline
+from app.pipeline.default import default_pipeline
 from app.runs import fail_interrupted_runs
 from app.versioning import current_code_commit
 
@@ -25,7 +26,7 @@ def create_app(
     )
     app.state.settings = settings
     app.state.engine = engine
-    app.state.pipeline = pipeline or default_pipeline()
+    app.state.pipeline = pipeline or default_pipeline(settings)
     app.state.code_commit = current_code_commit()
     register_error_handlers(app)
     app.include_router(batches.router)
