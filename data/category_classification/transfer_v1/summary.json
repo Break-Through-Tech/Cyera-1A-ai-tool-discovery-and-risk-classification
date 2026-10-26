@@ -1,0 +1,71 @@
+{
+  "pages_sha256": "a2828ab38790a27549c3decb5be78025200d3496361f7580d836cff65203a09e",
+  "join": "capture url host_key == catalog Website host_key; hosts whose catalog rows disagree on Category dropped",
+  "counts": {
+    "captures": 1019,
+    "not_extracted": 170,
+    "empty_page_text": 9,
+    "host_not_in_catalog": 380,
+    "pages": 460
+  },
+  "pages_by_catalog_split": {
+    "train": 265,
+    "validation": 106,
+    "test": 89
+  },
+  "category_support_by_split": {
+    "test": {
+      "Communication And Support": 10,
+      "Media And Content Creation": 23,
+      "Operations And Management": 12,
+      "Personal And Lifestyle": 1,
+      "Security And Privacy": 1,
+      "Industry Specific": 3,
+      "Business And Finance": 3,
+      "Marketing And Sales": 5,
+      "Technology And Development": 12,
+      "Ai And Machine Learning": 5,
+      "Education And Learning": 3,
+      "Creative And Entertainment": 4,
+      "Specialized Technologies": 6,
+      "Data And Analytics": 1
+    },
+    "train": {
+      "Creative And Entertainment": 10,
+      "Business And Finance": 22,
+      "Media And Content Creation": 62,
+      "Specialized Technologies": 18,
+      "Operations And Management": 24,
+      "Data And Analytics": 10,
+      "Education And Learning": 7,
+      "Ai And Machine Learning": 23,
+      "Technology And Development": 20,
+      "Communication And Support": 35,
+      "Personal And Lifestyle": 6,
+      "Marketing And Sales": 20,
+      "Industry Specific": 5,
+      "Security And Privacy": 3
+    },
+    "validation": {
+      "Education And Learning": 2,
+      "Security And Privacy": 1,
+      "Media And Content Creation": 30,
+      "Business And Finance": 8,
+      "Marketing And Sales": 7,
+      "Ai And Machine Learning": 6,
+      "Industry Specific": 3,
+      "Operations And Management": 7,
+      "Technology And Development": 18,
+      "Communication And Support": 10,
+      "Data And Analytics": 4,
+      "Creative And Entertainment": 4,
+      "Personal And Lifestyle": 2,
+      "Specialized Technologies": 4
+    }
+  },
+  "capture_source": {
+    "aitoolbuzz": 460
+  },
+  "pages_with_body_under_200_chars": 72,
+  "registry_held_out_tools_present": []
+}
