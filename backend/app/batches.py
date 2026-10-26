@@ -1,10 +1,10 @@
 import hashlib
 import uuid
 from dataclasses import dataclass
-from datetime import UTC, datetime
 
 from sqlalchemy import Connection, Engine, insert, select
 
+from app.clock import utc_now
 from app.config import Settings
 from app.db.tables import activity_events, batches
 from app.ingestion.activity import SCHEMA_VERSION, parse_activity
@@ -50,7 +50,7 @@ def ingest_upload(
                 raw_artifact_path=raw_artifact_path,
                 sha256=sha256,
                 schema_version=SCHEMA_VERSION,
-                uploaded_at=datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                uploaded_at=utc_now(),
                 activity_start=min(timestamps),
                 activity_end=max(timestamps),
                 event_count=len(events),
