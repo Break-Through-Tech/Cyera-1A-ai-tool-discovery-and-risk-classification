@@ -3,6 +3,7 @@ from pydantic import BaseModel
 
 from app.batches import Batch, get_batch, ingest_upload
 from app.errors import AppError
+from app.ingestion.activity import UploadRejected
 
 router = APIRouter(prefix="/batches", tags=["batches"])
 
@@ -41,12 +42,20 @@ async def upload_batch(
     request: Request, response: Response, file: UploadFile
 ) -> BatchOut:
     content = await file.read()
-    batch, created = ingest_upload(
-        request.app.state.engine,
-        request.app.state.settings,
-        file.filename or "upload.csv",
-        content,
-    )
+    try:
+        batch, created = ingest_upload(
+            request.app.state.engine,
+            request.app.state.settings,
+            file.filename or "upload.csv",
+            content,
+        )
+    except UploadRejected as rejected:
+        raise AppError(
+            422,
+            "invalid_upload",
+            "The upload is invalid; no Batch was created.",
+            {"errors": rejected.errors},
+        ) from rejected
     if not created:
         response.status_code = status.HTTP_200_OK
     return BatchOut.of(batch)
