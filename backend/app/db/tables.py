@@ -73,3 +73,14 @@ analysis_runs = Table(
         sqlite_where=text("status = 'running'"),
     ),
 )
+
+# Jev answers keyed by a hash of the full request body; a changed question, model or
+# page text is a different key.
+jev_responses = Table(
+    "jev_responses",
+    metadata,
+    Column("request_hash", String(64), primary_key=True),
+    Column("model", String, nullable=False),
+    Column("response", JSON, nullable=False),
+    Column("created_at", String, nullable=False),
+)

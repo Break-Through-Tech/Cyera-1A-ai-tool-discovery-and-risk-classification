@@ -63,12 +63,16 @@ class ToolMetadataSnapshot:
     version: str = "unversioned"
 
     def match(self, domain: str, name: str) -> str | None:
+        row = self.find(domain, name)
+        return row["metadata_id"] if row else None
+
+    def find(self, domain: str, name: str) -> Mapping[str, str] | None:
         for row in self.rows:
             if (
                 normalize_domain(row["domain"]) == domain
                 and normalize_name(row["application_name"]) == name
             ):
-                return row["metadata_id"]
+                return row
         return None
 
 
