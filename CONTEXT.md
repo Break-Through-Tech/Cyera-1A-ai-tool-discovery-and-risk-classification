@@ -45,7 +45,7 @@ The determination that assigns one Category to an AI Tool or AI-positive Tool Ca
 _Avoid_: AI Determination; Usage Purpose
 
 **Semantic Neighbor**:
-A versioned retrieval result identifying a catalog Tool or document as semantically similar to a Tool or Tool Candidate. It is supporting comparison evidence, not authority for identity, AI status, or Category.
+A versioned retrieval result identifying a catalog Tool or document as semantically similar to a Tool or Tool Candidate. It is supporting comparison evidence, not authority for identity or AI status. For an AI Tool without a known-catalog Category, a vote of its Semantic Neighbors' catalog Categories is the Category Classification, and the neighbors are kept as its explanation.
 _Avoid_: Identity match; classification decision; canonical Tool alias
 
 **Abstention**:

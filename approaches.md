@@ -113,3 +113,38 @@ not establish performance on runtime website-enriched text or unseen
 out-of-catalog Tools; no model bundle is exported. The test set has been
 evaluated and cannot guide settings while retaining an independent final-test
 claim.
+
+## 14-category classification — method comparison on descriptions and homepages (selected)
+
+**Status: frozen held-out test evaluated; Semantic Neighbor vote proposed in
+[ADR 0003](docs/adr/0003-category-classification-uses-semantic-neighbor-vote.md).**
+Five families were compared on the same `aitoolbuzz-category-v1` splits:
+TF-IDF + logistic regression, zero-shot similarity to written category
+descriptions, a similarity-weighted vote of the k nearest train Tools,
+embeddings + logistic regression (MiniLM and BGE-small), and a Jev 14-way
+`choice` question (`jev-1.14.0`). To measure transfer to runtime input, 460
+fetched homepages were joined to catalog Categories by host (`transfer_v1`: 265
+train, 106 validation and 89 test Tools). Trained methods were never scored on
+train-split homepages. Settings were chosen on validation descriptions and
+validation homepages. Each method's abstention cutoff is the lowest top score
+reaching 70% accuracy on validation homepages. Four configurations were then
+frozen and scored once on test, the split's second use.
+
+| Test, frozen | Descriptions accuracy | Macro-F1 | Answered / accuracy | Homepages accuracy | Macro-F1 | Answered / accuracy |
+|---|---:|---:|---:|---:|---:|---:|
+| **Neighbor vote, BGE-small, k=15** | **0.566** | **0.451** | 61% / 0.707 | **0.528** | 0.410 | 55% / 0.633 |
+| TF-IDF + logistic regression, C=4 | 0.526 | 0.396 | 55% / 0.674 | 0.472 | 0.379 | 60% / 0.604 |
+| BGE-small + logistic regression, C=10 | 0.543 | 0.438 | 28% / 0.781 | 0.427 | 0.378 | 24% / 0.762 |
+| Jev 14-way `choice` | 0.485 | 0.420 | never answers | 0.494 | 0.418 | never answers |
+
+On validation descriptions, the vote led TF-IDF by 3.2 points (95% bootstrap
+interval 1.5–5.0). On homepages its lead was consistent but, at 89–106 pages,
+within noise. Zero-shot similarity scored 0.10–0.27, no better than the
+0.257 most-frequent baseline. Jev's confidence separated right from wrong
+answers poorly, so no cutoff reached 70% accuracy, and agreement between Jev
+and the vote did not beat the vote's own cutoff. Class balancing lowered
+accuracy for every trained method. The vote's 70% cutoff held on test
+descriptions but not on test homepages, so expect about 63–71% accuracy on
+the 55–61% of Tools that get a Category. Scripts, the freeze record and full
+results (per-class metrics, confusion matrices, coverage curves) are in
+[`notebooks/category_classification/`](notebooks/category_classification/).
