@@ -1,0 +1,65 @@
+{
+ "frozen_at": "2026-10-26T21:54:35.465575+00:00",
+ "file_sha256": {
+  "category_descriptions.py": "504527fb80c1571b1e27e271424c6acfc261563ceef1e19dd39eda27d544f177",
+  "methods.py": "8941939d95a022bf59f03a0395323ec9bccf362c720bb4f3f7c39bd224cf5a79",
+  "evaluate.py": "ce76e8cb9b8e4bb738d7e2b4c4590ecb024bb1579d04e31302e14abf1baee2f5",
+  "freeze.py": "7db63bbb7ed9ed5041d63513340f601392d43a9cdd75d5a5c440aadeeacc7548",
+  "evaluate_test.py": "95222e7a7c454d7e1281ba553a4f265d779a10db12ff0823bee439dce57b06c1"
+ },
+ "embedder_revisions": {
+  "BAAI/bge-small-en-v1.5": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a"
+ },
+ "threshold_rule": "lowest top score with accuracy >= 0.7 on validation homepages (full view)",
+ "test_inputs": [
+  "test descriptions",
+  "test-split homepages, full view (Jev: structured page state)"
+ ],
+ "candidates": {
+  "knn[bge-small-en-v1.5,k=15]": {
+   "method": "knn",
+   "embedder": "BAAI/bge-small-en-v1.5",
+   "k": 15,
+   "abstain_below_top_score": 0.468914118995349,
+   "validation_pages": {
+    "rows": 106,
+    "coverage": 0.5188679245283019,
+    "accuracy_when_answering": 0.7090909090909091
+   }
+  },
+  "tfidf_lr[C=4,plain]": {
+   "method": "tfidf_lr",
+   "c": 4,
+   "class_weight": null,
+   "abstain_below_top_score": 0.432671819618374,
+   "validation_pages": {
+    "rows": 106,
+    "coverage": 0.5660377358490566,
+    "accuracy_when_answering": 0.7
+   }
+  },
+  "embed_lr[bge-small-en-v1.5,C=10,plain]": {
+   "method": "embed_lr",
+   "embedder": "BAAI/bge-small-en-v1.5",
+   "c": 10,
+   "class_weight": null,
+   "abstain_below_top_score": 0.7322045564651489,
+   "validation_pages": {
+    "rows": 106,
+    "coverage": 0.2358490566037736,
+    "accuracy_when_answering": 0.72
+   }
+  },
+  "jev": {
+   "method": "jev",
+   "model": "jev-1.14.0",
+   "abstain_below_top_score": null,
+   "validation_pages": {
+    "rows": 106,
+    "coverage": 0.0,
+    "accuracy_when_answering": null
+   }
+  }
+ },
+ "note": "Configurations chosen on validation descriptions and validation homepages only. The v1 test split was scored once by the fixed TF-IDF baseline, so this is its second use."
+}
