@@ -4,7 +4,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 from app.pipeline import Phase
 from tests.conftest import TEST_VERSIONS
-from tests.test_batches import upload
+from tests.test_batches import ACTIVITY_CSV, upload
 
 
 def failing(name: str) -> Phase:
@@ -113,6 +113,21 @@ def test_execution_requests_conflict_while_batch_has_running_run(make_client):
     assert reopened.json()["latest_run"]["status"] == "running"
     assert finished["status"] == "succeeded"
     assert finished["attempt_number"] == 2
+
+
+def test_different_batches_analyze_concurrently(make_client):
+    both_running = threading.Barrier(2, timeout=10)
+    client = make_client(Phase("detect", lambda _context: both_running.wait()))
+    uploads = [ACTIVITY_CSV, ACTIVITY_CSV.replace(b"evt_", b"other_evt_")]
+
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        responses = list(pool.map(lambda content: upload(client, content), uploads))
+
+    assert [r.status_code for r in responses] == [201, 201]
+    assert [r.json()["latest_run"]["status"] for r in responses] == [
+        "succeeded",
+        "succeeded",
+    ]
 
 
 def test_restart_marks_interrupted_running_run_as_failed(make_client):

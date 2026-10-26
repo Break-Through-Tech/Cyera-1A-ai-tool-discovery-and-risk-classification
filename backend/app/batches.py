@@ -2,7 +2,7 @@ import hashlib
 import uuid
 from dataclasses import dataclass
 
-from sqlalchemy import Connection, Engine, insert, select
+from sqlalchemy import Connection, Engine, func, insert, select
 
 from app.clock import utc_now
 from app.config import Settings
@@ -60,6 +60,20 @@ def ingest_upload(
             insert(activity_events), [{"batch_id": batch_id, **e} for e in events]
         )
         return get_batch(connection, batch_id), True
+
+
+def list_batches(
+    connection: Connection, limit: int, offset: int
+) -> tuple[list[Batch], int]:
+    """The Batch directory, newest upload first (ties by ``batch_id``), and its size."""
+    rows = connection.execute(
+        select(batches)
+        .order_by(batches.c.uploaded_at.desc(), batches.c.batch_id)
+        .limit(limit)
+        .offset(offset)
+    ).all()
+    total = connection.execute(select(func.count()).select_from(batches)).scalar_one()
+    return [_to_batch(row) for row in rows], total
 
 
 def get_batch(connection: Connection, batch_id: str) -> Batch | None:

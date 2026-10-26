@@ -1,6 +1,7 @@
-from fastapi import FastAPI
+from fastapi import Depends, FastAPI
 
 from app.api import batches, runs
+from app.api.query import reject_unknown_query_parameters
 from app.config import Settings
 from app.db.engine import migrate, open_database
 from app.errors import register_error_handlers
@@ -18,7 +19,10 @@ def create_app(
     migrate(engine)
     fail_interrupted_runs(engine)
 
-    app = FastAPI(title="AI Tool Governance API")
+    app = FastAPI(
+        title="AI Tool Governance API",
+        dependencies=[Depends(reject_unknown_query_parameters)],
+    )
     app.state.settings = settings
     app.state.engine = engine
     app.state.pipeline = pipeline or default_pipeline()

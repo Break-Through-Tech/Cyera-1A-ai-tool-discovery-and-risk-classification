@@ -99,6 +99,24 @@ def get_run(connection: Connection, run_id: str) -> Run | None:
     return Run(**row._mapping) if row else None
 
 
+def list_runs(
+    connection: Connection, batch_id: str, limit: int, offset: int
+) -> tuple[list[Run], int]:
+    """A Batch's Run history, newest attempt first, and its total size."""
+    where = analysis_runs.c.batch_id == batch_id
+    rows = connection.execute(
+        select(analysis_runs)
+        .where(where)
+        .order_by(analysis_runs.c.attempt_number.desc())
+        .limit(limit)
+        .offset(offset)
+    ).all()
+    total = connection.execute(
+        select(func.count()).select_from(analysis_runs).where(where)
+    ).scalar_one()
+    return [Run(**row._mapping) for row in rows], total
+
+
 def latest_run(connection: Connection, batch_id: str, status: str | None = None) -> Run | None:
     query = select(analysis_runs).where(analysis_runs.c.batch_id == batch_id)
     if status is not None:
