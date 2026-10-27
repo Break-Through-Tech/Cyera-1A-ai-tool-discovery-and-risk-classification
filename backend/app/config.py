@@ -20,6 +20,7 @@ class Settings:
     registry_exclusions_path: Path = (
         BACKEND_DIR / "config/known_tool_registry_exclusions.json"
     )
+    neighbor_index_path: Path = REPO_DIR / "artifacts/category_neighbor_index/v1"
     tool_metadata_path: Path = (
         REPO_DIR / "data/synthetic_enterprise_activity/v1/scenario_tool_metadata.csv"
     )
@@ -46,6 +47,10 @@ class Settings:
     @property
     def uploads_dir(self) -> Path:
         return self.data_dir / "uploads"
+
+    @property
+    def models_dir(self) -> Path:
+        return self.data_dir / "models"
 
 
 def _dotenv_value(path: Path, name: str) -> str | None:
