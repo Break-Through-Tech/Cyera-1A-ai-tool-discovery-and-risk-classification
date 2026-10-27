@@ -2,3 +2,5 @@
 data/category_classification/v1/** text eol=crlf
 data/aitoolbuzz-com-16k-ai-tools-database/ai_tools_cleaned.csv text eol=crlf
 data/aitoolbuzz-com-16k-ai-tools-database/ai_tools_quality_report.json text eol=crlf
+# Model artifacts are hashed as exported; never convert their line endings.
+artifacts/** -text

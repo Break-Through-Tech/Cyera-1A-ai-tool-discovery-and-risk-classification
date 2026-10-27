@@ -1,0 +1,48 @@
+{
+ "index_id": "aitoolbuzz-category-neighbors-v1",
+ "decision": "docs/adr/0003-category-classification-uses-semantic-neighbor-vote.md",
+ "dataset_id": "aitoolbuzz-category-v1",
+ "train_partition_sha256": "bd20c77b055f23a102035493cfb1bda6644b5c78fc1898c4ad6eb2548cc4b798",
+ "rows": 8214,
+ "embedded_text": "description_text",
+ "model": {
+  "repo": "BAAI/bge-small-en-v1.5",
+  "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "files": [
+   "onnx/model.onnx",
+   "tokenizer.json",
+   "tokenizer_config.json",
+   "special_tokens_map.json",
+   "config.json"
+  ],
+  "pooling": "cls",
+  "normalized": true,
+  "dim": 384
+ },
+ "runtime": {
+  "fastembed": "0.9.1",
+  "onnxruntime": "1.31.1"
+ },
+ "embeddings_sha256": "b2d8b3f7f7e34910ba0461772821d615cb7e7a8bdc6fc5b66f900fdd297882c6",
+ "tools_sha256": "4dd57be2b3be1a0735b356bd8d0f5c5c9e4756f6bc8fdfae0b814aaac543a2cb",
+ "held_out_tool_ids_absent": [
+  "227949d3a6ca2fc955ca573c724b1f93a59a41832a1778524d85b2a0d4b98cf9",
+  "eae7b946239074e028ddaec2c04a8fcab433fabbab5d951046213b91de76b8d8"
+ ],
+ "validation_check": {
+  "k": 15,
+  "cutoff": 0.468914118995349,
+  "validation_descriptions": {
+   "rows": 2739,
+   "accuracy": 0.5622489959839357,
+   "answered": 0.6075209930631618,
+   "accuracy_when_answering": 0.6917067307692307
+  },
+  "validation_pages[full]": {
+   "rows": 106,
+   "accuracy": 0.5377358490566038,
+   "answered": 0.5094339622641509,
+   "accuracy_when_answering": 0.7037037037037037
+  }
+ }
+}
