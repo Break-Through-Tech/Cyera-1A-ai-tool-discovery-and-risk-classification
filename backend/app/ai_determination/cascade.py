@@ -83,7 +83,7 @@ class AiDetermination:
 
 
 @dataclass(frozen=True)
-class _Text:
+class EvidenceText:
     title: str
     meta_description: str
     headings: str
@@ -99,7 +99,7 @@ def determine_ai(
     judge: Judge,
     prefer_supplied: bool = False,
 ) -> AiDetermination:
-    found = _evidence_text(candidate, captures_by_domain, metadata, prefer_supplied)
+    found = evidence_text(candidate, captures_by_domain, metadata, prefer_supplied)
     if isinstance(found, str):
         return AiDetermination("unresolved", "no_evidence", reason=found)
     source, text = found
@@ -138,12 +138,12 @@ def determine_ai(
     )
 
 
-def _evidence_text(
+def evidence_text(
     candidate: CandidateIdentity,
     captures_by_domain: Mapping[str, Capture],
     metadata: ToolMetadataSnapshot,
     prefer_supplied: bool,
-) -> tuple[EvidenceSource, _Text] | str:
+) -> tuple[EvidenceSource, EvidenceText] | str:
     """The preferred of an extracted homepage and a non-empty supplied description, else why neither exists."""
     capture = captures_by_domain.get(candidate.domain)
     homepage = _homepage_text(capture)
@@ -154,7 +154,7 @@ def _evidence_text(
     return capture.outcome if capture is not None else "not_fetched"
 
 
-def _homepage_text(capture: Capture | None) -> tuple[EvidenceSource, _Text] | None:
+def _homepage_text(capture: Capture | None) -> tuple[EvidenceSource, EvidenceText] | None:
     if capture is None or capture.outcome != "extracted":
         return None
     title = capture.title or ""
@@ -164,20 +164,20 @@ def _homepage_text(capture: Capture | None) -> tuple[EvidenceSource, _Text] | No
     source = EvidenceSource(
         "homepage", capture.final_url or capture.requested_url, capture.captured_at
     )
-    return source, _Text(
+    return source, EvidenceText(
         title, meta, headings, body, " ".join((title, meta, headings, body)), supplied=False
     )
 
 
 def _supplied_text(
     candidate: CandidateIdentity, metadata: ToolMetadataSnapshot
-) -> tuple[EvidenceSource, _Text] | None:
+) -> tuple[EvidenceSource, EvidenceText] | None:
     row = metadata.find(candidate.domain, normalize_name(candidate.application_names[0]))
     description = (row or {}).get("functionality_text", "").strip()
     if not row or not description:
         return None
     source = EvidenceSource("supplied_description", row["metadata_id"], version=metadata.version)
-    return source, _Text(row["application_name"], description, "", "", description, supplied=True)
+    return source, EvidenceText(row["application_name"], description, "", "", description, supplied=True)
 
 
 def _decide(probabilities: Mapping[str, float]) -> str:
@@ -186,7 +186,7 @@ def _decide(probabilities: Mapping[str, float]) -> str:
     return max(("non_ai", "unresolved"), key=lambda k: probabilities[k])
 
 
-def _evidence(state: Mapping[str, str], text: _Text, judge: Judge) -> tuple[EvidenceSentence, ...]:
+def _evidence(state: Mapping[str, str], text: EvidenceText, judge: Judge) -> tuple[EvidenceSentence, ...]:
     """Every candidate sentence scored in one request separate from the decision, strongest first."""
     candidates = _evidence_sentences(text)
     if not candidates:
@@ -202,7 +202,7 @@ def _evidence(state: Mapping[str, str], text: _Text, judge: Judge) -> tuple[Evid
     return tuple(sorted(scored, key=lambda e: e.probability, reverse=True))
 
 
-def _evidence_sentences(text: _Text) -> list[str]:
+def _evidence_sentences(text: EvidenceText) -> list[str]:
     """Title, meta description, then gate-matching sentences, then the rest, up to EVIDENCE_SENTENCES."""
     body = [
         s[:SNIPPET_CHARS]
