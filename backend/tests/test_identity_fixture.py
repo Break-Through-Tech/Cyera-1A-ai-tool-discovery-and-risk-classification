@@ -39,14 +39,13 @@ def test_synthetic_fixture_resolves_identities_as_its_scenarios_describe(tmp_pat
     assert sum(len(c.event_ids) for c in candidates) == 265
 
 
-def test_registry_and_metadata_versions_are_content_hashes(tmp_path):
+def test_registry_and_metadata_versions_name_their_source_and_size(tmp_path):
     settings = Settings(data_dir=tmp_path)
 
     registry = load_registry(settings.catalog_path, settings.registry_exclusions_path)
     metadata = load_tool_metadata(settings.tool_metadata_path)
 
-    assert registry.version.startswith("sha256:") and len(registry.version) == 71
-    assert metadata.version == (
-        "data/synthetic_enterprise_activity/v1/scenario_tool_metadata.csv"
-        "@sha256:10eb699f7c1d4350d777dcb1b4e23c879f22d45ef70f193c03b3c32c9d713423"
+    assert registry.version == (
+        "data/aitoolbuzz-com-16k-ai-tools-database/ai_tools_cleaned.csv;listings=13701;excluded=2"
     )
+    assert metadata.version == "data/synthetic_enterprise_activity/v1/scenario_tool_metadata.csv;rows=9"

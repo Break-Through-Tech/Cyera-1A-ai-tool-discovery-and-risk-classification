@@ -33,7 +33,6 @@ def default_pipeline(
 ) -> Pipeline:
     """The application's analysis pipeline, with its versioned inputs loaded once at startup."""
     registry = load_registry(settings.catalog_path, settings.registry_exclusions_path)
-    catalog_categories = registry.catalog_categories
     metadata = load_tool_metadata(settings.tool_metadata_path)
     index = load_neighbor_index(settings.neighbor_index_path)
     http = http or CurlHttpClient()
@@ -75,11 +74,8 @@ def default_pipeline(
             )
 
     def category_classification(context: RunContext) -> None:
-        captures = context.results["captures_by_domain"]
         context.results["category_classifications"] = [
-            classify_category(
-                candidate, ai, captures, metadata, catalog_categories, index, embed, prefer_supplied
-            )
+            classify_category(candidate, ai, registry, index, embed)
             for candidate, ai in zip(
                 context.results["identities"], context.results["ai_determinations"], strict=True
             )

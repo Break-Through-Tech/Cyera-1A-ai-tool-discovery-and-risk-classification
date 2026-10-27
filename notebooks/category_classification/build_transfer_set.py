@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import csv
-import hashlib
 import json
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -100,7 +99,6 @@ def main() -> None:
     held_out = set(json.loads(EXCLUSIONS.read_text(encoding="utf-8"))["excluded_tool_ids"])
     by_split = Counter(row["catalog_split"] for row in rows)
     summary = {
-        "pages_sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
         "join": "capture url host_key == catalog Website host_key; hosts whose catalog rows disagree on Category dropped",
         "counts": dict(counts) | {"pages": len(rows)},
         "pages_by_catalog_split": dict(by_split),

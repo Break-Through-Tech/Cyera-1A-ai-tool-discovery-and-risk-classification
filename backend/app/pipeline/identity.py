@@ -6,14 +6,13 @@ They say nothing about AI status.
 
 import csv
 import hashlib
-import io
 import json
 from collections.abc import Iterable, Mapping, Sequence
 from dataclasses import dataclass, field
 from pathlib import Path
 from urllib.parse import urlsplit
 
-from app.config import REPO_DIR
+from app.config import display_path
 from app.hostnames import is_public_hostname, normalize_domain
 
 
@@ -22,7 +21,7 @@ class CatalogListing:
     tool_id: str
     name: str
     website: str
-    category: str = ""
+    category: str
 
 
 @dataclass(frozen=True)
@@ -55,14 +54,13 @@ class KnownToolRegistry:
             {domain: tuple(found) for domain, found in by_domain.items()}, version
         )
 
-    @property
-    def catalog_categories(self) -> Mapping[str, str]:
-        """Catalog Category by tool ID for every listing a Known Tool can resolve to."""
-        return {
-            listing.tool_id: listing.category
-            for listings in self.root_listings_by_domain.values()
-            for listing in listings
-        }
+    def listing(self, tool_id: str) -> CatalogListing:
+        """The listing a Known Tool resolved to."""
+        for listings in self.root_listings_by_domain.values():
+            for listing in listings:
+                if listing.tool_id == tool_id:
+                    return listing
+        raise KeyError(f"No root catalog listing {tool_id}")
 
 
 @dataclass(frozen=True)
@@ -87,34 +85,21 @@ class ToolMetadataSnapshot:
 
 
 def load_registry(catalog_path: Path, exclusions_path: Path) -> KnownToolRegistry:
-    """Build the registry from the cleaned catalog minus held-out Tools.
-
-    Its version hashes both files, so changing either one produces a new registry version.
-    """
-    catalog = catalog_path.read_bytes()
-    exclusions = exclusions_path.read_bytes()
-    excluded = set(json.loads(exclusions)["excluded_tool_ids"])
-    listings = [
-        CatalogListing(row["tool_id"], row["Name"], row["Website"], row["Category"])
-        for row in csv.DictReader(io.StringIO(catalog.decode("utf-8")))
-    ]
-    digest = hashlib.sha256(catalog + b"\0" + exclusions).hexdigest()
-    return KnownToolRegistry.from_listings(listings, excluded, f"sha256:{digest}")
+    """Build the registry from the cleaned catalog minus held-out Tools; its version names the catalog and counts."""
+    excluded = set(json.loads(exclusions_path.read_text(encoding="utf-8"))["excluded_tool_ids"])
+    with catalog_path.open(encoding="utf-8", newline="") as stream:
+        listings = [
+            CatalogListing(row["tool_id"], row["Name"], row["Website"], row["Category"])
+            for row in csv.DictReader(stream)
+        ]
+    version = f"{display_path(catalog_path)};listings={len(listings)};excluded={len(excluded)}"
+    return KnownToolRegistry.from_listings(listings, excluded, version)
 
 
 def load_tool_metadata(path: Path) -> ToolMetadataSnapshot:
-    content = path.read_bytes()
-    rows = list(csv.DictReader(io.StringIO(content.decode("utf-8"))))
-    return ToolMetadataSnapshot(
-        rows, f"{_display_path(path)}@sha256:{hashlib.sha256(content).hexdigest()}"
-    )
-
-
-def _display_path(path: Path) -> str:
-    resolved = path.resolve()
-    if resolved.is_relative_to(REPO_DIR):
-        return resolved.relative_to(REPO_DIR).as_posix()
-    return resolved.as_posix()
+    with path.open(encoding="utf-8", newline="") as stream:
+        rows = list(csv.DictReader(stream))
+    return ToolMetadataSnapshot(rows, f"{display_path(path)};rows={len(rows)}")
 
 
 @dataclass(frozen=True)

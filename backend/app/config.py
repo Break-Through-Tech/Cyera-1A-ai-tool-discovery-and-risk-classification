@@ -53,6 +53,14 @@ class Settings:
         return self.data_dir / "models"
 
 
+def display_path(path: Path) -> str:
+    """A repository-relative path when possible, for readable version labels."""
+    resolved = path.resolve()
+    if resolved.is_relative_to(REPO_DIR):
+        return resolved.relative_to(REPO_DIR).as_posix()
+    return resolved.as_posix()
+
+
 def _dotenv_value(path: Path, name: str) -> str | None:
     if not path.is_file():
         return None

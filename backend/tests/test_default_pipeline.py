@@ -1,6 +1,5 @@
 from pathlib import Path
 
-import numpy as np
 import pytest
 from fastapi.testclient import TestClient
 
@@ -12,6 +11,7 @@ from app.config import Settings
 from app.main import create_app
 from app.pipeline.default import default_pipeline
 from tests.test_ai_determination import FakeJev
+from tests.test_category_classification import FakeEmbed
 from tests.test_enrichment_fetch import FakeHttp, html, not_found, public_dns
 from tests.test_identity_fixture import FIXTURE
 
@@ -37,22 +37,16 @@ def unavailable_jev(body):
     raise JudgeUnavailable("TYPESAFE_API_KEY is not set")
 
 
-class FakeEmbed:
+def catalog_vector_embed():
     """Embeds every text as the first catalog Tool's own vector, without loading the model."""
-
-    def __init__(self):
-        self.vector = load_neighbor_index(Settings(data_dir=Path("unused")).neighbor_index_path).embeddings[0]
-        self.texts = []
-
-    def __call__(self, texts):
-        self.texts.extend(texts)
-        return np.tile(self.vector, (len(texts), 1))
+    vector = load_neighbor_index(Settings(data_dir=Path("unused")).neighbor_index_path).embeddings[0]
+    return FakeEmbed(lambda text: vector)
 
 
 def fixture_client(data_dir, http=None, jev=None, prefer_supplied_description=False, embed=None):
     settings = Settings(data_dir=data_dir, prefer_supplied_description=prefer_supplied_description)
     pipeline = default_pipeline(
-        settings, http or EverythingNotFound(), public_dns(), jev or FakeJev(), embed or FakeEmbed()
+        settings, http or EverythingNotFound(), public_dns(), jev or FakeJev(), embed or catalog_vector_embed()
     )
     return TestClient(create_app(settings, pipeline))
 
@@ -69,12 +63,10 @@ def test_default_pipeline_resolves_identities_fetches_homepages_and_pins_inputs(
     run = upload_fixture(fixture_client(data_dir, http=http)).json()["latest_run"]
 
     assert run["status"] == "succeeded"
-    assert run["versions"]["known_tool_registry"].startswith("sha256:")
-    assert run["versions"]["tool_metadata_snapshot"].endswith(
-        "@sha256:10eb699f7c1d4350d777dcb1b4e23c879f22d45ef70f193c03b3c32c9d713423"
-    )
+    assert run["versions"]["known_tool_registry"].endswith(";listings=13701;excluded=2")
+    assert run["versions"]["tool_metadata_snapshot"].endswith("scenario_tool_metadata.csv;rows=9")
     assert run["versions"]["website_enrichment"].startswith("homepage-v1")
-    assert run["versions"]["ai_determination"].startswith("jev-cascade:sha256:")
+    assert run["versions"]["ai_determination"].startswith("jev-cascade-v1;model=jev-1.14.0;")
     homepages = sorted(url for url, _ in http.requested if not url.endswith("/robots.txt"))
     assert homepages == [
         "https://aws.amazon.com/",
@@ -89,13 +81,17 @@ def test_default_pipeline_resolves_identities_fetches_homepages_and_pins_inputs(
 
 
 def test_unseen_ai_tools_are_categorized_from_the_text_ai_determination_judged(data_dir):
-    embed = FakeEmbed()
+    embed = catalog_vector_embed()
     client = fixture_client(data_dir, http=ServesOnlyMeetOscar(), embed=embed)
 
     run = upload_fixture(client).json()["latest_run"]
 
     assert run["status"] == "succeeded"
-    assert run["versions"]["category_classification"].startswith("neighbor-vote:sha256:")
+    assert run["versions"]["category_classification"] == (
+        "neighbor-vote-v1;index=artifacts/category_neighbor_index/v1;tools=8214;"
+        "model=BAAI/bge-small-en-v1.5@5c38ec7;fastembed=0.9.1;onnxruntime=1.31.1;"
+        "k=15;cutoff=0.469;source=homepage_first"
+    )
     assert any("AI that summarizes meeting notes." in text for text in embed.texts)
 
 
@@ -119,15 +115,17 @@ def test_reanalysis_replays_stored_jev_answers(data_dir):
         (True, "AI-assisted email outreach and campaign automation for marketing teams"),
     ],
 )
-def test_the_preference_decides_what_jev_reads_and_is_recorded(
+def test_the_preference_decides_what_jev_and_the_category_vote_read_and_is_recorded(
     data_dir, prefer_supplied, expected_meetoscar_text
 ):
     jev = FakeJev()
+    embed = catalog_vector_embed()
     client = fixture_client(
         data_dir,
         http=ServesOnlyMeetOscar(),
         jev=jev,
         prefer_supplied_description=prefer_supplied,
+        embed=embed,
     )
 
     run = upload_fixture(client).json()["latest_run"]
@@ -138,6 +136,7 @@ def test_the_preference_decides_what_jev_reads_and_is_recorded(
     )
     read = {body["state"]["meta_description"] for body in jev.decision_bodies}
     assert expected_meetoscar_text in read
+    assert any(expected_meetoscar_text in text for text in embed.texts)
 
 
 def test_settings_read_the_preference_from_the_environment(monkeypatch):

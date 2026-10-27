@@ -79,7 +79,7 @@ def snapshot(*rows):
             {"metadata_id": m, "application_name": n, "domain": d, "functionality_text": t}
             for m, n, d, t in rows
         ],
-        "metadata@sha256:test",
+        "metadata.csv;rows=1",
     )
 
 
@@ -232,7 +232,7 @@ def test_supplied_description_stands_in_when_no_homepage_was_extracted():
 
     assert result.source.kind == "supplied_description"
     assert result.source.reference == "meta_05"
-    assert result.source.version == "metadata@sha256:test"
+    assert result.source.version == "metadata.csv;rows=1"
     assert jev.decision_bodies[0]["state"] == {
         "title": "MeetOscar",
         "meta_description": "AI-assisted email outreach",

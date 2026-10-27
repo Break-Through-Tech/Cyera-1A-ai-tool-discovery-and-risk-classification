@@ -1,15 +1,15 @@
 """The Semantic Neighbor index for Category Classification (ADR 0003)."""
 
 import csv
-import hashlib
-import io
 import json
 from collections.abc import Mapping
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
 import numpy as np
+
+from app.config import display_path
 
 
 @dataclass(frozen=True)
@@ -40,8 +40,8 @@ class NeighborIndex:
 
     embeddings: np.ndarray
     tools: tuple[CatalogTool, ...]
-    version: str = "unversioned"
-    model: Mapping[str, Any] = field(default_factory=dict)
+    version: str
+    model: Mapping[str, Any]
 
     def vote(self, vector: np.ndarray, k: int) -> NeighborVote:
         """The k most similar Tools, each voting for its Category with its (non-negative) similarity."""
@@ -60,21 +60,14 @@ class NeighborIndex:
 
 
 def load_neighbor_index(directory: Path) -> NeighborIndex:
-    """Load the exported index; its version hashes the vectors, the Tools and the embedding model revision."""
-    manifest = json.loads((directory / "manifest.json").read_text(encoding="utf-8"))
-    vectors = (directory / "embeddings.npy").read_bytes()
-    listing = (directory / "tools.csv").read_bytes()
-    embeddings = np.load(io.BytesIO(vectors))
-    tools = tuple(
-        CatalogTool(r["tool_id"], r["name"], r["category"])
-        for r in csv.DictReader(io.StringIO(listing.decode("utf-8")))
-    )
+    """Load an exported index. A changed index is exported to a new folder, so the version names the folder."""
+    model = json.loads((directory / "manifest.json").read_text(encoding="utf-8"))["model"]
+    embeddings = np.load(directory / "embeddings.npy")
+    with (directory / "tools.csv").open(encoding="utf-8", newline="") as stream:
+        tools = tuple(CatalogTool(r["tool_id"], r["name"], r["category"]) for r in csv.DictReader(stream))
     if embeddings.ndim != 2 or len(embeddings) != len(tools):
         raise ValueError(f"Neighbor index has {len(embeddings)} embedding rows for {len(tools)} Tools")
-    if embeddings.shape[1] != manifest["model"]["dim"]:
-        raise ValueError(
-            f"Neighbor index embedding dimension {embeddings.shape[1]} is not {manifest['model']['dim']}"
-        )
-    model = f"{manifest['model']['repo']}@{manifest['model']['revision']}".encode()
-    digest = hashlib.sha256(vectors + b"\0" + listing + b"\0" + model).hexdigest()
-    return NeighborIndex(embeddings, tools, f"sha256:{digest}", manifest["model"])
+    if embeddings.shape[1] != model["dim"]:
+        raise ValueError(f"Neighbor index embedding dimension {embeddings.shape[1]} is not {model['dim']}")
+    version = f"{display_path(directory)};tools={len(tools)};model={model['repo']}@{model['revision'][:7]}"
+    return NeighborIndex(embeddings, tools, version, model)

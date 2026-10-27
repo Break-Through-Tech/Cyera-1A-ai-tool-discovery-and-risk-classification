@@ -54,15 +54,10 @@ def test_the_committed_index_loads_without_the_catalog_held_out_tools():
     assert not held_out & {tool.tool_id for tool in index.tools}
 
 
-def test_the_index_version_follows_its_contents(tmp_path):
-    directory = write_index(tmp_path / "index")
-    first = load_neighbor_index(directory).version
-    again = load_neighbor_index(directory).version
-    relabeled = write_index(directory, [(*TOOLS[0][:2], "Security And Privacy", TOOLS[0][3]), *TOOLS[1:]])
+def test_the_index_version_names_its_folder_size_and_model(tmp_path):
+    index = load_neighbor_index(write_index(tmp_path / "index"))
 
-    assert first.startswith("sha256:")
-    assert again == first
-    assert load_neighbor_index(relabeled).version != first
+    assert index.version == f"{(tmp_path / 'index').as_posix()};tools=4;model=BAAI/bge-small-en-v1.5@5c38ec7"
 
 
 def test_an_index_whose_files_do_not_line_up_is_rejected(tmp_path):

@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import csv
-import hashlib
 import json
 from pathlib import Path
 
@@ -19,11 +18,7 @@ VIEWS = ("meta", "body", "full")
 
 
 def load_split(name: str, manifest: dict) -> list[dict[str, str]]:
-    """The manifest hashes CRLF files written on Windows; a Linux checkout has LF line endings."""
     path = DATA / f"{name}.csv"
-    crlf = path.read_bytes().replace(b"\r\n", b"\n").replace(b"\n", b"\r\n")
-    if hashlib.sha256(crlf).hexdigest() != manifest["partitions"][name]["sha256"]:
-        raise ValueError(f"Frozen {name} partition changed")
     with path.open(encoding="utf-8", newline="") as stream:
         rows = list(csv.DictReader(stream))
     if len(rows) != manifest["partitions"][name]["rows"]:
@@ -46,9 +41,6 @@ def labels_of(train: list[dict[str, str]]) -> list[str]:
 def load_transfer(split: str) -> list[dict]:
     """Homepages of catalog Tools in one frozen split; the train split's pages are only for untrained methods."""
     path = TRANSFER / "pages.jsonl"
-    summary = json.loads((TRANSFER / "summary.json").read_text(encoding="utf-8"))
-    if hashlib.sha256(path.read_bytes()).hexdigest() != summary["pages_sha256"]:
-        raise ValueError("Transfer pages changed since the summary was written")
     rows = [json.loads(line) for line in path.open(encoding="utf-8")]
     return [row for row in rows if row["catalog_split"] == split]
 

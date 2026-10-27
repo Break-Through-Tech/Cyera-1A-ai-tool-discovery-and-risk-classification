@@ -7,12 +7,9 @@ signal without a model call; everything else goes to Jev, then a separate Jev re
 scores each sentence as evidence.
 """
 
-import hashlib
-import json
 from collections.abc import Mapping
 from dataclasses import dataclass
 
-from app.ai_determination import gate as gate_module
 from app.ai_determination.gate import MIN_TEXT_CHARS, SNIPPET_CHARS, gate, sentences
 from app.ai_determination.jev import (
     EVIDENCE_INSTRUCTIONS,
@@ -31,32 +28,26 @@ EVIDENCE_SENTENCES = 60
 EVIDENCE_MIN_CHARS = 20
 
 
+# Bump when the gate patterns, Jev question text or evidence selection change; the label cannot show them.
+CASCADE_REVISION = 1
+
+
+def source_policy(prefer_supplied: bool) -> str:
+    return "supplied_description_first" if prefer_supplied else "homepage_first"
+
+
 def configuration_version(prefer_supplied: bool = False) -> str:
-    """Hash of everything that decides the outcome: gate, questions, model, cutoffs and source preference."""
-    configuration = {
-        "keyword": gate_module.KEYWORD.pattern,
-        "capability": gate_module.CAPABILITY.pattern,
-        "min_text_chars": MIN_TEXT_CHARS,
-        "snippet_chars": SNIPPET_CHARS,
-        "questions": QUESTIONS,
-        "evidence_instructions": EVIDENCE_INSTRUCTIONS,
-        "model": MODEL,
-        "ai_cutoff": AI_CUTOFF,
-        "review_evidence_cutoff": REVIEW_EVIDENCE_CUTOFF,
-        "top_evidence": TOP_EVIDENCE,
-        "full_text_chars": FULL_TEXT_CHARS,
-        "evidence_sentences": EVIDENCE_SENTENCES,
-        "evidence_min_chars": EVIDENCE_MIN_CHARS,
-        "source_policy": "supplied_description_first" if prefer_supplied else "homepage_first",
-        "supplied_text_exempt_from_min_chars": True,
-    }
-    canonical = json.dumps(configuration, sort_keys=True, ensure_ascii=False)
-    return f"jev-cascade:sha256:{hashlib.sha256(canonical.encode()).hexdigest()}"
+    """A readable label of what decides the outcome: revision, model, cutoffs and source preference."""
+    return (
+        f"jev-cascade-v{CASCADE_REVISION};model={MODEL};ai_cutoff={AI_CUTOFF};"
+        f"review_evidence_cutoff={REVIEW_EVIDENCE_CUTOFF};min_text_chars={MIN_TEXT_CHARS};"
+        f"source={source_policy(prefer_supplied)}"
+    )
 
 
 @dataclass(frozen=True)
 class EvidenceSource:
-    """Where the judged text came from: a Dataset B row or a homepage capture."""
+    """Where a decision's information came from: a Dataset B row, a homepage capture or a catalog listing."""
 
     kind: str
     reference: str
@@ -71,6 +62,16 @@ class EvidenceSentence:
 
 
 @dataclass(frozen=True)
+class EvidenceText:
+    title: str
+    meta_description: str
+    headings: str
+    body: str
+    full_text: str
+    supplied: bool
+
+
+@dataclass(frozen=True)
 class AiDetermination:
     determination: str
     stage: str
@@ -80,16 +81,7 @@ class AiDetermination:
     probabilities: Mapping[str, float] | None = None
     evidence: tuple[EvidenceSentence, ...] = ()
     needs_review: bool = False
-
-
-@dataclass(frozen=True)
-class EvidenceText:
-    title: str
-    meta_description: str
-    headings: str
-    body: str
-    gated_text: str
-    supplied: bool
+    text: EvidenceText | None = None
 
 
 def determine_ai(
@@ -99,16 +91,16 @@ def determine_ai(
     judge: Judge,
     prefer_supplied: bool = False,
 ) -> AiDetermination:
-    found = evidence_text(candidate, captures_by_domain, metadata, prefer_supplied)
+    found = _evidence_text(candidate, captures_by_domain, metadata, prefer_supplied)
     if isinstance(found, str):
         return AiDetermination("unresolved", "no_evidence", reason=found)
     source, text = found
 
-    if not gate(text.gated_text):
+    if not gate(text.full_text):
         # The length floor catches parked and empty pages; a short supplied description is still a description.
-        if not text.supplied and len(text.gated_text.strip()) < MIN_TEXT_CHARS:
-            return AiDetermination("unresolved", "insufficient_text", source)
-        return AiDetermination("non_ai", "keyword_gate", source)
+        if not text.supplied and len(text.full_text.strip()) < MIN_TEXT_CHARS:
+            return AiDetermination("unresolved", "insufficient_text", source, text=text)
+        return AiDetermination("non_ai", "keyword_gate", source, text=text)
 
     state = {
         "title": text.title,
@@ -135,10 +127,11 @@ def determine_ai(
         evidence=evidence[:TOP_EVIDENCE],
         needs_review=determination == "ai"
         and (not evidence or evidence[0].probability < REVIEW_EVIDENCE_CUTOFF),
+        text=text,
     )
 
 
-def evidence_text(
+def _evidence_text(
     candidate: CandidateIdentity,
     captures_by_domain: Mapping[str, Capture],
     metadata: ToolMetadataSnapshot,

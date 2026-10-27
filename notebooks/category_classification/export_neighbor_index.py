@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import csv
-import hashlib
 import json
 from importlib.metadata import version
 from pathlib import Path
@@ -25,10 +24,6 @@ MODEL_REPO = "BAAI/bge-small-en-v1.5"
 MODEL_REVISION = "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a"
 MODEL_FILES = ["onnx/model.onnx", "tokenizer.json", "tokenizer_config.json", "special_tokens_map.json", "config.json"]
 FASTEMBED_NAME = "bge-small-en-v1.5-onnx-cls"
-
-
-def sha256(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
 def load_model() -> TextEmbedding:
@@ -78,15 +73,11 @@ def main() -> None:
         "index_id": "aitoolbuzz-category-neighbors-v1",
         "decision": "docs/adr/0003-category-classification-uses-semantic-neighbor-vote.md",
         "dataset_id": "aitoolbuzz-category-v1",
-        "train_partition_sha256": json.loads((ROOT / "data/category_classification/v1/manifest.json")
-                                             .read_text(encoding="utf-8"))["partitions"]["train"]["sha256"],
         "rows": len(train),
         "embedded_text": "description_text",
         "model": {"repo": MODEL_REPO, "revision": MODEL_REVISION, "files": MODEL_FILES,
                   "pooling": "cls", "normalized": True, "dim": 384},
         "runtime": {"fastembed": version("fastembed"), "onnxruntime": version("onnxruntime")},
-        "embeddings_sha256": sha256(OUT / "embeddings.npy"),
-        "tools_sha256": sha256(OUT / "tools.csv"),
         "held_out_tool_ids_absent": sorted(held_out),
         "validation_check": {"k": K, "cutoff": CUTOFF, **checks},
     }

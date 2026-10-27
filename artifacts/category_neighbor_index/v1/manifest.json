@@ -2,7 +2,6 @@
  "index_id": "aitoolbuzz-category-neighbors-v1",
  "decision": "docs/adr/0003-category-classification-uses-semantic-neighbor-vote.md",
  "dataset_id": "aitoolbuzz-category-v1",
- "train_partition_sha256": "bd20c77b055f23a102035493cfb1bda6644b5c78fc1898c4ad6eb2548cc4b798",
  "rows": 8214,
  "embedded_text": "description_text",
  "model": {
@@ -23,8 +22,6 @@
   "fastembed": "0.9.1",
   "onnxruntime": "1.31.1"
  },
- "embeddings_sha256": "b2d8b3f7f7e34910ba0461772821d615cb7e7a8bdc6fc5b66f900fdd297882c6",
- "tools_sha256": "4dd57be2b3be1a0735b356bd8d0f5c5c9e4756f6bc8fdfae0b814aaac543a2cb",
  "held_out_tool_ids_absent": [
   "227949d3a6ca2fc955ca573c724b1f93a59a41832a1778524d85b2a0d4b98cf9",
   "eae7b946239074e028ddaec2c04a8fcab433fabbab5d951046213b91de76b8d8"

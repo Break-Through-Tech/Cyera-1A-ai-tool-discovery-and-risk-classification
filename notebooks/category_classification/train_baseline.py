@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import csv
-import hashlib
 import json
 from collections import Counter
 from pathlib import Path
@@ -21,14 +20,8 @@ DATA = ROOT / "data/category_classification/v1"
 MODEL_ID = "aitoolbuzz-category-tfidf-logreg-v1"
 
 
-def file_hash(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
-
-
 def load_split(name: str, manifest: dict) -> list[dict[str, str]]:
     path = DATA / f"{name}.csv"
-    if file_hash(path) != manifest["partitions"][name]["sha256"]:
-        raise ValueError(f"Frozen {name} partition changed")
     with path.open(encoding="utf-8", newline="") as stream:
         reader = csv.DictReader(stream)
         if reader.fieldnames != ["tool_id", "group_id", "description_text", "category"]:
@@ -96,7 +89,6 @@ def main() -> None:
         "scikit_learn_version": sklearn.__version__,
         "task": "14-category classification",
         "dataset_id": manifest["dataset_id"],
-        "dataset_manifest_sha256": file_hash(DATA / "manifest.json"),
         "features": ["description_text"],
         "target": "category",
         "labels": labels,

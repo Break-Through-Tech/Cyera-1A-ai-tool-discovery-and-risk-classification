@@ -7,9 +7,12 @@ from app.pipeline.identity import (
     resolve_identities,
 )
 
-CHATGPT = CatalogListing("c0ffee", "ChatGPT", "https://chatgpt.com")
+CHATGPT = CatalogListing("c0ffee", "ChatGPT", "https://chatgpt.com", "Communication And Support")
 SLACK_GPT_FEATURE_PAGE = CatalogListing(
-    "51ac6", "Slack GPT", "https://slack.com/intl/en-in/blog/news/introducing-slack-gpt"
+    "51ac6",
+    "Slack GPT",
+    "https://slack.com/intl/en-in/blog/news/introducing-slack-gpt",
+    "Communication And Support",
 )
 NO_KNOWN_TOOLS = KnownToolRegistry.from_listings([], excluded_tool_ids=set())
 NO_METADATA = ToolMetadataSnapshot(rows=[])
@@ -60,8 +63,8 @@ def test_two_site_root_listings_on_one_domain_leave_the_candidate_unresolved():
     [candidate] = resolve(
         [event("e1", "HubSpot", "hubspot.com")],
         registry(
-            CatalogListing("h1", "HubSpot AI", "https://www.hubspot.com/"),
-            CatalogListing("h2", "HubSpot Breeze", "https://hubspot.com"),
+            CatalogListing("h1", "HubSpot AI", "https://www.hubspot.com/", "Marketing And Sales"),
+            CatalogListing("h2", "HubSpot Breeze", "https://hubspot.com", "Marketing And Sales"),
         ),
     )
 
@@ -72,7 +75,7 @@ def test_two_site_root_listings_on_one_domain_leave_the_candidate_unresolved():
 
 
 def test_held_out_catalog_tool_is_not_a_known_match():
-    meetoscar = CatalogListing("m05c4", "MeetOscar", "https://www.meetoscar.com/")
+    meetoscar = CatalogListing("m05c4", "MeetOscar", "https://www.meetoscar.com/", "Communication And Support")
 
     [candidate] = resolve(
         [event("e1", "MeetOscar", "meetoscar.com")],

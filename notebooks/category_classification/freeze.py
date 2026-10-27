@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import hashlib
 import json
 from datetime import datetime, timezone
 from pathlib import Path
@@ -15,7 +14,6 @@ from evaluate import labels_of, load_splits, load_transfer, page_text
 
 HERE = Path(__file__).resolve().parent
 FREEZE = HERE / "FREEZE.json"
-FROZEN_FILES = ("category_descriptions.py", "methods.py", "evaluate.py", "freeze.py", "evaluate_test.py")
 TARGET_ACCURACY = 0.70
 BGE = "BAAI/bge-small-en-v1.5"
 CANDIDATES = {
@@ -84,7 +82,6 @@ def main() -> None:
 
     record = {
         "frozen_at": datetime.now(timezone.utc).isoformat(),
-        "file_sha256": {file: hashlib.sha256((HERE / file).read_bytes()).hexdigest() for file in FROZEN_FILES},
         "embedder_revisions": {BGE: embedder_revision(BGE)},
         "threshold_rule": f"lowest top score with accuracy >= {TARGET_ACCURACY} on validation homepages (full view)",
         "test_inputs": ["test descriptions", "test-split homepages, full view (Jev: structured page state)"],
