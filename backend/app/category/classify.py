@@ -4,6 +4,8 @@ Known AI Tools keep their catalog Category. Other AI Tools take the Category the
 catalog Tools vote for, read from the same text AI Determination judged.
 """
 
+import hashlib
+import json
 from collections.abc import Mapping
 from dataclasses import dataclass
 
@@ -15,6 +17,21 @@ from app.pipeline.identity import CandidateIdentity, ToolMetadataSnapshot
 
 K = 15
 VOTE_CUTOFF = 0.468914118995349
+
+
+def configuration_version(index: NeighborIndex, prefer_supplied: bool = False) -> str:
+    """Hash of everything that decides the outcome: index, embedding model, k, cutoff and source preference."""
+    configuration = {
+        "index": index.version,
+        "model": dict(index.model),
+        "k": K,
+        "vote_cutoff": VOTE_CUTOFF,
+        "embedded_text": "ai_determination_evidence_text",
+        "source_policy": "supplied_description_first" if prefer_supplied else "homepage_first",
+        "known_tools": "catalog_category",
+    }
+    canonical = json.dumps(configuration, sort_keys=True, ensure_ascii=False)
+    return f"neighbor-vote:sha256:{hashlib.sha256(canonical.encode()).hexdigest()}"
 
 
 @dataclass(frozen=True)

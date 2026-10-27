@@ -22,6 +22,7 @@ class CatalogListing:
     tool_id: str
     name: str
     website: str
+    category: str = ""
 
 
 @dataclass(frozen=True)
@@ -54,6 +55,15 @@ class KnownToolRegistry:
             {domain: tuple(found) for domain, found in by_domain.items()}, version
         )
 
+    @property
+    def catalog_categories(self) -> Mapping[str, str]:
+        """Catalog Category by tool ID for every listing a Known Tool can resolve to."""
+        return {
+            listing.tool_id: listing.category
+            for listings in self.root_listings_by_domain.values()
+            for listing in listings
+        }
+
 
 @dataclass(frozen=True)
 class ToolMetadataSnapshot:
@@ -85,7 +95,7 @@ def load_registry(catalog_path: Path, exclusions_path: Path) -> KnownToolRegistr
     exclusions = exclusions_path.read_bytes()
     excluded = set(json.loads(exclusions)["excluded_tool_ids"])
     listings = [
-        CatalogListing(row["tool_id"], row["Name"], row["Website"])
+        CatalogListing(row["tool_id"], row["Name"], row["Website"], row["Category"])
         for row in csv.DictReader(io.StringIO(catalog.decode("utf-8")))
     ]
     digest = hashlib.sha256(catalog + b"\0" + exclusions).hexdigest()

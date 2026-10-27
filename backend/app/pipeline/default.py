@@ -5,6 +5,10 @@ from sqlalchemy import select
 
 from app.ai_determination.cascade import configuration_version, determine_ai
 from app.ai_determination.jev import CachedJudge, JevClient, Judge
+from app.category.classify import classify_category
+from app.category.classify import configuration_version as category_version
+from app.category.embedder import Embed, FastembedEmbedder
+from app.category.neighbors import load_neighbor_index
 from app.config import Settings
 from app.db.tables import activity_events
 from app.enrichment.destinations import Resolver, system_resolver
@@ -25,13 +29,17 @@ def default_pipeline(
     http: HttpClient | None = None,
     resolve: Resolver | None = None,
     jev: Judge | None = None,
+    embed: Embed | None = None,
 ) -> Pipeline:
     """The application's analysis pipeline, with its versioned inputs loaded once at startup."""
     registry = load_registry(settings.catalog_path, settings.registry_exclusions_path)
+    catalog_categories = registry.catalog_categories
     metadata = load_tool_metadata(settings.tool_metadata_path)
+    index = load_neighbor_index(settings.neighbor_index_path)
     http = http or CurlHttpClient()
     resolve = resolve or system_resolver
     jev = jev or JevClient(settings.typesafe_api_key)
+    embed = embed or FastembedEmbedder(index.model, settings.models_dir)
     prefer_supplied = settings.prefer_supplied_description
 
     def resolve_identity(context: RunContext) -> None:
@@ -66,16 +74,29 @@ def default_pipeline(
                 )
             )
 
+    def category_classification(context: RunContext) -> None:
+        captures = context.results["captures_by_domain"]
+        context.results["category_classifications"] = [
+            classify_category(
+                candidate, ai, captures, metadata, catalog_categories, index, embed, prefer_supplied
+            )
+            for candidate, ai in zip(
+                context.results["identities"], context.results["ai_determinations"], strict=True
+            )
+        ]
+
     return Pipeline(
         phases=(
             Phase("resolve_identity", resolve_identity),
             Phase("fetch_websites", fetch_websites),
             Phase("ai_determination", ai_determination),
+            Phase("category_classification", category_classification),
         ),
         versions={
             "known_tool_registry": registry.version,
             "tool_metadata_snapshot": metadata.version,
             "website_enrichment": WEBSITE_ENRICHMENT_VERSION,
             "ai_determination": configuration_version(prefer_supplied),
+            "category_classification": category_version(index, prefer_supplied),
         },
     )

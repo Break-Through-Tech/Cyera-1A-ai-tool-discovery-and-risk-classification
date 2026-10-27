@@ -1,8 +1,13 @@
+from pathlib import Path
+
+import numpy as np
 import pytest
 from fastapi.testclient import TestClient
 
 from app.ai_determination.cascade import configuration_version
 from app.ai_determination.jev import JudgeUnavailable
+from app.category.classify import configuration_version as category_version
+from app.category.neighbors import load_neighbor_index
 from app.config import Settings
 from app.main import create_app
 from app.pipeline.default import default_pipeline
@@ -32,10 +37,22 @@ def unavailable_jev(body):
     raise JudgeUnavailable("TYPESAFE_API_KEY is not set")
 
 
-def fixture_client(data_dir, http=None, jev=None, prefer_supplied_description=False):
+class FakeEmbed:
+    """Embeds every text as the first catalog Tool's own vector, without loading the model."""
+
+    def __init__(self):
+        self.vector = load_neighbor_index(Settings(data_dir=Path("unused")).neighbor_index_path).embeddings[0]
+        self.texts = []
+
+    def __call__(self, texts):
+        self.texts.extend(texts)
+        return np.tile(self.vector, (len(texts), 1))
+
+
+def fixture_client(data_dir, http=None, jev=None, prefer_supplied_description=False, embed=None):
     settings = Settings(data_dir=data_dir, prefer_supplied_description=prefer_supplied_description)
     pipeline = default_pipeline(
-        settings, http or EverythingNotFound(), public_dns(), jev or FakeJev()
+        settings, http or EverythingNotFound(), public_dns(), jev or FakeJev(), embed or FakeEmbed()
     )
     return TestClient(create_app(settings, pipeline))
 
@@ -69,6 +86,17 @@ def test_default_pipeline_resolves_identities_fetches_homepages_and_pins_inputs(
         "https://meetoscar.com/",
         "https://slack.com/",
     ]
+
+
+def test_unseen_ai_tools_are_categorized_from_the_text_ai_determination_judged(data_dir):
+    embed = FakeEmbed()
+    client = fixture_client(data_dir, http=ServesOnlyMeetOscar(), embed=embed)
+
+    run = upload_fixture(client).json()["latest_run"]
+
+    assert run["status"] == "succeeded"
+    assert run["versions"]["category_classification"].startswith("neighbor-vote:sha256:")
+    assert any("AI that summarizes meeting notes." in text for text in embed.texts)
 
 
 def test_reanalysis_replays_stored_jev_answers(data_dir):
@@ -105,6 +133,9 @@ def test_the_preference_decides_what_jev_reads_and_is_recorded(
     run = upload_fixture(client).json()["latest_run"]
 
     assert run["versions"]["ai_determination"] == configuration_version(prefer_supplied)
+    assert run["versions"]["category_classification"] == category_version(
+        load_neighbor_index(Settings(data_dir=data_dir).neighbor_index_path), prefer_supplied
+    )
     read = {body["state"]["meta_description"] for body in jev.decision_bodies}
     assert expected_meetoscar_text in read
 
@@ -124,4 +155,19 @@ def test_run_fails_in_ai_determination_when_jev_is_unavailable(data_dir):
     assert run["failure"] == {
         "summary": "Analysis failed during the ai_determination phase.",
         "phase": "ai_determination",
+    }
+
+
+def test_run_fails_in_category_classification_when_the_embedding_model_is_unavailable(data_dir):
+    def unavailable_embed(texts):
+        raise OSError("model download failed")
+
+    client = fixture_client(data_dir, http=ServesOnlyMeetOscar(), embed=unavailable_embed)
+
+    run = upload_fixture(client).json()["latest_run"]
+
+    assert run["status"] == "failed"
+    assert run["failure"] == {
+        "summary": "Analysis failed during the category_classification phase.",
+        "phase": "category_classification",
     }
