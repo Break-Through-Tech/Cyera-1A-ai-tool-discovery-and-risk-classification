@@ -15,6 +15,7 @@
 |  Katy Ng      |@katy-ng     |Fellow           |
 |  Swarna Sre Ganesh Shankar  | @chanabyte    |Fellow           |
 |  Seedorf Otchere | @seeedorfff  | Fellow |
+|  Dipsha Budhathoki | @rhaeg4r  | Fellow |
 
 ---
 
