@@ -27,6 +27,7 @@ class Settings:
     typesafe_api_key: str | None = field(default=None, repr=False)
     # False follows ADR 0002 (homepage text first); True judges supplied Dataset B text first.
     prefer_supplied_description: bool = False
+    experimental_category_model: Path | None = None
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -38,6 +39,9 @@ class Settings:
             .strip()
             .lower()
             in ("1", "true", "yes"),
+            experimental_category_model=Path(os.environ['CATEGORY_EXPERIMENT_MODEL'])
+            if os.environ.get('CATEGORY_EXPERIMENT_MODEL') else None,
+            neighbor_index_path=Path(os.environ.get('CATEGORY_NEIGHBOR_INDEX', REPO_DIR / 'artifacts/category_neighbor_index/v1')),
         )
 
     @property

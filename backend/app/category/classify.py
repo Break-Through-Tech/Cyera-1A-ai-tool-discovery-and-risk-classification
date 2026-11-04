@@ -18,9 +18,14 @@ VOTE_CUTOFF = 0.468914118995349
 
 def configuration_version(index: NeighborIndex, prefer_supplied: bool = False) -> str:
     """A readable label of what decides the outcome: index, embedding runtime, k, cutoff and source preference."""
+    runtime = (
+        f"sentence-transformers={version('sentence-transformers')};torch={version('torch')};"
+        if index.model.get('backend') == 'sentence_transformers_local' else
+        f"fastembed={version('fastembed')};onnxruntime={version('onnxruntime')};"
+    )
     return (
         f"neighbor-vote-v1;index={index.version};"
-        f"fastembed={version('fastembed')};onnxruntime={version('onnxruntime')};"
+        f"{runtime}"
         f"k={NEIGHBOR_COUNT};cutoff={VOTE_CUTOFF:.3f};source={source_policy(prefer_supplied)}"
     )
 

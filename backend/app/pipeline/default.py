@@ -7,7 +7,7 @@ from app.ai_determination.cascade import configuration_version, determine_ai
 from app.ai_determination.jev import CachedJudge, JevClient, Judge
 from app.category.classify import classify_category
 from app.category.classify import configuration_version as category_version
-from app.category.embedder import Embed, FastembedEmbedder
+from app.category.embedder import Embed, FastembedEmbedder, LocalSentenceTransformerEmbedder
 from app.category.neighbors import load_neighbor_index
 from app.config import Settings
 from app.db.tables import activity_events
@@ -41,7 +41,14 @@ def default_pipeline(
     http = http or CurlHttpClient()
     resolve = resolve or system_resolver
     jev = jev or JevClient(settings.typesafe_api_key)
-    embed = embed or FastembedEmbedder(index.model, settings.models_dir)
+    if settings.experimental_category_model is not None:
+        if embed is not None:
+            raise ValueError('Experimental configuration cannot override its validated embedder')
+        embed = LocalSentenceTransformerEmbedder(settings.experimental_category_model, index.model)
+    elif index.model.get('backend') == 'sentence_transformers_local':
+        raise ValueError('Experimental index requires CATEGORY_EXPERIMENT_MODEL')
+    else:
+        embed = embed or FastembedEmbedder(index.model, settings.models_dir)
     prefer_supplied = settings.prefer_supplied_description
 
     def resolve_identity(context: RunContext) -> None:

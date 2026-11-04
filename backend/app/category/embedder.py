@@ -10,6 +10,32 @@ Embed = Callable[[Sequence[str]], np.ndarray]
 """Unit-normalized embeddings, one row per text."""
 
 
+class LocalSentenceTransformerEmbedder:
+    """Explicit experimental adapter. Training packages are imported only when selected."""
+
+    def __init__(self, directory: Path, metadata: Mapping[str, Any], batch_size: int = 4):
+        # Share fingerprint and preprocessing checks with the offline experiment.
+        import sys
+        from app.config import REPO_DIR
+        sys.path.insert(0, str(REPO_DIR / 'notebooks/category_classification'))
+        from finetuning.model import fingerprint, load_model
+        if metadata.get('backend') != 'sentence_transformers_local':
+            raise ValueError('Local model requires a matching experimental index')
+        if (metadata.get('pooling'), metadata.get('normalized'), metadata.get('dim')) != ('cls', True, 384):
+            raise ValueError('Unsupported experimental model metadata')
+        length = metadata['max_length']
+        if fingerprint(directory, length) != metadata['fingerprint']:
+            raise ValueError('Local model fingerprint differs from neighbor index')
+        import torch
+        torch.set_num_threads(2)
+        self._embedding = load_model(directory, length)
+        self._batch_size = batch_size
+
+    def __call__(self, texts: Sequence[str]) -> np.ndarray:
+        from finetuning.model import encode
+        return encode(self._embedding, texts, self._batch_size)
+
+
 class FastembedEmbedder:
     """Runs the index's pinned ONNX model; the files download into ``cache_dir`` on first use."""
 

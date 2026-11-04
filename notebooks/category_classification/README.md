@@ -1,5 +1,10 @@
 # AIToolBuzz category classification: first experiment
 
+For the isolated CPU PyTorch BGE training experiment, setup commands, observed
+pilot results, and experimental KNN inference, see [FINETUNING.md](FINETUNING.md).
+Measured bounded comparisons and second-seed results are summarized in
+[the follow-up analysis](reports/bge-finetuning-2026-11-04/ANALYSIS.md).
+
 This experiment uses only the cleaned AIToolBuzz catalog. It is separate from
 `binary_ai_dataset` and synthetic enterprise Activity Events. Its input is each
 eligible Tool's `Short Description`; its target is the unchanged 14-value

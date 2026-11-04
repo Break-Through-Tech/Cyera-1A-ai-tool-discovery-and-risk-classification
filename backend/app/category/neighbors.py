@@ -61,7 +61,16 @@ class NeighborIndex:
 
 def load_neighbor_index(directory: Path) -> NeighborIndex:
     """Load an exported index. A changed index is exported to a new folder, so the version names the folder."""
-    model = json.loads((directory / "manifest.json").read_text(encoding="utf-8"))["model"]
+    manifest = json.loads((directory / "manifest.json").read_text(encoding="utf-8"))
+    model = manifest['model']
+    if model.get('backend') == 'sentence_transformers_local':
+        import hashlib
+        for name, key in (('tools.csv', 'tools_sha256'), ('embeddings.npy', 'embeddings_sha256')):
+            digest = hashlib.sha256((directory / name).read_bytes()).hexdigest()
+            if digest != manifest[key]:
+                raise ValueError(f'Experimental index {name} content changed')
+        if manifest.get('classification') != {'k': 15, 'cutoff': 0.468914118995349}:
+            raise ValueError('Experimental index k/cutoff differs from classifier configuration')
     embeddings = np.load(directory / "embeddings.npy")
     with (directory / "tools.csv").open(encoding="utf-8", newline="") as stream:
         tools = tuple(CatalogTool(r["tool_id"], r["name"], r["category"]) for r in csv.DictReader(stream))
@@ -69,5 +78,8 @@ def load_neighbor_index(directory: Path) -> NeighborIndex:
         raise ValueError(f"Neighbor index has {len(embeddings)} embedding rows for {len(tools)} Tools")
     if embeddings.shape[1] != model["dim"]:
         raise ValueError(f"Neighbor index embedding dimension {embeddings.shape[1]} is not {model['dim']}")
+    if model.get('backend') == 'sentence_transformers_local':
+        if not np.isfinite(embeddings).all() or not np.allclose(np.linalg.norm(embeddings, axis=1), 1, atol=1e-5):
+            raise ValueError('Experimental index vectors must be finite and unit normalized')
     version = f"{display_path(directory)};tools={len(tools)};model={model['repo']}@{model['revision'][:7]}"
     return NeighborIndex(embeddings, tools, version, model)
