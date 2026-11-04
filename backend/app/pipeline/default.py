@@ -16,6 +16,8 @@ from app.enrichment.fetch import HttpClient, fetch_homepages
 from app.enrichment.http import CurlHttpClient
 from app.pipeline import Phase, Pipeline, RunContext
 from app.pipeline.identity import load_registry, load_tool_metadata, resolve_identities
+from app.pipeline.risk import RISK_RULE_VERSION
+from app.pipeline.usage_contexts import assess_usage_contexts
 
 WEBSITE_ENRICHMENT_VERSION = (
     f"homepage-v1;curl_cffi={version('curl_cffi')};"
@@ -81,12 +83,31 @@ def default_pipeline(
             )
         ]
 
+    def risk_assessment(context: RunContext) -> None:
+        with context.engine.connect() as connection:
+            events = connection.execute(
+                select(
+                    activity_events.c.event_id,
+                    activity_events.c.occurred_at,
+                    activity_events.c.department,
+                    activity_events.c.usage_purpose,
+                    activity_events.c.data_sensitivity_tier,
+                ).where(activity_events.c.batch_id == context.batch_id)
+            ).mappings().all()
+        context.results["risk_assessments"] = assess_usage_contexts(
+            events,
+            context.results["identities"],
+            context.results["ai_determinations"],
+            metadata,
+        )
+
     return Pipeline(
         phases=(
             Phase("resolve_identity", resolve_identity),
             Phase("fetch_websites", fetch_websites),
             Phase("ai_determination", ai_determination),
             Phase("category_classification", category_classification),
+            Phase("risk_assessment", risk_assessment),
         ),
         versions={
             "known_tool_registry": registry.version,
@@ -94,5 +115,6 @@ def default_pipeline(
             "website_enrichment": WEBSITE_ENRICHMENT_VERSION,
             "ai_determination": configuration_version(prefer_supplied),
             "category_classification": category_version(index, prefer_supplied),
+            "risk_assessment": RISK_RULE_VERSION,
         },
     )
