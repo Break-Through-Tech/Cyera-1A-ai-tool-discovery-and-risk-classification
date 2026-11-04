@@ -1,5 +1,6 @@
 from sqlalchemy import (
     JSON,
+    Boolean,
     CheckConstraint,
     Column,
     ForeignKey,
@@ -83,4 +84,37 @@ jev_responses = Table(
     Column("model", String, nullable=False),
     Column("response", JSON, nullable=False),
     Column("created_at", String, nullable=False),
+)
+
+# One row per Usage Context assessed in a succeeded Run; written with the Run's success so a
+# failed Run leaves none.
+usage_context_assessments = Table(
+    "usage_context_assessments",
+    metadata,
+    Column("run_id", String, ForeignKey("analysis_runs.run_id"), primary_key=True),
+    Column("context_number", Integer, primary_key=True),
+    Column("tool_id", String, nullable=False),
+    Column("application_name", String, nullable=False),
+    Column("domain", String, nullable=False),
+    Column("category", String),
+    Column("department", String, nullable=False),
+    Column("usage_purpose", String, nullable=False),
+    Column("data_sensitivity_tier", String, nullable=False),
+    Column("event_ids", JSON, nullable=False),
+    Column("event_count", Integer, nullable=False),
+    Column("first_observed_at", String, nullable=False),
+    Column("last_observed_at", String, nullable=False),
+    Column("metadata_id", String),
+    Column("facts", JSON, nullable=False),
+    Column("tier", String, nullable=False),
+    Column("reason_codes", JSON, nullable=False),
+    Column("unknown_facts", JSON, nullable=False),
+    Column("investigation_flag", Boolean, nullable=False),
+    Column("flag_reasons", JSON, nullable=False),
+    Column("rule_version", String, nullable=False),
+    CheckConstraint(
+        "tier IN ('High', 'Medium', 'Lower', 'unresolved')",
+        name="ck_usage_context_assessments_tier",
+    ),
+    Index("ix_usage_context_assessments_run_tier", "run_id", "tier"),
 )

@@ -2,7 +2,7 @@ from collections.abc import Callable, Mapping
 from dataclasses import dataclass, field
 from typing import Any
 
-from sqlalchemy import Engine
+from sqlalchemy import Connection, Engine
 
 
 @dataclass(frozen=True)
@@ -27,7 +27,11 @@ class Phase:
 
 @dataclass(frozen=True)
 class Pipeline:
-    """The ordered analysis phases and the versions an Analysis Run records for them."""
+    """The ordered analysis phases and the versions an Analysis Run records for them.
+
+    ``save`` writes a succeeded Run's results in the same transaction that marks it succeeded.
+    """
 
     phases: tuple[Phase, ...] = ()
     versions: Mapping[str, str] = field(default_factory=dict)
+    save: Callable[[Connection, RunContext], None] | None = None

@@ -21,6 +21,8 @@ _CONTEXT_FIELDS = ("department", "usage_purpose", "data_sensitivity_tier")
 @dataclass(frozen=True)
 class UsageContext:
     tool_id: str
+    application_name: str
+    domain: str
     department: str
     usage_purpose: str
     data_sensitivity_tier: str
@@ -84,6 +86,8 @@ def _usage_contexts(
     return [
         UsageContext(
             candidate.tool_id,
+            candidate.application_names[0],
+            candidate.domain,
             *key,
             event_ids=tuple(event["event_id"] for event in grouped),
             first_observed_at=min(event["occurred_at"] for event in grouped),

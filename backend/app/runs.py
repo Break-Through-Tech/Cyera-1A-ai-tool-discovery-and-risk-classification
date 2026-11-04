@@ -1,5 +1,6 @@
 import logging
 import uuid
+from collections.abc import Callable
 from dataclasses import dataclass
 
 from sqlalchemy import Connection, Engine, func, insert, select, update
@@ -70,7 +71,17 @@ def analyze_batch(
                 failure_phase=phase.name,
             )
             return run_id
-    _finish(engine, run_id, "succeeded")
+    try:
+        _finish(engine, run_id, "succeeded", save=pipeline.save, context=context)
+    except Exception:
+        logger.exception("Analysis Run %s failed while saving its results", run_id)
+        _finish(
+            engine,
+            run_id,
+            "failed",
+            failure_summary="Analysis failed while saving its results.",
+            failure_phase="save_results",
+        )
     return run_id
 
 
@@ -127,8 +138,17 @@ def latest_run(connection: Connection, batch_id: str, status: str | None = None)
     return Run(**row._mapping) if row else None
 
 
-def _finish(engine: Engine, run_id: str, status: str, **failure: str) -> None:
+def _finish(
+    engine: Engine,
+    run_id: str,
+    status: str,
+    save: Callable[[Connection, RunContext], None] | None = None,
+    context: RunContext | None = None,
+    **failure: str,
+) -> None:
     with engine.begin() as connection:
+        if save is not None:
+            save(connection, context)
         connection.execute(
             update(analysis_runs)
             .where(analysis_runs.c.run_id == run_id, analysis_runs.c.status == "running")

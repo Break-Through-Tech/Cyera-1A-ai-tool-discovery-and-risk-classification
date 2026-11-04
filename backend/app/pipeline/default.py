@@ -1,7 +1,7 @@
 from concurrent.futures import ThreadPoolExecutor
 from importlib.metadata import version
 
-from sqlalchemy import select
+from sqlalchemy import Connection, select
 
 from app.ai_determination.cascade import configuration_version, determine_ai
 from app.ai_determination.jev import CachedJudge, JevClient, Judge
@@ -18,6 +18,7 @@ from app.pipeline import Phase, Pipeline, RunContext
 from app.pipeline.identity import load_registry, load_tool_metadata, resolve_identities
 from app.pipeline.risk import RISK_RULE_VERSION
 from app.pipeline.usage_contexts import assess_usage_contexts
+from app.results import save_assessments
 
 WEBSITE_ENRICHMENT_VERSION = (
     f"homepage-v1;curl_cffi={version('curl_cffi')};"
@@ -101,6 +102,19 @@ def default_pipeline(
             metadata,
         )
 
+    def save(connection: Connection, context: RunContext) -> None:
+        categories = {
+            candidate.tool_id: classification.category
+            for candidate, classification in zip(
+                context.results["identities"],
+                context.results["category_classifications"],
+                strict=True,
+            )
+        }
+        save_assessments(
+            connection, context.run_id, context.results["risk_assessments"], categories
+        )
+
     return Pipeline(
         phases=(
             Phase("resolve_identity", resolve_identity),
@@ -117,4 +131,5 @@ def default_pipeline(
             "category_classification": category_version(index, prefer_supplied),
             "risk_assessment": RISK_RULE_VERSION,
         },
+        save=save,
     )
