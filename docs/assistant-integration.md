@@ -3,8 +3,8 @@
 ## Phase 1: shared contracts
 
 Implemented in `backend/app/assistant/contracts.py`. These are internal integration
-contracts, not published HTTP endpoints. There is no running agent, Gemini call,
-LangGraph workflow, persistence, or retrieval implementation in this phase.
+contracts, not published HTTP endpoints. Phase 2 adds persistence below. There is
+no running agent, Gemini call, LangGraph workflow, or retrieval implementation.
 
 The agent consumes backend query operations and the team's RAG service. It does
 not own document ingestion, embeddings, indexing, retrieval, or risk calculations.
@@ -85,25 +85,69 @@ not prove sensitive-data submission, and successful schema validation does not
 prove an interpretation. Model-authored interpretations and recommendations also
 need support review.
 
-### Next phases, each with a review stop
+## Phase 2: durable trace storage
 
-1. Persist execution records and evidence links, independently of chat lifetime.
-2. Add tool dispatch and LangGraph orchestration with test-only integrations.
-3. Connect Gemini through `google-genai`; record model and prompt versions.
-4. Connect the team's query and RAG implementations and expose inspection APIs.
-5. Verify real analyst journeys, trace drilldown, source resolution, and claim support.
+`backend/app/assistant/store.py` stores turns, completed execution receipts, and
+evidence snapshots in SQLite. Migration `0005` adds `assistant_turns`,
+`assistant_steps`, and `assistant_evidence` without changing analysis data.
+
+| Function | Behavior |
+|---|---|
+| `start_turn` | Check that pinned Runs exist, succeeded, and belong to the named Batches. Store the question, scope, model ID, and prompt version. |
+| `append_step` | Atomically append a completed receipt and its evidence snapshots. Require the exact turn scope and contiguous sequence numbers. |
+| `finish_turn` | Validate answer references against persisted evidence. Reject changed scope or any failed tool execution, then finalize the turn. |
+| `fail_turn` | Finalize with a safe failure and no substantive answer. Preserve earlier receipts and evidence. |
+| `get_turn` | Read a turn and its final answer or failure. |
+| `list_steps` | Read ordered receipts with pagination and a total count. |
+| `get_evidence` | Resolve a turn-qualified evidence ID to its stored source and producing step. |
+| `fail_interrupted_turns` | Fail abandoned running turns before a single server process accepts work. No startup hook invokes this function yet. |
+
+Database transactions make each write atomic. A no-op write obtains SQLite's
+writer lock before an append or finalization reads the current state. This
+prevents an append from racing past finalization. Exact receipt retries are
+no-ops, including after finalization. Changed receipts and new writes to terminal
+turns fail. These rules apply through the store API, not to arbitrary SQL access.
+
+Evidence IDs are unique within a turn. Different steps must issue different IDs,
+even when they refer to the same underlying source. A composite foreign key links
+each retained source to its producing step in the same turn. Reusing an evidence
+ID rolls back the entire new step without replacing the original evidence.
+
+The store serializes JSON snapshots, so subsequent changes to in-memory objects
+do not change retained data. Reads work after reopening the database, independently
+of chat history. New Analysis Runs do not replace a stored turn's scope.
+
+These functions accept trusted backend calls. They do not enforce user access,
+resolve record or passage existence, verify claim support, redact arbitrary input,
+or enforce tool result-size budgets. Those checks belong at the service and
+integration boundaries before persistence. No public inspection endpoints exist
+yet. The caller supplies the model ID and prompt version. Gemini response metadata
+is not available until the provider integration exists.
+
+Only completed tool attempts are recorded in this phase. A crash during a tool
+call leaves a running turn without a completed receipt for that call. Recording
+in-flight operations and wiring interrupted-turn cleanup belong to orchestration.
+Clarification and complete abstention response types also remain deferred.
+
+## Next phases, each with a review stop
+
+1. Add tool dispatch and LangGraph orchestration with test-only integrations.
+2. Connect Gemini through `google-genai`; record model and prompt versions.
+3. Connect the team's query and RAG implementations and expose inspection APIs.
+4. Verify real analyst journeys, trace drilldown, source resolution, and claim support.
 
 Generated Python remains disabled until the ADR's complete dataset, isolation,
 artifact, provenance, and bounded-repair path exists. No Python worker is part of
 this initial implementation.
 
-## Verify this phase
+## Verify the implemented phases
 
 From the repository root:
 
 ```sh
-backend/.venv/bin/python -m pytest backend/tests/test_assistant_contracts.py -q
+backend/.venv/bin/python -m pytest backend/tests/test_assistant_contracts.py backend/tests/test_assistant_store.py -q
 ```
 
-These tests verify contract behavior and serialization only. They do not establish
-real model, retrieval, isolation, or end-to-end analyst behavior.
+These tests verify contracts, database persistence, transactions, and migration
+behavior. They do not establish real model, retrieval, worker isolation, or
+end-to-end analyst behavior.

@@ -4,6 +4,7 @@ from sqlalchemy import (
     CheckConstraint,
     Column,
     ForeignKey,
+    ForeignKeyConstraint,
     Index,
     Integer,
     MetaData,
@@ -117,4 +118,49 @@ usage_context_assessments = Table(
         name="ck_usage_context_assessments_tier",
     ),
     Index("ix_usage_context_assessments_run_tier", "run_id", "tier"),
+)
+
+assistant_turns = Table(
+    "assistant_turns",
+    metadata,
+    Column("turn_id", String, primary_key=True),
+    Column("question", String, nullable=False),
+    Column("scope", JSON, nullable=False),
+    Column("model_id", String, nullable=False),
+    Column("prompt_version", String, nullable=False),
+    Column("status", String, nullable=False),
+    Column("started_at", String, nullable=False),
+    Column("completed_at", String),
+    Column("answer", JSON(none_as_null=True)),
+    Column("failure", JSON(none_as_null=True)),
+    CheckConstraint(
+        "(status = 'running' AND completed_at IS NULL AND answer IS NULL AND failure IS NULL) OR "
+        "(status = 'succeeded' AND completed_at IS NOT NULL AND answer IS NOT NULL AND failure IS NULL) OR "
+        "(status = 'failed' AND completed_at IS NOT NULL AND answer IS NULL AND failure IS NOT NULL)",
+        name="ck_assistant_turns_state",
+    ),
+)
+
+assistant_steps = Table(
+    "assistant_steps",
+    metadata,
+    Column("turn_id", String, ForeignKey("assistant_turns.turn_id"), primary_key=True),
+    Column("step_id", String, primary_key=True),
+    Column("sequence", Integer, nullable=False),
+    Column("receipt", JSON, nullable=False),
+    UniqueConstraint("turn_id", "sequence"),
+    CheckConstraint("sequence >= 1", name="ck_assistant_steps_sequence"),
+)
+
+assistant_evidence = Table(
+    "assistant_evidence",
+    metadata,
+    Column("turn_id", String, primary_key=True),
+    Column("evidence_id", String, primary_key=True),
+    Column("step_id", String, nullable=False),
+    Column("source", JSON, nullable=False),
+    ForeignKeyConstraint(
+        ["turn_id", "step_id"],
+        ["assistant_steps.turn_id", "assistant_steps.step_id"],
+    ),
 )
