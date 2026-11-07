@@ -19,7 +19,7 @@ def main():
     import numpy as np
     import torch
     torch.set_num_threads(2)
-    from finetuning.model import encode, load_model, run_metadata
+    from finetuning.model import cached_encode, load_model, run_metadata
     manifest = run_metadata(args.run)
     splits, hashes = load_data()
     if hashes != manifest['dataset_hashes']:
@@ -41,7 +41,7 @@ def main():
     with (ROOT / 'data/aitoolbuzz-com-16k-ai-tools-database/ai_tools_cleaned.csv').open(encoding='utf-8', newline='') as stream:
         names = {r['tool_id']: r['Name'] for r in csv.DictReader(stream)}
     model = load_model(args.run / 'model', manifest['settings']['max_length'])
-    vectors = encode(model, [r['description_text'] for r in train], args.batch_size)
+    vectors = cached_encode(model, [r['description_text'] for r in train], args.batch_size)
     output.mkdir(parents=True, exist_ok=False)
     np.save(output / 'embeddings.npy', vectors)
     with (output / 'tools.csv').open('w', encoding='utf-8', newline='') as stream:

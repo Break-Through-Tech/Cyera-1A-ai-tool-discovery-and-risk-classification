@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "capture_source": "data/category_classification/homepage_training_v2/pilot-30/captures.jsonl",
+  "capture_sha256": "bdc3c5094e69837c1d562146b8dc3c9def81f58ef07162e0fbae1b21723f483f",
+  "seed": 20261014,
+  "model": "BAAI/bge-small-en-v1.5",
+  "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "tokenizer_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "max_length": 128,
+  "text_preparation": "title-meta-headings-body-space-join-v1; tokenizer strip",
+  "labeling_rule_version": "primary-function-English-visible128-v1",
+  "review_counts": {
+    "insufficient_evidence": 4,
+    "approved": 16,
+    "fetch_failed": 5,
+    "ambiguous_category": 2,
+    "wrong_product": 3
+  },
+  "effective_labels": {
+    "kind": "reviewed",
+    "version": "homepage-reviewed-2026-11-07-v1",
+    "provenance": "Codex review of immutable pilot captures; retains prior two reviewed corrections. Rule: primary-function-English-visible128-v1",
+    "sha256": "0848bea5f0c89974a9eb0b31b597ea43391988665f06c69975f8abd4453c8fd2",
+    "overrides": {
+      "0cf959db057c16e4826d9e5b726733c3e030632dea3e88e5db7a030e2d71eb1b": "Marketing And Sales",
+      "9b6e961301ee9bebac706efd5c9664617660064099bb7a27693373a975111429": "Media And Content Creation",
+      "e53c2c4cd94b401b66c9cd4874abcfcebd6ca1c9b7abc510cc64299ff9256bd9": "Media And Content Creation",
+      "97c3fe657419f3fff8ac24285b849f00442765a9e08d3540f0a2044ee2277957": "Industry Specific",
+      "06cab0f0824bc5e46cebd770b779f34e217e3367a25dc878ab15430d25c162ee": "Personal And Lifestyle"
+    }
+  },
+  "split_hashes": {
+    "manifest": "96a13cbbc9a34d6b69520fe3944914d9ab136997f16aeb7163431784aa8d7929",
+    "train": "bd20c77b055f23a102035493cfb1bda6644b5c78fc1898c4ad6eb2548cc4b798",
+    "validation": "5ad1b4fd176fd28ab81c414d1540191c9d25cb3ce02676d922a346ae4f2bcb00",
+    "test": "8af06bdf80c2ce45c4b2bf933185bbc231bcf8a13a1c97c42d36923e83cef394"
+  },
+  "extractor_hashes": {
+    "backend\\app\\enrichment\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend\\app\\enrichment\\destinations.py": "17aa6c37cd9eb708543bd37561c0d419445ae1e37121c21be7ccbddfe3c05166",
+    "backend\\app\\enrichment\\extract.py": "6fe045f9450a27713522bc468f26a347ebb4d0cff260ec83e7749775188229dc",
+    "backend\\app\\enrichment\\fetch.py": "056061b40ca4fd2422bac3858e9075b384e7d937be974e08d0d8a0c6654c7e03",
+    "backend\\app\\enrichment\\http.py": "a2fb8302f2f4ed6bbbd1d079e7a126af3ba965a73fd9eccafd4448ee91e26f1b"
+  },
+  "source_hashes": {
+    "captures.jsonl": "bdc3c5094e69837c1d562146b8dc3c9def81f58ef07162e0fbae1b21723f483f",
+    "manifest.json": "140ea8df14b2671c05435fdffe3c9fc3558f7707cc33ac7cebb2c29d4471953a",
+    "REPORT.md": "a241ab9124ac16cac28cde0aed2fac26cb079c6c92a7b24a72e2536e879282eb",
+    "reviews.jsonl": "63e88747ff0353b901c1b291a1c9caae1ffc2a5a9e88c3516d9c05d13a62816c",
+    "selection.jsonl": "4a06bc7210ad6ee24e58610a3621eebc3ed714a576c116e5fbc01eef413b85ee"
+  },
+  "output_hashes": {
+    "pages.jsonl": "89cc128f1578f31bb59351c5c4b7d0d9da8b13e92b67ed7a4c34fab941a6085c",
+    "reviews.jsonl": "2a6e8b6cc6c253cbc3145eabd20347cb769efae5374bbee66874124dea4bcd9f",
+    "reviewed-labels.json": "0848bea5f0c89974a9eb0b31b597ea43391988665f06c69975f8abd4453c8fd2"
+  },
+  "packages": {
+    "torch": "2.6.0+cpu",
+    "transformers": "4.48.3",
+    "tokenizers": "0.21.4",
+    "sentence-transformers": "3.4.1"
+  },
+  "approved_by_category": {
+    "Industry Specific": 3,
+    "Security And Privacy": 4,
+    "Media And Content Creation": 1,
+    "Education And Learning": 3,
+    "Personal And Lifestyle": 4,
+    "Data And Analytics": 1
+  },
+  "existing_training_duplicate_audit": {
+    "host": {},
+    "group": {},
+    "text": {}
+  },
+  "scope": "New supplement only; existing pages not combined; AI evidence review, not human approval"
+}

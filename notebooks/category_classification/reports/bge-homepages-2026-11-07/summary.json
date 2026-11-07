@@ -1,0 +1,676 @@
+{
+  "review": {
+    "version": 1,
+    "capture_source": "data/category_classification/homepage_training_v2/pilot-30/captures.jsonl",
+    "capture_sha256": "bdc3c5094e69837c1d562146b8dc3c9def81f58ef07162e0fbae1b21723f483f",
+    "seed": 20261014,
+    "model": "BAAI/bge-small-en-v1.5",
+    "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "tokenizer_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "max_length": 128,
+    "text_preparation": "title-meta-headings-body-space-join-v1; tokenizer strip",
+    "labeling_rule_version": "primary-function-English-visible128-v1",
+    "review_counts": {
+      "insufficient_evidence": 4,
+      "approved": 16,
+      "fetch_failed": 5,
+      "ambiguous_category": 2,
+      "wrong_product": 3
+    },
+    "effective_labels": {
+      "kind": "reviewed",
+      "version": "homepage-reviewed-2026-11-07-v1",
+      "provenance": "Codex review of immutable pilot captures; retains prior two reviewed corrections. Rule: primary-function-English-visible128-v1",
+      "sha256": "0848bea5f0c89974a9eb0b31b597ea43391988665f06c69975f8abd4453c8fd2",
+      "overrides": {
+        "0cf959db057c16e4826d9e5b726733c3e030632dea3e88e5db7a030e2d71eb1b": "Marketing And Sales",
+        "9b6e961301ee9bebac706efd5c9664617660064099bb7a27693373a975111429": "Media And Content Creation",
+        "e53c2c4cd94b401b66c9cd4874abcfcebd6ca1c9b7abc510cc64299ff9256bd9": "Media And Content Creation",
+        "97c3fe657419f3fff8ac24285b849f00442765a9e08d3540f0a2044ee2277957": "Industry Specific",
+        "06cab0f0824bc5e46cebd770b779f34e217e3367a25dc878ab15430d25c162ee": "Personal And Lifestyle"
+      }
+    },
+    "split_hashes": {
+      "manifest": "96a13cbbc9a34d6b69520fe3944914d9ab136997f16aeb7163431784aa8d7929",
+      "train": "bd20c77b055f23a102035493cfb1bda6644b5c78fc1898c4ad6eb2548cc4b798",
+      "validation": "5ad1b4fd176fd28ab81c414d1540191c9d25cb3ce02676d922a346ae4f2bcb00",
+      "test": "8af06bdf80c2ce45c4b2bf933185bbc231bcf8a13a1c97c42d36923e83cef394"
+    },
+    "extractor_hashes": {
+      "backend\\app\\enrichment\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "backend\\app\\enrichment\\destinations.py": "17aa6c37cd9eb708543bd37561c0d419445ae1e37121c21be7ccbddfe3c05166",
+      "backend\\app\\enrichment\\extract.py": "6fe045f9450a27713522bc468f26a347ebb4d0cff260ec83e7749775188229dc",
+      "backend\\app\\enrichment\\fetch.py": "056061b40ca4fd2422bac3858e9075b384e7d937be974e08d0d8a0c6654c7e03",
+      "backend\\app\\enrichment\\http.py": "a2fb8302f2f4ed6bbbd1d079e7a126af3ba965a73fd9eccafd4448ee91e26f1b"
+    },
+    "source_hashes": {
+      "captures.jsonl": "bdc3c5094e69837c1d562146b8dc3c9def81f58ef07162e0fbae1b21723f483f",
+      "manifest.json": "140ea8df14b2671c05435fdffe3c9fc3558f7707cc33ac7cebb2c29d4471953a",
+      "REPORT.md": "a241ab9124ac16cac28cde0aed2fac26cb079c6c92a7b24a72e2536e879282eb",
+      "reviews.jsonl": "63e88747ff0353b901c1b291a1c9caae1ffc2a5a9e88c3516d9c05d13a62816c",
+      "selection.jsonl": "4a06bc7210ad6ee24e58610a3621eebc3ed714a576c116e5fbc01eef413b85ee"
+    },
+    "output_hashes": {
+      "pages.jsonl": "89cc128f1578f31bb59351c5c4b7d0d9da8b13e92b67ed7a4c34fab941a6085c",
+      "reviews.jsonl": "2a6e8b6cc6c253cbc3145eabd20347cb769efae5374bbee66874124dea4bcd9f",
+      "reviewed-labels.json": "0848bea5f0c89974a9eb0b31b597ea43391988665f06c69975f8abd4453c8fd2"
+    },
+    "packages": {
+      "torch": "2.6.0+cpu",
+      "transformers": "4.48.3",
+      "tokenizers": "0.21.4",
+      "sentence-transformers": "3.4.1"
+    },
+    "approved_by_category": {
+      "Industry Specific": 3,
+      "Security And Privacy": 4,
+      "Media And Content Creation": 1,
+      "Education And Learning": 3,
+      "Personal And Lifestyle": 4,
+      "Data And Analytics": 1
+    },
+    "existing_training_duplicate_audit": {
+      "host": {},
+      "group": {},
+      "text": {}
+    },
+    "scope": "New supplement only; existing pages not combined; AI evidence review, not human approval"
+  },
+  "runs": {
+    "20261014-A": {
+      "homepage_presentations": 0,
+      "total_presentations": 256,
+      "unique_homepage_anchors": 0,
+      "categories": [],
+      "active_loss_fraction": 0.81640625,
+      "training_seconds": 70.40584570000647,
+      "evaluation_seconds": 238.95213599999988,
+      "rss_bytes": 650776576,
+      "sampler": {
+        "unique_triplets": 256,
+        "unique_anchors": 248,
+        "anchor_categories": {
+          "Ai And Machine Learning": 19,
+          "Business And Finance": 19,
+          "Communication And Support": 19,
+          "Creative And Entertainment": 19,
+          "Data And Analytics": 18,
+          "Education And Learning": 18,
+          "Industry Specific": 18,
+          "Marketing And Sales": 18,
+          "Media And Content Creation": 18,
+          "Operations And Management": 18,
+          "Personal And Lifestyle": 18,
+          "Security And Privacy": 18,
+          "Specialized Technologies": 18,
+          "Technology And Development": 18
+        },
+        "unique_positives": 248,
+        "positive_categories": {
+          "Ai And Machine Learning": 19,
+          "Business And Finance": 19,
+          "Communication And Support": 19,
+          "Creative And Entertainment": 19,
+          "Data And Analytics": 18,
+          "Education And Learning": 18,
+          "Industry Specific": 18,
+          "Marketing And Sales": 18,
+          "Media And Content Creation": 18,
+          "Operations And Management": 18,
+          "Personal And Lifestyle": 18,
+          "Security And Privacy": 18,
+          "Specialized Technologies": 18,
+          "Technology And Development": 18
+        },
+        "unique_negatives": 250,
+        "negative_categories": {
+          "Ai And Machine Learning": 23,
+          "Business And Finance": 11,
+          "Communication And Support": 33,
+          "Creative And Entertainment": 4,
+          "Data And Analytics": 13,
+          "Education And Learning": 1,
+          "Industry Specific": 7,
+          "Marketing And Sales": 14,
+          "Media And Content Creation": 65,
+          "Operations And Management": 31,
+          "Personal And Lifestyle": 9,
+          "Security And Privacy": 5,
+          "Specialized Technologies": 11,
+          "Technology And Development": 29
+        },
+        "unique_tools": 712,
+        "homepage_anchors": 0,
+        "requested_triplets": 256,
+        "attempts": 256,
+        "negative_counts": {
+          "random": 256,
+          "semi_hard": 0,
+          "fallback_random": 0
+        },
+        "requested_semi_hard_fraction": 0.0,
+        "actual_semi_hard_fraction": 0.0,
+        "fallback_rate_among_requested": 0.0,
+        "positive_fallback_count": 0
+      }
+    },
+    "20261014-B": {
+      "homepage_presentations": 29,
+      "total_presentations": 256,
+      "unique_homepage_anchors": 12,
+      "categories": [
+        "Data And Analytics",
+        "Education And Learning",
+        "Industry Specific",
+        "Media And Content Creation",
+        "Personal And Lifestyle",
+        "Security And Privacy"
+      ],
+      "active_loss_fraction": 0.80078125,
+      "training_seconds": 50.63701399999991,
+      "evaluation_seconds": 290.10326989999885,
+      "rss_bytes": 733945856,
+      "sampler": {
+        "unique_triplets": 256,
+        "unique_anchors": 230,
+        "anchor_categories": {
+          "Ai And Machine Learning": 19,
+          "Business And Finance": 19,
+          "Communication And Support": 19,
+          "Creative And Entertainment": 19,
+          "Data And Analytics": 18,
+          "Education And Learning": 18,
+          "Industry Specific": 18,
+          "Marketing And Sales": 18,
+          "Media And Content Creation": 18,
+          "Operations And Management": 18,
+          "Personal And Lifestyle": 18,
+          "Security And Privacy": 18,
+          "Specialized Technologies": 18,
+          "Technology And Development": 18
+        },
+        "unique_positives": 250,
+        "positive_categories": {
+          "Ai And Machine Learning": 19,
+          "Business And Finance": 19,
+          "Communication And Support": 19,
+          "Creative And Entertainment": 19,
+          "Data And Analytics": 18,
+          "Education And Learning": 18,
+          "Industry Specific": 18,
+          "Marketing And Sales": 18,
+          "Media And Content Creation": 18,
+          "Operations And Management": 18,
+          "Personal And Lifestyle": 18,
+          "Security And Privacy": 18,
+          "Specialized Technologies": 18,
+          "Technology And Development": 18
+        },
+        "unique_negatives": 253,
+        "negative_categories": {
+          "Ai And Machine Learning": 24,
+          "Business And Finance": 15,
+          "Communication And Support": 25,
+          "Creative And Entertainment": 5,
+          "Data And Analytics": 13,
+          "Education And Learning": 2,
+          "Industry Specific": 3,
+          "Marketing And Sales": 23,
+          "Media And Content Creation": 81,
+          "Operations And Management": 21,
+          "Personal And Lifestyle": 1,
+          "Security And Privacy": 3,
+          "Specialized Technologies": 19,
+          "Technology And Development": 21
+        },
+        "unique_tools": 705,
+        "homepage_anchors": 29,
+        "requested_triplets": 256,
+        "attempts": 256,
+        "negative_counts": {
+          "random": 256,
+          "semi_hard": 0,
+          "fallback_random": 0
+        },
+        "requested_semi_hard_fraction": 0.0,
+        "actual_semi_hard_fraction": 0.0,
+        "fallback_rate_among_requested": 0.0,
+        "positive_fallback_count": 0
+      }
+    }
+  },
+  "paired": {
+    "20261014-homepages": {
+      "wrong_to_correct": 1,
+      "correct_to_wrong": 1,
+      "fixed_ids": [
+        "homepage:askaiquestions.net"
+      ],
+      "regressed_ids": [
+        "homepage:imagepromptguru.net"
+      ],
+      "net_correct_change": 0,
+      "changed_wrong_categories": [
+        {
+          "example_id": "homepage:aivoicegen.net",
+          "expected": "Ai And Machine Learning",
+          "A": "Business And Finance",
+          "B": "Media And Content Creation"
+        }
+      ],
+      "details": [
+        {
+          "example_id": "homepage:aivoicegen.net",
+          "expected": "Ai And Machine Learning",
+          "A": "Business And Finance",
+          "B": "Media And Content Creation"
+        },
+        {
+          "example_id": "homepage:askaiquestions.net",
+          "expected": "Communication And Support",
+          "A": "Ai And Machine Learning",
+          "B": "Communication And Support"
+        },
+        {
+          "example_id": "homepage:imagepromptguru.net",
+          "expected": "Media And Content Creation",
+          "A": "Media And Content Creation",
+          "B": "Creative And Entertainment"
+        }
+      ]
+    },
+    "20261014-descriptions": {
+      "wrong_to_correct": 11,
+      "correct_to_wrong": 14,
+      "fixed_ids": [
+        "0c56e98248b89ef44fb8a948339ccda145d8b1c8a1617d4bff0e5e7b0f351dbb",
+        "198bd7916fe6a5b4cc1756f3984f8d0947b169e6f766aa51b5797e4ecacf5ad0",
+        "2332a6fe5b803072c7afba180f1463d9de7c640f3aa8bf996316b6e9813a4cee",
+        "2606ec971ce21a2a4abf032c1eb718cf2a82dfc0140bd0138fd5ef4ea0702774",
+        "2dc649c40241db3678ed39834852f9fb7ae702dae8f2fe13e52e0e1663ab1c44",
+        "3350757a00f310479a3dbe977506bf0e3aee0987bc804e9b783ef9b660a54eb9",
+        "3f0d9333d17841085337d243d168463413c7836b7e5759e27a272900980b3fc5",
+        "8e2d08e4b11099088eb1bf8022da2423a14b78c528aea9b89b5c9960f8569162",
+        "a7cd005b8e6920f27eacf9c19cb3b41871e746573a324bb3891bb8670685589f",
+        "d2c35d962b66e63aa24c3bd05093d0575224b5627241199147e7abaa92f0c187",
+        "d5adfacacaed840ea0016b93357d88e2c79bfcd8d4978c90323d5314e1cd9fb2"
+      ],
+      "regressed_ids": [
+        "0175314e1e3580b4b0d97f0149a7ad91fb730c20752a95b3964b1ade1ce4c14f",
+        "2db975555d363fda73df8d9c8a0a84f28af7c1d598b152bf53b07428cbe9dc4c",
+        "44e244064078092607286f50d949ab7334f5169c7a9ed0c50d425d5baee61050",
+        "4fa6b7642b4b34a9759bbcc365e6a3f2f65d387ee52e24404739bcae9b77592c",
+        "52ce004a2d3af2d671c60b7fe0dadd9087a568902d2046671eddd678735d8c37",
+        "615626b98032822f093361fcb5510a8dd17306ae539accbb42b4ab3a22d6ac26",
+        "6a88ce97e72017b5962711375a326d252c449671ea249229ff7ad2116fa43b12",
+        "75d412506f049dfd4c9b28e2bad1abcbdbeaa52908ecbf74e8507fdd51990492",
+        "77e052328ed17b2fd4942b713b2f753f7fd897f0cc866efb7112ed34b3d1dffc",
+        "7fd95dbb4c536794fade56c7756e46d6234109715960594ff6e357953d1299a0",
+        "b87f05e03f717554f114ef678705319d4a0a9d777fc743db7fdf9a0a3d2161c5",
+        "e63eaa4b4063535613fb8f171b7ffda466cdf54e7bc2d840e522ad163004c003",
+        "ea2a83d7088608cb52b229c4b42c7477c046693deabf60e53e7266ef5894baa3",
+        "fb61a185b326db59483ca7f7d026df017bb7174472b7ab8a62b2d3645a6b6787"
+      ],
+      "net_correct_change": -3,
+      "changed_wrong_categories": [
+        {
+          "example_id": "04b4e0300d5055d4f6b02390f869b1c9728a20376edf3692c6f2dbce8bca64cd",
+          "expected": "Specialized Technologies",
+          "A": "Business And Finance",
+          "B": "Operations And Management"
+        },
+        {
+          "example_id": "0f2624be6fa485f7a2542a54291f4ebfdd9ef13eafa1dd5f8f36efe9e9cc6f24",
+          "expected": "Data And Analytics",
+          "A": "Communication And Support",
+          "B": "Technology And Development"
+        },
+        {
+          "example_id": "1c687ed77bec249b7193dd743e76749cc267f12648a42654d1af07ed07137e97",
+          "expected": "Specialized Technologies",
+          "A": "Ai And Machine Learning",
+          "B": "Communication And Support"
+        },
+        {
+          "example_id": "23a214f9dbf13b0bdb91da5e9b7311ba828916b0db90074499c1ce53e9b4cf48",
+          "expected": "Operations And Management",
+          "A": "Media And Content Creation",
+          "B": "Technology And Development"
+        },
+        {
+          "example_id": "58f220d079cfe4644198b9a055042f55d15da9bd9c228cce632e45e5d113d652",
+          "expected": "Industry Specific",
+          "A": "Business And Finance",
+          "B": "Marketing And Sales"
+        },
+        {
+          "example_id": "5fb37b13d980ab0913e3caea5d8eeea9f9b5427611a29f642087c78fbc933ad1",
+          "expected": "Business And Finance",
+          "A": "Marketing And Sales",
+          "B": "Communication And Support"
+        },
+        {
+          "example_id": "69ce1c16f0c465c6882f7792242291113ac437f4c2a167775a731b2e846714c5",
+          "expected": "Technology And Development",
+          "A": "Ai And Machine Learning",
+          "B": "Media And Content Creation"
+        },
+        {
+          "example_id": "a32960963ad4296a8c4b465d243fc71b2ca1a2284d02cd1ccfb07cb2f91394c1",
+          "expected": "Ai And Machine Learning",
+          "A": "Education And Learning",
+          "B": "Specialized Technologies"
+        },
+        {
+          "example_id": "c24357c22e4023de5c231caf192fde7f91c6545f60b1292c6ecf6adb63f43fa2",
+          "expected": "Specialized Technologies",
+          "A": "Industry Specific",
+          "B": "Ai And Machine Learning"
+        },
+        {
+          "example_id": "c3e89bff43890aad499e62f34f23c0cf021773002c0d908e39a83d8e8ae7fde6",
+          "expected": "Business And Finance",
+          "A": "Technology And Development",
+          "B": "Media And Content Creation"
+        },
+        {
+          "example_id": "c7c864e2d9ecce6275be8d23782dcac0fb2d772434fff8e48f82276a7fdd856e",
+          "expected": "Industry Specific",
+          "A": "Operations And Management",
+          "B": "Media And Content Creation"
+        },
+        {
+          "example_id": "c844c05918f7d7666df653240a2806c66b5d33252ba38cabe4e9645d04208225",
+          "expected": "Education And Learning",
+          "A": "Industry Specific",
+          "B": "Ai And Machine Learning"
+        },
+        {
+          "example_id": "cfbb213579736d8fd1af711237ef98ef55cd87e1a5cd6fd70f5018036761ce99",
+          "expected": "Communication And Support",
+          "A": "Media And Content Creation",
+          "B": "Technology And Development"
+        },
+        {
+          "example_id": "dc5f30960136d982aa18b1fbce2c0edb2085dc0445653496d436fda81efb7b94",
+          "expected": "Technology And Development",
+          "A": "Specialized Technologies",
+          "B": "Communication And Support"
+        },
+        {
+          "example_id": "e651032aae583e1628a54ba209a955d03f73c8d71aa11efbb054ea6023a72a13",
+          "expected": "Specialized Technologies",
+          "A": "Operations And Management",
+          "B": "Creative And Entertainment"
+        }
+      ],
+      "details": [
+        {
+          "example_id": "0175314e1e3580b4b0d97f0149a7ad91fb730c20752a95b3964b1ade1ce4c14f",
+          "expected": "Marketing And Sales",
+          "A": "Marketing And Sales",
+          "B": "Communication And Support"
+        },
+        {
+          "example_id": "04b4e0300d5055d4f6b02390f869b1c9728a20376edf3692c6f2dbce8bca64cd",
+          "expected": "Specialized Technologies",
+          "A": "Business And Finance",
+          "B": "Operations And Management"
+        },
+        {
+          "example_id": "0c56e98248b89ef44fb8a948339ccda145d8b1c8a1617d4bff0e5e7b0f351dbb",
+          "expected": "Operations And Management",
+          "A": "Data And Analytics",
+          "B": "Operations And Management"
+        },
+        {
+          "example_id": "0f2624be6fa485f7a2542a54291f4ebfdd9ef13eafa1dd5f8f36efe9e9cc6f24",
+          "expected": "Data And Analytics",
+          "A": "Communication And Support",
+          "B": "Technology And Development"
+        },
+        {
+          "example_id": "198bd7916fe6a5b4cc1756f3984f8d0947b169e6f766aa51b5797e4ecacf5ad0",
+          "expected": "Business And Finance",
+          "A": "Data And Analytics",
+          "B": "Business And Finance"
+        },
+        {
+          "example_id": "1c687ed77bec249b7193dd743e76749cc267f12648a42654d1af07ed07137e97",
+          "expected": "Specialized Technologies",
+          "A": "Ai And Machine Learning",
+          "B": "Communication And Support"
+        },
+        {
+          "example_id": "2332a6fe5b803072c7afba180f1463d9de7c640f3aa8bf996316b6e9813a4cee",
+          "expected": "Operations And Management",
+          "A": "Creative And Entertainment",
+          "B": "Operations And Management"
+        },
+        {
+          "example_id": "23a214f9dbf13b0bdb91da5e9b7311ba828916b0db90074499c1ce53e9b4cf48",
+          "expected": "Operations And Management",
+          "A": "Media And Content Creation",
+          "B": "Technology And Development"
+        },
+        {
+          "example_id": "2606ec971ce21a2a4abf032c1eb718cf2a82dfc0140bd0138fd5ef4ea0702774",
+          "expected": "Technology And Development",
+          "A": "Media And Content Creation",
+          "B": "Technology And Development"
+        },
+        {
+          "example_id": "2db975555d363fda73df8d9c8a0a84f28af7c1d598b152bf53b07428cbe9dc4c",
+          "expected": "Technology And Development",
+          "A": "Technology And Development",
+          "B": "Ai And Machine Learning"
+        },
+        {
+          "example_id": "2dc649c40241db3678ed39834852f9fb7ae702dae8f2fe13e52e0e1663ab1c44",
+          "expected": "Education And Learning",
+          "A": "Technology And Development",
+          "B": "Education And Learning"
+        },
+        {
+          "example_id": "3350757a00f310479a3dbe977506bf0e3aee0987bc804e9b783ef9b660a54eb9",
+          "expected": "Media And Content Creation",
+          "A": "Creative And Entertainment",
+          "B": "Media And Content Creation"
+        },
+        {
+          "example_id": "3f0d9333d17841085337d243d168463413c7836b7e5759e27a272900980b3fc5",
+          "expected": "Technology And Development",
+          "A": "Media And Content Creation",
+          "B": "Technology And Development"
+        },
+        {
+          "example_id": "44e244064078092607286f50d949ab7334f5169c7a9ed0c50d425d5baee61050",
+          "expected": "Operations And Management",
+          "A": "Operations And Management",
+          "B": "Communication And Support"
+        },
+        {
+          "example_id": "4fa6b7642b4b34a9759bbcc365e6a3f2f65d387ee52e24404739bcae9b77592c",
+          "expected": "Creative And Entertainment",
+          "A": "Creative And Entertainment",
+          "B": "Media And Content Creation"
+        },
+        {
+          "example_id": "52ce004a2d3af2d671c60b7fe0dadd9087a568902d2046671eddd678735d8c37",
+          "expected": "Marketing And Sales",
+          "A": "Marketing And Sales",
+          "B": "Business And Finance"
+        },
+        {
+          "example_id": "58f220d079cfe4644198b9a055042f55d15da9bd9c228cce632e45e5d113d652",
+          "expected": "Industry Specific",
+          "A": "Business And Finance",
+          "B": "Marketing And Sales"
+        },
+        {
+          "example_id": "5fb37b13d980ab0913e3caea5d8eeea9f9b5427611a29f642087c78fbc933ad1",
+          "expected": "Business And Finance",
+          "A": "Marketing And Sales",
+          "B": "Communication And Support"
+        },
+        {
+          "example_id": "615626b98032822f093361fcb5510a8dd17306ae539accbb42b4ab3a22d6ac26",
+          "expected": "Ai And Machine Learning",
+          "A": "Ai And Machine Learning",
+          "B": "Technology And Development"
+        },
+        {
+          "example_id": "69ce1c16f0c465c6882f7792242291113ac437f4c2a167775a731b2e846714c5",
+          "expected": "Technology And Development",
+          "A": "Ai And Machine Learning",
+          "B": "Media And Content Creation"
+        },
+        {
+          "example_id": "6a88ce97e72017b5962711375a326d252c449671ea249229ff7ad2116fa43b12",
+          "expected": "Communication And Support",
+          "A": "Communication And Support",
+          "B": "Marketing And Sales"
+        },
+        {
+          "example_id": "75d412506f049dfd4c9b28e2bad1abcbdbeaa52908ecbf74e8507fdd51990492",
+          "expected": "Education And Learning",
+          "A": "Education And Learning",
+          "B": "Specialized Technologies"
+        },
+        {
+          "example_id": "77e052328ed17b2fd4942b713b2f753f7fd897f0cc866efb7112ed34b3d1dffc",
+          "expected": "Specialized Technologies",
+          "A": "Specialized Technologies",
+          "B": "Industry Specific"
+        },
+        {
+          "example_id": "7fd95dbb4c536794fade56c7756e46d6234109715960594ff6e357953d1299a0",
+          "expected": "Business And Finance",
+          "A": "Business And Finance",
+          "B": "Marketing And Sales"
+        },
+        {
+          "example_id": "8e2d08e4b11099088eb1bf8022da2423a14b78c528aea9b89b5c9960f8569162",
+          "expected": "Media And Content Creation",
+          "A": "Creative And Entertainment",
+          "B": "Media And Content Creation"
+        },
+        {
+          "example_id": "a32960963ad4296a8c4b465d243fc71b2ca1a2284d02cd1ccfb07cb2f91394c1",
+          "expected": "Ai And Machine Learning",
+          "A": "Education And Learning",
+          "B": "Specialized Technologies"
+        },
+        {
+          "example_id": "a7cd005b8e6920f27eacf9c19cb3b41871e746573a324bb3891bb8670685589f",
+          "expected": "Media And Content Creation",
+          "A": "Ai And Machine Learning",
+          "B": "Media And Content Creation"
+        },
+        {
+          "example_id": "b87f05e03f717554f114ef678705319d4a0a9d777fc743db7fdf9a0a3d2161c5",
+          "expected": "Specialized Technologies",
+          "A": "Specialized Technologies",
+          "B": "Education And Learning"
+        },
+        {
+          "example_id": "c24357c22e4023de5c231caf192fde7f91c6545f60b1292c6ecf6adb63f43fa2",
+          "expected": "Specialized Technologies",
+          "A": "Industry Specific",
+          "B": "Ai And Machine Learning"
+        },
+        {
+          "example_id": "c3e89bff43890aad499e62f34f23c0cf021773002c0d908e39a83d8e8ae7fde6",
+          "expected": "Business And Finance",
+          "A": "Technology And Development",
+          "B": "Media And Content Creation"
+        },
+        {
+          "example_id": "c7c864e2d9ecce6275be8d23782dcac0fb2d772434fff8e48f82276a7fdd856e",
+          "expected": "Industry Specific",
+          "A": "Operations And Management",
+          "B": "Media And Content Creation"
+        },
+        {
+          "example_id": "c844c05918f7d7666df653240a2806c66b5d33252ba38cabe4e9645d04208225",
+          "expected": "Education And Learning",
+          "A": "Industry Specific",
+          "B": "Ai And Machine Learning"
+        },
+        {
+          "example_id": "cfbb213579736d8fd1af711237ef98ef55cd87e1a5cd6fd70f5018036761ce99",
+          "expected": "Communication And Support",
+          "A": "Media And Content Creation",
+          "B": "Technology And Development"
+        },
+        {
+          "example_id": "d2c35d962b66e63aa24c3bd05093d0575224b5627241199147e7abaa92f0c187",
+          "expected": "Media And Content Creation",
+          "A": "Security And Privacy",
+          "B": "Media And Content Creation"
+        },
+        {
+          "example_id": "d5adfacacaed840ea0016b93357d88e2c79bfcd8d4978c90323d5314e1cd9fb2",
+          "expected": "Ai And Machine Learning",
+          "A": "Technology And Development",
+          "B": "Ai And Machine Learning"
+        },
+        {
+          "example_id": "dc5f30960136d982aa18b1fbce2c0edb2085dc0445653496d436fda81efb7b94",
+          "expected": "Technology And Development",
+          "A": "Specialized Technologies",
+          "B": "Communication And Support"
+        },
+        {
+          "example_id": "e63eaa4b4063535613fb8f171b7ffda466cdf54e7bc2d840e522ad163004c003",
+          "expected": "Ai And Machine Learning",
+          "A": "Ai And Machine Learning",
+          "B": "Communication And Support"
+        },
+        {
+          "example_id": "e651032aae583e1628a54ba209a955d03f73c8d71aa11efbb054ea6023a72a13",
+          "expected": "Specialized Technologies",
+          "A": "Operations And Management",
+          "B": "Creative And Entertainment"
+        },
+        {
+          "example_id": "ea2a83d7088608cb52b229c4b42c7477c046693deabf60e53e7266ef5894baa3",
+          "expected": "Business And Finance",
+          "A": "Business And Finance",
+          "B": "Communication And Support"
+        },
+        {
+          "example_id": "fb61a185b326db59483ca7f7d026df017bb7174472b7ab8a62b2d3645a6b6787",
+          "expected": "Communication And Support",
+          "A": "Communication And Support",
+          "B": "Media And Content Creation"
+        }
+      ]
+    }
+  },
+  "seed1_passed": false,
+  "resource_pilot": {
+    "optimizer_updates": 8,
+    "mean_triplet_loss": 0.07657299400307238,
+    "positive_loss_fraction": 0.78125,
+    "trainable_parameters_changed": true,
+    "frozen_parameters_unchanged": true,
+    "reload_tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "peak_observed_rss_bytes": 668782592,
+    "training_seconds": 6.603301499999361,
+    "homepage_source": {
+      "reviews_sha256": "2a6e8b6cc6c253cbc3145eabd20347cb769efae5374bbee66874124dea4bcd9f",
+      "manifest_sha256": "d85765363424e3536c5df0bd6b3fd95c28eb6ff1e747577155679b8bfeb7fbe5",
+      "capture_sha256": "bdc3c5094e69837c1d562146b8dc3c9def81f58ef07162e0fbae1b21723f483f",
+      "source_sha256": "89cc128f1578f31bb59351c5c4b7d0d9da8b13e92b67ed7a4c34fab941a6085c",
+      "eligible": 16,
+      "excluded": {},
+      "text_preparation": "title-meta-headings-body-space-join-v1",
+      "partition": "train"
+    }
+  },
+  "conclusion": "No demonstrated improvement."
+}

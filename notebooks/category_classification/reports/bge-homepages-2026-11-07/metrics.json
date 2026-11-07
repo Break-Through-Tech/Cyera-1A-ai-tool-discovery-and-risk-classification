@@ -1,0 +1,2203 @@
+{
+  "20261014-Original BGE-homepages": {
+    "rows": 106,
+    "accuracy": 0.5188679245283019,
+    "macro_f1": 0.3792044112370791,
+    "per_category": {
+      "Ai And Machine Learning": {
+        "precision": 0.25,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.2,
+        "support": 6.0
+      },
+      "Business And Finance": {
+        "precision": 0.5,
+        "recall": 0.75,
+        "f1-score": 0.6,
+        "support": 8.0
+      },
+      "Communication And Support": {
+        "precision": 0.25,
+        "recall": 0.2,
+        "f1-score": 0.2222222222222222,
+        "support": 10.0
+      },
+      "Creative And Entertainment": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "Data And Analytics": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 4.0
+      },
+      "Education And Learning": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1-score": 0.5,
+        "support": 2.0
+      },
+      "Industry Specific": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "Marketing And Sales": {
+        "precision": 0.3333333333333333,
+        "recall": 0.5714285714285714,
+        "f1-score": 0.42105263157894735,
+        "support": 7.0
+      },
+      "Media And Content Creation": {
+        "precision": 0.6666666666666666,
+        "recall": 0.8,
+        "f1-score": 0.7272727272727273,
+        "support": 30.0
+      },
+      "Operations And Management": {
+        "precision": 0.25,
+        "recall": 0.2857142857142857,
+        "f1-score": 0.26666666666666666,
+        "support": 7.0
+      },
+      "Personal And Lifestyle": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2.0
+      },
+      "Security And Privacy": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "Specialized Technologies": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 4.0
+      },
+      "Technology And Development": {
+        "precision": 0.6363636363636364,
+        "recall": 0.3888888888888889,
+        "f1-score": 0.4827586206896552,
+        "support": 18.0
+      },
+      "accuracy": 0.5188679245283019,
+      "macro avg": {
+        "precision": 0.3704545454545455,
+        "recall": 0.40447845804988664,
+        "f1-score": 0.3792044112370791,
+        "support": 106.0
+      },
+      "weighted avg": {
+        "precision": 0.48809319611206403,
+        "recall": 0.5188679245283019,
+        "f1-score": 0.49150613071785554,
+        "support": 106.0
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Ai And Machine Learning",
+        "Business And Finance",
+        "Communication And Support",
+        "Creative And Entertainment",
+        "Data And Analytics",
+        "Education And Learning",
+        "Industry Specific",
+        "Marketing And Sales",
+        "Media And Content Creation",
+        "Operations And Management",
+        "Personal And Lifestyle",
+        "Security And Privacy",
+        "Specialized Technologies",
+        "Technology And Development"
+      ],
+      "counts": [
+        [
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          3,
+          2,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          2,
+          24,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          3,
+          2,
+          0,
+          0,
+          0,
+          7
+        ]
+      ]
+    },
+    "neighbor_category_agreement": 0.5119496855345912,
+    "cutoff": 0.468914118995349,
+    "answered": 57,
+    "coverage": 0.5377358490566038,
+    "accuracy_when_answering": 0.6842105263157895
+  },
+  "20261014-Original BGE-descriptions": {
+    "rows": 2739,
+    "accuracy": 0.5629791894852135,
+    "macro_f1": 0.456042346964642,
+    "per_category": {
+      "Ai And Machine Learning": {
+        "precision": 0.358695652173913,
+        "recall": 0.1542056074766355,
+        "f1-score": 0.21568627450980393,
+        "support": 214.0
+      },
+      "Business And Finance": {
+        "precision": 0.6910569105691057,
+        "recall": 0.5059523809523809,
+        "f1-score": 0.584192439862543,
+        "support": 168.0
+      },
+      "Communication And Support": {
+        "precision": 0.4972972972972973,
+        "recall": 0.5768025078369906,
+        "f1-score": 0.5341074020319303,
+        "support": 319.0
+      },
+      "Creative And Entertainment": {
+        "precision": 0.7407407407407407,
+        "recall": 0.39215686274509803,
+        "f1-score": 0.5128205128205128,
+        "support": 102.0
+      },
+      "Data And Analytics": {
+        "precision": 0.5370370370370371,
+        "recall": 0.47540983606557374,
+        "f1-score": 0.5043478260869565,
+        "support": 122.0
+      },
+      "Education And Learning": {
+        "precision": 0.34210526315789475,
+        "recall": 0.2826086956521739,
+        "f1-score": 0.30952380952380953,
+        "support": 46.0
+      },
+      "Industry Specific": {
+        "precision": 0.39473684210526316,
+        "recall": 0.2777777777777778,
+        "f1-score": 0.32608695652173914,
+        "support": 54.0
+      },
+      "Marketing And Sales": {
+        "precision": 0.5720524017467249,
+        "recall": 0.5695652173913044,
+        "f1-score": 0.5708061002178649,
+        "support": 230.0
+      },
+      "Media And Content Creation": {
+        "precision": 0.603112840466926,
+        "recall": 0.8794326241134752,
+        "f1-score": 0.7155222158107328,
+        "support": 705.0
+      },
+      "Operations And Management": {
+        "precision": 0.5387453874538746,
+        "recall": 0.5793650793650794,
+        "f1-score": 0.5583173996175909,
+        "support": 252.0
+      },
+      "Personal And Lifestyle": {
+        "precision": 0.5555555555555556,
+        "recall": 0.2222222222222222,
+        "f1-score": 0.31746031746031744,
+        "support": 45.0
+      },
+      "Security And Privacy": {
+        "precision": 0.5333333333333333,
+        "recall": 0.24242424242424243,
+        "f1-score": 0.3333333333333333,
+        "support": 33.0
+      },
+      "Specialized Technologies": {
+        "precision": 0.5256410256410257,
+        "recall": 0.2546583850931677,
+        "f1-score": 0.34309623430962344,
+        "support": 161.0
+      },
+      "Technology And Development": {
+        "precision": 0.5703971119133574,
+        "recall": 0.5486111111111112,
+        "f1-score": 0.5592920353982301,
+        "support": 288.0
+      },
+      "accuracy": 0.5629791894852135,
+      "macro avg": {
+        "precision": 0.532893385656575,
+        "recall": 0.4257994678733738,
+        "f1-score": 0.456042346964642,
+        "support": 2739.0
+      },
+      "weighted avg": {
+        "precision": 0.5526308835196219,
+        "recall": 0.5629791894852135,
+        "f1-score": 0.5397558364276465,
+        "support": 2739.0
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Ai And Machine Learning",
+        "Business And Finance",
+        "Communication And Support",
+        "Creative And Entertainment",
+        "Data And Analytics",
+        "Education And Learning",
+        "Industry Specific",
+        "Marketing And Sales",
+        "Media And Content Creation",
+        "Operations And Management",
+        "Personal And Lifestyle",
+        "Security And Privacy",
+        "Specialized Technologies",
+        "Technology And Development"
+      ],
+      "counts": [
+        [
+          33,
+          7,
+          29,
+          0,
+          12,
+          2,
+          4,
+          6,
+          74,
+          13,
+          1,
+          1,
+          6,
+          26
+        ],
+        [
+          4,
+          85,
+          13,
+          1,
+          7,
+          0,
+          2,
+          17,
+          11,
+          15,
+          0,
+          0,
+          2,
+          11
+        ],
+        [
+          12,
+          4,
+          184,
+          2,
+          8,
+          5,
+          4,
+          18,
+          38,
+          26,
+          1,
+          1,
+          9,
+          7
+        ],
+        [
+          0,
+          0,
+          1,
+          40,
+          0,
+          0,
+          0,
+          1,
+          55,
+          1,
+          0,
+          0,
+          2,
+          2
+        ],
+        [
+          3,
+          4,
+          10,
+          0,
+          58,
+          0,
+          0,
+          5,
+          22,
+          7,
+          0,
+          0,
+          2,
+          11
+        ],
+        [
+          4,
+          0,
+          4,
+          0,
+          1,
+          13,
+          0,
+          0,
+          14,
+          0,
+          0,
+          0,
+          5,
+          5
+        ],
+        [
+          2,
+          1,
+          12,
+          2,
+          1,
+          0,
+          15,
+          4,
+          10,
+          1,
+          0,
+          1,
+          4,
+          1
+        ],
+        [
+          2,
+          4,
+          26,
+          0,
+          3,
+          0,
+          1,
+          131,
+          52,
+          6,
+          0,
+          0,
+          0,
+          5
+        ],
+        [
+          7,
+          1,
+          10,
+          8,
+          3,
+          0,
+          3,
+          29,
+          620,
+          5,
+          2,
+          2,
+          1,
+          14
+        ],
+        [
+          6,
+          8,
+          29,
+          0,
+          1,
+          1,
+          1,
+          8,
+          33,
+          146,
+          1,
+          0,
+          0,
+          18
+        ],
+        [
+          0,
+          0,
+          6,
+          1,
+          0,
+          0,
+          2,
+          0,
+          4,
+          20,
+          10,
+          0,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          13,
+          1,
+          0,
+          8,
+          0,
+          4
+        ],
+        [
+          4,
+          5,
+          18,
+          0,
+          5,
+          9,
+          5,
+          3,
+          37,
+          17,
+          3,
+          0,
+          41,
+          14
+        ],
+        [
+          13,
+          3,
+          24,
+          0,
+          9,
+          8,
+          1,
+          7,
+          45,
+          13,
+          0,
+          2,
+          5,
+          158
+        ]
+      ]
+    },
+    "neighbor_category_agreement": 0.573299257636607,
+    "cutoff": 0.468914118995349,
+    "answered": 1666,
+    "coverage": 0.6082511865644395,
+    "accuracy_when_answering": 0.6914765906362546
+  },
+  "20261014-A descriptions-homepages": {
+    "rows": 106,
+    "accuracy": 0.5188679245283019,
+    "macro_f1": 0.3779627957097493,
+    "per_category": {
+      "Ai And Machine Learning": {
+        "precision": 0.25,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.2,
+        "support": 6.0
+      },
+      "Business And Finance": {
+        "precision": 0.46153846153846156,
+        "recall": 0.75,
+        "f1-score": 0.5714285714285714,
+        "support": 8.0
+      },
+      "Communication And Support": {
+        "precision": 0.25,
+        "recall": 0.2,
+        "f1-score": 0.2222222222222222,
+        "support": 10.0
+      },
+      "Creative And Entertainment": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "Data And Analytics": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 4.0
+      },
+      "Education And Learning": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1-score": 0.5,
+        "support": 2.0
+      },
+      "Industry Specific": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "Marketing And Sales": {
+        "precision": 0.3333333333333333,
+        "recall": 0.5714285714285714,
+        "f1-score": 0.42105263157894735,
+        "support": 7.0
+      },
+      "Media And Content Creation": {
+        "precision": 0.6857142857142857,
+        "recall": 0.8,
+        "f1-score": 0.7384615384615385,
+        "support": 30.0
+      },
+      "Operations And Management": {
+        "precision": 0.25,
+        "recall": 0.2857142857142857,
+        "f1-score": 0.26666666666666666,
+        "support": 7.0
+      },
+      "Personal And Lifestyle": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2.0
+      },
+      "Security And Privacy": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "Specialized Technologies": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 4.0
+      },
+      "Technology And Development": {
+        "precision": 0.6363636363636364,
+        "recall": 0.3888888888888889,
+        "f1-score": 0.4827586206896552,
+        "support": 18.0
+      },
+      "accuracy": 0.5188679245283019,
+      "macro avg": {
+        "precision": 0.3690678369249798,
+        "recall": 0.40447845804988664,
+        "f1-score": 0.3779627957097493,
+        "support": 106.0
+      },
+      "weighted avg": {
+        "precision": 0.49058127407184005,
+        "recall": 0.5188679245283019,
+        "f1-score": 0.4925164411621282,
+        "support": 106.0
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Ai And Machine Learning",
+        "Business And Finance",
+        "Communication And Support",
+        "Creative And Entertainment",
+        "Data And Analytics",
+        "Education And Learning",
+        "Industry Specific",
+        "Marketing And Sales",
+        "Media And Content Creation",
+        "Operations And Management",
+        "Personal And Lifestyle",
+        "Security And Privacy",
+        "Specialized Technologies",
+        "Technology And Development"
+      ],
+      "counts": [
+        [
+          1,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          3,
+          2,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          2,
+          24,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          3,
+          2,
+          0,
+          0,
+          0,
+          7
+        ]
+      ]
+    },
+    "neighbor_category_agreement": 0.5106918238993711,
+    "cutoff": 0.468914118995349,
+    "answered": 56,
+    "coverage": 0.5283018867924528,
+    "accuracy_when_answering": 0.6964285714285714
+  },
+  "20261014-A descriptions-descriptions": {
+    "rows": 2739,
+    "accuracy": 0.5648046732384082,
+    "macro_f1": 0.45670139154721107,
+    "per_category": {
+      "Ai And Machine Learning": {
+        "precision": 0.3548387096774194,
+        "recall": 0.1542056074766355,
+        "f1-score": 0.21498371335504887,
+        "support": 214.0
+      },
+      "Business And Finance": {
+        "precision": 0.6984126984126984,
+        "recall": 0.5238095238095238,
+        "f1-score": 0.5986394557823129,
+        "support": 168.0
+      },
+      "Communication And Support": {
+        "precision": 0.5067750677506775,
+        "recall": 0.5862068965517241,
+        "f1-score": 0.5436046511627907,
+        "support": 319.0
+      },
+      "Creative And Entertainment": {
+        "precision": 0.7192982456140351,
+        "recall": 0.4019607843137255,
+        "f1-score": 0.5157232704402516,
+        "support": 102.0
+      },
+      "Data And Analytics": {
+        "precision": 0.5272727272727272,
+        "recall": 0.47540983606557374,
+        "f1-score": 0.5,
+        "support": 122.0
+      },
+      "Education And Learning": {
+        "precision": 0.3333333333333333,
+        "recall": 0.2608695652173913,
+        "f1-score": 0.2926829268292683,
+        "support": 46.0
+      },
+      "Industry Specific": {
+        "precision": 0.375,
+        "recall": 0.2777777777777778,
+        "f1-score": 0.3191489361702128,
+        "support": 54.0
+      },
+      "Marketing And Sales": {
+        "precision": 0.5833333333333334,
+        "recall": 0.5782608695652174,
+        "f1-score": 0.5807860262008734,
+        "support": 230.0
+      },
+      "Media And Content Creation": {
+        "precision": 0.6046966731898239,
+        "recall": 0.8765957446808511,
+        "f1-score": 0.7156919513607412,
+        "support": 705.0
+      },
+      "Operations And Management": {
+        "precision": 0.5393258426966292,
+        "recall": 0.5714285714285714,
+        "f1-score": 0.5549132947976878,
+        "support": 252.0
+      },
+      "Personal And Lifestyle": {
+        "precision": 0.5555555555555556,
+        "recall": 0.2222222222222222,
+        "f1-score": 0.31746031746031744,
+        "support": 45.0
+      },
+      "Security And Privacy": {
+        "precision": 0.5333333333333333,
+        "recall": 0.24242424242424243,
+        "f1-score": 0.3333333333333333,
+        "support": 33.0
+      },
+      "Specialized Technologies": {
+        "precision": 0.525,
+        "recall": 0.2608695652173913,
+        "f1-score": 0.34854771784232363,
+        "support": 161.0
+      },
+      "Technology And Development": {
+        "precision": 0.5683453237410072,
+        "recall": 0.5486111111111112,
+        "f1-score": 0.558303886925795,
+        "support": 288.0
+      },
+      "accuracy": 0.5648046732384082,
+      "macro avg": {
+        "precision": 0.5303229174221838,
+        "recall": 0.42718945127585417,
+        "f1-score": 0.45670139154721107,
+        "support": 2739.0
+      },
+      "weighted avg": {
+        "precision": 0.5532696158424454,
+        "recall": 0.5648046732384082,
+        "f1-score": 0.5419730690179192,
+        "support": 2739.0
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Ai And Machine Learning",
+        "Business And Finance",
+        "Communication And Support",
+        "Creative And Entertainment",
+        "Data And Analytics",
+        "Education And Learning",
+        "Industry Specific",
+        "Marketing And Sales",
+        "Media And Content Creation",
+        "Operations And Management",
+        "Personal And Lifestyle",
+        "Security And Privacy",
+        "Specialized Technologies",
+        "Technology And Development"
+      ],
+      "counts": [
+        [
+          33,
+          7,
+          28,
+          0,
+          13,
+          2,
+          4,
+          6,
+          74,
+          13,
+          1,
+          1,
+          6,
+          26
+        ],
+        [
+          4,
+          88,
+          12,
+          1,
+          7,
+          0,
+          2,
+          16,
+          10,
+          15,
+          0,
+          0,
+          2,
+          11
+        ],
+        [
+          12,
+          4,
+          187,
+          2,
+          8,
+          5,
+          4,
+          17,
+          37,
+          25,
+          1,
+          1,
+          9,
+          7
+        ],
+        [
+          0,
+          0,
+          1,
+          41,
+          0,
+          0,
+          0,
+          1,
+          54,
+          1,
+          0,
+          0,
+          2,
+          2
+        ],
+        [
+          3,
+          4,
+          10,
+          0,
+          58,
+          0,
+          0,
+          5,
+          22,
+          7,
+          0,
+          0,
+          2,
+          11
+        ],
+        [
+          3,
+          0,
+          4,
+          0,
+          1,
+          12,
+          1,
+          0,
+          14,
+          0,
+          0,
+          0,
+          5,
+          6
+        ],
+        [
+          2,
+          2,
+          12,
+          2,
+          1,
+          0,
+          15,
+          3,
+          9,
+          2,
+          0,
+          1,
+          4,
+          1
+        ],
+        [
+          2,
+          3,
+          25,
+          0,
+          3,
+          0,
+          1,
+          133,
+          52,
+          6,
+          0,
+          0,
+          0,
+          5
+        ],
+        [
+          8,
+          1,
+          10,
+          9,
+          3,
+          0,
+          3,
+          29,
+          618,
+          5,
+          2,
+          2,
+          1,
+          14
+        ],
+        [
+          6,
+          8,
+          29,
+          1,
+          2,
+          1,
+          1,
+          8,
+          33,
+          144,
+          1,
+          0,
+          0,
+          18
+        ],
+        [
+          0,
+          0,
+          6,
+          1,
+          0,
+          0,
+          2,
+          0,
+          5,
+          19,
+          10,
+          0,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          13,
+          1,
+          0,
+          8,
+          0,
+          4
+        ],
+        [
+          4,
+          5,
+          17,
+          0,
+          5,
+          8,
+          6,
+          3,
+          37,
+          17,
+          3,
+          0,
+          42,
+          14
+        ],
+        [
+          14,
+          3,
+          24,
+          0,
+          9,
+          8,
+          1,
+          7,
+          44,
+          12,
+          0,
+          2,
+          6,
+          158
+        ]
+      ]
+    },
+    "neighbor_category_agreement": 0.5726664232688329,
+    "cutoff": 0.468914118995349,
+    "answered": 1656,
+    "coverage": 0.6046002190580504,
+    "accuracy_when_answering": 0.6926328502415459
+  },
+  "20261014-B homepages-homepages": {
+    "rows": 106,
+    "accuracy": 0.5188679245283019,
+    "macro_f1": 0.3781399785936991,
+    "per_category": {
+      "Ai And Machine Learning": {
+        "precision": 0.3333333333333333,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.2222222222222222,
+        "support": 6.0
+      },
+      "Business And Finance": {
+        "precision": 0.5,
+        "recall": 0.75,
+        "f1-score": 0.6,
+        "support": 8.0
+      },
+      "Communication And Support": {
+        "precision": 0.3333333333333333,
+        "recall": 0.3,
+        "f1-score": 0.3157894736842105,
+        "support": 10.0
+      },
+      "Creative And Entertainment": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 4.0
+      },
+      "Data And Analytics": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 4.0
+      },
+      "Education And Learning": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1-score": 0.5,
+        "support": 2.0
+      },
+      "Industry Specific": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "Marketing And Sales": {
+        "precision": 0.3333333333333333,
+        "recall": 0.5714285714285714,
+        "f1-score": 0.42105263157894735,
+        "support": 7.0
+      },
+      "Media And Content Creation": {
+        "precision": 0.6571428571428571,
+        "recall": 0.7666666666666667,
+        "f1-score": 0.7076923076923077,
+        "support": 30.0
+      },
+      "Operations And Management": {
+        "precision": 0.25,
+        "recall": 0.2857142857142857,
+        "f1-score": 0.26666666666666666,
+        "support": 7.0
+      },
+      "Personal And Lifestyle": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2.0
+      },
+      "Security And Privacy": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "Specialized Technologies": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 4.0
+      },
+      "Technology And Development": {
+        "precision": 0.6363636363636364,
+        "recall": 0.3888888888888889,
+        "f1-score": 0.4827586206896552,
+        "support": 18.0
+      },
+      "accuracy": 0.5188679245283019,
+      "macro avg": {
+        "precision": 0.3673933209647496,
+        "recall": 0.4092403628117914,
+        "f1-score": 0.3781399785936991,
+        "support": 106.0
+      },
+      "weighted avg": {
+        "precision": 0.49042922486318713,
+        "recall": 0.5188679245283019,
+        "f1-score": 0.4918565912470648,
+        "support": 106.0
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Ai And Machine Learning",
+        "Business And Finance",
+        "Communication And Support",
+        "Creative And Entertainment",
+        "Data And Analytics",
+        "Education And Learning",
+        "Industry Specific",
+        "Marketing And Sales",
+        "Media And Content Creation",
+        "Operations And Management",
+        "Personal And Lifestyle",
+        "Security And Privacy",
+        "Specialized Technologies",
+        "Technology And Development"
+      ],
+      "counts": [
+        [
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          3,
+          2,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          2,
+          23,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          3,
+          2,
+          0,
+          0,
+          0,
+          7
+        ]
+      ]
+    },
+    "neighbor_category_agreement": 0.5113207547169811,
+    "cutoff": 0.468914118995349,
+    "answered": 56,
+    "coverage": 0.5283018867924528,
+    "accuracy_when_answering": 0.6785714285714286
+  },
+  "20261014-B homepages-descriptions": {
+    "rows": 2739,
+    "accuracy": 0.5637093829864914,
+    "macro_f1": 0.45516408085743304,
+    "per_category": {
+      "Ai And Machine Learning": {
+        "precision": 0.34782608695652173,
+        "recall": 0.14953271028037382,
+        "f1-score": 0.20915032679738563,
+        "support": 214.0
+      },
+      "Business And Finance": {
+        "precision": 0.7016129032258065,
+        "recall": 0.5178571428571429,
+        "f1-score": 0.5958904109589042,
+        "support": 168.0
+      },
+      "Communication And Support": {
+        "precision": 0.4959785522788204,
+        "recall": 0.5799373040752351,
+        "f1-score": 0.5346820809248555,
+        "support": 319.0
+      },
+      "Creative And Entertainment": {
+        "precision": 0.7407407407407407,
+        "recall": 0.39215686274509803,
+        "f1-score": 0.5128205128205128,
+        "support": 102.0
+      },
+      "Data And Analytics": {
+        "precision": 0.5370370370370371,
+        "recall": 0.47540983606557374,
+        "f1-score": 0.5043478260869565,
+        "support": 122.0
+      },
+      "Education And Learning": {
+        "precision": 0.3333333333333333,
+        "recall": 0.2608695652173913,
+        "f1-score": 0.2926829268292683,
+        "support": 46.0
+      },
+      "Industry Specific": {
+        "precision": 0.38461538461538464,
+        "recall": 0.2777777777777778,
+        "f1-score": 0.3225806451612903,
+        "support": 54.0
+      },
+      "Marketing And Sales": {
+        "precision": 0.5745614035087719,
+        "recall": 0.5695652173913044,
+        "f1-score": 0.5720524017467249,
+        "support": 230.0
+      },
+      "Media And Content Creation": {
+        "precision": 0.6056475170399221,
+        "recall": 0.8822695035460993,
+        "f1-score": 0.7182448036951501,
+        "support": 705.0
+      },
+      "Operations And Management": {
+        "precision": 0.5430711610486891,
+        "recall": 0.5753968253968254,
+        "f1-score": 0.558766859344894,
+        "support": 252.0
+      },
+      "Personal And Lifestyle": {
+        "precision": 0.5555555555555556,
+        "recall": 0.2222222222222222,
+        "f1-score": 0.31746031746031744,
+        "support": 45.0
+      },
+      "Security And Privacy": {
+        "precision": 0.5714285714285714,
+        "recall": 0.24242424242424243,
+        "f1-score": 0.3404255319148936,
+        "support": 33.0
+      },
+      "Specialized Technologies": {
+        "precision": 0.5063291139240507,
+        "recall": 0.2484472049689441,
+        "f1-score": 0.3333333333333333,
+        "support": 161.0
+      },
+      "Technology And Development": {
+        "precision": 0.5678571428571428,
+        "recall": 0.5520833333333334,
+        "f1-score": 0.5598591549295775,
+        "support": 288.0
+      },
+      "accuracy": 0.5637093829864914,
+      "macro avg": {
+        "precision": 0.5332567502535963,
+        "recall": 0.4247106963072545,
+        "f1-score": 0.45516408085743304,
+        "support": 2739.0
+      },
+      "weighted avg": {
+        "precision": 0.5522464727821896,
+        "recall": 0.5637093829864914,
+        "f1-score": 0.5400956506173619,
+        "support": 2739.0
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Ai And Machine Learning",
+        "Business And Finance",
+        "Communication And Support",
+        "Creative And Entertainment",
+        "Data And Analytics",
+        "Education And Learning",
+        "Industry Specific",
+        "Marketing And Sales",
+        "Media And Content Creation",
+        "Operations And Management",
+        "Personal And Lifestyle",
+        "Security And Privacy",
+        "Specialized Technologies",
+        "Technology And Development"
+      ],
+      "counts": [
+        [
+          32,
+          7,
+          29,
+          0,
+          13,
+          1,
+          4,
+          6,
+          74,
+          13,
+          1,
+          1,
+          7,
+          26
+        ],
+        [
+          4,
+          87,
+          14,
+          1,
+          6,
+          0,
+          2,
+          16,
+          11,
+          15,
+          0,
+          0,
+          2,
+          10
+        ],
+        [
+          12,
+          4,
+          185,
+          2,
+          8,
+          5,
+          4,
+          18,
+          37,
+          25,
+          1,
+          1,
+          9,
+          8
+        ],
+        [
+          0,
+          0,
+          1,
+          40,
+          0,
+          0,
+          0,
+          1,
+          55,
+          1,
+          0,
+          0,
+          2,
+          2
+        ],
+        [
+          3,
+          4,
+          9,
+          0,
+          58,
+          0,
+          0,
+          5,
+          22,
+          7,
+          0,
+          0,
+          2,
+          12
+        ],
+        [
+          4,
+          0,
+          4,
+          0,
+          1,
+          12,
+          0,
+          0,
+          14,
+          0,
+          0,
+          0,
+          6,
+          5
+        ],
+        [
+          2,
+          1,
+          12,
+          2,
+          1,
+          0,
+          15,
+          4,
+          10,
+          1,
+          0,
+          1,
+          4,
+          1
+        ],
+        [
+          2,
+          4,
+          26,
+          0,
+          3,
+          0,
+          1,
+          131,
+          52,
+          6,
+          0,
+          0,
+          0,
+          5
+        ],
+        [
+          7,
+          1,
+          10,
+          7,
+          3,
+          0,
+          3,
+          29,
+          622,
+          5,
+          2,
+          1,
+          1,
+          14
+        ],
+        [
+          6,
+          8,
+          30,
+          0,
+          1,
+          1,
+          1,
+          8,
+          32,
+          145,
+          1,
+          0,
+          0,
+          19
+        ],
+        [
+          0,
+          0,
+          6,
+          1,
+          0,
+          0,
+          2,
+          0,
+          5,
+          19,
+          10,
+          0,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          13,
+          1,
+          0,
+          8,
+          0,
+          4
+        ],
+        [
+          4,
+          4,
+          18,
+          1,
+          5,
+          9,
+          6,
+          3,
+          37,
+          17,
+          3,
+          0,
+          40,
+          14
+        ],
+        [
+          14,
+          3,
+          25,
+          0,
+          9,
+          8,
+          1,
+          7,
+          43,
+          12,
+          0,
+          2,
+          5,
+          159
+        ]
+      ]
+    },
+    "neighbor_category_agreement": 0.5730071802360959,
+    "cutoff": 0.468914118995349,
+    "answered": 1665,
+    "coverage": 0.6078860898138007,
+    "accuracy_when_answering": 0.6930930930930931
+  },
+  "20261014-original-to-trained-paired": {
+    "A": {
+      "descriptions": {
+        "wrong_to_correct": 14,
+        "correct_to_wrong": 9,
+        "fixed_ids": [
+          "0175314e1e3580b4b0d97f0149a7ad91fb730c20752a95b3964b1ade1ce4c14f",
+          "17436a66ca02332c08fd6efdc1aa6be30756c5caebf6f86235292c1e695154bf",
+          "1d7205ac4e11d30ed5d36810a1a6d9f8c0f06bf8b6c94ed61c102d90bcccd88e",
+          "430cff7866a556d1dda2b9b91ffa81ba4f2c66ed6367b318157d5fb57ee4ba09",
+          "4fa6b7642b4b34a9759bbcc365e6a3f2f65d387ee52e24404739bcae9b77592c",
+          "52ce004a2d3af2d671c60b7fe0dadd9087a568902d2046671eddd678735d8c37",
+          "5e17aefb60968386460edabbf68f9c83e4eeeac2dba2ed6478712f9ad48db160",
+          "615626b98032822f093361fcb5510a8dd17306ae539accbb42b4ab3a22d6ac26",
+          "6a88ce97e72017b5962711375a326d252c449671ea249229ff7ad2116fa43b12",
+          "b87f05e03f717554f114ef678705319d4a0a9d777fc743db7fdf9a0a3d2161c5",
+          "c941d0e590330d65e644636bddf431c9983231a3908d224151ef45ae817dddf2",
+          "e63eaa4b4063535613fb8f171b7ffda466cdf54e7bc2d840e522ad163004c003",
+          "ea2a83d7088608cb52b229c4b42c7477c046693deabf60e53e7266ef5894baa3",
+          "fb61a185b326db59483ca7f7d026df017bb7174472b7ab8a62b2d3645a6b6787"
+        ],
+        "regressed_ids": [
+          "0c56e98248b89ef44fb8a948339ccda145d8b1c8a1617d4bff0e5e7b0f351dbb",
+          "2332a6fe5b803072c7afba180f1463d9de7c640f3aa8bf996316b6e9813a4cee",
+          "2dc649c40241db3678ed39834852f9fb7ae702dae8f2fe13e52e0e1663ab1c44",
+          "39fde9efaada1888c11b9b8124497040b9fc2b757ea8d255dba564e493527913",
+          "65256ae9cd9a65b04dd0e265c19c32fce74ad70e11d57608c9c3f6652f1d0fac",
+          "8e2d08e4b11099088eb1bf8022da2423a14b78c528aea9b89b5c9960f8569162",
+          "a7cd005b8e6920f27eacf9c19cb3b41871e746573a324bb3891bb8670685589f",
+          "d5adfacacaed840ea0016b93357d88e2c79bfcd8d4978c90323d5314e1cd9fb2",
+          "dab3fcf554dfdd390dd8754c5d7928e06dff346182c3a939a5f5ccf166ecc915"
+        ],
+        "net_correct_change": 5
+      },
+      "homepages": {
+        "wrong_to_correct": 0,
+        "correct_to_wrong": 0,
+        "fixed_ids": [],
+        "regressed_ids": [],
+        "net_correct_change": 0
+      }
+    },
+    "B": {
+      "descriptions": {
+        "wrong_to_correct": 10,
+        "correct_to_wrong": 8,
+        "fixed_ids": [
+          "17436a66ca02332c08fd6efdc1aa6be30756c5caebf6f86235292c1e695154bf",
+          "198bd7916fe6a5b4cc1756f3984f8d0947b169e6f766aa51b5797e4ecacf5ad0",
+          "1d7205ac4e11d30ed5d36810a1a6d9f8c0f06bf8b6c94ed61c102d90bcccd88e",
+          "2606ec971ce21a2a4abf032c1eb718cf2a82dfc0140bd0138fd5ef4ea0702774",
+          "3350757a00f310479a3dbe977506bf0e3aee0987bc804e9b783ef9b660a54eb9",
+          "3f0d9333d17841085337d243d168463413c7836b7e5759e27a272900980b3fc5",
+          "430cff7866a556d1dda2b9b91ffa81ba4f2c66ed6367b318157d5fb57ee4ba09",
+          "5e17aefb60968386460edabbf68f9c83e4eeeac2dba2ed6478712f9ad48db160",
+          "c941d0e590330d65e644636bddf431c9983231a3908d224151ef45ae817dddf2",
+          "d2c35d962b66e63aa24c3bd05093d0575224b5627241199147e7abaa92f0c187"
+        ],
+        "regressed_ids": [
+          "2db975555d363fda73df8d9c8a0a84f28af7c1d598b152bf53b07428cbe9dc4c",
+          "39fde9efaada1888c11b9b8124497040b9fc2b757ea8d255dba564e493527913",
+          "44e244064078092607286f50d949ab7334f5169c7a9ed0c50d425d5baee61050",
+          "65256ae9cd9a65b04dd0e265c19c32fce74ad70e11d57608c9c3f6652f1d0fac",
+          "75d412506f049dfd4c9b28e2bad1abcbdbeaa52908ecbf74e8507fdd51990492",
+          "77e052328ed17b2fd4942b713b2f753f7fd897f0cc866efb7112ed34b3d1dffc",
+          "7fd95dbb4c536794fade56c7756e46d6234109715960594ff6e357953d1299a0",
+          "dab3fcf554dfdd390dd8754c5d7928e06dff346182c3a939a5f5ccf166ecc915"
+        ],
+        "net_correct_change": 2
+      },
+      "homepages": {
+        "wrong_to_correct": 1,
+        "correct_to_wrong": 1,
+        "fixed_ids": [
+          "homepage:askaiquestions.net"
+        ],
+        "regressed_ids": [
+          "homepage:imagepromptguru.net"
+        ],
+        "net_correct_change": 0
+      }
+    }
+  }
+}

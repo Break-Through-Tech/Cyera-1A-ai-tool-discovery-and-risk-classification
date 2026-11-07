@@ -330,3 +330,37 @@ If validation worsens despite falling loss, prefer an earlier candidate or lower
 learning rate. Unfreezing more blocks is deferred and requires a new resource
 pilot; neither the trainable architecture nor abstention cutoff is changed here.
 No run or report automatically promotes a model into the backend.
+
+## Reviewed 30-attempt homepage experiment (2026-11-07)
+
+The immutable `homepage_training_v2/pilot-30` captures were reviewed by Codex
+(AI, not a human reviewer). The isolated
+`data/category_classification/homepage_training_v2/reviewed-2026-11-07-v1/`
+supplement retains all 30 decisions, exact training texts, pinned-tokenizer
+128-token evidence checks, capture hashes, and five effective training-label
+overrides (the prior two corrections plus three homepage-supported corrections).
+Sixteen pages passed review. No further URLs were collected.
+
+`--training-homepages PATH/pages.jsonl` explicitly selects a reviewed supplement
+for `--homepage-fraction`. Its adjacent reviews and manifest are required. The
+loader verifies capture evidence, approvals, effective categories, group labels,
+held-out IDs/groups/hosts/text, and duplicate hosts/groups/URLs/text. Supplement
+and review hashes participate in resume validation. Omitting the option retains
+the original homepage source; validation continues to use its separate frozen
+source. Each homepage anchor's groups remain excluded from reference examples.
+
+The bounded matched comparison is implemented in `run_homepage_comparison.py`:
+an eight-update resource pilot, then description-only A and supplement-only B
+at 64 updates / 256 unique triplets maximum, with identical reviewed labels and
+128-token preprocessing. Full validation includes matching original BGE. Both
+conditions repeat with seed 20261015 only if the predeclared accuracy and
+supporting guards pass. See the resulting
+[experiment report](reports/bge-homepages-2026-11-07/REPORT.md).
+
+```powershell
+# New experiment only; existing artifacts are preserved:
+.\.venv-training\Scripts\python.exe notebooks/category_classification/run_homepage_comparison.py
+# Recover an interrupted execution without rerunning completed conditions:
+.\.venv-training\Scripts\python.exe notebooks/category_classification/run_homepage_comparison.py --continue-existing
+.\.venv-training\Scripts\python.exe -m pytest notebooks/category_classification/finetuning/test_homepage_supplement.py notebooks/category_classification/finetuning/test_experiment.py -q
+```

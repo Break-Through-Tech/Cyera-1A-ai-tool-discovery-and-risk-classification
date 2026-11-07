@@ -36,6 +36,7 @@ def parser():
     p.add_argument('--semi-hard-fraction', type=float, default=.5, help='Requested semi-hard negative fraction for mixed sampling')
     p.add_argument('--mining-chunk-size', type=int, default=512, help='Training-only similarity search chunk size')
     p.add_argument('--homepage-fraction', type=float, default=0., help='Separate transfer experiment: fraction of training-only homepage anchors')
+    p.add_argument('--training-homepages', type=Path, help='Isolated reviewed homepage supplement pages.jsonl')
     p.add_argument('--measure-truncation', action='store_true', help='Record full training input token lengths before truncation')
     p.add_argument('--eval-steps', nargs='*', type=int, default=[], help='Predefined update boundaries for full KNN validation and saved candidate models, e.g. 64 128 256')
     return p
@@ -68,8 +69,14 @@ def main():
     provenance = {'kind': 'original catalog labels; not verified truth'}
     if args.reviewed_labels:
         rows, provenance = reviewed_labels(rows, args.reviewed_labels)
+    homepage_rows, homepage_source = [], None
+    if args.training_homepages or args.homepage_fraction or args.measure_truncation:
+        from finetuning.homepages import training_homepages
+        homepage_rows, homepage_source = training_homepages(rows, args.training_homepages)
     settings = {k: v for k, v in vars(args).items() if k not in
-                ('output', 'resume', 'checkpoint', 'reviewed_labels')}
+                ('output', 'resume', 'checkpoint', 'reviewed_labels', 'training_homepages')}
+    if args.training_homepages:
+        settings['training_homepages'] = str(args.training_homepages.resolve())
     settings.update(device='cpu', precision='float32', workers=0, threads=min(2, args.threads))
     settings.update(training_version=2, shuffle_policy='independent-saved-epoch-rng-v1')
     run = args.output
@@ -80,6 +87,9 @@ def main():
             raise SystemExit('Completed runs cannot be overwritten')
         if manifest['settings'] != settings or manifest['dataset_hashes'] != hashes or manifest['labels'] != provenance:
             raise SystemExit('Resume requires identical settings, labels and dataset hashes')
+        from finetuning.homepages import require_same_source
+        require_same_source(manifest.get('homepage_source', manifest.get('sampling_source', {}).get('homepages')),
+                            homepage_source)
         if sha256(run / 'triplets.jsonl') != manifest['triplets_sha256']:
             raise SystemExit('Triplet file changed')
         triplets = [json.loads(line) for line in (run / 'triplets.jsonl').read_text(encoding='utf-8').splitlines()]
@@ -95,7 +105,7 @@ def main():
             source_info['checkpoint_fingerprint'] = original_fingerprint
             if args.homepage_fraction or args.measure_truncation:
                 from finetuning.homepages import training_homepages, truncation_statistics
-                extra_anchors, source_info['homepages'] = training_homepages(rows)
+                extra_anchors, source_info['homepages'] = homepage_rows, homepage_source
                 write_json(run / 'truncation.json', {
                     'training_descriptions': truncation_statistics(original.tokenizer, rows),
                     'training_homepages': truncation_statistics(original.tokenizer, extra_anchors)})
@@ -114,6 +124,7 @@ def main():
         del vectors, anchor_vectors
         (run / 'triplets.jsonl').write_text(''.join(json.dumps(t) + '\n' for t in triplets), encoding='utf-8')
         manifest = {'model': MODEL, 'revision': REVISION, 'dataset_hashes': hashes,
+                    'homepage_source': homepage_source,
                     'settings': settings, 'labels': provenance, 'status': 'initializing',
                     'sampling': sampling_stats, 'triplet_coverage': triplet_coverage(triplets),
                     'sampling_source': source_info, 'sampling_seconds': time.perf_counter() - sampling_started,
@@ -171,7 +182,7 @@ def main():
     texts = {r['tool_id']: r['description_text'] for r in rows}
     if args.homepage_fraction:
         from finetuning.homepages import training_homepages
-        pages, source = training_homepages(rows)
+        pages, source = training_homepages(rows, args.training_homepages)
         if source != manifest['sampling_source']['homepages']:
             raise ValueError('Training homepages changed since sampling')
         texts.update({example_id(r): r['description_text'] for r in pages})

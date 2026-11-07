@@ -1,0 +1,73 @@
+{
+  "selected": 30,
+  "attempted": 30,
+  "captured": 25,
+  "ready_for_review": 25,
+  "approved": 0,
+  "outcomes": {
+    "extracted": 25,
+    "blocked_destination": 1,
+    "fetch_failed": 2,
+    "robots_unavailable": 1,
+    "robots_disallowed": 1
+  },
+  "review_queue_outcomes": {
+    "pending_review": 25,
+    "fetch_failed": 5
+  },
+  "selection_exclusions": {
+    "already_captured_host": 278,
+    "already_captured_group": 13
+  },
+  "existing_training_pages_by_category": {
+    "Creative And Entertainment": 10,
+    "Business And Finance": 22,
+    "Media And Content Creation": 62,
+    "Specialized Technologies": 18,
+    "Operations And Management": 24,
+    "Data And Analytics": 10,
+    "Education And Learning": 7,
+    "Ai And Machine Learning": 23,
+    "Technology And Development": 20,
+    "Communication And Support": 35,
+    "Personal And Lifestyle": 6,
+    "Marketing And Sales": 20,
+    "Industry Specific": 5,
+    "Security And Privacy": 3
+  },
+  "selected_by_category": {
+    "Security And Privacy": 9,
+    "Industry Specific": 7,
+    "Personal And Lifestyle": 6,
+    "Education And Learning": 5,
+    "Creative And Entertainment": 1,
+    "Data And Analytics": 2
+  },
+  "selection_seed": 20261106,
+  "selection_policy": "lowest existing+selected page count, descending validation errors, seeded shuffle; unique host/group",
+  "workers": 1,
+  "source_hashes": {
+    "data\\category_classification\\v1\\train.csv": "bd20c77b055f23a102035493cfb1bda6644b5c78fc1898c4ad6eb2548cc4b798",
+    "data\\category_classification\\v1\\validation.csv": "5ad1b4fd176fd28ab81c414d1540191c9d25cb3ce02676d922a346ae4f2bcb00",
+    "data\\category_classification\\v1\\test.csv": "8af06bdf80c2ce45c4b2bf933185bbc231bcf8a13a1c97c42d36923e83cef394",
+    "data\\aitoolbuzz-com-16k-ai-tools-database\\ai_tools_cleaned.csv": "434bceb96ae90d49a41ed5d2ae662f91ac76476737849980bdef608ad9b4bdda",
+    "backend\\config\\known_tool_registry_exclusions.json": "4a3aac9f546103fff55f5a525313faf886d6ad161c94c76821b63c202aea04cc",
+    "data\\category_classification\\transfer_v1\\pages.jsonl": "a2828ab38790a27549c3decb5be78025200d3496361f7580d836cff65203a09e",
+    "notebooks\\ai_cascade\\pool\\captures.jsonl": "252fc75b122da25fd6cf108d3a38e93614685af247da224392a5e9b1365a0988",
+    "notebooks\\website_feasibility\\captures\\results.jsonl": "5f4c330ae57e542778478f2717d3a9c2372eed96d8e0a1e5be1672baaef01ee0",
+    "artifacts\\category_finetuning\\reviewed-labels-seed1-cpu\\validation-full\\original_same_length\\homepages.jsonl": "8314368e56f2e9e067955b72e3e182001fc862fd1e861c09c60f4fd996845f3d"
+  },
+  "extractor_version": {
+    "backend\\app\\enrichment\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend\\app\\enrichment\\destinations.py": "17aa6c37cd9eb708543bd37561c0d419445ae1e37121c21be7ccbddfe3c05166",
+    "backend\\app\\enrichment\\extract.py": "6fe045f9450a27713522bc468f26a347ebb4d0cff260ec83e7749775188229dc",
+    "backend\\app\\enrichment\\fetch.py": "056061b40ca4fd2422bac3858e9075b384e7d937be974e08d0d8a0c6654c7e03",
+    "backend\\app\\enrichment\\http.py": "a2fb8302f2f4ed6bbbd1d079e7a126af3ba965a73fd9eccafd4448ee91e26f1b"
+  },
+  "output_hashes": {
+    "selection.jsonl": "4a06bc7210ad6ee24e58610a3621eebc3ed714a576c116e5fbc01eef413b85ee",
+    "captures.jsonl": "bdc3c5094e69837c1d562146b8dc3c9def81f58ef07162e0fbae1b21723f483f",
+    "reviews.jsonl": "63e88747ff0353b901c1b291a1c9caae1ffc2a5a9e88c3516d9c05d13a62816c"
+  },
+  "scope": "Collection pilot only; pending review is not approval. No training/export."
+}
