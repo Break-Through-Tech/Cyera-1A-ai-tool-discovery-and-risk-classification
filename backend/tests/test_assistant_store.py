@@ -12,6 +12,7 @@ from app.assistant.contracts import (
     FactualClaim,
     Finding,
     GroundedAnswer,
+    LimitedResponse,
     PinnedScope,
     RecordEvidence,
     RunReference,
@@ -32,23 +33,6 @@ from app.assistant.store import (
 from app.db.engine import migrate, open_database
 from app.db.tables import assistant_evidence, assistant_turns
 from tests.test_batches import upload
-
-
-@pytest.fixture
-def stored(client):
-    batch = upload(client).json()
-    scope = PinnedScope(
-        runs=(RunReference(batch_id=batch["batch_id"], run_id=batch["latest_run"]["run_id"]),),
-        event_time=EventTimeRange(
-            start="2026-01-01T00:00:00Z", end="2027-01-01T00:00:00Z"
-        ),
-    )
-    engine = client.app.state.engine
-    turn = start_turn(
-        engine, question="What activity was observed?", scope=scope,
-        model_id="gemini-test-only", prompt_version="test-v1",
-    )
-    return engine, turn
 
 
 def receipt(turn, *, number=1, evidence_id="ev_1", outcome=None):
@@ -99,6 +83,29 @@ def test_turn_steps_evidence_and_answer_survive_a_new_database_connection(stored
         assert evidence.source == step.outcome.evidence[0]
     finally:
         reopened.dispose()
+
+
+def test_nonanswer_is_a_successful_limited_response_not_a_failed_execution(stored):
+    engine, turn = stored
+    response = LimitedResponse(
+        scope=turn.scope, reason="clarification_required", message="Which department?",
+    )
+    finish_turn(engine, turn.turn_id, response)
+    saved = get_turn(engine, turn.turn_id)
+    assert saved.status == "succeeded" and saved.failure is None
+    assert saved.answer == response
+
+
+def test_phase_two_answers_without_a_kind_field_remain_readable(stored):
+    engine, turn = stored
+    append_step(engine, turn.turn_id, receipt(turn))
+    finish_turn(engine, turn.turn_id, answer(turn))
+    old_payload = answer(turn).model_dump(mode="json", exclude={"kind"})
+    with engine.begin() as connection:
+        connection.execute(assistant_turns.update().where(
+            assistant_turns.c.turn_id == turn.turn_id
+        ).values(answer=old_payload))
+    assert get_turn(engine, turn.turn_id).answer == answer(turn)
 
 
 def test_reanalysis_does_not_replace_trace_scope(stored, client):

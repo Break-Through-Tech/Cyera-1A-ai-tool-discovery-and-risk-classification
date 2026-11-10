@@ -8,6 +8,7 @@ from app.assistant.contracts import (
     FactualClaim,
     Finding,
     GroundedAnswer,
+    LimitedResponse,
     PassageEvidence,
     PinnedScope,
     RecordEvidence,
@@ -179,6 +180,16 @@ def test_budget_stop_requires_unfinished_work_disclosure():
         answer(stop_reason="budget_reached")
     result = answer(stop_reason="budget_reached", unfinished_work=("Period comparison.",))
     assert result.unfinished_work == ("Period comparison.",)
+
+
+def test_limited_budget_response_requires_unfinished_work():
+    with pytest.raises(ValidationError, match="unfinished"):
+        LimitedResponse(scope=scope(), reason="budget_reached", message="Stopped.")
+    result = LimitedResponse(
+        scope=scope(), reason="budget_reached", message="Stopped.",
+        unfinished_work=("Requested period comparison was not executed.",),
+    )
+    assert result.unfinished_work == ("Requested period comparison was not executed.",)
 
 
 def test_facts_require_citations_and_nonempty_text():

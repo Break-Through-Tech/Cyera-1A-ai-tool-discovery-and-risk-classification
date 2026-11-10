@@ -8,6 +8,7 @@ from sqlalchemy import Connection, Engine, func, insert, select, update
 
 from app.assistant.contracts import (
     AggregateEvidence,
+    AssistantResponse,
     Contract,
     Evidence,
     ExecutionStep,
@@ -40,7 +41,7 @@ class StoredTurn(Contract):
     status: Literal["running", "succeeded", "failed"]
     started_at: AwareDatetime
     completed_at: AwareDatetime | None
-    answer: GroundedAnswer | None
+    answer: AssistantResponse | None
     failure: ToolFailure | None
 
 
@@ -161,7 +162,7 @@ def get_evidence(engine: Engine, turn_id: str, evidence_id: str) -> StoredEviden
         )
 
 
-def finish_turn(engine: Engine, turn_id: str, answer: GroundedAnswer) -> None:
+def finish_turn(engine: Engine, turn_id: str, answer: AssistantResponse) -> None:
     with engine.begin() as connection:
         turn = _locked_turn(connection, turn_id)
         _require_running(turn)
@@ -179,7 +180,8 @@ def finish_turn(engine: Engine, turn_id: str, answer: GroundedAnswer) -> None:
                 assistant_evidence.c.turn_id == turn_id
             )).scalars()
         )
-        validate_answer_references(answer, sources)
+        if isinstance(answer, GroundedAnswer):
+            validate_answer_references(answer, sources)
         _finalize(connection, turn_id, "succeeded", answer=answer.model_dump(mode="json"))
 
 

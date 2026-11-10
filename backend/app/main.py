@@ -2,6 +2,7 @@ from fastapi import Depends, FastAPI
 
 from app.api import batches, runs
 from app.api.query import reject_unknown_query_parameters
+from app.assistant.store import fail_interrupted_turns
 from app.config import Settings
 from app.db.engine import migrate, open_database
 from app.errors import register_error_handlers
@@ -19,6 +20,7 @@ def create_app(
     engine = open_database(settings.database_path)
     migrate(engine)
     fail_interrupted_runs(engine)
+    fail_interrupted_turns(engine)
 
     app = FastAPI(
         title="AI Tool Governance API",

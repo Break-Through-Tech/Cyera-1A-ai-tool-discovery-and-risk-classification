@@ -197,6 +197,7 @@ class Finding(Contract):
 class GroundedAnswer(Contract):
     """A candidate answer, not a certification that its claims are supported."""
 
+    kind: Literal["grounded_answer"] = "grounded_answer"
     scope: PinnedScope
     findings: Annotated[tuple[Finding, ...], Field(min_length=1)]
     limitations: tuple[Text, ...] = ()
@@ -208,6 +209,27 @@ class GroundedAnswer(Contract):
         if self.stop_reason == "budget_reached" and not self.unfinished_work:
             raise ValueError("Budget stops must disclose unfinished investigation")
         return self
+
+
+class LimitedResponse(Contract):
+    kind: Literal["limited_response"] = "limited_response"
+    scope: PinnedScope
+    reason: Literal[
+        "clarification_required", "unsupported", "insufficient_evidence", "budget_reached"
+    ]
+    message: Text
+    limitations: tuple[Text, ...] = ()
+    unfinished_work: tuple[Text, ...] = ()
+
+    @model_validator(mode="after")
+    def disclose_budget_stop(self) -> Self:
+        if self.reason == "budget_reached" and not self.unfinished_work:
+            raise ValueError("Budget stops must disclose unfinished investigation")
+        return self
+
+
+# A plain union also reads Phase 2 answers written before 'kind' was introduced.
+AssistantResponse = GroundedAnswer | LimitedResponse
 
 
 def validate_answer_references(

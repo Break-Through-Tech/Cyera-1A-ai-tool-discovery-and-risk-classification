@@ -3,9 +3,12 @@ from pathlib import Path
 import pytest
 from fastapi.testclient import TestClient
 
+from app.assistant.contracts import EventTimeRange, PinnedScope, RunReference
+from app.assistant.store import start_turn
 from app.config import Settings
 from app.main import create_app
 from app.pipeline import Pipeline
+from tests.test_batches import upload
 
 TEST_VERSIONS = {"ai_detector": "test-detector-1", "risk_rules": "test-rules-1"}
 
@@ -27,3 +30,27 @@ def make_client(data_dir: Path):
 @pytest.fixture
 def client(make_client) -> TestClient:
     return make_client()
+
+
+@pytest.fixture
+def stored(client):
+    batch = upload(client).json()
+    scope = PinnedScope(
+        runs=(
+            RunReference(
+                batch_id=batch["batch_id"], run_id=batch["latest_run"]["run_id"]
+            ),
+        ),
+        event_time=EventTimeRange(
+            start="2026-01-01T00:00:00Z", end="2027-01-01T00:00:00Z"
+        ),
+    )
+    engine = client.app.state.engine
+    turn = start_turn(
+        engine,
+        question="What activity was observed?",
+        scope=scope,
+        model_id="gemini-test-only",
+        prompt_version="test-v1",
+    )
+    return engine, turn
