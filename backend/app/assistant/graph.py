@@ -2,6 +2,7 @@
 
 import asyncio
 from datetime import UTC, datetime
+from hashlib import sha256
 from time import monotonic
 from typing import Annotated, TypedDict
 from uuid import uuid4
@@ -26,6 +27,8 @@ from app.assistant.integrations import (
     AgentDecision,
     AgentModel,
     DecisionContext,
+    ModelError,
+    ModelMetadata,
     StopDecision,
     ToolCall,
 )
@@ -187,7 +190,7 @@ class Assistant:
                 state,
                 "The final answer and any remaining investigations were not completed.",
             )
-        state = {**state, "model_calls": state["model_calls"] + 1}
+        sequence = state["model_calls"] + 1
         context = DecisionContext(
             instructions=INSTRUCTIONS,
             question=state["question"],
@@ -195,39 +198,62 @@ class Assistant:
             observations=state["steps"],
             tools=self.tools.descriptions(),
             remaining_tool_calls=self.limits.max_tool_calls - state["tool_calls"],
-            remaining_model_calls=self.limits.max_model_calls - state["model_calls"],
+            remaining_model_calls=self.limits.max_model_calls - sequence,
         )
         try:
-            bounded_json(context, self.limits.max_context_bytes)
+            context_json = bounded_json(context, self.limits.max_context_bytes)
         except ValueError:
             return self._failure(
                 state,
                 "context_limit",
                 "Investigation context exceeds its limit; narrow the request.",
             )
+        state = {**state, "model_calls": sequence}
+        metadata = self.model.request_metadata
+        store.start_model_call(
+            self.engine,
+            state["turn_id"],
+            sequence=sequence,
+            provider=self.model.provider,
+            requested_model=self.model.model_id,
+            context_sha256=sha256(context_json).hexdigest(),
+            metadata=metadata,
+        )
         try:
             async with asyncio.timeout(max(0, state["deadline"] - monotonic())):
-                raw = await self.model.decide(context.model_copy(deep=True))
+                result = await self.model.decide(context.model_copy(deep=True))
+                metadata = result.metadata
                 if monotonic() >= state["deadline"]:
                     raise TimeoutError
         except TimeoutError:
-            return self._failure(
-                state, "model_timeout", "The model request timed out; retry."
+            return self._model_failure(
+                state, metadata, "model_timeout", "The model request timed out; retry."
+            )
+        except ModelError as error:
+            return self._model_failure(
+                state,
+                error.metadata,
+                error.code,
+                "The model request failed or returned an invalid response; retry.",
             )
         except Exception:  # noqa: BLE001 - Provider boundary: retain only safe diagnostics.
-            return self._failure(
-                state, "model_failed", "The model request failed; retry."
+            return self._model_failure(
+                state, metadata, "model_failed", "The model request failed; retry."
             )
         try:
             decision = _DECISION.validate_json(
-                bounded_json(raw, self.limits.max_model_output_bytes)
+                bounded_json(result.decision, self.limits.max_model_output_bytes)
             )
         except (ValueError, TypeError):
-            return self._failure(
+            return self._model_failure(
                 state,
+                metadata,
                 "invalid_model_response",
                 "The model returned an invalid response; retry.",
             )
+        store.finish_model_call(
+            self.engine, state["turn_id"], sequence, metadata=metadata
+        )
         if isinstance(decision, ToolCall):
             if state["tool_calls"] >= self.limits.max_tool_calls:
                 return self._budget_stop(
@@ -345,6 +371,22 @@ class Assistant:
         else:
             raise ValueError("Workflow ended without a response or failure")
         return state
+
+    def _model_failure(
+        self,
+        state: WorkflowState,
+        metadata: ModelMetadata,
+        code: str,
+        message: str,
+    ) -> WorkflowState:
+        store.finish_model_call(
+            self.engine,
+            state["turn_id"],
+            state["model_calls"],
+            metadata=metadata,
+            failure=ToolFailure(code=code, message=message),
+        )
+        return self._failure(state, code, message)
 
     @staticmethod
     def _after_execution(state: WorkflowState) -> str:

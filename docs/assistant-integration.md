@@ -3,9 +3,9 @@
 ## Phase 1: shared contracts
 
 Implemented in `backend/app/assistant/contracts.py`. These are internal integration
-contracts, not published HTTP endpoints. Phases 2 and 3 add persistence and a
-LangGraph workflow with injected model and tool interfaces. There is no Gemini
-integration, production query adapter, or retrieval implementation yet.
+contracts, not published HTTP endpoints. Phases 2 through 4 add persistence,
+LangGraph orchestration, and a Gemini adapter. There is no production query
+adapter or retrieval implementation yet.
 
 The agent consumes backend query operations and the team's RAG service. It does
 not own document ingestion, embeddings, indexing, retrieval, or risk calculations.
@@ -125,14 +125,15 @@ These functions accept trusted backend calls. They do not enforce user access,
 resolve record or passage existence, verify claim support, redact arbitrary input,
 or enforce tool result-size budgets. Those checks belong at the service and
 integration boundaries before persistence. No public inspection endpoints exist
-yet. The caller supplies the model ID and prompt version. Gemini response metadata
-is not available until the provider integration exists.
+yet. The caller supplies the model ID and prompt version. Phase 4 adds retained
+Gemini execution metadata.
 
 Only completed tool attempts are stored. Graceful cancellation records a failed
 tool receipt when a tool was in progress. A hard process crash can still leave a
 running turn without a receipt for that call. Startup marks the turn interrupted,
-but does not reconstruct or resume the missing operation. Per-call in-flight
-records remain future work. Startup cleanup assumes one server process and must
+but does not reconstruct or resume the missing operation. In-flight tool records
+remain future work. Model requests have in-flight records from Phase 4 onward.
+Startup cleanup assumes one server process and must
 not run while another process is executing turns.
 
 ## Phase 3: tool dispatch and LangGraph
@@ -161,9 +162,9 @@ those standard calls. Missing briefing capabilities return an explicit limitatio
 not a synthetic briefing. Actual summary completeness needs evaluation with the
 real backend implementations.
 
-`integrations.py` defines the async `AgentModel` interface. Its model returns one
-structured `ToolCall`, `AnswerDecision`, or `StopDecision`. It cannot supply a new
-scope or execution receipt. `prompts.py` supplies the instructions and recorded
+`integrations.py` defines the async `AgentModel` interface. Its `ModelResult`
+contains one structured `ToolCall`, `AnswerDecision`, or `StopDecision`, plus safe
+provider metadata. It cannot supply a new scope or execution receipt. `prompts.py` supplies the instructions and recorded
 prompt version. Tests use scripted model responses. No production fake model or
 fake retrieval implementation is registered.
 
@@ -189,8 +190,8 @@ argument bytes, tool-result bytes, model-output bytes, and context bytes. Defaul
 are configurable implementation choices, not evaluated quality targets. The
 budget covers standard summaries and follow-up investigations together. Exhaustion
 between calls returns `LimitedResponse(reason="budget_reached")` with an explicit
-`unfinished_work` list. A blocked follow-up identifies the tool that did not run. A final supported answer is allowed after the last permitted tool
-call. Timeouts during a model or tool request fail the turn. Adapters must use
+`unfinished_work` list. A blocked follow-up identifies the tool that did not run.
+A final supported answer is allowed after the last permitted tool call. Timeouts during a model or tool request fail the turn. Adapters must use
 cancellable async I/O. Deadlines reject late results but do not isolate CPU work,
 kill threads, or impose hard memory limits.
 
@@ -199,17 +200,122 @@ Invalid tool requests fail before execution and do not create a completed tool
 receipt. Provider failures, invalid decisions, tool failures, and broken citations
 produce safe failed turns without substantive partial answers. Unexpected workflow
 or storage errors propagate to the caller after failure recording when possible.
-There is no fallback to model memory. Model-decision bodies, provider usage, and
-per-call model timestamps are not persisted yet.
+There is no fallback to model memory. Model-decision bodies are not persisted.
+Phase 4 retains provider usage and model-call timestamps.
 
 The store accepts older Phase 2 answer JSON without a `kind` field. No new database
 migration is needed for the limited-response variant.
 
+## Phase 4: Gemini and model-call metadata
+
+`model.py` implements `AgentModel` with the `google-genai` SDK and the Gemini
+Developer API. It does not enable Vertex AI, enterprise routing, browsing, code
+execution, or SDK-managed application function execution.
+
+### Configuration
+
+Environment variables override values in the repository-root `.env` file.
+An explicitly empty `GEMINI_MODEL` disables the provider, even if `.env` selects one.
+The application does not choose a default model.
+
+| Variable | Default | Meaning |
+|---|---|---|
+| `GEMINI_API_KEY` | Unset | Developer API credential, excluded from settings representations |
+| `GEMINI_MODEL` | Unset | Explicit `gemini-...` or `models/gemini-...` model ID |
+| `GEMINI_TIMEOUT_SECONDS` | `30` | SDK request timeout, also bounded by the workflow deadline |
+| `GEMINI_MAX_OUTPUT_TOKENS` | `4096` | Generation output-token limit |
+
+A key without a model leaves the provider disabled. A selected model without a
+key fails startup. Other Google authentication environment variables do not
+substitute for this configuration. Normal production requests use the fixed
+`https://generativelanguage.googleapis.com` endpoint with API version `v1beta`.
+
+FastAPI lifespan creates `app.state.assistant_model` when configured and closes
+the SDK clients at shutdown. This does not register query handlers or expose an
+assistant HTTP endpoint. Internal callers can construct
+`Assistant(engine, app.state.assistant_model, ToolRegistry(handlers))` after startup.
+The model must be present before constructing the workflow. The adapter owns its
+SDK client. Tests that inject an SDK client with an externally owned HTTP client
+also close that HTTP client explicitly.
+
+### Native function calling
+
+Each request supplies connected backend tool declarations and two response-only
+functions, `return_findings` and `stop_investigation`. The SDK receives declarations,
+not Python handlers. Native function-calling mode is `ANY`, with automatic function
+execution disabled and one candidate requested. Tool declarations are omitted
+when the workflow's tool budget is exhausted. The two response-only functions
+remain available.
+
+The adapter accepts exactly one visible function call. It rejects parallel calls,
+unknown names, free-text answers, blocked responses, incomplete generations, and
+malformed terminal arguments. LangGraph still validates operation arguments,
+executes requested backend tools, and validates final citation references. No SDK
+response can mark a backend tool as executed or replace the pinned scope.
+
+Every request is a fresh decision over the bounded scope and observations. There
+is no provider-managed conversation, implicit replay of earlier tool calls, or
+stored thought-signature history. Thought parts are omitted from decisions and
+metadata. The request uses temperature `0`, but that does not prove determinism
+or groundedness. SDK HTTP retries are disabled with one total attempt, so provider
+retries do not silently exceed the workflow's model-attempt budget.
+
+### Durable model-call records
+
+Migration `0006` adds `assistant_model_calls`. The workflow records a running call
+before awaiting the provider. `start_model_call`, `finish_model_call`, and
+`list_model_calls` in `store.py` maintain an ordered, turn-qualified trace.
+
+The records retain:
+
+- Provider and requested model, backend start and completion timestamps, and status.
+- SHA-256 of the validated provider-independent `DecisionContext`. This is not a
+  hash of the SDK's final HTTP request bytes.
+- SDK version, adapter version, API version, temperature, configured token limit,
+  timeout, and retry-attempt limit.
+- Provider-reported model version, response ID, finish reason, prompt block reason,
+  and HTTP error status when available.
+- Reported prompt, output, thought, cached, and total token counts. Missing counts
+  remain unknown rather than becoming zero. These categories can overlap and must
+  not be summed to estimate total usage.
+- A safe failure code and message when the request fails.
+
+Raw SDK exceptions, provider response bodies, credentials, and thought text are
+not stored. The turn still retains its question, and completed tool receipts retain
+their bounded arguments and results as in earlier phases. Model-call records do
+not retain raw proposed decision bodies, so they are not full response replays.
+Base prompt version is stored on the turn; `gemini-native-functions-v1` identifies
+the adapter's additional instructions and function-declaration format.
+
+Model calls must have successful predecessors and cannot be rewritten after
+completion. A failed or unfinished call prevents a successful final response.
+Cancellation or startup cleanup marks an in-flight model call failed together
+with its turn. Cleanup does not imply that a cancelled request was unbilled or
+that the provider performed no computation.
+
+The trace records execution and reported usage. It does not prove citation
+relevance, correct computation, or supported interpretation.
+
+### Verification boundary
+
+Tests use the real SDK's request serialization and response parsing with an HTTP
+mock transport. A complete test path covers SDK function request, LangGraph tool
+execution, SDK answer generation, and persisted citation and model-call records.
+Configuration tests also exercise actual SDK client creation and shutdown without
+sending requests. This verifies integration behavior, not live Gemini behavior.
+
+Live acceptance requires an explicitly selected, accessible `GEMINI_MODEL` and a
+real request. Mocked responses cannot establish model availability, server-side
+schema acceptance, response quality, or resistance to prompt injection. Live
+validation remains pending; `.env` credentials are not changed by these tests.
+
+References: [Google Gen AI Python SDK](https://googleapis.github.io/python-genai/)
+and [Gemini function calling](https://ai.google.dev/gemini-api/docs/function-calling).
+
 ## Next phases, each with a review stop
 
-1. Connect Gemini through `google-genai` and record provider execution metadata.
-2. Connect the team's query and RAG implementations and expose inspection APIs.
-3. Verify real analyst journeys, trace drilldown, source resolution, and claim support.
+1. Connect the team's query and RAG implementations and expose inspection APIs.
+2. Verify real analyst journeys, trace drilldown, source resolution, and claim support.
 
 Generated Python remains disabled until the ADR's complete dataset, isolation,
 artifact, provenance, and bounded-repair path exists. No Python worker is part of
@@ -220,10 +326,10 @@ this initial implementation.
 From the repository root:
 
 ```sh
-backend/.venv/bin/python -m pytest backend/tests/test_assistant_*.py -q
+backend/.venv/bin/python -m pytest backend/tests/test_assistant_*.py backend/tests/test_gemini_*.py -q
 ```
 
-These tests exercise the real LangGraph runtime and migrated SQLite store with
-scripted model responses and fixture tool results. They do not establish real
-model quality, retrieval quality, source existence, claim support, worker
-isolation, or end-to-end analyst behavior.
+These tests exercise LangGraph, migrated SQLite storage, and the Gemini SDK using
+scripted responses and fixture tools. They do not establish live model quality,
+retrieval quality, source existence, claim support, worker isolation, or end-to-end
+analyst behavior.

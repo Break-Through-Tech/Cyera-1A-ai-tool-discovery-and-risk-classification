@@ -1,7 +1,10 @@
+from contextlib import asynccontextmanager
+
 from fastapi import Depends, FastAPI
 
 from app.api import batches, runs
 from app.api.query import reject_unknown_query_parameters
+from app.assistant.model import GeminiModel
 from app.assistant.store import fail_interrupted_turns
 from app.config import Settings
 from app.db.engine import migrate, open_database
@@ -22,10 +25,25 @@ def create_app(
     fail_interrupted_runs(engine)
     fail_interrupted_turns(engine)
 
+    @asynccontextmanager
+    async def lifespan(app: FastAPI):
+        model = GeminiModel.from_settings(settings)
+        app.state.assistant_model = model
+        try:
+            yield
+        finally:
+            try:
+                if model is not None:
+                    await model.aclose()
+            finally:
+                app.state.assistant_model = None
+
     app = FastAPI(
+        lifespan=lifespan,
         title="AI Tool Governance API",
         dependencies=[Depends(reject_unknown_query_parameters)],
     )
+    app.state.assistant_model = None
     app.state.settings = settings
     app.state.engine = engine
     app.state.pipeline = pipeline or default_pipeline(settings)

@@ -12,7 +12,13 @@ from app.assistant.contracts import (
     ToolSuccess,
 )
 from app.assistant.graph import Assistant, ExecutionLimits
-from app.assistant.integrations import AnswerDecision, StopDecision, ToolCall
+from app.assistant.integrations import (
+    AnswerDecision,
+    ModelMetadata,
+    ModelResult,
+    StopDecision,
+    ToolCall,
+)
 from app.assistant.store import get_evidence, get_turn, list_steps
 from app.assistant.tools import ToolRegistry
 from app.db.tables import assistant_turns
@@ -20,6 +26,8 @@ from sqlalchemy import select
 
 
 class ScriptedModel:
+    provider = "fixture"
+    request_metadata = ModelMetadata()
     model_id = "fixture-model-not-gemini"
 
     def __init__(self, *decisions):
@@ -33,10 +41,11 @@ class ScriptedModel:
             raise decision
         if callable(decision):
             decision = decision(context)
-        return (
-            decision.model_dump(mode="json")
+        return ModelResult(
+            decision=decision.model_dump(mode="json")
             if hasattr(decision, "model_dump")
-            else decision
+            else decision,
+            metadata=self.request_metadata,
         )
 
 
@@ -414,6 +423,8 @@ def test_tool_timeout_records_a_failed_receipt_and_stops_the_turn(stored):
 
 def test_model_timeout_is_a_failure_not_an_insufficient_evidence_answer(stored):
     class HangingModel:
+        provider = "fixture"
+        request_metadata = ModelMetadata()
         model_id = "hanging-fixture"
 
         async def decide(self, context):
@@ -484,13 +495,18 @@ def test_concurrent_turns_do_not_share_observations_or_citation_ids(stored):
     engine, original = stored
 
     class PerQuestionModel:
+        provider = "fixture"
+        request_metadata = ModelMetadata()
         model_id = "concurrent-fixture"
 
         async def decide(self, context):
             decision = (
                 cited_answer(context) if context.observations else evidence_call()
             )
-            return decision.model_dump(mode="json")
+            return ModelResult(
+                decision=decision.model_dump(mode="json"),
+                metadata=self.request_metadata,
+            )
 
     async def exercise():
         assistant = Assistant(

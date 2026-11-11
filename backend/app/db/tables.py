@@ -164,3 +164,28 @@ assistant_evidence = Table(
         ["assistant_steps.turn_id", "assistant_steps.step_id"],
     ),
 )
+
+assistant_model_calls = Table(
+    "assistant_model_calls",
+    metadata,
+    Column("turn_id", String, ForeignKey("assistant_turns.turn_id"), primary_key=True),
+    Column("sequence", Integer, primary_key=True),
+    Column("provider", String, nullable=False),
+    Column("requested_model", String, nullable=False),
+    Column("context_sha256", String(64), nullable=False),
+    Column("started_at", String, nullable=False),
+    Column("completed_at", String),
+    Column("status", String, nullable=False),
+    Column("metadata", JSON, nullable=False),
+    Column("failure", JSON(none_as_null=True)),
+    CheckConstraint("sequence >= 1", name="ck_assistant_model_calls_sequence"),
+    CheckConstraint(
+        "length(context_sha256) = 64", name="ck_assistant_model_calls_hash"
+    ),
+    CheckConstraint(
+        "(status = 'running' AND completed_at IS NULL AND failure IS NULL) OR "
+        "(status = 'succeeded' AND completed_at IS NOT NULL AND failure IS NULL) OR "
+        "(status = 'failed' AND completed_at IS NOT NULL AND failure IS NOT NULL)",
+        name="ck_assistant_model_calls_state",
+    ),
+)

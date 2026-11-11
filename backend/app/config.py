@@ -25,6 +25,10 @@ class Settings:
         REPO_DIR / "data/synthetic_enterprise_activity/v1/scenario_tool_metadata.csv"
     )
     typesafe_api_key: str | None = field(default=None, repr=False)
+    gemini_api_key: str | None = field(default=None, repr=False)
+    gemini_model: str | None = None
+    gemini_timeout_seconds: float = 30
+    gemini_max_output_tokens: int = 4096
     # False follows ADR 0002 (homepage text first); True judges supplied Dataset B text first.
     prefer_supplied_description: bool = False
 
@@ -34,7 +38,17 @@ class Settings:
             data_dir=Path(os.environ.get("APP_DATA_DIR", BACKEND_DIR / "var")),
             typesafe_api_key=os.environ.get("TYPESAFE_API_KEY")
             or _dotenv_value(REPO_DIR / ".env", "TYPESAFE_API_KEY"),
-            prefer_supplied_description=os.environ.get("AI_PREFER_SUPPLIED_DESCRIPTION", "")
+            gemini_api_key=_gemini_setting("GEMINI_API_KEY"),
+            gemini_model=(_gemini_setting("GEMINI_MODEL") or "").strip() or None,
+            gemini_timeout_seconds=float(
+                _gemini_setting("GEMINI_TIMEOUT_SECONDS") or "30"
+            ),
+            gemini_max_output_tokens=int(
+                _gemini_setting("GEMINI_MAX_OUTPUT_TOKENS") or "4096"
+            ),
+            prefer_supplied_description=os.environ.get(
+                "AI_PREFER_SUPPLIED_DESCRIPTION", ""
+            )
             .strip()
             .lower()
             in ("1", "true", "yes"),
@@ -59,6 +73,15 @@ def display_path(path: Path) -> str:
     if resolved.is_relative_to(REPO_DIR):
         return resolved.relative_to(REPO_DIR).as_posix()
     return resolved.as_posix()
+
+
+def _gemini_setting(name: str) -> str | None:
+    # An explicitly empty environment value overrides .env, including disabling a model.
+    return (
+        os.environ[name]
+        if name in os.environ
+        else _dotenv_value(REPO_DIR / ".env", name)
+    )
 
 
 def _dotenv_value(path: Path, name: str) -> str | None:
