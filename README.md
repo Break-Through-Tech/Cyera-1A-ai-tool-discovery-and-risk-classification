@@ -1,122 +1,95 @@
-# Cyera - AI Tool Discovery & Risk Classification
+# Cyera: AI Tool Discovery & Risk Classification
 
-> 💡 **Note for the team:** This is just a template. Update the above title with your AI Studio Challenge Project name. Remove all guidance notes and example text in this template and populate this README with your own content. You can work on this README throughout AI Studio, and get feedback from your AI Studio Coach and Challenge Advisor before finalizing it.  
+A Break Through Tech AI Studio team project with Cyera: a prototype for discovering AI functionality in software and helping analysts investigate contextual governance risk.
 
----
+**Status:** research experiments, synthetic activity fixtures, and a FastAPI backend are implemented. The analyst-facing frontend and complete assistant integration are ongoing work. This is an educational prototype, not a production security or compliance determination.
 
-### 👥 **Team Members**
+## Overview and objectives
 
-| Name             | GitHub Handle | Contribution                                                             |
-|------------------|---------------|--------------------------------------------------------------------------|
-|  Shubham Arya   | @Arya25 | Challenge Advisor            |
-|  Aram Ramos  | @aramseries  | AI Coach  |
-|  Newton Ma      |@newtonma7   |Fellow                  |
-|  Elaine Zou      |@elainez-3214        |Fellow   |
-|  Katy Ng      |@katy-ng     |Fellow           |
-|  Swarna Sre Ganesh Shankar  | @chanabyte    |Fellow           |
-|  Seedorf Otchere | @seeedorfff  | Fellow |
-|  Dipsha Budhathoki | @rhaeg4r  | Fellow |
+Unmanaged AI use can be difficult to identify from ordinary application activity. This project separates five questions: what Tool was observed, whether its own functionality performs AI work, which business Category applies, how it is used, and what governance-risk rules apply to that Usage Context.
 
----
+Our objectives are to discover previously unseen Tools, distinguish substantive AI functionality from marketing mentions, classify AI Tools into 14 business-function Categories, and expose risk reasons and unresolved evidence for analyst review. A browser visit is not proof that sensitive information was submitted.
 
-## 🎯 **Project Highlights**
+## Start here
 
-**Example:**
+- [Local setup, API walkthrough, and evaluation guide](docs/project-guide.md)
+- [Offline results walkthrough notebook](notebooks/project_walkthrough.ipynb): inspect the included sample and saved results without API credentials.
+- [Synthetic Activity Events and data contract](data/synthetic_enterprise_activity/v1/README.md)
+- [AI Determination experiments](notebooks/ai_cascade/README.md)
+- [Category baseline experiment](notebooks/category_classification/README.md)
+- [Domain vocabulary](CONTEXT.md) and [assistant integration status](docs/assistant-integration.md)
 
-- Developed a machine learning model using `[model type/technique]` to address `[challenge project task]`.
-- Achieved `[key metric or result]`, demonstrating `[value or impact]` for `[host company]`.
-- Generated actionable insights to inform business decisions at `[host company or stakeholders]`.
-- Implemented `[specific methodology]` to address industry constraints or expectations.
+## Methodology
 
----
+```mermaid
+flowchart TD
+  A["Synthetic Activity Events"] --> B["Identity Resolution"]
+  B --> C["Homepage and supplied evidence"]
+  C --> D["AI Determination"]
+  D --> E["Category Classification"]
+  D --> F["Usage Context risk rules"]
+  E --> G["Versioned results for review"]
+  F --> G
+```
 
-## 👩🏽‍💻 **Setup and Installation**
+1. **Identity Resolution:** group observed identity clues and match them against a versioned registry, respecting held-out Tool exclusions.
+2. **AI Determination:** a keyword/capability gate and TypeSafe Jev judge produce AI, non-AI, or unresolved outcomes. An AI mention alone is insufficient. Separate sentence scoring provides an evidence trail and review flag. See [ADR 0001](docs/adr/0001-ai-tool-requires-own-ai-functionality.md) and [ADR 0002](docs/adr/0002-binary-ai-detection-uses-gated-jev-judge.md).
+3. **Category Classification:** compare evidence embeddings with 8,214 training descriptions using a similarity-weighted vote among 15 neighbors. Low-score answers abstain. [ADR 0003](docs/adr/0003-category-classification-uses-semantic-neighbor-vote.md) documents the implemented approach and remains marked proposed.
+4. **Contextual Risk Assessment:** deterministic, versioned rules use supplied scenario facts. Policy Status and Data Sensitivity Tier are not inferred from activity; unknown facts remain explicit.
+5. **Analyst support:** persist Batches, Analysis Runs, and assessments. Assistant workflow and provider integration exist, but query/RAG connections and the assistant HTTP interface are not complete.
 
-**Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
+## Data and exploration
 
-* How to clone the repository
-* How to install dependencies
-* How to set up the environment
-* How to access the dataset(s)
-* How to run the notebook or scripts
+| Dataset | Role and boundary |
+| --- | --- |
+| Cleaned AIToolBuzz catalog | 13,701 rows; Category labels are examples, not proof of AI functionality. |
+| Category partitions | 8,214 train / 2,739 validation / 2,738 test descriptions; conservative grouping limits identity and text leakage. Ten conflicting duplicate-description rows are withheld. |
+| Website evidence | Frozen development and evaluation captures test transfer beyond catalog descriptions. Labels include unresolved cases. |
+| Synthetic enterprise activity | 265 Activity Events, 44 active fictional employees, nine departments, and ten observed applications; scenario coverage is not a prevalence estimate. |
 
----
+The [synthetic sample](data/synthetic_enterprise_activity/v1/activity.csv) is included for testing. Its companion metadata contains fictional policy/vendor assumptions, not factual assertions about named vendors. Files under `evaluation_only/` are scoring fixtures and must not become inference or retrieval inputs.
 
-## 🏗️ **Project Overview**
+## Recorded results and key findings
 
-**Describe:**
+These are the team's **saved experimental results**, not a new live evaluation or an individual's performance claim.
 
-- How this project is connected to the Break Through Tech AI Program
-- Your AI Studio host company and the project objective and scope
-- The real-world significance of the problem and the potential impact of your work
+| Experiment | Recorded result | Interpretation |
+| --- | --- | --- |
+| AI Determination: keyword rule | Macro-F1 0.889 on 341 resolved-label pages | Baseline on the 409-page test2 sample. |
+| AI Determination: gated Jev | Macro-F1 0.931; accuracy 0.918 on the same 341 pages | Seven false alarms, 14 missed AI cases, and 15 abstentions on resolved-label pages. |
+| Category neighbor vote, all answers | Accuracy 0.566 on 2,738 descriptions; 0.528 on 89 homepages | Transfer to homepage evidence is harder than catalog classification. |
+| Category neighbor vote, frozen cutoff | Accuracy 0.633 on 49 answered homepages; coverage 55.1% | Abstention improves answer precision but leaves many Tools unresolved; the validation target of 70% was not reached on test homepages. |
 
----
+![Saved experiment results](docs/figures/recorded-results.svg)
 
-## 📊 **Data Exploration**
+Sources: [AI results JSON](notebooks/ai_cascade/test2_jev_results.json), [Category results JSON](notebooks/category_classification/test_results.json), and [frozen Category configuration](notebooks/category_classification/FREEZE.json). The walkthrough notebook reads these files directly.
 
-**You might consider describing the following (as applicable):**
+**Limits:** test2 was reused to compare Jev; Category test data had also been evaluated previously. AI reference labels came from two passes of the same model family, not independent human ground truth. Further tuning needs fresh independent evaluation. No complete end-to-end analyst-quality or production-readiness result is claimed.
 
-* The dataset(s) used: origin, format, size, type of data
-* Data exploration and preprocessing approaches
-* Insights from your Exploratory Data Analysis (EDA)
-* Challenges and assumptions when working with the dataset(s)
+## Team and individual contributions
 
-**Potential visualizations to include:**
+| Member | Role / confirmed contribution |
+| --- | --- |
+| Shubham Arya — [Arya25](https://github.com/Arya25) | Challenge Advisor |
+| Aram Ramos — [aramseries](https://github.com/aramseries) | AI Coach |
+| Newton Ma — [newtonma7](https://github.com/newtonma7) | Fellow; implementation and research changes are recorded in repository history. |
+| Elaine Zou — [elainez-3214](https://github.com/elainez-3214) | Fellow; detailed contribution summary pending team confirmation. |
+| Katy Ng — [katy-ng](https://github.com/katy-ng) | Fellow; detailed contribution summary pending team confirmation. |
+| Swarna Sre Ganesh Shankar — [chanabyte](https://github.com/chanabyte) | Fellow; detailed contribution summary pending team confirmation. |
+| Seedorf Otchere — [seeedorfff](https://github.com/seeedorfff) | Fellow focused on design and frontend; interface work is in progress. |
+| Dipsha Budhathoki — [rhaeg4r](https://github.com/rhaeg4r) | Fellow; detailed contribution summary pending team confirmation. |
 
-* Plots, charts, heatmaps, feature visualizations, sample dataset images
+Team results above belong to the collaborative project. See [commit history](https://github.com/Break-Through-Tech/Cyera-1A-ai-tool-discovery-and-risk-classification/commits/main) for changes; off-repository research and design work should be confirmed by its contributors before adding completion claims.
 
----
+## Next steps
 
-## 🧠 **Model Development**
+- Connect the analyst frontend to the implemented Batch and Analysis Run APIs.
+- Finish query/RAG integration and expose the assistant inspection interface.
+- Validate complete analyst journeys and live-provider behavior.
+- Review uncertain labels and gather fresh independent test examples before further tuning.
+- Investigate Category transfer errors and calibrate coverage versus answer quality.
+- Complete each team member's contribution summary and confirm data redistribution and licensing with the advisor.
 
-**You might consider describing the following (as applicable):**
+## Acknowledgments and license
 
-* Model(s) used (e.g., CNN with transfer learning, regression models)
-* Feature selection and Hyperparameter tuning strategies
-* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
-
-
----
-
-## 📈 **Results & Key Findings**
-
-**You might consider describing the following (as applicable):**
-
-* Performance metrics (e.g., Accuracy, F1 score, RMSE)
-* How your model performed
-* Insights from evaluating model fairness
-
-**Potential visualizations to include:**
-
-* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
-
----
-
-## 🚀 **Next Steps**
-
-**You might consider addressing the following (as applicable):**
-
-* What are some of the limitations of your model?
-* What would you do differently with more time/resources?
-* What additional datasets or techniques would you explore?
-
----
-
-## 📝 **License**
-
-Specify how your project can be used by others. Choose an appropriate license and link it here (e.g., MIT, Apache 2.0). Make sure your Challenge Advisor approves of the selected license type. 
-
-**Example:**
-This project is licensed under the MIT License.
-
----
-
-## 📄 **References** (Optional but encouraged)
-
-Cite relevant papers, articles, or resources that supported your project.
-
----
-
-## 🙏 **Acknowledgements** (Optional but encouraged)
-
-Thank your Challenge Advisor, host company representatives, TA, and others who supported your project.
+Developed through Break Through Tech AI Studio with Cyera, supported by the Challenge Advisor and AI Coach. Existing experiment documents record model-assisted labeling and judging where used. This documentation update was prepared with AI assistance from repository evidence and requires team review. No project license is asserted here; the team should obtain advisor approval before adding one.
