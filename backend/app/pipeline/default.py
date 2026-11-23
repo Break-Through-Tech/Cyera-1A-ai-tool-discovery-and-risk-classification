@@ -17,7 +17,7 @@ from app.enrichment.http import CurlHttpClient
 from app.pipeline import Phase, Pipeline, RunContext
 from app.pipeline.identity import load_registry, load_tool_metadata, resolve_identities
 from app.pipeline.risk import RISK_RULE_VERSION
-from app.pipeline.usage_contexts import assess_usage_contexts
+from app.pipeline.usage_contexts import RESOLVED_OUTCOMES, assess_usage_contexts
 from app.results import save_assessments, save_stage_results
 
 WEBSITE_ENRICHMENT_VERSION = (
@@ -111,14 +111,17 @@ def default_pipeline(
             context.results["category_classifications"],
             context.results["captures_by_domain"],
         )
-        categories = {
-            candidate.tool_id: classification.category
-            for candidate, classification in zip(
-                context.results["identities"],
-                context.results["category_classifications"],
-                strict=True,
-            )
-        }
+        # A Tool's contexts come only from its resolved, AI-positive candidates; the first of
+        # them speaks for the Tool, as in the application inventory.
+        categories: dict[str, str | None] = {}
+        for candidate, ai, classification in zip(
+            context.results["identities"],
+            context.results["ai_determinations"],
+            context.results["category_classifications"],
+            strict=True,
+        ):
+            if candidate.outcome in RESOLVED_OUTCOMES and ai.determination == "ai":
+                categories.setdefault(candidate.tool_id, classification.category)
         save_assessments(
             connection, context.run_id, context.results["risk_assessments"], categories
         )

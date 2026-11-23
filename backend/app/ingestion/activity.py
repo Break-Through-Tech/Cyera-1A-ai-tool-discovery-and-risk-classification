@@ -30,6 +30,11 @@ class UploadRejected(Exception):
 def parse_activity(content: bytes) -> list[dict[str, str | None]]:
     """Validate and normalize an uploaded activity CSV into Activity Event rows.
 
+    Normalization is limited to spellings that cannot change meaning: header names match
+    ignoring surrounding whitespace and case, and values lose surrounding whitespace (an
+    optional value left empty is absent). Values are otherwise kept as supplied; the
+    stored upload itself is never rewritten.
+
     Raises ``UploadRejected`` with every problem found; no partial result is returned.
     """
     if not content.strip():
@@ -40,18 +45,30 @@ def parse_activity(content: bytes) -> list[dict[str, str | None]]:
         raise UploadRejected([_file_error("not_utf8")]) from None
 
     reader = csv.DictReader(io.StringIO(text))
-    header_errors = _header_errors(reader.fieldnames or [])
+    try:
+        return _parse_rows(reader)
+    except csv.Error:
+        # The csv module's message can quote input, so only the line where parsing
+        # failed is reported (DictReader's own line_num lags until a row completes).
+        raise UploadRejected(
+            [{"line": reader.reader.line_num, "field": None, "problem": "malformed_csv"}]
+        ) from None
+
+
+def _parse_rows(reader: csv.DictReader) -> list[dict[str, str | None]]:
+    reader.fieldnames = [_column_name(column) for column in reader.fieldnames or []]
+    header_errors = _header_errors(reader.fieldnames)
     if header_errors:
         raise UploadRejected(header_errors)
 
     events = []
     errors = []
     first_line_of_event: dict[str, int] = {}
-    for row in reader:
+    for raw_row in reader:
         line = reader.line_num
         field_count = sum(
-            value is not None for key, value in row.items() if key is not None
-        ) + len(row.get(None, []))
+            value is not None for key, value in raw_row.items() if key is not None
+        ) + len(raw_row.get(None, []))
         if field_count != len(reader.fieldnames):
             errors.append(
                 {
@@ -63,15 +80,15 @@ def parse_activity(content: bytes) -> list[dict[str, str | None]]:
                 }
             )
             continue
+        row = {column: value.strip() for column, value in raw_row.items()}
         for column in REQUIRED_COLUMNS:
-            if not (row.get(column) or "").strip():
+            if not row[column]:
                 errors.append({"line": line, "field": column, "problem": "missing_value"})
-        timestamp = row.get("timestamp") or ""
-        if timestamp.strip() and not _is_utc_z_instant(timestamp):
+        if row["timestamp"] and not _is_utc_z_instant(row["timestamp"]):
             errors.append(
                 {"line": line, "field": "timestamp", "problem": "invalid_timestamp"}
             )
-        event_id = row.get("event_id") or ""
+        event_id = row["event_id"]
         if event_id in first_line_of_event:
             errors.append(
                 {
@@ -81,11 +98,11 @@ def parse_activity(content: bytes) -> list[dict[str, str | None]]:
                     "first_line": first_line_of_event[event_id],
                 }
             )
-        elif event_id.strip():
+        elif event_id:
             first_line_of_event[event_id] = line
         events.append(
             {
-                "event_id": row["event_id"],
+                "event_id": event_id,
                 "occurred_at": row["timestamp"],
                 "employee_id": row["employee_id"],
                 "department": row["department"],
@@ -105,8 +122,17 @@ def _file_error(problem: str) -> dict:
     return {"line": None, "field": None, "problem": problem}
 
 
+def _column_name(raw: str) -> str:
+    return raw.strip().casefold()
+
+
 def _header_errors(columns: list[str]) -> list[dict]:
     known = set(REQUIRED_COLUMNS) | set(OPTIONAL_COLUMNS)
+    duplicated = [
+        {"line": 1, "field": column, "problem": "duplicate_column"}
+        for column in dict.fromkeys(columns)
+        if column in known and columns.count(column) > 1
+    ]
     missing = [
         {"line": 1, "field": column, "problem": "missing_column"}
         for column in REQUIRED_COLUMNS
@@ -117,7 +143,7 @@ def _header_errors(columns: list[str]) -> list[dict]:
         for column in columns
         if column not in known
     ]
-    return missing + unknown
+    return missing + unknown + duplicated
 
 
 def _is_utc_z_instant(value: str) -> bool:
