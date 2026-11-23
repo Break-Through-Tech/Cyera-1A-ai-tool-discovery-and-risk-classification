@@ -223,7 +223,7 @@ def test_a_succeeded_runs_stage_results_survive_a_server_restart(data_dir):
     assert restarted.get(f"/runs/{run_id}").json()["status"] == "succeeded"
 
 
-def test_migrations_match_the_table_definitions_and_0006_downgrades(client):
+def test_migrations_match_the_table_definitions_and_0007_downgrades(client):
     engine = client.app.state.engine
     with engine.connect() as connection:
         assert compare_metadata(MigrationContext.configure(connection), metadata) == []
@@ -232,7 +232,7 @@ def test_migrations_match_the_table_definitions_and_0006_downgrades(client):
         config = Config()
         config.set_main_option("script_location", str(MIGRATIONS_DIR))
         config.attributes["connection"] = connection
-        command.downgrade(config, "0005")
+        command.downgrade(config, "0006")
     with engine.connect() as connection:
         assert not {table.name for table in STAGE_TABLES} & set(inspect(connection).get_table_names())
 
