@@ -18,6 +18,7 @@ from app.db.tables import (
     usage_context_assessments,
 )
 from app.pipeline.usage_contexts import RESOLVED_OUTCOMES
+from app.results import no_risk_tier_reasons
 from app.scope import Scope, context_conditions, scoped_events
 
 # Highest first; an unresolved tier ranks below every resolved one.
@@ -198,7 +199,8 @@ def get_application(
     )
     summary = _summarize(candidates, contexts)[0]
     first = candidates[0]
-    no_context_reason = None if contexts else _no_context_reason(summary)
+    reasons = no_risk_tier_reasons(summary.identity_outcome, summary.ai_determination)
+    no_context_reason = None if contexts else next(iter(reasons), None)
     return {
         "run_id": run_id,
         "batch_id": batch_id,
@@ -319,13 +321,6 @@ def _tool_ai_determination(determinations: Iterable[str]) -> str:
     """AI if any candidate's evidence shows AI work, non-AI only if every candidate is non-AI."""
     found = set(determinations)
     return next(d for d in _AI_PRECEDENCE if d in found)
-
-
-def _no_context_reason(summary: ApplicationSummary) -> str:
-    """Why an application has no Usage Context, so no Policy Status or risk tier."""
-    if summary.subject_kind == "candidate":
-        return "identity_unresolved"
-    return f"ai_determination_{summary.ai_determination}"
 
 
 def _candidates(
