@@ -225,6 +225,50 @@ def test_candidates_resolved_to_one_tool_form_one_application(make_client):
     assert response.json()["risk"]["reason"] == "identity_unresolved"
 
 
+def test_a_context_is_saved_with_its_tools_ai_category_whatever_the_sibling_order(data_dir):
+    tool = "aitoolbuzz:x"
+    known = {"outcome": "known_tool", "tool_id": tool, "basis": "exact_root_domain"}
+    identities = [
+        CandidateIdentity("x.example", ("X",), ("evt_000001",), **known, catalog_tool_ids=("x",)),
+        CandidateIdentity(
+            "x.example", ("X Desktop",), ("evt_000002",), **known, catalog_tool_ids=("x",)
+        ),
+    ]
+    ai = [
+        AiDetermination("ai", "jev_judge", model="jev-test"),
+        AiDetermination("non_ai", "keyword_gate"),
+    ]
+    categories = [
+        CategoryClassification(
+            "assigned", "catalog", "Writing", source=EvidenceSource("catalog", "x", version="test")
+        ),
+        CategoryClassification("inapplicable", reason="ai_determination_non_ai"),
+    ]
+    facts = RiskFacts()
+    context = UsageContext(
+        tool, "X", "x.example", "Sales", "notes", "internal",
+        ("evt_000001",), "2026-09-15T08:22:00Z", "2026-09-15T08:22:00Z",
+    )
+
+    def fill(run):
+        run.results.update(
+            identities=identities,
+            ai_determinations=ai,
+            category_classifications=categories,
+            captures_by_domain={},
+            risk_assessments=[ContextAssessment(context, None, facts, assess(facts))],
+        )
+
+    client = fixture_client(data_dir)
+    default = client.app.state.pipeline
+    client.app.state.pipeline = Pipeline(phases=(Phase("fill", fill),), save=default.save)
+    run_id = upload_fixture(client).json()["latest_run"]["run_id"]
+
+    [item] = client.get(f"/runs/{run_id}/assessments").json()["items"]
+    [summary] = summaries_of(client, run_id)
+    assert item["category"] == summary.category == "Writing"
+
+
 def test_unknown_run_is_not_found(data_dir):
     client, _ = analyzed(data_dir)
 
