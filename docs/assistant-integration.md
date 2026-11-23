@@ -4,8 +4,9 @@
 
 Implemented in `backend/app/assistant/contracts.py`. These are internal integration
 contracts, not published HTTP endpoints. Phases 2 through 4 add persistence,
-LangGraph orchestration, and a Gemini adapter. There is no production query
-adapter or retrieval implementation yet.
+LangGraph orchestration, and a Gemini adapter. The query adapters section below
+connects every tool except `retrieve_context`. There is no retrieval
+implementation yet.
 
 The agent consumes backend query operations and the team's RAG service. It does
 not own document ingestion, embeddings, indexing, retrieval, or risk calculations.
@@ -62,7 +63,11 @@ immutable; persistence must serialize snapshots rather than retain mutable alias
 
 Three evidence types retain different authority:
 
-- `RecordEvidence`: Batch-qualified producing Run plus record type and ID.
+- `RecordEvidence`: Batch-qualified producing Run plus record type and ID. Record
+  types are those `app.evidence` resolves: `activity_event`, `usage_context`,
+  `analysis_run`, `ai_evidence_sentence`, `website_capture`, `tool_metadata`, and
+  `category_neighbor`. `record_reference` in `app/evidence.py` documents each
+  `record_id` encoding.
 - `AggregateEvidence`: full scope, reproducible backend query specification,
   metric definitions, and a drilldown reference. The query is not executable SQL.
 - `PassageEvidence`: corpus/document versions, passage ID, exact excerpt, and
@@ -312,9 +317,80 @@ validation remains pending; `.env` credentials are not changed by these tests.
 References: [Google Gen AI Python SDK](https://googleapis.github.io/python-genai/)
 and [Gemini function calling](https://ai.google.dev/gemini-api/docs/function-calling).
 
+## Query adapters
+
+`backend/app/assistant/adapters.py` connects five tools to the deterministic query
+code in-process; it never calls the HTTP API. `queries.py` holds thin helpers over
+`app.scope` for what the listing modules lack. A chat endpoint wires them like this:
+
+```python
+limits = ExecutionLimits()
+registry = build_tool_registry(engine, settings, limits=limits)  # -> ToolRegistry
+assistant = Assistant(engine, model, registry, limits)
+```
+
+Pass the same `limits` to both, so results fit `max_tool_result_bytes`. `sources`
+(optional) defaults to the Tool metadata snapshot at `settings.tool_metadata_path`
+and no passage corpus. `retrieve_context` is not registered and reports
+unavailable. Handlers run each read in a worker thread with its own connection.
+The workflow deadline then stops waiting, and a late read's result is discarded.
+
+### Scope and filters
+
+Each call resolves the pinned scope with `resolve_scope`, using explicit
+`batch_ids`, `run_ids`, and the `[start, end)` interval. It then checks that the
+selected Runs are exactly the pinned Batch and Run pairs.
+
+| Assistant name | Backend operation |
+|---|---|
+| `departments`, `risk_tiers`, `flagged` | The same `Filters` fields |
+| `categories` | `Filters.categories`. A value outside the 14 Categories, `unresolved`, and `inapplicable` is unsupported. |
+| `ai_statuses` | Activity Event AI Determination, as `GET /events` `ai_determinations`. Usage Contexts exist only for Tools determined AI. A filter that includes `ai` does not restrict them, and one that excludes it matches none. Results state this. |
+| `get_risk_assessments` `focus` | An added condition on the stored assessment: flag, `unapproved` Policy Status, `unresolved` tier, or any unknown fact |
+
+These requests return `limited` with reason `unsupported`: an unknown Category, a
+repeated `group_by` dimension, or a continuation issued for another tool, scope, or
+arguments. So do comparison periods outside the pinned interval, malformed
+references, references to unpinned Runs, and aggregate references.
+
+### Results
+
+| Tool | Returns |
+|---|---|
+| `describe_dataset` | Pinned Runs with versions and Batch activity periods, plus the requested and matching time range. Events by AI status and identity outcome, distinct employees, Tools, departments (50 at most), Categories, unresolved stages, missing supplied fields. Usage Contexts by tier, Policy Status, flag, and unknown facts. |
+| `summarize_usage` | A `total` over the complete population and up to `limit` groups ordered by value. Metrics: `event_count`, Batch-scoped `distinct_employees`, `tools`, and `usage_contexts`. A known Tool counts once across Batches; an observed Tool or unresolved Tool Candidate counts per Batch. Distinct-count groups can overlap and are labeled so. |
+| `compare_usage` | Each period's value and coverage (`full`, `partial`, or `none`) against the Batches' activity periods, change, and percent change. An uncovered period is `null`, not zero. |
+| `get_risk_assessments` | Counts over the complete focus population, plus a page ordered like `GET /contexts`. Each assessment has its tier, reason codes, unknown facts, rubric facts, flag reasons, matching events, and Tool Candidate numbers. |
+| `get_evidence` | Records resolved by `app.evidence.resolve_evidence`, after a check that each record has activity in the pinned scope. Others are listed as `not_found`, `outside_scope`, or `unavailable`. |
+
+Counts carry one `AggregateEvidence` per result, and one per period for comparisons.
+Its scope is the pinned scope. Its `query` names the listing operation with its
+parameters, and `drilldown_reference` is that listing's URL, such as
+`GET /events?run_ids=...`. Records carry `RecordEvidence`. Local evidence IDs are
+`<record_type>:<run_id>:<record_id>` or `aggregate:<tool>`. `get_evidence` accepts
+them with or without the step prefix the registry adds.
+
+Zero matches is `succeeded` with `no_matches` and still carries citable aggregate
+evidence. A missing passage corpus or Tool metadata snapshot is `limited`
+(`unavailable`). A pinned scope that fails verification is `failed`, because the
+backend-owned scope is invalid: `scope_run_not_found` (404),
+`scope_run_not_succeeded` (409), or `scope_run_batch_mismatch` (422 or swapped
+Runs). A database error is `query_failed`. Failures carry no data or exception text.
+
+Scope warnings become qualifications, such as newer Runs, version differences, and
+event-ID overlap. Each result is fitted to the byte limit by shortening its page.
+Any cut sets `truncated`, adds a `Preview:` qualification, and, for pages, returns a
+continuation bound to the tool, scope, and arguments. Totals and counts always cover
+the complete population.
+
+Receipts stay backend-made. Handlers return only outcomes. The graph builds each
+`ExecutionStep` from its own step ID, timestamps, pinned scope, and validated
+arguments, and stores it before the model sees it. `get_evidence` re-reads every
+reference from the database.
+
 ## Next phases, each with a review stop
 
-1. Connect the team's query and RAG implementations and expose inspection APIs.
+1. Connect the team's RAG implementation and expose inspection APIs.
 2. Verify real analyst journeys, trace drilldown, source resolution, and claim support.
 
 Generated Python remains disabled until the ADR's complete dataset, isolation,
@@ -330,6 +406,8 @@ backend/.venv/bin/python -m pytest backend/tests/test_assistant_*.py backend/tes
 ```
 
 These tests exercise LangGraph, migrated SQLite storage, and the Gemini SDK using
-scripted responses and fixture tools. They do not establish live model quality,
+scripted responses and fixture tools. `test_assistant_adapters.py` runs the query
+adapters against stored fixture Runs and checks them against the listing endpoints.
+They do not establish live model quality,
 retrieval quality, source existence, claim support, worker isolation, or end-to-end
 analyst behavior.

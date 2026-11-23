@@ -87,10 +87,20 @@ class PinnedScope(Contract):
 
 
 class RecordEvidence(Contract):
+    """``record_id`` encodings are those of ``app.evidence.record_reference``."""
+
     kind: Literal["record"] = "record"
     evidence_id: Text
     run: RunReference
-    record_type: Literal["activity_event", "usage_context", "analysis_run"]
+    record_type: Literal[
+        "activity_event",
+        "usage_context",
+        "analysis_run",
+        "ai_evidence_sentence",
+        "website_capture",
+        "tool_metadata",
+        "category_neighbor",
+    ]
     record_id: Text
 
 

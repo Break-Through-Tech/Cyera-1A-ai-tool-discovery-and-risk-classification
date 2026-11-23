@@ -81,7 +81,10 @@ _DESCRIPTIONS: dict[ToolName, str] = {
     "summarize_usage": "Return deterministic counts or grouped usage summaries.",
     "compare_usage": "Compare two explicit UTC periods within the pinned scope.",
     "get_risk_assessments": "Read stored risk tiers, reasons, flags, and unknown facts.",
-    "get_evidence": "Inspect supporting references within the pinned scope.",
+    "get_evidence": (
+        "Inspect supporting references within the pinned scope: evidence IDs from earlier "
+        "results, or '<record_type>:<run_id>:<record_id>'."
+    ),
     "retrieve_context": "Retrieve retained context with versioned passage references.",
 }
 

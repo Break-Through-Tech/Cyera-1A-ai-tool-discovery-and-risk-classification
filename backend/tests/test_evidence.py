@@ -436,20 +436,25 @@ def test_record_evidence_converts_to_and_from_typed_references():
     assert to_record_evidence(from_record_evidence(analysis_run), "e2") == analysis_run
 
 
-def test_record_ids_of_kinds_record_evidence_does_not_list_yet_still_parse():
+def test_every_record_kind_round_trips_through_record_evidence():
     run = RunReference(batch_id="bat_1", run_id="run_1")
-
-    assert record_reference(run, "ai_evidence_sentence", "4:2") == AiEvidenceSentenceReference(
-        run=run, candidate_number=4, sentence_number=2
-    )
-    assert record_reference(run, "category_neighbor", "4:1") == CategoryNeighborReference(
-        run=run, candidate_number=4, neighbor_number=1
-    )
-    assert record_reference(run, "website_capture", "a.example") == WebsiteCaptureReference(
-        run=run, domain="a.example"
-    )
+    cases = [
+        ("ai_evidence_sentence", "4:2", AiEvidenceSentenceReference(
+            run=run, candidate_number=4, sentence_number=2
+        )),
+        ("category_neighbor", "4:1", CategoryNeighborReference(
+            run=run, candidate_number=4, neighbor_number=1
+        )),
+        ("website_capture", "a.example", WebsiteCaptureReference(run=run, domain="a.example")),
+        ("tool_metadata", "meta_01", ToolMetadataReference(run=run, metadata_id="meta_01")),
+    ]
+    for record_type, record_id, reference in cases:
+        assert record_reference(run, record_type, record_id) == reference
+        evidence = to_record_evidence(reference, "e1")
+        assert (evidence.record_type, evidence.record_id) == (record_type, record_id)
+        assert from_record_evidence(evidence) == reference
     with pytest.raises(ValidationError):
-        to_record_evidence(WebsiteCaptureReference(run=run, domain="a.example"), "e1")
+        RecordEvidence(evidence_id="e1", run=run, record_type="passage", record_id="p1")
 
 
 @pytest.mark.parametrize(
