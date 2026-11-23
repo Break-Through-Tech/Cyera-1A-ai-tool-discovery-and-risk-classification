@@ -18,7 +18,7 @@ from app.pipeline import Phase, Pipeline, RunContext
 from app.pipeline.identity import load_registry, load_tool_metadata, resolve_identities
 from app.pipeline.risk import RISK_RULE_VERSION
 from app.pipeline.usage_contexts import assess_usage_contexts
-from app.results import save_assessments
+from app.results import save_assessments, save_stage_results
 
 WEBSITE_ENRICHMENT_VERSION = (
     f"homepage-v1;curl_cffi={version('curl_cffi')};"
@@ -103,6 +103,14 @@ def default_pipeline(
         )
 
     def save(connection: Connection, context: RunContext) -> None:
+        save_stage_results(
+            connection,
+            context.run_id,
+            context.results["identities"],
+            context.results["ai_determinations"],
+            context.results["category_classifications"],
+            context.results["captures_by_domain"],
+        )
         categories = {
             candidate.tool_id: classification.category
             for candidate, classification in zip(
