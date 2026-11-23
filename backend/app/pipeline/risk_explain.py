@@ -1,6 +1,6 @@
 """Template-built Risk Explanation for one assessed Usage Context.
 
-Implements docs/risk-rubric-v2.md, section 6. The text is filled from fixed slots in a fixed
+Implements docs/risk-rubric-v2.md, section 6 (rubric v2.1). The text is filled from fixed slots in a fixed
 order, and a slot is never dropped to make room for another. No LLM writes it. It never names
 or counts employees, never says content was submitted unless the class is content submission,
 never says access was granted unless the class is access grant, and never calls a tier a
@@ -71,17 +71,27 @@ def explain(
     category_method: str | None = None,
     category_share: float | None = None,
     unrecognized_values: dict[str, str] | None = None,
+    ai_stage: str | None = None,
+    ai_reason: str | None = None,
 ) -> Explanation:
-    """The explanation text and its structured slots for one assessed Usage Context."""
+    """The explanation text and its structured slots for one Usage Context.
+
+    ``ai_stage`` and ``ai_reason`` (from AI Determination) word a ``not_assessed`` result.
+    """
     sensitivity = facts.data_sensitivity_tier
     unresolved = assessment.tier == "unresolved"
+    skipped = assessment.tier == "not_assessed"
     review = _review_clauses(assessment, facts)
     purpose_cls, concern_tags = purpose_class(context.usage_purpose)
 
     # The unresolved template replaces all three sentences; ``usage`` is still kept in parts.
     usage = _usage_sentence(context, facts, assessment, category, category_method)
     detail: list[str] = []
-    if unresolved:
+    if skipped:
+        reason = _not_assessed_sentence(assessment, ai_stage, ai_reason)
+        sentences = [usage, reason]
+        review = []
+    elif unresolved:
         reason = (
             f"{context.application_name} has no usable approval or vendor facts, "
             "so no risk level was assigned."
@@ -98,6 +108,9 @@ def explain(
     parts = {
         "usage": usage,
         "unresolved_template": unresolved,
+        "not_assessed": skipped,
+        "ai_stage": ai_stage,
+        "ai_reason": ai_reason,
         "reason": reason,
         "detail": detail,
         "review": review,
@@ -146,14 +159,10 @@ def _usage_sentence(
     department = context.department if context.department != "unknown" else "An unstated department"
     category_phrase = ""
     if category and category_method == "catalog":
-        category_phrase = f", {_article(category)} {category} tool"
+        category_phrase = f", {_article(category)} {category} tool,"
     elif category and category_method == "semantic_neighbor_vote":
-        category_phrase = f", likely {_article(category)} {category} tool"
-    purpose = (
-        "an unstated purpose"
-        if context.usage_purpose == "unknown"
-        else context.usage_purpose.replace("_", " ")
-    )
+        category_phrase = f", likely {_article(category)} {category} tool,"
+    purpose = _purpose_phrase(context.usage_purpose)
     sensitivity = (
         "data of unknown sensitivity"
         if assessment.sensitivity_assumed
@@ -237,7 +246,7 @@ def _unknown_controls_phrase(unknown_facts: Sequence[str]) -> str:
         if name in unknown_facts
     ]
     if vendor:
-        pieces.append("the vendor's " + _join(vendor))
+        pieces.append("the vendor's " + _join_terms(vendor))
     plural = len(pieces) > 1 or bool(vendor)
     return f"{_join(pieces)} {'are' if plural else 'is'} unknown"
 
@@ -272,24 +281,20 @@ def _escalation_phrase(
 
 
 def _detail_clauses(facts: RiskFacts, assessment: Assessment) -> list[str]:
-    if assessment.sensitivity_assumed:
-        return [_ASSUMPTION]
+    """The assumption sentence, then unknown vendor facts sentence 2 did not name."""
+    clauses = [_ASSUMPTION] if assessment.sensitivity_assumed else []
     if assessment.governance_level == "partial":
-        return []  # sentence 2 already names every unknown vendor fact
+        return clauses  # sentence 2 already names every unknown vendor fact
     unknown = [
         _FACT_LABELS[name]
         for name in ("policy_status", "training_on_customer_data", "admin_controls_available")
         if name in assessment.unknown_facts
     ]
-    if not unknown:
-        return []
-    joined = _join(unknown)
-    verb = "is" if unknown == ["approval status"] else "are"
-    if len(unknown) > 1:
-        # "Training and admin-control terms are unknown."
-        if unknown[-1].endswith(" terms") and all(u.endswith(" terms") for u in unknown):
-            joined = _join([u.removesuffix(" terms") for u in unknown]) + " terms"
-    return [f"{joined[0].upper()}{joined[1:]} {verb} unknown."]
+    if unknown:
+        joined = _join_terms(unknown)
+        verb = "is" if unknown == ["approval status"] else "are"
+        clauses.append(f"{joined[0].upper()}{joined[1:]} {verb} unknown.")
+    return clauses
 
 
 def _review_clauses(assessment: Assessment, facts: RiskFacts) -> list[str]:
@@ -328,3 +333,57 @@ def _join(items: Sequence[str]) -> str:
     if len(items) <= 1:
         return "".join(items)
     return ", ".join(items[:-1]) + " and " + items[-1]
+
+
+def _join_terms(labels: Sequence[str]) -> str:
+    """Join fact labels, sharing a trailing "terms": "training and admin-control terms"."""
+    terms = [label for label in labels if label.endswith(" terms")]
+    if len(terms) > 1:
+        shared = _join([label.removesuffix(" terms") for label in terms]) + " terms"
+        others = [label for label in labels if not label.endswith(" terms")]
+        return _join([*others, shared])
+    return _join(labels)
+
+
+# Natural phrases for known purposes; others turn underscores into spaces.
+_PURPOSE_PHRASES = {
+    "draft_summary": "drafting summaries",
+    "text_analysis": "text analysis",
+    "code_assistance": "code assistance",
+    "software_development": "software development",
+    "email_campaigns": "email campaigns",
+    "sales_outreach": "sales outreach",
+    "visual_testing": "visual testing",
+    "product_ideation": "product ideation",
+    "team_messaging": "team messaging",
+}
+
+
+def _purpose_phrase(usage_purpose: str) -> str:
+    if usage_purpose == "unknown":
+        return "an unstated purpose"
+    return _PURPOSE_PHRASES.get(usage_purpose, usage_purpose.replace("_", " "))
+
+
+# Not assessed: why the Tool is not a resolved AI Tool.
+
+_EVIDENCE_GAPS = {
+    "no_evidence": "its homepage could not be read and no description was supplied",
+    "insufficient_text": "its homepage had too little text to judge and no description was supplied",
+    "jev_judge": "the AI judge could not decide from the available text",
+}
+
+
+def _not_assessed_sentence(
+    assessment: Assessment, ai_stage: str | None, ai_reason: str | None
+) -> str:
+    codes = assessment.reason_codes
+    if "identity_unresolved" in codes and "ai_status_unresolved" in codes:
+        why = "the tool could not be identified and its AI status is unresolved"
+    elif "identity_unresolved" in codes:
+        why = "the tool could not be identified"
+    else:
+        why = "its AI status is unresolved"
+    gap = _EVIDENCE_GAPS.get(ai_stage or "") if "ai_status_unresolved" in codes else None
+    detail = f": {gap}" if gap else ""
+    return f"Not assessed because {why}{detail}. No risk level was assigned; review this usage."

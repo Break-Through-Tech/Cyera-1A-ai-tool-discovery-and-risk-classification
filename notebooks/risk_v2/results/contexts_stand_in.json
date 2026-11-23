@@ -1,0 +1,409 @@
+[
+  {
+    "application_name": "Amazon Comprehend",
+    "department": "Research",
+    "usage_purpose": "text_analysis",
+    "data_sensitivity_tier": "confidential",
+    "interaction_class": "content_submission",
+    "tier": "High",
+    "base_tier": "Medium",
+    "escalation": "X1",
+    "reason_codes": [
+      "controls_unconfirmed",
+      "approved_tool",
+      "admin_controls_available",
+      "confidential_data_context",
+      "sensitive_content_submitted_to_non_governed_tool"
+    ],
+    "flag_reasons": [
+      "high_tier",
+      "submission_with_missing_facts"
+    ],
+    "explanation": "Research used Amazon Comprehend for text analysis with confidential data (4 events, 2\u201313 Oct); file uploads were observed. Rated High: Medium because the vendor's training terms are unknown and confidential data is involved, raised one step because confidential content was uploaded to a tool that is not fully governed. Review: content was submitted without known vendor training terms.",
+    "event_count": 4
+  },
+  {
+    "application_name": "Amazon Comprehend",
+    "department": "Research",
+    "usage_purpose": "text_analysis",
+    "data_sensitivity_tier": "confidential",
+    "interaction_class": "presence",
+    "tier": "Medium",
+    "base_tier": "Medium",
+    "escalation": null,
+    "reason_codes": [
+      "controls_unconfirmed",
+      "approved_tool",
+      "admin_controls_available",
+      "confidential_data_context"
+    ],
+    "flag_reasons": [],
+    "explanation": "Research used Amazon Comprehend for text analysis with confidential data (5 events, 21 Sep\u201313 Oct); only visits were observed. Rated Medium because the vendor's training terms are unknown and confidential data is involved.",
+    "event_count": 5
+  },
+  {
+    "application_name": "ChatGPT",
+    "department": "Engineering",
+    "usage_purpose": "code_assistance",
+    "data_sensitivity_tier": "internal",
+    "interaction_class": "presence",
+    "tier": "Low",
+    "base_tier": "Low",
+    "escalation": null,
+    "reason_codes": [
+      "approved_tool",
+      "no_customer_data_training",
+      "admin_controls_available",
+      "internal_data_context"
+    ],
+    "flag_reasons": [],
+    "explanation": "Engineering used ChatGPT, a Communication And Support tool, for code assistance with internal data (62 events, 15 Sep\u201314 Oct); only visits were observed. Rated Low because the tool is approved, the vendor does not train on customer data and admin controls are available, and internal data is involved.",
+    "event_count": 62
+  },
+  {
+    "application_name": "ChatGPT",
+    "department": "Engineering",
+    "usage_purpose": "code_assistance",
+    "data_sensitivity_tier": "unknown",
+    "interaction_class": "content_submission",
+    "tier": "Low",
+    "base_tier": "Low",
+    "escalation": null,
+    "reason_codes": [
+      "approved_tool",
+      "no_customer_data_training",
+      "admin_controls_available",
+      "internal_data_context",
+      "sensitivity_assumed_internal"
+    ],
+    "flag_reasons": [
+      "submission_with_missing_facts"
+    ],
+    "explanation": "Engineering used ChatGPT, a Communication And Support tool, for code assistance with data of unknown sensitivity (8 events, 20 Sep\u201313 Oct); pasted content was observed. Rated Low because the tool is approved, the vendor does not train on customer data and admin controls are available, and no data sensitivity was supplied. Sensitivity unknown; tier calculated using the internal-data assumption. Review: content was submitted without a known data sensitivity.",
+    "event_count": 8
+  },
+  {
+    "application_name": "ChatGPT",
+    "department": "Finance",
+    "usage_purpose": "draft_summary",
+    "data_sensitivity_tier": "confidential",
+    "interaction_class": "presence",
+    "tier": "Low",
+    "base_tier": "Low",
+    "escalation": null,
+    "reason_codes": [
+      "approved_tool",
+      "no_customer_data_training",
+      "admin_controls_available",
+      "confidential_data_context"
+    ],
+    "flag_reasons": [],
+    "explanation": "Finance used ChatGPT, a Communication And Support tool, for drafting summaries with confidential data (33 events, 15 Sep\u201314 Oct); only visits were observed. Rated Low because the tool is approved, the vendor does not train on customer data and admin controls are available, and confidential data is involved.",
+    "event_count": 33
+  },
+  {
+    "application_name": "ChatGPT",
+    "department": "Support",
+    "usage_purpose": "draft_summary",
+    "data_sensitivity_tier": "restricted",
+    "interaction_class": "presence",
+    "tier": "Medium",
+    "base_tier": "Medium",
+    "escalation": null,
+    "reason_codes": [
+      "approved_tool",
+      "no_customer_data_training",
+      "admin_controls_available",
+      "restricted_data_context"
+    ],
+    "flag_reasons": [],
+    "explanation": "Support used ChatGPT, a Communication And Support tool, for drafting summaries with restricted data (6 events, 15 Sep\u201312 Oct); only visits were observed. Rated Medium because the tool is approved, the vendor does not train on customer data and admin controls are available, and restricted data is involved.",
+    "event_count": 6
+  },
+  {
+    "application_name": "Cursor",
+    "department": "Engineering",
+    "usage_purpose": "software_development",
+    "data_sensitivity_tier": "confidential",
+    "interaction_class": "presence",
+    "tier": "High",
+    "base_tier": "High",
+    "escalation": null,
+    "reason_codes": [
+      "unapproved_tool",
+      "confidential_data_context"
+    ],
+    "flag_reasons": [
+      "high_tier",
+      "unapproved_tool",
+      "sensitive_data_in_non_governed_tool"
+    ],
+    "explanation": "Engineering used Cursor, a Technology And Development tool, for software development with confidential data (19 events, 15 Sep\u201313 Oct); only visits were observed. Rated High because the tool is not approved and confidential data should not go into a tool that isn't business-managed. Training and admin-control terms are unknown.",
+    "event_count": 19
+  },
+  {
+    "application_name": "Cursor",
+    "department": "Engineering",
+    "usage_purpose": "software_development",
+    "data_sensitivity_tier": "internal",
+    "interaction_class": "access_grant",
+    "tier": "High",
+    "base_tier": "Medium",
+    "escalation": "X2",
+    "reason_codes": [
+      "unapproved_tool",
+      "internal_data_context",
+      "access_granted_to_non_governed_tool"
+    ],
+    "flag_reasons": [
+      "high_tier",
+      "unapproved_tool",
+      "access_grant_observed",
+      "access_grant_with_missing_facts"
+    ],
+    "explanation": "Engineering used Cursor, a Technology And Development tool, for software development with internal data (4 events, 25 Sep\u20132 Oct); the tool was granted OAuth access. Rated High: Medium because the tool is not approved and internal data is involved, raised one step because OAuth access was granted to a tool with an adverse governance fact. Training and admin-control terms are unknown. Review: access was granted without known admin controls.",
+    "event_count": 4
+  },
+  {
+    "application_name": "Cursor",
+    "department": "Engineering",
+    "usage_purpose": "software_development",
+    "data_sensitivity_tier": "internal",
+    "interaction_class": "presence",
+    "tier": "Medium",
+    "base_tier": "Medium",
+    "escalation": null,
+    "reason_codes": [
+      "unapproved_tool",
+      "internal_data_context"
+    ],
+    "flag_reasons": [
+      "unapproved_tool"
+    ],
+    "explanation": "Engineering used Cursor, a Technology And Development tool, for software development with internal data (32 events, 15 Sep\u201313 Oct); only visits were observed. Rated Medium because the tool is not approved and internal data is involved. Training and admin-control terms are unknown.",
+    "event_count": 32
+  },
+  {
+    "application_name": "Cursor",
+    "department": "Engineering",
+    "usage_purpose": "software_development",
+    "data_sensitivity_tier": "internal",
+    "interaction_class": "unknown",
+    "tier": "Medium",
+    "base_tier": "Medium",
+    "escalation": null,
+    "reason_codes": [
+      "unapproved_tool",
+      "internal_data_context"
+    ],
+    "flag_reasons": [
+      "unapproved_tool"
+    ],
+    "explanation": "Engineering used Cursor, a Technology And Development tool, for software development with internal data (2 events, 1\u20136 Oct); the activity type was not recorded. Rated Medium because the tool is not approved and internal data is involved. Training and admin-control terms are unknown.",
+    "event_count": 2
+  },
+  {
+    "application_name": "Playbooks",
+    "department": "Sales",
+    "usage_purpose": "sales_outreach",
+    "data_sensitivity_tier": "internal",
+    "interaction_class": "presence",
+    "tier": "High",
+    "base_tier": "High",
+    "escalation": null,
+    "reason_codes": [
+      "unapproved_tool",
+      "customer_data_training_permitted",
+      "admin_controls_absent",
+      "internal_data_context"
+    ],
+    "flag_reasons": [
+      "high_tier",
+      "unapproved_tool",
+      "customer_data_training_permitted",
+      "admin_controls_absent"
+    ],
+    "explanation": "Sales used Playbooks, likely a Marketing And Sales tool, for sales outreach with internal data (13 events, 16 Sep\u20139 Oct); only visits were observed. Rated High because the tool is not approved and the vendor may train on customer data, and internal data is involved.",
+    "event_count": 13
+  },
+  {
+    "application_name": "Magic Inspector",
+    "department": "Engineering",
+    "usage_purpose": "visual_testing",
+    "data_sensitivity_tier": "internal",
+    "interaction_class": "presence",
+    "tier": "not_assessed",
+    "base_tier": "not_assessed",
+    "escalation": null,
+    "reason_codes": [
+      "ai_status_unresolved"
+    ],
+    "flag_reasons": [
+      "tool_not_assessed"
+    ],
+    "explanation": "Engineering used Magic Inspector for visual testing with internal data (8 events, 15 Sep\u201314 Oct); only visits were observed. Not assessed because its AI status is unresolved: its homepage could not be read and no description was supplied. No risk level was assigned; review this usage.",
+    "event_count": 8
+  },
+  {
+    "application_name": "Mattermost",
+    "department": "IT",
+    "usage_purpose": "team_messaging",
+    "data_sensitivity_tier": "internal",
+    "interaction_class": "presence",
+    "tier": "Medium",
+    "base_tier": "Medium",
+    "escalation": null,
+    "reason_codes": [
+      "controls_unconfirmed",
+      "approved_tool",
+      "internal_data_context"
+    ],
+    "flag_reasons": [],
+    "explanation": "IT used Mattermost, likely a Technology And Development tool, for team messaging with internal data (7 events, 15 Sep\u201314 Oct); only visits were observed. Rated Medium because the vendor's training and admin-control terms are unknown, and internal data is involved.",
+    "event_count": 7
+  },
+  {
+    "application_name": "MeetOscar",
+    "department": "Marketing",
+    "usage_purpose": "email_campaigns",
+    "data_sensitivity_tier": "internal",
+    "interaction_class": "presence",
+    "tier": "High",
+    "base_tier": "High",
+    "escalation": null,
+    "reason_codes": [
+      "unapproved_tool",
+      "customer_data_training_permitted",
+      "admin_controls_absent",
+      "internal_data_context"
+    ],
+    "flag_reasons": [
+      "high_tier",
+      "unapproved_tool",
+      "customer_data_training_permitted",
+      "admin_controls_absent"
+    ],
+    "explanation": "Marketing used MeetOscar, likely a Communication And Support tool, for email campaigns with internal data (17 events, 16 Sep\u201313 Oct); only visits were observed. Rated High because the tool is not approved and the vendor may train on customer data, and internal data is involved.",
+    "event_count": 17
+  },
+  {
+    "application_name": "MeetOscar",
+    "department": "Marketing",
+    "usage_purpose": "email_campaigns",
+    "data_sensitivity_tier": "public",
+    "interaction_class": "presence",
+    "tier": "Medium",
+    "base_tier": "Medium",
+    "escalation": null,
+    "reason_codes": [
+      "unapproved_tool",
+      "customer_data_training_permitted",
+      "admin_controls_absent",
+      "public_data_context"
+    ],
+    "flag_reasons": [
+      "unapproved_tool",
+      "customer_data_training_permitted",
+      "admin_controls_absent"
+    ],
+    "explanation": "Marketing used MeetOscar, likely a Communication And Support tool, for email campaigns with public data (3 events, 24 Sep\u20135 Oct); only visits were observed. Rated Medium because the tool is not approved and the vendor may train on customer data, and only public data is involved.",
+    "event_count": 3
+  },
+  {
+    "application_name": "Open Canvas AI",
+    "department": "Product",
+    "usage_purpose": "product_ideation",
+    "data_sensitivity_tier": "confidential",
+    "interaction_class": "content_submission",
+    "tier": "unresolved",
+    "base_tier": "unresolved",
+    "escalation": null,
+    "reason_codes": [
+      "all_tool_facts_unknown",
+      "confidential_data_context"
+    ],
+    "flag_reasons": [
+      "insufficient_evidence_for_tier",
+      "sensitive_use_of_unassessed_tool",
+      "submission_with_missing_facts"
+    ],
+    "explanation": "Open Canvas AI has no usable approval or vendor facts, so no risk level was assigned. It was used with confidential data and needs review. Review: content was submitted without known vendor training terms.",
+    "event_count": 4
+  },
+  {
+    "application_name": "Open Canvas AI",
+    "department": "Product",
+    "usage_purpose": "product_ideation",
+    "data_sensitivity_tier": "internal",
+    "interaction_class": "presence",
+    "tier": "unresolved",
+    "base_tier": "unresolved",
+    "escalation": null,
+    "reason_codes": [
+      "all_tool_facts_unknown",
+      "internal_data_context"
+    ],
+    "flag_reasons": [
+      "insufficient_evidence_for_tier"
+    ],
+    "explanation": "Open Canvas AI has no usable approval or vendor facts, so no risk level was assigned.",
+    "event_count": 3
+  },
+  {
+    "application_name": "Slack",
+    "department": "Sales",
+    "usage_purpose": "team_messaging",
+    "data_sensitivity_tier": "internal",
+    "interaction_class": "presence",
+    "tier": "Medium",
+    "base_tier": "Medium",
+    "escalation": null,
+    "reason_codes": [
+      "controls_unconfirmed",
+      "approved_tool",
+      "internal_data_context"
+    ],
+    "flag_reasons": [],
+    "explanation": "Sales used Slack for team messaging with internal data (49 events, 15 Sep\u201312 Oct); only visits were observed. Rated Medium because the vendor's training and admin-control terms are unknown, and internal data is involved.",
+    "event_count": 49
+  },
+  {
+    "application_name": "Slack",
+    "department": "Support",
+    "usage_purpose": "team_messaging",
+    "data_sensitivity_tier": "internal",
+    "interaction_class": "presence",
+    "tier": "Medium",
+    "base_tier": "Medium",
+    "escalation": null,
+    "reason_codes": [
+      "controls_unconfirmed",
+      "approved_tool",
+      "internal_data_context"
+    ],
+    "flag_reasons": [],
+    "explanation": "Support used Slack for team messaging with internal data (30 events, 15 Sep\u201314 Oct); only visits were observed. Rated Medium because the vendor's training and admin-control terms are unknown, and internal data is involved.",
+    "event_count": 30
+  },
+  {
+    "application_name": "Workbench",
+    "department": "Operations",
+    "usage_purpose": "unknown",
+    "data_sensitivity_tier": "unknown",
+    "interaction_class": "presence",
+    "tier": "not_assessed",
+    "base_tier": "not_assessed",
+    "escalation": null,
+    "reason_codes": [
+      "identity_unresolved",
+      "ai_status_unresolved",
+      "not_in_ai_inventory"
+    ],
+    "flag_reasons": [
+      "tool_not_assessed",
+      "not_in_ai_inventory"
+    ],
+    "explanation": "Operations used Workbench for an unstated purpose with data of unknown sensitivity (6 events, 16 Sep\u201312 Oct); only visits were observed. Not assessed because the tool could not be identified and its AI status is unresolved: its homepage could not be read and no description was supplied. No risk level was assigned; review this usage.",
+    "event_count": 6
+  }
+]

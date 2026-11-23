@@ -33,3 +33,4 @@ Dataset B supplies *tool-wide* facts under the synthetic scenario's assumed conf
 - The tier is still decided deterministically and no LLM writes the explanation. The assistant may cite the stored explanation but cannot change it (ADR 0004).
 - The tier remains a project-policy assessment, not Cyera policy, an OWASP-prescribed tiering, an incident or a compliance finding. Framework references explain why a factor matters; they never prove a vendor fact.
 - Changing any matrix cell, escalation or flag rule creates a new rule version.
+- **Revision v2.1** (`owasp-usage-risk-v2.1`, same day): usage of a Tool whose identity or AI status is unresolved is saved as a `not_assessed` row (migration 0008) instead of disappearing, and the explanation wording was tightened. The matrix, escalations and existing flags are unchanged.

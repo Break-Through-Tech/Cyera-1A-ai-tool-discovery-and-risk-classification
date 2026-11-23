@@ -68,12 +68,12 @@ values and expected Tool identity, AI status, Category and risk outcome. v2 adds
 `expected_interaction_class`, `expected_base_tier` (the matrix tier before
 escalation), `expected_first_reason_code` and `expected_flag_reasons`.
 `expected_risk_behavior` is the final tier. v1's `Lower` tier is now `Low`.
-Non-AI and AI-unresolved cases get no tier (`not_applicable`). An end-to-end run
+Non-AI cases get no context (`not_applicable`). A Tool whose identity or AI status is unresolved gets no tier; since rubric v2.1 its usage is saved as a `not_assessed` context (`not_assessed_ai_unresolved`). An end-to-end run
 matches when each scenario's events form one context with these values.
 
 The identity, AI-status, Category and held-out contract notes in the
 [v1 README](../v1/README.md) apply unchanged; the partition contract carries the
-same IDs and exclusions with `risk_rule_version = owasp-usage-risk-v2`.
+same IDs and exclusions with `risk_rule_version = owasp-usage-risk-v2.1`.
 
 ## Risk rule in brief
 

@@ -1,0 +1,25 @@
+{
+  "run_id": "run_82bed3174713481d9995448272855b12",
+  "judge": "STAND-IN judge (answers AI for every gate-passing page)",
+  "scenarios": 20,
+  "contexts_assessed": 20,
+  "identity_accuracy": "20/20 (100%)",
+  "ai_status_accuracy": "16/20 (80%)",
+  "category_accuracy_on_ai_scenarios": "9/16 (56%)",
+  "risk_end_to_end_tier_accuracy": "16/20 (80%)",
+  "risk_end_to_end_all_fields": "16/20 (80%)",
+  "risk_end_to_end_tier_accuracy_on_tiered_scenarios": "15/16 (94%)",
+  "risk_only_tier_accuracy": "20/20 (100%)",
+  "risk_only_all_fields": "20/20 (100%)",
+  "not_assessed_contexts": 2,
+  "contexts_not_in_any_scenario": 0,
+  "tier_confusion_expected_to_got": {
+    "High -> High": 5,
+    "Low -> Low": 3,
+    "Low -> not_assessed": 1,
+    "Medium -> Medium": 5,
+    "not_applicable -> Medium": 3,
+    "not_assessed_ai_unresolved -> not_assessed": 1,
+    "unresolved -> unresolved": 2
+  }
+}

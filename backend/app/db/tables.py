@@ -114,7 +114,8 @@ usage_context_assessments = Table(
     Column("investigation_flag", Boolean, nullable=False),
     Column("flag_reasons", JSON, nullable=False),
     Column("rule_version", String, nullable=False),
-    # owasp-usage-risk-v2 (migration 0007); null on rows saved by v1.
+    # owasp-usage-risk-v2 (migration 0007); null on rows saved by v1. Migration 0008 adds
+    # the not_assessed tier for usage of Tools whose identity or AI status is unresolved.
     Column("category_method", String),
     Column("interaction_class", String),
     Column("event_types", JSON),
@@ -134,7 +135,7 @@ usage_context_assessments = Table(
     Column("explanation", Text),
     Column("explanation_parts", JSON),
     CheckConstraint(
-        "tier IN ('High', 'Medium', 'Low', 'unresolved')",
+        "tier IN ('High', 'Medium', 'Low', 'unresolved', 'not_assessed')",
         name="ck_usage_context_assessments_tier",
     ),
     Index("ix_usage_context_assessments_run_tier", "run_id", "tier"),

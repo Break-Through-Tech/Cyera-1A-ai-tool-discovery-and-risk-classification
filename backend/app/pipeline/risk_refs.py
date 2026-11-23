@@ -56,6 +56,8 @@ REFERENCES: dict[str, tuple[Ref, ...]] = {
     "sensitivity_assumed_internal": (),
     "all_tool_facts_unknown": (_INVENTORY,),
     "not_in_ai_inventory": (_INVENTORY, _GOVERN_1_6),
+    "identity_unresolved": (_INVENTORY,),
+    "ai_status_unresolved": (_INVENTORY, _GOVERN_1_6),
     # Investigation flags not already covered above
     "high_tier": (),
     "insufficient_evidence_for_tier": (_INVENTORY,),
@@ -64,6 +66,7 @@ REFERENCES: dict[str, tuple[Ref, ...]] = {
     "access_grant_observed": (_LLM03, _LLM04, _AGENTIC),
     "submission_with_missing_facts": (_REGULATORY, _GOVERN_6_1),
     "access_grant_with_missing_facts": (_REGULATORY, _GOVERN_6_1),
+    "tool_not_assessed": (_INVENTORY, _SHADOW_AI),
 }
 
 

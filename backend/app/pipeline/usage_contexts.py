@@ -1,9 +1,10 @@
 """Usage Contexts and their contextual-risk assessments (`owasp-usage-risk-v2`, ADR 0005).
 
-A Usage Context is one AI Tool's observed activity for one department, supplied purpose,
+A Usage Context is one Tool's observed activity for one department, supplied purpose,
 data-sensitivity tier and interaction class within the Batch. Different kinds of use are
-never merged. Only resolved Tools that AI Determination called AI get contexts, so unresolved
-identity or AI status never receives a tier. Dataset B supplies tool-wide rubric facts; a Tool
+never merged. Only resolved Tools that AI Determination called AI are assessed. Usage of a
+Tool whose identity or AI status is unresolved is recorded as ``not_assessed`` (no tier), so
+it stays visible; non-AI Tools get no context. Dataset B supplies tool-wide rubric facts; a Tool
 without a Dataset B row has every fact unknown, is not in the AI inventory, and stays
 unresolved. Each context is assessed on its own and gets a template-built explanation.
 """
@@ -23,6 +24,7 @@ from app.pipeline.risk import (
     RiskFacts,
     assess,
     interaction_class,
+    not_assessed,
     normalize_fact,
     purpose_class,
 )
@@ -114,8 +116,10 @@ def assess_usage_contexts(
     for candidate, ai, classification in zip(
         identities, ai_determinations, category_classifications, strict=True
     ):
-        if candidate.outcome not in RESOLVED_OUTCOMES or ai.determination != "ai":
+        if ai.determination == "non_ai":
             continue
+        identity_resolved = candidate.outcome in RESOLVED_OUTCOMES
+        eligible = identity_resolved and ai.determination == "ai"
         row = metadata.find(candidate.domain, normalize_name(candidate.application_names[0]))
         _, unrecognized_tool = tool_facts(row)
         for context in _usage_contexts(candidate, by_event_id):
@@ -124,8 +128,12 @@ def assess_usage_contexts(
             _, original = normalize_fact("data_sensitivity_tier", context.data_sensitivity_tier)
             if original is not None:
                 unrecognized["data_sensitivity_tier"] = original
+            if eligible:
+                assessment = assess(facts, context.event_ids)
+            else:
+                assessment = not_assessed(facts, identity_resolved, ai.determination)
             assessed.append(
-                _assess_context(context, row, facts, unrecognized, classification)
+                _assess_context(context, row, facts, assessment, unrecognized, classification, ai)
             )
     return assessed
 
@@ -134,10 +142,11 @@ def _assess_context(
     context: UsageContext,
     row: Mapping[str, str] | None,
     facts: RiskFacts,
+    assessment: Assessment,
     unrecognized: dict[str, str],
     classification: CategoryClassification,
+    ai: AiDetermination,
 ) -> ContextAssessment:
-    assessment = assess(facts, context.event_ids)
     category = classification.category if classification.outcome == "assigned" else None
     method = classification.method if category else None
     explanation = explain(
@@ -148,6 +157,8 @@ def _assess_context(
         method,
         classification.share if category else None,
         unrecognized,
+        ai.stage,
+        ai.reason,
     )
     purpose_cls, concern_tags = purpose_class(context.usage_purpose)
     return ContextAssessment(
@@ -181,7 +192,7 @@ def _usage_contexts(
         groups.setdefault(key, []).append(event)
     return [
         UsageContext(
-            candidate.tool_id,
+            candidate.tool_id or f"unresolved:{candidate.domain}",
             candidate.application_names[0],
             candidate.domain,
             *key,

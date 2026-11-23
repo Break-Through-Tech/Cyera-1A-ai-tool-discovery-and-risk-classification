@@ -1,4 +1,4 @@
-# Contextual risk rubric v2 (`owasp-usage-risk-v2`)
+# Contextual risk rubric v2 (`owasp-usage-risk-v2.1`)
 
 > **Status: Confirmed by the team, 2026-11-23.** This is the rubric the risk analysis
 > implements. It replaces `synthetic-demo-risk-v1`. It consolidates
@@ -12,6 +12,13 @@
 > 3. **Unknown sensitivity:** calculated as `internal`, always disclosed.
 > 4. **Interaction vocabulary:** the revision-2 interaction classes, plus a v2 fixture.
 > 5. **Purpose classes:** used for the explanation only; they never change the tier.
+>
+> **Revision v2.1 (2026-11-23), after the first end-to-end run.** The matrix, escalations and
+> existing flags are unchanged. Changes: (a) usage of a Tool whose identity or AI status is
+> unresolved is saved as a `not_assessed` row instead of being dropped (sections 1, 4, 6);
+> (b) explanation wording: a comma closes the category phrase, purposes use natural phrases,
+> shared "terms" are joined ("training and admin-control terms"), and sentence 3 shows both
+> the assumption and any unnamed unknown vendor facts (section 6).
 >
 > Like v1, this is a framework-informed **synthetic demonstration policy**. It is not Cyera
 > policy, not an OWASP-prescribed tiering, and not a compliance determination. Changing any
@@ -36,11 +43,14 @@ together with the four grouping fields below.
 - Identity resolution gave `known_tool` or `observed_tool`; and
 - AI determination gave `ai`.
 
-Non-AI and unresolved candidates get no context and no tier, as in v1.
+Non-AI candidates get no context. Usage of a candidate whose identity or AI status is
+unresolved gets a context with the outcome `not_assessed`: no tier is assigned and no rubric
+fact is judged, but the usage stays visible and is flagged `tool_not_assessed` for review.
+A candidate with no resolved identity uses the Tool ID `unresolved:{domain}`.
 
 **Output.** Each assessment has five parts:
 
-- a tier: `Low`, `Medium`, `High` or `unresolved`;
+- a tier: `Low`, `Medium`, `High` or `unresolved`, or the outcome `not_assessed` (section 1);
 - an explanation of two or three sentences;
 - reason codes;
 - investigation flags;
@@ -163,6 +173,7 @@ The final tier follows from the base tier:
 | `customer_data_training_permitted` | training = `yes` | v1; LLM02 |
 | `admin_controls_absent` | admin = `no` | v1 |
 | `insufficient_evidence_for_tier` | tier = unresolved | v1 |
+| `tool_not_assessed` | outcome = not_assessed | Checklist: AI asset inventory; Shadow AI |
 | `sensitive_data_in_non_governed_tool` | exposure ≥ E2 **and** governance ∈ {adverse, ungoverned} | Checklist: Governance |
 | `sensitive_use_of_unassessed_tool` | exposure ≥ E2 **and** governance = unassessed | Checklist: AI asset inventory |
 | `not_in_ai_inventory` | `in_inventory = false` | Checklist: AI asset inventory; Shadow AI |
@@ -187,7 +198,7 @@ reference explains why a factor matters; it never proves a vendor fact.
 | `customer_data_training_permitted` | "the vendor may train on customer data" | LLM02:2026 (training opt-out). Checklist: Legal (EULA, prompts, data privacy) |
 | `admin_controls_absent` | "the tool has no admin controls" | Checklist: Governance (technical enforcement). LLM02:2026 (access controls) |
 | `approved_tool` + `no_customer_data_training` + `admin_controls_available` | "the tool is approved, the vendor does not train on customer data and admin controls are available" | Checklist: Governance |
-| `controls_unconfirmed` (partial) | "the vendor's {unknown facts} {is/are} unknown" | Checklist: Regulatory. NIST AI RMF GOVERN 6.1 |
+| `controls_unconfirmed` (partial) | "the vendor's {unknown facts} {is/are} unknown"; labels ending in "terms" share it ("training and admin-control terms") | Checklist: Regulatory. NIST AI RMF GOVERN 6.1 |
 | `restricted_data_context` | "restricted data is involved" | LLM02:2026. Checklist: Regulatory / Legal |
 | `confidential_data_context` | "confidential data is involved"; with governance adverse or ungoverned: "confidential data should not go into a tool that isn't business-managed" | LLM02:2026. Checklist: Governance |
 | `internal_data_context` | "internal data is involved"; when sensitivity is assumed: "no data sensitivity was supplied" | Checklist: AI asset inventory |
@@ -196,6 +207,8 @@ reference explains why a factor matters; it never proves a vendor fact.
 | `access_granted_to_non_governed_tool` | "{OAuth access was granted / a connector was added} to a tool with an adverse governance fact" | LLM03:2026. LLM04:2026. Agentic Top 10 |
 | `sensitivity_assumed_internal` | (sentence 3) "Sensitivity unknown; tier calculated using the internal-data assumption." | — |
 | `all_tool_facts_unknown` | (unresolved template) | Checklist: AI asset inventory |
+| `identity_unresolved` | (not-assessed template) | Checklist: AI asset inventory |
+| `ai_status_unresolved` | (not-assessed template) | Checklist: AI asset inventory. NIST AI RMF GOVERN 1.6 |
 | `not_in_ai_inventory` | used only in parts and flags | Checklist: AI asset inventory. NIST AI RMF GOVERN 1.6 |
 
 Before the demo, check each reference against the official LLM Top 10 2026 PDF and the
@@ -222,8 +235,8 @@ Fill the sentences in order. A slot is never dropped to make room for another.
 
 | Slot | Rule |
 |---|---|
-| `{category}` | `", a {Category} tool"` (catalog); `", likely a {Category} tool"` (neighbor vote); empty when unresolved |
-| `{purpose}` | `usage_purpose` with underscores turned into spaces; `unknown` becomes "an unstated purpose" |
+| `{category}` | `", a {Category} tool,"` (catalog); `", likely a {Category} tool,"` (neighbor vote); empty when unresolved |
+| `{purpose}` | a natural phrase for known purposes (`draft_summary` → "drafting summaries"); otherwise `usage_purpose` with underscores turned into spaces; `unknown` becomes "an unstated purpose" |
 | `{sensitivity}` | `"{value} data"`, or "data of unknown sensitivity" |
 | `{activity}` | presence: "; only visits were observed". `prompt_submit` / `chat_message`: "; prompts were submitted". `content_paste`: "; pasted content was observed". `file_upload`: "; file uploads were observed". `oauth_grant`: "; the tool was granted OAuth access". `connector_added`: "; a connector to company systems was added". unknown: "; the activity type was not recorded". Join phrases when a context has several event types |
 
@@ -235,11 +248,11 @@ Fill the sentences in order. A slot is never dropped to make room for another.
 | Escalation raised the tier | `Rated {tier}: {base_tier} because {governance phrase} and {exposure phrase}, raised one step because {escalation phrase}.` |
 | Escalation, already High | `Rated High because {governance phrase} and {exposure phrase}; {escalation phrase} was also observed.` |
 
-**Sentence 3, only when needed.** Join these clauses in order:
+**Sentence 3, only when needed.** Join these clauses in order; each applies on its own:
 
 1. If sensitivity is assumed: "Sensitivity unknown; tier calculated using the internal-data
    assumption."
-2. Otherwise, unknown vendor facts not already named in sentence 2, for example "Training and
+2. Unknown vendor facts not already named in sentence 2, for example "Training and
    admin-control terms are unknown."
 3. If `submission_with_missing_facts`: "Review: content was submitted without {a known data
    sensitivity / known vendor training terms}."
@@ -253,6 +266,15 @@ Fill the sentences in order. A slot is never dropped to make room for another.
 - If `sensitive_use_of_unassessed_tool` is set, add: `It was used with {sensitivity} data
   and needs review.`
 - Add any "Review:" clauses from sentence 3.
+
+**Not assessed:** sentence 1, then
+`Not assessed because {why}[: {evidence gap}]. No risk level was assigned; review this usage.`
+
+- `{why}`: "its AI status is unresolved", "the tool could not be identified", or both.
+- `{evidence gap}` (AI status unresolved only), from the AI Determination stage: no evidence →
+  "its homepage could not be read and no description was supplied"; too little text → "its
+  homepage had too little text to judge and no description was supplied"; judge undecided →
+  "the AI judge could not decide from the available text".
 
 **Wording rules:**
 
@@ -279,7 +301,7 @@ The result keeps all of v1's fields: context fields, event IDs, timestamps, `met
 - `framework_refs`;
 - `explanation` (text) and `explanation_parts` (the structured slots above).
 
-`rule_version = "owasp-usage-risk-v2"`. Stored v1 rows keep their own version and tier labels
+`rule_version = "owasp-usage-risk-v2.1"`. Stored v1 rows keep their own version and tier labels
 (`Lower` is migrated to `Low`).
 
 ---

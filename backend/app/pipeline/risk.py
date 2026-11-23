@@ -11,15 +11,19 @@ and not a compliance determination. No LLM chooses the tier.
    ``unresolved``.
 4. Content submission or an access grant may raise the tier one step (never down).
 
+A context whose Tool is not a resolved AI Tool (AI status or identity unresolved) is not
+assessed: it gets the ``not_assessed`` outcome so the usage stays visible (rubric v2.1).
+Non-AI Tools get no context.
+
 `unknown` is never treated as the favourable value, and conditional training counts as unknown.
 """
 
 from collections.abc import Sequence
 from dataclasses import dataclass, field
 
-RISK_RULE_VERSION = "owasp-usage-risk-v2"
+RISK_RULE_VERSION = "owasp-usage-risk-v2.1"
 FACT_SCOPE = "tool_wide_scenario_assumption"
-TIERS = ("Low", "Medium", "High", "unresolved")
+TIERS = ("Low", "Medium", "High", "unresolved", "not_assessed")
 
 _ALLOWED = {
     "policy_status": {"approved", "unapproved", "unknown"},
@@ -270,4 +274,36 @@ def assess(facts: RiskFacts, event_ids: Sequence[str] = ()) -> Assessment:
         escalation_reason=escalation_reason,
         tier_raised=escalation is not None and tier != base_tier,
         escalation_event_ids=list(event_ids) if escalation else [],
+    )
+
+
+def not_assessed(
+    facts: RiskFacts, identity_resolved: bool, ai_status: str
+) -> Assessment:
+    """The ``not_assessed`` outcome for usage of a Tool that is not a resolved AI Tool.
+
+    No tier is assigned and no rubric fact is judged; the row exists so the usage stays visible
+    and is flagged for review. ``ai_status`` is the AI Determination (``ai`` or ``unresolved``).
+    """
+    if ai_status not in {"ai", "unresolved"}:
+        raise ValueError(f"non-AI usage is not recorded, not {ai_status!r}")
+    reasons = []
+    if not identity_resolved:
+        reasons.append("identity_unresolved")
+    if ai_status == "unresolved":
+        reasons.append("ai_status_unresolved")
+    flags = ["tool_not_assessed"]
+    if not facts.in_inventory:
+        reasons.append("not_in_ai_inventory")
+        flags.append("not_in_ai_inventory")
+    return Assessment(
+        tier="not_assessed",
+        reason_codes=reasons,
+        unknown_facts=[],
+        investigation_flag=True,
+        flag_reasons=flags,
+        governance_level="not_assessed",
+        exposure_level="not_assessed",
+        sensitivity_assumed=facts.data_sensitivity_tier == "unknown",
+        base_tier="not_assessed",
     )

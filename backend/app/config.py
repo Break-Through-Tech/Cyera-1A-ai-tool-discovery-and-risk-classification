@@ -22,7 +22,7 @@ class Settings:
     )
     neighbor_index_path: Path = REPO_DIR / "artifacts/category_neighbor_index/v1"
     tool_metadata_path: Path = (
-        REPO_DIR / "data/synthetic_enterprise_activity/v1/scenario_tool_metadata.csv"
+        REPO_DIR / "data/synthetic_enterprise_activity/v2/scenario_tool_metadata.csv"
     )
     typesafe_api_key: str | None = field(default=None, repr=False)
     gemini_api_key: str | None = field(default=None, repr=False)

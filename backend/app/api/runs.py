@@ -64,7 +64,7 @@ class RiskFactsOut(BaseModel):
     in_inventory: bool | None = None
 
 
-Tier = Literal["High", "Medium", "Low", "unresolved"]
+Tier = Literal["High", "Medium", "Low", "unresolved", "not_assessed"]
 InteractionClass = Literal["presence", "content_submission", "access_grant", "unknown"]
 
 
