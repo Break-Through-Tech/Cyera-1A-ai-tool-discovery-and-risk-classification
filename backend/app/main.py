@@ -1,6 +1,8 @@
 from fastapi import Depends, FastAPI
 
 from app.api import batches, runs
+from app.api import applications
+from app.api import overview
 from app.api.query import reject_unknown_query_parameters
 from app.assistant.store import fail_interrupted_turns
 from app.config import Settings
@@ -33,6 +35,8 @@ def create_app(
     register_error_handlers(app)
     app.include_router(batches.router)
     app.include_router(runs.router)
+    app.include_router(applications.router)
+    app.include_router(overview.router)
 
     @app.get("/health")
     def health() -> dict[str, str]:

@@ -3,6 +3,7 @@ from sqlalchemy import (
     Boolean,
     CheckConstraint,
     Column,
+    Float,
     ForeignKey,
     ForeignKeyConstraint,
     Index,
@@ -118,6 +119,81 @@ usage_context_assessments = Table(
         name="ck_usage_context_assessments_tier",
     ),
     Index("ix_usage_context_assessments_run_tier", "run_id", "tier"),
+)
+
+# Per-stage results of a succeeded Run, written in the same transaction as its
+# assessments. `candidate_number` is the Tool Candidate's 1-based position in the
+# Run's identity output; it identifies unresolved candidates, which have no Tool ID.
+tool_candidates = Table(
+    "tool_candidates",
+    metadata,
+    Column("run_id", String, ForeignKey("analysis_runs.run_id"), primary_key=True),
+    Column("candidate_number", Integer, primary_key=True),
+    Column("domain", String, nullable=False),
+    Column("application_names", JSON, nullable=False),
+    Column("event_ids", JSON, nullable=False),
+    Column("event_count", Integer, nullable=False),
+    Column("outcome", String, nullable=False),
+    Column("tool_id", String),
+    Column("basis", String),
+    Column("reason", String),
+    Column("catalog_tool_ids", JSON, nullable=False),
+    Column("metadata_id", String),
+    Index("ix_tool_candidates_run_tool", "run_id", "tool_id"),
+)
+
+ai_determinations = Table(
+    "ai_determinations",
+    metadata,
+    Column("run_id", String, primary_key=True),
+    Column("candidate_number", Integer, primary_key=True),
+    Column("determination", String, nullable=False),
+    Column("stage", String, nullable=False),
+    Column("reason", String),
+    Column("model", String),
+    Column("probabilities", JSON(none_as_null=True)),
+    Column("evidence", JSON, nullable=False),
+    Column("needs_review", Boolean, nullable=False),
+    Column("source", JSON(none_as_null=True)),
+    Column("text_supplied", Boolean),
+    ForeignKeyConstraint(
+        ["run_id", "candidate_number"],
+        ["tool_candidates.run_id", "tool_candidates.candidate_number"],
+    ),
+)
+
+category_classifications = Table(
+    "category_classifications",
+    metadata,
+    Column("run_id", String, primary_key=True),
+    Column("candidate_number", Integer, primary_key=True),
+    Column("outcome", String, nullable=False),
+    Column("method", String),
+    Column("category", String),
+    Column("reason", String),
+    Column("share", Float),
+    Column("neighbors", JSON, nullable=False),
+    Column("source", JSON(none_as_null=True)),
+    ForeignKeyConstraint(
+        ["run_id", "candidate_number"],
+        ["tool_candidates.run_id", "tool_candidates.candidate_number"],
+    ),
+)
+
+website_captures = Table(
+    "website_captures",
+    metadata,
+    Column("run_id", String, ForeignKey("analysis_runs.run_id"), primary_key=True),
+    Column("domain", String, primary_key=True),
+    Column("requested_url", String, nullable=False),
+    Column("captured_at", String, nullable=False),
+    Column("outcome", String, nullable=False),
+    Column("detail", String),
+    Column("final_url", String),
+    Column("title", String),
+    Column("page_metadata", JSON, nullable=False),
+    Column("headings", JSON, nullable=False),
+    Column("main_text", String, nullable=False),
 )
 
 assistant_turns = Table(
