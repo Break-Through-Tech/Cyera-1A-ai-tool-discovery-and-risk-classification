@@ -5,6 +5,7 @@ from fastapi import Depends, FastAPI
 from app.api import batches, runs
 from app.api import applications
 from app.api import overview
+from app.api import evidence
 from app.api.query import reject_unknown_query_parameters
 from app.assistant.model import GeminiModel
 from app.assistant.store import fail_interrupted_turns
@@ -55,6 +56,7 @@ def create_app(
     app.include_router(runs.router)
     app.include_router(applications.router)
     app.include_router(overview.router)
+    app.include_router(evidence.router)
 
     @app.get("/health")
     def health() -> dict[str, str]:
