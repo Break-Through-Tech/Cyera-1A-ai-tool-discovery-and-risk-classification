@@ -6,7 +6,7 @@ unresolved Tool Candidate has no Tool ID and is addressed as ``("candidate", num
 """
 
 from collections.abc import Iterable, Mapping, Sequence
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 
 from sqlalchemy import ColumnElement, Connection, and_, func, select, true
 
@@ -18,10 +18,38 @@ from app.db.tables import (
     usage_context_assessments,
 )
 from app.pipeline.usage_contexts import RESOLVED_OUTCOMES
+from app.scope import Scope, context_conditions, scoped_events
 
 # Highest first; an unresolved tier ranks below every resolved one.
 TIER_ORDER = ("High", "Medium", "Lower", "unresolved")
 _AI_PRECEDENCE = ("ai", "unresolved", "non_ai")
+
+INVENTORY_DEFINITIONS = {
+    "applications": (
+        "One row per application of a selected Run: a resolved Tool, gathering every Tool "
+        "Candidate the Run resolved to it, or an unresolved Tool Candidate. An application "
+        "matches when it has at least one matching Activity Event, and its own AI "
+        "Determination, Identity Resolution outcome and names or domain match the inventory "
+        "filters. Applications are per Run, never merged across Batches: one known Tool "
+        "seen in two Batches is two rows. Ordered by first application name (case-"
+        "insensitive), domain, Run ID, subject kind and subject ID."
+    ),
+    "applications.matching_events": (
+        "The application's matching Activity Events, as in overview activity counts."
+    ),
+    "applications.matching_context_numbers": (
+        "The application's matching Usage Contexts in its Run."
+    ),
+    "applications.event_count": (
+        "Every Activity Event of the application in its Run, regardless of filters; "
+        "context_count, highest_tier, investigation_flag and policy_statuses likewise "
+        "describe all of its Usage Contexts in the Run."
+    ),
+    "applications.ai_determination": (
+        "A Tool with several Tool Candidates is AI if any candidate is, non-AI only if every "
+        "candidate is, and otherwise unresolved."
+    ),
+}
 _KEYS = ("run_id", "candidate_number")
 _CONTEXT_COLUMNS = (
     "context_number",
@@ -62,11 +90,88 @@ class ApplicationSummary:
     policy_statuses: tuple[str, ...]
 
 
-def list_application_summaries(connection: Connection, run_id: str) -> list[ApplicationSummary]:
-    """Every application of a Run, ordered by its first Tool Candidate."""
+def list_application_summaries(
+    connection: Connection, run_ids: Sequence[str]
+) -> list[ApplicationSummary]:
+    """Every application of the Runs, each Run's ordered by its first Tool Candidate."""
     return _summarize(
-        run_id, _candidates(connection, run_id), _contexts(connection, run_id)
+        _candidates(connection, run_ids, details=False), _contexts(connection, run_ids)
     )
+
+
+def list_applications(
+    connection: Connection,
+    scope: Scope,
+    limit: int,
+    offset: int,
+    ai_determinations: Sequence[str] = (),
+    identity_outcomes: Sequence[str] = (),
+    application: str | None = None,
+) -> tuple[list[dict], int]:
+    """One page of the scope's matching applications and their total; see ``INVENTORY_DEFINITIONS``.
+
+    ``application`` matches any application name or the domain, case-insensitively, as a
+    substring. Each row is an ``ApplicationSummary`` with its ``batch_id``,
+    ``matching_events`` and ``matching_context_numbers``.
+    """
+    events = scoped_events(scope)
+    matching_events = {
+        (run_id, number): count
+        for run_id, number, count in connection.execute(
+            select(events.c.run_id, events.c.candidate_number, func.count()).group_by(
+                events.c.run_id, events.c.candidate_number
+            )
+        )
+    }
+    table = usage_context_assessments
+    matching_contexts: dict[tuple[str, str], list[int]] = {}
+    for run_id, tool_id, number in connection.execute(
+        select(table.c.run_id, table.c.tool_id, table.c.context_number)
+        .where(*context_conditions(scope))
+        .order_by(table.c.run_id, table.c.context_number)
+    ):
+        matching_contexts.setdefault((run_id, tool_id), []).append(number)
+    batch_ids = {s.run_id: s.batch_id for s in scope.selections}
+    needle = application.casefold() if application is not None else None
+
+    rows = []
+    for summary in list_application_summaries(connection, scope.run_ids):
+        matched = sum(
+            matching_events.get((summary.run_id, n), 0) for n in summary.candidate_numbers
+        )
+        if not matched:
+            continue
+        if ai_determinations and summary.ai_determination not in ai_determinations:
+            continue
+        if identity_outcomes and summary.identity_outcome not in identity_outcomes:
+            continue
+        if needle is not None and not any(
+            needle in text.casefold() for text in (*summary.application_names, summary.domain)
+        ):
+            continue
+        contexts = (
+            matching_contexts.get((summary.run_id, summary.subject_id), [])
+            if summary.subject_kind == "tool"
+            else []
+        )
+        rows.append(
+            {
+                **asdict(summary),
+                "batch_id": batch_ids[summary.run_id],
+                "matching_events": matched,
+                "matching_context_numbers": contexts,
+            }
+        )
+    rows.sort(
+        key=lambda r: (
+            r["application_names"][0].casefold(),
+            r["domain"],
+            r["run_id"],
+            r["subject_kind"],
+            r["subject_id"],
+        )
+    )
+    return rows[offset : offset + limit], len(rows)
 
 
 def get_application(
@@ -83,15 +188,15 @@ def get_application(
             tool_candidates.c.candidate_number == int(subject_id),
             tool_candidates.c.outcome.not_in(RESOLVED_OUTCOMES),
         ]
-    candidates = _candidates(connection, run_id, *where)
+    candidates = _candidates(connection, [run_id], *where)
     if not candidates:
         return None
     contexts = (
-        _contexts(connection, run_id, usage_context_assessments.c.tool_id == subject_id)
+        _contexts(connection, [run_id], usage_context_assessments.c.tool_id == subject_id)
         if subject_kind == "tool"
         else []
     )
-    summary = _summarize(run_id, candidates, contexts)[0]
+    summary = _summarize(candidates, contexts)[0]
     first = candidates[0]
     no_context_reason = None if contexts else _no_context_reason(summary)
     return {
@@ -162,18 +267,18 @@ def get_application(
 
 
 def _summarize(
-    run_id: str, candidates: Sequence[Mapping], contexts: Sequence[Mapping]
+    candidates: Sequence[Mapping], contexts: Sequence[Mapping]
 ) -> list[ApplicationSummary]:
-    subjects: dict[tuple[str, str], list[Mapping]] = {}
+    subjects: dict[tuple[str, str, str], list[Mapping]] = {}
     for candidate in candidates:
-        subjects.setdefault(_subject(candidate), []).append(candidate)
-    contexts_by_tool: dict[str, list[Mapping]] = {}
+        subjects.setdefault((candidate["run_id"], *_subject(candidate)), []).append(candidate)
+    contexts_by_tool: dict[tuple[str, str], list[Mapping]] = {}
     for context in contexts:
-        contexts_by_tool.setdefault(context["tool_id"], []).append(context)
+        contexts_by_tool.setdefault((context["run_id"], context["tool_id"]), []).append(context)
 
     summaries = []
-    for (kind, subject_id), grouped in subjects.items():
-        found = contexts_by_tool.get(subject_id, []) if kind == "tool" else []
+    for (run_id, kind, subject_id), grouped in subjects.items():
+        found = contexts_by_tool.get((run_id, subject_id), []) if kind == "tool" else []
         ai = _tool_ai_determination(c["ai"]["determination"] for c in grouped)
         # Only a known Tool groups several candidates; its AI-positive ones share one catalog
         # Category, so the first candidate with the Tool's AI outcome speaks for all of them.
@@ -223,19 +328,30 @@ def _no_context_reason(summary: ApplicationSummary) -> str:
     return f"ai_determination_{summary.ai_determination}"
 
 
-def _candidates(connection: Connection, run_id: str, *where: ColumnElement) -> list[dict]:
-    """Tool Candidates in order with nested ``ai`` and ``category`` outcomes, without event IDs."""
+def _candidates(
+    connection: Connection, run_ids: Sequence[str], *where: ColumnElement, details: bool = True
+) -> list[dict]:
+    """Tool Candidates by Run and number with nested ``ai`` and ``category`` outcomes.
+
+    Event IDs are left out; without ``details`` so are evidence, neighbors and provenance.
+    """
     ai, category = ai_determinations, category_classifications
+    if details:
+        outcomes = [c for c in ai.c if c.name not in _KEYS]
+        categories = [c for c in category.c if c.name not in _KEYS]
+    else:
+        outcomes = [ai.c.determination]
+        categories = [category.c.outcome, category.c.category]
     rows = connection.execute(
         select(
-            *(c for c in tool_candidates.c if c.name not in ("run_id", "event_ids")),
-            *(c.label(f"ai.{c.name}") for c in ai.c if c.name not in _KEYS),
-            *(c.label(f"category.{c.name}") for c in category.c if c.name not in _KEYS),
+            *(c for c in tool_candidates.c if c.name != "event_ids"),
+            *(c.label(f"ai.{c.name}") for c in outcomes),
+            *(c.label(f"category.{c.name}") for c in categories),
         )
         .join(ai, _same_candidate(ai))
         .join(category, _same_candidate(category))
-        .where(tool_candidates.c.run_id == run_id, *where)
-        .order_by(tool_candidates.c.candidate_number)
+        .where(tool_candidates.c.run_id.in_(run_ids), *where)
+        .order_by(tool_candidates.c.run_id, tool_candidates.c.candidate_number)
     ).mappings().all()
     candidates = []
     for row in rows:
@@ -257,13 +373,13 @@ def _same_candidate(table) -> ColumnElement[bool]:
     )
 
 
-def _contexts(connection: Connection, run_id: str, *where: ColumnElement) -> list[dict]:
-    """Usage Context assessments in context order, without their event IDs."""
+def _contexts(connection: Connection, run_ids: Sequence[str], *where: ColumnElement) -> list[dict]:
+    """Usage Context assessments by Run and number, without their event IDs."""
     table = usage_context_assessments
     rows = connection.execute(
-        select(*(table.c[name] for name in _CONTEXT_COLUMNS))
-        .where(table.c.run_id == run_id, *where)
-        .order_by(table.c.context_number)
+        select(table.c.run_id, *(table.c[name] for name in _CONTEXT_COLUMNS))
+        .where(table.c.run_id.in_(run_ids), *where)
+        .order_by(table.c.run_id, table.c.context_number)
     ).mappings().all()
     return [dict(row) for row in rows]
 
