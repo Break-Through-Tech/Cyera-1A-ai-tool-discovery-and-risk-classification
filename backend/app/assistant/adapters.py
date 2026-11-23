@@ -24,7 +24,6 @@ from sqlalchemy.exc import SQLAlchemyError
 from app.assistant.contracts import (
     AggregateEvidence,
     Contract,
-    EventTimeRange,
     Evidence,
     PinnedScope,
     RecordEvidence,
@@ -56,13 +55,13 @@ from app.assistant.tools import (
 from app.config import Settings
 from app.contexts import CONTEXT_DEFINITIONS
 from app.errors import AppError
-from app.events import EVENT_DEFINITIONS
 from app.evidence import (
     AnalysisRunReference,
     EvidenceError,
     EvidenceSources,
     PassageReference,
     RecordReference,
+    UsageContextReference,
     record_reference,
     resolve_evidence,
     to_record_evidence,
@@ -74,7 +73,6 @@ from app.scope import (
     CATEGORY_OUTCOMES,
     MATCHING_DEFINITIONS,
     Filters,
-    ObservedActivity,
     Scope,
     event_time_bound,
     observe_activity,
@@ -156,7 +154,6 @@ class _Read:
     pinned: PinnedScope
     scope: Scope
     ai_statuses: tuple[str, ...]
-    observed: ObservedActivity
     warnings: tuple[str, ...]
 
 
@@ -245,15 +242,7 @@ class QueryTools:
         )
         evidence: list[Evidence] = [
             self._aggregate(read, "describe_dataset", "GET /overview", {}, definitions),
-            *(
-                RecordEvidence(
-                    evidence_id=_record_id(ref),
-                    run=ref.run,
-                    record_type="analysis_run",
-                    record_id=ref.run.run_id,
-                )
-                for ref in (AnalysisRunReference(run=run) for run in read.pinned.runs)
-            ),
+            *(_cite(AnalysisRunReference(run=run)) for run in read.pinned.runs),
         ]
         empty = profile["events"] == 0 and contexts["total"] == 0
 
@@ -414,7 +403,9 @@ class QueryTools:
                 "baseline": results["baseline"],
                 "current": results["current"],
                 "change": change,
-                "percent_change": round(change / baseline * 100, 1) if change is not None and baseline else None,
+                "percent_change": (
+                    round(change / baseline * 100, 1) if change is not None and baseline else None
+                ),
             },
             evidence=tuple(evidence),
             qualifications=tuple(dict.fromkeys(notes)),
@@ -433,11 +424,11 @@ class QueryTools:
         )
         batch_ids = {s.run_id: s.batch_id for s in read.scope.selections}
         evidence_rows = [
-            RecordEvidence(
-                evidence_id=f"usage_context:{row['run_id']}:{row['context_number']}",
-                run=RunReference(batch_id=batch_ids[row["run_id"]], run_id=row["run_id"]),
-                record_type="usage_context",
-                record_id=str(row["context_number"]),
+            _cite(
+                UsageContextReference(
+                    run=RunReference(batch_id=batch_ids[row["run_id"]], run_id=row["run_id"]),
+                    context_number=row["context_number"],
+                )
             )
             for row in rows
         ]
@@ -567,9 +558,10 @@ class QueryTools:
                     "unresolved": unresolved,
                     "omitted_for_size": omitted,
                 },
+                # A resolved passage would need PassageEvidence; none resolve until #79.
                 evidence=tuple(
-                    to_record_evidence(reference, key)
-                    for key, reference, _ in shown
+                    _cite(reference)
+                    for _, reference, _ in shown
                     if not isinstance(reference, PassageReference)
                 ),
                 qualifications=tuple(notes),
@@ -711,13 +703,9 @@ def _verify(connection: Connection, pinned: PinnedScope) -> _Read:
     selected = {(s.batch_id, s.run_id) for s in scope.selections}
     if selected != {(r.batch_id, r.run_id) for r in pinned.runs}:
         raise _Stop(_SCOPE_FAILURES[422])
-    observed = observe_activity(connection, scope)
-    warnings = tuple(
-        dict.fromkeys(
-            _warning_text(warning) for warning in (*scope.warnings, *observed.warnings)
-        )
-    )
-    return _Read(pinned, scope, pinned.filters.ai_statuses, observed, warnings)
+    overlap = observe_activity(connection, scope).warnings
+    warnings = tuple(dict.fromkeys(_warning_text(w) for w in (*scope.warnings, *overlap)))
+    return _Read(pinned, scope, pinned.filters.ai_statuses, warnings)
 
 
 _SCOPE_FAILURES = {
@@ -889,9 +877,12 @@ def _reference_key(reference: RecordReference | PassageReference) -> str:
                 reference.passage_id,
             )
         )
-    return _record_id(reference)
+    return _cite(reference).evidence_id
 
 
-def _record_id(reference: RecordReference) -> str:
+def _cite(reference: RecordReference) -> RecordEvidence:
+    """Record evidence whose local ID, ``<record_type>:<run_id>:<record_id>``, reopens it."""
     evidence = to_record_evidence(reference, "local")
-    return f"{evidence.record_type}:{reference.run.run_id}:{evidence.record_id}"
+    return evidence.model_copy(
+        update={"evidence_id": f"{evidence.record_type}:{reference.run.run_id}:{evidence.record_id}"}
+    )
