@@ -17,6 +17,7 @@ from app.enrichment.http import CurlHttpClient
 from app.pipeline import Phase, Pipeline, RunContext
 from app.pipeline.identity import load_registry, load_tool_metadata, resolve_identities
 from app.pipeline.risk import RISK_RULE_VERSION
+from app.pipeline.risk_refs import RISK_REFS_VERSION
 from app.pipeline.usage_contexts import assess_usage_contexts
 from app.results import save_assessments
 
@@ -90,7 +91,9 @@ def default_pipeline(
                 select(
                     activity_events.c.event_id,
                     activity_events.c.occurred_at,
+                    activity_events.c.employee_id,
                     activity_events.c.department,
+                    activity_events.c.event_type,
                     activity_events.c.usage_purpose,
                     activity_events.c.data_sensitivity_tier,
                 ).where(activity_events.c.batch_id == context.batch_id)
@@ -99,21 +102,12 @@ def default_pipeline(
             events,
             context.results["identities"],
             context.results["ai_determinations"],
+            context.results["category_classifications"],
             metadata,
         )
 
     def save(connection: Connection, context: RunContext) -> None:
-        categories = {
-            candidate.tool_id: classification.category
-            for candidate, classification in zip(
-                context.results["identities"],
-                context.results["category_classifications"],
-                strict=True,
-            )
-        }
-        save_assessments(
-            connection, context.run_id, context.results["risk_assessments"], categories
-        )
+        save_assessments(connection, context.run_id, context.results["risk_assessments"])
 
     return Pipeline(
         phases=(
@@ -130,6 +124,7 @@ def default_pipeline(
             "ai_determination": configuration_version(prefer_supplied),
             "category_classification": category_version(index, prefer_supplied),
             "risk_assessment": RISK_RULE_VERSION,
+            "risk_references": RISK_REFS_VERSION,
         },
         save=save,
     )

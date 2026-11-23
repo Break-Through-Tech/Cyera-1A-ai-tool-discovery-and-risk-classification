@@ -69,7 +69,11 @@ One execution of a particular discovery, classification, and risk-rule version a
 _Avoid_: Batch; model version; unresolved determination
 
 **Usage Context**:
-An Analysis Run's grouping of activity involving one resolved Tool within a shared department, Usage Purpose, Data Sensitivity Tier, and time window. Only a Usage Context involving an AI Tool is eligible for contextual governance-risk assessment.
+An Analysis Run's grouping of activity involving one resolved Tool within a shared department, Usage Purpose, Data Sensitivity Tier, Interaction Class, and time window. Only a Usage Context involving an AI Tool is eligible for contextual governance-risk assessment.
+
+**Interaction Class**:
+The kind of activity a Usage Context's events show, derived from `event_type`: presence (the Tool was reached), content submission (content was sent to the Tool), access grant (the Tool was granted access to company systems), or unknown. Presence never establishes submission; an event type joins a class only with a confirmed rule saying what it proves.
+_Avoid_: Interaction depth; usage intensity
 _Avoid_: Activity Event; Tool Candidate; global Tool risk
 
 **Policy Status**:
@@ -77,8 +81,20 @@ An organization- or synthetic-scenario-supplied disposition toward a Tool within
 _Avoid_: Risk tier; inferred approval
 
 **Contextual Risk Assessment**:
-A deterministic evaluation of an AI Tool's Usage Context against the project's versioned governance-risk rules, producing risk factors, a tier, reasons, and unknowns. It does not establish Policy Status or compliance.
+A deterministic evaluation of an AI Tool's Usage Context against the project's versioned governance-risk rules, producing risk factors, a tier (Low, Medium, High, or unresolved), reasons, a Risk Explanation, and unknowns. It does not establish Policy Status or compliance.
 _Avoid_: Global Tool risk; Policy Status; compliance determination
+
+**Governance Level**:
+How well governed an AI Tool is according to its tool-wide Policy Status and vendor facts (approval, training on customer data, admin controls): governed, partial, adverse, ungoverned, or unassessed when every fact is unknown. It is a rubric input, not Policy Status itself.
+_Avoid_: Tool risk; approval
+
+**Exposure Level**:
+The rubric level of a Usage Context's supplied Data Sensitivity Tier (E0 public through E3 restricted). Unknown sensitivity is calculated as internal and the assumption is always disclosed.
+_Avoid_: Inferred sensitivity; Data Sensitivity Tier
+
+**Risk Explanation**:
+The two- or three-sentence, template-built account stored with a Contextual Risk Assessment: how the Tool was used, why it received its tier, and any assumption or missing fact. It is built deterministically from the assessment, never written by an LLM, and names no employee.
+_Avoid_: Assistant answer; compliance finding
 
 **Evidence**:
 A provenance-preserving source used to support a determination, assessment, or explanation and referenced by stable source identity, version, and explicit role. Evidence does not erase distinctions among observed activity, Tool, contextual or policy, and governance sources.

@@ -65,7 +65,7 @@ class ScopeFilters(Contract):
     departments: tuple[Text, ...] = ()
     categories: tuple[Text, ...] = ()
     ai_statuses: tuple[Literal["ai", "non_ai", "unresolved"], ...] = ()
-    risk_tiers: tuple[Literal["High", "Medium", "Lower", "unresolved"], ...] = ()
+    risk_tiers: tuple[Literal["High", "Medium", "Low", "unresolved"], ...] = ()
     flagged: bool | None = None
 
 

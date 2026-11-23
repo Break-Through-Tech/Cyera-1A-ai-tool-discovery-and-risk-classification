@@ -80,7 +80,10 @@ _DESCRIPTIONS: dict[ToolName, str] = {
     "describe_dataset": "Describe scope coverage, available dimensions, and missing facts.",
     "summarize_usage": "Return deterministic counts or grouped usage summaries.",
     "compare_usage": "Compare two explicit UTC periods within the pinned scope.",
-    "get_risk_assessments": "Read stored risk tiers, reasons, flags, and unknown facts.",
+    "get_risk_assessments": (
+        "Read stored risk tiers, reasons, flags, unknown facts, and the stored explanation "
+        "and explanation parts to cite verbatim."
+    ),
     "get_evidence": "Inspect supporting references within the pinned scope.",
     "retrieve_context": "Retrieve retained context with versioned passage references.",
 }

@@ -148,3 +148,37 @@ descriptions but not on test homepages, so expect about 63–71% accuracy on
 the 55–61% of Tools that get a Category. Scripts, the freeze record and full
 results (per-class metrics, confusion matrices, coverage curves) are in
 [`notebooks/category_classification/`](notebooks/category_classification/).
+
+## Risk assessment v2 — OWASP acceptable-use matrix (selected)
+
+`owasp-usage-risk-v2` ([rubric](docs/risk-rubric-v2.md),
+[ADR 0005](docs/adr/0005-contextual-risk-uses-owasp-acceptable-use-matrix.md))
+replaces the per-Tool v1 rule with a deterministic per-Usage-Context rubric. The
+three tool-wide Dataset B facts give a Governance Level, the supplied data
+sensitivity gives an Exposure Level, and a fixed acceptable-use matrix maps the
+pair to Low, Medium or High (`unresolved` when no fact is usable). The
+interaction class derived from `event_type` is part of the context key; sensitive
+content submitted to a Tool that is not fully governed (X1) or an OAuth grant or
+connector added to a Tool with an adverse fact (X2) raises the tier one step.
+Each result stores a template-built explanation, reason codes with OWASP / NIST
+references, flags, assumptions and unknowns. No model is trained and no LLM
+chooses the tier or writes the explanation.
+
+On the v1 fixture, every event is presence, so the eight AI contexts keep their
+v1 tiers (`Lower` renamed `Low`). Fixture
+[`synthetic_enterprise_activity/v2`](data/synthetic_enterprise_activity/v2/)
+adds eight scenarios covering every interaction class, both escalations, an
+assumed sensitivity, and an unassessed Tool with an upload. A standalone check
+that groups the v2 activity the way the pipeline does matched every expected
+interaction class, base tier, final tier, first reason code and flag set for all
+16 assessed scenarios. This measures consistency with the predefined synthetic
+criteria, not accuracy against real governance judgments.
+
+Known limitations: sensitivity and purpose are supplied, not detected; unknown
+sensitivity is calculated as internal and disclosed. Presence does not prove
+submission, and extension installs, API key use and agent actions are not yet
+interpreted. Tool facts are synthetic, tool-wide assumptions that cannot tell a
+managed workspace from a personal account. Department and purpose group and
+describe contexts but no rule uses them. Category appears only in the
+explanation and can be wrong for unseen Tools. Tiers are project-policy
+assessments, not incidents or compliance findings.
