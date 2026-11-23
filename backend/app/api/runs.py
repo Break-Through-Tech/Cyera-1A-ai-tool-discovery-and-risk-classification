@@ -85,7 +85,9 @@ class AssessmentOut(BaseModel):
     rule_version: str
 
 
-@router.get("/{run_id}/assessments")
+# Superseded by GET /contexts?run_ids=... and GET /runs/{run_id}/contexts/{context_id};
+# kept while existing clients and tests use it.
+@router.get("/{run_id}/assessments", deprecated=True)
 def read_assessments(
     request: Request,
     run_id: str,
