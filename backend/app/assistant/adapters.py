@@ -53,7 +53,6 @@ from app.assistant.tools import (
     ToolRegistry,
 )
 from app.config import Settings
-from app.contexts import CONTEXT_DEFINITIONS
 from app.errors import AppError
 from app.evidence import (
     AnalysisRunReference,
@@ -130,10 +129,14 @@ GROUP_DEFINITIONS = {
 FOCUS_DEFINITIONS = {
     "all": "Every matching Usage Context.",
     "flagged": "Matching Usage Contexts whose stored investigation flag is set.",
-    "unapproved": "Matching Usage Contexts whose recorded synthetic Policy Status is unapproved.",
-    "unresolved": "Matching Usage Contexts whose stored tier is unresolved (every rubric fact unknown).",
-    "missing_facts": "Matching Usage Contexts whose assessment lists at least one unknown rubric fact.",
+    "unapproved": "Matching Usage Contexts whose recorded synthetic Policy Status is "
+    "unapproved.",
+    "unresolved": "Matching Usage Contexts whose stored tier is unresolved (every rubric "
+    "fact unknown).",
+    "missing_facts": "Matching Usage Contexts whose assessment lists at least one unknown "
+    "rubric fact.",
 }
+
 
 class _Stop(Exception):
     """Ends a tool call early with a limitation or a safe failure."""
@@ -179,7 +182,9 @@ class QueryTools:
             "get_evidence": self._handler(self.get_evidence),
         }
 
-    def _handler(self, operation: Callable[[Connection, _Read, Any], ToolOutcome]) -> ToolHandler:
+    def _handler(
+        self, operation: Callable[[Connection, _Read, Any], ToolOutcome]
+    ) -> ToolHandler:
         async def handle(scope: PinnedScope, arguments: ToolArguments) -> ToolOutcome:
             # Sync SQLAlchemy runs in a worker thread so the workflow deadline can stop
             # waiting; a late read finishes in the background and its result is discarded.
@@ -187,14 +192,18 @@ class QueryTools:
 
         return handle
 
-    def _execute(self, operation, pinned: PinnedScope, arguments: ToolArguments) -> ToolOutcome:
+    def _execute(
+        self, operation, pinned: PinnedScope, arguments: ToolArguments
+    ) -> ToolOutcome:
         try:
             with self.engine.connect() as connection:
                 return operation(connection, _verify(connection, pinned), arguments)
         except _Stop as stop:
             return stop.outcome
         except SQLAlchemyError:
-            return ToolFailure(code="query_failed", message="The backend query failed; retry.")
+            return ToolFailure(
+                code="query_failed", message="The backend query failed; retry."
+            )
 
     # --- Tools ---------------------------------------------------------------------------
 
@@ -280,16 +289,12 @@ class QueryTools:
             raise _unsupported("Each group_by dimension may appear only once.")
         fingerprint = _fingerprint("summarize_usage", read.pinned, arguments)
         offset = _offset(arguments.continuation, fingerprint)
-        total, groups = grouped_counts(
-            connection, read.scope, read.ai_statuses, arguments.metric, arguments.group_by
-        )
-        rows = (
-            [
-                {**{name: group[name] for name in arguments.group_by}, "value": group["value"]}
-                for group in groups
-            ]
-            if arguments.group_by
-            else []
+        total, rows = grouped_counts(
+            connection,
+            read.scope,
+            read.ai_statuses,
+            arguments.metric,
+            arguments.group_by,
         )
         definitions = (
             METRIC_DEFINITIONS[arguments.metric],
@@ -342,15 +347,21 @@ class QueryTools:
         window = read.pinned.event_time
         periods = {"baseline": arguments.baseline, "current": arguments.current}
         if any(p.start < window.start or p.end > window.end for p in periods.values()):
-            raise _unsupported("Comparison periods must lie within the pinned event-time interval.")
+            raise _unsupported(
+                "Comparison periods must lie within the pinned event-time interval."
+            )
         notes = list(read.warnings)
         results: dict[str, dict] = {}
         evidence = []
         for name, period in periods.items():
             start, end = event_time_bound(period.start), event_time_bound(period.end)
-            scope = replace(read.scope, filters=replace(read.scope.filters, start=start, end=end))
+            scope = replace(
+                read.scope, filters=replace(read.scope.filters, start=start, end=end)
+            )
             coverage = _coverage(read.scope, start, end)
-            value, _ = grouped_counts(connection, scope, read.ai_statuses, arguments.metric)
+            value, _ = grouped_counts(
+                connection, scope, read.ai_statuses, arguments.metric
+            )
             results[name] = {
                 "start": start,
                 "end": end,
@@ -384,10 +395,14 @@ class QueryTools:
         if periods["baseline"].end > periods["current"].start and (
             periods["current"].end > periods["baseline"].start
         ):
-            notes.append("The baseline and current periods overlap; their counts share records.")
+            notes.append(
+                "The baseline and current periods overlap; their counts share records."
+            )
         lengths = [p.end - p.start for p in periods.values()]
         if lengths[0] != lengths[1]:
-            notes.append("The periods have different lengths; compare counts with care.")
+            notes.append(
+                "The periods have different lengths; compare counts with care."
+            )
         if arguments.metric == "usage_contexts":
             notes.append(
                 "A Usage Context counts in a period when one of its matching Activity Events "
@@ -404,7 +419,9 @@ class QueryTools:
                 "current": results["current"],
                 "change": change,
                 "percent_change": (
-                    round(change / baseline * 100, 1) if change is not None and baseline else None
+                    round(change / baseline * 100, 1)
+                    if change is not None and baseline
+                    else None
                 ),
             },
             evidence=tuple(evidence),
@@ -426,7 +443,9 @@ class QueryTools:
         evidence_rows = [
             _cite(
                 UsageContextReference(
-                    run=RunReference(batch_id=batch_ids[row["run_id"]], run_id=row["run_id"]),
+                    run=RunReference(
+                        batch_id=batch_ids[row["run_id"]], run_id=row["run_id"]
+                    ),
                     context_number=row["context_number"],
                 )
             )
@@ -440,7 +459,8 @@ class QueryTools:
             (
                 METRIC_DEFINITIONS["usage_contexts"],
                 f"focus {arguments.focus}: {FOCUS_DEFINITIONS[arguments.focus]}",
-                "order: " + CONTEXT_DEFINITIONS["contexts"].split(". ", 1)[1],
+                "order: as GET /contexts, by stored tier (High, Medium, Lower, "
+                "unresolved), then Run ID and context number.",
                 "counts: tiers, Policy Statuses, flags and unknown facts over every context in "
                 "focus. Tiers are the synthetic demonstration rubric's; Lower does not mean "
                 "safe and unknown Policy Status is not unapproved.",
@@ -490,23 +510,30 @@ class QueryTools:
                 item = resolve_evidence(connection, reference, self.sources)
             except EvidenceError as error:
                 if error.code == "invalid_reference":
-                    raise _unsupported("A reference is not a valid record reference.") from None
+                    raise _unsupported(
+                        "A reference is not a valid record reference."
+                    ) from None
                 status = (
                     "unavailable"
-                    if error.status_code == 501 or error.code == "source_version_unavailable"
-                    else "not_found"
-                    if error.status_code == 404
-                    else None
+                    if error.status_code == 501
+                    or error.code == "source_version_unavailable"
+                    else "not_found" if error.status_code == 404 else None
                 )
                 if status is None:
                     raise
-                unresolved.append({"reference": key, "status": status, "code": error.code})
+                unresolved.append(
+                    {"reference": key, "status": status, "code": error.code}
+                )
                 continue
             if not isinstance(reference, PassageReference) and not contains(
                 connection, read.scope, read.ai_statuses, reference
             ):
                 unresolved.append(
-                    {"reference": key, "status": "outside_scope", "code": "outside_pinned_scope"}
+                    {
+                        "reference": key,
+                        "status": "outside_scope",
+                        "code": "outside_pinned_scope",
+                    }
                 )
                 continue
             resolved.append((key, reference, item))
@@ -529,7 +556,11 @@ class QueryTools:
             return ToolSuccess(
                 outcome="no_matches",
                 summary="None of the requested records exist in the pinned Runs.",
-                data={"requested": len(references), "resolved": [], "unresolved": unresolved},
+                data={
+                    "requested": len(references),
+                    "resolved": [],
+                    "unresolved": unresolved,
+                },
                 qualifications=read.warnings,
             )
 
@@ -548,7 +579,9 @@ class QueryTools:
                     "size limit; request data.omitted_for_size separately."
                 )
             if any(item.truncated for _, _, item in shown):
-                notes.append("Some long record fields are cut; see each record's truncations.")
+                notes.append(
+                    "Some long record fields are cut; see each record's truncations."
+                )
             return ToolSuccess(
                 outcome="data",
                 summary=f"Resolved {len(resolved)} of {len(references)} requested references.",
@@ -598,7 +631,9 @@ class QueryTools:
             # Applied to Activity Events as GET /events' ai_determinations.
             query = {**query, "ai_statuses": list(read.ai_statuses)}
         return AggregateEvidence(
-            evidence_id=":".join(("aggregate", operation, *([suffix] if suffix else []))),
+            evidence_id=":".join(
+                ("aggregate", operation, *([suffix] if suffix else []))
+            ),
             scope=read.pinned,
             operation=operation,
             query={"listing": listing, "parameters": parameters, **query},
@@ -636,7 +671,9 @@ class QueryTools:
             evidence=evidence,
             qualifications=tuple(dict.fromkeys(notes)),
             truncated=truncated,
-            continuation=f"{offset + returned}:{fingerprint}" if truncated and more else None,
+            continuation=(
+                f"{offset + returned}:{fingerprint}" if truncated and more else None
+            ),
         )
 
     def _fit(self, build: Callable[[int], ToolSuccess], upper: int) -> ToolOutcome:
@@ -659,7 +696,9 @@ class QueryTools:
         return best
 
     def _fits(self, result: ToolSuccess) -> bool:
-        size = len(json.dumps(result.model_dump(mode="json"), ensure_ascii=False).encode())
+        size = len(
+            json.dumps(result.model_dump(mode="json"), ensure_ascii=False).encode()
+        )
         return size + _NAMESPACE_BYTES * len(result.evidence) <= self.max_result_bytes
 
 
@@ -684,7 +723,9 @@ def build_tool_registry(
     limits = limits or ExecutionLimits()
     if sources is None:
         path = settings.tool_metadata_path
-        sources = EvidenceSources(tool_metadata=load_tool_metadata(path) if path.is_file() else None)
+        sources = EvidenceSources(
+            tool_metadata=load_tool_metadata(path) if path.is_file() else None
+        )
     tools = QueryTools(engine, sources, limits.max_tool_result_bytes)
     return ToolRegistry(tools.handlers())
 
@@ -699,18 +740,23 @@ def _verify(connection: Connection, pinned: PinnedScope) -> _Read:
     try:
         scope = resolve_scope(connection, filters)
     except AppError as error:
-        raise _Stop(_SCOPE_FAILURES.get(error.status_code, _SCOPE_FAILURES[422])) from None
+        raise _Stop(
+            _SCOPE_FAILURES.get(error.status_code, _SCOPE_FAILURES[422])
+        ) from None
     selected = {(s.batch_id, s.run_id) for s in scope.selections}
     if selected != {(r.batch_id, r.run_id) for r in pinned.runs}:
         raise _Stop(_SCOPE_FAILURES[422])
     overlap = observe_activity(connection, scope).warnings
-    warnings = tuple(dict.fromkeys(_warning_text(w) for w in (*scope.warnings, *overlap)))
+    warnings = tuple(
+        dict.fromkeys(_warning_text(w) for w in (*scope.warnings, *overlap))
+    )
     return _Read(pinned, scope, pinned.filters.ai_statuses, warnings)
 
 
 _SCOPE_FAILURES = {
     404: ToolFailure(
-        code="scope_run_not_found", message="A pinned Batch or Analysis Run was not found."
+        code="scope_run_not_found",
+        message="A pinned Batch or Analysis Run was not found.",
     ),
     409: ToolFailure(
         code="scope_run_not_succeeded",
@@ -745,7 +791,9 @@ def _filters(pinned: PinnedScope) -> Filters:
     )
 
 
-def _parameters(filters: Filters, ai_statuses: Sequence[str], listing: str) -> dict[str, Any]:
+def _parameters(
+    filters: Filters, ai_statuses: Sequence[str], listing: str
+) -> dict[str, Any]:
     """The listing's query parameters for ``filters``, omitting empty ones."""
     parameters: dict[str, Any] = {
         "batch_ids": list(filters.batch_ids),
@@ -808,7 +856,9 @@ def _fingerprint(tool: str, pinned: PinnedScope, arguments: Contract) -> str:
     payload = {
         "tool": tool,
         "scope": pinned.model_dump(mode="json"),
-        "arguments": arguments.model_dump(mode="json", exclude={"continuation", "limit"}),
+        "arguments": arguments.model_dump(
+            mode="json", exclude={"continuation", "limit"}
+        ),
     }
     return sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()[:16]
 
@@ -825,9 +875,12 @@ def _offset(continuation: str | None, fingerprint: str) -> int:
     return int(offset)
 
 
-def _parse_reference(text: str, pinned: PinnedScope) -> RecordReference | PassageReference:
+def _parse_reference(
+    text: str, pinned: PinnedScope
+) -> RecordReference | PassageReference:
     """``<record_type>:<run_id>:<record_id>`` or ``passage:<corpus_version>:<document_id>:
-    <document_version>:<passage_id>``, optionally prefixed with the step ID that issued it."""
+    <document_version>:<passage_id>``, optionally prefixed with the step ID that issued it.
+    """
     kind, _, rest = text.partition(":")
     if kind not in (*_RECORD_TYPES, "passage", "aggregate"):
         kind, _, rest = rest.partition(":")
@@ -842,7 +895,12 @@ def _parse_reference(text: str, pinned: PinnedScope) -> RecordReference | Passag
             return PassageReference(
                 **dict(
                     zip(
-                        ("corpus_version", "document_id", "document_version", "passage_id"),
+                        (
+                            "corpus_version",
+                            "document_id",
+                            "document_version",
+                            "passage_id",
+                        ),
                         parts,
                         strict=True,
                     )
@@ -862,7 +920,9 @@ def _parse_reference(text: str, pinned: PinnedScope) -> RecordReference | Passag
             try:
                 return record_reference(run, kind, rest.removeprefix(f"{run.run_id}:"))
             except EvidenceError:
-                raise _unsupported("A reference is not a valid record reference.") from None
+                raise _unsupported(
+                    "A reference is not a valid record reference."
+                ) from None
     raise _unsupported("A reference names a Run outside the pinned scope.")
 
 
@@ -884,5 +944,7 @@ def _cite(reference: RecordReference) -> RecordEvidence:
     """Record evidence whose local ID, ``<record_type>:<run_id>:<record_id>``, reopens it."""
     evidence = to_record_evidence(reference, "local")
     return evidence.model_copy(
-        update={"evidence_id": f"{evidence.record_type}:{reference.run.run_id}:{evidence.record_id}"}
+        update={
+            "evidence_id": f"{evidence.record_type}:{reference.run.run_id}:{evidence.record_id}"
+        }
     )

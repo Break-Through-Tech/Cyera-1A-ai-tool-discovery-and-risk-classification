@@ -40,7 +40,13 @@ from tests.test_identity_fixture import FIXTURE
 from tests.test_risk_results import ServesEveryHomepage
 
 WINDOW = EventTimeRange(start="2026-09-01T00:00:00Z", end="2026-11-01T00:00:00Z")
-TOOLS = ("describe_dataset", "summarize_usage", "compare_usage", "get_risk_assessments", "get_evidence")
+TOOLS = (
+    "describe_dataset",
+    "summarize_usage",
+    "compare_usage",
+    "get_risk_assessments",
+    "get_evidence",
+)
 
 
 @dataclass(frozen=True)
@@ -83,7 +89,9 @@ def registry(world) -> ToolRegistry:
 
 def pinned(world, *runs, event_time=WINDOW, **filters) -> PinnedScope:
     return PinnedScope(
-        runs=runs or (world.current,), event_time=event_time, filters=ScopeFilters(**filters)
+        runs=runs or (world.current,),
+        event_time=event_time,
+        filters=ScopeFilters(**filters),
     )
 
 
@@ -155,7 +163,9 @@ def test_every_query_tool_is_connected_and_retrieval_stays_unavailable(world, re
 
     result = invoke(registry, pinned(world), "retrieve_context", query="AI policy")
 
-    assert result == ToolLimitation(reason="unavailable", message="retrieve_context is not connected.")
+    assert result == ToolLimitation(
+        reason="unavailable", message="retrieve_context is not connected."
+    )
 
 
 # --- describe_dataset --------------------------------------------------------------------
@@ -170,7 +180,10 @@ def test_describe_dataset_matches_the_overview_for_the_same_scope(world, registr
     assert result.status == "succeeded" and result.outcome == "data"
     data = result.data
     assert data["runs"][0]["run_id"] == world.current.run_id
-    assert data["runs"][0]["versions"] == overview["scope"]["coverage"]["batches"][0]["selected_run"]["versions"]
+    assert (
+        data["runs"][0]["versions"]
+        == overview["scope"]["coverage"]["batches"][0]["selected_run"]["versions"]
+    )
     assert {k: data["event_time"][k] for k in ("first_matching", "last_matching")} == {
         "first_matching": overview["scope"]["event_time"]["observed"]["first"],
         "last_matching": overview["scope"]["event_time"]["observed"]["last"],
@@ -179,15 +192,24 @@ def test_describe_dataset_matches_the_overview_for_the_same_scope(world, registr
     assert activity["events"] == overview["activity"]["events"] == 265
     assert activity["by_ai_status"] == overview["activity"]["by_ai_determination"]
     assert activity["unresolved_stages"] == overview["unresolved_stages"]
-    assert activity["missing_fields"]["data_sensitivity_tier"] == {"absent": 0, "unknown": 6}
-    assert {d["department"]: (d["events"], d["ai_positive_events"]) for d in data["departments"]["items"]} == {
-        d["department"]: (d["events"], d["ai_positive_events"]) for d in overview["departments"]
+    assert activity["missing_fields"]["data_sensitivity_tier"] == {
+        "absent": 0,
+        "unknown": 6,
+    }
+    assert {
+        d["department"]: (d["events"], d["ai_positive_events"])
+        for d in data["departments"]["items"]
+    } == {
+        d["department"]: (d["events"], d["ai_positive_events"])
+        for d in overview["departments"]
     }
     contexts = data["usage_contexts"]
     assert contexts["by_tier"] == overview["risk_distribution"]
     assert contexts["by_policy_status"] == overview["policy_status_distribution"]
     assert contexts["flagged"] == overview["headline"]["flagged_contexts"]
-    assert activity["tools"]["known_tools"] == overview["headline"]["known_ai_tools"] == 2
+    assert (
+        activity["tools"]["known_tools"] == overview["headline"]["known_ai_tools"] == 2
+    )
     assert [(r.record_type, r.record_id) for r in records(result)] == [
         ("analysis_run", world.current.run_id)
     ]
@@ -203,7 +225,11 @@ SCOPES = {
     "category_outcome": {"categories": ("unresolved",)},
     "department_and_tier": {"departments": ("Engineering",), "risk_tiers": ("Lower",)},
     "flagged": {"flagged": True},
-    "week": {"event_time": EventTimeRange(start="2026-10-01T00:00:00Z", end="2026-10-08T00:00:00Z")},
+    "week": {
+        "event_time": EventTimeRange(
+            start="2026-10-01T00:00:00Z", end="2026-10-08T00:00:00Z"
+        )
+    },
 }
 
 
@@ -218,15 +244,28 @@ def test_summarize_usage_totals_equal_the_listings(world, registry, variant):
     }
 
     assert totals["event_count"].data["total"] == len(events) > 0
-    assert totals["event_count"].data["total"] == listing(world, "/overview", scope)["activity"]["events"]
-    assert totals["distinct_employees"].data["total"] == len({e["employee_id"] for e in events})
-    assert totals["tools"].data["total"] == listing(world, "/applications", scope)["total"]
-    assert totals["usage_contexts"].data["total"] == listing(world, "/contexts", scope)["total"]
+    assert (
+        totals["event_count"].data["total"]
+        == listing(world, "/overview", scope)["activity"]["events"]
+    )
+    assert totals["distinct_employees"].data["total"] == len(
+        {e["employee_id"] for e in events}
+    )
+    assert (
+        totals["tools"].data["total"] == listing(world, "/applications", scope)["total"]
+    )
+    assert (
+        totals["usage_contexts"].data["total"]
+        == listing(world, "/contexts", scope)["total"]
+    )
     for result in totals.values():
         assert result.status == "succeeded" and not result.truncated
-        assert drilldown_total(world, aggregate(result)) == listing(
-            world, aggregate(result).query["listing"].split(" ")[1], scope
-        )["total"]
+        assert (
+            drilldown_total(world, aggregate(result))
+            == listing(world, aggregate(result).query["listing"].split(" ")[1], scope)[
+                "total"
+            ]
+        )
 
 
 def test_grouped_summaries_equal_the_overview_breakdowns(world, registry):
@@ -235,7 +274,13 @@ def test_grouped_summaries_equal_the_overview_breakdowns(world, registry):
 
     by_department = invoke(registry, scope, "summarize_usage", group_by=["department"])
     by_ai = invoke(registry, scope, "summarize_usage", group_by=["ai_status"])
-    by_tier = invoke(registry, scope, "summarize_usage", metric="usage_contexts", group_by=["risk_tier"])
+    by_tier = invoke(
+        registry,
+        scope,
+        "summarize_usage",
+        metric="usage_contexts",
+        group_by=["risk_tier"],
+    )
 
     assert {g["department"]: g["value"] for g in by_department.data["groups"]} == {
         d["department"]: d["events"] for d in overview["departments"]
@@ -260,16 +305,23 @@ def test_ai_status_filter_maps_to_event_ai_determinations(world, registry):
     contexts = invoke(registry, unresolved, "summarize_usage", metric="usage_contexts")
     risks = invoke(registry, unresolved, "get_risk_assessments")
 
-    assert events.data["total"] == listing(
-        world, "/events", unresolved, ai_determinations="unresolved"
-    )["total"] == 6
+    assert (
+        events.data["total"]
+        == listing(world, "/events", unresolved, ai_determinations="unresolved")[
+            "total"
+        ]
+        == 6
+    )
     assert aggregate(events).query["parameters"]["ai_determinations"] == ["unresolved"]
     assert drilldown_total(world, aggregate(events)) == 6
     assert contexts.outcome == risks.outcome == "no_matches"
-    assert any("exist only for Tools determined AI" in q for q in contexts.qualifications)
-    assert invoke(registry, ai, "summarize_usage", metric="usage_contexts").data["total"] == listing(
-        world, "/contexts", ai
-    )["total"]
+    assert any(
+        "exist only for Tools determined AI" in q for q in contexts.qualifications
+    )
+    assert (
+        invoke(registry, ai, "summarize_usage", metric="usage_contexts").data["total"]
+        == listing(world, "/contexts", ai)["total"]
+    )
 
 
 # --- compare_usage -----------------------------------------------------------------------
@@ -280,20 +332,33 @@ def test_compare_usage_counts_each_period_like_the_events_listing(world, registr
     baseline = {"start": "2026-09-16T00:00:00Z", "end": "2026-09-23T00:00:00Z"}
     current = {"start": "2026-09-23T00:00:00Z", "end": "2026-09-30T00:00:00Z"}
 
-    result = invoke(registry, scope, "compare_usage", baseline=baseline, current=current)
+    result = invoke(
+        registry, scope, "compare_usage", baseline=baseline, current=current
+    )
 
     expected = {
-        name: listing(world, "/events", scope.model_copy(update={"event_time": EventTimeRange(**period)}))["total"]
+        name: listing(
+            world,
+            "/events",
+            scope.model_copy(update={"event_time": EventTimeRange(**period)}),
+        )["total"]
         for name, period in (("baseline", baseline), ("current", current))
     }
     assert result.outcome == "data"
     assert {name: result.data[name]["value"] for name in expected} == expected
-    assert result.data["baseline"]["coverage"] == result.data["current"]["coverage"] == "full"
+    assert (
+        result.data["baseline"]["coverage"]
+        == result.data["current"]["coverage"]
+        == "full"
+    )
     assert result.data["change"] == expected["current"] - expected["baseline"]
     periods = [e for e in result.evidence if isinstance(e, AggregateEvidence)]
     assert [e.query["period"] for e in periods] == ["baseline", "current"]
     assert all(e.scope == scope for e in periods)
-    assert [drilldown_total(world, e) for e in periods] == [expected["baseline"], expected["current"]]
+    assert [drilldown_total(world, e) for e in periods] == [
+        expected["baseline"],
+        expected["current"],
+    ]
 
 
 def test_an_uncovered_period_is_unknown_not_zero(world, registry):
@@ -326,7 +391,9 @@ def test_an_uncovered_period_is_unknown_not_zero(world, registry):
         ("unresolved", {"risk_tiers": "unresolved"}),
     ],
 )
-def test_risk_assessments_equal_the_contexts_listing(world, registry, focus, api_filters):
+def test_risk_assessments_equal_the_contexts_listing(
+    world, registry, focus, api_filters
+):
     scope = pinned(world)
     expected = listing(world, "/contexts", scope, limit=200, **api_filters)
 
@@ -334,9 +401,20 @@ def test_risk_assessments_equal_the_contexts_listing(world, registry, focus, api
 
     rows = result.data["assessments"]
     assert result.data["total"] == expected["total"] == len(rows) > 0
-    keys = ("run_id", "context_number", "tier", "investigation_flag", "flag_reasons", "matching_events")
-    assert [{k: r[k] for k in keys} for r in rows] == [{k: c[k] for k in keys} for c in expected["items"]]
-    assert [r["facts"]["policy_status"] for r in rows] == [c["policy_status"] for c in expected["items"]]
+    keys = (
+        "run_id",
+        "context_number",
+        "tier",
+        "investigation_flag",
+        "flag_reasons",
+        "matching_events",
+    )
+    assert [{k: r[k] for k in keys} for r in rows] == [
+        {k: c[k] for k in keys} for c in expected["items"]
+    ]
+    assert [r["facts"]["policy_status"] for r in rows] == [
+        c["policy_status"] for c in expected["items"]
+    ]
     assert [(e.run, e.record_type, e.record_id) for e in records(result)] == [
         (world.current, "usage_context", str(r["context_number"])) for r in rows
     ]
@@ -347,15 +425,22 @@ def test_risk_assessments_return_reasons_and_unknown_facts(world, registry):
     scope = pinned(world)
     stored = {
         c["context_number"]: c
-        for c in world.client.get(f"/runs/{world.current.run_id}/assessments", params={"limit": 200}).json()["items"]
+        for c in world.client.get(
+            f"/runs/{world.current.run_id}/assessments", params={"limit": 200}
+        ).json()["items"]
     }
 
     every = invoke(registry, scope, "get_risk_assessments", limit=100)
-    missing = invoke(registry, scope, "get_risk_assessments", focus="missing_facts", limit=100)
+    missing = invoke(
+        registry, scope, "get_risk_assessments", focus="missing_facts", limit=100
+    )
 
     for row in every.data["assessments"]:
         context = stored[row["context_number"]]
-        assert (row["reason_codes"], row["unknown_facts"]) == (context["reason_codes"], context["unknown_facts"])
+        assert (row["reason_codes"], row["unknown_facts"]) == (
+            context["reason_codes"],
+            context["unknown_facts"],
+        )
     assert {r["context_number"] for r in missing.data["assessments"]} == {
         n for n, c in stored.items() if c["unknown_facts"]
     }
@@ -372,7 +457,10 @@ def test_no_matching_records_is_a_success_with_citable_evidence(world, registry)
         "summarize_usage": {"group_by": ["category"]},
         "get_risk_assessments": {},
         "compare_usage": {
-            "baseline": {"start": "2026-09-16T00:00:00Z", "end": "2026-09-23T00:00:00Z"},
+            "baseline": {
+                "start": "2026-09-16T00:00:00Z",
+                "end": "2026-09-23T00:00:00Z",
+            },
             "current": {"start": "2026-09-23T00:00:00Z", "end": "2026-09-30T00:00:00Z"},
         },
     }
@@ -387,10 +475,17 @@ def test_no_matching_records_is_a_success_with_citable_evidence(world, registry)
 def test_an_unsupported_filter_value_is_a_limitation_not_dropped(world, registry, tool):
     arguments = {
         "compare_usage": {
-            "baseline": {"start": "2026-09-16T00:00:00Z", "end": "2026-09-23T00:00:00Z"},
+            "baseline": {
+                "start": "2026-09-16T00:00:00Z",
+                "end": "2026-09-23T00:00:00Z",
+            },
             "current": {"start": "2026-09-23T00:00:00Z", "end": "2026-09-30T00:00:00Z"},
         },
-        "get_evidence": {"references": [f"analysis_run:{world.current.run_id}:{world.current.run_id}"]},
+        "get_evidence": {
+            "references": [
+                f"analysis_run:{world.current.run_id}:{world.current.run_id}"
+            ]
+        },
     }.get(tool, {})
 
     result = invoke(registry, pinned(world, categories=("Robots",)), tool, **arguments)
@@ -398,17 +493,29 @@ def test_an_unsupported_filter_value_is_a_limitation_not_dropped(world, registry
     assert result.status == "limited" and result.reason == "unsupported"
 
 
-def test_unsupported_arguments_and_foreign_continuations_are_limitations(world, registry):
+def test_unsupported_arguments_and_foreign_continuations_are_limitations(
+    world, registry
+):
     scope = pinned(world)
     page = invoke(registry, scope, "summarize_usage", group_by=["department"], limit=2)
     other_scope = pinned(world, departments=("Sales",))
 
-    duplicate = invoke(registry, scope, "summarize_usage", group_by=["department", "department"])
+    duplicate = invoke(
+        registry, scope, "summarize_usage", group_by=["department", "department"]
+    )
     other_arguments = invoke(
-        registry, scope, "summarize_usage", group_by=["category"], continuation=page.continuation
+        registry,
+        scope,
+        "summarize_usage",
+        group_by=["category"],
+        continuation=page.continuation,
     )
     other_scope_result = invoke(
-        registry, other_scope, "summarize_usage", group_by=["department"], continuation=page.continuation
+        registry,
+        other_scope,
+        "summarize_usage",
+        group_by=["department"],
+        continuation=page.continuation,
     )
     forged = invoke(registry, scope, "get_risk_assessments", continuation="0:forged")
 
@@ -418,12 +525,18 @@ def test_unsupported_arguments_and_foreign_continuations_are_limitations(world, 
 
 def test_previews_are_qualified_and_continue_to_the_full_population(world, registry):
     scope = pinned(world)
-    full = invoke(registry, scope, "summarize_usage", group_by=["department"], limit=100)
+    full = invoke(
+        registry, scope, "summarize_usage", group_by=["department"], limit=100
+    )
     pages, continuation = [], None
 
     while True:
         page = invoke(
-            registry, scope, "summarize_usage", group_by=["department"], limit=4,
+            registry,
+            scope,
+            "summarize_usage",
+            group_by=["department"],
+            limit=4,
             **({"continuation": continuation} if continuation else {}),
         )
         assert page.truncated
@@ -439,14 +552,19 @@ def test_previews_are_qualified_and_continue_to_the_full_population(world, regis
 
 
 def test_result_size_limit_shrinks_pages_into_explicit_previews(world):
-    small = build_tool_registry(world.engine, world.settings, limits=ExecutionLimits(max_tool_result_bytes=6000))
+    small = build_tool_registry(
+        world.engine, world.settings, limits=ExecutionLimits(max_tool_result_bytes=6000)
+    )
     scope = pinned(world)
     expected = listing(world, "/contexts", scope, limit=200)["items"]
     seen, continuation = [], None
 
     while True:
         page = invoke(
-            small, scope, "get_risk_assessments", limit=100,
+            small,
+            scope,
+            "get_risk_assessments",
+            limit=100,
             **({"continuation": continuation} if continuation else {}),
         )
         assert page.truncated and page.data["returned"] < 11
@@ -461,8 +579,16 @@ def test_result_size_limit_shrinks_pages_into_explicit_previews(world):
 
 
 def test_evidence_beyond_the_size_limit_is_listed_not_silently_dropped(world):
-    small = build_tool_registry(world.engine, world.settings, limits=ExecutionLimits(max_tool_result_bytes=5000))
-    domains = ["chatgpt.com", "cursor.so", "slack.com", "mattermost.com", "meetoscar.com"]
+    small = build_tool_registry(
+        world.engine, world.settings, limits=ExecutionLimits(max_tool_result_bytes=5000)
+    )
+    domains = [
+        "chatgpt.com",
+        "cursor.so",
+        "slack.com",
+        "mattermost.com",
+        "meetoscar.com",
+    ]
     references = [f"website_capture:{world.current.run_id}:{d}" for d in domains]
 
     result = invoke(small, pinned(world), "get_evidence", references=references)
@@ -479,9 +605,22 @@ def test_evidence_beyond_the_size_limit_is_listed_not_silently_dropped(world):
 @pytest.mark.parametrize(
     ("runs", "code"),
     [
-        (lambda w: (RunReference(batch_id="bat_missing", run_id=w.current.run_id),), "scope_run_not_found"),
-        (lambda w: (RunReference(batch_id=w.current.batch_id, run_id="run_missing"),), "scope_run_not_found"),
-        (lambda w: (RunReference(batch_id=w.current.batch_id, run_id=w.overlap.run_id),), "scope_run_batch_mismatch"),
+        (
+            lambda w: (RunReference(batch_id="bat_missing", run_id=w.current.run_id),),
+            "scope_run_not_found",
+        ),
+        (
+            lambda w: (
+                RunReference(batch_id=w.current.batch_id, run_id="run_missing"),
+            ),
+            "scope_run_not_found",
+        ),
+        (
+            lambda w: (
+                RunReference(batch_id=w.current.batch_id, run_id=w.overlap.run_id),
+            ),
+            "scope_run_batch_mismatch",
+        ),
         (
             lambda w: (
                 RunReference(batch_id=w.current.batch_id, run_id=w.overlap.run_id),
@@ -495,9 +634,16 @@ def test_a_wrong_run_fails_safely_for_every_tool(world, registry, runs, code):
     scope = PinnedScope(runs=runs(world), event_time=WINDOW)
 
     for tool in TOOLS:
-        arguments = {"references": [f"analysis_run:{scope.runs[0].run_id}"]} if tool == "get_evidence" else {}
+        arguments = (
+            {"references": [f"analysis_run:{scope.runs[0].run_id}"]}
+            if tool == "get_evidence"
+            else {}
+        )
         if tool == "compare_usage":
-            arguments = {"baseline": WINDOW.model_dump(mode="json"), "current": WINDOW.model_dump(mode="json")}
+            arguments = {
+                "baseline": WINDOW.model_dump(mode="json"),
+                "current": WINDOW.model_dump(mode="json"),
+            }
         result = invoke(registry, scope, tool, **arguments)
         assert isinstance(result, ToolFailure), tool
         assert result.code == code
@@ -512,7 +658,11 @@ def test_a_failed_run_has_no_results_to_query(make_client):
     assert batch["latest_run"]["status"] == "failed"
     registry = build_tool_registry(client.app.state.engine, client.app.state.settings)
     scope = PinnedScope(
-        runs=(RunReference(batch_id=batch["batch_id"], run_id=batch["latest_run"]["run_id"]),),
+        runs=(
+            RunReference(
+                batch_id=batch["batch_id"], run_id=batch["latest_run"]["run_id"]
+            ),
+        ),
         event_time=WINDOW,
     )
 
@@ -527,12 +677,19 @@ def test_a_failed_run_has_no_results_to_query(make_client):
 
 def test_scope_warnings_are_carried_as_qualifications(world, registry):
     superseded = invoke(registry, pinned(world, world.first), "summarize_usage")
-    overlapping = invoke(registry, pinned(world, world.current, world.overlap), "summarize_usage")
+    overlapping = invoke(
+        registry, pinned(world, world.current, world.overlap), "summarize_usage"
+    )
     single = invoke(registry, pinned(world, world.overlap), "summarize_usage")
 
-    assert any(q.startswith("newer_successful_run:") and world.current.run_id in q for q in superseded.qualifications)
+    assert any(
+        q.startswith("newer_successful_run:") and world.current.run_id in q
+        for q in superseded.qualifications
+    )
     assert any(q.startswith("exact_event_overlap:") for q in overlapping.qualifications)
-    assert overlapping.data["total"] == 265 + single.data["total"]  # counted once per Batch
+    assert (
+        overlapping.data["total"] == 265 + single.data["total"]
+    )  # counted once per Batch
 
 
 # --- get_evidence ------------------------------------------------------------------------
@@ -546,7 +703,9 @@ def test_record_evidence_from_every_tool_resolves_through_get_evidence(world, re
     issued = records(described) + records(risks)
     flagged = risks.data["assessments"][0]
     with world.engine.connect() as connection:
-        voted = next(c for c in list_candidates(connection, run_id) if c["category"]["neighbors"])
+        voted = next(
+            c for c in list_candidates(connection, run_id) if c["category"]["neighbors"]
+        )
     canonical = [
         f"tool_metadata:{run_id}:{flagged['metadata_id']}",
         f"website_capture:{run_id}:{flagged['domain']}",
@@ -554,47 +713,92 @@ def test_record_evidence_from_every_tool_resolves_through_get_evidence(world, re
         f"category_neighbor:{run_id}:{voted['candidate_number']}:1",
     ]
 
-    opened = invoke(registry, scope, "get_evidence", references=[e.evidence_id for e in issued] + canonical)
+    opened = invoke(
+        registry,
+        scope,
+        "get_evidence",
+        references=[e.evidence_id for e in issued] + canonical,
+    )
 
     assert opened.outcome == "data" and opened.data["unresolved"] == []
     returned = records(opened)
     assert [(e.run, e.record_type, e.record_id) for e in returned[: len(issued)]] == [
         (e.run, e.record_type, e.record_id) for e in issued
     ]
-    assert [e.record_type for e in returned[len(issued):]] == [
-        "tool_metadata", "website_capture", "ai_evidence_sentence", "category_neighbor",
+    assert [e.record_type for e in returned[len(issued) :]] == [
+        "tool_metadata",
+        "website_capture",
+        "ai_evidence_sentence",
+        "category_neighbor",
     ]
-    context = next(r for r in opened.data["resolved"] if r["reference"]["kind"] == "usage_context")
-    api = world.client.post("/evidence/resolve", json={"reference": context["reference"]}).json()
+    context = next(
+        r for r in opened.data["resolved"] if r["reference"]["kind"] == "usage_context"
+    )
+    api = world.client.post(
+        "/evidence/resolve", json={"reference": context["reference"]}
+    ).json()
     assert context == api
     # Evidence returned by get_evidence opens again, so citations stay resolvable.
-    again = invoke(registry, scope, "get_evidence", references=[e.evidence_id for e in returned])
-    assert [(e.record_type, e.record_id) for e in records(again)] == [(e.record_type, e.record_id) for e in returned]
+    again = invoke(
+        registry, scope, "get_evidence", references=[e.evidence_id for e in returned]
+    )
+    assert [(e.record_type, e.record_id) for e in records(again)] == [
+        (e.record_type, e.record_id) for e in returned
+    ]
 
 
 def test_get_evidence_enforces_the_pinned_scope(world, registry):
     run_id = world.current.run_id
-    week = pinned(world, event_time=EventTimeRange(start="2026-10-01T00:00:00Z", end="2026-10-08T00:00:00Z"))
+    week = pinned(
+        world,
+        event_time=EventTimeRange(
+            start="2026-10-01T00:00:00Z", end="2026-10-08T00:00:00Z"
+        ),
+    )
     inside = every_item(world, "/events", week)[0]["event_id"]
-    outside = every_item(world, "/events", pinned(world))[0]["event_id"]  # the first event, in September
+    outside = every_item(world, "/events", pinned(world))[0][
+        "event_id"
+    ]  # the first event, in September
     sales = next(
-        c for c in listing(world, "/contexts", pinned(world), limit=200)["items"] if c["department"] == "Sales"
+        c
+        for c in listing(world, "/contexts", pinned(world), limit=200)["items"]
+        if c["department"] == "Sales"
     )
 
     mixed = invoke(
-        registry, week, "get_evidence",
-        references=[f"activity_event:{run_id}:{inside}", f"activity_event:{run_id}:{outside}",
-                    f"activity_event:{run_id}:evt_missing"],
+        registry,
+        week,
+        "get_evidence",
+        references=[
+            f"activity_event:{run_id}:{inside}",
+            f"activity_event:{run_id}:{outside}",
+            f"activity_event:{run_id}:evt_missing",
+        ],
     )
-    only_outside = invoke(registry, week, "get_evidence", references=[f"activity_event:{run_id}:{outside}"])
+    only_outside = invoke(
+        registry,
+        week,
+        "get_evidence",
+        references=[f"activity_event:{run_id}:{outside}"],
+    )
     other_department = invoke(
-        registry, pinned(world, departments=("Engineering",)), "get_evidence",
+        registry,
+        pinned(world, departments=("Engineering",)),
+        "get_evidence",
         references=[f"usage_context:{run_id}:{sales['context_number']}"],
     )
-    missing = invoke(registry, week, "get_evidence", references=[f"activity_event:{run_id}:evt_missing"])
+    missing = invoke(
+        registry,
+        week,
+        "get_evidence",
+        references=[f"activity_event:{run_id}:evt_missing"],
+    )
 
     assert [r["reference"]["event_id"] for r in mixed.data["resolved"]] == [inside]
-    assert {u["status"] for u in mixed.data["unresolved"]} == {"outside_scope", "not_found"}
+    assert {u["status"] for u in mixed.data["unresolved"]} == {
+        "outside_scope",
+        "not_found",
+    }
     assert only_outside.status == other_department.status == "limited"
     assert only_outside.reason == "unsupported"
     assert (missing.status, missing.outcome) == ("succeeded", "no_matches")
@@ -612,7 +816,10 @@ def test_get_evidence_enforces_the_pinned_scope(world, registry):
 )
 def test_unresolvable_references_are_limitations(world, registry, reference, reason):
     result = invoke(
-        registry, pinned(world), "get_evidence", references=[reference.format(run_id=world.current.run_id)]
+        registry,
+        pinned(world),
+        "get_evidence",
+        references=[reference.format(run_id=world.current.run_id)],
     )
 
     assert result.status == "limited" and result.reason == reason
@@ -626,8 +833,13 @@ def test_a_briefing_turn_runs_on_real_handlers_and_persists_cited_evidence(world
     scope = pinned(world)
 
     def open_highest_tier(context):
-        risks = next(s for s in context.observations if s.tool == "get_risk_assessments")
-        return ToolCall(tool="get_evidence", arguments={"references": [records(risks.outcome)[0].evidence_id]})
+        risks = next(
+            s for s in context.observations if s.tool == "get_risk_assessments"
+        )
+        return ToolCall(
+            tool="get_evidence",
+            arguments={"references": [records(risks.outcome)[0].evidence_id]},
+        )
 
     def answer(context):
         summary = next(s for s in context.observations if s.tool == "summarize_usage")
@@ -652,23 +864,40 @@ def test_a_briefing_turn_runs_on_real_handlers_and_persists_cited_evidence(world
         )
 
     model = ScriptedModel(open_highest_tier, answer)
-    assistant = Assistant(world.engine, model, build_tool_registry(world.engine, world.settings, limits=limits), limits)
+    assistant = Assistant(
+        world.engine,
+        model,
+        build_tool_registry(world.engine, world.settings, limits=limits),
+        limits,
+    )
 
-    turn = asyncio.run(assistant.run_turn(question="Brief me on this Batch.", scope=scope, briefing=True))
+    turn = asyncio.run(
+        assistant.run_turn(
+            question="Brief me on this Batch.", scope=scope, briefing=True
+        )
+    )
 
     assert turn.status == "succeeded" and isinstance(turn.answer, GroundedAnswer)
     steps, total = list_steps(world.engine, turn.turn_id)
     assert [s.tool for s in steps] == [
-        "describe_dataset", "summarize_usage", "get_risk_assessments", "get_evidence",
+        "describe_dataset",
+        "summarize_usage",
+        "get_risk_assessments",
+        "get_evidence",
     ]
     assert all(s.outcome.status == "succeeded" for s in steps)
     sources = tuple(e for s in steps for e in s.outcome.evidence)
     validate_answer_references(turn.answer, sources)
-    cited = [i for f in turn.answer.findings for claim in f.facts for i in claim.evidence_ids]
+    cited = [
+        i for f in turn.answer.findings for claim in f.facts for i in claim.evidence_ids
+    ]
     for evidence_id in cited:
         stored = get_evidence(world.engine, turn.turn_id, evidence_id)
         assert stored.step_id in {s.step_id for s in steps}
         assert evidence_id.startswith(f"{stored.step_id}:")
     opened = steps[-1].outcome
     assert opened.data["resolved"][0]["reference"]["kind"] == "usage_context"
-    assert opened.data["resolved"][0]["record"]["tier"] == steps[2].outcome.data["assessments"][0]["tier"]
+    assert (
+        opened.data["resolved"][0]["record"]["tier"]
+        == steps[2].outcome.data["assessments"][0]["tier"]
+    )

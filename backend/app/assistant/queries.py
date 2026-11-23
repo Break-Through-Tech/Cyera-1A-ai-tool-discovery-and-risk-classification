@@ -36,7 +36,13 @@ from app.evidence import (
 )
 from app.overview import AI_DETERMINATIONS, IDENTITY_OUTCOMES
 from app.pipeline.usage_contexts import RESOLVED_OUTCOMES
-from app.scope import POLICY_STATUSES, RISK_TIERS, Scope, context_conditions, scoped_events
+from app.scope import (
+    POLICY_STATUSES,
+    RISK_TIERS,
+    Scope,
+    context_conditions,
+    scoped_events,
+)
 
 Metric = Literal["event_count", "distinct_employees", "tools", "usage_contexts"]
 Dimension = Literal["department", "category", "ai_status", "risk_tier"]
@@ -45,7 +51,9 @@ _TABLE = usage_context_assessments
 _POLICY_STATUS = _TABLE.c.facts["policy_status"].as_string()
 _HAS_UNKNOWN_FACTS = func.json_array_length(_TABLE.c.unknown_facts) > 0
 _TIER_RANK = case(
-    {tier: rank for rank, tier in enumerate(RISK_TIERS)}, value=_TABLE.c.tier, else_=len(RISK_TIERS)
+    {tier: rank for rank, tier in enumerate(RISK_TIERS)},
+    value=_TABLE.c.tier,
+    else_=len(RISK_TIERS),
 )
 _OPTIONAL_FIELDS = ("job_role", "event_type", "usage_purpose", "data_sensitivity_tier")
 # Supplied fields where the literal value "unknown" also means the fact is missing.
@@ -87,13 +95,18 @@ def _events(scope: Scope, ai_statuses: Sequence[str]):
     events = scoped_events(scope)
     joined = events.outerjoin(
         _TABLE,
-        and_(_TABLE.c.run_id == events.c.run_id, _TABLE.c.context_number == events.c.context_number),
+        and_(
+            _TABLE.c.run_id == events.c.run_id,
+            _TABLE.c.context_number == events.c.context_number,
+        ),
     )
     where = [events.c.ai_determination.in_(ai_statuses)] if ai_statuses else []
     return events, joined, where
 
 
-def _context_where(scope: Scope, ai_statuses: Sequence[str]) -> list[ColumnElement[bool]]:
+def _context_where(
+    scope: Scope, ai_statuses: Sequence[str]
+) -> list[ColumnElement[bool]]:
     # Only Tool Candidates determined AI get Usage Contexts.
     where = context_conditions(scope)
     if ai_statuses and "ai" not in ai_statuses:
@@ -147,16 +160,22 @@ def grouped_counts(
             ),
             "tools": func.count(distinct(_tool_key(events))),
         }[metric]
-    total = connection.execute(select(value).select_from(source).where(*where)).scalar_one()
+    total = connection.execute(
+        select(value).select_from(source).where(*where)
+    ).scalar_one()
     if not group_by:
         return total, []
     columns = [dimensions[name].label(name) for name in group_by]
-    rows = connection.execute(
-        select(*columns, value.label("value"))
-        .select_from(source)
-        .where(*where)
-        .group_by(*columns)
-    ).mappings().all()
+    rows = (
+        connection.execute(
+            select(*columns, value.label("value"))
+            .select_from(source)
+            .where(*where)
+            .group_by(*columns)
+        )
+        .mappings()
+        .all()
+    )
     groups = [dict(row) for row in rows]
     groups.sort(
         key=lambda g: (-g["value"], *((g[n] is None, g[n] or "") for n in group_by))
@@ -164,9 +183,12 @@ def grouped_counts(
     return total, groups
 
 
-def activity_profile(connection: Connection, scope: Scope, ai_statuses: Sequence[str]) -> dict:
+def activity_profile(
+    connection: Connection, scope: Scope, ai_statuses: Sequence[str]
+) -> dict:
     """What the matching Activity Events cover: time range, departments, Categories, AI and
-    identity outcomes, distinct subjects, unresolved stages and missing supplied fields."""
+    identity outcomes, distinct subjects, unresolved stages and missing supplied fields.
+    """
     events, _, where = _events(scope, ai_statuses)
     category = case(
         (events.c.category_outcome == "assigned", events.c.category),
@@ -176,51 +198,71 @@ def activity_profile(connection: Connection, scope: Scope, ai_statuses: Sequence
         select(
             func.min(events.c.occurred_at),
             func.max(events.c.occurred_at),
-            func.count(distinct(func.json_array(events.c.batch_id, events.c.employee_id))),
+            func.count(
+                distinct(func.json_array(events.c.batch_id, events.c.employee_id))
+            ),
         ).where(*where)
     ).one()
     missing = []
     for name in _OPTIONAL_FIELDS:
-        missing.append(func.sum(case((events.c[name].is_(None), 1), else_=0)).label(f"{name}.absent"))
+        missing.append(
+            func.sum(case((events.c[name].is_(None), 1), else_=0)).label(
+                f"{name}.absent"
+            )
+        )
         if name in _UNKNOWN_VALUED:
             missing.append(
-                func.sum(case((func.lower(events.c[name]) == "unknown", 1), else_=0)).label(
-                    f"{name}.unknown"
-                )
+                func.sum(
+                    case((func.lower(events.c[name]) == "unknown", 1), else_=0)
+                ).label(f"{name}.unknown")
             )
-    rows = connection.execute(
-        select(
-            events.c.department,
-            events.c.ai_determination,
-            events.c.identity_outcome,
-            events.c.category_outcome,
-            category.label("category"),
-            func.count().label("events"),
-            *missing,
+    rows = (
+        connection.execute(
+            select(
+                events.c.department,
+                events.c.ai_determination,
+                events.c.identity_outcome,
+                events.c.category_outcome,
+                category.label("category"),
+                func.count().label("events"),
+                *missing,
+            )
+            .where(*where)
+            .group_by(
+                events.c.department,
+                events.c.ai_determination,
+                events.c.identity_outcome,
+                events.c.category_outcome,
+                category,
+            )
         )
-        .where(*where)
-        .group_by(
-            events.c.department,
-            events.c.ai_determination,
-            events.c.identity_outcome,
-            events.c.category_outcome,
-            category,
-        )
-    ).mappings().all()
+        .mappings()
+        .all()
+    )
     # Each Tool Candidate has one outcome per stage, so its distinct count sums across rows.
-    outcomes = connection.execute(
-        select(
-            events.c.identity_outcome,
-            events.c.ai_determination,
-            events.c.category_outcome,
-            func.count().label("events"),
-            func.count(distinct(func.json_array(events.c.run_id, events.c.candidate_number))).label(
-                "candidates"
-            ),
+    outcomes = (
+        connection.execute(
+            select(
+                events.c.identity_outcome,
+                events.c.ai_determination,
+                events.c.category_outcome,
+                func.count().label("events"),
+                func.count(
+                    distinct(
+                        func.json_array(events.c.run_id, events.c.candidate_number)
+                    )
+                ).label("candidates"),
+            )
+            .where(*where)
+            .group_by(
+                events.c.identity_outcome,
+                events.c.ai_determination,
+                events.c.category_outcome,
+            )
         )
-        .where(*where)
-        .group_by(events.c.identity_outcome, events.c.ai_determination, events.c.category_outcome)
-    ).mappings().all()
+        .mappings()
+        .all()
+    )
     tools = dict(
         connection.execute(
             select(events.c.identity_outcome, func.count(distinct(_tool_key(events))))
@@ -233,10 +275,13 @@ def activity_profile(connection: Connection, scope: Scope, ai_statuses: Sequence
     categories: dict[str, int] = {}
     for row in rows:
         entry = departments.setdefault(
-            row["department"], {"department": row["department"], "events": 0, "ai_positive_events": 0}
+            row["department"],
+            {"department": row["department"], "events": 0, "ai_positive_events": 0},
         )
         entry["events"] += row["events"]
-        entry["ai_positive_events"] += row["events"] if row["ai_determination"] == "ai" else 0
+        entry["ai_positive_events"] += (
+            row["events"] if row["ai_determination"] == "ai" else 0
+        )
         categories[row["category"]] = categories.get(row["category"], 0) + row["events"]
     stages = {
         "identity": ("identity_outcome", "unresolved_candidate"),
@@ -260,19 +305,25 @@ def activity_profile(connection: Connection, scope: Scope, ai_statuses: Sequence
         ),
         "categories": [
             {"category": name, "events": count}
-            for name, count in sorted(categories.items(), key=lambda item: (-item[1], item[0]))
+            for name, count in sorted(
+                categories.items(), key=lambda item: (-item[1], item[0])
+            )
         ],
         "unresolved_stages": {
             stage: {
                 "events": _sum((r for r in outcomes if r[column] == value), "events"),
-                "candidates": _sum((r for r in outcomes if r[column] == value), "candidates"),
+                "candidates": _sum(
+                    (r for r in outcomes if r[column] == value), "candidates"
+                ),
             }
             for stage, (column, value) in stages.items()
         },
         "missing_fields": {
             name: {
                 kind: _sum(rows, f"{name}.{kind}")
-                for kind in (("absent", "unknown") if name in _UNKNOWN_VALUED else ("absent",))
+                for kind in (
+                    ("absent", "unknown") if name in _UNKNOWN_VALUED else ("absent",)
+                )
             }
             for name in _OPTIONAL_FIELDS
         },
@@ -290,17 +341,23 @@ def assessment_counts(
     if condition is not None:
         where.append(condition)
     has_unknown = _HAS_UNKNOWN_FACTS.label("has_unknown")
-    rows = connection.execute(
-        select(
-            _TABLE.c.tier,
-            _POLICY_STATUS.label("policy_status"),
-            _TABLE.c.investigation_flag,
-            has_unknown,
-            func.count().label("contexts"),
+    rows = (
+        connection.execute(
+            select(
+                _TABLE.c.tier,
+                _POLICY_STATUS.label("policy_status"),
+                _TABLE.c.investigation_flag,
+                has_unknown,
+                func.count().label("contexts"),
+            )
+            .where(*where)
+            .group_by(
+                _TABLE.c.tier, _POLICY_STATUS, _TABLE.c.investigation_flag, has_unknown
+            )
         )
-        .where(*where)
-        .group_by(_TABLE.c.tier, _POLICY_STATUS, _TABLE.c.investigation_flag, has_unknown)
-    ).mappings().all()
+        .mappings()
+        .all()
+    )
     return {
         "total": _sum(rows, "contexts"),
         "by_tier": _counts(RISK_TIERS, rows, "tier", "contexts"),
@@ -319,17 +376,22 @@ def list_assessments(
     offset: int,
 ) -> list[dict]:
     """One page of matching Usage Context assessments, ordered as ``GET /contexts`` orders
-    them, with their reason codes, unknown facts, matching events and Tool Candidates."""
+    them, with their reason codes, unknown facts, matching events and Tool Candidates.
+    """
     where = _context_where(scope, ai_statuses)
     if condition is not None:
         where.append(condition)
-    rows = connection.execute(
-        select(*(_TABLE.c[name] for name in _ASSESSMENT_COLUMNS))
-        .where(*where)
-        .order_by(_TIER_RANK, _TABLE.c.run_id, _TABLE.c.context_number)
-        .limit(limit)
-        .offset(offset)
-    ).mappings().all()
+    rows = (
+        connection.execute(
+            select(*(_TABLE.c[name] for name in _ASSESSMENT_COLUMNS))
+            .where(*where)
+            .order_by(_TIER_RANK, _TABLE.c.run_id, _TABLE.c.context_number)
+            .limit(limit)
+            .offset(offset)
+        )
+        .mappings()
+        .all()
+    )
     if not rows:
         return []
     keys = [(row["run_id"], row["context_number"]) for row in rows]
@@ -338,13 +400,19 @@ def list_assessments(
         (run_id, number): count
         for run_id, number, count in connection.execute(
             select(events.c.run_id, events.c.context_number, func.count())
-            .where(tuple_(events.c.run_id, events.c.context_number).in_(keys), *event_where)
+            .where(
+                tuple_(events.c.run_id, events.c.context_number).in_(keys), *event_where
+            )
             .group_by(events.c.run_id, events.c.context_number)
         )
     }
     candidates: dict[tuple[str, str], list[int]] = {}
     for run_id, tool_id, number in connection.execute(
-        select(tool_candidates.c.run_id, tool_candidates.c.tool_id, tool_candidates.c.candidate_number)
+        select(
+            tool_candidates.c.run_id,
+            tool_candidates.c.tool_id,
+            tool_candidates.c.candidate_number,
+        )
         .where(
             tuple_(tool_candidates.c.run_id, tool_candidates.c.tool_id).in_(
                 sorted({(row["run_id"], row["tool_id"]) for row in rows})
@@ -364,7 +432,10 @@ def list_assessments(
 
 
 def contains(
-    connection: Connection, scope: Scope, ai_statuses: Sequence[str], reference: RecordReference
+    connection: Connection,
+    scope: Scope,
+    ai_statuses: Sequence[str],
+    reference: RecordReference,
 ) -> bool:
     """Whether a record reference lies within the scope: its event, Usage Context or Tool
     Candidate (by number, captured domain or metadata row) has matching activity."""
@@ -405,14 +476,21 @@ def contains(
             )
         case _:
             raise TypeError(reference)
-    return connection.execute(select(literal(1)).select_from(source).where(*where).limit(1)).first() is not None
+    return (
+        connection.execute(
+            select(literal(1)).select_from(source).where(*where).limit(1)
+        ).first()
+        is not None
+    )
 
 
 def _sum(rows, key: str) -> int:
     return sum(row[key] or 0 for row in rows)
 
 
-def _counts(keys: Sequence[str], rows, by: str, count: str = "events") -> dict[str, int]:
+def _counts(
+    keys: Sequence[str], rows, by: str, count: str = "events"
+) -> dict[str, int]:
     """Counts by ``by`` with every expected key present; an unexpected value is kept."""
     counts = dict.fromkeys(keys, 0)
     for row in rows:
