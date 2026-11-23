@@ -1,15 +1,26 @@
 import re
 from dataclasses import asdict
-from typing import Literal
+from typing import Annotated, Literal
 
-from fastapi import APIRouter, Request
+from fastapi import APIRouter, Query, Request
 from pydantic import BaseModel
 
-from app.applications import ApplicationSummary, get_application
+from app.api.pagination import PageParams
+from app.api.scope import NonEmpty, ReadScope, ScopedPage, ScopeOut
+from app.applications import (
+    INVENTORY_DEFINITIONS,
+    ApplicationSummary,
+    get_application,
+    list_applications,
+)
 from app.errors import AppError
+from app.overview import AI_DETERMINATIONS, IDENTITY_OUTCOMES
 from app.runs import get_run
 
-router = APIRouter(prefix="/runs", tags=["applications"])
+router = APIRouter(tags=["applications"])
+
+AiDetermination = Literal[AI_DETERMINATIONS]
+IdentityOutcome = Literal[IDENTITY_OUTCOMES]
 
 _CANDIDATE_NUMBER = re.compile(r"[1-9][0-9]{0,8}")
 
@@ -37,6 +48,60 @@ class ApplicationSummaryOut(BaseModel):
     @classmethod
     def of(cls, summary: ApplicationSummary) -> "ApplicationSummaryOut":
         return cls(**asdict(summary))
+
+
+class ApplicationOut(ApplicationSummaryOut):
+    """One inventory row; its run_id, subject_kind and subject_id open the Run-pinned detail."""
+
+    batch_id: str
+    matching_events: int
+    matching_context_numbers: list[int]
+
+
+class InventoryFiltersOut(BaseModel):
+    """The inventory-only filters as requested; the shared ones are in ``scope.filters``."""
+
+    ai_determinations: list[str]
+    identity_outcomes: list[str]
+    application: str | None
+
+
+class ApplicationPage(ScopedPage[ApplicationOut]):
+    inventory_filters: InventoryFiltersOut
+
+
+@router.get("/applications")
+def read_applications(
+    request: Request,
+    scope: ReadScope,
+    page: PageParams,
+    ai_determinations: Annotated[list[AiDetermination], Query()] = [],
+    identity_outcomes: Annotated[list[IdentityOutcome], Query()] = [],
+    application: NonEmpty | None = None,
+) -> ApplicationPage:
+    with request.app.state.engine.connect() as connection:
+        rows, total = list_applications(
+            connection,
+            scope,
+            page.limit,
+            page.offset,
+            ai_determinations,
+            identity_outcomes,
+            application,
+        )
+        scope_out = ScopeOut.load(connection, scope, INVENTORY_DEFINITIONS)
+    return ApplicationPage(
+        items=[ApplicationOut(**row) for row in rows],
+        total=total,
+        limit=page.limit,
+        offset=page.offset,
+        scope=scope_out,
+        inventory_filters=InventoryFiltersOut(
+            ai_determinations=ai_determinations,
+            identity_outcomes=identity_outcomes,
+            application=application,
+        ),
+    )
 
 
 class IdentityOut(BaseModel):
@@ -157,7 +222,7 @@ class ApplicationDetailOut(BaseModel):
     risk: RiskOut
 
 
-@router.get("/{run_id}/applications/{subject_kind}/{subject_id}")
+@router.get("/runs/{run_id}/applications/{subject_kind}/{subject_id}")
 def read_application(
     request: Request,
     run_id: str,

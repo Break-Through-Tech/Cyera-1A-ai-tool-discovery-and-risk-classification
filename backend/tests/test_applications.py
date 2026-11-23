@@ -19,7 +19,7 @@ def analyzed(data_dir, http=None):
 
 def summaries_of(client, run_id):
     with client.app.state.engine.connect() as connection:
-        return list_application_summaries(connection, run_id)
+        return list_application_summaries(connection, [run_id])
 
 
 def subject_named(client, run_id, name):
