@@ -62,7 +62,11 @@ immutable; persistence must serialize snapshots rather than retain mutable alias
 
 Three evidence types retain different authority:
 
-- `RecordEvidence`: Batch-qualified producing Run plus record type and ID.
+- `RecordEvidence`: Batch-qualified producing Run plus record type and ID. Record
+  types are those `app.evidence` resolves: `activity_event`, `usage_context`,
+  `analysis_run`, `ai_evidence_sentence`, `website_capture`, `tool_metadata`, and
+  `category_neighbor`. `record_reference` in `app/evidence.py` documents each
+  `record_id` encoding.
 - `AggregateEvidence`: full scope, reproducible backend query specification,
   metric definitions, and a drilldown reference. The query is not executable SQL.
 - `PassageEvidence`: corpus/document versions, passage ID, exact excerpt, and
