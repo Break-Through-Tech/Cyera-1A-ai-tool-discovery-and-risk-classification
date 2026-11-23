@@ -1,5 +1,6 @@
 import pytest
 
+from app.ingestion.activity import parse_activity
 from tests.test_batches import upload
 
 HEADER = (
@@ -136,3 +137,101 @@ def test_duplicate_event_id_is_reported_against_its_first_line(client):
             }
         ],
     )
+
+
+def test_header_names_match_ignoring_surrounding_whitespace_and_case():
+    header = HEADER.replace("timestamp", " Timestamp").replace(",domain", ",DOMAIN ")
+
+    (event,) = parse_activity(csv_bytes(VALID_ROW, header=header))
+
+    assert event["occurred_at"] == "2026-09-15T07:39:00Z"
+    assert event["domain"] == "cursor.so"
+
+
+def test_values_are_trimmed_but_otherwise_kept_as_supplied():
+    (event,) = parse_activity(
+        csv_bytes(
+            " evt_1 , 2026-09-15T07:39:00Z ,emp_1, Engineering ,Engineer,"
+            " ChatGPT  Plus ,  Cursor.SO ,app_open,  ,\t"
+        )
+    )
+
+    assert event == {
+        "event_id": "evt_1",
+        "occurred_at": "2026-09-15T07:39:00Z",
+        "employee_id": "emp_1",
+        "department": "Engineering",
+        "application_name": "ChatGPT  Plus",
+        "domain": "Cursor.SO",
+        "job_role": "Engineer",
+        "event_type": "app_open",
+        "usage_purpose": None,
+        "data_sensitivity_tier": None,
+    }
+
+
+def test_normalization_never_rewrites_the_stored_upload(client, data_dir):
+    content = csv_bytes(
+        " evt_1 , 2026-09-15T07:39:00Z ,emp_1,Engineering,,Cursor,cursor.so,,,"
+    )
+
+    response = upload(client, content)
+
+    assert response.status_code == 201
+    batch = response.json()
+    assert batch["activity_period"]["start"] == "2026-09-15T07:39:00Z"
+    assert (data_dir / "uploads" / f"{batch['sha256']}.csv").read_bytes() == content
+    assert upload(client, content).status_code == 200
+
+
+def test_whitespace_only_required_value_is_missing(client):
+    assert_rejected(
+        client,
+        csv_bytes("evt_1,2026-09-15T07:39:00Z,emp_1,   ,,Cursor,cursor.so,,,"),
+        [{"line": 2, "field": "department", "problem": "missing_value"}],
+    )
+
+
+def test_event_ids_differing_only_by_padding_are_duplicates(client):
+    content = csv_bytes(
+        VALID_ROW,
+        " evt_1,2026-09-15T09:00:00Z,emp_3,Sales,,Slack,slack.com,,,",
+    )
+
+    assert_rejected(
+        client,
+        content,
+        [
+            {
+                "line": 3,
+                "field": "event_id",
+                "problem": "duplicate_event_id",
+                "first_line": 2,
+            }
+        ],
+    )
+
+
+def test_duplicate_column_is_reported_once_on_the_header(client):
+    header = HEADER.replace("job_role", "Domain")
+
+    assert_rejected(
+        client,
+        csv_bytes(VALID_ROW, VALID_ROW.replace("evt_1", "evt_2"), header=header),
+        [{"line": 1, "field": "domain", "problem": "duplicate_column"}],
+    )
+
+
+def test_unparseable_csv_is_rejected_by_location_without_echoing_input(client):
+    oversized = "secret" * 30_000
+    content = csv_bytes(
+        VALID_ROW,
+        f"evt_2,2026-09-15T08:00:00Z,emp_2,Support,,{oversized},slack.com,,,",
+    )
+
+    assert_rejected(
+        client,
+        content,
+        [{"line": 3, "field": None, "problem": "malformed_csv"}],
+    )
+    assert client.get("/batches").json()["total"] == 0
