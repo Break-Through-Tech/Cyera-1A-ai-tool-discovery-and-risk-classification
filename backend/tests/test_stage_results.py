@@ -105,17 +105,19 @@ def test_unresolved_and_non_ai_candidates_are_kept_without_a_risk_tier(data_dir)
     [
         ("known_tool", "ai", ()),
         ("observed_tool", "ai", ()),
-        ("known_tool", "non_ai", ("not_ai",)),
-        ("observed_tool", "unresolved", ("ai_unresolved",)),
+        ("known_tool", "non_ai", ("ai_determination_non_ai",)),
+        ("observed_tool", "unresolved", ("ai_determination_unresolved",)),
         ("unresolved_candidate", "ai", ("identity_unresolved",)),
-        ("unresolved_candidate", "non_ai", ("identity_unresolved", "not_ai")),
-        ("unresolved_candidate", "unresolved", ("identity_unresolved", "ai_unresolved")),
+        ("unresolved_candidate", "non_ai", ("identity_unresolved", "ai_determination_non_ai")),
+        (
+            "unresolved_candidate",
+            "unresolved",
+            ("identity_unresolved", "ai_determination_unresolved"),
+        ),
     ],
 )
 def test_no_risk_tier_reasons_follow_the_assessment_rule(outcome, determination, reasons):
-    candidate = {"outcome": outcome, "ai": {"determination": determination}}
-
-    assert no_risk_tier_reasons(candidate) == reasons
+    assert no_risk_tier_reasons(outcome, determination) == reasons
 
 
 def test_ai_determinations_keep_their_evidence_fields(data_dir):

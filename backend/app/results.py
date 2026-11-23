@@ -116,20 +116,17 @@ def save_stage_results(
         )
 
 
-def no_risk_tier_reasons(candidate: Mapping) -> tuple[str, ...]:
-    """Why a saved Tool Candidate got no Usage Context assessment; empty if it got one.
+def no_risk_tier_reasons(identity_outcome: str, ai_determination: str) -> tuple[str, ...]:
+    """Why a Tool Candidate or application got no Usage Context, so no risk tier; empty if it did.
 
     Mirrors ``assess_usage_contexts``: only a resolved Tool that AI Determination called AI
-    is assessed. ``candidate`` is a ``list_candidates`` item.
+    is assessed. Spelled as the inapplicable Category Classification reasons are stored.
     """
     reasons = []
-    if candidate["outcome"] not in RESOLVED_OUTCOMES:
+    if identity_outcome not in RESOLVED_OUTCOMES:
         reasons.append("identity_unresolved")
-    determination = candidate["ai"]["determination"]
-    if determination == "non_ai":
-        reasons.append("not_ai")
-    elif determination != "ai":
-        reasons.append("ai_unresolved")
+    if ai_determination != "ai":
+        reasons.append(f"ai_determination_{ai_determination}")
     return tuple(reasons)
 
 
@@ -152,7 +149,9 @@ def list_candidates(connection: Connection, run_id: str) -> list[dict]:
         for row in candidates
     ]
     for candidate in saved:
-        candidate["no_risk_tier_reasons"] = list(no_risk_tier_reasons(candidate))
+        candidate["no_risk_tier_reasons"] = list(
+            no_risk_tier_reasons(candidate["outcome"], candidate["ai"]["determination"])
+        )
     return saved
 
 
