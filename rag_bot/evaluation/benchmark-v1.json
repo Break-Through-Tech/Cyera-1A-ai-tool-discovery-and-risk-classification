@@ -1,0 +1,1182 @@
+{
+  "version": "docs-retrieval-v1",
+  "corpus_profile": "docs_only",
+  "corpus_version": "53587d6c740d90b7f5cd0b8daff15d1a0ddc8b745629f48735bf503f84bee7d7",
+  "questions": [
+    {
+      "id": "DOC-001",
+      "text": "What is a Tool Candidate?",
+      "category": "definition",
+      "partition": "calibration",
+      "family": "candidate",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "daaa5efada9a909ccb56": 2,
+        "fe158e0805dd399772a8": 1
+      },
+      "evidence_groups": [],
+      "rationale": "Language defines the grouping of unresolved identity clues."
+    },
+    {
+      "id": "DOC-002",
+      "text": "What is the difference between an AI Tool and an AI Mention?",
+      "category": "definition",
+      "partition": "calibration",
+      "family": "ai-status",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 2,
+        "b4c3d5ebca75943d": 2
+      },
+      "chunks": {
+        "84de396edf39d7aedc9f": 2,
+        "fe158e0805dd399772a8": 1,
+        "f68117bd5f34dd4410a7": 2
+      },
+      "evidence_groups": [],
+      "rationale": "Language and ADR 0001 explain the functionality versus mention distinction."
+    },
+    {
+      "id": "DOC-003",
+      "text": "What is an Activity Event?",
+      "category": "definition",
+      "partition": "calibration",
+      "family": "activity",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "f26d1501020a3997": 1,
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "daaa5efada9a909ccb56": 2,
+        "57d0d3ab49b5b380cfcc": 1
+      },
+      "evidence_groups": [],
+      "rationale": "Language defines the normalized activity record."
+    },
+    {
+      "id": "DOC-004",
+      "text": "What does Category describe in this project?",
+      "category": "definition",
+      "partition": "calibration",
+      "family": "category",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "fe158e0805dd399772a8": 2,
+        "39dc057eb25718d30d7f": 1
+      },
+      "evidence_groups": [],
+      "rationale": "Language defines the 14 business-function labels."
+    },
+    {
+      "id": "DOC-005",
+      "text": "What is a Batch?",
+      "category": "definition",
+      "partition": "calibration",
+      "family": "batch",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "f26d1501020a3997": 1,
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "94c8a41d9c16885f1064": 2,
+        "57d0d3ab49b5b380cfcc": 1
+      },
+      "evidence_groups": [],
+      "rationale": "Language defines an immutable activity upload."
+    },
+    {
+      "id": "DOC-006",
+      "text": "What is a Data Sensitivity Tier?",
+      "category": "definition",
+      "partition": "calibration",
+      "family": "sensitivity",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "94c8a41d9c16885f1064": 2,
+        "aecfd1e47a0a0f21965e": 1
+      },
+      "evidence_groups": [],
+      "rationale": "Language defines supplied or synthetic sensitivity and the unknown state."
+    },
+    {
+      "id": "DOC-007",
+      "text": "What is Evidence in the project glossary?",
+      "category": "definition",
+      "partition": "calibration",
+      "family": "evidence",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "f26d1501020a3997": 1,
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "48d6c79baf79f688c1f3": 2,
+        "57d0d3ab49b5b380cfcc": 1
+      },
+      "evidence_groups": [],
+      "rationale": "Language defines provenance, versions, and source roles."
+    },
+    {
+      "id": "DOC-008",
+      "text": "What is an Analysis Run?",
+      "category": "definition",
+      "partition": "held_out",
+      "family": "run",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "f26d1501020a3997": 1,
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "94c8a41d9c16885f1064": 2,
+        "57d0d3ab49b5b380cfcc": 1
+      },
+      "evidence_groups": [],
+      "rationale": "Language defines a versioned execution against one Batch."
+    },
+    {
+      "id": "DOC-009",
+      "text": "What is a Semantic Neighbor?",
+      "category": "definition",
+      "partition": "held_out",
+      "family": "neighbor",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "fe158e0805dd399772a8": 1,
+        "39dc057eb25718d30d7f": 2
+      },
+      "evidence_groups": [],
+      "rationale": "Language defines a versioned similarity result and its authority."
+    },
+    {
+      "id": "DOC-010",
+      "text": "What is Policy Status?",
+      "category": "definition",
+      "partition": "held_out",
+      "family": "policy-status",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "81d23c07eb2d07f9": 1,
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "aecfd1e47a0a0f21965e": 2,
+        "5f8bb8426a1b12d3ed7f": 1
+      },
+      "evidence_groups": [],
+      "rationale": "Language defines supplied disposition and the unknown state."
+    },
+    {
+      "id": "DOC-011",
+      "text": "What does Abstention mean?",
+      "category": "definition",
+      "partition": "held_out",
+      "family": "abstention",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "cd28541fb0d21f02": 1,
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "39dc057eb25718d30d7f": 2,
+        "458ba390bd07c1e4eb39": 1,
+        "4cb45e8a1fafb7e12a1b": 1
+      },
+      "evidence_groups": [],
+      "rationale": "Language defines a successful unresolved outcome."
+    },
+    {
+      "id": "DOC-012",
+      "text": "What is a Previously Unseen Tool?",
+      "category": "definition",
+      "partition": "held_out",
+      "family": "unseen",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "cd28541fb0d21f02": 1,
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "daaa5efada9a909ccb56": 2,
+        "c4cfee566cdb8072be45": 1
+      },
+      "evidence_groups": [],
+      "rationale": "Language defines absence from reference and development evidence at a cutoff."
+    },
+    {
+      "id": "DOC-013",
+      "text": "How do we identify potentially unknown software applications?",
+      "category": "paraphrase",
+      "partition": "calibration",
+      "family": "candidate",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "84de396edf39d7aedc9f": 1,
+        "daaa5efada9a909ccb56": 2,
+        "fe158e0805dd399772a8": 2
+      },
+      "evidence_groups": [],
+      "rationale": "Candidate grouping and Identity Resolution give the supported conceptual process."
+    },
+    {
+      "id": "DOC-014",
+      "text": "How do uncertain observations get grouped before software identity is resolved?",
+      "category": "paraphrase",
+      "partition": "calibration",
+      "family": "candidate",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 2,
+        "81d23c07eb2d07f9": 1
+      },
+      "chunks": {
+        "daaa5efada9a909ccb56": 2,
+        "fe158e0805dd399772a8": 1,
+        "5f8bb8426a1b12d3ed7f": 1
+      },
+      "evidence_groups": [],
+      "rationale": "The candidate definition describes grouping clues before resolution."
+    },
+    {
+      "id": "DOC-015",
+      "text": "Can an AI marketing claim alone establish what software actually does?",
+      "category": "paraphrase",
+      "partition": "calibration",
+      "family": "ai-status",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 2,
+        "b4c3d5ebca75943d": 2
+      },
+      "chunks": {
+        "84de396edf39d7aedc9f": 2,
+        "fe158e0805dd399772a8": 1,
+        "f68117bd5f34dd4410a7": 2
+      },
+      "evidence_groups": [],
+      "rationale": "The glossary and ADR distinguish vague marketing from actual functionality."
+    },
+    {
+      "id": "DOC-016",
+      "text": "What can I conclude just from observing an application event?",
+      "category": "paraphrase",
+      "partition": "calibration",
+      "family": "activity",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "f26d1501020a3997": 1,
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "daaa5efada9a909ccb56": 2,
+        "d039e9c4b17d91a10f80": 1
+      },
+      "evidence_groups": [],
+      "rationale": "Language identifies the observation's limits and provenance gives an example."
+    },
+    {
+      "id": "DOC-017",
+      "text": "Is the business function label the reason a particular team uses an app?",
+      "category": "paraphrase",
+      "partition": "calibration",
+      "family": "category",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "fe158e0805dd399772a8": 2,
+        "94c8a41d9c16885f1064": 2,
+        "aecfd1e47a0a0f21965e": 1
+      },
+      "evidence_groups": [],
+      "rationale": "The category definition and Usage Purpose definition distinguish these concepts."
+    },
+    {
+      "id": "DOC-018",
+      "text": "If we rerun an upload, does the original upload change?",
+      "category": "paraphrase",
+      "partition": "calibration",
+      "family": "batch",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "f26d1501020a3997": 1,
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "94c8a41d9c16885f1064": 2,
+        "57d0d3ab49b5b380cfcc": 1
+      },
+      "evidence_groups": [],
+      "rationale": "The Batch is immutable and distinct from its Runs."
+    },
+    {
+      "id": "DOC-019",
+      "text": "Can the system read submitted content to decide how sensitive it was?",
+      "category": "paraphrase",
+      "partition": "calibration",
+      "family": "sensitivity",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "81d23c07eb2d07f9": 1,
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "94c8a41d9c16885f1064": 2,
+        "d6bac100c93cae898f51": 1
+      },
+      "evidence_groups": [],
+      "rationale": "The definition says sensitivity is supplied and the prototype does not inspect content."
+    },
+    {
+      "id": "DOC-020",
+      "text": "What do we call one execution of discovery and risk rules on a previously uploaded file?",
+      "category": "paraphrase",
+      "partition": "held_out",
+      "family": "run",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "f26d1501020a3997": 1,
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "94c8a41d9c16885f1064": 2,
+        "57d0d3ab49b5b380cfcc": 1
+      },
+      "evidence_groups": [],
+      "rationale": "The Analysis Run definition describes one execution against the Batch."
+    },
+    {
+      "id": "DOC-021",
+      "text": "Does a close look-alike in the catalog prove which product we observed?",
+      "category": "paraphrase",
+      "partition": "held_out",
+      "family": "neighbor",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "fe158e0805dd399772a8": 1,
+        "39dc057eb25718d30d7f": 2
+      },
+      "evidence_groups": [],
+      "rationale": "The Semantic Neighbor definition denies identity authority."
+    },
+    {
+      "id": "DOC-022",
+      "text": "Does a risk engine itself decide whether the company approves the tool?",
+      "category": "paraphrase",
+      "partition": "held_out",
+      "family": "policy-status",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "81d23c07eb2d07f9": 1,
+        "cd28541fb0d21f02": 1,
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "aecfd1e47a0a0f21965e": 2,
+        "5f8bb8426a1b12d3ed7f": 1,
+        "c41d55992bdf5ff1c9d4": 1
+      },
+      "evidence_groups": [],
+      "rationale": "Policy Status is supplied and the risk engine consumes it."
+    },
+    {
+      "id": "DOC-023",
+      "text": "If a stage runs successfully but still cannot determine an outcome, did the pipeline fail?",
+      "category": "paraphrase",
+      "partition": "held_out",
+      "family": "abstention",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "cd28541fb0d21f02": 1,
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "39dc057eb25718d30d7f": 2,
+        "4cb45e8a1fafb7e12a1b": 1
+      },
+      "evidence_groups": [],
+      "rationale": "The Abstention definition distinguishes unresolved results from execution failure."
+    },
+    {
+      "id": "DOC-024",
+      "text": "Does new activity by itself prove software was absent from the reference and training evidence?",
+      "category": "paraphrase",
+      "partition": "held_out",
+      "family": "unseen",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 2,
+        "cd28541fb0d21f02": 2
+      },
+      "chunks": {
+        "daaa5efada9a909ccb56": 2,
+        "fe158e0805dd399772a8": 1,
+        "c4cfee566cdb8072be45": 2
+      },
+      "evidence_groups": [],
+      "rationale": "The unseen definition and ambiguity rules separate new observation from absence at cutoff."
+    },
+    {
+      "id": "DOC-025",
+      "text": "How is contextual risk evaluated?",
+      "category": "risk_policy",
+      "partition": "calibration",
+      "family": "risk-unit",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "81d23c07eb2d07f9": 2,
+        "c44b2b41dea183af": 2,
+        "482f217f66a4a111": 2
+      },
+      "chunks": {
+        "aecfd1e47a0a0f21965e": 2,
+        "5c98e73f349d2138d059": 2,
+        "5f8bb8426a1b12d3ed7f": 2,
+        "d6bac100c93cae898f51": 2,
+        "fdeef0ca9a3cafdc4f87": 1
+      },
+      "evidence_groups": [],
+      "rationale": "The glossary, assessment unit, and contract give context and rubric; these are direct components."
+    },
+    {
+      "id": "DOC-026",
+      "text": "Can the same Tool have different contextual risk assessments?",
+      "category": "risk_policy",
+      "partition": "calibration",
+      "family": "risk-unit",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 1,
+        "81d23c07eb2d07f9": 1,
+        "482f217f66a4a111": 2
+      },
+      "chunks": {
+        "aecfd1e47a0a0f21965e": 1,
+        "5c98e73f349d2138d059": 2,
+        "d6bac100c93cae898f51": 1
+      },
+      "evidence_groups": [],
+      "rationale": "The assessment-unit section explicitly permits different assessments."
+    },
+    {
+      "id": "DOC-027",
+      "text": "Does visiting an application prove confidential information was submitted?",
+      "category": "risk_policy",
+      "partition": "calibration",
+      "family": "submission",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 1,
+        "cd28541fb0d21f02": 1,
+        "81d23c07eb2d07f9": 2,
+        "f26d1501020a3997": 2
+      },
+      "chunks": {
+        "daaa5efada9a909ccb56": 1,
+        "d6bac100c93cae898f51": 2,
+        "d039e9c4b17d91a10f80": 2,
+        "458ba390bd07c1e4eb39": 1
+      },
+      "evidence_groups": [],
+      "rationale": "The rubric and provenance explicitly say observation does not prove submission."
+    },
+    {
+      "id": "DOC-028",
+      "text": "What qualifies for the synthetic demo High tier?",
+      "category": "risk_policy",
+      "partition": "calibration",
+      "family": "risk-rubric",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "81d23c07eb2d07f9": 2
+      },
+      "chunks": {
+        "5f8bb8426a1b12d3ed7f": 1,
+        "d6bac100c93cae898f51": 2,
+        "fdeef0ca9a3cafdc4f87": 1
+      },
+      "evidence_groups": [],
+      "rationale": "The rule lists observed activity, lack of approval, and training permission."
+    },
+    {
+      "id": "DOC-029",
+      "text": "What happens when every rubric fact is unknown?",
+      "category": "risk_policy",
+      "partition": "calibration",
+      "family": "risk-rubric",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "81d23c07eb2d07f9": 2
+      },
+      "chunks": {
+        "5f8bb8426a1b12d3ed7f": 1,
+        "d6bac100c93cae898f51": 2,
+        "fdeef0ca9a3cafdc4f87": 1
+      },
+      "evidence_groups": [],
+      "rationale": "The rubric explicitly leaves the outcome unresolved."
+    },
+    {
+      "id": "DOC-030",
+      "text": "Can assistant recommendations change a stored risk tier?",
+      "category": "risk_policy",
+      "partition": "calibration",
+      "family": "advice",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 1,
+        "cd28541fb0d21f02": 2
+      },
+      "chunks": {
+        "aecfd1e47a0a0f21965e": 1,
+        "c41d55992bdf5ff1c9d4": 2,
+        "324ba4e76269b5ad98a4": 2
+      },
+      "evidence_groups": [],
+      "rationale": "The advisory and evidence rules forbid changing the tier or stored assessment."
+    },
+    {
+      "id": "DOC-031",
+      "text": "Does missing approval count as unapproved?",
+      "category": "risk_policy",
+      "partition": "held_out",
+      "family": "false-unknown",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 1,
+        "81d23c07eb2d07f9": 2,
+        "cd28541fb0d21f02": 2
+      },
+      "chunks": {
+        "aecfd1e47a0a0f21965e": 1,
+        "5f8bb8426a1b12d3ed7f": 2,
+        "d6bac100c93cae898f51": 1,
+        "c4cfee566cdb8072be45": 2
+      },
+      "evidence_groups": [],
+      "rationale": "The rubric and ambiguity rule distinguish missing from negative."
+    },
+    {
+      "id": "DOC-032",
+      "text": "Does an unknown SSO setting by itself trigger an investigation flag?",
+      "category": "risk_policy",
+      "partition": "held_out",
+      "family": "investigation",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "81d23c07eb2d07f9": 2
+      },
+      "chunks": {
+        "5f8bb8426a1b12d3ed7f": 1,
+        "d6bac100c93cae898f51": 2
+      },
+      "evidence_groups": [],
+      "rationale": "The investigation flag rule explicitly excludes SSO unknown by itself."
+    },
+    {
+      "id": "DOC-033",
+      "text": "Is an unresolved AI determination eligible for a contextual risk tier?",
+      "category": "risk_policy",
+      "partition": "held_out",
+      "family": "eligibility",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 1,
+        "482f217f66a4a111": 1,
+        "81d23c07eb2d07f9": 2
+      },
+      "chunks": {
+        "aecfd1e47a0a0f21965e": 1,
+        "5c98e73f349d2138d059": 1,
+        "5f8bb8426a1b12d3ed7f": 2
+      },
+      "evidence_groups": [],
+      "rationale": "The risk contract excludes unresolved AI or identity."
+    },
+    {
+      "id": "DOC-034",
+      "text": "Can the pilot risk tier be interpreted as a compliance determination?",
+      "category": "risk_policy",
+      "partition": "held_out",
+      "family": "certification",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "cd28541fb0d21f02": 1,
+        "81d23c07eb2d07f9": 2,
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "aecfd1e47a0a0f21965e": 2,
+        "fdeef0ca9a3cafdc4f87": 2,
+        "c41d55992bdf5ff1c9d4": 1
+      },
+      "evidence_groups": [],
+      "rationale": "Both the rubric caveat and glossary distinguish risk from compliance."
+    },
+    {
+      "id": "DOC-035",
+      "text": "Can an unresolved candidate receive candidate-scoped classification, and can it get a contextual risk tier?",
+      "category": "multi_evidence",
+      "partition": "calibration",
+      "family": "candidate-risk",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 2,
+        "81d23c07eb2d07f9": 2
+      },
+      "chunks": {
+        "daaa5efada9a909ccb56": 2,
+        "fe158e0805dd399772a8": 1,
+        "aecfd1e47a0a0f21965e": 1,
+        "5f8bb8426a1b12d3ed7f": 2
+      },
+      "evidence_groups": [
+        [
+          "daaa5efada9a909ccb56"
+        ],
+        [
+          "5f8bb8426a1b12d3ed7f"
+        ]
+      ],
+      "rationale": "Candidate classification and risk eligibility require different excerpts."
+    },
+    {
+      "id": "DOC-036",
+      "text": "Which Runs should new general questions use, and how are older citations preserved?",
+      "category": "multi_evidence",
+      "partition": "calibration",
+      "family": "citation-freshness",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "cd28541fb0d21f02": 2,
+        "f26d1501020a3997": 2
+      },
+      "chunks": {
+        "d039e9c4b17d91a10f80": 2,
+        "c4cfee566cdb8072be45": 2,
+        "324ba4e76269b5ad98a4": 1
+      },
+      "evidence_groups": [
+        [
+          "c4cfee566cdb8072be45"
+        ],
+        [
+          "d039e9c4b17d91a10f80"
+        ]
+      ],
+      "rationale": "Freshness selection plus immutable cited Run references are needed."
+    },
+    {
+      "id": "DOC-037",
+      "text": "Who supplies sensitivity, and how does it enter the actual risk assessment grouping?",
+      "category": "multi_evidence",
+      "partition": "calibration",
+      "family": "sensitivity-risk",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 2,
+        "482f217f66a4a111": 2,
+        "81d23c07eb2d07f9": 2
+      },
+      "chunks": {
+        "94c8a41d9c16885f1064": 2,
+        "aecfd1e47a0a0f21965e": 1,
+        "5c98e73f349d2138d059": 2,
+        "5f8bb8426a1b12d3ed7f": 2
+      },
+      "evidence_groups": [
+        [
+          "94c8a41d9c16885f1064"
+        ],
+        [
+          "5c98e73f349d2138d059",
+          "5f8bb8426a1b12d3ed7f"
+        ]
+      ],
+      "rationale": "One excerpt defines where the input comes from; the other specifies the assessment unit."
+    },
+    {
+      "id": "DOC-038",
+      "text": "How should the assistant respond to thin evidence versus an execution failure?",
+      "category": "multi_evidence",
+      "partition": "calibration",
+      "family": "failure-evidence",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 1,
+        "cd28541fb0d21f02": 2
+      },
+      "chunks": {
+        "39dc057eb25718d30d7f": 1,
+        "458ba390bd07c1e4eb39": 2,
+        "4cb45e8a1fafb7e12a1b": 2
+      },
+      "evidence_groups": [
+        [
+          "458ba390bd07c1e4eb39"
+        ],
+        [
+          "4cb45e8a1fafb7e12a1b"
+        ]
+      ],
+      "rationale": "Insufficiency and service failures have distinct response rules."
+    },
+    {
+      "id": "DOC-039",
+      "text": "If a neighbor vote assigns a Category, can that vote settle identity, and what is the unit for risk?",
+      "category": "multi_evidence",
+      "partition": "held_out",
+      "family": "category-neighbor-risk",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 2,
+        "482f217f66a4a111": 2
+      },
+      "chunks": {
+        "fe158e0805dd399772a8": 1,
+        "39dc057eb25718d30d7f": 2,
+        "aecfd1e47a0a0f21965e": 2,
+        "5c98e73f349d2138d059": 2
+      },
+      "evidence_groups": [
+        [
+          "39dc057eb25718d30d7f"
+        ],
+        [
+          "5c98e73f349d2138d059",
+          "aecfd1e47a0a0f21965e"
+        ]
+      ],
+      "rationale": "Neighbor limits and the assessment unit are distinct evidence needs."
+    },
+    {
+      "id": "DOC-040",
+      "text": "Which operations should provide grouped counts and what must a cited aggregate retain?",
+      "category": "multi_evidence",
+      "partition": "held_out",
+      "family": "count-citation",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "f26d1501020a3997": 2,
+        "cd28541fb0d21f02": 2
+      },
+      "chunks": {
+        "57d0d3ab49b5b380cfcc": 1,
+        "d039e9c4b17d91a10f80": 2,
+        "c41d55992bdf5ff1c9d4": 2,
+        "324ba4e76269b5ad98a4": 2
+      },
+      "evidence_groups": [
+        [
+          "c41d55992bdf5ff1c9d4"
+        ],
+        [
+          "d039e9c4b17d91a10f80",
+          "324ba4e76269b5ad98a4"
+        ]
+      ],
+      "rationale": "Use bounded deterministic queries and traceable aggregate scope."
+    },
+    {
+      "id": "DOC-041",
+      "text": "Find passage c44b2b41dea183af.",
+      "category": "identifier",
+      "partition": "calibration",
+      "family": "id-language",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "84de396edf39d7aedc9f": 2,
+        "daaa5efada9a909ccb56": 2,
+        "fe158e0805dd399772a8": 2,
+        "39dc057eb25718d30d7f": 2,
+        "94c8a41d9c16885f1064": 2,
+        "aecfd1e47a0a0f21965e": 2,
+        "48d6c79baf79f688c1f3": 2
+      },
+      "evidence_groups": [],
+      "rationale": "The exact ID addresses the Language passage; any of its excerpts locates it."
+    },
+    {
+      "id": "DOC-042",
+      "text": "Show chunk daaa5efada9a909ccb56.",
+      "category": "identifier",
+      "partition": "calibration",
+      "family": "id-candidate",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "c44b2b41dea183af": 2
+      },
+      "chunks": {
+        "daaa5efada9a909ccb56": 2
+      },
+      "evidence_groups": [],
+      "rationale": "The exact ID addresses the candidate-definition excerpt."
+    },
+    {
+      "id": "DOC-043",
+      "text": "Locate passage 81d23c07eb2d07f9.",
+      "category": "identifier",
+      "partition": "calibration",
+      "family": "id-risk",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "81d23c07eb2d07f9": 2
+      },
+      "chunks": {
+        "5f8bb8426a1b12d3ed7f": 2,
+        "d6bac100c93cae898f51": 2,
+        "fdeef0ca9a3cafdc4f87": 2
+      },
+      "evidence_groups": [],
+      "rationale": "The exact ID addresses the initial contextual-risk contract."
+    },
+    {
+      "id": "DOC-044",
+      "text": "Retrieve chunk d039e9c4b17d91a10f80.",
+      "category": "identifier",
+      "partition": "held_out",
+      "family": "id-provenance",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "f26d1501020a3997": 2
+      },
+      "chunks": {
+        "d039e9c4b17d91a10f80": 2
+      },
+      "evidence_groups": [],
+      "rationale": "The exact ID addresses the provenance excerpt with pinned citations."
+    },
+    {
+      "id": "DOC-045",
+      "text": "Locate passage b4c3d5ebca75943d.",
+      "category": "identifier",
+      "partition": "held_out",
+      "family": "id-adr",
+      "answerability": "answerable",
+      "expected_behavior": "retrieve_direct",
+      "passages": {
+        "b4c3d5ebca75943d": 2
+      },
+      "chunks": {
+        "f68117bd5f34dd4410a7": 2
+      },
+      "evidence_groups": [],
+      "rationale": "The exact ID addresses the ADR 0001 decision passage."
+    },
+    {
+      "id": "DOC-046",
+      "text": "How do I bake a chocolate cake?",
+      "category": "out_of_domain",
+      "partition": "calibration",
+      "family": "cake",
+      "answerability": "out_of_domain",
+      "expected_behavior": "empty",
+      "passages": {},
+      "chunks": {},
+      "evidence_groups": [],
+      "rationale": "The corpus contains no recipe."
+    },
+    {
+      "id": "DOC-047",
+      "text": "How do I bake a chocolate cake for the governance committee?",
+      "category": "out_of_domain",
+      "partition": "calibration",
+      "family": "cake",
+      "answerability": "out_of_domain",
+      "expected_behavior": "empty",
+      "passages": {},
+      "chunks": {},
+      "evidence_groups": [],
+      "rationale": "Governance is incidental to the requested recipe."
+    },
+    {
+      "id": "DOC-048",
+      "text": "What bike tire pressure should I use for a risk assessment team outing?",
+      "category": "out_of_domain",
+      "partition": "calibration",
+      "family": "bicycle",
+      "answerability": "out_of_domain",
+      "expected_behavior": "empty",
+      "passages": {},
+      "chunks": {},
+      "evidence_groups": [],
+      "rationale": "Risk assessment is incidental to bicycle maintenance."
+    },
+    {
+      "id": "DOC-049",
+      "text": "How do I water an orchid using a tool from my kitchen?",
+      "category": "out_of_domain",
+      "partition": "calibration",
+      "family": "garden",
+      "answerability": "out_of_domain",
+      "expected_behavior": "empty",
+      "passages": {},
+      "chunks": {},
+      "evidence_groups": [],
+      "rationale": "Tool is incidental to plant care."
+    },
+    {
+      "id": "DOC-050",
+      "text": "What is the weather in Tokyo tomorrow?",
+      "category": "out_of_domain",
+      "partition": "calibration",
+      "family": "weather",
+      "answerability": "out_of_domain",
+      "expected_behavior": "empty",
+      "passages": {},
+      "chunks": {},
+      "evidence_groups": [],
+      "rationale": "No weather evidence exists."
+    },
+    {
+      "id": "DOC-051",
+      "text": "Which train should I take to visit the risk policy team next Friday?",
+      "category": "out_of_domain",
+      "partition": "held_out",
+      "family": "travel",
+      "answerability": "out_of_domain",
+      "expected_behavior": "empty",
+      "passages": {},
+      "chunks": {},
+      "evidence_groups": [],
+      "rationale": "Risk and policy are incidental to travel planning."
+    },
+    {
+      "id": "DOC-052",
+      "text": "How do I classify embroidery threads into color categories for my project?",
+      "category": "out_of_domain",
+      "partition": "held_out",
+      "family": "crafts",
+      "answerability": "out_of_domain",
+      "expected_behavior": "empty",
+      "passages": {},
+      "chunks": {},
+      "evidence_groups": [],
+      "rationale": "Classification is incidental to a crafts question."
+    },
+    {
+      "id": "DOC-053",
+      "text": "How long should I roast vegetables for a department lunch?",
+      "category": "out_of_domain",
+      "partition": "held_out",
+      "family": "cooking",
+      "answerability": "out_of_domain",
+      "expected_behavior": "empty",
+      "passages": {},
+      "chunks": {},
+      "evidence_groups": [],
+      "rationale": "Department is incidental to cooking."
+    },
+    {
+      "id": "DOC-054",
+      "text": "What is the risk tier of a specific employee's ChatGPT usage?",
+      "category": "unsupported",
+      "partition": "calibration",
+      "family": "individual",
+      "answerability": "insufficient",
+      "expected_behavior": "context_only",
+      "passages": {
+        "c44b2b41dea183af": 1,
+        "482f217f66a4a111": 1,
+        "81d23c07eb2d07f9": 1
+      },
+      "chunks": {
+        "aecfd1e47a0a0f21965e": 1,
+        "5c98e73f349d2138d059": 1,
+        "5f8bb8426a1b12d3ed7f": 1,
+        "d6bac100c93cae898f51": 1
+      },
+      "evidence_groups": [],
+      "rationale": "Generic context and rules explain required facts; no employee or scoped assessment exists."
+    },
+    {
+      "id": "DOC-055",
+      "text": "How many AI-tool events did Finance have last month?",
+      "category": "unsupported",
+      "partition": "calibration",
+      "family": "missing-activity",
+      "answerability": "insufficient",
+      "expected_behavior": "context_only",
+      "passages": {
+        "f26d1501020a3997": 1,
+        "cd28541fb0d21f02": 1
+      },
+      "chunks": {
+        "d039e9c4b17d91a10f80": 1,
+        "c41d55992bdf5ff1c9d4": 1
+      },
+      "evidence_groups": [],
+      "rationale": "The corpus prescribes deterministic counts but contains no scoped event data."
+    },
+    {
+      "id": "DOC-056",
+      "text": "Did the organization approve Claude for sensitive customer data?",
+      "category": "unsupported",
+      "partition": "calibration",
+      "family": "missing-approval",
+      "answerability": "insufficient",
+      "expected_behavior": "context_only",
+      "passages": {
+        "c44b2b41dea183af": 1,
+        "81d23c07eb2d07f9": 1
+      },
+      "chunks": {
+        "94c8a41d9c16885f1064": 1,
+        "aecfd1e47a0a0f21965e": 1,
+        "5f8bb8426a1b12d3ed7f": 1
+      },
+      "evidence_groups": [],
+      "rationale": "Supplied policy and sensitivity rules are context; there is no organization decision."
+    },
+    {
+      "id": "DOC-057",
+      "text": "What is the current retention period in our vendor's contract?",
+      "category": "unsupported",
+      "partition": "calibration",
+      "family": "missing-retention",
+      "answerability": "insufficient",
+      "expected_behavior": "context_only",
+      "passages": {
+        "81d23c07eb2d07f9": 1,
+        "f26d1501020a3997": 1
+      },
+      "chunks": {
+        "5f8bb8426a1b12d3ed7f": 1,
+        "57d0d3ab49b5b380cfcc": 1,
+        "d039e9c4b17d91a10f80": 1
+      },
+      "evidence_groups": [],
+      "rationale": "Rules say applicability and sourced terms matter; no applicable contract is present."
+    },
+    {
+      "id": "DOC-058",
+      "text": "Which Analysis Run ID is the latest successful one for my Batch?",
+      "category": "unsupported",
+      "partition": "held_out",
+      "family": "missing-runs",
+      "answerability": "insufficient",
+      "expected_behavior": "context_only",
+      "passages": {
+        "c44b2b41dea183af": 1,
+        "f26d1501020a3997": 1,
+        "cd28541fb0d21f02": 1
+      },
+      "chunks": {
+        "94c8a41d9c16885f1064": 1,
+        "d039e9c4b17d91a10f80": 1,
+        "c4cfee566cdb8072be45": 1
+      },
+      "evidence_groups": [],
+      "rationale": "The corpus gives selection rules but has no Batch records."
+    },
+    {
+      "id": "DOC-059",
+      "text": "Are admin controls available for our specific Tool subscription today?",
+      "category": "unsupported",
+      "partition": "held_out",
+      "family": "missing-controls",
+      "answerability": "insufficient",
+      "expected_behavior": "context_only",
+      "passages": {
+        "81d23c07eb2d07f9": 1,
+        "f26d1501020a3997": 1
+      },
+      "chunks": {
+        "5f8bb8426a1b12d3ed7f": 1,
+        "d6bac100c93cae898f51": 1,
+        "d039e9c4b17d91a10f80": 1
+      },
+      "evidence_groups": [],
+      "rationale": "Rules and provenance frame applicability, but no subscription evidence is present."
+    },
+    {
+      "id": "DOC-060",
+      "text": "What percentage of all company employees used AI Tools yesterday?",
+      "category": "unsupported",
+      "partition": "held_out",
+      "family": "missing-counts",
+      "answerability": "insufficient",
+      "expected_behavior": "context_only",
+      "passages": {
+        "c44b2b41dea183af": 1,
+        "f26d1501020a3997": 1,
+        "cd28541fb0d21f02": 1
+      },
+      "chunks": {
+        "daaa5efada9a909ccb56": 1,
+        "d039e9c4b17d91a10f80": 1,
+        "c41d55992bdf5ff1c9d4": 1
+      },
+      "evidence_groups": [],
+      "rationale": "The corpus explains observation and exact queries but gives no population or counts."
+    }
+  ]
+}
